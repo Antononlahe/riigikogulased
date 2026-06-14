@@ -8,7 +8,17 @@
     "email": "yoko.alender@riigikogu.ee",
     "phone": "+372 6316000",
     "photo": {"uuid": "photo-0001", "fileName": "Alender.jpg"},
-    "plenaryMembership": {"membershipNumber": 15, "startDate": "2023-04-01", "endDate": null, "role": {"code": "LIIGE", "value": "liige"}},
+    "gender": "FEMALE",
+    "dateOfBirth": "1976-05-04",
+    "dateOfDeath": null,
+    "parliamentSeniority": 2500,
+    "plenaryMembership": {"membershipNumber": 15, "startDate": "2023-04-10", "endDate": null},
+    "electoralDistrictHistory": [
+      {"membership": 15, "electoralDistrict": {"code": "HARJU_JA_RAPLAMAA", "value": "Harju- ja Raplamaa"}}
+    ],
+    "committees": [
+      {"uuid": "c0000000-0000-4000-8000-000000000001", "name": "Keskkonnakomisjon", "type": {"code": "ALALINE_KOMISJON", "value": "alaline komisjon"}, "active": true, "membership": {"membershipNumber": 15, "startDate": "2023-04-10", "endDate": null, "role": {"code": "ESIMEES", "value": "esimees"}}}
+    ],
     "factions": [
       {"uuid": "re-0000", "name": "Eesti Reformierakonna fraktsioon", "active": true}
     ]

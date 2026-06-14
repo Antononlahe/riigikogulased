@@ -7,7 +7,7 @@ uses; A2 reads the same archived JSON for member enrichment).
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import date, datetime
 
 from pydantic import BaseModel, ConfigDict
 
@@ -19,6 +19,51 @@ class _Api(BaseModel):
 class CodeValue(_Api):
     code: str
     value: str | None = None
+
+
+class CommitteeMembership(_Api):
+    membershipNumber: int | None = None
+    startDate: date | None = None
+    endDate: date | None = None
+    role: CodeValue | None = None
+
+
+class Committee(_Api):
+    uuid: str
+    name: str
+    type: CodeValue
+    active: bool | None = None
+    membership: CommitteeMembership | None = None
+
+
+class DistrictRef(_Api):
+    code: str
+    value: str | None = None
+
+
+class DistrictHistory(_Api):
+    membership: int
+    electoralDistrict: DistrictRef
+
+
+class Sitting(_Api):
+    uuid: str
+    title: str | None = None
+    volumeType: str | None = None
+
+
+class RelatedDraft(_Api):
+    uuid: str
+    title: str | None = None
+    mark: int | str | None = None
+
+
+class Session(_Api):
+    membership: int
+    number: int
+    type: CodeValue
+    startDate: date
+    endDate: date | None = None
 
 
 class Faction(_Api):
@@ -52,6 +97,8 @@ class Voting(_Api):
     neutral: int | None = None
     abstained: int | None = None
     voters: list[Voter] = []
+    sitting: Sitting | None = None
+    relatedDraft: RelatedDraft | None = None
 
 
 class VotingSummary(_Api):
@@ -80,8 +127,8 @@ class Photo(_Api):
 
 class PlenaryMembership(_Api):
     membershipNumber: int | None = None
-    startDate: str | None = None
-    endDate: str | None = None
+    startDate: date | None = None
+    endDate: date | None = None
 
 
 class MemberFaction(_Api):
@@ -101,5 +148,11 @@ class PlenaryMember(_Api):
     email: str | None = None
     phone: str | None = None
     photo: Photo | None = None
+    gender: str | None = None
+    dateOfBirth: date | None = None
+    dateOfDeath: date | None = None
+    parliamentSeniority: int | None = None
     plenaryMembership: PlenaryMembership | None = None
+    committees: list[Committee] = []
+    electoralDistrictHistory: list[DistrictHistory] = []
     factions: list[MemberFaction] = []
