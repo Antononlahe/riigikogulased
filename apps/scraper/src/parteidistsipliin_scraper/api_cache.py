@@ -12,7 +12,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from parteidistsipliin_scraper.api_models import PlenaryMember, Voting
+from parteidistsipliin_scraper.api_models import PlenaryMember, Session, Voting
 
 CACHE_DIR = Path(__file__).resolve().parents[2] / "cache" / "api"
 
@@ -24,6 +24,7 @@ class ApiVoteCache:
         self.dir = directory or CACHE_DIR
         self.votings_file = self.dir / "votings.jsonl"
         self.members_file = self.dir / "plenary-members.json"
+        self.sessions_file = self.dir / "sessions.json"
         self._seen: set[str] = set()
         if self.votings_file.exists():
             for line in self.votings_file.read_text(encoding="utf-8").splitlines():
@@ -49,6 +50,18 @@ class ApiVoteCache:
         self.members_file.write_text(
             json.dumps(raw, ensure_ascii=False, indent=0), encoding="utf-8"
         )
+
+    def write_sessions(self, raw: list[dict]) -> None:
+        self.dir.mkdir(parents=True, exist_ok=True)
+        self.sessions_file.write_text(
+            json.dumps(raw, ensure_ascii=False, indent=0), encoding="utf-8"
+        )
+
+    def read_sessions(self) -> list[Session]:
+        if not self.sessions_file.exists():
+            return []
+        raw = json.loads(self.sessions_file.read_text(encoding="utf-8"))
+        return [Session.model_validate(s) for s in raw]
 
     def read_votings(self) -> list[Voting]:
         """Every cached voting as a Voting, sorted chronologically by startDateTime."""

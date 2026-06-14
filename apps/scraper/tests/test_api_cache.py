@@ -39,3 +39,15 @@ def test_write_members_roundtrip(tmp_path: Path):
     cache.write_members([{"uuid": "m-1", "fullName": "A", "factions": []}])
     members = ApiVoteCache(tmp_path).read_members()
     assert len(members) == 1 and members[0].fullName == "A"
+
+
+def test_sessions_roundtrip(tmp_path: Path):
+    cache = ApiVoteCache(tmp_path)
+    cache.write_sessions([
+        {"membership": 15, "number": 5, "type": {"code": "KORRALINE", "value": "Korraline"},
+         "startDate": "2025-01-13", "endDate": "2025-06-19"},
+    ])
+    sessions = ApiVoteCache(tmp_path).read_sessions()
+    assert len(sessions) == 1
+    assert sessions[0].number == 5
+    assert sessions[0].startDate.isoformat() == "2025-01-13"
