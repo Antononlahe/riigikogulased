@@ -174,10 +174,19 @@ def _applied_versions(conn: psycopg.Connection) -> set[str]:
 def apply_migrations(conn: psycopg.Connection, migrations_dir: Path | None = None) -> list[str]:
     """Apply every unapplied NNNN_*.sql in order; record each in schema_migrations.
 
-    Each migration file is responsible for its own BEGIN/COMMIT and for inserting its
-    own version row (idempotently). We additionally record the version here so a
-    hand-applied 0001 (which predates schema_migrations) gets backfilled by 0002.
+    Each migration file is responsible for its own BEGIN/COMMIT. We record each version
+    in schema_migrations here so the tracking table is the source of truth regardless of
+    whether a given file self-seeds it. The tracking table is created up front because the
+    earliest migrations (0001) predate it -- without this, applying 0001 on a database that
+    lacks the table would try to record into a relation only a later migration creates.
     """
+    conn.execute(
+        "CREATE TABLE IF NOT EXISTS schema_migrations ("
+        "  version TEXT PRIMARY KEY,"
+        "  applied_at TIMESTAMPTZ NOT NULL DEFAULT now()"
+        ")"
+    )
+    conn.commit()
     applied = _applied_versions(conn)
     ran: list[str] = []
     for path in pending_migrations(applied, migrations_dir):
