@@ -1,5 +1,2 @@
-from parteidistsipliin_scraper.parsers.members import parse_members
-from parteidistsipliin_scraper.parsers.vote_detail import parse_vote_detail
-from parteidistsipliin_scraper.parsers.vote_list import parse_vote_list
-
-__all__ = ["parse_vote_list", "parse_vote_detail", "parse_members"]
+# HTML parsers were removed in the v0.2 API cutover. This package is retained only as a
+# place to reintroduce a fallback parser if a concrete API data gap is ever found.
