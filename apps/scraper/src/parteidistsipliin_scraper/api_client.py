@@ -61,6 +61,20 @@ class ApiClient:
             resp.raise_for_status()
         raise RuntimeError(f"failed to fetch {url} after retries")
 
+    async def get_bytes(self, path: str) -> bytes:
+        """Fetch a binary file (e.g. a member photo). Same throttle/backoff as get_json."""
+        url = path if path.startswith("http") else f"{self.base_url}{path}"
+        for attempt in range(5):
+            await self._respect_delay()
+            resp = await self._client.get(url, headers={"Accept": "*/*"})
+            if resp.status_code == 200:
+                return resp.content
+            if resp.status_code in (429, 502, 503, 504):
+                await asyncio.sleep(2**attempt)
+                continue
+            resp.raise_for_status()
+        raise RuntimeError(f"failed to fetch {url} after retries")
+
     async def _respect_delay(self) -> None:
         elapsed = time.monotonic() - self._last_request_at
         if elapsed < self.delay_s:

@@ -45,3 +45,14 @@ async def test_throttle_spaces_requests():
         await client.get_json("/api/b")
         elapsed = time.monotonic() - t0
     assert elapsed >= 0.075  # second call waited ~80ms
+
+
+@pytest.mark.asyncio
+async def test_get_bytes_returns_raw_content():
+    def handler(request: httpx.Request) -> httpx.Response:
+        return httpx.Response(200, content=b"\x89PNGfake")
+
+    transport = httpx.MockTransport(handler)
+    async with ApiClient(delay_ms=0, transport=transport) as client:
+        data = await client.get_bytes("/api/files/abc/download")
+    assert data == b"\x89PNGfake"
