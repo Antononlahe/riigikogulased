@@ -1,0 +1,48 @@
+# dependencies
+node_modules/
+.pnpm-store/
+.pnp/
+.pnp.*
+
+# next.js
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# editor / os
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# scraper output
+apps/scraper/raw_html/
+apps/scraper/.cache/
+
+# vercel
+.vercel

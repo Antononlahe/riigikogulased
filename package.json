@@ -1,0 +1,22 @@
+{
+  "name": "parteidistsipliin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dashboard tracking Estonian Riigikogu members' voting discipline.",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "start": "pnpm --filter web start",
+    "lint": "pnpm --filter web lint",
+    "typecheck": "pnpm --filter web typecheck",
+    "test:web": "pnpm --filter web test",
+    "scrape": "cd apps/scraper && uv run parteidistsipliin-scraper",
+    "scrape:install": "cd apps/scraper && uv sync",
+    "scrape:test": "cd apps/scraper && uv run pytest",
+    "db:migrate": "psql \"$DATABASE_URL\" -f packages/db/migrations/0001_initial.sql"
+  },
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": ">=20"
+  }
+}
