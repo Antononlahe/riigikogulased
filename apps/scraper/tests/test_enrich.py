@@ -72,5 +72,19 @@ def test_member_fields_extraction():
     assert f.photo_url == photo_download_url("photo-0001")
 
 
+def test_minimal_member_tolerates_missing_committees_and_district():
+    # The second fixture member is intentionally minimal (no committees, no district
+    # history, no bio fields) to prove the transforms degrade to empty/None.
+    m = PlenaryMember.model_validate(
+        json.loads((FIX / "plenary_members.json").read_text(encoding="utf-8"))[1]
+    )
+    assert committee_terms(m) == []
+    assert district_terms(m) == []
+    f = member_fields(m)
+    assert f.date_of_birth is None
+    assert f.gender is None
+    assert f.seniority_days is None
+
+
 def test_photo_download_url_is_absolute():
     assert photo_download_url("abc").startswith("https://api.riigikogu.ee/api/files/abc")
