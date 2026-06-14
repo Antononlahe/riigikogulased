@@ -7,8 +7,9 @@ import typer
 from dotenv import load_dotenv
 
 from parteidistsipliin_scraper import db
+from parteidistsipliin_scraper.cache import VoteCache
 from parteidistsipliin_scraper.client import RiigikoguClient
-from parteidistsipliin_scraper.models import Ballot, MemberSummary, faction_to_party
+from parteidistsipliin_scraper.models import Ballot, MemberSummary, VoteDetail, faction_to_party
 from parteidistsipliin_scraper.parsers import parse_members, parse_vote_detail, parse_vote_list
 
 load_dotenv()
@@ -19,15 +20,22 @@ def _fmt_et(d: date) -> str:
     return d.strftime("%d.%m.%Y")
 
 
-async def _scrape_range(start: date, end: date) -> int:
+async def _scrape_range(start: date, end: date, *, cache_only: bool = False) -> int:
     # psycopg sync connection — fine here; the per-vote DB work is small compared
     # to the rate-limited httpx fetches.
+    cache = VoteCache()
+    if cache_only:
+        # Populate the on-disk cache from the network without touching the database.
+        async with RiigikoguClient() as client:
+            return await _scrape_into(client, None, start, end, cache, cache_only=True)
     with db.connect() as conn:
         async with RiigikoguClient() as client:
-            return await _scrape_into(client, conn, start, end)
+            return await _scrape_into(client, conn, start, end, cache)
 
 
-async def _scrape_into(client, conn, start: date, end: date) -> int:
+async def _scrape_into(
+    client, conn, start: date, end: date, cache: VoteCache, *, cache_only: bool = False
+) -> int:
     n = 0
     cursor = start
     # In-process caches. The backfill writes to a possibly-distant Postgres, so every
@@ -46,7 +54,10 @@ async def _scrape_into(client, conn, start: date, end: date) -> int:
             f"/tegevus/tooulevaade/haaletused/?startFrom={d}&endTo={d}&startDate={d}"
         )
         for entry in parse_vote_list(list_html):
-            if db.vote_exists(conn, entry.riigikogu_uuid):
+            # The archive is immutable: once a vote is cached we never refetch it.
+            if cache.has(entry.riigikogu_uuid):
+                continue
+            if not cache_only and db.vote_exists(conn, entry.riigikogu_uuid):
                 continue
             detail_html = await client.get(entry.detail_url)
             detail = parse_vote_detail(
@@ -54,37 +65,56 @@ async def _scrape_into(client, conn, start: date, end: date) -> int:
                 riigikogu_uuid=entry.riigikogu_uuid,
                 vote_type_slug=entry.vote_type_slug,
             )
-            vote_day = detail.voted_at.date()
-            member_ids: dict[str, int] = {}
-            for b in detail.ballots:
-                mid = member_id_by_rid.get(b.member_riigikogu_id)
-                if mid is None:
-                    mid = db.upsert_member(conn, _ballot_to_member(b))
-                    member_id_by_rid[b.member_riigikogu_id] = mid
-                member_ids[b.member_riigikogu_id] = mid
-
-                # Resolve the member's faction at the time of this vote to a party id
-                # (None = non-attached). Touch member_party_terms only on an actual
-                # change -- including party <-> non-attached transitions, so a member
-                # who leaves a fraktsioon gets their previous term closed (and a NULL
-                # term opened) instead of appearing to belong to it forever.
-                pid: int | None = None
-                party = faction_to_party(b.party_short_name)
-                if party is not None:
-                    short, full = party
-                    pid = party_id_by_short.get(short)
-                    if pid is None:
-                        pid = db.upsert_party(conn, short, full)
-                        party_id_by_short[short] = pid
-                if mid not in member_party or member_party[mid] != pid:
-                    db.set_member_party(conn, mid, pid, vote_day)
-                    member_party[mid] = pid
-            vote_id = db.upsert_vote(conn, detail)
-            db.replace_ballots(conn, vote_id, member_ids, detail.ballots)
-            conn.commit()
+            cache.append(detail)
+            if not cache_only:
+                _write_vote(conn, detail, member_id_by_rid, party_id_by_short, member_party)
             n += 1
         cursor += timedelta(days=1)
     return n
+
+
+def _write_vote(
+    conn,
+    detail: VoteDetail,
+    member_id_by_rid: dict[str, int],
+    party_id_by_short: dict[str, int],
+    member_party: dict[int, int | None],
+) -> None:
+    """Write one parsed vote (members, parties, terms, vote, ballots) to the database.
+
+    Shared by the network backfill and the offline cache rebuild. The three dicts carry
+    per-run state so members/parties are touched only on first sighting and terms only
+    on an actual party <-> non-attached change. Callers MUST feed votes in chronological
+    order so party-term transitions are dated correctly.
+    """
+    vote_day = detail.voted_at.date()
+    member_ids: dict[str, int] = {}
+    for b in detail.ballots:
+        mid = member_id_by_rid.get(b.member_riigikogu_id)
+        if mid is None:
+            mid = db.upsert_member(conn, _ballot_to_member(b))
+            member_id_by_rid[b.member_riigikogu_id] = mid
+        member_ids[b.member_riigikogu_id] = mid
+
+        # Resolve the member's faction at the time of this vote to a party id
+        # (None = non-attached). Touch member_party_terms only on an actual change --
+        # including party <-> non-attached transitions, so a member who leaves a
+        # fraktsioon gets their previous term closed (and a NULL term opened) instead
+        # of appearing to belong to it forever.
+        pid: int | None = None
+        party = faction_to_party(b.party_short_name)
+        if party is not None:
+            short, full = party
+            pid = party_id_by_short.get(short)
+            if pid is None:
+                pid = db.upsert_party(conn, short, full)
+                party_id_by_short[short] = pid
+        if mid not in member_party or member_party[mid] != pid:
+            db.set_member_party(conn, mid, pid, vote_day)
+            member_party[mid] = pid
+    vote_id = db.upsert_vote(conn, detail)
+    db.replace_ballots(conn, vote_id, member_ids, detail.ballots)
+    conn.commit()
 
 
 def _ballot_to_member(b: Ballot) -> MemberSummary:
@@ -103,12 +133,40 @@ def backfill(
     end: datetime | None = typer.Option(  # noqa: B008 - Typer pattern
         None, "--to", help="Inclusive end date (YYYY-MM-DD), defaults to today."
     ),
+    cache_only: bool = typer.Option(
+        False,
+        "--cache-only",
+        help="Fetch and write the on-disk cache only; do not touch the database.",
+    ),
 ) -> None:
-    """Scrape every sitting day in the given range."""
+    """Scrape every sitting day in the given range (writes the cache + the database)."""
     end_date = (end or datetime.now()).date()
     start_date = start.date()
-    n = asyncio.run(_scrape_range(start_date, end_date))
-    typer.echo(f"Ingested {n} new votes between {start_date} and {end_date}.")
+    n = asyncio.run(_scrape_range(start_date, end_date, cache_only=cache_only))
+    verb = "Cached" if cache_only else "Ingested"
+    typer.echo(f"{verb} {n} new votes between {start_date} and {end_date}.")
+
+
+@app.command()
+def rebuild() -> None:
+    """Rebuild the database from the on-disk cache, with no network access.
+
+    Use after changing the writer / discipline / party-term logic: wipe the data tables
+    and run this to replay every cached vote in chronological order.
+    """
+    n = _rebuild_from_cache()
+    typer.echo(f"Rebuilt {n} votes from cache.")
+
+
+def _rebuild_from_cache() -> int:
+    details = VoteCache().read_all()
+    member_id_by_rid: dict[str, int] = {}
+    party_id_by_short: dict[str, int] = {}
+    member_party: dict[int, int | None] = {}
+    with db.connect() as conn:
+        for detail in details:
+            _write_vote(conn, detail, member_id_by_rid, party_id_by_short, member_party)
+    return len(details)
 
 
 @app.command()

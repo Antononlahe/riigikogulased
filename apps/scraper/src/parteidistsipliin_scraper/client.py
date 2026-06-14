@@ -22,7 +22,7 @@ class RiigikoguClient:
     ) -> None:
         self.base_url = (base_url or os.getenv("RIIGIKOGU_BASE_URL") or DEFAULT_BASE).rstrip("/")
         self.user_agent = user_agent or os.getenv("SCRAPER_USER_AGENT") or DEFAULT_UA
-        self.delay_s = (delay_ms or int(os.getenv("SCRAPER_REQUEST_DELAY_MS", "500"))) / 1000
+        self.delay_s = (delay_ms or int(os.getenv("SCRAPER_REQUEST_DELAY_MS", "250"))) / 1000
         self._client = httpx.AsyncClient(
             timeout=httpx.Timeout(30.0),
             headers={"User-Agent": self.user_agent, "Accept-Language": "et,en;q=0.5"},
