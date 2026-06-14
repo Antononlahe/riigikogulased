@@ -3,7 +3,7 @@ from uuid import UUID
 
 import pytest
 
-from parteidistsipliin_scraper.models import normalize_faction
+from parteidistsipliin_scraper.models import faction_to_party, normalize_faction
 from parteidistsipliin_scraper.parsers import parse_members, parse_vote_detail, parse_vote_list
 from parteidistsipliin_scraper.parsers.vote_list import title_to_slug
 
@@ -28,6 +28,29 @@ FIXTURES = Path(__file__).parent.parent / "fixtures"
 )
 def test_normalize_faction(raw: str | None, expected: str | None) -> None:
     assert normalize_faction(raw) == expected
+
+
+@pytest.mark.parametrize(
+    ("raw", "expected"),
+    [
+        ("Eesti Reformierakonna fraktsioon", ("RE", "Eesti Reformierakond")),
+        (
+            "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+            ("EKRE", "Eesti Konservatiivne Rahvaerakond"),
+        ),
+        ("Eesti Keskerakonna fraktsioon", ("KE", "Eesti Keskerakond")),
+        ("Eesti 200 fraktsioon", ("E200", "Erakond Eesti 200")),
+        ("Sotsiaaldemokraatliku Erakonna fraktsioon", ("SDE", "Sotsiaaldemokraatlik Erakond")),
+        ("Isamaa fraktsioon", ("I", "Erakond Isamaa")),
+        # Non-attached -> no party.
+        ("Fraktsiooni mittekuuluvad Riigikogu liikmed", None),
+        (None, None),
+        # Unknown faction falls back to (name, name) so ingest never breaks.
+        ("Mingi uus fraktsioon", ("Mingi uus fraktsioon", "Mingi uus fraktsioon")),
+    ],
+)
+def test_faction_to_party(raw: str | None, expected: tuple[str, str] | None) -> None:
+    assert faction_to_party(raw) == expected
 
 
 # --- title -> slug helper (no fixture needed) --------------------------------

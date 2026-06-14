@@ -39,7 +39,8 @@ CREATE TABLE IF NOT EXISTS votes (
   riigikogu_uuid  UUID NOT NULL UNIQUE,
   voted_at        TIMESTAMPTZ NOT NULL,
   title           TEXT NOT NULL,
-  -- URL-derived category slug, e.g. 'kohalolekukontroll', 'paevakorra-kinnitamine',
+  -- Category slug derived from the vote TITLE (the URL slug is always
+  -- 'kohalolekukontroll'), e.g. 'kohalolekukontroll', 'paevakorra-kinnitamine',
   -- 'lopphaaletus'. See the `procedural_vote_types` table below for what gets
   -- excluded from discipline scoring.
   vote_type_slug  TEXT,

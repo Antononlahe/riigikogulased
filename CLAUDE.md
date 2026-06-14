@@ -58,6 +58,10 @@ For a vote V and member M who belongs to party P at time of V:
 1. If V is a procedural vote (`vote_type_slug` in `procedural_vote_types`) — exclude.
    Default exclusions: `kohalolekukontroll` (presence check) and
    `paevakorra-kinnitamine` (agenda adoption). These are routine and noisy.
+   Note: `vote_type_slug` is derived from the vote **title** (e.g. "Kohaloleku
+   kontroll" -> `kohalolekukontroll`), NOT from the URL — every detail URL uses the
+   slug `haaletustulemused-kohalolekukontroll/<uuid>` regardless of vote type. See
+   `vote_list.title_to_slug`.
 2. Take every M' in P (at time of V), excluding M.
 3. Compute the majority position of {M'}: yes / no / abstain, by strict majority.
 4. If no choice has strict majority — exclude V from M's score (party was split).
@@ -80,8 +84,14 @@ discipline view consults the table, so no code change is needed.
   English — `fraktsioon` (parliamentary faction), `Riigikogu`, party names. Comment them
   briefly the first time they appear in code.
 - **IDs from Riigikogu**: every entity has a `riigikogu_id` column. Treat it as the
-  natural key. Do not delete rows; party switches are modeled as `member_party_terms`
-  with `ended_on`.
+  natural key. For members it is the UUID segment of the profile URL
+  (`/riigikogu-liikmed/saadik/<uuid>/<Name>`), not the trailing name slug. Do not
+  delete rows; party switches are modeled as `member_party_terms` with `ended_on`.
+  A member who leaves a fraktsioon becomes **non-attached**: their open term is closed
+  and a new term with `party_id = NULL` is opened (the scraper records party <->
+  non-attached transitions, not just party-to-party). Non-attached members are excluded
+  from discipline scoring. Fraktsioon names are mapped to seeded party abbreviations
+  (RE, EKRE, KE, E200, SDE, I) via `models.faction_to_party`.
 - **Scraper politeness**: respect robots.txt, identify with the configured user-agent,
   default 500 ms delay between requests. Save raw HTML to `apps/scraper/raw_html/`
   (gitignored) when scraping; tests run against fixtures committed under
@@ -102,7 +112,9 @@ discipline view consults the table, so no code change is needed.
 
 - Riigikogu uses Estonian date format `DD.MM.YYYY` in URLs and HTML. Normalize at the
   parser boundary.
-- The vote-detail URL contains a UUID. Use it as `votes.riigikogu_uuid`.
+- The vote-detail URL contains a UUID. Use it as `votes.riigikogu_uuid`. The URL's
+  category slug is always `kohalolekukontroll` and is NOT a vote-type discriminator —
+  derive the type from the vote title instead.
 - A member's faction can change mid-term (defections, party splits, joining the
   unaffiliated bench). The seed `member_party_terms` is the source of truth. Cross-
   check after each scrape run.

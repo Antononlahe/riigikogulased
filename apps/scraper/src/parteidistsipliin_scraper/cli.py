@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 from parteidistsipliin_scraper import db
 from parteidistsipliin_scraper.client import RiigikoguClient
-from parteidistsipliin_scraper.models import Ballot, MemberSummary
+from parteidistsipliin_scraper.models import Ballot, MemberSummary, faction_to_party
 from parteidistsipliin_scraper.parsers import parse_members, parse_vote_detail, parse_vote_list
 
 load_dotenv()
@@ -35,9 +35,9 @@ async def _scrape_into(client, conn, start: date, end: date) -> int:
     # parties are stable across a run, and a member's faction only changes at the rare
     # party-switch boundary -- so we hit the DB for them only on first sighting or an
     # actual change, instead of re-upserting ~101 members on every single vote.
-    member_id_by_rid: dict[str, int] = {}     # riigikogu_id -> members.id
-    party_id_by_name: dict[str, int] = {}     # faction name  -> parties.id
-    member_party: dict[int, int] = {}         # members.id    -> current parties.id
+    member_id_by_rid: dict[str, int] = {}     # riigikogu_id    -> members.id
+    party_id_by_short: dict[str, int] = {}    # party short_name -> parties.id
+    member_party: dict[int, int | None] = {}  # members.id -> parties.id (None = non-attached)
     while cursor <= end:
         d = _fmt_et(cursor)
         # The live listing filters on startFrom/endTo (plus a redundant startDate).
@@ -62,16 +62,23 @@ async def _scrape_into(client, conn, start: date, end: date) -> int:
                     mid = db.upsert_member(conn, _ballot_to_member(b))
                     member_id_by_rid[b.member_riigikogu_id] = mid
                 member_ids[b.member_riigikogu_id] = mid
-                if b.party_short_name:
-                    pid = party_id_by_name.get(b.party_short_name)
+
+                # Resolve the member's faction at the time of this vote to a party id
+                # (None = non-attached). Touch member_party_terms only on an actual
+                # change -- including party <-> non-attached transitions, so a member
+                # who leaves a fraktsioon gets their previous term closed (and a NULL
+                # term opened) instead of appearing to belong to it forever.
+                pid: int | None = None
+                party = faction_to_party(b.party_short_name)
+                if party is not None:
+                    short, full = party
+                    pid = party_id_by_short.get(short)
                     if pid is None:
-                        pid = db.upsert_party(conn, b.party_short_name)
-                        party_id_by_name[b.party_short_name] = pid
-                    # Touch member_party_terms only when the faction actually changes
-                    # (first sighting in this run, or a genuine party switch).
-                    if member_party.get(mid) != pid:
-                        db.set_member_party(conn, mid, pid, vote_day)
-                        member_party[mid] = pid
+                        pid = db.upsert_party(conn, short, full)
+                        party_id_by_short[short] = pid
+                if mid not in member_party or member_party[mid] != pid:
+                    db.set_member_party(conn, mid, pid, vote_day)
+                    member_party[mid] = pid
             vote_id = db.upsert_vote(conn, detail)
             db.replace_ballots(conn, vote_id, member_ids, detail.ballots)
             conn.commit()
@@ -121,13 +128,19 @@ def members() -> None:
 async def _refresh_members() -> None:
     with db.connect() as conn:
         async with RiigikoguClient() as client:
-            html = await client.get("/riigikogu-liikmed/")
+            html = await client.get("/riigikogu/koosseis/riigikogu-liikmed/")
         members = parse_members(html)
         today = date.today()
         for m in members:
             mid = db.upsert_member(conn, m)
-            if m.party_short_name:
-                pid = db.upsert_party(conn, m.party_short_name, m.party_name)
-                db.set_member_party(conn, mid, pid, today)
+            # Set the member's current party (None = non-attached). set_member_party
+            # closes any disagreeing open term, so a member who has since left their
+            # fraktsioon is correctly marked unaffiliated as of today.
+            pid: int | None = None
+            party = faction_to_party(m.party_short_name)
+            if party is not None:
+                short, full = party
+                pid = db.upsert_party(conn, short, full)
+            db.set_member_party(conn, mid, pid, today)
         conn.commit()
         typer.echo(f"Refreshed {len(members)} members.")
