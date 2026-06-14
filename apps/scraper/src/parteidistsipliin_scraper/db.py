@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import re
 from datetime import date
+from pathlib import Path
 
 import psycopg
 from psycopg.rows import dict_row
@@ -148,3 +149,48 @@ def vote_exists(conn: psycopg.Connection, riigikogu_uuid) -> bool:
     with conn.cursor() as cur:
         cur.execute("SELECT 1 FROM votes WHERE riigikogu_uuid = %s", (str(riigikogu_uuid),))
         return cur.fetchone() is not None
+
+
+MIGRATIONS_DIR = Path(__file__).resolve().parents[4] / "packages" / "db" / "migrations"
+
+
+def pending_migrations(applied: set[str], migrations_dir: Path | None = None) -> list[Path]:
+    """Migration files (NNNN_*.sql) whose version prefix is not yet applied, in order."""
+    d = migrations_dir or MIGRATIONS_DIR
+    files = sorted(d.glob("[0-9][0-9][0-9][0-9]_*.sql"))
+    return [f for f in files if f.name.split("_", 1)[0] not in applied]
+
+
+def _applied_versions(conn: psycopg.Connection) -> set[str]:
+    with conn.cursor() as cur:
+        cur.execute(
+            "SELECT EXISTS (SELECT 1 FROM information_schema.tables "
+            "WHERE table_name = 'schema_migrations')"
+        )
+        row = cur.fetchone()
+        if not row or not row["exists"]:
+            return set()
+        cur.execute("SELECT version FROM schema_migrations")
+        return {r["version"] for r in cur.fetchall()}
+
+
+def apply_migrations(conn: psycopg.Connection, migrations_dir: Path | None = None) -> list[str]:
+    """Apply every unapplied NNNN_*.sql in order; record each in schema_migrations.
+
+    Each migration file is responsible for its own BEGIN/COMMIT and for inserting its
+    own version row (idempotently). We additionally record the version here so a
+    hand-applied 0001 (which predates schema_migrations) gets backfilled by 0002.
+    """
+    applied = _applied_versions(conn)
+    ran: list[str] = []
+    for path in pending_migrations(applied, migrations_dir):
+        version = path.name.split("_", 1)[0]
+        conn.execute(path.read_text(encoding="utf-8"))
+        conn.execute(
+            "INSERT INTO schema_migrations (version) VALUES (%s) "
+            "ON CONFLICT (version) DO NOTHING",
+            (version,),
+        )
+        conn.commit()
+        ran.append(version)
+    return ran
