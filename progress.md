@@ -1,84 +1,75 @@
 # Progress
 
 **Last updated:** 2026-06-14
-**Version target:** v0.1 — sortable members list with overall discipline score
+**Version target:** v0.2 — API ingestion cutover (A1) shipped; next is A2 (structural schema) or B (design system)
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
 
-**v0.1 is deployed, live, and showing the complete 15th-term dataset** at
-https://parteidistsipliin.vercel.app — both `/et` and `/en` render the sortable
-members table from real Neon data. The scraper parses real Riigikogu HTML (commits
-`1b26513`, `46530cd`, 21 tests green), Neon holds the full backfill
-(2,187 votes / 173k ballots / 101 members, 2023-04-10 → 2026-06-11), and the page is
-ISR-cached with a 1h revalidate so the daily cron's new votes appear automatically.
+**v0.2 / A1 (API ingestion cutover) is done and live.** Ingestion is now sourced entirely
+from the official Open Data API (`api.riigikogu.ee`); the HTML scraping path (parsers,
+HTML client, distilled cache, their fixtures/tests) has been **removed**. New modules:
+`api_client` (async, hard 1 req/s, 429 backoff), `api_models` (pydantic, API-native),
+`api_parse` (slug + decision->choice), `api_cache` (raw-JSON archive under
+`apps/scraper/cache/api/`), `writer` (maps API objects into the unchanged v0.1 schema,
+preserving party-term tracking). The DB schema and discipline views from
+`0001_initial.sql` are unchanged. 10 offline tests green, ruff clean.
 
-Done this session:
+**Production cut over and parity-verified.** The 1-year window (`--from 2025-06-14`) was
+re-ingested via the API into a Neon branch and diffed against the pre-cutover
+HTML-derived numbers, then production was wiped and rebuilt from the committed raw cache.
 
-- **Fixtures + parsers** — `apps/scraper/fixtures/{vote_list,vote_detail,members}.html`
-  committed; `cli.py`/parsers rewritten (see log entry for `1b26513`). Listing uses
-  `startFrom`/`endTo`; `vote_type_slug` derived from the vote **title**; member key is
-  the `/saadik/<uuid>/` segment.
-- **Neon** — project `parteidistsipliin` (`rapid-star-29400137`, db `neondb`, pooled
-  `us-west-2`). `0001_initial.sql` applied: 6 tables, 3 views, seeds present,
-  `member_discipline` queryable. Pooled `DATABASE_URL` in gitignored
-  `apps/scraper/.env`.
-- **Vercel** — DEPLOYED. Project `parteidistsipliin`
-  (`prj_j111iI8XkWuKyYH9FYrFOmVGlYKI`), live at https://parteidistsipliin.vercel.app;
-  `/et` + `/en` render the table. `DATABASE_URL` set for the production target.
-- **Backfill** — COMPLETE. Full 15th term ingested (2,187 votes, 607 procedural, 173k
-  ballots, 101 members, 100 scored). Discipline spreads sensibly: e.g. Alar Laneman
-  (EKRE) 41% over 901 counted votes; independents correctly excluded.
-- **Live-data staleness** — the first deploy static-rendered mid-backfill (showed 452
-  max / 19 scores). The page already sets `revalidate = 3600`; a redeploy after the
-  backfill refreshed the baseline, and the site now matches the DB (982 max / 38
-  scores). Going forward ISR + the daily cron keep it current with no manual redeploy.
+Production now: **598 votes, 51926 ballots, 102 members**, range 2025-06-16 -> 2026-06-11;
+discipline totals counted 21024 / aligned 20940 / defections 84.
 
-Not done yet:
+**Parity result:** vote count identical (598). The only differences from the HTML baseline
+trace to a genuine data improvement — the API captures **Riina Solman** (Isamaa, 221
+ballots) whom the HTML scrape had missed entirely. Her inclusion mechanically shifts her 6
+Isamaa colleagues' counted/aligned by +-1-2 (the party-line denominator changes for some
+Isamaa votes); no other faction is affected. No porting bugs. See the 2026-06-14 log entry.
 
-- **GitHub Actions** — `DATABASE_URL` secret not set, so the daily scrape (scrape.yml)
-  can't write yet. Needs the secret added in the GitHub repo (no `gh` CLI installed).
-- **Vercel preview env** — `DATABASE_URL` only set for `production`; the `preview`
-  target add hit a confirm prompt and didn't land (only matters for PR preview deploys).
+### Open / follow-ups
 
-### Known follow-ups (non-blocking for v0.1)
-
-1. Scraped faction strings are full names ("Eesti Reformierakonna fraktsioon"), so they
-   don't reconcile with the seeded RE/EKRE abbreviations — seed party rows go unused.
-   Cosmetic; revisit if the dashboard should show abbreviations.
-2. `cli.py members` fetches `/riigikogu-liikmed/`; real path is
-   `/riigikogu/koosseis/riigikogu-liikmed/`. Not on the backfill path; fix before
-   relying on the standalone `members` refresh.
-3. Confirm choice mapping `Ei hääletanud → neutral`, `Puudub → absent` (does not affect
-   the score — both are excluded from counted votes).
-4. CLAUDE.md "Core metric" / data-model notes still say the slug is URL-derived and
-   describe member IDs loosely — reconcile in the next docs pass (slug is title-derived;
-   member natural key is the saadik UUID).
+1. **GH Actions `DATABASE_URL` secret still unset** (carried from v0.1) — the daily cron
+   (`scrape.yml`, now running the API-sourced `daily`) can't write until it's added in the
+   repo settings. `gh` CLI isn't installed in this environment, so this is a manual step.
+2. **apps/web redeploy** — code is unchanged; ISR (`revalidate = 3600`) refreshes the live
+   site with the new data within the hour. Force a redeploy to surface it immediately.
+3. **Deferred cleanups (not blocking):** switch the procedural discriminator from the
+   description-derived `vote_type_slug` to the API `type.code`; persist faction/vote-type
+   UUIDs. These were intentionally deferred to keep the parity diff honest.
 
 ## Next work slice
 
-Goal: first real data in the hosted DB, visible on a deployed dashboard.
+Pick the next v0.2 sub-project:
 
-1. **DONE — Capture live HTML fixtures** (`apps/scraper/fixtures/`).
-2. **DONE — Fix parsers** (commit `1b26513`, 14 tests green).
-3. **DONE — Provision Neon + apply schema.**
-4. **DONE — Backfill verified** on 11.06.2025; full term `--from 2023-04-10` running in
-   the background.
-5. **DONE — Deploy to Vercel** (`apps/web` root). Both `/et` and `/en` render the table
-   at https://parteidistsipliin.vercel.app, `DATABASE_URL` set for production.
-6. **TODO — Enable the daily scrape** by setting the GH Actions `DATABASE_URL` secret;
-   cron is already on (05:00 UTC). This is the last v0.1 item.
+- **A2 — structural schema + member enrichment**: migration `0002_*` (riigikogu_terms,
+  committees + member_committee_terms, electoral_districts + member_district_terms,
+  sessions + sittings), enrich the member record (photo, district, birth year, seniority,
+  email/phone), link votes -> sitting. Populated from the already-archived raw API JSON.
+- **B — design-system foundation**: design tokens + party palette, shadcn/ui,
+  Recharts/visx, Framer Motion + View Transitions, layout shell, redesigned members table.
+  Independent of A2; immediately visible.
 
-## Backlog (post v0.1, captured for context)
+Specs/plans for A1 live under `docs/superpowers/{specs,plans}/2026-06-14-v0.2-api-cutover*`.
 
-- v0.2: per-member timeline page + party-switch markers.
-  Data source candidate: per-member endpoint
-  `/tegevus/tooulevaade/haaletused/saadiku-haaletused/?saadik=<member-uuid>` returns a
-  single member's vote history server-side (accepts `startFrom`/`endTo`). Not needed
-  for v0.1 (detail pages already carry every member's ballot), but a clean feed for the
-  timeline.
-- v0.3: vote-topic categorization
-- v0.4: party-level rollup
-- v1.0: search, share cards, polish
+## Roadmap (approved 2026-06-14 — supersedes the old backlog)
 
-See `CLAUDE.md > Scope ladder` for the full plan.
+A comprehensive roadmap to v1.0-and-beyond was researched and approved. Full document:
+`~/.claude/plans/can-you-go-over-crystalline-beacon.md`. Four governing decisions:
+
+1. **Migrate ingestion to the official Open Data API** (`api.riigikogu.ee`, JSON,
+   CC-BY-SA, **1 req/sec** limit, spec at `/v3/api-docs`). HTML parsers removed (done in
+   A1). The API exposes far more than we scraped: full member bios, committees, terms,
+   speeches/stenograms, bills+sponsors, interpellations, written questions, EU docs, a
+   **Eurovoc** subject taxonomy, and pre-computed stats.
+2. **Design the schema now for four domains** — votes (have), speeches, bills, oversight
+   — so later UI is additive, not migratory.
+3. **Topic categorization = official Eurovoc tags** (not manual rules / LLM).
+4. **UI is first-class from v0.2** — design system + charts (Recharts + visx) + motion
+   (Framer Motion + Next.js View Transitions) on the existing Next.js/Tailwind base;
+   shadcn/ui.
+
+Expanded ladder: v0.2 API migration + member pages + design system · v0.3 Eurovoc topics
+· v0.4 party/committee rollups · v0.5 speeches · v0.6 bills/sponsorship · v0.7 oversight
+· v1.0 search/share-cards/historical backfill/polish · post-1.0 "MP activity profiler".

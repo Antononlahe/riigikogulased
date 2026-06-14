@@ -18,7 +18,8 @@ jobs:
         working-directory: apps/scraper
     env:
       DATABASE_URL: ${{ secrets.DATABASE_URL }}
-      RIIGIKOGU_BASE_URL: ${{ vars.RIIGIKOGU_BASE_URL || 'https://www.riigikogu.ee' }}
+      # ApiClient defaults to https://api.riigikogu.ee; override only if needed.
+      RIIGIKOGU_API_BASE: ${{ vars.RIIGIKOGU_API_BASE || 'https://api.riigikogu.ee' }}
       SCRAPER_USER_AGENT: ${{ vars.SCRAPER_USER_AGENT }}
     steps:
       - uses: actions/checkout@v4

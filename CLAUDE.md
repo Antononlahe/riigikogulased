@@ -27,29 +27,62 @@ journalism / civic transparency, not real-time analytics.
 
 ## Scope ladder
 
-| Version | Features |
-| --- | --- |
-| v0.1 (current) | Members list with overall discipline %, sortable by score / party / vote count. Seed = 15th Riigikogu (2023-). |
-| v0.2 | Per-member detail page: timeline chart of with/against-party votes, vertical line at party-switch dates. |
-| v0.3 | Vote-topic categorization (bill committee / agenda type) so users can filter discipline by topic. |
-| v0.4 | Party-level rollup view (cohesion per party). |
-| v1.0 | Polished UI, robust historical backfill, search, social share cards, English content review. |
+The full roadmap (researched + approved 2026-06-14) lives in
+`~/.claude/plans/can-you-go-over-crystalline-beacon.md`, summarized in `progress.md`.
+Four governing decisions shape everything below:
 
-Stay inside the current version's scope. New ideas go to GitHub issues, not into the diff.
+1. **Ingestion migrates to the official Open Data API** — `api.riigikogu.ee` (JSON,
+   stable UUIDs, CC-BY-SA, **1 req/sec** limit, OpenAPI spec at `/v3/api-docs`). The
+   HTML parsers were **removed** in the v0.2 cutover (done) — the API is the only
+   ingestion source; reintroduce a parser only if a concrete API data gap appears. The
+   API exposes far more than the
+   public HTML: full member bios, committees, Riigikogu terms, speeches/stenograms,
+   bills+sponsors, interpellations, written questions, EU docs, a Eurovoc subject
+   taxonomy, seating, events, and pre-computed voting/speech/participation statistics.
+2. **Schema is laid down now for four domains** — votes (have), speeches, bills,
+   oversight — so later UI is additive, not migratory.
+3. **Topic categorization uses official Eurovoc tags**, not manual rules / LLM.
+4. **UI is first-class from v0.2** — design system + charts + motion (see below).
+
+| Version | Status | Features |
+| --- | --- | --- |
+| v0.1 | shipped | Members list, overall discipline %, sortable. 15th Riigikogu. Live on Vercel. (Open: GH Actions `DATABASE_URL` secret unset, so the daily cron can't write yet.) |
+| v0.2 | current | API migration + member detail pages (vote timeline, party-switch lines) + design-system foundation. Model committees, terms, sittings/sessions, districts; enrich member record. |
+| v0.3 | | Eurovoc topics: link votes->bills->subjects; filter discipline by topic. |
+| v0.4 | | Party / faction / committee rollups (cohesion). |
+| v0.5 | | Speeches & stenogram activity (how much / on what topics each MP speaks). |
+| v0.6 | | Bills & sponsorship (what each MP authored / co-sponsored, outcomes). |
+| v0.7 | | Oversight: interpellations, written questions, attendance/participation. |
+| v1.0 | | Search, social share cards, historical backfill across terms, polish, ET/EN review. |
+| post-1.0 | | "MP activity profiler" — comparison, leaderboards, topic explorer, maverick index, coalition dynamics. See roadmap doc. |
+
+Stay inside the current version's scope. New ideas go to the roadmap doc / GitHub issues,
+not into the diff.
+
+**UI stack (from v0.2):** keep Next.js App Router + Tailwind + next-intl on Vercel; add
+shadcn/ui (Radix) for components, Recharts for standard charts + visx/D3 for bespoke
+visuals (vote timeline, agreement matrix, hall plan), Framer Motion + Next.js View
+Transitions for motion. One shared party-color token palette (RE/EKRE/KE/E200/SDE/I);
+light/dark; mobile-first; honor `prefers-reduced-motion`.
 
 ## Architecture
 
 ```
-Riigikogu site  ->  apps/scraper (Python, cron'd from GitHub Actions)
-                              |
-                              v
-                       Postgres (Neon)
-                              ^
-                              |
-                       apps/web (Next.js on Vercel) -> users
+api.riigikogu.ee (JSON, 1 req/s)  ->  apps/scraper (Python, cron'd from GitHub Actions)
+                                                |
+                                                v
+                                         Postgres (Neon)
+                                                ^
+                                                |
+                                         apps/web (Next.js on Vercel) -> users
 ```
 
 The scraper writes; the web app only reads. There is no write path from the web app.
+**Ingestion source (v0.2+):** the official Open Data API is the sole source. The HTML
+parsers were removed in the v0.2 cutover; the `parsers/` package is an empty placeholder
+kept only as a home for a future fallback if an API data gap is ever found. Raw API JSON
+is archived per-domain in the git-committed cache (`apps/scraper/cache/api/`) so the
+offline `rebuild` command reproduces the DB with no network.
 
 ## Core metric: "voting against party"
 
@@ -58,10 +91,11 @@ For a vote V and member M who belongs to party P at time of V:
 1. If V is a procedural vote (`vote_type_slug` in `procedural_vote_types`) — exclude.
    Default exclusions: `kohalolekukontroll` (presence check) and
    `paevakorra-kinnitamine` (agenda adoption). These are routine and noisy.
-   Note: `vote_type_slug` is derived from the vote **title** (e.g. "Kohaloleku
-   kontroll" -> `kohalolekukontroll`), NOT from the URL — every detail URL uses the
-   slug `haaletustulemused-kohalolekukontroll/<uuid>` regardless of vote type. See
-   `vote_list.title_to_slug`.
+   Note: `vote_type_slug` is derived from the voting's **description** (e.g. "Kohaloleku
+   kontroll" -> `kohalolekukontroll`) via `api_parse.vote_type_slug`. The API also carries
+   a cleaner `type.code` discriminator (`KOHALOLEKU_KONTROLL`, `AVALIK`, ...); the cutover
+   kept deriving the slug from the description to preserve identical scoring, and switching
+   the discriminator to `type.code` is a deferred follow-up.
 2. Take every M' in P (at time of V), excluding M.
 3. Compute the majority position of {M'}: yes / no / abstain, by strict majority.
 4. If no choice has strict majority — exclude V from M's score (party was split).
@@ -84,54 +118,73 @@ discipline view consults the table, so no code change is needed.
   English — `fraktsioon` (parliamentary faction), `Riigikogu`, party names. Comment them
   briefly the first time they appear in code.
 - **IDs from Riigikogu**: every entity has a `riigikogu_id` column. Treat it as the
-  natural key. For members it is the UUID segment of the profile URL
-  (`/riigikogu-liikmed/saadik/<uuid>/<Name>`), not the trailing name slug. Do not
-  delete rows; party switches are modeled as `member_party_terms` with `ended_on`.
+  natural key. For members it is the API `uuid` (same value as the UUID segment of the
+  profile URL `/riigikogu-liikmed/saadik/<uuid>/<Name>`, not the trailing name slug). Do
+  not delete rows; party switches are modeled as `member_party_terms` with `ended_on`.
   A member who leaves a fraktsioon becomes **non-attached**: their open term is closed
   and a new term with `party_id = NULL` is opened (the scraper records party <->
   non-attached transitions, not just party-to-party). Non-attached members are excluded
   from discipline scoring. Fraktsioon names are mapped to seeded party abbreviations
   (RE, EKRE, KE, E200, SDE, I) via `models.faction_to_party`.
-- **Scraper politeness**: respect robots.txt, identify with the configured user-agent,
-  default 500 ms delay between requests. Save raw HTML to `apps/scraper/raw_html/`
-  (gitignored) when scraping; tests run against fixtures committed under
-  `apps/scraper/fixtures/`.
+- **Ingestion politeness**: the API allows **max 1 request/second per IP** (it returns
+  429 above that — observed live); `ApiClient` hard-throttles to 1 req/s and backs off on
+  429/5xx. Identify with the configured user-agent and attribute data under
+  **CC-BY-SA 3.0**. Tests run offline against committed fixtures under
+  `apps/scraper/fixtures/api/`; the `rebuild` command replays the committed raw cache
+  under `apps/scraper/cache/api/` with no network.
 - **No emoji in code, commits, or docs.**
 
 ## Data model (cheatsheet)
 
+Current (migration `0001_initial.sql`):
+
 - `parties` — fraktsioons
 - `members` — MPs (one row forever, even across terms)
 - `member_party_terms` — `(member_id, party_id, started_on, ended_on)` history
-- `sittings` — Riigikogu sittings (one per voting day)
-- `votes` — individual vote events (the things on the listing page)
+- `votes` — individual vote events
 - `ballots` — `(vote_id, member_id, choice)`, choice in `yes|no|abstain|absent|neutral`
+- `procedural_vote_types` — slugs excluded from discipline scoring
 - Views: `member_vote_alignment`, `member_discipline`, `member_current_party`
+
+Note: a `sittings` table is referenced in older notes but does **not** exist yet — it
+arrives with the v0.2 structural migration.
+
+Planned (v0.2+ migrations `0002_*`, designed up front — see roadmap doc): `riigikogu_terms`,
+`committees` + `member_committee_terms`, `electoral_districts` + `member_district_terms`,
+`sessions` + `sittings`; then `volumes` (generic dossier: drafts / interpellations /
+written-questions / EU / collective-addresses by type), `bills` + `bill_sponsors` +
+`bill_readings`, `speeches`, `eurovoc_descriptors` + `volume_topics`. `votes` gains a
+`volume_uuid` FK so vote -> bill -> Eurovoc topics resolves.
 
 ## Things to be careful about
 
-- Riigikogu uses Estonian date format `DD.MM.YYYY` in URLs and HTML. Normalize at the
-  parser boundary.
-- The vote-detail URL contains a UUID. Use it as `votes.riigikogu_uuid`. The URL's
-  category slug is always `kohalolekukontroll` and is NOT a vote-type discriminator —
-  derive the type from the vote title instead.
+- The API gives ISO dates/datetimes (`startDateTime` etc.); pydantic parses them at the
+  model boundary. `votes.riigikogu_uuid` is the voting `uuid` from `/api/votings/{uuid}`.
+- The vote type comes from the voting's `description`/`type.code`, not a URL slug.
 - A member's faction can change mid-term (defections, party splits, joining the
-  unaffiliated bench). The seed `member_party_terms` is the source of truth. Cross-
-  check after each scrape run.
-- "Absent" vs "did not vote" vs "neutral" — Riigikogu distinguishes these. Be precise
-  in `ballots.choice` and don't collapse them at ingest time.
+  unaffiliated bench). The per-ballot `faction` in each voting (`voters[].faction`) is the
+  source of truth for faction-at-time; `member_party_terms` is built from it in
+  chronological order. Cross-check after each run.
+- "Absent" (`PUUDUB`) vs "did not vote" (`EI_HAALETANUD` -> neutral) vs "abstain"
+  (`ERAPOOLETU`) — the API distinguishes these via `decision.code`; map precisely in
+  `api_parse.decision_to_choice` and don't collapse them. `KOHAL` (present, in presence
+  checks) is intentionally dropped.
 
 ## Network policy in dev sandboxes
 
 This repo is sometimes opened in restricted-egress environments that can't reach
-`riigikogu.ee` directly. In that case:
+`riigikogu.ee` / `api.riigikogu.ee` directly. In that case:
 - Run the scraper locally or in GitHub Actions, not in the sandbox.
-- Tests in `apps/scraper/tests/` parse committed HTML fixtures — they should always pass
-  offline.
+- Tests in `apps/scraper/tests/` parse committed fixtures under `fixtures/api/`, and the
+  offline `rebuild` replays the git-committed raw cache under `cache/api/` — both should
+  always work offline.
 
 ## Deferred / open
 
-- Vote topic classification model — manual rules first, possibly LLM-assisted later.
+- Close out v0.1: set the GH Actions `DATABASE_URL` secret so the daily cron can write.
+- Vote topic classification — **decided: official Eurovoc tags from the API** (no manual
+  rules / LLM). Wire up in v0.3.
 - Caching strategy for the dashboard once timeline charts land (likely ISR with 1h
   revalidate).
-- Robots.txt compliance check is currently informal — formalize before going public.
+- Robots.txt / licensing compliance is currently informal — formalize CC-BY-SA
+  attribution and the 1 req/s limit before going public.

@@ -13,6 +13,106 @@ Entry format:
 
 ---
 
+## 2026-06-14 — v0.2/A1: API ingestion cutover (HTML removed); parity-verified
+
+**What:** Replaced HTML scraping with the official Open Data API (`api.riigikogu.ee`) as
+the sole ingestion source, API-native. New modules: `api_client` (async, hard 1 req/s,
+429/5xx backoff), `api_models` (pydantic mirroring the API JSON), `api_parse`
+(`vote_type_slug` relocated from the old `title_to_slug`, plus a `decision.code`->choice
+map), `api_cache` (git-committed raw-JSON archive under `cache/api/`, offline `rebuild`),
+and `writer` (maps `Voting`/`PlenaryMember` into the unchanged v0.1 schema, preserving the
+party-term transition logic). `db.py` signatures decoupled from model classes; `models.py`
+trimmed to `Choice` + faction helpers; `cli.py` rewired to `backfill`/`daily`/`rebuild`/
+`members` over the API. Removed: `parsers/*`, `client.py`, distilled `cache.py`, the HTML
+fixtures/tests, and the old `cache/votes.jsonl`/`members.json`. Dropped the now-unused
+`selectolax` dependency; pointed `scrape.yml` at `RIIGIKOGU_API_BASE`. 10 offline tests
+green, ruff clean.
+
+**Parity (post-port, validation not a gate):** captured the pre-cutover HTML-derived
+per-member discipline as a baseline, re-ingested the 1-year window via the API into a Neon
+branch, and diffed. Vote count identical (598). Totals moved counted 20948->21024,
+aligned 20868->20940, defections 80->84. Every difference traces to one cause: the API
+captures **Riina Solman** (Isamaa, exactly 221 ballots — the entire ballot delta) whom the
+HTML scrape had missed; her inclusion changes the Isamaa party-line denominator for a
+handful of votes, shifting her 6 Isamaa colleagues by +-1-2. No other faction affected, no
+porting bug. Judged a data improvement; cut over.
+
+**Cutover:** wiped production and rebuilt offline from the committed `cache/api/` archive,
+then refreshed members. Production now 598 votes / 51926 ballots / 102 members, discipline
+counted 21024 / aligned 20940 / defections 84. Parity branch deleted.
+
+**Why:** Roadmap governing decision 1 (migrate ingestion to the API). Decided this session
+to go API-native and discard HTML outright (only reintroduce a parser for a real API gap).
+
+**Touched:** `apps/scraper/src/parteidistsipliin_scraper/{api_client,api_models,api_parse,
+api_cache,writer,db,models,cli}.py`, `fixtures/api/*`, `tests/test_api_*`,
+`cache/api/votings.jsonl`, `pyproject.toml`, `.github/workflows/scrape.yml`, `CLAUDE.md`,
+`progress.md`, this log. Specs/plans under `docs/superpowers/{specs,plans}/`.
+
+**Still open:** GH Actions `DATABASE_URL` secret unset (gh CLI absent — manual step);
+apps/web redeploy to surface new data immediately (ISR refreshes within 1h regardless).
+
+---
+
+## 2026-06-14 — Comprehensive roadmap to v1.0+ approved; ingestion to move to the official API
+
+**What:** Researched the full breadth of Riigikogu's published data and approved an
+expanded roadmap (`~/.claude/plans/can-you-go-over-crystalline-beacon.md`). Key finding:
+an official Open Data REST API at `api.riigikogu.ee` (JSON, stable UUIDs, CC-BY-SA,
+**1 req/sec**, spec `/v3/api-docs`) exposes everything we scrape plus members' full bios,
+committees, Riigikogu terms, speeches/stenograms, bills with sponsors, interpellations,
+written questions, EU documents, a Eurovoc subject taxonomy, seating plans, events, and
+pre-computed voting/speech/participation statistics.
+
+**Decisions:** (1) migrate ingestion from HTML scraping to the API (HTML parsers kept as
+fallback); (2) lay down schema now for four domains — votes, speeches, bills, oversight;
+(3) topic categorization via official Eurovoc tags, not manual rules/LLM; (4) UI is
+first-class from v0.2 — design system + Recharts/visx charts + Framer Motion / Next.js
+View Transitions on the existing Next.js/Tailwind base, proposing shadcn/ui.
+
+**Why:** The user wants every feature enumerated up front so the data model isn't torn up
+later as scope grows toward a generic "MP activity profiler." The API makes most of that
+data cheap to ingest cleanly.
+
+**Touched:** `progress.md` (roadmap section replaces old backlog), this log. No code yet;
+v0.2 implementation (API client + schema migration `0002_*` + design system) is the next
+slice. CLAUDE.md scope ladder still shows the old table — reconcile at v0.2 kickoff.
+
+---
+
+## 2026-06-14 — Party-transition tracking + cleanups; rebuild on 1-year dataset (commit 39b0ab9)
+
+**What:** Fixed a party-history bug and did the three deferred cleanups, then rebuilt
+the data on a deliberately smaller (1-year) window.
+
+**Bug:** every member had a single never-closed `member_party_terms` row — party
+movements within the term were invisible (e.g. Züleyxa Izmailova still showed as
+Eesti 200 after going non-attached; her term opened 2023-05-23, `ended_on` NULL). Cause:
+the writer only updated terms when a ballot had a party, so a member leaving a
+fraktsioon (→ non-attached, party None) never closed their old term. Fix: resolve each
+ballot's faction to a party id (None = non-attached) and record any change, including
+party ↔ non-attached, closing the old term and opening a NULL-party term.
+
+**Cleanups:** (1) `faction_to_party()` maps fraktsioon names to the seeded
+abbreviations RE/EKRE/KE/E200/SDE/I, so `parties` reuses the seed rows and the table
+shows abbreviations; (2) fixed the `members` command URL to
+`/riigikogu/koosseis/riigikogu-liikmed/`; (3) reconciled CLAUDE.md + the migration
+comment (slug is title-derived; member key is the saadik UUID; non-attached modeling).
+
+**Scope decision:** per the user, develop against a **1-year dataset** (backfill
+`--from 2025-06-14`) and keep iterating on the smaller set until v1.0, rather than the
+full 3-year term. Wiped the full-term data (TRUNCATE; user-authorized) keeping the 6
+seed parties, and re-backfilled 1 year with the fixed logic. A `members` refresh +
+redeploy follow.
+
+**Gate:** ruff clean, 30 parser tests pass.
+
+**Touched:** `apps/scraper/src/.../{cli,models}.py`,
+`apps/scraper/tests/test_parsers.py`, `CLAUDE.md`,
+`packages/db/migrations/0001_initial.sql`. Neon data (wiped + 1-year re-backfill).
+
+---
+
 ## 2026-06-14 — Full-term backfill complete; fixed stale static render
 
 **What:** The background backfill finished: 2,157 new votes (2,187 total) across the
