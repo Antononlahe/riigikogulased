@@ -16,9 +16,11 @@ class VoteListEntry(BaseModel):
     voted_at: datetime
     title: str
     detail_url: str
-    # URL slug between 'haaletustulemused-' and the UUID; identifies the vote's
-    # procedural category, e.g. 'kohalolekukontroll', 'paevakorra-kinnitamine',
-    # 'lopphaaletus'. Used to filter procedural votes out of discipline scoring.
+    # Procedural category slug derived from the vote TITLE (not the URL, whose slug
+    # is always 'kohalolekukontroll'). See `vote_list.title_to_slug`. The two seeded
+    # procedural titles map to 'kohalolekukontroll' and 'paevakorra-kinnitamine';
+    # other titles get a normalized slug, e.g. 'lopphaaletus'. Used to filter
+    # procedural votes out of discipline scoring.
     vote_type_slug: str | None = None
 
 

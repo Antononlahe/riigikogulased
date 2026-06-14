@@ -31,8 +31,11 @@ async def _scrape_into(client, conn, start: date, end: date) -> int:
     n = 0
     cursor = start
     while cursor <= end:
+        d = _fmt_et(cursor)
+        # The live listing filters on startFrom/endTo (plus a redundant startDate).
+        # Using startDate/endDate alone returns an empty list.
         list_html = await client.get(
-            f"/tegevus/tooulevaade/haaletused/?startDate={_fmt_et(cursor)}&endDate={_fmt_et(cursor)}"
+            f"/tegevus/tooulevaade/haaletused/?startFrom={d}&endTo={d}&startDate={d}"
         )
         for entry in parse_vote_list(list_html):
             if db.vote_exists(conn, entry.riigikogu_uuid):

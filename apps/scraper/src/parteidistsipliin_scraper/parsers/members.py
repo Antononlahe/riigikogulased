@@ -1,31 +1,57 @@
 from __future__ import annotations
 
+import re
+
 from selectolax.parser import HTMLParser
 
 from parteidistsipliin_scraper.models import MemberSummary
+
+SAADIK_UUID_RE = re.compile(
+    r"/saadik/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})/",
+    re.I,
+)
 
 
 def parse_members(html: str) -> list[MemberSummary]:
     """Parse the Riigikogu members listing page.
 
-    # TODO: verify against live HTML. Members are typically listed grouped by
-    # faction, each with a link to their profile that contains the natural ID at
-    # the end of the URL.
+    Members are rendered as `<ul class="profile-list">` items, one
+    `<li class="item col-xs-6">` per MP. Inside each item the name link is
+    `/riigikogu-liikmed/saadik/<uuid>/<Name-With-Dashes>` and the faction is a
+    plain `<li><strong>Faction name</strong></li>`. The natural key is the `<uuid>`
+    segment of the profile URL, not the trailing name slug.
     """
     tree = HTMLParser(html)
     out: list[MemberSummary] = []
-    for card in tree.css("article.liige, li.liige, tr.liige"):
-        name_el = card.css_first("a[href*='/riigikogu-liikmed/']")
+    seen: set[str] = set()
+
+    for card in tree.css("ul.profile-list li.item"):
+        name_el = None
+        for a in card.css("a[href*='/saadik/']"):
+            href = a.attributes.get("href") or ""
+            if SAADIK_UUID_RE.search(href) and (a.text() or "").strip():
+                name_el = a
+                break
         if name_el is None:
             continue
         href = name_el.attributes.get("href") or ""
-        rid = href.rstrip("/").rsplit("/", 1)[-1]
-        party_el = card.css_first(".fraktsioon, .faction")
+        m = SAADIK_UUID_RE.search(href)
+        if not m:
+            continue
+        rid = m.group(1)
+        if rid in seen:
+            continue
+        seen.add(rid)
+
+        faction_el = card.css_first("strong")
+        faction = (faction_el.text() if faction_el else "").strip() or None
+
         out.append(
             MemberSummary(
                 riigikogu_id=rid,
                 full_name=(name_el.text() or "").strip(),
-                party_short_name=(party_el.text() if party_el else None) or None,
+                party_short_name=faction,
+                party_name=faction,
             )
         )
     return out
