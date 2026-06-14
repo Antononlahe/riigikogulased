@@ -191,3 +191,159 @@ def apply_migrations(conn: psycopg.Connection, migrations_dir: Path | None = Non
         conn.commit()
         ran.append(version)
     return ran
+
+
+def upsert_term(conn: psycopg.Connection, number: int) -> int:
+    with conn.cursor() as cur:
+        cur.execute(
+            "INSERT INTO riigikogu_terms (number) VALUES (%s) "
+            "ON CONFLICT (number) DO UPDATE SET number = EXCLUDED.number RETURNING id",
+            (number,),
+        )
+        row = cur.fetchone()
+        assert row is not None
+        return row["id"]
+
+
+def upsert_session(
+    conn: psycopg.Connection, *, term_id: int, number: int, type_code: str,
+    started_on: date, ended_on: date | None,
+) -> int:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO sessions (term_id, number, type_code, started_on, ended_on)
+            VALUES (%s, %s, %s, %s, %s)
+            ON CONFLICT (term_id, number) DO UPDATE SET
+              type_code = EXCLUDED.type_code,
+              started_on = EXCLUDED.started_on,
+              ended_on = EXCLUDED.ended_on
+            RETURNING id
+            """,
+            (term_id, number, type_code, started_on, ended_on),
+        )
+        row = cur.fetchone()
+        assert row is not None
+        return row["id"]
+
+
+def upsert_sitting(
+    conn: psycopg.Connection, *, riigikogu_uuid: str, title: str | None,
+    sitting_date: date, term_id: int | None, session_id: int | None,
+) -> int:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO sittings (riigikogu_uuid, title, sitting_date, term_id, session_id)
+            VALUES (%s, %s, %s, %s, %s)
+            ON CONFLICT (riigikogu_uuid) DO UPDATE SET
+              title = COALESCE(EXCLUDED.title, sittings.title),
+              sitting_date = LEAST(sittings.sitting_date, EXCLUDED.sitting_date),
+              term_id = COALESCE(EXCLUDED.term_id, sittings.term_id),
+              session_id = COALESCE(EXCLUDED.session_id, sittings.session_id)
+            RETURNING id
+            """,
+            (riigikogu_uuid, title, sitting_date, term_id, session_id),
+        )
+        row = cur.fetchone()
+        assert row is not None
+        return row["id"]
+
+
+def upsert_committee(
+    conn: psycopg.Connection, *, riigikogu_uuid: str, name: str, type_code: str
+) -> int:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO committees (riigikogu_uuid, name, type_code)
+            VALUES (%s, %s, %s)
+            ON CONFLICT (riigikogu_uuid) DO UPDATE SET
+              name = EXCLUDED.name, type_code = EXCLUDED.type_code
+            RETURNING id
+            """,
+            (riigikogu_uuid, name, type_code),
+        )
+        row = cur.fetchone()
+        assert row is not None
+        return row["id"]
+
+
+def set_member_committee(
+    conn: psycopg.Connection, *, member_id: int, committee_id: int,
+    role_code: str | None, started_on: date | None, ended_on: date | None,
+) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO member_committee_terms
+              (member_id, committee_id, role_code, started_on, ended_on)
+            VALUES (%s, %s, %s, %s, %s)
+            ON CONFLICT (member_id, committee_id, started_on) DO UPDATE SET
+              role_code = EXCLUDED.role_code, ended_on = EXCLUDED.ended_on
+            """,
+            (member_id, committee_id, role_code, started_on, ended_on),
+        )
+
+
+def upsert_district(conn: psycopg.Connection, *, code: str, name: str) -> int:
+    with conn.cursor() as cur:
+        cur.execute(
+            "INSERT INTO electoral_districts (code, name) VALUES (%s, %s) "
+            "ON CONFLICT (code) DO UPDATE SET name = EXCLUDED.name RETURNING id",
+            (code, name),
+        )
+        row = cur.fetchone()
+        assert row is not None
+        return row["id"]
+
+
+def set_member_district(
+    conn: psycopg.Connection, *, member_id: int, district_id: int, term_id: int
+) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            "INSERT INTO member_district_terms (member_id, district_id, term_id) "
+            "VALUES (%s, %s, %s) ON CONFLICT (member_id, district_id, term_id) DO NOTHING",
+            (member_id, district_id, term_id),
+        )
+
+
+def enrich_member(conn: psycopg.Connection, member_id: int, f) -> None:
+    """Update a members row from an enrich.MemberFields (thumb_path left untouched)."""
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            UPDATE members SET
+              date_of_birth = %s, date_of_death = %s, gender = %s,
+              email = %s, phone = %s, parliament_seniority_days = %s,
+              mandate_started_on = %s, photo_uuid = %s,
+              photo_file_name = %s, photo_url = %s
+            WHERE id = %s
+            """,
+            (
+                f.date_of_birth, f.date_of_death, f.gender, f.email, f.phone,
+                f.seniority_days, f.mandate_started_on, f.photo_uuid,
+                f.photo_file_name, f.photo_url, member_id,
+            ),
+        )
+
+
+def set_member_thumb(conn: psycopg.Connection, member_id: int, thumb_path: str) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            "UPDATE members SET photo_thumb_path = %s WHERE id = %s",
+            (thumb_path, member_id),
+        )
+
+
+def link_vote(
+    conn: psycopg.Connection, *, vote_id: int, sitting_id: int | None,
+    draft_uuid: str | None, draft_title: str | None, draft_mark: str | None,
+) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            "UPDATE votes SET sitting_id = %s, draft_uuid = %s, "
+            "draft_title = %s, draft_mark = %s WHERE id = %s",
+            (sitting_id, draft_uuid, draft_title, draft_mark, vote_id),
+        )
