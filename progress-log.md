@@ -13,6 +13,25 @@ Entry format:
 
 ---
 
+## 2026-06-14 — Full-term backfill complete; fixed stale static render
+
+**What:** The background backfill finished: 2,157 new votes (2,187 total) across the
+full 15th term (2023-04-10 → 2026-06-11), 173,147 ballots, all 101 members, 607
+procedural votes excluded, 100 scored. Full-term discipline spreads sensibly — e.g.
+Alar Laneman (EKRE) 41% over 901 counted votes, Züleyxa Izmailova (E200) 35%,
+independents excluded.
+
+**Issue found + fixed:** the live site was showing stale numbers (452 max counted / 19
+distinct scores vs the DB's 982 / 38). The dashboard page is statically generated
+(`export const revalidate = 3600`), and the first deploy rendered it mid-backfill. No
+code change needed — a `vercel deploy --prod` after the backfill rebuilt the baseline,
+and the live `/et` now matches the DB (982 max / 38 scores; Laneman/Izmailova present).
+ISR (1h) + the daily cron will keep it current automatically.
+
+**Touched:** Neon data (full backfill), Vercel (redeploy), `progress.md`.
+
+---
+
 ## 2026-06-14 — Deployed v0.1 to Vercel (live on both locales)
 
 **What:** Linked and deployed the Next.js app to Vercel. Project

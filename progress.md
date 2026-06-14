@@ -6,11 +6,12 @@
 
 ## Current status
 
-**v0.1 is deployed and live** at https://parteidistsipliin.vercel.app — both `/et`
-and `/en` render the sortable members table from real Neon data. The scraper parses
-real Riigikogu HTML (commits `1b26513`, `46530cd`, 21 tests green), Neon is
-provisioned with the schema applied, and the full-term backfill is running in the
-background (the live site fills in as it lands).
+**v0.1 is deployed, live, and showing the complete 15th-term dataset** at
+https://parteidistsipliin.vercel.app — both `/et` and `/en` render the sortable
+members table from real Neon data. The scraper parses real Riigikogu HTML (commits
+`1b26513`, `46530cd`, 21 tests green), Neon holds the full backfill
+(2,187 votes / 173k ballots / 101 members, 2023-04-10 → 2026-06-11), and the page is
+ISR-cached with a 1h revalidate so the daily cron's new votes appear automatically.
 
 Done this session:
 
@@ -25,8 +26,13 @@ Done this session:
 - **Vercel** — DEPLOYED. Project `parteidistsipliin`
   (`prj_j111iI8XkWuKyYH9FYrFOmVGlYKI`), live at https://parteidistsipliin.vercel.app;
   `/et` + `/en` render the table. `DATABASE_URL` set for the production target.
-- **Backfill** — smoke day verified (discipline excludes independents); full 15th-term
-  backfill running in the background.
+- **Backfill** — COMPLETE. Full 15th term ingested (2,187 votes, 607 procedural, 173k
+  ballots, 101 members, 100 scored). Discipline spreads sensibly: e.g. Alar Laneman
+  (EKRE) 41% over 901 counted votes; independents correctly excluded.
+- **Live-data staleness** — the first deploy static-rendered mid-backfill (showed 452
+  max / 19 scores). The page already sets `revalidate = 3600`; a redeploy after the
+  backfill refreshed the baseline, and the site now matches the DB (982 max / 38
+  scores). Going forward ISR + the daily cron keep it current with no manual redeploy.
 
 Not done yet:
 
