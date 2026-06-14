@@ -2,13 +2,10 @@ from __future__ import annotations
 
 import os
 import re
-from collections.abc import Iterable
 from datetime import date
 
 import psycopg
 from psycopg.rows import dict_row
-
-from parteidistsipliin_scraper.models import MemberSummary, VoteDetail
 
 
 def _slugify(name: str) -> str:
@@ -42,7 +39,7 @@ def upsert_party(conn: psycopg.Connection, short_name: str, name: str | None = N
         return row["id"]
 
 
-def upsert_member(conn: psycopg.Connection, m: MemberSummary) -> int:
+def upsert_member(conn: psycopg.Connection, riigikogu_id: str, full_name: str) -> int:
     with conn.cursor() as cur:
         cur.execute(
             """
@@ -52,7 +49,7 @@ def upsert_member(conn: psycopg.Connection, m: MemberSummary) -> int:
               SET full_name = EXCLUDED.full_name
             RETURNING id
             """,
-            (m.riigikogu_id, m.full_name, _slugify(m.full_name)),
+            (riigikogu_id, full_name, _slugify(full_name)),
         )
         row = cur.fetchone()
         assert row is not None
@@ -91,7 +88,19 @@ def set_member_party(
         )
 
 
-def upsert_vote(conn: psycopg.Connection, v: VoteDetail) -> int:
+def upsert_vote(
+    conn: psycopg.Connection,
+    *,
+    riigikogu_uuid: str,
+    voted_at,
+    title: str,
+    vote_type_slug: str | None,
+    agenda_item: str | None,
+    yes_count: int,
+    no_count: int,
+    abstain_count: int,
+    absent_count: int,
+) -> int:
     with conn.cursor() as cur:
         cur.execute(
             """
@@ -112,15 +121,8 @@ def upsert_vote(conn: psycopg.Connection, v: VoteDetail) -> int:
             RETURNING id
             """,
             (
-                str(v.riigikogu_uuid),
-                v.voted_at,
-                v.title,
-                v.vote_type_slug,
-                v.agenda_item,
-                v.yes_count,
-                v.no_count,
-                v.abstain_count,
-                v.absent_count,
+                riigikogu_uuid, voted_at, title, vote_type_slug, agenda_item,
+                yes_count, no_count, abstain_count, absent_count,
             ),
         )
         row = cur.fetchone()
@@ -131,19 +133,14 @@ def upsert_vote(conn: psycopg.Connection, v: VoteDetail) -> int:
 def replace_ballots(
     conn: psycopg.Connection,
     vote_id: int,
-    member_ids_by_riigikogu_id: dict[str, int],
-    ballots: Iterable,
+    rows: list[tuple[int, str]],
 ) -> None:
+    """Replace a vote's ballots. `rows` is a list of (member_id, choice)."""
     with conn.cursor() as cur:
         cur.execute("DELETE FROM ballots WHERE vote_id = %s", (vote_id,))
-        rows = [
-            (vote_id, member_ids_by_riigikogu_id[b.member_riigikogu_id], b.choice)
-            for b in ballots
-            if b.member_riigikogu_id in member_ids_by_riigikogu_id
-        ]
         cur.executemany(
             "INSERT INTO ballots (vote_id, member_id, choice) VALUES (%s, %s, %s)",
-            rows,
+            [(vote_id, mid, choice) for mid, choice in rows],
         )
 
 
