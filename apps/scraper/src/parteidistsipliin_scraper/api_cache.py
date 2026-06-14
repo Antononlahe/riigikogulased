@@ -2,6 +2,7 @@
 
 - ``votings.jsonl`` -- one raw `/api/votings/{uuid}` response per line; resumable by uuid.
 - ``plenary-members.json`` -- the raw `/api/plenary-members` array (a snapshot).
+- ``sessions.json`` -- the raw `/api/sessions` array (a snapshot).
 
 The Riigikogu archive is immutable, so once a voting is cached we never refetch it.
 ``rebuild`` replays the cache into the database with no network.
