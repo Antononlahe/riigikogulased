@@ -163,12 +163,9 @@ def pending_migrations(applied: set[str], migrations_dir: Path | None = None) ->
 
 def _applied_versions(conn: psycopg.Connection) -> set[str]:
     with conn.cursor() as cur:
-        cur.execute(
-            "SELECT EXISTS (SELECT 1 FROM information_schema.tables "
-            "WHERE table_name = 'schema_migrations')"
-        )
+        cur.execute("SELECT to_regclass('schema_migrations') IS NOT NULL AS present")
         row = cur.fetchone()
-        if not row or not row["exists"]:
+        if not row or not row["present"]:
             return set()
         cur.execute("SELECT version FROM schema_migrations")
         return {r["version"] for r in cur.fetchall()}
