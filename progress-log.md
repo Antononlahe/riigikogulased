@@ -13,6 +13,19 @@ Entry format:
 
 ---
 
+## 2026-06-14 — Ops: set GH Actions `DATABASE_URL` secret (closes v0.1 open item)
+
+**What:** Set the `DATABASE_URL` Actions repo secret on `Antononlahe/parteidistsipliin`
+via `gh secret set --app actions` (gh 2.94.0 at `C:\Program Files\GitHub CLI\gh.exe`),
+value = the validated Neon pooled connection string from `apps/scraper/.env`. The daily
+cron (`scrape.yml`) now has a write path. Not yet exercised by a manual dispatch — a
+`workflow_dispatch` is a live production write and was left for the user / the 05:00 UTC
+cron.
+**Why:** Last open v0.1 blocker — the API-sourced daily cron couldn't write without it.
+**Touched:** GitHub repo Actions secrets (no code change); `progress.md` follow-ups.
+
+---
+
 ## 2026-06-14 — v0.2/A1: API ingestion cutover (HTML removed); parity-verified
 
 **What:** Replaced HTML scraping with the official Open Data API (`api.riigikogu.ee`) as

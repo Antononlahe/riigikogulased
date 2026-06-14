@@ -30,9 +30,12 @@ Isamaa votes); no other faction is affected. No porting bugs. See the 2026-06-14
 
 ### Open / follow-ups
 
-1. **GH Actions `DATABASE_URL` secret still unset** (carried from v0.1) — the daily cron
-   (`scrape.yml`, now running the API-sourced `daily`) can't write until it's added in the
-   repo settings. `gh` CLI isn't installed in this environment, so this is a manual step.
+1. **GH Actions `DATABASE_URL` secret — DONE (2026-06-14).** Set as an Actions repo secret
+   via `gh secret set` (gh 2.94.0 at `C:\Program Files\GitHub CLI\gh.exe`, account
+   Antononlahe), value = the validated Neon pooled connection string. The daily cron
+   (`scrape.yml`) can now write. Not yet smoke-tested via a manual `workflow_dispatch` run
+   (a manual dispatch is a production write — left for the user to trigger or the 05:00 UTC
+   cron to exercise).
 2. **apps/web redeploy** — code is unchanged; ISR (`revalidate = 3600`) refreshes the live
    site with the new data within the hour. Force a redeploy to surface it immediately.
 3. **Deferred cleanups (not blocking):** switch the procedural discriminator from the
