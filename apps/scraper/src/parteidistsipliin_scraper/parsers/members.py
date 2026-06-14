@@ -4,7 +4,7 @@ import re
 
 from selectolax.parser import HTMLParser
 
-from parteidistsipliin_scraper.models import MemberSummary
+from parteidistsipliin_scraper.models import MemberSummary, normalize_faction
 
 SAADIK_UUID_RE = re.compile(
     r"/saadik/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})/",
@@ -44,7 +44,7 @@ def parse_members(html: str) -> list[MemberSummary]:
         seen.add(rid)
 
         faction_el = card.css_first("strong")
-        faction = (faction_el.text() if faction_el else "").strip() or None
+        faction = normalize_faction(faction_el.text() if faction_el else None)
 
         out.append(
             MemberSummary(

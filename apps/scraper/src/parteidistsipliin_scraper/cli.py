@@ -30,6 +30,14 @@ async def _scrape_range(start: date, end: date) -> int:
 async def _scrape_into(client, conn, start: date, end: date) -> int:
     n = 0
     cursor = start
+    # In-process caches. The backfill writes to a possibly-distant Postgres, so every
+    # round-trip is expensive (~250 ms to a us-west-2 endpoint from the EU). Members and
+    # parties are stable across a run, and a member's faction only changes at the rare
+    # party-switch boundary -- so we hit the DB for them only on first sighting or an
+    # actual change, instead of re-upserting ~101 members on every single vote.
+    member_id_by_rid: dict[str, int] = {}     # riigikogu_id -> members.id
+    party_id_by_name: dict[str, int] = {}     # faction name  -> parties.id
+    member_party: dict[int, int] = {}         # members.id    -> current parties.id
     while cursor <= end:
         d = _fmt_et(cursor)
         # The live listing filters on startFrom/endTo (plus a redundant startDate).
@@ -46,13 +54,24 @@ async def _scrape_into(client, conn, start: date, end: date) -> int:
                 riigikogu_uuid=entry.riigikogu_uuid,
                 vote_type_slug=entry.vote_type_slug,
             )
+            vote_day = detail.voted_at.date()
             member_ids: dict[str, int] = {}
             for b in detail.ballots:
-                mid = db.upsert_member(conn, _ballot_to_member(b))
+                mid = member_id_by_rid.get(b.member_riigikogu_id)
+                if mid is None:
+                    mid = db.upsert_member(conn, _ballot_to_member(b))
+                    member_id_by_rid[b.member_riigikogu_id] = mid
                 member_ids[b.member_riigikogu_id] = mid
                 if b.party_short_name:
-                    pid = db.upsert_party(conn, b.party_short_name)
-                    db.set_member_party(conn, mid, pid, detail.voted_at.date())
+                    pid = party_id_by_name.get(b.party_short_name)
+                    if pid is None:
+                        pid = db.upsert_party(conn, b.party_short_name)
+                        party_id_by_name[b.party_short_name] = pid
+                    # Touch member_party_terms only when the faction actually changes
+                    # (first sighting in this run, or a genuine party switch).
+                    if member_party.get(mid) != pid:
+                        db.set_member_party(conn, mid, pid, vote_day)
+                        member_party[mid] = pid
             vote_id = db.upsert_vote(conn, detail)
             db.replace_ballots(conn, vote_id, member_ids, detail.ballots)
             conn.commit()

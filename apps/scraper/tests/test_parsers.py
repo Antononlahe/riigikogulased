@@ -3,10 +3,31 @@ from uuid import UUID
 
 import pytest
 
+from parteidistsipliin_scraper.models import normalize_faction
 from parteidistsipliin_scraper.parsers import parse_members, parse_vote_detail, parse_vote_list
 from parteidistsipliin_scraper.parsers.vote_list import title_to_slug
 
 FIXTURES = Path(__file__).parent.parent / "fixtures"
+
+
+# --- faction normalization (no fixture needed) -------------------------------
+
+
+@pytest.mark.parametrize(
+    ("raw", "expected"),
+    [
+        ("Eesti Reformierakonna fraktsioon", "Eesti Reformierakonna fraktsioon"),
+        ("Isamaa fraktsioon", "Isamaa fraktsioon"),
+        # Non-attached members have no party line -> None (excluded from scoring).
+        ("Fraktsiooni mittekuuluvad Riigikogu liikmed", None),
+        ("Fraktsiooni mittekuuluvad saadikud", None),
+        ("  Isamaa   fraktsioon ", "Isamaa fraktsioon"),
+        (None, None),
+        ("", None),
+    ],
+)
+def test_normalize_faction(raw: str | None, expected: str | None) -> None:
+    assert normalize_faction(raw) == expected
 
 
 # --- title -> slug helper (no fixture needed) --------------------------------
@@ -144,6 +165,14 @@ def test_parse_vote_detail_tallies_and_ballots() -> None:
     # The detail title carries the date/time of the sitting.
     assert detail.voted_at.date().isoformat() == "2026-06-08"
 
+    # Non-attached members must be stored with no party (None), never the raw
+    # "Fraktsiooni mittekuuluvad ..." label, so the discipline views exclude them.
+    assert any(b.party_short_name is None for b in detail.ballots)
+    assert all(
+        b.party_short_name is None or "mittekuuluv" not in b.party_short_name.lower()
+        for b in detail.ballots
+    )
+
 
 # --- members ------------------------------------------------------------------
 
@@ -171,8 +200,17 @@ def test_parse_members_exact() -> None:
     # Natural key is the UUID segment, not the trailing name slug.
     aab = by_id["6b45cfb5-8a17-481c-b674-80fc00c6cf5d"]
     assert aab.full_name == "Jaak Aab"
-    assert aab.party_short_name == "Fraktsiooni mittekuuluvad Riigikogu liikmed"
+    # Non-attached member -> no party (must not be scored as a pseudo-faction).
+    assert aab.party_short_name is None
+    assert aab.party_name is None
 
     akkermann = by_id["7655e8d3-b658-49f0-8e09-f6cbc4a2c714"]
     assert akkermann.full_name == "Annely Akkermann"
     assert akkermann.party_short_name == "Eesti Reformierakonna fraktsioon"
+
+    # At least one member is non-attached, and none keep the raw "mittekuuluvad" label.
+    assert any(m.party_short_name is None for m in members)
+    assert all(
+        m.party_short_name is None or "mittekuuluv" not in m.party_short_name.lower()
+        for m in members
+    )

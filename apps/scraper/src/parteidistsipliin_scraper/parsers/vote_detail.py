@@ -6,7 +6,7 @@ from uuid import UUID
 
 from selectolax.parser import HTMLParser
 
-from parteidistsipliin_scraper.models import Ballot, Choice, VoteDetail
+from parteidistsipliin_scraper.models import Ballot, Choice, VoteDetail, normalize_faction
 
 # Maps the visible Estonian decision label to the internal `ballots.choice` domain.
 # Riigikogu distinguishes "Ei haaletanud" (present but did not register a vote) from
@@ -125,7 +125,7 @@ def _parse_ballots(tree: HTMLParser) -> list[Ballot]:
             continue
 
         faction_el = row.css_first("a[href*='/fraktsioonid/']")
-        faction = (faction_el.text() if faction_el else "").strip() or None
+        faction = normalize_faction(faction_el.text() if faction_el else None)
 
         ballots.append(
             Ballot(

@@ -9,6 +9,25 @@ from pydantic import BaseModel, Field
 Choice = Literal["yes", "no", "abstain", "absent", "neutral"]
 
 
+def normalize_faction(name: str | None) -> str | None:
+    """Map a Riigikogu faction label to a party name, or ``None`` for non-attached
+    members.
+
+    Members who belong to no fraktsioon are listed under a pseudo-faction
+    ("Fraktsiooni mittekuuluvad ..." / fraktsiooni-mittekuuluvad-saadikud). They share
+    no party line, so they must be stored with ``party_id = NULL`` and excluded from
+    discipline scoring -- otherwise the views would score each independent against the
+    "majority" of all other independents, which is meaningless. Returns the cleaned
+    faction name otherwise.
+    """
+    if not name:
+        return None
+    cleaned = " ".join(name.split())
+    if "mittekuuluv" in cleaned.lower():
+        return None
+    return cleaned or None
+
+
 class VoteListEntry(BaseModel):
     """A row in the vote listing page."""
 
