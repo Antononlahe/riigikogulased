@@ -13,6 +13,33 @@ Entry format:
 
 ---
 
+## 2026-06-14 — v0.2/A2: structural schema + member enrichment (code complete)
+
+**What:** Migration `0002_structure.sql` adds `schema_migrations` (+ a `db.apply_migrations()`
+runner that `rebuild` invokes), `riigikogu_terms`, `sessions`, `sittings`, `committees` +
+`member_committee_terms`, `electoral_districts` + `member_district_terms`, and enrichment
+columns on `members` (birth/death/gender/email/phone/seniority/mandate/photo_*) and `votes`
+(`sitting_id`, `draft_uuid/title/mark`). New modules: `enrich.py` (pure transforms —
+sitting->session date map with overlap tiebreak, committee/district terms, member fields)
+and `photo.py` (WebP thumbnails written to `apps/web/public/members/<uuid>.webp`). Extended
+`api_models` (Session/Committee/DistrictHistory/Sitting/RelatedDraft + member bio + Voting
+sitting/draft), `api_cache` (sessions.json archive), `api_client` (`get_bytes`), `writer`
+(now a `WriteContext`; sessions/sittings/committees/districts/enrichment/vote-links), and
+`cli` (sessions fetch, offline-complete `rebuild`, new `photos` command). The party-term /
+ballot / vote-row path is byte-for-byte unchanged, so discipline scores do not move.
+**Why:** v0.2 governing decision 2 — lay the structural schema down now so later UI is
+additive, not migratory. Almost all of it is reproducible offline from A1's committed cache;
+only `/api/sessions` and the photo binaries need a one-time live fetch (then archived).
+**How verified:** 11 plan tasks, each implemented by a fresh subagent and passed through
+two-stage (spec + code-quality) review. 27 offline tests pass, ruff clean. Live DB
+validation (Task 11 — discipline parity + structure counts against a Neon branch, then
+production) is the remaining step.
+**Touched:** `packages/db/migrations/0002_structure.sql`; `apps/scraper/src/parteidistsipliin_scraper/`
+(`api_models`, `api_cache`, `api_client`, `db`, `writer`, `enrich`, `photo`, `cli`);
+fixtures + tests; `apps/scraper/pyproject.toml` (+ pillow); `CLAUDE.md`, `progress.md`.
+
+---
+
 ## 2026-06-14 — Ops: set GH Actions `DATABASE_URL` secret (closes v0.1 open item)
 
 **What:** Set the `DATABASE_URL` Actions repo secret on `Antononlahe/parteidistsipliin`

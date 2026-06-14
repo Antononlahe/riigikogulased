@@ -139,22 +139,43 @@ discipline view consults the table, so no code change is needed.
 Current (migration `0001_initial.sql`):
 
 - `parties` — fraktsioons
-- `members` — MPs (one row forever, even across terms)
+- `members` — MPs (one row forever, even across terms). v0.2/A2 enriched it with
+  `date_of_birth`, `date_of_death`, `gender`, `email`, `phone`, `parliament_seniority_days`,
+  `mandate_started_on`, and photo columns (`photo_uuid`, `photo_file_name`, `photo_url`,
+  `photo_thumb_path`).
 - `member_party_terms` — `(member_id, party_id, started_on, ended_on)` history
-- `votes` — individual vote events
+- `votes` — individual vote events. v0.2/A2 added `sitting_id` (FK `sittings`) and the
+  bill bridge `draft_uuid` / `draft_title` / `draft_mark` (from the voting's
+  `relatedDraft`; nullable, FK to a future bills table deferred to v0.6).
 - `ballots` — `(vote_id, member_id, choice)`, choice in `yes|no|abstain|absent|neutral`
 - `procedural_vote_types` — slugs excluded from discipline scoring
-- Views: `member_vote_alignment`, `member_discipline`, `member_current_party`
+- Views: `member_vote_alignment`, `member_discipline`, `member_current_party` (unchanged
+  by A2 — discipline scores are byte-identical across the 0002 migration)
 
-Note: a `sittings` table is referenced in older notes but does **not** exist yet — it
-arrives with the v0.2 structural migration.
+Current (migration `0002_structure.sql`, v0.2/A2):
 
-Planned (v0.2+ migrations `0002_*`, designed up front — see roadmap doc): `riigikogu_terms`,
-`committees` + `member_committee_terms`, `electoral_districts` + `member_district_terms`,
-`sessions` + `sittings`; then `volumes` (generic dossier: drafts / interpellations /
-written-questions / EU / collective-addresses by type), `bills` + `bill_sponsors` +
-`bill_readings`, `speeches`, `eurovoc_descriptors` + `volume_topics`. `votes` gains a
-`volume_uuid` FK so vote -> bill -> Eurovoc topics resolves.
+- `schema_migrations` — `(version, applied_at)`; migrations are applied by
+  `db.apply_migrations()`, which `rebuild` runs automatically. 0001 is backfilled.
+- `riigikogu_terms` — koosseis by `number` (seed: 15)
+- `sessions` — istungjärk `(term_id, number, type_code KORRALINE|ERAKORRALINE, started_on,
+  ended_on)`, from `/api/sessions` (archived to `cache/api/sessions.json`)
+- `sittings` — istung `(riigikogu_uuid, session_id, term_id, title, sitting_date)`; a
+  sitting maps to its session by date containment (narrower range wins on overlap), done
+  in `writer._write_sitting` / `enrich.map_sitting_to_session`
+- `committees` + `member_committee_terms` — from each member's `committees[]`
+- `electoral_districts` + `member_district_terms` — from each member's
+  `electoralDistrictHistory[]`
+
+Member photos: the `photos` CLI command downloads each member photo via the API,
+compresses it to a WebP thumbnail under `apps/web/public/members/<uuid>.webp` (committed,
+served statically by Next.js) and records `photo_thumb_path`; the full-res image stays a
+runtime URL (`photo_url`).
+
+Planned (v0.3+ migrations, designed up front — see roadmap doc): `volumes` (generic
+dossier: drafts / interpellations / written-questions / EU / collective-addresses by
+type), `bills` + `bill_sponsors` + `bill_readings`, `speeches`, `eurovoc_descriptors` +
+`volume_topics`. `votes.draft_uuid` becomes a real FK once `volumes`/`bills` land, so
+vote -> bill -> Eurovoc topics resolves.
 
 ## Things to be careful about
 

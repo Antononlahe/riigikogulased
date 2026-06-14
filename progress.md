@@ -1,10 +1,30 @@
 # Progress
 
 **Last updated:** 2026-06-14
-**Version target:** v0.2 — API ingestion cutover (A1) shipped; next is A2 (structural schema) or B (design system)
+**Version target:** v0.2 — A1 (API cutover) shipped; A2 (structural schema) implemented offline, pending live validation; next is B (design system)
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**v0.2 / A2 (structural schema + member enrichment) — code complete, offline tests green;
+live DB validation (Task 11) still pending.** Migration `0002_structure.sql` adds
+`schema_migrations` (+ a `db.apply_migrations()` runner that `rebuild` invokes),
+`riigikogu_terms`, `sessions`, `sittings`, `committees` + `member_committee_terms`,
+`electoral_districts` + `member_district_terms`, and enrichment columns on `members`
+(birth/death/gender/email/phone/seniority/mandate/photo) and `votes`
+(`sitting_id`, `draft_uuid/title/mark`). New modules: `enrich.py` (pure transforms incl.
+the sitting->session date map), `photo.py` (WebP thumbnails). `api_models`/`api_cache`/
+`api_client`/`writer`/`cli` extended; `writer` now uses a `WriteContext`. Sessions are
+fetched from `/api/sessions` and archived to `cache/api/sessions.json`; everything else is
+reproducible offline from the existing cache. 27 offline tests pass, ruff clean. Each task
+went through two-stage subagent review.
+
+**Still to do for A2:** run Task 11 (live validation) — Neon branch, `members` + `rebuild`,
+assert discipline totals unchanged (21024 / 20940 / 84) and structure populated (~150
+sittings, 16 sessions, ~395 votes with a draft), run `photos`, commit
+`cache/api/sessions.json` + thumbnails, then apply to production.
+
+## Prior status (A1)
 
 **v0.2 / A1 (API ingestion cutover) is done and live.** Ingestion is now sourced entirely
 from the official Open Data API (`api.riigikogu.ee`); the HTML scraping path (parsers,
@@ -44,15 +64,15 @@ Isamaa votes); no other faction is affected. No porting bugs. See the 2026-06-14
 
 ## Next work slice
 
-Pick the next v0.2 sub-project:
+1. **Finish A2 — Task 11 live validation** (see Current status). The code is in; this is
+   the remaining DB-side gate before A2 is done.
+2. **B — design-system foundation**: design tokens + party palette, shadcn/ui,
+   Recharts/visx, Framer Motion + View Transitions, layout shell, redesigned members table.
+   Now unblocked by A2's data (member bio, photos, committees, districts). The member-detail
+   UI (vote timeline, party-switch lines) lives here, not in A2.
 
-- **A2 — structural schema + member enrichment**: migration `0002_*` (riigikogu_terms,
-  committees + member_committee_terms, electoral_districts + member_district_terms,
-  sessions + sittings), enrich the member record (photo, district, birth year, seniority,
-  email/phone), link votes -> sitting. Populated from the already-archived raw API JSON.
-- **B — design-system foundation**: design tokens + party palette, shadcn/ui,
-  Recharts/visx, Framer Motion + View Transitions, layout shell, redesigned members table.
-  Independent of A2; immediately visible.
+Spec/plan for A2: `docs/superpowers/specs/2026-06-14-v0.2-a2-structural-schema-design.md`
+and `docs/superpowers/plans/2026-06-14-v0.2-a2-structural-schema.md`.
 
 Specs/plans for A1 live under `docs/superpowers/{specs,plans}/2026-06-14-v0.2-api-cutover*`.
 
