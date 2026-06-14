@@ -1,0 +1,30 @@
+[
+  {
+    "uuid": "11111111-1111-1111-1111-111111111111",
+    "fullName": "Yoko Alender",
+    "firstName": "Yoko",
+    "lastName": "Alender",
+    "active": true,
+    "email": "yoko.alender@riigikogu.ee",
+    "phone": "+372 6316000",
+    "photo": {"uuid": "photo-0001", "fileName": "Alender.jpg"},
+    "plenaryMembership": {"membershipNumber": 15, "startDate": "2023-04-01", "endDate": null, "role": {"code": "LIIGE", "value": "liige"}},
+    "factions": [
+      {"uuid": "re-0000", "name": "Eesti Reformierakonna fraktsioon", "active": true}
+    ]
+  },
+  {
+    "uuid": "44444444-4444-4444-4444-444444444444",
+    "fullName": "Jaak Aab",
+    "firstName": "Jaak",
+    "lastName": "Aab",
+    "active": true,
+    "email": "jaak.aab@riigikogu.ee",
+    "phone": "+372 6316693",
+    "photo": {"uuid": "photo-0044", "fileName": "Aab.jpg"},
+    "plenaryMembership": {"membershipNumber": 15, "startDate": "2023-04-01", "endDate": null, "role": {"code": "LIIGE", "value": "liige"}},
+    "factions": [
+      {"uuid": "na-0000", "name": "Fraktsiooni mittekuuluvad Riigikogu liikmed", "active": true}
+    ]
+  }
+]
