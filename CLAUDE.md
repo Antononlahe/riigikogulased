@@ -2,6 +2,23 @@
 
 Notes for AI assistants (and humans) working on this repo. Keep it current.
 
+## Working rhythm — read this first
+
+Two files track work-in-flight and you are expected to keep them current:
+
+- **`progress.md`** — single snapshot of "where are we now". Open it at the start of
+  every session. Update it (in place — overwrite, don't append) whenever the current
+  status or the next work slice changes: a feature lands, a blocker is hit, the
+  current slice is finished and a new one is chosen. Keep it short.
+- **`progress-log.md`** — append-only history. After any meaningful code or data
+  change (a commit, a schema migration, a non-trivial refactor, a decision reversed),
+  prepend a new dated entry at the top in the documented format. The log is the
+  audit trail; don't rewrite past entries.
+
+If you're about to commit, ask yourself: "did I update both files?" If only one or
+the other, that's usually a sign something is off — `progress-log.md` always gets a
+new entry; `progress.md` gets edited whenever the answer to "what's next" shifts.
+
 ## What this is
 
 A public dashboard that surfaces how loyal each Riigikogu (Estonian parliament) member is to
