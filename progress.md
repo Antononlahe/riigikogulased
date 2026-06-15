@@ -1,10 +1,33 @@
 # Progress
 
 **Last updated:** 2026-06-15
-**Version target:** v0.2 — A1 (API cutover) and A2 (structural schema) both shipped and live; next is B (design system)
+**Version target:** v0.2 — A1 (API cutover), A2 (structural schema), and B (design-system
+foundation + members table) all code-complete; next is C (member-detail page)
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**v0.2 / B (design-system foundation + members table) — CODE COMPLETE on the branch (not
+yet deployed/visually verified).** Editorial/broadsheet direction. `apps/web` now has a CSS-
+variable token layer (light + dark via `@theme inline`), the locked six-party palette
+(RE/EKRE/KE/E200/SDE/I as fill + ink, dark tones lifted), shadcn/ui (button, dropdown-menu),
+next-themes (class + system default), self-hosted fonts (Source Serif 4 + Inter), Framer
+Motion (reduced-motion aware) and CSS `@view-transition`. The members list is rebuilt as a
+sortable/filterable enriched table (photo avatar, party badge, discipline bar, `aria-sort`,
+party filter). Pure logic is unit-tested (`lib/party.ts`, `lib/members.ts` — 9 vitest
+tests); `getMemberDiscipline` gained `photoThumbPath`. Spec/plan:
+`docs/superpowers/specs/2026-06-15-v0.2-b-design-system-design.md` and
+`docs/superpowers/plans/2026-06-15-v0.2-b-design-system.md`.
+
+Verified green: typecheck, `next lint`, 9 tests, production build (5/5 static pages,
+0 `MISSING_MESSAGE`), dev server HTTP 200 with the editorial shell. A latent i18n bug was
+fixed during integration (`NextIntlClientProvider` now receives `messages` via
+`getMessages()` — next-intl v3 doesn't auto-inherit). **Still to do before calling B done:**
+deploy + visual/interactive verification against real data (theme toggle, row motion,
+responsive widths, the populated table) — needs a reachable DB; left for manual confirmation
+since the sandbox has none.
+
+## Prior status (A2)
 
 **v0.2 / A2 (structural schema + member enrichment) — DONE and live in production.**
 Migration `0002_structure.sql` added `schema_migrations` (+ a `db.apply_migrations()`
@@ -73,12 +96,25 @@ Isamaa votes); no other faction is affected. No porting bugs. See the 2026-06-14
 
 ## Next work slice
 
-**B — design-system foundation**: design tokens + party palette, shadcn/ui, Recharts/visx,
-Framer Motion + View Transitions, layout shell, redesigned members table. Now unblocked by
-A2's data (member bio, photos, committees, districts). The member-detail UI (vote timeline,
-party-switch lines) lives here, not in A2.
+**C — member-detail page**: per-member route (`/[locale]/members/[slug]`) with the vote
+timeline + with/against-party markers + party-switch lines (visx/D3 — added in C, not B),
+built on B's design-system foundation. The members-table rows become links into it (plain
+text in B). Scoped out of B deliberately; B delivers tokens + palette + shell + the enriched
+list. Before starting C, close out B: deploy `apps/web` and do the visual/interactive
+verification that needs a live DB (theme toggle, row motion, responsive widths, populated
+table).
 
-### A2 follow-ups (minor, from the final review — not blocking B)
+### B follow-ups (minor, from review — not blocking C)
+
+- `MembersTable`: new-column sort always starts ascending (worst-first for discipline,
+  matches the SQL default); reconsider per-column default direction if UX feedback wants
+  most-defections-first. `aria-sort` is wired; consider visible sort affordance polish.
+- `NextIntlClientProvider` is passed the full `messages` object; could `pick` only the
+  client namespaces (theme/locale/table/filter) to trim the client payload if it ever grows.
+- Member names render as plain text in B; wrap in locale-aware `Link` when C lands the
+  detail route.
+
+### A2 follow-ups (minor, from the final review — not blocking B/C)
 
 - `member_committee_terms` UNIQUE is `(member_id, committee_id, started_on)`; Postgres
   treats NULL `started_on` as distinct, so a committee membership with no start date would

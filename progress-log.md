@@ -13,6 +13,41 @@ Entry format:
 
 ---
 
+## 2026-06-15 — v0.2/B: design-system foundation + members table (code complete)
+
+**What:** Stood up the editorial design-system foundation in `apps/web` and rebuilt the
+members list against it. Token layer (`globals.css`) as CSS variables with light + dark
+themes, mapped to Tailwind v4 via `@theme inline`; the locked six-party palette (RE/EKRE/
+KE/E200/SDE/I) as fill + ink tokens (dark tones lifted for AA). Added shadcn/ui (button,
+dropdown-menu, new-york), next-themes (class strategy + system default), self-hosted fonts
+(Source Serif 4 display + Inter UI via `next/font`), Framer Motion (row-reorder, reduced-
+motion aware), and CSS `@view-transition`. New components: party badge, discipline bar,
+member avatar (photo + initials fallback), theme + locale toggles, editorial site header,
+and the client `MembersTable` (sortable by name/discipline/votes/against, party filter,
+`aria-sort`). Pure logic unit-tested: `lib/party.ts` (token mapping) and `lib/members.ts`
+(sort with nulls-last + Estonian collation, filter) — 9 vitest tests. Query extended with
+`photoThumbPath`. Visual direction (editorial/broadsheet), dark-mode-now, enriched-table,
+and palette were chosen via a brainstorming session with browser mockups.
+**Why:** Governing decision 4 — "UI is first-class from v0.2." B is the design layer every
+later version builds against (additive, not a re-skin). Member-detail page (visx vote
+timeline, party-switch lines) is deliberately deferred to slice C.
+**Bug fixed mid-integration:** `NextIntlClientProvider` was rendered without `messages`;
+on next-intl v3 (no v4 auto-inheritance) this made client `useTranslations` (theme/locale/
+table/filter namespaces) throw `MISSING_MESSAGE` once client islands rendered. Fixed by
+`getMessages()` in the layout and passing `messages={messages}` (commit `616931e`).
+**Verification:** typecheck, `next lint`, and 9 vitest tests all clean; production build
+compiles, generates 5/5 static pages, 0 `MISSING_MESSAGE`; dev server returns HTTP 200 with
+the editorial shell. Interactive checks (theme toggle, motion, responsive widths) and the
+real-data table need a reachable DB and are left for manual confirmation (no DB in sandbox).
+**Touched:** `apps/web/` — `app/[locale]/{globals.css,layout.tsx,page.tsx}`,
+`components/` (ui/ + site-header, theme/locale toggles, party-badge, discipline-bar,
+member-avatar, members-table, theme-provider), `lib/{party,members,queries,utils}.ts`
+(+ tests), `components.json`, `package.json`. Spec + plan under `docs/superpowers/`.
+Executed via subagent-driven development (per-task implement + spec review + quality
+review).
+
+---
+
 ## 2026-06-15 — v0.2/A2: production cutover (validated, live)
 
 **What:** Applied A2 to production. Validated first on an isolated Neon branch
