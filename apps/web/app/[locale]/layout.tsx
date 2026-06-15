@@ -1,8 +1,21 @@
 import { NextIntlClientProvider } from "next-intl";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { Inter, Source_Serif_4 } from "next/font/google";
 import { routing, type Locale } from "@/i18n/routing";
+import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-inter",
+  display: "swap",
+});
+const sourceSerif = Source_Serif_4({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-source-serif",
+  display: "swap",
+});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -15,10 +28,7 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "site" });
-  return {
-    title: t("title"),
-    description: t("tagline"),
-  };
+  return { title: t("title"), description: t("tagline") };
 }
 
 export default async function LocaleLayout({
@@ -33,9 +43,11 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={locale}>
-      <body className="min-h-screen bg-neutral-50 text-neutral-900 antialiased">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+    <html lang={locale} suppressHydrationWarning className={`${inter.variable} ${sourceSerif.variable}`}>
+      <body className="min-h-screen font-sans antialiased">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
