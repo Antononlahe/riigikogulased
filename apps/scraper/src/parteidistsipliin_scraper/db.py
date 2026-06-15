@@ -356,6 +356,18 @@ def enrich_member(conn: psycopg.Connection, member_id: int, f) -> None:
         )
 
 
+def set_member_active(conn: psycopg.Connection, member_id: int, active: bool) -> None:
+    with conn.cursor() as cur:
+        cur.execute("UPDATE members SET active = %s WHERE id = %s", (active, member_id))
+
+
+def all_member_riigikogu_ids(conn: psycopg.Connection) -> set[str]:
+    """Every member's riigikogu_id (uuid) currently in the DB."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT riigikogu_id FROM members")
+        return {r["riigikogu_id"] for r in cur.fetchall()}
+
+
 def set_member_thumb(conn: psycopg.Connection, member_id: int, thumb_path: str) -> None:
     with conn.cursor() as cur:
         cur.execute(
