@@ -57,10 +57,20 @@ and the importer builds a term from the search card. See progress-log.
    (`apps/scraper/cache/ariregister/*.html.gz`, ~2.6MB vs 31MB raw); `AriregisterCache`
    reads/writes gzip. Reproducibility re-verified from the gzipped cache (same 96/101
    matches, same 23166/23044/122 totals).
-2. **Prod cutover (USER-GATED).** Apply `0003` to prod, TRUNCATE writer tables, `rebuild`,
-   `erakond` (the committed gzip cache replays offline), `photos`. Record new totals. Same
-   protocol as A1/A2.
-3. **Delete the validation branch** `br-empty-dust-a6abd6s5` (Neon deletes are user-gated).
+2. **Prod cutover — DONE (2026-06-15, with user permission).** A minimal, non-destructive
+   cutover (NOT a wipe-and-rebuild — 0003 only renames `member_party_terms` ->
+   `member_faction_terms` preserving data, adds `member_erakond_terms` + views): took a
+   backup branch `pre-erakond-cutover-backup` (`br-cool-paper-a6qe3aqm`), applied `0003` to
+   prod via `db.apply_migrations`, then ran `erakond` (offline from the committed gzip cache,
+   matched 96/101). Verified on prod: migrations 0001/0002/0003; 165 erakond terms; discipline
+   **21024/20940/84 -> 23166/23044/122**; non-attached zero-scorers **17 -> 4**; Laneman 335
+   (RE, not in faction), Kiik 166 (SDE). The live B app keeps working (views stay
+   query-compatible) and refreshes via ISR within ~1h. `photos` not re-run (members untouched).
+3. **Delete branches** (Neon deletes are user-gated): the validation branch
+   `br-empty-dust-a6abd6s5` (no longer needed) and, once you're confident, the backup
+   `br-cool-paper-a6qe3aqm`.
+4. **Deploy `apps/web` (B + C).** Prod now has the 0003 schema, so C's queries work. Redeploy
+   to ship the member-detail page and the corrected list.
 
 **Final whole-implementation review (2026-06-15): PASS, one must-fix resolved.** The opus
 final reviewer confirmed the scoring views are correct and faithful (four-case truth table,

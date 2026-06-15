@@ -13,6 +13,30 @@ Entry format:
 
 ---
 
+## 2026-06-15 — v0.2: erakond reconciliation PROD CUTOVER (live)
+
+**What:** Applied the erakond reconciliation to production (with explicit user permission;
+prod destructive writes are normally classifier-gated). Chose a **minimal, non-destructive**
+cutover rather than the A1/A2 wipe-and-rebuild, because `0003` only renames
+`member_party_terms` -> `member_faction_terms` (data preserved), adds `member_erakond_terms`
++ `parties.registry_code`, and reworks the views — none of which requires rebuilding the
+existing votes/ballots/faction-terms. Steps: (1) created backup branch
+`pre-erakond-cutover-backup` (`br-cool-paper-a6qe3aqm`) as a restore point; (2) applied
+`0003` to prod via `db.apply_migrations` (recorded 0003); (3) ran `parteidistsipliin-scraper
+erakond` against prod — fully offline from the committed gzip ariregister cache, matched
+96/101. `photos` not re-run (members untouched).
+**Result (prod, SQL-verified):** schema_migrations 0001/0002/0003; `member_faction_terms`
+present; 165 erakond terms across 96 members; discipline **21024/20940/84 -> 23166/23044/122**;
+non-attached zero-scorers **17 -> 4** (Valge/Grünthal/Kunnas/Mölder, correctly excluded);
+Laneman 335 (RE, in_faction=false), Kiik 166 (SDE). The deployed B app keeps querying fine
+(reworked views are column-compatible) and refreshes via ISR within ~1h.
+**Why:** ship the ~17% of members previously missing from the core metric.
+**Open:** redeploy `apps/web` for B+C (prod schema now supports C); delete the validation +
+backup branches when confident; the GH Actions `DATABASE_URL` BOM secret still needs fixing
+for the daily cron (parked).
+
+---
+
 ## 2026-06-15 — v0.2/C: member-detail page (code complete + build-validated)
 
 **What:** Built the per-member detail page via subagent-driven development. Route
