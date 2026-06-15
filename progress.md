@@ -74,7 +74,10 @@ and the importer builds a term from the search card. See progress-log.
    fraktsiooni" chip + visx timeline). Deploy method + lockfile footguns now documented in
    CLAUDE.md "Deploying the web app" (deploy from `apps/web` with npm; never a partial
    package-lock). A ~1h detour fixing a broken `apps/web/package-lock.json` (a committed
-   build-time swc patch had pruned `next`) — regenerated a full lockfile.
+   build-time swc patch had pruned `next`), then **unified the project on pnpm**: `apps/web` is
+   now a standalone pnpm app (`apps/web/pnpm-lock.yaml`, `packageManager pnpm@9.12.0`); removed
+   the root pnpm-workspace + root pnpm-lock + the npm lockfile, killing the dual-lockfile
+   footgun. Redeployed; Vercel build confirmed "Package Manager changed from npm to pnpm".
 
 **Final whole-implementation review (2026-06-15): PASS, one must-fix resolved.** The opus
 final reviewer confirmed the scoring views are correct and faithful (four-case truth table,

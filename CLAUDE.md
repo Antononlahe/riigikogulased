@@ -92,7 +92,12 @@ the raw search pages are large fuzzy result sets (`AriregisterCache` handles com
 ## Deploying the web app (READ THIS before touching deps or deploying)
 
 The live site is **https://parteidistsipliin.vercel.app** (Vercel project `parteidistsipliin`,
-linkage committed under `apps/web/.vercel`). Deploy with the Vercel CLI **from `apps/web`**:
+linkage committed under `apps/web/.vercel`). The project is **pnpm-only** (unified 2026-06-15):
+`apps/web` is a standalone pnpm app (`apps/web/pnpm-lock.yaml`, `packageManager: pnpm@9.12.0`);
+there is **no** root pnpm-workspace and **no** npm lockfile anywhere. Use `corepack pnpm`
+locally (`corepack pnpm -C apps/web <script>`, or the root passthroughs `pnpm -C apps/web …`).
+
+Deploy with the Vercel CLI **from `apps/web`**:
 
 ```
 cd apps/web && vercel --prod --yes      # CLI authed as antononlahe; binary /c/nvm4w/nodejs/vercel
@@ -103,15 +108,11 @@ Hard-won rules (a 2026-06-15 deploy burned an hour on these — do not repeat):
 - **Deploy FROM `apps/web`, not the repo root.** Vercel's Root Directory is the `apps/web`
   linkage; the root `package.json` has no `next`, so a root deploy fails with
   *"No Next.js version detected."* Do not create a `.vercel` at the repo root.
-- **Vercel builds `apps/web` with `npm`** (it uses `apps/web/package-lock.json`), NOT pnpm.
-  The repo root is *also* a pnpm workspace (`pnpm-lock.yaml`, `packageManager: pnpm`) — that
-  is for local dev tooling only and is **not** what Vercel uses. Don't conflate them.
-- **When adding/Changing a web dependency, run a FULL `npm install` in `apps/web`** so
-  `apps/web/package-lock.json` is complete and consistent, and commit it. NEVER hand-patch
-  the lockfile and never use `npm install --package-lock-only` (it yields an *incomplete*
-  tree → Vercel's install prunes `next` → *"No Next.js detected."*). If you also use pnpm
-  locally, keep `pnpm-lock.yaml` in sync too, but the lockfile that gates the deploy is the
-  npm one in `apps/web`.
+- **Use pnpm for web deps, never npm.** Add/change deps with `corepack pnpm -C apps/web add …`
+  (or edit `package.json` then `corepack pnpm -C apps/web install`), which keeps
+  `apps/web/pnpm-lock.yaml` consistent; commit it. Do NOT run `npm install` in `apps/web`
+  (creates a stray `package-lock.json` that drifts) and never hand-patch a lockfile — an
+  inconsistent lockfile makes the Vercel install prune `next` → *"No Next.js detected."*
 - `generateStaticParams` (member pages) reads the DB at build time; Vercel has `DATABASE_URL`
   set, and prod must already be on the required migration (e.g. C needs `0003`) before deploy.
 
