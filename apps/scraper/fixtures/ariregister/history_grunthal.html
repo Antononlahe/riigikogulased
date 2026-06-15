@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="utf-8">
+    <title>Liikme ajalugu &vert; e-Äriregister</title>
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-config" content="/static/browserconfig.xml"/>
+    <meta name="google-site-verification" content="esJVvItR2eYY3rF7O50xuYjSToyThuqpa_2QbuWArek"/>
+    <meta name="theme-color" content="#f4f4f4"/>
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg?2.12.9" sizes="any"/>
+    <link rel="icon" type="image/png" href="/static/favicon-96x96.png?2.12.9" sizes="96x96" />
+    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico?2.12.9" sizes="48x48"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png?2.12.9" />
+    <link rel="stylesheet" type="text/css" href="/static/arireg.css?2.12.9" />
+    
+    
+    <script type="text/javascript" nonce="70588fce">
+        if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+            location.href="/est/ie_not_supported";
+        }
+    </script>
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" type="text/css" href="/static/ie_deprecated.css?2.12.9">
+    <script src="/static/js/ie_deprecated.js?2.12.9"></script>
+    <![endif]-->
+</head>
+
+<body class="layout-main lang--est page__political_party_member_history">
+    <script nonce="70588fce">
+        if(localStorage.getItem('visually-impaired')){
+            document.getElementsByTagName('body')[0].className += " visually-impaired";
+        }
+    </script>
+
+    <div class="toast-container"></div>
+
+    <div class="keyboard-container d-none">
+        <div class="keyboard-wrapper">
+            <div class="keyboard-close">
+                <button type="button" class="close" data-action="toggleKeyboard" aria-label="Sulge virtuaalklaviatuur"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="simple-keyboard"></div>
+        </div>
+    </div>
+    
+        <div class="ar__body min-vh-90">
+
+        
+            <div class="ar__loading">
+                <div class="page_loader"></div>
+            </div>
+            <div class="wcag">
+                <a class="nav-skip-to-content-link" href="#" data-action="skipToContent">Liigu põhisisu juurde</a>
+                <a class="nav-skip-to-content-link2" href="/est/accessibility">Juurdepääsetavus</a> 
+            </div>
+            <div class="ar__header ar__header--shadow">
+
+                <div class="ar__menu_mobile d-flex d-md-none align-items-center border-bottom justify-content-around py-3 px-3">
+
+                            <div class="ar__header__altmenu__item">
+                                <a href="/est/cart/cart" class="mr-2 pr-1 text-decoration-none text-nowrap"><img src="/static/icons/cart_white.svg" class="ar__subheader__buttons__icon" alt="Ostukorv"><span class="icon--count icon--count-dark ar__cart__count" data-count="0">0</span></a>
+                            </div>
+
+
+
+                            
+                            <div class="ar__header__altmenu__item">
+                                <div class="dropdown">
+                                    <a class="ar__subheader__buttons__lang__link text-white" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">est<img src="/static/icons/shape-copy_white.svg" class="ml-2" alt="" role="presentation"></a>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink1">
+                                        <a class="dropdown-item" href="/est/political_party/member_history/2000000580">Eesti keel</a>
+                                        <a class="dropdown-item" href="/eng/political_party/member_history/2000000580">In English</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="ar__header__altmenu__item ar__header__altmenu__item__burger d-flex align-items-center">
+                            <button class="hamburger hamburger--spring sitemap_toggle_js" type="button" data-target_sitemap_id="burger" aria-label="Menüü">
+                              <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                            </button>
+                        </div>      
+
+                </div>
+                <div class="ar__width_fixed">
+
+                    <div class="ar__header__main d-flex justify-content-between">
+                        <div class="ar__header__main__1 d-flex flex-nowrap">
+                            <a href="/est" class="mx-3 position-relative">
+                                <img class="ar__header__logo" src="/static/icons/logo-est_white.svg" alt="e-Äriregister logo">
+                            </a>
+                        </div>
+                        <div class="ar__header__main__2 d-none d-md-block m-lg-auto">
+
+                            <nav class="ar__header__menu d-none d-lg-flex align-items-center justify-content-start">
+                                <a class="ar__header__menu__item  ie" href="/est">Avaleht</a>
+                                <a class="ar__header__menu__item  ie" href="/est/undertaking">
+                                    Minu töölaud
+                                        <img src="/static//icons/lock-24px_white.svg" class="icon--lock white-lock ml-2" alt="" role="presentation">
+                                </a>
+                                <a class="ar__header__menu__item sitemap_toggle_js ie" data-target_sitemap_id="2" href="#">Päringud</a>
+                                <a href="/est/auth/redirect_xbrl" class="dont-underline">
+                                        <div class="ar__header__menu__item">Aruande esitamine<img src="/static//icons/lock-24px_white.svg" class="icon--lock ml-2 white-lock" alt="" role="presentation"></div>
+                                </a>
+                                <a class="ar__header__menu__item sitemap_toggle_js" data-target_sitemap_id="4" href="#">Muud teenused</a>
+                                <a class="ar__header__menu__item" href="https://abiinfo.rik.ee/" target="_blank">Abi</a>
+                            </nav>
+
+                            <div class="ar__header__altmenu__item ar__header__altmenu__item__burger d-flex d-lg-none align-items-center ml-5">
+                                <button class="hamburger hamburger--spring sitemap_toggle_js" type="button" data-target_sitemap_id="burger" aria-label="Menüü">
+                                  <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+                                </button>
+                            </div>
+
+                        </div>
+
+                            <nav class="ar__header__menu ar__header__altmenu d-flex ml-auto align-items-center justify-content-end flex-nowrap">
+
+                                    <div class="ar__header__altmenu__item ar__header__altmenu__item__cart d-none d-md-block ie">
+                                        <a href="/est/cart/cart" class="mr-2 pr-1 text-decoration-none text-nowrap"><img src="/static/icons/cart_white.svg" class="ar__subheader__buttons__icon" alt="Ostukorv"><span class="icon--count icon--count-dark ar__cart__count" data-count="0">0</span></a>
+                                    </div>
+
+                                    <div class="ar__header__altmenu__item ar__header__altmenu__item__lang d-none d-md-block">
+                                        <div class="dropdown">
+                                            <a class="ar__subheader__buttons__lang__link text-white" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">est<img src="/static/icons/shape-copy_white.svg" class="ml-2" alt="" role="presentation"></a>
+                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink2">
+                                                <a class="dropdown-item" href="/est/political_party/member_history/2000000580" lang="et">Eesti keel</a>
+                                                <a class="dropdown-item" href="/eng/political_party/member_history/2000000580" lang="en">In English</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="ar__header__altmenu__item ar__header__altmenu__item__login ie">
+                                        <a href="/auth/aup?lang=est&amp;return_url=2f6573742f706f6c69746963616c5f70617274792f6d656d6265725f686973746f72792f32303030303030353830%7C1073be8e8142c793dce2c4f1a75e4c2c" class="btn btn-lg btn-light text-primary mx-3 btn-secondary">SISENE</a>
+                                    </div>
+                            </nav>
+
+                    </div>
+
+                    
+    
+<div class="row ar__header__sitemap" data-sitemap_id="2">
+    
+    
+    
+        <div class="col-3 d-none d-xl-block"></div>
+        <div class="col ar__header__sitemap__container">
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est">
+                    <div class="ar__header_sitemap__title">Kiirotsing</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Otsing nime või registrikoodi järgi</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section  " href="/est/beneficial_owners_query">
+                    <div class="ar__header_sitemap__title">Tegelikud kasusaajad</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Isikud, kes on juriidilise isiku tegelikud kasusaajad</div>
+                </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/political_party">
+                        <div class="ar__header_sitemap__title">Erakonnad</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Erakonnad ja liikmete nimekirjad</div>
+                    </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section" href="/est/xml_queries">
+                    <div class="ar__header_sitemap__title">XML päringud</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Teenused suuremahuliste päringute tegemiseks</div>
+                </a>
+            </div>
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/company_search">
+                    <div class="ar__header_sitemap__title">Detailotsing
+                    </div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Otsing laiendatud parameetrite (sh eraisiku) järgi</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                        href="/est/tradeban">
+                    <div class="ar__header_sitemap__title">Ärikeelud</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Kehtivad äri- ja ettevõtluskeelud</div>
+                </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                            href="/est/artistic_associations">
+                        <div class="ar__header_sitemap__title">Loomeliidud</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Loomeliidud ja liikmete nimekirjad</div>
+                    </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section t" href="/est/contract">
+                    <div class="ar__header_sitemap__title">Lepingu sõlmimine ja info</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Kirjeldus lepingu eelistest ning tingimustest</div>
+                </a>
+            </div>
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                        href="/est/visualize">
+                    <div class="ar__header_sitemap__title">Visualiseerimine
+                    </div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">e-äriregistri andmed visualiseeritud kujul</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/company_entry">
+                    <div class="ar__header_sitemap__title">Kanded</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Registrisse tehtud kannete otsing</div>
+                </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                            href="/est/trusts">
+                        <div class="ar__header_sitemap__title">Usaldushaldused</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Usaldushaldusega seotud isikute nimekiri</div>
+                    </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/media_company">
+                    <div class="ar__header_sitemap__title">Meediaettevõtted</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Meediateenuse osutajate nimekiri</div>
+                </a>
+            </div>
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                        href="/est/name_query">
+                    <div class="ar__header_sitemap__title">Nimeotsing</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Otsing nime sobivuse hindamiseks</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/company_fine">
+                    <div class="ar__header_sitemap__title">Trahvid</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Juriidilisele isikule määratud trahvide otsing</div>
+                </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                            href="/est/evr_company_search">
+                        <div class="ar__header_sitemap__title">Ettevõtteregister</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Otsing ettevõtteregistrist</div>
+                    </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/competent_authority">
+                        <div class="ar__header_sitemap__title">Pädevad asutused</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Huvide deklaratsioonide registri pädevate asutuste nimekiri</div>
+                    </a>
+            </div>
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/mass_query">
+                    <div class="ar__header_sitemap__title">Masspäring
+                        <img src="/static//icons/lock-24px.svg" class="icon--lock ml-2" alt="" role="presentation">
+                    </div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Valitud tingimustele vastavate juriidiliste isikute andmete päring</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/company_court_order">
+                    <div class="ar__header_sitemap__title">Määrused</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Juriidilisele isikule tehtud määruste otsing</div>
+                </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/emtak_search">
+                        <div class="ar__header_sitemap__title">Tegevusala otsing</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">EMTAK klassifikaator</div>
+                    </a>
+            </div>
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section" href="https://avaandmed.ariregister.rik.ee" target="blank">
+                    <div class="ar__header_sitemap__title">Avaandmed<img src="/static//icons/external-link-black.svg" class="icon pl-3 pb-1" alt="" role="presentation"></div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Laadi alla avaandmete faile ja vaata infot</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/statistics">
+                    <div class="ar__header_sitemap__title">Statistika</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Statistiline info registrisse kantud juriidiliste isikute kohta</div>
+                </a>
+                    <div class="col-sm-12 col-lg-3 ar__header__sitemap__section"></div>
+            </div>
+        </div>
+        <div class="col-1 d-none d-xl-block"></div>
+    
+</div>
+
+<div class="row ar__header__sitemap" data-sitemap_id="3">
+    
+    
+        <div class="col-3 d-none d-xl-block"></div>
+        <div class="col ar__header__sitemap__container">
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/undertaking">
+                    <div class="ar__header_sitemap__title">Minu töölaud<img src="/static//icons/lock-24px.svg" class="icon--lock ml-2" alt="" role="presentation"></div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Minu ettevõtmised ja avaldused</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/application/start">
+                    <div class="ar__header_sitemap__title">Asutamine<img src="/static//icons/lock-24px.svg" class="icon--lock ml-2" alt="" role="presentation"></div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Uue juriidilise isiku asutamine</div>
+                </a>
+                <div class="col-sm-12 col-lg-3 ar__header__sitemap__section"></div>
+                <div class="col-sm-12 col-lg-3 ar__header__sitemap__section"></div>
+            </div>
+        </div>
+        <div class="col-1 d-none d-xl-block"></div>
+    
+</div>
+
+
+<div class="row ar__header__sitemap" data-sitemap_id="4">
+    
+    
+        <div class="col-3 d-none d-xl-block"></div>
+        <div class="col ar__header__sitemap__container">
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-6 ar__header__sitemap__section" href="/est/auth/redirect_rmp">
+                    <div class="ar__header_sitemap__title">e-arveldaja<img src="/static//icons/external-link-black.svg" class="icon pl-3 pb-1" alt="" role="presentation"></div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">e-arveldaja on riigi poolt väikeettevõtjatele mõeldud lihtne raamatupidamistarkvara</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-6 ar__header__sitemap__section" href="/est/auth/redirect_kr?close=t">
+                    <div class="ar__header_sitemap__title">e-kinnistusraamat<img src="/static//icons/external-link-black.svg" class="icon pl-3 pb-1" alt="" role="presentation"></div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">e-kinnistusraamat sisaldab andmeid kõigi Eesti kinnistute kohta</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-6 ar__header__sitemap__section" href="/est/auth/redirect_lla">
+                        <div class="ar__header_sitemap__title">Loomeliidud<img src="/static//icons/lock-24px.svg" class="icon--lock ml-2" alt="" role="presentation"></div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Loomeliitude portaal sisaldab andmeid kõigi Eesti loomeliitude kohta</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-6 ar__header__sitemap__section" href="https://kattetoimetamisportaal.rik.ee/est">
+                    <div class="ar__header_sitemap__title">Kättetoimetamisportaal<img src="/static//icons/external-link-black.svg" class="icon pl-3 pb-1" alt="" role="presentation"></div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Kättetoimetamisportaalis saab isikule saadetud dokumente vastu võtta</div>
+                </a>
+            </div>
+        </div>
+        <div class="col-1 d-none d-xl-block"></div>
+    
+</div>
+
+<div class="row ar__header__sitemap" data-sitemap_id="5">
+    
+    
+        <div class="col-3 d-none d-xl-block"></div>
+        <div class="col ar__header__sitemap__container">
+
+
+
+
+
+                <!-- sitemap -->
+
+        </div>
+        <div class="col-1 d-none d-xl-block"></div>
+    
+</div>
+
+
+
+                </div>
+            </div><!-- /ar__header -->
+
+
+            <div class="row ar__burger__sitemap d-lg-none px-5 accordion-custom no-gutters" data-sitemap_id="burger">
+                <div class="col-12 ie">
+                    <a class="ar__burger__sitemap__title " href="/est">Avaleht</a>
+                </div>
+
+                <div class="col-12 ie">
+                    <a class="ar__burger__sitemap__title collapsed" href="#" data-toggle="collapse" data-target="#collapse__sitemap__2" aria-expanded="false" aria-controls="collapse__sitemap__2"><img src="/static/icons/chevron-right-1.svg" class="accordion__arrow accordion__arrow--sm mr-3 mt-0 mb-1" alt="" role="presentation">Päringud</a>
+                    <div class="row ml-4 collapse" id="collapse__sitemap__2">
+                        
+    
+        <div class="col-3 d-none d-xl-block"></div>
+        <div class="col ar__header__sitemap__container">
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est">
+                    <div class="ar__header_sitemap__title">Kiirotsing</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Otsing nime või registrikoodi järgi</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section  " href="/est/beneficial_owners_query">
+                    <div class="ar__header_sitemap__title">Tegelikud kasusaajad</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Isikud, kes on juriidilise isiku tegelikud kasusaajad</div>
+                </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/political_party">
+                        <div class="ar__header_sitemap__title">Erakonnad</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Erakonnad ja liikmete nimekirjad</div>
+                    </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section" href="/est/xml_queries">
+                    <div class="ar__header_sitemap__title">XML päringud</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Teenused suuremahuliste päringute tegemiseks</div>
+                </a>
+            </div>
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/company_search">
+                    <div class="ar__header_sitemap__title">Detailotsing
+                    </div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Otsing laiendatud parameetrite (sh eraisiku) järgi</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                        href="/est/tradeban">
+                    <div class="ar__header_sitemap__title">Ärikeelud</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Kehtivad äri- ja ettevõtluskeelud</div>
+                </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                            href="/est/artistic_associations">
+                        <div class="ar__header_sitemap__title">Loomeliidud</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Loomeliidud ja liikmete nimekirjad</div>
+                    </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section t" href="/est/contract">
+                    <div class="ar__header_sitemap__title">Lepingu sõlmimine ja info</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Kirjeldus lepingu eelistest ning tingimustest</div>
+                </a>
+            </div>
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                        href="/est/visualize">
+                    <div class="ar__header_sitemap__title">Visualiseerimine
+                    </div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">e-äriregistri andmed visualiseeritud kujul</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/company_entry">
+                    <div class="ar__header_sitemap__title">Kanded</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Registrisse tehtud kannete otsing</div>
+                </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                            href="/est/trusts">
+                        <div class="ar__header_sitemap__title">Usaldushaldused</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Usaldushaldusega seotud isikute nimekiri</div>
+                    </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/media_company">
+                    <div class="ar__header_sitemap__title">Meediaettevõtted</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Meediateenuse osutajate nimekiri</div>
+                </a>
+            </div>
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                        href="/est/name_query">
+                    <div class="ar__header_sitemap__title">Nimeotsing</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Otsing nime sobivuse hindamiseks</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/company_fine">
+                    <div class="ar__header_sitemap__title">Trahvid</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Juriidilisele isikule määratud trahvide otsing</div>
+                </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section "
+                            href="/est/evr_company_search">
+                        <div class="ar__header_sitemap__title">Ettevõtteregister</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Otsing ettevõtteregistrist</div>
+                    </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/competent_authority">
+                        <div class="ar__header_sitemap__title">Pädevad asutused</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Huvide deklaratsioonide registri pädevate asutuste nimekiri</div>
+                    </a>
+            </div>
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/mass_query">
+                    <div class="ar__header_sitemap__title">Masspäring
+                        <img src="/static//icons/lock-24px.svg" class="icon--lock ml-2" alt="" role="presentation">
+                    </div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Valitud tingimustele vastavate juriidiliste isikute andmete päring</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/company_court_order">
+                    <div class="ar__header_sitemap__title">Määrused</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Juriidilisele isikule tehtud määruste otsing</div>
+                </a>
+                    <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/emtak_search">
+                        <div class="ar__header_sitemap__title">Tegevusala otsing</div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">EMTAK klassifikaator</div>
+                    </a>
+            </div>
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section" href="https://avaandmed.ariregister.rik.ee" target="blank">
+                    <div class="ar__header_sitemap__title">Avaandmed<img src="/static//icons/external-link-black.svg" class="icon pl-3 pb-1" alt="" role="presentation"></div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Laadi alla avaandmete faile ja vaata infot</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-3 ar__header__sitemap__section " href="/est/statistics">
+                    <div class="ar__header_sitemap__title">Statistika</div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Statistiline info registrisse kantud juriidiliste isikute kohta</div>
+                </a>
+                    <div class="col-sm-12 col-lg-3 ar__header__sitemap__section"></div>
+            </div>
+        </div>
+        <div class="col-1 d-none d-xl-block"></div>
+    
+                    </div>
+                </div>
+
+                <div class="col-12 ie">
+                    <a class="ar__burger__sitemap__title " href="/est/undertaking">
+                        Minu töölaud
+                            <img src="/static//icons/lock-24px.svg" class="icon--lock ml-2" alt="" role="presentation">
+                    </a>
+                </div>
+
+                <div class="col-12 ie lol">
+                    <a class="ar__burger__sitemap__title " href="/est/auth/redirect_xbrl">
+                        Aruande esitamine
+                            <img src="/static//icons/lock-24px.svg" class="icon--lock ml-2" alt="" role="presentation">
+                    </a>
+                </div>
+
+
+                <div class="col-12">
+                    <a class="ar__burger__sitemap__title collapsed" href="#" data-toggle="collapse" data-target="#collapse__sitemap__4" aria-expanded="false" aria-controls="collapse__sitemap__4"><img src="/static/icons/chevron-right-1.svg" class="accordion__arrow accordion__arrow--sm mr-3 mt-0 mb-1" alt="" role="presentation">Muud teenused</a>
+                    <div class="row ml-4 collapse" id="collapse__sitemap__4">
+                        
+        <div class="col-3 d-none d-xl-block"></div>
+        <div class="col ar__header__sitemap__container">
+            <div class="row">
+                <a tabindex="-1" class="col-sm-12 col-lg-6 ar__header__sitemap__section" href="/est/auth/redirect_rmp">
+                    <div class="ar__header_sitemap__title">e-arveldaja<img src="/static//icons/external-link-black.svg" class="icon pl-3 pb-1" alt="" role="presentation"></div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">e-arveldaja on riigi poolt väikeettevõtjatele mõeldud lihtne raamatupidamistarkvara</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-6 ar__header__sitemap__section" href="/est/auth/redirect_kr?close=t">
+                    <div class="ar__header_sitemap__title">e-kinnistusraamat<img src="/static//icons/external-link-black.svg" class="icon pl-3 pb-1" alt="" role="presentation"></div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">e-kinnistusraamat sisaldab andmeid kõigi Eesti kinnistute kohta</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-6 ar__header__sitemap__section" href="/est/auth/redirect_lla">
+                        <div class="ar__header_sitemap__title">Loomeliidud<img src="/static//icons/lock-24px.svg" class="icon--lock ml-2" alt="" role="presentation"></div>
+                        <div class="ar__header_sitemap__desc d-none d-xl-block">Loomeliitude portaal sisaldab andmeid kõigi Eesti loomeliitude kohta</div>
+                </a>
+                <a tabindex="-1" class="col-sm-12 col-lg-6 ar__header__sitemap__section" href="https://kattetoimetamisportaal.rik.ee/est">
+                    <div class="ar__header_sitemap__title">Kättetoimetamisportaal<img src="/static//icons/external-link-black.svg" class="icon pl-3 pb-1" alt="" role="presentation"></div>
+                    <div class="ar__header_sitemap__desc d-none d-xl-block">Kättetoimetamisportaalis saab isikule saadetud dokumente vastu võtta</div>
+                </a>
+            </div>
+        </div>
+        <div class="col-1 d-none d-xl-block"></div>
+    
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <a class="col-12 ar__burger__sitemap__title" href="https://abiinfo.rik.ee/" target="_blank">Abi</a>
+                </div>
+                <div class="col-12 border-top mt-4 pt-4">
+                    <div class="ar__header__altmenu__item">
+                        <div class="dropdown">
+                            <a class="ar__subheader__buttons__lang__link" href="#" role="button" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">est<img src="/static/icons/shape-copy.svg" class="ml-2" alt="" role="presentation"></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink3">
+                                <a class="dropdown-item" href="/est/political_party/member_history/2000000580" lang="et">Eesti keel</a>
+                                <a class="dropdown-item" href="/eng/political_party/member_history/2000000580" lang="en">In English</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="ar__feedback d-print-none">
+                    <div class="feedback_buttons">
+                        <a class="collapse_control collapsed d-block d-md-none" href="#feedback_collapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="feedback_collapse">
+                            <span>
+                                <img src="/static/icons/chevron-down-1.svg" class="accordion__arrow--xs" alt="" role="presentation">
+                            </span>
+                        </a>
+                        <div class="collapse" id="feedback_collapse">
+                            <button class="btn btn-primary nps " data-autoplay_time="" data-nps="NPS_0">&#9734; Tagasiside</button>
+                        </div>
+                    </div>
+                </div>
+            <div class="ar__subheaders__bg">
+
+                
+                
+
+            </div>
+        
+
+        <div class="primary-alerts">
+            <div class="ar__alert__msg">
+            </div>
+            <div class="ar__alert__wmsg">
+            <noscript>
+                <div class="alert alert-warning alert-dismissible" role="alert" aria-live="assertive">
+                    Teie veebilehitseja ei toeta Javascripti või on see brauseri seadete all välja lülitatud, mistõttu ei pruugi antud lehel kõik funktsionaalsused toimida. <a target="_blank" href="https://support.microsoft.com/et-ee/office/javascripti-lubamine-7bb9ee74-6a9e-4dd1-babf-b0a1bb136361">Näide Javascripti sisselülitamisest.</a>
+                </div>
+            </noscript>
+            </div>
+        </div>
+
+
+        
+
+        
+
+            <div class="ar__center__bg">
+                <main class="ar__center container ">
+
+            
+
+
+
+<div class="card-group row">
+<div class="card col-md-12">
+    <div class="card-body">
+
+        <h1>
+            Erakonnad
+            <a href="/est/political_party/members_search" class="btn btn-secondary border-0 float-md-right ml-md-2"><span class="chevron-back mr-2">‹</span>Tagasi nimekirja</a>
+        </h1>
+
+
+        <h2>
+            Kalle Grünthal (24.02.1960)
+        </h2>
+
+        <div class="line"></div>
+
+        <h2 class="mt-5">Liikme ajalugu</h2>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <p class="mb-5">Kui tuvastate erakonda kuuluvuse andmetes vigu, siis võtke palun ühendust erakonna esindajaga.</p>
+            </div>
+
+            <div class="table-responsive-md col-md-9">
+                <table class="table table-md table-bold table-borderless" id="party_table">
+                <tbody>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Nimetus</th>
+                        <th>Registrikood</th>
+                        <th>Erakonna olek</th>
+                        <th>Liitus</th>
+                        <th>Lahkus</th>
+                    </tr>
+                        <tr class="">
+                            <td></td>
+                                <td>Eesti Konservatiivne Rahvaerakond</td>
+                            <td>80040344</td>
+                            <td>
+                                    <img src="/static/icons/registrisse-kantud.svg" class="icon icon--w29 icon--h30 mr-3" alt="" role="presentation">
+                                Registrisse kantud
+                            </td>
+                            <td>14.03.2017</td>
+                            <td>18.10.2023</td>
+                        </tr>
+                        <tr class="">
+                            <td></td>
+                                <td>Ühendus Vabariigi Eest - Res Publica</td>
+                            <td>80131035</td>
+                            <td>
+                                    <img src="/static/icons/kustutatud.svg" class="icon icon--w29 icon--h30 mr-3" alt="" role="presentation">
+                                Kustutatud
+                            </td>
+                            <td>02.09.2002</td>
+                            <td>01.01.2005</td>
+                        </tr>
+                </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+                </main>
+            </div>
+
+        
+            <div class="ar__footer ar__footer--long">
+                <div class="ar__footer__container row mb-4">
+                    <div class="col-md text-nowrap font-weight-normal mt-3">
+                        <span class=" font-weight-bold">E-äriregistri klienditugi</span>
+                        <br><a href="#" data-action="openCSModal">Kirjuta klienditoele</a>
+                        <br>E-mail: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ff96919990bf8d9694d19a9a">[email&#160;protected]</a><br>Telefon: +372 680 3160<br>E-N 9.00-17.00, R 9.00-14.00<br><a href="https://www.rik.ee" target="_blank">www.rik.ee</a>
+                    </div>
+                    <div class="col-md text-nowrap mt-3">
+                        <span class="">Leia kiirelt</span>
+                        <br><a href="https://www.kohus.ee/eesti-kohtud/kohtususteem/maakohtud/tartu-maakohus/kinnistus-ja-registriosakond" target="_blank">Registriosakond</a><br><a href="https://www.notar.ee/et/notarid/yldiselt" target="_blank">Notarid</a><br><a href="https://kinnistusraamat.rik.ee" target="_blank">e-kinnistusraamat</a><br><a href="https://www.emta.ee/et" target="_blank">Maksu- ja Tolliamet</a>
+                    </div>
+                    <div class="col-md text-nowrap mt-3">
+                        <span class="">Kasulik</span>
+                        <br><a href="/est/pricelist">Hinnakiri</a>
+<br><a href="https://juristaitab.ee/" target="_blank">Juristaitab.ee</a>
+<br><a href="https://e-resident.gov.ee/" target="_blank">e-residentidele</a>
+<br><a href="https://abiinfo.rik.ee/uudised/uuenduste-nimekiri" target="_blank">Uuenduste nimekiri</a>
+                    </div>
+                    <div class="text-right mt-3">
+                        <img src="/static/icons/EL-logo.svg" class="ar__footer__logo" alt="" role="presentation">
+                        
+                        
+                    </div>
+                </div>
+                <div class="ar__footer__links">
+                    <a href="/est/accessibility" class="btn-link">Juurdepääsetavus</a>
+                    <span class="d-none d-md-inline text-light">&nbsp; | &nbsp; </span>
+                    <br class="d-inline d-md-none">
+                    <a href="/est/dataprotection" class="btn-link">Andmekaitsetingimused</a>
+                    <span class="d-none d-md-inline text-light">&nbsp; | &nbsp; </span>
+                    <br class="d-inline d-md-none">
+                    <a href="#" role="button" data-action="openCookieSettingsModal" class="btn-link">Küpsised</a>
+                    <br>
+                    <span class="text-white">2.12.9</span>
+                </div>
+                <div class="btn-top d-none" data-action="btnTop"><a href="#" aria-label="Button top"><i class="btn-top-icon" tabindex="0"></i></a></div>
+            </div>
+
+                <div class="ar__cookie_info" role="alertdialog" aria-labelledby="cookie_explanation">
+                    <div id="cookie_explanation" class="ar__center container card bg-transparent">
+                        <div class="row pt-4">
+                            <div class="col-auto">
+                                <p>E-Äriregistri portaalis kasutatakse kasutuskogemuse parendamiseks küpsiseid. Kas nõustute küpsiste kasutamisega?</p>  
+                            </div>
+                            <div class="col-auto ml-auto">
+                                <button id="decline-cookies" class="btn btn-secondary mb-4 mr-2" data-action="declineOptional">Keeldun</button>
+                                <button id="settings-cookies" class="btn btn-secondary mb-4 mr-2" data-action="openCookieSettingsModal">Seaded</button>
+                                <button id="accept-cookies" class="btn btn-primary mb-4" data-action="acceptAllCookies">Nõustun</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+
+        </div>
+    
+    <!--[if lt IE 10]>
+    <div class="arireg_ie_deprecated template">
+        <div class="arireg_ie_deprecated-box">
+            <div class="h3"><span class="arireg_icon ar-icon-attention" aria-hidden="true"></span> Teie veebilehitseja on vananenud.</div>
+            <br>
+            <b>Turvalisuskaalutlustel ei ole e-äriregistrit võimalik kasutada Internet Exploreri veebibrauseri kaudu.</b><br>
+Soovitame kasutada Internet Exploreri asemel Google Chrome’i, Mozilla Firefoxi või Microsoft Edge’i uusimat versiooni. 
+        </div>
+    </div>
+    <![endif]-->
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script id="template-csmodal" type="text/template">
+    <form action="#" method="post" autocomplete="off" id="csmodal__form" class="csmodal__form disable-stop-doublesubmit">
+    <input type="hidden" name="_cft" value="7f492ca4">
+    <input type="hidden" name="cs__route" value="https://ariregister.rik.ee/est/political_party/member_history/2000000580">
+    <input type="submit" class="submit-hidden" tabindex="-1">
+
+    <div class="row">
+        <div class="form-group col-12">
+            <label class="label-floating required" for="cs__subject">Pealkiri</label>
+            <input type="text" class="form-control" name="cs__subject" id="cs__subject" value="">
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-12">
+            <label for="cs__contents" class="label-floating required">Sisu</label>
+            <textarea class="form-control" name="cs__contents" id="cs__contents" maxlength="4000" rows="6"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group col-12">
+            <label class="label-floating required" for="cs__email">E-posti aadress vastuse jaoks</label>
+            <input type="text" class="form-control" name="cs__email" id="cs__email" value="">
+        </div>
+    </div>
+
+    </form>
+</script>
+
+        
+
+
+<div class="modal" id="cookieSettingsModal" tabindex="-1" role="dialog" aria-labelledby="cookieSettingsLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-title" id="cookieSettingsLabel">
+                    Kasutame oma veebisaidil küpsiseid
+                    
+
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Sulge"><span class="x-icon-close"></span>Sulge</button>
+            </div>
+            <div class=px-4>
+                <div class="spaced-line mt-0"></div>
+            </div>
+            <div class="modal-body px-5">
+                <div id="modal-cookie-settings-intro">
+                    Siin saad vastavaid väljasid märgistades valida, milliste küpsiste kasutamist lubad
+                </div>
+                <div class="cookieSettingsContainer mt-5"></div>
+                <div id="accordion" class="accordion accordion-custom mt-5">
+                    <div class="h3 mb-0">
+                        <a href="#" class="dont-underline d-flex align-items-center text-body text-left section_custom_collapse__js collapsed" data-toggle="collapse" data-target="#collapse-section_cookie_details" aria-expanded="false" aria-controls="collapse-section_cookie_details">
+                            <img src="/static/icons/chevron-right-1.svg" class="accordion__arrow accordion__arrow--lg mr-4 mt-0" alt="" role="presentation">
+                            <p class="text-primary mb-0">
+                                Tutvu meie küpsiste üksikasjalike kirjelduste ja reeglitega
+                            </p>
+                        </a>
+                    </div>
+
+                    <div id="collapse-section_cookie_details" class="collapse" aria-labelledby="heading-section_cookie_details" data-parent="#accordion">
+                        <table class="table table-responsive d-none d-md-block mt-3">
+                            <thead class="w-100">
+                                <tr>
+                                    <th class="w-20">NIMI</th>
+                                    <th class="w-60">Eesmärk</th>
+                                    <th class="w-20">Aegumisaeg</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>_Host-ariregweb</td>
+                                    <td>Kasutatakse kasutaja veebilehitseja sidumiseks tema sessiooniga.</td>
+                                    <td>sessioon</td>
+                                </tr>
+                                <tr>
+                                    <td>_cfuvid,<br>_cf_bm,<br>cf_clearance</td>
+                                    <td>Cloudflare’i tehnilised küpsised, mida kasutatakse veebilehe turvalisuse ja jõudluse tagamiseks (nt rünnakute tuvastamiseks ja liikluse haldamiseks). Loe Cloudflare küpsiste kohta rohkem <a href="https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/" target="_blank">siit.</a></td>
+                                    <td>sessioon,<br>30 minutit,<br>1 aasta</td>
+                                </tr>
+                                <tr>
+                                    <td>_pk_ses</td>
+                                    <td>Matomo küpsis, mille abil kogutakse veebi külastatavuse statistikat, et veebi külastajate jaoks paremaks muuta.</td>
+                                    <td>30 minutit</td>
+                                </tr>
+                                <tr>
+                                    <td>_pk_id</td>
+                                    <td>Matomo küpsis, mille abil kogutakse veebi külastatavuse statistikat, et veebi külastajate jaoks paremaks muuta.</td>
+                                    <td>13 kuud</td>
+                                </tr>
+                                <tr>
+                                    <td>cookies_accepted</td>
+                                    <td>Salvestab kasutaja nõustumise lehekülje küpsistega.</td>
+                                    <td>100 päeva</td>
+                                </tr>
+                                <tr>
+                                    <td>Youtube küpsised</td>
+                                    <td>Loe YouTube küpsiste kohta rohkem <a href="https://policies.google.com/technologies/cookies?hl=et" target="_blank">siit.</a></td>
+                                    <td>-</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="d-block d-md-none mt-3 mobile-cookie-details">
+                            <div class="mt-4">
+                                <div>
+                                    <div class="font-weight-bold">NIMI</div>
+                                    <div class="col">_Host-ariregweb</div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Eesmärk</div>
+                                    <div class="col">Kasutatakse kasutaja veebilehitseja sidumiseks tema sessiooniga.</div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Aegumisaeg</div>
+                                    <div class="col">sessioon</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="spaced-line my-5"></div>
+                                <div>
+                                    <div class="font-weight-bold">NIMI</div>
+                                    <div class="col">_cfuvid, _cf_bm, cf_clearance</div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Eesmärk</div>
+                                    <div class="col">Cloudflare’i tehnilised küpsised, mida kasutatakse veebilehe turvalisuse ja jõudluse tagamiseks (nt rünnakute tuvastamiseks ja liikluse haldamiseks). Loe Cloudflare küpsiste kohta rohkem <a href="https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/" target="_blank">siit.</a></div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Aegumisaeg</div>
+                                    <div class="col">sessioon, 30 minutit, 1 aasta</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="spaced-line my-5"></div>
+                                <div>
+                                    <div class="font-weight-bold">NIMI</div>
+                                    <div class="col">_pk_ses</div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Eesmärk</div>
+                                    <div class="col">Matomo küpsis, mille abil kogutakse veebi külastatavuse statistikat, et veebi külastajate jaoks paremaks muuta.</div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Aegumisaeg</div>
+                                    <div class="col">30 minutit</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="spaced-line my-5"></div>
+                                <div>
+                                    <div class="font-weight-bold">NIMI</div>
+                                    <div class="col">_pk_id</div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Eesmärk</div>
+                                    <div class="col">Matomo küpsis, mille abil kogutakse veebi külastatavuse statistikat, et veebi külastajate jaoks paremaks muuta.</div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Aegumisaeg</div>
+                                    <div class="col">13 kuud</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="spaced-line my-5"></div>
+                                <div>
+                                    <div class="font-weight-bold">NIMI</div>
+                                    <div class="col">cookies_accepted</div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Eesmärk</div>
+                                    <div class="col">Salvestab kasutaja nõustumise lehekülje küpsistega.</div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Aegumisaeg</div>
+                                    <div class="col">100 päeva</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="spaced-line my-5"></div>
+                                <div>
+                                    <div class="font-weight-bold">NIMI</div>
+                                    <div class="col">Youtube küpsised</div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Eesmärk</div>
+                                    <div class="col">Loe YouTube küpsiste kohta rohkem <a href="https://policies.google.com/technologies/cookies?hl=et" target="_blank">siit.</a></div>
+                                </div>
+                                <div class="mt-2">
+                                    <div class="font-weight-bold">Aegumisaeg</div>
+                                    <div class="col">-</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="px-4">
+                <div class="spaced-line mb-0"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary" data-action="confirmSaveCookies">Kinnita valikud</button>
+                <button type="button" class="btn btn-link-primary" data-dismiss="modal">Katkesta</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script nonce="70588fce">
+        if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent))
+            document.write('<script src="/static/js/ie11polyfill.js?2.12.9"><\/script>');
+    </script>
+    <script src="/static/js/jquery.min.js?2.12.9"></script>
+    <script src="/static/js/jquery.selector.focusable.js?2.12.9"></script>
+    <script src="/static/js/popper/popper.min.js?2.12.9"></script>
+    <script src="/static/js/bootstrap4/js/bootstrap.min.js?2.12.9"></script>
+    <script src="/static/js/bootstrap-multiselect/js/bootstrap-multiselect.js?2.12.9"></script>
+    <script src="/static/js/bootstrap-typeahead/bootstrap3-typeahead.js?2.12.9"></script>
+    <script src="/static/js/simple-keyboard.min.js?2.12.9"></script>
+    <script src="/static/js/flatpickr/flatpickr.min.js?2.12.9"></script>
+        <script src="/static/js/flatpickr/l10n/et.js?2.12.9"></script>
+    <script src="/static/js/plugins-tweaks.js?2.12.9"></script>
+    <script src="/static/js/bootstrap4-dialog/js/bootstrap-dialog.min.js?2.12.9"></script>
+    <script src="/static/js/arireg_app.js?2.12.9"></script>
+    <script src="/est/app_js/get_translations?2.12.9"></script>
+    <!-- De-bork signtoken/CSP cohabitation. Will still complain to the console about CSP violations until such time when/if the appropriate fix gets released to end-users -->
+    <script src="/static/js/sign/page.js?2.12.9" data-name="TokenSigning"></script>
+    <script nonce="70588fce">
+    $(document).ready(function(){
+        if (!answered_questionnaire_get('-answered')) {
+            $('#feedback_container').removeClass('invisible');
+        }
+        if (!answered_questionnaire_get('NPS_0-answered') && $('[data-nps]').hasClass('auto-open')) {
+            var time = parseInt($('[data-nps]').data('autoplay_time'))
+            setTimeout(function(){
+                $('[data-nps]').trigger('init')
+                answered_questionnaire_set('NPS_0-answered');
+            }, time*1000)
+        }
+        if(localStorage.getItem('hide-feedback-mobile')){
+            $('#feedback_collapse').collapse('hide');
+            $('.feedback_buttons .collapse_control').removeClass('d-md-none');
+        }else{
+            $('#feedback_collapse').collapse('show');
+        }
+            $('.collapse_control').on('click', function(e){
+                e.preventDefault();
+                if(localStorage.getItem('hide-feedback-mobile')){
+                    localStorage.removeItem('hide-feedback-mobile');
+                    $('.feedback_buttons .collapse_control').addClass('d-md-none');
+                }else{
+                    localStorage.setItem('hide-feedback-mobile', 1);
+                    $('.feedback_buttons .collapse_control').removeClass('d-md-none');
+                }
+            });
+        App.base_url = '/';
+        App.cft = '7f492ca4';
+        App.session_drift = 2;
+        App.session_ttl = 7200;
+        App.session_expire_warning = 300;
+        App.session_expire_return_url = '/auth/aup?lang=est&amp;return_url=2f6573742f706f6c69746963616c5f70617274792f6d656d6265725f686973746f72792f32303030303030353830%7C1073be8e8142c793dce2c4f1a75e4c2c';
+        App.lang = 'est';
+        App.is_logged_in = false;
+        App.version = '2.12.9';
+        App.API_URL = '/est/api/';
+        App.INADS_URL = 'https://inaadress.maaamet.ee/inaadress/gazetteer';
+        App.APP_NAME = "e-\u00c4riregister";
+        App.init();
+    });
+    </script>
+
+        
+<script nonce="70588fce">
+$(function(){
+
+    $('.wrong_entry').hide();
+    $('#wrong_entry_info').hide();
+    $('#initial_data').click( function(event) {
+        $('.wrong_entry').toggle();
+        $('#wrong_entry_info').toggle();
+    });
+    if ($('#initial_data').prop('checked')){
+        $('.wrong_entry').show();
+        $('#wrong_entry_info').show();
+    }
+    function renumber(table) {
+        table.find('tr').not('.wrong_entry').each(function(index, el) {
+          if (index > 0) {//header
+              $(el).children('td').first().text(index + '.');
+          }
+        });
+    }
+    renumber($('#party_table'));
+
+});
+
+
+</script>
+ 
+        
+    <script nonce="70588fce">
+        $(function() {
+            $('#cookieSettingsModal').on('show.bs.modal', function() {
+                loadCookieSettingsModal();
+            });
+
+            $('[data-action=confirmSaveCookies]').on('click', function(e) {
+                e.preventDefault();
+                const hasStatCookies = document.getElementById('cookieSettingsModal').querySelector('input[name="cookies_statistics"]').checked;
+                const hasMediaCookies = document.getElementById('cookieSettingsModal').querySelector('input[name="cookies_media"]').checked;
+                saveCookies(hasStatCookies, hasMediaCookies)
+            });
+
+            $(document).on('saveEssentialCookiesOnly', function() {
+                saveCookies(false, false);
+            });
+
+            $(document).on('acceptAllCookies', function() {
+                saveCookies(true, true);
+            });
+        });
+
+        function loadCookieSettingsModal() {
+            const modalForm = $('#cookieSettingsModal').find('.cookieSettingsContainer');
+            const hasDeclinedStatCookies = localStorage.getItem('declinedStatCookies') === 'true'; 
+            const hasPkCookies = document.cookie.split('; ').some(cookie => cookie.trim().startsWith('_pk_')); // Check for Matomo cookies
+            const hasDeclinedYTCookies = localStorage.getItem('declinedYTCookies') === 'true';
+            const hasYTCookies = localStorage.getItem('mediaCookies') === 'https://www.youtube-nocookie.com';
+            
+            modalForm.html(`
+                
+                <div id="cookieSettingsForm" class="mt-5 d-block">
+                    <div class="row">
+                        <div class="col-12 col-md-3">
+                            <div class="form-group mb-0">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" name="cookies_necessary" class="custom-control-input" id="cookies_necessary" checked disabled>
+                                    <label class="custom-control-label" for="cookies_necessary">Vajalikud küpsised</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <p class="small-text">Need küpsised on vajalikud veebilehe korrektseks toimimiseks. Need tagavad näiteks lehe turvalisuse, sisselogimise toimimise ja ostukorvi salvestamise. Ilma nendeta ei saa veebilehte kasutada.</p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 col-md-3">
+                            <div class="form-group mb-0">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" name="cookies_statistics" class="custom-control-input" id="cookies_statistics" 
+                                        ${hasDeclinedStatCookies ? '' : hasPkCookies ? 'checked': ''}>
+                                    <label class="custom-control-label" for="cookies_statistics">Statistika küpsised</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            Need küpsised koguvad anonüümset teavet selle kohta, kuidas külastajad veebilehte kasutavad. Statistika aitab meil mõista, millised lehe osad töötavad hästi ja kus peame kasutajakogemust parandama.
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 col-md-3">
+                            <div class="form-group mb-0">
+                                <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" name="cookies_media" class="custom-control-input" id="cookies_media"
+                                        ${hasDeclinedYTCookies ? '' : hasYTCookies ? 'checked': ''}>
+                                    <label class="custom-control-label" for="cookies_media">Meedia küpsised</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            Need küpsised võimaldavad kuvada välisest allikast pärit sisu (nt YouTube). Kui need on keelatud, ei pruugi osa meediasisust lehel nähtav olla.
+                        </div>
+                    </div>
+                </div>
+                
+            `);
+        }
+
+        function saveCookies(hasStatCookies, hasMediaCookies) {
+            if (hasStatCookies) {
+                const pkCookies = document.cookie.split(';').filter(cookie => cookie.trim().startsWith('_pk_'));
+                if (pkCookies.length === 0) {
+                    console.log('Loading Matomo cookies');
+                    //Matomo
+                    var _paq = window._paq = window._paq || [];
+                    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+                    _paq.push(['trackPageView']);
+                    _paq.push(['enableLinkTracking']);
+                    (function() {
+                        var u="https://ariregstat.rik.ee/";
+                        _paq.push(['setTrackerUrl', u+'matomo.php']);
+                        _paq.push(['setSiteId', 1]);
+                        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                        g.async=true; g.src='/static//js/matomo.js'; s.parentNode.insertBefore(g,s);
+                    })();
+                    //End Matomo Code
+                }
+                localStorage.removeItem('declinedStatCookies');
+            }
+            else {
+                document.cookie.split(';').forEach(function(cookie) {
+                    if (cookie.trim().startsWith('_pk_')) {
+                        document.cookie = cookie.trim().split('=')[0] + '=;path=/;secure=true;samesite=lax;expires=Thu, 01 Jan 1970 00:00:00 UTC';
+                    }
+                });
+                localStorage.setItem('declinedStatCookies', 'true');
+            }
+
+            if (hasMediaCookies) {
+                localStorage.setItem('mediaCookies', 'https://www.youtube-nocookie.com');
+                localStorage.removeItem('declinedYTCookies');
+            } else {
+                localStorage.setItem('declinedYTCookies', 'true');
+                localStorage.removeItem('mediaCookies');
+            }
+
+            const age = 60*60*24*100;
+            document.cookie = 'cookies_accepted=true;path=/;secure=true;samesite=lax;max-age=' + age + '';
+            
+            // Wait for cookies to be processed before reloading
+            setTimeout(function() {
+                location.reload();
+            }, 500); // 500ms delay to ensure cookies are processed
+        }
+
+    </script>
+ 
+
+
+
+<script nonce="70588fce">(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.nonce='70588fce';d.innerHTML="window.__CF$cv$params={r:'a0c12d100a7a543b',t:'MTc4MTUyMjMyNw=='};var a=document.createElement('script');a.nonce='70588fce';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
