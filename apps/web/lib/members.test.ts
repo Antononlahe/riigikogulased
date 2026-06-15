@@ -11,6 +11,7 @@ function row(p: Partial<MemberDisciplineRow>): MemberDisciplineRow {
     partyName: "Reform",
     photoThumbPath: null,
     inFaction: false,
+    active: true,
     countedVotes: 0,
     defections: 0,
     disciplineScore: 0,

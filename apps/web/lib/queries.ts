@@ -9,6 +9,7 @@ export type MemberDisciplineRow = {
   partyName: string | null;
   photoThumbPath: string | null;
   inFaction: boolean;
+  active: boolean;
   countedVotes: number;
   defections: number;
   disciplineScore: number | null;
@@ -24,6 +25,7 @@ export async function getMemberDiscipline(): Promise<MemberDisciplineRow[]> {
       mcp.party_name       AS "partyName",
       m.photo_thumb_path   AS "photoThumbPath",
       COALESCE(mcp.in_faction, false) AS "inFaction",
+      m.active             AS "active",
       md.counted_votes  AS "countedVotes",
       md.defections,
       CASE WHEN md.counted_votes > 0
@@ -44,6 +46,7 @@ export type MemberRecord = {
   partyShortName: string | null;
   partyName: string | null;
   inFaction: boolean;
+  active: boolean;
   photoThumbPath: string | null;
   photoUrl: string | null;
   dateOfBirth: string | null;
@@ -82,6 +85,7 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
     `SELECT m.id AS "memberId", m.full_name AS "fullName", m.slug,
             mcp.party_short_name AS "partyShortName", mcp.party_name AS "partyName",
             COALESCE(mcp.in_faction, false) AS "inFaction",
+            m.active AS "active",
             m.photo_thumb_path AS "photoThumbPath", m.photo_url AS "photoUrl",
             m.date_of_birth::text AS "dateOfBirth", m.gender, m.email, m.phone,
             m.parliament_seniority_days AS "senorityDays",
