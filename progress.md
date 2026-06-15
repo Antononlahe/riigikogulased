@@ -1,31 +1,49 @@
 # Progress
 
 **Last updated:** 2026-06-15
-**Version target:** v0.2 — A1 (API cutover), A2 (structural schema), and B (design-system
-foundation + members table) all code-complete; next is C (member-detail page)
+**Version target:** v0.2 — A1, A2, B all DONE and signed off. A new data-accuracy slice —
+**erakond ↔ fraktsioon reconciliation** — was discovered and is now the current slice; it
+sits before C (member-detail page).
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
 
-**v0.2 / B (design-system foundation + members table) — CODE COMPLETE on the branch (not
-yet deployed/visually verified).** Editorial/broadsheet direction. `apps/web` now has a CSS-
-variable token layer (light + dark via `@theme inline`), the locked six-party palette
-(RE/EKRE/KE/E200/SDE/I as fill + ink, dark tones lifted), shadcn/ui (button, dropdown-menu),
-next-themes (class + system default), self-hosted fonts (Source Serif 4 + Inter), Framer
-Motion (reduced-motion aware) and CSS `@view-transition`. The members list is rebuilt as a
-sortable/filterable enriched table (photo avatar, party badge, discipline bar, `aria-sort`,
-party filter). Pure logic is unit-tested (`lib/party.ts`, `lib/members.ts` — 9 vitest
-tests); `getMemberDiscipline` gained `photoThumbPath`. Spec/plan:
+**v0.2 / erakond reconciliation — DESIGN APPROVED, spec written, awaiting spec review.**
+Discovered while triaging a reported bug (Alar Laneman shows 0 votes). Root cause: the
+Riigikogu API carries only **fraktsioon** (parliamentary faction), never **erakond** (party)
+membership — verified, no party field anywhere in the member record. 17 of 102 members are
+`Fraktsiooni mittekuuluvad` (non-attached) for the whole window, so they get `party_id =
+NULL` and are excluded from discipline (0 counted votes). Several are prominent (Kiik, Aab,
+Mölder, Põlluaas, Kunnas). Not a code bug — the API is missing the fact. Fix: add a second
+ingestion source, the **äriregister (RIK) party-member registry** (server-rendered HTML at
+`ariregister.rik.ee/est/political_party/`, the only available source — no bulk file, no
+API), matched to Riigikogu members by **name + date_of_birth**, to supply erakond terms.
+Scoring rule (locked): scoring party = fraktsioon's party when in a faction, else erakond,
+else excluded; the party **line** is defined by **faction members only**. Spec:
+`docs/superpowers/specs/2026-06-15-v0.2-erakond-fraktsioon-reconciliation-design.md`. The
+visible "party member, not in faction" indicator is deferred to C; this slice produces the
+data + corrected scoring. **Next:** user reviews the spec, then writing-plans → implement.
+
+## Prior status (B)
+
+**v0.2 / B (design-system foundation + members table) — DONE, deployed, and signed off
+(2026-06-15).** Editorial/broadsheet direction. `apps/web` has a CSS-variable token layer
+(light + dark via `@theme inline`), the locked six-party palette (RE/EKRE/KE/E200/SDE/I as
+fill + ink, dark tones lifted), shadcn/ui (button, dropdown-menu), next-themes (class +
+system default), self-hosted fonts (Source Serif 4 + Inter), Framer Motion (reduced-motion
+aware) and CSS `@view-transition`. The members list is a sortable/filterable enriched table
+(photo avatar, party badge, discipline bar, `aria-sort`, party filter). Pure logic is
+unit-tested (`lib/party.ts`, `lib/members.ts` — 9 vitest tests); `getMemberDiscipline` gained
+`photoThumbPath`. Spec/plan:
 `docs/superpowers/specs/2026-06-15-v0.2-b-design-system-design.md` and
 `docs/superpowers/plans/2026-06-15-v0.2-b-design-system.md`.
 
-Verified green: typecheck, `next lint`, 9 tests, production build (5/5 static pages,
-0 `MISSING_MESSAGE`), dev server HTTP 200 with the editorial shell. A latent i18n bug was
-fixed during integration (`NextIntlClientProvider` now receives `messages` via
-`getMessages()` — next-intl v3 doesn't auto-inherit). **Still to do before calling B done:**
-deploy + visual/interactive verification against real data (theme toggle, row motion,
-responsive widths, the populated table) — needs a reachable DB; left for manual confirmation
-since the sandbox has none.
+Verified green before deploy: typecheck, `next lint`, 9 tests, production build (5/5 static
+pages, 0 `MISSING_MESSAGE`), dev server HTTP 200 with the editorial shell. A latent i18n bug
+was fixed during integration (`NextIntlClientProvider` now receives `messages` via
+`getMessages()` — next-intl v3 doesn't auto-inherit). **Deployed and live-verified by the
+user (theme toggle, row motion, responsive widths, the populated real-data table) — signed
+off.**
 
 ## Prior status (A2)
 

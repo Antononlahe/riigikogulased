@@ -13,6 +13,43 @@ Entry format:
 
 ---
 
+## 2026-06-15 — v0.2: erakond ↔ fraktsioon reconciliation (root-caused + spec)
+
+**What:** Triaged a reported data bug — "Alar Laneman shows 0 votes" on the live site —
+through systematic debugging. Root cause: the Riigikogu API carries only **fraktsioon**
+(parliamentary faction) membership, never **erakond** (party) membership (confirmed: no party
+field on any member-record key; all 597 of Laneman's ballots carry
+`Fraktsiooni mittekuuluvad Riigikogu liikmed`). 17 of 102 members are non-attached for the
+whole window → `party_id = NULL` → excluded from discipline → 0 counted votes. Per the
+official party registry, Laneman is Eesti Reformierakond since 2024-07-12 (ex-EKRE). Not a
+porting bug — the API lacks the fact. Investigated sources: Riigikogu API (no erakond),
+äriregister open-data API (companies only, no bulk party-members file), äriregister
+party-registry **web UI** (server-rendered HTML, searchable by name, dated history keyed on a
+RIK person id — verified end-to-end for Laneman). Designed a fix and wrote the spec:
+introduce the äriregister registry as a second ingestion source matched by name+DOB; split
+`member_party_terms` → `member_faction_terms` and add `member_erakond_terms`; rework the
+discipline views so the scoring party is fraktsioon-first / erakond-fallback and the party
+line is defined by faction members only. Approach approved via brainstorming; spec under
+user review before writing-plans.
+**Why:** ~17% of members were silently missing from the core metric; party-line loyalty is
+the whole point of the dashboard, and party (erakond) is the right unit, not faction.
+**Touched:** `docs/superpowers/specs/2026-06-15-v0.2-erakond-fraktsioon-reconciliation-design.md`
+(new), `progress.md`, `progress-log.md`. No code yet (gated on spec review).
+
+---
+
+## 2026-06-15 — v0.2/B: deployed and signed off
+
+**What:** Deployed `apps/web` with the B design-system foundation and live-verified it
+against real data — theme toggle, row motion, responsive widths, and the populated members
+table all confirmed by the user. B is done; v0.2/C (member-detail page) is now the active
+slice.
+**Why:** Closes the one gap that the sandbox could not exercise (no reachable DB), moving B
+from "code complete" to "done."
+**Touched:** deploy only (no code change); `progress.md` updated to make C current.
+
+---
+
 ## 2026-06-15 — v0.2/B: design-system foundation + members table (code complete)
 
 **What:** Stood up the editorial design-system foundation in `apps/web` and rebuilt the
