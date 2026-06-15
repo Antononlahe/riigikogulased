@@ -142,36 +142,19 @@ def _write_sitting(conn, voting: Voting, ctx: WriteContext, vote_day: date) -> i
     return sid
 
 
-def write_member(
-    conn,
-    m: PlenaryMember,
-    ctx: WriteContext,
-    today: date,
-    active: bool = True,
-    set_faction: bool = True,
-) -> None:
-    """Upsert a member, set faction + enrichment + committee/district terms + active flag.
+def write_member(conn, m: PlenaryMember, ctx: WriteContext, active: bool = True) -> None:
+    """Upsert a member and write enrichment + committee/district terms + active flag.
 
-    ``set_faction=False`` skips the faction update — used for former (inactive) members whose
-    individual API record has an empty ``factions`` list (the API clears it on inactivity), so
-    that we preserve their last faction-at-time from votings rather than wiping it to
-    non-attached.
+    Faction is NOT set here. The per-ballot ``voters[].faction`` in each voting is the source
+    of truth for faction-at-time (see CLAUDE.md) and is written by ``write_voting``. The
+    ``/api/plenary-members`` ``factions[]`` snapshot is unreliable for the current faction —
+    it lists every faction a member ever held, oldest-first, all flagged ``active``, with no
+    dates — so using it here previously wiped substitutes' real faction to non-attached.
     """
     mid = ctx.member_id_by_uuid.get(m.uuid)
     if mid is None:
         mid = db.upsert_member(conn, m.uuid, m.fullName)
         ctx.member_id_by_uuid[m.uuid] = mid
-
-    if set_faction:
-        pid: int | None = None
-        party = faction_to_party(_current_faction_name(m))
-        if party is not None:
-            short, full = party
-            pid = ctx.party_id_by_short.get(short)
-            if pid is None:
-                pid = db.upsert_party(conn, short, full)
-                ctx.party_id_by_short[short] = pid
-        db.set_member_faction(conn, mid, pid, today)
 
     db.enrich_member(conn, mid, member_fields(m))
     db.set_member_active(conn, mid, active)
@@ -187,10 +170,3 @@ def write_member(
         did = db.upsert_district(conn, code=dt.code, name=dt.name)
         tid = ctx.term_id(conn, dt.term_number)
         db.set_member_district(conn, member_id=mid, district_id=did, term_id=tid)
-
-
-def _current_faction_name(m: PlenaryMember) -> str | None:
-    for f in m.factions:
-        if f.active:
-            return f.name
-    return m.factions[-1].name if m.factions else None
