@@ -386,3 +386,74 @@ def link_vote(
             "draft_title = %s, draft_mark = %s WHERE id = %s",
             (sitting_id, draft_uuid, draft_title, draft_mark, vote_id),
         )
+
+
+def upsert_eurovoc_field(
+    conn: psycopg.Connection, *, efid: int, uuid: str, code: str | None,
+    text_et: str, text_en: str | None,
+) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO eurovoc_fields (efid, uuid, code, text_et, text_en)
+            VALUES (%s, %s, %s, %s, %s)
+            ON CONFLICT (efid) DO UPDATE SET
+              uuid=EXCLUDED.uuid, code=EXCLUDED.code,
+              text_et=EXCLUDED.text_et, text_en=COALESCE(EXCLUDED.text_en, eurovoc_fields.text_en)
+            """,
+            (efid, uuid, code, text_et, text_en),
+        )
+
+
+def upsert_eurovoc_microthes(
+    conn: psycopg.Connection, *, etid: int, uuid: str, code: str | None,
+    text_et: str, text_en: str | None, field_efid: int | None,
+) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO eurovoc_microthesauri (etid, uuid, code, text_et, text_en, field_efid)
+            VALUES (%s, %s, %s, %s, %s, %s)
+            ON CONFLICT (etid) DO UPDATE SET
+              uuid=EXCLUDED.uuid, code=EXCLUDED.code, text_et=EXCLUDED.text_et,
+              text_en=COALESCE(EXCLUDED.text_en, eurovoc_microthesauri.text_en),
+              field_efid=COALESCE(EXCLUDED.field_efid, eurovoc_microthesauri.field_efid)
+            """,
+            (etid, uuid, code, text_et, text_en, field_efid),
+        )
+
+
+def upsert_eurovoc_descriptor(
+    conn: psycopg.Connection, *, edid: int, uuid: str | None, code: str | None,
+    text_et: str, text_en: str | None, microthesaurus_etid: int | None,
+) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO eurovoc_descriptors
+              (edid, uuid, code, text_et, text_en, microthesaurus_etid)
+            VALUES (%s, %s, %s, %s, %s, %s)
+            ON CONFLICT (edid) DO UPDATE SET
+              uuid=COALESCE(EXCLUDED.uuid, eurovoc_descriptors.uuid), code=EXCLUDED.code,
+              text_et=EXCLUDED.text_et,
+              text_en=COALESCE(EXCLUDED.text_en, eurovoc_descriptors.text_en),
+              microthesaurus_etid=COALESCE(
+                EXCLUDED.microthesaurus_etid, eurovoc_descriptors.microthesaurus_etid)
+            """,
+            (edid, uuid, code, text_et, text_en, microthesaurus_etid),
+        )
+
+
+def add_volume_topic(conn: psycopg.Connection, *, draft_uuid: str, descriptor_edid: int) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            "INSERT INTO volume_topics (draft_uuid, descriptor_edid) VALUES (%s, %s) "
+            "ON CONFLICT (draft_uuid, descriptor_edid) DO NOTHING",
+            (draft_uuid, descriptor_edid),
+        )
+
+
+def distinct_draft_uuids(conn: psycopg.Connection) -> list[str]:
+    with conn.cursor() as cur:
+        cur.execute("SELECT DISTINCT draft_uuid::text FROM votes WHERE draft_uuid IS NOT NULL")
+        return [r["draft_uuid"] for r in cur.fetchall()]
