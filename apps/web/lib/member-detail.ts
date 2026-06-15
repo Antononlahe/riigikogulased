@@ -1,0 +1,62 @@
+export type VoteClass = "aligned" | "against" | "excluded";
+
+export type VotePoint = {
+  votedAt: string; // ISO timestamp
+  title: string;
+  draftTitle: string | null;
+  memberChoice: string;
+  partyMajorityChoice: string | null;
+  isProcedural: boolean;
+  partyShortName: string | null;
+};
+
+const REGISTERED = new Set(["yes", "no", "abstain"]);
+
+export function classifyVote(v: VotePoint): VoteClass {
+  if (v.isProcedural || !REGISTERED.has(v.memberChoice) || v.partyMajorityChoice === null) {
+    return "excluded";
+  }
+  return v.memberChoice === v.partyMajorityChoice ? "aligned" : "against";
+}
+
+export type MonthPoint = {
+  month: string; // "YYYY-MM"
+  aligned: number;
+  against: number;
+  score: number | null;
+};
+
+export function monthlyDiscipline(votes: VotePoint[]): MonthPoint[] {
+  const byMonth = new Map<string, { aligned: number; against: number }>();
+  for (const v of [...votes].sort((a, b) => a.votedAt.localeCompare(b.votedAt))) {
+    const month = v.votedAt.slice(0, 7);
+    const acc = byMonth.get(month) ?? { aligned: 0, against: 0 };
+    const c = classifyVote(v);
+    if (c === "aligned") acc.aligned += 1;
+    else if (c === "against") acc.against += 1;
+    byMonth.set(month, acc);
+  }
+  return [...byMonth.entries()].map(([month, { aligned, against }]) => {
+    const scored = aligned + against;
+    return { month, aligned, against, score: scored > 0 ? aligned / scored : null };
+  });
+}
+
+export type SwitchPoint = {
+  date: string;
+  fromParty: string | null;
+  toParty: string | null;
+};
+
+export function partySwitchPoints(votes: VotePoint[]): SwitchPoint[] {
+  const sorted = [...votes].sort((a, b) => a.votedAt.localeCompare(b.votedAt));
+  const out: SwitchPoint[] = [];
+  let prev: string | null | undefined;
+  for (const v of sorted) {
+    if (prev !== undefined && v.partyShortName !== prev) {
+      out.push({ date: v.votedAt, fromParty: prev, toParty: v.partyShortName });
+    }
+    prev = v.partyShortName;
+  }
+  return out;
+}
