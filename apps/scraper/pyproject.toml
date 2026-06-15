@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Scrapes Riigikogu vote archive into Postgres."
 requires-python = ">=3.11"
 dependencies = [
+    "beautifulsoup4>=4.12",
     "httpx>=0.27",
     "pillow>=10.0",
     "psycopg[binary]>=3.2",
