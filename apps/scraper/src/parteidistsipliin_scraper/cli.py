@@ -10,10 +10,15 @@ from parteidistsipliin_scraper import db
 from parteidistsipliin_scraper.api_cache import ApiVoteCache
 from parteidistsipliin_scraper.api_client import ApiClient
 from parteidistsipliin_scraper.api_models import PlenaryMember, SittingGroup, Voting
+from parteidistsipliin_scraper.ariregister_cache import AriregisterCache
+from parteidistsipliin_scraper.ariregister_client import AriregisterClient
+from parteidistsipliin_scraper.ariregister_models import match_candidate, memberships_to_party_terms
+from parteidistsipliin_scraper.ariregister_parse import parse_member_history, parse_search_results
 from parteidistsipliin_scraper.enrich import photo_download_url
 from parteidistsipliin_scraper.photo import write_thumbnail
 from parteidistsipliin_scraper.writer import (
     WriteContext,
+    write_erakond_terms,
     write_member,
     write_sessions,
     write_voting,
@@ -102,6 +107,21 @@ def rebuild() -> None:
         today = date.today()
         for m in members:
             write_member(conn, m, ctx, today)
+        ar_cache = AriregisterCache()
+        for m in members:
+            shtml = ar_cache.read_search(m.fullName)
+            if shtml is None:
+                continue
+            cand = match_candidate(
+                parse_search_results(shtml), full_name=m.fullName, date_of_birth=m.dateOfBirth
+            )
+            if cand is None or cand.person_id is None:
+                continue
+            hhtml = ar_cache.read_history(cand.person_id)
+            if hhtml is None:
+                continue
+            terms = memberships_to_party_terms(parse_member_history(hhtml))
+            write_erakond_terms(conn, m.uuid, m.fullName, terms, ctx)
         conn.commit()
     typer.echo(
         f"Rebuilt {len(votings)} votings, {len(ctx.sitting_id_by_uuid)} sittings, "
@@ -154,3 +174,41 @@ async def _refresh_photos() -> None:
                 written += 1
         conn.commit()
     typer.echo(f"Wrote {written} member thumbnails.")
+
+
+@app.command()
+def erakond(
+    refresh: bool = typer.Option(False, "--refresh", help="Re-fetch even if cached."),
+) -> None:
+    """Resolve each member's party (erakond) membership from the aariregister registry."""
+    asyncio.run(_refresh_erakond(refresh))
+
+
+async def _refresh_erakond(refresh: bool) -> None:
+    api_cache = ApiVoteCache()
+    members_list = api_cache.read_members()
+    ar_cache = AriregisterCache()
+    matched = unmatched = 0
+    with db.connect() as conn:
+        ctx = _new_context(api_cache)
+        async with AriregisterClient() as client:
+            for m in members_list:
+                shtml = ar_cache.read_search(m.fullName)
+                if shtml is None or refresh:
+                    shtml = await client.search(m.fullName)
+                    ar_cache.write_search(m.fullName, shtml)
+                cand = match_candidate(
+                    parse_search_results(shtml), full_name=m.fullName, date_of_birth=m.dateOfBirth
+                )
+                if cand is None or cand.person_id is None:
+                    unmatched += 1
+                    continue
+                hhtml = ar_cache.read_history(cand.person_id)
+                if hhtml is None or refresh:
+                    hhtml = await client.history(cand.person_id)
+                    ar_cache.write_history(cand.person_id, hhtml)
+                terms = memberships_to_party_terms(parse_member_history(hhtml))
+                write_erakond_terms(conn, m.uuid, m.fullName, terms, ctx)
+                matched += 1
+        conn.commit()
+    typer.echo(f"Erakond: matched {matched}, unmatched {unmatched} of {len(members_list)} members.")
