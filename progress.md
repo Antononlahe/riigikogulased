@@ -21,8 +21,15 @@ generated 209/209 static pages** — including all ~204 member pages (102 × 2 l
 prerendered against live branch data with the timeline rendered server-side, 0
 `MISSING_MESSAGE`; member-page bundle 30.4 kB / 199 kB First Load. A date-handling bug (pg
 returns DATE/TIMESTAMP as JS `Date`, components `.slice()` strings) was caught by the build
-and fixed (`::text` casts). **Still to do:** deploy + interactive verification (timeline
-hover/keyboard, View Transition, responsive) against a live DB, as with B.
+and fixed (`::text` casts). **Final whole-slice review (opus): PASS, "ready to deploy", no
+must-fixes.** **Still to do:** deploy + interactive verification (timeline hover/keyboard,
+View Transition, responsive) against a live DB, as with B.
+
+C optional polish (non-blocking, from final review): precompute `classifyVote` once in the
+timeline `useMemo` (it runs per-mark on ~600 rects); `Promise.all` the four independent
+queries in `getMemberDetail` (faster cold prerender of ~204 pages); rename the `senorityDays`
+typo → `seniorityDays`. Known limitation: switches into/out of the non-attached bench produce
+no timeline guide (the votes series only contains scored votes).
 
 ## Prior status (erakond reconciliation)
 
