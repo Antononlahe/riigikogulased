@@ -192,18 +192,14 @@ Isamaa votes); no other faction is affected. No porting bugs. See the 2026-06-14
 
 ### Open / follow-ups
 
-1. **GH Actions `DATABASE_URL` secret — BROKEN, fix deferred to next session.** The secret
-   was set 2026-06-14, but the first cron run (`Scheduled scrape`, run 27528969102, 05:00
-   UTC 2026-06-15) **failed**: psycopg `ProgrammingError: invalid connection option
-   "﻿…neondb?channel_binding"`. Root cause: the secret value has a leading **UTF-8 BOM
-   (U+FEFF)** — almost certainly set from a PowerShell-written file (Out-File/Set-Content/`>`
-   default to BOM). The BOM makes psycopg miss the `postgresql://` URI scheme and fall back
-   to keyword=value parsing, so the whole URL becomes an invalid option. The connection
-   string itself is fine. The workflow (`scrape.yml:20`) passes the secret straight to env,
-   so the BOM is in the stored secret, not the YAML. **Fix (run from Git Bash, NOT
-   PowerShell, to avoid re-adding a BOM):**
-   `printf '%s' '<neon pooled conn string>' | gh secret set DATABASE_URL --repo Antononlahe/parteidistsipliin`
-   then smoke-test: `gh workflow run scrape.yml -f command=daily` and confirm green.
+1. **GH Actions `DATABASE_URL` secret — FIXED (2026-06-15).** The earlier cron run
+   (27528969102) failed with psycopg `invalid connection option "﻿…channel_binding"` because
+   the secret value had a leading **UTF-8 BOM (U+FEFF)** (set from a PowerShell-written file).
+   Re-set the secret cleanly via Git Bash (`printf '%s' '<prod pooled conn>' | gh secret set
+   DATABASE_URL --repo Antononlahe/parteidistsipliin` — printf avoids the BOM/newline) and
+   smoke-tested with a manual `workflow_dispatch`: run **27562584838 succeeded** ("Ingested 0
+   votings for 2026-06-14" — 0 is correct, that Sunday had no sittings; the point is it
+   connected to prod with no BOM error). The daily 05:00 UTC cron now writes.
 2. **apps/web redeploy** — code is unchanged; ISR (`revalidate = 3600`) refreshes the live
    site with the new data within the hour. Force a redeploy to surface it immediately.
 3. **Deferred cleanups (not blocking):** switch the procedural discriminator from the
