@@ -19,12 +19,16 @@ from parteidistsipliin_scraper.ariregister_models import (
 )
 from parteidistsipliin_scraper.ariregister_parse import parse_member_history, parse_search_results
 from parteidistsipliin_scraper.enrich import photo_download_url
+from parteidistsipliin_scraper.eurovoc_cache import EurovocCache
+from parteidistsipliin_scraper.eurovoc_models import parse_draft_descriptor_edids, parse_fields
 from parteidistsipliin_scraper.photo import write_thumbnail
 from parteidistsipliin_scraper.writer import (
     WriteContext,
     write_erakond_terms,
+    write_eurovoc_taxonomy,
     write_member,
     write_sessions,
+    write_volume_topics,
     write_voting,
 )
 
@@ -130,6 +134,22 @@ def rebuild() -> None:
                 terms = [pt] if pt else []
             if terms:
                 write_erakond_terms(conn, m.uuid, m.fullName, terms, ctx)
+        ec = EurovocCache()
+        fields_et, fields_en = ec.read_fields("et"), ec.read_fields("en")
+        if fields_et and fields_en:
+            etids = sorted({m.etid for m in parse_fields(fields_et)[1]})
+            micro = {
+                lang: {etid: ec.read_microthes(etid, lang) for etid in etids
+                       if ec.read_microthes(etid, lang) is not None}
+                for lang in ("et", "en")
+            }
+            write_eurovoc_taxonomy(conn, fields_et, fields_en, micro["et"], micro["en"])
+            for draft_uuid in db.distinct_draft_uuids(conn):
+                raw = ec.read_draft(draft_uuid)
+                if raw:
+                    et = parse_draft_descriptor_edids(raw)
+                    if et:
+                        write_volume_topics(conn, draft_uuid, et)
         conn.commit()
     typer.echo(
         f"Rebuilt {len(votings)} votings, {len(ctx.sitting_id_by_uuid)} sittings, "
@@ -237,3 +257,54 @@ async def _refresh_erakond(refresh: bool) -> None:
                 matched += 1
         conn.commit()
     typer.echo(f"Erakond: matched {matched}, unmatched {unmatched} of {len(members_list)} members.")
+
+
+@app.command()
+def eurovoc(
+    refresh: bool = typer.Option(False, "--refresh", help="Re-fetch even if cached."),
+) -> None:
+    """Ingest the Eurovoc taxonomy + each bill's subject descriptors."""
+    asyncio.run(_refresh_eurovoc(refresh))
+
+
+async def _refresh_eurovoc(refresh: bool) -> None:
+    ec = EurovocCache()
+    with db.connect() as conn:
+        async with ApiClient() as client:
+            fields = {}
+            for lang in ("et", "en"):
+                if refresh or ec.read_fields(lang) is None:
+                    raw = await client.get_json("/api/eurovoc/fields", {"lang": lang})
+                    ec.write_fields(lang, raw)
+                fields[lang] = ec.read_fields(lang)
+            etids = sorted({m.etid for m in parse_fields(fields["et"])[1]})
+            micro = {"et": {}, "en": {}}
+            for etid in etids:
+                for lang in ("et", "en"):
+                    if refresh or ec.read_microthes(etid, lang) is None:
+                        raw = await client.get_json(
+                            "/api/eurovoc/microthes", {"etid": etid, "lang": lang}
+                        )
+                        ec.write_microthes(etid, lang, raw)
+                    micro[lang][etid] = ec.read_microthes(etid, lang)
+            n = write_eurovoc_taxonomy(conn, fields["et"], fields["en"], micro["et"], micro["en"])
+            conn.commit()
+            n_drafts = await _ingest_draft_topics(client, conn, ec, refresh)
+        typer.echo(
+            f"Eurovoc: {len(etids)} microthesauruses, {n} descriptors, {n_drafts} bills linked."
+        )
+
+
+async def _ingest_draft_topics(client, conn, ec, refresh: bool) -> int:
+    n = 0
+    for draft_uuid in db.distinct_draft_uuids(conn):
+        raw = ec.read_draft(draft_uuid)
+        if raw is None or refresh:
+            raw = await client.get_json(f"/api/volumes/drafts/{draft_uuid}")
+            ec.write_draft(draft_uuid, raw)
+        edid_texts = parse_draft_descriptor_edids(raw)
+        if edid_texts:
+            write_volume_topics(conn, draft_uuid, edid_texts)
+            n += 1
+    conn.commit()
+    return n

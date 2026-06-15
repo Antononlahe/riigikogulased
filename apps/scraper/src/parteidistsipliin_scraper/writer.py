@@ -15,6 +15,7 @@ from parteidistsipliin_scraper.enrich import (
     map_sitting_to_session,
     member_fields,
 )
+from parteidistsipliin_scraper.eurovoc_models import parse_fields, parse_microthes_descriptors
 from parteidistsipliin_scraper.models import faction_to_party
 
 CURRENT_TERM = 15
@@ -170,3 +171,53 @@ def write_member(conn, m: PlenaryMember, ctx: WriteContext, active: bool = True)
         did = db.upsert_district(conn, code=dt.code, name=dt.name)
         tid = ctx.term_id(conn, dt.term_number)
         db.set_member_district(conn, member_id=mid, district_id=did, term_id=tid)
+
+
+def write_eurovoc_taxonomy(conn, fields_et, fields_en, micro_et, micro_en) -> int:
+    """Write the Eurovoc taxonomy. fields_* are the /fields trees; micro_* are dicts
+    {etid: raw microthes response} for et / en. Returns descriptor count."""
+    f_et, m_et = parse_fields(fields_et)
+    f_en, m_en = parse_fields(fields_en)
+    en_field = {r.efid: r.text for r in f_en}
+    en_micro = {r.etid: r.text for r in m_en}
+    for r in f_et:
+        db.upsert_eurovoc_field(
+            conn, efid=r.efid, uuid=r.uuid, code=r.code, text_et=r.text,
+            text_en=en_field.get(r.efid),
+        )
+    for r in m_et:
+        db.upsert_eurovoc_microthes(
+            conn, etid=r.etid, uuid=r.uuid, code=r.code, text_et=r.text,
+            text_en=en_micro.get(r.etid), field_efid=r.field_efid,
+        )
+    n = 0
+    for etid, raw_et in micro_et.items():
+        en_desc = {
+            d.edid: d.text
+            for d in parse_microthes_descriptors(micro_en.get(etid, {"etid": etid}))
+        }
+        for d in parse_microthes_descriptors(raw_et):
+            db.upsert_eurovoc_descriptor(
+                conn, edid=d.edid, uuid=d.uuid, code=d.code, text_et=d.text,
+                text_en=en_desc.get(d.edid), microthesaurus_etid=d.microthesaurus_etid,
+            )
+            n += 1
+    return n
+
+
+def _descriptor_exists(conn, edid: int) -> bool:
+    with conn.cursor() as cur:
+        cur.execute("SELECT 1 FROM eurovoc_descriptors WHERE edid = %s", (edid,))
+        return cur.fetchone() is not None
+
+
+def write_volume_topics(conn, draft_uuid: str, edid_texts: list[tuple[int, str]]) -> None:
+    """Link a bill (draft_uuid) to its descriptors. A descriptor missing from the taxonomy is
+    inserted from the draft's (edid, text) so no link is dropped (microthesaurus stays NULL)."""
+    for edid, text in edid_texts:
+        if not _descriptor_exists(conn, edid):
+            db.upsert_eurovoc_descriptor(
+                conn, edid=edid, uuid=None, code=None, text_et=text or str(edid),
+                text_en=None, microthesaurus_etid=None,
+            )
+        db.add_volume_topic(conn, draft_uuid=draft_uuid, descriptor_edid=edid)
