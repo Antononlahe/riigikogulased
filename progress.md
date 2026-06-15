@@ -100,12 +100,18 @@ Isamaa votes); no other faction is affected. No porting bugs. See the 2026-06-14
 
 ### Open / follow-ups
 
-1. **GH Actions `DATABASE_URL` secret — DONE (2026-06-14).** Set as an Actions repo secret
-   via `gh secret set` (gh 2.94.0 at `C:\Program Files\GitHub CLI\gh.exe`, account
-   Antononlahe), value = the validated Neon pooled connection string. The daily cron
-   (`scrape.yml`) can now write. Not yet smoke-tested via a manual `workflow_dispatch` run
-   (a manual dispatch is a production write — left for the user to trigger or the 05:00 UTC
-   cron to exercise).
+1. **GH Actions `DATABASE_URL` secret — BROKEN, fix deferred to next session.** The secret
+   was set 2026-06-14, but the first cron run (`Scheduled scrape`, run 27528969102, 05:00
+   UTC 2026-06-15) **failed**: psycopg `ProgrammingError: invalid connection option
+   "﻿…neondb?channel_binding"`. Root cause: the secret value has a leading **UTF-8 BOM
+   (U+FEFF)** — almost certainly set from a PowerShell-written file (Out-File/Set-Content/`>`
+   default to BOM). The BOM makes psycopg miss the `postgresql://` URI scheme and fall back
+   to keyword=value parsing, so the whole URL becomes an invalid option. The connection
+   string itself is fine. The workflow (`scrape.yml:20`) passes the secret straight to env,
+   so the BOM is in the stored secret, not the YAML. **Fix (run from Git Bash, NOT
+   PowerShell, to avoid re-adding a BOM):**
+   `printf '%s' '<neon pooled conn string>' | gh secret set DATABASE_URL --repo Antononlahe/parteidistsipliin`
+   then smoke-test: `gh workflow run scrape.yml -f command=daily` and confirm green.
 2. **apps/web redeploy** — code is unchanged; ISR (`revalidate = 3600`) refreshes the live
    site with the new data within the hour. Force a redeploy to surface it immediately.
 3. **Deferred cleanups (not blocking):** switch the procedural discriminator from the
