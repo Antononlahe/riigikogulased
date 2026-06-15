@@ -39,9 +39,7 @@ DROP VIEW IF EXISTS member_current_party;
 -- Faction membership per ballot (party_id NOT NULL = sits in that faction).
 CREATE VIEW member_vote_alignment AS
 WITH faction_ballots AS (
-  SELECT b.vote_id, b.member_id, b.choice, mft.party_id,
-         (v.vote_type_slug IN (SELECT slug FROM procedural_vote_types)) AS is_procedural,
-         v.voted_at::date AS vote_day
+  SELECT b.vote_id, b.member_id, b.choice, mft.party_id
   FROM ballots b
   JOIN votes v ON v.id = b.vote_id
   JOIN member_faction_terms mft
@@ -74,7 +72,7 @@ scoring AS (
                AND met.party_id IS NOT NULL
                AND (met.started_on IS NULL OR met.started_on <= v.voted_at::date)
                AND (met.ended_on IS NULL OR met.ended_on > v.voted_at::date)
-             ORDER BY met.started_on DESC NULLS LAST LIMIT 1)
+             ORDER BY met.started_on DESC NULLS LAST, met.id DESC LIMIT 1)
          ) AS scoring_party_id,
          EXISTS (
            SELECT 1 FROM member_faction_terms mft
@@ -131,7 +129,7 @@ cur_erakond AS (
   SELECT DISTINCT ON (met.member_id) met.member_id, met.party_id
   FROM member_erakond_terms met
   WHERE (met.ended_on IS NULL OR met.ended_on > CURRENT_DATE) AND met.party_id IS NOT NULL
-  ORDER BY met.member_id, met.started_on DESC NULLS LAST
+  ORDER BY met.member_id, met.started_on DESC NULLS LAST, met.id DESC
 )
 SELECT
   m.id AS member_id,
