@@ -37,6 +37,38 @@ for the daily cron (parked).
 
 ---
 
+## 2026-06-15 — v0.2: active members + cycle label (live)
+
+**What:** Distinguished currently-sitting members from those who voted this term but are no
+longer active. Migration `0004` adds `members.active`. The `members` command (and offline
+`rebuild`) now reconciles: list members (`/api/plenary-members`, 101) are written `active=true`;
+members present in the DB but absent from the list (voted via votings, but dropped from the
+active list — only **Riina Solman**, who is `active:false` in the API) are fetched from the
+per-member endpoint `/api/plenary-members/{uuid}`, enriched, and written `active=false`; the
+extra records are archived to `cache/api/plenary-members-extra.json` for offline rebuild. Web:
+inactive rows are muted + tagged `endine` in the still-single ranked list; the detail page
+shows a muted "Oli XV Riigikogu liige · ei ole enam aktiivne" note + de-emphasis; a static
+`XV Riigikogu · 2023–` cycle label on list + detail. Built subagent-driven (scraper group +
+web group, each reviewed).
+**Cutover (prod, with user permission):** applied `0004`; ran `members` → "101 active + 1
+former"; verified active 101 / former 1 (Solman), her DOB (1972-06-23) + email now populated,
+discipline unchanged (23166); committed the extras cache; redeployed.
+**Follow-up fix found in the eyeball:** running `members` had wiped Solman's Isamaa faction to
+non-attached (her individual API record has empty `factions` — the API clears them on
+inactivity), so her badge regressed to "Fraktsioonitu". Added `write_member(set_faction=False)`
+for the gap/former loops (a cleared record no longer wipes a former member's faction) and
+restored her Isamaa term on prod; she now shows **Isamaa (greyed) + former note**. Discipline
+unaffected throughout.
+**Why:** members who served this cycle but stepped down (ministers, resignations) were sparse
+and undistinguished; this is the within-cycle slice of the broader election-cycle roadmap
+(multi-cycle grouping + historical backfill remain v1.0; all-time stats post-1.0).
+**Touched:** `packages/db/migrations/0004_active.sql`; `apps/scraper/.../{db,api_cache,writer,
+cli}.py` (+ test, cache); `apps/web/lib/queries.ts`, `components/members-table.tsx`,
+`components/member/member-header.tsx`, `app/[locale]/{page,members/[slug]/page}.tsx`,
+`messages/{et,en}.json`. Spec/plan under `docs/superpowers/`.
+
+---
+
 ## 2026-06-15 — v0.2/C: member-detail page (code complete + build-validated)
 
 **What:** Built the per-member detail page via subagent-driven development. Route

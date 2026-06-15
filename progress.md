@@ -1,12 +1,25 @@
 # Progress
 
 **Last updated:** 2026-06-15
-**Version target:** v0.2 — A1, A2, B, erakond reconciliation all done; **C (member-detail
-page) code-complete + build-validated.** Next: deploy/visual verification + the user-gated
-erakond prod cutover.
+**Version target:** v0.2 — A1, A2, B, erakond reconciliation, C (member-detail page), and the
+active-members slice **all done and LIVE** at https://parteidistsipliin.vercel.app (pnpm
+deploy; daily cron fixed). v0.2 is effectively complete; next up is v0.3 (Eurovoc topics) per
+the roadmap.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**v0.2 / active members + cycle label — DONE + LIVE (2026-06-15).** `members.active` (migration
+`0004`); the `members`/`rebuild` reconciliation marks DB members absent from the active list as
+former and enriches them from the per-member endpoint (only Riina Solman); web shows inactive
+members muted + `endine`-tagged in the ranked list, a "former member" note + de-emphasis on the
+detail page, and a static `XV Riigikogu · 2023–` cycle label. Cut over to prod (101 active / 1
+former; Solman's bio populated; discipline unchanged) and redeployed. A follow-up fix preserves
+former members' last faction (`set_faction=False`) so Solman shows Isamaa-greyed, not
+Fraktsioonitu. Spec/plan: `docs/superpowers/{specs,plans}/2026-06-15-v0.2-active-members*`.
+Multi-cycle grouping + historical backfill remain **v1.0**; all-time stats **post-1.0**.
+
+## Prior status (C member-detail page)
 
 **v0.2 / C (member-detail page) — CODE COMPLETE + BUILD-VALIDATED.** Built via subagent-driven
 development (plan `docs/superpowers/plans/2026-06-15-v0.2-c-member-detail-page.md`):
