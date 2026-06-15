@@ -110,7 +110,9 @@ def rebuild() -> None:
             write_voting(conn, v, ctx)
         today = date.today()
         for m in members:
-            write_member(conn, m, ctx, today)
+            write_member(conn, m, ctx, today, active=True)
+        for m in cache.read_members_extra():
+            write_member(conn, m, ctx, today, active=False)
         ar_cache = AriregisterCache()
         for m in members:
             shtml = ar_cache.read_search(m.fullName)
@@ -148,15 +150,25 @@ async def _refresh_members() -> None:
         async with ApiClient() as client:
             await _fetch_sessions(client, cache)
             raw = await client.get_json("/api/plenary-members")
-        cache.write_members(raw)
-        ctx = _new_context(cache)
-        write_sessions(conn, ctx)
-        today = date.today()
-        members_list = [PlenaryMember.model_validate(m) for m in raw]
-        for m in members_list:
-            write_member(conn, m, ctx, today)
-        conn.commit()
-        typer.echo(f"Refreshed {len(members_list)} members.")
+            cache.write_members(raw)
+            ctx = _new_context(cache)
+            write_sessions(conn, ctx)
+            today = date.today()
+            listed = [PlenaryMember.model_validate(m) for m in raw]
+            for m in listed:
+                write_member(conn, m, ctx, today, active=True)
+            conn.commit()
+
+            listed_ids = {m.uuid for m in listed}
+            gap_ids = sorted(db.all_member_riigikogu_ids(conn) - listed_ids)
+            extra_raw: list[dict] = []
+            for uuid in gap_ids:
+                rec = await client.get_json(f"/api/plenary-members/{uuid}")
+                extra_raw.append(rec)
+                write_member(conn, PlenaryMember.model_validate(rec), ctx, today, active=False)
+            cache.write_members_extra(extra_raw)
+            conn.commit()
+        typer.echo(f"Refreshed {len(listed)} active + {len(gap_ids)} former members.")
 
 
 @app.command()
