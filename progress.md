@@ -69,8 +69,12 @@ and the importer builds a term from the search card. See progress-log.
 3. **Delete branches** (Neon deletes are user-gated): the validation branch
    `br-empty-dust-a6abd6s5` (no longer needed) and, once you're confident, the backup
    `br-cool-paper-a6qe3aqm`.
-4. **Deploy `apps/web` (B + C).** Prod now has the 0003 schema, so C's queries work. Redeploy
-   to ship the member-detail page and the corrected list.
+4. **Deploy `apps/web` (B + C) — DONE (2026-06-15).** Live at
+   https://parteidistsipliin.vercel.app; member pages render (Laneman shows RE + "ei kuulu
+   fraktsiooni" chip + visx timeline). Deploy method + lockfile footguns now documented in
+   CLAUDE.md "Deploying the web app" (deploy from `apps/web` with npm; never a partial
+   package-lock). A ~1h detour fixing a broken `apps/web/package-lock.json` (a committed
+   build-time swc patch had pruned `next`) — regenerated a full lockfile.
 
 **Final whole-implementation review (2026-06-15): PASS, one must-fix resolved.** The opus
 final reviewer confirmed the scoring views are correct and faithful (four-case truth table,
