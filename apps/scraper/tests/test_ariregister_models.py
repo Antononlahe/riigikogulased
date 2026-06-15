@@ -4,6 +4,7 @@ from parteidistsipliin_scraper.ariregister_models import (
     Candidate,
     Membership,
     match_candidate,
+    memberships_to_party_terms,
     registry_code_to_party,
 )
 
@@ -65,3 +66,17 @@ def test_membership_roundtrip_defaults_current():
     assert m.registry_code == "80043147"
     assert m.started_on == date(2024, 7, 12)
     assert m.ended_on is None  # None = current membership
+
+
+def test_memberships_to_party_terms_maps_codes_and_dates():
+    ms = [
+        Membership("Eesti Reformierakond", "80043147", date(2024, 7, 12), None),
+        Membership(
+            "Eesti Konservatiivne Rahvaerakond", "80040344", date(2019, 3, 27), date(2024, 6, 14)
+        ),
+        Membership("Tundmatu", None, date(2000, 1, 1), date(2001, 1, 1)),
+    ]
+    terms = memberships_to_party_terms(ms)
+    triples = [(t.short, t.started_on, t.ended_on) for t in terms]
+    assert ("RE", date(2024, 7, 12), None) in triples
+    assert any(t.short == "Tundmatu" for t in terms)  # unknown code -> name fallback

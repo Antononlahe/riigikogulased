@@ -8,6 +8,7 @@ from datetime import date
 from parteidistsipliin_scraper import db
 from parteidistsipliin_scraper.api_models import PlenaryMember, Session, Voting
 from parteidistsipliin_scraper.api_parse import decision_to_choice, vote_type_slug
+from parteidistsipliin_scraper.ariregister_models import PartyTerm
 from parteidistsipliin_scraper.enrich import (
     committee_terms,
     district_terms,
@@ -49,6 +50,25 @@ def write_sessions(conn, ctx: WriteContext) -> None:
         )
         ctx.session_id_by_key[(s.membership, s.number)] = sid
     conn.commit()
+
+
+def write_erakond_terms(
+    conn, member_uuid: str, full_name: str, terms: list[PartyTerm], ctx: WriteContext
+) -> None:
+    """Replace a member's erakond terms from parsed party-registry history."""
+    mid = ctx.member_id_by_uuid.get(member_uuid)
+    if mid is None:
+        mid = db.upsert_member(conn, member_uuid, full_name)
+        ctx.member_id_by_uuid[member_uuid] = mid
+    db.replace_erakond_terms(conn, mid)
+    for t in terms:
+        pid = ctx.party_id_by_short.get(t.short)
+        if pid is None:
+            pid = db.upsert_party(conn, t.short, t.full)
+            ctx.party_id_by_short[t.short] = pid
+        db.set_member_erakond(
+            conn, member_id=mid, party_id=pid, started_on=t.started_on, ended_on=t.ended_on
+        )
 
 
 def write_voting(conn, voting: Voting, ctx: WriteContext) -> None:

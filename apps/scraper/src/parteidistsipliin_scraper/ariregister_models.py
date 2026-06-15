@@ -31,6 +31,26 @@ _CODE_TO_PARTY: dict[str, tuple[str, str]] = {
 }
 
 
+@dataclass(frozen=True)
+class PartyTerm:
+    short: str
+    full: str
+    started_on: date | None
+    ended_on: date | None
+
+
+def memberships_to_party_terms(memberships: list[Membership]) -> list[PartyTerm]:
+    """Map parsed memberships to PartyTerms, resolving party identity by registry code."""
+    out: list[PartyTerm] = []
+    for m in memberships:
+        mapped = registry_code_to_party(m.registry_code, m.party_name)
+        if mapped is None:
+            continue
+        short, full = mapped
+        out.append(PartyTerm(short, full, m.started_on, m.ended_on))
+    return out
+
+
 def registry_code_to_party(code: str | None, name: str | None = None) -> tuple[str, str] | None:
     """Map a party registration code to (short, full); fall back to the name un-abbreviated."""
     if code and code in _CODE_TO_PARTY:
