@@ -5,6 +5,7 @@
   },
   "members": {
     "heading": "Riigikogu liikmed",
+    "cycle": "XV Riigikogu · 2023–",
     "subheading": "Distsipliiniskoor näitab, kui tihti liige hääletab oma fraktsiooni enamuse positsiooniga. Kohaloleku kontrolle ja päevakorra kinnitamisi arvesse ei võeta.",
     "empty": "Andmeid veel ei ole. Käivita scraper, et populaarne andmebaas."
   },
@@ -30,6 +31,7 @@
   },
   "table": {
     "sortBy": "Sorteeri",
+    "former": "endine",
     "sort": {
       "discipline": "Distsipliin",
       "name": "Nimi",
@@ -58,6 +60,8 @@
     "years": "{n} a",
     "mandate": "Mandaat alates",
     "email": "E-post",
+    "cycle": "XV Riigikogu · 2023–",
+    "formerMember": "Oli XV Riigikogu liige · ei ole enam aktiivne",
     "unaffiliated": "Fraktsioonitu",
     "notInFaction": "{party} liige · ei kuulu fraktsiooni",
     "class": {

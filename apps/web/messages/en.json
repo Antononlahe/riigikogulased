@@ -5,6 +5,7 @@
   },
   "members": {
     "heading": "Riigikogu members",
+    "cycle": "XV Riigikogu · 2023–",
     "subheading": "Discipline score measures how often a member votes with their faction's majority position. Procedural votes (presence checks, agenda adoption) are excluded.",
     "empty": "No data yet. Run the scraper to populate the database."
   },
@@ -30,6 +31,7 @@
   },
   "table": {
     "sortBy": "Sort",
+    "former": "former",
     "sort": {
       "discipline": "Discipline",
       "name": "Name",
@@ -58,6 +60,8 @@
     "years": "{n} yr",
     "mandate": "Mandate since",
     "email": "Email",
+    "cycle": "XV Riigikogu · 2023–",
+    "formerMember": "Was a member of the XV Riigikogu · no longer active",
     "unaffiliated": "Non-attached",
     "notInFaction": "{party} member · not in a faction group",
     "class": {
