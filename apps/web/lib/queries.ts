@@ -83,9 +83,9 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
             mcp.party_short_name AS "partyShortName", mcp.party_name AS "partyName",
             COALESCE(mcp.in_faction, false) AS "inFaction",
             m.photo_thumb_path AS "photoThumbPath", m.photo_url AS "photoUrl",
-            m.date_of_birth AS "dateOfBirth", m.gender, m.email, m.phone,
+            m.date_of_birth::text AS "dateOfBirth", m.gender, m.email, m.phone,
             m.parliament_seniority_days AS "senorityDays",
-            m.mandate_started_on AS "mandateStartedOn"
+            m.mandate_started_on::text AS "mandateStartedOn"
        FROM members m
        LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
       WHERE m.slug = $1`,
@@ -112,7 +112,7 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
             COUNT(*) FILTER (WHERE mva.party_majority_choice IS NOT NULL
               AND mva.member_choice IN ('yes','no','abstain') AND NOT mva.is_procedural
               AND mva.member_choice <> mva.party_majority_choice) AS defections,
-            MIN(v.voted_at) AS "firstDate", MAX(v.voted_at) AS "lastDate"
+            MIN(v.voted_at)::text AS "firstDate", MAX(v.voted_at)::text AS "lastDate"
        FROM member_vote_alignment mva
        JOIN votes v ON v.id = mva.vote_id
        LEFT JOIN parties p ON p.id = mva.party_id
@@ -137,7 +137,7 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
   );
 
   const committeesRes = await pool.query(
-    `SELECT c.name, ct.started_on AS "startedOn", ct.ended_on AS "endedOn"
+    `SELECT c.name, ct.started_on::text AS "startedOn", ct.ended_on::text AS "endedOn"
        FROM member_committee_terms ct JOIN committees c ON c.id = ct.committee_id
       WHERE ct.member_id = $1 ORDER BY ct.started_on DESC NULLS LAST`,
     [id],
