@@ -183,8 +183,10 @@ Current (migration `0003_erakond.sql`, v0.2/erakond reconciliation):
   (erakond) membership from the äriregister registry. `party_id NULL`/unmapped parties have
   no Riigikogu faction, so such members are excluded from scoring. `started_on`/`ended_on`
   may be NULL (NULL start = "always", NULL end = "current").
-- `parties.registry_code` — 8-digit RIK registration code per seeded party, the stable key
-  for mapping registry memberships to our six parties.
+- `parties.registry_code` — 8-digit RIK registration code per seeded party (informational;
+  seeded by `0003` and kept in sync with `ariregister_models._CODE_TO_PARTY`, which is the
+  dict actually used to map registry memberships to our six parties — the column itself is
+  not read by any view).
 
 Current (migration `0002_structure.sql`, v0.2/A2):
 

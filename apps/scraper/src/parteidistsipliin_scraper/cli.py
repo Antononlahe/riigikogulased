@@ -187,7 +187,7 @@ async def _refresh_photos() -> None:
 def erakond(
     refresh: bool = typer.Option(False, "--refresh", help="Re-fetch even if cached."),
 ) -> None:
-    """Resolve each member's party (erakond) membership from the aariregister registry."""
+    """Resolve each member's party (erakond) membership from the ariregister registry."""
     asyncio.run(_refresh_erakond(refresh))
 
 

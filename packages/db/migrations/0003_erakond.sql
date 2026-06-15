@@ -14,9 +14,14 @@ ALTER TABLE member_party_terms RENAME TO member_faction_terms;
 ALTER INDEX member_party_terms_member_idx RENAME TO member_faction_terms_member_idx;
 
 ALTER TABLE parties ADD COLUMN IF NOT EXISTS registry_code TEXT;
+CREATE UNIQUE INDEX IF NOT EXISTS parties_registry_code_idx
+  ON parties (registry_code) WHERE registry_code IS NOT NULL;
+-- Codes verified against the live registry member_history pages (2026-06-15); must stay in
+-- sync with ariregister_models._CODE_TO_PARTY. The current Isamaa entity (80243584) is the
+-- renamed "Erakond Isamaa ja Res Publica Liit".
 UPDATE parties SET registry_code = v.code FROM (VALUES
-  ('RE','80043147'), ('EKRE','80040344'), ('KE','80034740'),
-  ('E200','80529308'), ('SDE','80031010'), ('I','80042700')
+  ('RE','80043147'), ('EKRE','80040344'), ('KE','80053370'),
+  ('E200','80551335'), ('SDE','80052459'), ('I','80243584')
 ) AS v(short, code) WHERE parties.short_name = v.short;
 
 CREATE TABLE IF NOT EXISTS member_erakond_terms (
