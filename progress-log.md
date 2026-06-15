@@ -37,6 +37,33 @@ for the daily cron (parked).
 
 ---
 
+## 2026-06-15 — bugfix: members snapshot was wiping votings-derived faction (32 members)
+
+**What:** Reported as "Kalev Stoicescu shows no party". Systematic debugging found a much
+broader bug: `_current_faction_name` returned the FIRST `active` faction from the
+`/api/plenary-members` `factions[]` array, but that array lists every faction a member ever
+held, oldest-first, ALL flagged `active`, with no dates. For 32 substitute members who first
+entered non-attached then joined a fraktsioon (first entry "Fraktsiooni mittekuuluvad"),
+`write_member` mapped that to non-attached and **wiped their real votings-derived faction**
+(Stoicescu/Hussar→E200, Timpson/Kadastik→RE, ... across all parties) → they rendered "no
+party". The snapshot is unusable for current faction (no first/last rule works — e.g. Kiik's
+is `[mittekuuluvad, KE, mittekuuluvad]` and he genuinely IS non-attached). Per CLAUDE.md the
+per-ballot `voters[].faction` is the source of truth.
+**Fix:** `write_member` no longer sets faction at all (removed the faction block, the
+`set_faction`/`today` params, and the dead `_current_faction_name`); faction comes solely
+from `write_voting`. Restored the 32 on prod (deleted the non-attached terms opened today,
+reopened the party terms closed today) and redeployed. **Discipline unaffected** (vote-time
+terms already covered the votes — totals stay 23166/23044/122); 84 in-faction, 4 genuinely
+no-party, 1 former (Solman, restored earlier). Verified live (Stoicescu/Hussar = E200, etc.).
+**Note (separate, not fixed — no current visible impact):** the äriregister erakond match is
+by exact name+DOB, so a genuinely non-attached member whose registered name differs (e.g.
+"Grigore-Kalev Stoicescu" vs "Kalev Stoicescu") won't match. Irrelevant for Stoicescu (he's
+in the E200 fraktsioon, so faction-first wins). A name-tolerant match is a future enhancement.
+**Touched:** `apps/scraper/.../{writer,cli}.py` (54 tests pass, ruff clean). Prod faction
+terms restored via SQL; redeployed.
+
+---
+
 ## 2026-06-15 — v0.2: active members + cycle label (live)
 
 **What:** Distinguished currently-sitting members from those who voted this term but are no
