@@ -13,6 +13,45 @@ Entry format:
 
 ---
 
+## 2026-06-15 — v0.2: erakond reconciliation implemented + branch-validated
+
+**What:** Executed the erakond/fraktsioon plan via subagent-driven development (fresh
+implementer + spec + quality review per task). Landed: `ariregister_models` (Candidate/
+Membership/PartyTerm, registry-code + party-name resolvers, name+DOB matcher),
+`ariregister_parse` (card-based search + tr-based history, markup-tolerant), polite async
+`ariregister_client`, git-committed `ariregister_cache`, migration `0003_erakond.sql`
+(rename `member_party_terms`->`member_faction_terms`, add `member_erakond_terms`,
+`parties.registry_code`, reworked discipline views: scoring party = faction-first then
+erakond-fallback, party line = faction members only, self-excluded only when in-faction),
+db/writer/CLI wiring (`erakond` command + offline `rebuild` replay), and web `in_faction`.
+**Branch validation (Neon `br-empty-dust-a6abd6s5`) caught two bugs, both fixed:**
+1. **Wrong registration codes.** Seeded KE/E200/SDE/I codes were wrong, so those memberships
+   created duplicate name-keyed party rows with no Riigikogu faction -> party-line join
+   failed -> non-attached members in those parties (Kiik, Aab, Põlluaas, Hanimägi, Karuse,
+   Karilaid, Ernits, Izmailova) scored 0. Corrected codes from live registry
+   (KE 80053370, E200 80551335, SDE 80052459, I 80243584; RE/EKRE were already right) and
+   added `_NAME_TO_PARTY` + `name_to_party` as a second resolver (also consolidates Isamaa
+   name variants).
+2. **No history link for single-membership members.** The registry only renders a "Liikme
+   ajalugu" link for people with a multi-party history; members with one stable membership
+   (Eesmaa, Sarapuu) had no link, so the search parser skipped them. The parser now emits
+   card-only candidates (person_id None) carrying the current-party name; `match_candidate`
+   accepts them; `card_to_party_term` builds one open term from the card; the importer uses
+   it when there is no history link.
+**Result (branch, SQL-verified):** matched 96/101; non-attached zero-scorers 17 -> 4 (Valge
+= non-parliamentary ERK, Grünthal/Mölder = membership ended/no current party, Kunnas = not in
+registry — all correctly excluded); faction-member scores unchanged; discipline totals
+21024/20940/84 -> 23166/23044/122. 53 offline tests pass, ruff clean.
+**Why:** ~17% of members were missing from the core metric; party (erakond) is the right
+unit, and the registry is the only erakond source.
+**Touched:** `apps/scraper/src/parteidistsipliin_scraper/{ariregister_*,db,writer,cli}.py`,
+`apps/scraper/tests/test_ariregister_*`, `packages/db/migrations/0003_erakond.sql`,
+`apps/web/lib/queries.ts`, fixtures under `apps/scraper/fixtures/ariregister/`.
+**Open:** äriregister cache persistence (~31MB raw HTML — decide raw/gzip/distill before
+committing; offline rebuild needs it); prod cutover (user-gated); delete validation branch.
+
+---
+
 ## 2026-06-15 — v0.2: erakond ↔ fraktsioon reconciliation (root-caused + spec)
 
 **What:** Triaged a reported data bug — "Alar Laneman shows 0 votes" on the live site —

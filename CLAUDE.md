@@ -78,15 +78,27 @@ api.riigikogu.ee (JSON, 1 req/s)  ->  apps/scraper (Python, cron'd from GitHub A
 ```
 
 The scraper writes; the web app only reads. There is no write path from the web app.
-**Ingestion source (v0.2+):** the official Open Data API is the sole source. The HTML
-parsers were removed in the v0.2 cutover; the `parsers/` package is an empty placeholder
-kept only as a home for a future fallback if an API data gap is ever found. Raw API JSON
-is archived per-domain in the git-committed cache (`apps/scraper/cache/api/`) so the
-offline `rebuild` command reproduces the DB with no network.
+**Ingestion sources (v0.2+):** the official Open Data API is the primary source. A **second
+source** was added for one concrete API gap: the Riigikogu API carries only **fraktsioon**
+(parliamentary faction) membership, never **erakond** (party) membership, so party (erakond)
+membership comes from the **äriregister political-party registry** (`ariregister.rik.ee/
+est/political_party/`, server-rendered HTML, matched to members by **name + date of birth**;
+client/parser in `ariregister_*.py`, populated by the `erakond` CLI command). Raw JSON
+(API) and raw HTML (äriregister) are archived in the git-committed cache
+(`apps/scraper/cache/{api,ariregister}/`) so the offline `rebuild` reproduces the DB with no
+network. NOTE (2026-06-15): the äriregister cache persistence format is an open decision
+(raw HTML is ~31MB of fuzzy-search noise) — see `progress.md`.
 
 ## Core metric: "voting against party"
 
-For a vote V and member M who belongs to party P at time of V:
+**Two parties matter (v0.2+): fraktsioon vs erakond.** A member's **scoring party** for a
+vote V is: the party of the **fraktsioon** they sit in at time of V if they are in one;
+otherwise their **erakond** (party) membership at that time (from äriregister); otherwise
+they are excluded (truly independent). Fraktsioon wins when present — this covers both "in
+EKRE's faction but not an EKRE party member" (scored against EKRE) and "left the faction
+bench but still a Reformierakond member" (scored against RE).
+
+For a vote V and member M with scoring party P at time of V:
 
 1. If V is a procedural vote (`vote_type_slug` in `procedural_vote_types`) — exclude.
    Default exclusions: `kohalolekukontroll` (presence check) and
@@ -96,16 +108,22 @@ For a vote V and member M who belongs to party P at time of V:
    a cleaner `type.code` discriminator (`KOHALOLEKU_KONTROLL`, `AVALIK`, ...); the cutover
    kept deriving the slug from the description to preserve identical scoring, and switching
    the discriminator to `type.code` is a deferred follow-up.
-2. Take every M' in P (at time of V), excluding M.
-3. Compute the majority position of {M'}: yes / no / abstain, by strict majority.
-4. If no choice has strict majority — exclude V from M's score (party was split).
-5. If M's choice is `absent` — exclude V from M's score (no signal).
-6. Otherwise: `aligned` if M's choice == party majority, else `defection`.
+2. Compute P's **party line**: the strict-majority position (yes/no/abstain) among the
+   **fraktsioon members of P** at time of V (NOT erakond-only members). Exclude M's own
+   ballot from the line only when M is themselves a fraktsioon member of P.
+3. If no choice has strict majority — exclude V from M's score (party was split).
+4. If M's choice is `absent` — exclude V from M's score (no signal).
+5. If P has no fraktsioon (e.g. M's erakond is a non-parliamentary party) — there is no line,
+   so V is excluded for M.
+6. Otherwise: `aligned` if M's choice == party line, else `defection`.
 
 `discipline_score = aligned / (aligned + defection)`.
 
-This logic lives in SQL views in `packages/db/migrations/0001_initial.sql`. If you
-change the definition, update both the SQL and this section.
+This logic lives in SQL views in `packages/db/migrations/0003_erakond.sql` (which replaced
+the simpler faction-only views from `0001_initial.sql`). If you change the definition,
+update both the SQL and this section. Faction-member scores are byte-identical to the
+pre-erakond metric; erakond only adds non-attached party members who were previously
+excluded.
 
 To exclude an additional procedural type, `INSERT INTO procedural_vote_types`. The
 discipline view consults the table, so no code change is needed.
@@ -120,12 +138,15 @@ discipline view consults the table, so no code change is needed.
 - **IDs from Riigikogu**: every entity has a `riigikogu_id` column. Treat it as the
   natural key. For members it is the API `uuid` (same value as the UUID segment of the
   profile URL `/riigikogu-liikmed/saadik/<uuid>/<Name>`, not the trailing name slug). Do
-  not delete rows; party switches are modeled as `member_party_terms` with `ended_on`.
-  A member who leaves a fraktsioon becomes **non-attached**: their open term is closed
-  and a new term with `party_id = NULL` is opened (the scraper records party <->
-  non-attached transitions, not just party-to-party). Non-attached members are excluded
-  from discipline scoring. Fraktsioon names are mapped to seeded party abbreviations
-  (RE, EKRE, KE, E200, SDE, I) via `models.faction_to_party`.
+  not delete rows; faction switches are modeled as `member_faction_terms` with `ended_on`
+  (renamed from `member_party_terms` in `0003`). A member who leaves a fraktsioon becomes
+  **non-attached**: their open faction term is closed and a new one with `party_id = NULL`
+  is opened. Non-attached members no longer score 0 automatically — their **erakond**
+  (party) membership from `member_erakond_terms` is used as the scoring fallback (see Core
+  metric). Fraktsioon names map to seeded abbreviations (RE, EKRE, KE, E200, SDE, I) via
+  `models.faction_to_party`; erakond parties map by **registration code** (`parties.
+  registry_code`) then display-name via `ariregister_models.registry_code_to_party` /
+  `name_to_party`.
 - **Ingestion politeness**: the API allows **max 1 request/second per IP** (it returns
   429 above that — observed live); `ApiClient` hard-throttles to 1 req/s and backs off on
   429/5xx. Identify with the configured user-agent and attribute data under
@@ -143,14 +164,27 @@ Current (migration `0001_initial.sql`):
   `date_of_birth`, `date_of_death`, `gender`, `email`, `phone`, `parliament_seniority_days`,
   `mandate_started_on`, and photo columns (`photo_uuid`, `photo_file_name`, `photo_url`,
   `photo_thumb_path`).
-- `member_party_terms` — `(member_id, party_id, started_on, ended_on)` history
+- `member_party_terms` -> **renamed `member_faction_terms` in `0003`** —
+  `(member_id, party_id, started_on, ended_on)` fraktsioon history (`party_id NULL` =
+  non-attached). Built from per-ballot `voters[].faction`.
 - `votes` — individual vote events. v0.2/A2 added `sitting_id` (FK `sittings`) and the
   bill bridge `draft_uuid` / `draft_title` / `draft_mark` (from the voting's
   `relatedDraft`; nullable, FK to a future bills table deferred to v0.6).
 - `ballots` — `(vote_id, member_id, choice)`, choice in `yes|no|abstain|absent|neutral`
 - `procedural_vote_types` — slugs excluded from discipline scoring
-- Views: `member_vote_alignment`, `member_discipline`, `member_current_party` (unchanged
-  by A2 — discipline scores are byte-identical across the 0002 migration)
+- Views: `member_vote_alignment`, `member_discipline`, `member_current_party` — **reworked
+  in `0003`** for faction-first/erakond-fallback scoring and the faction-only party line;
+  `member_current_party` gained an `in_faction` boolean. Faction-member scores are
+  byte-identical to the pre-erakond metric.
+
+Current (migration `0003_erakond.sql`, v0.2/erakond reconciliation):
+
+- `member_erakond_terms` — `(member_id, party_id, started_on, ended_on, source)` party
+  (erakond) membership from the äriregister registry. `party_id NULL`/unmapped parties have
+  no Riigikogu faction, so such members are excluded from scoring. `started_on`/`ended_on`
+  may be NULL (NULL start = "always", NULL end = "current").
+- `parties.registry_code` — 8-digit RIK registration code per seeded party, the stable key
+  for mapping registry memberships to our six parties.
 
 Current (migration `0002_structure.sql`, v0.2/A2):
 
@@ -184,8 +218,13 @@ vote -> bill -> Eurovoc topics resolves.
 - The vote type comes from the voting's `description`/`type.code`, not a URL slug.
 - A member's faction can change mid-term (defections, party splits, joining the
   unaffiliated bench). The per-ballot `faction` in each voting (`voters[].faction`) is the
-  source of truth for faction-at-time; `member_party_terms` is built from it in
+  source of truth for faction-at-time; `member_faction_terms` is built from it in
   chronological order. Cross-check after each run.
+- **äriregister matching gotcha:** the registry search is fuzzy (matches first OR last name)
+  and only renders a "member history" link for people with a **multi-party** history.
+  Members with one stable membership have no link — their current party is read from the
+  search **card** instead (`card_to_party_term`). Identity is resolved by exact **name +
+  date of birth**; never trust the search by name alone.
 - "Absent" (`PUUDUB`) vs "did not vote" (`EI_HAALETANUD` -> neutral) vs "abstain"
   (`ERAPOOLETU`) — the API distinguishes these via `decision.code`; map precisely in
   `api_parse.decision_to_choice` and don't collapse them. `KOHAL` (present, in presence

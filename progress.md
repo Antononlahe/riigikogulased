@@ -8,7 +8,40 @@ sits before C (member-detail page).
 
 ## Current status
 
-**v0.2 / erakond reconciliation — DESIGN APPROVED, spec written, awaiting spec review.**
+**v0.2 / erakond reconciliation — IMPLEMENTED + BRANCH-VALIDATED; prod cutover + cache
+persistence remain.** Built via subagent-driven development (Tasks 1-12 of the plan
+`docs/superpowers/plans/2026-06-15-v0.2-erakond-fraktsioon-reconciliation.md`): äriregister
+client/parser/cache/models, migration `0003` (faction/erakond split + reworked discipline
+views), db/writer/CLI wiring, web `in_faction`. Validated on Neon branch
+`br-empty-dust-a6abd6s5` (project rapid-star-29400137): **matched 96/101 members**;
+non-attached zero-scorers dropped **17 -> 4** (the 4 are correctly excluded: Valge=ERK
+non-parliamentary, Grünthal/Mölder=no current party, Kunnas=no registry party); faction
+members byte-identical; discipline totals 21024/20940/84 -> **23166/23044/122** (the deltas
+are the newly-scored non-attached members' real party-line votes). 53 offline tests green,
+ruff clean.
+
+Branch validation caught two real bugs (fixed, commit on branch): (1) four of six seeded
+party **registration codes were wrong** (KE/E200/SDE/I) -> mis-mapped parties; corrected
+against the live registry + added a party display-name resolver. (2) the registry only
+shows a "member history" link for people with a **multi-party history**, so single-stable-
+membership members (Eesmaa, Sarapuu) were dropped; the parser now emits card-only candidates
+and the importer builds a term from the search card. See progress-log.
+
+**Remaining before done:**
+1. **äriregister cache persistence — OPEN DECISION.** The live `erakond` run produced ~31MB
+   of raw HTML (101 search pages @ ~300KB of fuzzy-result noise + 49 history pages). Too big
+   to commit as-is; decide raw-vs-gzip-vs-distill (store only the matched card/person_id)
+   before committing, since offline `rebuild` needs it. Cache currently sits UNTRACKED under
+   `apps/scraper/cache/ariregister/` (not committed).
+2. **Prod cutover (USER-GATED).** Apply `0003` to prod, TRUNCATE writer tables, `rebuild`,
+   `erakond` (live or from committed cache), `photos`. Record new totals. Same protocol as
+   A1/A2.
+3. **Delete the validation branch** `br-empty-dust-a6abd6s5` (Neon deletes are user-gated).
+4. The Task 4/10 review noted a cosmetic "aariregister" (double-a) typo in CLI help text.
+
+## Prior status (erakond design)
+
+**v0.2 / erakond reconciliation — DESIGN APPROVED, spec written.**
 Discovered while triaging a reported bug (Alar Laneman shows 0 votes). Root cause: the
 Riigikogu API carries only **fraktsioon** (parliamentary faction), never **erakond** (party)
 membership — verified, no party field anywhere in the member record. 17 of 102 members are
