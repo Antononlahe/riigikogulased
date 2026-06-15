@@ -42,7 +42,7 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
     if (key === sortKey) setSortDir((d) => (d === "asc" ? "desc" : "asc"));
     else {
       setSortKey(key);
-      setSortDir(key === "name" ? "asc" : "asc");
+      setSortDir("asc");
     }
   }
 
@@ -73,6 +73,9 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
               {COLS.map((c) => (
                 <th
                   key={c.key}
+                  aria-sort={
+                    sortKey === c.key ? (sortDir === "asc" ? "ascending" : "descending") : undefined
+                  }
                   className={`px-4 py-3 ${c.numeric ? "text-right" : ""}`}
                 >
                   <button
