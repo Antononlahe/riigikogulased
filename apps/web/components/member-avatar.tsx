@@ -32,8 +32,8 @@ export function MemberAvatar({
   return (
     <span
       aria-hidden
-      className="flex h-[30px] w-[30px] flex-none items-center justify-center rounded-full text-[11px] font-semibold text-white"
-      style={{ background: token.fill }}
+      className="flex h-[30px] w-[30px] flex-none items-center justify-center rounded-full bg-muted text-[11px] font-semibold"
+      style={{ color: token.ink }}
     >
       {initials(fullName)}
     </span>
