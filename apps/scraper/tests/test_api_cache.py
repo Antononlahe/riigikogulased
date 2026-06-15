@@ -51,3 +51,12 @@ def test_sessions_roundtrip(tmp_path: Path):
     assert len(sessions) == 1
     assert sessions[0].number == 5
     assert sessions[0].startDate.isoformat() == "2025-01-13"
+
+
+def test_members_extra_roundtrip(tmp_path):
+    cache = ApiVoteCache(directory=tmp_path)
+    assert cache.read_members_extra() == []
+    raw = [{"uuid": "u1", "fullName": "Riina Solman", "dateOfBirth": "1972-06-23"}]
+    cache.write_members_extra(raw)
+    out = cache.read_members_extra()
+    assert len(out) == 1 and out[0].uuid == "u1" and out[0].fullName == "Riina Solman"

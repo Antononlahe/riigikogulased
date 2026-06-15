@@ -25,6 +25,7 @@ class ApiVoteCache:
         self.dir = directory or CACHE_DIR
         self.votings_file = self.dir / "votings.jsonl"
         self.members_file = self.dir / "plenary-members.json"
+        self.members_extra_file = self.dir / "plenary-members-extra.json"
         self.sessions_file = self.dir / "sessions.json"
         self._seen: set[str] = set()
         if self.votings_file.exists():
@@ -80,6 +81,18 @@ class ApiVoteCache:
         if not self.members_file.exists():
             return []
         raw = json.loads(self.members_file.read_text(encoding="utf-8"))
+        return [PlenaryMember.model_validate(m) for m in raw]
+
+    def write_members_extra(self, raw: list[dict]) -> None:
+        self.dir.mkdir(parents=True, exist_ok=True)
+        self.members_extra_file.write_text(
+            json.dumps(raw, ensure_ascii=False, indent=0), encoding="utf-8"
+        )
+
+    def read_members_extra(self) -> list[PlenaryMember]:
+        if not self.members_extra_file.exists():
+            return []
+        raw = json.loads(self.members_extra_file.read_text(encoding="utf-8"))
         return [PlenaryMember.model_validate(m) for m in raw]
 
     def __len__(self) -> int:
