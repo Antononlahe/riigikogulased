@@ -112,7 +112,7 @@ def rebuild() -> None:
         for m in members:
             write_member(conn, m, ctx, today, active=True)
         for m in cache.read_members_extra():
-            write_member(conn, m, ctx, today, active=False)
+            write_member(conn, m, ctx, today, active=False, set_faction=False)
         ar_cache = AriregisterCache()
         for m in members:
             shtml = ar_cache.read_search(m.fullName)
@@ -165,7 +165,10 @@ async def _refresh_members() -> None:
             for uuid in gap_ids:
                 rec = await client.get_json(f"/api/plenary-members/{uuid}")
                 extra_raw.append(rec)
-                write_member(conn, PlenaryMember.model_validate(rec), ctx, today, active=False)
+                write_member(
+                    conn, PlenaryMember.model_validate(rec), ctx, today,
+                    active=False, set_faction=False,
+                )
             cache.write_members_extra(extra_raw)
             conn.commit()
         typer.echo(f"Refreshed {len(listed)} active + {len(gap_ids)} former members.")

@@ -143,23 +143,35 @@ def _write_sitting(conn, voting: Voting, ctx: WriteContext, vote_day: date) -> i
 
 
 def write_member(
-    conn, m: PlenaryMember, ctx: WriteContext, today: date, active: bool = True
+    conn,
+    m: PlenaryMember,
+    ctx: WriteContext,
+    today: date,
+    active: bool = True,
+    set_faction: bool = True,
 ) -> None:
-    """Upsert a member, set current faction, and write enrichment + committee/district terms."""
+    """Upsert a member, set faction + enrichment + committee/district terms + active flag.
+
+    ``set_faction=False`` skips the faction update — used for former (inactive) members whose
+    individual API record has an empty ``factions`` list (the API clears it on inactivity), so
+    that we preserve their last faction-at-time from votings rather than wiping it to
+    non-attached.
+    """
     mid = ctx.member_id_by_uuid.get(m.uuid)
     if mid is None:
         mid = db.upsert_member(conn, m.uuid, m.fullName)
         ctx.member_id_by_uuid[m.uuid] = mid
 
-    pid: int | None = None
-    party = faction_to_party(_current_faction_name(m))
-    if party is not None:
-        short, full = party
-        pid = ctx.party_id_by_short.get(short)
-        if pid is None:
-            pid = db.upsert_party(conn, short, full)
-            ctx.party_id_by_short[short] = pid
-    db.set_member_faction(conn, mid, pid, today)
+    if set_faction:
+        pid: int | None = None
+        party = faction_to_party(_current_faction_name(m))
+        if party is not None:
+            short, full = party
+            pid = ctx.party_id_by_short.get(short)
+            if pid is None:
+                pid = db.upsert_party(conn, short, full)
+                ctx.party_id_by_short[short] = pid
+        db.set_member_faction(conn, mid, pid, today)
 
     db.enrich_member(conn, mid, member_fields(m))
     db.set_member_active(conn, mid, active)
