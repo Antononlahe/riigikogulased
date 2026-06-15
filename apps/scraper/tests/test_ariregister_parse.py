@@ -2,6 +2,7 @@ from datetime import date
 from pathlib import Path
 
 from parteidistsipliin_scraper.ariregister_parse import (
+    _parse_date,
     parse_member_history,
     parse_search_results,
 )
@@ -40,3 +41,8 @@ def test_parse_history_all_ended_has_no_current():
     rows = parse_member_history(_read("history_grunthal.html"))
     assert len(rows) >= 1 and all(m.ended_on is not None for m in rows)
     assert any(m.registry_code == "80040344" for m in rows)
+
+
+def test_parse_date_handles_malformed():
+    assert _parse_date("32.13.2024") is None
+    assert _parse_date("no date here") is None

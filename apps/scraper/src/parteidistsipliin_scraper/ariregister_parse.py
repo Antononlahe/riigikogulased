@@ -26,8 +26,10 @@ def _parse_date(text: str) -> date | None:
     m = _RE_DATE.search(text)
     if not m:
         return None
-    day, month, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
-    return date(year, month, day)
+    try:
+        return date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+    except ValueError:
+        return None
 
 
 def _card_field(card: Tag, label: str) -> str | None:
@@ -111,17 +113,12 @@ def parse_member_history(html: str) -> list[Membership]:
     """Parse an ariregister member_history page and return one Membership per
     table row.
 
-    The page contains a ``<table id="party_table">`` whose data rows have the
-    following ``<td>`` layout (0-indexed):
-        0 – empty (icon/checkbox)
-        1 – party name (Nimetus)
-        2 – 8-digit registry code (Registrikood)
-        3 – status text (e.g. "Registrisse kantud", "Kustutatud")
-        4 – join date  DD.MM.YYYY  (Liitus)
-        5 – leave date DD.MM.YYYY  (Lahkus) — empty string if still current
-
-    Only rows that contain an 8-digit registry code in cell 2 are kept
-    (this filters out the header row and any stray rows).
+    The page contains a ``<table id="party_table">``.  Column positions are
+    resolved from the header row ``<th>`` labels (currently: '', 'Nimetus',
+    'Registrikood', 'Erakonna olek', 'Liitus', 'Lahkus') so that an inserted
+    or reordered column causes the function to return [] rather than silently
+    corrupt data.  A missing required header is treated as a schema change and
+    returns [] (fail closed; the committed-fixture test will catch it in CI).
     """
     soup = BeautifulSoup(html, "html.parser")
     memberships: list[Membership] = []
@@ -130,20 +127,38 @@ def parse_member_history(html: str) -> list[Membership]:
     if not isinstance(table, Tag):
         return memberships
 
+    # Build header index from the first <tr> that contains <th> elements.
+    header_map: dict[str, int] = {}
+    for row in table.find_all("tr"):
+        ths = row.find_all("th")
+        if ths:
+            header_map = {th.get_text(strip=True): i for i, th in enumerate(ths)}
+            break
+
+    _REQUIRED = {"Nimetus", "Registrikood", "Liitus", "Lahkus"}
+    if not _REQUIRED.issubset(header_map):
+        return []
+
+    col_name = header_map["Nimetus"]
+    col_code = header_map["Registrikood"]
+    col_joined = header_map["Liitus"]
+    col_left = header_map["Lahkus"]
+    required_len = max(col_name, col_code, col_joined, col_left) + 1
+
     for row in table.find_all("tr"):
         cells = row.find_all("td")
-        if len(cells) < 6:
+        if len(cells) < required_len:
             continue
 
-        code_text = cells[2].get_text(strip=True)
+        code_text = cells[col_code].get_text(strip=True)
         if not _RE_REGISTRY_CODE.fullmatch(code_text):
             continue
 
-        party_name = cells[1].get_text(strip=True)
+        party_name = cells[col_name].get_text(strip=True)
         registry_code = code_text
 
-        joined_text = cells[4].get_text(strip=True)
-        left_text = cells[5].get_text(strip=True)
+        joined_text = cells[col_joined].get_text(strip=True)
+        left_text = cells[col_left].get_text(strip=True)
 
         started_on = _parse_date(joined_text)
         ended_on = _parse_date(left_text) if left_text else None
