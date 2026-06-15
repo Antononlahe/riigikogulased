@@ -12,7 +12,11 @@ from parteidistsipliin_scraper.api_client import ApiClient
 from parteidistsipliin_scraper.api_models import PlenaryMember, SittingGroup, Voting
 from parteidistsipliin_scraper.ariregister_cache import AriregisterCache
 from parteidistsipliin_scraper.ariregister_client import AriregisterClient
-from parteidistsipliin_scraper.ariregister_models import match_candidate, memberships_to_party_terms
+from parteidistsipliin_scraper.ariregister_models import (
+    card_to_party_term,
+    match_candidate,
+    memberships_to_party_terms,
+)
 from parteidistsipliin_scraper.ariregister_parse import parse_member_history, parse_search_results
 from parteidistsipliin_scraper.enrich import photo_download_url
 from parteidistsipliin_scraper.photo import write_thumbnail
@@ -115,13 +119,16 @@ def rebuild() -> None:
             cand = match_candidate(
                 parse_search_results(shtml), full_name=m.fullName, date_of_birth=m.dateOfBirth
             )
-            if cand is None or cand.person_id is None:
+            if cand is None:
                 continue
-            hhtml = ar_cache.read_history(cand.person_id)
-            if hhtml is None:
-                continue
-            terms = memberships_to_party_terms(parse_member_history(hhtml))
-            write_erakond_terms(conn, m.uuid, m.fullName, terms, ctx)
+            if cand.person_id:
+                hhtml = ar_cache.read_history(cand.person_id)
+                terms = memberships_to_party_terms(parse_member_history(hhtml)) if hhtml else []
+            else:
+                pt = card_to_party_term(cand.party_name)
+                terms = [pt] if pt else []
+            if terms:
+                write_erakond_terms(conn, m.uuid, m.fullName, terms, ctx)
         conn.commit()
     typer.echo(
         f"Rebuilt {len(votings)} votings, {len(ctx.sitting_id_by_uuid)} sittings, "
@@ -200,14 +207,22 @@ async def _refresh_erakond(refresh: bool) -> None:
                 cand = match_candidate(
                     parse_search_results(shtml), full_name=m.fullName, date_of_birth=m.dateOfBirth
                 )
-                if cand is None or cand.person_id is None:
+                if cand is None:
                     unmatched += 1
                     continue
-                hhtml = ar_cache.read_history(cand.person_id)
-                if hhtml is None or refresh:
-                    hhtml = await client.history(cand.person_id)
-                    ar_cache.write_history(cand.person_id, hhtml)
-                terms = memberships_to_party_terms(parse_member_history(hhtml))
+                if cand.person_id:
+                    hhtml = ar_cache.read_history(cand.person_id)
+                    if hhtml is None or refresh:
+                        hhtml = await client.history(cand.person_id)
+                        ar_cache.write_history(cand.person_id, hhtml)
+                    terms = memberships_to_party_terms(parse_member_history(hhtml))
+                else:
+                    # No member-history link: the search card carries only the current party.
+                    pt = card_to_party_term(cand.party_name)
+                    terms = [pt] if pt else []
+                if not terms:
+                    unmatched += 1
+                    continue
                 write_erakond_terms(conn, m.uuid, m.fullName, terms, ctx)
                 matched += 1
         conn.commit()

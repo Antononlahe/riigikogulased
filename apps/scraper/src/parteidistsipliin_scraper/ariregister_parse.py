@@ -72,16 +72,15 @@ def parse_search_results(html: str) -> list[Candidate]:
         if not isinstance(card, Tag):
             continue
 
-        # Find the history anchor; skip cards without one
+        # The member-history anchor is OPTIONAL: only people with a multi-party history get
+        # one. Cards without it still carry the current-party name (a single, stable
+        # membership), so we emit them with person_id=None rather than skipping.
         history_anchor = card.find("a", href=_RE_HISTORY_HREF)
-        if not isinstance(history_anchor, Tag):
-            continue
-
-        href = history_anchor.get("href", "")
-        id_match = _RE_HISTORY_HREF.search(str(href))
-        if not id_match:
-            continue
-        person_id = id_match.group(1)
+        person_id: str | None = None
+        if isinstance(history_anchor, Tag):
+            id_match = _RE_HISTORY_HREF.search(str(history_anchor.get("href", "")))
+            if id_match:
+                person_id = id_match.group(1)
 
         # Extract first name, last name
         first = _card_field(card, "Eesnimi")

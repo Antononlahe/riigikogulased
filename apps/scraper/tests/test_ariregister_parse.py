@@ -46,3 +46,13 @@ def test_parse_history_all_ended_has_no_current():
 def test_parse_date_handles_malformed():
     assert _parse_date("32.13.2024") is None
     assert _parse_date("no date here") is None
+
+
+def test_parse_search_emits_card_only_members_without_history_link():
+    # Most result cards have no member-history link (single stable membership); they must
+    # still be emitted as Candidates (person_id None) carrying the current-party name, so
+    # members without a switch history are not silently dropped.
+    cands = parse_search_results(_read("search_laneman.html"))
+    card_only = [c for c in cands if c.person_id is None]
+    assert card_only, "expected card-only candidates (no history link)"
+    assert any(c.party_name for c in card_only)
