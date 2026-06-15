@@ -36,7 +36,25 @@ and the importer builds a term from the search card. See progress-log.
    `erakond` (the committed gzip cache replays offline), `photos`. Record new totals. Same
    protocol as A1/A2.
 3. **Delete the validation branch** `br-empty-dust-a6abd6s5` (Neon deletes are user-gated).
-4. The Task 4/10 review noted a cosmetic "aariregister" (double-a) typo in CLI help text.
+
+**Final whole-implementation review (2026-06-15): PASS, one must-fix resolved.** The opus
+final reviewer confirmed the scoring views are correct and faithful (four-case truth table,
+faction-only line, self-exclusion, erakond-only-no-faction exclusion) and validated. It
+caught one real must-fix-before-cutover: the `0003` seed UPDATE still carried the pre-fix
+WRONG codes for KE/E200/SDE/I (the column is informational/unused by scoring, but shipped
+wrong data) — **fixed** (codes now match `_CODE_TO_PARTY`; added the spec's partial-unique
+index; clarified CLAUDE.md; fixed the "aariregister" typo). Verdict: **ready for prod
+cutover.**
+
+Recommended follow-ups (non-blocking, not yet done):
+- **SQL view regression test** (spec-mandated): a fixture-DB test asserting the four scoring
+  cases. Deferred — the repo has no pg-backed test harness (the plan validated via Neon-branch
+  SQL instead). Strongly recommended before further metric edits.
+- **Cron wiring for `erakond`**: not in `scrape.yml` (nor are `members`/`photos`). Erakond
+  data is slow-changing and a daily run would hit äriregister 100+/day — decide manual vs a
+  weekly schedule rather than daily.
+- Minor: `_refresh_erakond` counts "matched a card but party not parliamentary" in the same
+  `unmatched` bucket as "no candidate" (log-only cosmetic).
 
 ## Prior status (erakond design)
 
