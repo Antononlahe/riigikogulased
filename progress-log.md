@@ -13,6 +13,32 @@ Entry format:
 
 ---
 
+## 2026-06-15 — v0.2/A2: production cutover (validated, live)
+
+**What:** Applied A2 to production. Validated first on an isolated Neon branch
+(`a2-structure`, since deleted): `apply_migrations` -> `members` -> clean `rebuild` ->
+`photos`. Then applied in place exactly as A1 did — apply 0002, TRUNCATE the writer-managed
+tables, `rebuild` from the committed cache, `photos`. Committed the validated artifacts
+(`cache/api/sessions.json`, 101 WebP thumbnails under `apps/web/public/members/`).
+**Result (production, verified by SQL):** 598 votes / 51926 ballots / 102 members
+(unchanged); **discipline 21024 / 20940 / 84 — byte-identical to pre-migration**; 150
+sittings (0 unmapped), 176 sessions, 15 committees / 295 committee terms, 13 districts /
+234 district terms, 395 votes with a draft, 101 enriched members, 101 thumbnail paths.
+**Why TRUNCATE+rebuild:** `rebuild` reconstructs `member_party_terms` chronologically from
+an empty slate; layering it onto existing terms re-dates them and violates the
+`ended_on >= started_on` check (caught on the branch when running `members` before
+`rebuild`). The clean wipe-and-rebuild reproduces identical scoring — the cache is the
+source of truth.
+**Bug fixed mid-validation:** `apply_migrations` recorded versions into `schema_migrations`
+before the migration that creates the table could run on a 0001-only DB; now it creates the
+tracking table up front (commit `9c7e355`).
+**Follow-ups (minor, logged in progress.md):** NULL-`started_on` dedupe on
+`member_committee_terms`; `photos` single-transaction failure mode.
+**Touched:** production DB (Neon `rapid-star-29400137`); `cache/api/sessions.json`,
+`apps/web/public/members/*.webp`, `progress.md`.
+
+---
+
 ## 2026-06-14 — v0.2/A2: structural schema + member enrichment (code complete)
 
 **What:** Migration `0002_structure.sql` adds `schema_migrations` (+ a `db.apply_migrations()`
