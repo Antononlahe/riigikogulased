@@ -40,5 +40,30 @@
   "filter": {
     "party": "Faction",
     "all": "All factions"
+  },
+  "memberDetail": {
+    "discipline": "Discipline",
+    "counted": "Votes",
+    "against": "Against",
+    "timeline": "Vote history",
+    "timelineAria": "{n} votes",
+    "byParty": "By faction",
+    "party": "Faction",
+    "period": "Period",
+    "noVotes": "No votes recorded.",
+    "districts": "Electoral districts",
+    "committees": "Committees",
+    "born": "Born",
+    "seniority": "Seniority",
+    "years": "{n} yr",
+    "mandate": "Mandate since",
+    "email": "Email",
+    "unaffiliated": "Non-attached",
+    "notInFaction": "Former {party}",
+    "class": {
+      "aligned": "With faction",
+      "against": "Against faction",
+      "excluded": "Excluded"
+    }
   }
 }
