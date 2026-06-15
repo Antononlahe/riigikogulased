@@ -13,6 +13,35 @@ Entry format:
 
 ---
 
+## 2026-06-15 — v0.2/C: member-detail page (code complete + build-validated)
+
+**What:** Built the per-member detail page via subagent-driven development. Route
+`app/[locale]/members/[slug]/page.tsx` (ISR `revalidate=3600`, `generateStaticParams` over
+all slugs, View Transition from the list, `notFound` on unknown slug). `getMemberDetail(slug)`
+in `lib/queries.ts` returns the member record + scoring party + `in_faction`, discipline
+summary, a **per-party-at-time breakdown** (`member_vote_alignment` grouped by scoring
+`party_id`), the ~600-row per-vote series, and committees/districts. Pure tested
+`lib/member-detail.ts` (`classifyVote`, `monthlyDiscipline`, `partySwitchPoints` — 9 vitest
+tests). Components under `components/member/`: `member-header` (with the "party member · not
+in faction" chip driven by `in_faction`), `discipline-summary`, `party-breakdown`,
+`affiliations-panel`, and the **visx** `vote-timeline` (monthly trend `AreaClosed`/`LinePath`
++ per-vote strip + dashed party-switch guides + `@visx/tooltip` + keyboard-focusable marks).
+Members-table names link into the page. i18n `memberDetail` namespace (et + en).
+**Why:** v0.2/C — the first per-member story, and where the erakond "not in a faction"
+distinction becomes visible (roadmap requirement).
+**Verification:** 18 vitest tests pass; tsc + `next lint` clean; **production build generated
+209/209 static pages**, all ~204 member pages (102 × 2 locales) prerendered against live
+branch data with the timeline server-rendered, 0 `MISSING_MESSAGE`; member-page bundle
+30.4 kB / 199 kB First Load. The build caught a real bug — pg returns DATE/TIMESTAMP as JS
+`Date` while the row types/components treat them as strings (`.slice()`); fixed with `::text`
+casts in the query. Interactive checks (timeline hover/keyboard, View Transition, responsive)
+need a live deploy, as with B.
+**Touched:** `apps/web/` — `app/[locale]/members/[slug]/page.tsx`, `components/member/*`,
+`lib/{member-detail,queries}.ts` (+ test), `components/members-table.tsx`, `messages/{et,en}.json`,
+`package.json` (visx). Plan/spec under `docs/superpowers/`.
+
+---
+
 ## 2026-06-15 — v0.2: erakond reconciliation implemented + branch-validated
 
 **What:** Executed the erakond/fraktsioon plan via subagent-driven development (fresh

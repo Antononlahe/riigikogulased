@@ -1,12 +1,30 @@
 # Progress
 
 **Last updated:** 2026-06-15
-**Version target:** v0.2 — A1, A2, B all DONE and signed off. A new data-accuracy slice —
-**erakond ↔ fraktsioon reconciliation** — was discovered and is now the current slice; it
-sits before C (member-detail page).
+**Version target:** v0.2 — A1, A2, B, erakond reconciliation all done; **C (member-detail
+page) code-complete + build-validated.** Next: deploy/visual verification + the user-gated
+erakond prod cutover.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**v0.2 / C (member-detail page) — CODE COMPLETE + BUILD-VALIDATED.** Built via subagent-driven
+development (plan `docs/superpowers/plans/2026-06-15-v0.2-c-member-detail-page.md`):
+`/[locale]/members/[slug]` route (ISR, `generateStaticParams`, View Transition from the
+list), `getMemberDetail(slug)` query, pure tested `lib/member-detail.ts` (classify/monthly/
+switches — 9 vitest tests), components (member-header with the **"party member · not in
+faction"** chip, discipline-summary, **per-party-at-time** breakdown, affiliations/bio
+panel), and the **visx** vote-timeline (monthly trend + per-vote strip + party-switch guides
++ tooltip + a11y). Members-table names now link into it. i18n et+en added.
+**Verified:** 18 vitest tests pass, tsc clean, `next lint` clean, and the **production build
+generated 209/209 static pages** — including all ~204 member pages (102 × 2 locales)
+prerendered against live branch data with the timeline rendered server-side, 0
+`MISSING_MESSAGE`; member-page bundle 30.4 kB / 199 kB First Load. A date-handling bug (pg
+returns DATE/TIMESTAMP as JS `Date`, components `.slice()` strings) was caught by the build
+and fixed (`::text` casts). **Still to do:** deploy + interactive verification (timeline
+hover/keyboard, View Transition, responsive) against a live DB, as with B.
+
+## Prior status (erakond reconciliation)
 
 **v0.2 / erakond reconciliation — IMPLEMENTED + BRANCH-VALIDATED; prod cutover + cache
 persistence remain.** Built via subagent-driven development (Tasks 1-12 of the plan
