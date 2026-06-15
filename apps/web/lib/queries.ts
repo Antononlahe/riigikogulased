@@ -7,6 +7,7 @@ export type MemberDisciplineRow = {
   partyShortName: string | null;
   partyName: string | null;
   photoThumbPath: string | null;
+  inFaction: boolean;
   countedVotes: number;
   defections: number;
   disciplineScore: number | null;
@@ -21,6 +22,7 @@ export async function getMemberDiscipline(): Promise<MemberDisciplineRow[]> {
       mcp.party_short_name AS "partyShortName",
       mcp.party_name       AS "partyName",
       m.photo_thumb_path   AS "photoThumbPath",
+      COALESCE(mcp.in_faction, false) AS "inFaction",
       md.counted_votes  AS "countedVotes",
       md.defections,
       CASE WHEN md.counted_votes > 0
