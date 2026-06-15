@@ -17,6 +17,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Link } from "@/i18n/routing";
 
 type Col = { key: SortKey; numeric: boolean };
 const COLS: Col[] = [
@@ -104,7 +105,13 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
                       photoThumbPath={r.photoThumbPath}
                       shortName={r.partyShortName}
                     />
-                    {r.fullName}
+                    <Link
+                      href={`/members/${r.slug}`}
+                      className="hover:underline"
+                      style={{ viewTransitionName: `member-${r.slug}` }}
+                    >
+                      {r.fullName}
+                    </Link>
                     <PartyBadge shortName={r.partyShortName} name={r.partyName} />
                   </span>
                 </td>
