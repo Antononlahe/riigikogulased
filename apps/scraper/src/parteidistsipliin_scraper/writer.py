@@ -142,7 +142,9 @@ def _write_sitting(conn, voting: Voting, ctx: WriteContext, vote_day: date) -> i
     return sid
 
 
-def write_member(conn, m: PlenaryMember, ctx: WriteContext, today: date) -> None:
+def write_member(
+    conn, m: PlenaryMember, ctx: WriteContext, today: date, active: bool = True
+) -> None:
     """Upsert a member, set current faction, and write enrichment + committee/district terms."""
     mid = ctx.member_id_by_uuid.get(m.uuid)
     if mid is None:
@@ -160,6 +162,7 @@ def write_member(conn, m: PlenaryMember, ctx: WriteContext, today: date) -> None
     db.set_member_faction(conn, mid, pid, today)
 
     db.enrich_member(conn, mid, member_fields(m))
+    db.set_member_active(conn, mid, active)
     for ct in committee_terms(m):
         cid = db.upsert_committee(
             conn, riigikogu_uuid=ct.uuid, name=ct.name, type_code=ct.type_code
