@@ -96,7 +96,7 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
                 key={r.memberId}
                 layout
                 transition={{ duration: 0.2 }}
-                className="border-b border-border last:border-0 hover:bg-secondary"
+                className={`border-b border-border last:border-0 hover:bg-secondary ${r.active ? "" : "opacity-55"}`}
               >
                 <td className="px-4 py-2.5">
                   <span className="flex items-center gap-3 font-semibold">
@@ -113,6 +113,11 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
                       {r.fullName}
                     </Link>
                     <PartyBadge shortName={r.partyShortName} name={r.partyName} />
+                    {!r.active && (
+                      <span className="rounded-sm bg-secondary px-1 py-0.5 text-[10px] uppercase tracking-wide text-muted-foreground">
+                        {t("former")}
+                      </span>
+                    )}
                   </span>
                 </td>
                 <td className="px-4 py-2.5">
