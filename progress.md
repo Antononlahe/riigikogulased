@@ -28,14 +28,13 @@ membership members (Eesmaa, Sarapuu) were dropped; the parser now emits card-onl
 and the importer builds a term from the search card. See progress-log.
 
 **Remaining before done:**
-1. **äriregister cache persistence — OPEN DECISION.** The live `erakond` run produced ~31MB
-   of raw HTML (101 search pages @ ~300KB of fuzzy-result noise + 49 history pages). Too big
-   to commit as-is; decide raw-vs-gzip-vs-distill (store only the matched card/person_id)
-   before committing, since offline `rebuild` needs it. Cache currently sits UNTRACKED under
-   `apps/scraper/cache/ariregister/` (not committed).
+1. **äriregister cache persistence — DONE (gzip).** Cache committed gzip-compressed
+   (`apps/scraper/cache/ariregister/*.html.gz`, ~2.6MB vs 31MB raw); `AriregisterCache`
+   reads/writes gzip. Reproducibility re-verified from the gzipped cache (same 96/101
+   matches, same 23166/23044/122 totals).
 2. **Prod cutover (USER-GATED).** Apply `0003` to prod, TRUNCATE writer tables, `rebuild`,
-   `erakond` (live or from committed cache), `photos`. Record new totals. Same protocol as
-   A1/A2.
+   `erakond` (the committed gzip cache replays offline), `photos`. Record new totals. Same
+   protocol as A1/A2.
 3. **Delete the validation branch** `br-empty-dust-a6abd6s5` (Neon deletes are user-gated).
 4. The Task 4/10 review noted a cosmetic "aariregister" (double-a) typo in CLI help text.
 

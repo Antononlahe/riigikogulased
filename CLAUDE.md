@@ -86,8 +86,8 @@ est/political_party/`, server-rendered HTML, matched to members by **name + date
 client/parser in `ariregister_*.py`, populated by the `erakond` CLI command). Raw JSON
 (API) and raw HTML (äriregister) are archived in the git-committed cache
 (`apps/scraper/cache/{api,ariregister}/`) so the offline `rebuild` reproduces the DB with no
-network. NOTE (2026-06-15): the äriregister cache persistence format is an open decision
-(raw HTML is ~31MB of fuzzy-search noise) — see `progress.md`.
+network. The äriregister cache is stored **gzip-compressed** (`*.html.gz`, ~2.6MB) because
+the raw search pages are large fuzzy result sets (`AriregisterCache` handles compression).
 
 ## Core metric: "voting against party"
 
