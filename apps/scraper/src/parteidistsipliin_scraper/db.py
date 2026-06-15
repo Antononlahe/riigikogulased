@@ -23,17 +23,21 @@ def connect() -> psycopg.Connection:
     return psycopg.connect(url, row_factory=dict_row)
 
 
-def upsert_party(conn: psycopg.Connection, short_name: str, name: str | None = None) -> int:
+def upsert_party(
+    conn: psycopg.Connection, short_name: str, name: str | None = None,
+    registry_code: str | None = None,
+) -> int:
     with conn.cursor() as cur:
         cur.execute(
             """
-            INSERT INTO parties (short_name, name)
-            VALUES (%s, %s)
+            INSERT INTO parties (short_name, name, registry_code)
+            VALUES (%s, %s, %s)
             ON CONFLICT (short_name) DO UPDATE
-              SET name = COALESCE(EXCLUDED.name, parties.name)
+              SET name = COALESCE(EXCLUDED.name, parties.name),
+                  registry_code = COALESCE(EXCLUDED.registry_code, parties.registry_code)
             RETURNING id
             """,
-            (short_name, name or short_name),
+            (short_name, name or short_name, registry_code),
         )
         row = cur.fetchone()
         assert row is not None
@@ -57,19 +61,17 @@ def upsert_member(conn: psycopg.Connection, riigikogu_id: str, full_name: str) -
         return row["id"]
 
 
-def set_member_party(
+def set_member_faction(
     conn: psycopg.Connection,
     member_id: int,
     party_id: int | None,
     started_on: date,
 ) -> None:
-    """Close any open term that disagrees, then open a new one if needed."""
+    """Close any open faction term that disagrees, then open a new one if needed."""
     with conn.cursor() as cur:
         cur.execute(
-            """
-            SELECT id, party_id FROM member_party_terms
-            WHERE member_id = %s AND ended_on IS NULL
-            """,
+            "SELECT id, party_id FROM member_faction_terms "
+            "WHERE member_id = %s AND ended_on IS NULL",
             (member_id,),
         )
         current = cur.fetchone()
@@ -77,15 +79,31 @@ def set_member_party(
             return
         if current:
             cur.execute(
-                "UPDATE member_party_terms SET ended_on = %s WHERE id = %s",
+                "UPDATE member_faction_terms SET ended_on = %s WHERE id = %s",
                 (started_on, current["id"]),
             )
         cur.execute(
-            """
-            INSERT INTO member_party_terms (member_id, party_id, started_on)
-            VALUES (%s, %s, %s)
-            """,
+            "INSERT INTO member_faction_terms (member_id, party_id, started_on) "
+            "VALUES (%s, %s, %s)",
             (member_id, party_id, started_on),
+        )
+
+
+def replace_erakond_terms(conn: psycopg.Connection, member_id: int) -> None:
+    """Delete a member's erakond terms (re-run from scratch each ingest)."""
+    with conn.cursor() as cur:
+        cur.execute("DELETE FROM member_erakond_terms WHERE member_id = %s", (member_id,))
+
+
+def set_member_erakond(
+    conn: psycopg.Connection, *, member_id: int, party_id: int | None,
+    started_on: date | None, ended_on: date | None,
+) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            "INSERT INTO member_erakond_terms (member_id, party_id, started_on, ended_on) "
+            "VALUES (%s, %s, %s, %s)",
+            (member_id, party_id, started_on, ended_on),
         )
 
 

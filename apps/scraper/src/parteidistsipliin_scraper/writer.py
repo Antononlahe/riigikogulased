@@ -73,7 +73,7 @@ def write_voting(conn, voting: Voting, ctx: WriteContext) -> None:
                 pid = db.upsert_party(conn, short, full)
                 ctx.party_id_by_short[short] = pid
         if mid not in ctx.member_party or ctx.member_party[mid] != pid:
-            db.set_member_party(conn, mid, pid, vote_day)
+            db.set_member_faction(conn, mid, pid, vote_day)
             ctx.member_party[mid] = pid
 
         ballot_rows.append((mid, choice))
@@ -137,7 +137,7 @@ def write_member(conn, m: PlenaryMember, ctx: WriteContext, today: date) -> None
         if pid is None:
             pid = db.upsert_party(conn, short, full)
             ctx.party_id_by_short[short] = pid
-    db.set_member_party(conn, mid, pid, today)
+    db.set_member_faction(conn, mid, pid, today)
 
     db.enrich_member(conn, mid, member_fields(m))
     for ct in committee_terms(m):
