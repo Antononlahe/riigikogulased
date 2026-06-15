@@ -174,3 +174,8 @@ A comprehensive roadmap to v1.0-and-beyond was researched and approved. Full doc
 Expanded ladder: v0.2 API migration + member pages + design system · v0.3 Eurovoc topics
 · v0.4 party/committee rollups · v0.5 speeches · v0.6 bills/sponsorship · v0.7 oversight
 · v1.0 search/share-cards/historical backfill/polish · post-1.0 "MP activity profiler".
+
+Future work (post-1.0, requested 2026-06-15): **committee-level party discipline** — run
+the discipline metric over committee votes (`/api/votings/committees`) to show how loyal
+members are to the party line within committees, per committee and per member. Recorded in
+the roadmap doc.
