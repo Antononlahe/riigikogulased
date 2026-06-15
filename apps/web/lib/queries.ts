@@ -137,13 +137,17 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
   );
 
   const committeesRes = await pool.query(
-    `SELECT c.name, ct.started_on::text AS "startedOn", ct.ended_on::text AS "endedOn"
+    `SELECT c.name,
+            MAX(ct.started_on)::text AS "startedOn",
+            MAX(ct.ended_on)::text   AS "endedOn"
        FROM member_committee_terms ct JOIN committees c ON c.id = ct.committee_id
-      WHERE ct.member_id = $1 ORDER BY ct.started_on DESC NULLS LAST`,
+      WHERE ct.member_id = $1
+      GROUP BY c.name
+      ORDER BY MAX(ct.started_on) DESC NULLS LAST`,
     [id],
   );
   const districtsRes = await pool.query(
-    `SELECT d.name, NULL::date AS "startedOn", NULL::date AS "endedOn"
+    `SELECT DISTINCT d.name, NULL::text AS "startedOn", NULL::text AS "endedOn"
        FROM member_district_terms dt JOIN electoral_districts d ON d.id = dt.district_id
       WHERE dt.member_id = $1`,
     [id],
