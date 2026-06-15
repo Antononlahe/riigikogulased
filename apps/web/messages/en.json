@@ -18,5 +18,34 @@
   "footer": {
     "source": "Data source: Riigikogu",
     "github": "Source on GitHub"
+  },
+  "nav": {
+    "members": "Members",
+    "factions": "Factions",
+    "topics": "Topics"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "locale": {
+    "label": "Language",
+    "et": "ET",
+    "en": "EN"
+  },
+  "table": {
+    "sortBy": "Sort",
+    "sort": {
+      "discipline": "Discipline",
+      "name": "Name",
+      "counted": "Votes",
+      "defections": "Against"
+    }
+  },
+  "filter": {
+    "party": "Faction",
+    "all": "All factions"
   }
 }
