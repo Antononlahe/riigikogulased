@@ -7,7 +7,7 @@ export function MemberHeader({ member }: { member: MemberRecord }) {
   const t = useTranslations("memberDetail");
   const showChip = member.partyShortName !== null && !member.inFaction;
   return (
-    <header className="flex items-center gap-4">
+    <header className={`flex items-center gap-4 ${member.active ? "" : "opacity-70"}`}>
       <MemberAvatar
         fullName={member.fullName}
         photoThumbPath={member.photoThumbPath}
@@ -28,6 +28,9 @@ export function MemberHeader({ member }: { member: MemberRecord }) {
             </span>
           )}
         </div>
+        {!member.active && (
+          <p className="mt-1 text-xs text-muted-foreground">{t("formerMember")}</p>
+        )}
       </div>
     </header>
   );

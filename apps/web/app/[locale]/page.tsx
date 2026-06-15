@@ -29,6 +29,7 @@ export default async function HomePage({
       <main className="mx-auto max-w-5xl px-4 py-10">
         <section>
           <h1 className="font-serif text-2xl font-bold tracking-tight">{t("heading")}</h1>
+          <p className="text-xs uppercase tracking-wide text-muted-foreground">{t("cycle")}</p>
           <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("subheading")}</p>
 
           {dbError ? (
