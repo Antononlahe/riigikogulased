@@ -13,6 +13,31 @@ Entry format:
 
 ---
 
+## 2026-06-16 — v0.3/D1: Eurovoc ingestion code complete (offline)
+
+**What:** Implemented Tasks 1–5 of the D1 plan via subagent-driven development. Migration
+`0005_eurovoc.sql` adds `eurovoc_fields`/`eurovoc_microthesauri`/`eurovoc_descriptors`/
+`volume_topics` + the `vote_topics` view; `db.py` gains the matching upserts +
+`distinct_draft_uuids`. New `eurovoc_models.py` (pure mappers, unit-tested) and
+`eurovoc_cache.py` (git-committed raw-JSON archive, unit-tested). `writer.py` gains
+`write_eurovoc_taxonomy` + `write_volume_topics` (a bill descriptor missing from the taxonomy is
+inserted from the draft's `{edid,text}` so no link is dropped); `cli.py` gains the `eurovoc`
+command (taxonomy fields+microthes et+en → per-`draft_uuid` `/api/volumes/drafts/{uuid}`
+descriptors → `volume_topics`) and a `rebuild` replay of the eurovoc+draft caches. Also synced
+`apps/scraper/uv.lock` to the already-declared `beautifulsoup4` dep (separate chore commit).
+Verified offline: 61 tests pass, `import parteidistsipliin_scraper.cli` clean, ruff clean.
+Additive only — no discipline change.
+
+**Why:** Roadmap governing decision 3 — topic categorization uses official Eurovoc tags. D1
+lands the data + `vote_topics` foundation so D2 (topic UI) is purely additive.
+
+**Touched:** `packages/db/migrations/0005_eurovoc.sql`, `apps/scraper/src/parteidistsipliin_scraper/{db,eurovoc_models,eurovoc_cache,writer,cli}.py`, `apps/scraper/tests/test_eurovoc_{models,cache}.py`, `apps/scraper/uv.lock`. Commits `3cc9753`, models/cache commits, `e452bee`.
+
+**Remaining (Task 6, user-gated):** fixtures, live `eurovoc` run, Neon-branch reconciliation
+SQL, prod cutover, commit cache, docs.
+
+---
+
 ## 2026-06-15 — v0.2: erakond reconciliation PROD CUTOVER (live)
 
 **What:** Applied the erakond reconciliation to production (with explicit user permission;

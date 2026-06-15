@@ -1,13 +1,30 @@
 # Progress
 
-**Last updated:** 2026-06-15
-**Version target:** v0.2 — A1, A2, B, erakond reconciliation, C (member-detail page), and the
-active-members slice **all done and LIVE** at https://parteidistsipliin.vercel.app (pnpm
-deploy; daily cron fixed). v0.2 is effectively complete; next up is v0.3 (Eurovoc topics) per
-the roadmap.
+**Last updated:** 2026-06-16
+**Version target:** v0.3 (Eurovoc topics). D1 (taxonomy ingestion + bill→topic links) is
+**code-complete offline**; the live ingest + Neon-branch validation + prod cutover (Task 6)
+remain and are user-gated. v0.2 (A1/A2/B/erakond/C/active-members) is all done and LIVE at
+https://parteidistsipliin.vercel.app.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**v0.3 / D1 (Eurovoc topic ingestion) — CODE COMPLETE OFFLINE; live cutover pending.** Built
+via subagent-driven development (plan
+`docs/superpowers/plans/2026-06-15-v0.3-d1-eurovoc-ingestion.md`, spec alongside). Landed Tasks
+1–5: migration `0005_eurovoc.sql` (4 tables `eurovoc_fields`/`eurovoc_microthesauri`/
+`eurovoc_descriptors`/`volume_topics` + the `vote_topics` view) with `db` upserts; pure mappers
+`eurovoc_models.py` (`parse_fields`/`parse_microthes_descriptors`/`parse_draft_descriptor_edids`,
+unit-tested); `eurovoc_cache.py` git-committed raw-JSON archive (unit-tested); writer
+`write_eurovoc_taxonomy`/`write_volume_topics`; the `eurovoc` CLI command (taxonomy fields+
+microthes et+en, then per-`draft_uuid` descriptors → `volume_topics`); and `rebuild` replay of
+the eurovoc+draft caches. **Verified offline:** 61 tests pass, imports clean, ruff clean. No
+discipline change (additive tables + a view only). **Task 6 remains (user-gated):** capture
+fixtures, run `eurovoc` live (~258 taxonomy + ~233 draft calls at 1 req/s, ~8 min), validate the
+reconciliation SQL on a Neon branch, then prod cutover, commit the cache, update docs. D2 (topic
+UI) is the next slice after.
+
+## Prior status (active members)
 
 **v0.2 / active members + cycle label — DONE + LIVE (2026-06-15).** `members.active` (migration
 `0004`); the `members`/`rebuild` reconciliation marks DB members absent from the active list as
