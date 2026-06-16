@@ -22,11 +22,16 @@ SELECT
     AND member_choice IN ('yes','no','abstain') AND NOT is_procedural
     AND member_choice <> party_majority_choice) AS defections
 FROM ballot_alignment
+-- ballot_alignment.party_id is never NULL (member_vote_alignment filters scoring_party_id
+-- IS NOT NULL), but guard defensively and symmetrically with faction_attendance below.
+WHERE party_id IS NOT NULL
 GROUP BY party_id;
 
 CREATE OR REPLACE VIEW faction_attendance AS
 SELECT
   mft.party_id,
+  -- present = any choice other than 'absent' (includes 'neutral' / "did not vote": present
+  -- in the chamber but cast no ballot). Matches the spec's present = choice <> 'absent'.
   COUNT(*) FILTER (WHERE b.choice <> 'absent') AS present_ballots,
   COUNT(*)                                     AS total_ballots
 FROM ballots b
