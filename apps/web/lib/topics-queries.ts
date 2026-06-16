@@ -22,7 +22,7 @@ export async function getTopicIndex(): Promise<TopicIndexRow[]> {
     WITH scored AS (
       SELECT DISTINCT vt.vote_id, vt.descriptor_edid
       FROM vote_topics vt
-      JOIN member_vote_alignment mva ON mva.vote_id = vt.vote_id
+      JOIN ballot_alignment mva ON mva.vote_id = vt.vote_id
       WHERE mva.party_majority_choice IS NOT NULL
         AND mva.member_choice IN ('yes','no','abstain') AND NOT mva.is_procedural
     ),
@@ -31,7 +31,7 @@ export async function getTopicIndex(): Promise<TopicIndexRow[]> {
     ),
     defs AS (
       SELECT vt.descriptor_edid, COUNT(*) AS defections
-      FROM member_vote_alignment mva
+      FROM ballot_alignment mva
       JOIN vote_topics vt ON vt.vote_id = mva.vote_id
       WHERE mva.party_majority_choice IS NOT NULL
         AND mva.member_choice IN ('yes','no','abstain') AND NOT mva.is_procedural
@@ -95,7 +95,7 @@ export async function getTopicDetail(edid: number): Promise<TopicDetail | null> 
   const totalsRes = await pool.query(
     `WITH topic_votes AS (
        SELECT DISTINCT mva.vote_id, mva.is_procedural, v.draft_uuid
-       FROM member_vote_alignment mva
+       FROM ballot_alignment mva
        JOIN vote_topics vt ON vt.vote_id = mva.vote_id
        JOIN votes v ON v.id = mva.vote_id
        WHERE vt.descriptor_edid = $1
@@ -119,7 +119,7 @@ export async function getTopicDetail(edid: number): Promise<TopicDetail | null> 
             COUNT(*) FILTER (WHERE mva.party_majority_choice IS NOT NULL
               AND mva.member_choice IN ('yes','no','abstain') AND NOT mva.is_procedural
               AND mva.member_choice <> mva.party_majority_choice)::int AS defections
-       FROM member_vote_alignment mva
+       FROM ballot_alignment mva
        JOIN vote_topics vt ON vt.vote_id = mva.vote_id
        JOIN members m ON m.id = mva.member_id
        LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
@@ -158,7 +158,7 @@ export async function getTopicBills(edid: number): Promise<TopicBillRow[]> {
               AND mva.member_choice <> mva.party_majority_choice)::int AS defections
        FROM vote_topics vt
        JOIN votes v ON v.id = vt.vote_id
-       JOIN member_vote_alignment mva ON mva.vote_id = vt.vote_id
+       JOIN ballot_alignment mva ON mva.vote_id = vt.vote_id
       WHERE vt.descriptor_edid = $1
       GROUP BY v.draft_uuid
       ORDER BY MAX(v.voted_at) DESC`,

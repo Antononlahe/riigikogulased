@@ -220,6 +220,15 @@ def apply_migrations(conn: psycopg.Connection, migrations_dir: Path | None = Non
     return ran
 
 
+def refresh_alignment(conn: psycopg.Connection) -> None:
+    """Refresh the ballot_alignment materialized view (cache of member_vote_alignment).
+
+    Call after any ingest that changes ballots, votes, or faction/erakond terms so the
+    cached per-ballot alignment matches the source views. No-op-safe to call repeatedly.
+    """
+    conn.execute("REFRESH MATERIALIZED VIEW ballot_alignment")
+
+
 def upsert_term(conn: psycopg.Connection, number: int) -> int:
     with conn.cursor() as cur:
         cur.execute(

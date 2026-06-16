@@ -55,7 +55,10 @@ async def _scrape_range(start: date, end: date, *, cache_only: bool = False) -> 
             await _fetch_sessions(client, cache)
             ctx = _new_context(cache)
             write_sessions(conn, ctx)
-            return await _scrape_into(client, conn, start, end, cache, ctx)
+            n = await _scrape_into(client, conn, start, end, cache, ctx)
+            db.refresh_alignment(conn)
+            conn.commit()
+            return n
 
 
 async def _scrape_into(client, conn, start, end, cache, ctx, *, cache_only=False) -> int:
@@ -98,6 +101,18 @@ def daily() -> None:
     target = date.today() - timedelta(days=1)
     n = asyncio.run(_scrape_range(target, target))
     typer.echo(f"Ingested {n} votings for {target}.")
+
+
+@app.command()
+def migrate() -> None:
+    """Apply any pending SQL migrations to the database (no data ingest).
+
+    The migration files create their own objects (e.g. 0006 creates + populates the
+    ballot_alignment materialized view), so no separate refresh is needed here.
+    """
+    with db.connect() as conn:
+        ran = db.apply_migrations(conn)
+    typer.echo(f"Applied migrations: {', '.join(ran) if ran else 'none (up to date)'}.")
 
 
 @app.command()
@@ -151,6 +166,8 @@ def rebuild() -> None:
                     if et:
                         write_volume_topics(conn, draft_uuid, et)
         conn.commit()
+        db.refresh_alignment(conn)
+        conn.commit()
     typer.echo(
         f"Rebuilt {len(votings)} votings, {len(ctx.sitting_id_by_uuid)} sittings, "
         f"{len(members)} members from cache."
@@ -186,6 +203,8 @@ async def _refresh_members() -> None:
                 write_member(conn, PlenaryMember.model_validate(rec), ctx, active=False)
             cache.write_members_extra(extra_raw)
             conn.commit()
+        db.refresh_alignment(conn)
+        conn.commit()
         typer.echo(f"Refreshed {len(listed)} active + {len(gap_ids)} former members.")
 
 
@@ -255,6 +274,8 @@ async def _refresh_erakond(refresh: bool) -> None:
                     continue
                 write_erakond_terms(conn, m.uuid, m.fullName, terms, ctx)
                 matched += 1
+        conn.commit()
+        db.refresh_alignment(conn)
         conn.commit()
     typer.echo(f"Erakond: matched {matched}, unmatched {unmatched} of {len(members_list)} members.")
 
