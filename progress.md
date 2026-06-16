@@ -1,34 +1,34 @@
 # Progress
 
 **Last updated:** 2026-06-16
-**Version target:** v0.3 (Eurovoc topics). **D1 (taxonomy ingestion + bill→topic links) is DONE
-and LIVE in prod.** **D2 (topic explorer UI) is CODE-COMPLETE + locally verified — deploy pending.**
-v0.2 (A1/A2/B/erakond/C/active-members) is all done and LIVE at https://parteidistsipliin.vercel.app.
+**Version target:** v0.3 (Eurovoc topics). **D1 + D2 are DONE and LIVE in prod** —
+https://parteidistsipliin.vercel.app. v0.2 (A1/A2/B/erakond/C/active-members) also done and live.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
 
-**v0.3 / D2 (topic explorer UI) — CODE-COMPLETE + LOCALLY VERIFIED; deploy pending (2026-06-16).**
-Built via subagent-driven development (spec/plan
-`docs/superpowers/{specs,plans}/2026-06-16-v0.3-d2-topic-explorer*`). A dedicated, **removable**
-`/teemad` explorer over D1's `vote_topics` view: descriptor-unit index (default ≥5 scored votes,
-search reaches the rest), per-topic ranked discipline table (members with ≥3 votes-on-topic; counts
-shown so low-N is visible) + the bills behind each topic. **No migration, no scoring-SQL change** —
-discipline unchanged; the query reuses `member_discipline`'s exact expression. Also flipped the site
-to **Estonian-first routing** (`localePrefix: "as-needed"` + `localeDetection: false`): `/` is always
-Estonian, English opt-in at `/en/...`. Field/microthesaurus shown only when present (top descriptors
-are narrower Eurovoc terms with null English label + null field → `topicLabel` falls back to Estonian,
-breadcrumb shows "no broad field" — honest). **Verified:** typecheck + `next lint` clean, 26/26 web
-vitest tests, both message files valid, production build **compiles**, and all three SQL queries run
-correctly **live against prod** (read-only). Whole-surface opus review: spec-compliant, no
-critical/important issues (3 minor nits fixed). Implementation refinement vs plan: queries live in
-`lib/topics-queries.ts` so the tested pure `lib/topics.ts` never imports `db`.
+**v0.3 / D2 (topic explorer UI) — DONE + LIVE IN PROD (2026-06-16).** Built via subagent-driven
+development (spec/plan `docs/superpowers/{specs,plans}/2026-06-16-v0.3-d2-topic-explorer*`). A
+dedicated, **removable** `/teemad` explorer over D1's `vote_topics`: descriptor-unit index (default
+≥5 scored votes, search reaches the rest), per-topic ranked discipline table (members with ≥3
+votes-on-topic; counts shown so low-N is visible) + the bills behind each topic. Site is now
+**Estonian-first** (`localePrefix: "as-needed"` + `localeDetection: false`): `/` always Estonian,
+English opt-in at `/en/...`, `/et/...` redirects to unprefixed. Field/microthesaurus shown only when
+present (top descriptors are narrower Eurovoc terms with null English label + null field →
+`topicLabel` falls back to Estonian, "no broad field" note — honest).
 
-**Remaining (user-gated):** the production prerender build + interactive browser check need
-`DATABASE_URL` (prod read, classifier-gated) — fold into the deploy step. Deploy `apps/web` per
-CLAUDE.md (`cd apps/web && vercel --prod --yes`). Heads-up: Estonian-first routing makes existing
-`/et/...` URLs redirect to unprefixed (expected). **Next slice after deploy:** v0.4 (party/faction/
-committee cohesion rollups).
+**Discipline definition unchanged.** During the deploy, per-topic queries over the
+`member_vote_alignment` view proved too slow to prerender (~9s/page — the view recomputes
+party-at-time for all ~50k ballots). Fix: migration **`0006`** adds a `ballot_alignment` materialized
+view (cache of the view, indexed by `vote_id`), refreshed after each ingest (`db.refresh_alignment`);
+new `migrate` CLI command applies migrations without a full rebuild. Topic queries repointed to the
+matview: **9027ms → 18ms**. Live + verified: `/teemad`, `/teemad/[edid]` (ranking + bills),
+`/en/teemad`, `/topics`→`/teemad` all 200/redirect; scraper ruff + 64 tests, web typecheck + 26
+tests green.
+
+**Cleanup pending (user-gated):** delete the Neon validation branch `br-sweet-surf-a6p1kiln`.
+**Next slice:** v0.4 (party/faction/committee cohesion rollups). Open follow-up still: broad-field
+faceting covers ~38% of bills (D1 `narrowTerms` crawl) if field-level facets are ever wanted.
 
 ## Prior status (v0.3 / D1 — Eurovoc ingestion)
 

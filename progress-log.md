@@ -13,6 +13,41 @@ Entry format:
 
 ---
 
+## 2026-06-16 — v0.3/D2: Topic explorer LIVE + alignment materialized view (0006)
+
+**What:** Deployed D2 to production (https://parteidistsipliin.vercel.app) and resolved a
+performance blocker found during the deploy build. The first prod build timed out (>60s/page)
+on the ~200 `/teemad/[edid]` pages: per-topic discipline joins the `member_vote_alignment`
+**view**, which recomputes party-at-time for all ~50k ballots via correlated subqueries (~9s,
+measured via EXPLAIN ANALYZE) and can't be filtered by topic. Fix (user-approved): migration
+**`0006_alignment_matview.sql`** adds a `ballot_alignment` materialized view (a cache of
+`member_vote_alignment`, unique-indexed by `(vote_id, member_id)`), plus `db.refresh_alignment`
+called after each ingest (`_scrape_range`/`rebuild`/`members`/`erakond`) and a new `migrate`
+CLI command (apply migrations without a full rebuild). Topic queries repointed to the matview.
+**The discipline definition is unchanged — the matview only caches the existing view.**
+
+**Validated on Neon branch `br-sweet-surf-a6p1kiln`:** the topic-detail query dropped **9027ms
+→ 18ms** (~500×). Applied `0006` to prod via `migrate` (matview = 49851 rows, exactly matching
+the view; migration recorded). Redeployed: build **READY**, topic pages prerendered. Live
+checks: `/` + `/en` 200, `/teemad` 200, `/teemad/5052` 200 (title + ranking table + bills all
+render), `/en/teemad` 200, `/topics` → 307 → `/teemad`. Estonian-first routing live (`/` is
+Estonian; `/et/...` now redirects to unprefixed). Scraper ruff + 64 tests, web typecheck + 26
+tests all green.
+
+**Why:** Ship D2 (the v0.3 topic explorer). The matview is the correct fix for the view's
+per-ballot cost and also leaves room to speed the homepage/member pages later.
+
+**Touched:** `packages/db/migrations/0006_alignment_matview.sql`,
+`apps/scraper/src/parteidistsipliin_scraper/{db,cli}.py`, `apps/web/lib/topics-queries.ts`,
+prod DB (`0006` + `ballot_alignment`), Vercel prod deploy. Commit `cca6c8c` (+ the D2 UI
+commits below).
+
+**Cleanup pending (user-gated):** delete the validation branch `br-sweet-surf-a6p1kiln`. The
+daily cron (`daily`) now refreshes the matview automatically; `migrate` is reusable for future
+migrations.
+
+---
+
 ## 2026-06-16 — v0.3/D2: Topic explorer UI (code-complete, locally verified; deploy pending)
 
 **What:** Built the dedicated, removable `/teemad` topic explorer over D1's `vote_topics` view, via

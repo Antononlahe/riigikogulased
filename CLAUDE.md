@@ -48,7 +48,7 @@ Four governing decisions shape everything below:
 | --- | --- | --- |
 | v0.1 | shipped | Members list, overall discipline %, sortable. 15th Riigikogu. Live on Vercel. (Open: GH Actions `DATABASE_URL` secret unset, so the daily cron can't write yet.) |
 | v0.2 | current | API migration + member detail pages (vote timeline, party-switch lines) + design-system foundation. Model committees, terms, sittings/sessions, districts; enrich member record. |
-| v0.3 | current | Eurovoc topics: link votes->bills->subjects; filter discipline by topic. **D1 (ingestion + `vote_topics` view) done + live**; D2 (topic UI) next. |
+| v0.3 | shipped | Eurovoc topics: link votes->bills->subjects; filter discipline by topic. **D1 (ingestion + `vote_topics` view) and D2 (topic explorer UI at `/teemad`) both done + live.** |
 | v0.4 | | Party / faction / committee rollups (cohesion). |
 | v0.5 | | Speeches & stenogram activity (how much / on what topics each MP speaks). |
 | v0.6 | | Bills & sponsorship (what each MP authored / co-sponsored, outcomes). |
@@ -236,6 +236,22 @@ Current (migration `0005_eurovoc.sql`, v0.3/D1 Eurovoc topics):
 - Ingested by the `eurovoc` CLI command (taxonomy fields+microthes in et+en, then per-
   `draft_uuid` `/api/volumes/drafts/{uuid}` descriptors). Raw JSON archived under
   `cache/api/{eurovoc,drafts}/` (committed) so offline `rebuild` reproduces `volume_topics`.
+
+Current (migration `0006_alignment_matview.sql`, v0.3/D2):
+
+- `ballot_alignment` — a **materialized view** caching `member_vote_alignment`
+  `(vote_id, member_id, party_id, member_choice, is_procedural, party_majority_choice)`,
+  unique-indexed by `(vote_id, member_id)`. It is purely a **cache** of the view — the discipline
+  definition is unchanged. Rationale: `member_vote_alignment` recomputes party-at-time per ballot
+  via correlated subqueries (~9s to materialize fully) and can't be filtered by vote, so the v0.3/D2
+  per-topic queries (which join alignment to `vote_topics` by `vote_id`) were ~9s/page; reading the
+  matview makes them ~18ms. The **web topic queries (`apps/web/lib/topics-queries.ts`) read
+  `ballot_alignment`**, never `member_vote_alignment` directly. Refresh it with
+  `db.refresh_alignment(conn)` (a plain `REFRESH MATERIALIZED VIEW`) **after any ingest that changes
+  ballots/votes/faction/erakond terms** — already wired into `_scrape_range` (backfill/daily),
+  `rebuild`, `members`, and `erakond`. The `eurovoc`/`photos` commands don't touch alignment, so they
+  don't refresh. Apply migrations without a full rebuild via the **`migrate` CLI command**
+  (`db.apply_migrations`); the matview is created+populated at migration time.
 
 Current (migration `0002_structure.sql`, v0.2/A2):
 
