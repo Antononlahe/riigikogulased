@@ -259,15 +259,6 @@ vote -> bill -> Eurovoc topics resolves.
   `api_parse.decision_to_choice` and don't collapse them. `KOHAL` (present, in presence
   checks) is intentionally dropped.
 
-## Network policy in dev sandboxes
-
-This repo is sometimes opened in restricted-egress environments that can't reach
-`riigikogu.ee` / `api.riigikogu.ee` directly. In that case:
-- Run the scraper locally or in GitHub Actions, not in the sandbox.
-- Tests in `apps/scraper/tests/` parse committed fixtures under `fixtures/api/`, and the
-  offline `rebuild` replays the git-committed raw cache under `cache/api/` — both should
-  always work offline.
-
 ## Deferred / open
 
 - Close out v0.1: set the GH Actions `DATABASE_URL` secret so the daily cron can write.
