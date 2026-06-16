@@ -46,14 +46,13 @@
   "topics": {
     "heading": "Topics",
     "intro": "Topics come from the official Eurovoc tags on bills.",
-    "coverageNote": "Covers {n} votes tied to a bill (not all votes).",
+    "coverageNote": "Showing {n} topics tied to bills; not all votes are covered.",
     "search": "Search topics",
     "votes": "Votes",
     "topicDefections": "Defections",
     "noBroadField": "No broad field",
     "ranking": "Discipline on this topic",
     "memberCol": "Member",
-    "partyCol": "Faction",
     "votesOnTopic": "Votes on topic",
     "defectionsCol": "Against",
     "disciplineCol": "Discipline",
@@ -62,7 +61,6 @@
     "billVotes": "votes",
     "billDefections": "defections",
     "empty": "No comparable votes on this topic.",
-    "notFound": "Topic not found.",
     "totals": "{votes} votes · {bills} bills · {defections} defections"
   },
   "memberDetail": {

@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getTranslations, setRequestLocale, getLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getTopicIndex, getTopicDetail, getTopicBills } from "@/lib/topics-queries";
 import { topicLabel, INDEX_MIN_VOTES } from "@/lib/topics";
 import { SiteHeader } from "@/components/site-header";
@@ -40,10 +40,9 @@ export default async function TopicDetailPage({
   }
   if (!detail) notFound();
 
-  const loc = await getLocale();
-  const name = topicLabel({ nameEt: detail.nameEt, nameEn: detail.nameEn }, loc);
-  const field = loc === "en" ? detail.fieldEn : detail.fieldEt;
-  const micro = loc === "en" ? detail.microEn : detail.microEt;
+  const name = topicLabel({ nameEt: detail.nameEt, nameEn: detail.nameEn }, locale);
+  const field = locale === "en" ? detail.fieldEn : detail.fieldEt;
+  const micro = locale === "en" ? detail.microEn : detail.microEt;
 
   return (
     <>
