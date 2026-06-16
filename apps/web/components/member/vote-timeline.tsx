@@ -25,6 +25,14 @@ const CLASS_COLOR: Record<VoteClass, string> = {
   excluded: "var(--muted-foreground)",
 };
 
+// visx ParentSize fills its parent (outer div is height:100%); if the parent has no
+// height the measurement div collapses to 0 and its overflow:hidden clips the chart to
+// nothing. So the wrapper MUST carry this explicit height. Keep it in sync with the svg.
+const TIMELINE_HEIGHT = 200;
+// SSR / pre-measure fallback width so the prerendered chart isn't zero-width before the
+// client ResizeObserver reports the real container width.
+const TIMELINE_FALLBACK_WIDTH = 640;
+
 function Chart({
   width,
   votes,
@@ -36,7 +44,7 @@ function Chart({
 }) {
   const t = useTranslations("memberDetail");
   const tip = useTooltip<VotePoint>();
-  const height = 200;
+  const height = TIMELINE_HEIGHT;
   const trendH = 70;
   const stripY = 110;
   const margin = { left: 8, right: 8, top: 8, bottom: 24 };
@@ -145,8 +153,16 @@ export function VoteTimeline({
   partyShortName: string | null;
 }) {
   return (
-    <div className="mt-3">
-      <ParentSize>{({ width }) => <Chart width={width} votes={votes} partyShortName={partyShortName} />}</ParentSize>
+    <div className="mt-3" style={{ height: TIMELINE_HEIGHT }}>
+      <ParentSize>
+        {({ width }) => (
+          <Chart
+            width={width || TIMELINE_FALLBACK_WIDTH}
+            votes={votes}
+            partyShortName={partyShortName}
+          />
+        )}
+      </ParentSize>
     </div>
   );
 }
