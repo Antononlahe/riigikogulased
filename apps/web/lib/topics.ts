@@ -1,5 +1,3 @@
-import { pool } from "./db";
-
 /** Minimum scored votes for a descriptor to appear in the default index list. */
 export const INDEX_MIN_VOTES = 5;
 /** Minimum counted votes on a topic for a member to be ranked. */
