@@ -13,6 +13,50 @@ Entry format:
 
 ---
 
+## 2026-06-16 — v0.3/D2: Topic explorer UI (code-complete, locally verified; deploy pending)
+
+**What:** Built the dedicated, removable `/teemad` topic explorer over D1's `vote_topics` view, via
+subagent-driven development (spec `docs/superpowers/specs/2026-06-16-v0.3-d2-topic-explorer-design.md`,
+plan alongside). Shipped: (1) **Estonian-first routing** — `i18n/routing.ts` now `localePrefix:
+"as-needed"` + `localeDetection: false`, so `/` is always Estonian and English is opt-in at `/en/...`;
+(2) a `topics` i18n namespace (et+en) + nav links; (3) `lib/topics.ts` pure helpers (thresholds
+`INDEX_MIN_VOTES=5`/`MEMBER_MIN_VOTES=3`, `topicLabel` with et-fallback, `disciplineScore`,
+`splitByThreshold`) with 8 vitest tests; (4) `lib/topics-queries.ts` read queries (`getTopicIndex`/
+`getTopicDetail`/`getTopicBills`) — **no migration, no scoring-SQL change**, discipline expression
+copied verbatim from `queries.ts`; (5) `components/topics/` (search index list, per-member discipline
+table, bills list); (6) the `/teemad` + `/teemad/[edid]` routes (ISR 3600, `generateStaticParams` over
+the ~101 ≥5-vote topics, `dynamicParams`) + a `/topics → /teemad` redirect.
+
+**Design realities confirmed live:** descriptor is the browsable unit (only complete level); top
+descriptors are narrower Eurovoc terms with **null English label and null field**, so `topicLabel`
+falls back to Estonian and the field chip/breadcrumb shows a "no broad field" note — intended, honest.
+The three queries were run against prod (read-only) and return correct data (e.g. `riigieelarve` edid
+5052 → 46 votes, 7 bills; 2026 budget draft 737 → 36 votes / 8 defections).
+
+**Verified locally:** typecheck clean, `next lint` clean, **26/26 web vitest tests** pass, both message
+files valid + key-parity, production build **compiles successfully**. A whole-surface review (opus)
+passed spec compliance with no critical/important issues; three minor nits fixed (coverageNote now
+reports the topics-shown count instead of over-counting per-descriptor votes; dropped a redundant
+`getLocale()`; removed two unused message keys). One implementation refinement vs the plan: queries
+were split into `lib/topics-queries.ts` so the tested pure `lib/topics.ts` never imports `db` (which
+throws without `DATABASE_URL` at test load).
+
+**Why:** v0.3/D2 — the user-facing payoff of D1's Eurovoc data. Kept isolated/removable per user
+request (Eurovoc sits far from the core metric): removing D2 = delete the `teemad` route folder,
+`components/topics/`, `lib/topics(-queries).ts`, the `topics` namespace, the redirect, and revert two
+nav lines. The locale change is the one deliberately site-wide piece.
+
+**Touched:** `apps/web/i18n/routing.ts`, `apps/web/next.config.ts`, `apps/web/components/site-header.tsx`,
+`apps/web/messages/{et,en}.json`, `apps/web/lib/topics.ts` (+ `.test.ts`), `apps/web/lib/topics-queries.ts`,
+`apps/web/components/topics/*`, `apps/web/app/[locale]/teemad/{page.tsx,[edid]/page.tsx}`. Commits
+`2c54b4a`, `3973cfe`, `46d4309`, `5e7889f`, `b787d9a`, `e277ba2`, `18decf0`.
+
+**Remaining (user-gated):** the production prerender build + interactive browser check need
+`DATABASE_URL` (prod read, classifier-gated) — fold into deploy; deploy `apps/web` per CLAUDE.md. The
+Estonian-first routing means existing `/et/...` links will start redirecting to unprefixed (expected).
+
+---
+
 ## 2026-06-16 — v0.3/D1: Eurovoc ingestion PROD CUTOVER (live)
 
 **What:** Validated D1 on Neon branch `br-restless-river-a696s26g` then cut over to prod

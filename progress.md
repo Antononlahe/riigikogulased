@@ -2,11 +2,35 @@
 
 **Last updated:** 2026-06-16
 **Version target:** v0.3 (Eurovoc topics). **D1 (taxonomy ingestion + bill→topic links) is DONE
-and LIVE in prod.** D2 (topic UI) is the next slice. v0.2 (A1/A2/B/erakond/C/active-members) is
-all done and LIVE at https://parteidistsipliin.vercel.app.
+and LIVE in prod.** **D2 (topic explorer UI) is CODE-COMPLETE + locally verified — deploy pending.**
+v0.2 (A1/A2/B/erakond/C/active-members) is all done and LIVE at https://parteidistsipliin.vercel.app.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**v0.3 / D2 (topic explorer UI) — CODE-COMPLETE + LOCALLY VERIFIED; deploy pending (2026-06-16).**
+Built via subagent-driven development (spec/plan
+`docs/superpowers/{specs,plans}/2026-06-16-v0.3-d2-topic-explorer*`). A dedicated, **removable**
+`/teemad` explorer over D1's `vote_topics` view: descriptor-unit index (default ≥5 scored votes,
+search reaches the rest), per-topic ranked discipline table (members with ≥3 votes-on-topic; counts
+shown so low-N is visible) + the bills behind each topic. **No migration, no scoring-SQL change** —
+discipline unchanged; the query reuses `member_discipline`'s exact expression. Also flipped the site
+to **Estonian-first routing** (`localePrefix: "as-needed"` + `localeDetection: false`): `/` is always
+Estonian, English opt-in at `/en/...`. Field/microthesaurus shown only when present (top descriptors
+are narrower Eurovoc terms with null English label + null field → `topicLabel` falls back to Estonian,
+breadcrumb shows "no broad field" — honest). **Verified:** typecheck + `next lint` clean, 26/26 web
+vitest tests, both message files valid, production build **compiles**, and all three SQL queries run
+correctly **live against prod** (read-only). Whole-surface opus review: spec-compliant, no
+critical/important issues (3 minor nits fixed). Implementation refinement vs plan: queries live in
+`lib/topics-queries.ts` so the tested pure `lib/topics.ts` never imports `db`.
+
+**Remaining (user-gated):** the production prerender build + interactive browser check need
+`DATABASE_URL` (prod read, classifier-gated) — fold into the deploy step. Deploy `apps/web` per
+CLAUDE.md (`cd apps/web && vercel --prod --yes`). Heads-up: Estonian-first routing makes existing
+`/et/...` URLs redirect to unprefixed (expected). **Next slice after deploy:** v0.4 (party/faction/
+committee cohesion rollups).
+
+## Prior status (v0.3 / D1 — Eurovoc ingestion)
 
 **v0.3 / D1 (Eurovoc topic ingestion) — DONE + LIVE IN PROD (2026-06-16).** Built via
 subagent-driven development (plan `docs/superpowers/plans/2026-06-15-v0.3-d1-eurovoc-ingestion.md`,
