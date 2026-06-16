@@ -25,7 +25,10 @@ export async function getFactionComparison(): Promise<FactionComparisonRow[]> {
       WHERE mcp.party_id IS NOT NULL AND m.active
       GROUP BY mcp.party_id
     ) mc ON mc.party_id = p.id
-    -- Every seeded faction always renders (COALESCE -> 0 for a faction with no data yet).
+    -- parties also holds non-parliamentary erakonds (seeded by the äriregister
+    -- reconciliation, 0003); restrict to actual fraktsioons -- parties that have/had a
+    -- faction bench. COALESCE keeps a faction with no scored votes yet at 0 rather than dropped.
+    WHERE EXISTS (SELECT 1 FROM member_faction_terms mft WHERE mft.party_id = p.id)
     ORDER BY p.id
   `);
   return rows as FactionComparisonRow[];
