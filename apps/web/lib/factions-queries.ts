@@ -11,7 +11,7 @@ export async function getFactionComparison(): Promise<FactionComparisonRow[]> {
       p.name          AS "partyName",
       COALESCE(fd.counted_votes, 0)::int AS "countedVotes",
       COALESCE(fd.aligned_votes, 0)::int AS "alignedVotes",
-      COALESCE(fd.defections, 0)::int    AS defections,
+      COALESCE(fd.defections, 0)::int    AS "defections",
       COALESCE(fa.present_ballots, 0)::int AS "presentBallots",
       COALESCE(fa.total_ballots, 0)::int   AS "totalBallots",
       COALESCE(mc.member_count, 0)::int    AS "memberCount"
@@ -25,7 +25,7 @@ export async function getFactionComparison(): Promise<FactionComparisonRow[]> {
       WHERE mcp.party_id IS NOT NULL AND m.active
       GROUP BY mcp.party_id
     ) mc ON mc.party_id = p.id
-    WHERE fd.counted_votes IS NOT NULL OR fa.total_ballots IS NOT NULL
+    -- Every seeded faction always renders (COALESCE -> 0 for a faction with no data yet).
     ORDER BY p.id
   `);
   return rows as FactionComparisonRow[];
@@ -51,7 +51,7 @@ export async function getFactionDetail(short: PartyShort): Promise<FactionDetail
        p.name       AS "partyName",
        COALESCE(fd.counted_votes, 0)::int AS "countedVotes",
        COALESCE(fd.aligned_votes, 0)::int AS "alignedVotes",
-       COALESCE(fd.defections, 0)::int    AS defections,
+       COALESCE(fd.defections, 0)::int    AS "defections",
        COALESCE(fa.present_ballots, 0)::int AS "presentBallots",
        COALESCE(fa.total_ballots, 0)::int   AS "totalBallots"
      FROM parties p
@@ -70,8 +70,8 @@ export async function getFactionDetail(short: PartyShort): Promise<FactionDetail
        m.photo_thumb_path AS "photoThumbPath",
        COALESCE(mcp.in_faction, false) AS "inFaction",
        m.active AS "active",
-       md.counted_votes AS "countedVotes",
-       md.defections,
+       md.counted_votes::int AS "countedVotes",
+       md.defections::int     AS "defections",
        CASE WHEN md.counted_votes > 0
             THEN md.aligned_votes::float / md.counted_votes
             ELSE NULL END AS "disciplineScore"
@@ -84,11 +84,7 @@ export async function getFactionDetail(short: PartyShort): Promise<FactionDetail
     [short],
   );
 
-  const members = rosterRes.rows.map((r) => ({
-    ...r,
-    countedVotes: Number(r.countedVotes),
-    defections: Number(r.defections),
-  })) as RosterMember[];
+  const members = rosterRes.rows as RosterMember[];
 
   return {
     partyShortName: h.partyShortName,
