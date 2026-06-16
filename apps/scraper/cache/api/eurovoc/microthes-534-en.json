@@ -1,0 +1,348 @@
+{
+"uuid": "a7b09fab-319f-4149-b14a-e0ea14bde405",
+"etid": 534,
+"code": "1621",
+"text": "majandusstruktuur",
+"descriptors": [
+{
+"edid": 3013,
+"text": "majandussüsteem",
+"code": "3013",
+"uuid": "418197b4-f2f1-4f05-a4d9-df688187c6e3",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"0c248b76-a875-4083-a941-d963f35ea7d5",
+"dcdb04e7-42d2-4a28-a264-e0e2df73d97f",
+"4576fcf3-406e-417f-95c2-1f64812a525f",
+"793178f6-e14b-439b-ad3c-57b4d6740f76",
+"c06dc3eb-b210-44ca-8f6c-9611ca6dd5bb",
+"f03e247a-412f-4190-9bd4-e6188018c21b",
+"059c2535-29c5-411a-9158-5cd3d5639be1",
+"60828fff-f6b6-468f-810d-706977b8981a",
+"d1897df5-2ab9-48aa-8551-2455afcc2be0"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 6292,
+"text": "tootmisviis",
+"code": "6292",
+"uuid": "a6d8bac9-9bf1-4c93-88c6-a82a37ddc4ea",
+"vol_cnt": 3,
+"scopeNotes": [
+"Viis, kuidas ühiskond hakkab kaupu ja teenuseid tootma; see hõlmab tootmisjõude ja -suhteid."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a6d8bac9-9bf1-4c93-88c6-a82a37ddc4ea"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/418197b4-f2f1-4f05-a4d9-df688187c6e3"
+}
+}
+},
+{
+"edid": 637,
+"text": "majandus",
+"code": "637",
+"uuid": "a5dd467a-571f-4e29-acb1-e42da9f86758",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"c4ea000e-73f9-48ac-aa44-b90437e3d50f",
+"a088e5b7-b1bf-492f-915d-0cd514ed39f9",
+"4303f071-24fb-4f8b-a0d1-8cb7b85f8737",
+"1a53627e-e573-439e-83fb-eecd083e1932",
+"30a79ac6-8ded-4588-b5b0-31d5392a34f3",
+"1824ada6-c918-48c2-ae8d-3cd3a78fec1e",
+"5b341f68-c11e-4e87-9ac4-326e52bf6c2f",
+"041d095a-6a4b-4768-bf92-0cc3a7a6c699",
+"a67750f7-f6ba-44f8-b43e-35f5804475a5",
+"66bcb4c4-e1b4-4c13-8b16-4f3aa329468f",
+"52689300-6f3c-431e-9848-568f603f825a",
+"22fc8636-0f0b-4070-b0b1-0a37c81c648b",
+"e485bb90-f861-4df8-9e45-2b4e0d90c54b"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 6396,
+"text": "keskkonnaökonoomika",
+"code": "6396",
+"uuid": "f880c456-9b21-49d4-a70e-b2fd006529c7",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"ökoloogiline majandus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f880c456-9b21-49d4-a70e-b2fd006529c7"
+}
+}
+},
+{
+"edid": 662,
+"text": "linnamajandus",
+"code": "662",
+"uuid": "a9d9312b-9137-4c8c-8170-2500badbfc96",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a9d9312b-9137-4c8c-8170-2500badbfc96"
+}
+}
+},
+{
+"edid": 4302,
+"text": "majandusstruktuur",
+"code": "4302",
+"uuid": "80997620-e1b5-4beb-aa31-04167b7c4559",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/80997620-e1b5-4beb-aa31-04167b7c4559"
+}
+}
+},
+{
+"edid": 3933,
+"text": "majandusteadus",
+"code": "3933",
+"uuid": "fd59d2d2-da2b-4ddd-9e8e-08a6bb71b69c",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"majandusteooria",
+"poliitökonoomia"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fd59d2d2-da2b-4ddd-9e8e-08a6bb71b69c"
+}
+}
+},
+{
+"edid": 1728,
+"text": "makromajandusteadus",
+"code": "1728",
+"uuid": "81af671b-d8c4-44ae-927a-9ca05077ba61",
+"vol_cnt": 170,
+"scopeNotes": [
+"Majandusteaduse osa, mis uurib valdkondi, nagu rahvamajanduse tulu, tarbimine ja investeerimine."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/81af671b-d8c4-44ae-927a-9ca05077ba61"
+}
+}
+},
+{
+"edid": 1901,
+"text": "mikromajandusteadus",
+"code": "1901",
+"uuid": "c09dcb16-3c90-4a40-9abe-acf9ede0697a",
+"vol_cnt": 9,
+"scopeNotes": [
+"Majandusteaduse haru, mis tegeleb kaupade, äriühingute või üksikisikute ja nendevaheliste majandussuhetega."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c09dcb16-3c90-4a40-9abe-acf9ede0697a"
+}
+}
+},
+{
+"edid": 638,
+"text": "põllumajandusökonoomika",
+"code": "638",
+"uuid": "4f143268-acbc-4d68-a5f7-cc164052d87e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"talumajapidamise ökonoomika"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4f143268-acbc-4d68-a5f7-cc164052d87e"
+}
+}
+},
+{
+"edid": 648,
+"text": "transpordiökonoomika",
+"code": "648",
+"uuid": "f0694246-d95b-45d2-a8d5-69465831719d",
+"vol_cnt": 2,
+"scopeNotes": [
+"Transpordinõuete ja neile vastamiseks kõige sobivamate viiside uurimine."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f0694246-d95b-45d2-a8d5-69465831719d"
+}
+}
+},
+{
+"edid": 644,
+"text": "ärikorraldus",
+"code": "644",
+"uuid": "894c64d1-fdea-4e42-a1d0-8f1bfd1ac526",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"ärimajandus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/894c64d1-fdea-4e42-a1d0-8f1bfd1ac526"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a5dd467a-571f-4e29-acb1-e42da9f86758"
+}
+}
+},
+{
+"edid": 4006,
+"text": "majandussektor",
+"code": "4006",
+"uuid": "5c0efcdd-0470-4883-8a36-f561306b8821",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"2124a01d-5137-4891-a3f0-ce9d44a72532",
+"bba71d86-11c1-4d17-8581-00beb2a7a739",
+"bcd65a80-4c48-4318-88d7-7787923fec16",
+"260bd470-56cf-463c-b8f6-4d51a3dbbbd4",
+"da68e1a3-5d42-4d69-9df6-c1e283b0c014"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4302,
+"text": "majandusstruktuur",
+"code": "4302",
+"uuid": "80997620-e1b5-4beb-aa31-04167b7c4559",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/80997620-e1b5-4beb-aa31-04167b7c4559"
+}
+}
+},
+{
+"edid": 5992,
+"text": "majandustegevus",
+"code": "5992",
+"uuid": "bb6e8216-d95c-182b-7ba2-90bf9c5c27bc",
+"vol_cnt": 19,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bb6e8216-d95c-182b-7ba2-90bf9c5c27bc"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5c0efcdd-0470-4883-8a36-f561306b8821"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/a7b09fab-319f-4149-b14a-e0ea14bde405"
+}
+}
+}

@@ -1,0 +1,1474 @@
+{
+"uuid": "a74771bc-0622-44d9-a40a-234a011714f6",
+"title": "Riigi 2025. aasta teise lisaeelarve seadus",
+"mark": 733,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigi 2025. aasta teise lisaeelarve seadus 733 SE",
+"initialTitle": "Riigi 2025. aasta lisaeelarve seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Riigi 2025. aasta lisaeelarve eelnõuga vähendatakse kulusid 19,9 miljonit, investeeringuid 12,0 miljonit ja suurendatakse finantseerimistehinguid 72,3. Kulude ja investeeringute vähenemine on seotud eelkõige 2026–2029 riigi eelarvestrateegia protsessis tehtud otsustega, sh ministeeriumi valitsemisalade ja põhiseaduslike institutsioonide esitatud taotlustest eelarvet käesolevast aastast järgnevatesse ümber planeerida erinevate projektide elluviimise ajagraafiku täpsustamisest. Lisaks suurendatakse Kaitseministeeriumi valitsemisala eelarvet 39 miljonit nii Ukraina abistamiseks kui ka kaitseotstarbelisteks hangeteks.",
+"initiated": "2025-09-25",
+"joined": null,
+"accepted": "2025-12-03",
+"amendmentsDeadline": "2025-11-17T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 5052,
+"text": "riigieelarve"
+},
+{
+"edid": 5061,
+"text": "lisaeelarve"
+},
+{
+"edid": 3447,
+"text": "kaitsekulutused"
+},
+{
+"edid": 3350,
+"text": "assigneeringute ümberpaigutamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "79ee3584-59aa-4da8-b363-bf4cd16cd6ca",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c5b9fa17-e603-448b-9976-7e0106f0e47e",
+"fileName": "RK_25-01763-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T10:11:19.082",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c5b9fa17-e603-448b-9976-7e0106f0e47e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c5b9fa17-e603-448b-9976-7e0106f0e47e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "79ee3584-59aa-4da8-b363-bf4cd16cd6ca",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cd82cc64-29b1-4f27-999e-10e3ab1442ea",
+"fileName": "[EIS]_Eelnõu_esitamine__RAM-25-1041_-_Riigi_2025._aasta_lisaeelarve_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T10:11:19.271",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd82cc64-29b1-4f27-999e-10e3ab1442ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd82cc64-29b1-4f27-999e-10e3ab1442ea"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "9da4888c-d066-40b2-baaa-b97cdf310a6c",
+"title": "733 SE II lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b585e52b-69de-4b5f-8243-76956a776af7",
+"fileName": "733_SE21.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T14:13:19.958",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b585e52b-69de-4b5f-8243-76956a776af7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b585e52b-69de-4b5f-8243-76956a776af7"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "5ecc1a98-98e3-4edd-ac99-10dc1c6503e7",
+"title": "733 SE III lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c86edba0-055f-42ed-a494-afe75731e879",
+"fileName": "733_SE31.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-01T15:44:27.968",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c86edba0-055f-42ed-a494-afe75731e879/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c86edba0-055f-42ed-a494-afe75731e879"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b3b5dd47-5282-4a0b-95be-10fdce128232",
+"title": "733 SE I. lug. tekst, lisa ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "201a0832-b5d8-4faa-835d-57baab079e5e",
+"fileName": "733_Seaduseelnõu_§.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T16:35:07.312",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/201a0832-b5d8-4faa-835d-57baab079e5e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/201a0832-b5d8-4faa-835d-57baab079e5e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b3b5dd47-5282-4a0b-95be-10fdce128232",
+"title": "733 SE I. lug. tekst, lisa ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1362837f-04d0-44d0-bd4d-f03565a20dab",
+"fileName": "733_Lisaeelarve_eelnõu_lisa..xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Eelnõu lisa (kulude detailsem jaotus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T16:35:39.604",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1362837f-04d0-44d0-bd4d-f03565a20dab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1362837f-04d0-44d0-bd4d-f03565a20dab"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "9da4888c-d066-40b2-baaa-b97cdf310a6c",
+"title": "733 SE II lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4223ae9c-7ecb-42e3-82c5-0b1c52da6c92",
+"fileName": "733_SE21_LISA.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Eelnõu lisa (kulude detailsem jaotus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T14:13:45.407",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4223ae9c-7ecb-42e3-82c5-0b1c52da6c92/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4223ae9c-7ecb-42e3-82c5-0b1c52da6c92"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "5ecc1a98-98e3-4edd-ac99-10dc1c6503e7",
+"title": "733 SE III lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0c9b5166-258f-4adf-b758-95b45d597567",
+"fileName": "733_SE31_LISA.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Eelnõu lisa (kulude detailsem jaotus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-01T15:44:56.614",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c9b5166-258f-4adf-b758-95b45d597567/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c9b5166-258f-4adf-b758-95b45d597567"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "79ee3584-59aa-4da8-b363-bf4cd16cd6ca",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b29e6fa6-d092-45ef-8da0-13b80a2c2afa",
+"fileName": "Lisaeelarve_eelnõu_lisa.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu lisa (kulude detailsem jaotus) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T10:11:19.233",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b29e6fa6-d092-45ef-8da0-13b80a2c2afa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b29e6fa6-d092-45ef-8da0-13b80a2c2afa"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "79ee3584-59aa-4da8-b363-bf4cd16cd6ca",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "19f734be-5c7c-4bbd-ab32-56799ef7f95a",
+"fileName": "Lisaeelarve_eelnõu_lisa.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Eelnõu lisa (kulude detailsem jaotus) xlsx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T10:11:19.223",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/19f734be-5c7c-4bbd-ab32-56799ef7f95a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/19f734be-5c7c-4bbd-ab32-56799ef7f95a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "79ee3584-59aa-4da8-b363-bf4cd16cd6ca",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d89ebc9d-d0a1-48df-bf14-9559d513f6ba",
+"fileName": "Seaduseelnõu_§.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T10:11:19.203",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d89ebc9d-d0a1-48df-bf14-9559d513f6ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d89ebc9d-d0a1-48df-bf14-9559d513f6ba"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "79ee3584-59aa-4da8-b363-bf4cd16cd6ca",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "41d88409-264e-41ab-b57c-dfec615252db",
+"fileName": "Seaduseelnõu_§.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Eelnõu xlsx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T10:11:19.213",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41d88409-264e-41ab-b57c-dfec615252db/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41d88409-264e-41ab-b57c-dfec615252db"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "79ee3584-59aa-4da8-b363-bf4cd16cd6ca",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "33f5cfad-e4d3-4568-b7ba-f00bda767cba",
+"fileName": "25-01763-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T10:11:19.191",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/33f5cfad-e4d3-4568-b7ba-f00bda767cba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/33f5cfad-e4d3-4568-b7ba-f00bda767cba"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c7d56bea-05b1-4ac1-9f19-68beeef09fbd",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8d6c52a1-27e9-4bf9-8800-cee41795f4ec",
+"fileName": "733_Kaaskiri_Vabariigi_Presidendile_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-04T13:02:50.598",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d6c52a1-27e9-4bf9-8800-cee41795f4ec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d6c52a1-27e9-4bf9-8800-cee41795f4ec"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "f057da0e-be53-4e3f-8920-b3654ba682bc",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8e2b2c4b-2997-44ec-9826-589f013486eb",
+"fileName": "733XV_Lisaeel_tabel_s2025.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-12T11:27:24.001",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e2b2c4b-2997-44ec-9826-589f013486eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e2b2c4b-2997-44ec-9826-589f013486eb"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "f057da0e-be53-4e3f-8920-b3654ba682bc",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bb07b033-745c-4680-a814-be1770e3fe4e",
+"fileName": "733XV_Lisaeel_tabel_s2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-12T11:26:51.929",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bb07b033-745c-4680-a814-be1770e3fe4e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bb07b033-745c-4680-a814-be1770e3fe4e"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "f057da0e-be53-4e3f-8920-b3654ba682bc",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1d8145f4-6414-4ef7-b5f2-718ec286407d",
+"fileName": "733XV_Lisaeel_lisa_s2025.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Lõppteksti lisa (kulude detailsem jaotus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-12T11:27:24.016",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d8145f4-6414-4ef7-b5f2-718ec286407d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d8145f4-6414-4ef7-b5f2-718ec286407d"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "5ecc1a98-98e3-4edd-ac99-10dc1c6503e7",
+"title": "733 SE III lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "53e622a1-7bd6-427f-82db-edb58f6057c8",
+"fileName": "733_ME31.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-01T15:45:34.126",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/53e622a1-7bd6-427f-82db-edb58f6057c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/53e622a1-7bd6-427f-82db-edb58f6057c8"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "9da4888c-d066-40b2-baaa-b97cdf310a6c",
+"title": "733 SE II lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "24fb184c-72f6-4788-9c85-39e87a1ab937",
+"fileName": "733_SE21_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T14:20:32.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24fb184c-72f6-4788-9c85-39e87a1ab937/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24fb184c-72f6-4788-9c85-39e87a1ab937"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "5ecc1a98-98e3-4edd-ac99-10dc1c6503e7",
+"title": "733 SE III lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "30bc2998-000f-4a36-98b2-b992a2e27694",
+"fileName": "733_SE31_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-01T15:45:18.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/30bc2998-000f-4a36-98b2-b992a2e27694/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/30bc2998-000f-4a36-98b2-b992a2e27694"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b3b5dd47-5282-4a0b-95be-10fdce128232",
+"title": "733 SE I. lug. tekst, lisa ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "82f29f9f-2770-4cfe-a3e3-0b6973a5651c",
+"fileName": "733_Seletuskiri_.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T16:35:57.967",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/82f29f9f-2770-4cfe-a3e3-0b6973a5651c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/82f29f9f-2770-4cfe-a3e3-0b6973a5651c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "79ee3584-59aa-4da8-b363-bf4cd16cd6ca",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dd5c65ae-9f49-4a0d-a397-3f9b5a45db96",
+"fileName": "Seletuskiri_.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T10:11:19.255",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dd5c65ae-9f49-4a0d-a397-3f9b5a45db96/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dd5c65ae-9f49-4a0d-a397-3f9b5a45db96"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "79ee3584-59aa-4da8-b363-bf4cd16cd6ca",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6f2b49e9-332d-42d7-b2c6-71bc1340584c",
+"fileName": "Seletuskiri_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T10:11:19.244",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6f2b49e9-332d-42d7-b2c6-71bc1340584c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6f2b49e9-332d-42d7-b2c6-71bc1340584c"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c7d56bea-05b1-4ac1-9f19-68beeef09fbd",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "392bce74-3aae-463d-acdd-1d9d89a87b62",
+"fileName": "733XV_Lisaeel_lisa_s2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus (lisa)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-03T17:41:39.558",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/392bce74-3aae-463d-acdd-1d9d89a87b62/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/392bce74-3aae-463d-acdd-1d9d89a87b62"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c7d56bea-05b1-4ac1-9f19-68beeef09fbd",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5237e41e-a1ef-4d8b-8b76-96ce08ccecff",
+"fileName": "733XV_Lisaeel_tabel_s2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus (tabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-03T17:25:47.127",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5237e41e-a1ef-4d8b-8b76-96ce08ccecff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5237e41e-a1ef-4d8b-8b76-96ce08ccecff"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c7d56bea-05b1-4ac1-9f19-68beeef09fbd",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ad83fd64-f3fd-46eb-b20e-4b46bea28267",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-04T13:29:50.441",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ad83fd64-f3fd-46eb-b20e-4b46bea28267/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ad83fd64-f3fd-46eb-b20e-4b46bea28267"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-09-25T10:10:46.317",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-09-25T16:00:00.468",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-10-01T11:00:00",
+"sittingTitle": "Komisjoni istung kolmapäev, 1.10.2025 kell 11.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-10-13T15:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "172bc965-554c-40b2-9092-d0f8217c2f09",
+"fileName": "RAHK_protokoll_01.10.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-16T10:05:31.919",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/172bc965-554c-40b2-9092-d0f8217c2f09/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/172bc965-554c-40b2-9092-d0f8217c2f09"
+}
+}
+},
+{
+"uuid": "fa87b324-7f2b-4b5e-8020-6bf6dfdc82ff",
+"fileName": "RAHK_protokoll_174_01.10.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-16T10:04:49.918",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa87b324-7f2b-4b5e-8020-6bf6dfdc82ff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa87b324-7f2b-4b5e-8020-6bf6dfdc82ff"
+}
+}
+},
+{
+"uuid": "41593b40-c1ef-4ff5-a7ef-28749cb139d4",
+"fileName": "RAM_737_SE_ettekanne_01.10.2025_eelarve_lisa_4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 4 (rahandusministri ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-02T07:56:16.721",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41593b40-c1ef-4ff5-a7ef-28749cb139d4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41593b40-c1ef-4ff5-a7ef-28749cb139d4"
+}
+}
+},
+{
+"uuid": "464889f2-6379-4c40-9595-73ff5401520b",
+"fileName": "H.Purga_ettekanne_2026_eelarvele__01.10.2025_lisa_5.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 6 (kultuuriministri ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T17:08:05.965",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/464889f2-6379-4c40-9595-73ff5401520b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/464889f2-6379-4c40-9595-73ff5401520b"
+}
+}
+},
+{
+"uuid": "65614337-caaa-47db-a80b-b33558d40a14",
+"fileName": "K.Jolleri_ettekanne_2026_eelarvele_01.10.2025_täpsustatud_lisa_4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 5 (sotsiaalministri ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T17:07:00.908",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/65614337-caaa-47db-a80b-b33558d40a14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/65614337-caaa-47db-a80b-b33558d40a14"
+}
+}
+},
+{
+"uuid": "57e82a1a-250c-48f3-a3ab-dfedbeaae2b2",
+"fileName": "RAM_736_SE_ettekanne_01.10.2025_baasseadus_lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (rahandusministri ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T17:06:35.646",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/57e82a1a-250c-48f3-a3ab-dfedbeaae2b2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/57e82a1a-250c-48f3-a3ab-dfedbeaae2b2"
+}
+}
+},
+{
+"uuid": "03e78a0a-4f35-46ea-a898-02fb87b56413",
+"fileName": "RAM_734_SE_ettekanne_01.10.2025_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (rahandusministri ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T17:06:10.132",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/03e78a0a-4f35-46ea-a898-02fb87b56413/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/03e78a0a-4f35-46ea-a898-02fb87b56413"
+}
+}
+},
+{
+"uuid": "1ffd209d-a0a9-4f07-b57d-e821fc93a021",
+"fileName": "RAM_733_SE_2025_lisaeelarve_ettekanne__01.10.2025_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (rahandusministri ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T17:05:22.442",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1ffd209d-a0a9-4f07-b57d-e821fc93a021/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1ffd209d-a0a9-4f07-b57d-e821fc93a021"
+}
+}
+}
+]
+},
+{
+"date": "2025-10-13T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 13.10.2025 15:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2025-10-23T11:05:00",
+"sittingTitle": "Komisjoni istung neljapäev, 23.10.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-11-05T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "f642ee45-3c84-4911-a391-989edb7cfb95",
+"fileName": "RAHK_protokoll_23.10.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T12:28:38.036",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f642ee45-3c84-4911-a391-989edb7cfb95/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f642ee45-3c84-4911-a391-989edb7cfb95"
+}
+}
+},
+{
+"uuid": "563753de-b981-400b-8533-768558c7d0bc",
+"fileName": "RAHK_protokoll_182_23.10.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T12:28:01.981",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/563753de-b981-400b-8533-768558c7d0bc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/563753de-b981-400b-8533-768558c7d0bc"
+}
+}
+},
+{
+"uuid": "a487932a-8817-4b1d-9e9c-9b9659d01c5e",
+"fileName": "737_SE_II_ME_RAM_23.10.2025_lisa_7.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 7 (RAM muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-23T18:52:02.562",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a487932a-8817-4b1d-9e9c-9b9659d01c5e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a487932a-8817-4b1d-9e9c-9b9659d01c5e"
+}
+}
+},
+{
+"uuid": "fb54f28c-c918-4a32-a795-d9bfe5218f2b",
+"fileName": "737_SE_II_ME_SDE_fraktsioon_ja_liikmed_23.10.2025_lisa_6_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 6 (SDE_ fraktsiooni ja liikmete muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-23T18:51:19.46",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb54f28c-c918-4a32-a795-d9bfe5218f2b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb54f28c-c918-4a32-a795-d9bfe5218f2b"
+}
+}
+},
+{
+"uuid": "d3eea27e-b0c8-4f25-9aab-4c57765dc832",
+"fileName": "737_SE_II_ME_ISAMAA_fraktsioon_23.10.2025_lisa_5.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 5 (ISAMAA muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-23T18:50:44.554",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d3eea27e-b0c8-4f25-9aab-4c57765dc832/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d3eea27e-b0c8-4f25-9aab-4c57765dc832"
+}
+}
+},
+{
+"uuid": "3717b90c-7b7f-4a6d-844a-692ce36ba5b9",
+"fileName": "737_SE_II_ME_KESK_fraktsioon_23.10.2025_lisa_4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 4 (KESK_fraktsiooni muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-23T18:50:01.507",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3717b90c-7b7f-4a6d-844a-692ce36ba5b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3717b90c-7b7f-4a6d-844a-692ce36ba5b9"
+}
+}
+},
+{
+"uuid": "07f0fb27-9597-42f3-9904-a13d61743586",
+"fileName": "737_SE_II_ME_EKRE_fraktsioon_23.10.2025_lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (EKRE muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-23T18:49:31.841",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07f0fb27-9597-42f3-9904-a13d61743586/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07f0fb27-9597-42f3-9904-a13d61743586"
+}
+}
+},
+{
+"uuid": "695cf722-c442-420e-a4da-5d57a29e2d8c",
+"fileName": "737_SE_II_ME_M._VÕRKLAEV_23.10.2025_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 2 (M.Võrklaeva muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-23T18:48:59.226",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/695cf722-c442-420e-a4da-5d57a29e2d8c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/695cf722-c442-420e-a4da-5d57a29e2d8c"
+}
+}
+},
+{
+"uuid": "cf7caf99-1984-447d-92c1-510ab2e3b1d9",
+"fileName": "737_SE_II_ME_A._SÕERD_23.10.2025_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (A.Sõerdi muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-23T18:48:05.884",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf7caf99-1984-447d-92c1-510ab2e3b1d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf7caf99-1984-447d-92c1-510ab2e3b1d9"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-03T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 3.11.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_ME_TAHTAJAKS",
+"value": "Teha ettepanek määrata muudatusettepanekute tähtajaks"
+},
+"plenaryAgendaDateTime": "2025-11-17T17:15:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "3a73c2eb-f75e-4540-8f85-5dcdbdec52f3",
+"fileName": "RAHK_protokoll_03.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T09:51:15.201",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a73c2eb-f75e-4540-8f85-5dcdbdec52f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a73c2eb-f75e-4540-8f85-5dcdbdec52f3"
+}
+}
+},
+{
+"uuid": "5120ebbc-1062-4485-9289-f10dad674419",
+"fileName": "RAHK_protokoll_nr_183_03.11.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T09:50:07.524",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5120ebbc-1062-4485-9289-f10dad674419/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5120ebbc-1062-4485-9289-f10dad674419"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-05T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 5.11.2025 14:00",
+"decisionCode": "II_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-18T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 18.11.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-12-03T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "3cec7ead-b28f-4a57-9e17-39dd0c9bc00b",
+"fileName": "RAHK_protokoll_18.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-21T22:09:15.941",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3cec7ead-b28f-4a57-9e17-39dd0c9bc00b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3cec7ead-b28f-4a57-9e17-39dd0c9bc00b"
+}
+}
+},
+{
+"uuid": "f7a6a5bc-1bf9-42f6-9502-e62a59b9eab9",
+"fileName": "RAHK_protokoll_190_18.11.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-21T22:07:51.376",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7a6a5bc-1bf9-42f6-9502-e62a59b9eab9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7a6a5bc-1bf9-42f6-9502-e62a59b9eab9"
+}
+}
+},
+{
+"uuid": "0d46a31d-49aa-4b25-9d70-f034b1e7c554",
+"fileName": "652_SE_RAM_memo_17.11.2025_Lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (652 SE memo)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-19T15:13:17.262",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0d46a31d-49aa-4b25-9d70-f034b1e7c554/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0d46a31d-49aa-4b25-9d70-f034b1e7c554"
+}
+}
+},
+{
+"uuid": "ee52d1dd-7949-4801-8365-8ded2de4580f",
+"fileName": "733_SE_ME_loetelu_kavand_18.11.2025_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (733 SE muudatusettepanekute loetelu)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-19T15:04:07.743",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee52d1dd-7949-4801-8365-8ded2de4580f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee52d1dd-7949-4801-8365-8ded2de4580f"
+}
+}
+}
+]
+},
+{
+"date": "2025-12-01T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 1.12.2025 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "bf4afe1c-f43d-47bc-909a-d5dc064fabb3",
+"fileName": "RAHK_protokoll_01.12.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-21T22:15:36.132",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf4afe1c-f43d-47bc-909a-d5dc064fabb3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf4afe1c-f43d-47bc-909a-d5dc064fabb3"
+}
+}
+},
+{
+"uuid": "938c847c-06a7-491c-8042-adecc6a74bca",
+"fileName": "RAHK_protokoll_191_01.12.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-21T22:14:21.568",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/938c847c-06a7-491c-8042-adecc6a74bca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/938c847c-06a7-491c-8042-adecc6a74bca"
+}
+}
+}
+]
+},
+{
+"date": "2025-12-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.12.2025 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "15c9223b-24a3-4bb7-aea5-8040d29c39cd",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-12-03T17:18:45.82",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/15c9223b-24a3-4bb7-aea5-8040d29c39cd"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-12-05T11:41:58.837",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2025-12-12T11:07:49.237",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2025-12-16T19:35:44.438",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6dbb4537-b90e-4034-a682-51784b61a19a",
+"reference": "1-1/15-733/2",
+"title": "Rahandusministeeriumi arvamus riigi 2025. aasta lisaeelarve seaduse eelnõu 733 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-11-20",
+"files": [
+{
+"uuid": "845fa844-ce89-40e6-8bac-739c21c9c4b7",
+"fileName": "2025_II_LEA_seadusepilt_III_lugemine_uus.xlsx",
+"fileExtension": "xlsx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-20T09:29:11.834",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/845fa844-ce89-40e6-8bac-739c21c9c4b7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/845fa844-ce89-40e6-8bac-739c21c9c4b7"
+}
+}
+},
+{
+"uuid": "497883f3-608c-4cab-99f5-fd550a22a98d",
+"fileName": "1.1-10.15027-1_19.11.2025_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-20T09:29:11.686",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/497883f3-608c-4cab-99f5-fd550a22a98d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/497883f3-608c-4cab-99f5-fd550a22a98d"
+}
+}
+},
+{
+"uuid": "8aad9c28-9541-4f47-b06e-34a9eaad7702",
+"fileName": "Riigi_2025._aasta_lisaeelarve_seaduse_eelnõu_muudatusettepanekud_kolmandale_lugemisele_(2).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-20T09:29:11.855",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8aad9c28-9541-4f47-b06e-34a9eaad7702/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8aad9c28-9541-4f47-b06e-34a9eaad7702"
+}
+}
+},
+{
+"uuid": "0ba80c89-9b06-466d-ad01-3e01bfd005cd",
+"fileName": "Riigi_2025._aasta_lisaeelarve_seaduse_eelnõu_muudatusettepanekud_III_lugemisele.pdf",
+"fileExtension": "pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-20T09:29:11.845",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0ba80c89-9b06-466d-ad01-3e01bfd005cd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0ba80c89-9b06-466d-ad01-3e01bfd005cd"
+}
+}
+},
+{
+"uuid": "904226df-9f8a-4a9c-b5cf-2974a8ba9072",
+"fileName": "_Riigi_2025._aasta_lisaeelarve_seaduse_eelnõu_muudatusettepanekud_III_lugemisele.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-20T09:29:11.871",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/904226df-9f8a-4a9c-b5cf-2974a8ba9072/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/904226df-9f8a-4a9c-b5cf-2974a8ba9072"
+}
+}
+},
+{
+"uuid": "060bb6c1-5e2b-45b5-b1b5-7b1c4d10d35c",
+"fileName": "2025_II_LEA_seaduse_lisa_III_lugemine_(1).xlsx",
+"fileExtension": "xlsx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-20T09:29:11.821",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/060bb6c1-5e2b-45b5-b1b5-7b1c4d10d35c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/060bb6c1-5e2b-45b5-b1b5-7b1c4d10d35c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6dbb4537-b90e-4034-a682-51784b61a19a"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "91e92d60-38e1-48ff-8714-72f083232fa9",
+"reference": "1-1/15-733/1",
+"title": "Isamaa fraktsiooni muudatusettepanek riigi 2025. aasta lisaeelarve seaduse eelnõu 733 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "df376ab5-147f-46ce-8511-e70ac1a79630",
+"fileName": "Isamaa_ME_2025_lisaeelarve_kohta.doc",
+"fileExtension": "doc",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T12:38:25.595",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/df376ab5-147f-46ce-8511-e70ac1a79630/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/df376ab5-147f-46ce-8511-e70ac1a79630"
+}
+}
+},
+{
+"uuid": "55e482ca-be7f-420c-b1c1-d2fdd0b16bc6",
+"fileName": "Isamaa_ME_2025_lisaeelarve_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T12:38:11.524",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/55e482ca-be7f-420c-b1c1-d2fdd0b16bc6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/55e482ca-be7f-420c-b1c1-d2fdd0b16bc6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/91e92d60-38e1-48ff-8714-72f083232fa9"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a74771bc-0622-44d9-a40a-234a011714f6"
+}
+}
+}

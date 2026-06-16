@@ -1,0 +1,512 @@
+{
+"uuid": "c779375a-0112-4b4e-ba13-cdcc382ed38e",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele uute elektritootmisvõimsuste rajamise kiirendamiseks Eestis\"",
+"mark": 847,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele uute elektritootmisvõimsuste rajamise kiirendamiseks Eestis\" 847 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele uute elektritootmisvõimsuste rajamise kiirendamiseks Eestis\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek võtta kiiresti vastu konkreetsed otsused ja rakendada vajalikud tegevused uute elektritootmisvõimsuste rajamiseks Eestis, et tugevdada energiajulgeolekut, parandada varustuskindlust, vähendada sõltuvust elektri impordist ning aidata kaasa elektrihinna stabiilsusele ja langetamisele.",
+"initiated": "2026-03-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-03-26T17:15:00",
+"responsibleMember": {
+"uuid": "53141769-f7bb-4995-8d12-5ff0d9c1eca1",
+"name": "Mario Kadastik",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/53141769-f7bb-4995-8d12-5ff0d9c1eca1?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8bd39979-5c6b-496c-853f-89e750f396b2",
+"name": "Mari Tänav",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8bd39979-5c6b-496c-853f-89e750f396b2?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d188e268-5d01-7e93-0c22-3ae7f0c1e851",
+"name": "Sotsiaaldemokraatliku Erakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d188e268-5d01-7e93-0c22-3ae7f0c1e851?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 747,
+"text": "elektrienergia"
+},
+{
+"edid": 2715,
+"text": "energia tootmine"
+},
+{
+"edid": 4025,
+"text": "varustuskindlus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "cd4f13ea-a44a-4c16-b805-2d05de122d6f",
+"title": "847 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e87dd3e3-8974-474e-a548-69b9ed00f4d3",
+"fileName": "847_RK_o_Ettepanek_VVle_elekter_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-11T15:56:13.257",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e87dd3e3-8974-474e-a548-69b9ed00f4d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e87dd3e3-8974-474e-a548-69b9ed00f4d3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "8437dee5-2a41-48db-94ee-f9a99b1c840b",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e5e236d8-5d1a-4f9b-8d0b-033a599d5c82",
+"fileName": "RK_o_Ettepanek_VVle_EN_märts_2026....docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T15:52:04.345",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e5e236d8-5d1a-4f9b-8d0b-033a599d5c82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e5e236d8-5d1a-4f9b-8d0b-033a599d5c82"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "8437dee5-2a41-48db-94ee-f9a99b1c840b",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5105d088-99d7-455b-aeb9-680d1688bca0",
+"fileName": "847E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T15:57:19.728",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5105d088-99d7-455b-aeb9-680d1688bca0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5105d088-99d7-455b-aeb9-680d1688bca0"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "cd4f13ea-a44a-4c16-b805-2d05de122d6f",
+"title": "847 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e6e11417-487e-4a36-bd19-e6cc2024f52c",
+"fileName": "847_RK_o_Ettepanek_VVle_elekter_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-11T15:56:50.045",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e6e11417-487e-4a36-bd19-e6cc2024f52c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e6e11417-487e-4a36-bd19-e6cc2024f52c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "8437dee5-2a41-48db-94ee-f9a99b1c840b",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a8cf4848-20dc-4b8d-b97a-ff84ce7658dd",
+"fileName": "RK_o_Ettepanek_VVle_SE_märts_2026....docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T15:52:04.354",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a8cf4848-20dc-4b8d-b97a-ff84ce7658dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a8cf4848-20dc-4b8d-b97a-ff84ce7658dd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "8437dee5-2a41-48db-94ee-f9a99b1c840b",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ba9e26b2-012d-47d8-80bb-05bdf1f13471",
+"fileName": "847SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T15:57:39.745",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba9e26b2-012d-47d8-80bb-05bdf1f13471/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba9e26b2-012d-47d8-80bb-05bdf1f13471"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-03-11T15:51:38.097",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-03-12T16:45:00.525",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2026-05-04T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäeval, 4.05.2026 kell 11.10",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "7b9f75a3-6816-4fe3-8ca1-e0d95c68d0f6",
+"fileName": "MAJK_protokoll_nr_189_04.05.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-13T15:47:56.951",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7b9f75a3-6816-4fe3-8ca1-e0d95c68d0f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7b9f75a3-6816-4fe3-8ca1-e0d95c68d0f6"
+}
+}
+},
+{
+"uuid": "bf1d3a2b-5107-47b1-aa03-72678fc8f951",
+"fileName": "MAJK_protokoll_nr_189_04.05.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-13T15:48:37.746",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf1d3a2b-5107-47b1-aa03-72678fc8f951/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf1d3a2b-5107-47b1-aa03-72678fc8f951"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-11T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäeval, 11.05.2026 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Mario Kadastik"
+},
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-05-20T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "25027c33-a4f2-4819-8d50-3bffa23bf033",
+"fileName": "Asendusliikme_volikiri_(Õ._Pillak_M._Klaassen).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Õ. Pillak M. Klaassen)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-12T14:20:56.795",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25027c33-a4f2-4819-8d50-3bffa23bf033/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25027c33-a4f2-4819-8d50-3bffa23bf033"
+}
+}
+},
+{
+"uuid": "8bf54d10-a66d-41f8-b54d-e9730c1191e2",
+"fileName": "SPIM_ettekanne.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (SPIM)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-12T14:25:27.69",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8bf54d10-a66d-41f8-b54d-e9730c1191e2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8bf54d10-a66d-41f8-b54d-e9730c1191e2"
+}
+}
+},
+{
+"uuid": "5c706f27-f397-42bb-88ca-289b37d90480",
+"fileName": "MAJK_protokoll_nr_192_11.05.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T13:29:37.752",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5c706f27-f397-42bb-88ca-289b37d90480/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5c706f27-f397-42bb-88ca-289b37d90480"
+}
+}
+},
+{
+"uuid": "30057974-3e62-44d4-94b2-a8f573aeec39",
+"fileName": "Slaidid_Bürokraatia_vähendamise_eelnõu._MAJKis_tutvustus_I_lugemine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (853 SE)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-12T14:24:10.997",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/30057974-3e62-44d4-94b2-a8f573aeec39/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/30057974-3e62-44d4-94b2-a8f573aeec39"
+}
+}
+},
+{
+"uuid": "d30df65e-c8bc-4a6d-97d8-05d5fc154f19",
+"fileName": "MAJK_protokoll_nr_192_11.05.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T13:28:52.007",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d30df65e-c8bc-4a6d-97d8-05d5fc154f19/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d30df65e-c8bc-4a6d-97d8-05d5fc154f19"
+}
+}
+}
+]
+},
+{
+"date": "2026-05-21T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 21.05.2026 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "46165acd-11b1-4663-865c-c7b2b4b12fc8",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-05-21T11:28:15.323",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/46165acd-11b1-4663-865c-c7b2b4b12fc8"
+}
+}
+},
+{
+"uuid": "b38ba6d4-b987-4036-9ce9-d174ff0619f6",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2026-05-21T11:32:12.9",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b38ba6d4-b987-4036-9ce9-d174ff0619f6"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "01510f4d-70c0-4798-838d-f18001215c2a",
+"reference": "1-1/15-847/2",
+"title": "Kliimaministeeriumi arvamus riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele uute elektritootmisvõimsuste rajamise kiirendamiseks Eestis\" eelnõu 847 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-04-23",
+"files": [
+{
+"uuid": "b65564f2-eaf0-41b2-acc7-624403c4bec5",
+"fileName": "Seisukoht_847_OE-le.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-23T12:06:39.951",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b65564f2-eaf0-41b2-acc7-624403c4bec5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b65564f2-eaf0-41b2-acc7-624403c4bec5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/01510f4d-70c0-4798-838d-f18001215c2a"
+}
+}
+},
+{
+"uuid": "f0c0ddd9-fc84-4786-89f2-b8b6bd9f7324",
+"reference": "1-1/15-847/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele uute elektritootmisvõimsuste rajamise kiirendamiseks Eestis\" eelnõu 847 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-04-14",
+"files": [
+{
+"uuid": "d6ce7d03-783e-4e19-aa50-f705e109074e",
+"fileName": "113._tel_Eelnõu_847_OE_häälteenamus_2026_04_14_(uued_elektritootmisvõimsused).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-14T10:47:09.105",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6ce7d03-783e-4e19-aa50-f705e109074e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6ce7d03-783e-4e19-aa50-f705e109074e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f0c0ddd9-fc84-4786-89f2-b8b6bd9f7324"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/c779375a-0112-4b4e-ba13-cdcc382ed38e"
+}
+}
+}

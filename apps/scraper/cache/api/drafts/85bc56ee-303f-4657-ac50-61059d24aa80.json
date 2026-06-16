@@ -1,0 +1,584 @@
+{
+"uuid": "85bc56ee-303f-4657-ac50-61059d24aa80",
+"title": "Riigikogu otsus „Eesti esindaja nimetamine Põhjamaade Investeerimispanga kontrollkomiteesse\"",
+"mark": 833,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Eesti esindaja nimetamine Põhjamaade Investeerimispanga kontrollkomiteesse\" 833 OE",
+"initialTitle": "Riigikogu otsus „Eesti esindaja nimetamine Põhjamaade Investeerimispanga kontrollkomiteesse\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Rahanduskomisjon teeb ettepaneku alates 1. juunist 2026 kuni 31. maini 2028 nimetada Eesti esindajaks Põhjamaade Investeerimispanga kontrollkomitees Riigikogu rahanduskomisjoni esimees Annely Akkermann.",
+"initiated": "2026-02-23",
+"joined": null,
+"accepted": "2026-03-18",
+"amendmentsDeadline": "2026-03-12T17:15:00",
+"responsibleMember": {
+"uuid": "caea357b-12c0-4069-b53e-89f69f517212",
+"name": "Kersti Sarapuu",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/caea357b-12c0-4069-b53e-89f69f517212?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 211,
+"text": "rahandusalane koostöö"
+},
+{
+"edid": 911,
+"text": "Põhja-Euroopa"
+},
+{
+"edid": 4795,
+"text": "investeerimispank"
+},
+{
+"edid": 6064,
+"text": "audit"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "588de62f-3a13-42c1-b091-5539f4e4604e",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4f61a329-a129-4e9c-83b1-b1219428b58e",
+"fileName": "Riigikogu_otsuse_Eesti_esindaja_nimetamine_Põhjamaade_Investeerimispanga_kontrollkomiteesse_eelnõu_algatamiseks_ettevalmistamine.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T15:41:47.605",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4f61a329-a129-4e9c-83b1-b1219428b58e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4f61a329-a129-4e9c-83b1-b1219428b58e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "06289a92-ce4a-4305-b4fe-379c1906f705",
+"title": "833 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8ce3687d-161f-4c5a-9411-7cf721dd8287",
+"fileName": "833_NIB_AA_2026_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T09:27:16.977",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ce3687d-161f-4c5a-9411-7cf721dd8287/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ce3687d-161f-4c5a-9411-7cf721dd8287"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "588de62f-3a13-42c1-b091-5539f4e4604e",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ca73d302-6712-46d0-b472-4cff0cb2e49a",
+"fileName": "NIB_AA_2026_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T15:41:47.752",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca73d302-6712-46d0-b472-4cff0cb2e49a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca73d302-6712-46d0-b472-4cff0cb2e49a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "588de62f-3a13-42c1-b091-5539f4e4604e",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5b601edd-f70e-48ff-bd91-ae2484f32355",
+"fileName": "Esitluskiri_NIB_2026_docx.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T15:41:47.741",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5b601edd-f70e-48ff-bd91-ae2484f32355/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5b601edd-f70e-48ff-bd91-ae2484f32355"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "af644617-705d-4621-b8e1-b501a701bbd6",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d21457ae-c7ed-4931-8aea-9df44d01b33f",
+"fileName": "833XV_RK_o_18032026.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-18T18:28:41.866",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d21457ae-c7ed-4931-8aea-9df44d01b33f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d21457ae-c7ed-4931-8aea-9df44d01b33f"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "af644617-705d-4621-b8e1-b501a701bbd6",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "381d7be3-20b1-46ff-8d44-26bf79aaf780",
+"fileName": "833XV_RK_o_18032026.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-18T18:28:12.341",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/381d7be3-20b1-46ff-8d44-26bf79aaf780/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/381d7be3-20b1-46ff-8d44-26bf79aaf780"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "06289a92-ce4a-4305-b4fe-379c1906f705",
+"title": "833 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c26e1ce6-4dd9-47b7-8bd6-87827d8ba33b",
+"fileName": "833_NIB_AA_2026_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T09:27:51.808",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c26e1ce6-4dd9-47b7-8bd6-87827d8ba33b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c26e1ce6-4dd9-47b7-8bd6-87827d8ba33b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "588de62f-3a13-42c1-b091-5539f4e4604e",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7e655a73-f5c2-4ae8-9e4b-6176ab4577f9",
+"fileName": "NIB_AA_2026_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T15:41:47.762",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e655a73-f5c2-4ae8-9e4b-6176ab4577f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e655a73-f5c2-4ae8-9e4b-6176ab4577f9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f9a29ae5-1372-435d-9f18-ff251f98c3f7",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e9e3eac9-9b5f-45a2-a505-5ca1afc5b6a9",
+"fileName": "833XV_RK_o_032026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-18T15:02:52.177",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e9e3eac9-9b5f-45a2-a505-5ca1afc5b6a9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e9e3eac9-9b5f-45a2-a505-5ca1afc5b6a9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f9a29ae5-1372-435d-9f18-ff251f98c3f7",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "62794fe8-9df8-4c36-bedc-fbb87a31df8e",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-18T16:06:45.056",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62794fe8-9df8-4c36-bedc-fbb87a31df8e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62794fe8-9df8-4c36-bedc-fbb87a31df8e"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-02-23T15:41:05.507",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-02-26T15:52:00.989",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-03-10T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 10.03.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-03-18T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Kersti Sarapuu"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "030dfe39-fdf2-4bf7-ba2e-2da194c52471",
+"fileName": "RAHK_protokoll_10.03.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-24T09:52:38.465",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/030dfe39-fdf2-4bf7-ba2e-2da194c52471/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/030dfe39-fdf2-4bf7-ba2e-2da194c52471"
+}
+}
+},
+{
+"uuid": "4717e4d6-b8aa-4788-a938-1ee48ee30330",
+"fileName": "640_UA_ME_loetelu_kavand_10.03.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "ME loetelu kavand",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-24T09:50:11.302",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4717e4d6-b8aa-4788-a938-1ee48ee30330/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4717e4d6-b8aa-4788-a938-1ee48ee30330"
+}
+}
+},
+{
+"uuid": "1f911330-ad18-455b-b4ea-46d80d81b1fa",
+"fileName": "RAHK_protokoll_nr_212_10.03.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-24T09:48:52.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1f911330-ad18-455b-b4ea-46d80d81b1fa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1f911330-ad18-455b-b4ea-46d80d81b1fa"
+}
+}
+}
+]
+},
+{
+"date": "2026-03-16T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 16.03.2026 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "ea3a1253-c4e9-42ff-b625-5272e1f2cdf7",
+"fileName": "RAHK_protokoll_16.03.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T09:35:03.412",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ea3a1253-c4e9-42ff-b625-5272e1f2cdf7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ea3a1253-c4e9-42ff-b625-5272e1f2cdf7"
+}
+}
+},
+{
+"uuid": "3ad0be7f-c1c0-43fc-a3a6-de5f214c0abb",
+"fileName": "THI_rahanduskomisjonis_160326.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 4 (Statistikaameti esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T09:33:57.184",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ad0be7f-c1c0-43fc-a3a6-de5f214c0abb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ad0be7f-c1c0-43fc-a3a6-de5f214c0abb"
+}
+}
+},
+{
+"uuid": "5f9be03e-7626-49b1-b913-f9ef7845b132",
+"fileName": "RR_ülevaade_16.03.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (Rahandusministeeriumi esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T09:32:54.736",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f9be03e-7626-49b1-b913-f9ef7845b132/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f9be03e-7626-49b1-b913-f9ef7845b132"
+}
+}
+},
+{
+"uuid": "2cdca4e4-d645-4833-9409-591e3591ebdd",
+"fileName": "Olukorrast_rahvamajanduses_RAHK_Madis_16.3.26.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Rahandusministeeriumi esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T09:30:38.786",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2cdca4e4-d645-4833-9409-591e3591ebdd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2cdca4e4-d645-4833-9409-591e3591ebdd"
+}
+}
+},
+{
+"uuid": "824c32cf-180a-4048-ae6b-3a922efa6bad",
+"fileName": "RE2025_täitmine_ettekanne_VV_12_03_2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Rahandusministeeriumi esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T09:30:12.443",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/824c32cf-180a-4048-ae6b-3a922efa6bad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/824c32cf-180a-4048-ae6b-3a922efa6bad"
+}
+}
+},
+{
+"uuid": "8d51866f-bdbf-4ed8-b76f-ac85b33144ed",
+"fileName": "RAHK_protokoll_nr_213_16.03.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T09:28:44.467",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d51866f-bdbf-4ed8-b76f-ac85b33144ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d51866f-bdbf-4ed8-b76f-ac85b33144ed"
+}
+}
+}
+]
+},
+{
+"date": "2026-03-18T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 18.03.2026 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "5f3afe95-4c8d-4420-87ba-6ecb711ced1f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-03-18T14:59:59.55",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/5f3afe95-4c8d-4420-87ba-6ecb711ced1f"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2026-03-18T17:56:35.352",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2026-03-20T20:13:42.73",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/85bc56ee-303f-4657-ac50-61059d24aa80"
+}
+}
+}

@@ -1,0 +1,768 @@
+{
+"uuid": "a7ad6f50-03ff-4235-ba56-5d2ea4ff65f1",
+"etid": 578,
+"code": "4406",
+"text": "tööhõive",
+"descriptors": [
+{
+"edid": 1074,
+"text": "kutseõpe",
+"code": "1074",
+"uuid": "c6611f1c-a9ce-6f0e-d56d-edcf222014e1",
+"vol_cnt": 113,
+"scopeNotes": [
+"Koolitus, mille eesmärk on anda mingis  majandustegevuse valdkonnas teatud kutsealal (või seonduvatel kutsealadel) töötamiseks vajalikud oskused, teadmised ja võimed."
+],
+"usedFors": [
+"e-koolitus",
+"kaugkoolitus",
+"kutsealane ettevalmistus",
+"kutseõpetus",
+"tööalane koolitus"
+],
+"narrowTerms": [
+"068ca664-45e7-4792-9d60-30d24ec8a2b0",
+"d90bd9f7-200e-42ff-8db1-7d58367e0245",
+"e008fda6-1941-4a87-a35e-5f9d6bc7ad06",
+"3dd765bc-9d90-aa8d-c800-d1ffc3499b64",
+"ab2b2f26-3898-4933-b9e6-b6307458384a",
+"6e2c21ca-b01d-4523-97f7-26aa9e54a636",
+"e3ac8c06-2542-ca08-b8e1-f315616d3f9b",
+"07553047-c8e9-411a-acb5-dd34358da650",
+"8942b355-9c16-466e-a475-792053bfed2a",
+"25dd0c6c-429a-4977-b90d-3fda9e35b6b8"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5342,
+"text": "Cedefop",
+"code": "5342",
+"uuid": "bb5b0e23-121f-434b-b9d8-8dd066fe2410",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Kutseõppe Arenduskeskus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bb5b0e23-121f-434b-b9d8-8dd066fe2410"
+}
+}
+},
+{
+"edid": 454915,
+"text": "Euroopa haldusjuhtimise kool",
+"code": "c_e9845504",
+"uuid": "6b2b5330-a0e2-403e-9317-e60b64205237",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"EUSA"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6b2b5330-a0e2-403e-9317-e60b64205237"
+}
+}
+},
+{
+"edid": 5642,
+"text": "Euroopa Koolitusfond",
+"code": "5642",
+"uuid": "8b3e1f05-25c4-4e5b-b374-57d28df274db",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"ETF"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8b3e1f05-25c4-4e5b-b374-57d28df274db"
+}
+}
+},
+{
+"edid": 7195,
+"text": "individuaalne areng",
+"code": "7195",
+"uuid": "fa6b640d-13d2-49e2-82bc-ea739e04c36b",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"indiviidi areng",
+"isiksuse areng"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fa6b640d-13d2-49e2-82bc-ea739e04c36b"
+}
+}
+},
+{
+"edid": 5149,
+"text": "integreeritud arenguprogramm",
+"code": "5149",
+"uuid": "0041b0d2-4f19-43c7-9e38-4957f1c3f135",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"integreeritud arendustegevus",
+"integreeritud tegevuspiirkond"
+],
+"narrowTerms": [
+"e568a64c-d9e0-4b90-96db-09ce0e4fdbbf"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0041b0d2-4f19-43c7-9e38-4957f1c3f135"
+}
+}
+},
+{
+"edid": 2904,
+"text": "kutsealane ümberõpe",
+"code": "2904",
+"uuid": "7e242e9f-9372-4e6b-aa7f-da20fecc23b4",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"ametialane ümberõpe",
+"töötajate ümberõpe"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7e242e9f-9372-4e6b-aa7f-da20fecc23b4"
+}
+}
+},
+{
+"edid": 795,
+"text": "kutseharidus",
+"code": "795",
+"uuid": "24ac98bd-7163-e8fe-4883-e0b534ec8293",
+"vol_cnt": 29,
+"scopeNotes": [],
+"usedFors": [
+"kutseõppeasutus",
+"tehnikakool",
+"ärikool"
+],
+"narrowTerms": [
+"15fe484a-a206-4850-b6fd-45c4aec34abb",
+"8964bb47-62de-4da0-984c-fab5074f6ec0",
+"f88606ae-e283-444b-ab56-d6a46639e2f0",
+"49963be0-d9b4-461a-987a-b05b56c6cbb3",
+"94be249b-cf5a-4c3f-9fa1-229ebd968c10",
+"f6c7507c-6e79-449a-abac-11c6bd72f8f7",
+"be126a5a-c90e-4639-b8ef-19d5473fcc12"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/24ac98bd-7163-e8fe-4883-e0b534ec8293"
+}
+}
+},
+{
+"edid": 2868,
+"text": "kutsekvalifikatsioon",
+"code": "2868",
+"uuid": "db5f5505-bbcd-40c4-272c-10feda5bb0f0",
+"vol_cnt": 133,
+"scopeNotes": [
+"Kutsealal töötamiseks vajalikud oskused ja teadmised."
+],
+"usedFors": [
+"ametialane ebapädevus",
+"ametialane kvalifikatsioon",
+"ametialane pädevus",
+"erialane kvalifikatsioon",
+"kutsealane kvalifikatsioon",
+"tööalane kompetentsus"
+],
+"narrowTerms": [
+"ecd86e8d-2042-4eed-8ce4-d1d5a997362d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/db5f5505-bbcd-40c4-272c-10feda5bb0f0"
+}
+}
+},
+{
+"edid": 6099,
+"text": "kutsekvalifikatsioonide tunnustamine",
+"code": "6099",
+"uuid": "0edadd7e-bda4-41a7-c6d7-3eabdc006a25",
+"vol_cnt": 48,
+"scopeNotes": [],
+"usedFors": [
+"kutsekvalifikatsioonide võrreldavus",
+"kvalifikatsioonide võrreldavus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0edadd7e-bda4-41a7-c6d7-3eabdc006a25"
+}
+}
+},
+{
+"edid": 674,
+"text": "täiskasvanute koolitus",
+"code": "674",
+"uuid": "87fa9cb5-9921-4e18-8c17-b34717e55471",
+"vol_cnt": 14,
+"scopeNotes": [],
+"usedFors": [
+"lastevanemate koolitamine",
+"naiste koolitamine",
+"täiskasvanute koolitamine",
+"töötajate koolitamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/87fa9cb5-9921-4e18-8c17-b34717e55471"
+}
+}
+},
+{
+"edid": 5864,
+"text": "üleeuroopaline võrk",
+"code": "5864",
+"uuid": "2e042136-1e11-487a-a415-0342b5547b20",
+"vol_cnt": 161,
+"scopeNotes": [
+"Siseriiklike transpordi-, telekommunikatsiooni- ja energiavõrkude vastastikune sidumine ja koostalitlusvõime sisepiirideta ala loomiseks."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2e042136-1e11-487a-a415-0342b5547b20"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c6611f1c-a9ce-6f0e-d56d-edcf222014e1"
+}
+}
+},
+{
+"edid": 3522,
+"text": "töösuhte lõpetamine",
+"code": "3522",
+"uuid": "07dea6f8-8a45-fe71-229c-bbffbc626641",
+"vol_cnt": 24,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"6b588467-89cb-4951-098d-642326c254eb",
+"20df3b83-5ceb-ff12-d46b-400b768af28c",
+"af4dba47-b06e-59b2-a84b-bb697a78456e",
+"52a31345-3e81-4a29-bc11-0eef65244aed",
+"37906142-1824-0bf8-f701-6d9e103fc815"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5372,
+"text": "kaubandustegevuse lõpetamine",
+"code": "5372",
+"uuid": "0a0eb458-ba1a-4b4d-b018-83651713067c",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"ettevõtte sulgemine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0a0eb458-ba1a-4b4d-b018-83651713067c"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/07dea6f8-8a45-fe71-229c-bbffbc626641"
+}
+}
+},
+{
+"edid": 2468,
+"text": "tööhõivepoliitika",
+"code": "2468",
+"uuid": "3bfa0afa-0406-462c-b83c-45f9b03a3d67",
+"vol_cnt": 147,
+"scopeNotes": [],
+"usedFors": [
+"tööjõupoliitika",
+"tööturupoliitika"
+],
+"narrowTerms": [
+"b35bc740-7e4e-4ffc-a759-862d18558ac4",
+"6e578acc-b876-4027-99bf-97ce6962c2f4",
+"8c9ee98f-506c-85f6-a5c9-4b73c2e263ab",
+"7e242e9f-9372-4e6b-aa7f-da20fecc23b4",
+"deb5156e-8081-4cd5-924f-839c24e9a4f3",
+"7b960c4c-1968-4551-90fe-f28e216d5029",
+"ce5d81d9-8fcf-4ba2-9d7c-86557db5097c",
+"a343d993-7b12-460a-8ca6-1d02b4d594ab",
+"12e43886-167c-4beb-b48a-3e542e10aebb",
+"a1b0fe67-9f81-a75f-cec8-36fd192c54a6",
+"9a0708a2-f3b8-258f-e0a0-81a5a3cfa473",
+"5cd885c8-5814-753a-adc2-67ee40b668e9",
+"fd3c7512-bd11-4211-956a-bc6d700a4135",
+"ab61184e-4002-4c27-b7a6-1b0f28c4d02e"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3007,
+"text": "osaliselt riigistatud ettevõte",
+"code": "3007",
+"uuid": "f12d7e54-7b92-4547-8a2e-ace1c7546b03",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kaupade ja teenuste tootmisel konkureeriv ettevõte, mille tegevus säilitab või loob töökohti."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f12d7e54-7b92-4547-8a2e-ace1c7546b03"
+}
+}
+},
+{
+"edid": 1503,
+"text": "tööaja korraldus",
+"code": "1503",
+"uuid": "3edeafeb-cd8e-4d7c-afdb-6a5b489dc536",
+"vol_cnt": 15,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"88cc06d5-4e46-4e53-bb3b-f31cc3b56086"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3edeafeb-cd8e-4d7c-afdb-6a5b489dc536"
+}
+}
+},
+{
+"edid": 1802,
+"text": "tööturg",
+"code": "1802",
+"uuid": "fd7d8cd9-b50d-49b5-a38b-3a889f31f00b",
+"vol_cnt": 155,
+"scopeNotes": [],
+"usedFors": [
+"tööhõive olukord",
+"tööhõive tase"
+],
+"narrowTerms": [
+"64cd624f-9cbe-4737-a574-e2e16b401234",
+"4a35c06a-f004-4979-8795-6d2d6c7a03bb",
+"55458c69-2d3e-7245-4d76-636958103198",
+"54599a83-09da-46dd-949e-4a5c0fbd2d49",
+"fffb4186-051a-5877-2699-c20716e26c0a",
+"a3d9ba9e-0b7d-4ad0-ba82-e7f8a453b7e5",
+"edfa9721-af9a-44ce-b5d5-d2e2e4d64cb6",
+"c339e8c1-2748-472d-bb39-a09b404b52b1",
+"ba26468a-a43e-4a27-88ee-7adb91277625",
+"1db96e5c-27fa-6c65-886c-d008321e420a",
+"a67919a2-38c7-4cbd-8ead-4429d1c671a9",
+"7ab0d6b4-574b-4b72-bad1-2a45dbf9e3e2",
+"d074c791-6639-78a4-ba68-8be1f39d4d22",
+"2a5a3252-a4ff-45c7-95c0-2aba23f0a32d",
+"d6d59f4e-3c7d-4e9e-8778-1538d101beb1",
+"9a8cfb6e-8cda-4706-867e-c89a5d76df67"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fd7d8cd9-b50d-49b5-a38b-3a889f31f00b"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3bfa0afa-0406-462c-b83c-45f9b03a3d67"
+}
+}
+},
+{
+"edid": 4299,
+"text": "tööhõivestruktuur",
+"code": "4299",
+"uuid": "0dd351b4-6f8d-4987-9101-d7fecc6afa02",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"2c2fc92d-4a61-442b-96e8-b01916762956",
+"6743dde3-e4f7-4600-82f6-418860c681e7",
+"f8d3638a-2734-dca0-6442-58ba86e24217",
+"d3a19b11-0444-47aa-9bcb-2bb1c941c7b3",
+"dec66997-77c3-4107-bbcd-e3ca5b8747dc",
+"d25f6308-00a1-4cef-be53-c76cf292fb68",
+"0e7d6b93-f533-4903-9008-b8c734e74431",
+"90aa59bd-d479-4e69-8041-0aabf5b90c47",
+"2e3bb96a-e461-4371-86bc-fd2e1d244a87"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1737,
+"text": "tööjõud",
+"code": "1737",
+"uuid": "582ff9c3-fa80-78c1-ac2a-8478cef54598",
+"vol_cnt": 18,
+"scopeNotes": [],
+"usedFors": [
+"inimtööjõud",
+"tööjõu struktuur",
+"töötaja"
+],
+"narrowTerms": [
+"0cf5f353-ceb3-499e-842f-2566a51740ec",
+"62361750-f5d3-4427-9846-9bed2de52277",
+"c71ae7c0-d035-45f6-a60c-b1ad73eaf950",
+"8b0199dd-f8df-4668-8317-7fa41cb1aa77",
+"db5f5505-bbcd-40c4-272c-10feda5bb0f0",
+"de6d088f-fbe7-4a5a-8dfa-547b7f438d40",
+"98a1303b-9498-462f-afb2-85663aed5ab1",
+"062f7451-d113-40de-abaa-e9379574a169",
+"17bd9c78-f567-43f1-b653-aafce02891c2",
+"ed4b1b37-26a4-df16-8ea6-d5ef71ccc9d1",
+"9c389dda-a096-4cdc-bc50-350ad0922e2e",
+"fa4f2db7-ccd0-413c-9b9d-41ccadf531e2",
+"125b3c5d-ce7d-a88c-a2a2-c26448904f32",
+"cfd68254-5ae1-d48a-4d8e-7a0d39f93a98",
+"d7429baa-a711-4a6f-a197-75df91acb999",
+"58add7a5-ece3-4ce0-9f95-3e6bc50ad4a0",
+"7dcb5553-761d-43ff-acc8-6a44e85d3441",
+"caee8ece-ec3e-4741-8666-0d0a56e41e90"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/582ff9c3-fa80-78c1-ac2a-8478cef54598"
+}
+}
+},
+{
+"edid": 1802,
+"text": "tööturg",
+"code": "1802",
+"uuid": "fd7d8cd9-b50d-49b5-a38b-3a889f31f00b",
+"vol_cnt": 155,
+"scopeNotes": [],
+"usedFors": [
+"tööhõive olukord",
+"tööhõive tase"
+],
+"narrowTerms": [
+"64cd624f-9cbe-4737-a574-e2e16b401234",
+"4a35c06a-f004-4979-8795-6d2d6c7a03bb",
+"55458c69-2d3e-7245-4d76-636958103198",
+"54599a83-09da-46dd-949e-4a5c0fbd2d49",
+"fffb4186-051a-5877-2699-c20716e26c0a",
+"a3d9ba9e-0b7d-4ad0-ba82-e7f8a453b7e5",
+"edfa9721-af9a-44ce-b5d5-d2e2e4d64cb6",
+"c339e8c1-2748-472d-bb39-a09b404b52b1",
+"ba26468a-a43e-4a27-88ee-7adb91277625",
+"1db96e5c-27fa-6c65-886c-d008321e420a",
+"a67919a2-38c7-4cbd-8ead-4429d1c671a9",
+"7ab0d6b4-574b-4b72-bad1-2a45dbf9e3e2",
+"d074c791-6639-78a4-ba68-8be1f39d4d22",
+"2a5a3252-a4ff-45c7-95c0-2aba23f0a32d",
+"d6d59f4e-3c7d-4e9e-8778-1538d101beb1",
+"9a8cfb6e-8cda-4706-867e-c89a5d76df67"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fd7d8cd9-b50d-49b5-a38b-3a889f31f00b"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0dd351b4-6f8d-4987-9101-d7fecc6afa02"
+}
+}
+},
+{
+"edid": 5974,
+"text": "tööpuudus",
+"code": "5974",
+"uuid": "8f863751-6bc9-4134-b171-b6eaaff3f523",
+"vol_cnt": 18,
+"scopeNotes": [],
+"usedFors": [
+"siirdetööpuudus",
+"tööpuuduse määr",
+"tööpuuduse tase"
+],
+"narrowTerms": [
+"c24831aa-d829-43bf-bb5a-dea0d42ad540",
+"546d5f2c-038a-4325-a10b-219f531aa305",
+"b15456fe-0067-48b8-9278-4dc74e61bb62",
+"17f367c0-e44a-4509-9a56-896e3c44f56d",
+"5914aa88-07d6-4efa-a96f-846c38b22e8e",
+"56011896-3829-42ae-8579-8e1dd4db17c6",
+"2018bda7-3b93-4c19-80ac-dd5783063619",
+"97392787-72f6-4c55-bdf2-2294d6d55319",
+"19d5a2eb-a6cd-4e90-9021-055712ed3e7c",
+"162165a8-9b98-4e18-aef6-45a50ae416a4",
+"dcc09d9b-799a-4695-bd7c-61b83c3e9a95"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4086,
+"text": "elatusmiinimum",
+"code": "4086",
+"uuid": "0fdff5ce-5d9d-9d41-3822-9992106073f5",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"garanteeritud miinimumsissetulek",
+"toimetulekupiir"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0fdff5ce-5d9d-9d41-3822-9992106073f5"
+}
+}
+},
+{
+"edid": 2555,
+"text": "mittetöötav elanikkond",
+"code": "2555",
+"uuid": "98a1303b-9498-462f-afb2-85663aed5ab1",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"mittetöötaja"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/98a1303b-9498-462f-afb2-85663aed5ab1"
+}
+}
+},
+{
+"edid": 5986,
+"text": "töötu",
+"code": "5986",
+"uuid": "e142db92-d663-96c8-d6c0-9ea61a4aaddf",
+"vol_cnt": 47,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e142db92-d663-96c8-d6c0-9ea61a4aaddf"
+}
+}
+},
+{
+"edid": 1802,
+"text": "tööturg",
+"code": "1802",
+"uuid": "fd7d8cd9-b50d-49b5-a38b-3a889f31f00b",
+"vol_cnt": 155,
+"scopeNotes": [],
+"usedFors": [
+"tööhõive olukord",
+"tööhõive tase"
+],
+"narrowTerms": [
+"64cd624f-9cbe-4737-a574-e2e16b401234",
+"4a35c06a-f004-4979-8795-6d2d6c7a03bb",
+"55458c69-2d3e-7245-4d76-636958103198",
+"54599a83-09da-46dd-949e-4a5c0fbd2d49",
+"fffb4186-051a-5877-2699-c20716e26c0a",
+"a3d9ba9e-0b7d-4ad0-ba82-e7f8a453b7e5",
+"edfa9721-af9a-44ce-b5d5-d2e2e4d64cb6",
+"c339e8c1-2748-472d-bb39-a09b404b52b1",
+"ba26468a-a43e-4a27-88ee-7adb91277625",
+"1db96e5c-27fa-6c65-886c-d008321e420a",
+"a67919a2-38c7-4cbd-8ead-4429d1c671a9",
+"7ab0d6b4-574b-4b72-bad1-2a45dbf9e3e2",
+"d074c791-6639-78a4-ba68-8be1f39d4d22",
+"2a5a3252-a4ff-45c7-95c0-2aba23f0a32d",
+"d6d59f4e-3c7d-4e9e-8778-1538d101beb1",
+"9a8cfb6e-8cda-4706-867e-c89a5d76df67"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fd7d8cd9-b50d-49b5-a38b-3a889f31f00b"
+}
+}
+},
+{
+"edid": 3332,
+"text": "töötuskindlustus",
+"code": "3332",
+"uuid": "d8306271-302d-c7f2-b784-a8bfbf9b1516",
+"vol_cnt": 45,
+"scopeNotes": [],
+"usedFors": [
+"töötu abiraha",
+"töötushüvitis"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d8306271-302d-c7f2-b784-a8bfbf9b1516"
+}
+}
+},
+{
+"edid": 3518,
+"text": "võitlus tööpuuduse vastu",
+"code": "3518",
+"uuid": "ab61184e-4002-4c27-b7a6-1b0f28c4d02e",
+"vol_cnt": 64,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"5bed10f8-8cdd-4d5f-ae2d-5699e2d7c306"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ab61184e-4002-4c27-b7a6-1b0f28c4d02e"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8f863751-6bc9-4134-b171-b6eaaff3f523"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/a7ad6f50-03ff-4235-ba56-5d2ea4ff65f1"
+}
+}
+}

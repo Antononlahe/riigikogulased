@@ -1,0 +1,334 @@
+{
+"uuid": "5a0b8f85-1c88-4a77-853e-f81264c36ec0",
+"etid": 580,
+"code": "4416",
+"text": "töökorraldus ja töötingimused",
+"descriptors": [
+{
+"edid": 2184,
+"text": "töökorraldus",
+"code": "2184",
+"uuid": "5b39b3fc-6c69-6982-8f1d-73aa1b4f2528",
+"vol_cnt": 24,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"87151445-366d-4227-886d-6704e7c5ebdf",
+"ceeb0f6c-7709-4e6e-992d-5acd26b2a8d0",
+"63a2d55a-2ffa-4a36-82ec-62f30a8d8e49",
+"10101790-495c-3d69-fd02-13c8963a081f",
+"3edeafeb-cd8e-4d7c-afdb-6a5b489dc536",
+"58049607-dcd3-4cd7-b157-63cd9e5c3586"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 6350,
+"text": "töö paindlikkus",
+"code": "6350",
+"uuid": "a3d9ba9e-0b7d-4ad0-ba82-e7f8a453b7e5",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kasvu ja töökohtade loomist takistavate tööeeskirjade leevendamine palkade, töö kestuse ja korralduse paindlikumaks muutmise ning tööjõu paindliku kasutamisega."
+],
+"usedFors": [
+"palga paindlikkus",
+"tööjõu paindlikkus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a3d9ba9e-0b7d-4ad0-ba82-e7f8a453b7e5"
+}
+}
+},
+{
+"edid": 6395,
+"text": "töösotsioloogia",
+"code": "6395",
+"uuid": "4f4e7991-fd9b-4342-b427-366f8009a986",
+"vol_cnt": 0,
+"scopeNotes": [
+"Sotsioloogia haru, mis uurib töökeskkonda, nt. töökohta kui sotsiaalset süsteemi, ametiseisundit, ettevõttesiseseid rahvussuhteid ja rühmasuhteid jne."
+],
+"usedFors": [
+"tööstussotsioloogia"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4f4e7991-fd9b-4342-b427-366f8009a986"
+}
+}
+},
+{
+"edid": 104,
+"text": "õppepuhkus",
+"code": "104",
+"uuid": "25dd0c6c-429a-4977-b90d-3fda9e35b6b8",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/25dd0c6c-429a-4977-b90d-3fda9e35b6b8"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5b39b3fc-6c69-6982-8f1d-73aa1b4f2528"
+}
+}
+},
+{
+"edid": 82,
+"text": "töötingimused",
+"code": "82",
+"uuid": "2eee4585-5647-69ef-096b-d8b8be017308",
+"vol_cnt": 102,
+"scopeNotes": [
+"Füüsilised, sotsiaalsed ja halduslikud tegurid, mis töötaja tööd mõjutavad."
+],
+"usedFors": [],
+"narrowTerms": [
+"9e4690c0-1384-4345-b00b-99226d637167",
+"3b05b92f-67b8-4489-aa1d-039dd28d972d",
+"9310c300-bcb7-4260-bfce-bee4c26b9e29",
+"0717cf23-321c-4355-9409-ecfb3121d5ac",
+"ac21fd67-34f5-8cce-ba99-c22aca9f1d37"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2824,
+"text": "mürakaitse",
+"code": "2824",
+"uuid": "5de26b8c-1b27-4628-999c-02f986c8dc06",
+"vol_cnt": 14,
+"scopeNotes": [],
+"usedFors": [
+"müratõrje",
+"müravastane võitlus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5de26b8c-1b27-4628-999c-02f986c8dc06"
+}
+}
+},
+{
+"edid": 7948,
+"text": "organisatsioonikultuur",
+"code": "7948",
+"uuid": "1ccbb2df-97ec-4302-b51e-9fe00fb8a8a9",
+"vol_cnt": 2,
+"scopeNotes": [
+"Organisatsiooni liikmete ühine uskumuste ja väärtuste süsteem, mis suunab nende käitumist."
+],
+"usedFors": [
+"ettevõttekultuur"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1ccbb2df-97ec-4302-b51e-9fe00fb8a8a9"
+}
+}
+},
+{
+"edid": 1443,
+"text": "tööinspektsioon",
+"code": "1443",
+"uuid": "70cf41d1-5aa6-4db5-910f-2629332cb567",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"tööstusinspektsioon"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/70cf41d1-5aa6-4db5-910f-2629332cb567"
+}
+}
+},
+{
+"edid": 6395,
+"text": "töösotsioloogia",
+"code": "6395",
+"uuid": "4f4e7991-fd9b-4342-b427-366f8009a986",
+"vol_cnt": 0,
+"scopeNotes": [
+"Sotsioloogia haru, mis uurib töökeskkonda, nt. töökohta kui sotsiaalset süsteemi, ametiseisundit, ettevõttesiseseid rahvussuhteid ja rühmasuhteid jne."
+],
+"usedFors": [
+"tööstussotsioloogia"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4f4e7991-fd9b-4342-b427-366f8009a986"
+}
+}
+},
+{
+"edid": 2082,
+"text": "tööstandard",
+"code": "2082",
+"uuid": "529eabea-29c4-465d-b70c-6ccdedfd6bd6",
+"vol_cnt": 5,
+"scopeNotes": [
+"Tööd ja töösuhteid käsitlevad standardid, mis on sätestatud kollektiivlepingutes või ette nähtud tööseadustes ja tööeeskirjades."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/529eabea-29c4-465d-b70c-6ccdedfd6bd6"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2eee4585-5647-69ef-096b-d8b8be017308"
+}
+}
+},
+{
+"edid": 4543,
+"text": "töö",
+"code": "4543",
+"uuid": "d944c126-ae77-4e73-8719-e00041e6d17f",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kasutada ainult väga üldiste dokumentide puhul, muul juhul valida konkreetsem deskriptor."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3708,
+"text": "Rahvusvaheline Tööbüroo",
+"code": "3708",
+"uuid": "edcf33f5-1afd-4aa0-9dab-74d7e106aaf9",
+"vol_cnt": 0,
+"scopeNotes": [
+"Rahvusvahelise Tööorganisatsiooni (ILO) sekretariaat."
+],
+"usedFors": [
+"BIT"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/edcf33f5-1afd-4aa0-9dab-74d7e106aaf9"
+}
+}
+},
+{
+"edid": 5526,
+"text": "Rahvusvaheline Töökonverents",
+"code": "5526",
+"uuid": "e7ec2fed-6d77-4288-bfe6-d5b8aa083750",
+"vol_cnt": 1,
+"scopeNotes": [
+"Rahvusdelegatsioonidest koosnev valitsust, töötajaid ja tööandjaid esindav ILO juhtorgan."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e7ec2fed-6d77-4288-bfe6-d5b8aa083750"
+}
+}
+},
+{
+"edid": 2130,
+"text": "Rahvusvaheline Tööorganisatsioon",
+"code": "2130",
+"uuid": "38095bf8-e02d-eede-894a-333ac17af1e5",
+"vol_cnt": 22,
+"scopeNotes": [],
+"usedFors": [
+"ILO"
+],
+"narrowTerms": [
+"edcf33f5-1afd-4aa0-9dab-74d7e106aaf9",
+"e7ec2fed-6d77-4288-bfe6-d5b8aa083750"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/38095bf8-e02d-eede-894a-333ac17af1e5"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d944c126-ae77-4e73-8719-e00041e6d17f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/5a0b8f85-1c88-4a77-853e-f81264c36ec0"
+}
+}
+}

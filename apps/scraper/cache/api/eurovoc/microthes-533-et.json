@@ -1,0 +1,424 @@
+{
+"uuid": "ef6c7b5e-0d1c-4c9e-af02-d27ba73bfa86",
+"etid": 533,
+"code": "1616",
+"text": "piirkonnad ja piirkonnapoliitika",
+"descriptors": [
+{
+"edid": 5848,
+"text": "Euroopa piirkond",
+"code": "5848",
+"uuid": "340ac2a2-e21c-478c-9c23-3fa939245e1a",
+"vol_cnt": 7,
+"scopeNotes": [
+"Kasutada riigipiiriga kindlaks määramata geograafilise piirkonna kohta."
+],
+"usedFors": [],
+"narrowTerms": [
+"8ebe0183-4f50-4e20-9f18-ec61c0ea2c9d",
+"8b590d36-c63c-4265-8e01-62438fc7e21d",
+"f6ac1063-6a93-4e51-876d-797b1e6225cb",
+"fcd8282d-9745-4340-9604-305905ab7777"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/340ac2a2-e21c-478c-9c23-3fa939245e1a"
+}
+}
+},
+{
+"edid": 2515,
+"text": "regionaalpoliitika",
+"code": "2515",
+"uuid": "a28077dc-0ef3-4cf5-989f-ad34364bf31b",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"49afc3a5-54d0-e905-cda1-b08be99314c6",
+"5ad56ae9-fc29-4a45-b4d5-1240ca8b3e5e",
+"f8f43b23-6d27-df53-0623-370ce0da058e",
+"bc1d52c3-2d4c-4dcf-8f89-44b4be22f0a2",
+"4b62abd6-aa14-4227-903c-d3e88c6cf6f4",
+"da4787a3-d0ba-49c9-a98a-bb9d952e25ab",
+"e595edb6-7c94-d1c1-0129-c27a724c3864"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 68,
+"text": "kohalik omavalitsus",
+"code": "68",
+"uuid": "21730951-e0b1-9fe5-e7e9-09c535c70a74",
+"vol_cnt": 86,
+"scopeNotes": [
+"Kasutada ainult kohalike ametivõimude kohta. Mitte segamini ajada deskriptoritega \"piirkondlikud ja kohalikud valitsusüksused\" ja \"kohalik valitsusüksus\"."
+],
+"usedFors": [
+"kohalikud ametivõimud",
+"linnavalitsus",
+"linnavolikogu",
+"maakonnavalitsus",
+"maavolikogu",
+"munitsipaalasutus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/21730951-e0b1-9fe5-e7e9-09c535c70a74"
+}
+}
+},
+{
+"edid": 660,
+"text": "piirkondlik majandus",
+"code": "660",
+"uuid": "1824ada6-c918-48c2-ae8d-3cd3a78fec1e",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1824ada6-c918-48c2-ae8d-3cd3a78fec1e"
+}
+}
+},
+{
+"edid": 2245,
+"text": "piirkondlik parlament",
+"code": "2245",
+"uuid": "6b671e6a-fbbb-4789-8da2-2fb8bc8567ac",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kasutada seoses vastava piirkonnaga."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6b671e6a-fbbb-4789-8da2-2fb8bc8567ac"
+}
+}
+},
+{
+"edid": 2445,
+"text": "piirkondlik põllumajanduspoliitika",
+"code": "2445",
+"uuid": "b317c22c-dc30-4a4c-bb0d-0bd4fcd124fa",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"6cbdcfeb-e978-4fec-8465-f9d2935b35ef",
+"042d7ab4-268a-4041-9caf-7805fd54ab5f",
+"909efdab-b04e-47c5-aa1c-a5a3ba59fba9",
+"46ef722a-9224-4b90-aea6-fc1ae98ab1cc"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b317c22c-dc30-4a4c-bb0d-0bd4fcd124fa"
+}
+}
+},
+{
+"edid": 3256,
+"text": "piirkondlik rahandus",
+"code": "3256",
+"uuid": "c6662eaf-43ba-4099-be04-46892b0625c1",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"aafa1afa-7b55-450e-b20b-f6b0a999c368"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c6662eaf-43ba-4099-be04-46892b0625c1"
+}
+}
+},
+{
+"edid": 5120,
+"text": "piirkondlik valitsus",
+"code": "5120",
+"uuid": "d3dc5e9b-3f40-d839-7c99-6d09a554f41f",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"piirkondlik omavalitsus",
+"piirkondlik organ"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d3dc5e9b-3f40-d839-7c99-6d09a554f41f"
+}
+}
+},
+{
+"edid": 976,
+"text": "regionaalabi",
+"code": "976",
+"uuid": "cc29f646-0a2e-1075-223b-512830033bc4",
+"vol_cnt": 36,
+"scopeNotes": [],
+"usedFors": [
+"abi vähemsoodsatele piirkondadele",
+"regionaalarengu abi"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cc29f646-0a2e-1075-223b-512830033bc4"
+}
+}
+},
+{
+"edid": 221,
+"text": "regionaalkoostöö",
+"code": "221",
+"uuid": "2abe7a97-a4b8-43cc-870c-62cd08041a61",
+"vol_cnt": 80,
+"scopeNotes": [],
+"usedFors": [
+"piirkondadevaheline koostöö",
+"piirkondlik koostöö"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2abe7a97-a4b8-43cc-870c-62cd08041a61"
+}
+}
+},
+{
+"edid": 2407,
+"text": "regionaalplaneerimine",
+"code": "2407",
+"uuid": "2c53b04a-0f55-a3b7-1592-726e636ecde6",
+"vol_cnt": 25,
+"scopeNotes": [],
+"usedFors": [
+"piirkondadevaheline planeerimine",
+"piirkondlik arengukava",
+"piirkondlik juhtimine",
+"piirkondlik programmitöö",
+"ruumiline planeerimine",
+"territoriaalne planeerimine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2c53b04a-0f55-a3b7-1592-726e636ecde6"
+}
+}
+},
+{
+"edid": 2518,
+"text": "struktuuripoliitika",
+"code": "2518",
+"uuid": "f99d5585-bf4e-4656-b21c-e11391ae32c0",
+"vol_cnt": 13,
+"scopeNotes": [],
+"usedFors": [
+"valdkondlik poliitika"
+],
+"narrowTerms": [
+"ae90bfa7-6cce-4fa6-a063-048183f8f9d3",
+"00d3b0a5-bb67-4b5c-9004-7e70d83982eb"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f99d5585-bf4e-4656-b21c-e11391ae32c0"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a28077dc-0ef3-4cf5-989f-ad34364bf31b"
+}
+}
+},
+{
+"edid": 3058,
+"text": "majanduspiirkond",
+"code": "3058",
+"uuid": "61b70d67-128e-48f9-a29c-e29bf6c27546",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"majandusregioon",
+"majandustsoon"
+],
+"narrowTerms": [
+"4cae058d-56ff-4eb8-a148-dcf4057db8f6",
+"05ad60bb-3c98-40d0-af0a-401bdc0803b3",
+"5e508774-3f54-4b11-8c98-11d914fd6864",
+"d9fde882-97c2-a0db-1906-1808075ae293",
+"eaa0ec6c-9086-3f35-1545-3a9bb5d45299",
+"e504da90-96fb-49ac-8c0c-c34bdbf7e12f",
+"46470428-3ca9-2cc8-0307-98c157f3c76c",
+"d9474092-4932-41e7-854d-160aff6a961d",
+"74dbcfe4-0722-4633-93f3-ae18a626d120",
+"b85a6e22-5a10-45c5-8a6d-aa4469f7cfc2",
+"2c2a8aa6-ffc0-42c0-b5e3-17d458cabe40"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5847,
+"text": "abikõlblik piirkond",
+"code": "5847",
+"uuid": "8a32c6b2-a191-4977-a5bd-ddd6916a51a3",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8a32c6b2-a191-4977-a5bd-ddd6916a51a3"
+}
+}
+},
+{
+"edid": 4809,
+"text": "linnapiirkond",
+"code": "4809",
+"uuid": "7eb09525-c860-4f6d-8afc-60d2828cc6ce",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [
+"asum",
+"linnaline asula",
+"linnastunud piirkond"
+],
+"narrowTerms": [
+"3af331c7-3eff-cc16-f921-140a2c624f1d",
+"d256a17e-c56d-4795-a549-2730cbc02034"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7eb09525-c860-4f6d-8afc-60d2828cc6ce"
+}
+}
+},
+{
+"edid": 2445,
+"text": "piirkondlik põllumajanduspoliitika",
+"code": "2445",
+"uuid": "b317c22c-dc30-4a4c-bb0d-0bd4fcd124fa",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"6cbdcfeb-e978-4fec-8465-f9d2935b35ef",
+"042d7ab4-268a-4041-9caf-7805fd54ab5f",
+"909efdab-b04e-47c5-aa1c-a5a3ba59fba9",
+"46ef722a-9224-4b90-aea6-fc1ae98ab1cc"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b317c22c-dc30-4a4c-bb0d-0bd4fcd124fa"
+}
+}
+},
+{
+"edid": 6389,
+"text": "regionaalgeograafia",
+"code": "6389",
+"uuid": "c93d5a8c-572f-4d5a-b60a-e69b3eff3b7f",
+"vol_cnt": 0,
+"scopeNotes": [
+"Piirkonna iseärasuste ja nende majanduslike, ökoloogiliste või sotsiaalsete mõjude uurimine."
+],
+"usedFors": [
+"reginaaluuring",
+"regionaalanalüüs"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c93d5a8c-572f-4d5a-b60a-e69b3eff3b7f"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/61b70d67-128e-48f9-a29c-e29bf6c27546"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/ef6c7b5e-0d1c-4c9e-af02-d27ba73bfa86"
+}
+}
+}

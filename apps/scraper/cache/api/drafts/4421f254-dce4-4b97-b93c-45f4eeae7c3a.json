@@ -1,0 +1,498 @@
+{
+"uuid": "4421f254-dce4-4b97-b93c-45f4eeae7c3a",
+"title": "Riigikogu liikme staatuse seaduse muutmise seadus",
+"mark": 791,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu liikme staatuse seaduse muutmise seadus 791 SE",
+"initialTitle": "Riigikogu liikme staatuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärgiks on muuta Riigikogu liikmetele ametipalga maksmist ja siduda see parlamenditöös osalemine töötasu ja hüvitiste maksmisega. Riigikogu liikmete töötasu ja hüvitised seatakse osaliselt sõltuvusse nende osalemisega täiskogu ning komisjonide istungitel.",
+"initiated": "2026-01-12",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0f9372ee-f108-47f9-9192-82ff84cf3efb",
+"name": "Timo Suslov",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0f9372ee-f108-47f9-9192-82ff84cf3efb?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "b483f709-afa6-4dd9-a8d5-46345c917272",
+"name": "Karin Tuulik",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/b483f709-afa6-4dd9-a8d5-46345c917272?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2246,
+"text": "parlamendiliige"
+},
+{
+"edid": 3273,
+"text": "töö tasustamine"
+},
+{
+"edid": 3557,
+"text": "kuluhüvitised"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "599c1238-9c4b-487d-881e-ae30a8cff49b",
+"title": "791 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b11718e6-d11b-4bf0-9d87-7f71181ffa09",
+"fileName": "791_RKLS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T13:09:46.798",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b11718e6-d11b-4bf0-9d87-7f71181ffa09/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b11718e6-d11b-4bf0-9d87-7f71181ffa09"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "1a41b39a-5ec3-4939-a847-29d62162a9e1",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "261287ef-12f7-4381-aed7-ccb80799cc1c",
+"fileName": "Riigikogu_liikme_Staatuse_seaduse_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T15:51:56.705",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/261287ef-12f7-4381-aed7-ccb80799cc1c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/261287ef-12f7-4381-aed7-ccb80799cc1c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "1a41b39a-5ec3-4939-a847-29d62162a9e1",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c7efe370-e983-4c98-9757-8bdc84806fb0",
+"fileName": "791E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T17:10:38.609",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c7efe370-e983-4c98-9757-8bdc84806fb0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c7efe370-e983-4c98-9757-8bdc84806fb0"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "599c1238-9c4b-487d-881e-ae30a8cff49b",
+"title": "791 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "441e521b-d0ed-41e3-8e1e-e3394e3d07bd",
+"fileName": "791_RKLS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T13:14:08.823",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/441e521b-d0ed-41e3-8e1e-e3394e3d07bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/441e521b-d0ed-41e3-8e1e-e3394e3d07bd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "1a41b39a-5ec3-4939-a847-29d62162a9e1",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e9ea23c8-dd6e-47ba-b118-ff8a34c1adb5",
+"fileName": "791SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T17:10:56.392",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e9ea23c8-dd6e-47ba-b118-ff8a34c1adb5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e9ea23c8-dd6e-47ba-b118-ff8a34c1adb5"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-01-12T15:49:26.246",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-01-13T13:51:00.269",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-02-23T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 23.02.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-03-11T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Timo Suslov"
+}
+],
+"protocolFiles": [
+{
+"uuid": "17214c2b-be0e-43cf-b8c0-9d58193934fb",
+"fileName": "Riigikogu_põhiseaduskomisjoni_istungi_protokoll_nr_150.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll 23.02.2026.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-03T11:16:07.481",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17214c2b-be0e-43cf-b8c0-9d58193934fb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17214c2b-be0e-43cf-b8c0-9d58193934fb"
+}
+}
+},
+{
+"uuid": "78733be8-003c-4c6b-ba4a-b6deb7842db9",
+"fileName": "PÕSK_protokoll_nr_150_23.02.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll 23.02.2026.pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-03T11:15:04.082",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78733be8-003c-4c6b-ba4a-b6deb7842db9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78733be8-003c-4c6b-ba4a-b6deb7842db9"
+}
+}
+}
+]
+},
+{
+"date": "2026-03-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.03.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "19daec7e-3c20-48dc-8c27-1345231a8593",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-03-11T19:30:42.7",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/19daec7e-3c20-48dc-8c27-1345231a8593"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "e415b26e-c3c7-4256-98b4-562a60c58b03",
+"reference": "1-1/15-791/2",
+"title": "Vabariigi Valitsuse arvamuse andmisest loobumine Riigikogu liikme staatuse seaduse muutmise seaduse eelnõu 791 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-02-16",
+"files": [
+{
+"uuid": "2cea9e61-d63a-4a4f-a977-30f6cfae0a38",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-26-0053_-_Riigikogu_liikme_staatuse_seaduse_muutmise_seaduse_eelnõu_(791_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-16T08:02:56.082",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2cea9e61-d63a-4a4f-a977-30f6cfae0a38/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2cea9e61-d63a-4a4f-a977-30f6cfae0a38"
+}
+}
+},
+{
+"uuid": "ee961440-d2a0-44fe-a7a2-2c7278015975",
+"fileName": "26-00092-3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Sissetulev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-16T08:02:56.158",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee961440-d2a0-44fe-a7a2-2c7278015975/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee961440-d2a0-44fe-a7a2-2c7278015975"
+}
+}
+},
+{
+"uuid": "9bd48947-572e-4921-aa0a-018c7e90426d",
+"fileName": "791_SE_RK_26-00092-3.asice",
+"fileExtension": "asice",
+"fileTitle": "Sissetulev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-16T08:02:56.091",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9bd48947-572e-4921-aa0a-018c7e90426d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9bd48947-572e-4921-aa0a-018c7e90426d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e415b26e-c3c7-4256-98b4-562a60c58b03"
+}
+}
+},
+{
+"uuid": "82422eb3-f412-4c0e-ad55-bfd835f4921e",
+"reference": "1-1/15-791/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 791 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-01-12",
+"files": [
+{
+"uuid": "70a5c9b7-f245-44af-a124-c488dd10d561",
+"fileName": "1-1-15-791-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_791_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-13T13:45:00.266",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/70a5c9b7-f245-44af-a124-c488dd10d561/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/70a5c9b7-f245-44af-a124-c488dd10d561"
+}
+}
+},
+{
+"uuid": "e9a31045-3d34-4cc3-9dce-25a39010cdef",
+"fileName": "RKLS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T15:57:07.729",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e9a31045-3d34-4cc3-9dce-25a39010cdef/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e9a31045-3d34-4cc3-9dce-25a39010cdef"
+}
+}
+},
+{
+"uuid": "62bacd24-a28c-4cc7-85ca-e1a454b83e8e",
+"fileName": "791E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T17:11:22.892",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62bacd24-a28c-4cc7-85ca-e1a454b83e8e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62bacd24-a28c-4cc7-85ca-e1a454b83e8e"
+}
+}
+},
+{
+"uuid": "c1a8fe7e-07ee-41c8-a030-4e91a90b647e",
+"fileName": "791SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T17:11:34.558",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c1a8fe7e-07ee-41c8-a030-4e91a90b647e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c1a8fe7e-07ee-41c8-a030-4e91a90b647e"
+}
+}
+},
+{
+"uuid": "c6043381-7648-494f-be54-711d26117a04",
+"fileName": "RKLS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T15:57:17.193",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c6043381-7648-494f-be54-711d26117a04/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c6043381-7648-494f-be54-711d26117a04"
+}
+}
+},
+{
+"uuid": "e74c127c-2118-4697-8d69-854e2c7b93e0",
+"fileName": "260113_RKLS_KESKf.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T16:31:53.92",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e74c127c-2118-4697-8d69-854e2c7b93e0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e74c127c-2118-4697-8d69-854e2c7b93e0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/82422eb3-f412-4c0e-ad55-bfd835f4921e"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/4421f254-dce4-4b97-b93c-45f4eeae7c3a"
+}
+}
+}

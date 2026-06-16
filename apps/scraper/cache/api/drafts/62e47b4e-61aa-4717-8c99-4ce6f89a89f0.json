@@ -1,0 +1,312 @@
+{
+"uuid": "62e47b4e-61aa-4717-8c99-4ce6f89a89f0",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele esitada negatiivne lisaeelarve seaduse eelnõu valitsemiskulude vähendamiseks 2026. aastal“",
+"mark": 884,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele esitada negatiivne lisaeelarve seaduse eelnõu valitsemiskulude vähendamiseks 2026. aastal“ 884 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele esitada negatiivne lisaeelarve seaduse eelnõu valitsemiskulude vähendamiseks 2026. aastal“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek esitada negatiivne lisaeelarve mahus vähemalt 300 miljonit eurot, et vähendada riigi valitsemiskulusid 2026. aastal.",
+"initiated": "2026-04-13",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-04-28T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5061,
+"text": "lisaeelarve"
+},
+{
+"edid": 403,
+"text": "avaliku sektori kulud"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "54611686-0cb9-475d-8a9e-2105165da539",
+"title": "884 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4bde232c-3be3-47ba-9cbf-dc3ebdeaed3b",
+"fileName": "884_RK_o_Ettepank_VVle_lisaeelarve_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T13:22:18.542",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4bde232c-3be3-47ba-9cbf-dc3ebdeaed3b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4bde232c-3be3-47ba-9cbf-dc3ebdeaed3b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b80d36af-9f08-4871-a260-c09401ead336",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0479d9f3-227b-4913-ad59-46da9ce6c66c",
+"fileName": "Negatiivse_lisaeelarve_ettepaneku_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:21:01.87",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0479d9f3-227b-4913-ad59-46da9ce6c66c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0479d9f3-227b-4913-ad59-46da9ce6c66c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b80d36af-9f08-4871-a260-c09401ead336",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6bfbbf20-ee83-41e7-8f58-b68b2fa0803a",
+"fileName": "884_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:24:18.517",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6bfbbf20-ee83-41e7-8f58-b68b2fa0803a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6bfbbf20-ee83-41e7-8f58-b68b2fa0803a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "54611686-0cb9-475d-8a9e-2105165da539",
+"title": "884 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "04ad2112-2abc-47aa-a142-fdd9b42f2e7a",
+"fileName": "884_RK_o_Ettepank_VVle_lisaeelarve_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T13:22:40.566",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/04ad2112-2abc-47aa-a142-fdd9b42f2e7a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/04ad2112-2abc-47aa-a142-fdd9b42f2e7a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b80d36af-9f08-4871-a260-c09401ead336",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "da82657c-8f59-4fd7-ace2-b82875ef5c1b",
+"fileName": "884_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:24:29.081",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da82657c-8f59-4fd7-ace2-b82875ef5c1b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da82657c-8f59-4fd7-ace2-b82875ef5c1b"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-04-13T16:19:55.401",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-04-14T13:53:00.168",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-18T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.05.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-06-03T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+}
+],
+"protocolFiles": []
+},
+{
+"date": "2026-06-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.06.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "ef289497-a154-4e1b-87ca-0097a95dd1cb",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-06-03T18:25:39.807",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ef289497-a154-4e1b-87ca-0097a95dd1cb"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6e357bb7-5f84-4a20-9361-3e5e1d9d6b99",
+"reference": "1-1/15-874/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuste eelnõude  874 OE, 875 OE ja 884 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-12",
+"files": [
+{
+"uuid": "b9c1c9fd-cb05-4f9b-81b8-a765f410f88b",
+"fileName": "155.tel_Arvamus_874_875_OE_ja_884_OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-12T09:56:15.834",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9c1c9fd-cb05-4f9b-81b8-a765f410f88b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9c1c9fd-cb05-4f9b-81b8-a765f410f88b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6e357bb7-5f84-4a20-9361-3e5e1d9d6b99"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/62e47b4e-61aa-4717-8c99-4ce6f89a89f0"
+}
+}
+}

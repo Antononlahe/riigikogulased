@@ -1,0 +1,388 @@
+{
+"uuid": "ff1a7e74-e54c-43ef-9969-5e23bdc8e8c3",
+"etid": 617,
+"code": "6821",
+"text": "masinaehitus",
+"descriptors": [
+{
+"edid": 1718,
+"text": "masinad",
+"code": "1718",
+"uuid": "116f3e93-6127-5a75-f23b-8dcacc98da98",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"aca34b12-0dc0-420a-90db-3e8b3c5d2846",
+"bfc261e8-a584-4b11-b820-6662551ce8ba",
+"dc5c8979-8f2a-4a11-887c-59eddbe57503",
+"15acde0a-aeaa-41d8-a7c3-5eca1a2a431a",
+"cd8c2b96-c976-4fcd-8257-a85fc9b5a168",
+"d0601ca2-bd48-41bb-8f6b-10a66f58ac28",
+"75b9b221-5577-4c2d-89e9-d034005e884b"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3864,
+"text": "elektrimasin",
+"code": "3864",
+"uuid": "04aadaa7-5066-4b93-a7a6-13b5c192e22f",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"elektrigeneraator",
+"elektrimootor",
+"transformaator",
+"turbogeneraator",
+"vahelduvvoolugeneraator"
+],
+"narrowTerms": [
+"3b54177b-154a-42be-af44-a693cb54fd55"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/04aadaa7-5066-4b93-a7a6-13b5c192e22f"
+}
+}
+},
+{
+"edid": 3831,
+"text": "malmi- ja terase tööpink",
+"code": "3831",
+"uuid": "3e6f6ddc-d829-4cf2-87ee-1818cd04c223",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"kõrgahi",
+"ribametalli valtspink",
+"sordimetallivaltspink",
+"traadivaltspink",
+"valtspink"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3e6f6ddc-d829-4cf2-87ee-1818cd04c223"
+}
+}
+},
+{
+"edid": 1719,
+"text": "põllutöömasinad",
+"code": "1719",
+"uuid": "7e5666c4-9575-4987-8b1a-e8c4c4ddd311",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"0921a996-ec75-4e67-9727-fa277e08a68a",
+"db559206-febe-4bcb-9bf6-117b691964aa"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7e5666c4-9575-4987-8b1a-e8c4c4ddd311"
+}
+}
+},
+{
+"edid": 1726,
+"text": "tekstiilimasin",
+"code": "1726",
+"uuid": "78ebce46-b305-4ab0-9282-5c1cd3aae2e9",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"kangasteljed",
+"õmblusmasin"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/78ebce46-b305-4ab0-9282-5c1cd3aae2e9"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/116f3e93-6127-5a75-f23b-8dcacc98da98"
+}
+}
+},
+{
+"edid": 5614,
+"text": "surveseadmed",
+"code": "5614",
+"uuid": "2ebce949-d6d5-d455-0bb0-a14ee77be49f",
+"vol_cnt": 4,
+"scopeNotes": [
+"Kasutada seadmete puhul, millele avaldatakse atmosfäärirõhust suuremat või väiksemat rõhku."
+],
+"usedFors": [
+"kõrgsurveseade",
+"surveanum",
+"ülerõhuga seadmed"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2ebce949-d6d5-d455-0bb0-a14ee77be49f"
+}
+}
+},
+{
+"edid": 5615,
+"text": "soojusseadmed",
+"code": "5615",
+"uuid": "84706b66-fca2-4d3b-934e-8cf50acff1ff",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"daff8bce-e979-4a3c-b153-9b407baafbba",
+"1821ad2d-5431-bc00-b3d0-0bf6e70166a4",
+"12b467ac-59ec-4d07-b4d3-10afc6bae34e",
+"d5cd4fe5-1d61-475b-af55-a14bca618d63",
+"31e35a14-ebd5-4bd7-bcd6-30e9b3259bc0"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 757,
+"text": "soojusenergia",
+"code": "757",
+"uuid": "5b2a9be9-4b74-4365-9f3c-bd20888acb90",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5b2a9be9-4b74-4365-9f3c-bd20888acb90"
+}
+}
+},
+{
+"edid": 850,
+"text": "tööstusseadmed",
+"code": "850",
+"uuid": "63947e34-166e-47d9-aeaf-b5ee9b1c3714",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/63947e34-166e-47d9-aeaf-b5ee9b1c3714"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/84706b66-fca2-4d3b-934e-8cf50acff1ff"
+}
+}
+},
+{
+"edid": 1410,
+"text": "masinaehitus",
+"code": "1410",
+"uuid": "df145af0-b3a1-4f21-ab80-a0495a1ab22c",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"masinate konstrueerimine",
+"masinatööstus"
+],
+"narrowTerms": [
+"2726da6f-e906-4df1-967e-1eb53cc0e88b",
+"406d72d8-b2c7-4314-b128-6d99c4aa704f",
+"62ac6810-bced-4a38-bfd8-7c42ddc1154a",
+"e63e2388-f044-404f-b643-daf48e46969c",
+"b26676f9-3db8-4118-af7e-e80a4a406f6e",
+"25e15366-9197-473a-8390-43d3e701daaf",
+"2f2f4932-1f71-46d0-9e9d-4eb1ac2d2a20",
+"9091cc4f-6d87-43ad-afad-df79ec0b75db",
+"0f16d31d-3df5-4f38-9863-67cbaba8fea6"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1848,
+"text": "mehhaniseerimine",
+"code": "1848",
+"uuid": "8d64f6d7-a2b2-4de0-ae1f-fcc1adccdab1",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8d64f6d7-a2b2-4de0-ae1f-fcc1adccdab1"
+}
+}
+},
+{
+"edid": 2922,
+"text": "tööstusuuring",
+"code": "2922",
+"uuid": "772d9738-a767-431d-b32c-2f69db94763f",
+"vol_cnt": 1,
+"scopeNotes": [
+"Uuring, mille eesmärgiks on tootmismeetodie parandamine või uute toodete väljaarendamine."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/772d9738-a767-431d-b32c-2f69db94763f"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/df145af0-b3a1-4f21-ab80-a0495a1ab22c"
+}
+}
+},
+{
+"edid": 1834,
+"text": "mehaanilised seadmed",
+"code": "1834",
+"uuid": "235cda6c-ee1f-4587-836e-f58c2f5f810f",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"3ee180f4-32a6-4aa6-9431-5a1470ed7eb4",
+"e3be19f2-fd27-4f72-9155-5f9e501105f0",
+"312b5f64-accb-4d39-8c30-28b271ba38f1"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1848,
+"text": "mehhaniseerimine",
+"code": "1848",
+"uuid": "8d64f6d7-a2b2-4de0-ae1f-fcc1adccdab1",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8d64f6d7-a2b2-4de0-ae1f-fcc1adccdab1"
+}
+}
+},
+{
+"edid": 850,
+"text": "tööstusseadmed",
+"code": "850",
+"uuid": "63947e34-166e-47d9-aeaf-b5ee9b1c3714",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/63947e34-166e-47d9-aeaf-b5ee9b1c3714"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/235cda6c-ee1f-4587-836e-f58c2f5f810f"
+}
+}
+},
+{
+"edid": 1845,
+"text": "peenmehaanika",
+"code": "1845",
+"uuid": "404a1cf6-f4aa-4412-8f3e-f725c46ebe45",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"täppisinstrumentide tootmine"
+],
+"narrowTerms": [
+"2faad19b-1824-4951-ba2e-d60bc8b8d482",
+"04274581-30f0-4dac-b253-b2329230c700",
+"d78a988e-a54a-41e7-8d91-7aecce0df61e",
+"a52fa499-6dba-4cc3-8bdf-6d313c8391c4",
+"fc1ce4a3-48b5-45a1-9bd8-33579a0b775d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/404a1cf6-f4aa-4412-8f3e-f725c46ebe45"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/ff1a7e74-e54c-43ef-9969-5e23bdc8e8c3"
+}
+}
+}

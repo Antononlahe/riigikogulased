@@ -1,0 +1,537 @@
+{
+"uuid": "c426d071-d4ee-489f-b4c5-71d7e5006f16",
+"title": "Keeleseaduse ja ühistranspordiseaduse muutmise seadus",
+"mark": 723,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Keeleseaduse ja ühistranspordiseaduse muutmise seadus 723 SE",
+"initialTitle": "Keeleseaduse ja ühistranspordiseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse muudatusettepanekud keelevaldkonna õigusraamistiku ajakohastamiseks, et tugevdada eesti keele staatust riigikeelena ning eesti keele positsiooni ja nähtavust teeninduses. Muudatuste eesmärk on tagada, et eesti keel oleks ühiskonnas peamine teabe- ja suhtluskeel.\n\nOlulisemad muudatused puudutavad platvormitööd tegevatele isikutele keelenõuete kehtestamist. Ühistranspordiseaduse muudatuse sisuks on taksojuhile nõutaval tasemel riigikeele oskuse nõude sätestamine teenindajakaardi saamise eeldusena.",
+"initiated": "2025-09-17",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "71bdc9b2-841d-408f-8ace-909e8c11d7d5",
+"name": "Signe Kivi",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/71bdc9b2-841d-408f-8ace-909e8c11d7d5?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5313,
+"text": "ametlik keel"
+},
+{
+"edid": 878,
+"text": "avalik asutus"
+},
+{
+"edid": 5927,
+"text": "takso"
+},
+{
+"edid": 5945,
+"text": "haldusjärelevalve"
+},
+{
+"edid": 7941,
+"text": "keelepoliitika"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7b16d56e-98d9-4654-beea-92e3c1afb4e3",
+"title": "723 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "571adf3f-6bdc-4786-8971-770b1916bb5c",
+"fileName": "723_KeeleS_ÜTS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T12:51:13.786",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/571adf3f-6bdc-4786-8971-770b1916bb5c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/571adf3f-6bdc-4786-8971-770b1916bb5c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ca849e7e-73ed-4ed8-87ea-49ff9717ca29",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d7a46cc8-525b-4175-b8b3-e75e75d53984",
+"fileName": "Keeleseadus_EELNÕU.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T15:16:04.481",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7a46cc8-525b-4175-b8b3-e75e75d53984/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7a46cc8-525b-4175-b8b3-e75e75d53984"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ca849e7e-73ed-4ed8-87ea-49ff9717ca29",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "757f6391-3207-4f7c-8ecf-21de40c40d89",
+"fileName": "723E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T15:22:46.977",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/757f6391-3207-4f7c-8ecf-21de40c40d89/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/757f6391-3207-4f7c-8ecf-21de40c40d89"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7b16d56e-98d9-4654-beea-92e3c1afb4e3",
+"title": "723 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ad8ea226-b3cd-4b56-867e-c178906e890a",
+"fileName": "723_KeeleS-ÜTS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T12:51:42.047",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ad8ea226-b3cd-4b56-867e-c178906e890a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ad8ea226-b3cd-4b56-867e-c178906e890a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ca849e7e-73ed-4ed8-87ea-49ff9717ca29",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b716d86f-b7c8-4afb-83c0-8efebf460e9b",
+"fileName": "Keeleseaduse_ja_ühistranspordiseaduse_muutmise_seaduse_eelnõu_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T15:16:04.49",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b716d86f-b7c8-4afb-83c0-8efebf460e9b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b716d86f-b7c8-4afb-83c0-8efebf460e9b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ca849e7e-73ed-4ed8-87ea-49ff9717ca29",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9b51dc57-7db5-4982-93fa-7b6a397680e6",
+"fileName": "723SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T15:22:58.038",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9b51dc57-7db5-4982-93fa-7b6a397680e6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9b51dc57-7db5-4982-93fa-7b6a397680e6"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-09-17T15:15:35.842",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-09-18T17:04:00.463",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-03T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 3.11.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-11-18T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Signe Kivi"
+}
+],
+"protocolFiles": [
+{
+"uuid": "f23ce64c-fccf-4085-9c23-1eef77942c26",
+"fileName": "KULK_protokoll_120_(03.11.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-21T17:01:55.323",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f23ce64c-fccf-4085-9c23-1eef77942c26/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f23ce64c-fccf-4085-9c23-1eef77942c26"
+}
+}
+},
+{
+"uuid": "9ef9340e-f785-4b8d-a68f-7df5a33c4302",
+"fileName": "KULK_protokoll_120_(3.11.2025).asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-21T17:02:56.239",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9ef9340e-f785-4b8d-a68f-7df5a33c4302/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9ef9340e-f785-4b8d-a68f-7df5a33c4302"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-18T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 18.11.2025 10:00",
+"decisionCode": "ARUTELU_JAI_POOLELI",
+"votings": []
+},
+{
+"date": "2025-11-19T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 19.11.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "297dd956-65eb-4e2c-99a7-5c7dbb94f3f4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-11-19T14:57:05.507",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/297dd956-65eb-4e2c-99a7-5c7dbb94f3f4"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "ea513d3e-9366-4043-8895-aac585f630e7",
+"reference": "1-1/15-723/2",
+"title": "Vabariigi Valitsuse arvamus keeleseaduse ja ühistranspordiseaduse muutmise seaduse eelnõu 723 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-10-27",
+"files": [
+{
+"uuid": "827b54cb-0809-49b7-9a79-7ffb4e766286",
+"fileName": "Vabariigi_Valitsuse_arvamus_(723_SE)_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T14:21:40.126",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/827b54cb-0809-49b7-9a79-7ffb4e766286/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/827b54cb-0809-49b7-9a79-7ffb4e766286"
+}
+}
+},
+{
+"uuid": "1058107d-2466-4681-9c34-e6180e7818f2",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-1025_-_Keeleseaduse_ja_ühistranspordiseaduse_muutmise_seaduse_eelnõu_(723_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T14:21:40.211",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1058107d-2466-4681-9c34-e6180e7818f2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1058107d-2466-4681-9c34-e6180e7818f2"
+}
+}
+},
+{
+"uuid": "9359e4a5-6520-4ee7-851a-0e42284c54d8",
+"fileName": "Vabariigi_Valitsuse_arvamus_keeleseaduse_ja_ühistranspordiseaduse__muutmise_seaduse_eelnõu_(723_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T14:21:40.198",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9359e4a5-6520-4ee7-851a-0e42284c54d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9359e4a5-6520-4ee7-851a-0e42284c54d8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ea513d3e-9366-4043-8895-aac585f630e7"
+}
+}
+},
+{
+"uuid": "da037e3f-5ed4-4e26-b715-3f33fb167486",
+"reference": "1-1/15-723/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 723 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-17",
+"files": [
+{
+"uuid": "2a3a9aa2-6b19-4ea6-848a-9163ebb593d5",
+"fileName": "KeeleS_ÜTS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T15:25:58.46",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2a3a9aa2-6b19-4ea6-848a-9163ebb593d5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2a3a9aa2-6b19-4ea6-848a-9163ebb593d5"
+}
+}
+},
+{
+"uuid": "20ecb599-32eb-423c-a15c-211621d9576c",
+"fileName": "KeeleS-ÜTS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T15:26:22.794",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/20ecb599-32eb-423c-a15c-211621d9576c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/20ecb599-32eb-423c-a15c-211621d9576c"
+}
+}
+},
+{
+"uuid": "6f0486cb-b70c-4131-b944-ead7cc051f93",
+"fileName": "250918_KeeleS_ÜTS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T16:47:43.384",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6f0486cb-b70c-4131-b944-ead7cc051f93/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6f0486cb-b70c-4131-b944-ead7cc051f93"
+}
+}
+},
+{
+"uuid": "e450474a-534b-4f16-bdc4-4de9af3c73ef",
+"fileName": "723E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T15:26:35.515",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e450474a-534b-4f16-bdc4-4de9af3c73ef/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e450474a-534b-4f16-bdc4-4de9af3c73ef"
+}
+}
+},
+{
+"uuid": "ddb5add9-6405-4471-989c-35d3eb75bb57",
+"fileName": "723SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T15:26:52.356",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ddb5add9-6405-4471-989c-35d3eb75bb57/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ddb5add9-6405-4471-989c-35d3eb75bb57"
+}
+}
+},
+{
+"uuid": "864ac14e-2d4a-4ac3-aa5d-927800641289",
+"fileName": "1-1-15-723-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_723_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-18T15:56:30.418",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/864ac14e-2d4a-4ac3-aa5d-927800641289/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/864ac14e-2d4a-4ac3-aa5d-927800641289"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/da037e3f-5ed4-4e26-b715-3f33fb167486"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/c426d071-d4ee-489f-b4c5-71d7e5006f16"
+}
+}
+}

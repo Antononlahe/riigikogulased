@@ -1,0 +1,196 @@
+{
+"uuid": "232f7bbd-a64b-4ebc-9af3-6d9691533e68",
+"title": "Riigikogu otsus „Nõusoleku andmine Riigikogu liikmelt Kalle Grünthalilt saadikupuutumatuse äravõtmiseks ja tema osas kohtumenetluse jätkamiseks\"",
+"mark": 769,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Nõusoleku andmine Riigikogu liikmelt Kalle Grünthalilt saadikupuutumatuse äravõtmiseks ja tema osas kohtumenetluse jätkamiseks\" 769 OE",
+"initialTitle": "Riigikogu otsus „Nõusoleku andmine Riigikogu liikmelt Kalle Grünthalilt saadikupuutumatuse äravõtmiseks ja tema osas kohtumenetluse jätkamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": null,
+"joined": null,
+"accepted": "2025-12-02",
+"amendmentsDeadline": null,
+"responsibleMember": null,
+"responsibleOfficer": null,
+"leadingCommittee": null,
+"initiators": [
+{
+"uuid": "5e8c1dce-127a-401a-b9d8-5b5daa54f676",
+"name": "Ülle Madise",
+"type": "user",
+"active": true,
+"user": null,
+"role": {
+"uuid": "4f7f2f21-7581-4f40-a480-d4b637afb9e0",
+"name": "õiguskantsler Ülle Madise",
+"type": "external-user",
+"active": true,
+"user": null,
+"role": null
+},
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/5e8c1dce-127a-401a-b9d8-5b5daa54f676?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1303,
+"text": "parlamentaarne puutumatus"
+}
+],
+"texts": [
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "bc7b7fd8-362f-48bd-9225-88c798f24d08",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7fdb01c7-a5e9-4dec-82da-6641611dafe7",
+"fileName": "769XV_RK_o_03122025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-03T10:09:52.571",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7fdb01c7-a5e9-4dec-82da-6641611dafe7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7fdb01c7-a5e9-4dec-82da-6641611dafe7"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "bc7b7fd8-362f-48bd-9225-88c798f24d08",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b9a9de37-40ea-4af3-9177-6ac766887049",
+"fileName": "769XV_RK_o_03122025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-03T10:09:39.445",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9a9de37-40ea-4af3-9177-6ac766887049/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9a9de37-40ea-4af3-9177-6ac766887049"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "3c8bfe39-eded-4d8f-adef-90be75b58793",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "24cf8b5a-57c8-4037-9acb-82d507ebce63",
+"fileName": "769XV_RK_o_122025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-02T12:05:45.285",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24cf8b5a-57c8-4037-9acb-82d507ebce63/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24cf8b5a-57c8-4037-9acb-82d507ebce63"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "3c8bfe39-eded-4d8f-adef-90be75b58793",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1e6ddbcc-3dfc-4270-b4a7-3117f1ee2454",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-02T12:09:25.937",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e6ddbcc-3dfc-4270-b4a7-3117f1ee2454/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e6ddbcc-3dfc-4270-b4a7-3117f1ee2454"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-12-02T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 2.12.2025 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "f56573ec-da42-49bb-92ff-f694eb382d0a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Ettepaneku hääletamine",
+"startDateTime": "2025-12-02T11:20:32.837",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f56573ec-da42-49bb-92ff-f694eb382d0a"
+}
+}
+}
+]
+},
+{
+"date": "2025-12-03T10:07:16.86",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2025-12-04T15:34:32.501",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/232f7bbd-a64b-4ebc-9af3-6d9691533e68"
+}
+}
+}

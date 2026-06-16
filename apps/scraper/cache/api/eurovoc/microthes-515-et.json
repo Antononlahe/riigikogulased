@@ -1,0 +1,416 @@
+{
+"uuid": "2357914d-46ac-4bf9-918f-6b0a9e9cbb08",
+"etid": 515,
+"code": "0436",
+"text": "täidesaatev võim ja avalik teenistus",
+"descriptors": [
+{
+"edid": 77,
+"text": "avalik haldus",
+"code": "77",
+"uuid": "6868a2a8-99b8-4d05-855e-e7fb0d091399",
+"vol_cnt": 37,
+"scopeNotes": [],
+"usedFors": [
+"riigihaldus",
+"riiklikud haldusorganid"
+],
+"narrowTerms": [
+"308ccc65-09fd-3017-808f-004e218aaead",
+"088ee925-e771-454b-9db4-51e7cec194e1",
+"59e0a4d2-c819-45b6-880c-328988ca3b7b",
+"c7bc7154-0b5a-e13a-9bde-d84d690bbcaf",
+"e27efc21-a9d9-2d56-0d01-94be85b52719",
+"ebe2ee12-9b97-479d-b625-06ce1dc4e474",
+"d7d242e7-0db7-47b5-707a-82c74593adbc",
+"d15dcf81-2fb8-4988-81d1-7145765283ce",
+"dc2a77cb-ada4-4ba9-9b33-5ea838a45cb8",
+"21730951-e0b1-9fe5-e7e9-09c535c70a74",
+"6ebbe6ec-215e-4384-b4d7-4e14858384bb",
+"d3dc5e9b-3f40-d839-7c99-6d09a554f41f"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2588,
+"text": "ametivõimud",
+"code": "2588",
+"uuid": "1c799118-d97d-447c-ac1f-4002b6692f2a",
+"vol_cnt": 9,
+"scopeNotes": [
+"Kasutada riigiasutuste või -organite ning kohalike ja piirkondlike valitsusüksuste kohta tervikuna."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1c799118-d97d-447c-ac1f-4002b6692f2a"
+}
+}
+},
+{
+"edid": 4834,
+"text": "avalik hoone",
+"code": "4834",
+"uuid": "fc43f2a0-bd0a-1418-e6a1-57f47d9513dc",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"haldushoone",
+"ühiskondlik hoone",
+"üldkasutatav hoone"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fc43f2a0-bd0a-1418-e6a1-57f47d9513dc"
+}
+}
+},
+{
+"edid": 2583,
+"text": "diskretsiooniõigus",
+"code": "2583",
+"uuid": "0b3f59d6-8b4f-45e1-a958-820e856a0aed",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"kaalutlus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0b3f59d6-8b4f-45e1-a958-820e856a0aed"
+}
+}
+},
+{
+"edid": 3923,
+"text": "haldusteadus",
+"code": "3923",
+"uuid": "efae30b9-33cc-46ed-aef7-831f906eae34",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/efae30b9-33cc-46ed-aef7-831f906eae34"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6868a2a8-99b8-4d05-855e-e7fb0d091399"
+}
+}
+},
+{
+"edid": 2166,
+"text": "haldusorganisatsioon",
+"code": "2166",
+"uuid": "87007f87-c321-4bb9-b764-5ea2b7d8e3e0",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"b7fd5ecc-4cae-456c-a62e-62dc9cf2fac6",
+"3af641e4-8d5f-4250-beaa-d3618491474d",
+"08062779-ac3e-448f-93e1-c96ff9b7ae74",
+"20c38090-e664-4309-94ef-83b063b477d5",
+"b716d21d-4c35-6ca7-2283-1c77eccbf421",
+"f9bcfdc0-07b3-d81d-c5b3-f20533c93d06",
+"28c93ca5-6763-41be-8f21-2c7de30fd358",
+"abb29f4d-4686-4d24-b373-3c134c6ed170",
+"cc2a74c6-b0fc-48f2-a770-051651b26d01"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3923,
+"text": "haldusteadus",
+"code": "3923",
+"uuid": "efae30b9-33cc-46ed-aef7-831f906eae34",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/efae30b9-33cc-46ed-aef7-831f906eae34"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/87007f87-c321-4bb9-b764-5ea2b7d8e3e0"
+}
+}
+},
+{
+"edid": 517,
+"text": "haldusõigus",
+"code": "517",
+"uuid": "835c1957-1cfe-4f47-b9db-c5de57a39b52",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"e4358348-3e66-dbbb-f425-df01d8f71111",
+"73292d5e-879f-8fd1-236f-1e949cc30820",
+"4d7023e3-048f-94e2-b5d1-f7b0f894febc",
+"a6cf3b14-6e50-4915-828c-202aeb368762",
+"5ed17efb-882e-150e-7b9b-484b50c8b979",
+"50bd050c-8ffa-4685-ab7d-98d8c3e536d9",
+"f842364c-c301-4278-bf6f-0314632aa9b0",
+"fc972fe7-e8eb-4022-db15-c84a1e7b21c8",
+"823953c5-abb5-7fea-e43f-3bff7e28fbc8",
+"bbb4dab5-d46e-f14b-71ef-13723ca4fa5c"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 578,
+"text": "avalik õigus",
+"code": "578",
+"uuid": "bbd5efab-2535-40f9-96ac-ebe15fb3b10c",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bbd5efab-2535-40f9-96ac-ebe15fb3b10c"
+}
+}
+},
+{
+"edid": 1539,
+"text": "halduskohus",
+"code": "1539",
+"uuid": "64eace93-5e0a-9198-fb06-45a82894c3d6",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [
+"kontrollikoda"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/64eace93-5e0a-9198-fb06-45a82894c3d6"
+}
+}
+},
+{
+"edid": 6610,
+"text": "haldusseadustik",
+"code": "6610",
+"uuid": "096754fa-7222-4848-8992-6d41f1cf7eec",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/096754fa-7222-4848-8992-6d41f1cf7eec"
+}
+}
+},
+{
+"edid": 3923,
+"text": "haldusteadus",
+"code": "3923",
+"uuid": "efae30b9-33cc-46ed-aef7-831f906eae34",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/efae30b9-33cc-46ed-aef7-831f906eae34"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/835c1957-1cfe-4f47-b9db-c5de57a39b52"
+}
+}
+},
+{
+"edid": 6034,
+"text": "piirkondlikud ja kohalikud valitsusüksused",
+"code": "6034",
+"uuid": "510d59d4-0dd0-428f-8023-513739c9ab27",
+"vol_cnt": 1,
+"scopeNotes": [
+"Hõlmab erinevate tasandite piirkondlikke üksusi. Mitte segamini ajada deskriptoriga \"kohalik omavalitsus\"."
+],
+"usedFors": [
+"piirkondlik alajaotus"
+],
+"narrowTerms": [
+"4a24db38-99ff-4059-bf67-e8ebf2504661",
+"b488c1d8-5f36-4891-aa67-96bfe3416058",
+"ef95a5a4-b0ff-19ea-931a-8a2c89f15d59",
+"bc68ca28-67d1-639a-ae99-d2a108c17dfa",
+"6d388498-a85c-3292-516f-eefdb98a85e6",
+"09b20bf7-9748-55ed-b02d-1741e604d2da",
+"01829775-8cdd-7329-d4f1-6c58b4dfd527",
+"3dcbec30-47c5-49da-a64a-40cd922ffc39",
+"3dbdad88-44e5-4174-9ef8-4a2c8fd4a1c4",
+"e2a85b20-4a2f-4c4f-a21c-02b8aef589e8",
+"128b2630-3af4-4eb5-b5b9-4014d5d8dd5a",
+"3e858489-3ae5-4523-a4a4-42c9fe9b3a65",
+"a395302b-fbe9-4652-9af4-a3bcb00e47b2"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3924,
+"text": "kohalik seadusandlus",
+"code": "3924",
+"uuid": "13704b41-7ab1-4ef0-8390-2e880c284e45",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"kohalik õigus",
+"kohaliku omavalitsusüksuse õigusakt",
+"munitsipaalõigus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/13704b41-7ab1-4ef0-8390-2e880c284e45"
+}
+}
+},
+{
+"edid": 699,
+"text": "kohalikud valimised",
+"code": "699",
+"uuid": "e7aa6a64-22c5-84de-50c2-e72ce96f7b59",
+"vol_cnt": 51,
+"scopeNotes": [],
+"usedFors": [
+"kohaliku omavalitsuse volikogu valimised",
+"nõukogu valimised"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e7aa6a64-22c5-84de-50c2-e72ce96f7b59"
+}
+}
+},
+{
+"edid": 454807,
+"text": "mitmetasandiline valitsemine",
+"code": "c_2212c2c4",
+"uuid": "30923201-7193-45ae-8461-245dbb1d49fb",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/30923201-7193-45ae-8461-245dbb1d49fb"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/510d59d4-0dd0-428f-8023-513739c9ab27"
+}
+}
+},
+{
+"edid": 3062,
+"text": "täitevorgan",
+"code": "3062",
+"uuid": "335d2211-730a-4bcf-aa28-43aa6c816a87",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"dfbc069a-3e39-3385-a984-241a5a7bc2ed",
+"2304f048-face-4d31-8ecc-b0a82319500e",
+"c1c7bf9d-b1ba-4ded-9078-b4bf292f020d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/335d2211-730a-4bcf-aa28-43aa6c816a87"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/2357914d-46ac-4bf9-918f-6b0a9e9cbb08"
+}
+}
+}

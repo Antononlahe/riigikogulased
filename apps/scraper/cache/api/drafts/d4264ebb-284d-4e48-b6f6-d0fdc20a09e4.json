@@ -1,0 +1,514 @@
+{
+"uuid": "d4264ebb-284d-4e48-b6f6-d0fdc20a09e4",
+"title": "Võlaõigusseaduse muutmise seadus",
+"mark": 621,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Võlaõigusseaduse muutmise seadus 621 SE",
+"initialTitle": "Võlaõigusseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga soovitakse muuta tarbija jaoks oluliselt soodsamaks eluasemelaenu teise panka viimine. \nEelnõu näeb ette, et kui elamukinnisvaraga seotud tarbijakrediidilepingu puhul toimub ennetähtaegne tagasimaksmine fikseerimata intressimääraga perioodil, puudub krediidiandjal õigus nõuda tarbijalt saamata jäänud intressi kui lepingu lõpetamisest teavitatakse vähemalt üks kuu ette.",
+"initiated": "2025-04-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "80f542c1-393a-46e2-9fca-99948e59850d",
+"name": "Andre Hanimägi",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/80f542c1-393a-46e2-9fca-99948e59850d?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "2c5ed7f2-f3ac-4443-b962-170130e04c78",
+"name": "Linnar Liivamägi",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/2c5ed7f2-f3ac-4443-b962-170130e04c78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 289,
+"text": "tarbijakrediit"
+},
+{
+"edid": 3263,
+"text": "tagasimaksmine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0f798078-fe98-401a-950e-5ea0d15a670e",
+"title": "Võlaõigusseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ca15508f-2f53-40e2-9deb-35325b80c6e7",
+"fileName": "621_VÕS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T14:56:22.404",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca15508f-2f53-40e2-9deb-35325b80c6e7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca15508f-2f53-40e2-9deb-35325b80c6e7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "41efe058-2b73-4344-aaa0-338238cecd6f",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c244f892-357f-434b-a162-b0b1c4924e43",
+"fileName": "Võlaõigusseaduse_muutmine_aprill_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T10:41:02.464",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c244f892-357f-434b-a162-b0b1c4924e43/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c244f892-357f-434b-a162-b0b1c4924e43"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "41efe058-2b73-4344-aaa0-338238cecd6f",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "61a63152-f8b1-4f28-879a-ad83dd313cd5",
+"fileName": "621_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T10:42:17.773",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/61a63152-f8b1-4f28-879a-ad83dd313cd5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/61a63152-f8b1-4f28-879a-ad83dd313cd5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0f798078-fe98-401a-950e-5ea0d15a670e",
+"title": "Võlaõigusseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "24e93688-4b99-4539-b7ca-e5c5678589b0",
+"fileName": "621_VÕS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T14:57:04.587",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24e93688-4b99-4539-b7ca-e5c5678589b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24e93688-4b99-4539-b7ca-e5c5678589b0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "41efe058-2b73-4344-aaa0-338238cecd6f",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "db821561-8709-4130-ae4e-ea4ee1030547",
+"fileName": "621_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T10:42:27.683",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/db821561-8709-4130-ae4e-ea4ee1030547/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/db821561-8709-4130-ae4e-ea4ee1030547"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-04-10T10:40:32.822",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-04-10T16:03:00.251",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-06-02T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 2.06.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-09T15:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Andre Hanimägi"
+}
+],
+"protocolFiles": [
+{
+"uuid": "a1112099-f0e1-4089-aaf2-1f3cc471045d",
+"fileName": "Asendusliikme_volitus_02.06.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volitus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-04T15:31:06.52",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a1112099-f0e1-4089-aaf2-1f3cc471045d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a1112099-f0e1-4089-aaf2-1f3cc471045d"
+}
+}
+},
+{
+"uuid": "e1130629-a7be-4aea-9be9-dde88016aad0",
+"fileName": "ÕIGK_protokoll_02.06.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T12:54:56.62",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e1130629-a7be-4aea-9be9-dde88016aad0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e1130629-a7be-4aea-9be9-dde88016aad0"
+}
+}
+},
+{
+"uuid": "cbec5247-49d8-4064-a2b6-3ca4b191fc96",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_81.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T12:53:47.259",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cbec5247-49d8-4064-a2b6-3ca4b191fc96/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cbec5247-49d8-4064-a2b6-3ca4b191fc96"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-08-28T15:49:10.308",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-09-10T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 10.09.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "aa48e97a-b1bf-468d-b8ac-e3197ba9d1bb",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-09-10T23:52:14.553",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/aa48e97a-b1bf-468d-b8ac-e3197ba9d1bb"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "4157173f-88d4-4dcc-8eb3-05efb9c81998",
+"reference": "1-1/15-621/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 621 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-10",
+"files": [
+{
+"uuid": "db708852-d55f-42da-bf47-c3158bab262d",
+"fileName": "VÕS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T10:45:18.473",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/db708852-d55f-42da-bf47-c3158bab262d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/db708852-d55f-42da-bf47-c3158bab262d"
+}
+}
+},
+{
+"uuid": "b16a7142-e2c2-48d6-bd45-415d0f3a9a02",
+"fileName": "250410_VÕS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T10:57:23.613",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b16a7142-e2c2-48d6-bd45-415d0f3a9a02/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b16a7142-e2c2-48d6-bd45-415d0f3a9a02"
+}
+}
+},
+{
+"uuid": "8b3355b3-799a-4d09-b9f1-1511bb370a56",
+"fileName": "621_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T10:45:46.593",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b3355b3-799a-4d09-b9f1-1511bb370a56/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b3355b3-799a-4d09-b9f1-1511bb370a56"
+}
+}
+},
+{
+"uuid": "fa8512ff-7e98-4a45-a698-0124bd56744b",
+"fileName": "1-1-15-621-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_621_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T16:03:45.91",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa8512ff-7e98-4a45-a698-0124bd56744b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa8512ff-7e98-4a45-a698-0124bd56744b"
+}
+}
+},
+{
+"uuid": "1b0e98de-da49-4a4d-9b91-7346eae51239",
+"fileName": "VÕS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T10:45:36.559",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b0e98de-da49-4a4d-9b91-7346eae51239/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b0e98de-da49-4a4d-9b91-7346eae51239"
+}
+}
+},
+{
+"uuid": "64057f90-33ae-48a3-9258-364936f0befc",
+"fileName": "621_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T10:46:01.256",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64057f90-33ae-48a3-9258-364936f0befc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64057f90-33ae-48a3-9258-364936f0befc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/4157173f-88d4-4dcc-8eb3-05efb9c81998"
+}
+}
+},
+{
+"uuid": "30ce871d-ac43-4a2f-b6e4-6e68850af787",
+"reference": "1-1/15-621/2",
+"title": "Vabariigi Valitsuse arvamus võlaõigusseaduse muutmise seaduse eelnõu 621 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-05-21",
+"files": [
+{
+"uuid": "ff8a96a9-116b-4d97-8ae0-9a97d49c8c27",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0379_-_Võlaõigusseaduse_muutmise_seaduse_eelnõu_(621_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-21T08:18:56.644",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ff8a96a9-116b-4d97-8ae0-9a97d49c8c27/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ff8a96a9-116b-4d97-8ae0-9a97d49c8c27"
+}
+}
+},
+{
+"uuid": "52c5f890-9f2a-4552-ae2e-812fbd6e7249",
+"fileName": "Vabariigi_Valitsuse_arvamus_võlaõigusseaduse_muutmise_seaduse_eelnõu_(621_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-21T08:18:56.631",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52c5f890-9f2a-4552-ae2e-812fbd6e7249/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52c5f890-9f2a-4552-ae2e-812fbd6e7249"
+}
+}
+},
+{
+"uuid": "60ee5d08-1619-4cbc-8b4a-5f61dc2aba8b",
+"fileName": "1.1-111843-4_20.05.2025_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-21T08:18:56.567",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/60ee5d08-1619-4cbc-8b4a-5f61dc2aba8b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/60ee5d08-1619-4cbc-8b4a-5f61dc2aba8b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/30ce871d-ac43-4a2f-b6e4-6e68850af787"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/d4264ebb-284d-4e48-b6f6-d0fdc20a09e4"
+}
+}
+}

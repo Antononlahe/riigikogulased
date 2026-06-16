@@ -1,0 +1,2368 @@
+{
+"uuid": "9da932aa-06d9-4eaa-ad47-be8fdaddc7d3",
+"title": "Krediiditeabe jagamise seadus",
+"mark": 652,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Krediiditeabe jagamise seadus 652 SE",
+"initialTitle": "Krediiditeabe jagamise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "VALJAKUULUTATUD",
+"introduction": "Krediiditeaberegister hakkab koondama teavet inimese kõigi finantskohustuste kohta, olgu see siis kodu- või tarbimislaen, autoliising, järelmaksud, aga ka kiirlaenud.\nKõik Finantsinspektsiooni järelevalve all olevad laenuandjad peavad edaspidi edastama registrisse info iga inimese võetud laenude kohta. Enne uue laenu andmist peavad nad kontrollima, millised kohustused inimesel juba olemas on.\nSellise info ühte kesksesse registrisse koondamine annab selgema pildi inimese tegelikust maksevõimest ja ennetab inimeste lõhkilaenamist.",
+"initiated": "2025-05-19",
+"joined": null,
+"accepted": "2026-06-10",
+"amendmentsDeadline": "2025-07-04T16:00:00",
+"responsibleMember": {
+"uuid": "315ea785-8f59-40e5-a158-3de8b908572f",
+"name": "Maris Lauri",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/315ea785-8f59-40e5-a158-3de8b908572f?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "95bde520-3032-48a5-aa20-567020b4e1da",
+"name": "Andres Ando",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/95bde520-3032-48a5-aa20-567020b4e1da?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 289,
+"text": "tarbijakrediit"
+},
+{
+"edid": 2606,
+"text": "laen"
+},
+{
+"edid": 3246,
+"text": "krediidiasutus"
+},
+{
+"edid": 616,
+"text": "teabevahetus"
+},
+{
+"edid": 4821,
+"text": "andmebaas"
+},
+{
+"edid": 4488,
+"text": "andmetöötlus"
+},
+{
+"edid": 3231,
+"text": "laenujärelevalve"
+},
+{
+"edid": 1549,
+"text": "trahv"
+},
+{
+"edid": 454869,
+"text": "finantsjärelevalve"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1b653f3f-e082-4a8e-ac1e-3fc396cd205f",
+"fileName": "RK_25-00931-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.052",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b653f3f-e082-4a8e-ac1e-3fc396cd205f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b653f3f-e082-4a8e-ac1e-3fc396cd205f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "696cf4ef-5e78-4dcb-a335-55e1f1db4ca4",
+"fileName": "[EIS]_Eelnõu___RAM-24-1172_-_Krediiditeabe_jagamise_seadus_täiendavalt_esitatud_dokumendid.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.372",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/696cf4ef-5e78-4dcb-a335-55e1f1db4ca4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/696cf4ef-5e78-4dcb-a335-55e1f1db4ca4"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "20964a34-f612-46f6-ab1e-783edb552651",
+"title": "652 SE I lug. tekst, seletuskiri ja lisad 1,2,3",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7bd82c10-5ad3-487c-aeb4-724673db4cc8",
+"fileName": "652_Krediiditeabe_jagamise_seaduse_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:12:17.785",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7bd82c10-5ad3-487c-aeb4-724673db4cc8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7bd82c10-5ad3-487c-aeb4-724673db4cc8"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "1dfec475-4774-4899-9124-ca57fc2f9038",
+"title": "652 SE III",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b2bb3066-6609-4852-ba0c-2ca0f8509a52",
+"fileName": "652_SE_III_täiskogule.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-08T16:01:47.82",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b2bb3066-6609-4852-ba0c-2ca0f8509a52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b2bb3066-6609-4852-ba0c-2ca0f8509a52"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "a5246661-630f-44e4-9e6a-3da1869d3820",
+"title": "652 SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "42470a14-e1ff-43e9-bea8-57692f3e6a88",
+"fileName": "652_SE_II_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T16:30:01.122",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42470a14-e1ff-43e9-bea8-57692f3e6a88/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42470a14-e1ff-43e9-bea8-57692f3e6a88"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3e48b76a-a322-4573-9cc4-dfbfa37bf0b6",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.243",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e48b76a-a322-4573-9cc4-dfbfa37bf0b6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e48b76a-a322-4573-9cc4-dfbfa37bf0b6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3f08f187-752f-4bb9-973d-ec4d242ec9c0",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.254",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f08f187-752f-4bb9-973d-ec4d242ec9c0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f08f187-752f-4bb9-973d-ec4d242ec9c0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bf7dbba9-5adb-4189-a777-8a89e8145e7b",
+"fileName": "25-00931-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.23",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf7dbba9-5adb-4189-a777-8a89e8145e7b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf7dbba9-5adb-4189-a777-8a89e8145e7b"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d9978141-d212-425e-a9a2-a31df3cc4f58",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f1961ccd-1d0f-4f4e-af6e-a9f49646f600",
+"fileName": "652_Kaaskiri_Vabariigi_Presidendile_2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-10T17:04:01.794",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f1961ccd-1d0f-4f4e-af6e-a9f49646f600/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f1961ccd-1d0f-4f4e-af6e-a9f49646f600"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "b7979b33-a89a-4223-b281-bd01265bbefd",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a271c5da-6146-4706-81f3-e6f037cc5a11",
+"fileName": "652XV_Krediidit_s_2026.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-15T16:35:20.398",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a271c5da-6146-4706-81f3-e6f037cc5a11/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a271c5da-6146-4706-81f3-e6f037cc5a11"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "b7979b33-a89a-4223-b281-bd01265bbefd",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "caa22316-32de-4286-b94e-9724146cbffb",
+"fileName": "652XV_Krediidit_s_2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-15T16:34:36.948",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/caa22316-32de-4286-b94e-9724146cbffb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/caa22316-32de-4286-b94e-9724146cbffb"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "a5246661-630f-44e4-9e6a-3da1869d3820",
+"title": "652 SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7678305f-9191-4dd2-993d-edb34f49c67f",
+"fileName": "652_SE_II_ME_loetelu.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T16:30:37.896",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7678305f-9191-4dd2-993d-edb34f49c67f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7678305f-9191-4dd2-993d-edb34f49c67f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "20964a34-f612-46f6-ab1e-783edb552651",
+"title": "652 SE I lug. tekst, seletuskiri ja lisad 1,2,3",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eb9d93e1-1fb1-4e16-ad5e-7f7a73d29bca",
+"fileName": "652_Krediiditeabe_jagamise_seaduse_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:12:43.758",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb9d93e1-1fb1-4e16-ad5e-7f7a73d29bca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb9d93e1-1fb1-4e16-ad5e-7f7a73d29bca"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "a5246661-630f-44e4-9e6a-3da1869d3820",
+"title": "652 SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "18f00f09-e7f3-4158-921e-2b198837ca03",
+"fileName": "652_SE_II_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T16:30:23.48",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/18f00f09-e7f3-4158-921e-2b198837ca03/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/18f00f09-e7f3-4158-921e-2b198837ca03"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1e0e6a38-4fa5-4097-adcf-6fbd273c7c8c",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.265",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e0e6a38-4fa5-4097-adcf-6fbd273c7c8c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e0e6a38-4fa5-4097-adcf-6fbd273c7c8c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b60e4073-a1f4-42c0-8dfb-f970be4a55a2",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.278",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b60e4073-a1f4-42c0-8dfb-f970be4a55a2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b60e4073-a1f4-42c0-8dfb-f970be4a55a2"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "20964a34-f612-46f6-ab1e-783edb552651",
+"title": "652 SE I lug. tekst, seletuskiri ja lisad 1,2,3",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d79b63b2-543a-459d-ae07-1be71e6b2299",
+"fileName": "652_Krediiditeabe_jagamise_seaduse_SK_Lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1  (teiste riikide mudelid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:13:02.497",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d79b63b2-543a-459d-ae07-1be71e6b2299/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d79b63b2-543a-459d-ae07-1be71e6b2299"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "425cc18b-cc12-4d18-85b3-a587e5bb2260",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (teiste riikide mudelid) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.291",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/425cc18b-cc12-4d18-85b3-a587e5bb2260/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/425cc18b-cc12-4d18-85b3-a587e5bb2260"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cf9658aa-f268-4eac-b07f-218aad1538de",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (teiste riikide mudelid) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf9658aa-f268-4eac-b07f-218aad1538de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf9658aa-f268-4eac-b07f-218aad1538de"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "20964a34-f612-46f6-ab1e-783edb552651",
+"title": "652 SE I lug. tekst, seletuskiri ja lisad 1,2,3",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6f1c5337-baf3-44ff-9fea-b03f7e24eb01",
+"fileName": "652_Krediiditeabe_jagamise_seaduse_SK_Lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusaktide kavandid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:13:26.132",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6f1c5337-baf3-44ff-9fea-b03f7e24eb01/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6f1c5337-baf3-44ff-9fea-b03f7e24eb01"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "723fdcf2-65a4-4a01-ab10-fa48b3920abf",
+"fileName": "Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusaktide kavandid) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/723fdcf2-65a4-4a01-ab10-fa48b3920abf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/723fdcf2-65a4-4a01-ab10-fa48b3920abf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "29bc166a-4eff-4edf-9774-646e138ac1d0",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (rakendusaktide kavandid) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.326",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29bc166a-4eff-4edf-9774-646e138ac1d0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29bc166a-4eff-4edf-9774-646e138ac1d0"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "20964a34-f612-46f6-ab1e-783edb552651",
+"title": "652 SE I lug. tekst, seletuskiri ja lisad 1,2,3",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e2006570-80e6-45ea-8347-6648d53013d7",
+"fileName": "652_Krediiditeabe_jagamise_seaduse_SK_Lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 3 (kooskõlastustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:13:43.052",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2006570-80e6-45ea-8347-6648d53013d7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2006570-80e6-45ea-8347-6648d53013d7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e173c04a-cfcd-4d3e-815b-e4bdbbbde321",
+"fileName": "Seletuskirja_lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 3 (kooskõlastustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.337",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e173c04a-cfcd-4d3e-815b-e4bdbbbde321/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e173c04a-cfcd-4d3e-815b-e4bdbbbde321"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa2aeaf3-931f-4ef6-883f-6200002419bb",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0d563ac2-d607-4071-9553-238bc70007bc",
+"fileName": "Seletuskirja_lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 3 (kooskõlastustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:21:35.349",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0d563ac2-d607-4071-9553-238bc70007bc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0d563ac2-d607-4071-9553-238bc70007bc"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "aa6c2564-31bf-431d-9bee-d194241d40fe",
+"reference": "1-1/15-652/17",
+"title": "Vabariigi Presidendi otsus nr 740",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "42724e07-374b-4df4-b49b-98f2c0db53c4",
+"fileName": "VP_1506026_o740.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-15T16:01:46.105",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42724e07-374b-4df4-b49b-98f2c0db53c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42724e07-374b-4df4-b49b-98f2c0db53c4"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "aa6c2564-31bf-431d-9bee-d194241d40fe",
+"reference": "1-1/15-652/17",
+"title": "Vabariigi Presidendi otsus nr 740",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d27fb5d7-02f4-4835-9d00-52a5417f156a",
+"fileName": "VP_1506026_o740.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-15T16:01:46.038",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d27fb5d7-02f4-4835-9d00-52a5417f156a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d27fb5d7-02f4-4835-9d00-52a5417f156a"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d9978141-d212-425e-a9a2-a31df3cc4f58",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8d8efc01-cbbc-4908-aebc-4d386f0ba5f9",
+"fileName": "652XV_Krediidit_s_2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-10T15:27:14.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d8efc01-cbbc-4908-aebc-4d386f0ba5f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d8efc01-cbbc-4908-aebc-4d386f0ba5f9"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d9978141-d212-425e-a9a2-a31df3cc4f58",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e169dccf-b99f-456e-93a3-8f88810195af",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-10T17:05:23.494",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e169dccf-b99f-456e-93a3-8f88810195af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e169dccf-b99f-456e-93a3-8f88810195af"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-05-19T15:21:10.602",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-05-20T14:34:00.374",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-06-10T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 10.06.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-17T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Maris Lauri"
+}
+],
+"protocolFiles": [
+{
+"uuid": "22cc7e28-4669-4a69-bc77-68dc28fe3eb5",
+"fileName": "RAHK_protokoll_10.06.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T10:16:02.991",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22cc7e28-4669-4a69-bc77-68dc28fe3eb5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22cc7e28-4669-4a69-bc77-68dc28fe3eb5"
+}
+}
+},
+{
+"uuid": "e842d831-ea3b-4dea-be7f-579c20d8783b",
+"fileName": "RAHK_protokoll_162_10_06_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T10:15:24.459",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e842d831-ea3b-4dea-be7f-579c20d8783b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e842d831-ea3b-4dea-be7f-579c20d8783b"
+}
+}
+},
+{
+"uuid": "834868ac-c1b9-46f0-925a-6a77827ee916",
+"fileName": "671_SE_HLÜ_ettekande_slaidid_10.06.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (671 SE ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:42:12.61",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/834868ac-c1b9-46f0-925a-6a77827ee916/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/834868ac-c1b9-46f0-925a-6a77827ee916"
+}
+}
+},
+{
+"uuid": "ebe82ceb-ad72-474e-902c-d72c4f947604",
+"fileName": "652_SE_ettekande_slaidid_10.06.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (652 SE ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:41:21.514",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ebe82ceb-ad72-474e-902c-d72c4f947604/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ebe82ceb-ad72-474e-902c-d72c4f947604"
+}
+}
+},
+{
+"uuid": "f13d85be-f6a6-433e-a0d0-3f4315b2a2a0",
+"fileName": "Asendusliikme_volikiri_M.Võrklaev-E.Merilind_10.06_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:39:11.096",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f13d85be-f6a6-433e-a0d0-3f4315b2a2a0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f13d85be-f6a6-433e-a0d0-3f4315b2a2a0"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-17T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 17.06.2025 10:00",
+"decisionCode": "ARUTELU_JAI_POOLELI",
+"votings": []
+},
+{
+"date": "2025-06-18T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 18.06.2025 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+},
+{
+"date": "2025-09-23T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 23.09.2025 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "9ea3a41c-d401-4197-87a2-c311c86e9724",
+"fileName": "RAHK_protokoll_nr_172_23.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-15T13:31:38.149",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9ea3a41c-d401-4197-87a2-c311c86e9724/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9ea3a41c-d401-4197-87a2-c311c86e9724"
+}
+}
+},
+{
+"uuid": "c88706f6-561f-4b26-8595-e2e695c228ec",
+"fileName": "RAHK_protokoll_23.09.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-15T13:32:20.06",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c88706f6-561f-4b26-8595-e2e695c228ec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c88706f6-561f-4b26-8595-e2e695c228ec"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-03T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 3.11.2025 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "3a73c2eb-f75e-4540-8f85-5dcdbdec52f3",
+"fileName": "RAHK_protokoll_03.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T09:51:15.201",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a73c2eb-f75e-4540-8f85-5dcdbdec52f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a73c2eb-f75e-4540-8f85-5dcdbdec52f3"
+}
+}
+},
+{
+"uuid": "5120ebbc-1062-4485-9289-f10dad674419",
+"fileName": "RAHK_protokoll_nr_183_03.11.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T09:50:07.524",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5120ebbc-1062-4485-9289-f10dad674419/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5120ebbc-1062-4485-9289-f10dad674419"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-18T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 18.11.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "3cec7ead-b28f-4a57-9e17-39dd0c9bc00b",
+"fileName": "RAHK_protokoll_18.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-21T22:09:15.941",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3cec7ead-b28f-4a57-9e17-39dd0c9bc00b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3cec7ead-b28f-4a57-9e17-39dd0c9bc00b"
+}
+}
+},
+{
+"uuid": "f7a6a5bc-1bf9-42f6-9502-e62a59b9eab9",
+"fileName": "RAHK_protokoll_190_18.11.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-21T22:07:51.376",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7a6a5bc-1bf9-42f6-9502-e62a59b9eab9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7a6a5bc-1bf9-42f6-9502-e62a59b9eab9"
+}
+}
+},
+{
+"uuid": "0d46a31d-49aa-4b25-9d70-f034b1e7c554",
+"fileName": "652_SE_RAM_memo_17.11.2025_Lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (652 SE memo)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-19T15:13:17.262",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0d46a31d-49aa-4b25-9d70-f034b1e7c554/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0d46a31d-49aa-4b25-9d70-f034b1e7c554"
+}
+}
+},
+{
+"uuid": "ee52d1dd-7949-4801-8365-8ded2de4580f",
+"fileName": "733_SE_ME_loetelu_kavand_18.11.2025_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (733 SE muudatusettepanekute loetelu)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-19T15:04:07.743",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee52d1dd-7949-4801-8365-8ded2de4580f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee52d1dd-7949-4801-8365-8ded2de4580f"
+}
+}
+}
+]
+},
+{
+"date": "2025-12-02T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 2.12.2025 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "c59162a3-7ba0-438f-9f1d-ebf3d96b133b",
+"fileName": "RAHK_protokoll_02.12.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T10:02:48.276",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c59162a3-7ba0-438f-9f1d-ebf3d96b133b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c59162a3-7ba0-438f-9f1d-ebf3d96b133b"
+}
+}
+},
+{
+"uuid": "39c66c34-2216-4105-92df-04531e0505f8",
+"fileName": "Asendusliikme_volikiri_M.Lauri-_E.Merilind_02.12.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T10:01:56.194",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/39c66c34-2216-4105-92df-04531e0505f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/39c66c34-2216-4105-92df-04531e0505f8"
+}
+}
+},
+{
+"uuid": "466a4830-c150-4fc0-9d71-1df1ad7c9f20",
+"fileName": "Asendusliikme_volikiri_A.Sõerd-T._Järveoja_02.12.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T10:01:27.403",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/466a4830-c150-4fc0-9d71-1df1ad7c9f20/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/466a4830-c150-4fc0-9d71-1df1ad7c9f20"
+}
+}
+},
+{
+"uuid": "2a0c12a9-fd0e-48a3-a419-d81e1e244087",
+"fileName": "737_SE_ME_Rahandusministeerium_RAHK_protokoll_02.12.2025_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Rahandusministeeriumi ME)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T10:01:02.96",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2a0c12a9-fd0e-48a3-a419-d81e1e244087/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2a0c12a9-fd0e-48a3-a419-d81e1e244087"
+}
+}
+},
+{
+"uuid": "d7a12341-45bc-4ef3-af30-0e6dbf984664",
+"fileName": "737_SE_ME_loetelu_RAHK_istung_02.12.2025_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (ME loetelu)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T10:00:38.707",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7a12341-45bc-4ef3-af30-0e6dbf984664/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7a12341-45bc-4ef3-af30-0e6dbf984664"
+}
+}
+},
+{
+"uuid": "aa39d502-2d1b-407d-9931-4a0df4885e30",
+"fileName": "RAHK_protokoll_nr_192_02.12.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T10:00:24.568",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aa39d502-2d1b-407d-9931-4a0df4885e30/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aa39d502-2d1b-407d-9931-4a0df4885e30"
+}
+}
+}
+]
+},
+{
+"date": "2026-01-20T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 20.01.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "912c9297-c135-4902-9a87-64b35c601a5a",
+"fileName": "RAHK_protokoll_20.01.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T10:01:17.937",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/912c9297-c135-4902-9a87-64b35c601a5a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/912c9297-c135-4902-9a87-64b35c601a5a"
+}
+}
+},
+{
+"uuid": "8cd0c1db-bc62-4123-a2b3-23f5647ad2f9",
+"fileName": "RAHK_protokoll_200_20.01.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T10:00:02.89",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8cd0c1db-bc62-4123-a2b3-23f5647ad2f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8cd0c1db-bc62-4123-a2b3-23f5647ad2f9"
+}
+}
+},
+{
+"uuid": "fb5d2fd7-c40c-42c5-82b0-dea1c7b0b70f",
+"fileName": "652_SE_RAM_ettekande_slaidid_20.01.2026.pptx",
+"fileExtension": "pptx",
+"fileTitle": "Lisa 2 (RAM ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T15:44:35.333",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb5d2fd7-c40c-42c5-82b0-dea1c7b0b70f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb5d2fd7-c40c-42c5-82b0-dea1c7b0b70f"
+}
+}
+},
+{
+"uuid": "e6abca56-c191-41df-843e-9631fbe91c70",
+"fileName": "A.Akkermanni_tagasikutsumine_20.01.2026._Lisa.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (avaldus A.Akkermanni tagasikutsumiseks)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T15:42:42.876",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e6abca56-c191-41df-843e-9631fbe91c70/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e6abca56-c191-41df-843e-9631fbe91c70"
+}
+}
+},
+{
+"uuid": "9ada041c-a739-4c45-b9a9-d5d90d4cebaf",
+"fileName": "Asendusliikme_volikiri_M.Helme-A.Poolamets_20.01.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T15:32:28.579",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9ada041c-a739-4c45-b9a9-d5d90d4cebaf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9ada041c-a739-4c45-b9a9-d5d90d4cebaf"
+}
+}
+}
+]
+},
+{
+"date": "2026-05-05T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 5.05.2026 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.05.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-06-03T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2026-06-10T14:00:00"
+}
+],
+"protocolFiles": []
+},
+{
+"date": "2026-06-01T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 1.06.2026 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": []
+},
+{
+"date": "2026-06-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.06.2026 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2026-06-08T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 8.06.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Kiita heaks eelnõu III lugemise tekst, kuhu on sisse viidud keelelised ja tehnilised täpsustused."
+}
+],
+"protocolFiles": []
+},
+{
+"date": "2026-06-10T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 10.06.2026 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "5d5dbd18-c15b-4f74-aa84-01b8dc14e390",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-06-10T15:20:53.803",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/5d5dbd18-c15b-4f74-aa84-01b8dc14e390"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2026-06-10T20:18:24.618",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2026-06-15T16:02:28.526",
+"status": "VALJAKUULUTATUD"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "507aae26-c429-4498-a13e-abd0a8dc5b3d",
+"reference": "1-1/15-652/14",
+"title": "Rahandusministeeriumi arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-19",
+"files": [
+{
+"uuid": "a666f35c-5533-4e49-a871-e0bf7e3da80b",
+"fileName": "13-1.12168-1_19.05.2026_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T14:08:24.414",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a666f35c-5533-4e49-a871-e0bf7e3da80b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a666f35c-5533-4e49-a871-e0bf7e3da80b"
+}
+}
+},
+{
+"uuid": "41691081-7d0b-4307-b6d1-21553ae4f063",
+"fileName": "Ettepanekud_krediiditeabe_jagamise_seaduse_652_SE_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T14:08:24.481",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41691081-7d0b-4307-b6d1-21553ae4f063/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41691081-7d0b-4307-b6d1-21553ae4f063"
+}
+}
+},
+{
+"uuid": "16e5c5a6-3af3-4f9a-8ec7-7ff0b1926785",
+"fileName": "Ettepanekud_krediiditeabe_jagamise_seaduse_652_SE_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T14:08:24.404",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/16e5c5a6-3af3-4f9a-8ec7-7ff0b1926785/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/16e5c5a6-3af3-4f9a-8ec7-7ff0b1926785"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/507aae26-c429-4498-a13e-abd0a8dc5b3d"
+}
+}
+},
+{
+"uuid": "f7c0cb23-f8d8-43f0-9228-2816a2ec58ed",
+"reference": "1-1/15-652/9",
+"title": "Rahandusministeeriumi seisukohad laekunud arvamustele krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-17",
+"files": [
+{
+"uuid": "42119c1e-529d-4edd-9bde-b73275ab091f",
+"fileName": "RaM_seisukohad_krediiditeabe_652_SE_arvamuste_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T17:03:43.904",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42119c1e-529d-4edd-9bde-b73275ab091f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42119c1e-529d-4edd-9bde-b73275ab091f"
+}
+}
+},
+{
+"uuid": "367901c7-948b-4891-80f2-27d4f8ffc0a7",
+"fileName": "Arvamuste_ja_seisukohtade_tabel_lõplik.docx",
+"fileExtension": "docx",
+"fileTitle": "RaM arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T17:03:43.896",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/367901c7-948b-4891-80f2-27d4f8ffc0a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/367901c7-948b-4891-80f2-27d4f8ffc0a7"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f7c0cb23-f8d8-43f0-9228-2816a2ec58ed"
+}
+}
+},
+{
+"uuid": "cf36a8ad-af55-4ae8-987c-a57a8a428549",
+"reference": "1-1/15-652/3",
+"title": "Eesti Krediidiandjate Liidu arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-01",
+"files": [
+{
+"uuid": "a48a9008-9a49-43a8-9a81-e575904964b0",
+"fileName": "Tagasiside_krediiditeabe_jagamise_seaduse_eelnõule.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-01T13:53:35.67",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a48a9008-9a49-43a8-9a81-e575904964b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a48a9008-9a49-43a8-9a81-e575904964b0"
+}
+}
+},
+{
+"uuid": "b7075cc1-caed-4480-b829-dc7ce2e7f42a",
+"fileName": "Arvamus_KtJS_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-01T13:53:35.662",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7075cc1-caed-4480-b829-dc7ce2e7f42a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7075cc1-caed-4480-b829-dc7ce2e7f42a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cf36a8ad-af55-4ae8-987c-a57a8a428549"
+}
+}
+},
+{
+"uuid": "295f683f-2e6a-485b-86bc-be13f214176e",
+"reference": "1-1/15-652/2",
+"title": "Harju Maakohtu arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-08-28",
+"files": [
+{
+"uuid": "571f546c-4fdb-44e3-a392-2381abd07532",
+"fileName": "6-325-1072-2_28.08.2025_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-08-28T15:07:53.159",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/571f546c-4fdb-44e3-a392-2381abd07532/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/571f546c-4fdb-44e3-a392-2381abd07532"
+}
+}
+},
+{
+"uuid": "6671d52a-f1a8-4771-ad20-dee2795e37fc",
+"fileName": "Arvamus_krediiditeabe_jagamise_seaduse_eelnõule_652_SE_menetlemine_Riigikogus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-08-28T15:07:53.221",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6671d52a-f1a8-4771-ad20-dee2795e37fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6671d52a-f1a8-4771-ad20-dee2795e37fc"
+}
+}
+},
+{
+"uuid": "bcd7c7d8-8e77-4f18-8cd0-6af5b3ba4c34",
+"fileName": "Väljaminev_kiri.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-08-28T15:07:53.235",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bcd7c7d8-8e77-4f18-8cd0-6af5b3ba4c34/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bcd7c7d8-8e77-4f18-8cd0-6af5b3ba4c34"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/295f683f-2e6a-485b-86bc-be13f214176e"
+}
+}
+},
+{
+"uuid": "9915db6d-a381-4b29-9548-f3ac55ba8243",
+"reference": "1-1/15-652/15",
+"title": "Aktiva Finance Group OÜ täiendav arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-06-01",
+"files": [
+{
+"uuid": "1b6aa05f-4a05-4306-b932-547207e27ed0",
+"fileName": "Krediiditeabe_seadusest_652_SE.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T08:46:48.511",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b6aa05f-4a05-4306-b932-547207e27ed0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b6aa05f-4a05-4306-b932-547207e27ed0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9915db6d-a381-4b29-9548-f3ac55ba8243"
+}
+}
+},
+{
+"uuid": "c58cade3-f2e8-429f-8823-dcd900bb1586",
+"reference": "1-1/15-652/7",
+"title": "FinanceEstonia arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-02",
+"files": [
+{
+"uuid": "45fd846a-224b-4f02-b009-ce778b36aae4",
+"fileName": "FinanceEstonia_kommentaarid_krediiditeabe_jagamise_seaduse_eelnõule.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-02T09:54:05.351",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/45fd846a-224b-4f02-b009-ce778b36aae4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/45fd846a-224b-4f02-b009-ce778b36aae4"
+}
+}
+},
+{
+"uuid": "9e849810-7a0c-42f1-863b-bb841ff65a97",
+"fileName": "FE_tagasiside_krediiditeabe_jagamise_seaduse_eelnõule_-_01.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-02T09:54:05.336",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e849810-7a0c-42f1-863b-bb841ff65a97/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e849810-7a0c-42f1-863b-bb841ff65a97"
+}
+}
+},
+{
+"uuid": "8970df3d-981c-44f4-8c03-a5e9b5a15b85",
+"fileName": "FE_tagasiside_krediiditeabe_jagamise__seaduse_eelnõule_-_01.09.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-02T09:54:05.192",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8970df3d-981c-44f4-8c03-a5e9b5a15b85/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8970df3d-981c-44f4-8c03-a5e9b5a15b85"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c58cade3-f2e8-429f-8823-dcd900bb1586"
+}
+}
+},
+{
+"uuid": "c9ccd6a1-e30e-4dfa-8d43-d5bdcc60f7e1",
+"reference": "1-1/15-652/4",
+"title": "Finantsinspektsiooni arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-01",
+"files": [
+{
+"uuid": "e75e5dbc-4776-4f07-9d51-09c5a40cf35d",
+"fileName": "Kiri_01.09.2025_nr_5-8_4498-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-01T15:41:54.079",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e75e5dbc-4776-4f07-9d51-09c5a40cf35d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e75e5dbc-4776-4f07-9d51-09c5a40cf35d"
+}
+}
+},
+{
+"uuid": "093a7f7c-4b2a-47bd-a301-a5adcb925752",
+"fileName": "Finantsinspektsiooni_kiri.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-01T15:41:54.168",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/093a7f7c-4b2a-47bd-a301-a5adcb925752/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/093a7f7c-4b2a-47bd-a301-a5adcb925752"
+}
+}
+},
+{
+"uuid": "c576744b-50ae-41c0-83c7-998a863f68eb",
+"fileName": "Kiri_01.09.2025_nr_5-8_4498-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-01T15:41:54.14",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c576744b-50ae-41c0-83c7-998a863f68eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c576744b-50ae-41c0-83c7-998a863f68eb"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c9ccd6a1-e30e-4dfa-8d43-d5bdcc60f7e1"
+}
+}
+},
+{
+"uuid": "d39dc1f9-bd5a-4b9b-ab15-67889d23123d",
+"reference": "1-1/15-652/6",
+"title": "Eesti Kaubandus-Tööstuskoja arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-02",
+"files": [
+{
+"uuid": "07d64464-e244-4e20-a781-d7c16e2a6938",
+"fileName": "01_09_2025_Krediiditeabe_jagamise_seadus_652_SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-02T08:37:09.41",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07d64464-e244-4e20-a781-d7c16e2a6938/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07d64464-e244-4e20-a781-d7c16e2a6938"
+}
+}
+},
+{
+"uuid": "c8c6d22f-d1e1-4fb5-a7c8-b66cc502f2e7",
+"fileName": "Eesti_Kaubandus-Tööstuskoja_arvamus_krediiditeabe_jagamise_seaduse_652_SE_eelnõu_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-02T08:37:09.427",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8c6d22f-d1e1-4fb5-a7c8-b66cc502f2e7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8c6d22f-d1e1-4fb5-a7c8-b66cc502f2e7"
+}
+}
+},
+{
+"uuid": "9d5ebcf3-1d03-4ed6-9f72-910e22c419a2",
+"fileName": "01_09_2025_Krediiditeabe_jagamise_seadus_652_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-02T08:37:09.342",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d5ebcf3-1d03-4ed6-9f72-910e22c419a2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d5ebcf3-1d03-4ed6-9f72-910e22c419a2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d39dc1f9-bd5a-4b9b-ab15-67889d23123d"
+}
+}
+},
+{
+"uuid": "5126fdb7-b5ea-44f8-9404-652e80da3c6f",
+"reference": "1-1/15-652/16",
+"title": "Rahandusministeeriumi täiendav arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-06-01",
+"files": [
+{
+"uuid": "483006a4-c443-48b4-9454-5f423afed39c",
+"fileName": "Taiendavad_ettepanekud_krediiditeabe_jagamise_seaduse_652_SE_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T12:39:09.573",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/483006a4-c443-48b4-9454-5f423afed39c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/483006a4-c443-48b4-9454-5f423afed39c"
+}
+}
+},
+{
+"uuid": "bf60dfff-eb61-4b7b-9d2f-ea3319d32bad",
+"fileName": "13-1.12364-1_01.06.2026_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T12:39:09.505",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf60dfff-eb61-4b7b-9d2f-ea3319d32bad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf60dfff-eb61-4b7b-9d2f-ea3319d32bad"
+}
+}
+},
+{
+"uuid": "36a360d2-0399-4c7c-9f96-72abbeed5a55",
+"fileName": "Täiendavad_ettepanekud_krediiditeabe_jagamise_seaduse_652_SE_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T12:39:09.495",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/36a360d2-0399-4c7c-9f96-72abbeed5a55/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/36a360d2-0399-4c7c-9f96-72abbeed5a55"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5126fdb7-b5ea-44f8-9404-652e80da3c6f"
+}
+}
+},
+{
+"uuid": "4c2070d9-c8a7-46f2-ae9e-967aef345ca2",
+"reference": "1-1/15-652/1",
+"title": "Krediiditeabe jagamise seaduse eelnõu 652 SE  menetlemine Riigikogus",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-08-11",
+"files": [
+{
+"uuid": "2492c9e7-5811-4a0c-a93f-9a1aee16a8f3",
+"fileName": "RAHK_652_SE_kaasamiskiri_11082025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaasamiskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-08-11T11:37:12.003",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2492c9e7-5811-4a0c-a93f-9a1aee16a8f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2492c9e7-5811-4a0c-a93f-9a1aee16a8f3"
+}
+}
+},
+{
+"uuid": "329e4565-07ed-41d2-8f9e-f7ca5505a560",
+"fileName": "1-1-15-652-1_-_Krediiditeabe_jagamise_seaduse_eelnõu_652_SE_menetlemine_Riigikogus.asice",
+"fileExtension": "asice",
+"fileTitle": "Kaasamiskiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-08-11T11:39:19.725",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/329e4565-07ed-41d2-8f9e-f7ca5505a560/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/329e4565-07ed-41d2-8f9e-f7ca5505a560"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/4c2070d9-c8a7-46f2-ae9e-967aef345ca2"
+}
+}
+},
+{
+"uuid": "a3fc0454-1e25-4fdc-89d9-de1d49dc58ca",
+"reference": "1-1/15-652/10",
+"title": "Rahandusministeeriumi arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-10-21",
+"files": [
+{
+"uuid": "6e63ca43-06d6-42e2-9744-16379237210f",
+"fileName": "Rahandusministeeriumi_ettepanekud_SE_652_täiendamiseks.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T16:17:11.87",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e63ca43-06d6-42e2-9744-16379237210f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e63ca43-06d6-42e2-9744-16379237210f"
+}
+}
+},
+{
+"uuid": "747cb07f-492f-4311-8370-c6c71b368625",
+"fileName": "13-1.14577-1_21.10.2025_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T16:17:11.791",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/747cb07f-492f-4311-8370-c6c71b368625/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/747cb07f-492f-4311-8370-c6c71b368625"
+}
+}
+},
+{
+"uuid": "807c2d80-f96f-4330-b2f0-966afd03260a",
+"fileName": "Rahandusministeeriumi_ettepanekud_SE_652_täiendamiseks.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T16:17:11.883",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/807c2d80-f96f-4330-b2f0-966afd03260a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/807c2d80-f96f-4330-b2f0-966afd03260a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a3fc0454-1e25-4fdc-89d9-de1d49dc58ca"
+}
+}
+},
+{
+"uuid": "2a4b7a2a-b655-4e59-951a-2362ee5a7e42",
+"reference": "1-1/15-652/12",
+"title": "Aktiva Finance Group OÜ arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-03-20",
+"files": [
+{
+"uuid": "323484c8-be75-433b-b2b4-f179ee61f777",
+"fileName": "AFG_(JUL_KR)_seisukoht_krediiditeabe_jagamise_seaduse_eelnõu_652SE_RaM_20032026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-20T15:28:33.709",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/323484c8-be75-433b-b2b4-f179ee61f777/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/323484c8-be75-433b-b2b4-f179ee61f777"
+}
+}
+},
+{
+"uuid": "a6f9fb01-9d85-4f1d-bddd-e3d5bf12b604",
+"fileName": "AFG_(JUL_KR)_seisukoht_krediiditeabe_jagamise_seaduse_eelnõu_652SE_RaM_20032026_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-20T15:28:33.594",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6f9fb01-9d85-4f1d-bddd-e3d5bf12b604/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6f9fb01-9d85-4f1d-bddd-e3d5bf12b604"
+}
+}
+},
+{
+"uuid": "1a9ff458-3629-4842-b9f9-273cb9dd7506",
+"fileName": "Kediidiinkassode_ja_viivislaenude_hõlmamine_krediidiregistri_alla_-_uus_versioon.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-20T15:28:33.584",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1a9ff458-3629-4842-b9f9-273cb9dd7506/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1a9ff458-3629-4842-b9f9-273cb9dd7506"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2a4b7a2a-b655-4e59-951a-2362ee5a7e42"
+}
+}
+},
+{
+"uuid": "9899bb99-c64e-407b-907e-ce2630673b61",
+"reference": "1-1/15-652/8",
+"title": "Aktiva Finance Group OÜ arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-12",
+"files": [
+{
+"uuid": "b82150ee-d571-446e-9bf6-ef19564d5ad9",
+"fileName": "AFG_tagasiside_ettepanekud_FE_08092025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-12T13:49:33.085",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b82150ee-d571-446e-9bf6-ef19564d5ad9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b82150ee-d571-446e-9bf6-ef19564d5ad9"
+}
+}
+},
+{
+"uuid": "b26e447d-d579-4fa7-80d3-4a20ff8e9fd2",
+"fileName": "AFG_tagasiside_ettepanekud_FE_08092025.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-12T13:49:32.979",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b26e447d-d579-4fa7-80d3-4a20ff8e9fd2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b26e447d-d579-4fa7-80d3-4a20ff8e9fd2"
+}
+}
+},
+{
+"uuid": "c9c2b485-5633-48b9-b7de-d23e8a4895ea",
+"fileName": "FinanceEstonia_liikme_täiendav_tagasiside_krediiditeabe_jagamise_seaduse_eelnõule.html",
+"fileExtension": "html",
+"fileTitle": "E-kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-12T13:49:33.097",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c9c2b485-5633-48b9-b7de-d23e8a4895ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c9c2b485-5633-48b9-b7de-d23e8a4895ea"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9899bb99-c64e-407b-907e-ce2630673b61"
+}
+}
+},
+{
+"uuid": "3c4354d0-abf1-4e9f-9e24-5cfc28b92ac1",
+"reference": "1-1/15-652/5",
+"title": "Eesti Pangaliidu arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-01",
+"files": [
+{
+"uuid": "1a4cf0b7-a8a8-4385-bcd8-a01216cb3461",
+"fileName": "krediiditeabe_jagamise_seaduse_eelnõu_652_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-01T16:14:25.646",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1a4cf0b7-a8a8-4385-bcd8-a01216cb3461/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1a4cf0b7-a8a8-4385-bcd8-a01216cb3461"
+}
+}
+},
+{
+"uuid": "52921467-6991-4be8-b25d-bf00c99b7064",
+"fileName": "nr_32_PL_rahanduskomisjonile_1.09.2025_krediiditeabe_jagamise_seaduse_eelnõu_652_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-01T16:14:25.567",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52921467-6991-4be8-b25d-bf00c99b7064/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52921467-6991-4be8-b25d-bf00c99b7064"
+}
+}
+},
+{
+"uuid": "7bd5f2dd-c11d-4b19-8f2f-87a341c5a5a8",
+"fileName": "PL_rahanduskomisjonile_1.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-01T16:14:25.617",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7bd5f2dd-c11d-4b19-8f2f-87a341c5a5a8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7bd5f2dd-c11d-4b19-8f2f-87a341c5a5a8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3c4354d0-abf1-4e9f-9e24-5cfc28b92ac1"
+}
+}
+},
+{
+"uuid": "d6d509db-e8cd-45df-a621-7b9951678563",
+"reference": "1-1/15-652/11",
+"title": "Aktiva Finance Group OÜ arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-01-07",
+"files": [
+{
+"uuid": "ec4780fe-033e-480c-b7fe-7c77c36631e4",
+"fileName": "AFG_seisukoht_krediiditeabe_jagamise_seaduse_eelnõu_652SE_07012026_1.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-07T11:32:05.538",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec4780fe-033e-480c-b7fe-7c77c36631e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec4780fe-033e-480c-b7fe-7c77c36631e4"
+}
+}
+},
+{
+"uuid": "1e83f30f-f4cb-46bf-a23b-7955faafabca",
+"fileName": "Krediiditeabe_jagamise_seaduse_652_SE_eelnõu.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-07T11:32:05.528",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e83f30f-f4cb-46bf-a23b-7955faafabca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e83f30f-f4cb-46bf-a23b-7955faafabca"
+}
+}
+},
+{
+"uuid": "5924a85d-6674-42dc-a15d-29b17c45f904",
+"fileName": "AFG_seisukoht_krediiditeabe_jagamise_seaduse_eelnõu_652SE_07012026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-07T11:32:05.661",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5924a85d-6674-42dc-a15d-29b17c45f904/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5924a85d-6674-42dc-a15d-29b17c45f904"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d6d509db-e8cd-45df-a621-7b9951678563"
+}
+}
+},
+{
+"uuid": "6b04b100-9e89-491f-b52c-c09f5a6ff1fb",
+"reference": "1-1/15-652/13",
+"title": "Aktiva Finance Group OÜ täiendatud arvamus krediiditeabe jagamise seaduse eelnõu 652 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-04-16",
+"files": [
+{
+"uuid": "8d8f6ed8-2746-46c8-84a3-f706fdce6f54",
+"fileName": "Kediidiinkassode_ja_viivislaenude_hõlmamine_krediidiregistri_alla_-_täiendatud_versioon_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "E-kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-16T17:02:42.047",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d8f6ed8-2746-46c8-84a3-f706fdce6f54/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d8f6ed8-2746-46c8-84a3-f706fdce6f54"
+}
+}
+},
+{
+"uuid": "bf47f5e8-35f6-4374-abed-3a57c5477648",
+"fileName": "AFG_seisukoht_krediiditeabe_jagamise_seaduse_eelnõu_652SE_16042026_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-16T17:02:35.144",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf47f5e8-35f6-4374-abed-3a57c5477648/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf47f5e8-35f6-4374-abed-3a57c5477648"
+}
+}
+},
+{
+"uuid": "177f5afb-e086-4173-a82f-3fe7b52adee0",
+"fileName": "AFG_seisukoht_krediiditeabe_jagamise_seaduse_eelnou_652SE_16042026_1.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-16T17:02:00.653",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/177f5afb-e086-4173-a82f-3fe7b52adee0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/177f5afb-e086-4173-a82f-3fe7b52adee0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6b04b100-9e89-491f-b52c-c09f5a6ff1fb"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9da932aa-06d9-4eaa-ad47-be8fdaddc7d3"
+}
+}
+}

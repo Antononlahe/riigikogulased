@@ -1,0 +1,406 @@
+{
+"uuid": "1f326bdd-2693-421f-9d19-32a9cfa0df7d",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\"",
+"mark": 738,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\" 738 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Ettepanek Vabariigi Valitsusele töötada välja toetusmeetmed sealihasektori toetamiseks.",
+"initiated": "2025-09-25",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-10-09T17:15:00",
+"responsibleMember": {
+"uuid": "4a332fbb-be05-4cb2-b6a0-5916eb40fe89",
+"name": "Urmas Kruuse",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4a332fbb-be05-4cb2-b6a0-5916eb40fe89?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "c6c944c5-6a67-464d-b5cc-a95aaf9e6c3f",
+"name": "Marin Daniel",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/c6c944c5-6a67-464d-b5cc-a95aaf9e6c3f?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "b40076b0-a453-4efb-acda-2554015471d1",
+"name": "Maaelukomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/b40076b0-a453-4efb-acda-2554015471d1?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d188e268-5d01-7e93-0c22-3ae7f0c1e851",
+"name": "Sotsiaaldemokraatliku Erakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d188e268-5d01-7e93-0c22-3ae7f0c1e851?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 711,
+"text": "loomakasvatus"
+},
+{
+"edid": 1374,
+"text": "lihatööstus"
+},
+{
+"edid": 2356,
+"text": "loomakatk"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "44cf5278-35c5-455c-949c-13228af2ae8d",
+"title": "738 OE esimese lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6fb226f8-1968-4555-b6f2-130f22d9f787",
+"fileName": "738_RK_o_Ettepanek_VVle_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-18T11:42:20.82",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6fb226f8-1968-4555-b6f2-130f22d9f787/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6fb226f8-1968-4555-b6f2-130f22d9f787"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "17405159-f060-404f-92b5-8a1c1046140e",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9710ec1b-dd09-47df-b3ef-9ac48d660072",
+"fileName": "RK_o_Ettepanek_VVle_EN_29052025.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T12:14:55.024",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9710ec1b-dd09-47df-b3ef-9ac48d660072/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9710ec1b-dd09-47df-b3ef-9ac48d660072"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "17405159-f060-404f-92b5-8a1c1046140e",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a9a313a0-e55b-4422-8de2-40ce485cd590",
+"fileName": "738E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T15:08:11.72",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a9a313a0-e55b-4422-8de2-40ce485cd590/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a9a313a0-e55b-4422-8de2-40ce485cd590"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "44cf5278-35c5-455c-949c-13228af2ae8d",
+"title": "738 OE esimese lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b98dbfc0-2466-4fb2-8d51-561ca6e587bf",
+"fileName": "738_RK_o_Ettepanek_VVle_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-18T11:42:57.737",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b98dbfc0-2466-4fb2-8d51-561ca6e587bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b98dbfc0-2466-4fb2-8d51-561ca6e587bf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "17405159-f060-404f-92b5-8a1c1046140e",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1b177366-71ab-4df6-9767-4e1b125f0d0e",
+"fileName": "RK_o_Ettepanek_VVle_SE_25092025.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T12:14:55.013",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b177366-71ab-4df6-9767-4e1b125f0d0e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b177366-71ab-4df6-9767-4e1b125f0d0e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "17405159-f060-404f-92b5-8a1c1046140e",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0819e54b-1eb1-4dcc-a7b0-e74bed407bc7",
+"fileName": "738SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T15:08:28.019",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0819e54b-1eb1-4dcc-a7b0-e74bed407bc7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0819e54b-1eb1-4dcc-a7b0-e74bed407bc7"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-09-25T12:14:26.049",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-09-25T16:05:00.845",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-17T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 17.11.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2025-12-02T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "maaelukomisjoni esimees Urmas Kruuse"
+}
+],
+"protocolFiles": [
+{
+"uuid": "62bc3fa5-33df-42a1-9445-3dcf690bedd9",
+"fileName": "131_protokolli_lisa_1_REM_SAK_meetmed_17.11.25.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokolli lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-20T11:49:02.208",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62bc3fa5-33df-42a1-9445-3dcf690bedd9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62bc3fa5-33df-42a1-9445-3dcf690bedd9"
+}
+}
+},
+{
+"uuid": "9fa854aa-5b33-4dae-bab6-bb80e8fd477c",
+"fileName": "MAEK_protokoll_17.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-20T11:51:07.773",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9fa854aa-5b33-4dae-bab6-bb80e8fd477c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9fa854aa-5b33-4dae-bab6-bb80e8fd477c"
+}
+}
+},
+{
+"uuid": "e90a0cd2-ff54-45f5-8941-f2a747003040",
+"fileName": "131_protokolli_lisa_2_KA_Ebaausate_kaubandustavade_küsimustiku_kokkuvõte_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokolli lisa 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-20T11:49:26.018",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e90a0cd2-ff54-45f5-8941-f2a747003040/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e90a0cd2-ff54-45f5-8941-f2a747003040"
+}
+}
+},
+{
+"uuid": "297bda80-ae28-4921-b514-19b491172f00",
+"fileName": "131_MAEK_protokoll_17.11.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-20T11:48:39.757",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/297bda80-ae28-4921-b514-19b491172f00/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/297bda80-ae28-4921-b514-19b491172f00"
+}
+}
+}
+]
+},
+{
+"date": "2025-12-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.12.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "46b0dd80-9350-4722-ad30-a0693e9fa682",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-12-03T17:58:07.997",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/46b0dd80-9350-4722-ad30-a0693e9fa682"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "d236afb4-cc09-49cb-88bc-7a78c967f005",
+"reference": "1-1/15-738/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele\" eelnõu 738 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-11-18",
+"files": [
+{
+"uuid": "699eb29b-cf38-40c9-9a2e-268c4edd2123",
+"fileName": "319.tel_Arvamus_738_OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-18T12:06:12.497",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/699eb29b-cf38-40c9-9a2e-268c4edd2123/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/699eb29b-cf38-40c9-9a2e-268c4edd2123"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d236afb4-cc09-49cb-88bc-7a78c967f005"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/1f326bdd-2693-421f-9d19-32a9cfa0df7d"
+}
+}
+}

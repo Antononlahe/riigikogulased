@@ -1,0 +1,540 @@
+{
+"uuid": "1f95162c-690e-4c63-b1c4-fdcfd0274e69",
+"title": "Riigikogu kodu-  ja töökorra seaduse muutmise seadus",
+"mark": 757,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu kodu-  ja töökorra seaduse muutmise seadus 757 SE",
+"initialTitle": "Riigikogu kodu  ja töökorra seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga viiakse Riigikogu kodukorda säte, mille kohaselt on kõikidel Riigikogu liikmetel võimalik moodustada fraktsioone. Teiseks muudetakse eelnõuga Riigikogu tööaja korda, koondades kõik töönädala eelnõude hääletused ühele päevale. Kolmandaks sätestatakse, et arupärimisele vastaja peab vähemalt 24 tundi enne suulist vastamist Riigikogus esitama küsijale ja Riigikogu juhatusele kirjaliku vastuse. Neljandaks muudetakse kollektiivsetele pöördumistele vastamise ajaraame ja kohustatakse Riigikogu korraldama olulise tähtsusega riikliku küsimuse arutelu, kui kollektiivsele pöördumisele on antud 50 000 või rohkem allkirja.",
+"initiated": "2025-11-12",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9035e217-d990-40ca-87ed-54c77653c6d7",
+"name": "Pipi-Liis Siemann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9035e217-d990-40ca-87ed-54c77653c6d7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "b483f709-afa6-4dd9-a8d5-46345c917272",
+"name": "Karin Tuulik",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/b483f709-afa6-4dd9-a8d5-46345c917272?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "54bc0d5b-7c98-4245-8682-4a3a0b6e0275",
+"name": "Jaak Valge",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/54bc0d5b-7c98-4245-8682-4a3a0b6e0275?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "fd2d1dd5-ff19-445e-b190-28aabb07763a",
+"name": "Leo Kunnas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/fd2d1dd5-ff19-445e-b190-28aabb07763a?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5851,
+"text": "parlamendi töökord"
+},
+{
+"edid": 1197,
+"text": "fraktsioon"
+},
+{
+"edid": 1481,
+"text": "arupärimine"
+},
+{
+"edid": 2363,
+"text": "avaldus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "3f49ae2c-03d9-48c4-bf9f-58463980d416",
+"title": "757 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3ae56779-0861-47f4-90a1-30110fccc122",
+"fileName": "757_RKKTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T13:42:35.698",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ae56779-0861-47f4-90a1-30110fccc122/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ae56779-0861-47f4-90a1-30110fccc122"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3fc0ba33-345c-4136-8ac8-1757481cb1d8",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "38d013f3-6380-4ca2-bd13-1efdf790c030",
+"fileName": "RKKTS_eelnou_variant_2_.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T14:31:18.232",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/38d013f3-6380-4ca2-bd13-1efdf790c030/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/38d013f3-6380-4ca2-bd13-1efdf790c030"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3fc0ba33-345c-4136-8ac8-1757481cb1d8",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "77945a60-4df8-4b9d-965b-6613241f8e31",
+"fileName": "757_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T15:41:49.799",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/77945a60-4df8-4b9d-965b-6613241f8e31/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/77945a60-4df8-4b9d-965b-6613241f8e31"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "3f49ae2c-03d9-48c4-bf9f-58463980d416",
+"title": "757 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8339ff15-9c02-464e-aafc-14d42974884e",
+"fileName": "757_RKKTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T13:42:52.746",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8339ff15-9c02-464e-aafc-14d42974884e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8339ff15-9c02-464e-aafc-14d42974884e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3fc0ba33-345c-4136-8ac8-1757481cb1d8",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fdc387a8-88db-406a-8548-236a5b485c9f",
+"fileName": "RKKTS_eelnou_seletuskirja_variant_2-1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T14:37:26.762",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fdc387a8-88db-406a-8548-236a5b485c9f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fdc387a8-88db-406a-8548-236a5b485c9f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3fc0ba33-345c-4136-8ac8-1757481cb1d8",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a3464da1-52b6-4d0a-b427-2ae0bebec9d0",
+"fileName": "757_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T15:42:03.118",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a3464da1-52b6-4d0a-b427-2ae0bebec9d0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a3464da1-52b6-4d0a-b427-2ae0bebec9d0"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-11-12T14:29:07.428",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-11-13T15:51:00.112",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-02-09T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 9.02.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-02-18T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Pipi-Liis Siemann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "66c26903-2049-41b3-95d6-afbd0625803f",
+"fileName": "PÕSK_protokoll_nr_147_09.02.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll 09.02.2026.pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-16T08:39:43.66",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/66c26903-2049-41b3-95d6-afbd0625803f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/66c26903-2049-41b3-95d6-afbd0625803f"
+}
+}
+},
+{
+"uuid": "0c0d9fa4-e2b0-418e-8b71-dac18b836c8d",
+"fileName": "Riigikogu_põhiseaduskomisjoni_istungi_protokoll_nr_147.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll 09.02.2026.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-16T08:41:15.224",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c0d9fa4-e2b0-418e-8b71-dac18b836c8d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c0d9fa4-e2b0-418e-8b71-dac18b836c8d"
+}
+}
+}
+]
+},
+{
+"date": "2026-02-18T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 18.02.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "3dd663ef-aaf1-44ee-a10c-176d18f80a87",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-02-18T22:46:23.09",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/3dd663ef-aaf1-44ee-a10c-176d18f80a87"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "29715cba-1905-470a-8b0f-e4589007785f",
+"reference": "1-1/15-757/2",
+"title": "Vabariigi Valitsuse arvamuse andmisest loobumine Riigikogu kodu- ja töökorra seaduse muutmise seaduse eelnõu 757 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-12-15",
+"files": [
+{
+"uuid": "9920b2dd-fd19-4443-94bb-3a69c5938024",
+"fileName": "25-02106-3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-15T12:55:50.651",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9920b2dd-fd19-4443-94bb-3a69c5938024/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9920b2dd-fd19-4443-94bb-3a69c5938024"
+}
+}
+},
+{
+"uuid": "a62fa10d-66a5-4588-8015-9c6e2262cd9f",
+"fileName": "757_SE_RK_25-02106-3.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-15T12:55:50.578",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a62fa10d-66a5-4588-8015-9c6e2262cd9f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a62fa10d-66a5-4588-8015-9c6e2262cd9f"
+}
+}
+},
+{
+"uuid": "165211ad-243f-4f0e-9072-bfef5954a485",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-1259_-_Riigikogu_kodu-_ja_töökorra_seaduse_muutmise_seaduse_eelnõu_(757_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-15T12:55:50.664",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/165211ad-243f-4f0e-9072-bfef5954a485/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/165211ad-243f-4f0e-9072-bfef5954a485"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/29715cba-1905-470a-8b0f-e4589007785f"
+}
+}
+},
+{
+"uuid": "a5624c7f-f35d-4bba-b09e-eacbdb850f59",
+"reference": "1-1/15-757/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 757 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-11-12",
+"files": [
+{
+"uuid": "ecb286e1-9e8d-470b-a751-99f4a3b88e90",
+"fileName": "RKKTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T15:51:07.683",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ecb286e1-9e8d-470b-a751-99f4a3b88e90/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ecb286e1-9e8d-470b-a751-99f4a3b88e90"
+}
+}
+},
+{
+"uuid": "a8ade624-bf69-4e1c-908a-a4400a2b92c2",
+"fileName": "1-1-15-757-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_757_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-13T16:01:25.4",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a8ade624-bf69-4e1c-908a-a4400a2b92c2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a8ade624-bf69-4e1c-908a-a4400a2b92c2"
+}
+}
+},
+{
+"uuid": "366ed401-09cf-4d59-9c99-4b12db7885e2",
+"fileName": "757_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T15:51:25.349",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/366ed401-09cf-4d59-9c99-4b12db7885e2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/366ed401-09cf-4d59-9c99-4b12db7885e2"
+}
+}
+},
+{
+"uuid": "15b3023f-4d2f-405d-9000-9833259c39e0",
+"fileName": "757_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T15:51:39.031",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/15b3023f-4d2f-405d-9000-9833259c39e0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/15b3023f-4d2f-405d-9000-9833259c39e0"
+}
+}
+},
+{
+"uuid": "fc713404-b992-44a8-b2a2-0c747e0b7e28",
+"fileName": "RKKTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T15:50:52.316",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc713404-b992-44a8-b2a2-0c747e0b7e28/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc713404-b992-44a8-b2a2-0c747e0b7e28"
+}
+}
+},
+{
+"uuid": "3f233a78-5dd3-4d89-b632-507304ed2927",
+"fileName": "241113_RKKTS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-13T16:00:21.857",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f233a78-5dd3-4d89-b632-507304ed2927/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f233a78-5dd3-4d89-b632-507304ed2927"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a5624c7f-f35d-4bba-b09e-eacbdb850f59"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/1f95162c-690e-4c63-b1c4-fdcfd0274e69"
+}
+}
+}

@@ -1,0 +1,714 @@
+{
+"uuid": "60d559df-4fe4-411a-9878-007ed7bccdc0",
+"etid": 593,
+"code": "5616",
+"text": "põllumajandustootmine",
+"descriptors": [
+{
+"edid": 2814,
+"text": "põllumajanduslik kinnisvara",
+"code": "2814",
+"uuid": "416befc6-eba3-d713-0ad0-6eed1b4d2707",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandusomand"
+],
+"narrowTerms": [
+"402348ec-9c05-4ed7-acbf-cfe5fa6189a3",
+"6da95aea-9479-4c21-58be-a2602e9de872",
+"5a6efe7f-be86-fa69-3d0f-ed4f3f1a5c59",
+"23b44647-ebf1-49b2-967f-de61690ac709",
+"720dd005-685a-d49a-7bfe-28a64583dbb1",
+"fdaf2ab3-3acf-3826-38ed-69f58f52b486"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2813,
+"text": "maaomand",
+"code": "2813",
+"uuid": "45755110-f9ea-bde5-d682-f87550e06d80",
+"vol_cnt": 35,
+"scopeNotes": [],
+"usedFors": [
+"maaõigus"
+],
+"narrowTerms": [
+"2b037111-33c3-74ad-0eb0-661679b96187"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/45755110-f9ea-bde5-d682-f87550e06d80"
+}
+}
+},
+{
+"edid": 6311,
+"text": "maapoliitika",
+"code": "6311",
+"uuid": "a3419fe2-d3b9-4e63-b6be-f6a3c8ef4865",
+"vol_cnt": 1,
+"scopeNotes": [
+"Maa jagamist ja omandiõigust käsitlev poliitika."
+],
+"usedFors": [
+"agraarpoliitika"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a3419fe2-d3b9-4e63-b6be-f6a3c8ef4865"
+}
+}
+},
+{
+"edid": 1805,
+"text": "maaturg",
+"code": "1805",
+"uuid": "5463ab49-82e9-4e7e-9a88-aeaee78d3daa",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5463ab49-82e9-4e7e-9a88-aeaee78d3daa"
+}
+}
+},
+{
+"edid": 2995,
+"text": "metsaomand",
+"code": "2995",
+"uuid": "4c5f16b4-18b1-df27-9beb-72868fa62be0",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"9dfd7f16-845c-421e-85dc-f91fe2cf0826",
+"0ef3da78-a843-c0fa-2ccf-aa94573f63d9"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4c5f16b4-18b1-df27-9beb-72868fa62be0"
+}
+}
+},
+{
+"edid": 4337,
+"text": "talu pindala",
+"code": "4337",
+"uuid": "a784646f-ffe0-4041-8aba-7c8f20dc1919",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"talu suurus"
+],
+"narrowTerms": [
+"8f3f6307-4acf-4b16-80e6-f3962d031960",
+"fd44904c-a02c-46f4-8750-58abc2d2af8f",
+"c0bfed28-3f57-4a91-be04-233c93efc4d1",
+"5ee6ace6-31ef-42d3-bfe1-07ea105c1959",
+"dd9bf05c-7792-48d2-90a6-c591a22c767f",
+"27dfcbc7-6eb0-48eb-9983-47cfdf9f3827"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a784646f-ffe0-4041-8aba-7c8f20dc1919"
+}
+}
+},
+{
+"edid": 4312,
+"text": "talumajapidamiste üleandmine",
+"code": "4312",
+"uuid": "94163819-37ac-4267-b59f-58e95fbc728d",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"talumajapidamise pärandamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/94163819-37ac-4267-b59f-58e95fbc728d"
+}
+}
+},
+{
+"edid": 962,
+"text": "valdusvorm",
+"code": "962",
+"uuid": "4399ed7d-17d1-426e-8789-f4e63cb777f5",
+"vol_cnt": 0,
+"scopeNotes": [
+"Maaomaniku ja maad hariva talupidaja vahelised suhted."
+],
+"usedFors": [],
+"narrowTerms": [
+"3b47194c-0ef3-4b39-b530-840459cec3a0",
+"dc34b1f1-ecf2-4cab-a393-66184fcae56c",
+"75f5246f-9524-4703-9d71-8c08b4a24fe1",
+"cbd807f5-9e85-4a29-9a45-7a65f80eaff7",
+"78aa7c83-efc5-446f-b43a-326b07a3070a"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4399ed7d-17d1-426e-8789-f4e63cb777f5"
+}
+}
+},
+{
+"edid": 5093,
+"text": "vara omandamine",
+"code": "5093",
+"uuid": "e3991be7-c090-9180-0896-9c7dd9d9b609",
+"vol_cnt": 29,
+"scopeNotes": [],
+"usedFors": [
+"juurdepääs varale"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e3991be7-c090-9180-0896-9c7dd9d9b609"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/416befc6-eba3-d713-0ad0-6eed1b4d2707"
+}
+}
+},
+{
+"edid": 4358,
+"text": "põllumajandustootmine",
+"code": "4358",
+"uuid": "582c66e4-fb0d-4564-a7f2-d8155eadb8db",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"79549290-8b48-4661-ab92-886d2d092269",
+"3af5cf44-4568-4bd4-8ba5-9de71e58f01d",
+"8980171b-53d4-4c78-8763-497a5741e9ba",
+"2ae4bce1-91c5-4565-9e28-296ba33cf615",
+"27ed5177-b588-4dee-a14a-c2980d2aadc9",
+"8fb2e5a0-ff98-4993-b5be-6a1f3c82dd3b",
+"cc72ad5d-fde8-4194-8cb7-94d843ff8cec",
+"8f8347f4-145b-4032-9324-c2dc8238a0ae"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/582c66e4-fb0d-4564-a7f2-d8155eadb8db"
+}
+}
+},
+{
+"edid": 3605,
+"text": "põllumajanduse tulemuslikkus",
+"code": "3605",
+"uuid": "d22de786-4fbf-4af0-87d0-212407176bb8",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"6e6d8a65-e4c2-45cf-ae6b-660049e98aee",
+"f7a31846-2b12-b353-88f9-4b3d918f0f09",
+"7788b8af-48bb-4ce4-9a67-1e31dd5626ec",
+"4758ae8a-3c86-447f-8395-455129eef304",
+"d65284df-94d6-4c5f-bb2c-c20b8d22e107"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4842,
+"text": "kasum",
+"code": "4842",
+"uuid": "b2041506-298b-576f-cb26-364a8cca87d5",
+"vol_cnt": 15,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b2041506-298b-576f-cb26-364a8cca87d5"
+}
+}
+},
+{
+"edid": 3083,
+"text": "põllumajanduse arvepidamine",
+"code": "3083",
+"uuid": "dbf87d16-3bcc-4af5-8a66-d3290b0cb100",
+"vol_cnt": 12,
+"scopeNotes": [
+"Sisaldab kõiki põllumajandustegevuse andmeid, teeb võimalikuks nende võrdlemise ja lihtsustab nende lisamist majandusstatistikasse."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dbf87d16-3bcc-4af5-8a66-d3290b0cb100"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d22de786-4fbf-4af0-87d0-212407176bb8"
+}
+}
+},
+{
+"edid": 2551,
+"text": "põllumajandusega tegelev aktiivne elanikkond",
+"code": "2551",
+"uuid": "045e297d-745f-4706-9736-4ce5211a04ff",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"e51092d8-9eb9-4de9-abcb-45b989f77a88",
+"7aae08e3-be90-455c-90a1-dd9f669425bf",
+"47b8eae0-4e1c-4ba0-bb62-fc3974ae1f89",
+"c3c53564-123d-415a-841c-ff9a00c93dd5",
+"02b0f19e-2f0f-47b8-bc89-77385827c929"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2558,
+"text": "maarahvastik",
+"code": "2558",
+"uuid": "b68285ac-cb09-4e91-8e05-f0ffa505771b",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"0da41ff6-fcd9-4518-aa1b-71eb66676667"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b68285ac-cb09-4e91-8e05-f0ffa505771b"
+}
+}
+},
+{
+"edid": 2550,
+"text": "töötav elanikkond",
+"code": "2550",
+"uuid": "58add7a5-ece3-4ce0-9f95-3e6bc50ad4a0",
+"vol_cnt": 6,
+"scopeNotes": [
+"Tööealised nimesed, kes teevad palgatööd või otsivad tööd."
+],
+"usedFors": [],
+"narrowTerms": [
+"27a50308-1973-46de-a97c-777b25973e3c",
+"0317bde4-10e1-4c44-85a6-2fb18dd49fd0",
+"e142db92-d663-96c8-d6c0-9ea61a4aaddf"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/58add7a5-ece3-4ce0-9f95-3e6bc50ad4a0"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/045e297d-745f-4706-9736-4ce5211a04ff"
+}
+}
+},
+{
+"edid": 937,
+"text": "põllumajandusettevõte",
+"code": "937",
+"uuid": "fb8061ff-032b-461e-9697-5d8d778780fc",
+"vol_cnt": 12,
+"scopeNotes": [],
+"usedFors": [
+"talu"
+],
+"narrowTerms": [
+"be10ef25-4bc1-4765-9d27-8c03fc62e075",
+"569bb28e-1625-4a8e-b2cd-b8183ad67f73",
+"eb8bb39d-9703-4717-b743-07b249eb9c49",
+"a784646f-ffe0-4041-8aba-7c8f20dc1919"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3341,
+"text": "maaturism",
+"code": "3341",
+"uuid": "954bb0dc-570f-4920-aebe-36a6b58e3b04",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"loodusturism",
+"roheline turism",
+"taluturism"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/954bb0dc-570f-4920-aebe-36a6b58e3b04"
+}
+}
+},
+{
+"edid": 984,
+"text": "näidistalu",
+"code": "984",
+"uuid": "2624fe44-708b-4005-bb4e-00027ff987c3",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2624fe44-708b-4005-bb4e-00027ff987c3"
+}
+}
+},
+{
+"edid": 1898,
+"text": "põllumajandusloom",
+"code": "1898",
+"uuid": "74eeba3a-488c-529f-4a56-c65e8a6ae76b",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"e9cf99dc-4a8f-4b22-a5e7-76e1aadc6dcd",
+"c9d06a75-2c2e-473d-9790-9981d10152a5"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/74eeba3a-488c-529f-4a56-c65e8a6ae76b"
+}
+}
+},
+{
+"edid": 4298,
+"text": "põllumajandusstruktuur",
+"code": "4298",
+"uuid": "ca0eaedd-cb9e-4ce3-b264-843c79a7c177",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandustootmise struktuur",
+"talumajapidamise struktuur"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ca0eaedd-cb9e-4ce3-b264-843c79a7c177"
+}
+}
+},
+{
+"edid": 1958,
+"text": "talumajapidamise kaasajastamine",
+"code": "1958",
+"uuid": "13a91b16-fd28-40ba-aa45-a1c02f21a360",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandusstruktuuride moderniseerimine",
+"talumajapidamise areng"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/13a91b16-fd28-40ba-aa45-a1c02f21a360"
+}
+}
+},
+{
+"edid": 3682,
+"text": "talumajapidamise tulu",
+"code": "3682",
+"uuid": "4758ae8a-3c86-447f-8395-455129eef304",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandustulu"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4758ae8a-3c86-447f-8395-455129eef304"
+}
+}
+},
+{
+"edid": 4312,
+"text": "talumajapidamiste üleandmine",
+"code": "4312",
+"uuid": "94163819-37ac-4267-b59f-58e95fbc728d",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"talumajapidamise pärandamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/94163819-37ac-4267-b59f-58e95fbc728d"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fb8061ff-032b-461e-9697-5d8d778780fc"
+}
+}
+},
+{
+"edid": 962,
+"text": "valdusvorm",
+"code": "962",
+"uuid": "4399ed7d-17d1-426e-8789-f4e63cb777f5",
+"vol_cnt": 0,
+"scopeNotes": [
+"Maaomaniku ja maad hariva talupidaja vahelised suhted."
+],
+"usedFors": [],
+"narrowTerms": [
+"3b47194c-0ef3-4b39-b530-840459cec3a0",
+"dc34b1f1-ecf2-4cab-a393-66184fcae56c",
+"75f5246f-9524-4703-9d71-8c08b4a24fe1",
+"cbd807f5-9e85-4a29-9a45-7a65f80eaff7",
+"78aa7c83-efc5-446f-b43a-326b07a3070a"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 579,
+"text": "agraarõigus",
+"code": "579",
+"uuid": "2a5c9900-048a-426a-9869-73718b9be7ae",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandusalased õigusaktid",
+"põllumajandusõigus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2a5c9900-048a-426a-9869-73718b9be7ae"
+}
+}
+},
+{
+"edid": 3009,
+"text": "maaomandi süsteem",
+"code": "3009",
+"uuid": "6da95aea-9479-4c21-58be-a2602e9de872",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"99648598-d1b0-0640-4ed7-ddd478b9661b",
+"f39a3c41-ad59-4cf1-b0c0-478b17d8469f"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6da95aea-9479-4c21-58be-a2602e9de872"
+}
+}
+},
+{
+"edid": 6311,
+"text": "maapoliitika",
+"code": "6311",
+"uuid": "a3419fe2-d3b9-4e63-b6be-f6a3c8ef4865",
+"vol_cnt": 1,
+"scopeNotes": [
+"Maa jagamist ja omandiõigust käsitlev poliitika."
+],
+"usedFors": [
+"agraarpoliitika"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a3419fe2-d3b9-4e63-b6be-f6a3c8ef4865"
+}
+}
+},
+{
+"edid": 2814,
+"text": "põllumajanduslik kinnisvara",
+"code": "2814",
+"uuid": "416befc6-eba3-d713-0ad0-6eed1b4d2707",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandusomand"
+],
+"narrowTerms": [
+"402348ec-9c05-4ed7-acbf-cfe5fa6189a3",
+"6da95aea-9479-4c21-58be-a2602e9de872",
+"5a6efe7f-be86-fa69-3d0f-ed4f3f1a5c59",
+"23b44647-ebf1-49b2-967f-de61690ac709",
+"720dd005-685a-d49a-7bfe-28a64583dbb1",
+"fdaf2ab3-3acf-3826-38ed-69f58f52b486"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/416befc6-eba3-d713-0ad0-6eed1b4d2707"
+}
+}
+},
+{
+"edid": 4298,
+"text": "põllumajandusstruktuur",
+"code": "4298",
+"uuid": "ca0eaedd-cb9e-4ce3-b264-843c79a7c177",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandustootmise struktuur",
+"talumajapidamise struktuur"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ca0eaedd-cb9e-4ce3-b264-843c79a7c177"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4399ed7d-17d1-426e-8789-f4e63cb777f5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/60d559df-4fe4-411a-9878-007ed7bccdc0"
+}
+}
+}

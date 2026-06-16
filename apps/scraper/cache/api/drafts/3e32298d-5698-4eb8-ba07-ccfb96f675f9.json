@@ -1,0 +1,350 @@
+{
+"uuid": "3e32298d-5698-4eb8-ba07-ccfb96f675f9",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele sulgeda Eesti Vabariigi ja Vene Föderatsiooni ajutine kontrolljoon“",
+"mark": 722,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele sulgeda Eesti Vabariigi ja Vene Föderatsiooni ajutine kontrolljoon“ 722 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele sulgeda Eesti Vabariigi ja Vene Föderatsiooni ajutine kontrolljoon“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on kohustada Vabariigi Valitsust hindama ja rakendama meetmeid, mis tagaksid Eesti elanike ja riigi julgeoleku. Kontrolljoone sulgemine on üks võimalus vähendada riske, vältida ettenägematuid vahejuhtumeid ja tugevdada ajutise kontrolljoone  kaitset.",
+"initiated": "2025-09-16",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-09-30T17:15:00",
+"responsibleMember": {
+"uuid": "94351dfe-449e-48db-9396-06cf204ce22e",
+"name": "Jaanus Karilaid",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/94351dfe-449e-48db-9396-06cf204ce22e?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "2c5ed7f2-f3ac-4443-b962-170130e04c78",
+"name": "Linnar Liivamägi",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/2c5ed7f2-f3ac-4443-b962-170130e04c78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1114,
+"text": "piir"
+},
+{
+"edid": 5876,
+"text": "Venemaa"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9da2b929-e61b-447b-aa90-a6f87ddc9929",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele sulgeda Eesti Vabariigi ja Vene Föderatsiooni ajutine kontrolljoon“",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c960c045-dd0f-415d-bffd-c0001f6e8326",
+"fileName": "722_RK_o_Ettepanek_VVle_ajutise_kontrolljoone_sulgemiseks_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T13:04:38.783",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c960c045-dd0f-415d-bffd-c0001f6e8326/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c960c045-dd0f-415d-bffd-c0001f6e8326"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bca13c4e-c34d-4c03-883a-4334841de4e5",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "313c771b-9f80-448e-9eb3-195a7bf677f6",
+"fileName": "Ettepaneku_tegemine_ajutise_kontrolljoone_sulgemiseks_sept_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-16T10:53:54.549",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/313c771b-9f80-448e-9eb3-195a7bf677f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/313c771b-9f80-448e-9eb3-195a7bf677f6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bca13c4e-c34d-4c03-883a-4334841de4e5",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1b91c611-736a-45c1-baa4-74542e0d09de",
+"fileName": "722_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-16T10:58:43.312",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b91c611-736a-45c1-baa4-74542e0d09de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b91c611-736a-45c1-baa4-74542e0d09de"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9da2b929-e61b-447b-aa90-a6f87ddc9929",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele sulgeda Eesti Vabariigi ja Vene Föderatsiooni ajutine kontrolljoon“",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8076745c-a409-4766-8782-9181740ae542",
+"fileName": "722_RK_o_Ettepanek_VVle_ajutise_kontrolljoone_sulgemiseks_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T13:05:06.463",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8076745c-a409-4766-8782-9181740ae542/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8076745c-a409-4766-8782-9181740ae542"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bca13c4e-c34d-4c03-883a-4334841de4e5",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1c078b3e-a6fc-4f1a-ba9f-371704a7ae47",
+"fileName": "722_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-16T10:58:53.44",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c078b3e-a6fc-4f1a-ba9f-371704a7ae47/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c078b3e-a6fc-4f1a-ba9f-371704a7ae47"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-09-16T10:53:13.281",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-09-16T14:22:00.437",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-03T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 3.11.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-11-11T10:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+},
+"description": "Eelnõu vajab vastuvõtmiseks Riigikogu poolthäälteenamust (koosseisu häälteenamust ei ole vaja, kuna ettepaneku vastuvõtmine ei too kaasa VV poolt eelnõu algatamise vajadust PS § 103 lg 2)."
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Jaanus Karilaid"
+}
+],
+"protocolFiles": [
+{
+"uuid": "3ea228c5-7e38-46f2-a41b-e9d0c2be7c35",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_95.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-07T17:03:07.141",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ea228c5-7e38-46f2-a41b-e9d0c2be7c35/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ea228c5-7e38-46f2-a41b-e9d0c2be7c35"
+}
+}
+},
+{
+"uuid": "19f3f0cf-30cd-427f-a50e-e687342da5be",
+"fileName": "ÕIGK_protokoll_03.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-07T17:03:40.613",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/19f3f0cf-30cd-427f-a50e-e687342da5be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/19f3f0cf-30cd-427f-a50e-e687342da5be"
+}
+}
+},
+{
+"uuid": "672654d0-4abf-4d86-a0a4-836529a9c029",
+"fileName": "(Lisa_1)_AÕS_eelnõu_tutvustus.pptx",
+"fileExtension": "pptx",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-06T11:35:02.607",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/672654d0-4abf-4d86-a0a4-836529a9c029/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/672654d0-4abf-4d86-a0a4-836529a9c029"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-11T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 11.11.2025 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "f47403d2-84f4-4e5c-8ab4-48cd32e0bc2c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2025-11-11T11:23:45.38",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f47403d2-84f4-4e5c-8ab4-48cd32e0bc2c"
+}
+}
+},
+{
+"uuid": "4240d070-4853-439a-a9a7-5ce627d27c1e",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-11-11T12:32:02.83",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/4240d070-4853-439a-a9a7-5ce627d27c1e"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/3e32298d-5698-4eb8-ba07-ccfb96f675f9"
+}
+}
+}

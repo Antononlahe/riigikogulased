@@ -1,0 +1,550 @@
+{
+"uuid": "285c6a21-acc1-44c3-a946-0561f20c86b9",
+"title": "Riigikogu liikme staatuse seaduse ja Kohaliku omavalitsuse korralduse seaduse muutmise seadus",
+"mark": 750,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu liikme staatuse seaduse ja Kohaliku omavalitsuse korralduse seaduse muutmise seadus 750 SE",
+"initialTitle": "Riigikogu liikme staatuse seaduse ja Kohaliku omavalitsuse korralduse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga sätestatakse, et kui isik on valitud Riigikogu liikmeks või Euroopa Parlamendi liikmeks, siis ei saa ta samal ajal jätkata volikogu liikmena valla- või linnavolikogus. Volikogu liikme staatus peatub seniks, kuni isik on Riigikogu liige või Euroopa Parlamendi liige.",
+"initiated": "2025-11-03",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9035e217-d990-40ca-87ed-54c77653c6d7",
+"name": "Pipi-Liis Siemann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9035e217-d990-40ca-87ed-54c77653c6d7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a62b7530-a1fb-4c0b-b041-f10c2cfaa31a",
+"name": "Andrei Korobeinik",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/a62b7530-a1fb-4c0b-b041-f10c2cfaa31a?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3036,
+"text": "mitmel ametikohal olemine"
+},
+{
+"edid": 2248,
+"text": "Euroopa Parlamendi liige"
+},
+{
+"edid": 2246,
+"text": "parlamendiliige"
+},
+{
+"edid": 68,
+"text": "kohalik omavalitsus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0244cb9f-b6d3-4b71-88df-6c5ba4052ea1",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6fee5b07-73fd-4284-b612-a71c83f5a027",
+"fileName": "750_RKLS_KOKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-15T11:23:14.622",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6fee5b07-73fd-4284-b612-a71c83f5a027/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6fee5b07-73fd-4284-b612-a71c83f5a027"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "281265be-37af-4682-89cc-1bd423d59786",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9ceaa32a-4d98-4d30-b265-f70ce4fe21b6",
+"fileName": "nov2025RK_liikme_osalemine_KOV_töös.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T16:44:13.923",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9ceaa32a-4d98-4d30-b265-f70ce4fe21b6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9ceaa32a-4d98-4d30-b265-f70ce4fe21b6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "281265be-37af-4682-89cc-1bd423d59786",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b65d1e66-8dd7-47e9-b72a-e9aacf305906",
+"fileName": "750_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T16:24:08.505",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b65d1e66-8dd7-47e9-b72a-e9aacf305906/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b65d1e66-8dd7-47e9-b72a-e9aacf305906"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0244cb9f-b6d3-4b71-88df-6c5ba4052ea1",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a38dfa33-93fc-40c7-b259-3de297da4f03",
+"fileName": "750_RKLS_KOKS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-15T11:24:02.066",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a38dfa33-93fc-40c7-b259-3de297da4f03/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a38dfa33-93fc-40c7-b259-3de297da4f03"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "281265be-37af-4682-89cc-1bd423d59786",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "648830a4-9b79-4e9c-b5df-e4153e7eea23",
+"fileName": "750_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T16:25:46.494",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/648830a4-9b79-4e9c-b5df-e4153e7eea23/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/648830a4-9b79-4e9c-b5df-e4153e7eea23"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-11-03T15:49:51.406",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-11-04T14:13:00.732",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-01-12T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 12.01.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-01-21T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Pipi-Liis Siemann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "d1135d30-386e-473e-a953-6d3aecb22736",
+"fileName": "asendus2._PSK_12.01.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (M. Klaassen).asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T08:45:33.147",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d1135d30-386e-473e-a953-6d3aecb22736/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d1135d30-386e-473e-a953-6d3aecb22736"
+}
+}
+},
+{
+"uuid": "06512b3d-ea68-4af3-bedb-6f488f1ceba5",
+"fileName": "Asendusliikme_volikiri_(A._Korobeinik).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (A. Korobeinik).pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T08:43:56.573",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/06512b3d-ea68-4af3-bedb-6f488f1ceba5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/06512b3d-ea68-4af3-bedb-6f488f1ceba5"
+}
+}
+},
+{
+"uuid": "9734872d-088e-4380-a423-bfc47941fbe2",
+"fileName": "Riigikogu_põhiseaduskomisjoni_istungi_protokoll_nr_142.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll 12.01.2026.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T08:46:29.543",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9734872d-088e-4380-a423-bfc47941fbe2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9734872d-088e-4380-a423-bfc47941fbe2"
+}
+}
+},
+{
+"uuid": "bd154884-1070-4f04-ba50-e007edf23b47",
+"fileName": "asendus1_PSK_12.01.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (E.-N. Kross).asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T08:44:26.572",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bd154884-1070-4f04-ba50-e007edf23b47/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bd154884-1070-4f04-ba50-e007edf23b47"
+}
+}
+},
+{
+"uuid": "3f8371a4-3ad0-4e55-a96b-d57982541a45",
+"fileName": "PÕSK_protokoll_nr_142_12.01.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll 12.01.2026.pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T08:43:18.391",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f8371a4-3ad0-4e55-a96b-d57982541a45/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f8371a4-3ad0-4e55-a96b-d57982541a45"
+}
+}
+}
+]
+},
+{
+"date": "2026-01-20T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 20.01.2026 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "78c8cbcb-f8ee-469f-86b0-fb91b0d585b3",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-01-20T13:49:51.323",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/78c8cbcb-f8ee-469f-86b0-fb91b0d585b3"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "82ab85ab-36f7-4dcd-8aac-2487d15e0783",
+"reference": "1-1/15-750/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 750 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-11-03",
+"files": [
+{
+"uuid": "65b65a5b-9a85-4f91-88fe-a9ad3c0c4b63",
+"fileName": "RKLS_KOKS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T16:51:24.44",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/65b65a5b-9a85-4f91-88fe-a9ad3c0c4b63/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/65b65a5b-9a85-4f91-88fe-a9ad3c0c4b63"
+}
+}
+},
+{
+"uuid": "fb147230-4503-4804-b69c-8ffc086ecb7e",
+"fileName": "750_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T16:46:58.013",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb147230-4503-4804-b69c-8ffc086ecb7e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb147230-4503-4804-b69c-8ffc086ecb7e"
+}
+}
+},
+{
+"uuid": "317838e5-c555-4359-84f5-0860cb367e07",
+"fileName": "1-1-15-750-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_750_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-04T14:16:47.189",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/317838e5-c555-4359-84f5-0860cb367e07/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/317838e5-c555-4359-84f5-0860cb367e07"
+}
+}
+},
+{
+"uuid": "c493b6f3-c8fc-4849-bee7-037fccc50a5b",
+"fileName": "750_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T16:46:43.653",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c493b6f3-c8fc-4849-bee7-037fccc50a5b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c493b6f3-c8fc-4849-bee7-037fccc50a5b"
+}
+}
+},
+{
+"uuid": "c56340d8-0498-43c2-8d2f-36ef43242a7a",
+"fileName": "RKLS_KOKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T16:51:01.481",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c56340d8-0498-43c2-8d2f-36ef43242a7a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c56340d8-0498-43c2-8d2f-36ef43242a7a"
+}
+}
+},
+{
+"uuid": "4a0d99e3-fdf3-4ee2-8083-29e10b2f40ec",
+"fileName": "251104_RKLS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-04T14:15:04.276",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4a0d99e3-fdf3-4ee2-8083-29e10b2f40ec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4a0d99e3-fdf3-4ee2-8083-29e10b2f40ec"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/82ab85ab-36f7-4dcd-8aac-2487d15e0783"
+}
+}
+},
+{
+"uuid": "49319054-58e1-4c34-a496-e7ca54ccf41c",
+"reference": "1-1/15-750/2",
+"title": "Vabariigi Valitsuse arvamus Riigikogu liikme staatuse seaduse ja kohaliku omavalitsuse korralduse seaduse muutmise seaduse eelnõu 750 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-12-15",
+"files": [
+{
+"uuid": "b634ac39-cda3-4e4c-9ba5-ad1860b3e44f",
+"fileName": "8-29021_14.12.2025_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-15T12:49:15.623",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b634ac39-cda3-4e4c-9ba5-ad1860b3e44f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b634ac39-cda3-4e4c-9ba5-ad1860b3e44f"
+}
+}
+},
+{
+"uuid": "64b495a9-f6fe-4eae-bd91-4f41ab07a596",
+"fileName": "Riigikogu_liikme_staatuse_seaduse_ja_Kohaliku_omavalitsuse_korralduse_seaduse_muutmise_seaduse_eelnõu_(750_SE)_valitsuse_arvamuse_esitamine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-15T12:49:15.7",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64b495a9-f6fe-4eae-bd91-4f41ab07a596/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64b495a9-f6fe-4eae-bd91-4f41ab07a596"
+}
+}
+},
+{
+"uuid": "393074b9-2db0-434a-8be8-4d592f552ab1",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-1216_-_Riigikogu_liikme_staatuse_seaduse_ja_kohaliku_omavalitsuse_korralduse_seaduse_muutmise_seaduse_eelnõu_(750_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-15T12:49:15.714",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/393074b9-2db0-434a-8be8-4d592f552ab1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/393074b9-2db0-434a-8be8-4d592f552ab1"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/49319054-58e1-4c34-a496-e7ca54ccf41c"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/285c6a21-acc1-44c3-a946-0561f20c86b9"
+}
+}
+}

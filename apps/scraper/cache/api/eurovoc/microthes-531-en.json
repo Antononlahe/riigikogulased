@@ -1,0 +1,766 @@
+{
+"uuid": "3350eb5c-06bf-42af-b565-eb3a9a8c97bf",
+"etid": 531,
+"code": "1606",
+"text": "majanduspoliitika",
+"descriptors": [
+{
+"edid": 2402,
+"text": "majanduslik planeerimine",
+"code": "2402",
+"uuid": "0b28788a-1214-34d6-984e-10ed4d57bfb5",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"direktiivne planeerimine",
+"indikatiivne planeerimine",
+"normatiivne planeerimine",
+"planeerimine"
+],
+"narrowTerms": [
+"f0643b20-c32b-3730-bc0b-c99c07070b3b",
+"2c53b04a-0f55-a3b7-1592-726e636ecde6",
+"6a774e50-4d24-4cba-81f1-9b3277977eff",
+"8471397a-ea59-4550-a1dc-ed2a047ec34f"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2403,
+"text": "finantsplaneerimine",
+"code": "2403",
+"uuid": "d0060110-6274-4d60-8f52-572beb5d7449",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d0060110-6274-4d60-8f52-572beb5d7449"
+}
+}
+},
+{
+"edid": 2798,
+"text": "investeerimisprojekt",
+"code": "2798",
+"uuid": "5173c229-e901-46dc-8e27-530fcca32f27",
+"vol_cnt": 13,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5173c229-e901-46dc-8e27-530fcca32f27"
+}
+}
+},
+{
+"edid": 649,
+"text": "käsumajandus",
+"code": "649",
+"uuid": "4576fcf3-406e-417f-95c2-1f64812a525f",
+"vol_cnt": 0,
+"scopeNotes": [
+"Majandus, millesse riik sekkub, kuid ei juhi seda tsentraalselt."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4576fcf3-406e-417f-95c2-1f64812a525f"
+}
+}
+},
+{
+"edid": 657,
+"text": "plaanimajandus",
+"code": "657",
+"uuid": "f03e247a-412f-4190-9bd4-e6188018c21b",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f03e247a-412f-4190-9bd4-e6188018c21b"
+}
+}
+},
+{
+"edid": 2394,
+"text": "rahastamiskava",
+"code": "2394",
+"uuid": "138db6d4-5de9-47b0-aa34-04ec691c9174",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"finantseerimisprogramm"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/138db6d4-5de9-47b0-aa34-04ec691c9174"
+}
+}
+},
+{
+"edid": 2518,
+"text": "struktuuripoliitika",
+"code": "2518",
+"uuid": "f99d5585-bf4e-4656-b21c-e11391ae32c0",
+"vol_cnt": 13,
+"scopeNotes": [],
+"usedFors": [
+"valdkondlik poliitika"
+],
+"narrowTerms": [
+"ae90bfa7-6cce-4fa6-a063-048183f8f9d3",
+"00d3b0a5-bb67-4b5c-9004-7e70d83982eb"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f99d5585-bf4e-4656-b21c-e11391ae32c0"
+}
+}
+},
+{
+"edid": 2399,
+"text": "tootmise planeerimine",
+"code": "2399",
+"uuid": "41603c4c-249c-4125-abb0-3802e665e8d5",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"6174e2b9-64f7-4376-826b-86fe8f4bc3cb"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/41603c4c-249c-4125-abb0-3802e665e8d5"
+}
+}
+},
+{
+"edid": 2400,
+"text": "transpordiplaneerimine",
+"code": "2400",
+"uuid": "07a379bd-2fe0-476f-5f7c-2ddd2b577912",
+"vol_cnt": 21,
+"scopeNotes": [],
+"usedFors": [
+"teedeplaan",
+"transpordiplaan"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/07a379bd-2fe0-476f-5f7c-2ddd2b577912"
+}
+}
+},
+{
+"edid": 2401,
+"text": "turu kavandamine",
+"code": "2401",
+"uuid": "f7f6a610-04fa-45cf-bc2e-fe02d2bfdec0",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f7f6a610-04fa-45cf-bc2e-fe02d2bfdec0"
+}
+}
+},
+{
+"edid": 2405,
+"text": "tööstusprojekteerimine",
+"code": "2405",
+"uuid": "bb4c0597-7bb3-47f4-a42d-fd4320182073",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bb4c0597-7bb3-47f4-a42d-fd4320182073"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0b28788a-1214-34d6-984e-10ed4d57bfb5"
+}
+}
+},
+{
+"edid": 2497,
+"text": "majanduspoliitika",
+"code": "2497",
+"uuid": "ab0bf30d-562e-4bd8-94d1-30b9bd03441f",
+"vol_cnt": 350,
+"scopeNotes": [],
+"usedFors": [
+"majanduslik lähenemisviis",
+"majanduslik valik"
+],
+"narrowTerms": [
+"d7e6789c-a31f-c4ba-9763-51f62462d923",
+"06cdf730-cb4e-48a8-92b5-953fd8fb83fd",
+"d8fa41be-3604-8a3b-bf1c-f902baa91f74",
+"da139d09-a3e3-4328-8497-4d51bc5925bd",
+"200c257b-c652-4ef0-824e-47b37eb9e7ac",
+"77218fb1-3a13-480c-b302-87a62c6dbb5e",
+"b40f997c-3165-46d3-9039-d6e3b03fa56f",
+"bb376a41-6021-4e91-8d04-da5323a79a73",
+"387f5d09-9896-4214-8293-72b377a2be1e",
+"bf1bfaff-a1d3-453d-9b55-fa1f73fdb20a",
+"3b48763a-c1de-4bc2-b2d1-764e7e6038fc",
+"8dcfba87-96d6-40be-abe2-b4ac3d09cac2",
+"f99d5585-bf4e-4656-b21c-e11391ae32c0",
+"5ce6168b-a145-4359-be7a-c84c4f72ca45",
+"542e2e5f-baea-4a7d-b5e5-7dd8d616755d"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2448,
+"text": "eelarvepoliitika",
+"code": "2448",
+"uuid": "6beefbb2-52e1-4f44-9d27-c1bc09683103",
+"vol_cnt": 171,
+"scopeNotes": [],
+"usedFors": [
+"eelarvedistsipliin",
+"eelarvereform",
+"iga-aastane eelarve"
+],
+"narrowTerms": [
+"7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a",
+"c2d4c50d-a155-47a2-bd6a-240fb34b17af",
+"5c562359-284f-4ed3-b49b-4d23126bf4c3",
+"4daf1de2-e0a0-442e-8c78-0d8868498dc6",
+"fd0e5b76-f295-6853-dc08-6e759171269d",
+"66796581-8dbc-4438-a759-9df262927ac1",
+"8126124a-18d8-4406-b8c4-41ef756ba803",
+"d0060110-6274-4d60-8f52-572beb5d7449",
+"cc78e88c-d861-4ff0-bcf4-53d8df0c0706"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6beefbb2-52e1-4f44-9d27-c1bc09683103"
+}
+}
+},
+{
+"edid": 5555,
+"text": "EMU poliitika kooskõlastamine",
+"code": "5555",
+"uuid": "436dd8bc-5cf0-44b9-8c65-2f2ea5430465",
+"vol_cnt": 39,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"44992420-b4f1-4e0c-8120-76a3265f0499",
+"dceb8a4a-2802-4484-a64e-c7f38f65639d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/436dd8bc-5cf0-44b9-8c65-2f2ea5430465"
+}
+}
+},
+{
+"edid": 2498,
+"text": "energiapoliitika",
+"code": "2498",
+"uuid": "9e32cc21-0b63-4001-05d9-fb18a90f94ec",
+"vol_cnt": 412,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"725fd3ad-9516-44a0-9dcf-8d21a108df2e",
+"4e49e8c6-8512-413f-8ecf-2dbbf4dea8c8",
+"8206bfd7-9f47-4742-9825-23b10361fdfc",
+"4e647fbe-bbde-4beb-84b0-b8c9693c9c63",
+"a0d260d9-480b-41f0-aef0-ed683fdaf7f0",
+"17280a56-37f5-44de-a629-59fedf1ef0fc",
+"8c1c42f9-cb4e-4693-b60c-82ea82db3a83",
+"d05639b7-3960-42ff-908b-d3f8052df733",
+"655d83af-c0b8-4c88-992f-d2e9a822fb46",
+"b9e031c1-bb0f-4252-b135-693c32f69320",
+"81261f4b-7168-4c89-9101-2726262ca376",
+"aa5fc365-4a79-40ad-87a6-085a1a329167",
+"a611c5d5-8d87-e350-727d-b021f4388642",
+"f1986d84-99b4-3e77-3e70-6669226158ef",
+"f1b1f65f-1319-4262-90fe-6b3d1211a4a1",
+"7c0a85bd-24f5-4aad-a42d-e219d7280fc9",
+"70a09656-b8db-4410-b493-05694ec2fe2d",
+"02677e2f-7393-484e-a0cf-0d6b96000bbc"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9e32cc21-0b63-4001-05d9-fb18a90f94ec"
+}
+}
+},
+{
+"edid": 2489,
+"text": "hinnapoliitika",
+"code": "2489",
+"uuid": "aab7f862-e73b-42a9-a36d-7aeed010024d",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"hinnasüsteem"
+],
+"narrowTerms": [
+"04c8d52c-80b5-c858-40bc-a4d7740896f5",
+"0ec62bf0-7c40-45ab-8fc8-512889e42e04",
+"59ff4820-4839-466a-975c-59fd0155a023",
+"8dfb880b-b33e-455b-b9f9-ea262f97f2bf",
+"ba0036bc-9b1d-463e-8776-cfbee0ca0b12",
+"f68ef8cb-5720-4446-8fca-080d452f75db",
+"f5750fee-838a-422a-8994-b74d03fde680",
+"07e7fc2a-7f1e-49c8-8baf-c452c94bc5bf",
+"ec84af46-5507-4292-3d79-6b75bfb0bac7",
+"65e8cc29-71d9-41c2-e86d-abec5d41877b",
+"aef51f77-bb55-4ad2-bf2a-875be660bbe1",
+"8f2fba87-1e2b-45bb-aa1d-472d9e2f960a"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/aab7f862-e73b-42a9-a36d-7aeed010024d"
+}
+}
+},
+{
+"edid": 2463,
+"text": "investeerimispoliitika",
+"code": "2463",
+"uuid": "2285c731-fd6d-4388-bae3-ad01006e38ff",
+"vol_cnt": 65,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"ad11030e-b157-46cb-b650-f363b40568ec",
+"5173c229-e901-46dc-8e27-530fcca32f27",
+"174a6913-2116-4258-bcdb-f27001927d8c",
+"36f91f32-4e92-0c03-9f99-17a4a0128d1e",
+"e9bd87fc-13f9-05da-3b7c-498ff9d398e6"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2285c731-fd6d-4388-bae3-ad01006e38ff"
+}
+}
+},
+{
+"edid": 2495,
+"text": "krediidipoliitika",
+"code": "2495",
+"uuid": "50e9aaa7-6d95-4d97-865f-ba3e5ffb3ab3",
+"vol_cnt": 40,
+"scopeNotes": [],
+"usedFors": [
+"laenumaht",
+"laenupoliitika",
+"panga intressipoliitika"
+],
+"narrowTerms": [
+"c93ce897-04cc-4901-a4fa-793d53950364",
+"2ea2b504-d419-457e-b221-b6c115b05136",
+"3537292b-7267-2013-edfa-7d25efb4279b",
+"3fb61327-35a3-4887-a214-22a2d73d74f4",
+"f0d5243c-27cc-ea27-6840-7dd43743d3d6",
+"a8d6cdd3-57f4-40ab-8c57-02baa7e8b2da"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/50e9aaa7-6d95-4d97-865f-ba3e5ffb3ab3"
+}
+}
+},
+{
+"edid": 112,
+"text": "lühiajalised majandusväljavaated",
+"code": "112",
+"uuid": "e4d7b6c1-6d30-4572-9b9d-241c21213d93",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"majandussuundumus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e4d7b6c1-6d30-4572-9b9d-241c21213d93"
+}
+}
+},
+{
+"edid": 427,
+"text": "majandusareng",
+"code": "427",
+"uuid": "c3f9d387-7f0d-4b20-9e3d-1a185fa500eb",
+"vol_cnt": 70,
+"scopeNotes": [],
+"usedFors": [
+"majanduse kasv"
+],
+"narrowTerms": [
+"cbde3415-11b4-4e3a-b926-20801a4f389f",
+"d74bec92-0191-4fcf-ba0a-389b0fdd4d07",
+"be5c8020-dd6e-4508-be59-487ed9d93944",
+"189809c4-85d5-412a-86f3-06fb9599ce0d",
+"4540cb3f-554f-45ff-9d3f-982ae13c274c",
+"58b3c6a9-5491-4975-82ae-52b984ae48d2",
+"014dbba7-6918-4307-b774-faf420f94734",
+"fd3e3daf-e696-4f74-b072-68804687cb42",
+"a7b51b55-8a6a-4092-8fe2-5fb4c4d55a3a",
+"306da1e4-fdfb-4582-a832-94079dff97e1",
+"86d9e805-3075-4833-9800-99638ab508c5",
+"5fcb5ec8-9a32-4907-9d80-8ebb7a6cd346",
+"9ce7770a-cb5b-45ab-8232-b013f6964336",
+"e820b682-cb2f-47a5-8e1a-2311149f4f0a"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c3f9d387-7f0d-4b20-9e3d-1a185fa500eb"
+}
+}
+},
+{
+"edid": 209,
+"text": "majanduskoostöö",
+"code": "209",
+"uuid": "948c3453-8fea-42f6-a439-774a8b1dda3f",
+"vol_cnt": 103,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/948c3453-8fea-42f6-a439-774a8b1dda3f"
+}
+}
+},
+{
+"edid": 2928,
+"text": "majandusleping",
+"code": "2928",
+"uuid": "24df2bb3-405b-4209-8b01-d2e64a53a5ed",
+"vol_cnt": 20,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/24df2bb3-405b-4209-8b01-d2e64a53a5ed"
+}
+}
+},
+{
+"edid": 2502,
+"text": "rahanduspoliitika",
+"code": "2502",
+"uuid": "f438ac49-0c6c-41ea-82d2-b38fd1afe3cd",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"finantsreform"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f438ac49-0c6c-41ea-82d2-b38fd1afe3cd"
+}
+}
+},
+{
+"edid": 2510,
+"text": "rahapoliitika",
+"code": "2510",
+"uuid": "e5c644d1-dabb-436c-af15-d57f54b0e7fe",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"monetaarpoliitika",
+"rahareform",
+"valuutareform",
+"valuutasituatsioon"
+],
+"narrowTerms": [
+"05e818d6-f18a-9c30-cb93-53db7b060353",
+"465e25b9-e94b-45cb-9cc3-7155d3ba72ae",
+"a228f16b-f855-47a0-9bb8-49b38dcf357c",
+"bb656efa-3198-4e2c-be89-dcb041b20f60"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e5c644d1-dabb-436c-af15-d57f54b0e7fe"
+}
+}
+},
+{
+"edid": 2481,
+"text": "tootmispoliitika",
+"code": "2481",
+"uuid": "e779d709-af04-4cdc-b58f-cfd195ad7266",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"tootmise ümberkorraldamine",
+"tootmisjuhtimine",
+"tööstusjuhtimine"
+],
+"narrowTerms": [
+"ffbe9e3f-2b15-4864-a227-aff956c56efc",
+"d652d5ae-8bca-4ffa-ad51-5741e4a0a0a1",
+"66b0a394-449a-4dc2-8c76-94122fec31d6",
+"20fa7cdd-423b-03a1-4936-99878c4a395e",
+"09bef20a-a256-4310-9cdf-5b5048419cb7",
+"41603c4c-249c-4125-abb0-3802e665e8d5",
+"6f021435-fa3b-4461-9557-7ecc71077003",
+"db48443d-fb4e-4c1e-a2f5-0af6e14383aa",
+"97dce76a-5d3a-4e1b-8afe-73403aed2edf",
+"491e53ff-880b-49b6-adc0-0436641c4a92",
+"a6d8bac9-9bf1-4c93-88c6-a82a37ddc4ea",
+"0d5b2b94-98c2-4a68-868e-fe3e1647ce3d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e779d709-af04-4cdc-b58f-cfd195ad7266"
+}
+}
+},
+{
+"edid": 2507,
+"text": "tööstuspoliitika",
+"code": "2507",
+"uuid": "ace6d913-4804-44fd-9a5d-59661a21fe8a",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"3c66f1f6-cb03-48d6-b6e9-3ca83f72620a",
+"db320505-3a64-4b67-b675-58ee8161adf0",
+"5f470e91-645a-4128-8195-225d5705d760",
+"76062c03-1af4-40c7-b5a6-a17c306608cf",
+"99e3697b-7107-4e96-a179-ebb5ca53f807",
+"19475310-f33b-4457-b502-ecf3af2437ec",
+"07d8dfc1-f76c-485b-a1cd-12383c4b568f",
+"ba4af957-2595-4990-824f-86bc2220a6b9",
+"3613f3b1-4d82-4bbc-89d5-939eb1006b0e",
+"f60577bb-f8d5-452e-8074-94204811130e",
+"04e3a865-fca0-47fc-a48a-c7501208968a",
+"2007bef4-b6bf-43ab-b1c0-89a5a60896dc",
+"7e5750e1-b555-40c0-9755-fad7989203da",
+"bb4c0597-7bb3-47f4-a42d-fd4320182073",
+"c32af56a-0363-4be2-8566-fab9380549c6",
+"cb1fed29-be3b-4f79-bb6d-280ab0c514a6",
+"bacdb32a-5746-482b-ac64-0faf2777227a",
+"c8a40fa2-dca0-442c-91b4-a9f6e85bf4dc"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ace6d913-4804-44fd-9a5d-59661a21fe8a"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ab0bf30d-562e-4bd8-94d1-30b9bd03441f"
+}
+}
+},
+{
+"edid": 712,
+"text": "majanduslik toetus",
+"code": "712",
+"uuid": "0ed133d2-a207-4c9f-9e32-7de43ae38fc3",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"abi",
+"abi andmine"
+],
+"narrowTerms": [
+"84235b01-7188-5c1d-edfc-515b3bc93009",
+"3eb5e6de-40a1-481a-b423-c4c446c0ade6",
+"a21103bc-c1ea-4b7e-b435-019644371874",
+"2062aa72-2071-105c-1321-3784adb7cfe3",
+"7b5fc267-00f6-89e7-4957-cbf4c00d159c",
+"0d68cdde-0ce9-4d09-b16c-974963c594da",
+"4e60cc3f-0d3d-44d4-a71c-37cde332a4d8",
+"0dfaec3c-c973-4004-9a09-91276ec614a6",
+"cc29f646-0a2e-1075-223b-512830033bc4",
+"042cd068-8188-070b-55ca-7ec296fe7688",
+"7b9a9aed-2b73-48ee-8919-1c948cd94383",
+"6c74e848-4139-4a97-bbfc-0cff0cc6e108",
+"76938610-17a3-8dae-fdae-63fd49157890",
+"cbc1b682-6372-4e92-8b9e-33dd48f88c00",
+"2a298361-0b1b-47f6-a3fb-60a33f6c15b1"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 899,
+"text": "majandusabi",
+"code": "899",
+"uuid": "fc025d74-2c43-40a0-a472-9c69914a3d38",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fc025d74-2c43-40a0-a472-9c69914a3d38"
+}
+}
+},
+{
+"edid": 2483,
+"text": "toetuspoliitika",
+"code": "2483",
+"uuid": "6108f11a-5ba1-4d08-9d69-f0fcffd68327",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"subsideerimine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6108f11a-5ba1-4d08-9d69-f0fcffd68327"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0ed133d2-a207-4c9f-9e32-7de43ae38fc3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/3350eb5c-06bf-42af-b565-eb3a9a8c97bf"
+}
+}
+}

@@ -1,0 +1,244 @@
+{
+"uuid": "9fd35b9d-cff4-4db8-9ed8-75b1a9126504",
+"etid": 604,
+"code": "6031",
+"text": "põllumajanduslikud toiduained",
+"descriptors": [
+{
+"edid": 656,
+"text": "põllumajanduslikud toiduained",
+"code": "656",
+"uuid": "a22f45c2-325e-4fb5-a015-817efe779756",
+"vol_cnt": 19,
+"scopeNotes": [
+"Kogu toiduainete valmistamisega seotud tegevus, mis koosneb tootmisest, säilitamisest, töötlemisest ja turustamisest."
+],
+"usedFors": [
+"põllumajanduslike toiduainete ringlus"
+],
+"narrowTerms": [
+"f5719dfa-f0b1-4fa9-b6b5-194460e39db2",
+"6305062f-09d8-47ff-8f89-a31689f492ed",
+"25a73d98-2ea3-413c-b9e3-4d802e721b40",
+"8b574814-875b-4c36-a1c5-be071fa5e9cd"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3796,
+"text": "biotööstus",
+"code": "3796",
+"uuid": "84f2f366-6820-45b7-ad63-cbe056b6a0c5",
+"vol_cnt": 5,
+"scopeNotes": [
+"Tööstusharu, mis kasutab biotehnoloogiat tööstuslikul ja kaubanduslikul tasemel."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/84f2f366-6820-45b7-ad63-cbe056b6a0c5"
+}
+}
+},
+{
+"edid": 4498,
+"text": "toiduainete töötlemine",
+"code": "4498",
+"uuid": "abf68014-7485-4594-b1da-c308964ed7da",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"toidu töötlemine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/abf68014-7485-4594-b1da-c308964ed7da"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a22f45c2-325e-4fb5-a015-817efe779756"
+}
+}
+},
+{
+"edid": 1360,
+"text": "toiduainetööstus",
+"code": "1360",
+"uuid": "6444885b-c372-4d36-8d9d-474c856fe10b",
+"vol_cnt": 17,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"e59dceba-7fb5-4e1a-acb6-0c764e3229d2",
+"d12d2056-dbc9-40d5-bf2e-0dade03177f2",
+"42f20a1d-e7bf-4a8b-b0af-7936c4a0383e",
+"d581f4b0-31eb-48e9-87ed-2ca6b5890f02",
+"40585dd7-d928-4c1d-b6bf-ab4d16a24693",
+"2170dc87-3967-482b-bda8-4142607954fc",
+"9710471c-db1a-4f21-a41e-693938bf1ab9",
+"a16e2e0a-eaed-41f8-b50f-9201800411d6",
+"54e1f592-86f5-410a-823a-9351cfee6361",
+"d0f98339-83fb-46ec-925e-48cf5123ebf4",
+"b2899c65-4e56-4259-8b31-71704f0f07a6",
+"7d320d83-baa5-1ad9-853c-676f3e8f73de",
+"00d08dcd-a019-4e8b-980d-20bb1d2e8fd0"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1372,
+"text": "kalatööstus",
+"code": "1372",
+"uuid": "8c2b3b18-55ac-4ccb-9474-e6088f5c7d33",
+"vol_cnt": 27,
+"scopeNotes": [],
+"usedFors": [
+"kalandustegevus",
+"kalapüük",
+"kalastus"
+],
+"narrowTerms": [
+"eb7737b7-136b-449b-a4fb-eabc85d8145e",
+"236aca55-71f9-47f0-aab9-c105e5ac6d7f",
+"513bdb2b-8617-4004-adc1-4bc6a657fd71",
+"6cb4f90d-4d29-f936-007f-3e46f0c92168",
+"05b65c6a-aae0-4707-9ad3-1d86a8e8ccd5",
+"59783c41-73b0-4f5b-b558-7837ac960c1e"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8c2b3b18-55ac-4ccb-9474-e6088f5c7d33"
+}
+}
+},
+{
+"edid": 1390,
+"text": "külmutustööstus",
+"code": "1390",
+"uuid": "76ebf790-072d-4bf5-9d43-d0a69cd87a73",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"jahutustööstus",
+"tööstuslik jahutamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/76ebf790-072d-4bf5-9d43-d0a69cd87a73"
+}
+}
+},
+{
+"edid": 2893,
+"text": "põllumajanduse ja tööstuse vahelised suhted",
+"code": "2893",
+"uuid": "e9f5f99d-4414-457a-ae6a-af948f0f795d",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e9f5f99d-4414-457a-ae6a-af948f0f795d"
+}
+}
+},
+{
+"edid": 1590,
+"text": "toiduaineseadusandlus",
+"code": "1590",
+"uuid": "e5ffe68c-1542-4285-b7dc-fa9370b3799c",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"toiduainemäärused"
+],
+"narrowTerms": [
+"fcaed0e0-5db5-41cd-81df-9875e11b71b9",
+"e5babe65-1dc1-63c5-28bf-743e52bab71f"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e5ffe68c-1542-4285-b7dc-fa9370b3799c"
+}
+}
+},
+{
+"edid": 4416,
+"text": "toidutehnoloogia",
+"code": "4416",
+"uuid": "d7cf7187-760e-4d94-a0eb-564f347a55b5",
+"vol_cnt": 0,
+"scopeNotes": [
+"Toidu töötlemisega seotud toimingud, seadmed ja meetmed."
+],
+"usedFors": [],
+"narrowTerms": [
+"6b05a1ba-6f37-49d8-ac7b-f40933498f79",
+"035c48ef-9caa-4cc5-a270-73e51d695e4f",
+"ca0d4397-7b4a-45b6-8551-f19597232ef4",
+"d6b42932-2ddd-4e90-9591-5adc319f0ab1",
+"ea5abbff-de49-44c2-9094-2d1d197acf40",
+"7e0195ee-5530-4839-8c2d-9b62bf382b7c",
+"ad24f060-92d7-4f36-a9eb-3acca32133b7",
+"abf68014-7485-4594-b1da-c308964ed7da",
+"dc54d681-020e-4860-b73b-168d46ae4bd4"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d7cf7187-760e-4d94-a0eb-564f347a55b5"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6444885b-c372-4d36-8d9d-474c856fe10b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/9fd35b9d-cff4-4db8-9ed8-75b1a9126504"
+}
+}
+}

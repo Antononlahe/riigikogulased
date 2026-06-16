@@ -1,0 +1,1008 @@
+{
+"uuid": "ecfdaf88-bc1e-4f50-a564-4f13aafc2cf5",
+"title": "Karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seadus",
+"mark": 695,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seadus 695 SE",
+"initialTitle": "Karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga viiakse Eesti õigus kooskõlla nelja Euroopa Liidu direktiivi nõuetega, mille puhul Euroopa Komisjon on algatanud Eesti suhtes rikkumismenetlused. Direktiivide ülevõtmisel ilmnenud puuduste kõrvaldamiseks tehakse vajalikud muudatused karistusseadustikus ja kriminaalmenetluse seadustikus.",
+"initiated": "2025-09-08",
+"joined": null,
+"accepted": "2025-12-10",
+"amendmentsDeadline": "2025-10-22T17:15:00",
+"responsibleMember": {
+"uuid": "07003549-aa42-4764-8bdd-cab06cb94a92",
+"name": "Anti Haugas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/07003549-aa42-4764-8bdd-cab06cb94a92?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "441c3c51-2f08-47f3-a36c-e4b310e17e78",
+"name": "Raini Laide",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/441c3c51-2f08-47f3-a36c-e4b310e17e78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 3027,
+"text": "arvutikuritegu"
+},
+{
+"edid": 3878,
+"text": "karistus"
+},
+{
+"edid": 3970,
+"text": "vahistamine"
+},
+{
+"edid": 953,
+"text": "väljaandmine"
+},
+{
+"edid": 758,
+"text": "laps"
+},
+{
+"edid": 2247,
+"text": "liidu õiguse riigisisene rakendamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da64b09e-5d05-4448-987d-6d75a92d9246",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "55f7de98-2eb8-432d-a9d9-2453775538ee",
+"fileName": "RK_25-01373-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T16:59:54.135",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/55f7de98-2eb8-432d-a9d9-2453775538ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/55f7de98-2eb8-432d-a9d9-2453775538ee"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da64b09e-5d05-4448-987d-6d75a92d9246",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e6a3bd5d-feef-42df-a92d-08f914898c0a",
+"fileName": "[EIS]_Eelnõu_esitamine__JDM-25-0286_-_Karistusseadustiku_ja_kriminaalmenetluse_seadustiku_muutmise_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T16:59:54.322",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e6a3bd5d-feef-42df-a92d-08f914898c0a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e6a3bd5d-feef-42df-a92d-08f914898c0a"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "f7b06d73-eb70-4a87-bc8a-0e65bc5053bb",
+"title": "Karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "804d99e7-6082-4000-9acf-ff3486211009",
+"fileName": "695SEII-tekst_toimetatud.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-26T13:28:53.484",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/804d99e7-6082-4000-9acf-ff3486211009/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/804d99e7-6082-4000-9acf-ff3486211009"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "f0186b9b-399b-4b7a-9457-d74bdf1b510f",
+"title": "Karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bff02c8c-5dfd-4773-9f36-719eac35f562",
+"fileName": "695SEIII-saalitekst.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-08T11:29:13.292",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bff02c8c-5dfd-4773-9f36-719eac35f562/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bff02c8c-5dfd-4773-9f36-719eac35f562"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4a488dca-fed7-4563-9cfc-483e2243f988",
+"title": "695 Karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "564ebcde-a968-41db-9587-8afecc4e7a13",
+"fileName": "695_KarS_KrMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-22T15:33:56.181",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/564ebcde-a968-41db-9587-8afecc4e7a13/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/564ebcde-a968-41db-9587-8afecc4e7a13"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da64b09e-5d05-4448-987d-6d75a92d9246",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1609e960-83ec-424d-956b-4e083193fdc6",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T16:59:54.238",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1609e960-83ec-424d-956b-4e083193fdc6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1609e960-83ec-424d-956b-4e083193fdc6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da64b09e-5d05-4448-987d-6d75a92d9246",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fd86cde3-d90b-479d-8549-92bda3696938",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T16:59:54.252",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fd86cde3-d90b-479d-8549-92bda3696938/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fd86cde3-d90b-479d-8549-92bda3696938"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da64b09e-5d05-4448-987d-6d75a92d9246",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3f34e71b-5cbe-4eb8-ae92-b7c6265b3f14",
+"fileName": "25-01373-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T16:59:54.22",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f34e71b-5cbe-4eb8-ae92-b7c6265b3f14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f34e71b-5cbe-4eb8-ae92-b7c6265b3f14"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "8a9ae40c-f331-4650-8024-2c975e2afc2f",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "62d3c17e-fec4-4ac6-a95c-fce4e2fe0431",
+"fileName": "695_Kaaskiri_Vabariigi_Presidendile_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-10T15:13:36.309",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62d3c17e-fec4-4ac6-a95c-fce4e2fe0431/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62d3c17e-fec4-4ac6-a95c-fce4e2fe0431"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "6801ae91-a74f-426d-b477-0a471cfb6d2e",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "edb2769a-5c3f-45ed-bb23-8305695d7b24",
+"fileName": "695XV_Karistus_ms_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-18T12:29:30.572",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/edb2769a-5c3f-45ed-bb23-8305695d7b24/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/edb2769a-5c3f-45ed-bb23-8305695d7b24"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "6801ae91-a74f-426d-b477-0a471cfb6d2e",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4c05bff4-79a6-4d52-9af1-f2b04b629983",
+"fileName": "695XV_Karistus_ms_2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-18T12:29:20.554",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c05bff4-79a6-4d52-9af1-f2b04b629983/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c05bff4-79a6-4d52-9af1-f2b04b629983"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "f7b06d73-eb70-4a87-bc8a-0e65bc5053bb",
+"title": "Karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a485f901-d136-4c9d-ba66-2d42f8d01b0e",
+"fileName": "695SEII-ME.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepankute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-26T13:29:49.915",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a485f901-d136-4c9d-ba66-2d42f8d01b0e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a485f901-d136-4c9d-ba66-2d42f8d01b0e"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "f7b06d73-eb70-4a87-bc8a-0e65bc5053bb",
+"title": "Karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "deeb128e-f253-4c4f-9d06-1115b8eb4a37",
+"fileName": "695SEII-SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-27T13:09:09.066",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/deeb128e-f253-4c4f-9d06-1115b8eb4a37/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/deeb128e-f253-4c4f-9d06-1115b8eb4a37"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4a488dca-fed7-4563-9cfc-483e2243f988",
+"title": "695 Karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c3ff2045-8900-47b5-b27a-e3278a002d1a",
+"fileName": "695_KarS_KrMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-22T15:34:27.846",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3ff2045-8900-47b5-b27a-e3278a002d1a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3ff2045-8900-47b5-b27a-e3278a002d1a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da64b09e-5d05-4448-987d-6d75a92d9246",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "620a2d23-d2c4-43df-8cb3-266fd9978a88",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T16:59:54.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/620a2d23-d2c4-43df-8cb3-266fd9978a88/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/620a2d23-d2c4-43df-8cb3-266fd9978a88"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da64b09e-5d05-4448-987d-6d75a92d9246",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "28ffe205-5055-41bb-a758-01c05e80b15f",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T16:59:54.277",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/28ffe205-5055-41bb-a758-01c05e80b15f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/28ffe205-5055-41bb-a758-01c05e80b15f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4a488dca-fed7-4563-9cfc-483e2243f988",
+"title": "695 Karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0ab1a2d2-16ce-40c5-b0cb-5ef227c5d93c",
+"fileName": "695_KarS_KrMS_m_s_SK_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (märkused ja ettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-22T15:34:50.684",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0ab1a2d2-16ce-40c5-b0cb-5ef227c5d93c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0ab1a2d2-16ce-40c5-b0cb-5ef227c5d93c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da64b09e-5d05-4448-987d-6d75a92d9246",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "37d19534-4e05-4e37-8c93-39ae8a41bd62",
+"fileName": "Seletuskirja_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (märkused ja ettepanekud) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T16:59:54.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/37d19534-4e05-4e37-8c93-39ae8a41bd62/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/37d19534-4e05-4e37-8c93-39ae8a41bd62"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da64b09e-5d05-4448-987d-6d75a92d9246",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2b7b42d9-4c56-4d00-b6cc-ac5d781dfeec",
+"fileName": "Seletuskirja_lisa.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa (märkused ja ettepanekud) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T16:59:54.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b7b42d9-4c56-4d00-b6cc-ac5d781dfeec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b7b42d9-4c56-4d00-b6cc-ac5d781dfeec"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "600f62e9-95a4-46ec-b47d-e66983db7ea0",
+"reference": "1-1/15-695/2",
+"title": "Vabariigi Presidendi otsus nr 639",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "71982ef4-f8c2-4c0b-9be0-aae4df299937",
+"fileName": "VP_18122025_o639.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-18T11:47:28.406",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/71982ef4-f8c2-4c0b-9be0-aae4df299937/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/71982ef4-f8c2-4c0b-9be0-aae4df299937"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "600f62e9-95a4-46ec-b47d-e66983db7ea0",
+"reference": "1-1/15-695/2",
+"title": "Vabariigi Presidendi otsus nr 639",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dbaae980-9536-4969-9001-0cce387194ad",
+"fileName": "VP_18122025_o639.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-18T11:47:28.308",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dbaae980-9536-4969-9001-0cce387194ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dbaae980-9536-4969-9001-0cce387194ad"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "8a9ae40c-f331-4650-8024-2c975e2afc2f",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7674a3f8-fb41-4f57-a821-7b7b9705bf9a",
+"fileName": "695XV_Karistus_ms_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-10T14:19:41.276",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7674a3f8-fb41-4f57-a821-7b7b9705bf9a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7674a3f8-fb41-4f57-a821-7b7b9705bf9a"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "8a9ae40c-f331-4650-8024-2c975e2afc2f",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d9573864-f1cd-4619-9f86-a18f1185539d",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-10T15:14:38.663",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9573864-f1cd-4619-9f86-a18f1185539d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9573864-f1cd-4619-9f86-a18f1185539d"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-09-08T16:59:23.602",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-09-09T14:39:00.002",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-09-22T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 22.09.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-10-08T14:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Anti Haugas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "e8c75a90-0bc9-435d-a05a-8634a6355e0b",
+"fileName": "(Lisa_1)_ÕIGK_arvamus_Riigikohtule_PSVJ_-_5-25-26_22092025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-30T21:39:24.778",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8c75a90-0bc9-435d-a05a-8634a6355e0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8c75a90-0bc9-435d-a05a-8634a6355e0b"
+}
+}
+},
+{
+"uuid": "740d7ce9-f739-4db0-8e3f-18797401e1c6",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_91.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T18:45:36.444",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/740d7ce9-f739-4db0-8e3f-18797401e1c6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/740d7ce9-f739-4db0-8e3f-18797401e1c6"
+}
+}
+},
+{
+"uuid": "fc0a5287-6c23-4a64-9377-089bb60e3737",
+"fileName": "ÕIGK_protokoll_22.09.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T18:47:30.389",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc0a5287-6c23-4a64-9377-089bb60e3737/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc0a5287-6c23-4a64-9377-089bb60e3737"
+}
+}
+}
+]
+},
+{
+"date": "2025-10-08T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 8.10.2025 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-17T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 17.11.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-12-03T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"description": "Eelnõu vajab vastuvõtmiseks Riigikogu koosseisu häälteenamust ehk vähemalt 51 poolthäält.",
+"plenaryAgendaDateTime": "2025-12-10T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "45592525-25c4-4cfb-8379-ff3d3cd209dd",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_99.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-24T16:18:55.704",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/45592525-25c4-4cfb-8379-ff3d3cd209dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/45592525-25c4-4cfb-8379-ff3d3cd209dd"
+}
+}
+},
+{
+"uuid": "5d662dd4-1788-4b69-b838-1e16cdf4f3e6",
+"fileName": "ÕIGK_protokoll_17.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-24T16:19:23.076",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5d662dd4-1788-4b69-b838-1e16cdf4f3e6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5d662dd4-1788-4b69-b838-1e16cdf4f3e6"
+}
+}
+}
+]
+},
+{
+"date": "2025-12-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.12.2025 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2025-12-10T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 10.12.2025 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "15a8876e-57fa-4ee1-9a0f-f358d08386af",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-12-10T14:18:06.933",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/15a8876e-57fa-4ee1-9a0f-f358d08386af"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-12-11T13:53:38.979",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2025-12-18T11:48:08.545",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2025-12-22T09:14:30.177",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "bd63ac94-8433-4feb-8016-da932f509b26",
+"reference": "1-1/15-560/15",
+"title": "Justiits- ja Digiministeeriumi arvamus kriminaalmenetluse seadustiku ja teiste seaduste muutmise seaduse (kohtumenetluse optimeerimine ja kohtulahendite avalikkus) eelnõu 560 SE ning karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seaduse eelnõu 695 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-11-03",
+"files": [
+{
+"uuid": "61975b1a-f97d-4249-87c8-3a071c7ae88d",
+"fileName": "Muudatusettepanekud_(560_SE)_ja_(695_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T08:20:27.634",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/61975b1a-f97d-4249-87c8-3a071c7ae88d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/61975b1a-f97d-4249-87c8-3a071c7ae88d"
+}
+}
+},
+{
+"uuid": "232283cd-b441-472d-832f-7d129157351a",
+"fileName": "8-18832-1_31.10.2025_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T08:20:27.551",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/232283cd-b441-472d-832f-7d129157351a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/232283cd-b441-472d-832f-7d129157351a"
+}
+}
+},
+{
+"uuid": "a7dbacaa-711b-4232-bb7a-6f159a53d58b",
+"fileName": "Muudatusettepanekud_(560_SE)_ja_(695_SE).html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T08:20:27.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a7dbacaa-711b-4232-bb7a-6f159a53d58b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a7dbacaa-711b-4232-bb7a-6f159a53d58b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/bd63ac94-8433-4feb-8016-da932f509b26"
+}
+}
+},
+{
+"uuid": "bd9c6e53-bafa-420e-8ca9-0cc3c1ec1114",
+"reference": "1-1/15-695/1",
+"title": "Kaasamiskiri karistusseadustiku ja kriminaalmenetluse seadustiku muutmise seaduse eelnõu 695 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-17",
+"files": [
+{
+"uuid": "2d13023c-8210-4211-8dd9-7cfa176713a7",
+"fileName": "ÕIGK_695_SE_17092025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaasamiskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T15:33:20.993",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d13023c-8210-4211-8dd9-7cfa176713a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d13023c-8210-4211-8dd9-7cfa176713a7"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/bd9c6e53-bafa-420e-8ca9-0cc3c1ec1114"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [
+{
+"uuid": "9426d039-35e0-4214-a741-f051d2ee5f6f",
+"reference": "1-2/14-48",
+"title": "Eesti seisukohad menetlusõiguste paketi kohta COM(2013) 821, COM(2013) 822, COM(2013) 824",
+"volumeType": "elVolume",
+"created": "2014-01-30T13:28:34.974",
+"copyOrOriginal": "ORIGINAL",
+"draft": false,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9426d039-35e0-4214-a741-f051d2ee5f6f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/ecfdaf88-bc1e-4f50-a564-4f13aafc2cf5"
+}
+}
+}

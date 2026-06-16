@@ -1,0 +1,530 @@
+{
+"uuid": "6bc102fb-a69f-4349-a78c-90628ff0417d",
+"etid": 511,
+"code": "0416",
+"text": "valimismenetlus ja hääletamine",
+"descriptors": [
+{
+"edid": 695,
+"text": "valimised",
+"code": "695",
+"uuid": "e082d4b9-cf09-e5f0-4a8d-4fa628b505f1",
+"vol_cnt": 24,
+"scopeNotes": [
+"Kasutada vastavaid termineid."
+],
+"usedFors": [],
+"narrowTerms": [
+"f85b55dc-fec8-5207-21da-d542bafb7c40",
+"021dc5f2-fa69-0cfe-1f2d-11cc57a3144b",
+"e7aa6a64-22c5-84de-50c2-e72ce96f7b59",
+"b1905e4f-1932-d3c8-28df-7e501f9554e7",
+"6d0d78b5-6ab3-4b39-9113-52baed6dacd3",
+"a6f6c3aa-57fc-f5f4-82a5-01cedb54b2de",
+"824c2e49-5e8c-4895-b702-2846f553aa1b"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 8424,
+"text": "esindusdemokraatia",
+"code": "8424",
+"uuid": "29c6470d-7ede-4acf-b360-9076d3453598",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"parlamentaarne demokraatia"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/29c6470d-7ede-4acf-b360-9076d3453598"
+}
+}
+},
+{
+"edid": 1601,
+"text": "legitiimsus",
+"code": "1601",
+"uuid": "098814f5-2387-48ef-9442-4c8cb9dd6719",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/098814f5-2387-48ef-9442-4c8cb9dd6719"
+}
+}
+},
+{
+"edid": 4704,
+"text": "poliitika",
+"code": "4704",
+"uuid": "95b0f718-5666-4f59-99f1-dce154f36207",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"0dcb10e1-607b-4f7d-9752-3e938269e296",
+"d764d192-ee2f-48a8-9940-802964e565c6",
+"e3ee1f63-b89b-4f67-b72a-7e48fe28518a",
+"b49b3103-6c4e-4541-b0bc-75ced1493d00",
+"0215bdaa-7dbd-49dc-a290-9210d5081722",
+"11a345d2-5fb8-4aea-95a2-c8852f7eef70",
+"a3898c2b-4a9b-4c91-8300-62c0fc78576a",
+"b18ec7cc-9b0b-4568-b33d-ff50d118b6fe",
+"c189e85d-2153-4dd2-a99e-44848be5d8da",
+"6a2d7cf0-e190-471b-8f1a-a1ddd02ec798",
+"f74fbb93-35b3-4d84-a36c-fe1b2b9f1ef1",
+"ef80792e-d3c6-4335-84a9-5759f25b2148",
+"d0c73261-034f-4f93-bd20-0829caf9c19e",
+"12ed8186-2b04-409d-9744-344c9354f68d",
+"67ff66c4-01a0-4da7-8bec-e29ff0556c8c",
+"69bb5524-b103-46a7-811f-3cd4ccedde9b",
+"e26d9181-5b7f-404d-a022-912ae546d2cb",
+"2a4f33b7-9ed5-4435-bdb7-a97ca8fd47c9",
+"6f64ffed-1ea1-40f9-9627-0a32efa428b1",
+"e601324a-b831-2a20-8278-74d4638fccc6",
+"4da274a3-9ec2-431d-90ba-2b0f25d29df6",
+"9ea8ceaa-b8a9-49d6-beec-bbab44a47aaf"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/95b0f718-5666-4f59-99f1-dce154f36207"
+}
+}
+},
+{
+"edid": 1778,
+"text": "valitav ametikoht",
+"code": "1778",
+"uuid": "69b83176-a050-4cbc-8a49-1ef139d4fa6d",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"ametiaeg",
+"ametiaja lõppemine",
+"ametist lahkuv saadik",
+"esindusmandaat",
+"kohalik mandaat",
+"kohustuslik mandaat",
+"parlamendimandaat",
+"riiklik mandaat",
+"saadiku tagasiastumine",
+"tagasiastuv liige",
+"tagasiastuv saadik",
+"tagasiastuv valitsus"
+],
+"narrowTerms": [
+"ad21e2e9-d30e-4ffe-85ac-708689280523"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/69b83176-a050-4cbc-8a49-1ef139d4fa6d"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e082d4b9-cf09-e5f0-4a8d-4fa628b505f1"
+}
+}
+},
+{
+"edid": 4750,
+"text": "hääletus",
+"code": "4750",
+"uuid": "cb83bb77-59bc-0338-4ad1-40066cda8cc3",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"hääletamine"
+],
+"narrowTerms": [
+"82b32063-2bb1-48a6-9465-745c3c5ac3d5",
+"5b83d095-d80d-46db-87da-8d5738097527",
+"0b37371f-7a65-3f00-8a0a-9be132478d0e",
+"d8923243-a18c-4238-a649-d6482cc9a420",
+"42d9e9df-be8d-4db8-9b54-615efa003919",
+"b43ce132-13a9-435d-9d7a-d49613af41ec",
+"b390cbde-12b5-4265-85db-156289595fb7",
+"460147ae-dc83-4559-8284-6563fc3865ad",
+"9f7f6488-417d-4016-8246-5c497980ed1b",
+"5108705a-1f30-45cc-a0f4-4881c5aa5160",
+"4c7c196b-c7e3-47f9-b658-4d4247d3bd93",
+"7299d842-c77c-45c7-987b-93e5cee3874d",
+"772bd605-faac-400b-9f7c-c26f559a8b6b",
+"e3354279-bddc-473b-b364-aafb4e23e66f"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4754,
+"text": "eelnõu heakskiitmine",
+"code": "4754",
+"uuid": "cb7c0238-9484-4478-a3e6-797a598f00c8",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"61e222b1-7a5b-428a-87bb-a73d16721012"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cb7c0238-9484-4478-a3e6-797a598f00c8"
+}
+}
+},
+{
+"edid": 4762,
+"text": "parlamendihääletus",
+"code": "4762",
+"uuid": "c04d6e59-0b6a-425a-bdfe-8f394b9fdd84",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"12f7b150-84da-4d3f-9c07-16585199f4ef",
+"6eca4bde-35fb-4729-8acf-307ed45037d4",
+"06467de0-0fe3-4d79-a5c6-8d7aeecf675c",
+"671a8547-1f62-4f60-aaef-3c93b935edaa",
+"f921ac05-6485-4480-914d-b8a4c2ab5c8b",
+"fa416a3b-22ef-485c-8dfa-98674491407a"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c04d6e59-0b6a-425a-bdfe-8f394b9fdd84"
+}
+}
+},
+{
+"edid": 356,
+"text": "selgitus hääletuse kohta",
+"code": "356",
+"uuid": "37b1c40c-b59e-429b-b86c-5c7cad4f809e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"hääletamistulemuste teatavakstegemine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/37b1c40c-b59e-429b-b86c-5c7cad4f809e"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cb83bb77-59bc-0338-4ad1-40066cda8cc3"
+}
+}
+},
+{
+"edid": 1953,
+"text": "hääletamisviis",
+"code": "1953",
+"uuid": "7515d88b-478c-4266-b71f-edfae143db16",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"7f376e9c-7b8e-4ad3-b58e-b1a7b5953a74",
+"66a3e572-91e5-44ab-9722-a9c5e25b3e66",
+"bb20461f-a2f2-4e2a-8722-c1be56ffca50",
+"dae019c8-ede0-4a0b-860e-bb364c5d093e"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3313,
+"text": "kohtade jaotus",
+"code": "3313",
+"uuid": "90800f97-ae62-b8fd-00e9-250ac43e2fb8",
+"vol_cnt": 11,
+"scopeNotes": [],
+"usedFors": [
+"d'Hondti meetod",
+"Hagenbach-Bischoffi meetod",
+"Imperiali meetod",
+"kohtade jaotamine",
+"mandaatide jaotamine"
+],
+"narrowTerms": [
+"0993a1f9-9246-4b6f-b21a-329e6db54365",
+"f5a8d6c3-dec6-473f-9a59-3532d8b2d3cc"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/90800f97-ae62-b8fd-00e9-250ac43e2fb8"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7515d88b-478c-4266-b71f-edfae143db16"
+}
+}
+},
+{
+"edid": 1748,
+"text": "häälteenamus",
+"code": "1748",
+"uuid": "a62d7a8e-bbf3-4caf-b481-d9645175b095",
+"vol_cnt": 3,
+"scopeNotes": [
+"Kasutada ka otsustamismenetluse käigus toimuvate hääletuste puhul."
+],
+"usedFors": [],
+"narrowTerms": [
+"1339c9c7-621d-4162-b9ab-283adb193fb2",
+"5a3b6724-929f-4798-a129-d730e96dcee2",
+"9a21e068-0c78-4d32-928d-18784e767b0b",
+"17a385c4-ae85-4b79-914d-1d024bc2c03d"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4754,
+"text": "eelnõu heakskiitmine",
+"code": "4754",
+"uuid": "cb7c0238-9484-4478-a3e6-797a598f00c8",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"61e222b1-7a5b-428a-87bb-a73d16721012"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cb7c0238-9484-4478-a3e6-797a598f00c8"
+}
+}
+},
+{
+"edid": 4762,
+"text": "parlamendihääletus",
+"code": "4762",
+"uuid": "c04d6e59-0b6a-425a-bdfe-8f394b9fdd84",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"12f7b150-84da-4d3f-9c07-16585199f4ef",
+"6eca4bde-35fb-4729-8acf-307ed45037d4",
+"06467de0-0fe3-4d79-a5c6-8d7aeecf675c",
+"671a8547-1f62-4f60-aaef-3c93b935edaa",
+"f921ac05-6485-4480-914d-b8a4c2ab5c8b",
+"fa416a3b-22ef-485c-8dfa-98674491407a"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c04d6e59-0b6a-425a-bdfe-8f394b9fdd84"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a62d7a8e-bbf3-4caf-b481-d9645175b095"
+}
+}
+},
+{
+"edid": 4157,
+"text": "parlamendikoht",
+"code": "4157",
+"uuid": "eeea0b27-9e18-4b16-9403-b551dc44ea12",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"90800f97-ae62-b8fd-00e9-250ac43e2fb8",
+"9d60c70c-e106-41e0-9416-3cdf0729df37"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/eeea0b27-9e18-4b16-9403-b551dc44ea12"
+}
+}
+},
+{
+"edid": 558,
+"text": "valimisseadus",
+"code": "558",
+"uuid": "81ea4a20-4c60-4e98-9c81-d6337961c0a8",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"rahvuslik valimisseadus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 548,
+"text": "valimisõigus",
+"code": "548",
+"uuid": "f1480e95-8e39-da5e-9a9c-39a6e1f8ab51",
+"vol_cnt": 30,
+"scopeNotes": [],
+"usedFors": [
+"hääletamisõigus",
+"hääleõiguslikkus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f1480e95-8e39-da5e-9a9c-39a6e1f8ab51"
+}
+}
+},
+{
+"edid": 717,
+"text": "õigus valimistel kandideerida",
+"code": "717",
+"uuid": "876a85fc-e7e4-23a6-ce44-036e7113827b",
+"vol_cnt": 20,
+"scopeNotes": [],
+"usedFors": [
+"kandideerimisõigus",
+"õigus olla valitud"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/876a85fc-e7e4-23a6-ce44-036e7113827b"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/81ea4a20-4c60-4e98-9c81-d6337961c0a8"
+}
+}
+},
+{
+"edid": 4367,
+"text": "valimissüsteem",
+"code": "4367",
+"uuid": "b897569a-70bd-46b8-8864-8d90cdec4e63",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"0a13ef04-8cc2-4707-96b8-79cda6174092",
+"095d3c5f-1c95-4e79-b03a-83d93e31c359",
+"cb182275-39d4-b1bc-8de5-1aeda0bb9024",
+"aea59473-e1f0-408b-908c-88ec961935dc",
+"b9394a68-38f1-4d61-9fef-7c33728b4977",
+"f4ff93b8-392a-4bd1-80c0-4d0e6790df96",
+"f4097ffb-30ac-4a49-9229-59586a1706ff"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b897569a-70bd-46b8-8864-8d90cdec4e63"
+}
+}
+},
+{
+"edid": 2186,
+"text": "valimiste korraldamine",
+"code": "2186",
+"uuid": "587da4ca-72eb-4ded-846a-2d0d6c1579f2",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"97d0830a-2764-0c61-ef78-0815b4033319",
+"102db025-13bd-f2c9-690e-5572d32ddabf",
+"443d809a-c4fa-4929-b0d1-3f2e6e303c37",
+"ae339162-c860-b34a-7762-e4dde94d674e"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/587da4ca-72eb-4ded-846a-2d0d6c1579f2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/6bc102fb-a69f-4349-a78c-90628ff0417d"
+}
+}
+}

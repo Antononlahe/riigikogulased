@@ -1,0 +1,397 @@
+{
+"uuid": "0fe6df1e-ff67-492d-9733-34d0c81967b2",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja õpilaste töötamisele maksusoodustused\"",
+"mark": 638,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja õpilaste töötamisele maksusoodustused\" 638 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja õpilaste töötamisele maksusoodustused\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek töötada välja õpilaste töötamisele maksusoodustused. Selleks tehakse ettepanek mitte maksustada kuni 19-aastaste noorte töötasu sotsiaalmaksuga ravikindlustuse 13% ulatuses.",
+"initiated": "2025-04-21",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-05-07T17:15:00",
+"responsibleMember": {
+"uuid": "8946b072-80c5-436e-95b2-41f928a7c636",
+"name": "Diana Ingerainen",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8946b072-80c5-436e-95b2-41f928a7c636?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "95bde520-3032-48a5-aa20-567020b4e1da",
+"name": "Andres Ando",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/95bde520-3032-48a5-aa20-567020b4e1da?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1529,
+"text": "noor töötaja"
+},
+{
+"edid": 250,
+"text": "sotsiaalkindlustusmakse"
+},
+{
+"edid": 365,
+"text": "maksuvähendus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6839079d-1ec4-4cfc-926e-8ad92cc6b660",
+"title": "638 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5a1e4877-90d9-46a5-82df-8d010e2a2415",
+"fileName": "638_RK_o_Noorte_maksuvabastus_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:24:20.645",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5a1e4877-90d9-46a5-82df-8d010e2a2415/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5a1e4877-90d9-46a5-82df-8d010e2a2415"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d629e710-fa92-496e-92f3-040d48736db9",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "88ee52d8-88b0-47e5-888c-76592756cd20",
+"fileName": "OE_Noorte_maksuvabastus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-22T15:25:42.312",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88ee52d8-88b0-47e5-888c-76592756cd20/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88ee52d8-88b0-47e5-888c-76592756cd20"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d629e710-fa92-496e-92f3-040d48736db9",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "94faebf7-6645-40f0-ad22-b56e293a3e4e",
+"fileName": "638_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-21T16:57:25.091",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/94faebf7-6645-40f0-ad22-b56e293a3e4e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/94faebf7-6645-40f0-ad22-b56e293a3e4e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6839079d-1ec4-4cfc-926e-8ad92cc6b660",
+"title": "638 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "57e5cbf3-b499-48fe-a4b8-f18eac70afb5",
+"fileName": "638_RK_o_Noorte_maksuvabastus_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:24:39.119",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/57e5cbf3-b499-48fe-a4b8-f18eac70afb5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/57e5cbf3-b499-48fe-a4b8-f18eac70afb5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d629e710-fa92-496e-92f3-040d48736db9",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "250caaa4-f419-4ec6-a4d1-4ea7a5810bae",
+"fileName": "638_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-21T16:57:39.097",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/250caaa4-f419-4ec6-a4d1-4ea7a5810bae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/250caaa4-f419-4ec6-a4d1-4ea7a5810bae"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-04-21T15:58:02.504",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-04-22T14:01:00.316",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-06-10T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 10.06.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-09-10T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Diana Ingerainen"
+}
+],
+"protocolFiles": [
+{
+"uuid": "22cc7e28-4669-4a69-bc77-68dc28fe3eb5",
+"fileName": "RAHK_protokoll_10.06.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T10:16:02.991",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22cc7e28-4669-4a69-bc77-68dc28fe3eb5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22cc7e28-4669-4a69-bc77-68dc28fe3eb5"
+}
+}
+},
+{
+"uuid": "e842d831-ea3b-4dea-be7f-579c20d8783b",
+"fileName": "RAHK_protokoll_162_10_06_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T10:15:24.459",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e842d831-ea3b-4dea-be7f-579c20d8783b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e842d831-ea3b-4dea-be7f-579c20d8783b"
+}
+}
+},
+{
+"uuid": "834868ac-c1b9-46f0-925a-6a77827ee916",
+"fileName": "671_SE_HLÜ_ettekande_slaidid_10.06.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (671 SE ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:42:12.61",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/834868ac-c1b9-46f0-925a-6a77827ee916/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/834868ac-c1b9-46f0-925a-6a77827ee916"
+}
+}
+},
+{
+"uuid": "ebe82ceb-ad72-474e-902c-d72c4f947604",
+"fileName": "652_SE_ettekande_slaidid_10.06.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (652 SE ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:41:21.514",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ebe82ceb-ad72-474e-902c-d72c4f947604/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ebe82ceb-ad72-474e-902c-d72c4f947604"
+}
+}
+},
+{
+"uuid": "f13d85be-f6a6-433e-a0d0-3f4315b2a2a0",
+"fileName": "Asendusliikme_volikiri_M.Võrklaev-E.Merilind_10.06_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:39:11.096",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f13d85be-f6a6-433e-a0d0-3f4315b2a2a0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f13d85be-f6a6-433e-a0d0-3f4315b2a2a0"
+}
+}
+}
+]
+},
+{
+"date": "2025-09-10T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 10.09.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "b2cbe943-708a-4bf4-b19a-5e11480bf425",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-09-10T18:41:07.467",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b2cbe943-708a-4bf4-b19a-5e11480bf425"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "02968f0f-c792-46d4-a812-1990859e1d5c",
+"reference": "1-1/15-638/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele töötada välja õpilaste töötamisele maksusoodustused\" eelnõu 638 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-05-15",
+"files": [
+{
+"uuid": "5f469a5b-2f67-4d13-9ec5-0c0f8dc5a361",
+"fileName": "159.tel_Arvamus_638OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-15T15:52:12.888",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f469a5b-2f67-4d13-9ec5-0c0f8dc5a361/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f469a5b-2f67-4d13-9ec5-0c0f8dc5a361"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/02968f0f-c792-46d4-a812-1990859e1d5c"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/0fe6df1e-ff67-492d-9733-34d0c81967b2"
+}
+}
+}

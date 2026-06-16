@@ -1,0 +1,393 @@
+{
+"uuid": "4015dc39-bf20-4972-95c1-525f7ae33824",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja \nperedele suunatud maksusoodustuste pakett\"",
+"mark": 820,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja \nperedele suunatud maksusoodustuste pakett\" 820 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja peredele suunatud maksusoodustuste pakett\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette anda valitsusele ülesanne töötada välja terviklik ja peresõbralik maksusoodustuste pakett, mis parandab perede, eeskätt lastega perede, majanduslikku toimetulekut, suurendab kindlustunnet ning toetab pikaajalisi ühiskondlikke eesmärke, sealhulgas Eesti demograafilise olukorra parandamist, sündimust, töö- ja pereelu ühitamist ning eluaseme kättesaadavust.",
+"initiated": "2026-02-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-02-25T17:15:00",
+"responsibleMember": {
+"uuid": "0e66e826-df65-4fdd-a098-66a7e9a7c911",
+"name": "Signe Riisalo",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0e66e826-df65-4fdd-a098-66a7e9a7c911?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8a5e0f99-b6bc-48ff-91bf-c847958c776e",
+"name": "Heidi Barot",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8a5e0f99-b6bc-48ff-91bf-c847958c776e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 965,
+"text": "perekond"
+},
+{
+"edid": 365,
+"text": "maksuvähendus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "dcf469e7-2db3-425a-b2bf-ec4688633864",
+"title": "820 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b67fccf7-489d-4681-a953-df4985388057",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T17:01:17.604",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b67fccf7-489d-4681-a953-df4985388057/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b67fccf7-489d-4681-a953-df4985388057"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "079c9a64-b160-4126-b84e-b54347e21659",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bf6c31f2-5585-4501-8ca5-f23ae58a081c",
+"fileName": "MaksusoodustusteOE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:03:37.704",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf6c31f2-5585-4501-8ca5-f23ae58a081c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf6c31f2-5585-4501-8ca5-f23ae58a081c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "079c9a64-b160-4126-b84e-b54347e21659",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5bcdd53c-8c67-46c9-9553-3f7b593db936",
+"fileName": "820_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:56:38.635",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5bcdd53c-8c67-46c9-9553-3f7b593db936/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5bcdd53c-8c67-46c9-9553-3f7b593db936"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "dcf469e7-2db3-425a-b2bf-ec4688633864",
+"title": "820 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "034d0fdc-1d17-422b-b5d2-3e826e0341f5",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T17:01:33.258",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/034d0fdc-1d17-422b-b5d2-3e826e0341f5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/034d0fdc-1d17-422b-b5d2-3e826e0341f5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "079c9a64-b160-4126-b84e-b54347e21659",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e9c221ef-906b-401f-a3e0-911b99cf900e",
+"fileName": "820_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:56:55.702",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e9c221ef-906b-401f-a3e0-911b99cf900e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e9c221ef-906b-401f-a3e0-911b99cf900e"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-02-10T11:03:13.152",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-02-10T14:25:00.982",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-04-06T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 6.04.2026 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2026-04-15T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Signe Riisalo"
+}
+],
+"protocolFiles": [
+{
+"uuid": "6aa9dc7e-d7f9-4969-985c-902b9a6b383b",
+"fileName": "Asendusliikme_volikiri_.PDF",
+"fileExtension": "PDF",
+"fileTitle": "Asendusliikme volikiri I. Lutsar T. Uibo",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T14:58:18.255",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6aa9dc7e-d7f9-4969-985c-902b9a6b383b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6aa9dc7e-d7f9-4969-985c-902b9a6b383b"
+}
+}
+},
+{
+"uuid": "c7d83d89-bb24-431f-9a83-8d4d77fbc3ce",
+"fileName": "Lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T14:56:13.564",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c7d83d89-bb24-431f-9a83-8d4d77fbc3ce/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c7d83d89-bb24-431f-9a83-8d4d77fbc3ce"
+}
+}
+},
+{
+"uuid": "1fd52db5-d106-41e5-b6c1-a1c7989fef2d",
+"fileName": "SOTK_protokoll_06.04.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T14:49:29.806",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1fd52db5-d106-41e5-b6c1-a1c7989fef2d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1fd52db5-d106-41e5-b6c1-a1c7989fef2d"
+}
+}
+},
+{
+"uuid": "09e10ae7-33ed-48f0-9630-54109bdc557a",
+"fileName": "SOTK_protokoll_nr_167_06.04.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T14:46:46.892",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/09e10ae7-33ed-48f0-9630-54109bdc557a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/09e10ae7-33ed-48f0-9630-54109bdc557a"
+}
+}
+},
+{
+"uuid": "c2e06eee-cb8e-4595-9061-0a5e827fbfb7",
+"fileName": "Lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T14:57:24.77",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c2e06eee-cb8e-4595-9061-0a5e827fbfb7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c2e06eee-cb8e-4595-9061-0a5e827fbfb7"
+}
+}
+}
+]
+},
+{
+"date": "2026-04-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.04.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "2c4de4f4-634d-4242-8a2f-20beb1fb944f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-04-15T16:56:46.97",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/2c4de4f4-634d-4242-8a2f-20beb1fb944f"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "5ed03ec9-3b4f-4222-ae45-059e0182552d",
+"reference": "1-1/15-820/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele töötada välja  peredele suunatud maksusoodustuste pakett\" eelnõu 820 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-03-02",
+"files": [
+{
+"uuid": "db3b8a10-5ccc-4700-8e50-88211f75719e",
+"fileName": "064.tel_Arvamus_820OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-02T14:43:07.159",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/db3b8a10-5ccc-4700-8e50-88211f75719e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/db3b8a10-5ccc-4700-8e50-88211f75719e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5ed03ec9-3b4f-4222-ae45-059e0182552d"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/4015dc39-bf20-4972-95c1-525f7ae33824"
+}
+}
+}

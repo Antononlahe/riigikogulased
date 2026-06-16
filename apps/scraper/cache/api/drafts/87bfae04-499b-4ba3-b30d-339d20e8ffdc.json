@@ -1,0 +1,337 @@
+{
+"uuid": "87bfae04-499b-4ba3-b30d-339d20e8ffdc",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele mootorikütuste hinnatõusu mõjude leevendamiseks Eesti Vabariigis registreeritud sõidukite kasutajatele“",
+"mark": 874,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele mootorikütuste hinnatõusu mõjude leevendamiseks Eesti Vabariigis registreeritud sõidukite kasutajatele“ 874 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele mootorikütuste hinnatõusu mõjude leevendamiseks Eesti Vabariigis registreeritud sõidukite kasutajatele“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek töötada välja meetmed, millega tagada Eesti tavatarbijale bensiin 95 ja diiselkütuse kättesaadavus hinnaga kuni 1,40 eurot liitri kohta. Eelnõu lähtub vajadusest vähendada inimeste igapäevast toimetulekukoormust, piirata kütusehinna tõusust tulenevat mõju transpordikuludele ning luua tarbijale selge hinnakindlus.",
+"initiated": "2026-04-09",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-04-23T17:15:00",
+"responsibleMember": {
+"uuid": "5650dddf-f2ca-4b94-8888-e7482808f81b",
+"name": "Aivar Sõerd",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/5650dddf-f2ca-4b94-8888-e7482808f81b?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "95bde520-3032-48a5-aa20-567020b4e1da",
+"name": "Andres Ando",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/95bde520-3032-48a5-aa20-567020b4e1da?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5262,
+"text": "mootorikütus"
+},
+{
+"edid": 3152,
+"text": "hindade reguleerimine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "cbd16b9c-a05e-45cd-8e1b-b3b364cb9a7c",
+"title": "874 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "98cb1d40-933b-49da-be37-2d3c1f8a496f",
+"fileName": "874_RK_o_Ettepanek_VVle_kütuse_hind_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-11T13:05:16.297",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/98cb1d40-933b-49da-be37-2d3c1f8a496f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/98cb1d40-933b-49da-be37-2d3c1f8a496f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "478f244c-260d-4a44-9906-96b5f910db75",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "731a9ae4-c67b-405e-9691-bb31c105eaba",
+"fileName": "20260409_OE__kütuse_hind.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T10:23:54.705",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/731a9ae4-c67b-405e-9691-bb31c105eaba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/731a9ae4-c67b-405e-9691-bb31c105eaba"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "478f244c-260d-4a44-9906-96b5f910db75",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e948e991-1eed-4bf2-ac1b-3e7eb569bbe6",
+"fileName": "874E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T11:17:14.152",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e948e991-1eed-4bf2-ac1b-3e7eb569bbe6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e948e991-1eed-4bf2-ac1b-3e7eb569bbe6"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "cbd16b9c-a05e-45cd-8e1b-b3b364cb9a7c",
+"title": "874 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d6e777ef-36e0-44fe-a724-c96c429f8260",
+"fileName": "874_RK_o_Ettepanek_VVle_kütuse_hind_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-11T13:05:54.587",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6e777ef-36e0-44fe-a724-c96c429f8260/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6e777ef-36e0-44fe-a724-c96c429f8260"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "478f244c-260d-4a44-9906-96b5f910db75",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1ed8db31-ebb8-4724-aa99-81d3a5431884",
+"fileName": "20260409_SK__kütuse_hind_(3).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T10:38:12.396",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1ed8db31-ebb8-4724-aa99-81d3a5431884/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1ed8db31-ebb8-4724-aa99-81d3a5431884"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "478f244c-260d-4a44-9906-96b5f910db75",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f54a2b49-70fc-46e6-bbc7-9de088407cd8",
+"fileName": "874SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T11:17:33.899",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f54a2b49-70fc-46e6-bbc7-9de088407cd8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f54a2b49-70fc-46e6-bbc7-9de088407cd8"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-04-09T10:23:25.609",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-04-09T15:45:00.609",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-11T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 11.05.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-05-20T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Aivar Sõerd"
+}
+],
+"protocolFiles": []
+},
+{
+"date": "2026-05-21T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 21.05.2026 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "45b88b4e-8a01-48fd-bff9-5c2e692f2163",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-05-21T12:49:31.637",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/45b88b4e-8a01-48fd-bff9-5c2e692f2163"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6e357bb7-5f84-4a20-9361-3e5e1d9d6b99",
+"reference": "1-1/15-874/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuste eelnõude  874 OE, 875 OE ja 884 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-12",
+"files": [
+{
+"uuid": "b9c1c9fd-cb05-4f9b-81b8-a765f410f88b",
+"fileName": "155.tel_Arvamus_874_875_OE_ja_884_OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-12T09:56:15.834",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9c1c9fd-cb05-4f9b-81b8-a765f410f88b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9c1c9fd-cb05-4f9b-81b8-a765f410f88b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6e357bb7-5f84-4a20-9361-3e5e1d9d6b99"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/87bfae04-499b-4ba3-b30d-339d20e8ffdc"
+}
+}
+}

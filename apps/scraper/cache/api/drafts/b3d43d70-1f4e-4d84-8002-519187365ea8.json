@@ -1,0 +1,369 @@
+{
+"uuid": "b3d43d70-1f4e-4d84-8002-519187365ea8",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed huvihariduse kättesaadavuse parandamiseks\"",
+"mark": 826,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed huvihariduse kättesaadavuse parandamiseks\" 826 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed huvihariduse kättesaadavuse parandamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek töötada välja meetmed laste huvihariduse kättesaadavuse parandamiseks, mis võimaldaksid paremat ligipääsu huviharidusele. \nSeletuskirjas märgitakse, et Eesti inimarengu aruanne 2026 „Haridus ühiskonna peeglis“ toob ühe fookusena välja huvihariduse kättesaadavuse probleemid. Huviharidust ei võeta Eestis veel piisavalt olulise osana haridussüsteemist, kuigi huviharidust ei tohiks kuidagi võtta lihtsalt vaba aja veetmise viisina, vaid kogu ühiskonda turvalisemaks ja paremaks tegeva ennetusmeetmena.",
+"initiated": "2026-02-17",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-03-04T17:15:00",
+"responsibleMember": {
+"uuid": "80eac2f1-bb1e-4996-ac5a-4c3dba91bade",
+"name": "Vadim Belobrovtsev",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/80eac2f1-bb1e-4996-ac5a-4c3dba91bade?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d188e268-5d01-7e93-0c22-3ae7f0c1e851",
+"name": "Sotsiaaldemokraatliku Erakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d188e268-5d01-7e93-0c22-3ae7f0c1e851?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 676,
+"text": "mitteformaalne haridus"
+},
+{
+"edid": 280,
+"text": "hariduse kättesaadavus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "128e11e4-89af-49f2-bc26-c22f5ae3fd65",
+"title": "826 OE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "47f61e9c-a422-4ca1-896a-ad0b473d8603",
+"fileName": "826_RK_o_Ettepanek_VVle_huviharidus_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-20T16:36:46.314",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/47f61e9c-a422-4ca1-896a-ad0b473d8603/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/47f61e9c-a422-4ca1-896a-ad0b473d8603"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7469a435-b490-4cc9-b026-de9ed0c82c1e",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "893230e4-73fa-4193-a6c2-c139b3a47fe1",
+"fileName": "RK_o_Ettepanek_VVle_EN_veebruar_2026...docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-17T11:34:44.223",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/893230e4-73fa-4193-a6c2-c139b3a47fe1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/893230e4-73fa-4193-a6c2-c139b3a47fe1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7469a435-b490-4cc9-b026-de9ed0c82c1e",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cc6bfa1b-90da-4605-8f44-a6cd2245d732",
+"fileName": "826_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-17T11:53:08.963",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cc6bfa1b-90da-4605-8f44-a6cd2245d732/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cc6bfa1b-90da-4605-8f44-a6cd2245d732"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "128e11e4-89af-49f2-bc26-c22f5ae3fd65",
+"title": "826 OE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c8e5ae05-0526-4fcc-8166-79aad5475e86",
+"fileName": "826_RK_o_Ettepanek_VVle_huviharidus_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-20T16:37:26.986",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8e5ae05-0526-4fcc-8166-79aad5475e86/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8e5ae05-0526-4fcc-8166-79aad5475e86"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7469a435-b490-4cc9-b026-de9ed0c82c1e",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "19a7f29a-2af1-40d2-ad2f-c6b177a5b789",
+"fileName": "RK_o_Ettepanek_VVle_SE_veebruar_2026....docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-17T11:34:44.233",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/19a7f29a-2af1-40d2-ad2f-c6b177a5b789/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/19a7f29a-2af1-40d2-ad2f-c6b177a5b789"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7469a435-b490-4cc9-b026-de9ed0c82c1e",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dc3adc2d-ff19-4b23-9bd8-c15493c0a4ac",
+"fileName": "826_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-17T11:53:23.968",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dc3adc2d-ff19-4b23-9bd8-c15493c0a4ac/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dc3adc2d-ff19-4b23-9bd8-c15493c0a4ac"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-02-17T11:34:10.69",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-02-17T14:28:00.696",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-04-14T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 14.04.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-04-22T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "bc7c5621-77ec-4b4e-8905-e8089f9c8e23",
+"fileName": "KULK_protokoll_147_(14.04.2026).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-05T15:01:08.028",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc7c5621-77ec-4b4e-8905-e8089f9c8e23/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc7c5621-77ec-4b4e-8905-e8089f9c8e23"
+}
+}
+},
+{
+"uuid": "5c5ff8c2-107f-4c7e-821c-bfa18d97760b",
+"fileName": "KULK_protokoll_147_(14.04.2026).asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-05T15:02:00.905",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5c5ff8c2-107f-4c7e-821c-bfa18d97760b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5c5ff8c2-107f-4c7e-821c-bfa18d97760b"
+}
+}
+}
+]
+},
+{
+"date": "2026-04-22T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 22.04.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "50f200b9-fc2f-473d-8e78-c28c64d099d6",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-04-22T15:53:24.287",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/50f200b9-fc2f-473d-8e78-c28c64d099d6"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "c3e563a6-3270-4210-9a81-e77b67cdd4c3",
+"reference": "1-1/15-826/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed huvihariduse kättesaadavuse parandamiseks\" eelnõu 826 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-05",
+"files": [
+{
+"uuid": "1744645d-2c08-48ec-80f8-769839f7dc72",
+"fileName": "123.tel_Arvamus_826OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-05T11:33:24.925",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1744645d-2c08-48ec-80f8-769839f7dc72/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1744645d-2c08-48ec-80f8-769839f7dc72"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c3e563a6-3270-4210-9a81-e77b67cdd4c3"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/b3d43d70-1f4e-4d84-8002-519187365ea8"
+}
+}
+}

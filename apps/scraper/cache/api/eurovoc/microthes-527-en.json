@@ -1,0 +1,236 @@
+{
+"uuid": "f96ff8e0-b74d-4cc0-9f67-da52041458a6",
+"etid": 527,
+"code": "1221",
+"text": "õigus",
+"descriptors": [
+{
+"edid": 2701,
+"text": "kohtumenetlus",
+"code": "2701",
+"uuid": "947f3e6b-e1c9-acbd-181c-35465039eb13",
+"vol_cnt": 53,
+"scopeNotes": [],
+"usedFors": [
+"kohtumenetluse katkestamine",
+"kohtumenetluse lõpetamine",
+"kohtumenetluse lõppemine",
+"kohtumenetlusest loobumine"
+],
+"narrowTerms": [
+"d9d64fdf-c355-4aa6-a01d-f10e93f37e04",
+"5822fa7b-ec3f-4778-8411-f6fbb28abaec",
+"1567bc83-d946-4aed-94d5-70a0d1578c6d",
+"7fd24f1f-8049-4758-9c8a-7d71cf205f0c",
+"791748c4-0e5e-8c15-7470-e924f6e1545c",
+"87001670-8a18-bb5b-2df6-0282e435b5b0",
+"8870c1fd-2dad-488e-aec0-56fd1e9cc4c9",
+"d2d7512a-bc39-41a9-9059-ce063b03c8db",
+"bb69adc7-0e5a-4647-b729-34aac4edef89",
+"3fe137d7-c798-4efd-9352-1e60e4c5f54e",
+"c00bec34-0be5-4e36-88f3-71f4112e3872",
+"4c344281-c82f-3a3c-cfaf-eec4cc1ad736",
+"4563f5e5-76b0-0324-778b-e44160671d53",
+"442fe476-0f03-b20a-1f8d-a5ba284e9c18",
+"fb1122ed-d9e1-40e8-a475-e467ad6b307e"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1539,
+"text": "halduskohus",
+"code": "1539",
+"uuid": "64eace93-5e0a-9198-fb06-45a82894c3d6",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [
+"kontrollikoda"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/64eace93-5e0a-9198-fb06-45a82894c3d6"
+}
+}
+},
+{
+"edid": 1543,
+"text": "kohtud",
+"code": "1543",
+"uuid": "de1dd2f1-ee43-56b5-d11b-a77f0f11be6b",
+"vol_cnt": 24,
+"scopeNotes": [],
+"usedFors": [
+"alama astme kohus",
+"esimese astme kohus",
+"maakohus",
+"maakonnakohus",
+"pankrotikohus",
+"piirkonnakohus"
+],
+"narrowTerms": [
+"67da19c5-1c9c-43f8-ae1d-3b19f9506275",
+"9da7e988-3ccd-45b2-b5a5-8e6509909c39",
+"87ede50e-46f2-4196-81c8-39de5118d573",
+"a2c4e3fd-726a-c16b-4429-ae30d62fe372",
+"0f3fef36-840d-4fb3-a75b-30ea7f12c21c",
+"5715d168-fa2d-4528-8668-a712260d9d64",
+"30766c87-4642-4414-8e74-34a614504a16",
+"77b95ca4-2c16-4ce3-8ef8-cb1e7805e2f3"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/de1dd2f1-ee43-56b5-d11b-a77f0f11be6b"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/947f3e6b-e1c9-acbd-181c-35465039eb13"
+}
+}
+},
+{
+"edid": 1538,
+"text": "kohtuotsus",
+"code": "1538",
+"uuid": "92b95b34-dcfb-a242-e6ef-3a6c1b021b98",
+"vol_cnt": 11,
+"scopeNotes": [],
+"usedFors": [
+"kohtulahend",
+"kohtumäärus"
+],
+"narrowTerms": [
+"efa0b6ad-ab84-7092-a022-0d53385c0d6b",
+"083ad5b9-272c-9ee9-7338-720a368e8508",
+"057d224f-7c82-fd8f-a0fd-e29b2959cb9e",
+"1613604c-8c53-4117-adf1-9623433721d0"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/92b95b34-dcfb-a242-e6ef-3a6c1b021b98"
+}
+}
+},
+{
+"edid": 5400,
+"text": "õiguskaitse kättesaadavus",
+"code": "5400",
+"uuid": "9d34c89d-84bf-450c-97f8-b74e0f9d889b",
+"vol_cnt": 32,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"578a0544-d68b-4661-9235-f5d098c78fb5",
+"27ed1913-a92e-48d1-b37e-97d69bdda79e",
+"937c7d0b-5e77-8863-4b09-4bd432b0b92f"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3974,
+"text": "kaitse õigused",
+"code": "3974",
+"uuid": "1567bc83-d946-4aed-94d5-70a0d1578c6d",
+"vol_cnt": 17,
+"scopeNotes": [],
+"usedFors": [
+"süüdistatava õigused",
+"süütuse eeldamine",
+"õigus kaitsjaga kohtuda"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1567bc83-d946-4aed-94d5-70a0d1578c6d"
+}
+}
+},
+{
+"edid": 516,
+"text": "õigus õiguskaitsele",
+"code": "516",
+"uuid": "a3ce8a6c-21f5-26a2-74fd-96ed8d1970fe",
+"vol_cnt": 34,
+"scopeNotes": [],
+"usedFors": [
+"habeas corpus",
+"kuriteos süüdistatavate kaitse",
+"omavoliline kinnipidamine",
+"õigus kohtumõistmisele",
+"õiguskaitse"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a3ce8a6c-21f5-26a2-74fd-96ed8d1970fe"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9d34c89d-84bf-450c-97f8-b74e0f9d889b"
+}
+}
+},
+{
+"edid": 5371,
+"text": "õigusmenetlus",
+"code": "5371",
+"uuid": "9c308f4d-9581-46a9-b1e1-64f71008ced0",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"kohtuasi",
+"õigusmenetluse algatamine"
+],
+"narrowTerms": [
+"449f467b-929a-6307-48d8-303b2d4c3117",
+"9ca393ee-e997-f679-cf98-b99bef6a71d4",
+"87f3f3b3-af9f-e86a-132a-09c316877aa5",
+"5e34e1b9-4c11-7243-ebc3-ac503f9651ed"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9c308f4d-9581-46a9-b1e1-64f71008ced0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/f96ff8e0-b74d-4cc0-9f67-da52041458a6"
+}
+}
+}

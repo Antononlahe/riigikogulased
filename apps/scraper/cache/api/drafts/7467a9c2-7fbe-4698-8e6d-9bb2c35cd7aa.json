@@ -1,0 +1,461 @@
+{
+"uuid": "7467a9c2-7fbe-4698-8e6d-9bb2c35cd7aa",
+"title": "Käibemaksuseaduse muutmise seadus",
+"mark": 885,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Käibemaksuseaduse muutmise seadus 885 SE",
+"initialTitle": "Käibemaksuseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette langetada põhitoiduainete käibemaksumäär seniselt 24 protsendilt 13 protsendile.",
+"initiated": "2026-04-13",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "8946b072-80c5-436e-95b2-41f928a7c636",
+"name": "Diana Ingerainen",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8946b072-80c5-436e-95b2-41f928a7c636?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4392,
+"text": "käibemaksumäär"
+},
+{
+"edid": 2735,
+"text": "toiduained"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f6c7d9c8-bb2b-4f3f-a592-f6625e7e81ac",
+"title": "885 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1a357592-5da0-4ea9-bf9a-6c4d3dd7236b",
+"fileName": "885_KMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T15:14:08.328",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1a357592-5da0-4ea9-bf9a-6c4d3dd7236b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1a357592-5da0-4ea9-bf9a-6c4d3dd7236b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ea15d9ec-b2eb-4d55-876e-96006807d852",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "490d86d9-f439-4b17-b958-8c37b69d50bb",
+"fileName": "Toiduainete_käibemaksu_alandamise_SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:27:28.697",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/490d86d9-f439-4b17-b958-8c37b69d50bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/490d86d9-f439-4b17-b958-8c37b69d50bb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ea15d9ec-b2eb-4d55-876e-96006807d852",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3ddd4fa5-7ad2-4538-aff3-6a33384479b9",
+"fileName": "885_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:28:38.214",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ddd4fa5-7ad2-4538-aff3-6a33384479b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ddd4fa5-7ad2-4538-aff3-6a33384479b9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f6c7d9c8-bb2b-4f3f-a592-f6625e7e81ac",
+"title": "885 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c86d5f89-6746-49a0-812c-d6903322794b",
+"fileName": "885_KMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T15:14:52.243",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c86d5f89-6746-49a0-812c-d6903322794b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c86d5f89-6746-49a0-812c-d6903322794b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ea15d9ec-b2eb-4d55-876e-96006807d852",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "63d397a4-1fcc-4e64-b184-17a7c6897254",
+"fileName": "885_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:28:47.6",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/63d397a4-1fcc-4e64-b184-17a7c6897254/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/63d397a4-1fcc-4e64-b184-17a7c6897254"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-04-13T16:26:56.721",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-04-14T13:53:00.29",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.05.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-06-03T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Diana Ingerainen"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": []
+},
+{
+"date": "2026-06-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.06.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "ca2c50a6-26b5-4aad-8879-0a5235384197",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-06-03T22:56:08.053",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ca2c50a6-26b5-4aad-8879-0a5235384197"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "5d30c45b-3ad3-4d57-8857-38501fcee33f",
+"reference": "1-1/15-885/2",
+"title": "Vabariigi Valitsuse arvamus käibemaksuseaduse muutmise seaduse eelnõu 885 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-19",
+"files": [
+{
+"uuid": "4676f4a5-7f23-4efa-985c-4ecbc02d812f",
+"fileName": "1.1-111697-4_19.05.2026_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T15:57:57.075",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4676f4a5-7f23-4efa-985c-4ecbc02d812f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4676f4a5-7f23-4efa-985c-4ecbc02d812f"
+}
+}
+},
+{
+"uuid": "a52280aa-26df-4e14-8d03-e6d85ac02dce",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-26-0437_-_Käibemaksuseaduse_muutmise_seaduse_eelnõu_(885_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T15:57:57.067",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a52280aa-26df-4e14-8d03-e6d85ac02dce/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a52280aa-26df-4e14-8d03-e6d85ac02dce"
+}
+}
+},
+{
+"uuid": "67317e4d-c739-4cb3-a2d1-6f594d8ab749",
+"fileName": "Kaibemaksuseaduse_muutmise_seaduse_eelnou_(885_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T15:57:57.159",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67317e4d-c739-4cb3-a2d1-6f594d8ab749/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67317e4d-c739-4cb3-a2d1-6f594d8ab749"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5d30c45b-3ad3-4d57-8857-38501fcee33f"
+}
+}
+},
+{
+"uuid": "54a8917f-cf61-4af6-92d7-763bedbd2972",
+"reference": "1-1/15-885/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 885 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-04-13",
+"files": [
+{
+"uuid": "e67e8ba0-65db-4fb5-aa19-ee53c636be1a",
+"fileName": "260414_KMS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:47:17.832",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e67e8ba0-65db-4fb5-aa19-ee53c636be1a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e67e8ba0-65db-4fb5-aa19-ee53c636be1a"
+}
+}
+},
+{
+"uuid": "7f757cc4-8310-4287-81bb-8159d4b6eca8",
+"fileName": "885_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:32:38.518",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7f757cc4-8310-4287-81bb-8159d4b6eca8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7f757cc4-8310-4287-81bb-8159d4b6eca8"
+}
+}
+},
+{
+"uuid": "02763cff-fd0b-4aa8-b896-52b067c5577a",
+"fileName": "1-1-15-885-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_885_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-14T13:46:05.556",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/02763cff-fd0b-4aa8-b896-52b067c5577a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/02763cff-fd0b-4aa8-b896-52b067c5577a"
+}
+}
+},
+{
+"uuid": "0b14b0bc-62ca-429c-a35a-11aa0e8beaf5",
+"fileName": "KMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:32:13.881",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0b14b0bc-62ca-429c-a35a-11aa0e8beaf5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0b14b0bc-62ca-429c-a35a-11aa0e8beaf5"
+}
+}
+},
+{
+"uuid": "18abb122-bad3-4745-9455-c254cca862c4",
+"fileName": "KMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:32:29.495",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/18abb122-bad3-4745-9455-c254cca862c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/18abb122-bad3-4745-9455-c254cca862c4"
+}
+}
+},
+{
+"uuid": "e17f9313-ef3f-49bf-804d-4309443dbfc3",
+"fileName": "885_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T16:32:53.362",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e17f9313-ef3f-49bf-804d-4309443dbfc3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e17f9313-ef3f-49bf-804d-4309443dbfc3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/54a8917f-cf61-4af6-92d7-763bedbd2972"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/7467a9c2-7fbe-4698-8e6d-9bb2c35cd7aa"
+}
+}
+}

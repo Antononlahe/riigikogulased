@@ -1,0 +1,349 @@
+{
+"uuid": "de300ffa-5007-4779-b7e8-7bfebc5fec98",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele õiglase astmelise tulumaksu kehtestamise kohta\"",
+"mark": 745,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele õiglase astmelise tulumaksu kehtestamise kohta\" 745 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele õiglase astmelise tulumaksu kehtestamise kohta\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek töötada välja seaduseelnõu, millega kehtestatakse Eestis astmeline tulumaks alates 1. juulist 2026. Eelnõu kohaselt asendatakse senine ühetaoline tulumaksusüsteem astmelise süsteemiga. Tulumaksu astmed ja määrad määratakse selliselt, et madalama sissetulekuga isikute maksukoormus väheneks, samas kui kõrgema sissetulekuga isikute panus suureneks.",
+"initiated": "2025-10-21",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-11-04T17:15:00",
+"responsibleMember": {
+"uuid": "8600af41-4dcc-424d-9d05-7c851e5270b5",
+"name": "Mart Võrklaev",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8600af41-4dcc-424d-9d05-7c851e5270b5?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "95bde520-3032-48a5-aa20-567020b4e1da",
+"name": "Andres Ando",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/95bde520-3032-48a5-aa20-567020b4e1da?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1326,
+"text": "tulumaks"
+},
+{
+"edid": 3298,
+"text": "maksukoormuse jaotumine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4fff7ae7-f65e-4fd9-aa8f-fb7d4121f1c3",
+"title": "745 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f1f7707e-1e34-4593-beea-c93cfff21a7e",
+"fileName": "745_RK_o_Tulumaks_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T11:32:15.574",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f1f7707e-1e34-4593-beea-c93cfff21a7e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f1f7707e-1e34-4593-beea-c93cfff21a7e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0258414f-f202-404c-8c52-1c0433ae7150",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8df04dcc-7f11-4bce-85e3-acf09058b994",
+"fileName": "Tulumaksu_OE_okt_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T10:09:58.365",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8df04dcc-7f11-4bce-85e3-acf09058b994/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8df04dcc-7f11-4bce-85e3-acf09058b994"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0258414f-f202-404c-8c52-1c0433ae7150",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c649c45d-79d8-4ea2-8796-e272c91d5cf9",
+"fileName": "745E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T12:03:55.271",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c649c45d-79d8-4ea2-8796-e272c91d5cf9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c649c45d-79d8-4ea2-8796-e272c91d5cf9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4fff7ae7-f65e-4fd9-aa8f-fb7d4121f1c3",
+"title": "745 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d4e14ba5-8a9d-4c3a-b36e-360e8d65ad4f",
+"fileName": "745_RK_o_Tulumaks_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T11:32:34.813",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d4e14ba5-8a9d-4c3a-b36e-360e8d65ad4f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d4e14ba5-8a9d-4c3a-b36e-360e8d65ad4f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0258414f-f202-404c-8c52-1c0433ae7150",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0c3c9d17-57aa-4881-8d99-90127cef2273",
+"fileName": "745SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T12:04:53.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c3c9d17-57aa-4881-8d99-90127cef2273/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c3c9d17-57aa-4881-8d99-90127cef2273"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-10-21T10:09:32.251",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-10-21T13:58:00.037",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-12-15T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 15.12.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-01-21T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Mart Võrklaev"
+}
+],
+"protocolFiles": [
+{
+"uuid": "fd71372e-4a00-4c63-bc13-a9dd58bde9b3",
+"fileName": "RAHK_protokoll_15.12.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T09:18:10.749",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fd71372e-4a00-4c63-bc13-a9dd58bde9b3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fd71372e-4a00-4c63-bc13-a9dd58bde9b3"
+}
+}
+},
+{
+"uuid": "fec80803-22f5-40d5-ab3c-8e146d2194bf",
+"fileName": "RAHK_protokoll_nr_194_15.12.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T09:17:33.162",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fec80803-22f5-40d5-ab3c-8e146d2194bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fec80803-22f5-40d5-ab3c-8e146d2194bf"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-03-11T11:31:19.849",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2026-03-18T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 18.03.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "3b7fbb33-2ce1-4f37-9db1-ac1ba915af27",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-03-18T16:33:51.79",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/3b7fbb33-2ce1-4f37-9db1-ac1ba915af27"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "7f7945a5-10c0-4f25-88d8-6505b8a9080e",
+"reference": "1-1/15-745/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele õiglase astmelise tulumaksu kehtestamise kohta\" eelnõu 745 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-12-04",
+"files": [
+{
+"uuid": "bf6cae67-d9b8-4316-af0c-05d75d98144d",
+"fileName": "342.tel_Arvamus_745OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-04T13:49:21.916",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf6cae67-d9b8-4316-af0c-05d75d98144d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf6cae67-d9b8-4316-af0c-05d75d98144d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7f7945a5-10c0-4f25-88d8-6505b8a9080e"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/de300ffa-5007-4779-b7e8-7bfebc5fec98"
+}
+}
+}

@@ -1,0 +1,434 @@
+{
+"uuid": "45abe198-3cc2-4cea-b5ba-13c19f108682",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada Naistevastase vägivalla ja perevägivalla ennetamise ja tõkestamise Euroopa Nõukogu konventsiooni denonsseerimine“",
+"mark": 751,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada Naistevastase vägivalla ja perevägivalla ennetamise ja tõkestamise Euroopa Nõukogu konventsiooni denonsseerimine“ 751 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada Naistevastase vägivalla ja perevägivalla ennetamise ja tõkestamise Euroopa Nõukogu konventsiooni denonsseerimine“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Otsusega tehakse Vabariigi Valitsusele ettepanek algatada Naistevastase vägivalla ja perevägivalla ennetamise ja tõkestamise Euroopa Nõukogu konventsiooni denonsseerimine.",
+"initiated": "2025-11-04",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-11-18T17:15:00",
+"responsibleMember": {
+"uuid": "80f542c1-393a-46e2-9fca-99948e59850d",
+"name": "Andre Hanimägi",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/80f542c1-393a-46e2-9fca-99948e59850d?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "441c3c51-2f08-47f3-a36c-e4b310e17e78",
+"name": "Raini Laide",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/441c3c51-2f08-47f3-a36c-e4b310e17e78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 585,
+"text": "naiste õigused"
+},
+{
+"edid": 6557,
+"text": "koduvägivald"
+},
+{
+"edid": 1708,
+"text": "kuritegevusevastane võitlus"
+},
+{
+"edid": 3913,
+"text": "sooline võrdsus"
+},
+{
+"edid": 6727,
+"text": "ohvriabi"
+},
+{
+"edid": 3472,
+"text": "Euroopa konventsioon"
+},
+{
+"edid": 5574,
+"text": "lepingust taganemine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "573572c5-62b1-4057-8d94-3d780234ccca",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada Naistevastase vägivalla ja perevägivalla ennetamise ja tõkestamise Euroopa Nõukogu konventsiooni denonsseerimine“",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e8d64e51-9786-492e-85b3-563ea1f72f44",
+"fileName": "751_RK_o_Istanbul_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T15:45:48.258",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8d64e51-9786-492e-85b3-563ea1f72f44/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8d64e51-9786-492e-85b3-563ea1f72f44"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "40a5a5a1-640c-47b5-a173-78c2672be91f",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f85d44b2-503b-4fa4-9f13-254fc55d40b3",
+"fileName": "OE_Istanbul_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-04T10:16:05.356",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f85d44b2-503b-4fa4-9f13-254fc55d40b3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f85d44b2-503b-4fa4-9f13-254fc55d40b3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "40a5a5a1-640c-47b5-a173-78c2672be91f",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ca5ea242-990d-48ff-bc1e-bdf5ad0bbda5",
+"fileName": "751_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-04T10:42:26.124",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca5ea242-990d-48ff-bc1e-bdf5ad0bbda5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca5ea242-990d-48ff-bc1e-bdf5ad0bbda5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "573572c5-62b1-4057-8d94-3d780234ccca",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada Naistevastase vägivalla ja perevägivalla ennetamise ja tõkestamise Euroopa Nõukogu konventsiooni denonsseerimine“",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2d6c3621-b494-40f6-b96b-97a2ebad4580",
+"fileName": "751_RK_o_Istanbul_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T15:46:33.514",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d6c3621-b494-40f6-b96b-97a2ebad4580/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d6c3621-b494-40f6-b96b-97a2ebad4580"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "40a5a5a1-640c-47b5-a173-78c2672be91f",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f8f5d8e0-456b-4e16-94f6-c004cf79c9dc",
+"fileName": "Seletuskiri_Istanbul_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-04T10:16:05.344",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f8f5d8e0-456b-4e16-94f6-c004cf79c9dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f8f5d8e0-456b-4e16-94f6-c004cf79c9dc"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "40a5a5a1-640c-47b5-a173-78c2672be91f",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6710b28f-a40c-4780-aa75-b25b33f0905a",
+"fileName": "751_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-04T10:42:38.322",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6710b28f-a40c-4780-aa75-b25b33f0905a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6710b28f-a40c-4780-aa75-b25b33f0905a"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-11-04T10:15:17.235",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-11-04T14:13:00.946",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-01-12T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 12.01.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-01-22T10:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+},
+"description": "Eelnõu vastuvõtmiseks on vajalik Riigikogu koosseisu häälteenamus (vähemalt 51 poolthäält)."
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Andre Hanimägi"
+}
+],
+"protocolFiles": [
+{
+"uuid": "7f0447fe-2db3-43da-bd66-49e8036959cc",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_105.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T11:07:22.663",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7f0447fe-2db3-43da-bd66-49e8036959cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7f0447fe-2db3-43da-bd66-49e8036959cc"
+}
+}
+},
+{
+"uuid": "99bc2a89-ff61-4d8a-898d-05cfe7592e9d",
+"fileName": "Asendusliikme_volitus_(1).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volitus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T14:45:55.176",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/99bc2a89-ff61-4d8a-898d-05cfe7592e9d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/99bc2a89-ff61-4d8a-898d-05cfe7592e9d"
+}
+}
+},
+{
+"uuid": "af273542-db49-47e5-8fd7-cf3ca7e07a79",
+"fileName": "ÕIGK_protokoll_12.01.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T11:09:20.736",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/af273542-db49-47e5-8fd7-cf3ca7e07a79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/af273542-db49-47e5-8fd7-cf3ca7e07a79"
+}
+}
+},
+{
+"uuid": "2c59c421-1f0c-4c90-af40-ac2efc22d9eb",
+"fileName": "Asendusliikme_volitus_(2).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volitus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-12T14:46:07.778",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c59c421-1f0c-4c90-af40-ac2efc22d9eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c59c421-1f0c-4c90-af40-ac2efc22d9eb"
+}
+}
+},
+{
+"uuid": "642e8ad2-a996-42cb-9782-5cc82bafcd99",
+"fileName": "(Lisa_1)_EAKL_arvamus_RK_õk_TLS_602UA.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-13T12:11:59.248",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/642e8ad2-a996-42cb-9782-5cc82bafcd99/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/642e8ad2-a996-42cb-9782-5cc82bafcd99"
+}
+}
+}
+]
+},
+{
+"date": "2026-01-22T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 22.01.2026 10:00",
+"decisionCode": "ARUTELU_JAI_POOLELI",
+"votings": [
+{
+"uuid": "f3eeed58-42f6-474a-b9c7-14317abfe043",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2026-01-22T12:03:00.457",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f3eeed58-42f6-474a-b9c7-14317abfe043"
+}
+}
+}
+]
+},
+{
+"date": "2026-01-26T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 26.01.2026 15:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "7967ee4e-0dd8-40ed-ab48-a4276e8c9565",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-01-26T16:11:12.44",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/7967ee4e-0dd8-40ed-ab48-a4276e8c9565"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/45abe198-3cc2-4cea-b5ba-13c19f108682"
+}
+}
+}

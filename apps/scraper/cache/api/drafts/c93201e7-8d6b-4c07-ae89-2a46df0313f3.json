@@ -1,0 +1,350 @@
+{
+"uuid": "c93201e7-8d6b-4c07-ae89-2a46df0313f3",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\"",
+"mark": 630,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\" 630 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Sotsiaaldemokraatliku Erakonna fraktsiooni esitatud Riigikogu otsuse eelnõu teeb Vabariigi Valitsusele ettepaneku töötada välja pettuste vastane tegevuskava, et võidelda järjest keerukamaks ja laialdasemaks muutuva pettuselaine vastu.",
+"initiated": "2025-04-17",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-05-05T17:15:00",
+"responsibleMember": {
+"uuid": "966e7ccd-b097-4e49-923c-c8d39dae2d62",
+"name": "Valdo Randpere",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/966e7ccd-b097-4e49-923c-c8d39dae2d62?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "441c3c51-2f08-47f3-a36c-e4b310e17e78",
+"name": "Raini Laide",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/441c3c51-2f08-47f3-a36c-e4b310e17e78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d188e268-5d01-7e93-0c22-3ae7f0c1e851",
+"name": "Sotsiaaldemokraatliku Erakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d188e268-5d01-7e93-0c22-3ae7f0c1e851?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1092,
+"text": "pettus"
+},
+{
+"edid": 1708,
+"text": "kuritegevusevastane võitlus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "58b5d1b0-7b87-4d6d-ba24-327680886a57",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\"",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3cc584d4-86ae-4007-a7fd-28d7bc19d2e2",
+"fileName": "630_RK_o_Ettepanek_VVle_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T15:10:15.088",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3cc584d4-86ae-4007-a7fd-28d7bc19d2e2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3cc584d4-86ae-4007-a7fd-28d7bc19d2e2"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7ee2c5b8-51f0-4d8f-89ff-d6deba445209",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "90d602b7-4a9e-4494-9ff6-9be2055758b3",
+"fileName": "RK_o_Ettepanek_VVle_EN_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T10:29:25.949",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90d602b7-4a9e-4494-9ff6-9be2055758b3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90d602b7-4a9e-4494-9ff6-9be2055758b3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7ee2c5b8-51f0-4d8f-89ff-d6deba445209",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "add0a897-eaa5-433a-9c21-879a6a15bd3b",
+"fileName": "630E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T11:36:16.726",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/add0a897-eaa5-433a-9c21-879a6a15bd3b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/add0a897-eaa5-433a-9c21-879a6a15bd3b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "58b5d1b0-7b87-4d6d-ba24-327680886a57",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\"",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b5c5b7c3-24fe-4f5c-b5e1-95a8f6c83ea5",
+"fileName": "630_RK_o_Ettepanek_VVle_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T15:10:44.552",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b5c5b7c3-24fe-4f5c-b5e1-95a8f6c83ea5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b5c5b7c3-24fe-4f5c-b5e1-95a8f6c83ea5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7ee2c5b8-51f0-4d8f-89ff-d6deba445209",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1d6f8de5-30db-43af-be04-382352184b20",
+"fileName": "RK_o_Ettepanek_VVle_SE_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T10:29:25.94",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d6f8de5-30db-43af-be04-382352184b20/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d6f8de5-30db-43af-be04-382352184b20"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7ee2c5b8-51f0-4d8f-89ff-d6deba445209",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9066dca6-d130-4ff2-9e85-af851ed5b829",
+"fileName": "630SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T11:36:29.769",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9066dca6-d130-4ff2-9e85-af851ed5b829/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9066dca6-d130-4ff2-9e85-af851ed5b829"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-04-17T10:28:49.84",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-04-17T15:50:00.207",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-06-09T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 9.06.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-18T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Valdo Randpere"
+}
+],
+"protocolFiles": [
+{
+"uuid": "777d679e-9b6e-4dda-95f1-bb1795956de8",
+"fileName": "ÕIGK_protokoll_09.06.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-16T14:00:03.47",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/777d679e-9b6e-4dda-95f1-bb1795956de8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/777d679e-9b6e-4dda-95f1-bb1795956de8"
+}
+}
+},
+{
+"uuid": "a7cb23b6-d74f-4c39-b390-876af5f4c8ee",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_83.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-16T13:58:07.016",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a7cb23b6-d74f-4c39-b390-876af5f4c8ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a7cb23b6-d74f-4c39-b390-876af5f4c8ee"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-18T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 18.06.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "449bc6fc-a8e1-49cb-982b-252f6c84d08b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-06-18T20:27:13.687",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/449bc6fc-a8e1-49cb-982b-252f6c84d08b"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/c93201e7-8d6b-4c07-ae89-2a46df0313f3"
+}
+}
+}

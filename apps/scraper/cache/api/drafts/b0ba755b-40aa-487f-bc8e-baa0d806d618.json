@@ -1,0 +1,365 @@
+{
+"uuid": "b0ba755b-40aa-487f-bc8e-baa0d806d618",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja elektrihinna kriisi leevendamise pakett\"",
+"mark": 815,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja elektrihinna kriisi leevendamise pakett\" 815 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja elektrihinna kriisi leevendamise pakett\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse ettepanek töötada välja elektrihinna kriisi leevendamise pakett, mille eesmärk on leevendada erakordselt kõrgete elektrihindade mõju Eesti elanike ja ettevõtjate toimetulekule, tagada energiajulgeolek ning säilitada majanduslik stabiilsus.",
+"initiated": "2026-02-09",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-02-25T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 747,
+"text": "elektrienergia"
+},
+{
+"edid": 2654,
+"text": "energia hind"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9096f945-5c2f-4370-a0c1-80d9ad3927d2",
+"title": "815 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "565937fc-ea2f-40d5-bea2-1221511afc1d",
+"fileName": "815_RK_o_Ettepanek_VVle_energiakriis_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-16T17:16:59.066",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/565937fc-ea2f-40d5-bea2-1221511afc1d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/565937fc-ea2f-40d5-bea2-1221511afc1d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "c4c54975-7219-4994-9832-6f2ff1bfbd78",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eb7ead10-5cb1-41b8-a45e-85ecaccb677f",
+"fileName": "2026_energiakriis.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-09T15:41:04.612",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb7ead10-5cb1-41b8-a45e-85ecaccb677f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb7ead10-5cb1-41b8-a45e-85ecaccb677f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "c4c54975-7219-4994-9832-6f2ff1bfbd78",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1d946566-b60b-40d9-b863-e5244535e221",
+"fileName": "815E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-09T17:47:57.902",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d946566-b60b-40d9-b863-e5244535e221/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d946566-b60b-40d9-b863-e5244535e221"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9096f945-5c2f-4370-a0c1-80d9ad3927d2",
+"title": "815 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8c6d0f82-117d-4f14-92b9-b5097d9b8dca",
+"fileName": "815_RK_o_Ettepanek_VVle_energiakriis_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-16T17:17:17.611",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8c6d0f82-117d-4f14-92b9-b5097d9b8dca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8c6d0f82-117d-4f14-92b9-b5097d9b8dca"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "c4c54975-7219-4994-9832-6f2ff1bfbd78",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fab94ccb-2d66-49ed-8882-ea670f0d235c",
+"fileName": "815SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-09T17:48:23.932",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fab94ccb-2d66-49ed-8882-ea670f0d235c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fab94ccb-2d66-49ed-8882-ea670f0d235c"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-02-09T15:40:33.663",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-02-10T14:21:00.305",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2026-04-09T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 9.04.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-04-15T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "1788041f-8ed4-4313-a1cc-8f020cc22a90",
+"fileName": "RAHK_protokoll_09.04.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-07T09:12:46.933",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1788041f-8ed4-4313-a1cc-8f020cc22a90/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1788041f-8ed4-4313-a1cc-8f020cc22a90"
+}
+}
+},
+{
+"uuid": "3b7e0488-cf47-4298-887d-d0fae7e445ad",
+"fileName": "RAHK_protokoll_nr_220_09.04.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-07T09:09:17.283",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3b7e0488-cf47-4298-887d-d0fae7e445ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3b7e0488-cf47-4298-887d-d0fae7e445ad"
+}
+}
+},
+{
+"uuid": "34ac1d24-40e4-4c62-aae7-def5503a4ca9",
+"fileName": "Riigikogu_2025._aasta_eelarve_täitmine_ja_ülekandmine_09.04.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Riigikogu Kantselei esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-07T09:10:25.147",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34ac1d24-40e4-4c62-aae7-def5503a4ca9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34ac1d24-40e4-4c62-aae7-def5503a4ca9"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-04-16T17:14:39.908",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2026-04-23T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 23.04.2026 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "7ab0f3ab-8ba0-4402-a36f-9b4ab96a88ed",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-04-23T12:21:02.223",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/7ab0f3ab-8ba0-4402-a36f-9b4ab96a88ed"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "ffd1688b-2b62-43fe-8ba3-6b29be0422a9",
+"reference": "1-1/15-815/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus riigikogu otsuste eelnõude 815 OE ja 816 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-03-04",
+"files": [
+{
+"uuid": "f2272d69-f0da-4018-9498-7a2375f74673",
+"fileName": "065.tel_Arvamus_815OE_ja_816OE__häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-04T13:53:16.603",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2272d69-f0da-4018-9498-7a2375f74673/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2272d69-f0da-4018-9498-7a2375f74673"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ffd1688b-2b62-43fe-8ba3-6b29be0422a9"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/b0ba755b-40aa-487f-bc8e-baa0d806d618"
+}
+}
+}

@@ -1,0 +1,434 @@
+{
+"uuid": "1470a4ca-de85-4f78-9428-2fd577c07bee",
+"etid": 550,
+"code": "2436",
+"text": "riigirahandus ja eelarvepoliitika",
+"descriptors": [
+{
+"edid": 1018,
+"text": "riigirahandus",
+"code": "1018",
+"uuid": "e23b9ba6-de51-c481-dddb-21189baff3ac",
+"vol_cnt": 149,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"639742e6-2fc6-dcb3-9e62-7eab5728c12c",
+"1907b56c-dca6-4241-bd0f-2e523af34ff2",
+"21a59121-67a0-444c-adad-31b6483c5fd9",
+"deeb2d84-0055-4db2-bf7a-45cb39e5e67a",
+"593b6581-a51d-9103-cdbd-c3408491689b",
+"459bad92-2dcb-4881-9563-041039decdaf",
+"c6662eaf-43ba-4099-be04-46892b0625c1",
+"4ea7bd64-d325-40e9-9d4e-3b0b2485a112",
+"ff69d84c-2cb7-45ea-3911-706c544e44d1",
+"bb050579-3368-4150-9aec-da491cb84f7f",
+"a8db3834-33c9-42ca-b4cb-75c94aa04b99"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4012,
+"text": "avalik majandusõigus",
+"code": "4012",
+"uuid": "e4358348-3e66-dbbb-f425-df01d8f71111",
+"vol_cnt": 0,
+"scopeNotes": [
+"Avalik-õiguslike juriidiliste isikute algatatud majandusega seonduvate kohtuasjade puhul rakendatav õigus."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e4358348-3e66-dbbb-f425-df01d8f71111"
+}
+}
+},
+{
+"edid": 403,
+"text": "avaliku sektori kulud",
+"code": "403",
+"uuid": "c82b3317-cc00-424b-862d-d72befe65c9b",
+"vol_cnt": 102,
+"scopeNotes": [],
+"usedFors": [
+"valitsemissektori kulud"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c82b3317-cc00-424b-862d-d72befe65c9b"
+}
+}
+},
+{
+"edid": 1021,
+"text": "maksusüsteem",
+"code": "1021",
+"uuid": "f597e092-d4a0-9e11-4f96-24b71193e302",
+"vol_cnt": 66,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"bca4f425-0123-9a1f-b88d-91771802e77a",
+"c049996f-3429-13c3-efdb-221d14513260",
+"9d7cbfa3-0318-c932-5dea-3bf400b875f8",
+"41a7dcb3-f02e-1eee-77e9-14d1a21350d1",
+"5dab643c-5a6b-447d-883d-7b523b7eeb28",
+"bbb54eaf-5dfc-8191-566d-78d6077a2d53"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f597e092-d4a0-9e11-4f96-24b71193e302"
+}
+}
+},
+{
+"edid": 1810,
+"text": "riigihankeleping",
+"code": "1810",
+"uuid": "cf0a2976-c5ed-a1d5-b3a7-981d66319ef7",
+"vol_cnt": 78,
+"scopeNotes": [
+"Avaliku asutuse ja kolmanda osapoole vaheline siduv leping töö tegemiseks või teenuste pakkumiseks."
+],
+"usedFors": [
+"avalik hange",
+"riigihange",
+"riiklik tellimus"
+],
+"narrowTerms": [
+"174d296f-d7cc-21c7-aa0f-48dcb7d6bf84",
+"5bc6093a-ef98-9e5c-b67d-d9ffe03e6e92",
+"9e4bf304-3431-4840-9218-bd6133af6fc0",
+"36a1a0a6-3849-4ae2-a128-9042cda2201f",
+"a187487a-defa-40f1-ab8f-29880acc49cc",
+"73a90390-8506-5c84-ec38-ac6c5659cf2f",
+"3ec0d336-3583-49ac-8e95-25144fd89131",
+"185dc424-85e7-92b3-85b5-0f9029ac322c"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cf0a2976-c5ed-a1d5-b3a7-981d66319ef7"
+}
+}
+},
+{
+"edid": 1319,
+"text": "riiklik maks",
+"code": "1319",
+"uuid": "fa09d029-120d-498e-9ea5-c8874c536e85",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"riiklik maksustamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fa09d029-120d-498e-9ea5-c8874c536e85"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e23b9ba6-de51-c481-dddb-21189baff3ac"
+}
+}
+},
+{
+"edid": 424,
+"text": "riigivõlg",
+"code": "424",
+"uuid": "01e6e3f9-2a31-4565-8c36-a9cf629432d8",
+"vol_cnt": 265,
+"scopeNotes": [
+"Keskvalitsuse ja teiste riigiasutuste võlad konkreetsetele võlausaldajatele."
+],
+"usedFors": [
+"avaliku sektori võlg",
+"valitsemissektori võlg"
+],
+"narrowTerms": [
+"dd4767eb-5e14-4928-9ab0-1f1b1f18bc13",
+"97caf4d1-6d29-66c1-f013-a83b1fa1f250",
+"4047bedf-4075-452c-ade6-ece2d7b319ba",
+"5d049825-8527-4560-bc24-048db85dc37a"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 454866,
+"text": "krediidireiting",
+"code": "c_896e199b",
+"uuid": "3421e61d-9b39-450f-b4aa-007628e242ff",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"reitinguagentuur"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3421e61d-9b39-450f-b4aa-007628e242ff"
+}
+}
+},
+{
+"edid": 3942,
+"text": "maksevõime",
+"code": "3942",
+"uuid": "079c3234-4e4c-2416-a59c-9d36184ba380",
+"vol_cnt": 120,
+"scopeNotes": [],
+"usedFors": [
+"maksevõimetus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/079c3234-4e4c-2416-a59c-9d36184ba380"
+}
+}
+},
+{
+"edid": 5582,
+"text": "võlg",
+"code": "5582",
+"uuid": "20d52677-c134-4c48-5ee9-27e384a4fdb3",
+"vol_cnt": 44,
+"scopeNotes": [],
+"usedFors": [
+"võlgnik"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/20d52677-c134-4c48-5ee9-27e384a4fdb3"
+}
+}
+},
+{
+"edid": 423,
+"text": "välisvõlg",
+"code": "423",
+"uuid": "95c64446-7d14-4bc8-9d36-eb7d8a950af3",
+"vol_cnt": 0,
+"scopeNotes": [
+"Riigi või erasektori võlg välismaisele võlausaldajale."
+],
+"usedFors": [
+"riigi välisvõlg"
+],
+"narrowTerms": [
+"7314bd8d-a7ef-4864-83ec-08626de64e86"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/95c64446-7d14-4bc8-9d36-eb7d8a950af3"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/01e6e3f9-2a31-4565-8c36-a9cf629432d8"
+}
+}
+},
+{
+"edid": 2448,
+"text": "eelarvepoliitika",
+"code": "2448",
+"uuid": "6beefbb2-52e1-4f44-9d27-c1bc09683103",
+"vol_cnt": 171,
+"scopeNotes": [],
+"usedFors": [
+"eelarvedistsipliin",
+"eelarvereform",
+"iga-aastane eelarve"
+],
+"narrowTerms": [
+"7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a",
+"c2d4c50d-a155-47a2-bd6a-240fb34b17af",
+"5c562359-284f-4ed3-b49b-4d23126bf4c3",
+"4daf1de2-e0a0-442e-8c78-0d8868498dc6",
+"fd0e5b76-f295-6853-dc08-6e759171269d",
+"66796581-8dbc-4438-a759-9df262927ac1",
+"8126124a-18d8-4406-b8c4-41ef756ba803",
+"d0060110-6274-4d60-8f52-572beb5d7449",
+"cc78e88c-d861-4ff0-bcf4-53d8df0c0706"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1012,
+"text": "eelarve rahastamine",
+"code": "1012",
+"uuid": "d33d6de9-84c7-4b47-831d-bd15d2045dd7",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"5a8cd194-780d-d146-cda0-c6fc2a954a67",
+"12ecb76f-09e0-47a6-be62-b7904a35cf49",
+"24279ee1-88b5-5734-20c8-193e5af357bc",
+"11afa304-33f1-4805-85c9-38637579f0bd"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d33d6de9-84c7-4b47-831d-bd15d2045dd7"
+}
+}
+},
+{
+"edid": 929,
+"text": "eelarve täitmine",
+"code": "929",
+"uuid": "abf00e06-227a-4e27-85e8-fe3a2944e45b",
+"vol_cnt": 139,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"91e28aa9-8306-f773-00ed-439172eeaff1",
+"a0043a30-8416-444e-9fad-601e37822da1",
+"718347ef-927f-4d49-a182-7ba62f7fad8b",
+"98daf5f8-fe7c-46c8-99f2-6bfedd3848da",
+"fb9bdf26-3f50-4884-b22e-8d21bdbdafb2",
+"5803a37b-2b3f-492c-b381-8c0bba8c0823",
+"30438124-8e86-4c00-991c-74b84ee7f636",
+"404ce925-b2f6-4680-9d41-a90c29b8c951",
+"74e775c7-0a69-4517-940d-51fec176ddd5",
+"bdd15437-58fd-4bd3-8faa-5be8f89f28d1"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/abf00e06-227a-4e27-85e8-fe3a2944e45b"
+}
+}
+},
+{
+"edid": 5555,
+"text": "EMU poliitika kooskõlastamine",
+"code": "5555",
+"uuid": "436dd8bc-5cf0-44b9-8c65-2f2ea5430465",
+"vol_cnt": 39,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"44992420-b4f1-4e0c-8120-76a3265f0499",
+"dceb8a4a-2802-4484-a64e-c7f38f65639d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/436dd8bc-5cf0-44b9-8c65-2f2ea5430465"
+}
+}
+},
+{
+"edid": 2497,
+"text": "majanduspoliitika",
+"code": "2497",
+"uuid": "ab0bf30d-562e-4bd8-94d1-30b9bd03441f",
+"vol_cnt": 350,
+"scopeNotes": [],
+"usedFors": [
+"majanduslik lähenemisviis",
+"majanduslik valik"
+],
+"narrowTerms": [
+"d7e6789c-a31f-c4ba-9763-51f62462d923",
+"06cdf730-cb4e-48a8-92b5-953fd8fb83fd",
+"d8fa41be-3604-8a3b-bf1c-f902baa91f74",
+"da139d09-a3e3-4328-8497-4d51bc5925bd",
+"200c257b-c652-4ef0-824e-47b37eb9e7ac",
+"77218fb1-3a13-480c-b302-87a62c6dbb5e",
+"b40f997c-3165-46d3-9039-d6e3b03fa56f",
+"bb376a41-6021-4e91-8d04-da5323a79a73",
+"387f5d09-9896-4214-8293-72b377a2be1e",
+"bf1bfaff-a1d3-453d-9b55-fa1f73fdb20a",
+"3b48763a-c1de-4bc2-b2d1-764e7e6038fc",
+"8dcfba87-96d6-40be-abe2-b4ac3d09cac2",
+"f99d5585-bf4e-4656-b21c-e11391ae32c0",
+"5ce6168b-a145-4359-be7a-c84c4f72ca45",
+"542e2e5f-baea-4a7d-b5e5-7dd8d616755d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ab0bf30d-562e-4bd8-94d1-30b9bd03441f"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6beefbb2-52e1-4f44-9d27-c1bc09683103"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/1470a4ca-de85-4f78-9428-2fd577c07bee"
+}
+}
+}

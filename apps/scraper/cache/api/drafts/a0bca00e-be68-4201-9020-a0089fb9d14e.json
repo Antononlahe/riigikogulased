@@ -1,0 +1,430 @@
+{
+"uuid": "a0bca00e-be68-4201-9020-a0089fb9d14e",
+"title": "Riigikogu otsus „Riigikogu otsuse „Eesti Vabariigi, Leedu Vabariigi ja Läti Vabariigi Parlamentidevahelise Assamblee Eesti delegatsiooni moodustamine” muutmine\"",
+"mark": 832,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu otsuse „Eesti Vabariigi, Leedu Vabariigi ja Läti Vabariigi Parlamentidevahelise Assamblee Eesti delegatsiooni moodustamine” muutmine\" 832 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu otsuse „Eesti Vabariigi, Leedu Vabariigi ja Läti Vabariigi Parlamentidevahelise Assamblee Eesti delegatsiooni moodustamine” muutmine\"\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Väliskomisjon teeb sotsiaalkomisjoni ettepanekul nimetada Balti Assamblee Eesti delegatsiooni liikmeks Helmen Kütt seoses Riina Solmani Riigikogu liikme volituste lõppemisega.\nBalti Assamblee on moodustanud viis komisjoni: majandus-, energeetika- ja innovatsioonikomisjon, haridus-, teadus- ja kultuurikomisjon; loodusvarade- ja keskkonnakomisjon, julgeoleku- ja kaitsekomisjon ning heaolukomisjon. Eesti delegatsioon on moodustatud põhimõttel, mille kohaselt kuulub Balti Assamblees moodustatud komisjoni Riigikogu sama valdkondliku alatise komisjoni kaks esindajat. Seega kuulub 12-liikmelise Balti Assamblee Eesti delegatsiooni koosseisu kümme esindajat komisjonidest ning lisaks delegatsiooni juht ja asejuht",
+"initiated": "2026-02-23",
+"joined": null,
+"accepted": "2026-03-17",
+"amendmentsDeadline": "2026-03-06T12:00:00",
+"responsibleMember": {
+"uuid": "65b1d8bb-7f45-48f5-b4aa-7ba4ca459824",
+"name": "Henn Põlluaas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/65b1d8bb-7f45-48f5-b4aa-7ba4ca459824?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad",
+"name": "Ivar Mölder",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3040,
+"text": "parlamendidelegatsioon"
+},
+{
+"edid": 5449,
+"text": "parlamentaarne assamblee"
+},
+{
+"edid": 5774,
+"text": "Baltimaad"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "1dd19bbe-f7e7-4904-b9c1-20df35363c59",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2b977960-6005-4775-898a-f0ae535b08bf",
+"fileName": "Riigikogu_otsuse___Eesti_Vabariigi__Leedu_Vabariigi_ja_Läti_Vabariigi_Parlamentidevahelise_Assamblee_Eesti_delegatsiooni_moodustamine_muutmise_eelnõu_esitamine.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T15:37:12.642",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b977960-6005-4775-898a-f0ae535b08bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b977960-6005-4775-898a-f0ae535b08bf"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6b91ab6c-689e-451f-80cf-206c4a1bb6d7",
+"title": "832 OE I tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "30507138-ebc8-4e00-89ec-24973167bd69",
+"fileName": "832_OE_BA_del_muutmine_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-12T09:58:21.246",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/30507138-ebc8-4e00-89ec-24973167bd69/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/30507138-ebc8-4e00-89ec-24973167bd69"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "1dd19bbe-f7e7-4904-b9c1-20df35363c59",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "08eb852b-914d-4ece-8e47-ed82c0de4fc9",
+"fileName": "OE_BA_del_muutmine_(algtekst).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T15:37:12.706",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/08eb852b-914d-4ece-8e47-ed82c0de4fc9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/08eb852b-914d-4ece-8e47-ed82c0de4fc9"
+}
+}
+}
+},
+{
+"readingCode": null,
+"document": {
+"uuid": "f0f26af0-34a2-4c01-9c6a-0a4515878955",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fe3dbdc5-adc2-4969-86c3-1ce302ae234c",
+"fileName": "832XV_RK_o_17032026.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T12:32:30.085",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe3dbdc5-adc2-4969-86c3-1ce302ae234c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe3dbdc5-adc2-4969-86c3-1ce302ae234c"
+}
+}
+}
+},
+{
+"readingCode": null,
+"document": {
+"uuid": "f0f26af0-34a2-4c01-9c6a-0a4515878955",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4e983f62-39cb-4edd-b383-86ff301101c3",
+"fileName": "832XV_RK_o_17032026.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T12:31:01.641",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4e983f62-39cb-4edd-b383-86ff301101c3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4e983f62-39cb-4edd-b383-86ff301101c3"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6b91ab6c-689e-451f-80cf-206c4a1bb6d7",
+"title": "832 OE I tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "49236ccf-94fd-4cf1-8058-c80f8db1237c",
+"fileName": "832_OE_BA_del_muutmine_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-12T09:58:51.762",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/49236ccf-94fd-4cf1-8058-c80f8db1237c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/49236ccf-94fd-4cf1-8058-c80f8db1237c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "1dd19bbe-f7e7-4904-b9c1-20df35363c59",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "37f02273-1855-4b96-806d-227e4dab95dd",
+"fileName": "OE_BA_del_muutmine_(seletuskiri).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T15:37:12.722",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/37f02273-1855-4b96-806d-227e4dab95dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/37f02273-1855-4b96-806d-227e4dab95dd"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8f8377b5-6fc5-4b07-b572-d2b4a7ca565c",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9760868a-211e-4abd-bb53-b749093b8f76",
+"fileName": "832XV_RK_o_032026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T10:19:12.929",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9760868a-211e-4abd-bb53-b749093b8f76/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9760868a-211e-4abd-bb53-b749093b8f76"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8f8377b5-6fc5-4b07-b572-d2b4a7ca565c",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8b6ab102-60b6-4d64-bef4-2557e6fb22bb",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T10:30:05.848",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b6ab102-60b6-4d64-bef4-2557e6fb22bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b6ab102-60b6-4d64-bef4-2557e6fb22bb"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-02-23T15:36:23.142",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-02-26T15:50:00.381",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-03-09T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 9.03.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2026-03-18T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Henn Põlluaas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "4402d272-8f9a-4478-ae7d-75b65d40b41e",
+"fileName": "VÄLK_protokoll_nr_180_9.03.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T12:04:12.794",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4402d272-8f9a-4478-ae7d-75b65d40b41e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4402d272-8f9a-4478-ae7d-75b65d40b41e"
+}
+}
+},
+{
+"uuid": "c990ad9a-7295-4916-9c5f-4197db105f5a",
+"fileName": "VÄLK_protokoll_nr_180_9.03.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T12:03:06.483",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c990ad9a-7295-4916-9c5f-4197db105f5a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c990ad9a-7295-4916-9c5f-4197db105f5a"
+}
+}
+}
+]
+},
+{
+"date": "2026-03-17T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 17.03.2026 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "29cfb52a-788a-468a-bfdf-fdf998ff06a4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-03-17T10:07:12.463",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/29cfb52a-788a-468a-bfdf-fdf998ff06a4"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2026-03-17T12:28:57.236",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2026-03-18T12:18:08.231",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a0bca00e-be68-4201-9020-a0089fb9d14e"
+}
+}
+}

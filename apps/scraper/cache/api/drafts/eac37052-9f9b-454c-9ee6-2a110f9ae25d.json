@@ -1,0 +1,494 @@
+{
+"uuid": "eac37052-9f9b-454c-9ee6-2a110f9ae25d",
+"title": "Riigikogu otsus „Riigimetsa Majandamise Keskuse nõukogu liikme tagasikutsumine ja uue liikme nimetamine\"",
+"mark": 852,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigimetsa Majandamise Keskuse nõukogu liikme tagasikutsumine ja uue liikme nimetamine\" 852 OE",
+"initialTitle": "Riigikogu otsus „Riigimetsa Majandamise Keskuse nõukogu liikme tagasikutsumine ja uue liikme nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu näeb ette kutsuda Riigimetsa Majandamise Keskuse nõukogust tagasi Riigikogu liige Anti Allas ning nimetada Riigimetsa Majandamise Keskuse nõukogu liikmeks Riigikogu liige Diana Ingerainen.",
+"initiated": "2026-03-18",
+"joined": null,
+"accepted": "2026-03-24",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "122e850b-5e6b-41f6-8b91-830ca8de8450",
+"name": "Mait Klaassen",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/122e850b-5e6b-41f6-8b91-830ca8de8450?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "2cd280db-ea9c-4d29-8474-f83075ae0fc9",
+"name": "Vivi Older",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/2cd280db-ea9c-4d29-8474-f83075ae0fc9?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 651,
+"text": "metsamajandus"
+},
+{
+"edid": 2996,
+"text": "riigimets"
+},
+{
+"edid": 878,
+"text": "avalik asutus"
+},
+{
+"edid": 1154,
+"text": "juhtimine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a093a6c3-abd1-4b49-b97b-5c20482fd26a",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cbad5856-b1d5-4a0e-9ff3-d4de7b1cf7c4",
+"fileName": "852_RK_o_RMK_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-19T15:57:42.715",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cbad5856-b1d5-4a0e-9ff3-d4de7b1cf7c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cbad5856-b1d5-4a0e-9ff3-d4de7b1cf7c4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fb387919-3795-4497-afef-3767571d12c5",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "91a0ebf5-71ce-4dfd-945d-c2565574ef16",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-18T15:33:40.263",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91a0ebf5-71ce-4dfd-945d-c2565574ef16/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91a0ebf5-71ce-4dfd-945d-c2565574ef16"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fb387919-3795-4497-afef-3767571d12c5",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b79b4094-0ed8-4dc6-af14-a222c27ba7ba",
+"fileName": "852_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-18T15:47:21.786",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b79b4094-0ed8-4dc6-af14-a222c27ba7ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b79b4094-0ed8-4dc6-af14-a222c27ba7ba"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "3a835e57-f1be-4b51-a722-7d793ad80eec",
+"title": "RT-le avaldamine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7f6127f8-de61-4138-8980-d2f876846c56",
+"fileName": "852XV_RK_o_24032026.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-25T09:36:32.788",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7f6127f8-de61-4138-8980-d2f876846c56/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7f6127f8-de61-4138-8980-d2f876846c56"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "3a835e57-f1be-4b51-a722-7d793ad80eec",
+"title": "RT-le avaldamine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8e85ffcf-68e3-4e63-b4d1-6a6331040a39",
+"fileName": "852XV_RK_o_24032026.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-25T09:36:05.457",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e85ffcf-68e3-4e63-b4d1-6a6331040a39/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e85ffcf-68e3-4e63-b4d1-6a6331040a39"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a093a6c3-abd1-4b49-b97b-5c20482fd26a",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9a2b394d-facd-408a-a8f1-345554867b06",
+"fileName": "852_RK_o_RMK_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-19T15:58:09.181",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9a2b394d-facd-408a-a8f1-345554867b06/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9a2b394d-facd-408a-a8f1-345554867b06"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fb387919-3795-4497-afef-3767571d12c5",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f478dcc3-51c5-4211-865b-d29cdea5ba2c",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-18T15:33:29.606",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f478dcc3-51c5-4211-865b-d29cdea5ba2c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f478dcc3-51c5-4211-865b-d29cdea5ba2c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fb387919-3795-4497-afef-3767571d12c5",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0f8d327f-7fa9-4a29-8f85-2349a9f4a0a9",
+"fileName": "852_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-18T15:47:34.996",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0f8d327f-7fa9-4a29-8f85-2349a9f4a0a9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0f8d327f-7fa9-4a29-8f85-2349a9f4a0a9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "47defb60-f6b3-4e6c-bbfc-7bf1a09604b7",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "273deb42-2e01-4d48-a90e-36f823db6b79",
+"fileName": "852XV_RK_o_032026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-24T11:08:24.675",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/273deb42-2e01-4d48-a90e-36f823db6b79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/273deb42-2e01-4d48-a90e-36f823db6b79"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "47defb60-f6b3-4e6c-bbfc-7bf1a09604b7",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c591bd4e-799c-4276-adcd-a85897648da6",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-24T11:26:36.119",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c591bd4e-799c-4276-adcd-a85897648da6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c591bd4e-799c-4276-adcd-a85897648da6"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-03-18T14:09:55.031",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-03-19T15:39:00.767",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-03-17T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 17.03.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2026-03-24T10:00:00"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Teha ettepanek kutsuda Riigimetsa Majandamise Keskuse nõukogust tagasi Riigikogu liige Anti Allas"
+},
+{
+"decision": {
+"code": "ALGATADA_EELNOU",
+"value": "Algatada eelnõu"
+},
+"description": "Esitada Riigikogu otsuse „Riigimetsa Majandamise Keskuse nõukogu liikme tagasikutsumine ja uue liikme nimetamine“ eelnõu"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Mait Klaassen"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Teha ettepanek nimetada Riigimetsa Majandamise Keskuse nõukogu liikmeks Riigikogu liige Diana Ingerainen"
+}
+],
+"protocolFiles": [
+{
+"uuid": "23f4d9bb-eeb0-4d15-8a84-403d3ebc8d5e",
+"fileName": "KEKK_protokoll_17.03.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-23T09:35:20.078",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/23f4d9bb-eeb0-4d15-8a84-403d3ebc8d5e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/23f4d9bb-eeb0-4d15-8a84-403d3ebc8d5e"
+}
+}
+},
+{
+"uuid": "6cd32eb0-ce2b-43dd-869b-c0a368c3b1f6",
+"fileName": "KEKK_protokoll_nr_146_17.03.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-23T09:34:41.708",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6cd32eb0-ce2b-43dd-869b-c0a368c3b1f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6cd32eb0-ce2b-43dd-869b-c0a368c3b1f6"
+}
+}
+}
+]
+},
+{
+"date": "2026-03-24T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 24.03.2026 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "bd579f01-639e-4704-be0f-362a6e3e48bb",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-03-24T11:05:23.51",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/bd579f01-639e-4704-be0f-362a6e3e48bb"
+}
+}
+},
+{
+"uuid": "40461b30-0b3d-4272-9f0c-a6adebcee3ed",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2026-03-24T11:08:38.29",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/40461b30-0b3d-4272-9f0c-a6adebcee3ed"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2026-03-25T09:34:27.681",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2026-03-26T20:09:58.329",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/eac37052-9f9b-454c-9ee6-2a110f9ae25d"
+}
+}
+}

@@ -1,0 +1,751 @@
+{
+"uuid": "0941d900-02a9-4be7-866c-6c009a6775b6",
+"title": "Eesti Vabariigi ja Valgevene Vabariigi vahelise tulumaksuga topeltmaksustamise vältimise ning maksudest hoidumise tõkestamise lepingu lõpetamise seadus",
+"mark": 666,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Eesti Vabariigi ja Valgevene Vabariigi vahelise tulumaksuga topeltmaksustamise vältimise ning maksudest hoidumise tõkestamise lepingu lõpetamise seadus 666 SE",
+"initialTitle": "Eesti Vabariigi ja Valgevene Vabariigi vahelise tulumaksuga topeltmaksustamise vältimise ning maksudest hoidumise tõkestamise lepingu lõpetamise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu kohaselt lõpetab valitsus tulumaksuga topeltmaksustamise vältimise ja maksudest hoidumise tõkestamise lepingu Valgevenega, mis kehtis alates 1998. aastast. Leping pidi soodustama investeeringuid kahe riigi vahel, kuid Valgevene on seda ühepoolselt rikkunud, peatades osaliselt lepingu kohaldamise Eesti residentidele.",
+"initiated": "2025-06-02",
+"joined": null,
+"accepted": "2025-06-18",
+"amendmentsDeadline": "2025-06-13T16:00:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 1326,
+"text": "tulumaks"
+},
+{
+"edid": 504,
+"text": "topeltmaksustamine"
+},
+{
+"edid": 1095,
+"text": "maksudest kõrvalehoidumine"
+},
+{
+"edid": 3462,
+"text": "kahepoolne leping"
+},
+{
+"edid": 5574,
+"text": "lepingust taganemine"
+},
+{
+"edid": 5458,
+"text": "Valgevene"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "99435975-91ff-446b-b0ec-7fe71f35532f",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f32f4185-c422-4301-916d-d8a709f5eda4",
+"fileName": "RK_25-01054-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:49:09.205",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f32f4185-c422-4301-916d-d8a709f5eda4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f32f4185-c422-4301-916d-d8a709f5eda4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "99435975-91ff-446b-b0ec-7fe71f35532f",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f6a226fb-d750-4a01-bda3-6ffed85fec0b",
+"fileName": "[EIS]_Eelnõu_esitamine__RAM-25-0303_-_Eesti_Vabariigi_ja_Valgevene_Vabariigi_vahelise_tulumaksuga_topeltmaksustamise_vältimise_ning_maksudest_hoidumise_tõkestamise_lepingu_lõpetamise_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:49:09.33",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f6a226fb-d750-4a01-bda3-6ffed85fec0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f6a226fb-d750-4a01-bda3-6ffed85fec0b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "dabb92b7-dabe-4d46-8d39-d817265cceba",
+"title": "666 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8a695cc1-14ee-42c6-8319-48c1f53f44e9",
+"fileName": "666_Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-05T10:55:42.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8a695cc1-14ee-42c6-8319-48c1f53f44e9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8a695cc1-14ee-42c6-8319-48c1f53f44e9"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "84113588-0678-47e5-9da9-0811cff1d1a3",
+"title": "666 SE II lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6e060f0d-6e18-4cf2-86c4-157c79159a57",
+"fileName": "666_SE21.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-16T13:17:49.905",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e060f0d-6e18-4cf2-86c4-157c79159a57/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e060f0d-6e18-4cf2-86c4-157c79159a57"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "99435975-91ff-446b-b0ec-7fe71f35532f",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "04997769-df3c-4ebd-bb93-104d35d8b597",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:49:09.28",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/04997769-df3c-4ebd-bb93-104d35d8b597/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/04997769-df3c-4ebd-bb93-104d35d8b597"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "99435975-91ff-446b-b0ec-7fe71f35532f",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eaf3a890-564d-47c8-bf29-97804cb777fd",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:49:09.314",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eaf3a890-564d-47c8-bf29-97804cb777fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eaf3a890-564d-47c8-bf29-97804cb777fd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "99435975-91ff-446b-b0ec-7fe71f35532f",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3de4db4d-1ee8-4814-b011-20fa61b1f430",
+"fileName": "25-01054-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:49:09.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3de4db4d-1ee8-4814-b011-20fa61b1f430/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3de4db4d-1ee8-4814-b011-20fa61b1f430"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "55d33b94-63eb-43c1-b310-0474f4afbb42",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9914c896-a826-403e-b4db-e851ae3b8800",
+"fileName": "666_Kaaskiri_Vabariigi_Presidendile_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-19T10:18:15.016",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9914c896-a826-403e-b4db-e851ae3b8800/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9914c896-a826-403e-b4db-e851ae3b8800"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "ce5b442d-3c08-48c4-a968-0e442020eed6",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3137efd6-16b9-44ea-a292-650282936e21",
+"fileName": "666XV_EV_Valge_lop_s_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-20T19:47:47.153",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3137efd6-16b9-44ea-a292-650282936e21/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3137efd6-16b9-44ea-a292-650282936e21"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "ce5b442d-3c08-48c4-a968-0e442020eed6",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ed5be24b-923f-444e-bfa6-3db0d6d384d4",
+"fileName": "666XV_EV_Valge_lop_s_2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-20T19:47:30.198",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ed5be24b-923f-444e-bfa6-3db0d6d384d4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ed5be24b-923f-444e-bfa6-3db0d6d384d4"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "84113588-0678-47e5-9da9-0811cff1d1a3",
+"title": "666 SE II lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "83e0c575-d5a7-40c0-a19b-1c239d0ef2d5",
+"fileName": "666_SE21_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-16T13:18:08.907",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83e0c575-d5a7-40c0-a19b-1c239d0ef2d5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83e0c575-d5a7-40c0-a19b-1c239d0ef2d5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "dabb92b7-dabe-4d46-8d39-d817265cceba",
+"title": "666 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "55fd842a-6e70-4cc0-82b4-4d6b5ac9ef82",
+"fileName": "666_Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-05T10:56:31.442",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/55fd842a-6e70-4cc0-82b4-4d6b5ac9ef82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/55fd842a-6e70-4cc0-82b4-4d6b5ac9ef82"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "99435975-91ff-446b-b0ec-7fe71f35532f",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5f0ba6e5-a4a8-4764-b8e1-5e738f5f39f9",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:49:09.291",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f0ba6e5-a4a8-4764-b8e1-5e738f5f39f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f0ba6e5-a4a8-4764-b8e1-5e738f5f39f9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "99435975-91ff-446b-b0ec-7fe71f35532f",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b9b4be31-bc49-4705-952f-b500fb3fb2e3",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:49:09.302",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9b4be31-bc49-4705-952f-b500fb3fb2e3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9b4be31-bc49-4705-952f-b500fb3fb2e3"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "f15858cb-f350-41a1-84d1-f3cd50261c13",
+"reference": "1-1/15-666/1",
+"title": "Vabariigi Presidendi otsus nr 572",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5894d039-7917-4cba-b780-1d4ea048fdc3",
+"fileName": "VP_20062025_o572.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-20T19:44:49.371",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5894d039-7917-4cba-b780-1d4ea048fdc3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5894d039-7917-4cba-b780-1d4ea048fdc3"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "f15858cb-f350-41a1-84d1-f3cd50261c13",
+"reference": "1-1/15-666/1",
+"title": "Vabariigi Presidendi otsus nr 572",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8c94f4a0-99ed-411b-8045-08a1325b15d2",
+"fileName": "VP_20062025_o572.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-20T19:44:49.306",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8c94f4a0-99ed-411b-8045-08a1325b15d2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8c94f4a0-99ed-411b-8045-08a1325b15d2"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "55d33b94-63eb-43c1-b310-0474f4afbb42",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dd996914-080d-4a3e-a9a0-0f1d13cb12b7",
+"fileName": "666XV_EV_Valge_lop_s_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-19T08:41:13.874",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dd996914-080d-4a3e-a9a0-0f1d13cb12b7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dd996914-080d-4a3e-a9a0-0f1d13cb12b7"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "55d33b94-63eb-43c1-b310-0474f4afbb42",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "edb01ecc-8c6d-4a2c-9106-e7620119f23b",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-19T10:19:24.791",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/edb01ecc-8c6d-4a2c-9106-e7620119f23b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/edb01ecc-8c6d-4a2c-9106-e7620119f23b"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-06-02T15:48:43.052",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-06-03T13:49:00.367",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-06-05T09:00:00",
+"sittingTitle": "Komisjoni erakorraline istung neljapäev, 5.06.2025 kell 09.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-10T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_ME_TAHTAJAKS",
+"value": "Teha ettepanek määrata muudatusettepanekute tähtajaks"
+},
+"plenaryAgendaDateTime": "2025-06-13T16:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "bdeba01d-0043-49d3-8b2a-a2ea5311a23b",
+"fileName": "RAHK_protokoll_nr_159_05.06.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T09:41:08.691",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bdeba01d-0043-49d3-8b2a-a2ea5311a23b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bdeba01d-0043-49d3-8b2a-a2ea5311a23b"
+}
+}
+},
+{
+"uuid": "3ef8f0aa-681a-4c46-a44c-1ecd943e753c",
+"fileName": "RAHK_protokoll_05.06.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T09:41:37.895",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ef8f0aa-681a-4c46-a44c-1ecd943e753c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ef8f0aa-681a-4c46-a44c-1ecd943e753c"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-09T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 9.06.2025 15:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2025-06-12T08:30:00",
+"sittingTitle": "Komisjoni istung neljapäev, 12.06.2025 kell 08.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-18T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "b19c05a1-6977-4857-a4f8-9bd7b0fba0eb",
+"fileName": "RAHK_protokoll_nr_163_12.06.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T09:59:32.877",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b19c05a1-6977-4857-a4f8-9bd7b0fba0eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b19c05a1-6977-4857-a4f8-9bd7b0fba0eb"
+}
+}
+},
+{
+"uuid": "0a2da25c-7067-4daa-b842-35213eaef1b5",
+"fileName": "RAHK_protokoll_12.06.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T10:00:06.357",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0a2da25c-7067-4daa-b842-35213eaef1b5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0a2da25c-7067-4daa-b842-35213eaef1b5"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-18T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 18.06.2025 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "ac9f82d1-775c-405b-b4bb-ff0fd38a9eaa",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-06-18T19:32:42.077",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ac9f82d1-775c-405b-b4bb-ff0fd38a9eaa"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-06-19T10:25:35.449",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2025-06-20T19:56:33.536",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2025-06-21T10:31:55.872",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/0941d900-02a9-4be7-866c-6c009a6775b6"
+}
+}
+}

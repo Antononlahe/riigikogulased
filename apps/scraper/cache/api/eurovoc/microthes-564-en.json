@@ -1,0 +1,280 @@
+{
+"uuid": "258364df-6d77-4d9c-8d6f-4c300ee949b1",
+"etid": 564,
+"code": "3211",
+"text": "õpetamine",
+"descriptors": [
+{
+"edid": 873,
+"text": "haridusasutus",
+"code": "873",
+"uuid": "62800ac7-22b2-1230-4373-84cfd41b1a05",
+"vol_cnt": 36,
+"scopeNotes": [],
+"usedFors": [
+"kool",
+"õppeasutus"
+],
+"narrowTerms": [
+"a8de7bfe-3408-44b0-9e16-2bd0f909b9e2",
+"c5cacce8-d247-49f7-8ca7-76a1136beb1f",
+"8b68d09f-5a68-4923-adf9-e5373b3572b6",
+"5193f29b-0107-4d96-8a84-be6d9c8d568f",
+"8d5bc1ca-452c-449c-8b63-08d69bae40e6"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/62800ac7-22b2-1230-4373-84cfd41b1a05"
+}
+}
+},
+{
+"edid": 795,
+"text": "kutseharidus",
+"code": "795",
+"uuid": "24ac98bd-7163-e8fe-4883-e0b534ec8293",
+"vol_cnt": 29,
+"scopeNotes": [],
+"usedFors": [
+"kutseõppeasutus",
+"tehnikakool",
+"ärikool"
+],
+"narrowTerms": [
+"15fe484a-a206-4850-b6fd-45c4aec34abb",
+"8964bb47-62de-4da0-984c-fab5074f6ec0",
+"f88606ae-e283-444b-ab56-d6a46639e2f0",
+"49963be0-d9b4-461a-987a-b05b56c6cbb3",
+"94be249b-cf5a-4c3f-9fa1-229ebd968c10",
+"f6c7507c-6e79-449a-abac-11c6bd72f8f7",
+"be126a5a-c90e-4639-b8ef-19d5473fcc12"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1074,
+"text": "kutseõpe",
+"code": "1074",
+"uuid": "c6611f1c-a9ce-6f0e-d56d-edcf222014e1",
+"vol_cnt": 113,
+"scopeNotes": [
+"Koolitus, mille eesmärk on anda mingis  majandustegevuse valdkonnas teatud kutsealal (või seonduvatel kutsealadel) töötamiseks vajalikud oskused, teadmised ja võimed."
+],
+"usedFors": [
+"e-koolitus",
+"kaugkoolitus",
+"kutsealane ettevalmistus",
+"kutseõpetus",
+"tööalane koolitus"
+],
+"narrowTerms": [
+"068ca664-45e7-4792-9d60-30d24ec8a2b0",
+"d90bd9f7-200e-42ff-8db1-7d58367e0245",
+"e008fda6-1941-4a87-a35e-5f9d6bc7ad06",
+"3dd765bc-9d90-aa8d-c800-d1ffc3499b64",
+"ab2b2f26-3898-4933-b9e6-b6307458384a",
+"6e2c21ca-b01d-4523-97f7-26aa9e54a636",
+"e3ac8c06-2542-ca08-b8e1-f315616d3f9b",
+"07553047-c8e9-411a-acb5-dd34358da650",
+"8942b355-9c16-466e-a475-792053bfed2a",
+"25dd0c6c-429a-4977-b90d-3fda9e35b6b8"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c6611f1c-a9ce-6f0e-d56d-edcf222014e1"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/24ac98bd-7163-e8fe-4883-e0b534ec8293"
+}
+}
+},
+{
+"edid": 778,
+"text": "õpetamine",
+"code": "778",
+"uuid": "f528e1c6-3f1d-a3e3-710e-a761f9578edd",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"9990c505-6c18-2840-bb45-ba8c42211d34",
+"6c973c32-05ae-4ce4-9699-92ec052f27b2",
+"0b8dcf32-5b04-4947-8f7f-38f362c24d48",
+"d202749e-638b-4257-a82b-2fdffefc4be4",
+"a4fbe8a8-a698-4677-ad39-f8793fae1c21",
+"e7f53263-8873-4127-b441-223808d760f0"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f528e1c6-3f1d-a3e3-710e-a761f9578edd"
+}
+}
+},
+{
+"edid": 784,
+"text": "üldharidus",
+"code": "784",
+"uuid": "ef4cc378-dc38-8d45-ada1-12a9ab04e103",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"4466b09e-d2d0-4bc5-bf22-1b01cb29d8ff",
+"03c7e9c7-d809-4ced-87b4-650895376b67",
+"10aa6889-d55d-4d13-9c6d-06a95b313ace",
+"113ecaad-d8ce-472d-916b-88bce1941b43",
+"1484587e-dd99-4b25-bb51-b8b9bd9a79f0",
+"e6432692-da2e-8925-3511-ec7b604afcf6",
+"a1ceab01-0dda-3824-d4fb-a52970ac72b1",
+"14cdf129-777c-4201-b97c-901fe35288ba",
+"49850d4a-42c5-4093-9371-07d588811c3d",
+"b7679d52-6c50-4689-b55d-a1676e5e81a6",
+"127fb668-a4df-4560-863c-380942317490"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2794,
+"text": "õppekava",
+"code": "2794",
+"uuid": "c6da7e42-0cc2-b54c-14d2-708fc58ba006",
+"vol_cnt": 15,
+"scopeNotes": [],
+"usedFors": [
+"kooli õppekava",
+"õpetatavad ained",
+"õppeained",
+"õppeplaan",
+"õppeprogramm"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c6da7e42-0cc2-b54c-14d2-708fc58ba006"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ef4cc378-dc38-8d45-ada1-12a9ab04e103"
+}
+}
+},
+{
+"edid": 2059,
+"text": "haridustase",
+"code": "2059",
+"uuid": "94f95c70-a2df-5803-adb7-82794e6aaa84",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"haridusaste"
+],
+"narrowTerms": [
+"ca09faf5-1699-d133-8392-5c89acaf9fd5",
+"25bab148-be91-9fd2-7464-088317c985a0",
+"05792bff-5133-2351-8138-861104ed48a5",
+"4951dd8b-5764-5623-bff5-ea2afc0accba",
+"b728c51f-de8b-d5c1-453c-70972c6a8acd"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4554,
+"text": "koolitöö",
+"code": "4554",
+"uuid": "67785897-e209-d34e-f76d-2937db082dcc",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"õpilaste tegevused"
+],
+"narrowTerms": [
+"6d274872-a268-a284-0df0-cac612dcb1cc",
+"9ea77929-f225-f2bf-a75a-133c513c251a",
+"ed432bfb-b7fc-4280-b1dc-b85982465a20",
+"9515b065-a906-4f9f-a258-68534b486ce4",
+"a7b33704-5bcd-4919-8b11-e0a53154900c",
+"98f99622-757a-4c91-871b-e172648c9e2f",
+"ce4ede8e-e4c9-490f-9926-d68420fde9c2",
+"6f8a4d2d-a300-4ee5-9373-8c94c5de00a4"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/67785897-e209-d34e-f76d-2937db082dcc"
+}
+}
+},
+{
+"edid": 317,
+"text": "kultuur",
+"code": "317",
+"uuid": "f802374d-589a-49c4-b156-d3cc6264eea6",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"c28397f3-972c-44f9-bdbc-ca4e65f5f9e7",
+"823aed37-b9e9-4318-ba23-ec2cd214f1af",
+"37483ca5-ab4f-426d-9c1e-dfddb82ef7ea",
+"6d09fee4-e20a-4ccb-bb59-cfbfc28ce26b",
+"0d38cc04-3db2-4054-935a-07b51cbd38bb",
+"c6af3ba1-b684-4c7b-a2e9-bfbfaa13486f",
+"7548af05-69f0-449a-880d-f283276cfded",
+"576c45b4-ae63-40bf-952a-06021b455993"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f802374d-589a-49c4-b156-d3cc6264eea6"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/94f95c70-a2df-5803-adb7-82794e6aaa84"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/258364df-6d77-4d9c-8d6f-4c300ee949b1"
+}
+}
+}

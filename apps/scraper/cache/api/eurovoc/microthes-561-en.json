@@ -1,0 +1,580 @@
+{
+"uuid": "b8081542-84b1-4ab2-9330-9a9dd1212bfc",
+"etid": 561,
+"code": "2841",
+"text": "tervis",
+"descriptors": [
+{
+"edid": 2479,
+"text": "tervishoiupoliitika",
+"code": "2479",
+"uuid": "f0d4b186-bb3b-427e-1f33-59499708a45a",
+"vol_cnt": 32,
+"scopeNotes": [],
+"usedFors": [
+"tervis",
+"tervisekaitse"
+],
+"narrowTerms": [
+"b858bcd3-ed4d-45ae-aa75-d5675e105c64",
+"ede41b5e-c191-0b3c-4d17-d770ddc11660",
+"9777cbb2-7bc9-4213-bcd7-edd80e1ef013",
+"838826ed-839d-4f6e-a570-243b6724a99a",
+"7b812167-fb61-1b10-c9ca-46c88abf8050",
+"84b7bba5-37f8-4bbc-9476-4fe302c0a794",
+"9872e1a4-ea33-40eb-4b5b-7c7502d7a9eb"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2144,
+"text": "Maailma Terviseorganisatsioon",
+"code": "2144",
+"uuid": "84f3ae0b-b457-4191-8427-42423413eb3f",
+"vol_cnt": 23,
+"scopeNotes": [],
+"usedFors": [
+"WHO"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/84f3ae0b-b457-4191-8427-42423413eb3f"
+}
+}
+},
+{
+"edid": 680,
+"text": "tervisekasvatus",
+"code": "680",
+"uuid": "b7679d52-6c50-4689-b55d-a1676e5e81a6",
+"vol_cnt": 2,
+"scopeNotes": [
+"Elanikkonna tervishoiu- ja hügieenialaste teadmiste täiendamine."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b7679d52-6c50-4689-b55d-a1676e5e81a6"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f0d4b186-bb3b-427e-1f33-59499708a45a"
+}
+}
+},
+{
+"edid": 2789,
+"text": "tervishoiueriala",
+"code": "2789",
+"uuid": "df261952-23ae-6f28-38e3-874fcc840055",
+"vol_cnt": 16,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"214e40cb-bb88-4148-9314-c0c13c9fbda5",
+"9ea3cf7b-aebf-bd1c-062b-f6dafb9681e7",
+"0c2ee904-550d-425e-a6a1-4ccaa9663fea",
+"117d3ffb-b25f-474c-8bd7-afca7b7e4632",
+"f557cbf3-2aea-4ca2-a6b4-b73561de3c3f",
+"66010620-62b2-49b7-9fa9-4d720cf57ece",
+"1e499a5d-dbc6-1d2d-6d29-f15cbe7dfa4b",
+"9e5489bf-008c-b66b-74c9-a3464caec1cc"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 788,
+"text": "arstiõpe",
+"code": "788",
+"uuid": "15fe484a-a206-4850-b6fd-45c4aec34abb",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"meditsiiniharidus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/15fe484a-a206-4850-b6fd-45c4aec34abb"
+}
+}
+},
+{
+"edid": 2788,
+"text": "vaba elukutse",
+"code": "2788",
+"uuid": "d623c49a-eff1-4022-93aa-2fbea45fee13",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d623c49a-eff1-4022-93aa-2fbea45fee13"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/df261952-23ae-6f28-38e3-874fcc840055"
+}
+}
+},
+{
+"edid": 1415,
+"text": "farmaatsiatööstus",
+"code": "1415",
+"uuid": "0abb6d10-350a-4ddb-bdb4-c641d07468c6",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [
+"ravimite valmistamine",
+"ravimitööstus"
+],
+"narrowTerms": [
+"68ba2700-26b1-ad3f-7d84-75d984a102ff",
+"c3c75d36-df0f-4240-b094-d81cc70b5046"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3796,
+"text": "biotööstus",
+"code": "3796",
+"uuid": "84f2f366-6820-45b7-ad63-cbe056b6a0c5",
+"vol_cnt": 5,
+"scopeNotes": [
+"Tööstusharu, mis kasutab biotehnoloogiat tööstuslikul ja kaubanduslikul tasemel."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/84f2f366-6820-45b7-ad63-cbe056b6a0c5"
+}
+}
+},
+{
+"edid": 1362,
+"text": "keemiatööstus",
+"code": "1362",
+"uuid": "08a31d32-8002-4a80-9c11-2ead9a4e955f",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"keemiatootmine"
+],
+"narrowTerms": [
+"730bb873-c7a5-4d9c-aa09-8440c182dfbd",
+"0289b515-3d36-dc7a-4cba-40739721dc52",
+"206d18cf-6f03-45ff-897c-4ef24952f4f6",
+"fc1daf8e-cf1f-4b9f-905d-a1d821dd0272",
+"69a9abd3-4162-4716-abc2-81b7d8a065ec",
+"41cb7605-143b-493f-9e5b-923e1efbfe01"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/08a31d32-8002-4a80-9c11-2ead9a4e955f"
+}
+}
+},
+{
+"edid": 1594,
+"text": "ravimiseadusandlus",
+"code": "1594",
+"uuid": "d5282dbc-677d-468b-b8d6-60511ed23898",
+"vol_cnt": 12,
+"scopeNotes": [],
+"usedFors": [
+"ravimieeskirjad",
+"ravimite kontroll"
+],
+"narrowTerms": [
+"2c0b7c65-0cbd-8854-898d-91507a060def",
+"f5572459-1dc1-4070-93b2-b6eee2be1f60",
+"66788b85-db1b-4e07-9519-f248e8918a15"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d5282dbc-677d-468b-b8d6-60511ed23898"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0abb6d10-350a-4ddb-bdb4-c641d07468c6"
+}
+}
+},
+{
+"edid": 1754,
+"text": "haigus",
+"code": "1754",
+"uuid": "38174cdc-ea6c-4e1e-bd04-71e6266d4599",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"4b13935b-b17d-4ea8-ade8-b26139e286e2",
+"c7a2660a-2fd1-4ba0-a820-56fa21c49c4b",
+"cf5edbc4-8545-93c6-b688-125d2cc47407",
+"b3f09a8f-54ca-43b2-935d-a07d83d93ba7",
+"8c9e1323-de9f-462c-b263-43ae0224d360",
+"97c77aca-7987-4264-bd0e-3cbb4743aeac",
+"3eca7a58-6a76-4e51-8d6f-25684c4c790e",
+"aad604cf-1582-4fae-b162-cabb38978d11",
+"7fdea21c-1950-940f-d5a2-12185da06f54",
+"b1870823-1514-4ccb-aeee-5023b8254bfa",
+"b8c80ead-51d9-42d7-8574-396d3cdd2966",
+"022de588-4538-4dae-aa78-acc896f2eaa9",
+"764e279c-df13-4fd0-893f-e8aca673387d",
+"1ee87208-17cf-4144-8029-c158420ab3b4",
+"4a50abd4-f409-4041-b4da-8e5f53338432",
+"d2f81866-f3f3-4503-b813-7f08abf286e1",
+"38a8b6f3-6185-4cb1-91a6-795c6da9a63f",
+"038432ab-8bac-2460-ccd7-0b7de83ae77e",
+"7a993e45-d9a3-4108-bb47-ac32646aaed9",
+"53e6c94a-6679-4f72-952c-4ff83d75bde1",
+"2d398608-bce2-4261-a4bc-8e8e820685e5",
+"0e6c93bf-bf0c-46f8-8dc6-b9da39fbec10",
+"44ed2dd4-e4db-4819-9f8b-d837424ea6bd"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 102,
+"text": "haiguspuhkus",
+"code": "102",
+"uuid": "1014f1c9-3d2d-46a6-8e39-98d89c35e5de",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1014f1c9-3d2d-46a6-8e39-98d89c35e5de"
+}
+}
+},
+{
+"edid": 1854,
+"text": "haiguste ennetamine",
+"code": "1854",
+"uuid": "a708c451-bd16-b88f-b9d6-82aaf998e1a8",
+"vol_cnt": 70,
+"scopeNotes": [],
+"usedFors": [
+"ennetav meditsiin",
+"haiguste vältimine",
+"haiguste ärahoidmine",
+"profülaktika"
+],
+"narrowTerms": [
+"79212db4-b3e8-bc0c-fe57-22e134f43661"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a708c451-bd16-b88f-b9d6-82aaf998e1a8"
+}
+}
+},
+{
+"edid": 1991,
+"text": "suremus",
+"code": "1991",
+"uuid": "0bd835a0-7a79-4844-8991-f08692611b39",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"suremuskordaja",
+"suremusstatistika"
+],
+"narrowTerms": [
+"5001b7f1-72d6-41ec-a8ff-537aba35effe",
+"9d08222e-b2c4-4991-a090-3a915e34ab59"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0bd835a0-7a79-4844-8991-f08692611b39"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/38174cdc-ea6c-4e1e-bd04-71e6266d4599"
+}
+}
+},
+{
+"edid": 5881,
+"text": "meditsiiniteadused",
+"code": "5881",
+"uuid": "0e537a00-b037-4200-ae58-11f67acb3ab2",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"1eb29f5f-e4bc-44bb-9ecb-e0e92d8ece78",
+"be923bd6-fa06-696e-0866-c64b59fc9793",
+"b97cd9e1-9b68-4b36-816d-b9dc4b3bcd1e",
+"6c6961e2-5bc9-4568-9219-800bc771b143",
+"84173e1d-9473-4bde-a50d-d057b457966a",
+"b44f8814-dac9-4f27-8b97-ea328a6f5ad7",
+"54ecaacd-a532-c70d-4bd3-f5b81f556175",
+"fc6fde5d-c746-49cb-86cc-44b1b974b6ad"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3941,
+"text": "bioteadused",
+"code": "3941",
+"uuid": "1cc11239-5ebd-4326-9249-462039a9032a",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"loodusteadused"
+],
+"narrowTerms": [
+"75e162f1-9d7c-4da9-b8eb-f506cbb059c3",
+"e0b5e75e-c255-4bdf-8d1f-f708aadad110",
+"f69a9d80-7c35-4830-ad9c-d1bf5c4432d6",
+"818b59ee-9e12-4cc9-9be1-c3be7b515801"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1cc11239-5ebd-4326-9249-462039a9032a"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0e537a00-b037-4200-ae58-11f67acb3ab2"
+}
+}
+},
+{
+"edid": 1268,
+"text": "toitumine",
+"code": "1268",
+"uuid": "f4c9792c-a852-4618-93b7-33e09afe81bb",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [
+"toit"
+],
+"narrowTerms": [
+"a3fa9b71-269b-4e13-8958-266ad760f3f2",
+"da1fc9a7-33d7-d8ca-1b1d-d7c77f707cda",
+"42dddf7f-eae6-4785-9570-eb282e23bb11",
+"e5ffe68c-1542-4285-b7dc-fa9370b3799c",
+"ef398c32-0792-484f-87f8-86c214328bab",
+"af83e1c1-abaa-4fc3-8dca-301ad537e41e",
+"2d896239-82a9-46a1-a8c4-6c2e154a3e5d",
+"d73aa5a9-a275-4039-b659-f6afb4a3051d",
+"73eff2e1-ef17-4b4c-a29b-2c85a2c78236"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 968,
+"text": "FAO",
+"code": "968",
+"uuid": "6dce139f-bb18-4e0b-9259-5a1825146825",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"ÜRO Toitlus- ja Põllumajandusorganisatsioon"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6dce139f-bb18-4e0b-9259-5a1825146825"
+}
+}
+},
+{
+"edid": 393,
+"text": "kulutused toidule",
+"code": "393",
+"uuid": "a1cf4835-d692-46cf-bb78-8ad96344f85b",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a1cf4835-d692-46cf-bb78-8ad96344f85b"
+}
+}
+},
+{
+"edid": 1225,
+"text": "söömisharjumused",
+"code": "1225",
+"uuid": "495f4f85-7d76-4f2b-897f-a30ca863627b",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/495f4f85-7d76-4f2b-897f-a30ca863627b"
+}
+}
+},
+{
+"edid": 140,
+"text": "toidu tarbimine",
+"code": "140",
+"uuid": "05b65c90-90d7-4d9e-95d6-c38cb4f36cf7",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/05b65c90-90d7-4d9e-95d6-c38cb4f36cf7"
+}
+}
+},
+{
+"edid": 6789,
+"text": "toidulisand",
+"code": "6789",
+"uuid": "ba9549a1-427f-4197-9a05-70bbb5c4ce2b",
+"vol_cnt": 0,
+"scopeNotes": [
+"Mitte segi ajada lisaainega."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ba9549a1-427f-4197-9a05-70bbb5c4ce2b"
+}
+}
+},
+{
+"edid": 5715,
+"text": "toitumishaigus",
+"code": "5715",
+"uuid": "038432ab-8bac-2460-ccd7-0b7de83ae77e",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"ainevahetushaigus",
+"ülekaalulisus"
+],
+"narrowTerms": [
+"e74b650a-6748-4f9a-a2ea-e471e951688e"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/038432ab-8bac-2460-ccd7-0b7de83ae77e"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f4c9792c-a852-4618-93b7-33e09afe81bb"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/b8081542-84b1-4ab2-9330-9a9dd1212bfc"
+}
+}
+}

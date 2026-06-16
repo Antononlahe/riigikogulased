@@ -1,0 +1,584 @@
+{
+"uuid": "a4ef4eb2-a232-4422-ac0b-2286c37305ef",
+"etid": 607,
+"code": "6411",
+"text": "tehnoloogia ja tehnilised normid",
+"descriptors": [
+{
+"edid": 4415,
+"text": "tehnoloogia",
+"code": "4415",
+"uuid": "3e61e432-3503-43da-a4ea-25062cf33930",
+"vol_cnt": 32,
+"scopeNotes": [
+"Kasutada konkreetseid termineid."
+],
+"usedFors": [
+"tehnika"
+],
+"narrowTerms": [
+"509afd29-cf91-4e6a-a906-656754f1f551",
+"5b2c8934-e12b-4708-bf61-2d6dc82f10e5",
+"9f2e98d8-ddaa-40b4-b51f-cb527de45833",
+"1ea7af45-1aea-48c6-83ac-c02c83367e99",
+"f4094538-0e45-4549-a1c4-3bedc2c99031",
+"51801d37-31b3-4cc3-83c3-aef5fe90c50b",
+"a7bb2847-5a03-4940-b6f2-72898df75cf2",
+"a6703011-1227-44d8-a9c2-31181066300b",
+"ef8210bc-70e4-48c1-b156-eeff201646c6",
+"f58557b4-75c5-0aee-e30a-1d8f10ca534f",
+"f6958d8a-5687-4423-9eb0-4700de10848b",
+"098d49dd-f9cb-41bc-918b-fe2a6f2c055e"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2916,
+"text": "rakendusuuringud",
+"code": "2916",
+"uuid": "9ab247af-d5d6-fe15-22aa-f3bb774c91a8",
+"vol_cnt": 11,
+"scopeNotes": [],
+"usedFors": [
+"tehnilised uuringud",
+"tehnoloogilised uuringud"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9ab247af-d5d6-fe15-22aa-f3bb774c91a8"
+}
+}
+},
+{
+"edid": 225,
+"text": "tehnikaalane koostöö",
+"code": "225",
+"uuid": "baa26130-7557-41bb-995c-89057317122d",
+"vol_cnt": 51,
+"scopeNotes": [],
+"usedFors": [
+"tehniline abi"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/baa26130-7557-41bb-995c-89057317122d"
+}
+}
+},
+{
+"edid": 3587,
+"text": "tehniline eriala",
+"code": "3587",
+"uuid": "223da02b-f7b2-4141-8885-236d86c77125",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"tehnik",
+"tehnilised töötajad"
+],
+"narrowTerms": [
+"6fdc4907-46ee-4182-9a00-5dd57b2eb4ba"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/223da02b-f7b2-4141-8885-236d86c77125"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3e61e432-3503-43da-a4ea-25062cf33930"
+}
+}
+},
+{
+"edid": 3797,
+"text": "biotehnoloogia",
+"code": "3797",
+"uuid": "6807cec0-b3b5-47c4-9eba-f1d5a12c0db7",
+"vol_cnt": 10,
+"scopeNotes": [
+"Tehnoloogiaharu, mille eesmärgiks on mikroorganismide, looma- ja taimerakkude ning nende osade kasvatamine."
+],
+"usedFors": [
+"biotehnika"
+],
+"narrowTerms": [
+"706214fe-1317-490e-8f27-78a316d3367a",
+"c99b91b6-946b-4fd2-8e88-0a5d1af614af",
+"413541d5-ee68-4f40-85e9-62c19fdd0492",
+"84f2f366-6820-45b7-ad63-cbe056b6a0c5",
+"c6ad4177-7bcd-953b-6dd2-68b2e99757ef"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4921,
+"text": "bioloogia",
+"code": "4921",
+"uuid": "75e162f1-9d7c-4da9-b8eb-f506cbb059c3",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"bakterioloogia",
+"embrüoloogia",
+"mikrobioloogia"
+],
+"narrowTerms": [
+"21bf3458-20f7-4f40-9251-39ec8459db1a",
+"bb6d936f-b237-7d37-7807-21c19a280345",
+"38d94cf3-33cc-4d9d-899f-6607d41abf5c",
+"5033bfa6-e862-48b6-b981-5ca38aefe870",
+"84344b4d-dcc5-4b1f-9433-5af9a7615d38",
+"84e1d399-134e-4ab0-94db-3085017f9ab3",
+"7432f4c1-a48e-479a-b5d9-ff6c3070cbab",
+"288a7f5a-37c0-4d72-ac32-54dd82aa82f2",
+"ba4e8975-ab54-4333-94cf-8476f18eae12",
+"b54eddf7-c543-4d79-b3d2-d4b8508cb10b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/75e162f1-9d7c-4da9-b8eb-f506cbb059c3"
+}
+}
+},
+{
+"edid": 3408,
+"text": "tõuaretus",
+"code": "3408",
+"uuid": "a0140ab4-a2aa-0370-95fa-483d32a8709a",
+"vol_cnt": 14,
+"scopeNotes": [],
+"usedFors": [
+"loomade valik"
+],
+"narrowTerms": [
+"c4ba40f1-b512-4178-9238-647f65971424"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a0140ab4-a2aa-0370-95fa-483d32a8709a"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6807cec0-b3b5-47c4-9eba-f1d5a12c0db7"
+}
+}
+},
+{
+"edid": 3641,
+"text": "tehnilised normid",
+"code": "3641",
+"uuid": "289b2446-b225-411e-9251-2a2a6f85bfa2",
+"vol_cnt": 28,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"d2ccd07c-479d-4024-9173-c23c6d4f0420",
+"f02094ac-32f3-4c8a-95a4-307e3827446d",
+"7557fe51-f1d7-417b-b7df-a5d6f68630b9",
+"b153906a-38fb-438f-b4ca-e72d61c3fd55"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3134,
+"text": "ehituseeskirjad",
+"code": "3134",
+"uuid": "99083720-8824-63c7-9c86-dd859ab3f20e",
+"vol_cnt": 21,
+"scopeNotes": [],
+"usedFors": [
+"ehitusalane seadusandlus",
+"ehitusnormid",
+"ehitusstandard"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/99083720-8824-63c7-9c86-dd859ab3f20e"
+}
+}
+},
+{
+"edid": 5887,
+"text": "lennuohutus",
+"code": "5887",
+"uuid": "dd9a0bc4-3632-2feb-f2ea-4ea83cf91bb1",
+"vol_cnt": 104,
+"scopeNotes": [
+"Mitte ajada segamini järgmisega: \"lennundusjulgestus\"."
+],
+"usedFors": [
+"õhusõiduki ohutus",
+"õhutranspordi ohutus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dd9a0bc4-3632-2feb-f2ea-4ea83cf91bb1"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/289b2446-b225-411e-9251-2a2a6f85bfa2"
+}
+}
+},
+{
+"edid": 4418,
+"text": "materjalitehnoloogia",
+"code": "4418",
+"uuid": "77a985d8-8881-45e7-904e-989a390b3a93",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"a74fd0db-5534-4b02-9db8-b572a94a3d3b",
+"7b512321-d504-4ae3-849d-80e6f742909c",
+"cbddc9c2-e6e4-4b3e-b669-26649f4aa553",
+"7831a0db-9434-4bde-b129-d2bc077ca171",
+"a26317da-7c34-4b98-9c34-2ce1c01de8af"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/77a985d8-8881-45e7-904e-989a390b3a93"
+}
+}
+},
+{
+"edid": 3689,
+"text": "nüüdisaegsed materjalid",
+"code": "3689",
+"uuid": "4904615e-6310-4dda-8d17-004c9db947e9",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"kõrgtehnoloogilised materjalid",
+"uued materjalid"
+],
+"narrowTerms": [
+"317f9020-9d50-4cf0-b628-bf33a2cdcb81",
+"dbd6c558-131b-4657-aeae-cd1abe9ef43c",
+"dbfbc72f-3b18-4b54-9963-19f32333289c",
+"3ede9a4a-ef0d-4fa6-acf4-6e3b3bbb6f69",
+"b0f9e164-5982-478e-9765-3a7bd8c4323e",
+"86343fdc-d970-4278-b8b5-5dc6b2c508e8",
+"6d13214a-6f31-41ee-8207-40c8ad9eb158",
+"728aeb3e-951b-4391-a0ab-9cf75bef24a0"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 7931,
+"text": "nanotehnoloogia",
+"code": "7931",
+"uuid": "9f2e98d8-ddaa-40b4-b51f-cb527de45833",
+"vol_cnt": 11,
+"scopeNotes": [],
+"usedFors": [
+"nanobiotehnoloogia",
+"nanoelektroonika",
+"nanomaterjalid",
+"nanoteadus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9f2e98d8-ddaa-40b4-b51f-cb527de45833"
+}
+}
+},
+{
+"edid": 3636,
+"text": "uus tehnoloogia",
+"code": "3636",
+"uuid": "f58557b4-75c5-0aee-e30a-1d8f10ca534f",
+"vol_cnt": 61,
+"scopeNotes": [],
+"usedFors": [
+"arenenud tehnika",
+"arenenud tehnoloogia",
+"high tech",
+"kõrgtehnoloogia"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f58557b4-75c5-0aee-e30a-1d8f10ca534f"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4904615e-6310-4dda-8d17-004c9db947e9"
+}
+}
+},
+{
+"edid": 3632,
+"text": "tööstuslik tootmine",
+"code": "3632",
+"uuid": "f53717bf-7500-4fba-a556-4373ce6fd2ff",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"0a72a75f-2e97-4cfa-838a-3922d4c538bb",
+"8d64f6d7-a2b2-4de0-ae1f-fcc1adccdab1",
+"a0fc4f9f-3635-4ad2-ac58-6eea62918bc8",
+"089af87e-8a4e-450d-88ff-9e9499c5d4a1",
+"62938ff3-7869-4413-82d1-4662f57d9300",
+"eb1e47a7-44f1-426c-bc10-f22f1f402bfb",
+"8b98d328-2968-4325-9e5e-876b10087c7a",
+"4cacc2ec-8801-439a-b55e-0e9bfee263c5"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2871,
+"text": "toote kvaliteet",
+"code": "2871",
+"uuid": "b968c4e8-2025-743e-dac8-fa6079556296",
+"vol_cnt": 29,
+"scopeNotes": [],
+"usedFors": [
+"kvaliteedikriteerium"
+],
+"narrowTerms": [
+"1fb61923-20df-4996-93eb-c772b3d7683d",
+"b8ca5a8a-e97c-4c9c-abc2-17a060d82a0f"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b968c4e8-2025-743e-dac8-fa6079556296"
+}
+}
+},
+{
+"edid": 4036,
+"text": "tooteohutus",
+"code": "4036",
+"uuid": "f9165ba0-0a90-cac8-e305-a031eddbadcb",
+"vol_cnt": 58,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"57aa4b5e-436a-4e9c-a254-2f147b896b91"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f9165ba0-0a90-cac8-e305-a031eddbadcb"
+}
+}
+},
+{
+"edid": 2399,
+"text": "tootmise planeerimine",
+"code": "2399",
+"uuid": "41603c4c-249c-4125-abb0-3802e665e8d5",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"6174e2b9-64f7-4376-826b-86fe8f4bc3cb"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/41603c4c-249c-4125-abb0-3802e665e8d5"
+}
+}
+},
+{
+"edid": 6294,
+"text": "tootmistehnika",
+"code": "6294",
+"uuid": "491e53ff-880b-49b6-adc0-0436641c4a92",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"tootmistehnoloogia"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/491e53ff-880b-49b6-adc0-0436641c4a92"
+}
+}
+},
+{
+"edid": 1434,
+"text": "tööstuse infrastruktuur",
+"code": "1434",
+"uuid": "19475310-f33b-4457-b502-ecf3af2437ec",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"ff7c8a73-5c6c-40ed-8b4c-c87635ee79db",
+"63947e34-166e-47d9-aeaf-b5ee9b1c3714",
+"55a6454a-a115-439c-b1a4-2aa82b98af5b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/19475310-f33b-4457-b502-ecf3af2437ec"
+}
+}
+},
+{
+"edid": 827,
+"text": "tööstusettevõte",
+"code": "827",
+"uuid": "89ba6b9f-4a29-4a6e-8f09-406c0adec53f",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"tööstusettevõtlus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/89ba6b9f-4a29-4a6e-8f09-406c0adec53f"
+}
+}
+},
+{
+"edid": 1429,
+"text": "tööstuslik andmetöötlus",
+"code": "1429",
+"uuid": "7a298c3a-fd0f-45e6-a086-d5ab369024df",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"digitaalne juhtimine"
+],
+"narrowTerms": [
+"b1eafa94-e6b7-4182-b41d-38796afc5cf1",
+"9405aaec-e349-4691-9bc0-8d69c2ca0c40"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7a298c3a-fd0f-45e6-a086-d5ab369024df"
+}
+}
+},
+{
+"edid": 167,
+"text": "tööstuslik võltsimine",
+"code": "167",
+"uuid": "1a89e0f9-76bf-499d-99f9-579fb0f7a861",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1a89e0f9-76bf-499d-99f9-579fb0f7a861"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f53717bf-7500-4fba-a556-4373ce6fd2ff"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/a4ef4eb2-a232-4422-ac0b-2286c37305ef"
+}
+}
+}

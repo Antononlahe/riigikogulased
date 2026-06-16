@@ -1,0 +1,411 @@
+{
+"uuid": "2b977adf-66bd-402f-a7e0-b57ca43a01ff",
+"etid": 573,
+"code": "4011",
+"text": "ettevõtete liigitus",
+"descriptors": [
+{
+"edid": 5985,
+"text": "tegevusharu",
+"code": "5985",
+"uuid": "25821247-af79-4ab3-bb90-8b33eaef5a98",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"483af287-d22c-49b8-8237-77b2539915db",
+"3849724b-6852-4667-973f-92d441b88253",
+"af434c76-9195-44f8-890b-8e2fb11cb708",
+"645215e5-28a6-4e71-b6de-3e314db5fdd2",
+"89ba6b9f-4a29-4a6e-8f09-406c0adec53f",
+"cff3d8a9-45d4-4513-9629-03c6ff434b5a"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2469,
+"text": "ettevõtluspoliitika",
+"code": "2469",
+"uuid": "fcb491a5-b767-d219-c4c7-0a02a85373f0",
+"vol_cnt": 25,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"79af8fab-6e78-4e82-8545-03754e0f49c0",
+"07f21347-7a96-2bb7-6042-c5022841449d",
+"4dbc18e4-7a32-9118-0035-dabf0c9bf1a4",
+"86e49a07-e885-4b6c-a43c-0c14c6fa7b68",
+"0faf0de5-c70e-61ec-b667-7b3cd7a290f7",
+"9796ccc3-5dd0-407a-a2a1-879a3cbf9965",
+"3f017564-6666-4352-b697-8f9042d83f8d",
+"100c52f9-d4cc-43c3-8d2a-f6c50d23fbe8",
+"1ccbb2df-97ec-4302-b51e-9fe00fb8a8a9",
+"27488def-45ff-46e6-9615-43ec9fcd0993",
+"894c64d1-fdea-4e42-a1d0-8f1bfd1ac526",
+"898fb0d7-c483-4e16-a350-81f2dffe4789"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fcb491a5-b767-d219-c4c7-0a02a85373f0"
+}
+}
+},
+{
+"edid": 1307,
+"text": "ettevõtte asukoht",
+"code": "1307",
+"uuid": "07f21347-7a96-2bb7-6042-c5022841449d",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/07f21347-7a96-2bb7-6042-c5022841449d"
+}
+}
+},
+{
+"edid": 5372,
+"text": "kaubandustegevuse lõpetamine",
+"code": "5372",
+"uuid": "0a0eb458-ba1a-4b4d-b018-83651713067c",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"ettevõtte sulgemine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0a0eb458-ba1a-4b4d-b018-83651713067c"
+}
+}
+},
+{
+"edid": 818,
+"text": "transpordifirma",
+"code": "818",
+"uuid": "1e25decb-7d9c-4399-8623-ccc94acfb536",
+"vol_cnt": 20,
+"scopeNotes": [],
+"usedFors": [
+"transpordiettevõte"
+],
+"narrowTerms": [
+"5111b873-5330-23f9-eab1-20bff9af996b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1e25decb-7d9c-4399-8623-ccc94acfb536"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/25821247-af79-4ab3-bb90-8b33eaef5a98"
+}
+}
+},
+{
+"edid": 445,
+"text": "ettevõtte suurus",
+"code": "445",
+"uuid": "216619a4-1eca-40bf-ab8d-d7f3c51d2c1a",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"ettevõtte tööjõud"
+],
+"narrowTerms": [
+"f385b9c2-4f5d-4cdd-831a-866c7fedf4fc",
+"8ebc53d7-de01-4c70-8ae7-6dba8a2840d0"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/216619a4-1eca-40bf-ab8d-d7f3c51d2c1a"
+}
+}
+},
+{
+"edid": 813,
+"text": "ettevõtte tüüp",
+"code": "813",
+"uuid": "0358ce78-f546-480b-90a8-de5222c2f745",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [
+"äriühing"
+],
+"narrowTerms": [
+"99216794-adb2-2ed8-4429-58a50d5fae94",
+"f5315bf5-0a00-4928-98d0-5acac3ca5551",
+"4f1bbf9f-08dc-4ded-8fc6-d93da4474fe8",
+"a9874d35-0c56-e01a-2214-9121c7d7fa42",
+"90ad1cf1-e142-dd20-af54-4a88f986ce65",
+"da4a5471-b847-43d6-9ed7-0930e4fcac48",
+"70c9745f-c9b2-4db1-a3b6-d816aa7b4961",
+"d862c33e-7c5c-4cfd-8fee-e94fc48e88be",
+"4dd506fe-ad4c-464e-95e5-07a9bc8aa3e3",
+"d585ef52-553c-44b7-be57-434d4a641334",
+"dafd3a1f-cfe2-403a-a89a-506169613ea6"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2469,
+"text": "ettevõtluspoliitika",
+"code": "2469",
+"uuid": "fcb491a5-b767-d219-c4c7-0a02a85373f0",
+"vol_cnt": 25,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"79af8fab-6e78-4e82-8545-03754e0f49c0",
+"07f21347-7a96-2bb7-6042-c5022841449d",
+"4dbc18e4-7a32-9118-0035-dabf0c9bf1a4",
+"86e49a07-e885-4b6c-a43c-0c14c6fa7b68",
+"0faf0de5-c70e-61ec-b667-7b3cd7a290f7",
+"9796ccc3-5dd0-407a-a2a1-879a3cbf9965",
+"3f017564-6666-4352-b697-8f9042d83f8d",
+"100c52f9-d4cc-43c3-8d2a-f6c50d23fbe8",
+"1ccbb2df-97ec-4302-b51e-9fe00fb8a8a9",
+"27488def-45ff-46e6-9615-43ec9fcd0993",
+"894c64d1-fdea-4e42-a1d0-8f1bfd1ac526",
+"898fb0d7-c483-4e16-a350-81f2dffe4789"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fcb491a5-b767-d219-c4c7-0a02a85373f0"
+}
+}
+},
+{
+"edid": 4300,
+"text": "ettevõtte struktuur",
+"code": "4300",
+"uuid": "96b480c7-8ac6-4f8c-9210-69ae281ad12d",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"fdffeac0-1215-4969-b269-dfb2f5f4b855",
+"0f56225b-2d34-441e-9095-6dbd669a9bb8",
+"757f349b-a51f-c8a5-c04b-c9054ba00277",
+"6cf21cda-fb24-e5cf-c05e-ffb8d259d102",
+"192e2dec-a7f0-4e54-8313-be119de5d3bb",
+"87f9bb53-64ef-47ae-9a57-30f70876c6e0"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/96b480c7-8ac6-4f8c-9210-69ae281ad12d"
+}
+}
+},
+{
+"edid": 1901,
+"text": "mikromajandusteadus",
+"code": "1901",
+"uuid": "c09dcb16-3c90-4a40-9abe-acf9ede0697a",
+"vol_cnt": 9,
+"scopeNotes": [
+"Majandusteaduse haru, mis tegeleb kaupade, äriühingute või üksikisikute ja nendevaheliste majandussuhetega."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c09dcb16-3c90-4a40-9abe-acf9ede0697a"
+}
+}
+},
+{
+"edid": 4189,
+"text": "organisatsioon",
+"code": "4189",
+"uuid": "7eb811c7-8c54-4a5f-8bcb-83542429d22a",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"ettevõtte õiguslik seisund"
+],
+"narrowTerms": [
+"4b8be594-3ea8-cd39-0c50-2d8ea18a62e4",
+"680088c5-6a3c-4a7a-824e-ce083739969a",
+"eaf1b4da-661f-4279-8526-abacf5e2d932",
+"f12d7e54-7b92-4547-8a2e-ace1c7546b03",
+"56e18f7d-88e2-47d7-b0bc-6271e6caf903",
+"77c5aadf-f22d-40c6-80a1-bd5e0ed51d02",
+"b03bdfa6-1ac3-49da-af01-338be3d2807e",
+"231752c1-2fdd-41e0-8ac4-f04ee4839e25",
+"fcfbcec8-c65d-4670-925a-2955eabe1bf1",
+"12846a62-94e0-4658-8189-d4f840fc5b9e",
+"5ad70c23-65c9-6b3e-26c2-55ec82abdf45",
+"142ee457-dabf-f7ea-567a-c452ba91fda3"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7eb811c7-8c54-4a5f-8bcb-83542429d22a"
+}
+}
+},
+{
+"edid": 4303,
+"text": "tööstusstruktuurid",
+"code": "4303",
+"uuid": "705b1b74-98e5-4309-991d-7b807aee0aa3",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"70b9fd55-2336-4641-b1d2-62ca7e532d79",
+"45a6745e-4940-4e03-8b34-18412ae505d2",
+"956453e5-d547-4fcb-9961-7a586b2de207",
+"e4a15fb8-30ad-41ce-8906-33a875db850d",
+"49c0811c-dee2-4a35-b201-3935566e8583",
+"d52108f7-1e77-4a22-a029-c506beda766b",
+"5be032cf-4e2f-4c17-9ee6-21bbcedeb9b2"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/705b1b74-98e5-4309-991d-7b807aee0aa3"
+}
+}
+},
+{
+"edid": 5161,
+"text": "õigus- ja teovõime",
+"code": "5161",
+"uuid": "c6ac8ea9-0a3f-4133-5837-b275d66c2c55",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"õigus- ja teovõime puudumine"
+],
+"narrowTerms": [
+"254702ba-b531-dc57-d6c3-28aeb1bba96f",
+"bf975e53-2205-4cf3-a7ac-7ecdee049862",
+"cffacdbf-9609-4cfb-9d08-6de60c08cb09",
+"9b0e2446-eda5-423a-815b-7f558c55c53f",
+"fb224ac1-bb46-42d2-9f5b-0136c5eaf5a2"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c6ac8ea9-0a3f-4133-5837-b275d66c2c55"
+}
+}
+},
+{
+"edid": 1156,
+"text": "ärijuhtimine",
+"code": "1156",
+"uuid": "7eafe884-6391-41bc-a343-8a1b32a45d85",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"ettevõtte töökorraldus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7eafe884-6391-41bc-a343-8a1b32a45d85"
+}
+}
+},
+{
+"edid": 4703,
+"text": "äritegevus",
+"code": "4703",
+"uuid": "bd9f7faf-c9c1-486d-951d-1f169f7f36f1",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"47579ad1-ce74-4041-a4fc-29f811dd7d03",
+"265b64d8-fe25-43ef-8964-3f034e1e1c9a",
+"0a0eb458-ba1a-4b4d-b018-83651713067c",
+"62bd89a8-7a41-cbca-9ebf-48b0ae44a5e1",
+"7169b9b6-a4f3-4ed7-b4cb-455a38874b49",
+"18c6cc48-531f-44d7-359e-d62096aaf0c7",
+"c4594ae0-1444-446f-b0b8-05952d4e2d0c",
+"848b43e3-2964-45c5-866c-66f1c3be04cc",
+"78b31227-9775-4187-8b57-6c767e4eff69",
+"a816b6fd-b856-41b9-889c-3df5de53d997"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bd9f7faf-c9c1-486d-951d-1f169f7f36f1"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0358ce78-f546-480b-90a8-de5222c2f745"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/2b977adf-66bd-402f-a7e0-b57ca43a01ff"
+}
+}
+}

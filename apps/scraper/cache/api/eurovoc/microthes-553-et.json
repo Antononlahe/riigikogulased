@@ -1,0 +1,552 @@
+{
+"uuid": "513dab74-3343-4b2a-b657-1678e5b58810",
+"etid": 553,
+"code": "2451",
+"text": "hinnad",
+"descriptors": [
+{
+"edid": 1039,
+"text": "hinnakõikumine",
+"code": "1039",
+"uuid": "65837315-b837-43b3-a2c0-ca522b4675b2",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"hinnasuundumus",
+"hinnatendents"
+],
+"narrowTerms": [
+"fb4320bd-07f8-456b-b816-a14284c2fb55",
+"49729fa0-b67a-4e22-82c3-9348e8c357c2"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1040,
+"text": "majanduslik kõikumine",
+"code": "1040",
+"uuid": "ccb26068-0205-465a-b2f2-acbdb1b0c496",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ccb26068-0205-465a-b2f2-acbdb1b0c496"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/65837315-b837-43b3-a2c0-ca522b4675b2"
+}
+}
+},
+{
+"edid": 2639,
+"text": "põllumajandustootjate hinnad",
+"code": "2639",
+"uuid": "0e5788b9-b740-4ed9-acf1-de587e06e21c",
+"vol_cnt": 2,
+"scopeNotes": [
+"Ühise põllumajanduspoliitika raames fikseeritud hinnad. Siseriiklike hindade jaoks kasutada põllumajandustoodete hindu."
+],
+"usedFors": [
+"EL põllumajandustootja hind",
+"hind majandusaastaks",
+"ühenduse põllumajandustootja hind"
+],
+"narrowTerms": [
+"9b212a15-a21b-48ed-938e-4fc5d352e2cb",
+"239627a9-361b-4b0f-9efc-f203003d438f",
+"9cf24e51-d163-4c76-ab23-725cdc78e669",
+"7f6b4b5b-27dc-4dd9-b793-246b4607e429",
+"425842a6-c4c1-4708-9636-53eeb646ff21",
+"ec46914d-11dd-4f93-85ea-3c08bfdf8827",
+"8c847c42-a359-404e-9cbd-161226e597ad",
+"a713145b-73f7-4c5c-a558-252b8514ca41",
+"9e0831ba-ac43-4f09-95de-cc588d6b1a71",
+"6388eb5f-3bb8-406f-9ca2-0e208f823947",
+"e8ecf849-7647-4a31-a040-36b2e3587f85",
+"fa00c3d9-3525-4b55-9f22-9e3eacd7451c",
+"8913adfb-e1d9-4732-9679-3f384bce9ef2",
+"690409fb-de70-4da9-9c47-32a561d65cda"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3568,
+"text": "eksporditoetus",
+"code": "3568",
+"uuid": "9218cb65-8366-42b0-8478-74fcd0163134",
+"vol_cnt": 3,
+"scopeNotes": [
+"Ühise põllumajanduspoliitika juurde kuuluv põllumajandustoodete eksporditoetus, millega tootjad saavad toodete eest tagatud hinna."
+],
+"usedFors": [
+"eksporditoetuse kinnitamine",
+"eksporditoetuse suurus",
+"toetuse ülemmäär",
+"ühenduse eksporditoetus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9218cb65-8366-42b0-8478-74fcd0163134"
+}
+}
+},
+{
+"edid": 2442,
+"text": "põllumajanduspoliitika",
+"code": "2442",
+"uuid": "6946119b-5c9c-4152-a181-0c6ab06b4527",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"põllumajanduse arendamine",
+"põllumajanduse planeerimine"
+],
+"narrowTerms": [
+"2a5c9900-048a-426a-9869-73718b9be7ae",
+"a3419fe2-d3b9-4e63-b6be-f6a3c8ef4865",
+"b317c22c-dc30-4a4c-bb0d-0bd4fcd124fa",
+"f91d1a39-11af-4a55-bfbb-50ebaf074631",
+"bf620fc3-7aa1-f5ab-15cf-c91c8f65a3c6",
+"f3303781-0471-41af-bdac-9252deb7d0ab",
+"8faae0b7-887c-45f3-9bb6-b1c1164f2e3e",
+"7245a877-e761-ecdc-a92b-159515f0cf85",
+"12528cbf-c7be-1234-a885-e91fca64e0cb",
+"521904c7-554a-1c6c-e18b-552b3e7cd30f",
+"35b37021-64ee-75f6-b709-fefcd2f9a5da",
+"4f143268-acbc-4d68-a5f7-cc164052d87e",
+"2a726900-c10f-49b9-a2d9-829418459345",
+"e7d3f459-acdd-4519-b6b1-dbbc5df7d0bb",
+"c13cc0ed-b59c-4f4c-b765-639934abe0d9",
+"1fcc4677-c137-4ff7-b5fc-ac4e24a92c37"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6946119b-5c9c-4152-a181-0c6ab06b4527"
+}
+}
+},
+{
+"edid": 3272,
+"text": "põllumajandustoodete hind",
+"code": "3272",
+"uuid": "6fed448e-0dc8-4ef8-b86f-e12ce067f6ec",
+"vol_cnt": 2,
+"scopeNotes": [
+"Kasutada põllumajandustoodete siseriiklike hindade puhul. Ühise põllumajanduspoliitika kontekstis kasutada põllumajandusettevõtte hindu."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6fed448e-0dc8-4ef8-b86f-e12ce067f6ec"
+}
+}
+},
+{
+"edid": 4236,
+"text": "põllumajandustoodete hinnatoetus",
+"code": "4236",
+"uuid": "78cba3a8-351b-4320-af82-7a562db187b6",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"põllumajanduse hinnatoetus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/78cba3a8-351b-4320-af82-7a562db187b6"
+}
+}
+},
+{
+"edid": 2975,
+"text": "tagatiskünnis",
+"code": "2975",
+"uuid": "b44d7d59-20c8-40de-9bcb-827381745992",
+"vol_cnt": 0,
+"scopeNotes": [
+"Hindu ei tagata, kui tootmine ületab teatud eelnevalt määratletud taseme."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b44d7d59-20c8-40de-9bcb-827381745992"
+}
+}
+},
+{
+"edid": 5096,
+"text": "turustusaasta",
+"code": "5096",
+"uuid": "7a778ea1-9799-4e81-a971-89a7769f5fa5",
+"vol_cnt": 1,
+"scopeNotes": [
+"Võrdlusaasta põllumajandustoodete hindade kindlaksmääramiseks."
+],
+"usedFors": [
+"majandusaasta",
+"põllumajandusaasta"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7a778ea1-9799-4e81-a971-89a7769f5fa5"
+}
+}
+},
+{
+"edid": 2443,
+"text": "ühine põllumajanduspoliitika",
+"code": "2443",
+"uuid": "21f3b48d-bdf5-dc68-8a9a-b007409c2f90",
+"vol_cnt": 128,
+"scopeNotes": [],
+"usedFors": [
+"roheline Euroopa",
+"ühine põllumajandusturg"
+],
+"narrowTerms": [
+"c118a61c-3944-4f3b-8718-273ad5089285",
+"ddfd96e7-b91a-49b3-8292-ead0d70a22ae",
+"053172c1-8031-4f42-a17c-081a23ce75ad",
+"1795ada6-6ece-4b08-8e1c-d2b46e847763",
+"0a908c8b-5fa7-463f-9e25-ed48c8f59ef7"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/21f3b48d-bdf5-dc68-8a9a-b007409c2f90"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0e5788b9-b740-4ed9-acf1-de587e06e21c"
+}
+}
+},
+{
+"edid": 2632,
+"text": "hinnad",
+"code": "2632",
+"uuid": "cd84a444-76a6-44ba-a0d0-08b9d5fc426a",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"91bf886d-6071-4270-8c64-383f91db55c4",
+"2b2f5858-57bc-414c-9e1e-44d0234e720a",
+"42e34562-077e-425a-81d0-3450282eafab",
+"e8e0e491-76eb-4db2-9665-0d7c6b739cd0",
+"1cddc894-03d7-4259-9857-c330867a5b92",
+"c3e03804-751a-40bf-bbe0-e6d8de33727a",
+"eb8581bc-2c48-4d20-a8e9-cb138a9f76ab",
+"30df4436-dbad-4c91-bd13-c4eaacbe2c97",
+"3a20bce9-4c15-415d-a751-cde71776d8db",
+"5a5f92ce-01e4-4554-88e5-ae995821bfe8",
+"cf8bcb8f-e53b-4ccb-9504-da73371418d1",
+"8184e504-3104-457c-aa98-256304268ae3",
+"1a2f98e1-9a82-46e9-946e-64e37d5b3d3c",
+"05b792ce-1b56-4cd5-8e9f-14fb47472798",
+"0e6e4928-e8cb-42f7-9f65-6d6c41320c6e",
+"251d5639-b054-440e-bbce-765a30c51ad8"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 45,
+"text": "konkurentsivõime",
+"code": "45",
+"uuid": "3f017564-6666-4352-b697-8f9042d83f8d",
+"vol_cnt": 273,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3f017564-6666-4352-b697-8f9042d83f8d"
+}
+}
+},
+{
+"edid": 3101,
+"text": "transpordihind",
+"code": "3101",
+"uuid": "1020ec42-7c2b-4010-ac0e-8a20e2d09831",
+"vol_cnt": 0,
+"scopeNotes": [
+"Summa, mida nõutakse mitte ainult veo eest ühest kohast teise, vaid ka teatavate lisateenuste eest."
+],
+"usedFors": [
+"transpordikulud",
+"veokulud"
+],
+"narrowTerms": [
+"93425f85-da57-5f97-fdd4-529e24e92135",
+"23727eb2-d618-4b7d-8e82-7abf1194ceac",
+"50f84fce-e7b5-4c24-ab73-36e27b8b70cf"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1020ec42-7c2b-4010-ac0e-8a20e2d09831"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cd84a444-76a6-44ba-a0d0-08b9d5fc426a"
+}
+}
+},
+{
+"edid": 2489,
+"text": "hinnapoliitika",
+"code": "2489",
+"uuid": "aab7f862-e73b-42a9-a36d-7aeed010024d",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"hinnasüsteem"
+],
+"narrowTerms": [
+"04c8d52c-80b5-c858-40bc-a4d7740896f5",
+"0ec62bf0-7c40-45ab-8fc8-512889e42e04",
+"59ff4820-4839-466a-975c-59fd0155a023",
+"8dfb880b-b33e-455b-b9f9-ea262f97f2bf",
+"ba0036bc-9b1d-463e-8776-cfbee0ca0b12",
+"f68ef8cb-5720-4446-8fca-080d452f75db",
+"f5750fee-838a-422a-8994-b74d03fde680",
+"07e7fc2a-7f1e-49c8-8baf-c452c94bc5bf",
+"ec84af46-5507-4292-3d79-6b75bfb0bac7",
+"65e8cc29-71d9-41c2-e86d-abec5d41877b",
+"aef51f77-bb55-4ad2-bf2a-875be660bbe1",
+"8f2fba87-1e2b-45bb-aa1d-472d9e2f960a"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2497,
+"text": "majanduspoliitika",
+"code": "2497",
+"uuid": "ab0bf30d-562e-4bd8-94d1-30b9bd03441f",
+"vol_cnt": 350,
+"scopeNotes": [],
+"usedFors": [
+"majanduslik lähenemisviis",
+"majanduslik valik"
+],
+"narrowTerms": [
+"d7e6789c-a31f-c4ba-9763-51f62462d923",
+"06cdf730-cb4e-48a8-92b5-953fd8fb83fd",
+"d8fa41be-3604-8a3b-bf1c-f902baa91f74",
+"da139d09-a3e3-4328-8497-4d51bc5925bd",
+"200c257b-c652-4ef0-824e-47b37eb9e7ac",
+"77218fb1-3a13-480c-b302-87a62c6dbb5e",
+"b40f997c-3165-46d3-9039-d6e3b03fa56f",
+"bb376a41-6021-4e91-8d04-da5323a79a73",
+"387f5d09-9896-4214-8293-72b377a2be1e",
+"bf1bfaff-a1d3-453d-9b55-fa1f73fdb20a",
+"3b48763a-c1de-4bc2-b2d1-764e7e6038fc",
+"8dcfba87-96d6-40be-abe2-b4ac3d09cac2",
+"f99d5585-bf4e-4656-b21c-e11391ae32c0",
+"5ce6168b-a145-4359-be7a-c84c4f72ca45",
+"542e2e5f-baea-4a7d-b5e5-7dd8d616755d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ab0bf30d-562e-4bd8-94d1-30b9bd03441f"
+}
+}
+},
+{
+"edid": 410,
+"text": "piirangute kõrvaldamine",
+"code": "410",
+"uuid": "387f5d09-9896-4214-8293-72b377a2be1e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/387f5d09-9896-4214-8293-72b377a2be1e"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/aab7f862-e73b-42a9-a36d-7aeed010024d"
+}
+}
+},
+{
+"edid": 2656,
+"text": "turuhinnad",
+"code": "2656",
+"uuid": "b93af0b0-10aa-4856-8ad7-02d0eb2bc9f4",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"3a4372e9-fd2d-4481-9c17-9dbb64593d3d",
+"b21c533a-0ffe-4530-b97a-b44fbacb61e1",
+"6745005e-57d7-4707-9d59-9c14d3e8f4ea",
+"2fd18c4b-42a9-4821-8d2f-cd0393b42144",
+"abc51018-34b1-47e8-a715-457fb2d1a3f0",
+"37c26f81-3c4b-2758-483f-f057f39d663a",
+"2c197a76-9344-488a-a570-81564bed06ae",
+"51d59e87-a073-422e-8a9f-8808171a4490",
+"6fed448e-0dc8-4ef8-b86f-e12ce067f6ec",
+"9865ced2-7cf3-435b-b1b4-fbd898dcba10",
+"e11cea0a-4759-c689-a622-541d579dab90",
+"c2b64b8c-3cf3-48cf-8aec-ecb9fea9e3d1"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1072,
+"text": "hinnakujundus",
+"code": "1072",
+"uuid": "65e8cc29-71d9-41c2-e86d-abec5d41877b",
+"vol_cnt": 21,
+"scopeNotes": [],
+"usedFors": [
+"hinna kujunemine",
+"hinnamehhanism"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/65e8cc29-71d9-41c2-e86d-abec5d41877b"
+}
+}
+},
+{
+"edid": 2686,
+"text": "tarnehind",
+"code": "2686",
+"uuid": "91edf96f-9d82-4f6d-9057-ecfdd65407d7",
+"vol_cnt": 0,
+"scopeNotes": [
+"Hind müügikohas."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/91edf96f-9d82-4f6d-9057-ecfdd65407d7"
+}
+}
+},
+{
+"edid": 2677,
+"text": "tööstushind",
+"code": "2677",
+"uuid": "f60577bb-f8d5-452e-8074-94204811130e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"91edf96f-9d82-4f6d-9057-ecfdd65407d7"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f60577bb-f8d5-452e-8074-94204811130e"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b93af0b0-10aa-4856-8ad7-02d0eb2bc9f4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/513dab74-3343-4b2a-b657-1678e5b58810"
+}
+}
+}

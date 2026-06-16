@@ -1,0 +1,534 @@
+{
+"uuid": "5efc643d-cc70-4e25-b72b-512e6a68d9ea",
+"title": "Hasartmängumaksu seaduse ja teiste seaduste muutmise seadus",
+"mark": 823,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Hasartmängumaksu seaduse ja teiste seaduste muutmise seadus 823 SE",
+"initialTitle": "Hasartmängumaksu seaduse ja teiste seaduste muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette seaduse kehtetuks tunnistamise, mis sisuliselt tähendab netikasiinodele antud maksulangetuse tühistamist ja sellele eelnenud maksumäärade taastamist. Eelnõuga muudetakse hasartmängumaksu seaduse paragrahvi 6 punkte 6, 7 ja 8 ning sätestatakse nendes punktides maksumääraks 7 protsenti.",
+"initiated": "2026-02-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "95bde520-3032-48a5-aa20-567020b4e1da",
+"name": "Andres Ando",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/95bde520-3032-48a5-aa20-567020b4e1da?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3334,
+"text": "mängimine"
+},
+{
+"edid": 1310,
+"text": "maks"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "77d6a8d5-4381-4585-af5b-d0ea7fac3903",
+"title": "823 SE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "424a0b17-c7d5-439b-b831-39f59acd8b24",
+"fileName": "823_HasMMS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-22T16:19:29.843",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/424a0b17-c7d5-439b-b831-39f59acd8b24/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/424a0b17-c7d5-439b-b831-39f59acd8b24"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f3cc5d5e-116b-4f4f-8ed2-fd99a911c3e0",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8ededca4-e4ee-4ad6-8173-d5abe7501324",
+"fileName": "Aasta_halvima_seaduse_kehtetuks_tunnistamise_seaduse_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-11T14:33:48.695",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ededca4-e4ee-4ad6-8173-d5abe7501324/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ededca4-e4ee-4ad6-8173-d5abe7501324"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f3cc5d5e-116b-4f4f-8ed2-fd99a911c3e0",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a877f5e0-4a5e-4c99-8743-8233134983a2",
+"fileName": "823E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-11T15:20:45.32",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a877f5e0-4a5e-4c99-8743-8233134983a2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a877f5e0-4a5e-4c99-8743-8233134983a2"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "77d6a8d5-4381-4585-af5b-d0ea7fac3903",
+"title": "823 SE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "98391d2e-ee09-4200-b634-d2c95823ec72",
+"fileName": "823_HasMMS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-22T16:19:44.819",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/98391d2e-ee09-4200-b634-d2c95823ec72/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/98391d2e-ee09-4200-b634-d2c95823ec72"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f3cc5d5e-116b-4f4f-8ed2-fd99a911c3e0",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "26faf319-eb4b-4fa8-b829-1b129d07a286",
+"fileName": "823SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-11T15:20:56.714",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/26faf319-eb4b-4fa8-b829-1b129d07a286/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/26faf319-eb4b-4fa8-b829-1b129d07a286"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-02-11T14:33:14.721",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-02-12T16:24:00.308",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2026-04-07T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 7.04.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-04-15T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "bfcbc916-5d2d-4b6e-9d5b-cd81c5aa69b7",
+"fileName": "RAHK_protokoll_07.04.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-07T09:49:00.981",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bfcbc916-5d2d-4b6e-9d5b-cd81c5aa69b7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bfcbc916-5d2d-4b6e-9d5b-cd81c5aa69b7"
+}
+}
+},
+{
+"uuid": "2fa58dec-3c51-4cc3-8927-05a1779589c9",
+"fileName": "RAHK_protokoll_219_07.04.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-07T09:48:01.168",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2fa58dec-3c51-4cc3-8927-05a1779589c9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2fa58dec-3c51-4cc3-8927-05a1779589c9"
+}
+}
+},
+{
+"uuid": "758f081d-15cf-4b65-909f-2fbb2b922482",
+"fileName": "KLIM_K.Leis_eelarve_ja_mõõdikud_07.04.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (KLIM ministri ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-07T17:31:45.28",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/758f081d-15cf-4b65-909f-2fbb2b922482/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/758f081d-15cf-4b65-909f-2fbb2b922482"
+}
+}
+},
+{
+"uuid": "51647ecc-e474-47e2-9ad5-623dde9b785e",
+"fileName": "JDM_L.Pakosta_2025_eelarve_täitmine_ja_jäägid_07.04.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (JDM ministri ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-07T17:30:58.767",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/51647ecc-e474-47e2-9ad5-623dde9b785e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/51647ecc-e474-47e2-9ad5-623dde9b785e"
+}
+}
+}
+]
+},
+{
+"date": "2026-04-22T16:18:18.616",
+"status": "SAADETUD_I_LUGEMISELE"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-07T17:38:26.661",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2026-05-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.05.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "44746259-b853-4ea1-922d-d2ec6ab1d3b2",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-05-13T21:11:01.133",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/44746259-b853-4ea1-922d-d2ec6ab1d3b2"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6a71ec42-3236-4aab-9ee8-8f17674793e6",
+"reference": "1-1/15-823/2",
+"title": "Vabariigi Valitsuse arvamus hasartmängumaksu seaduse ja teiste seaduste muutmise seaduse eelnõu 823 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-03-25",
+"files": [
+{
+"uuid": "ae09e145-b1c4-431d-8d3b-b978473dc6b0",
+"fileName": "Hasartmangumaksu_seaduse_ja_teiste_seaduste_muutmise_seaduse_eelnou_(823_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-25T15:53:56.466",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae09e145-b1c4-431d-8d3b-b978473dc6b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae09e145-b1c4-431d-8d3b-b978473dc6b0"
+}
+}
+},
+{
+"uuid": "5bcda701-5f76-49fa-a3f4-4bec348746fc",
+"fileName": "1.1-111285-2_24.03.2026_Vï¿½ljaminev_kiri_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-25T15:53:56.406",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5bcda701-5f76-49fa-a3f4-4bec348746fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5bcda701-5f76-49fa-a3f4-4bec348746fc"
+}
+}
+},
+{
+"uuid": "8eb87667-ba38-4cce-97a8-0d33d9d7d8a1",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-26-0201_-_Hasartmängumaksu_seaduse_ja_teiste_seaduste_muutmise_seaduse_eelnõu_(823_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-25T15:53:56.397",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8eb87667-ba38-4cce-97a8-0d33d9d7d8a1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8eb87667-ba38-4cce-97a8-0d33d9d7d8a1"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6a71ec42-3236-4aab-9ee8-8f17674793e6"
+}
+}
+},
+{
+"uuid": "31a41715-cbc4-40fc-ab3b-4ca1c4f4206d",
+"reference": "1-1/15-823/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 823 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-02-11",
+"files": [
+{
+"uuid": "7b98aed0-f8f0-4ff8-9c72-6ec7b7ea77ed",
+"fileName": "260212_HasMMS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-11T15:28:48.119",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7b98aed0-f8f0-4ff8-9c72-6ec7b7ea77ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7b98aed0-f8f0-4ff8-9c72-6ec7b7ea77ed"
+}
+}
+},
+{
+"uuid": "ef663c74-15f6-4deb-8d38-047c7abe1db1",
+"fileName": "1-1-15-823-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_823_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-12T15:58:20.707",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef663c74-15f6-4deb-8d38-047c7abe1db1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef663c74-15f6-4deb-8d38-047c7abe1db1"
+}
+}
+},
+{
+"uuid": "b25238c8-a7c2-4bb2-9968-92eed3226745",
+"fileName": "HasMMS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-11T14:39:36.62",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b25238c8-a7c2-4bb2-9968-92eed3226745/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b25238c8-a7c2-4bb2-9968-92eed3226745"
+}
+}
+},
+{
+"uuid": "80b190d4-9348-4a51-bdf2-e4077484e4f0",
+"fileName": "823SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-11T15:19:40.953",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/80b190d4-9348-4a51-bdf2-e4077484e4f0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/80b190d4-9348-4a51-bdf2-e4077484e4f0"
+}
+}
+},
+{
+"uuid": "01828abe-e951-4258-97c0-ba8e8151e8d2",
+"fileName": "HasMMS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-11T14:39:17.589",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/01828abe-e951-4258-97c0-ba8e8151e8d2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/01828abe-e951-4258-97c0-ba8e8151e8d2"
+}
+}
+},
+{
+"uuid": "2ed98dea-2a1b-4b14-b251-634952f52dca",
+"fileName": "823E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-11T15:19:25.279",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ed98dea-2a1b-4b14-b251-634952f52dca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ed98dea-2a1b-4b14-b251-634952f52dca"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/31a41715-cbc4-40fc-ab3b-4ca1c4f4206d"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/5efc643d-cc70-4e25-b72b-512e6a68d9ea"
+}
+}
+}

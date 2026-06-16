@@ -1,0 +1,1123 @@
+{
+"uuid": "c1071407-875f-443c-872f-7932c7247439",
+"title": "Rahvusvahelise Navigatsioonimärkide Organisatsiooni asutamise konventsiooniga ühinemise seadus",
+"mark": 663,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Rahvusvahelise Navigatsioonimärkide Organisatsiooni asutamise konventsiooniga ühinemise seadus 663 SE",
+"initialTitle": "Rahvusvahelise Navigatsioonimärkide Organisatsiooni asutamise konventsiooniga ühinemise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu kohaselt ühineb Eesti 2021. aastal Pariisis koostatud Rahvusvahelise Navigatsioonimärkide Organisatsiooni asutamise konventsiooniga, millega muudetakse seni tegutsenud valdkondlik ühendus valitsusvaheliseks organisatsiooniks. Ühinemine annab Eestile täisliikme staatuse ja võimaldab osaleda organisatsiooni otsustusprotsessides ja töögruppides.",
+"initiated": "2025-06-02",
+"joined": null,
+"accepted": "2025-11-05",
+"amendmentsDeadline": "2025-10-22T17:15:00",
+"responsibleMember": {
+"uuid": "0c571754-914d-406a-baba-6734212353de",
+"name": "Urve Tiidus",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0c571754-914d-406a-baba-6734212353de?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "29ac9b4b-1d00-402a-a55e-e8044bf8a33a",
+"name": "Piia Schults",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/29ac9b4b-1d00-402a-a55e-e8044bf8a33a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 6848,
+"text": "navigatsiooniabi"
+},
+{
+"edid": 5889,
+"text": "meresõiduohutus"
+},
+{
+"edid": 3468,
+"text": "rahvusvaheline konventsioon"
+},
+{
+"edid": 5420,
+"text": "lepinguga ühinemine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "982ce694-4ded-4b12-ade7-d79f28769951",
+"fileName": "RK_25-01013-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.581",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/982ce694-4ded-4b12-ade7-d79f28769951/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/982ce694-4ded-4b12-ade7-d79f28769951"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5fea060f-9700-42fc-a34d-142a9038352e",
+"fileName": "[EIS]_Eelnõu_esitamine__KLIM-24-1278_-_Rahvusvahelise_Navigatsioonimärkide_Organisatsiooni_asutamiskonventsiooniga_ühinemise_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.816",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5fea060f-9700-42fc-a34d-142a9038352e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5fea060f-9700-42fc-a34d-142a9038352e"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "9c64638b-4dbe-47e5-971a-3e8e8cc28a0c",
+"title": "Rahvusvahelise Navigatsioonimärkide Organisatsiooni asutamise konventsiooniga ühinemise seaduse eelnõu (663II)",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "08b4ef1a-1c58-403f-b8f1-5077df321589",
+"fileName": "663SEII.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-31T11:14:01.723",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/08b4ef1a-1c58-403f-b8f1-5077df321589/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/08b4ef1a-1c58-403f-b8f1-5077df321589"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc751500-823e-4fa0-9b90-797a351c58d1",
+"title": "663 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "46d99b38-a51e-40d1-b975-5a9c4cf34c83",
+"fileName": "663_IALA_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-16T16:40:24.981",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/46d99b38-a51e-40d1-b975-5a9c4cf34c83/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/46d99b38-a51e-40d1-b975-5a9c4cf34c83"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6ad29495-c24a-47b4-9955-7bebdc47485f",
+"fileName": "Seaduseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.701",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6ad29495-c24a-47b4-9955-7bebdc47485f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6ad29495-c24a-47b4-9955-7bebdc47485f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "787e4768-89f4-454d-acef-ea0756eea208",
+"fileName": "Seaduseelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.75",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/787e4768-89f4-454d-acef-ea0756eea208/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/787e4768-89f4-454d-acef-ea0756eea208"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8666658b-a39a-46d3-9e28-feeb8d87eae6",
+"fileName": "25-01013-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.687",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8666658b-a39a-46d3-9e28-feeb8d87eae6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8666658b-a39a-46d3-9e28-feeb8d87eae6"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "88833b2f-7bd3-4425-89fa-5fe92d282634",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c012b6ee-c891-4a4c-aaec-83fccd9a6dc2",
+"fileName": "663_Kaaskiri_Vabariigi_Presidendile_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-06T12:44:22.383",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c012b6ee-c891-4a4c-aaec-83fccd9a6dc2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c012b6ee-c891-4a4c-aaec-83fccd9a6dc2"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc751500-823e-4fa0-9b90-797a351c58d1",
+"title": "663 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a34f343a-d9cd-45e8-93aa-16925494fca9",
+"fileName": "663_IALA_asutamise_konventsioon_eesti_keeles.docx",
+"fileExtension": "docx",
+"fileTitle": "Konventsioon",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-16T16:41:19.763",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a34f343a-d9cd-45e8-93aa-16925494fca9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a34f343a-d9cd-45e8-93aa-16925494fca9"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "9c64638b-4dbe-47e5-971a-3e8e8cc28a0c",
+"title": "Rahvusvahelise Navigatsioonimärkide Organisatsiooni asutamise konventsiooniga ühinemise seaduse eelnõu (663II)",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f6109e06-8497-4f98-82e0-54f79b05dd1d",
+"fileName": "IALA_asutamise_konventsioon_eesti_keeles(2).docx",
+"fileExtension": "docx",
+"fileTitle": "Konventsioon",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-31T11:17:47.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f6109e06-8497-4f98-82e0-54f79b05dd1d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f6109e06-8497-4f98-82e0-54f79b05dd1d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc751500-823e-4fa0-9b90-797a351c58d1",
+"title": "663 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "61ff6d51-d89a-48b9-b845-6b33abbe40f6",
+"fileName": "663_IALA_asutamise_konventsioon_inglise_keeles.docx",
+"fileExtension": "docx",
+"fileTitle": "Konventsioon (ingl)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-16T16:41:46.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/61ff6d51-d89a-48b9-b845-6b33abbe40f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/61ff6d51-d89a-48b9-b845-6b33abbe40f6"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "9c64638b-4dbe-47e5-971a-3e8e8cc28a0c",
+"title": "Rahvusvahelise Navigatsioonimärkide Organisatsiooni asutamise konventsiooniga ühinemise seaduse eelnõu (663II)",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a8c65b57-8c92-4c46-8883-864e04ad440b",
+"fileName": "IALA_asutamise_konventsioon_inglise_keeles(1).docx",
+"fileExtension": "docx",
+"fileTitle": "Konventsioon (ingl)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-31T11:16:44.282",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a8c65b57-8c92-4c46-8883-864e04ad440b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a8c65b57-8c92-4c46-8883-864e04ad440b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "930204b8-d0f6-4cda-92b3-12094283b259",
+"fileName": "IALA_asutamise_konventsioon_inglise_keeles.docx",
+"fileExtension": "docx",
+"fileTitle": "Konventsioon (ingl) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.714",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/930204b8-d0f6-4cda-92b3-12094283b259/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/930204b8-d0f6-4cda-92b3-12094283b259"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ab08650e-78c9-4680-b8ce-d2fb2084c405",
+"fileName": "IALA_asutamise_konventsioon_inglise_keeles.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Konventsioon (ingl) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.763",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ab08650e-78c9-4680-b8ce-d2fb2084c405/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ab08650e-78c9-4680-b8ce-d2fb2084c405"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "682a5a52-2e12-4d48-8af6-48fcf14b8276",
+"fileName": "IALA_asutamise_konventsioon_eesti_keeles.docx",
+"fileExtension": "docx",
+"fileTitle": "Konventsioon docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.726",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/682a5a52-2e12-4d48-8af6-48fcf14b8276/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/682a5a52-2e12-4d48-8af6-48fcf14b8276"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d73f3185-7a45-4160-9b0b-07964429bf1c",
+"fileName": "IALA_asutamise_konventsioon_eesti_keeles.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Konventsioon pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d73f3185-7a45-4160-9b0b-07964429bf1c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d73f3185-7a45-4160-9b0b-07964429bf1c"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "15873795-b0d2-4acb-9da4-368984f90a37",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b5eeb81a-b6fe-4d16-ac1e-e1666cb48fc8",
+"fileName": "663XV_Navigat_uhin_s_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-13T14:08:47.048",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b5eeb81a-b6fe-4d16-ac1e-e1666cb48fc8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b5eeb81a-b6fe-4d16-ac1e-e1666cb48fc8"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "15873795-b0d2-4acb-9da4-368984f90a37",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d13f2f70-bea0-4d19-bea2-d7fd5987eeb1",
+"fileName": "663XV_Navigat_uhin_s_2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-13T14:08:37.063",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d13f2f70-bea0-4d19-bea2-d7fd5987eeb1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d13f2f70-bea0-4d19-bea2-d7fd5987eeb1"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "15873795-b0d2-4acb-9da4-368984f90a37",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9d88f22f-e0fb-407f-b1a1-c71d6e0169f4",
+"fileName": "663XV_Navigat_ingl_k_L1.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-13T14:08:47.07",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d88f22f-e0fb-407f-b1a1-c71d6e0169f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d88f22f-e0fb-407f-b1a1-c71d6e0169f4"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "15873795-b0d2-4acb-9da4-368984f90a37",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6d88fed9-d2c0-4363-ac22-6225e646ee55",
+"fileName": "663XV_Navigat_eesti_k_L2.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst lisa 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-13T14:08:47.06",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6d88fed9-d2c0-4363-ac22-6225e646ee55/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6d88fed9-d2c0-4363-ac22-6225e646ee55"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "9c64638b-4dbe-47e5-971a-3e8e8cc28a0c",
+"title": "Rahvusvahelise Navigatsioonimärkide Organisatsiooni asutamise konventsiooniga ühinemise seaduse eelnõu (663II)",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d5c191d1-de3e-4069-9b59-84df801989bd",
+"fileName": "663SEIIseletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-31T11:16:14.614",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d5c191d1-de3e-4069-9b59-84df801989bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d5c191d1-de3e-4069-9b59-84df801989bd"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc751500-823e-4fa0-9b90-797a351c58d1",
+"title": "663 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "421f9971-9d7d-4a4d-a1b8-1d6cfc3e189f",
+"fileName": "663_IALA_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-16T16:40:56.058",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/421f9971-9d7d-4a4d-a1b8-1d6cfc3e189f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/421f9971-9d7d-4a4d-a1b8-1d6cfc3e189f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a82662fa-caee-4305-b970-f17771ae43d6",
+"fileName": "IALA_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.738",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a82662fa-caee-4305-b970-f17771ae43d6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a82662fa-caee-4305-b970-f17771ae43d6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e7c44748-150b-41c6-8fd3-3dc466fd4dda",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3ae77f45-fa3e-4c56-b8e7-b52bc92648d1",
+"fileName": "IALA_seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T15:28:06.793",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ae77f45-fa3e-4c56-b8e7-b52bc92648d1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ae77f45-fa3e-4c56-b8e7-b52bc92648d1"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "d3886899-5943-4ab7-9f10-e20063584507",
+"reference": "1-1/15-663/1",
+"title": "Vabariigi Presidendi otsus nr 610",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a259cc8e-968f-46a4-be8c-d5a27a93e2de",
+"fileName": "VP_13112025_o610.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-13T14:06:35.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a259cc8e-968f-46a4-be8c-d5a27a93e2de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a259cc8e-968f-46a4-be8c-d5a27a93e2de"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "d3886899-5943-4ab7-9f10-e20063584507",
+"reference": "1-1/15-663/1",
+"title": "Vabariigi Presidendi otsus nr 610",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8debedfd-9a6e-4c89-aab9-468730f27a5a",
+"fileName": "VP_13112025_o610.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-13T14:06:35.217",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8debedfd-9a6e-4c89-aab9-468730f27a5a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8debedfd-9a6e-4c89-aab9-468730f27a5a"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "88833b2f-7bd3-4425-89fa-5fe92d282634",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "809e53fd-259a-4152-9f1f-ce808d879e1a",
+"fileName": "663XV_Navigat_uhin_s_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-05T16:18:29.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/809e53fd-259a-4152-9f1f-ce808d879e1a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/809e53fd-259a-4152-9f1f-ce808d879e1a"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "88833b2f-7bd3-4425-89fa-5fe92d282634",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "500bfdc4-2006-4341-8e84-aceb758d8543",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-06T12:45:25.959",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/500bfdc4-2006-4341-8e84-aceb758d8543/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/500bfdc4-2006-4341-8e84-aceb758d8543"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-06-02T15:27:37.882",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-06-03T13:47:00.972",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-09-15T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 15.09.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Urve Tiidus"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Teha otsus eelnõu täiskogu päevakorda võtmise kuupäeva osas 16.09.2025 istungil"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "2a221e8a-f56e-4cfe-9bf6-26792d7e0a7b",
+"fileName": "MAJK_protokoll_nr_142_15.09.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T16:24:54.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2a221e8a-f56e-4cfe-9bf6-26792d7e0a7b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2a221e8a-f56e-4cfe-9bf6-26792d7e0a7b"
+}
+}
+},
+{
+"uuid": "caf4d9c2-3c7d-4077-87f2-df34cb8c09cc",
+"fileName": "IALA_esitlus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (663 SE)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T12:57:04.274",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/caf4d9c2-3c7d-4077-87f2-df34cb8c09cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/caf4d9c2-3c7d-4077-87f2-df34cb8c09cc"
+}
+}
+},
+{
+"uuid": "32e1a433-7112-425b-880e-9f54c474902a",
+"fileName": "MKM_2035_15.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Eesti 2035)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T12:56:37.691",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/32e1a433-7112-425b-880e-9f54c474902a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/32e1a433-7112-425b-880e-9f54c474902a"
+}
+}
+},
+{
+"uuid": "f7e9c1db-9178-46e8-b2de-bc1d5e10f7ee",
+"fileName": "Asendusliikme_volikiri_Kokk_Poolamets.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri_Kokk_Poolamets",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T13:16:42.957",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7e9c1db-9178-46e8-b2de-bc1d5e10f7ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7e9c1db-9178-46e8-b2de-bc1d5e10f7ee"
+}
+}
+},
+{
+"uuid": "0fc34b17-11d8-4663-8b56-bcbdf2ac9fa6",
+"fileName": "MAJK_protokoll_nr_142_15.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T16:24:12.569",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0fc34b17-11d8-4663-8b56-bcbdf2ac9fa6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0fc34b17-11d8-4663-8b56-bcbdf2ac9fa6"
+}
+}
+},
+{
+"uuid": "2ba03b99-d72b-4790-bd18-7d4e26e57668",
+"fileName": "Asendusliikme_volikiri_Pillak_Ruusmann.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri_Pillak_Ruusmann",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T13:16:07.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ba03b99-d72b-4790-bd18-7d4e26e57668/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ba03b99-d72b-4790-bd18-7d4e26e57668"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-09-16T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 16.09.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-10-08T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "19992f15-9934-430e-8635-3ae8c0ad3562",
+"fileName": "MAJK_protokoll_nr_143_16.09.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T10:11:37.995",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/19992f15-9934-430e-8635-3ae8c0ad3562/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/19992f15-9934-430e-8635-3ae8c0ad3562"
+}
+}
+},
+{
+"uuid": "1c7f190e-6be0-4858-8a25-3ffbc48c2f6e",
+"fileName": "MAJK_protokoll_nr_143_16.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T09:19:09.212",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c7f190e-6be0-4858-8a25-3ffbc48c2f6e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c7f190e-6be0-4858-8a25-3ffbc48c2f6e"
+}
+}
+},
+{
+"uuid": "ab4306e1-b464-470b-ad53-03b69572144d",
+"fileName": "Lisa_2_(EstLink3_REP).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (EstLink3 REP)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T11:53:00.473",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ab4306e1-b464-470b-ad53-03b69572144d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ab4306e1-b464-470b-ad53-03b69572144d"
+}
+}
+},
+{
+"uuid": "b6983066-80d3-4fc4-8ea2-c2b914922197",
+"fileName": "Lisa_1_(TEJ_REP).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (TEJ REP)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-17T11:52:00.907",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b6983066-80d3-4fc4-8ea2-c2b914922197/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b6983066-80d3-4fc4-8ea2-c2b914922197"
+}
+}
+}
+]
+},
+{
+"date": "2025-10-08T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 8.10.2025 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2025-10-23T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 23.10.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-11-05T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "ea27be3e-7911-4cd3-a4eb-03caa690232f",
+"fileName": "MAJK_protokoll_nr_152_23.10.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-28T08:42:57.476",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ea27be3e-7911-4cd3-a4eb-03caa690232f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ea27be3e-7911-4cd3-a4eb-03caa690232f"
+}
+}
+},
+{
+"uuid": "fc1e30fc-c0c3-422f-a210-c1b58b682029",
+"fileName": "MAJK_protokoll_nr_152_23.10.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T20:11:54.648",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc1e30fc-c0c3-422f-a210-c1b58b682029/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc1e30fc-c0c3-422f-a210-c1b58b682029"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-05T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 5.11.2025 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "076a2da2-fc88-46b7-8a3c-66d0293cf44f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-11-05T17:11:46",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/076a2da2-fc88-46b7-8a3c-66d0293cf44f"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-11-06T13:40:46.59",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2025-11-13T14:07:00.799",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2025-11-18T20:21:46.427",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/c1071407-875f-443c-872f-7932c7247439"
+}
+}
+}

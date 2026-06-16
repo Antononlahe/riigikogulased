@@ -1,0 +1,370 @@
+{
+"uuid": "9407805f-c5a3-4778-9f79-442421a7dc7b",
+"title": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine välisriikide Eesti huvide vastase mõjutustegevuse, selle rahastamise viiside ning sellega seotud riskide uurimiseks“",
+"mark": 803,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine välisriikide Eesti huvide vastase mõjutustegevuse, selle rahastamise viiside ning sellega seotud riskide uurimiseks“ 803 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine välisriikide Eesti huvide vastase mõjutustegevuse, selle rahastamise viiside ning sellega seotud riskide uurimiseks“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu kohaselt moodustatakse Riigikogu uurimiskomisjon, mille ülesandeks on süstemaatiliselt välja selgitada ja analüüsida välisriikide Eesti huvide vastast mõjutustegevust, selle rahastamise viise, seotust Eesti avaliku sektoriga ning erinevaid propagandaprojekte koos nendega kaasnevate riskidega. Algatajate hinnangul on välisriikide Eesti huvide vastane mõjutustegevus osa laiematest strateegiatest, mille eesmärk on nõrgendada Eesti riigi julgeolekut ja vastupanuvõimet. Selline tegevus on suunatud Eesti elanikkonna ja ühiskondliku sidususe vastu ning levitab narratiive, mis kahjustavad Eesti riiki ja tema liitlasi.",
+"initiated": "2026-01-21",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "001dd80c-38c3-4557-b3ee-408d3ffd5cd7",
+"name": "Katrin Kuusemäe",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/001dd80c-38c3-4557-b3ee-408d3ffd5cd7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 15,
+"text": "uurimiskomisjon"
+},
+{
+"edid": 6927,
+"text": "piirkondlik julgeolek"
+},
+{
+"edid": 3993,
+"text": "riigi julgeoleku ohustamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a42a1d7b-97f8-4316-950e-70afa566f5bc",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1fdee643-8761-4e01-afcb-dc72beaf6eaa",
+"fileName": "803_RK_o_uurimiskomisjoni_moodust_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T15:40:33.976",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1fdee643-8761-4e01-afcb-dc72beaf6eaa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1fdee643-8761-4e01-afcb-dc72beaf6eaa"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "be04b094-a511-40d7-a8f2-5e779a15471d",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "92113687-4144-4eba-8ccb-ea18bfb83833",
+"fileName": "20260121_OE__uurimiskomisjoni_moodustamine.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T15:09:01.214",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92113687-4144-4eba-8ccb-ea18bfb83833/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92113687-4144-4eba-8ccb-ea18bfb83833"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "be04b094-a511-40d7-a8f2-5e779a15471d",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6bb07e2b-cc62-4a9f-8785-890dc5079c1a",
+"fileName": "803E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T16:36:44.99",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6bb07e2b-cc62-4a9f-8785-890dc5079c1a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6bb07e2b-cc62-4a9f-8785-890dc5079c1a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a42a1d7b-97f8-4316-950e-70afa566f5bc",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bed027d0-12de-4b8d-a0f8-fa053a8db491",
+"fileName": "803_RK_o_uurimiskomisjoni_moodust_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T15:41:08.905",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bed027d0-12de-4b8d-a0f8-fa053a8db491/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bed027d0-12de-4b8d-a0f8-fa053a8db491"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "be04b094-a511-40d7-a8f2-5e779a15471d",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "56eb397a-1bb7-4129-897e-ab77dacc19c5",
+"fileName": "20260121_SK__uurimiskomisjoni_moodustamine.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T15:09:01.224",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/56eb397a-1bb7-4129-897e-ab77dacc19c5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/56eb397a-1bb7-4129-897e-ab77dacc19c5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "be04b094-a511-40d7-a8f2-5e779a15471d",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7385f616-89a0-4b76-8abd-f2968d9c98ac",
+"fileName": "803SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T16:36:54.712",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7385f616-89a0-4b76-8abd-f2968d9c98ac/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7385f616-89a0-4b76-8abd-f2968d9c98ac"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-01-21T15:08:32.84",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-01-22T20:40:00.838",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-03-17T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 17.03.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-03-25T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Katrin Kuusemäe"
+}
+],
+"protocolFiles": [
+{
+"uuid": "c1e187af-b557-4dae-88b1-32e920c71c89",
+"fileName": "PÕSK_protokoll_nr_155_17.03.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll 17.03.2026.pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-24T12:44:40.867",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c1e187af-b557-4dae-88b1-32e920c71c89/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c1e187af-b557-4dae-88b1-32e920c71c89"
+}
+}
+},
+{
+"uuid": "3da2eaef-c80f-42fd-858f-78efaff5875b",
+"fileName": "Asendusliikme_volikiri_(A._Seeme).asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (A. Seeme)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-24T12:45:01.136",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3da2eaef-c80f-42fd-858f-78efaff5875b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3da2eaef-c80f-42fd-858f-78efaff5875b"
+}
+}
+},
+{
+"uuid": "6bcc17a4-e514-41c8-9dc4-ae18b83bd605",
+"fileName": "Riigikogu_põhiseaduskomisjoni_istungi_protokoll_nr_155.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll 17.03.2026.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-24T12:45:53.114",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6bcc17a4-e514-41c8-9dc4-ae18b83bd605/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6bcc17a4-e514-41c8-9dc4-ae18b83bd605"
+}
+}
+}
+]
+},
+{
+"date": "2026-03-25T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 25.03.2026 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2026-04-09T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 9.04.2026 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "8e501e11-874e-49d9-8af2-be5c02693e4b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-04-09T12:04:13.697",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8e501e11-874e-49d9-8af2-be5c02693e4b"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9407805f-c5a3-4778-9f79-442421a7dc7b"
+}
+}
+}

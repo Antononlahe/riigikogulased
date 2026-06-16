@@ -1,0 +1,366 @@
+{
+"uuid": "e17aa36f-e680-4310-a997-578a544b2736",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja  kiirkorras e-hääletamise peatamine\"",
+"mark": 679,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja  kiirkorras e-hääletamise peatamine\" 679 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja  kiirkorras e-hääletamise peatamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse ettepanek peatada e-hääletamise läbiviimine Eesti Vabariigis kuni kontrollsüsteemide puuduste kõrvaldamiseni. Seletuskirjas viidatakse ODIHR (OSCE Demokraatlike Institutsioonide ja Inimõiguste Büroo) 2025. aasta õiguslikule hinnangule Eesti e-hääletamise kohta, mis annab põhjaliku ja kriitilise analüüsi meie internetipõhise valimissüsteemi kohta. Raportis tunnustatakse edusamme, kuid osutatakse ka tõsistele puudustele, mis ohustavad süsteemi usaldusväärsust, läbipaistvust ja valijate usaldust.",
+"initiated": "2025-06-18",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-07-07T16:00:00",
+"responsibleMember": {
+"uuid": "4e2e1744-16b5-4d88-a08a-cf250c776956",
+"name": "Ando Kiviberg",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4e2e1744-16b5-4d88-a08a-cf250c776956?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 695,
+"text": "valimised"
+},
+{
+"edid": 8559,
+"text": "e-hääletamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e58a2c20-0590-4bbb-ab2a-375289ccdc99",
+"title": "679 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "93d2dac4-49bf-40bc-bebd-8897d800e6bf",
+"fileName": "679_RK_o_Ettepanek_VVle_e-hääletamise_peatamine_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T17:14:23.912",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/93d2dac4-49bf-40bc-bebd-8897d800e6bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/93d2dac4-49bf-40bc-bebd-8897d800e6bf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "dc6a5c82-842f-4e26-86db-683617862ce8",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "927b1d8b-8b4f-47a7-95d5-20791382ecb6",
+"fileName": "e-hääletamise_peatamine_OE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-18T14:14:00.793",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/927b1d8b-8b4f-47a7-95d5-20791382ecb6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/927b1d8b-8b4f-47a7-95d5-20791382ecb6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "dc6a5c82-842f-4e26-86db-683617862ce8",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "93c7bcf3-f3c3-40f1-ba4c-d141e65e62f2",
+"fileName": "679E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-18T15:56:18.368",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/93c7bcf3-f3c3-40f1-ba4c-d141e65e62f2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/93c7bcf3-f3c3-40f1-ba4c-d141e65e62f2"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e58a2c20-0590-4bbb-ab2a-375289ccdc99",
+"title": "679 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1e7b8ac1-f70a-48c1-86ba-2dbcf646866a",
+"fileName": "679_RK_o_Ettepanek_VVle_e-hääletamise_peatamine_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T17:15:16.989",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e7b8ac1-f70a-48c1-86ba-2dbcf646866a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e7b8ac1-f70a-48c1-86ba-2dbcf646866a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "dc6a5c82-842f-4e26-86db-683617862ce8",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e015d9cd-ce42-4fe6-af55-0d43f382e207",
+"fileName": "679SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-18T15:56:30.721",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e015d9cd-ce42-4fe6-af55-0d43f382e207/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e015d9cd-ce42-4fe6-af55-0d43f382e207"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-06-18T14:13:25.637",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-06-20T13:46:00.814",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-10-21T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 21.10.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2025-11-06T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Ando Kiviberg"
+}
+],
+"protocolFiles": [
+{
+"uuid": "8e2626d3-8463-43b9-8a71-7bc6c957e879",
+"fileName": "Asendus_Kaljulaid.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Kaljulaid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T15:41:05.357",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e2626d3-8463-43b9-8a71-7bc6c957e879/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e2626d3-8463-43b9-8a71-7bc6c957e879"
+}
+}
+},
+{
+"uuid": "63dffa81-81be-46af-9f80-543b47a0c90f",
+"fileName": "PÕSK_protokoll_nr_131_(21.10.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll 21.10.2025",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T15:41:33.048",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/63dffa81-81be-46af-9f80-543b47a0c90f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/63dffa81-81be-46af-9f80-543b47a0c90f"
+}
+}
+},
+{
+"uuid": "24973777-35a2-44c4-8252-690ef08fc182",
+"fileName": "Riigikogu_põhiseaduskomisjoni_istungi_protokoll_nr_131.asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T15:44:35.004",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24973777-35a2-44c4-8252-690ef08fc182/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24973777-35a2-44c4-8252-690ef08fc182"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-06T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 6.11.2025 10:00",
+"decisionCode": "ARUTELU_JAI_POOLELI",
+"votings": []
+},
+{
+"date": "2025-11-10T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 10.11.2025 15:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "42bf2e09-0c16-4e1c-b227-478fdb5ad4b9",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-11-10T15:51:40.877",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/42bf2e09-0c16-4e1c-b227-478fdb5ad4b9"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "d4da5605-92a6-4dc9-9759-4f37db198b89",
+"reference": "1-1/15-679/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele töötada välja  kiirkorras e-hääletamise peatamine\" eelnõu 679 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-12",
+"files": [
+{
+"uuid": "ba833122-99ed-4170-86ad-9e50784d6db2",
+"fileName": "255._tel_Eelnõu_679_OE_häältenamus_2025_09_12.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-12T12:27:07.104",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba833122-99ed-4170-86ad-9e50784d6db2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba833122-99ed-4170-86ad-9e50784d6db2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d4da5605-92a6-4dc9-9759-4f37db198b89"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/e17aa36f-e680-4310-a997-578a544b2736"
+}
+}
+}

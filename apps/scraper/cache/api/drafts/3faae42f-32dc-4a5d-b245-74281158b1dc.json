@@ -1,0 +1,337 @@
+{
+"uuid": "3faae42f-32dc-4a5d-b245-74281158b1dc",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja lahendus Vene-Ukraina sõja tõttu Eesti kodanikele ja elanikele tekkinud varaliste kahjude hüvitamiseks“",
+"mark": 863,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja lahendus Vene-Ukraina sõja tõttu Eesti kodanikele ja elanikele tekkinud varaliste kahjude hüvitamiseks“ 863 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja lahendus Vene-Ukraina sõja tõttu Eesti kodanikele ja elanikele tekkinud varaliste kahjude hüvitamiseks“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette kohustada valitsust leidma kiire ja toimiv lahendus, et hüvitada Vene - Ukraina sõjast tulenevad võimalikud varakahjud Eestis elavatele inimestele.",
+"initiated": "2026-03-26",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-04-10T16:00:00",
+"responsibleMember": {
+"uuid": "8946b072-80c5-436e-95b2-41f928a7c636",
+"name": "Diana Ingerainen",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8946b072-80c5-436e-95b2-41f928a7c636?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5335,
+"text": "sõjaline sekkumine"
+},
+{
+"edid": 3477,
+"text": "kahjukindlustus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "87d401b5-ff43-4e28-941d-7cb2a6638bab",
+"title": "863 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "21a8619d-5cf5-477b-bd83-32b4ce82a05c",
+"fileName": "863_RK_o_Ettepanek_VVle_sojakahjud_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-11T13:07:07.532",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/21a8619d-5cf5-477b-bd83-32b4ce82a05c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/21a8619d-5cf5-477b-bd83-32b4ce82a05c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "91d29aed-3504-4ce2-aeef-3cbe56a562a9",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9cc21204-7f02-437b-aad2-6c2da3a64552",
+"fileName": "20260326_OE_sõjakahjud.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-26T10:30:52.463",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9cc21204-7f02-437b-aad2-6c2da3a64552/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9cc21204-7f02-437b-aad2-6c2da3a64552"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "91d29aed-3504-4ce2-aeef-3cbe56a562a9",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "69f9c4c3-f81d-4ef3-a6b9-d2695a3cec08",
+"fileName": "863E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-26T10:46:35.836",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/69f9c4c3-f81d-4ef3-a6b9-d2695a3cec08/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/69f9c4c3-f81d-4ef3-a6b9-d2695a3cec08"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "87d401b5-ff43-4e28-941d-7cb2a6638bab",
+"title": "863 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b7a4c27a-9fc3-41ed-a8ed-d2b613c989e6",
+"fileName": "863_RK_o_Ettepanek_VVle_sojakahjud_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-11T13:07:22.394",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7a4c27a-9fc3-41ed-a8ed-d2b613c989e6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7a4c27a-9fc3-41ed-a8ed-d2b613c989e6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "91d29aed-3504-4ce2-aeef-3cbe56a562a9",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3ebe99b1-1728-434f-b82f-6c9ea07de7f5",
+"fileName": "20260326_OE_SK_sõjakahjud.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-26T10:30:52.47",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ebe99b1-1728-434f-b82f-6c9ea07de7f5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ebe99b1-1728-434f-b82f-6c9ea07de7f5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "91d29aed-3504-4ce2-aeef-3cbe56a562a9",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b858d5c0-4b5a-4388-8e2a-91089c1f7aa8",
+"fileName": "863SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-26T10:46:50.997",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b858d5c0-4b5a-4388-8e2a-91089c1f7aa8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b858d5c0-4b5a-4388-8e2a-91089c1f7aa8"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-03-26T10:30:21.335",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-03-26T17:28:00.697",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-11T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 11.05.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-05-20T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Diana Ingerainen"
+}
+],
+"protocolFiles": []
+},
+{
+"date": "2026-05-21T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 21.05.2026 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "02db38fe-bfee-471c-acaf-d46cb55feccc",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-05-21T12:02:23.667",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/02db38fe-bfee-471c-acaf-d46cb55feccc"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "5ce80396-4608-4d39-951d-483d3eb3ee4a",
+"reference": "1-1/15-863/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele töötada välja lahendus Vene-Ukraina sõja tõttu Eesti kodanikele ja elanikele tekkinud varaliste kahjude hüvitamiseks“ eelnõu 863 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-04-29",
+"files": [
+{
+"uuid": "b5793cd4-a3b0-4dbd-a6ad-c48a8fac20f4",
+"fileName": "135.tel_Arvamus_863OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-29T11:36:01.395",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b5793cd4-a3b0-4dbd-a6ad-c48a8fac20f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b5793cd4-a3b0-4dbd-a6ad-c48a8fac20f4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5ce80396-4608-4d39-951d-483d3eb3ee4a"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/3faae42f-32dc-4a5d-b245-74281158b1dc"
+}
+}
+}

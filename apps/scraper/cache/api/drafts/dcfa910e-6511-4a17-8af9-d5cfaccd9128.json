@@ -1,0 +1,513 @@
+{
+"uuid": "dcfa910e-6511-4a17-8af9-d5cfaccd9128",
+"title": "Maamaksuseaduse muutmise seadus kodualuse maa maksuvabastuse taastamiseks",
+"mark": 721,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Maamaksuseaduse muutmise seadus kodualuse maa maksuvabastuse taastamiseks 721 SE",
+"initialTitle": "Maamaksuseaduse muutmise seadus kodualuse maa maksuvabastuse taastamiseks",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette koduomanikele kodualuse maa riikliku maksuvabastuse taastamise, et tagada koduomanikele maamaksuküsimuses kindlustunne.",
+"initiated": "2025-09-15",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2813,
+"text": "maaomand"
+},
+{
+"edid": 1314,
+"text": "omandimaks"
+},
+{
+"edid": 935,
+"text": "maksuvabastus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9558e060-e123-4f8a-bfb5-21e7375ac53c",
+"title": "721 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4c9a6650-ba0b-430d-9c2e-199989d0a530",
+"fileName": "721_MaaMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T13:35:15.557",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c9a6650-ba0b-430d-9c2e-199989d0a530/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c9a6650-ba0b-430d-9c2e-199989d0a530"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "dd1fc822-5a35-42bb-a061-10566ef9f104",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "817bae1b-a128-4b37-8a72-24d5ab2378a7",
+"fileName": "Maamaksuseaduse_muutmine_-_kodualuse_maamaksu_vabastuse_taastamine.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T17:43:04.72",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/817bae1b-a128-4b37-8a72-24d5ab2378a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/817bae1b-a128-4b37-8a72-24d5ab2378a7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "dd1fc822-5a35-42bb-a061-10566ef9f104",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ba0a08f8-ce2f-407f-b978-4bf7b78f4efb",
+"fileName": "721E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T17:43:38.722",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba0a08f8-ce2f-407f-b978-4bf7b78f4efb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba0a08f8-ce2f-407f-b978-4bf7b78f4efb"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9558e060-e123-4f8a-bfb5-21e7375ac53c",
+"title": "721 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8101cbaa-9c34-4b58-af24-dce6c1a3b6ca",
+"fileName": "721_MaaMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T13:35:33.842",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8101cbaa-9c34-4b58-af24-dce6c1a3b6ca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8101cbaa-9c34-4b58-af24-dce6c1a3b6ca"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "dd1fc822-5a35-42bb-a061-10566ef9f104",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e5e85fbc-1f1f-4256-a3ea-8529f22b3bb6",
+"fileName": "721SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T17:43:57.385",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e5e85fbc-1f1f-4256-a3ea-8529f22b3bb6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e5e85fbc-1f1f-4256-a3ea-8529f22b3bb6"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-09-15T17:42:39.446",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-09-16T14:21:00.379",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-03T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 3.11.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-11-11T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "3a73c2eb-f75e-4540-8f85-5dcdbdec52f3",
+"fileName": "RAHK_protokoll_03.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T09:51:15.201",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a73c2eb-f75e-4540-8f85-5dcdbdec52f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a73c2eb-f75e-4540-8f85-5dcdbdec52f3"
+}
+}
+},
+{
+"uuid": "5120ebbc-1062-4485-9289-f10dad674419",
+"fileName": "RAHK_protokoll_nr_183_03.11.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T09:50:07.524",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5120ebbc-1062-4485-9289-f10dad674419/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5120ebbc-1062-4485-9289-f10dad674419"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.11.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "f0b3cf8f-ff81-44e4-a539-8cf47683a715",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-11-13T00:15:38.833",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f0b3cf8f-ff81-44e4-a539-8cf47683a715"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6990f03a-1baf-4876-84ff-c57470e2b465",
+"reference": "1-1/15-721/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 721 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-15",
+"files": [
+{
+"uuid": "832b6096-a53c-4696-a9d5-211d91d28dd3",
+"fileName": "MaaMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T17:46:29.063",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/832b6096-a53c-4696-a9d5-211d91d28dd3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/832b6096-a53c-4696-a9d5-211d91d28dd3"
+}
+}
+},
+{
+"uuid": "d749c173-68c3-4e07-b703-4d15acc6e1f4",
+"fileName": "250916_MaaMS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T18:25:05.955",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d749c173-68c3-4e07-b703-4d15acc6e1f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d749c173-68c3-4e07-b703-4d15acc6e1f4"
+}
+}
+},
+{
+"uuid": "795b747d-0bd6-4d9b-a6d9-7bf0cbfdfeec",
+"fileName": "721E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T17:47:07.368",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/795b747d-0bd6-4d9b-a6d9-7bf0cbfdfeec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/795b747d-0bd6-4d9b-a6d9-7bf0cbfdfeec"
+}
+}
+},
+{
+"uuid": "2be48090-9b7f-4789-84e2-2bf1e251ec14",
+"fileName": "MaaMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T17:46:53.214",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2be48090-9b7f-4789-84e2-2bf1e251ec14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2be48090-9b7f-4789-84e2-2bf1e251ec14"
+}
+}
+},
+{
+"uuid": "4ccb63ee-d260-4f99-9e67-d69e1c3966a5",
+"fileName": "1-1-15-721-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_721_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-16T14:16:47.869",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ccb63ee-d260-4f99-9e67-d69e1c3966a5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ccb63ee-d260-4f99-9e67-d69e1c3966a5"
+}
+}
+},
+{
+"uuid": "6b477b2c-ae8c-4bda-af2a-8f8a2632e541",
+"fileName": "721SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T17:47:24.713",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b477b2c-ae8c-4bda-af2a-8f8a2632e541/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b477b2c-ae8c-4bda-af2a-8f8a2632e541"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6990f03a-1baf-4876-84ff-c57470e2b465"
+}
+}
+},
+{
+"uuid": "0cb093f5-6a96-40a9-9dc5-a53c9ef21e54",
+"reference": "1-1/15-721/2",
+"title": "Vabariigi Valitsuse arvamus maamaksuseaduse muutmise seaduse kodualuse maa maksuvabastuse taastamiseks eelnõu 721 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-10-21",
+"files": [
+{
+"uuid": "75a51f6a-6f29-4967-87ef-4d05bdda3329",
+"fileName": "VV_seisukoht_rahanduskomisjonile_721_SE_1010.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T16:57:15.841",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75a51f6a-6f29-4967-87ef-4d05bdda3329/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75a51f6a-6f29-4967-87ef-4d05bdda3329"
+}
+}
+},
+{
+"uuid": "61cfec27-3a07-4a42-99aa-ad60f3ffbf9d",
+"fileName": "VV_seisukoht_rahanduskomisjonile_721_SE_1010.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T16:57:15.936",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/61cfec27-3a07-4a42-99aa-ad60f3ffbf9d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/61cfec27-3a07-4a42-99aa-ad60f3ffbf9d"
+}
+}
+},
+{
+"uuid": "e42c3ffe-ab7d-4eb6-ad65-1fc2a45b4a6e",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-1012_-_Maamaksuseaduse_muutmise_seaduse_eelnõu_kodualuse_maa_maksuvabastuse_taastamiseks_(721_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T16:57:15.949",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e42c3ffe-ab7d-4eb6-ad65-1fc2a45b4a6e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e42c3ffe-ab7d-4eb6-ad65-1fc2a45b4a6e"
+}
+}
+},
+{
+"uuid": "85debe49-a62f-4022-ab1f-7a00a9c813c2",
+"fileName": "Lisa_Koduomaniku_soodustused.pdf",
+"fileExtension": "pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T16:57:15.923",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/85debe49-a62f-4022-ab1f-7a00a9c813c2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/85debe49-a62f-4022-ab1f-7a00a9c813c2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0cb093f5-6a96-40a9-9dc5-a53c9ef21e54"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/dcfa910e-6511-4a17-8af9-d5cfaccd9128"
+}
+}
+}

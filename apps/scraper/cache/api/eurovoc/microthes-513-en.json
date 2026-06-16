@@ -1,0 +1,253 @@
+{
+"uuid": "7044e3c7-1d53-4a3f-8192-a532624b70c0",
+"etid": 513,
+"code": "0426",
+"text": "parlamendi töö",
+"descriptors": [
+{
+"edid": 2702,
+"text": "seadusandlik menetlus",
+"code": "2702",
+"uuid": "1d6e761c-e1b6-ed05-f3ef-39f322f2b554",
+"vol_cnt": 37,
+"scopeNotes": [],
+"usedFors": [
+"menetlus",
+"seadusandlik protsess"
+],
+"narrowTerms": [
+"0c1fb11c-ba26-4dae-87fd-05f5a934ed12",
+"cb7c0238-9484-4478-a3e6-797a598f00c8",
+"5ac80892-c5dc-4eb6-8471-c8e190fef854",
+"ff709639-44e4-4ae5-869a-656719ec5e13",
+"769523ea-e2c2-e791-6e62-44c4d1ec9c97",
+"eecfa9a0-e9e0-407d-a802-fcf6d0a733e7",
+"7625ee2d-9ddd-4369-8ec0-194770717142",
+"dbcce45a-09ff-7f83-08d5-6884ae746fab"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 41,
+"text": "parlamendi pädevus",
+"code": "41",
+"uuid": "05234d4e-049d-e131-a5a9-ae214d0ce7a4",
+"vol_cnt": 14,
+"scopeNotes": [],
+"usedFors": [
+"parlamendi võim"
+],
+"narrowTerms": [
+"df632186-9b21-11f5-0da6-8c4b0e3616c5",
+"83866d2e-0a32-0d53-02ed-a96f297fbd86",
+"458fb08d-d58e-4118-898c-9049c3d7ff1c"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/05234d4e-049d-e131-a5a9-ae214d0ce7a4"
+}
+}
+},
+{
+"edid": 2242,
+"text": "parlament",
+"code": "2242",
+"uuid": "f2385ddc-7d6c-4dbe-ad26-ed84b1884280",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"6b671e6a-fbbb-4789-8da2-2fb8bc8567ac",
+"f5f45207-4888-4be2-9a7a-5cf4200dbf3e"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f2385ddc-7d6c-4dbe-ad26-ed84b1884280"
+}
+}
+},
+{
+"edid": 2586,
+"text": "seadusandlik võim",
+"code": "2586",
+"uuid": "021a4f1a-a0f5-45d2-baff-79c181286ced",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"seadusandlik riigivõim"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/021a4f1a-a0f5-45d2-baff-79c181286ced"
+}
+}
+},
+{
+"edid": 1589,
+"text": "seadusandlus",
+"code": "1589",
+"uuid": "802d35f2-d818-c849-1f07-7524fca45838",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"seadusandlik akt",
+"õigusakt",
+"õiguslik aspekt",
+"õigustloov akt"
+],
+"narrowTerms": [
+"13704b41-7ab1-4ef0-8390-2e880c284e45",
+"dd91605e-620a-4f86-aa7b-459ccbb0d96a",
+"47ad2b36-a2a5-4780-9e9c-61fd2fa5fb81",
+"12f2c689-0964-42eb-986b-a9c7ac2bd11e",
+"36f16ffc-9a30-4ba6-bfe8-afcce15641c9",
+"531967d4-3b03-4cce-af62-df28dca8bd75",
+"d56b9ad7-c945-4185-b7f8-f9cf5d67c2be"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/802d35f2-d818-c849-1f07-7524fca45838"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1d6e761c-e1b6-ed05-f3ef-39f322f2b554"
+}
+}
+},
+{
+"edid": 2703,
+"text": "parlamendimenetlus",
+"code": "2703",
+"uuid": "1ac40a64-1a2b-4a5d-9a4f-ef344f88b45d",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"parlamentaarne analüüs"
+],
+"narrowTerms": [
+"48d23c35-de88-4557-90c7-e6997cc8c7df",
+"16f3cfcb-b9a8-485b-a918-3374d348bfe5",
+"ef4b0b75-efb9-07b1-ebf2-fcc337741af2",
+"c04d6e59-0b6a-425a-bdfe-8f394b9fdd84",
+"2d7f519a-ad83-4ea5-ab45-508a393dfd4c",
+"92f1845d-ad8a-4ca8-b01e-aa78a7fcc20d"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2698,
+"text": "eelarvemenetlus",
+"code": "2698",
+"uuid": "f0769f42-205d-4123-8b45-fbe943919d54",
+"vol_cnt": 60,
+"scopeNotes": [],
+"usedFors": [
+"eelarve koostamise kord",
+"eelarve menetlus"
+],
+"narrowTerms": [
+"fe0d4a47-a7ec-3297-fe53-c5bb539d2c5f",
+"feafe1bc-ceba-4d9a-b893-2d1665733353",
+"1e6596d3-0c8a-4a81-ad44-c5d048b6fb3b",
+"7e70215d-30af-4756-be46-430d8151c6e3",
+"011150ca-2dc4-4984-9f28-15f13808841e",
+"e59c19be-e6c5-40ba-8ff3-d18c88238a7f",
+"34d3a48b-f069-405f-b8dd-8351634f70c7",
+"9966757d-0db7-941c-a95b-df3cf7540b61",
+"e4a71e21-ba2b-4be1-977b-42a451180e90"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f0769f42-205d-4123-8b45-fbe943919d54"
+}
+}
+},
+{
+"edid": 41,
+"text": "parlamendi pädevus",
+"code": "41",
+"uuid": "05234d4e-049d-e131-a5a9-ae214d0ce7a4",
+"vol_cnt": 14,
+"scopeNotes": [],
+"usedFors": [
+"parlamendi võim"
+],
+"narrowTerms": [
+"df632186-9b21-11f5-0da6-8c4b0e3616c5",
+"83866d2e-0a32-0d53-02ed-a96f297fbd86",
+"458fb08d-d58e-4118-898c-9049c3d7ff1c"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/05234d4e-049d-e131-a5a9-ae214d0ce7a4"
+}
+}
+},
+{
+"edid": 527,
+"text": "riigiõigus",
+"code": "527",
+"uuid": "3bde17c5-be47-435c-b15a-20cf317a2921",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"parlamentaarne õigus",
+"õiguspoliitika"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3bde17c5-be47-435c-b15a-20cf317a2921"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1ac40a64-1a2b-4a5d-9a4f-ef344f88b45d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/7044e3c7-1d53-4a3f-8192-a532624b70c0"
+}
+}
+}

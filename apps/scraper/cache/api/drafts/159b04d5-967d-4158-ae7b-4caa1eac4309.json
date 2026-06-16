@@ -1,0 +1,535 @@
+{
+"uuid": "159b04d5-967d-4158-ae7b-4caa1eac4309",
+"title": "Karistusseadustiku muutmise seadus",
+"mark": 804,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Karistusseadustiku muutmise seadus 804 SE",
+"initialTitle": "Karistusseadustiku muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga lisatakse karistusseadustikku § 311 ülaindeksiga 1 pealkirjaga \"Prokuröri poolt kohtumenetluses lubamatu toimingu tegemine\".",
+"initiated": "2026-01-21",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "966e7ccd-b097-4e49-923c-c8d39dae2d62",
+"name": "Valdo Randpere",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/966e7ccd-b097-4e49-923c-c8d39dae2d62?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "441c3c51-2f08-47f3-a36c-e4b310e17e78",
+"name": "Raini Laide",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/441c3c51-2f08-47f3-a36c-e4b310e17e78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "db532de2-5abd-4b6d-a82c-2d9a75fd9d18",
+"name": "Kalle Grünthal",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/db532de2-5abd-4b6d-a82c-2d9a75fd9d18?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1938,
+"text": "prokuratuur"
+},
+{
+"edid": 1432,
+"text": "süütegu"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "139cf901-92d7-47bf-8c57-3d304ed0e842",
+"title": "Karistusseadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cdddf6d0-dd96-4df1-a280-292e3f5b3ebd",
+"fileName": "804_KarS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T14:13:24.268",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cdddf6d0-dd96-4df1-a280-292e3f5b3ebd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cdddf6d0-dd96-4df1-a280-292e3f5b3ebd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "84226caa-2c9f-4e84-8526-752bbe6d68b0",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6a686ca2-2212-4161-b4ae-4c1b8fb2c408",
+"fileName": "Karistusseadustiku_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T15:21:28.176",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6a686ca2-2212-4161-b4ae-4c1b8fb2c408/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6a686ca2-2212-4161-b4ae-4c1b8fb2c408"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "84226caa-2c9f-4e84-8526-752bbe6d68b0",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "622a9aa2-85c0-4e20-bae3-e906b0342c81",
+"fileName": "804E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T16:34:49.746",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/622a9aa2-85c0-4e20-bae3-e906b0342c81/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/622a9aa2-85c0-4e20-bae3-e906b0342c81"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc347aab-390d-4e1e-ad40-3e0eaefaeee0",
+"title": "Karistusseadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "aeac2d12-7563-4fe2-8b71-aecb2becf116",
+"fileName": "804_KarS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T14:14:24.555",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aeac2d12-7563-4fe2-8b71-aecb2becf116/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aeac2d12-7563-4fe2-8b71-aecb2becf116"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "84226caa-2c9f-4e84-8526-752bbe6d68b0",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2f188f95-935b-4bc7-9852-052da09366f3",
+"fileName": "Karistusseadustiku_muutmise_seaduse_eelnõu_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T15:21:28.184",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f188f95-935b-4bc7-9852-052da09366f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f188f95-935b-4bc7-9852-052da09366f3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "84226caa-2c9f-4e84-8526-752bbe6d68b0",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "87c35769-4e02-4d9f-8fee-74ba82833cc0",
+"fileName": "804SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T16:34:59.703",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/87c35769-4e02-4d9f-8fee-74ba82833cc0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/87c35769-4e02-4d9f-8fee-74ba82833cc0"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-01-21T15:20:58.243",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-01-22T20:42:00.523",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-03-16T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 16.03.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-03-25T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Valdo Randpere"
+}
+],
+"protocolFiles": [
+{
+"uuid": "1d92d4bc-5146-4688-8ad9-9a433a97c523",
+"fileName": "ÕIGK_protokoll_16.03.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-20T16:25:06.857",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d92d4bc-5146-4688-8ad9-9a433a97c523/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d92d4bc-5146-4688-8ad9-9a433a97c523"
+}
+}
+},
+{
+"uuid": "fa785034-bc40-4e28-b9f6-d1cd3ff91313",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_117.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-20T16:24:40.998",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa785034-bc40-4e28-b9f6-d1cd3ff91313/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa785034-bc40-4e28-b9f6-d1cd3ff91313"
+}
+}
+},
+{
+"uuid": "05e441d1-4e6a-4eb8-bf0c-359dcd1d3829",
+"fileName": "(Lisa_1)_Arvamus_Riigikohtule_(VTMS_§_205_lg_1).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T16:05:56.147",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/05e441d1-4e6a-4eb8-bf0c-359dcd1d3829/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/05e441d1-4e6a-4eb8-bf0c-359dcd1d3829"
+}
+}
+}
+]
+},
+{
+"date": "2026-03-25T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 25.03.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "84adf4a0-0825-490d-8dc8-961a9c2b3d09",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-03-25T20:41:58.633",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/84adf4a0-0825-490d-8dc8-961a9c2b3d09"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "c5c60cd4-69f4-4d27-8551-3749f8bea1a1",
+"reference": "1-1/15-804/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 804 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-01-21",
+"files": [
+{
+"uuid": "6a3f6515-278b-453e-b835-9492c03a4079",
+"fileName": "804E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T16:35:33.094",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6a3f6515-278b-453e-b835-9492c03a4079/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6a3f6515-278b-453e-b835-9492c03a4079"
+}
+}
+},
+{
+"uuid": "c72796e9-fb86-43be-bcba-68b5e14bc06b",
+"fileName": "KarS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T15:24:39.032",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c72796e9-fb86-43be-bcba-68b5e14bc06b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c72796e9-fb86-43be-bcba-68b5e14bc06b"
+}
+}
+},
+{
+"uuid": "dd242024-f3ac-4cb4-bc1b-76fded18d696",
+"fileName": "KarS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T15:24:24.899",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dd242024-f3ac-4cb4-bc1b-76fded18d696/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dd242024-f3ac-4cb4-bc1b-76fded18d696"
+}
+}
+},
+{
+"uuid": "bf8072f4-4ee4-4b0b-85f8-e42ced4ae154",
+"fileName": "1-1-15-804-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_804_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-22T15:56:51.677",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf8072f4-4ee4-4b0b-85f8-e42ced4ae154/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf8072f4-4ee4-4b0b-85f8-e42ced4ae154"
+}
+}
+},
+{
+"uuid": "3d42b437-0422-4d7b-9d59-0ec0db44c9fa",
+"fileName": "260122_KarS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T16:44:53.132",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d42b437-0422-4d7b-9d59-0ec0db44c9fa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d42b437-0422-4d7b-9d59-0ec0db44c9fa"
+}
+}
+},
+{
+"uuid": "1c8ac788-fd8f-4410-a0e5-248c0052f551",
+"fileName": "804SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T16:35:44.399",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c8ac788-fd8f-4410-a0e5-248c0052f551/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c8ac788-fd8f-4410-a0e5-248c0052f551"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c5c60cd4-69f4-4d27-8551-3749f8bea1a1"
+}
+}
+},
+{
+"uuid": "42942d5a-2f2e-4066-ad3c-59c22f3690ee",
+"reference": "1-1/15-804/2",
+"title": "Vabariigi Valitsuse arvamus karistusseadustiku muutmise seaduse eelnõu 804 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-03-03",
+"files": [
+{
+"uuid": "dfc0ac2c-5c06-4028-8c31-c7ab3984eb4e",
+"fileName": "RIIGIKOGU_26-0101_-_Karistusseadustiku_muutmise_seaduse_eelnõu_(804_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-05T16:51:44.206",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dfc0ac2c-5c06-4028-8c31-c7ab3984eb4e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dfc0ac2c-5c06-4028-8c31-c7ab3984eb4e"
+}
+}
+},
+{
+"uuid": "a6aa5753-4839-4ed1-96eb-e5c4365b95d3",
+"fileName": "Karistusseadustiku_muutmise_seaduse_eelnou_(804_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-03T11:24:32.717",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6aa5753-4839-4ed1-96eb-e5c4365b95d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6aa5753-4839-4ed1-96eb-e5c4365b95d3"
+}
+}
+},
+{
+"uuid": "bcab65d3-5b2c-4f08-a42e-742588c14879",
+"fileName": "8-2591_02.03.2026_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-03T11:24:15.866",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bcab65d3-5b2c-4f08-a42e-742588c14879/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bcab65d3-5b2c-4f08-a42e-742588c14879"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/42942d5a-2f2e-4066-ad3c-59c22f3690ee"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/159b04d5-967d-4158-ae7b-4caa1eac4309"
+}
+}
+}

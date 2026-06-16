@@ -1,0 +1,526 @@
+{
+"uuid": "51d53bdf-b5a7-40a0-9a56-d8f906067f3e",
+"title": "Diislikütuse aktsiisi tähtajalise langetamise seadus",
+"mark": 868,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Diislikütuse aktsiisi tähtajalise langetamise seadus 868 SE",
+"initialTitle": "Diislikütuse aktsiisi tähtajalise langetamise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette vähendada kütusehindade järsu tõusu mõju ja langetada diislikütuse aktsiisi kolmeks kuuks Euroopa liidu miinimummäärani 330 eurot 1000 liitri diislikütuse kohta.",
+"initiated": "2026-04-06",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1015,
+"text": "aktsiisimaks"
+},
+{
+"edid": 3772,
+"text": "diislikütus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "97948f5c-4368-4b04-9201-201ca9eb12b0",
+"title": "868 SE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "35edbf8a-1b45-40d2-92fa-a2259330c9d9",
+"fileName": "868_ATKEAS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-04T13:17:21.027",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35edbf8a-1b45-40d2-92fa-a2259330c9d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35edbf8a-1b45-40d2-92fa-a2259330c9d9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6fde7a38-c72d-4f84-8e6c-f1a95f070c58",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "52c8ec63-d4aa-4dc7-9ba7-6f0da5d78467",
+"fileName": "Diislikutuse_aktsiisi_langetamise_seaduse_eelnou.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T16:08:33.716",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52c8ec63-d4aa-4dc7-9ba7-6f0da5d78467/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52c8ec63-d4aa-4dc7-9ba7-6f0da5d78467"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6fde7a38-c72d-4f84-8e6c-f1a95f070c58",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4722eaf9-a8ad-490b-8ab8-28f3664b186c",
+"fileName": "868E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T18:40:52.615",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4722eaf9-a8ad-490b-8ab8-28f3664b186c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4722eaf9-a8ad-490b-8ab8-28f3664b186c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "97948f5c-4368-4b04-9201-201ca9eb12b0",
+"title": "868 SE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7dce69a6-d1ef-456c-b4b7-35a6d0ff5259",
+"fileName": "868_ATKEAS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-04T13:17:43.442",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7dce69a6-d1ef-456c-b4b7-35a6d0ff5259/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7dce69a6-d1ef-456c-b4b7-35a6d0ff5259"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6fde7a38-c72d-4f84-8e6c-f1a95f070c58",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "023fdc66-07c2-4131-8376-0ac41ac0a697",
+"fileName": "868SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T18:41:11.408",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/023fdc66-07c2-4131-8376-0ac41ac0a697/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/023fdc66-07c2-4131-8376-0ac41ac0a697"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-04-06T16:08:05.736",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-04-07T14:22:00.299",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-04T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 4.05.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-05-13T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "0ab17dfa-e4fc-4dbf-80bc-11ae58390407",
+"fileName": "RAHK_protokoll_04.05.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-07T16:14:32.108",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0ab17dfa-e4fc-4dbf-80bc-11ae58390407/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0ab17dfa-e4fc-4dbf-80bc-11ae58390407"
+}
+}
+},
+{
+"uuid": "5a9cddad-f110-447c-b012-3f9460cdf74d",
+"fileName": "RAHK_protokoll_226_04.05.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-07T16:13:58.804",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5a9cddad-f110-447c-b012-3f9460cdf74d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5a9cddad-f110-447c-b012-3f9460cdf74d"
+}
+}
+},
+{
+"uuid": "52494777-f24b-4de2-a16f-cc4a29daeee3",
+"fileName": "EESTI_PANGA_aastaaruande_tutvustus_04.05.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Eesti Panga ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-04T16:57:38.22",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52494777-f24b-4de2-a16f-cc4a29daeee3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52494777-f24b-4de2-a16f-cc4a29daeee3"
+}
+}
+},
+{
+"uuid": "8482856c-685d-4dbe-82f7-6b43f07df698",
+"fileName": "SIM_I._Taro_2025a_eelarve_ja_mõõdikute_täitmine_04.05.2026_Lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 ( SIM I.Taro ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-04T13:13:38.449",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8482856c-685d-4dbe-82f7-6b43f07df698/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8482856c-685d-4dbe-82f7-6b43f07df698"
+}
+}
+}
+]
+},
+{
+"date": "2026-05-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.05.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "912ab055-42a2-460c-8666-d70125d64800",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-05-13T20:36:48.05",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/912ab055-42a2-460c-8666-d70125d64800"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "8f1038ad-f1d3-4644-91d1-c30a91b37d81",
+"reference": "1-1/15-868/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 868 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-04-06",
+"files": [
+{
+"uuid": "fb7b8245-6363-4b79-ade7-ac81bdd8b927",
+"fileName": "1-1-15-868-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_868_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-07T14:22:30.691",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb7b8245-6363-4b79-ade7-ac81bdd8b927/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb7b8245-6363-4b79-ade7-ac81bdd8b927"
+}
+}
+},
+{
+"uuid": "8465fa3d-cdfd-4693-bd7c-895aa1b15f4f",
+"fileName": "868E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T18:41:51.366",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8465fa3d-cdfd-4693-bd7c-895aa1b15f4f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8465fa3d-cdfd-4693-bd7c-895aa1b15f4f"
+}
+}
+},
+{
+"uuid": "0474bc3d-d21a-42aa-b3ad-2d18834757b4",
+"fileName": "260407_ATKEAS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-07T14:21:32.425",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0474bc3d-d21a-42aa-b3ad-2d18834757b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0474bc3d-d21a-42aa-b3ad-2d18834757b4"
+}
+}
+},
+{
+"uuid": "e2415d22-e0c2-4d89-b824-e9eac0f78d19",
+"fileName": "ATKEAS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T16:28:42.376",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2415d22-e0c2-4d89-b824-e9eac0f78d19/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2415d22-e0c2-4d89-b824-e9eac0f78d19"
+}
+}
+},
+{
+"uuid": "21ab4864-d91c-4436-85ea-1eccae8fe96b",
+"fileName": "ATKEAS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T16:28:31.728",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/21ab4864-d91c-4436-85ea-1eccae8fe96b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/21ab4864-d91c-4436-85ea-1eccae8fe96b"
+}
+}
+},
+{
+"uuid": "3b3bfdea-784c-476a-9fa6-ab69994f2984",
+"fileName": "868SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T18:42:03.26",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3b3bfdea-784c-476a-9fa6-ab69994f2984/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3b3bfdea-784c-476a-9fa6-ab69994f2984"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8f1038ad-f1d3-4644-91d1-c30a91b37d81"
+}
+}
+},
+{
+"uuid": "ea6d42c8-7691-4bdb-b532-248eefc8c7ca",
+"reference": "1-1/15-868/2",
+"title": "Vabariigi Valitsuse arvamus diislikütuse aktsiisi tähtajalise langetamise seaduse eelnõu 868 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-25",
+"files": [
+{
+"uuid": "7dcab2df-62ea-4bd4-85a6-5392dd8a13a3",
+"fileName": "Seisukoha_esitamine_alkoholi-__tubaka-__kutuse-_ja_elektriaktsiisi_seaduse_muutmise_seaduse_eelnou_868_SE_kohta_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-25T15:47:35.85",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7dcab2df-62ea-4bd4-85a6-5392dd8a13a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7dcab2df-62ea-4bd4-85a6-5392dd8a13a3"
+}
+}
+},
+{
+"uuid": "f55a5f3c-e436-4e9d-95d1-8c7950fa8fef",
+"fileName": "1.1-111595-4_25.05.2026_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-25T15:47:35.787",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f55a5f3c-e436-4e9d-95d1-8c7950fa8fef/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f55a5f3c-e436-4e9d-95d1-8c7950fa8fef"
+}
+}
+},
+{
+"uuid": "a35cc502-5722-4f6d-a6b4-6166579ef4d6",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-26-0412_-_Diislikütuse_aktsiisi_tähtajalise_langetamise_seaduse_eelnõu_(868_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-25T15:47:35.775",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a35cc502-5722-4f6d-a6b4-6166579ef4d6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a35cc502-5722-4f6d-a6b4-6166579ef4d6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ea6d42c8-7691-4bdb-b532-248eefc8c7ca"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/51d53bdf-b5a7-40a0-9a56-d8f906067f3e"
+}
+}
+}

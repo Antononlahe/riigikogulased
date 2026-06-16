@@ -1,0 +1,382 @@
+{
+"uuid": "0f427d46-2f66-4872-8e1a-4d538cdfdda6",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\"",
+"mark": 713,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\" 713 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek tõsta toimetulekupiiri vähemalt 300 euroni kuus. Hetkel on kehtiva seaduse kohaselt üksi elava isiku või perekonna esimese liikme toimetulekupiir 200 eurot. Igale järgnevale täiskasvanud pereliikmele on toimetulekupiir 160 eurot ja igale alaealisele lapsele 240 eurot. Viimati tõsteti toimetulekupiiri 200 euroni 1. juunist 2022 sama aasta lisaeelarvega.",
+"initiated": "2025-09-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-09-23T17:15:00",
+"responsibleMember": {
+"uuid": "7d6b0605-e425-41c8-9a53-3b92b81f21b1",
+"name": "Eero Merilind",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7d6b0605-e425-41c8-9a53-3b92b81f21b1?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8a5e0f99-b6bc-48ff-91bf-c847958c776e",
+"name": "Heidi Barot",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8a5e0f99-b6bc-48ff-91bf-c847958c776e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d188e268-5d01-7e93-0c22-3ae7f0c1e851",
+"name": "Sotsiaaldemokraatliku Erakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d188e268-5d01-7e93-0c22-3ae7f0c1e851?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4086,
+"text": "elatusmiinimum"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "d7cc24be-cea4-45d2-b7bb-cd23816e4731",
+"title": "713 OE lõppmenetlus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "43a597e4-e8ed-460e-83b7-f916f3f4cce9",
+"fileName": "713_RK_o_Ettepanek_VVle_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-22T14:09:29.262",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/43a597e4-e8ed-460e-83b7-f916f3f4cce9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/43a597e4-e8ed-460e-83b7-f916f3f4cce9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2d8ba528-d86d-4573-8dac-43574c6afa93",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ffdaa8f0-47a9-47ca-9891-d007683e6cf4",
+"fileName": "RK_o_Ettepanek_VVle_EN_2025_sept.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T18:38:06.226",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ffdaa8f0-47a9-47ca-9891-d007683e6cf4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ffdaa8f0-47a9-47ca-9891-d007683e6cf4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2d8ba528-d86d-4573-8dac-43574c6afa93",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9e500738-930b-400a-b358-5ecbcc172a8d",
+"fileName": "713E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T19:28:37.881",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e500738-930b-400a-b358-5ecbcc172a8d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e500738-930b-400a-b358-5ecbcc172a8d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "d7cc24be-cea4-45d2-b7bb-cd23816e4731",
+"title": "713 OE lõppmenetlus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ca343762-7b12-4927-9f03-5bfdb93c5ca6",
+"fileName": "713_RK_o_Ettepanek_VVle_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-22T14:10:05.955",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca343762-7b12-4927-9f03-5bfdb93c5ca6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca343762-7b12-4927-9f03-5bfdb93c5ca6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2d8ba528-d86d-4573-8dac-43574c6afa93",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d29d209f-72f9-46c6-9847-90468708667a",
+"fileName": "RK_o_Ettepanek_VVle_SE_2025_sept.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T18:38:06.214",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d29d209f-72f9-46c6-9847-90468708667a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d29d209f-72f9-46c6-9847-90468708667a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2d8ba528-d86d-4573-8dac-43574c6afa93",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "37fd423d-9f20-4613-a9c4-26c0a3375d01",
+"fileName": "713SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T19:28:58.638",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/37fd423d-9f20-4613-a9c4-26c0a3375d01/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/37fd423d-9f20-4613-a9c4-26c0a3375d01"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-09-08T18:37:36.744",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-09-09T14:54:00.244",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-10-21T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 21.10.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Eero Merilind"
+},
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2025-11-03T15:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "6bb43555-f1e6-4e14-9ecc-10efdadb659b",
+"fileName": "Asendusliikme_volikiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T18:56:54.901",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6bb43555-f1e6-4e14-9ecc-10efdadb659b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6bb43555-f1e6-4e14-9ecc-10efdadb659b"
+}
+}
+},
+{
+"uuid": "869c5036-6e8a-43e8-96fc-7988064a3e0b",
+"fileName": "SOTK_protokoll_21.10.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T18:55:54.622",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/869c5036-6e8a-43e8-96fc-7988064a3e0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/869c5036-6e8a-43e8-96fc-7988064a3e0b"
+}
+}
+},
+{
+"uuid": "8c776d5a-f311-4e7c-9a6a-7c8ccd45c756",
+"fileName": "SOTK_protokoll_nr_140_(21.10.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T18:54:23.927",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8c776d5a-f311-4e7c-9a6a-7c8ccd45c756/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8c776d5a-f311-4e7c-9a6a-7c8ccd45c756"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-03T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 3.11.2025 15:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "33112f8b-5f30-4478-85f8-41ff97f331fc",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-11-03T17:24:31.983",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/33112f8b-5f30-4478-85f8-41ff97f331fc"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "f320171e-ec48-46b0-9974-72c23d114f36",
+"reference": "1-1/15-713/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele\" eelnõu 713 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-10-16",
+"files": [
+{
+"uuid": "d215c7b5-9db1-4cd2-b58e-feb52dde22f9",
+"fileName": "293.tel_Arvamus_713OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-16T13:29:02.364",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d215c7b5-9db1-4cd2-b58e-feb52dde22f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d215c7b5-9db1-4cd2-b58e-feb52dde22f9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f320171e-ec48-46b0-9974-72c23d114f36"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/0f427d46-2f66-4872-8e1a-4d538cdfdda6"
+}
+}
+}

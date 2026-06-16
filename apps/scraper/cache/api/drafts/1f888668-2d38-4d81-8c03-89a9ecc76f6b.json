@@ -1,0 +1,494 @@
+{
+"uuid": "1f888668-2d38-4d81-8c03-89a9ecc76f6b",
+"title": "Kodakondsuse seaduse muutmise seadus",
+"mark": 715,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kodakondsuse seaduse muutmise seadus 715 SE",
+"initialTitle": "Kodakondsuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on sätestada naturalisatsiooni korras Eesti kodakondsuse taotlejatele esitatav eesti keele oskuse nõue vähemalt B-2 tasemel ja samas tagada riigi poolt kodakondsuse taotlejatele ka eesti keele õppe kulude hüvitamine ka B-2 tasemel.",
+"initiated": "2025-09-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "54bc0d5b-7c98-4245-8682-4a3a0b6e0275",
+"name": "Jaak Valge",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/54bc0d5b-7c98-4245-8682-4a3a0b6e0275?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "b483f709-afa6-4dd9-a8d5-46345c917272",
+"name": "Karin Tuulik",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/b483f709-afa6-4dd9-a8d5-46345c917272?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2034,
+"text": "kodakondsus"
+},
+{
+"edid": 5313,
+"text": "ametlik keel"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "516b9ece-15af-4e7b-b7be-670a097a4eee",
+"title": "715 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "568a75e5-0616-45ce-bff8-8fb6e49407c8",
+"fileName": "715_KodS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T13:47:34.265",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/568a75e5-0616-45ce-bff8-8fb6e49407c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/568a75e5-0616-45ce-bff8-8fb6e49407c8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fd14eaa4-6164-404e-9d1e-55fdd4d90c89",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "09561da6-d1ad-4fab-9839-869c94d1433f",
+"fileName": "KodS_muutmise_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-10T21:12:35.138",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/09561da6-d1ad-4fab-9839-869c94d1433f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/09561da6-d1ad-4fab-9839-869c94d1433f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fd14eaa4-6164-404e-9d1e-55fdd4d90c89",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cf42803d-7558-43ec-b4e2-19b01d403290",
+"fileName": "715E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-10T16:02:19.532",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf42803d-7558-43ec-b4e2-19b01d403290/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf42803d-7558-43ec-b4e2-19b01d403290"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "516b9ece-15af-4e7b-b7be-670a097a4eee",
+"title": "715 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "37199da7-e550-4fe6-a49c-e18db5c5c478",
+"fileName": "715_KodS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T13:48:02.449",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/37199da7-e550-4fe6-a49c-e18db5c5c478/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/37199da7-e550-4fe6-a49c-e18db5c5c478"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fd14eaa4-6164-404e-9d1e-55fdd4d90c89",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7e5568fd-5eaa-4f90-9e9e-636c994abf6e",
+"fileName": "715SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-10T16:02:33.543",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e5568fd-5eaa-4f90-9e9e-636c994abf6e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e5568fd-5eaa-4f90-9e9e-636c994abf6e"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-09-10T16:01:53.779",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-09-11T16:15:00.23",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-03T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 3.11.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-11-12T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Jaak Valge"
+}
+],
+"protocolFiles": [
+{
+"uuid": "86351778-9667-4f9a-a20b-ab8ed4ad0196",
+"fileName": "Riigikogu_põhiseaduskomisjoni_istungi_protokoll_nr_132.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T10:14:21.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/86351778-9667-4f9a-a20b-ab8ed4ad0196/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/86351778-9667-4f9a-a20b-ab8ed4ad0196"
+}
+}
+},
+{
+"uuid": "ac8e70fe-eec3-480f-8c7c-c6a0c714c8e4",
+"fileName": "PÕSK_protokoll_nr_132_(03.11.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll 03.11.2025.pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T10:13:32.238",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac8e70fe-eec3-480f-8c7c-c6a0c714c8e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac8e70fe-eec3-480f-8c7c-c6a0c714c8e4"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.11.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "4d497cd5-3c39-452d-b28b-c93c18df9b9c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-11-13T01:50:36.26",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/4d497cd5-3c39-452d-b28b-c93c18df9b9c"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "f39bffdb-3552-479e-a146-45ea2035ad15",
+"reference": "1-1/15-715/2",
+"title": "Vabariigi Valitsuse arvamus kodakondsuse seaduse muutmise seaduse eelnõu 715 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-10-17",
+"files": [
+{
+"uuid": "b6c14fd4-d2d8-4a98-bfa4-74b5b2fa9632",
+"fileName": "Vabariigi_Valitsuse_seisukoha_edastamine_kodakondsuse_seaduse_muutmise_seaduse_eelnou_(715_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-17T18:05:24.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b6c14fd4-d2d8-4a98-bfa4-74b5b2fa9632/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b6c14fd4-d2d8-4a98-bfa4-74b5b2fa9632"
+}
+}
+},
+{
+"uuid": "5ce21e20-50ad-4cbc-8c14-24c8aa43c07b",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-1001_-_Kodakondsuse_seaduse_muutmise_seaduse_eelnõu_(715_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-17T18:05:24.666",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ce21e20-50ad-4cbc-8c14-24c8aa43c07b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ce21e20-50ad-4cbc-8c14-24c8aa43c07b"
+}
+}
+},
+{
+"uuid": "84af2f6d-5cd2-46a9-bc95-d329e4c24c84",
+"fileName": "1-7265-4_17.10.2025_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-17T18:05:24.562",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/84af2f6d-5cd2-46a9-bc95-d329e4c24c84/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/84af2f6d-5cd2-46a9-bc95-d329e4c24c84"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f39bffdb-3552-479e-a146-45ea2035ad15"
+}
+}
+},
+{
+"uuid": "a5c0db6a-ec09-42ee-9620-448dad37a801",
+"reference": "1-1/15-715/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 715 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-10",
+"files": [
+{
+"uuid": "eafbd9b3-1187-4750-8290-820c069b81ef",
+"fileName": "1-1-15-715-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_715_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-11T16:13:07.132",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eafbd9b3-1187-4750-8290-820c069b81ef/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eafbd9b3-1187-4750-8290-820c069b81ef"
+}
+}
+},
+{
+"uuid": "e4980f0f-a60b-4ecc-a34a-ec87be955671",
+"fileName": "715E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-10T21:16:29.135",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e4980f0f-a60b-4ecc-a34a-ec87be955671/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e4980f0f-a60b-4ecc-a34a-ec87be955671"
+}
+}
+},
+{
+"uuid": "0c2be4e0-13d8-444f-b3f6-d4e6b5490df3",
+"fileName": "715SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-10T21:16:43.361",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c2be4e0-13d8-444f-b3f6-d4e6b5490df3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c2be4e0-13d8-444f-b3f6-d4e6b5490df3"
+}
+}
+},
+{
+"uuid": "792430a1-1909-48cb-bbb2-e3a3956f8a36",
+"fileName": "KodS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-10T21:15:57.694",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/792430a1-1909-48cb-bbb2-e3a3956f8a36/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/792430a1-1909-48cb-bbb2-e3a3956f8a36"
+}
+}
+},
+{
+"uuid": "d881218a-2653-4df9-abef-6979eb3633b0",
+"fileName": "250911_KodS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-11T08:46:59.904",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d881218a-2653-4df9-abef-6979eb3633b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d881218a-2653-4df9-abef-6979eb3633b0"
+}
+}
+},
+{
+"uuid": "e3bc91da-8837-4972-827f-7d9a9b947cbb",
+"fileName": "KodS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-10T21:16:20.271",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e3bc91da-8837-4972-827f-7d9a9b947cbb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e3bc91da-8837-4972-827f-7d9a9b947cbb"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a5c0db6a-ec09-42ee-9620-448dad37a801"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/1f888668-2d38-4d81-8c03-89a9ecc76f6b"
+}
+}
+}

@@ -1,0 +1,488 @@
+{
+"uuid": "16640b03-7f38-40ea-a850-5d99a9841327",
+"title": "Liiklusseaduse muutmise seadus (kergliikurite ja pisimopeedide regulatsioon)",
+"mark": 840,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Liiklusseaduse muutmise seadus (kergliikurite ja pisimopeedide regulatsioon) 840 SE",
+"initialTitle": "Liiklusseaduse muutmise seadus (kergliikurite ja pisimopeedide regulatsioon)",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Liiklusseadust täiendatakse sättega, mis annab kohalikele omavalitsustele õiguse kehtestada oma territooriumil renditavate või üüritavate kergliikurite, pisimopeedide ja jalgrataste piirarv.\n\nSee muudatus võimaldab kohalikel omavalitsustel reguleerida linna või valla ruumi koormust ja liiklusohutust, vähendades seadmete liigset kontsentreeritust tiheasustusega piirkondades või kitsastel kõnniteedel. Näiteks võivad Tallinn või Tartu piirata rendiseadmete arvu vanalinna või koolide ümbruses. Eelnõuga muudetakse ka vanusepiiri kontrolli, juhtimisõiguse kontrolli ja  kiivri kasutamisega seotud sätteid.",
+"initiated": "2026-03-09",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0c571754-914d-406a-baba-6734212353de",
+"name": "Urve Tiidus",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0c571754-914d-406a-baba-6734212353de?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8bd39979-5c6b-496c-853f-89e750f396b2",
+"name": "Mari Tänav",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8bd39979-5c6b-496c-853f-89e750f396b2?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4653,
+"text": "kaherattaline sõiduk"
+},
+{
+"edid": 3097,
+"text": "sõiduki rent"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c5846ea8-3e06-440b-933d-11791193f62f",
+"title": "840 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "af2a5c3d-a7b8-4334-bd57-67ea5f0a6cfb",
+"fileName": "840_LS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-05T14:21:22.371",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/af2a5c3d-a7b8-4334-bd57-67ea5f0a6cfb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/af2a5c3d-a7b8-4334-bd57-67ea5f0a6cfb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "26f3e970-15c2-4df2-8605-84f03e00d83e",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fa9399eb-f70f-4a7c-979a-7cb1f87a9924",
+"fileName": "Kergliikurid.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-09T15:58:32.119",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa9399eb-f70f-4a7c-979a-7cb1f87a9924/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa9399eb-f70f-4a7c-979a-7cb1f87a9924"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "26f3e970-15c2-4df2-8605-84f03e00d83e",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a97d9d00-83be-4523-88f5-cfbe9e899f2d",
+"fileName": "840E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-09T17:01:53.079",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a97d9d00-83be-4523-88f5-cfbe9e899f2d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a97d9d00-83be-4523-88f5-cfbe9e899f2d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c5846ea8-3e06-440b-933d-11791193f62f",
+"title": "840 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "de354311-1997-415f-a83c-6ecab24449aa",
+"fileName": "840_LS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-05T14:22:09.392",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/de354311-1997-415f-a83c-6ecab24449aa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de354311-1997-415f-a83c-6ecab24449aa"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "26f3e970-15c2-4df2-8605-84f03e00d83e",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4d80fbf5-0e34-420f-bef6-3be16c9d4de0",
+"fileName": "840SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-09T17:02:02.23",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4d80fbf5-0e34-420f-bef6-3be16c9d4de0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4d80fbf5-0e34-420f-bef6-3be16c9d4de0"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-03-09T15:58:01.511",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-03-10T13:41:00.109",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-04T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäeval, 4.05.2026 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Urve Tiidus"
+},
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-05-13T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "7b9f75a3-6816-4fe3-8ca1-e0d95c68d0f6",
+"fileName": "MAJK_protokoll_nr_189_04.05.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-13T15:47:56.951",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7b9f75a3-6816-4fe3-8ca1-e0d95c68d0f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7b9f75a3-6816-4fe3-8ca1-e0d95c68d0f6"
+}
+}
+},
+{
+"uuid": "bf1d3a2b-5107-47b1-aa03-72678fc8f951",
+"fileName": "MAJK_protokoll_nr_189_04.05.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-13T15:48:37.746",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf1d3a2b-5107-47b1-aa03-72678fc8f951/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf1d3a2b-5107-47b1-aa03-72678fc8f951"
+}
+}
+}
+]
+},
+{
+"date": "2026-05-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.05.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "23c9a207-bb45-4a66-bbee-76c97c0bbf46",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-05-13T19:40:13.75",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/23c9a207-bb45-4a66-bbee-76c97c0bbf46"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "190b6807-6a9f-4486-a0c3-68044c4e3222",
+"reference": "1-1/15-840/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 840 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-03-09",
+"files": [
+{
+"uuid": "72ffa889-0373-4f76-8d93-109367187c23",
+"fileName": "LS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-09T16:01:48.301",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/72ffa889-0373-4f76-8d93-109367187c23/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/72ffa889-0373-4f76-8d93-109367187c23"
+}
+}
+},
+{
+"uuid": "006eabc4-dd87-44b1-9c2d-9a2611241bcb",
+"fileName": "1-1-15-840-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_840_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-10T13:48:39.8",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/006eabc4-dd87-44b1-9c2d-9a2611241bcb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/006eabc4-dd87-44b1-9c2d-9a2611241bcb"
+}
+}
+},
+{
+"uuid": "145f746a-2fb4-4294-a548-c68229347299",
+"fileName": "LS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-09T16:01:57.944",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/145f746a-2fb4-4294-a548-c68229347299/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/145f746a-2fb4-4294-a548-c68229347299"
+}
+}
+},
+{
+"uuid": "1d29418a-0da2-4792-a9bd-2a71e3088463",
+"fileName": "840E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-09T17:02:36.862",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d29418a-0da2-4792-a9bd-2a71e3088463/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d29418a-0da2-4792-a9bd-2a71e3088463"
+}
+}
+},
+{
+"uuid": "2191a12d-5926-4a72-9c0f-62faab3bc2d3",
+"fileName": "840SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-09T17:02:49.69",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2191a12d-5926-4a72-9c0f-62faab3bc2d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2191a12d-5926-4a72-9c0f-62faab3bc2d3"
+}
+}
+},
+{
+"uuid": "7c21dabb-0100-48e8-ae01-ad1b43aaf8a7",
+"fileName": "260310_LS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-10T10:11:46.131",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c21dabb-0100-48e8-ae01-ad1b43aaf8a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c21dabb-0100-48e8-ae01-ad1b43aaf8a7"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/190b6807-6a9f-4486-a0c3-68044c4e3222"
+}
+}
+},
+{
+"uuid": "b4eb789b-5d9e-480a-ae6f-a48ff3ae0cf3",
+"reference": "1-1/15-840/2",
+"title": "Vabariigi Valitsuse arvamus liiklusseaduse muutmise seaduse (kergliikurite ja pisimopeedide regulatsioon) eelnõu 840 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-04-15",
+"files": [
+{
+"uuid": "90efece3-3410-440d-b889-b5f4679d13fb",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-26-0312_-_Liiklusseaduse_muutmise_seaduse_(kergliikurite_ja_pisimopeedide_regulatsioon)_eelnõu_(840_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-15T10:34:41.402",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90efece3-3410-440d-b889-b5f4679d13fb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90efece3-3410-440d-b889-b5f4679d13fb"
+}
+}
+},
+{
+"uuid": "d5333b82-b49b-4b3d-a887-e5cd7d944c4e",
+"fileName": "840SE_VV_arvamus.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-15T10:34:41.41",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d5333b82-b49b-4b3d-a887-e5cd7d944c4e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d5333b82-b49b-4b3d-a887-e5cd7d944c4e"
+}
+}
+},
+{
+"uuid": "96c8fb80-3a9f-4ff7-a53b-a2ed03d2f109",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine_liiklusseaduse_muutmise_seaduse_eelnõu_(kergliikurite_ja_pisimopeedide_regulatsioon)_(840SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-15T10:34:41.481",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/96c8fb80-3a9f-4ff7-a53b-a2ed03d2f109/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/96c8fb80-3a9f-4ff7-a53b-a2ed03d2f109"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b4eb789b-5d9e-480a-ae6f-a48ff3ae0cf3"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/16640b03-7f38-40ea-a850-5d99a9841327"
+}
+}
+}

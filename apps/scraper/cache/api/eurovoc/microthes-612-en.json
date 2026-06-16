@@ -1,0 +1,554 @@
+{
+"uuid": "fe674e2e-fca1-4803-b5c5-5bf7418484df",
+"etid": 612,
+"code": "6621",
+"text": "elektri- ja tuumatööstus",
+"descriptors": [
+{
+"edid": 5350,
+"text": "tuumaelektrijaam",
+"code": "5350",
+"uuid": "05c9089d-ceae-4f36-8c71-373075302158",
+"vol_cnt": 27,
+"scopeNotes": [],
+"usedFors": [
+"tuumajõujaam",
+"tuumarajatis"
+],
+"narrowTerms": [
+"30b9256f-4199-4195-9ca4-8590d8024fb5"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3782,
+"text": "elektrijaam",
+"code": "3782",
+"uuid": "5c5f1ffa-1cbe-9aac-d2ce-f27b79a98803",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"geotermaalelektrijaam",
+"hüdroelektrijaam",
+"kivisöeküttel töötav elektrijaam",
+"soojuselektrijaam",
+"õliküttel töötav elektrijaam"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5c5f1ffa-1cbe-9aac-d2ce-f27b79a98803"
+}
+}
+},
+{
+"edid": 3785,
+"text": "jõujaamade asukoht",
+"code": "3785",
+"uuid": "70a09656-b8db-4410-b493-05694ec2fe2d",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"jõujaamade asendiplaan"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/70a09656-b8db-4410-b493-05694ec2fe2d"
+}
+}
+},
+{
+"edid": 3735,
+"text": "jõujaamade tegevuse lõpetamine",
+"code": "3735",
+"uuid": "02677e2f-7393-484e-a0cf-0d6b96000bbc",
+"vol_cnt": 19,
+"scopeNotes": [],
+"usedFors": [
+"tuumarajatiste tegevuse lõpetamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/02677e2f-7393-484e-a0cf-0d6b96000bbc"
+}
+}
+},
+{
+"edid": 3631,
+"text": "kütuse ümbertöötamine",
+"code": "3631",
+"uuid": "70fbec8f-d1ac-4b7d-a8b6-660a3562b04a",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/70fbec8f-d1ac-4b7d-a8b6-660a3562b04a"
+}
+}
+},
+{
+"edid": 572,
+"text": "tuumaenergiaõigus",
+"code": "572",
+"uuid": "e8a90325-2fe2-4380-9342-4ba486c3c773",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"aatomienergiaõigus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e8a90325-2fe2-4380-9342-4ba486c3c773"
+}
+}
+},
+{
+"edid": 454862,
+"text": "tööstusliku kasutamise luba",
+"code": "c_804a9afe",
+"uuid": "04e3a865-fca0-47fc-a48a-c7501208968a",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"tööstusliku kasutamise litsents",
+"uurimislitsents",
+"uurimisluba"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/04e3a865-fca0-47fc-a48a-c7501208968a"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/05c9089d-ceae-4f36-8c71-373075302158"
+}
+}
+},
+{
+"edid": 753,
+"text": "tuumaenergia",
+"code": "753",
+"uuid": "02f1b93e-de0d-4c2c-97fb-12fa9b629a71",
+"vol_cnt": 16,
+"scopeNotes": [],
+"usedFors": [
+"aatomienergia"
+],
+"narrowTerms": [
+"755efcf3-c9cc-00fc-16ee-2f3fa375260b",
+"72b26200-be6f-fcf2-382a-f89cdb794d8c"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4631,
+"text": "energia rahuotstarbeline kasutamine",
+"code": "4631",
+"uuid": "a0d260d9-480b-41f0-aef0-ed683fdaf7f0",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a0d260d9-480b-41f0-aef0-ed683fdaf7f0"
+}
+}
+},
+{
+"edid": 3715,
+"text": "Euroopa Aatomienergiaühing",
+"code": "3715",
+"uuid": "a8ecefe4-e6f9-49ec-bf67-8b92e080127a",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"EAES"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a8ecefe4-e6f9-49ec-bf67-8b92e080127a"
+}
+}
+},
+{
+"edid": 686,
+"text": "radioaktiivne heitvesi",
+"code": "686",
+"uuid": "2da9b125-7303-4526-ba21-0e44ebea1fa0",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"radioaktiivsete heitvete ärajuhtimine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2da9b125-7303-4526-ba21-0e44ebea1fa0"
+}
+}
+},
+{
+"edid": 347,
+"text": "radioaktiivsed jäätmed",
+"code": "347",
+"uuid": "090dcbb3-dc4f-ad1a-c9b3-c82fa7d8a760",
+"vol_cnt": 32,
+"scopeNotes": [],
+"usedFors": [
+"tuumajäätmed"
+],
+"narrowTerms": [
+"2da9b125-7303-4526-ba21-0e44ebea1fa0"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/090dcbb3-dc4f-ad1a-c9b3-c82fa7d8a760"
+}
+}
+},
+{
+"edid": 1023,
+"text": "tuuma lõhustumine",
+"code": "1023",
+"uuid": "9556960f-ac42-410a-ae6b-9bb37c2c7900",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"tuuma jagunemine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9556960f-ac42-410a-ae6b-9bb37c2c7900"
+}
+}
+},
+{
+"edid": 428,
+"text": "Tuumaenergiaagentuur",
+"code": "428",
+"uuid": "282c2d19-de18-4bbb-a0e1-240ddcec1fd0",
+"vol_cnt": 0,
+"scopeNotes": [
+"1958 loodud Euroopa Tuumaenergiaagentuur nimetati 1972. aastal ametlikult ümber Tuumaenergiaagentuuriks, et rõhutada agentuuri tegevuse rahvusvahelisust."
+],
+"usedFors": [
+"ENEA",
+"Euroopa Tuumaenergiaagentuur",
+"NEA"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/282c2d19-de18-4bbb-a0e1-240ddcec1fd0"
+}
+}
+},
+{
+"edid": 2376,
+"text": "tuumafüüsika",
+"code": "2376",
+"uuid": "86f37775-66c5-428b-97a3-e0fe2b9cf3b9",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"4bc4e8d0-f176-4d7c-a355-164e35ee74ee",
+"d50bef03-4aa7-4cac-a6c2-22a4e22e7112"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/86f37775-66c5-428b-97a3-e0fe2b9cf3b9"
+}
+}
+},
+{
+"edid": 1123,
+"text": "tuumasüntees",
+"code": "1123",
+"uuid": "d2d488fd-9040-4bb2-bc29-37b20cd60f6b",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"termotuumasüntees"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d2d488fd-9040-4bb2-bc29-37b20cd60f6b"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/02f1b93e-de0d-4c2c-97fb-12fa9b629a71"
+}
+}
+},
+{
+"edid": 3783,
+"text": "elektroenergeetika",
+"code": "3783",
+"uuid": "d969848e-f84c-4e00-9e1b-47a45bdcbed2",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"c3921c45-bfc8-d009-abeb-32eec9d14397",
+"5c5f1ffa-1cbe-9aac-d2ce-f27b79a98803",
+"ad451dd2-2e4e-4709-84b8-fa8f373ffa94",
+"1082bcb9-21b9-4e5a-b201-29ce15942fdc"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1400,
+"text": "elektroonikatööstus",
+"code": "1400",
+"uuid": "7c005b3b-7f4e-422a-a54d-d7ada2874a40",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"931ad1c1-6741-40bb-9f26-3b7e66ac1630",
+"4ef1b775-5c3d-4592-8537-c7cb3f5103a8",
+"dd5bd029-82ae-4c1c-a8cd-268c5b54a5bd",
+"d00aff3c-831d-436d-945e-470618bd54e3",
+"109e17f8-dfe5-4a0f-a9a3-6136afbbe6b3",
+"4b7968d8-9d0f-429c-88a7-722d20588673"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7c005b3b-7f4e-422a-a54d-d7ada2874a40"
+}
+}
+},
+{
+"edid": 1401,
+"text": "elektrotehnika",
+"code": "1401",
+"uuid": "2655a217-f636-e3af-6e8b-eadd18b66f8b",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"elektrikodumasinad",
+"elektromehaanikatööstus",
+"elektromehaaniline seade",
+"elektromehaaniline toode",
+"elektromehaaniline tootmine"
+],
+"narrowTerms": [
+"733f238d-1245-46b2-831c-208a21dddf3d",
+"256d8c30-a990-4f10-bed7-3540d3b555ec",
+"04aadaa7-5066-4b93-a7a6-13b5c192e22f",
+"b733f7d0-1a4a-4e8d-aaa0-478d08333b9b",
+"4c49c9f0-ddea-47a4-81ad-1d5febe3504d",
+"bd23bb3a-9dd4-4468-b893-63c818a14697"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2655a217-f636-e3af-6e8b-eadd18b66f8b"
+}
+}
+},
+{
+"edid": 3737,
+"text": "energiatööstus",
+"code": "3737",
+"uuid": "56bc37ec-ac56-830d-5bc2-7d36aec7792c",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"jõutööstus"
+],
+"narrowTerms": [
+"7f56bcc9-379b-4e48-92a1-d9aac175093d",
+"663723f5-d219-4dab-ab08-306023dd3ff5",
+"6020a9ef-e135-4553-a547-5c1aec88d986",
+"9860fa76-de97-4efc-8d0e-c192c4a00a70",
+"7ab7020a-3b75-d279-1f64-fb41e02bea18"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/56bc37ec-ac56-830d-5bc2-7d36aec7792c"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d969848e-f84c-4e00-9e1b-47a45bdcbed2"
+}
+}
+},
+{
+"edid": 1412,
+"text": "tuumatööstus",
+"code": "1412",
+"uuid": "4763cfa8-3d9c-41dc-a540-59250e08b190",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"b22e8574-21db-2382-d4d0-32c9bac97a87",
+"bab15ed1-24ec-438b-bd96-717d06dd8220",
+"15230a3e-d1fa-4fd2-9bcb-e052b3f32263"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3737,
+"text": "energiatööstus",
+"code": "3737",
+"uuid": "56bc37ec-ac56-830d-5bc2-7d36aec7792c",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"jõutööstus"
+],
+"narrowTerms": [
+"7f56bcc9-379b-4e48-92a1-d9aac175093d",
+"663723f5-d219-4dab-ab08-306023dd3ff5",
+"6020a9ef-e135-4553-a547-5c1aec88d986",
+"9860fa76-de97-4efc-8d0e-c192c4a00a70",
+"7ab7020a-3b75-d279-1f64-fb41e02bea18"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/56bc37ec-ac56-830d-5bc2-7d36aec7792c"
+}
+}
+},
+{
+"edid": 6047,
+"text": "tuumkütus",
+"code": "6047",
+"uuid": "72b26200-be6f-fcf2-382a-f89cdb794d8c",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"lõhustuv materjal",
+"tuumakütus",
+"tuumamaterjal",
+"tuumatoode",
+"tuumkütuseelement"
+],
+"narrowTerms": [
+"ebd910c6-d061-49ef-94e1-7e4d387f3755"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/72b26200-be6f-fcf2-382a-f89cdb794d8c"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4763cfa8-3d9c-41dc-a540-59250e08b190"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/fe674e2e-fca1-4803-b5c5-5bf7418484df"
+}
+}
+}

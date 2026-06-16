@@ -1,0 +1,934 @@
+{
+"uuid": "e32c1190-1d3e-4500-a365-81b9fa5554eb",
+"title": "Maaparandusseaduse ja riigivaraseaduse muutmise seadus",
+"mark": 748,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Maaparandusseaduse ja riigivaraseaduse muutmise seadus 748 SE",
+"initialTitle": "Maaparandusseaduse ja riigivaraseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu eesmärk on vähendada isikute halduskoormust ja muuta regulatsioonid paindlikumaks. Eelnõukohase seadusega maaparandusseaduses tehtavad muudatused kaotavad täienduskoolituse nõude ja lihtsustavad vanade maaparandussüsteemide registrisse kandmist ning riigivaraseaduses tehtavad muudatused lihtsustavad põllumajanduslikul otstarbel kasutatava maatulundusmaa sihtotstarbega riigimaa kasutusse andmist ja võõrandamist. Kõik muudatused vähendavad isikute halduskoormust.",
+"initiated": "2025-11-03",
+"joined": null,
+"accepted": "2025-12-17",
+"amendmentsDeadline": "2025-11-27T17:15:00",
+"responsibleMember": {
+"uuid": "4a332fbb-be05-4cb2-b6a0-5916eb40fe89",
+"name": "Urmas Kruuse",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4a332fbb-be05-4cb2-b6a0-5916eb40fe89?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "c6c944c5-6a67-464d-b5cc-a95aaf9e6c3f",
+"name": "Marin Daniel",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/c6c944c5-6a67-464d-b5cc-a95aaf9e6c3f?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "b40076b0-a453-4efb-acda-2554015471d1",
+"name": "Maaelukomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/b40076b0-a453-4efb-acda-2554015471d1?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 1483,
+"text": "melioratsioon"
+},
+{
+"edid": 4821,
+"text": "andmebaas"
+},
+{
+"edid": 2812,
+"text": "riigivara"
+},
+{
+"edid": 4445,
+"text": "põllumajandusmaa"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "89e0e69a-3ad4-4dc5-9cc9-c4b3c49116b7",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f9f11f69-8836-44e5-86b8-d86b964d5f16",
+"fileName": "RK_25-01968-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T15:26:12.696",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f9f11f69-8836-44e5-86b8-d86b964d5f16/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f9f11f69-8836-44e5-86b8-d86b964d5f16"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "89e0e69a-3ad4-4dc5-9cc9-c4b3c49116b7",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "307eeb83-aa7a-49b8-9dc9-874f3123588b",
+"fileName": "[EIS]_Eelnõu_esitamine__REM-25-0751_-_maaparandusseaduse_ja_riigivaraseaduse_muutmise_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T15:26:12.952",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/307eeb83-aa7a-49b8-9dc9-874f3123588b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/307eeb83-aa7a-49b8-9dc9-874f3123588b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "96ad7cf3-ec35-4edc-b630-3d8436cc9176",
+"title": "748 SE esimese lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bed10860-4b0d-4af3-bf39-2778b851dd90",
+"fileName": "748_MaaParS_RVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-05T11:16:00.189",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bed10860-4b0d-4af3-bf39-2778b851dd90/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bed10860-4b0d-4af3-bf39-2778b851dd90"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "b7d5a981-663b-4c8a-b7eb-55c316da397f",
+"title": "748 SE kolmanda lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5370cacd-a89c-490c-b87d-67b395612442",
+"fileName": "748_SE_kolmanda_lugemise_tekst_(toim).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-15T12:00:18.761",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5370cacd-a89c-490c-b87d-67b395612442/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5370cacd-a89c-490c-b87d-67b395612442"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "542579d0-660d-4254-914d-cdb6ebbf1475",
+"title": "748 SE teise lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "aaaa1cfc-d1b1-4277-86d1-a87358f92469",
+"fileName": "748_SE_teise_lugemise_tekst_(toim).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-08T14:40:20.638",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aaaa1cfc-d1b1-4277-86d1-a87358f92469/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aaaa1cfc-d1b1-4277-86d1-a87358f92469"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "89e0e69a-3ad4-4dc5-9cc9-c4b3c49116b7",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7b8579bc-7d8c-4b65-941c-f79495814032",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T15:26:12.908",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7b8579bc-7d8c-4b65-941c-f79495814032/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7b8579bc-7d8c-4b65-941c-f79495814032"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "89e0e69a-3ad4-4dc5-9cc9-c4b3c49116b7",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3155e202-fa37-4307-a220-eb93b73a5c06",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T15:26:12.894",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3155e202-fa37-4307-a220-eb93b73a5c06/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3155e202-fa37-4307-a220-eb93b73a5c06"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "89e0e69a-3ad4-4dc5-9cc9-c4b3c49116b7",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a269318c-d63d-4122-93af-0a9516ee42f4",
+"fileName": "25-01968-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T15:26:12.879",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a269318c-d63d-4122-93af-0a9516ee42f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a269318c-d63d-4122-93af-0a9516ee42f4"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "88851a6a-06b6-48d9-ad61-67d84de91836",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9df189b8-dd53-4b8a-8b57-ed8bb3516f9a",
+"fileName": "748_Kaaskiri_Vabariigi_Presidendile_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-17T15:19:31.158",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9df189b8-dd53-4b8a-8b57-ed8bb3516f9a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9df189b8-dd53-4b8a-8b57-ed8bb3516f9a"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "1ba91fda-2cec-4790-b222-69a14d46babc",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "90d81e02-3721-45af-a951-a595483b0ed3",
+"fileName": "748XV_Maaparand_ms_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-23T15:27:40.072",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90d81e02-3721-45af-a951-a595483b0ed3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90d81e02-3721-45af-a951-a595483b0ed3"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "1ba91fda-2cec-4790-b222-69a14d46babc",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "528ac9d7-e7b5-4535-9e8e-bf8096ddc955",
+"fileName": "748XV_Maaparand_ms_2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-23T15:27:22.845",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/528ac9d7-e7b5-4535-9e8e-bf8096ddc955/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/528ac9d7-e7b5-4535-9e8e-bf8096ddc955"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "542579d0-660d-4254-914d-cdb6ebbf1475",
+"title": "748 SE teise lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6dba69db-027c-4ead-899f-8fe53d8883c1",
+"fileName": "748_SE_II_ME-d_täiskogule.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-08T14:41:11.58",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6dba69db-027c-4ead-899f-8fe53d8883c1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6dba69db-027c-4ead-899f-8fe53d8883c1"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "96ad7cf3-ec35-4edc-b630-3d8436cc9176",
+"title": "748 SE esimese lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "efbb2de1-a9ab-4a80-886d-1ad17a227ec5",
+"fileName": "748_MaaParS_RVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-05T11:16:16.733",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/efbb2de1-a9ab-4a80-886d-1ad17a227ec5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/efbb2de1-a9ab-4a80-886d-1ad17a227ec5"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "b7d5a981-663b-4c8a-b7eb-55c316da397f",
+"title": "748 SE kolmanda lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "85a45462-6248-4feb-b745-c8b30a351338",
+"fileName": "748_SE_seletuskiri_III_lug_täiskogus_.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-15T12:00:52.329",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/85a45462-6248-4feb-b745-c8b30a351338/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/85a45462-6248-4feb-b745-c8b30a351338"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "542579d0-660d-4254-914d-cdb6ebbf1475",
+"title": "748 SE teise lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6ad91bfb-73eb-484b-8f4a-2bf91b037bf6",
+"fileName": "748_SE_seletuskiri_II_lug_täiskogus_.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-08T14:41:44.552",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6ad91bfb-73eb-484b-8f4a-2bf91b037bf6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6ad91bfb-73eb-484b-8f4a-2bf91b037bf6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "89e0e69a-3ad4-4dc5-9cc9-c4b3c49116b7",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "572d1611-41c6-4a80-a93b-7b502e95f0c9",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T15:26:12.921",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/572d1611-41c6-4a80-a93b-7b502e95f0c9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/572d1611-41c6-4a80-a93b-7b502e95f0c9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "89e0e69a-3ad4-4dc5-9cc9-c4b3c49116b7",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eb4e6541-6019-41b2-b617-178cd8adbf55",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T15:26:12.933",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb4e6541-6019-41b2-b617-178cd8adbf55/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb4e6541-6019-41b2-b617-178cd8adbf55"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "3e62bcd3-6410-406d-82f8-6da121a812f2",
+"reference": "1-1/15-748/3",
+"title": "Vabariigi Presidendi otsus nr 643",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3bf1b4d7-8774-4ff0-a268-97c2f0c3aec1",
+"fileName": "VP_23122025_o643.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-23T15:10:20.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3bf1b4d7-8774-4ff0-a268-97c2f0c3aec1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3bf1b4d7-8774-4ff0-a268-97c2f0c3aec1"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "3e62bcd3-6410-406d-82f8-6da121a812f2",
+"reference": "1-1/15-748/3",
+"title": "Vabariigi Presidendi otsus nr 643",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "62a696c5-b683-4e4b-b955-94f7e9e2d37f",
+"fileName": "VP_23122025_o643.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-23T15:10:20.23",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62a696c5-b683-4e4b-b955-94f7e9e2d37f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62a696c5-b683-4e4b-b955-94f7e9e2d37f"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "88851a6a-06b6-48d9-ad61-67d84de91836",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "49735f90-40c7-4218-8b50-fdb966e68f61",
+"fileName": "748XV_Maaparand_ms_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-17T15:08:48.081",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/49735f90-40c7-4218-8b50-fdb966e68f61/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/49735f90-40c7-4218-8b50-fdb966e68f61"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "88851a6a-06b6-48d9-ad61-67d84de91836",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e98ee1d8-1e47-45f3-bfef-451fc56394a9",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-17T15:21:26.317",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e98ee1d8-1e47-45f3-bfef-451fc56394a9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e98ee1d8-1e47-45f3-bfef-451fc56394a9"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-11-03T15:25:44.223",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-11-03T18:00:00.083",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-04T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 4.11.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-11-11T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "maaelukomisjoni esimees Urmas Kruuse"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "9560d036-afa2-482e-9cc1-ec902b0d8311",
+"fileName": "129_MAEK_protokoll_04.11.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-10T08:38:15.588",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9560d036-afa2-482e-9cc1-ec902b0d8311/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9560d036-afa2-482e-9cc1-ec902b0d8311"
+}
+}
+},
+{
+"uuid": "bc4a7a46-eaf4-4840-b05c-b8d5108bee26",
+"fileName": "MAEK_protokoll_04.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-10T08:46:58.219",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc4a7a46-eaf4-4840-b05c-b8d5108bee26/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc4a7a46-eaf4-4840-b05c-b8d5108bee26"
+}
+}
+},
+{
+"uuid": "fa05b6f4-e4c2-440c-9aae-6a1c320b126f",
+"fileName": "129_protokolli_lisa_MaaParS_ja_RVS_748_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokolli lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-07T11:23:17.259",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa05b6f4-e4c2-440c-9aae-6a1c320b126f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa05b6f4-e4c2-440c-9aae-6a1c320b126f"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.11.2025 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2025-12-02T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 2.12.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-12-09T10:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2025-12-17T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "7352d6ef-5534-4b70-a8ad-dbf46b49f433",
+"fileName": "MAEK_protokoll_02.12.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-08T15:09:24.363",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7352d6ef-5534-4b70-a8ad-dbf46b49f433/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7352d6ef-5534-4b70-a8ad-dbf46b49f433"
+}
+}
+},
+{
+"uuid": "93142c39-eeb9-4013-a88b-9935a8c5fd8d",
+"fileName": "133_MAEK_protokoll_02.12.25.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-08T15:07:51.533",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/93142c39-eeb9-4013-a88b-9935a8c5fd8d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/93142c39-eeb9-4013-a88b-9935a8c5fd8d"
+}
+}
+}
+]
+},
+{
+"date": "2025-12-10T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 10.12.2025 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2025-12-17T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 17.12.2025 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "580b6427-ee41-47df-87e4-a56f6538dd70",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-12-17T15:07:40.527",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/580b6427-ee41-47df-87e4-a56f6538dd70"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-12-17T16:33:12.126",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2025-12-23T15:11:09.289",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2025-12-31T08:53:48.442",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "00119773-60dc-4a51-b431-ef8a53560b8d",
+"reference": "1-1/15-748/2",
+"title": "Regionaal- ja Põllumajandusministeeriumi arvamus maaparandusseaduse ja riigivaraseaduse muutmise seaduse eelnõu 748 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-11-26",
+"files": [
+{
+"uuid": "3f558969-65f5-4736-b9f7-176aa040b3c2",
+"fileName": "748_SE_muudatusettepanekud.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-26T12:28:17.665",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f558969-65f5-4736-b9f7-176aa040b3c2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f558969-65f5-4736-b9f7-176aa040b3c2"
+}
+}
+},
+{
+"uuid": "dd72b923-daea-4bba-89f0-fe7a6aeaa518",
+"fileName": "Maaparandusseaduse_ja_riigivaraseaduse_muutmise_seaduse_eelnõu_748_SE_muudatusettepanekud.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-26T12:28:17.68",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dd72b923-daea-4bba-89f0-fe7a6aeaa518/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dd72b923-daea-4bba-89f0-fe7a6aeaa518"
+}
+}
+},
+{
+"uuid": "4bfa440b-d6aa-4649-8ebc-95dc70fd75ca",
+"fileName": "748_SE_muudatusettepanekud.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-26T12:28:17.586",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4bfa440b-d6aa-4649-8ebc-95dc70fd75ca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4bfa440b-d6aa-4649-8ebc-95dc70fd75ca"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/00119773-60dc-4a51-b431-ef8a53560b8d"
+}
+}
+},
+{
+"uuid": "f58286bc-c5b6-427f-bdab-47348755b66e",
+"reference": "1-1/15-748/1",
+"title": "Eelnõu 748 SE kaasamiskiri",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-11-05",
+"files": [
+{
+"uuid": "6343d42d-acd8-4d08-bfc9-f1db38d072cf",
+"fileName": "Eelnõu_748_SE_kaasamiskiri.html",
+"fileExtension": "html",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-05T11:22:16.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6343d42d-acd8-4d08-bfc9-f1db38d072cf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6343d42d-acd8-4d08-bfc9-f1db38d072cf"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f58286bc-c5b6-427f-bdab-47348755b66e"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/e32c1190-1d3e-4500-a365-81b9fa5554eb"
+}
+}
+}

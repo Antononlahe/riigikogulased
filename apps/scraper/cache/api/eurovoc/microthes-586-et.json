@@ -1,0 +1,325 @@
+{
+"uuid": "0332dc85-d639-4fba-8371-846775044eed",
+"etid": 586,
+"code": "4821",
+"text": "mere- ja siseveetransport",
+"descriptors": [
+{
+"edid": 4522,
+"text": "meretransport",
+"code": "4522",
+"uuid": "40a42781-8420-ff68-c565-9d2d86b41f37",
+"vol_cnt": 108,
+"scopeNotes": [],
+"usedFors": [
+"laevaliiklus",
+"merevedu",
+"mereveondus",
+"mereühendus"
+],
+"narrowTerms": [
+"ab6e49b8-1d96-52e6-782e-4e6c3efb9f25",
+"3abe44de-8974-44d3-9bbd-4beb92f88ac2",
+"cbe35fd3-ccde-4944-8a1e-d3470505ab72",
+"8ddc2e84-b77d-4719-97a1-9e04b883e149",
+"4ad01c9f-1dd6-4f1c-8759-3239671eb635",
+"7179158f-6e61-4563-858c-71afa6a18383",
+"457f46ce-b164-a4d1-df12-5694c2f90318",
+"693e3f6f-1520-4c14-8b8a-901e4bd17a71"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2641,
+"text": "CIF-hind",
+"code": "2641",
+"uuid": "18a93d2e-858e-443a-9744-003b890a9aba",
+"vol_cnt": 0,
+"scopeNotes": [
+"Sisaldab peale kauba enda hinna ka veokulu ja veose kindlustust sihtsadamani."
+],
+"usedFors": [
+"hind, kindlustus ja prahiraha",
+"tarnimine lossimissadamasse",
+"tähtajaline tarnehind"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/18a93d2e-858e-443a-9744-003b890a9aba"
+}
+}
+},
+{
+"edid": 2671,
+"text": "franko laeva pardal",
+"code": "2671",
+"uuid": "2215db6f-4239-4476-adcd-1da1ec21e618",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kaupade müügihind ja tarnekulud kuni kauba ostjale üleandmiseni laeva pardal lastimissadamas."
+],
+"usedFors": [
+"FOB-hind",
+"tarnimine lastimissadamasse"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2215db6f-4239-4476-adcd-1da1ec21e618"
+}
+}
+},
+{
+"edid": 3163,
+"text": "laevade põhjustatud merereostus",
+"code": "3163",
+"uuid": "38f1922e-23ad-40c5-2ad7-2e09db2d0953",
+"vol_cnt": 61,
+"scopeNotes": [],
+"usedFors": [
+"degaseerimine",
+"jäätmete merre heitmine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/38f1922e-23ad-40c5-2ad7-2e09db2d0953"
+}
+}
+},
+{
+"edid": 3107,
+"text": "liikluse kontroll",
+"code": "3107",
+"uuid": "2d5876fb-8749-fb68-b0d2-fb597f4fc009",
+"vol_cnt": 20,
+"scopeNotes": [
+"Kasutada seoses asjaomase transpordiliigiga."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2d5876fb-8749-fb68-b0d2-fb597f4fc009"
+}
+}
+},
+{
+"edid": 3541,
+"text": "merekindlustus",
+"code": "3541",
+"uuid": "abdcc702-d004-472f-9404-9f9799446071",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/abdcc702-d004-472f-9404-9f9799446071"
+}
+}
+},
+{
+"edid": 2350,
+"text": "transporditöötajad",
+"code": "2350",
+"uuid": "135e19e6-594d-f3f8-3f6b-821c3965fe7c",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"071b3f8a-9c45-1fe2-85c1-ac201ed273ef",
+"a19a5cef-9db3-43a7-98bc-69bd09489375",
+"d938467f-c9cd-095a-f7bb-eb624c973a68"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/135e19e6-594d-f3f8-3f6b-821c3965fe7c"
+}
+}
+},
+{
+"edid": 4652,
+"text": "õhkpadjal sõiduk",
+"code": "4652",
+"uuid": "93a2d54b-595a-4a19-9c91-e0b59a4ac922",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"hõljuk",
+"hõljukrong"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/93a2d54b-595a-4a19-9c91-e0b59a4ac922"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/40a42781-8420-ff68-c565-9d2d86b41f37"
+}
+}
+},
+{
+"edid": 2512,
+"text": "sadamapoliitika",
+"code": "2512",
+"uuid": "dbfdd8e0-a72d-4cf5-d6fc-f86cecf3bebe",
+"vol_cnt": 12,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"bfad5d98-0a78-4231-a10b-77db9f56d6ae",
+"79ebe3be-e8d3-27df-26f0-c50edef1768b",
+"ea9ef0d8-f55c-44fe-b403-4bc6c5ffbece",
+"9d33c0d0-4f55-43fb-ad83-75f33ce808ac"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dbfdd8e0-a72d-4cf5-d6fc-f86cecf3bebe"
+}
+}
+},
+{
+"edid": 4515,
+"text": "siseveetransport",
+"code": "4515",
+"uuid": "a4ae7399-94dc-46a5-0815-16e9a475db58",
+"vol_cnt": 30,
+"scopeNotes": [],
+"usedFors": [
+"jõeliiklus",
+"jõetransport",
+"siseveeliiklus",
+"siseveeühendus"
+],
+"narrowTerms": [
+"1d9b0c81-a277-44c0-a4e2-90359028d003",
+"39edcb23-b186-4573-b620-407e991108a3",
+"b87eb345-187c-4f97-ba15-783b85b121f5",
+"2097370e-5299-4478-9e82-be78c9af96f8",
+"180ef0de-6414-418c-8e26-ac6b16a66dee",
+"f37c370a-df6d-4bf1-a0be-ac0fbc878e16"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5347,
+"text": "Euroopa Transpordiministrite Konverents",
+"code": "5347",
+"uuid": "107671eb-890a-46f1-aab3-d72a3618041a",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"CEMT",
+"ECMT"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/107671eb-890a-46f1-aab3-d72a3618041a"
+}
+}
+},
+{
+"edid": 3107,
+"text": "liikluse kontroll",
+"code": "3107",
+"uuid": "2d5876fb-8749-fb68-b0d2-fb597f4fc009",
+"vol_cnt": 20,
+"scopeNotes": [
+"Kasutada seoses asjaomase transpordiliigiga."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2d5876fb-8749-fb68-b0d2-fb597f4fc009"
+}
+}
+},
+{
+"edid": 2350,
+"text": "transporditöötajad",
+"code": "2350",
+"uuid": "135e19e6-594d-f3f8-3f6b-821c3965fe7c",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"071b3f8a-9c45-1fe2-85c1-ac201ed273ef",
+"a19a5cef-9db3-43a7-98bc-69bd09489375",
+"d938467f-c9cd-095a-f7bb-eb624c973a68"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/135e19e6-594d-f3f8-3f6b-821c3965fe7c"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a4ae7399-94dc-46a5-0815-16e9a475db58"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/0332dc85-d639-4fba-8371-846775044eed"
+}
+}
+}

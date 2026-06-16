@@ -1,0 +1,2074 @@
+{
+"uuid": "8025d475-44a4-4525-be95-14316721d120",
+"title": "Rahvaraamatukogu seadus",
+"mark": 877,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Rahvaraamatukogu seadus 877 SE",
+"initialTitle": "Rahvaraamatukogu seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TEINE_LUGEMINE",
+"activeDraftStatus": "I_LUGEMINE_LOPETATUD",
+"introduction": "Eelnõu näeb ette ajakohastada rahvaraamatukogude ja Eesti Rahvusraamatukogu roll, ülesanded ja juhtimine ning luua ühtne raamatukogude andmekogu. Eesmärk on üle-eestiline kasutajakeskne ja kättesaadav raamatukoguteenus.\nEelnõu kohaselt käsitletakse rahvaraamatukogusid lisaks kultuuriasutustele ka haridusasutustena, mille ülesannete hulka kuuluvad muu hulgas lugemisharjumuse kujundamine, avalike e-teenuste kasutamise juhendamine ning kogukonnaelus osalemise toetamine. Samuti muudetakse raamatukoguvõrk paindlikumaks, arvestades kohalikke olusid, nagu elanike arv ja asustustihedus, ning antakse omavalitsustele suurem roll võrgustiku kujundamisel ja juhtimisel.\nEelnõuga uuendatakse valdkonna juhtimist ja riigi haldusülesannete korraldust, andes senisest rohkem ülesandeid Eesti Rahvusraamatukogule, sealhulgas arendustoetuste menetlemise. Samuti kehtestatakse ühtne raamatukogude andmekogu, millega liitumine muutub rahvaraamatukogudele kohustuslikuks ja tasuta ning millega saavad liituda ka teised Eesti raamatukogud.\nSeadus on kavandatud jõustuma 1. jaanuaril 2027, andmekogu ja väljaannete hankimist puudutavad sätted 1. juulil 2027.",
+"initiated": "2026-04-13",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-05-19T17:15:00",
+"responsibleMember": {
+"uuid": "71bdc9b2-841d-408f-8ace-909e8c11d7d5",
+"name": "Signe Kivi",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/71bdc9b2-841d-408f-8ace-909e8c11d7d5?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 4868,
+"text": "rahvaraamatukogu"
+},
+{
+"edid": 1154,
+"text": "juhtimine"
+},
+{
+"edid": 3585,
+"text": "infoalane eriala"
+},
+{
+"edid": 2602,
+"text": "teenuste pakkumine"
+},
+{
+"edid": 68,
+"text": "kohalik omavalitsus"
+},
+{
+"edid": 4867,
+"text": "rahvusraamatukogu"
+},
+{
+"edid": 4821,
+"text": "andmebaas"
+},
+{
+"edid": 6621,
+"text": "kehtetuks tunnistamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "84709c48-e0a7-48fa-8807-a8be1679cd90",
+"fileName": "RK_26-00726-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.549",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/84709c48-e0a7-48fa-8807-a8be1679cd90/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/84709c48-e0a7-48fa-8807-a8be1679cd90"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "946a2bf7-5994-4419-ac27-30b69e260d4e",
+"fileName": "[EIS]_Eelnõu_esitamine__KUM-25-0527_-_Rahvaraamatukogu_seaduse_eelnõu.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.538",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/946a2bf7-5994-4419-ac27-30b69e260d4e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/946a2bf7-5994-4419-ac27-30b69e260d4e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "30fec1ae-2018-44b0-9855-a3dd0e9d54da",
+"title": "877 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "daa8b317-6a58-47bd-9eac-23a77bdb991d",
+"fileName": "877_RaRS_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-21T14:49:49.785",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/daa8b317-6a58-47bd-9eac-23a77bdb991d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/daa8b317-6a58-47bd-9eac-23a77bdb991d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "61626c74-cf22-4cfc-bf41-b5ff6b9a3402",
+"fileName": "Seaduseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.686",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/61626c74-cf22-4cfc-bf41-b5ff6b9a3402/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/61626c74-cf22-4cfc-bf41-b5ff6b9a3402"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a9e398ca-aea2-46de-bbfe-d68e86222d21",
+"fileName": "Seaduseelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.7",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a9e398ca-aea2-46de-bbfe-d68e86222d21/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a9e398ca-aea2-46de-bbfe-d68e86222d21"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "19a7faba-07b6-49b3-9afc-d316afc23088",
+"fileName": "26-00726-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.674",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/19a7faba-07b6-49b3-9afc-d316afc23088/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/19a7faba-07b6-49b3-9afc-d316afc23088"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "30fec1ae-2018-44b0-9855-a3dd0e9d54da",
+"title": "877 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "459b03bb-d669-4880-ac85-dea52ea7f60f",
+"fileName": "877_RaRS_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-21T14:50:51.037",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/459b03bb-d669-4880-ac85-dea52ea7f60f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/459b03bb-d669-4880-ac85-dea52ea7f60f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "30c82c4d-0a00-4327-8ecf-89698d5ceff0",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.715",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/30c82c4d-0a00-4327-8ecf-89698d5ceff0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/30c82c4d-0a00-4327-8ecf-89698d5ceff0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "24d44538-2e54-49bf-8fbf-be78317c382c",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.729",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24d44538-2e54-49bf-8fbf-be78317c382c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24d44538-2e54-49bf-8fbf-be78317c382c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0ee77434-63fd-4007-a603-6a320748a867",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (andmekaitsealane mõjuhinnang) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.742",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0ee77434-63fd-4007-a603-6a320748a867/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0ee77434-63fd-4007-a603-6a320748a867"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e8a6914d-da2e-44ff-b6ae-7cf553e17c0c",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (andmekaitsealane mõjuhinnang) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.753",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8a6914d-da2e-44ff-b6ae-7cf553e17c0c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8a6914d-da2e-44ff-b6ae-7cf553e17c0c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "30fec1ae-2018-44b0-9855-a3dd0e9d54da",
+"title": "877 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6f03db57-751a-4eea-99fc-88bd129daad1",
+"fileName": "877_RaRS_SK_Lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (andmkaitsealane mõjuhinnang)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-21T14:51:05.239",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6f03db57-751a-4eea-99fc-88bd129daad1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6f03db57-751a-4eea-99fc-88bd129daad1"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "30fec1ae-2018-44b0-9855-a3dd0e9d54da",
+"title": "877 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "258895b7-aada-4ad3-b4a1-ac17e6bf96e4",
+"fileName": "877_RaRS_SK_Lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusaktide kavandid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-21T14:52:09.951",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/258895b7-aada-4ad3-b4a1-ac17e6bf96e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/258895b7-aada-4ad3-b4a1-ac17e6bf96e4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cd4bd2e6-a0de-4bd8-8869-353fe76a8e55",
+"fileName": "Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusaktide kavandid) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.764",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd4bd2e6-a0de-4bd8-8869-353fe76a8e55/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd4bd2e6-a0de-4bd8-8869-353fe76a8e55"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fc811015-1b98-4fbd-a455-d46bbebb46e1",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (rakendusaktide kavandid) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.776",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc811015-1b98-4fbd-a455-d46bbebb46e1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc811015-1b98-4fbd-a455-d46bbebb46e1"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "30fec1ae-2018-44b0-9855-a3dd0e9d54da",
+"title": "877 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "50e2a881-ba1c-4948-a5e4-010839dba4a4",
+"fileName": "877_RaRS_SK_Lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 3 (märkused ja ettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-21T14:52:47.092",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/50e2a881-ba1c-4948-a5e4-010839dba4a4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/50e2a881-ba1c-4948-a5e4-010839dba4a4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "691fc1b8-7e90-4e44-8772-2d4b236aa5d1",
+"fileName": "Seletuskirja_lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 3 (märkused ja ettepanekud) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.789",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/691fc1b8-7e90-4e44-8772-2d4b236aa5d1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/691fc1b8-7e90-4e44-8772-2d4b236aa5d1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93945991-0785-445d-9b50-22f3ad3ea3de",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1d54fefd-1f52-4e07-a382-d49fa89ca0b9",
+"fileName": "Seletuskirja_lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 3 (märkused ja ettepanekud) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-13T15:16:01.801",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d54fefd-1f52-4e07-a382-d49fa89ca0b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d54fefd-1f52-4e07-a382-d49fa89ca0b9"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-04-13T15:15:31.035",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-04-14T13:47:00.226",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-04-21T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 21.04.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-05-05T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Signe Kivi"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "94185071-000e-4108-a0a0-e4c29372812f",
+"fileName": "KULK_protokoll.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-05T14:56:34.76",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/94185071-000e-4108-a0a0-e4c29372812f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/94185071-000e-4108-a0a0-e4c29372812f"
+}
+}
+},
+{
+"uuid": "9e4f806d-f0a6-4484-b544-d27d59db7bc5",
+"fileName": "KULK_protokoll_149_(21.04.2026).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-05T14:55:43.044",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e4f806d-f0a6-4484-b544-d27d59db7bc5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e4f806d-f0a6-4484-b544-d27d59db7bc5"
+}
+}
+}
+]
+},
+{
+"date": "2026-05-05T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 5.05.2026 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "8418c5dd-e40d-4fb6-b545-dcb5289831af",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2026-05-05T10:07:07.657",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8418c5dd-e40d-4fb6-b545-dcb5289831af"
+}
+}
+},
+{
+"uuid": "0bb91ddd-9ce6-4171-a570-8118b28e0cb9",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-05-05T11:41:32.613",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/0bb91ddd-9ce6-4171-a570-8118b28e0cb9"
+}
+}
+}
+]
+},
+{
+"date": "2026-06-02T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 2.06.2026 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": []
+},
+{
+"date": "2026-06-09T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 9.06.2026 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": []
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "1394fd1d-4afc-48eb-8123-8af7320b6ead",
+"reference": "1-1/15-877/1",
+"title": "Kaasamiskiri rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-05",
+"files": [
+{
+"uuid": "b1bef7fa-b08f-4547-aaaa-4001f72f50be",
+"fileName": "_kaasamine_rahvaraamatukogu_seaduse_eelnõu_877_SE_menetlusse_-_tagasiside_tähtaeg_20.05.2026.html",
+"fileExtension": "html",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-05T12:47:08.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b1bef7fa-b08f-4547-aaaa-4001f72f50be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b1bef7fa-b08f-4547-aaaa-4001f72f50be"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1394fd1d-4afc-48eb-8123-8af7320b6ead"
+}
+}
+},
+{
+"uuid": "41c62f6a-ecc0-4dce-8fab-2c52ea8ca0a9",
+"reference": "1-1/15-877/6",
+"title": "Harju Maakonnaraamatukogu arvamus rahvaraaamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-18",
+"files": [
+{
+"uuid": "7efbc6fe-4433-444e-b5ff-a2219b9c122a",
+"fileName": "Riigikogu_kultuurikomisjon.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T11:38:30.025",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7efbc6fe-4433-444e-b5ff-a2219b9c122a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7efbc6fe-4433-444e-b5ff-a2219b9c122a"
+}
+}
+},
+{
+"uuid": "41d6bea5-dc81-45ff-b85f-075cde46e055",
+"fileName": "Riigikogu_kultuurikomisjon.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T11:38:29.951",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41d6bea5-dc81-45ff-b85f-075cde46e055/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41d6bea5-dc81-45ff-b85f-075cde46e055"
+}
+}
+},
+{
+"uuid": "363202ae-4f4c-4dd0-ad1c-474919e04f28",
+"fileName": "Rahvaraamatukogu_seaduse_eelnõu_877_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T11:38:29.942",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/363202ae-4f4c-4dd0-ad1c-474919e04f28/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/363202ae-4f4c-4dd0-ad1c-474919e04f28"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/41c62f6a-ecc0-4dce-8fab-2c52ea8ca0a9"
+}
+}
+},
+{
+"uuid": "bb6c1c9d-b5d3-49f6-a6b0-d1da7127b5d6",
+"reference": "1-1/15-877/11",
+"title": "Jõgeva- ,Kehtna- ja Põhja-Sakala Raamatukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-19",
+"files": [
+{
+"uuid": "fcded4f5-026b-4eed-84ce-518064f9c93f",
+"fileName": "Tagasiside_rahvaraamatukogude_seaduse_eelnõule.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-21T09:16:12.721",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fcded4f5-026b-4eed-84ce-518064f9c93f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fcded4f5-026b-4eed-84ce-518064f9c93f"
+}
+}
+},
+{
+"uuid": "4afc8044-b3e4-4b09-b347-18ad7e4aea42",
+"fileName": "Tagasiside_rahvaraamatukogu_seaduse_eelnõule.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-21T09:15:53.912",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4afc8044-b3e4-4b09-b347-18ad7e4aea42/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4afc8044-b3e4-4b09-b347-18ad7e4aea42"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/bb6c1c9d-b5d3-49f6-a6b0-d1da7127b5d6"
+}
+}
+},
+{
+"uuid": "7dc7d14c-7d44-4a03-a6cf-29a3d9a1d294",
+"reference": "1-1/15-877/3",
+"title": "Lääne Maakonna Keskraamatukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-15",
+"files": [
+{
+"uuid": "61ac79e6-ab34-4dfd-8582-54189a9a1f35",
+"fileName": "Lääne_Maakonna_Keskraamatukogu_seisukoht_rahvaraamatukogu_seaduse_eelnõu_(877_SE)_kohta.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-15T13:35:39.73",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/61ac79e6-ab34-4dfd-8582-54189a9a1f35/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/61ac79e6-ab34-4dfd-8582-54189a9a1f35"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7dc7d14c-7d44-4a03-a6cf-29a3d9a1d294"
+}
+}
+},
+{
+"uuid": "f639ba5b-b987-47f3-b495-914e16c8bf07",
+"reference": "1-1/15-877/16",
+"title": "Põlva Keskraamatukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-21",
+"files": [
+{
+"uuid": "078bafe3-a5de-43c8-9657-ff10bd2eaa8a",
+"fileName": "Põlva_Keskraamatukogu_arvamus_mai_2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-26T07:56:14.01",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/078bafe3-a5de-43c8-9657-ff10bd2eaa8a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/078bafe3-a5de-43c8-9657-ff10bd2eaa8a"
+}
+}
+},
+{
+"uuid": "d925c7b5-49c4-43ef-8cca-ae718762cce1",
+"fileName": "Põlva_Keskraamatukogu_arvamus_mai_2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-26T07:56:00.198",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d925c7b5-49c4-43ef-8cca-ae718762cce1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d925c7b5-49c4-43ef-8cca-ae718762cce1"
+}
+}
+},
+{
+"uuid": "7982af92-be52-4ff4-9be7-66f00aa5a06a",
+"fileName": "Kultuurikomisjonile.txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-21T09:22:00.193",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7982af92-be52-4ff4-9be7-66f00aa5a06a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7982af92-be52-4ff4-9be7-66f00aa5a06a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f639ba5b-b987-47f3-b495-914e16c8bf07"
+}
+}
+},
+{
+"uuid": "162f956c-1adf-4c4e-ab36-13a2baf56dcf",
+"reference": "1-1/15-877/22",
+"title": "Kultuuriministeeriumi arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-06-02",
+"files": [
+{
+"uuid": "9d504057-9c31-41bd-9a1b-8149c91f8f0c",
+"fileName": "Muudatusettepanekud_rahvaraamatukogu_seaduse_eelnõule_(877_SE).html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-02T10:34:25.756",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d504057-9c31-41bd-9a1b-8149c91f8f0c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d504057-9c31-41bd-9a1b-8149c91f8f0c"
+}
+}
+},
+{
+"uuid": "90bf2f50-634c-44f0-b101-8d86f9259fd5",
+"fileName": "Muudatusettepanekud_rahvaraamatukogu_seaduse_eelnoule_(877_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-02T10:34:25.866",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90bf2f50-634c-44f0-b101-8d86f9259fd5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90bf2f50-634c-44f0-b101-8d86f9259fd5"
+}
+}
+},
+{
+"uuid": "7b97f5e2-49c1-47d2-aa47-e8d72f3456f5",
+"fileName": "1-111380-3_02.06.2026_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-02T10:34:25.767",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7b97f5e2-49c1-47d2-aa47-e8d72f3456f5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7b97f5e2-49c1-47d2-aa47-e8d72f3456f5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/162f956c-1adf-4c4e-ab36-13a2baf56dcf"
+}
+}
+},
+{
+"uuid": "ab549d31-51b9-4405-8774-890eee2b43a4",
+"reference": "1-1/15-877/4",
+"title": "Jõhvi Keskraamatukogu, Viljandi Linnaraamatukogu, Tartu O. Lutsu nimelise Linnaraamatukogu ja Pärnu Keskraamatukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-18",
+"files": [
+{
+"uuid": "0f5c5388-b2b6-4039-8bd4-278ef1dca3d5",
+"fileName": "4_raamatukogu_tagasiside_rahvaraamatukogude-seaduse_eelnõule.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T07:41:00.525",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0f5c5388-b2b6-4039-8bd4-278ef1dca3d5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0f5c5388-b2b6-4039-8bd4-278ef1dca3d5"
+}
+}
+},
+{
+"uuid": "8721d76d-66d1-44d8-bd7e-e2bf370b9f34",
+"fileName": "4_raamatukogu_tagasiside_rahvaraamatukogude-seaduse_eelnõule_(2).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T07:41:00.385",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8721d76d-66d1-44d8-bd7e-e2bf370b9f34/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8721d76d-66d1-44d8-bd7e-e2bf370b9f34"
+}
+}
+},
+{
+"uuid": "71c1c59e-ed1c-4db1-ae00-082a3c057341",
+"fileName": "Tagasiside_rahvaraamatukogude_seaduse_eelnõule_877_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T07:41:00.377",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/71c1c59e-ed1c-4db1-ae00-082a3c057341/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/71c1c59e-ed1c-4db1-ae00-082a3c057341"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ab549d31-51b9-4405-8774-890eee2b43a4"
+}
+}
+},
+{
+"uuid": "cacea18c-bb6a-496b-b13c-337dde1e4155",
+"reference": "1-1/15-877/10",
+"title": "Järvamaa Keskraamatukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-19",
+"files": [
+{
+"uuid": "a9f0b2f8-0dd1-404c-8fb4-ceed73fce026",
+"fileName": "Vastuskiri_Riigikogu_kultuurikomisjonile_877_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T13:02:58.33",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a9f0b2f8-0dd1-404c-8fb4-ceed73fce026/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a9f0b2f8-0dd1-404c-8fb4-ceed73fce026"
+}
+}
+},
+{
+"uuid": "af4c1770-43b3-4561-a4ce-6101e9e0d4d8",
+"fileName": "JKR-1-52610-1_19.05.2026_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T13:02:58.34",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/af4c1770-43b3-4561-a4ce-6101e9e0d4d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/af4c1770-43b3-4561-a4ce-6101e9e0d4d8"
+}
+}
+},
+{
+"uuid": "819bbee3-02db-49e9-a5f4-248243b1339e",
+"fileName": "Riigikogu_kultuurikomisjonile.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T13:02:58.416",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/819bbee3-02db-49e9-a5f4-248243b1339e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/819bbee3-02db-49e9-a5f4-248243b1339e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cacea18c-bb6a-496b-b13c-337dde1e4155"
+}
+}
+},
+{
+"uuid": "602fef55-9c2d-42b7-8b9b-8558a4d498e3",
+"reference": "1-1/15-877/14",
+"title": "Rakvere Raamatukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-20",
+"files": [
+{
+"uuid": "d17a3542-9078-4b92-9f8f-f680b660a2f5",
+"fileName": "Rakvere_Raamatukogu_seisukoht.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T09:27:34.007",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d17a3542-9078-4b92-9f8f-f680b660a2f5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d17a3542-9078-4b92-9f8f-f680b660a2f5"
+}
+}
+},
+{
+"uuid": "b4f5dc49-f7e2-4b9b-89ed-1a6aae633d03",
+"fileName": "Rakvere_Raamatukogu_seisukoht.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T09:27:33.958",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4f5dc49-f7e2-4b9b-89ed-1a6aae633d03/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4f5dc49-f7e2-4b9b-89ed-1a6aae633d03"
+}
+}
+},
+{
+"uuid": "9dc5b878-1305-45cc-98e7-d7dbe212f9bb",
+"fileName": "Rakvere_Raamatukogu_seisukoht.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T09:27:33.951",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9dc5b878-1305-45cc-98e7-d7dbe212f9bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9dc5b878-1305-45cc-98e7-d7dbe212f9bb"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/602fef55-9c2d-42b7-8b9b-8558a4d498e3"
+}
+}
+},
+{
+"uuid": "45d3ff80-f727-4e77-a923-941ccb717231",
+"reference": "1-1/15-877/23",
+"title": "Kärdla Linnaraamatukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-06-03",
+"files": [
+{
+"uuid": "1eaac291-051a-471d-ab82-5ca42af93661",
+"fileName": "Vastus_uue_seaduse_kohta_Kärdla_Linnaraamatukogu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-03T10:17:50.923",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1eaac291-051a-471d-ab82-5ca42af93661/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1eaac291-051a-471d-ab82-5ca42af93661"
+}
+}
+},
+{
+"uuid": "6e63e781-6df2-4623-937b-a13c31f26c71",
+"fileName": "Vastus_uue_seaduse_kohta_Kärdla_Linnaraamatukogu.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-03T10:17:50.871",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e63e781-6df2-4623-937b-a13c31f26c71/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e63e781-6df2-4623-937b-a13c31f26c71"
+}
+}
+},
+{
+"uuid": "acd82372-6652-44b3-a2a1-13eca21e6bd1",
+"fileName": "kaasamine_rahvaraamatukogu_seaduse_eelnõu_877_SE_menetlusse_-_tagasiside_tähtaeg_20.05.2026.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-03T10:17:50.86",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/acd82372-6652-44b3-a2a1-13eca21e6bd1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/acd82372-6652-44b3-a2a1-13eca21e6bd1"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/45d3ff80-f727-4e77-a923-941ccb717231"
+}
+}
+},
+{
+"uuid": "524c2925-bedb-406c-9dc4-426451690c12",
+"reference": "1-1/15-877/19",
+"title": "Eesti Pimedate Liidu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-26",
+"files": [
+{
+"uuid": "be4aa428-9607-4211-b425-0a9019fda42f",
+"fileName": "_Eesti_Pimedate_Liidu_tagasiside_rahvaraamatukogu_seaduse_eelnõule_(877_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-26T07:59:33.233",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/be4aa428-9607-4211-b425-0a9019fda42f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/be4aa428-9607-4211-b425-0a9019fda42f"
+}
+}
+},
+{
+"uuid": "9cc5eeee-0776-4982-b893-307121f98c0a",
+"fileName": "12._EPL_tagasiside_rahvaraamatukogu_seadus_877_SE_2026-05-25.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-26T07:59:33.242",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9cc5eeee-0776-4982-b893-307121f98c0a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9cc5eeee-0776-4982-b893-307121f98c0a"
+}
+}
+},
+{
+"uuid": "f303e571-cf90-4b43-aedb-98b6d04630b4",
+"fileName": "12._EPL_tagasiside_rahvaraamatukogu_seadus_877_SE_2026-05-25.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-26T07:59:33.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f303e571-cf90-4b43-aedb-98b6d04630b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f303e571-cf90-4b43-aedb-98b6d04630b4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/524c2925-bedb-406c-9dc4-426451690c12"
+}
+}
+},
+{
+"uuid": "36404de7-5e79-49d8-a023-b909c3e55314",
+"reference": "1-1/15-877/20",
+"title": "Eesti Puuetega Inimeste Koja arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-27",
+"files": [
+{
+"uuid": "36d8ba1b-b4b2-49fb-ac30-66eda697d25d",
+"fileName": "Eesti_Puuetega_Inimeste_Koja_pöördumine_SE_877.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-27T15:11:03.164",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/36d8ba1b-b4b2-49fb-ac30-66eda697d25d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/36d8ba1b-b4b2-49fb-ac30-66eda697d25d"
+}
+}
+},
+{
+"uuid": "5f397703-5c46-4710-93c3-2f55d0d42397",
+"fileName": "48.2026_Rahvaraamatukogu_seaduse_eelnõu_877.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-27T15:11:03.236",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f397703-5c46-4710-93c3-2f55d0d42397/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f397703-5c46-4710-93c3-2f55d0d42397"
+}
+}
+},
+{
+"uuid": "9f13fba6-1ba6-4bb3-b7fc-3a4a728c50ae",
+"fileName": "48._EPIKoja_arvamus_Rahvaraamatukogu_seaduse_eelnõu.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-27T15:11:03.175",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9f13fba6-1ba6-4bb3-b7fc-3a4a728c50ae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9f13fba6-1ba6-4bb3-b7fc-3a4a728c50ae"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/36404de7-5e79-49d8-a023-b909c3e55314"
+}
+}
+},
+{
+"uuid": "12f57670-a2df-496d-82bd-e9ef6c73fc44",
+"reference": "1-1/15-877/2",
+"title": "Põltsamaa Raamatukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-12",
+"files": [
+{
+"uuid": "1fd1b0c6-6f72-4d4f-925c-a3e097a5aa56",
+"fileName": "_Ettepanekud_rahvaraamatukogu_seaduse_eelnõu_kohta_877_SE_.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-12T16:44:41.718",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1fd1b0c6-6f72-4d4f-925c-a3e097a5aa56/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1fd1b0c6-6f72-4d4f-925c-a3e097a5aa56"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/12f57670-a2df-496d-82bd-e9ef6c73fc44"
+}
+}
+},
+{
+"uuid": "cb417251-d602-48df-8487-531d87a52409",
+"reference": "1-1/15-877/17",
+"title": "Valga Keskraamatukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-21",
+"files": [
+{
+"uuid": "bf4e1e90-0141-4a55-9c93-9e13cd0d68fd",
+"fileName": "Valga_Keskraamatukogu_seisukoht_1_9_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-21T09:23:12.714",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf4e1e90-0141-4a55-9c93-9e13cd0d68fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf4e1e90-0141-4a55-9c93-9e13cd0d68fd"
+}
+}
+},
+{
+"uuid": "6da3f2b8-ef97-4924-8a55-a5583a75117f",
+"fileName": "Valga_Keskraamatukogu_seisukoht_1_9_2.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-21T09:23:12.652",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6da3f2b8-ef97-4924-8a55-a5583a75117f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6da3f2b8-ef97-4924-8a55-a5583a75117f"
+}
+}
+},
+{
+"uuid": "3d4ed8e3-58a0-46a8-aea8-9488a053da51",
+"fileName": "Valga_Keskraamatukogu_seisukoht_rahvaraamatukogu_seaduse_eelnõu_(877_SE)_kohta.txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-21T09:23:12.646",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d4ed8e3-58a0-46a8-aea8-9488a053da51/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d4ed8e3-58a0-46a8-aea8-9488a053da51"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cb417251-d602-48df-8487-531d87a52409"
+}
+}
+},
+{
+"uuid": "7efffb3d-f9cd-4605-9578-979a9d40afdc",
+"reference": "1-1/15-877/8",
+"title": "Rahvaraamatukogude Nõukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-18",
+"files": [
+{
+"uuid": "2f7618b4-823d-462c-8b68-3481f392ee38",
+"fileName": "Rahvaraamatukogude_Nõukogu_seisukoht_rahvaraamatukogu_seaduse_eelnõu_877_SE_kohta_.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T12:51:08.253",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f7618b4-823d-462c-8b68-3481f392ee38/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f7618b4-823d-462c-8b68-3481f392ee38"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7efffb3d-f9cd-4605-9578-979a9d40afdc"
+}
+}
+},
+{
+"uuid": "050c1aed-ee12-477e-a279-fc4f477e4072",
+"reference": "1-1/15-877/7",
+"title": "Eesti Rahvusraamatukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-18",
+"files": [
+{
+"uuid": "3a20200b-de93-4960-8374-9b95d31d6a88",
+"fileName": "RaRa_arvamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T12:48:54.51",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a20200b-de93-4960-8374-9b95d31d6a88/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a20200b-de93-4960-8374-9b95d31d6a88"
+}
+}
+},
+{
+"uuid": "4b8a9fee-9160-48c6-902e-dbba284e4555",
+"fileName": "RaRa_arvamus.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T12:48:54.436",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4b8a9fee-9160-48c6-902e-dbba284e4555/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4b8a9fee-9160-48c6-902e-dbba284e4555"
+}
+}
+},
+{
+"uuid": "7c1147fc-852d-402a-8c6c-62d824cb820b",
+"fileName": "[Webdesktop__]_Rahvaraamatukogu_seaduse_eelnõu_kooskõlastamiseks_esitamine__877SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T12:48:54.427",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c1147fc-852d-402a-8c6c-62d824cb820b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c1147fc-852d-402a-8c6c-62d824cb820b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/050c1aed-ee12-477e-a279-fc4f477e4072"
+}
+}
+},
+{
+"uuid": "4eeb5e12-9574-4870-a134-c9f571f83724",
+"reference": "1-1/15-877/18",
+"title": "Eesti Linnade ja Valdade Liidu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-21",
+"files": [
+{
+"uuid": "de8d2177-93d0-4f84-b597-6aa3b5315ba0",
+"fileName": "ELVL_vastuskiri_rahvaraamatukogu_seaduse_eelnõu_877_SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-21T09:25:23.669",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/de8d2177-93d0-4f84-b597-6aa3b5315ba0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de8d2177-93d0-4f84-b597-6aa3b5315ba0"
+}
+}
+},
+{
+"uuid": "65ced26b-ea50-4f7a-83ed-45ab03513e98",
+"fileName": "ELVL_vastuskiri_Riigikogu__kaasamine_rahvaraamatukogu_seaduse_ee.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-21T09:25:23.615",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/65ced26b-ea50-4f7a-83ed-45ab03513e98/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/65ced26b-ea50-4f7a-83ed-45ab03513e98"
+}
+}
+},
+{
+"uuid": "67769d63-7b84-467e-b604-4c2f893ea7cd",
+"fileName": "ELVL_vastuskiri_887_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-21T09:25:23.607",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67769d63-7b84-467e-b604-4c2f893ea7cd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67769d63-7b84-467e-b604-4c2f893ea7cd"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/4eeb5e12-9574-4870-a134-c9f571f83724"
+}
+}
+},
+{
+"uuid": "e25774a3-706c-4d91-9a05-a3c4b1caf46d",
+"reference": "1-1/15-877/15",
+"title": "Eesti Raamatukoguhoidjate Ühingu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-20",
+"files": [
+{
+"uuid": "87aae476-bb0e-48ce-9134-ed8b2674c862",
+"fileName": "2026-7_eelnõu_887_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T10:21:47.22",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/87aae476-bb0e-48ce-9134-ed8b2674c862/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/87aae476-bb0e-48ce-9134-ed8b2674c862"
+}
+}
+},
+{
+"uuid": "ef3c6c64-edc6-4c0b-8fcd-2f84b5fffd73",
+"fileName": "2026-7_eelnõu_887_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T10:21:47.158",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef3c6c64-edc6-4c0b-8fcd-2f84b5fffd73/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef3c6c64-edc6-4c0b-8fcd-2f84b5fffd73"
+}
+}
+},
+{
+"uuid": "01f2e346-cb78-4e8a-945e-f3c65a0e405d",
+"fileName": "kaasamine_rahvaraamatukogu_seaduse_eelnõu_877_SE_menetlusse_-_tagasiside_tähtaeg_20.05.2026.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T10:21:47.151",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/01f2e346-cb78-4e8a-945e-f3c65a0e405d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/01f2e346-cb78-4e8a-945e-f3c65a0e405d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e25774a3-706c-4d91-9a05-a3c4b1caf46d"
+}
+}
+},
+{
+"uuid": "bbfc8446-4dc6-409c-b1e5-b6441ba77f9e",
+"reference": "1-1/15-877/21",
+"title": "Kultuuriministeeriumi tagasiside laekunud arvamustele ja muudatusettepanekutele rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-06-01",
+"files": [
+{
+"uuid": "91439189-133e-4aad-96a8-69116ad9d036",
+"fileName": "E877_tagasiside_04.06.docx",
+"fileExtension": "docx",
+"fileTitle": "KuM tagasiside",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-04T15:39:04.982",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91439189-133e-4aad-96a8-69116ad9d036/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91439189-133e-4aad-96a8-69116ad9d036"
+}
+}
+},
+{
+"uuid": "b495d5a0-5917-4a49-9813-1e506ba2c278",
+"fileName": "Rahvaraamatukogu_seaduse_eelnõu_877_SE_kaasamise_tagasiside.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T08:28:19.55",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b495d5a0-5917-4a49-9813-1e506ba2c278/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b495d5a0-5917-4a49-9813-1e506ba2c278"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/bbfc8446-4dc6-409c-b1e5-b6441ba77f9e"
+}
+}
+},
+{
+"uuid": "f39214eb-1f6f-48fd-925c-d6cb72cbbffa",
+"reference": "1-1/15-877/24",
+"title": "Eesti Raamatukoguhoidjate Ühingu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-06-08",
+"files": [
+{
+"uuid": "85d8674f-48ba-4d2d-8ecb-8d99d07e6cc0",
+"fileName": "2026-8_eelnõu_887_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-08T16:56:36.848",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/85d8674f-48ba-4d2d-8ecb-8d99d07e6cc0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/85d8674f-48ba-4d2d-8ecb-8d99d07e6cc0"
+}
+}
+},
+{
+"uuid": "091ccb55-c938-4ad8-928c-372dc9379a6e",
+"fileName": "2026-8_eelnõu_887_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-08T16:56:36.794",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/091ccb55-c938-4ad8-928c-372dc9379a6e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/091ccb55-c938-4ad8-928c-372dc9379a6e"
+}
+}
+},
+{
+"uuid": "9aa552c3-124b-47a4-a1f0-9e55a4c82e3a",
+"fileName": "Ettepanek_rahvaraamatukogu_seadus_eelnõusse_877_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-08T16:56:36.784",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9aa552c3-124b-47a4-a1f0-9e55a4c82e3a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9aa552c3-124b-47a4-a1f0-9e55a4c82e3a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f39214eb-1f6f-48fd-925c-d6cb72cbbffa"
+}
+}
+},
+{
+"uuid": "a925e04a-80cf-4fae-bbd9-1f84d32fdd36",
+"reference": "1-1/15-877/12",
+"title": "OÜ Deltmar arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-19",
+"files": [
+{
+"uuid": "98f185a9-3a1d-41d4-9ea5-c0ba1bde9c9e",
+"fileName": "_kaasamine_rahvaraamatukogu_seaduse_eelnõu_877_SE_menetlusse_-_tagasiside_tähtaeg_20.05.2026.txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T15:55:05.145",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/98f185a9-3a1d-41d4-9ea5-c0ba1bde9c9e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/98f185a9-3a1d-41d4-9ea5-c0ba1bde9c9e"
+}
+}
+},
+{
+"uuid": "c0edc601-bf5c-42e8-bbaa-cb6287ead9b8",
+"fileName": "Kultuurikomisjonile.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-19T15:55:05.155",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c0edc601-bf5c-42e8-bbaa-cb6287ead9b8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c0edc601-bf5c-42e8-bbaa-cb6287ead9b8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a925e04a-80cf-4fae-bbd9-1f84d32fdd36"
+}
+}
+},
+{
+"uuid": "22b353fe-a3c3-45a6-9667-135fe14250da",
+"reference": "1-1/15-877/9",
+"title": "Tallinna Ülikooli Akadeemilise Raamatukogu, Teadusraamatukogude Nõukogu ja  Rektorite Nõukogu arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-18",
+"files": [
+{
+"uuid": "2ae277fa-cfdf-4f4b-8fc2-8deac0a5a81d",
+"fileName": "Volitus_raamatukogude_infospsteemide_arendamise_läbirääkimiseks.asice",
+"fileExtension": "asice",
+"fileTitle": "Lisa 3 asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T17:03:48.28",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ae277fa-cfdf-4f4b-8fc2-8deac0a5a81d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ae277fa-cfdf-4f4b-8fc2-8deac0a5a81d"
+}
+}
+},
+{
+"uuid": "32051c5f-4421-4073-926e-3cb1ee20713f",
+"fileName": "Koostooleping_12_12_2025_10_[42].asice",
+"fileExtension": "asice",
+"fileTitle": "Lisa 1 asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T17:03:47.892",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/32051c5f-4421-4073-926e-3cb1ee20713f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/32051c5f-4421-4073-926e-3cb1ee20713f"
+}
+}
+},
+{
+"uuid": "750d7d9d-5f7f-4c1b-8835-c1e8a50cd4e3",
+"fileName": "Muudatusettepanekud_18052026[51]AK.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T17:03:48.268",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/750d7d9d-5f7f-4c1b-8835-c1e8a50cd4e3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/750d7d9d-5f7f-4c1b-8835-c1e8a50cd4e3"
+}
+}
+},
+{
+"uuid": "3e0527d2-bf37-4d2a-9cc7-3c6d141934e0",
+"fileName": "Muudatusettepanekud_Rahvaraamatukogu_seadusele.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T17:03:47.883",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e0527d2-bf37-4d2a-9cc7-3c6d141934e0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e0527d2-bf37-4d2a-9cc7-3c6d141934e0"
+}
+}
+},
+{
+"uuid": "7d1e20b0-06f5-4248-9130-9be75e23af59",
+"fileName": "Volitus_raamatukogude_infospsteemide_arendamise_läbirääkimiseks.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 3",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T17:03:48.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7d1e20b0-06f5-4248-9130-9be75e23af59/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7d1e20b0-06f5-4248-9130-9be75e23af59"
+}
+}
+},
+{
+"uuid": "27683bb5-e5aa-48b0-b01d-d84aea4a7fb1",
+"fileName": "Koostööleping_12.12.2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T17:03:48.202",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/27683bb5-e5aa-48b0-b01d-d84aea4a7fb1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/27683bb5-e5aa-48b0-b01d-d84aea4a7fb1"
+}
+}
+},
+{
+"uuid": "ac47aa22-e6d4-42ce-bb22-441633e919d6",
+"fileName": "Muudatusettepanekud_18052026[51]AK.asice",
+"fileExtension": "asice",
+"fileTitle": "Lisa 2 asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T17:03:48.218",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac47aa22-e6d4-42ce-bb22-441633e919d6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac47aa22-e6d4-42ce-bb22-441633e919d6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/22b353fe-a3c3-45a6-9667-135fe14250da"
+}
+}
+},
+{
+"uuid": "673459cb-3be9-4a7a-8e64-a21117ad0915",
+"reference": "1-1/15-877/13",
+"title": "Tallinna Linnakantselei arvamus rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-20",
+"files": [
+{
+"uuid": "ba2e97ed-a3bf-4987-9964-7d8e349ead86",
+"fileName": "Tallinna_Linnakantselei__Kiri__6-6-462-2.txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T09:25:19.274",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba2e97ed-a3bf-4987-9964-7d8e349ead86/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba2e97ed-a3bf-4987-9964-7d8e349ead86"
+}
+}
+},
+{
+"uuid": "a604d31f-1cf7-4dfb-b704-1068a9ebdd63",
+"fileName": "Kiri_6-6__18052026_165045.rtf",
+"fileExtension": "rtf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T09:25:19.353",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a604d31f-1cf7-4dfb-b704-1068a9ebdd63/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a604d31f-1cf7-4dfb-b704-1068a9ebdd63"
+}
+}
+},
+{
+"uuid": "9da5d3fb-c375-41cc-aaa8-9f95b5624e0c",
+"fileName": "6-6_462-2_19052026_161372.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-20T09:25:19.282",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9da5d3fb-c375-41cc-aaa8-9f95b5624e0c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9da5d3fb-c375-41cc-aaa8-9f95b5624e0c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/673459cb-3be9-4a7a-8e64-a21117ad0915"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "9646f9de-4230-4f3b-9f4d-edce32121686",
+"reference": "1-1/15-877/5",
+"title": "Isamaa fraktsiooni muudatusettepanek rahvaraamatukogu seaduse eelnõu 877 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "fe4bce70-7b5c-49a0-96a1-bf69de52ec0c",
+"fileName": "Isamaa_ME_Rahvaraamatukogu_seaduse_eelno_u_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T11:37:04.873",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe4bce70-7b5c-49a0-96a1-bf69de52ec0c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe4bce70-7b5c-49a0-96a1-bf69de52ec0c"
+}
+}
+},
+{
+"uuid": "aae30657-9285-493d-bdc1-d7b58478668f",
+"fileName": "Isamaa_ME_Rahvaraamatukogu_seaduse_eelno_u_kohta.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T11:37:16.26",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aae30657-9285-493d-bdc1-d7b58478668f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aae30657-9285-493d-bdc1-d7b58478668f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9646f9de-4230-4f3b-9f4d-edce32121686"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/8025d475-44a4-4525-be95-14316721d120"
+}
+}
+}

@@ -1,0 +1,345 @@
+{
+"uuid": "549b51b7-70d2-479b-8d65-c7bdc1e13740",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 9-le protsendile\"",
+"mark": 783,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 9-le protsendile\" 783 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 9-le protsendile\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Käibemaksu alandamine aitaks vähendada toiduainete\nlõpphinda, muutes esmatarbekaupade ostmise taskukohasemaks.",
+"initiated": "2025-12-16",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-01-05T16:00:00",
+"responsibleMember": {
+"uuid": "8946b072-80c5-436e-95b2-41f928a7c636",
+"name": "Diana Ingerainen",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8946b072-80c5-436e-95b2-41f928a7c636?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4392,
+"text": "käibemaksumäär"
+},
+{
+"edid": 2735,
+"text": "toiduained"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "192130cd-8098-4cca-ac4e-d387694358fa",
+"title": "783 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5c15036c-d661-4a55-bbb6-20264f467e89",
+"fileName": "783_RK_o_toiduainete_käibemaks_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-16T13:03:29.217",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5c15036c-d661-4a55-bbb6-20264f467e89/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5c15036c-d661-4a55-bbb6-20264f467e89"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d6e1dd18-0ab1-4f20-abf3-c5d5739dfec6",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "52760cd4-94b6-47d3-817c-8fc7d7cda8cb",
+"fileName": "2025.12.16OE_toiduainete_käibemaks.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-16T11:08:15.495",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52760cd4-94b6-47d3-817c-8fc7d7cda8cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52760cd4-94b6-47d3-817c-8fc7d7cda8cb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d6e1dd18-0ab1-4f20-abf3-c5d5739dfec6",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "17c1573e-2fba-40ff-8e59-3eadcf507c6a",
+"fileName": "783E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-16T14:46:55.773",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17c1573e-2fba-40ff-8e59-3eadcf507c6a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17c1573e-2fba-40ff-8e59-3eadcf507c6a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "192130cd-8098-4cca-ac4e-d387694358fa",
+"title": "783 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8832d0f3-ee96-431e-a9e2-263a76404d0b",
+"fileName": "783_RK_o_toiduainete_käibemaks_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-16T13:03:53.85",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8832d0f3-ee96-431e-a9e2-263a76404d0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8832d0f3-ee96-431e-a9e2-263a76404d0b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d6e1dd18-0ab1-4f20-abf3-c5d5739dfec6",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b7f047a6-b8d3-4f33-bcc8-b0371d6aee96",
+"fileName": "783SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-16T14:47:18.853",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7f047a6-b8d3-4f33-bcc8-b0371d6aee96/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7f047a6-b8d3-4f33-bcc8-b0371d6aee96"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-12-16T11:07:37.158",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-12-16T14:51:00.961",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-02-16T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 16.02.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-03-18T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Diana Ingerainen"
+}
+],
+"protocolFiles": [
+{
+"uuid": "0e4f95db-a30a-4359-b83b-ad2333046166",
+"fileName": "RAHK_protokoll_16.02.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-22T20:13:44.737",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e4f95db-a30a-4359-b83b-ad2333046166/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e4f95db-a30a-4359-b83b-ad2333046166"
+}
+}
+},
+{
+"uuid": "5f855953-49e6-44d6-8c12-09f6449ff831",
+"fileName": "RAHK_protokoll_208_16.02.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-22T20:12:44.229",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f855953-49e6-44d6-8c12-09f6449ff831/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f855953-49e6-44d6-8c12-09f6449ff831"
+}
+}
+}
+]
+},
+{
+"date": "2026-03-18T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 18.03.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "9fac53f9-02dd-4656-a5d5-b1f93e473195",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-03-18T17:51:14.68",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9fac53f9-02dd-4656-a5d5-b1f93e473195"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "41573248-055e-411e-82b4-ef6cd4582358",
+"reference": "1-1/15-783/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 9-le protsendile\" eelnõu 783 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-03-16",
+"files": [
+{
+"uuid": "5d80b55f-9e1f-473a-a00b-65652bd57ceb",
+"fileName": "094.tel_Arvamus_783OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T10:22:49.393",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5d80b55f-9e1f-473a-a00b-65652bd57ceb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5d80b55f-9e1f-473a-a00b-65652bd57ceb"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/41573248-055e-411e-82b4-ef6cd4582358"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/549b51b7-70d2-479b-8d65-c7bdc1e13740"
+}
+}
+}

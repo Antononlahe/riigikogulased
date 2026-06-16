@@ -1,0 +1,424 @@
+{
+"uuid": "5cd1feba-64ac-44a2-9c53-2bd4424f3b0e",
+"etid": 523,
+"code": "1021",
+"text": "Euroopa Liidu rahalised vahendid",
+"descriptors": [
+{
+"edid": 1005,
+"text": "ELi rahastamine",
+"code": "1005",
+"uuid": "b6266116-f2af-439c-b513-db58ef407e41",
+"vol_cnt": 210,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Liidu rahastamine",
+"liidu rahastamine",
+"ühenduse rahastamine"
+],
+"narrowTerms": [
+"e3af7d3b-91d5-8433-d71b-404d8b0cf7c5",
+"c0936a76-8a57-423f-b322-223d98d66eb3",
+"f3a26230-e8f9-43e1-add6-4e9e97b28500"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 862,
+"text": "ELi abi",
+"code": "862",
+"uuid": "2062aa72-2071-105c-1321-3784adb7cfe3",
+"vol_cnt": 364,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Liidu abi",
+"Euroopa Liidu toetus",
+"ühenduse abi",
+"ühenduse toetus"
+],
+"narrowTerms": [
+"b6d4d539-ae80-4df2-927c-37272f7e99c5"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2062aa72-2071-105c-1321-3784adb7cfe3"
+}
+}
+},
+{
+"edid": 6025,
+"text": "kaasfinantseerimine",
+"code": "6025",
+"uuid": "d8ade73b-3f55-57cf-4fff-a6d61971dc1e",
+"vol_cnt": 38,
+"scopeNotes": [],
+"usedFors": [
+"kaasfinantseering",
+"kaasrahastamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d8ade73b-3f55-57cf-4fff-a6d61971dc1e"
+}
+}
+},
+{
+"edid": 1851,
+"text": "toetussüsteem",
+"code": "1851",
+"uuid": "95bef2e4-a458-49fc-852d-458a46a44544",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"toetusmehhanism"
+],
+"narrowTerms": [
+"93689017-932a-4459-80f1-1a229584cfe9",
+"22df2c9f-5362-4669-8a05-2fffb40d62da",
+"2bdd3b3d-2b74-4b5b-8188-fcc8975f7380",
+"a410fb9f-7ea1-45d5-98b3-df841e30361b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/95bef2e4-a458-49fc-852d-458a46a44544"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b6266116-f2af-439c-b513-db58ef407e41"
+}
+}
+},
+{
+"edid": 5051,
+"text": "ühenduse eelarve",
+"code": "5051",
+"uuid": "0e7559f1-afcf-4c3f-9a55-45197a0fa181",
+"vol_cnt": 19,
+"scopeNotes": [],
+"usedFors": [
+"EÜ eelarve"
+],
+"narrowTerms": [
+"bb44ccb0-3ab2-44fe-b691-ff17b071d1f0"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0e7559f1-afcf-4c3f-9a55-45197a0fa181"
+}
+}
+},
+{
+"edid": 5620,
+"text": "ELi eelarve koostamine",
+"code": "5620",
+"uuid": "8ada84d3-d8a6-4570-88b0-7407ce908be5",
+"vol_cnt": 11,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Liidu eelarve koostamine",
+"ühenduse eelarve koostamine"
+],
+"narrowTerms": [
+"b2038469-1baa-49fe-a94d-0de904a279f7",
+"33237cd5-3ba8-4286-8159-d2917b2c1510",
+"6bd18bd4-39b3-4831-a909-ac40adff3080"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 875,
+"text": "eelarve koostamine",
+"code": "875",
+"uuid": "fe0d4a47-a7ec-3297-fe53-c5bb539d2c5f",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"60eab6f4-c6d7-4902-8b72-904525fef2ec",
+"c9895107-63c8-4969-bd05-1b9c9f3b0e9b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fe0d4a47-a7ec-3297-fe53-c5bb539d2c5f"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8ada84d3-d8a6-4570-88b0-7407ce908be5"
+}
+}
+},
+{
+"edid": 3258,
+"text": "ELi eelarve rahastamine",
+"code": "3258",
+"uuid": "d82dee6d-d1ad-4b67-aa01-ec4df2eec439",
+"vol_cnt": 20,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Liidu eelarve rahastamine",
+"EÜ eelarve rahastamine",
+"ühenduse eelarve rahastamine"
+],
+"narrowTerms": [
+"788245f9-0908-462f-801d-3eaf8fa13408",
+"4ca7d9f7-b536-4484-abf3-823711cc160c",
+"b30bf10a-afda-40f1-9053-2e4538a7db03",
+"fb2726ec-ef1a-4d37-95ce-2ab427ea343c"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d82dee6d-d1ad-4b67-aa01-ec4df2eec439"
+}
+}
+},
+{
+"edid": 5576,
+"text": "ELi kulud",
+"code": "5576",
+"uuid": "91406108-6881-4dfc-9e32-5e9367131a87",
+"vol_cnt": 91,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Liidu kulud",
+"EÜ eelarvelised kulud",
+"ühenduse kulud"
+],
+"narrowTerms": [
+"6baf57af-e8ad-443d-a0ef-3e69972b3144",
+"6a6025f3-4d21-43b0-8e02-a96734ca1d0f",
+"7d305a40-f4b6-4a16-b056-23b7dff710ec",
+"eafaf7d7-cd3e-46f3-8332-9d64b85adb01"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 394,
+"text": "eelarvelised kulud",
+"code": "394",
+"uuid": "e221ebbb-1351-491c-b120-b159cde7abcd",
+"vol_cnt": 91,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"c82b3317-cc00-424b-862d-d72befe65c9b",
+"6c3f12ee-abd4-4da2-920a-fd99b6ca5541",
+"32d70cad-f229-4def-95e1-67f697210297",
+"3ce3469c-50d1-4800-b7bc-1ef83939431a"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e221ebbb-1351-491c-b120-b159cde7abcd"
+}
+}
+},
+{
+"edid": 392,
+"text": "kulud",
+"code": "392",
+"uuid": "13af8b2c-0bf4-440e-b257-147f06fc0212",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/13af8b2c-0bf4-440e-b257-147f06fc0212"
+}
+}
+},
+{
+"edid": 5138,
+"text": "tõukefond",
+"code": "5138",
+"uuid": "ff5c3bf8-6e83-f4bb-d8ad-46ba39581268",
+"vol_cnt": 19,
+"scopeNotes": [
+"Rahastamisvahend, mille abil Euroopa Komisjon tugevdab Euuroopa Liidu majanduslikku ja sotsiaalset ühtekuuluvust."
+],
+"usedFors": [
+"struktuurifond",
+"struktuurifondide reform"
+],
+"narrowTerms": [
+"118e44e9-678c-49f6-a757-92cc686b8e85",
+"b7d29ae9-f172-4711-b738-eed6d25d7fe2",
+"7a7a99b7-9fbf-433e-a9d1-437a83a883a7",
+"cda087a8-faff-46b9-83e7-8859d3762962"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ff5c3bf8-6e83-f4bb-d8ad-46ba39581268"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/91406108-6881-4dfc-9e32-5e9367131a87"
+}
+}
+},
+{
+"edid": 438855,
+"text": "ELi eelarve",
+"code": "438855",
+"uuid": "085ccafb-770c-4abd-8f0f-3085350bcc98",
+"vol_cnt": 83,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Liidu eelarve"
+],
+"narrowTerms": [
+"0c56f8c7-9b45-4a19-be80-4ffd5a9fce4b"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 508,
+"text": "ajutine kaheteistkümnendik",
+"code": "508",
+"uuid": "3585cfed-3474-41cd-a538-53e084a71905",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3585cfed-3474-41cd-a538-53e084a71905"
+}
+}
+},
+{
+"edid": 5050,
+"text": "eelarve",
+"code": "5050",
+"uuid": "7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a",
+"vol_cnt": 56,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a"
+}
+}
+},
+{
+"edid": 256,
+"text": "Euroopa Kontrollikoda",
+"code": "256",
+"uuid": "ac7774b7-45ba-4e45-a5a3-87026f51b74a",
+"vol_cnt": 11,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Liidu Kontrollikoda",
+"Euroopa Ühenduste Kontrollikoda"
+],
+"narrowTerms": [
+"96273498-53c4-4544-ac0f-76e15c8871b9"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ac7774b7-45ba-4e45-a5a3-87026f51b74a"
+}
+}
+},
+{
+"edid": 5648,
+"text": "Euroopa Liidu vastu suunatud pettus",
+"code": "5648",
+"uuid": "3e882ddc-fde0-421a-bf4d-9c83919464c6",
+"vol_cnt": 86,
+"scopeNotes": [],
+"usedFors": [
+"ELi vastu suunatud pettus",
+"Euroopa Liidu vastu suunatud kelmus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3e882ddc-fde0-421a-bf4d-9c83919464c6"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/085ccafb-770c-4abd-8f0f-3085350bcc98"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/5cd1feba-64ac-44a2-9c53-2bd4424f3b0e"
+}
+}
+}

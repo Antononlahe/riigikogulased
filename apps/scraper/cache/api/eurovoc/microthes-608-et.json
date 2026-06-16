@@ -1,0 +1,800 @@
+{
+"uuid": "bc033a76-6069-46e5-99b7-aa7b4dc384b0",
+"etid": 608,
+"code": "6416",
+"text": "uurimine ja intellektuaalomand",
+"descriptors": [
+{
+"edid": 2817,
+"text": "intellektuaalomand",
+"code": "2817",
+"uuid": "1996baca-ea6a-43aa-77a5-06cb812e1e2b",
+"vol_cnt": 40,
+"scopeNotes": [],
+"usedFors": [
+"intellektuaalne omand",
+"intellektuaalomandi õigus",
+"intellektuaalse omandi õigus"
+],
+"narrowTerms": [
+"08308637-da2a-eb90-6d46-96e3e0206d5c",
+"4c76c406-1717-ea21-c647-3a0b545c7ace"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 454809,
+"text": "avatud õppematerjalid",
+"code": "c_243b7be2",
+"uuid": "c26e3e64-e0cc-422c-ada1-c5e38e0e544e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c26e3e64-e0cc-422c-ada1-c5e38e0e544e"
+}
+}
+},
+{
+"edid": 4105,
+"text": "kirjanduslik ja kunstiline omand",
+"code": "4105",
+"uuid": "c666432f-3693-7957-7ded-cff224a21a93",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [
+"kunstiline ja kirjanduslik omand"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c666432f-3693-7957-7ded-cff224a21a93"
+}
+}
+},
+{
+"edid": 7133,
+"text": "sordikaitse",
+"code": "7133",
+"uuid": "79adbd69-1d6d-17ce-e448-7b4f84f20010",
+"vol_cnt": 6,
+"scopeNotes": [
+"Taimesortide aretamine ja avastamine."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/79adbd69-1d6d-17ce-e448-7b4f84f20010"
+}
+}
+},
+{
+"edid": 8426,
+"text": "õigus isikuportreele",
+"code": "8426",
+"uuid": "0021a1f8-2c39-46de-ba41-83502feed2a3",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0021a1f8-2c39-46de-ba41-83502feed2a3"
+}
+}
+},
+{
+"edid": 2143,
+"text": "Ülemaailmne Intellektuaalomandi Organisatsioon",
+"code": "2143",
+"uuid": "5f51336e-29a1-47df-b80c-638e05d40471",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"WIPO",
+"Ülemaailmne Intellektuaalse Omandi Organisatsioon"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5f51336e-29a1-47df-b80c-638e05d40471"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1996baca-ea6a-43aa-77a5-06cb812e1e2b"
+}
+}
+},
+{
+"edid": 2478,
+"text": "uurimispoliitika",
+"code": "2478",
+"uuid": "38816257-7a72-487d-820b-eb49bf975e28",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"teaduspoliitika",
+"tehnoloogiapoliitika",
+"uurimise edendamine"
+],
+"narrowTerms": [
+"be4efc6d-76aa-44ba-9f9a-bfe6f3cc8422",
+"8aefdf60-fb39-46aa-ae50-22d934643d03",
+"aa402d4f-ca7f-44a1-9ec9-eaa21337dd94",
+"b709bbc7-14f6-450f-b0e8-0748b62ff02c",
+"0f81dda6-ea46-08a7-0dab-781ca5452944",
+"dfeca0e3-bc35-5f8a-82ba-60b5b2450074",
+"ef7516c1-e905-4ab7-d157-67922122ce86",
+"86513354-0e0f-4e37-9793-bbdc6e665b15",
+"ea75a72f-5814-57d6-0794-0806619bcb27",
+"58ad40b1-ba40-08f2-eef2-9919dc890bed",
+"3292bb88-fe47-453f-b200-eeaa46a07cc3",
+"edb62ae1-4fa1-4024-9de9-1ba84c433c1c"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 7951,
+"text": "teadmusmajandus",
+"code": "7951",
+"uuid": "52689300-6f3c-431e-9848-568f603f825a",
+"vol_cnt": 9,
+"scopeNotes": [
+"Teadmistel ja tehnoloogilistel uuendustel põhinev majandus, mille tulemusena luuakse oskusteabe võrgustik."
+],
+"usedFors": [
+"digitaalne majandus",
+"e-majandus",
+"teadmistepõhine majandus",
+"teadmuspõhine majandus",
+"võrgumajandus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/52689300-6f3c-431e-9848-568f603f825a"
+}
+}
+},
+{
+"edid": 223,
+"text": "teaduskoostöö",
+"code": "223",
+"uuid": "5908b4e8-9492-57c9-8427-44e34fb9c5ee",
+"vol_cnt": 105,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"05756f62-6ae4-4cbd-bdab-6fed7bd555a0"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5908b4e8-9492-57c9-8427-44e34fb9c5ee"
+}
+}
+},
+{
+"edid": 6302,
+"text": "teaduskorraldus",
+"code": "6302",
+"uuid": "1748d526-451f-033f-b156-67294f2a5b4a",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1748d526-451f-033f-b156-67294f2a5b4a"
+}
+}
+},
+{
+"edid": 5122,
+"text": "teadusvahetus",
+"code": "5122",
+"uuid": "05756f62-6ae4-4cbd-bdab-6fed7bd555a0",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"teadustöötajate vahetus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/05756f62-6ae4-4cbd-bdab-6fed7bd555a0"
+}
+}
+},
+{
+"edid": 5973,
+"text": "tehnika valik",
+"code": "5973",
+"uuid": "51801d37-31b3-4cc3-83c3-aef5fe90c50b",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"tehnoloogiline valikuvõimalus"
+],
+"narrowTerms": [
+"536eee1f-9ae1-3cfc-c7a5-3a8368e2f61f",
+"2cc3cfb8-6f69-4d11-844c-c467676b5640",
+"0c9d0907-959a-4aa1-a0cf-98aeac657bb2",
+"47701cb8-5c4f-48ac-9a1d-763efbe1537b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/51801d37-31b3-4cc3-83c3-aef5fe90c50b"
+}
+}
+},
+{
+"edid": 3627,
+"text": "tehnoloogiapark",
+"code": "3627",
+"uuid": "5f470e91-645a-4128-8195-225d5705d760",
+"vol_cnt": 0,
+"scopeNotes": [
+"Teadusuuringute, kõrghariduse ja kõrgtehnoloogia keskuste kokku kogumine ühte kohta."
+],
+"usedFors": [
+"teaduspark",
+"tehnopark"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5f470e91-645a-4128-8195-225d5705d760"
+}
+}
+},
+{
+"edid": 2481,
+"text": "tootmispoliitika",
+"code": "2481",
+"uuid": "e779d709-af04-4cdc-b58f-cfd195ad7266",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"tootmise ümberkorraldamine",
+"tootmisjuhtimine",
+"tööstusjuhtimine"
+],
+"narrowTerms": [
+"ffbe9e3f-2b15-4864-a227-aff956c56efc",
+"d652d5ae-8bca-4ffa-ad51-5741e4a0a0a1",
+"66b0a394-449a-4dc2-8c76-94122fec31d6",
+"20fa7cdd-423b-03a1-4936-99878c4a395e",
+"09bef20a-a256-4310-9cdf-5b5048419cb7",
+"41603c4c-249c-4125-abb0-3802e665e8d5",
+"6f021435-fa3b-4461-9557-7ecc71077003",
+"db48443d-fb4e-4c1e-a2f5-0af6e14383aa",
+"97dce76a-5d3a-4e1b-8afe-73403aed2edf",
+"491e53ff-880b-49b6-adc0-0436641c4a92",
+"a6d8bac9-9bf1-4c93-88c6-a82a37ddc4ea",
+"0d5b2b94-98c2-4a68-868e-fe3e1647ce3d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e779d709-af04-4cdc-b58f-cfd195ad7266"
+}
+}
+},
+{
+"edid": 2507,
+"text": "tööstuspoliitika",
+"code": "2507",
+"uuid": "ace6d913-4804-44fd-9a5d-59661a21fe8a",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"3c66f1f6-cb03-48d6-b6e9-3ca83f72620a",
+"db320505-3a64-4b67-b675-58ee8161adf0",
+"5f470e91-645a-4128-8195-225d5705d760",
+"76062c03-1af4-40c7-b5a6-a17c306608cf",
+"99e3697b-7107-4e96-a179-ebb5ca53f807",
+"19475310-f33b-4457-b502-ecf3af2437ec",
+"07d8dfc1-f76c-485b-a1cd-12383c4b568f",
+"ba4af957-2595-4990-824f-86bc2220a6b9",
+"3613f3b1-4d82-4bbc-89d5-939eb1006b0e",
+"f60577bb-f8d5-452e-8074-94204811130e",
+"04e3a865-fca0-47fc-a48a-c7501208968a",
+"2007bef4-b6bf-43ab-b1c0-89a5a60896dc",
+"7e5750e1-b555-40c0-9755-fad7989203da",
+"bb4c0597-7bb3-47f4-a42d-fd4320182073",
+"c32af56a-0363-4be2-8566-fab9380549c6",
+"cb1fed29-be3b-4f79-bb6d-280ab0c514a6",
+"bacdb32a-5746-482b-ac64-0faf2777227a",
+"c8a40fa2-dca0-442c-91b4-a9f6e85bf4dc"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ace6d913-4804-44fd-9a5d-59661a21fe8a"
+}
+}
+},
+{
+"edid": 2914,
+"text": "uurimine",
+"code": "2914",
+"uuid": "2c85a508-0cce-4098-bb01-8a9ed5d40e02",
+"vol_cnt": 12,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"72fb7e94-af24-47ef-b526-955be8af8f08",
+"76397225-11ba-472d-8153-695f8e7cc79d",
+"3a6a931b-9e70-4969-8ea9-5cf250b6251c",
+"ae8968ae-34e6-441c-aa14-dae04cf29979",
+"58ba5aba-de92-f1c7-7d6f-806317f90299",
+"82bf4454-2bf5-3c3d-f83a-b3ae774c0e10",
+"9ab247af-d5d6-fe15-22aa-f3bb774c91a8",
+"ad4e26dd-7860-433b-85ee-f116875a34c7",
+"1748d526-451f-033f-b156-67294f2a5b4a",
+"7024f443-1bef-43ac-6bff-4531a8d70a5e",
+"772d9738-a767-431d-b32c-2f69db94763f",
+"f3b457b5-0cff-4ca3-8e9e-1db15f1c27e6",
+"c158ce30-73cd-4727-838b-c3070f14b79b",
+"6ef6b632-4b46-41e6-a520-d9b3e59c43a6",
+"96f5c758-20ca-4aef-ab65-a2065304c3d3"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2c85a508-0cce-4098-bb01-8a9ed5d40e02"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/38816257-7a72-487d-820b-eb49bf975e28"
+}
+}
+},
+{
+"edid": 4185,
+"text": "kosmosepoliitika",
+"code": "4185",
+"uuid": "c11142f6-a74c-4e19-a994-5769c565fe37",
+"vol_cnt": 26,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"b2c70deb-7c9c-4f43-8407-5a7edb4e197e"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4001,
+"text": "kosmose kasutamine",
+"code": "4001",
+"uuid": "1444f96c-d12d-47cf-8f48-e34f6d2c9b9c",
+"vol_cnt": 18,
+"scopeNotes": [],
+"usedFors": [
+"kosmose rahuotstarbeline kasutamine",
+"kosmose uurimine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1444f96c-d12d-47cf-8f48-e34f6d2c9b9c"
+}
+}
+},
+{
+"edid": 6382,
+"text": "kosmoseteadus",
+"code": "6382",
+"uuid": "d7c69820-96d8-4844-af09-4ad96a3cec1b",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"3ecf3de6-b914-4eef-8d15-a09c5bbefc03",
+"07946904-1f5f-4455-87c2-0ca5943590a5"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d7c69820-96d8-4844-af09-4ad96a3cec1b"
+}
+}
+},
+{
+"edid": 3092,
+"text": "kosmosetransport",
+"code": "3092",
+"uuid": "1700b7d7-8fc0-4832-b5e1-ec6dea930c00",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"d5149c53-6437-4d8f-9341-2bb1515e655a",
+"1c83ef6a-db3e-4982-bad4-d9a7e65b32a0",
+"4ff12eac-b56c-443c-8dea-a8a9b30196f1",
+"63fb8b6f-eb42-4707-82fe-49f875dbe28e"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1700b7d7-8fc0-4832-b5e1-ec6dea930c00"
+}
+}
+},
+{
+"edid": 1358,
+"text": "kosmosetööstus",
+"code": "1358",
+"uuid": "62ac6810-bced-4a38-bfd8-7c42ddc1154a",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/62ac6810-bced-4a38-bfd8-7c42ddc1154a"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c11142f6-a74c-4e19-a994-5769c565fe37"
+}
+}
+},
+{
+"edid": 2914,
+"text": "uurimine",
+"code": "2914",
+"uuid": "2c85a508-0cce-4098-bb01-8a9ed5d40e02",
+"vol_cnt": 12,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"72fb7e94-af24-47ef-b526-955be8af8f08",
+"76397225-11ba-472d-8153-695f8e7cc79d",
+"3a6a931b-9e70-4969-8ea9-5cf250b6251c",
+"ae8968ae-34e6-441c-aa14-dae04cf29979",
+"58ba5aba-de92-f1c7-7d6f-806317f90299",
+"82bf4454-2bf5-3c3d-f83a-b3ae774c0e10",
+"9ab247af-d5d6-fe15-22aa-f3bb774c91a8",
+"ad4e26dd-7860-433b-85ee-f116875a34c7",
+"1748d526-451f-033f-b156-67294f2a5b4a",
+"7024f443-1bef-43ac-6bff-4531a8d70a5e",
+"772d9738-a767-431d-b32c-2f69db94763f",
+"f3b457b5-0cff-4ca3-8e9e-1db15f1c27e6",
+"c158ce30-73cd-4727-838b-c3070f14b79b",
+"6ef6b632-4b46-41e6-a520-d9b3e59c43a6",
+"96f5c758-20ca-4aef-ab65-a2065304c3d3"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2923,
+"text": "arstiteaduslik uurimus",
+"code": "2923",
+"uuid": "be923bd6-fa06-696e-0866-c64b59fc9793",
+"vol_cnt": 27,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/be923bd6-fa06-696e-0866-c64b59fc9793"
+}
+}
+},
+{
+"edid": 5238,
+"text": "kosmoseuuring",
+"code": "5238",
+"uuid": "b2c70deb-7c9c-4f43-8407-5a7edb4e197e",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"kosmosemeditsiin"
+],
+"narrowTerms": [
+"08e66f88-9ef4-4e68-80e6-7f5741604988"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b2c70deb-7c9c-4f43-8407-5a7edb4e197e"
+}
+}
+},
+{
+"edid": 2915,
+"text": "põllumajandusuuringud",
+"code": "2915",
+"uuid": "35b37021-64ee-75f6-b709-fefcd2f9a5da",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"põllumajanduslikud uuringud"
+],
+"narrowTerms": [
+"de6d4fc7-e45e-4588-b9c8-268ad72a8656",
+"2624fe44-708b-4005-bb4e-00027ff987c3",
+"5f43b145-797e-49fd-90a1-0ec97bd2781c"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/35b37021-64ee-75f6-b709-fefcd2f9a5da"
+}
+}
+},
+{
+"edid": 71,
+"text": "tootekujundus",
+"code": "71",
+"uuid": "089af87e-8a4e-450d-88ff-9e9499c5d4a1",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [
+"toote areng",
+"tootearendus"
+],
+"narrowTerms": [
+"93ac6558-b427-47ff-a52f-ee282fb463b2",
+"29eaf9bd-7c0c-40e5-9715-5e7f2cc27ebe"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/089af87e-8a4e-450d-88ff-9e9499c5d4a1"
+}
+}
+},
+{
+"edid": 6703,
+"text": "tuumaalane uurimistöö",
+"code": "6703",
+"uuid": "c8137bc7-9c40-4e9d-a84c-80bb2502c1ff",
+"vol_cnt": 26,
+"scopeNotes": [],
+"usedFors": [
+"tuumauuringud"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c8137bc7-9c40-4e9d-a84c-80bb2502c1ff"
+}
+}
+},
+{
+"edid": 3657,
+"text": "tööstuse ja teaduse suhted",
+"code": "3657",
+"uuid": "86513354-0e0f-4e37-9793-bbdc6e665b15",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/86513354-0e0f-4e37-9793-bbdc6e665b15"
+}
+}
+},
+{
+"edid": 5237,
+"text": "uurimis- ja arendustegevus",
+"code": "5237",
+"uuid": "ea75a72f-5814-57d6-0794-0806619bcb27",
+"vol_cnt": 235,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ea75a72f-5814-57d6-0794-0806619bcb27"
+}
+}
+},
+{
+"edid": 2896,
+"text": "uurimisaruanne",
+"code": "2896",
+"uuid": "fa49b001-d219-4221-9ce5-aaee2489fc6a",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fa49b001-d219-4221-9ce5-aaee2489fc6a"
+}
+}
+},
+{
+"edid": 3660,
+"text": "uurimisasutus",
+"code": "3660",
+"uuid": "58ad40b1-ba40-08f2-eef2-9919dc890bed",
+"vol_cnt": 17,
+"scopeNotes": [],
+"usedFors": [
+"uurimisettevõte",
+"uurimisinstituut",
+"uurimislabor"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/58ad40b1-ba40-08f2-eef2-9919dc890bed"
+}
+}
+},
+{
+"edid": 2478,
+"text": "uurimispoliitika",
+"code": "2478",
+"uuid": "38816257-7a72-487d-820b-eb49bf975e28",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"teaduspoliitika",
+"tehnoloogiapoliitika",
+"uurimise edendamine"
+],
+"narrowTerms": [
+"be4efc6d-76aa-44ba-9f9a-bfe6f3cc8422",
+"8aefdf60-fb39-46aa-ae50-22d934643d03",
+"aa402d4f-ca7f-44a1-9ec9-eaa21337dd94",
+"b709bbc7-14f6-450f-b0e8-0748b62ff02c",
+"0f81dda6-ea46-08a7-0dab-781ca5452944",
+"dfeca0e3-bc35-5f8a-82ba-60b5b2450074",
+"ef7516c1-e905-4ab7-d157-67922122ce86",
+"86513354-0e0f-4e37-9793-bbdc6e665b15",
+"ea75a72f-5814-57d6-0794-0806619bcb27",
+"58ad40b1-ba40-08f2-eef2-9919dc890bed",
+"3292bb88-fe47-453f-b200-eeaa46a07cc3",
+"edb62ae1-4fa1-4024-9de9-1ba84c433c1c"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/38816257-7a72-487d-820b-eb49bf975e28"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2c85a508-0cce-4098-bb01-8a9ed5d40e02"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/bc033a76-6069-46e5-99b7-aa7b4dc384b0"
+}
+}
+}

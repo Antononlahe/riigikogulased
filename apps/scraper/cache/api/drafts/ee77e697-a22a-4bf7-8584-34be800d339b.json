@@ -1,0 +1,990 @@
+{
+"uuid": "ee77e697-a22a-4bf7-8584-34be800d339b",
+"title": "Kemikaaliseaduse muutmise seadus",
+"mark": 701,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kemikaaliseaduse muutmise seadus 701 SE",
+"initialTitle": "Kemikaaliseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga täpsustatakse SEVESO III direktiivist tulenevaid nõudeid ohtlikele ja suurõnnetuse ohuga ettevõtetele, lahendades Euroopa Komisjoni algatatud rikkumismenetluse. Muudatused selgitavad avalikkuse, sh naaberettevõtete teavitamise kohustust, ametiasutuste (Päästeamet, TTJA) ülesandeid ning nende koostööd suurõnnetuste uurimisel. Sisulisi uusi nõudeid ei lisandu, kuid seadust muudetakse õiguslikult selgemaks. Direktiiviväliselt vähendatakse ettevõtete halduskoormust, nõudes edaspidi dokumentide esitamist ainult elektrooniliselt TTJA infosüsteemi kaudu. Seadus jõustub üldises korras.",
+"initiated": "2025-09-08",
+"joined": null,
+"accepted": "2025-11-18",
+"amendmentsDeadline": "2025-10-22T17:15:00",
+"responsibleMember": {
+"uuid": "122e850b-5e6b-41f6-8b91-830ca8de8450",
+"name": "Mait Klaassen",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/122e850b-5e6b-41f6-8b91-830ca8de8450?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "2cd280db-ea9c-4d29-8474-f83075ae0fc9",
+"name": "Vivi Older",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/2cd280db-ea9c-4d29-8474-f83075ae0fc9?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 2739,
+"text": "keemiatoode"
+},
+{
+"edid": 4308,
+"text": "ohtlik aine"
+},
+{
+"edid": 4076,
+"text": "tööstustegevusest tulenev oht"
+},
+{
+"edid": 5334,
+"text": "teabe avalikustamine"
+},
+{
+"edid": 5810,
+"text": "õnnetuste vältimine"
+},
+{
+"edid": 2247,
+"text": "liidu õiguse riigisisene rakendamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "387205f0-e990-45cd-8d5f-8fd116122f00",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9c8cd702-5c1c-48f4-bb42-4f6fcb21672a",
+"fileName": "RK_25-01443-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T17:40:27.535",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9c8cd702-5c1c-48f4-bb42-4f6fcb21672a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9c8cd702-5c1c-48f4-bb42-4f6fcb21672a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "387205f0-e990-45cd-8d5f-8fd116122f00",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c8ad6f40-ebf7-45bf-8346-40cb071e7e87",
+"fileName": "[EIS]_Eelnõu_esitamine__MKM-25-0823_-_Kemikaaliseaduse_muutmise_seaduse_eelnõu.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T17:40:27.751",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8ad6f40-ebf7-45bf-8346-40cb071e7e87/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8ad6f40-ebf7-45bf-8346-40cb071e7e87"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7b35c202-18d5-4b97-9bc8-c8ba1989b5d6",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8cbd8f60-6e8c-4ffc-acc9-bbe14e443f3c",
+"fileName": "701_KemS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-22T13:06:42.698",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8cbd8f60-6e8c-4ffc-acc9-bbe14e443f3c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8cbd8f60-6e8c-4ffc-acc9-bbe14e443f3c"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "09ffd111-c119-41eb-b9f6-4d76fadc2fcf",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e83e53f4-2681-4b7f-9c0c-6e09e07b7226",
+"fileName": "701_SE_2.lug_tekst.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-06T13:36:38.313",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e83e53f4-2681-4b7f-9c0c-6e09e07b7226/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e83e53f4-2681-4b7f-9c0c-6e09e07b7226"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d7ca0b07-c9c2-4ecd-9aa0-eb4852223eb7",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "44652752-983a-49cb-9cf3-d7e89407e315",
+"fileName": "701_SE_3.lug_tekst.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T11:31:06.955",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/44652752-983a-49cb-9cf3-d7e89407e315/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/44652752-983a-49cb-9cf3-d7e89407e315"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "387205f0-e990-45cd-8d5f-8fd116122f00",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7e2b84d1-70f8-4600-845f-c1c67b6e4515",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T17:40:27.658",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e2b84d1-70f8-4600-845f-c1c67b6e4515/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e2b84d1-70f8-4600-845f-c1c67b6e4515"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "387205f0-e990-45cd-8d5f-8fd116122f00",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "459d58ca-797a-4458-9937-ef650c4525da",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T17:40:27.669",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/459d58ca-797a-4458-9937-ef650c4525da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/459d58ca-797a-4458-9937-ef650c4525da"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "387205f0-e990-45cd-8d5f-8fd116122f00",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6dc35cea-e4b7-40ef-92ae-cedec6d3da10",
+"fileName": "25-01443-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T17:40:27.642",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6dc35cea-e4b7-40ef-92ae-cedec6d3da10/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6dc35cea-e4b7-40ef-92ae-cedec6d3da10"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c2fa4e8d-d9a0-468a-ba03-ba2e59e2ebc8",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "12b79ee7-e314-46d1-b712-961b83a02542",
+"fileName": "701_Kaaskiri_Vabariigi_Presidendile_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-18T10:27:40.115",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/12b79ee7-e314-46d1-b712-961b83a02542/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/12b79ee7-e314-46d1-b712-961b83a02542"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "d96fb1b8-3665-4d5b-aae4-719c0c9dc39f",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "10d00ea3-a72a-4a70-8850-bff04e164002",
+"fileName": "701XV_Kemikaalis_ms_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-26T13:40:14.565",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/10d00ea3-a72a-4a70-8850-bff04e164002/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/10d00ea3-a72a-4a70-8850-bff04e164002"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "d96fb1b8-3665-4d5b-aae4-719c0c9dc39f",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "02568048-0d0b-4645-b9d9-84f2e2e44321",
+"fileName": "701XV_Kemikaalis_ms_2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-26T13:40:00.687",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/02568048-0d0b-4645-b9d9-84f2e2e44321/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/02568048-0d0b-4645-b9d9-84f2e2e44321"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "09ffd111-c119-41eb-b9f6-4d76fadc2fcf",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "96975686-82a4-4106-bb03-2c0821a28a1c",
+"fileName": "701_SE_2.lug_MEde_loetelu.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-06T13:37:18.214",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/96975686-82a4-4106-bb03-2c0821a28a1c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/96975686-82a4-4106-bb03-2c0821a28a1c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7b35c202-18d5-4b97-9bc8-c8ba1989b5d6",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0c26dce7-35e1-45a3-a427-383f935c9739",
+"fileName": "701_KemS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-22T13:07:00.464",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c26dce7-35e1-45a3-a427-383f935c9739/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c26dce7-35e1-45a3-a427-383f935c9739"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "09ffd111-c119-41eb-b9f6-4d76fadc2fcf",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2b7bb3bc-39f0-460b-8765-f731666e0a79",
+"fileName": "701_SE2.lugsk.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-06T13:37:04.49",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b7bb3bc-39f0-460b-8765-f731666e0a79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b7bb3bc-39f0-460b-8765-f731666e0a79"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "387205f0-e990-45cd-8d5f-8fd116122f00",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "89e83eaf-4ebc-4264-b666-c020478f80f4",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T17:40:27.681",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/89e83eaf-4ebc-4264-b666-c020478f80f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/89e83eaf-4ebc-4264-b666-c020478f80f4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "387205f0-e990-45cd-8d5f-8fd116122f00",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5180cdf9-ac57-4f05-b5ee-bcb53b9d491c",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T17:40:27.692",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5180cdf9-ac57-4f05-b5ee-bcb53b9d491c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5180cdf9-ac57-4f05-b5ee-bcb53b9d491c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7b35c202-18d5-4b97-9bc8-c8ba1989b5d6",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "90ac7ff4-635a-4fce-b94f-a7eed1d749c6",
+"fileName": "701_KemS_m_s_SK_Lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (rakendusakti kavand)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-22T13:07:11.547",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90ac7ff4-635a-4fce-b94f-a7eed1d749c6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90ac7ff4-635a-4fce-b94f-a7eed1d749c6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "387205f0-e990-45cd-8d5f-8fd116122f00",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eaf1fac8-b41b-43ad-908a-13c9e6e76c26",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (rakendusakti kavand) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T17:40:27.704",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eaf1fac8-b41b-43ad-908a-13c9e6e76c26/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eaf1fac8-b41b-43ad-908a-13c9e6e76c26"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "387205f0-e990-45cd-8d5f-8fd116122f00",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "83799d92-6204-4c40-b5c0-439c3d7e8724",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (rakendusakti kavand) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-08T17:40:27.716",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83799d92-6204-4c40-b5c0-439c3d7e8724/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83799d92-6204-4c40-b5c0-439c3d7e8724"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "387205f0-e990-45cd-8d5f-8fd116122f00",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "de5ae7cc-dd0f-46d8-9a85-504faf5997c5",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (põhjendatud arvamus) pdf",
+"accessRestrictionType": "FOR_USE_WITHIN_ESTABLISHMENT",
+"accessRestrictionStartDate": "2025-09-10",
+"accessRestrictionEndDate": "2050-09-10",
+"accessRestrictionBasis": [
+{
+"code": "8",
+"value": "AvTS § 35 lg 1 p 3 teave, mille avalikuks tulek kahjustaks riigi välissuhtlemist"
+}
+],
+"created": "2025-09-08T17:40:27.728",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de5ae7cc-dd0f-46d8-9a85-504faf5997c5"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "631815a6-fe79-4530-9631-586fb9b04095",
+"reference": "1-1/15-701/2",
+"title": "Vabariigi Presidendi otsus nr 618",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1c5541af-dcfe-4d0d-9268-18dd22ec9120",
+"fileName": "VP_26112025_o618.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-26T13:24:13.927",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c5541af-dcfe-4d0d-9268-18dd22ec9120/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c5541af-dcfe-4d0d-9268-18dd22ec9120"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "631815a6-fe79-4530-9631-586fb9b04095",
+"reference": "1-1/15-701/2",
+"title": "Vabariigi Presidendi otsus nr 618",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6550b64c-daa7-42ca-b154-1b992f3f9680",
+"fileName": "VP_26112025_o618.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-26T13:24:13.847",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6550b64c-daa7-42ca-b154-1b992f3f9680/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6550b64c-daa7-42ca-b154-1b992f3f9680"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c2fa4e8d-d9a0-468a-ba03-ba2e59e2ebc8",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c89ecaf8-f93e-4dd5-a9c8-f6d00672b8ad",
+"fileName": "701XV_Kemikaalis_ms_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-18T09:30:24.689",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c89ecaf8-f93e-4dd5-a9c8-f6d00672b8ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c89ecaf8-f93e-4dd5-a9c8-f6d00672b8ad"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c2fa4e8d-d9a0-468a-ba03-ba2e59e2ebc8",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d22eabe6-8cd9-41a4-a7ea-c3dd83e9f009",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-18T10:28:27.737",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d22eabe6-8cd9-41a4-a7ea-c3dd83e9f009/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d22eabe6-8cd9-41a4-a7ea-c3dd83e9f009"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-09-08T17:39:57.395",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-09-09T14:46:00.958",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-09-22T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 22.09.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-10-08T14:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Mait Klaassen"
+}
+],
+"protocolFiles": [
+{
+"uuid": "66584093-3f36-4ad3-bb36-cc95893acbeb",
+"fileName": "KEKK_protokoll_nr_121_22.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T16:50:07.027",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/66584093-3f36-4ad3-bb36-cc95893acbeb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/66584093-3f36-4ad3-bb36-cc95893acbeb"
+}
+}
+},
+{
+"uuid": "cfbf6866-6892-41d9-85fa-154cfbb3d702",
+"fileName": "Asendus_(Seeme).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Seeme)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-22T12:43:42.989",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cfbf6866-6892-41d9-85fa-154cfbb3d702/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cfbf6866-6892-41d9-85fa-154cfbb3d702"
+}
+}
+},
+{
+"uuid": "c3b2bcfa-d295-4082-a593-fea74c8918ed",
+"fileName": "Keskkonnakomisjoni_esitlus_kemikaaliseadus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T10:17:16.481",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3b2bcfa-d295-4082-a593-fea74c8918ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3b2bcfa-d295-4082-a593-fea74c8918ed"
+}
+}
+},
+{
+"uuid": "cdd860c8-2bdc-47f9-b824-f58e0fa5d3e1",
+"fileName": "KEKK_protokoll_22.09.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-25T16:50:46.386",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cdd860c8-2bdc-47f9-b824-f58e0fa5d3e1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cdd860c8-2bdc-47f9-b824-f58e0fa5d3e1"
+}
+}
+}
+]
+},
+{
+"date": "2025-10-08T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 8.10.2025 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-04T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 4.11.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-11-11T10:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2025-11-18T10:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "8f6ed64a-40c2-4a2c-abcb-7787426bfc99",
+"fileName": "KEKK_protokoll_04.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-10T09:18:02.684",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8f6ed64a-40c2-4a2c-abcb-7787426bfc99/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8f6ed64a-40c2-4a2c-abcb-7787426bfc99"
+}
+}
+},
+{
+"uuid": "aef5b3c7-600c-46f0-9e2c-d8a58f162a58",
+"fileName": "KEKK_protokoll_nr_128_04.11.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-10T09:17:21.187",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aef5b3c7-600c-46f0-9e2c-d8a58f162a58/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aef5b3c7-600c-46f0-9e2c-d8a58f162a58"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-11T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 11.11.2025 10:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-18T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 18.11.2025 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "d21e9bbd-0da2-4a00-897b-ba0446de8ea3",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-11-18T10:09:41.42",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/d21e9bbd-0da2-4a00-897b-ba0446de8ea3"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-11-18T13:14:34.12",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2025-11-26T13:25:16.394",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2025-12-03T12:18:11.879",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [
+{
+"uuid": "9b749010-8611-48b4-89d0-aac35d4f2ea0",
+"reference": "1-1/15-701/1",
+"title": "Riigikogu liikme R. Epleri muudatusettepanekud kemikaaliseaduse muutmise seaduse eelnõu 701 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "785c2e1c-9901-449a-b2c8-f2ceb9ae2afb",
+"fileName": "20251017_ME_701SE_Epler.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T08:56:32.48",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/785c2e1c-9901-449a-b2c8-f2ceb9ae2afb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/785c2e1c-9901-449a-b2c8-f2ceb9ae2afb"
+}
+}
+},
+{
+"uuid": "2f818d72-4592-471f-b5ab-b7de786e81ee",
+"fileName": "20251017_ME_701SE_Epler.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T08:56:04.768",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f818d72-4592-471f-b5ab-b7de786e81ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f818d72-4592-471f-b5ab-b7de786e81ee"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9b749010-8611-48b4-89d0-aac35d4f2ea0"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/ee77e697-a22a-4bf7-8584-34be800d339b"
+}
+}
+}

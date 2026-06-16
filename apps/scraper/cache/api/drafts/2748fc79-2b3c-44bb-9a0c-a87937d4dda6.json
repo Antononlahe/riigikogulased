@@ -1,0 +1,349 @@
+{
+"uuid": "2748fc79-2b3c-44bb-9a0c-a87937d4dda6",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 9-le protsendile\"",
+"mark": 672,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 9-le protsendile\" 672 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 9-le protsendile\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse ettepanek langetada 9-le protsendile põhitoidugruppide käibemaks – juur- ja köögiviljad, piima-, liha-, teravilja- ning kalatooted.",
+"initiated": "2025-06-09",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-06-26T17:15:00",
+"responsibleMember": {
+"uuid": "8946b072-80c5-436e-95b2-41f928a7c636",
+"name": "Diana Ingerainen",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8946b072-80c5-436e-95b2-41f928a7c636?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4392,
+"text": "käibemaksumäär"
+},
+{
+"edid": 2735,
+"text": "toiduained"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "55c02ddf-4d31-4558-87f2-d68b6ff10047",
+"title": "672 OE I.lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4eafba20-c8d8-4e56-8a4c-f300107ac804",
+"fileName": "672_RK_o_Ettepanek_VVle_toiduainete_käibemaks_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-22T17:31:24.147",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4eafba20-c8d8-4e56-8a4c-f300107ac804/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4eafba20-c8d8-4e56-8a4c-f300107ac804"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "866ce0a9-890b-4921-a66b-f091866ec21f",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7afc5333-fb37-4b1b-bc64-c037a2735121",
+"fileName": "2025.06.09OE_toiduainete_käibemaks.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-09T16:15:30.796",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7afc5333-fb37-4b1b-bc64-c037a2735121/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7afc5333-fb37-4b1b-bc64-c037a2735121"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "866ce0a9-890b-4921-a66b-f091866ec21f",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4367c127-ebcb-4979-8e69-55ebdf68f8bf",
+"fileName": "672_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-09T16:23:21.159",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4367c127-ebcb-4979-8e69-55ebdf68f8bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4367c127-ebcb-4979-8e69-55ebdf68f8bf"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "55c02ddf-4d31-4558-87f2-d68b6ff10047",
+"title": "672 OE I.lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "78ed2da6-7b2b-44c9-a78b-286373e6dd69",
+"fileName": "672_RK_o_Ettepanek_VVle_toiduainete_käibemaks_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-22T17:31:05.895",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78ed2da6-7b2b-44c9-a78b-286373e6dd69/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78ed2da6-7b2b-44c9-a78b-286373e6dd69"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "866ce0a9-890b-4921-a66b-f091866ec21f",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e601cf71-3385-4a8c-99a3-43a72731fe6a",
+"fileName": "672_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-09T16:23:33.737",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e601cf71-3385-4a8c-99a3-43a72731fe6a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e601cf71-3385-4a8c-99a3-43a72731fe6a"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-06-09T16:14:58.57",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-06-10T17:22:00.851",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-10-14T13:30:00",
+"sittingTitle": "Komisjoni istung teisipäev, 14.10.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-10-21T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Diana Ingerainen"
+}
+],
+"protocolFiles": [
+{
+"uuid": "97e00db1-f5eb-4d87-900a-9f6f84c180d0",
+"fileName": "RAHK_protokoll_14.10.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T12:03:20.92",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/97e00db1-f5eb-4d87-900a-9f6f84c180d0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/97e00db1-f5eb-4d87-900a-9f6f84c180d0"
+}
+}
+},
+{
+"uuid": "20481986-e874-4ca6-94ca-9e07ad4ee7cb",
+"fileName": "RAHK_protokoll_179_14.10.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-12T12:01:40.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/20481986-e874-4ca6-94ca-9e07ad4ee7cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/20481986-e874-4ca6-94ca-9e07ad4ee7cb"
+}
+}
+},
+{
+"uuid": "c0799c74-4b80-476f-a325-03fc8c89e312",
+"fileName": "RAM_pikaajaline_finantsraamistik_14.10.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (RAM ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-20T09:41:39.737",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c0799c74-4b80-476f-a325-03fc8c89e312/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c0799c74-4b80-476f-a325-03fc8c89e312"
+}
+}
+},
+{
+"uuid": "59868f5a-9b25-4868-b81d-6f9a05d9af0d",
+"fileName": "Riigikantselei_ettekanne_668_SE_14.10.2025_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Riigikantselei ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-16T11:37:20.215",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59868f5a-9b25-4868-b81d-6f9a05d9af0d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59868f5a-9b25-4868-b81d-6f9a05d9af0d"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-10-22T17:29:29.968",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-12-11T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 11.12.2025 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "73286e36-9657-456a-b6df-a264a2309e9c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-12-11T11:31:33.78",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/73286e36-9657-456a-b6df-a264a2309e9c"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/2748fc79-2b3c-44bb-9a0c-a87937d4dda6"
+}
+}
+}

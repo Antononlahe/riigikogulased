@@ -1,0 +1,280 @@
+{
+"uuid": "81e72141-0989-425f-8a5e-a95903bfe9f1",
+"etid": 611,
+"code": "6616",
+"text": "õlitööstus",
+"descriptors": [
+{
+"edid": 1274,
+"text": "süsivesinik",
+"code": "1274",
+"uuid": "b12a4295-4c88-4b17-d3fa-e2acc2477e66",
+"vol_cnt": 15,
+"scopeNotes": [],
+"usedFors": [
+"atsetüleen",
+"benseen",
+"butüleen",
+"etüleen",
+"fenool",
+"isopreen",
+"ksüleen",
+"metaan",
+"olefiin",
+"ortoksüleen",
+"paraksüleen",
+"propüleen",
+"stüreen",
+"tolueen",
+"vesinikkarbiid"
+],
+"narrowTerms": [
+"27f4a7f8-0af0-196e-7e1b-eab296e44463",
+"ac85c299-ccf3-4ca1-b616-a6c6ace95044",
+"c0feb523-10e5-45ea-86d2-33626da2c634"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3163,
+"text": "laevade põhjustatud merereostus",
+"code": "3163",
+"uuid": "38f1922e-23ad-40c5-2ad7-2e09db2d0953",
+"vol_cnt": 61,
+"scopeNotes": [],
+"usedFors": [
+"degaseerimine",
+"jäätmete merre heitmine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/38f1922e-23ad-40c5-2ad7-2e09db2d0953"
+}
+}
+},
+{
+"edid": 1061,
+"text": "merealune puurimine",
+"code": "1061",
+"uuid": "b7bf9a10-7944-4a14-bdd9-54df1105c6e6",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b7bf9a10-7944-4a14-bdd9-54df1105c6e6"
+}
+}
+},
+{
+"edid": 3161,
+"text": "õlireostus",
+"code": "3161",
+"uuid": "1e380e4c-59ad-be5f-87b3-7eb7e905997d",
+"vol_cnt": 21,
+"scopeNotes": [],
+"usedFors": [
+"naftalaik",
+"õlilaik"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1e380e4c-59ad-be5f-87b3-7eb7e905997d"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b12a4295-4c88-4b17-d3fa-e2acc2477e66"
+}
+}
+},
+{
+"edid": 2364,
+"text": "naftakeemiatooted",
+"code": "2364",
+"uuid": "8b30defc-614d-4949-bc06-a07fc521673c",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kasutada dokumentide puhul, mis hõlmavad kõiki tooteid, muul juhul kasutada konkreetsemat deskriptorit."
+],
+"usedFors": [
+"naftakeemiatööstus"
+],
+"narrowTerms": [
+"185bff29-a949-4a95-ae44-ddf3680017bc"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5966,
+"text": "keemia",
+"code": "5966",
+"uuid": "3b787be3-065a-4ace-8854-8e4515a774f4",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"c78dc490-9f67-445a-8db2-87f4869a4ec5",
+"6fdf1429-47c5-469c-a2b7-1f42523c93b1",
+"e82d694f-3983-4897-9b98-443b2e235a14",
+"064fd767-bf05-410b-8b3d-3d5ae8e87631"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3b787be3-065a-4ace-8854-8e4515a774f4"
+}
+}
+},
+{
+"edid": 1362,
+"text": "keemiatööstus",
+"code": "1362",
+"uuid": "08a31d32-8002-4a80-9c11-2ead9a4e955f",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"keemiatootmine"
+],
+"narrowTerms": [
+"730bb873-c7a5-4d9c-aa09-8440c182dfbd",
+"0289b515-3d36-dc7a-4cba-40739721dc52",
+"206d18cf-6f03-45ff-897c-4ef24952f4f6",
+"fc1daf8e-cf1f-4b9f-905d-a1d821dd0272",
+"69a9abd3-4162-4716-abc2-81b7d8a065ec",
+"41cb7605-143b-493f-9e5b-923e1efbfe01"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/08a31d32-8002-4a80-9c11-2ead9a4e955f"
+}
+}
+},
+{
+"edid": 1414,
+"text": "naftatööstus",
+"code": "1414",
+"uuid": "39d1ac16-6804-4c61-99d7-265fb5ed47d6",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"naftaettevõte"
+],
+"narrowTerms": [
+"3db485b9-5282-cfb1-4d5a-081ac6614e63",
+"b7bf9a10-7944-4a14-bdd9-54df1105c6e6",
+"060d58f8-1e97-4e03-b9b3-578a794c820c",
+"5ff21493-3e30-43d9-bdc6-4b001133466c",
+"a14a6d3c-067d-42e7-9af2-cbc88e0b50c6",
+"3c7d0f0e-e70e-47f6-bbb1-4c411d888f90",
+"52df952a-318c-4054-bcae-c604da21029e",
+"139f6799-c17c-4d42-878d-df239def32d6"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/39d1ac16-6804-4c61-99d7-265fb5ed47d6"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8b30defc-614d-4949-bc06-a07fc521673c"
+}
+}
+},
+{
+"edid": 1414,
+"text": "naftatööstus",
+"code": "1414",
+"uuid": "39d1ac16-6804-4c61-99d7-265fb5ed47d6",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"naftaettevõte"
+],
+"narrowTerms": [
+"3db485b9-5282-cfb1-4d5a-081ac6614e63",
+"b7bf9a10-7944-4a14-bdd9-54df1105c6e6",
+"060d58f8-1e97-4e03-b9b3-578a794c820c",
+"5ff21493-3e30-43d9-bdc6-4b001133466c",
+"a14a6d3c-067d-42e7-9af2-cbc88e0b50c6",
+"3c7d0f0e-e70e-47f6-bbb1-4c411d888f90",
+"52df952a-318c-4054-bcae-c604da21029e",
+"139f6799-c17c-4d42-878d-df239def32d6"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2364,
+"text": "naftakeemiatooted",
+"code": "2364",
+"uuid": "8b30defc-614d-4949-bc06-a07fc521673c",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kasutada dokumentide puhul, mis hõlmavad kõiki tooteid, muul juhul kasutada konkreetsemat deskriptorit."
+],
+"usedFors": [
+"naftakeemiatööstus"
+],
+"narrowTerms": [
+"185bff29-a949-4a95-ae44-ddf3680017bc"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8b30defc-614d-4949-bc06-a07fc521673c"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/39d1ac16-6804-4c61-99d7-265fb5ed47d6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/81e72141-0989-425f-8a5e-a95903bfe9f1"
+}
+}
+}

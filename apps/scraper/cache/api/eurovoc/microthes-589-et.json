@@ -1,0 +1,396 @@
+{
+"uuid": "34bb7e43-aa14-418a-bc1b-9aa40e045989",
+"etid": 589,
+"code": "5211",
+"text": "looduskeskkond",
+"descriptors": [
+{
+"edid": 3150,
+"text": "elusloodus",
+"code": "3150",
+"uuid": "3d1ef213-e069-4df0-9bea-88266b58b1f7",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"a4000555-5061-d56e-48f1-43406148687b",
+"c19444d2-c228-443a-bff9-db1a0f254030",
+"55f092e5-6eb7-48e7-9abb-3659467a14ee",
+"4c557091-d2c8-44c5-903f-6ab2bdb60c9f"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3d1ef213-e069-4df0-9bea-88266b58b1f7"
+}
+}
+},
+{
+"edid": 833,
+"text": "füüsiline keskkond",
+"code": "833",
+"uuid": "51126b7a-5303-4338-91f0-ba258f515235",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"ec97aad5-60de-4b89-ba93-851c81b44156",
+"18ac3009-a38a-41e4-ae37-4f09ce023551",
+"6e5971e5-9c6d-8063-fb28-391bd753e2bd",
+"9234c5b7-e245-4bf9-bc1f-fda4f73420db",
+"072001cd-baf7-4306-adce-1afa4b1146f1"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2470,
+"text": "keskkonnapoliitika",
+"code": "2470",
+"uuid": "438252c7-930b-3878-b70b-6e62b42e921c",
+"vol_cnt": 19,
+"scopeNotes": [],
+"usedFors": [
+"keskkonnajuhtimine"
+],
+"narrowTerms": [
+"7561e625-cee2-442b-9466-53c7e77b1153",
+"77e3ed41-1e30-9a4a-34b0-8992d6a77499",
+"983a6c81-fc0f-4643-af1e-3e88e77ccc2e",
+"be24d150-8156-4793-a35b-890e6fa618d9",
+"2d99e43d-7f5a-47dc-b68b-379c8f6955af",
+"a889cf9d-c61a-1a44-b5b0-d52628dc6a6f",
+"53be625b-89bf-43c3-b397-a549287a8f48",
+"13de8fa7-6a61-e39d-a29c-cd09cbee4749",
+"581a6e06-19a4-53c2-7021-f41e9208301a",
+"f4f3d32c-d291-4b04-8721-892ebfcca9e1",
+"e2de715d-5dc0-c511-66f5-bcf6e7015a9c",
+"f880c456-9b21-49d4-a70e-b2fd006529c7",
+"6b173fe6-a404-4505-912c-339e6fed3d6e",
+"573f9468-1fd9-4a5e-bab9-2985e396789f",
+"7b60e59d-af7a-4fc7-bd5d-0f8ff59bc6cd",
+"3fcc28ba-b245-4022-aa21-93970d0fb561",
+"3c0b7189-d608-4344-8262-824f0312cc56"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/438252c7-930b-3878-b70b-6e62b42e921c"
+}
+}
+},
+{
+"edid": 3952,
+"text": "maateadused",
+"code": "3952",
+"uuid": "35cde97d-78c1-4e58-b5a9-5b299f69929f",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"geoteadused"
+],
+"narrowTerms": [
+"a8c11957-6f08-459e-ac33-cbb2ae3fdb26",
+"6d744149-d3b4-1648-7d2d-c43a2f3e2fab",
+"7dae9ce9-efb8-4003-ad2c-44802208788e",
+"76904517-1bdd-4c95-b644-4d5dd179e223",
+"8ecab2bf-6933-4239-8f0c-74d0c6f886f7",
+"6264a0d9-feaa-4a25-a608-2e383b159fa5",
+"8848ef05-55b5-4392-bcd9-6b198b3cb305",
+"acdbb166-de97-4629-a0a1-c2dca8a661bf"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/35cde97d-78c1-4e58-b5a9-5b299f69929f"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/51126b7a-5303-4338-91f0-ba258f515235"
+}
+}
+},
+{
+"edid": 3146,
+"text": "geofüüsikaline keskkond",
+"code": "3146",
+"uuid": "d443415d-e815-4971-b33b-e2ca2e76916a",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"583a5297-f784-4611-beb3-683bcae28e89",
+"3f8deb0b-2a3e-494b-8384-c19857dc041b",
+"4873acda-ed5d-44ea-832d-40079ad62502",
+"925641a8-8f9f-4a2c-b4cb-979126db652c",
+"8bd3511f-3218-4f7f-a889-7ce60269e8d2",
+"acff43e1-878f-4af3-a55f-8c3f998db41c",
+"f7ec350b-1fe3-49d2-abfb-ebfa90fb7b5a",
+"8dd13046-7231-4a5e-acc4-5899932b9f8f",
+"4064b56b-7b79-406d-bb97-d6a2a1025636",
+"ad5e749d-3894-4b33-ae12-0a379380da9b",
+"7a5442fd-bf07-40ae-bf18-013cb6fb7b89",
+"d600db03-cc74-4992-adef-5250225ba3b6"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 6390,
+"text": "geomorfoloogia",
+"code": "6390",
+"uuid": "7dae9ce9-efb8-4003-ad2c-44802208788e",
+"vol_cnt": 0,
+"scopeNotes": [
+"Uurib maakoore reljeefi, selle kujunemist, arengut ja nüüdisaegset dünaamikat."
+],
+"usedFors": [
+"maapinna morfoloogia"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7dae9ce9-efb8-4003-ad2c-44802208788e"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d443415d-e815-4971-b33b-e2ca2e76916a"
+}
+}
+},
+{
+"edid": 6011,
+"text": "kliima",
+"code": "6011",
+"uuid": "972ddb14-7418-47b7-b8cd-c056a4de2f41",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"0eb86c1d-01e4-4d59-a701-b9ab45e87970",
+"7945bb85-26f1-4229-8bd0-cbee12632e6e"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 6385,
+"text": "bioklimatoloogia",
+"code": "6385",
+"uuid": "2d3de7a4-565d-415d-8ff6-98db33232bda",
+"vol_cnt": 0,
+"scopeNotes": [
+"Teadus, mis uurib kliima mõjusid elusorganismidele."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2d3de7a4-565d-415d-8ff6-98db33232bda"
+}
+}
+},
+{
+"edid": 5482,
+"text": "kliimamuutus",
+"code": "5482",
+"uuid": "b70e1d14-9133-43ba-b84c-e8269d465514",
+"vol_cnt": 125,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"7356641a-609a-4bd1-aac9-0527f1e2e3f3"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b70e1d14-9133-43ba-b84c-e8269d465514"
+}
+}
+},
+{
+"edid": 6384,
+"text": "klimatoloogia",
+"code": "6384",
+"uuid": "a3125ce9-324b-4f0c-ae25-262cdb6a4cf6",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kliima üldise olemuse uurimine."
+],
+"usedFors": [],
+"narrowTerms": [
+"2d3de7a4-565d-415d-8ff6-98db33232bda"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a3125ce9-324b-4f0c-ae25-262cdb6a4cf6"
+}
+}
+},
+{
+"edid": 632,
+"text": "ökoloogia",
+"code": "632",
+"uuid": "818b59ee-9e12-4cc9-9be1-c3be7b515801",
+"vol_cnt": 0,
+"scopeNotes": [
+"Keskkonnaga seonduvate, peamiselt füüsiliste või geograafiliste suhete uurimine."
+],
+"usedFors": [
+"keskkonnateadus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/818b59ee-9e12-4cc9-9be1-c3be7b515801"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/972ddb14-7418-47b7-b8cd-c056a4de2f41"
+}
+}
+},
+{
+"edid": 3549,
+"text": "loodusvarad",
+"code": "3549",
+"uuid": "dacefcd2-d5cf-4a38-8fc8-78dd692860a1",
+"vol_cnt": 11,
+"scopeNotes": [],
+"usedFors": [
+"loodusressursid"
+],
+"narrowTerms": [
+"e0fa4c8a-c212-483b-a259-d0654316b8b1",
+"4fe20e62-8f5a-4808-b0c2-e8c975e4cadb",
+"0567a833-710b-00b8-d120-a599a5faf450",
+"11e72754-3487-e1a3-b504-525a526593c0",
+"ed7b3b2b-95e5-9af4-29a5-c3d03fd6035a",
+"5dbc7481-3689-46ba-85bb-ae75ff580d39",
+"aa436a72-bafe-4813-8bba-342ef32d2299",
+"24ffd670-0988-420e-b426-bcbaa62a3ec9",
+"a604943f-cd15-4fab-80a9-534c5e599c16"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1160,
+"text": "loodusvarade majandamine",
+"code": "1160",
+"uuid": "6b173fe6-a404-4505-912c-339e6fed3d6e",
+"vol_cnt": 26,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"354165d1-02b4-4752-b06f-2ba3951f6727",
+"04486938-4cd9-4f91-9c5f-4591054aabae",
+"b83a612b-83d0-1158-dde4-af7d092acc7d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6b173fe6-a404-4505-912c-339e6fed3d6e"
+}
+}
+},
+{
+"edid": 134,
+"text": "loodusvarade säilitamine",
+"code": "134",
+"uuid": "a6534eac-dc14-807c-4205-cccb935ad2a7",
+"vol_cnt": 70,
+"scopeNotes": [],
+"usedFors": [
+"loodusvarade kaitse"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a6534eac-dc14-807c-4205-cccb935ad2a7"
+}
+}
+},
+{
+"edid": 3533,
+"text": "majanduslikud vahendid",
+"code": "3533",
+"uuid": "2a5a50cd-531d-4f38-beae-189074b7db7f",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"majandusressursid"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2a5a50cd-531d-4f38-beae-189074b7db7f"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dacefcd2-d5cf-4a38-8fc8-78dd692860a1"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/34bb7e43-aa14-418a-bc1b-9aa40e045989"
+}
+}
+}

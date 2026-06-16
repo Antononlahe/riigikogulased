@@ -1,0 +1,1419 @@
+{
+"uuid": "eb9c6fd7-140a-40e3-8e0c-ffcc8f94cd76",
+"title": "Hasartmängumaksu seaduse muutmise seadus",
+"mark": 793,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Hasartmängumaksu seaduse muutmise seadus 793 SE",
+"initialTitle": "Hasartmängumaksu seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga kõrvaldatakse tehniline viga ja tagatakse selgus, et õnne- ja osavusmängude maksustamine kaughasartmänguna toimub ühetaoliselt. Muudatus võimaldab eemaldada seaduses tehnilise vea, mis võib anda alust ekslikele vaidlustele. Kiire jõustamine aitab taastada olukorra, millega turuosalised ja maksuhaldur arvestasid, ehk ühtne maksumäär mõlemale mänguliigile. Eelnõuga tehtav muudatus jõustub seaduse vastuvõtmisel Riigi Teatajas avaldamisele järgneval päeval. Selline lahendus võimaldab kiiret õigusselguse taastamist.",
+"initiated": "2026-01-14",
+"joined": null,
+"accepted": "2026-02-10",
+"amendmentsDeadline": "2026-02-03T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "95bde520-3032-48a5-aa20-567020b4e1da",
+"name": "Andres Ando",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/95bde520-3032-48a5-aa20-567020b4e1da?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "4f816f8e-1501-4940-b87a-af029fcd98c0",
+"name": "Tanel Tein",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4f816f8e-1501-4940-b87a-af029fcd98c0?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3334,
+"text": "mängimine"
+},
+{
+"edid": 1310,
+"text": "maks"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "121a8bf6-4c98-462e-b1f9-f1a010e8bfad",
+"title": "793 SE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "58d54858-4669-4c13-a498-fa6236373280",
+"fileName": "793_HasMMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-15T11:18:26.652",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/58d54858-4669-4c13-a498-fa6236373280/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/58d54858-4669-4c13-a498-fa6236373280"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "84620a99-f789-4c5f-aa91-75b0cbe9f39c",
+"title": "793 SE III",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "56e7e636-ef61-452a-9277-6201fc0c189b",
+"fileName": "793_SE_III_eelnõu_täiskogule.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-09T17:52:44.163",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/56e7e636-ef61-452a-9277-6201fc0c189b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/56e7e636-ef61-452a-9277-6201fc0c189b"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "93ccfe6c-b708-42b4-954d-155f9f84da46",
+"title": "793 SE II dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "23f328f5-b816-45f1-8479-1f82313e719f",
+"fileName": "793_SE_II_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-05T14:33:16.595",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/23f328f5-b816-45f1-8479-1f82313e719f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/23f328f5-b816-45f1-8479-1f82313e719f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6fdf3c59-c467-49ed-a4a7-31d72a0eca2e",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "57b2d53c-1acc-4f4b-9847-bba5bf6809ed",
+"fileName": "Eelnõu_-_HasMMSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-14T14:23:14.766",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/57b2d53c-1acc-4f4b-9847-bba5bf6809ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/57b2d53c-1acc-4f4b-9847-bba5bf6809ed"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6fdf3c59-c467-49ed-a4a7-31d72a0eca2e",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f7e504ae-9b77-4080-ad6d-5cf21f33e2c9",
+"fileName": "793E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-14T15:33:27.874",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7e504ae-9b77-4080-ad6d-5cf21f33e2c9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7e504ae-9b77-4080-ad6d-5cf21f33e2c9"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "0b785b0d-691d-4bec-81ed-aafc602e7c92",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "31cbc3c8-8f30-4633-b85a-d368331f640d",
+"fileName": "793_Kaaskiri_Vabariigi_Presidendile_2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:23:44.565",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/31cbc3c8-8f30-4633-b85a-d368331f640d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/31cbc3c8-8f30-4633-b85a-d368331f640d"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "7379c751-37b7-4e4b-a038-9034b89e2284",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8903d59d-5f54-4737-9972-9c9aa10fd5fc",
+"fileName": "793XV_Hasartm_ms_2026.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-12T15:08:20.957",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8903d59d-5f54-4737-9972-9c9aa10fd5fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8903d59d-5f54-4737-9972-9c9aa10fd5fc"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "7379c751-37b7-4e4b-a038-9034b89e2284",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "898db076-372e-4fbe-8bc4-201f7ca5c769",
+"fileName": "793XV_Hasartm_ms_2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-12T15:07:59.131",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/898db076-372e-4fbe-8bc4-201f7ca5c769/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/898db076-372e-4fbe-8bc4-201f7ca5c769"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "93ccfe6c-b708-42b4-954d-155f9f84da46",
+"title": "793 SE II dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "df0db2f8-1a7e-4e1a-8a8e-ee845d92c0dc",
+"fileName": "793_SE_II_ME_loetelu.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-05T14:35:03.574",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/df0db2f8-1a7e-4e1a-8a8e-ee845d92c0dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/df0db2f8-1a7e-4e1a-8a8e-ee845d92c0dc"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "121a8bf6-4c98-462e-b1f9-f1a010e8bfad",
+"title": "793 SE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5bca7883-6e8d-4c69-85dd-6870a855ed4b",
+"fileName": "793_HasMMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-15T11:18:57.428",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5bca7883-6e8d-4c69-85dd-6870a855ed4b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5bca7883-6e8d-4c69-85dd-6870a855ed4b"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "93ccfe6c-b708-42b4-954d-155f9f84da46",
+"title": "793 SE II dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6287feeb-d286-43be-bf98-9fc01ddaa5bb",
+"fileName": "793_SE_II_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-05T14:34:03.369",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6287feeb-d286-43be-bf98-9fc01ddaa5bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6287feeb-d286-43be-bf98-9fc01ddaa5bb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6fdf3c59-c467-49ed-a4a7-31d72a0eca2e",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "498161c4-d26e-401d-a970-a934f3c06840",
+"fileName": "Seletuskiri_-_HasMMSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-14T14:23:14.776",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/498161c4-d26e-401d-a970-a934f3c06840/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/498161c4-d26e-401d-a970-a934f3c06840"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6fdf3c59-c467-49ed-a4a7-31d72a0eca2e",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "73c719e7-21c6-4e15-a9cd-dd2cd15e55eb",
+"fileName": "793SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T11:15:20.699",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/73c719e7-21c6-4e15-a9cd-dd2cd15e55eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/73c719e7-21c6-4e15-a9cd-dd2cd15e55eb"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "79e4ce43-7976-4e50-9088-dfbf8fffe685",
+"reference": "1-1/15-793/7",
+"title": "Vabariigi Presidendi otsus nr 666",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f52578cd-c659-4387-a4ca-d2335d308fcd",
+"fileName": "VP_12022026_o666.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-12T15:06:40.077",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f52578cd-c659-4387-a4ca-d2335d308fcd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f52578cd-c659-4387-a4ca-d2335d308fcd"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "79e4ce43-7976-4e50-9088-dfbf8fffe685",
+"reference": "1-1/15-793/7",
+"title": "Vabariigi Presidendi otsus nr 666",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "649877ae-13e1-40bf-801e-64e46cf8424f",
+"fileName": "VP_12022026_o666.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-12T15:06:40.01",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/649877ae-13e1-40bf-801e-64e46cf8424f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/649877ae-13e1-40bf-801e-64e46cf8424f"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "0b785b0d-691d-4bec-81ed-aafc602e7c92",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d235afbe-5f07-4209-b86e-159c707535ee",
+"fileName": "793XV_Hasartm_ms_2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:03:10.072",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d235afbe-5f07-4209-b86e-159c707535ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d235afbe-5f07-4209-b86e-159c707535ee"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "0b785b0d-691d-4bec-81ed-aafc602e7c92",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cfa5afee-5869-42dc-a760-ff750c1456b6",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:24:53.604",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cfa5afee-5869-42dc-a760-ff750c1456b6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cfa5afee-5869-42dc-a760-ff750c1456b6"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-01-14T14:22:34.509",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-01-14T15:33:00.94",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-01-15T10:46:00",
+"sittingTitle": "Komisjoni erakorraline istung neljapäev, 15.01.2026 kell 10.46",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-01-20T10:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "02b2856d-9991-4f8a-86dd-ff5bf9ff43da",
+"fileName": "RAHK_protokoll_15.01.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-15T12:50:39.535",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/02b2856d-9991-4f8a-86dd-ff5bf9ff43da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/02b2856d-9991-4f8a-86dd-ff5bf9ff43da"
+}
+}
+},
+{
+"uuid": "ee9d6d61-da3f-4b80-8d2e-14a93e843724",
+"fileName": "RAHK_protokoll_198_15.01.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-15T12:49:52.015",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee9d6d61-da3f-4b80-8d2e-14a93e843724/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee9d6d61-da3f-4b80-8d2e-14a93e843724"
+}
+}
+},
+{
+"uuid": "35749366-32fc-4c03-b7d6-12b5fefd71c1",
+"fileName": "Asendusliikme_volikiri_M.Helme-E.Poolamets_15.01.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-15T12:12:32.22",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35749366-32fc-4c03-b7d6-12b5fefd71c1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35749366-32fc-4c03-b7d6-12b5fefd71c1"
+}
+}
+}
+]
+},
+{
+"date": "2026-01-19T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 19.01.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "5d00655a-e63c-4467-8ad6-dac2f85b3823",
+"fileName": "RAHK_protokoll_19.01.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T11:02:18.791",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5d00655a-e63c-4467-8ad6-dac2f85b3823/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5d00655a-e63c-4467-8ad6-dac2f85b3823"
+}
+}
+},
+{
+"uuid": "73a4f685-c959-4d7d-9ec0-21547f6d7303",
+"fileName": "RAHK_protokoll_nr_199_19.01.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T11:00:48.92",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/73a4f685-c959-4d7d-9ec0-21547f6d7303/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/73a4f685-c959-4d7d-9ec0-21547f6d7303"
+}
+}
+}
+]
+},
+{
+"date": "2026-01-20T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 20.01.2026 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "8bfc52ca-3f1a-48c3-8d45-7946896a16ab",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2026-01-20T11:57:58.687",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8bfc52ca-3f1a-48c3-8d45-7946896a16ab"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2026-01-27T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 27.01.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"description": "Teha ettepanek võtta eelnõu teiseks lugemiseks täiskogu päevakorda esmaspäeval k.a. 9. veebruaril.",
+"plenaryAgendaDateTime": "2026-02-09T15:00:00"
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"description": "Kui teine lugemine lõpetatakse 9. veebruaril, siis võtta eelnõu kolmandaks lugemiseks täiskogu päevakorda k.a. 10. veebruaril.",
+"plenaryAgendaDateTime": "2026-02-10T10:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "ae4ac698-271c-4bb4-b006-45de2371579e",
+"fileName": "RAHK_protokoll_27.01.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T11:21:07.397",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae4ac698-271c-4bb4-b006-45de2371579e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae4ac698-271c-4bb4-b006-45de2371579e"
+}
+}
+},
+{
+"uuid": "d7ec8242-8fc3-455a-ae81-70eaf2c03f17",
+"fileName": "795_SE_RAM_ettekande_slaidid_27.01.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Rahandusministeeriumi esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T11:19:02.587",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7ec8242-8fc3-455a-ae81-70eaf2c03f17/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7ec8242-8fc3-455a-ae81-70eaf2c03f17"
+}
+}
+},
+{
+"uuid": "be0f53f0-7a78-4d5c-8d39-58335cb4bbb8",
+"fileName": "RAHK_protokoll_nr_203_27.01.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T11:16:56.82",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/be0f53f0-7a78-4d5c-8d39-58335cb4bbb8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/be0f53f0-7a78-4d5c-8d39-58335cb4bbb8"
+}
+}
+}
+]
+},
+{
+"date": "2026-02-05T12:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 5.02.2026 kell 12.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "c341dfbf-852c-4848-a063-233981d2be7c",
+"fileName": "RAHK_protokoll_05.02.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T13:27:00.498",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c341dfbf-852c-4848-a063-233981d2be7c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c341dfbf-852c-4848-a063-233981d2be7c"
+}
+}
+},
+{
+"uuid": "e86055b5-1fd6-4dc9-b556-b7cd3b3657cb",
+"fileName": "RAHK_protokoll_204_05.02.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T13:26:30.084",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e86055b5-1fd6-4dc9-b556-b7cd3b3657cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e86055b5-1fd6-4dc9-b556-b7cd3b3657cb"
+}
+}
+},
+{
+"uuid": "bbae6dab-3d6a-4143-bcd0-9d9c937276f7",
+"fileName": "komisjoni_asendus_(05.02).docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-05T13:50:41.385",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bbae6dab-3d6a-4143-bcd0-9d9c937276f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bbae6dab-3d6a-4143-bcd0-9d9c937276f7"
+}
+}
+},
+{
+"uuid": "cb01e727-4641-4164-b2fd-152b29c69a83",
+"fileName": "Asendusliikme_volikiri_M.Võrklaev-Timo_Suslov_05.02.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-05T13:50:22.144",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cb01e727-4641-4164-b2fd-152b29c69a83/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cb01e727-4641-4164-b2fd-152b29c69a83"
+}
+}
+}
+]
+},
+{
+"date": "2026-02-09T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 9.02.2026 15:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": [
+{
+"uuid": "ca65d948-135e-4a33-801f-711e58abf52c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "4. muudatusettepanek",
+"startDateTime": "2026-02-09T17:40:48.62",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ca65d948-135e-4a33-801f-711e58abf52c"
+}
+}
+},
+{
+"uuid": "34ac4490-2c26-441b-aeb0-94129e078b7b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "1. muudatusettepanek",
+"startDateTime": "2026-02-09T17:37:00.327",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/34ac4490-2c26-441b-aeb0-94129e078b7b"
+}
+}
+},
+{
+"uuid": "694e87fb-b732-4fa0-9242-b5d68565d9f4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "3. muudatusettepanek",
+"startDateTime": "2026-02-09T17:39:29.68",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/694e87fb-b732-4fa0-9242-b5d68565d9f4"
+}
+}
+},
+{
+"uuid": "826cdb0f-5eb8-4f04-8a11-843b2435f013",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "5. muudatusettepanek",
+"startDateTime": "2026-02-09T17:41:59.203",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/826cdb0f-5eb8-4f04-8a11-843b2435f013"
+}
+}
+},
+{
+"uuid": "e2f9f191-2948-4f78-baeb-3d4c4b56e96d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "9. muudatusettepanek",
+"startDateTime": "2026-02-09T17:45:57.637",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e2f9f191-2948-4f78-baeb-3d4c4b56e96d"
+}
+}
+},
+{
+"uuid": "151e5718-1ca0-44ef-a0ec-c6ef225b3a22",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "2. muudatusettepanek",
+"startDateTime": "2026-02-09T17:38:11.467",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/151e5718-1ca0-44ef-a0ec-c6ef225b3a22"
+}
+}
+},
+{
+"uuid": "d10e9d6c-53b3-4c63-9a58-fb336400d519",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "II lugemise katkestamine",
+"startDateTime": "2026-02-09T17:49:13.683",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/d10e9d6c-53b3-4c63-9a58-fb336400d519"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2026-02-10T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 10.02.2026 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "176ae2da-0bbe-4c68-b8ba-ef6f3dcedc62",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-02-10T10:59:38.54",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/176ae2da-0bbe-4c68-b8ba-ef6f3dcedc62"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2026-02-10T14:10:24.921",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2026-02-12T15:07:37.48",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2026-02-18T10:52:00.478",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "1195174b-d151-4384-bee2-39c0b67667a9",
+"reference": "1-6/26-11/1",
+"title": "Eesti Hasartmängude Korraldajate Liidu pöördumine",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-01-13",
+"files": [
+{
+"uuid": "114b93c0-e05f-45f5-9edb-71991e850c0c",
+"fileName": "_Eesti_Hasartmängude_Korraldajate_Liidu_pöördumine.html",
+"fileExtension": "html",
+"fileTitle": "Sissetulev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-13T16:57:09.66",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/114b93c0-e05f-45f5-9edb-71991e850c0c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/114b93c0-e05f-45f5-9edb-71991e850c0c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1195174b-d151-4384-bee2-39c0b67667a9"
+}
+}
+},
+{
+"uuid": "8c2115b8-340a-47e6-b070-2e6bb6f3b0df",
+"reference": "1-1/15-793/3",
+"title": "Vabariigi Valitsuse arvamus hasartmängumaksu seaduse  muutmise seaduse eelnõu 793 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-01-29",
+"files": [
+{
+"uuid": "ff7ef19d-e20a-4e18-a08c-8b469f50de5e",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-26-0067_-_Hasartmängumaksu_seaduse_muutmise_seaduse_eelnõu_(793_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-29T08:36:37.158",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ff7ef19d-e20a-4e18-a08c-8b469f50de5e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ff7ef19d-e20a-4e18-a08c-8b469f50de5e"
+}
+}
+},
+{
+"uuid": "47cfaaa5-e172-4907-a3bb-3e0ca9a6aab4",
+"fileName": "1.1-11233-4_28.01.2026_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-29T08:36:37.166",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/47cfaaa5-e172-4907-a3bb-3e0ca9a6aab4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/47cfaaa5-e172-4907-a3bb-3e0ca9a6aab4"
+}
+}
+},
+{
+"uuid": "49541745-5305-412d-bd36-4edbeaff0653",
+"fileName": "Hasartmängumaksu_seaduse_muutmise_seaduse_eelnõu_(793_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-29T08:36:37.241",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/49541745-5305-412d-bd36-4edbeaff0653/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/49541745-5305-412d-bd36-4edbeaff0653"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8c2115b8-340a-47e6-b070-2e6bb6f3b0df"
+}
+}
+},
+{
+"uuid": "fae67437-b765-421a-8811-e946ac43575b",
+"reference": "1-1/15-793/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 793 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-01-14",
+"files": [
+{
+"uuid": "b400173d-9214-427b-97a0-277052ab98a9",
+"fileName": "HasMMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-14T14:24:56.392",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b400173d-9214-427b-97a0-277052ab98a9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b400173d-9214-427b-97a0-277052ab98a9"
+}
+}
+},
+{
+"uuid": "1664e4ac-6787-41a8-a528-0af6eb4f220b",
+"fileName": "793SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-14T15:34:13.56",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1664e4ac-6787-41a8-a528-0af6eb4f220b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1664e4ac-6787-41a8-a528-0af6eb4f220b"
+}
+}
+},
+{
+"uuid": "5ae34c27-eff5-4843-9f61-abd4b154f8a3",
+"fileName": "HasMMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-14T14:25:09.97",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ae34c27-eff5-4843-9f61-abd4b154f8a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ae34c27-eff5-4843-9f61-abd4b154f8a3"
+}
+}
+},
+{
+"uuid": "8e2994db-4b3e-4f33-8f7c-cb5187cdf1c4",
+"fileName": "793E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-14T15:33:58.94",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e2994db-4b3e-4f33-8f7c-cb5187cdf1c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e2994db-4b3e-4f33-8f7c-cb5187cdf1c4"
+}
+}
+},
+{
+"uuid": "ee38dd44-40f8-4329-9a62-3fe5b4b3c927",
+"fileName": "260114_HasMMS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-14T14:39:20.44",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee38dd44-40f8-4329-9a62-3fe5b4b3c927/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee38dd44-40f8-4329-9a62-3fe5b4b3c927"
+}
+}
+},
+{
+"uuid": "234d9699-44a8-46bf-87a8-786939ae13c4",
+"fileName": "1-1-15-793-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_793_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-14T15:35:08.019",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/234d9699-44a8-46bf-87a8-786939ae13c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/234d9699-44a8-46bf-87a8-786939ae13c4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fae67437-b765-421a-8811-e946ac43575b"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "d99876a7-be8d-4087-858d-02b27fa4889a",
+"reference": "1-1/15-793/2",
+"title": "Eesti Keskerakonna fraktsiooni muudatusettepanek hasartmängumaksu seaduse muutmise seaduse eelnõu 793 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "18dcbc7a-2862-4c68-a1cf-30b19491d44c",
+"fileName": "HasartmängumaksuSE793SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-28T15:39:52.296",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/18dcbc7a-2862-4c68-a1cf-30b19491d44c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/18dcbc7a-2862-4c68-a1cf-30b19491d44c"
+}
+}
+},
+{
+"uuid": "97f1e66b-55b8-4b53-8bcc-a42f07ac7913",
+"fileName": "HasartmängumaksuSE793SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-28T15:39:24.8",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/97f1e66b-55b8-4b53-8bcc-a42f07ac7913/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/97f1e66b-55b8-4b53-8bcc-a42f07ac7913"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d99876a7-be8d-4087-858d-02b27fa4889a"
+}
+}
+},
+{
+"uuid": "f2ffcc11-4018-4d12-a0d8-dfc886262fe4",
+"reference": "1-1/15-793/4",
+"title": "Isamaa fraktsiooni muudatusettepanek hasartmängumaksu seaduse muutmise seaduse eelnõu 793 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "dcbecb4b-6c80-483a-8a1d-08d377b8f8e8",
+"fileName": "Isamaa_fraktsiooni_MEd_793_.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-03T11:07:44.445",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dcbecb4b-6c80-483a-8a1d-08d377b8f8e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dcbecb4b-6c80-483a-8a1d-08d377b8f8e8"
+}
+}
+},
+{
+"uuid": "938d8ba4-8bd4-4852-9325-cb89f9732d42",
+"fileName": "Isamaa_fraktsiooni_MEd_793_.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-03T11:08:09.6",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/938d8ba4-8bd4-4852-9325-cb89f9732d42/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/938d8ba4-8bd4-4852-9325-cb89f9732d42"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f2ffcc11-4018-4d12-a0d8-dfc886262fe4"
+}
+}
+},
+{
+"uuid": "6622f935-25dd-44ef-8536-a550c1833ad8",
+"reference": "1-1/15-793/5",
+"title": "Sotsiaaldemokraatliku Erakonna fraktsiooni ja Riigikogu liikmete T. Kiige, E. Karuse ning Z. Izmailova muudatusettepanekud hasartmängumaksu seaduse muutmise seaduse eelnõu 793 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "57266d33-4e74-4971-850a-897195172664",
+"fileName": "SDE_Karuse_Kiik_Izmailova_Muudatusettepanekud_eelnoule_793_SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekud",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-03T15:28:36.534",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/57266d33-4e74-4971-850a-897195172664/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/57266d33-4e74-4971-850a-897195172664"
+}
+}
+},
+{
+"uuid": "e2ea952b-3ad0-4d77-99fd-933ab219f6ba",
+"fileName": "E._Karuse_digiallkiri_Muudatusettepanekud_eelnõule_793_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanekud asice (E. Karuse digiallkiri)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-03T15:20:18.865",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2ea952b-3ad0-4d77-99fd-933ab219f6ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2ea952b-3ad0-4d77-99fd-933ab219f6ba"
+}
+}
+},
+{
+"uuid": "e878b06e-1532-452a-a63e-22ffcf7c214a",
+"fileName": "Z._Izmailova_digiallkiri_Muudatusettepanekud_eelnÃule_793_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanekud asice (Z. Izmailova digiallkiri)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-03T13:32:49.107",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e878b06e-1532-452a-a63e-22ffcf7c214a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e878b06e-1532-452a-a63e-22ffcf7c214a"
+}
+}
+},
+{
+"uuid": "1b2dcf28-57fd-48d9-82f4-2cd171ebc2a7",
+"fileName": "T._Kiige_allkiri_Muudatusettepanekud_eelnõule_793_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanekud asice (T. Kiik digiallkiri)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-03T12:16:50.389",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b2dcf28-57fd-48d9-82f4-2cd171ebc2a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b2dcf28-57fd-48d9-82f4-2cd171ebc2a7"
+}
+}
+},
+{
+"uuid": "fe0fb93e-86e9-45a9-be7f-1d1889811aa9",
+"fileName": "SDE_Muudatusettepanekud_eelnõule_793_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanekud asice (SDE digiallkiri)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-03T11:11:29.434",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe0fb93e-86e9-45a9-be7f-1d1889811aa9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe0fb93e-86e9-45a9-be7f-1d1889811aa9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6622f935-25dd-44ef-8536-a550c1833ad8"
+}
+}
+},
+{
+"uuid": "c8950ecf-3d2a-4755-a1df-1c42c1482656",
+"reference": "1-1/15-793/6",
+"title": "Riigikogu liikme A. Kokka muudatusettepanekud hasartmängumaksu seaduse muutmise seaduse eelnõu 793 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "5b5925b2-f8f9-4b4a-9e7f-9eb8ec49cddf",
+"fileName": "Aivar_Kokka_MEd_793__SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-03T13:24:23.44",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5b5925b2-f8f9-4b4a-9e7f-9eb8ec49cddf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5b5925b2-f8f9-4b4a-9e7f-9eb8ec49cddf"
+}
+}
+},
+{
+"uuid": "e755efb5-e9a9-4c94-801b-fa15d1a4e110",
+"fileName": "Aivar_Kokka_MEd_793__SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-03T13:24:38.314",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e755efb5-e9a9-4c94-801b-fa15d1a4e110/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e755efb5-e9a9-4c94-801b-fa15d1a4e110"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c8950ecf-3d2a-4755-a1df-1c42c1482656"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/eb9c6fd7-140a-40e3-8e0c-ffcc8f94cd76"
+}
+}
+}

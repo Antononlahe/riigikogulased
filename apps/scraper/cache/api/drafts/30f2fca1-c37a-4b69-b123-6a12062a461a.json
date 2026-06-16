@@ -1,0 +1,376 @@
+{
+"uuid": "30f2fca1-c37a-4b69-b123-6a12062a461a",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed jääteede trasside püsivaks finantseerimiseks\"",
+"mark": 817,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed jääteede trasside püsivaks finantseerimiseks\" 817 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed jääteede trasside püsivaks finantseerimiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärgiks on suunata valitsust looma püsiv rahastus jääteede rajamiseks ja hooldamiseks ning kehtestada valmisoleku rahastamismudel, mis võimaldab jääteid edaspidi avada kiiresti ja ohutult. Selle eesmärgi täitmiseks on oluline, et jääteede valmisoleku ja avamise kulud oleksid eraldi eelarvereana sätestatud riigieelarves viisil, mis ei vähenda riigiteede tavapärast tee- ja korrashoiu rahastust.",
+"initiated": "2026-02-09",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-02-25T17:15:00",
+"responsibleMember": {
+"uuid": "798de8ee-0587-4543-aa2e-89c3f6c8f914",
+"name": "Marek Reinaas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/798de8ee-0587-4543-aa2e-89c3f6c8f914?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "de0bcce9-c410-49a9-b1fc-271c87381838",
+"name": "Eve-Ly Kübard",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/de0bcce9-c410-49a9-b1fc-271c87381838?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d188e268-5d01-7e93-0c22-3ae7f0c1e851",
+"name": "Sotsiaaldemokraatliku Erakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d188e268-5d01-7e93-0c22-3ae7f0c1e851?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4129,
+"text": "saartepiirkond"
+},
+{
+"edid": 4739,
+"text": "kohalik tee"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a986b274-8a8f-4672-8690-56179895070f",
+"title": "817 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ed657f90-a565-4140-ab0e-0d760776161f",
+"fileName": "817_RK_o_Ettepanek_VVle_jääteed_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T22:48:06.707",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ed657f90-a565-4140-ab0e-0d760776161f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ed657f90-a565-4140-ab0e-0d760776161f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da139221-6657-438c-9b76-7a8bce6dbf56",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4c80928e-dc70-424b-bd79-4f9bb449f5f5",
+"fileName": "RK_o_Ettepanek_VVle_EN_veebruar_2026.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-09T16:45:21.516",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c80928e-dc70-424b-bd79-4f9bb449f5f5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c80928e-dc70-424b-bd79-4f9bb449f5f5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da139221-6657-438c-9b76-7a8bce6dbf56",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0021cdc4-ab39-437c-a8ca-a87aff9edc98",
+"fileName": "817E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-09T17:51:34.3",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0021cdc4-ab39-437c-a8ca-a87aff9edc98/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0021cdc4-ab39-437c-a8ca-a87aff9edc98"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a986b274-8a8f-4672-8690-56179895070f",
+"title": "817 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "00e329ce-f9fa-48e1-906a-5d418377efb4",
+"fileName": "817_RK_o_Ettepanek_VVle_jääteed_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-06T22:48:23.512",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/00e329ce-f9fa-48e1-906a-5d418377efb4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/00e329ce-f9fa-48e1-906a-5d418377efb4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da139221-6657-438c-9b76-7a8bce6dbf56",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "66530dd6-4bbd-4dda-8e72-5a0e54bd2df0",
+"fileName": "RK_o_Ettepanek_VVle_SE_veebruar_2026.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-09T16:45:21.524",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/66530dd6-4bbd-4dda-8e72-5a0e54bd2df0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/66530dd6-4bbd-4dda-8e72-5a0e54bd2df0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "da139221-6657-438c-9b76-7a8bce6dbf56",
+"title": "SDEF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "210073f1-d04a-427e-a7fc-a9fe9fe5ca4b",
+"fileName": "817SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-09T17:51:44.877",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/210073f1-d04a-427e-a7fc-a9fe9fe5ca4b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/210073f1-d04a-427e-a7fc-a9fe9fe5ca4b"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-02-09T16:44:34.715",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-02-10T14:23:00.623",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-04-06T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäeval, 6.04.2026 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-04-15T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Marek Reinaas"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "d7dc6a0f-bc78-4508-8f6f-d753e696094a",
+"fileName": "MAJK_protokoll_nr_182_06.04.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-14T09:28:44.417",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7dc6a0f-bc78-4508-8f6f-d753e696094a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7dc6a0f-bc78-4508-8f6f-d753e696094a"
+}
+}
+},
+{
+"uuid": "72939fce-3afa-484a-bf3b-db09447fc560",
+"fileName": "MAJK_protokoll_nr_182_06.04.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-14T09:27:44.146",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/72939fce-3afa-484a-bf3b-db09447fc560/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/72939fce-3afa-484a-bf3b-db09447fc560"
+}
+}
+}
+]
+},
+{
+"date": "2026-04-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.04.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "1a23e96b-3f22-4161-940c-2dcf19fae922",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-04-15T17:33:46.47",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/1a23e96b-3f22-4161-940c-2dcf19fae922"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "bfe8c0f8-24c3-41f7-ae47-5e68fa0fe792",
+"reference": "1-1/15-817/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse eelnõu „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed jääteede trasside püsivaks finantseerimiseks\" 817 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-03-30",
+"files": [
+{
+"uuid": "cc686679-5a9f-4872-9b6d-73be7ff22810",
+"fileName": "109._tel_Eelnõu_817_OE_häältenamus_2026_03_30.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-30T15:31:00.852",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cc686679-5a9f-4872-9b6d-73be7ff22810/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cc686679-5a9f-4872-9b6d-73be7ff22810"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/bfe8c0f8-24c3-41f7-ae47-5e68fa0fe792"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/30f2fca1-c37a-4b69-b123-6a12062a461a"
+}
+}
+}

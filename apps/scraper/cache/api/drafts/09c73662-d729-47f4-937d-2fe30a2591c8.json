@@ -1,0 +1,549 @@
+{
+"uuid": "09c73662-d729-47f4-937d-2fe30a2591c8",
+"title": "Vabariigi Valitsuse seaduse ja Vabariigi Presidendi töökorra seaduse muutmise seadus",
+"mark": 821,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Vabariigi Valitsuse seaduse ja Vabariigi Presidendi töökorra seaduse muutmise seadus 821 SE",
+"initialTitle": "Vabariigi Valitsuse seaduse ja Vabariigi Presidendi töökorra seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu kohaselt tehakse Vabariigi Valitsuse seadusesse ja Vabariigi Presidendi töökorra seadusesse muudatused, millega seatakse peaministrile ja Vabariigi Presidendile pärast nende volituste lõppemist kaheaastane rahvusvahelises institutsioonis või organisatsioonis või välisriigis töötamise ja tegutsemise piirang.",
+"initiated": "2026-02-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0f9372ee-f108-47f9-9192-82ff84cf3efb",
+"name": "Timo Suslov",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0f9372ee-f108-47f9-9192-82ff84cf3efb?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "54bc0d5b-7c98-4245-8682-4a3a0b6e0275",
+"name": "Jaak Valge",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/54bc0d5b-7c98-4245-8682-4a3a0b6e0275?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "fd2d1dd5-ff19-445e-b190-28aabb07763a",
+"name": "Leo Kunnas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/fd2d1dd5-ff19-445e-b190-28aabb07763a?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "b5e0d7fe-b784-4057-bf7e-cc3f1873887d",
+"name": "Varro Vooglaid",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/b5e0d7fe-b784-4057-bf7e-cc3f1873887d?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5959,
+"text": "valitsusjuht"
+},
+{
+"edid": 5805,
+"text": "riigipea"
+},
+{
+"edid": 8416,
+"text": "huvide konflikt"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7f7da011-2eed-4dfd-8815-617278cafa7d",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "79d5caf0-364b-4103-81b4-4bc4bbe2818c",
+"fileName": "821_VVS_VPTKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-10T14:19:07.216",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/79d5caf0-364b-4103-81b4-4bc4bbe2818c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/79d5caf0-364b-4103-81b4-4bc4bbe2818c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "50c0eb22-b990-435b-bbab-b7188f432c50",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9d996f88-13e7-430b-9931-2d886710a9f8",
+"fileName": "Eelnõu_2_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:16:41.441",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d996f88-13e7-430b-9931-2d886710a9f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d996f88-13e7-430b-9931-2d886710a9f8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "50c0eb22-b990-435b-bbab-b7188f432c50",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d0b79716-6dea-42dd-82c2-8d5a45bb32ea",
+"fileName": "821_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:57:20.302",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d0b79716-6dea-42dd-82c2-8d5a45bb32ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d0b79716-6dea-42dd-82c2-8d5a45bb32ea"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7f7da011-2eed-4dfd-8815-617278cafa7d",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2c9a5d63-c596-47c5-9ac7-01db6fd37102",
+"fileName": "821_VVS_VPTKS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-10T14:19:38.176",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c9a5d63-c596-47c5-9ac7-01db6fd37102/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c9a5d63-c596-47c5-9ac7-01db6fd37102"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "50c0eb22-b990-435b-bbab-b7188f432c50",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c4fa1b33-b096-45fa-93d7-a7644f26da48",
+"fileName": "Seletuskiri_2_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:16:41.434",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c4fa1b33-b096-45fa-93d7-a7644f26da48/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c4fa1b33-b096-45fa-93d7-a7644f26da48"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "50c0eb22-b990-435b-bbab-b7188f432c50",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8b4bb7b8-ab1c-48fb-936c-65b459d176f5",
+"fileName": "821_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:57:31.608",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b4bb7b8-ab1c-48fb-936c-65b459d176f5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b4bb7b8-ab1c-48fb-936c-65b459d176f5"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-02-10T11:16:09.726",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-02-10T14:24:00.082",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-04-06T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 6.04.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-04-15T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Timo Suslov"
+}
+],
+"protocolFiles": [
+{
+"uuid": "ee7f9eb4-622b-4b93-ad24-e9ed12af7a7f",
+"fileName": "Riigikogu_põhiseaduskomisjoni_istungi_protokoll_nr_158.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll 06.04.2026.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-14T14:34:53.93",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee7f9eb4-622b-4b93-ad24-e9ed12af7a7f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee7f9eb4-622b-4b93-ad24-e9ed12af7a7f"
+}
+}
+},
+{
+"uuid": "4641c95a-f470-4bda-aaae-8bfd9c4f78ae",
+"fileName": "PÕSK_protokoll_nr_158_06.04.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll 06.04.2026.pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-14T14:33:49.624",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4641c95a-f470-4bda-aaae-8bfd9c4f78ae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4641c95a-f470-4bda-aaae-8bfd9c4f78ae"
+}
+}
+}
+]
+},
+{
+"date": "2026-04-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.04.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "98b588d6-b029-4e30-a6bd-25bfe58727c5",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-04-15T21:15:50.247",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/98b588d6-b029-4e30-a6bd-25bfe58727c5"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "89154c36-1178-4869-aba7-0f9a6ee77433",
+"reference": "1-1/15-821/2",
+"title": "Vabariigi Valitsuse arvamus Vabariigi Valitsuse seaduse ja Vabariigi Presidendi töökorra seaduse muutmise seaduse eelnõu 821 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-03-19",
+"files": [
+{
+"uuid": "44a23575-c309-4846-ab4d-89ed08bbb531",
+"fileName": "Seisukoha_edastamine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-19T16:52:52.462",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/44a23575-c309-4846-ab4d-89ed08bbb531/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/44a23575-c309-4846-ab4d-89ed08bbb531"
+}
+}
+},
+{
+"uuid": "13c306fe-1fd3-4dd6-915e-066590e0d317",
+"fileName": "8-21101_19.03.2026_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-19T16:52:52.396",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/13c306fe-1fd3-4dd6-915e-066590e0d317/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/13c306fe-1fd3-4dd6-915e-066590e0d317"
+}
+}
+},
+{
+"uuid": "9bd7aa75-616f-4e69-a442-ceba6378bc7a",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-26-0191_-_Vabariigi_Valitsuse_seaduse_ja_Vabariigi_Presidendi_töökorra_seaduse_muutmise_seaduse_eelnõu_(821_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-19T16:52:52.387",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9bd7aa75-616f-4e69-a442-ceba6378bc7a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9bd7aa75-616f-4e69-a442-ceba6378bc7a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/89154c36-1178-4869-aba7-0f9a6ee77433"
+}
+}
+},
+{
+"uuid": "58112912-13e8-46d7-add5-81ae8cf269ba",
+"reference": "1-1/15-821/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 821 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-02-10",
+"files": [
+{
+"uuid": "156730f4-c7a1-4519-83b3-288b7b323b2d",
+"fileName": "1-1-15-821-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_821_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T14:44:06.913",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/156730f4-c7a1-4519-83b3-288b7b323b2d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/156730f4-c7a1-4519-83b3-288b7b323b2d"
+}
+}
+},
+{
+"uuid": "bdf4179c-896f-4f53-9a6a-e33bb0d5fe1a",
+"fileName": "VVS_VPTKS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:23:50.919",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bdf4179c-896f-4f53-9a6a-e33bb0d5fe1a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bdf4179c-896f-4f53-9a6a-e33bb0d5fe1a"
+}
+}
+},
+{
+"uuid": "9bbd6ea9-f297-4f22-b1b3-32dbbbaa71f0",
+"fileName": "821_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T12:30:17.815",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9bbd6ea9-f297-4f22-b1b3-32dbbbaa71f0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9bbd6ea9-f297-4f22-b1b3-32dbbbaa71f0"
+}
+}
+},
+{
+"uuid": "05a04f71-27c6-4476-b374-6930df71d47f",
+"fileName": "821_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T12:30:06.281",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/05a04f71-27c6-4476-b374-6930df71d47f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/05a04f71-27c6-4476-b374-6930df71d47f"
+}
+}
+},
+{
+"uuid": "41631e20-8ea9-4b19-820b-bdef6c0224de",
+"fileName": "VVS_VPTKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T11:23:18.538",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41631e20-8ea9-4b19-820b-bdef6c0224de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41631e20-8ea9-4b19-820b-bdef6c0224de"
+}
+}
+},
+{
+"uuid": "49f8faed-1ff2-44c8-a2ac-c5516d928967",
+"fileName": "260210_VVS_VPTKS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-10T13:15:07.662",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/49f8faed-1ff2-44c8-a2ac-c5516d928967/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/49f8faed-1ff2-44c8-a2ac-c5516d928967"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/58112912-13e8-46d7-add5-81ae8cf269ba"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/09c73662-d729-47f4-937d-2fe30a2591c8"
+}
+}
+}

@@ -1,0 +1,320 @@
+{
+"uuid": "715bdee5-fdfa-4c64-ad15-153c88f5a77a",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja \nkütuse hinnatõusu leevendamise meetmed\"",
+"mark": 842,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja \nkütuse hinnatõusu leevendamise meetmed\" 842 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja kütuse hinnatõusu leevendamise meetmed\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Valitsusele tehakse ettepanek alandada mootorikütustele rakendatav käibemaksumäär 13 protsendile üheks aastaks ja jätta ära 1. mail jõustuma planeeritud kütuseaktsiisi tõus mitmetele kütuseliikidele.",
+"initiated": "2026-03-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-03-24T17:15:00",
+"responsibleMember": {
+"uuid": "8946b072-80c5-436e-95b2-41f928a7c636",
+"name": "Diana Ingerainen",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8946b072-80c5-436e-95b2-41f928a7c636?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5262,
+"text": "mootorikütus"
+},
+{
+"edid": 4392,
+"text": "käibemaksumäär"
+},
+{
+"edid": 6043,
+"text": "kütus"
+},
+{
+"edid": 1015,
+"text": "aktsiisimaks"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a88b378a-7a3d-492e-b7e7-9a28b7ac5c5f",
+"title": "842 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1748d8f2-3d88-4124-8887-bf791149d598",
+"fileName": "842_RK_o_Ettepanek_VVle_kütusehinnad_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-05T16:27:06.962",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1748d8f2-3d88-4124-8887-bf791149d598/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1748d8f2-3d88-4124-8887-bf791149d598"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "53b3f0ba-f2a0-4be6-85d3-f1456430e6bf",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "981480b6-08f5-4223-a5dc-d516e2634ee1",
+"fileName": "2026.03.10_Kütusehinna_leevendamine_OE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-10T10:48:12.856",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/981480b6-08f5-4223-a5dc-d516e2634ee1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/981480b6-08f5-4223-a5dc-d516e2634ee1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "53b3f0ba-f2a0-4be6-85d3-f1456430e6bf",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d38c9fad-7eff-461e-b67c-dbe5f3ed502f",
+"fileName": "842_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-10T10:54:52.197",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d38c9fad-7eff-461e-b67c-dbe5f3ed502f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d38c9fad-7eff-461e-b67c-dbe5f3ed502f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a88b378a-7a3d-492e-b7e7-9a28b7ac5c5f",
+"title": "842 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "af702181-a68d-4bb1-9e7f-98dc0599563d",
+"fileName": "842_RK_o_Ettepanek_VVle_kütusehinnad_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-05T16:27:19.805",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/af702181-a68d-4bb1-9e7f-98dc0599563d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/af702181-a68d-4bb1-9e7f-98dc0599563d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "53b3f0ba-f2a0-4be6-85d3-f1456430e6bf",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f4615c5b-b067-4cd0-a0ff-6d6e39276540",
+"fileName": "842_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-10T10:55:10.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f4615c5b-b067-4cd0-a0ff-6d6e39276540/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f4615c5b-b067-4cd0-a0ff-6d6e39276540"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-03-10T10:47:48.963",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-03-10T13:43:00.709",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-05T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 5.05.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-05-13T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Diana Ingerainen"
+}
+],
+"protocolFiles": []
+},
+{
+"date": "2026-05-11T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 11.05.2026 15:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "a779c4f4-bac9-41cc-bd4a-d94f731a1217",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-05-11T21:04:13.58",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a779c4f4-bac9-41cc-bd4a-d94f731a1217"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "48f1e197-f5ec-4e39-bf10-b4733cb6c7a7",
+"reference": "1-1/15-842/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele töötada välja kütuse hinnatõusu leevendamise meetmed\" eelnõu 842 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-04-29",
+"files": [
+{
+"uuid": "0bd35981-2bdf-4ac6-9864-e05c1945c2ea",
+"fileName": "124.tel_Arvamus_842OE_häälteenamus.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-29T11:35:50.418",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0bd35981-2bdf-4ac6-9864-e05c1945c2ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0bd35981-2bdf-4ac6-9864-e05c1945c2ea"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/48f1e197-f5ec-4e39-bf10-b4733cb6c7a7"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/715bdee5-fdfa-4c64-ad15-153c88f5a77a"
+}
+}
+}

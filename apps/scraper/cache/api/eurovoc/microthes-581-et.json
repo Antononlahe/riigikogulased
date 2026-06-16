@@ -1,0 +1,215 @@
+{
+"uuid": "8823d9d9-6254-4090-aba9-d8dfddd624b1",
+"etid": 581,
+"code": "4421",
+"text": "personalihaldus ja töötajate tasustamine",
+"descriptors": [
+{
+"edid": 3273,
+"text": "töö tasustamine",
+"code": "3273",
+"uuid": "1dbabb06-4845-35bc-2d8b-da2e075d3bf2",
+"vol_cnt": 102,
+"scopeNotes": [],
+"usedFors": [
+"töötulu"
+],
+"narrowTerms": [
+"46b41e0f-dfe9-b897-01f8-4a3fa9257df4",
+"68f235fb-7379-6f4b-af3d-ed674247f1a6",
+"903ec78f-e6bf-4b7a-8a55-d0eb5f5866f0",
+"e63a1f8f-63dc-44f0-b23a-c1e405a07ec4",
+"64ec473d-8120-4591-5377-44a21c829470",
+"21bf634d-abe4-9f72-f6de-a4a2aad356cb"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1dbabb06-4845-35bc-2d8b-da2e075d3bf2"
+}
+}
+},
+{
+"edid": 1163,
+"text": "personalihaldus",
+"code": "1163",
+"uuid": "4870a727-30f1-30a0-55b9-abf4d956655f",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"inimressursside haldamine",
+"personali liikuvus",
+"personalijuhtimine"
+],
+"narrowTerms": [
+"21e1860b-c2a0-27ba-d2c8-85aec43e2db7",
+"bae0f8b3-198b-60d2-d8c5-f868ce9626bc",
+"45cc5cd4-8208-4e8f-ac93-5ef00dea66a1",
+"6b16e93b-e777-4e14-a566-c6d9e6947c1f",
+"01290040-355d-4697-b76e-523144d23941",
+"7ec48467-35a2-453b-8c01-b73d9de08478",
+"f2528718-1700-3985-c1f0-054ca3a7d526",
+"66e387c8-ea68-30e6-f7a5-9527404afbd0",
+"3cd72113-ca2d-58d3-ff85-121374db8bd2",
+"9dda6820-0cd7-249e-bb4e-f87aadc95448"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1427,
+"text": "andmetöötlus halduses",
+"code": "1427",
+"uuid": "dcba718d-af4c-4ae9-b167-792f5506d542",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dcba718d-af4c-4ae9-b167-792f5506d542"
+}
+}
+},
+{
+"edid": 7926,
+"text": "intellektuaalne kapital",
+"code": "7926",
+"uuid": "a1dde950-5de6-4692-8cfe-3e4ae3d02595",
+"vol_cnt": 1,
+"scopeNotes": [
+"Töötajate intellektuaalsed ressursid ja oskused tervikuna."
+],
+"usedFors": [
+"vaimne kapital"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a1dde950-5de6-4692-8cfe-3e4ae3d02595"
+}
+}
+},
+{
+"edid": 7948,
+"text": "organisatsioonikultuur",
+"code": "7948",
+"uuid": "1ccbb2df-97ec-4302-b51e-9fe00fb8a8a9",
+"vol_cnt": 2,
+"scopeNotes": [
+"Organisatsiooni liikmete ühine uskumuste ja väärtuste süsteem, mis suunab nende käitumist."
+],
+"usedFors": [
+"ettevõttekultuur"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1ccbb2df-97ec-4302-b51e-9fe00fb8a8a9"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4870a727-30f1-30a0-55b9-abf4d956655f"
+}
+}
+},
+{
+"edid": 2491,
+"text": "palgapoliitika",
+"code": "2491",
+"uuid": "4690af8c-d636-4910-ba1b-39743cebc3ac",
+"vol_cnt": 15,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"c6ac97a3-4793-4142-bd9d-1d7c3e1b0fc6",
+"cb58ff6d-44ea-455a-8fed-9d470e368819",
+"fec7b4f3-caa4-4b02-8eeb-64092c301a1f",
+"d7659d61-9558-af18-b8ab-6140838b2861",
+"166d5ebe-a506-0105-e42a-bba367c4ab89",
+"a268eb7b-bac4-7216-2b93-33b5206be6e3",
+"ecb62ddb-b3bd-6b04-04f4-a90f47686d57",
+"b3cbf1f7-2f76-d5d3-eea1-5b66af26c6e9"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2461,
+"text": "kokkuhoiupoliitika",
+"code": "2461",
+"uuid": "d8fa41be-3604-8a3b-bf1c-f902baa91f74",
+"vol_cnt": 8,
+"scopeNotes": [
+"Kulude kontroll: halduskulude vähendamine ning tulude ja hindade kontrollimine."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d8fa41be-3604-8a3b-bf1c-f902baa91f74"
+}
+}
+},
+{
+"edid": 2490,
+"text": "tulupoliitika",
+"code": "2490",
+"uuid": "5ce6168b-a145-4359-be7a-c84c4f72ca45",
+"vol_cnt": 0,
+"scopeNotes": [
+"Poliitika, mis käsitleb tulude jagamist ja ümberjaotamist. Mitte segamini ajada palgapoliitikaga."
+],
+"usedFors": [],
+"narrowTerms": [
+"3386d5e4-fd94-4f8c-8d51-0dcb62f3f675",
+"063056ac-0057-43d7-9c61-43d353d74c56"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5ce6168b-a145-4359-be7a-c84c4f72ca45"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4690af8c-d636-4910-ba1b-39743cebc3ac"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/8823d9d9-6254-4090-aba9-d8dfddd624b1"
+}
+}
+}

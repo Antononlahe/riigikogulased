@@ -1,0 +1,341 @@
+{
+"uuid": "3b315ff3-2710-4709-a3b7-e0c6ddd5a2cb",
+"etid": 570,
+"code": "3606",
+"text": "loodusteadused ja rakendusteadused",
+"descriptors": [
+{
+"edid": 3941,
+"text": "bioteadused",
+"code": "3941",
+"uuid": "1cc11239-5ebd-4326-9249-462039a9032a",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"loodusteadused"
+],
+"narrowTerms": [
+"75e162f1-9d7c-4da9-b8eb-f506cbb059c3",
+"e0b5e75e-c255-4bdf-8d1f-f708aadad110",
+"f69a9d80-7c35-4830-ad9c-d1bf5c4432d6",
+"818b59ee-9e12-4cc9-9be1-c3be7b515801"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5881,
+"text": "meditsiiniteadused",
+"code": "5881",
+"uuid": "0e537a00-b037-4200-ae58-11f67acb3ab2",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"1eb29f5f-e4bc-44bb-9ecb-e0e92d8ece78",
+"be923bd6-fa06-696e-0866-c64b59fc9793",
+"b97cd9e1-9b68-4b36-816d-b9dc4b3bcd1e",
+"6c6961e2-5bc9-4568-9219-800bc771b143",
+"84173e1d-9473-4bde-a50d-d057b457966a",
+"b44f8814-dac9-4f27-8b97-ea328a6f5ad7",
+"54ecaacd-a532-c70d-4bd3-f5b81f556175",
+"fc6fde5d-c746-49cb-86cc-44b1b974b6ad"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0e537a00-b037-4200-ae58-11f67acb3ab2"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1cc11239-5ebd-4326-9249-462039a9032a"
+}
+}
+},
+{
+"edid": 3946,
+"text": "füüsikateadused",
+"code": "3946",
+"uuid": "098e3561-69ba-444f-8100-14fa1661ba9e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"füüsika"
+],
+"narrowTerms": [
+"e442b3cf-ee30-4203-947d-f194afb726eb",
+"dd8b455a-6c06-4735-b296-47c326cd9561",
+"ad80615c-7c2a-48a2-9734-ff72925a9b64",
+"ae520eb1-376c-f00a-bcbc-31cd86a483e9",
+"3b787be3-065a-4ace-8854-8e4515a774f4",
+"8342b797-77bf-41be-8dc5-3de1bb1054af",
+"df33b540-1922-4cfe-a5f3-d83b199dbc55",
+"e17fa5c7-80f1-47e6-87c6-d5f8512682c1",
+"ac407630-4912-48d1-8b77-a9b0bfb5d18c",
+"9af9ae10-beeb-4714-93a8-067d8d74a5d5",
+"86f37775-66c5-428b-97a3-e0fe2b9cf3b9"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1152,
+"text": "geofüüsika",
+"code": "1152",
+"uuid": "38b62bf9-2332-429b-9ba1-c10b007ef0e6",
+"vol_cnt": 0,
+"scopeNotes": [
+"Uurib Maa füüsilisi omadusi ja temas toimuvaid füüsilisi protsesse."
+],
+"usedFors": [],
+"narrowTerms": [
+"46be6c53-86c0-4e70-9b7b-5f734a35c0d9"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/38b62bf9-2332-429b-9ba1-c10b007ef0e6"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/098e3561-69ba-444f-8100-14fa1661ba9e"
+}
+}
+},
+{
+"edid": 6382,
+"text": "kosmoseteadus",
+"code": "6382",
+"uuid": "d7c69820-96d8-4844-af09-4ad96a3cec1b",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"3ecf3de6-b914-4eef-8d15-a09c5bbefc03",
+"07946904-1f5f-4455-87c2-0ca5943590a5"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4185,
+"text": "kosmosepoliitika",
+"code": "4185",
+"uuid": "c11142f6-a74c-4e19-a994-5769c565fe37",
+"vol_cnt": 26,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"b2c70deb-7c9c-4f43-8407-5a7edb4e197e"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c11142f6-a74c-4e19-a994-5769c565fe37"
+}
+}
+},
+{
+"edid": 3092,
+"text": "kosmosetransport",
+"code": "3092",
+"uuid": "1700b7d7-8fc0-4832-b5e1-ec6dea930c00",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"d5149c53-6437-4d8f-9341-2bb1515e655a",
+"1c83ef6a-db3e-4982-bad4-d9a7e65b32a0",
+"4ff12eac-b56c-443c-8dea-a8a9b30196f1",
+"63fb8b6f-eb42-4707-82fe-49f875dbe28e"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1700b7d7-8fc0-4832-b5e1-ec6dea930c00"
+}
+}
+},
+{
+"edid": 1358,
+"text": "kosmosetööstus",
+"code": "1358",
+"uuid": "62ac6810-bced-4a38-bfd8-7c42ddc1154a",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/62ac6810-bced-4a38-bfd8-7c42ddc1154a"
+}
+}
+},
+{
+"edid": 5238,
+"text": "kosmoseuuring",
+"code": "5238",
+"uuid": "b2c70deb-7c9c-4f43-8407-5a7edb4e197e",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"kosmosemeditsiin"
+],
+"narrowTerms": [
+"08e66f88-9ef4-4e68-80e6-7f5741604988"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b2c70deb-7c9c-4f43-8407-5a7edb4e197e"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d7c69820-96d8-4844-af09-4ad96a3cec1b"
+}
+}
+},
+{
+"edid": 3952,
+"text": "maateadused",
+"code": "3952",
+"uuid": "35cde97d-78c1-4e58-b5a9-5b299f69929f",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"geoteadused"
+],
+"narrowTerms": [
+"a8c11957-6f08-459e-ac33-cbb2ae3fdb26",
+"6d744149-d3b4-1648-7d2d-c43a2f3e2fab",
+"7dae9ce9-efb8-4003-ad2c-44802208788e",
+"76904517-1bdd-4c95-b644-4d5dd179e223",
+"8ecab2bf-6933-4239-8f0c-74d0c6f886f7",
+"6264a0d9-feaa-4a25-a608-2e383b159fa5",
+"8848ef05-55b5-4392-bcd9-6b198b3cb305",
+"acdbb166-de97-4629-a0a1-c2dca8a661bf"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 833,
+"text": "füüsiline keskkond",
+"code": "833",
+"uuid": "51126b7a-5303-4338-91f0-ba258f515235",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"ec97aad5-60de-4b89-ba93-851c81b44156",
+"18ac3009-a38a-41e4-ae37-4f09ce023551",
+"6e5971e5-9c6d-8063-fb28-391bd753e2bd",
+"9234c5b7-e245-4bf9-bc1f-fda4f73420db",
+"072001cd-baf7-4306-adce-1afa4b1146f1"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/51126b7a-5303-4338-91f0-ba258f515235"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/35cde97d-78c1-4e58-b5a9-5b299f69929f"
+}
+}
+},
+{
+"edid": 3949,
+"text": "rakendusteadused",
+"code": "3949",
+"uuid": "c71e3003-3566-4874-aed6-ef1b040441e4",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"14473605-d969-491a-a01f-536dc624724e",
+"62c3c02b-c0a3-4007-bf47-d2c6de962201",
+"d3aa8f6f-41f0-4dee-aac1-3d974c886e3c",
+"adabb6ba-6170-4081-acd1-e28d31a3fb39",
+"e8151906-22e1-4303-b438-42d2cead4ce2",
+"70c7f8b9-5619-436d-8d79-d8c88b688746",
+"c30ab9a7-1c54-4dde-b416-723ca4d49175"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2916,
+"text": "rakendusuuringud",
+"code": "2916",
+"uuid": "9ab247af-d5d6-fe15-22aa-f3bb774c91a8",
+"vol_cnt": 11,
+"scopeNotes": [],
+"usedFors": [
+"tehnilised uuringud",
+"tehnoloogilised uuringud"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9ab247af-d5d6-fe15-22aa-f3bb774c91a8"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c71e3003-3566-4874-aed6-ef1b040441e4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/3b315ff3-2710-4709-a3b7-e0c6ddd5a2cb"
+}
+}
+}

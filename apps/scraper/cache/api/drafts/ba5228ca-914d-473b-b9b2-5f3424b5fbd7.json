@@ -1,0 +1,558 @@
+{
+"uuid": "ba5228ca-914d-473b-b9b2-5f3424b5fbd7",
+"title": "Liikluskindlustuse seaduse muutmise seadus",
+"mark": 649,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Liikluskindlustuse seaduse muutmise seadus 649 SE",
+"initialTitle": "Liikluskindlustuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette vabastada täismassiga kuni 3,5 (kaasa arvatud) tonni haagised liikluskindlustuse kohustusest, kuna haagised iseseisvalt liikluses reeglina ei osale.",
+"initiated": "2025-05-14",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "53141769-f7bb-4995-8d12-5ff0d9c1eca1",
+"name": "Mario Kadastik",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/53141769-f7bb-4995-8d12-5ff0d9c1eca1?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "29ac9b4b-1d00-402a-a55e-e8044bf8a33a",
+"name": "Piia Schults",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/29ac9b4b-1d00-402a-a55e-e8044bf8a33a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3303,
+"text": "liikluskindlustus"
+},
+{
+"edid": 4654,
+"text": "mootorsõiduk"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "3675e6ce-c468-41cd-ad6a-0a9d0dec79ff",
+"title": "649 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "db9f705d-d494-4492-a007-70c5fb8e85eb",
+"fileName": "649_LKindS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:31:17.452",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/db9f705d-d494-4492-a007-70c5fb8e85eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/db9f705d-d494-4492-a007-70c5fb8e85eb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5635e376-da39-49bf-8f80-511f6d2be7c6",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3572a599-5595-49e1-bc74-8ce5b46cb1a8",
+"fileName": "Liikluskindlustuse_seaduse_muutmise_seadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T14:34:04.904",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3572a599-5595-49e1-bc74-8ce5b46cb1a8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3572a599-5595-49e1-bc74-8ce5b46cb1a8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5635e376-da39-49bf-8f80-511f6d2be7c6",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ea9fef73-4f82-4ca7-b50c-3e17d2940dda",
+"fileName": "649E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T15:43:35.863",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ea9fef73-4f82-4ca7-b50c-3e17d2940dda/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ea9fef73-4f82-4ca7-b50c-3e17d2940dda"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "3675e6ce-c468-41cd-ad6a-0a9d0dec79ff",
+"title": "649 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4129c6c9-1911-4f8f-9da9-d8a78a5e79dd",
+"fileName": "649_LKindS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:33:59.298",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4129c6c9-1911-4f8f-9da9-d8a78a5e79dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4129c6c9-1911-4f8f-9da9-d8a78a5e79dd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5635e376-da39-49bf-8f80-511f6d2be7c6",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8b43e82f-bd66-424d-bd78-438774316dc7",
+"fileName": "649SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T15:43:53.27",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b43e82f-bd66-424d-bd78-438774316dc7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b43e82f-bd66-424d-bd78-438774316dc7"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-05-14T14:33:43.358",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-05-15T16:01:00.997",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-09-15T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 15.09.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Mario Kadastik"
+},
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-09-24T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "2a221e8a-f56e-4cfe-9bf6-26792d7e0a7b",
+"fileName": "MAJK_protokoll_nr_142_15.09.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T16:24:54.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2a221e8a-f56e-4cfe-9bf6-26792d7e0a7b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2a221e8a-f56e-4cfe-9bf6-26792d7e0a7b"
+}
+}
+},
+{
+"uuid": "caf4d9c2-3c7d-4077-87f2-df34cb8c09cc",
+"fileName": "IALA_esitlus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (663 SE)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T12:57:04.274",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/caf4d9c2-3c7d-4077-87f2-df34cb8c09cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/caf4d9c2-3c7d-4077-87f2-df34cb8c09cc"
+}
+}
+},
+{
+"uuid": "32e1a433-7112-425b-880e-9f54c474902a",
+"fileName": "MKM_2035_15.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Eesti 2035)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T12:56:37.691",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/32e1a433-7112-425b-880e-9f54c474902a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/32e1a433-7112-425b-880e-9f54c474902a"
+}
+}
+},
+{
+"uuid": "f7e9c1db-9178-46e8-b2de-bc1d5e10f7ee",
+"fileName": "Asendusliikme_volikiri_Kokk_Poolamets.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri_Kokk_Poolamets",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T13:16:42.957",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7e9c1db-9178-46e8-b2de-bc1d5e10f7ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7e9c1db-9178-46e8-b2de-bc1d5e10f7ee"
+}
+}
+},
+{
+"uuid": "0fc34b17-11d8-4663-8b56-bcbdf2ac9fa6",
+"fileName": "MAJK_protokoll_nr_142_15.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T16:24:12.569",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0fc34b17-11d8-4663-8b56-bcbdf2ac9fa6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0fc34b17-11d8-4663-8b56-bcbdf2ac9fa6"
+}
+}
+},
+{
+"uuid": "2ba03b99-d72b-4790-bd18-7d4e26e57668",
+"fileName": "Asendusliikme_volikiri_Pillak_Ruusmann.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri_Pillak_Ruusmann",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T13:16:07.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ba03b99-d72b-4790-bd18-7d4e26e57668/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ba03b99-d72b-4790-bd18-7d4e26e57668"
+}
+}
+}
+]
+},
+{
+"date": "2025-09-24T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 24.09.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "01cbf5fa-ea6c-4ea5-a6f6-05d608f38363",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-09-24T18:16:16.747",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/01cbf5fa-ea6c-4ea5-a6f6-05d608f38363"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "0d92cc0e-cfff-4dee-a4f2-b91ca2d7bce3",
+"reference": "1-1/15-649/2",
+"title": "Vabariigi Valitsuse arvamus liikluskindlustuse seaduse muutmise seaduse eelnõu 649 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-14",
+"files": [
+{
+"uuid": "da4a5d8a-c3ff-4180-a9b8-9cbefc5ee898",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0535_-_Liikluskindlustuse_seaduse_muutmise_seaduse_eelnõu_(649_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-14T09:13:49.817",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da4a5d8a-c3ff-4180-a9b8-9cbefc5ee898/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da4a5d8a-c3ff-4180-a9b8-9cbefc5ee898"
+}
+}
+},
+{
+"uuid": "2bb44a95-65fe-4ca1-b19a-25d7a0d87007",
+"fileName": "1.1-112368-4_11.07.2025_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-14T09:13:49.735",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2bb44a95-65fe-4ca1-b19a-25d7a0d87007/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2bb44a95-65fe-4ca1-b19a-25d7a0d87007"
+}
+}
+},
+{
+"uuid": "1aa9bbdd-09f5-40fa-85ba-a07d09858f7d",
+"fileName": "Liikluskindlustuse_seaduse_muutmise_seaduse_eelnõu_(649_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-14T09:13:49.803",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1aa9bbdd-09f5-40fa-85ba-a07d09858f7d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1aa9bbdd-09f5-40fa-85ba-a07d09858f7d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0d92cc0e-cfff-4dee-a4f2-b91ca2d7bce3"
+}
+}
+},
+{
+"uuid": "e07f2981-4ed8-44ba-9e92-35bc14347818",
+"reference": "1-1/15-649/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 649 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-05-14",
+"files": [
+{
+"uuid": "8f84259d-2dad-463e-8ec2-114afc708f4d",
+"fileName": "649SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T15:48:19.767",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8f84259d-2dad-463e-8ec2-114afc708f4d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8f84259d-2dad-463e-8ec2-114afc708f4d"
+}
+}
+},
+{
+"uuid": "1975c7f0-a761-47ad-a787-96b174121918",
+"fileName": "250515_LKindlS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-15T13:25:58.602",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1975c7f0-a761-47ad-a787-96b174121918/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1975c7f0-a761-47ad-a787-96b174121918"
+}
+}
+},
+{
+"uuid": "f7e692eb-de2e-4d96-b6cc-3cb43c6852c5",
+"fileName": "LKindS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T15:47:46.062",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7e692eb-de2e-4d96-b6cc-3cb43c6852c5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7e692eb-de2e-4d96-b6cc-3cb43c6852c5"
+}
+}
+},
+{
+"uuid": "e51f4cf9-cead-497f-b95e-08822595c55c",
+"fileName": "1-1-15-649-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_649_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-15T16:05:18.426",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e51f4cf9-cead-497f-b95e-08822595c55c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e51f4cf9-cead-497f-b95e-08822595c55c"
+}
+}
+},
+{
+"uuid": "848c0205-095f-4f79-af5e-d0bb87ff5263",
+"fileName": "649E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T15:47:56.135",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/848c0205-095f-4f79-af5e-d0bb87ff5263/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/848c0205-095f-4f79-af5e-d0bb87ff5263"
+}
+}
+},
+{
+"uuid": "a2f8baf7-9543-48d3-9cb1-a496da644889",
+"fileName": "LKindS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T15:47:25.338",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a2f8baf7-9543-48d3-9cb1-a496da644889/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a2f8baf7-9543-48d3-9cb1-a496da644889"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e07f2981-4ed8-44ba-9e92-35bc14347818"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/ba5228ca-914d-473b-b9b2-5f3424b5fbd7"
+}
+}
+}

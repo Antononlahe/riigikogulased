@@ -1,0 +1,400 @@
+{
+"uuid": "19d54ac6-6227-4171-9e00-d47d2777429d",
+"etid": 554,
+"code": "2806",
+"text": "perekond",
+"descriptors": [
+{
+"edid": 965,
+"text": "perekond",
+"code": "965",
+"uuid": "2e3b8c68-8087-f708-3ab7-b7bf4bcffa59",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [
+"perekeskkond",
+"tuumperekond"
+],
+"narrowTerms": [
+"8347fbeb-3da6-bf4b-64b4-6933c85ead4d",
+"dd8d0cc4-5fb4-4e78-a982-39d1586bf1fc",
+"96c9f1c3-722a-4d76-924c-28858bb34ae1",
+"cd039367-8e2a-4a7b-8bc4-2a8873a21b26",
+"8ceadc8f-2139-4f7e-8c3f-99c9e5e15ce2",
+"96392796-0efd-45d1-bda2-409ed8d929bc",
+"e47f43e7-eb6b-4220-8ffd-77656467131a",
+"fd5986c2-3157-153f-3b5a-1132c031730a",
+"b57f1960-ce66-472d-ad0a-a33a3031896f",
+"6617fd45-538f-4fd1-a1e9-1f15a9fdb2aa",
+"74c22b0c-c8af-4d93-9b5f-fe839b897a63",
+"f34df75f-0c87-b30f-d668-b04ae3992483"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1864,
+"text": "leibkond",
+"code": "1864",
+"uuid": "b97d8ebf-8716-4334-82f2-19ea2debb5e1",
+"vol_cnt": 9,
+"scopeNotes": [
+"Rahvaloenduse üksus. Iga üksikisik või ühes majapidamises elav isikuterühm."
+],
+"usedFors": [
+"kodumajapidamine"
+],
+"narrowTerms": [
+"7a91638b-bf07-46e6-b213-51591d031a08",
+"8fc2b2b2-d396-4fcc-948d-89f3831053f8"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b97d8ebf-8716-4334-82f2-19ea2debb5e1"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2e3b8c68-8087-f708-3ab7-b7bf4bcffa59"
+}
+}
+},
+{
+"edid": 540,
+"text": "perekonnaõigus",
+"code": "540",
+"uuid": "01ed3596-1b46-087e-7a38-9fe328f4a02b",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"2ce91aac-d837-239a-8960-241062f6ce48",
+"3d199635-f342-4b5e-8c93-5000050d2023",
+"7f12acfa-ae00-0b00-cc0c-415c5771365e",
+"bb3b7d7f-8f75-5abd-2d3a-3b4a913dec24",
+"d26aaa60-b00e-4db5-97e9-21b3e124daa7",
+"e2ff228f-879c-2894-bee4-06d9dd31a23e",
+"dce95957-6d74-4b1b-5297-4f4d26525681",
+"896c210d-b537-19fe-1b28-b20f2ec450b9",
+"d5245f87-a181-429a-be1a-7fc8e2a50574",
+"6b416a21-d216-780c-668f-823410b52263",
+"42f55056-b629-415e-bf18-c14cc0550eda",
+"69115034-73a7-48c5-9980-3153b7d7e1a0",
+"9984794a-c8c0-43f6-8443-0964f64f3d58",
+"386a9f69-3a32-47e2-b1f3-a58733d3c347",
+"11e22a99-b6b2-cff9-0263-558edcacf5c0",
+"774cad4d-5cac-712e-0c83-4299c45df9e7"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 576,
+"text": "eraõigus",
+"code": "576",
+"uuid": "4d3417ff-c10f-fd3f-2c42-9f2058424f63",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"3b96f0e7-485b-49ba-9914-ed82e69c563e"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4d3417ff-c10f-fd3f-2c42-9f2058424f63"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/01ed3596-1b46-087e-7a38-9fe328f4a02b"
+}
+}
+},
+{
+"edid": 3307,
+"text": "kunstlik viljastamine",
+"code": "3307",
+"uuid": "a61ea6b5-ef06-2697-c281-77442f480972",
+"vol_cnt": 7,
+"scopeNotes": [
+"Loomade kunstliku viljastamise puhul kasutada terminit \"kunstlik seemendamine\"."
+],
+"usedFors": [
+"embrüodoonorlus",
+"spermadoonorlus",
+"spermapank",
+"viljatusravi"
+],
+"narrowTerms": [
+"a7379fb3-aedd-437c-9c6f-2e7814991912",
+"2458f655-cda6-4a6e-8aad-61af7846f699"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5169,
+"text": "bioeetika",
+"code": "5169",
+"uuid": "b21e924e-9018-4a9e-8eea-4ba135b55a6d",
+"vol_cnt": 8,
+"scopeNotes": [
+"Eetilised aspektid selliste tehnikate puhul, mis hõlmavad inimese sekkumist bioloogilistesse protsessidesse."
+],
+"usedFors": [
+"arstieetika",
+"meditsiinieetika"
+],
+"narrowTerms": [
+"1fc3addb-d1c2-3862-8147-dbe7f6fdc125"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b21e924e-9018-4a9e-8eea-4ba135b55a6d"
+}
+}
+},
+{
+"edid": 5512,
+"text": "elundikaubandus",
+"code": "5512",
+"uuid": "1fc3addb-d1c2-3862-8147-dbe7f6fdc125",
+"vol_cnt": 1,
+"scopeNotes": [
+"Seaduslik või ebaseaduslik kaubitsemine inimkeha osadega või sellest valmistatud toodetega."
+],
+"usedFors": [
+"elunditega kaubitsemine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1fc3addb-d1c2-3862-8147-dbe7f6fdc125"
+}
+}
+},
+{
+"edid": 3314,
+"text": "järeltulija",
+"code": "3314",
+"uuid": "dce95957-6d74-4b1b-5297-4f4d26525681",
+"vol_cnt": 19,
+"scopeNotes": [
+"Vanemate ja laste vaheline õiguslik side."
+],
+"usedFors": [
+"bioloogiline järeltulija",
+"bioloogiline vanemlikkus",
+"põlvnemine",
+"seaduslik järeltulija"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dce95957-6d74-4b1b-5297-4f4d26525681"
+}
+}
+},
+{
+"edid": 3308,
+"text": "kunstlik seemendamine",
+"code": "3308",
+"uuid": "c4ba40f1-b512-4178-9238-647f65971424",
+"vol_cnt": 0,
+"scopeNotes": [
+"Inimeste puhul kasutada mõistet \"kunstlik viljastamine\"."
+],
+"usedFors": [
+"kitsede kunstlik seemendamine",
+"lammaste kunstlik seemendamine",
+"sigade kunstlik seemendamine",
+"veiste kunstlik seemendamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c4ba40f1-b512-4178-9238-647f65971424"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a61ea6b5-ef06-2697-c281-77442f480972"
+}
+}
+},
+{
+"edid": 4184,
+"text": "perekonnaseis",
+"code": "4184",
+"uuid": "81238a0f-a020-13ac-e890-851548efdcd5",
+"vol_cnt": 16,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"b194dd71-ffd7-7aa9-a3fe-e0e473923807",
+"61096021-21b1-404f-a8ae-c978d978b7eb",
+"fb2bdb43-4a9d-493e-bc0f-d35864cff7e2",
+"17842e87-5cdd-4d5d-86eb-82a3e27ab904",
+"f4a23f40-76b3-4b58-9a7f-796dd09b3db8",
+"47791dd3-0abd-4d45-9fb2-6fcb84514721",
+"f8918490-a274-4d35-879f-20265b8556b2",
+"e8176f94-6feb-411b-87a0-d4947bbc0c9c"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 570,
+"text": "abieluõigus",
+"code": "570",
+"uuid": "7f12acfa-ae00-0b00-cc0c-415c5771365e",
+"vol_cnt": 13,
+"scopeNotes": [],
+"usedFors": [
+"abieluleping",
+"abieluvaraleping"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7f12acfa-ae00-0b00-cc0c-415c5771365e"
+}
+}
+},
+{
+"edid": 884,
+"text": "kodanikuseisund",
+"code": "884",
+"uuid": "d7025f50-418b-433e-a8b7-f9ed8c2a0fa0",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"4ed42a72-e082-452c-8c56-1095d3ae7e7d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d7025f50-418b-433e-a8b7-f9ed8c2a0fa0"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/81238a0f-a020-13ac-e890-851548efdcd5"
+}
+}
+},
+{
+"edid": 2398,
+"text": "pereplaneerimine",
+"code": "2398",
+"uuid": "79e23f9f-6fa2-436c-b45c-3c93d72238d2",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"pereplaneerimisprogramm"
+],
+"narrowTerms": [
+"1b75977a-9e4f-4536-a262-cf0bd2c7f2a8"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2484,
+"text": "rahvastikupoliitika",
+"code": "2484",
+"uuid": "620d2781-6d47-4ee0-89e8-67faa19e17a0",
+"vol_cnt": 13,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"003f6faf-e6b5-4308-980a-4a2ad9626772"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/620d2781-6d47-4ee0-89e8-67faa19e17a0"
+}
+}
+},
+{
+"edid": 7135,
+"text": "reproduktiivtervis",
+"code": "7135",
+"uuid": "27a9f671-2e11-4ed9-9425-eb7e8ffa1483",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/27a9f671-2e11-4ed9-9425-eb7e8ffa1483"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/79e23f9f-6fa2-436c-b45c-3c93d72238d2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/19d54ac6-6227-4171-9e00-d47d2777429d"
+}
+}
+}

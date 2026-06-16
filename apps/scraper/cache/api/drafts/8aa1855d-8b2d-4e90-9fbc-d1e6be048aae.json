@@ -1,0 +1,2555 @@
+{
+"uuid": "8aa1855d-8b2d-4e90-9fbc-d1e6be048aae",
+"title": "Jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seadus",
+"mark": 657,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seadus 657 SE",
+"initialTitle": "Jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga on kavandatud muuta jäätmeseadust (JäätS), keskkonnaseadustiku üldosa seadust (KeÜS), kaugkütteseadust (KKütS), keskkonnatasude seadust (KeTS), kohaliku omavalitsuse korralduse seadust (KOKS) ja pakendiseadust (PakS). \nMuudatuste eesmärk on keskkonnahoidliku majanduskasvu edendamine. Ringlussevõtutööstusele eeliste loomiseks vähendatakse jäätmete ladestamist ja põletamist, suurendatakse jäätmete liigiti kogumist ja parandatakse konkurentsitingimusi jäätmeveos. Alameesmärgiks on rolliselguse loomine valdkonnas. Selleks tõhustatakse taaskasutusorganisatsioonide tegevust ja vähendatakse kohaliku omavalitsuse piiranguid jäätmehoolduse korraldamisel. \nMuudatustega luuakse eeldused Euroopa Liidus kehtestatud taaskasutuse sihttasemete õigeaegseks saavutamiseks. Eelnõuga tehtavate muudatuste peamine eesmärk on olmejäätmetes sisalduva teisese toorme suurem kasutuselevõtt. \nEelnõuga suurendatakse kohaliku omavalitsuse üksuste vastutust ja võimalusi jäätmehoolduse korraldamisel, tõhustatakse pakendite ja pakendijäätmete ringlussevõttu läbi nende ulatuslikuma kokku kogumise, kehtestatakse ringlussevõttu motiveerivad tasusüsteemid ning suurendatakse jäätmeandmete läbipaistvust ja ajakohasust. \nMuudatused on vajalikud, et suunata olmejäätmed ringmajandusse. See eeldab struktuurseid muudatusi (nn jäätmereformi), mis tagaksid olmejäätmete piisava liigiti kogumise ja ringlussevõtu ning olmejäätmete ja pakendijäätmete ringlussevõtu sihtarvude saavutamise. Liigiti kogutud ja ringlusse võetavate jäätmete koguse järkjärguline suurenemine võimaldab Eestis arendada ringlussevõtutööstust, kuna kvaliteetsete jäätmevoogude tagamine ja stabiilne teke (ehk stabiilne liigiti kogumine) on investeeringute tegemisel ja ringlussevõtutööstuse arendamisel oluliseks eelduseks.",
+"initiated": "2025-05-19",
+"joined": null,
+"accepted": "2025-12-09",
+"amendmentsDeadline": "2025-07-02T16:00:00",
+"responsibleMember": {
+"uuid": "d18cee4c-7b30-405f-96f2-4ab6f81efaf2",
+"name": "Hanah Lahe",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/d18cee4c-7b30-405f-96f2-4ab6f81efaf2?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "93630c8d-295d-4c76-b30b-2eebc6d35396",
+"name": "Elle Kaur",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/93630c8d-295d-4c76-b30b-2eebc6d35396?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 343,
+"text": "jäätmed"
+},
+{
+"edid": 4141,
+"text": "majapidamisjäätmed"
+},
+{
+"edid": 1158,
+"text": "jäätmehooldus"
+},
+{
+"edid": 2947,
+"text": "jäätmete ringlussevõtt"
+},
+{
+"edid": 5501,
+"text": "kohalik valitsusüksus"
+},
+{
+"edid": 2602,
+"text": "teenuste pakkumine"
+},
+{
+"edid": 4131,
+"text": "tasuline teenus"
+},
+{
+"edid": 5945,
+"text": "haldusjärelevalve"
+},
+{
+"edid": 5839,
+"text": "keskkonnamaks"
+},
+{
+"edid": 2746,
+"text": "pakend"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ef435116-6ded-4c27-996c-08c147b60d83",
+"fileName": "RK_25-00881-2.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.442",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef435116-6ded-4c27-996c-08c147b60d83/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef435116-6ded-4c27-996c-08c147b60d83"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e47eef2c-6b6f-4dfa-b812-d5c274985f1c",
+"fileName": "[EIS]_Eelnõu_esitamine__KLIM-24-1102_-_Jäätmeseaduse_ja_pakendiseaduse_ning_teiste_seaduste_muutmiseseadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e47eef2c-6b6f-4dfa-b812-d5c274985f1c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e47eef2c-6b6f-4dfa-b812-d5c274985f1c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc71ce4b-c951-4078-952c-ca2c29128787",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4e660c91-d0f4-4505-a608-008e4d1988bb",
+"fileName": "657_JäätS_jt_s_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-11T15:15:16.496",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4e660c91-d0f4-4505-a608-008e4d1988bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4e660c91-d0f4-4505-a608-008e4d1988bb"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "886ab70e-a2dd-47d1-99a8-867fa7a776e3",
+"title": "657SE III lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cf45ce79-cf80-4f80-ad3d-a92949de438c",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-04T13:50:26.614",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf45ce79-cf80-4f80-ad3d-a92949de438c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf45ce79-cf80-4f80-ad3d-a92949de438c"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "29e3bc6b-a194-47f0-be78-de2a777bc931",
+"title": "657SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "33b59042-fffc-47dd-87c1-fc728290262a",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-01T13:34:24.434",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/33b59042-fffc-47dd-87c1-fc728290262a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/33b59042-fffc-47dd-87c1-fc728290262a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6fcad37b-8d4d-4405-b2cb-932a9cc8da5d",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.618",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6fcad37b-8d4d-4405-b2cb-932a9cc8da5d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6fcad37b-8d4d-4405-b2cb-932a9cc8da5d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1b6894fe-da11-4766-8af9-f09d853d9d92",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.69",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b6894fe-da11-4766-8af9-f09d853d9d92/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b6894fe-da11-4766-8af9-f09d853d9d92"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "89e3314a-48f7-443f-9cd0-87733c9ed036",
+"fileName": "25-00881-2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.605",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/89e3314a-48f7-443f-9cd0-87733c9ed036/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/89e3314a-48f7-443f-9cd0-87733c9ed036"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "3b8bff09-65c2-4935-a72d-79c68ee02fd1",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eb4c6a5e-50fb-4d8e-bcd9-cd2e5c3eb63d",
+"fileName": "657_Kaaskiri_Vabariigi_Presidendile_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-09T15:14:34.161",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb4c6a5e-50fb-4d8e-bcd9-cd2e5c3eb63d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb4c6a5e-50fb-4d8e-bcd9-cd2e5c3eb63d"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "601bb996-9fe1-40e1-a122-a01a77adb7cf",
+"title": "RT-lle saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "29628f7d-d04c-417c-ae4c-b6778bc0d787",
+"fileName": "657XV_Jaatmesead_ms_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-23T15:38:27.333",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29628f7d-d04c-417c-ae4c-b6778bc0d787/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29628f7d-d04c-417c-ae4c-b6778bc0d787"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "601bb996-9fe1-40e1-a122-a01a77adb7cf",
+"title": "RT-lle saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "056f44ff-6238-4925-b33d-7ee192ba4134",
+"fileName": "657XV_Jaatmesead_ms_2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-23T15:38:16.036",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/056f44ff-6238-4925-b33d-7ee192ba4134/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/056f44ff-6238-4925-b33d-7ee192ba4134"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "29e3bc6b-a194-47f0-be78-de2a777bc931",
+"title": "657SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9d22d08c-6288-4d5d-a2b4-141a35490ff3",
+"fileName": "Muudatusettepanekute_loetelu.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-01T13:35:46.997",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d22d08c-6288-4d5d-a2b4-141a35490ff3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d22d08c-6288-4d5d-a2b4-141a35490ff3"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc71ce4b-c951-4078-952c-ca2c29128787",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1e032ba2-46af-4e32-bd4e-9ee15dc256ec",
+"fileName": "657_JäätS_jt_s_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-11T15:15:45.773",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e032ba2-46af-4e32-bd4e-9ee15dc256ec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e032ba2-46af-4e32-bd4e-9ee15dc256ec"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "29e3bc6b-a194-47f0-be78-de2a777bc931",
+"title": "657SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9facf66e-30bf-4b1b-a203-3735c7b6b58c",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-01T13:36:14.921",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9facf66e-30bf-4b1b-a203-3735c7b6b58c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9facf66e-30bf-4b1b-a203-3735c7b6b58c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "42c96929-aa21-4a6e-95c1-34bf5d622271",
+"fileName": "Seletuskiri_.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.629",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42c96929-aa21-4a6e-95c1-34bf5d622271/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42c96929-aa21-4a6e-95c1-34bf5d622271"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a466709e-795a-45aa-8b38-cf1795824f51",
+"fileName": "Seletuskiri_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.703",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a466709e-795a-45aa-8b38-cf1795824f51/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a466709e-795a-45aa-8b38-cf1795824f51"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc71ce4b-c951-4078-952c-ca2c29128787",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "56e5f354-98b7-409d-87b3-f2f50d4dbc1e",
+"fileName": "657_JäätS_jt_s_m_s_SK_Lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (mõjuanalüüs)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-11T15:16:07.85",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/56e5f354-98b7-409d-87b3-f2f50d4dbc1e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/56e5f354-98b7-409d-87b3-f2f50d4dbc1e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4965ccc3-48cf-448e-a17e-50a0e7c442e1",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (mõjuanalüüs) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.642",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4965ccc3-48cf-448e-a17e-50a0e7c442e1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4965ccc3-48cf-448e-a17e-50a0e7c442e1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "db24a3cc-6ad3-43bd-9fd7-906c95903947",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (mõjuanalüüs) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.719",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/db24a3cc-6ad3-43bd-9fd7-906c95903947/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/db24a3cc-6ad3-43bd-9fd7-906c95903947"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc71ce4b-c951-4078-952c-ca2c29128787",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c94e3b9c-3d0b-4ccd-9227-23153e13a980",
+"fileName": "657_JäätS_jt_s_m_s_SK_Lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusaktide kavandid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-11T15:16:43.543",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c94e3b9c-3d0b-4ccd-9227-23153e13a980/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c94e3b9c-3d0b-4ccd-9227-23153e13a980"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "52c5c80a-3cb6-403b-8b7b-f35689de6c7d",
+"fileName": "Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusaktide kavandid) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.654",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52c5c80a-3cb6-403b-8b7b-f35689de6c7d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52c5c80a-3cb6-403b-8b7b-f35689de6c7d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "55ec19e4-d9da-46f2-8b83-37d706abe071",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (rakendusaktide kavandid) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.731",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/55ec19e4-d9da-46f2-8b83-37d706abe071/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/55ec19e4-d9da-46f2-8b83-37d706abe071"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc71ce4b-c951-4078-952c-ca2c29128787",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1af7a095-8a97-49ca-9a72-1ae1d84771ea",
+"fileName": "657_JäätS_jt_s_m_s_SK_Lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 3 (jäätmete energiakasutuse tasu riigiabi analüüs)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-11T15:17:21.143",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1af7a095-8a97-49ca-9a72-1ae1d84771ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1af7a095-8a97-49ca-9a72-1ae1d84771ea"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "503606a3-4c7b-40cc-ab45-945505a3fd31",
+"fileName": "Seletuskirja_lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 3 (jäätmete energiakasutuse tasu riigiabi analüüs) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.665",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/503606a3-4c7b-40cc-ab45-945505a3fd31/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/503606a3-4c7b-40cc-ab45-945505a3fd31"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9e9500a6-c0e7-4476-9e47-b87d2160f1c4",
+"fileName": "Seletuskirja_lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 3 (jäätmete energiakasutuse tasu riigiabi analüüs) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.741",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e9500a6-c0e7-4476-9e47-b87d2160f1c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e9500a6-c0e7-4476-9e47-b87d2160f1c4"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bc71ce4b-c951-4078-952c-ca2c29128787",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "70569bee-6bce-44f8-898b-22058426f2dd",
+"fileName": "657_JäätS_jt_s_m_s_SK_Lisa_4.docx.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Seletuskirja lisa 4 (märkused ja ettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-11T15:18:18.078",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/70569bee-6bce-44f8-898b-22058426f2dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/70569bee-6bce-44f8-898b-22058426f2dd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2098b65c-ed5c-4c2a-bce6-6faf67d092a3",
+"fileName": "Seletuskirja_lisa_4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 4 (märkused ja ettepanekud) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.754",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2098b65c-ed5c-4c2a-bce6-6faf67d092a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2098b65c-ed5c-4c2a-bce6-6faf67d092a3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924e7bbd-d1aa-42b7-b9e5-8d8f937d9b80",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d63a7849-5bfc-4366-a4a6-8ad5598cb36f",
+"fileName": "Seletuskirja_lisa_4.xlsx",
+"fileExtension": "xlsx",
+"fileTitle": "Seletuskirja lisa 4 (märkused ja ettepanekud) xlsx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:05:15.677",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d63a7849-5bfc-4366-a4a6-8ad5598cb36f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d63a7849-5bfc-4366-a4a6-8ad5598cb36f"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "5cd15aa6-5371-4ec0-8527-bda0631202ac",
+"reference": "1-1/15-657/21",
+"title": "Vabariigi Presidendi otsus nr 648",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e628c25e-dcd1-48a6-87ed-64055fa10c62",
+"fileName": "VP_23122025_o648.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-23T15:17:18.157",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e628c25e-dcd1-48a6-87ed-64055fa10c62/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e628c25e-dcd1-48a6-87ed-64055fa10c62"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "5cd15aa6-5371-4ec0-8527-bda0631202ac",
+"reference": "1-1/15-657/21",
+"title": "Vabariigi Presidendi otsus nr 648",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9896e5ca-8619-4f75-9b92-1c7fcfdb86be",
+"fileName": "VP_23122025_o648.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-23T15:17:18.058",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9896e5ca-8619-4f75-9b92-1c7fcfdb86be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9896e5ca-8619-4f75-9b92-1c7fcfdb86be"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "3b8bff09-65c2-4935-a72d-79c68ee02fd1",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e57f76a1-f1f2-4e22-b45b-6a2fb1b14da0",
+"fileName": "657XV_Jaatmesead_ms_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-09T13:56:13.677",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e57f76a1-f1f2-4e22-b45b-6a2fb1b14da0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e57f76a1-f1f2-4e22-b45b-6a2fb1b14da0"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "3b8bff09-65c2-4935-a72d-79c68ee02fd1",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9fdd27a3-f4d3-4210-bab4-a8e9bb203f14",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-09T15:15:50.953",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9fdd27a3-f4d3-4210-bab4-a8e9bb203f14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9fdd27a3-f4d3-4210-bab4-a8e9bb203f14"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-05-19T16:04:51.642",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-05-20T14:38:00.527",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-06-10T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 10.06.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-17T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Hanah Lahe"
+}
+],
+"protocolFiles": [
+{
+"uuid": "026ce251-cf07-467a-954e-e89fca3f6404",
+"fileName": "KEKK_protokoll_10.06.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-19T13:48:27.909",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/026ce251-cf07-467a-954e-e89fca3f6404/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/026ce251-cf07-467a-954e-e89fca3f6404"
+}
+}
+},
+{
+"uuid": "e69684a4-b077-4baf-817a-0c2b53fc6da9",
+"fileName": "Plii_piirangute_eelnõu_seisukohad.pdf",
+"fileExtension": "pdf",
+"fileTitle": "lisa 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-19T13:47:51.789",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e69684a4-b077-4baf-817a-0c2b53fc6da9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e69684a4-b077-4baf-817a-0c2b53fc6da9"
+}
+}
+},
+{
+"uuid": "3dc20e05-2791-4880-b048-78eaf8488576",
+"fileName": "KEKK_protokoll_10.06.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-19T13:45:19.866",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3dc20e05-2791-4880-b048-78eaf8488576/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3dc20e05-2791-4880-b048-78eaf8488576"
+}
+}
+},
+{
+"uuid": "30193248-2a74-4ab6-bfd0-2e8e0afa3481",
+"fileName": "2025-06-10_Jäätmereform_-_Kuldar_Leis_-_Keskkonnakomisjon.pdf",
+"fileExtension": "pdf",
+"fileTitle": "lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-19T13:46:36.576",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/30193248-2a74-4ab6-bfd0-2e8e0afa3481/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/30193248-2a74-4ab6-bfd0-2e8e0afa3481"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-16T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 16.06.2025 15:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "89febbab-5ab1-4739-9c99-96cd964081fc",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-06-16T18:03:36.05",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/89febbab-5ab1-4739-9c99-96cd964081fc"
+}
+}
+}
+]
+},
+{
+"date": "2025-09-25T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 25.09.2025 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "ce56ed40-5a32-40e7-aebb-98c78662d0b3",
+"fileName": "KEKK_protokoll_nr_122_25.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-03T18:26:23.621",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ce56ed40-5a32-40e7-aebb-98c78662d0b3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ce56ed40-5a32-40e7-aebb-98c78662d0b3"
+}
+}
+},
+{
+"uuid": "a4ad637e-db43-48f9-8376-ad9f6c50d219",
+"fileName": "KEKK_protokoll_nr_122_25.09.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-03T18:26:58.67",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a4ad637e-db43-48f9-8376-ad9f6c50d219/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a4ad637e-db43-48f9-8376-ad9f6c50d219"
+}
+}
+},
+{
+"uuid": "5279bb64-9a3b-40f2-87c4-47c17840a0b2",
+"fileName": "Ragn-Sells_Jäätmereform__keskkonnakomisjon_250925.pptx",
+"fileExtension": "pptx",
+"fileTitle": "Lisa 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-29T16:29:23.101",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5279bb64-9a3b-40f2-87c4-47c17840a0b2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5279bb64-9a3b-40f2-87c4-47c17840a0b2"
+}
+}
+},
+{
+"uuid": "b4509796-7503-437e-be8b-a2dcbcba73b5",
+"fileName": "Kaubanduskoja_ja_erialaliitude_esitlus_Riigikogu_keskkonnakomisjonile_Jäätmereform_2025_sept.pptx",
+"fileExtension": "pptx",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-29T16:28:46.464",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4509796-7503-437e-be8b-a2dcbcba73b5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4509796-7503-437e-be8b-a2dcbcba73b5"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-06T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 6.11.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-12-03T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2025-12-10T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "a6bc232f-7450-46c0-815f-c0124f3f73cb",
+"fileName": "KEKK_protokoll_06.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-13T14:16:12.018",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6bc232f-7450-46c0-815f-c0124f3f73cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6bc232f-7450-46c0-815f-c0124f3f73cb"
+}
+}
+},
+{
+"uuid": "587f0c88-bf9c-44ee-a2ca-7527179cb53a",
+"fileName": "KEKK_protokoll_nr_129_06.11.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-13T14:15:00.495",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/587f0c88-bf9c-44ee-a2ca-7527179cb53a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/587f0c88-bf9c-44ee-a2ca-7527179cb53a"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-18T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 18.11.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MUUTA_ARUTAMISE_KP",
+"value": "Muuta eelnõu täiskogus arutamise kuupäeva ja määrata selleks"
+},
+"plenaryAgendaDateTime": "2025-12-09T10:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "31f9f10d-e928-488c-bf84-3edc81ed6915",
+"fileName": "KEKK_protokoll_nr_131_18.11.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-27T09:18:18.005",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/31f9f10d-e928-488c-bf84-3edc81ed6915/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/31f9f10d-e928-488c-bf84-3edc81ed6915"
+}
+}
+},
+{
+"uuid": "87045ce5-793f-41c4-bc15-6956c250132b",
+"fileName": "KEKK_protokoll_18.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-27T09:18:59.045",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/87045ce5-793f-41c4-bc15-6956c250132b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/87045ce5-793f-41c4-bc15-6956c250132b"
+}
+}
+}
+]
+},
+{
+"date": "2025-12-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.12.2025 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": [
+{
+"uuid": "66ffddb1-62f1-4bf7-9f3a-53fc61bd908c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "10. muudatusettepanek",
+"startDateTime": "2025-12-03T19:38:49.457",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/66ffddb1-62f1-4bf7-9f3a-53fc61bd908c"
+}
+}
+},
+{
+"uuid": "27247dc9-4d66-4cd0-9cc2-ea75edbcc753",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "11. muudatusettepanek",
+"startDateTime": "2025-12-03T19:39:57.787",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/27247dc9-4d66-4cd0-9cc2-ea75edbcc753"
+}
+}
+},
+{
+"uuid": "8cefc22a-9d16-44da-9c12-80f4454f6018",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "21. muudatusettepanek",
+"startDateTime": "2025-12-03T19:42:59.757",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8cefc22a-9d16-44da-9c12-80f4454f6018"
+}
+}
+},
+{
+"uuid": "313ff809-ca8f-45f6-aba1-9955dbd0f880",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "22. muudatusettepanek",
+"startDateTime": "2025-12-03T19:44:02.107",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/313ff809-ca8f-45f6-aba1-9955dbd0f880"
+}
+}
+},
+{
+"uuid": "f825c94d-1e21-4695-9124-99b3fd795a75",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "II lugemise katkestamine",
+"startDateTime": "2025-12-03T19:48:20.86",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f825c94d-1e21-4695-9124-99b3fd795a75"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2025-12-09T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 9.12.2025 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "38c63720-89d4-4a3e-8f2b-9e7ca752b251",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-12-09T13:54:06.023",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/38c63720-89d4-4a3e-8f2b-9e7ca752b251"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-12-10T09:42:19.393",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2025-12-23T15:18:10.106",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2026-01-07T17:12:40.497",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6ec1afb1-385a-4d93-895a-22131affa174",
+"reference": "1-1/15-657/2",
+"title": "Eesti Kaubandus-Tööstuskoja, Eesti Toiduainetööstuse Liidu, Eesti Keemiatööstuse Liidu, Eesti Kaupmeeste Liidu, MTÜ Eesti Taaskasutusorganisatsiooni ning Tootjavastutusorganisatsioon OÜ arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-06-12",
+"files": [
+{
+"uuid": "b58e401a-dfa1-4bd5-9a12-486faad9b53d",
+"fileName": "12_06_2025_Jäätmeseaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seadus_657_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-12T09:38:18.731",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b58e401a-dfa1-4bd5-9a12-486faad9b53d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b58e401a-dfa1-4bd5-9a12-486faad9b53d"
+}
+}
+},
+{
+"uuid": "4170ce7d-5b17-428a-9ede-1c5c7d9f436b",
+"fileName": "6_organisatsiooni_ühisettepanekud_jäätmereformi_eelnõu_(657_SE)_muutmiseks.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-12T09:38:18.793",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4170ce7d-5b17-428a-9ede-1c5c7d9f436b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4170ce7d-5b17-428a-9ede-1c5c7d9f436b"
+}
+}
+},
+{
+"uuid": "9e0dc184-1cdb-4629-aa71-48825cf7303b",
+"fileName": "12_06_2025_Jäätmeseaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seadus_657_SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-12T09:38:18.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e0dc184-1cdb-4629-aa71-48825cf7303b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e0dc184-1cdb-4629-aa71-48825cf7303b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6ec1afb1-385a-4d93-895a-22131affa174"
+}
+}
+},
+{
+"uuid": "59b38d6d-a593-4fbc-85e5-0df4d0a9259f",
+"reference": "1-1/15-657/10",
+"title": "MTÜ Rehviringlus arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-02",
+"files": [
+{
+"uuid": "f9b8557e-d2b1-4515-8117-ced075070d60",
+"fileName": "kiri_2025-07-02_186_KKKom.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T14:25:26.928",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f9b8557e-d2b1-4515-8117-ced075070d60/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f9b8557e-d2b1-4515-8117-ced075070d60"
+}
+}
+},
+{
+"uuid": "4ed88bcf-2df4-40eb-abce-bd56fcea71ad",
+"fileName": "kiri_2025-07-02_186_KKKom.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T14:25:26.98",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ed88bcf-2df4-40eb-abce-bd56fcea71ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ed88bcf-2df4-40eb-abce-bd56fcea71ad"
+}
+}
+},
+{
+"uuid": "810a2ab5-6ae0-44da-921a-f086f1cbdb33",
+"fileName": "MTÜ_Rehviringlus_kommentaarid_jäätmereformi_eelnõule_657_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T14:25:26.994",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/810a2ab5-6ae0-44da-921a-f086f1cbdb33/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/810a2ab5-6ae0-44da-921a-f086f1cbdb33"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/59b38d6d-a593-4fbc-85e5-0df4d0a9259f"
+}
+}
+},
+{
+"uuid": "6535815d-2916-4758-8144-30439685904f",
+"reference": "1-1/15-657/15",
+"title": "Kliimaministeeriumi arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-11",
+"files": [
+{
+"uuid": "3ecab6f7-bc07-4cbe-bd75-a47d61c50163",
+"fileName": "Muudatusettepanekute_esitamine_eelnõule_657_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-11T15:56:00.892",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ecab6f7-bc07-4cbe-bd75-a47d61c50163/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ecab6f7-bc07-4cbe-bd75-a47d61c50163"
+}
+}
+},
+{
+"uuid": "604ed505-67ba-4df4-aad2-2b884da149b9",
+"fileName": "Muudatusettepanekute_esitamine_eelnõule_657_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-11T15:56:00.911",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/604ed505-67ba-4df4-aad2-2b884da149b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/604ed505-67ba-4df4-aad2-2b884da149b9"
+}
+}
+},
+{
+"uuid": "74965428-f3cd-415b-9d79-0eae71718cd0",
+"fileName": "Muudatusettepanekute_esitamine_eelnõule_657_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-11T15:56:00.797",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/74965428-f3cd-415b-9d79-0eae71718cd0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/74965428-f3cd-415b-9d79-0eae71718cd0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6535815d-2916-4758-8144-30439685904f"
+}
+}
+},
+{
+"uuid": "42d0c4c5-5faa-470c-8119-dddaf9672765",
+"reference": "1-1/15-657/18",
+"title": "Eesti Kaubandus-Tööstuskoja pöördumine seoses jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE menetlusega keskkonnakomisjonis",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-11-19",
+"files": [
+{
+"uuid": "fd62c58a-6ae9-4939-a3d7-61f5ad142435",
+"fileName": "18_11_2025_Pöördumine_seoses_jäätmeseaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seaduse_657_SE_menetlusega.docx",
+"fileExtension": "docx",
+"fileTitle": "Sissetulev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-19T09:36:47.661",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fd62c58a-6ae9-4939-a3d7-61f5ad142435/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fd62c58a-6ae9-4939-a3d7-61f5ad142435"
+}
+}
+},
+{
+"uuid": "f5ba5249-8d0b-4e3b-b0cc-981920d11c8c",
+"fileName": "18_11_2025_Pöördumine_seoses_jäätmeseaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seaduse_657_SE_menetlusega.asice",
+"fileExtension": "asice",
+"fileTitle": "Sissetulev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-19T09:36:47.535",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f5ba5249-8d0b-4e3b-b0cc-981920d11c8c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f5ba5249-8d0b-4e3b-b0cc-981920d11c8c"
+}
+}
+},
+{
+"uuid": "5b5b3fc7-2b71-47be-8fb4-0c948c303cc1",
+"fileName": "Kaubandus-Tööstuskoja_pöördumine_seoses_jäätmeseaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seaduse_657_SE_menetlusega_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-19T09:36:47.674",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5b5b3fc7-2b71-47be-8fb4-0c948c303cc1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5b5b3fc7-2b71-47be-8fb4-0c948c303cc1"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/42d0c4c5-5faa-470c-8119-dddaf9672765"
+}
+}
+},
+{
+"uuid": "2b2fa5bb-f1b9-4f44-a67e-d7d89a58fc61",
+"reference": "1-1/15-657/6",
+"title": "Ragn-Sells AS täiendav arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-02",
+"files": [
+{
+"uuid": "679d475c-d53d-43f5-bfd0-2c3259c9cd8b",
+"fileName": "01_07_2025_RS_täiendavad_tähelepanekud_eelnõule_657_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T09:33:47.023",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/679d475c-d53d-43f5-bfd0-2c3259c9cd8b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/679d475c-d53d-43f5-bfd0-2c3259c9cd8b"
+}
+}
+},
+{
+"uuid": "d065a97d-25f6-4c17-b829-c07c2be0d414",
+"fileName": "täiendavad_tähelepanekud_jäätmereformi_eelnõule.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T09:33:47.083",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d065a97d-25f6-4c17-b829-c07c2be0d414/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d065a97d-25f6-4c17-b829-c07c2be0d414"
+}
+}
+},
+{
+"uuid": "f63e42c8-6789-496c-be6d-25ec87661da1",
+"fileName": "2025_06_30_Õiguslik_arvamus_-_jäätmekäitluse_sisetehingud_jäätmereformis.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T09:33:47.01",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f63e42c8-6789-496c-be6d-25ec87661da1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f63e42c8-6789-496c-be6d-25ec87661da1"
+}
+}
+},
+{
+"uuid": "74eff97f-d04b-497c-8c56-bdf4a97f891e",
+"fileName": "2025_06_30_Õiguslik_arvamus_-_jäätmekäitluse_sisetehingud_jäätmereformis.asice",
+"fileExtension": "asice",
+"fileTitle": "Lisa asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T09:33:46.962",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/74eff97f-d04b-497c-8c56-bdf4a97f891e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/74eff97f-d04b-497c-8c56-bdf4a97f891e"
+}
+}
+},
+{
+"uuid": "145fffcf-eec3-44c4-b486-8263b780e557",
+"fileName": "01_07_2025_RS_täiendavad_tähelepanekud_eelnõule_657_SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T09:33:47.064",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/145fffcf-eec3-44c4-b486-8263b780e557/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/145fffcf-eec3-44c4-b486-8263b780e557"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2b2fa5bb-f1b9-4f44-a67e-d7d89a58fc61"
+}
+}
+},
+{
+"uuid": "ad69c01d-3cce-4aed-a177-54163a518597",
+"reference": "1-1/15-657/4",
+"title": "Eesti Linnade ja Valdade Liidu arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-01",
+"files": [
+{
+"uuid": "a7caf827-0c2b-4095-a4a8-3b96fbed4fd6",
+"fileName": "ELVL_ettepanek_Riigikogu_keskkonnakomisjon_jäätmereform.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-01T10:51:30.209",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a7caf827-0c2b-4095-a4a8-3b96fbed4fd6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a7caf827-0c2b-4095-a4a8-3b96fbed4fd6"
+}
+}
+},
+{
+"uuid": "abb95525-b7bf-48e6-a61e-69ce0cf1519c",
+"fileName": "ELVL_ettepanek_Riigikogu_keskkonnakomisjon__Jäätmereform.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-01T10:51:30.147",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/abb95525-b7bf-48e6-a61e-69ce0cf1519c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/abb95525-b7bf-48e6-a61e-69ce0cf1519c"
+}
+}
+},
+{
+"uuid": "9350d445-7557-4f45-8433-8d8209320c90",
+"fileName": "ELVL_ettepanek_Riigikogu_keskkonnakomisjon__Jäätmereform.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-01T10:51:30.221",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9350d445-7557-4f45-8433-8d8209320c90/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9350d445-7557-4f45-8433-8d8209320c90"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ad69c01d-3cce-4aed-a177-54163a518597"
+}
+}
+},
+{
+"uuid": "7f0da4d5-7678-45d1-a81b-d1484f10a14d",
+"reference": "1-1/15-657/7",
+"title": "Eesti Ringmajandusettevõtete Liidu (ERMEL) arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-02",
+"files": [
+{
+"uuid": "a78b98d5-72a5-45d9-9e37-0f646b9ce9b0",
+"fileName": "ERMEL_seisukoht_Riigikogu_keskkonnakomisjonile__02072025.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T12:25:39.866",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a78b98d5-72a5-45d9-9e37-0f646b9ce9b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a78b98d5-72a5-45d9-9e37-0f646b9ce9b0"
+}
+}
+},
+{
+"uuid": "71770775-7abd-4273-94f3-b221870ac598",
+"fileName": "ERMEL_pöördumine_seoses_jäätmereformi_eelnõuga_657_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T12:25:39.941",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/71770775-7abd-4273-94f3-b221870ac598/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/71770775-7abd-4273-94f3-b221870ac598"
+}
+}
+},
+{
+"uuid": "e036e724-1116-4956-8eab-2bbdfeaf0171",
+"fileName": "ERMEL_seisukoht_Riigikogu_keskkonnakomisjonile__02072025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T12:25:39.918",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e036e724-1116-4956-8eab-2bbdfeaf0171/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e036e724-1116-4956-8eab-2bbdfeaf0171"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7f0da4d5-7678-45d1-a81b-d1484f10a14d"
+}
+}
+},
+{
+"uuid": "b1d79b1c-6d34-403a-9611-5488c152a87a",
+"reference": "1-1/15-657/11",
+"title": "Tallinna Jäätmete Taaskasutuskeskus AS arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-03",
+"files": [
+{
+"uuid": "db6c44c3-ee0e-4869-9f38-f9b585cf2845",
+"fileName": "TJT_seisukohad_JaatS_ja_PakS_eelnou.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-03T15:48:52.743",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/db6c44c3-ee0e-4869-9f38-f9b585cf2845/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/db6c44c3-ee0e-4869-9f38-f9b585cf2845"
+}
+}
+},
+{
+"uuid": "e77d6027-ed11-4be1-a4d8-25f575b1bed3",
+"fileName": "TJT_seisukohad_JaatS_ja_PakS_eelnou_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-03T15:48:52.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e77d6027-ed11-4be1-a4d8-25f575b1bed3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e77d6027-ed11-4be1-a4d8-25f575b1bed3"
+}
+}
+},
+{
+"uuid": "34097d68-bfe1-4e9c-a2ab-cd6891914792",
+"fileName": "FW__Arvamuse_avaldamine_jäätmeseaduse__pakendiseaduse_ja_teiste_seaduste_muutmise.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-03T15:48:52.768",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34097d68-bfe1-4e9c-a2ab-cd6891914792/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34097d68-bfe1-4e9c-a2ab-cd6891914792"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b1d79b1c-6d34-403a-9611-5488c152a87a"
+}
+}
+},
+{
+"uuid": "b5c3cadf-1639-470f-b438-703f9db4bbe0",
+"reference": "1-1/15-657/19",
+"title": "Ragn-Sells AS tellimusel koostatud Advokaadibüroo COBALT arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-12-01",
+"files": [
+{
+"uuid": "07bd4e7e-7728-48d4-9de8-a820606673b4",
+"fileName": "2025_10_24_Jäätmekäitluse_munitsipaliseerimise_vastuolu_EL_konkurentsinormidega_ja_ohud(2047299.1).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-01T12:47:09.622",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07bd4e7e-7728-48d4-9de8-a820606673b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07bd4e7e-7728-48d4-9de8-a820606673b4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b5c3cadf-1639-470f-b438-703f9db4bbe0"
+}
+}
+},
+{
+"uuid": "426dadc8-45eb-406d-8e1d-707d9f8eb8a4",
+"reference": "1-1/15-657/17",
+"title": "Tallinna Jäätmete Taaskasutuskeskuse arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-11-10",
+"files": [
+{
+"uuid": "8703a92b-3ff0-4384-929f-ed789f6d0d64",
+"fileName": "Kiri_RK_Keskkonnakomisjon__2025-1-8-111__2025-11-06.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-10T09:15:42.034",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8703a92b-3ff0-4384-929f-ed789f6d0d64/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8703a92b-3ff0-4384-929f-ed789f6d0d64"
+}
+}
+},
+{
+"uuid": "f14b18f7-dada-46f4-9daf-ab1a564001b0",
+"fileName": "Kiri_RK_Keskkonnakomisjonile_06_11_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-10T09:15:42.013",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f14b18f7-dada-46f4-9daf-ab1a564001b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f14b18f7-dada-46f4-9daf-ab1a564001b0"
+}
+}
+},
+{
+"uuid": "437a1868-f4c9-4365-94d1-a568bd100d0a",
+"fileName": "Kiri_RK_Keskkonnakomisjonile_06_11_2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-10T09:15:41.898",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/437a1868-f4c9-4365-94d1-a568bd100d0a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/437a1868-f4c9-4365-94d1-a568bd100d0a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/426dadc8-45eb-406d-8e1d-707d9f8eb8a4"
+}
+}
+},
+{
+"uuid": "e25b8519-c553-4e06-b933-b377d24b8bad",
+"reference": "1-1/15-657/20",
+"title": "KEKK vastuskiri Eesti Kaubandus-Tööstuskoja pöördumisele seoses eelnõu 657 SE menetlusega",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-12-01",
+"files": [
+{
+"uuid": "c1d97d69-b513-4bd4-b9cb-58b61e3a9765",
+"fileName": "KEKK_EKTK__01122025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-01T20:48:02.583",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c1d97d69-b513-4bd4-b9cb-58b61e3a9765/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c1d97d69-b513-4bd4-b9cb-58b61e3a9765"
+}
+}
+},
+{
+"uuid": "51e24a3d-8eb1-40cb-8c77-02c770f86074",
+"fileName": "1-1-15-657-20_-_KEKK_vastuskiri_Eesti_Kaubandus-Tööstuskoja_pöördumisele_seoses_eelnõu_657_SE_menetlusega.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuskiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-01T20:49:24.147",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/51e24a3d-8eb1-40cb-8c77-02c770f86074/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/51e24a3d-8eb1-40cb-8c77-02c770f86074"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e25b8519-c553-4e06-b933-b377d24b8bad"
+}
+}
+},
+{
+"uuid": "97ca148e-edd1-4866-b122-0b64d329c3a9",
+"reference": "1-1/15-657/12",
+"title": "Eesti Ringmajandusettevõtete Liidu (ERMEL) täiendav arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-08",
+"files": [
+{
+"uuid": "9e96bbe8-f620-4f24-918f-2ae506af5891",
+"fileName": "ERMEL_täiendavad_ettepanekud_seoses_eelnõuga_657_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-08T09:53:14.571",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e96bbe8-f620-4f24-918f-2ae506af5891/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e96bbe8-f620-4f24-918f-2ae506af5891"
+}
+}
+},
+{
+"uuid": "6dc96efd-3e51-4b62-86d6-da0781fc80be",
+"fileName": "ERMEL_täiendavad_ettepanekud_eelnõu_657SE_osas.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-08T09:53:14.509",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6dc96efd-3e51-4b62-86d6-da0781fc80be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6dc96efd-3e51-4b62-86d6-da0781fc80be"
+}
+}
+},
+{
+"uuid": "33d46bbf-9255-4783-9939-16cb2a89936a",
+"fileName": "ERMEL_täiendavad_ettepanekud_eelnõu_657SE_osas.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-08T09:53:14.462",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/33d46bbf-9255-4783-9939-16cb2a89936a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/33d46bbf-9255-4783-9939-16cb2a89936a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/97ca148e-edd1-4866-b122-0b64d329c3a9"
+}
+}
+},
+{
+"uuid": "86dc205f-74ce-405f-89cd-00b4930b130a",
+"reference": "1-1/15-657/5",
+"title": "Eesti Rohetehnoloogia Liidu arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-01",
+"files": [
+{
+"uuid": "5ab2ee8e-9c1d-42b6-aa55-1e5fca8b5c78",
+"fileName": "ERTL_Muudatusettepanek_657_SE_1.07.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-01T15:57:40.166",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ab2ee8e-9c1d-42b6-aa55-1e5fca8b5c78/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ab2ee8e-9c1d-42b6-aa55-1e5fca8b5c78"
+}
+}
+},
+{
+"uuid": "f5e41add-3bb0-4b8f-aceb-86f146e8e1d8",
+"fileName": "Eesti_Rohetehnoloogia_Liidu_ettepanek__jäätmeseaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seaduse_eelnõu_(657_SE).html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-01T15:57:40.23",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f5e41add-3bb0-4b8f-aceb-86f146e8e1d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f5e41add-3bb0-4b8f-aceb-86f146e8e1d8"
+}
+}
+},
+{
+"uuid": "7dd57138-e9d9-447f-a3cd-f1667a83f5a1",
+"fileName": "ERTL_Muudatusettepanek_657_SE_1.07.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-01T15:57:40.215",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7dd57138-e9d9-447f-a3cd-f1667a83f5a1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7dd57138-e9d9-447f-a3cd-f1667a83f5a1"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/86dc205f-74ce-405f-89cd-00b4930b130a"
+}
+}
+},
+{
+"uuid": "162bbd95-d333-459f-add9-ae2b7e6be7d9",
+"reference": "1-1/15-657/9",
+"title": "Eesti Toiduainetööstuse Liidu arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-02",
+"files": [
+{
+"uuid": "3f451dd0-f8b6-4f0a-b994-c080aa622bb4",
+"fileName": "Eelnõu_657SE_tagasiside_Toiduliit.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T12:38:49.881",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f451dd0-f8b6-4f0a-b994-c080aa622bb4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f451dd0-f8b6-4f0a-b994-c080aa622bb4"
+}
+}
+},
+{
+"uuid": "17ac1117-4d7d-41ca-9830-c56848916f81",
+"fileName": "Toiduliidu_tagasiside_eelnõule_657SE_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T12:38:49.892",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17ac1117-4d7d-41ca-9830-c56848916f81/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17ac1117-4d7d-41ca-9830-c56848916f81"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/162bbd95-d333-459f-add9-ae2b7e6be7d9"
+}
+}
+},
+{
+"uuid": "2fd80ee9-41da-450f-9467-f1c4fadaa798",
+"reference": "1-1/15-657/14",
+"title": "Enefit Green arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-08-18",
+"files": [
+{
+"uuid": "6ada177a-3504-4ddf-ba2d-54a71eb407b0",
+"fileName": "Enefit_Green_ettepanek_jäätmeseaduse_eelnõu_täiendamiseks_.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-08-18T11:08:46.746",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6ada177a-3504-4ddf-ba2d-54a71eb407b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6ada177a-3504-4ddf-ba2d-54a71eb407b0"
+}
+}
+},
+{
+"uuid": "e02f74f4-ae68-4ef4-b03a-620054cad56f",
+"fileName": "Enefit_Green_ettepanek_jäätmeseaduse_eelnõu_täiendamiseks_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-08-18T11:08:46.76",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e02f74f4-ae68-4ef4-b03a-620054cad56f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e02f74f4-ae68-4ef4-b03a-620054cad56f"
+}
+}
+},
+{
+"uuid": "cac39cdf-57ef-4ace-8335-8ab1fd6f8f24",
+"fileName": "Kiri_välja_Enefit_Green_ettepanek_jäätmeseaduse_eelnõu_täiendamiseks15.08.25_TO-JUH-6_246_ID_8289327.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-08-18T11:08:46.678",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cac39cdf-57ef-4ace-8335-8ab1fd6f8f24/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cac39cdf-57ef-4ace-8335-8ab1fd6f8f24"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2fd80ee9-41da-450f-9467-f1c4fadaa798"
+}
+}
+},
+{
+"uuid": "8f752baf-4319-44d5-b0e0-63a7d5a3aa8a",
+"reference": "1-1/15-657/1",
+"title": "Ragn-Sells AS arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-06-09",
+"files": [
+{
+"uuid": "80e361bf-5a4c-4ad7-b112-55a71534a2a0",
+"fileName": "Ragn-Sellsi_seisukoht_jäätmereformi_eelnõule.html",
+"fileExtension": "html",
+"fileTitle": "E-kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-09T16:48:04.258",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/80e361bf-5a4c-4ad7-b112-55a71534a2a0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/80e361bf-5a4c-4ad7-b112-55a71534a2a0"
+}
+}
+},
+{
+"uuid": "2300fe36-b5b2-4da7-ae64-08d498da8f6f",
+"fileName": "09_06_2025_RS_tähelepanekud_jäätmereformis__FIN.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-09T16:48:04.236",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2300fe36-b5b2-4da7-ae64-08d498da8f6f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2300fe36-b5b2-4da7-ae64-08d498da8f6f"
+}
+}
+},
+{
+"uuid": "0076c221-ef2c-4ee7-9f76-d9eb0d095726",
+"fileName": "09_06_2025_RS_tähelepanekud_jäätmereformis__FIN.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-09T16:48:04.187",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0076c221-ef2c-4ee7-9f76-d9eb0d095726/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0076c221-ef2c-4ee7-9f76-d9eb0d095726"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8f752baf-4319-44d5-b0e0-63a7d5a3aa8a"
+}
+}
+},
+{
+"uuid": "8f8d5953-67f1-4437-9176-f4e9367d5ac3",
+"reference": "1-1/15-657/13",
+"title": "Konkurentsiameti arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-24",
+"files": [
+{
+"uuid": "477b16fa-4021-4e2b-917e-ba2c2d93f292",
+"fileName": "Konkurentsiameti_arvamus_jäätmeseaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seaduse_eelnõu_kohta_(657_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-24T14:49:17.835",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/477b16fa-4021-4e2b-917e-ba2c2d93f292/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/477b16fa-4021-4e2b-917e-ba2c2d93f292"
+}
+}
+},
+{
+"uuid": "ef98355a-6b82-48b2-a866-d91722e731f9",
+"fileName": "1-7202525-066-1_24.07.2025_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-24T14:49:17.769",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef98355a-6b82-48b2-a866-d91722e731f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef98355a-6b82-48b2-a866-d91722e731f9"
+}
+}
+},
+{
+"uuid": "cde43afd-5309-42f5-80bf-bd99523c4b1a",
+"fileName": "Väljaminev_kiri.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-24T14:49:17.853",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cde43afd-5309-42f5-80bf-bd99523c4b1a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cde43afd-5309-42f5-80bf-bd99523c4b1a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8f8d5953-67f1-4437-9176-f4e9367d5ac3"
+}
+}
+},
+{
+"uuid": "3a537b28-4656-4a21-9fb3-022ee3cf5f48",
+"reference": "1-1/15-657/3",
+"title": "Paikre OÜ arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-01",
+"files": [
+{
+"uuid": "aca6ced1-0f01-4686-82aa-a5dba0fddf2e",
+"fileName": "Arvamus_eelnõule_260625.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-01T10:14:59.112",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aca6ced1-0f01-4686-82aa-a5dba0fddf2e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aca6ced1-0f01-4686-82aa-a5dba0fddf2e"
+}
+}
+},
+{
+"uuid": "80ae757f-69a2-4461-b335-0fe9a9910f98",
+"fileName": "arvamus_jäätmereformi_eelnõule.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-01T10:14:59.182",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/80ae757f-69a2-4461-b335-0fe9a9910f98/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/80ae757f-69a2-4461-b335-0fe9a9910f98"
+}
+}
+},
+{
+"uuid": "091b4513-aaf5-4e4e-9f23-0db111af2eb4",
+"fileName": "Arvamus_eelnõule_260625.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-01T10:14:59.169",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/091b4513-aaf5-4e4e-9f23-0db111af2eb4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/091b4513-aaf5-4e4e-9f23-0db111af2eb4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3a537b28-4656-4a21-9fb3-022ee3cf5f48"
+}
+}
+},
+{
+"uuid": "154bae9f-bf7e-440e-9632-2a5a8d4c26d4",
+"reference": "1-1/15-657/16",
+"title": "Tallinna Jäätmete Taaskasutuskeskus AS tellimusel koostatud Advokaadibüroo Sorainen arvamus jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-11-06",
+"files": [
+{
+"uuid": "fb4ceaf9-a083-421f-b033-5039b2637f33",
+"fileName": "memo.TJT.2024-30-08.est.sorainen.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-06T16:40:03.66",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb4ceaf9-a083-421f-b033-5039b2637f33/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb4ceaf9-a083-421f-b033-5039b2637f33"
+}
+}
+},
+{
+"uuid": "a09bd417-7bd2-4069-9c95-f9885cfebd82",
+"fileName": "memo.TJT.2024-30-08.est.sorainen.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-06T16:39:49.739",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a09bd417-7bd2-4069-9c95-f9885cfebd82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a09bd417-7bd2-4069-9c95-f9885cfebd82"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/154bae9f-bf7e-440e-9632-2a5a8d4c26d4"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "44c24314-2380-4003-9ec3-b902fcfec125",
+"reference": "1-1/15-657/8",
+"title": "Isamaa fraktsiooni muudatusettepanekud jäätmeseaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 657 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "6c206bf7-ad80-40fc-9cf3-a01709be85f9",
+"fileName": "Isamaa_MEd_657_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanekud asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T12:28:25.833",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c206bf7-ad80-40fc-9cf3-a01709be85f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c206bf7-ad80-40fc-9cf3-a01709be85f9"
+}
+}
+},
+{
+"uuid": "e6cfd442-0687-4f33-b75a-88393a754e1c",
+"fileName": "Isamaa_MEd_657_SE_kohta.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekud",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-02T12:28:37.631",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e6cfd442-0687-4f33-b75a-88393a754e1c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e6cfd442-0687-4f33-b75a-88393a754e1c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/44c24314-2380-4003-9ec3-b902fcfec125"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/8aa1855d-8b2d-4e90-9fbc-d1e6be048aae"
+}
+}
+}

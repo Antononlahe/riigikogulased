@@ -1,0 +1,1823 @@
+{
+"uuid": "0ae7aaf9-2059-4e1b-85b0-25efc29b8b81",
+"title": "Atmosfääriõhu kaitse seaduse muutmise seadus",
+"mark": 393,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Atmosfääriõhu kaitse seaduse muutmise seadus 393 SE",
+"initialTitle": "Atmosfääriõhu kaitse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu eesmärk on sätestada AÕKS-is müra sihtväärtuse osas õigusselgus ja kõrvaldada probleemid selle rakendamisel praktikas.",
+"initiated": "2024-03-06",
+"joined": null,
+"accepted": "2026-03-25",
+"amendmentsDeadline": "2025-06-18T17:15:00",
+"responsibleMember": {
+"uuid": "90074aa2-4938-41a9-8275-3a6efa1cee31",
+"name": "Yoko Alender",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/90074aa2-4938-41a9-8275-3a6efa1cee31?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "93630c8d-295d-4c76-b30b-2eebc6d35396",
+"name": "Elle Kaur",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/93630c8d-295d-4c76-b30b-2eebc6d35396?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2063,
+"text": "müratase"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7bf2a595-3e78-4f6a-a91a-f6c96f92356c",
+"title": "KEKK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "59d6565a-fa2b-454d-bd69-185d778ec39a",
+"fileName": "Eelnou.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T14:20:09.828",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59d6565a-fa2b-454d-bd69-185d778ec39a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59d6565a-fa2b-454d-bd69-185d778ec39a"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING_CONTINUED",
+"document": {
+"uuid": "369bacc7-eec1-4403-bfe0-d06f5006f2b4",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ba3a3eb0-0755-4b52-9272-079ca59508bc",
+"fileName": "393SE2lug_jätk.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T10:11:41.455",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba3a3eb0-0755-4b52-9272-079ca59508bc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba3a3eb0-0755-4b52-9272-079ca59508bc"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "79323408-0e9d-42a6-9cb6-ead6a3f45e68",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1fbf73f7-8799-4b0b-90cb-2e70da69f336",
+"fileName": "393SE3lug.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-19T10:07:43.961",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1fbf73f7-8799-4b0b-90cb-2e70da69f336/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1fbf73f7-8799-4b0b-90cb-2e70da69f336"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "034a4149-752e-49b7-8ee1-1f4546274a4c",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "95480e5c-cc73-4ca0-8687-1ea7a17ff35c",
+"fileName": "393_AÕKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-08T09:50:29.029",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/95480e5c-cc73-4ca0-8687-1ea7a17ff35c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/95480e5c-cc73-4ca0-8687-1ea7a17ff35c"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "bb7e5596-416b-44b4-80a6-b65daae98531",
+"title": "393SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "17b2d76f-ac7c-4d1d-a450-f2ae4e6f0e10",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T08:55:56.949",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17b2d76f-ac7c-4d1d-a450-f2ae4e6f0e10/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17b2d76f-ac7c-4d1d-a450-f2ae4e6f0e10"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7bf2a595-3e78-4f6a-a91a-f6c96f92356c",
+"title": "KEKK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d6bfab99-f1fe-4f50-9e5d-e695bdae79ba",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T14:20:17.211",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6bfab99-f1fe-4f50-9e5d-e695bdae79ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6bfab99-f1fe-4f50-9e5d-e695bdae79ba"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7bf2a595-3e78-4f6a-a91a-f6c96f92356c",
+"title": "KEKK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b761ce30-3c75-41da-8888-2199d66e0c71",
+"fileName": "Esitluskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T14:20:17.228",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b761ce30-3c75-41da-8888-2199d66e0c71/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b761ce30-3c75-41da-8888-2199d66e0c71"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "06c44b87-f696-448a-8ca2-f04586bc6133",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ffaba2fb-4d9b-4d67-92e1-26d89c8badcd",
+"fileName": "393_Kaaskiri_Vabariigi_Presidendile_2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-25T14:57:15.48",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ffaba2fb-4d9b-4d67-92e1-26d89c8badcd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ffaba2fb-4d9b-4d67-92e1-26d89c8badcd"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "dbead4ab-a6ef-458c-89fc-39448037a72d",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "73a84c16-a494-4172-8744-e806c674106e",
+"fileName": "393XV_Atmosfaar_ms_2026.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-07T14:11:07.035",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/73a84c16-a494-4172-8744-e806c674106e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/73a84c16-a494-4172-8744-e806c674106e"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "dbead4ab-a6ef-458c-89fc-39448037a72d",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5241cfa2-e6f4-4bf0-a07a-4927aba6842e",
+"fileName": "393XV_Atmosfaar_ms_2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-07T14:10:47.272",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5241cfa2-e6f4-4bf0-a07a-4927aba6842e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5241cfa2-e6f4-4bf0-a07a-4927aba6842e"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING_CONTINUED",
+"document": {
+"uuid": "369bacc7-eec1-4403-bfe0-d06f5006f2b4",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ac4d709b-6b32-4750-8072-176c4c950b92",
+"fileName": "393SEIIlugjätkME.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T10:12:06.187",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac4d709b-6b32-4750-8072-176c4c950b92/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac4d709b-6b32-4750-8072-176c4c950b92"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "bb7e5596-416b-44b4-80a6-b65daae98531",
+"title": "393SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "20697173-0833-4e1b-a581-0142d5e3b678",
+"fileName": "Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T08:59:50.167",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/20697173-0833-4e1b-a581-0142d5e3b678/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/20697173-0833-4e1b-a581-0142d5e3b678"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING_CONTINUED",
+"document": {
+"uuid": "369bacc7-eec1-4403-bfe0-d06f5006f2b4",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1a1914cc-80c7-4b58-8f79-a266742afb87",
+"fileName": "393SESEIIlugjätksk.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T10:12:21.92",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1a1914cc-80c7-4b58-8f79-a266742afb87/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1a1914cc-80c7-4b58-8f79-a266742afb87"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "034a4149-752e-49b7-8ee1-1f4546274a4c",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2fcfef06-0d51-45ae-b3d1-34b577301440",
+"fileName": "393_AÕKS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-08T09:50:41.574",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2fcfef06-0d51-45ae-b3d1-34b577301440/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2fcfef06-0d51-45ae-b3d1-34b577301440"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "bb7e5596-416b-44b4-80a6-b65daae98531",
+"title": "393SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a34a985b-c97d-4368-99d2-dee7374fa63b",
+"fileName": "Seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T09:00:28.407",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a34a985b-c97d-4368-99d2-dee7374fa63b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a34a985b-c97d-4368-99d2-dee7374fa63b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7bf2a595-3e78-4f6a-a91a-f6c96f92356c",
+"title": "KEKK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f2a778b6-9335-4776-b9aa-4390fc9f9f4f",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T14:20:17.245",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2a778b6-9335-4776-b9aa-4390fc9f9f4f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2a778b6-9335-4776-b9aa-4390fc9f9f4f"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "b3756e91-3bcf-401d-9fb1-f2c734415b8a",
+"reference": "1-1/15-393/13",
+"title": "Vabariigi Presidendi otsus nr 685",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "149b2792-4476-4de4-8e01-d1dd90e776c5",
+"fileName": "VP_07042026_o685.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-07T13:56:44.48",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/149b2792-4476-4de4-8e01-d1dd90e776c5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/149b2792-4476-4de4-8e01-d1dd90e776c5"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "b3756e91-3bcf-401d-9fb1-f2c734415b8a",
+"reference": "1-1/15-393/13",
+"title": "Vabariigi Presidendi otsus nr 685",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "91e7eaac-f15a-4554-81f9-a7d8729280eb",
+"fileName": "VP_07042026_o685.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-07T13:56:44.417",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91e7eaac-f15a-4554-81f9-a7d8729280eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91e7eaac-f15a-4554-81f9-a7d8729280eb"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "06c44b87-f696-448a-8ca2-f04586bc6133",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "125e392f-fd52-4539-a163-8c377b67bd9a",
+"fileName": "393XV_Atmosfaar_ms_2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-25T14:28:22.182",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/125e392f-fd52-4539-a163-8c377b67bd9a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/125e392f-fd52-4539-a163-8c377b67bd9a"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "06c44b87-f696-448a-8ca2-f04586bc6133",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a580d1f1-cf28-4843-a349-d282c0530c0b",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-25T14:58:22.427",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a580d1f1-cf28-4843-a349-d282c0530c0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a580d1f1-cf28-4843-a349-d282c0530c0b"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-03-06T14:09:13.445",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-03-07T15:53:00.81",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-03-04T12:00:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 4.03.2024 kell 12.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-03-19T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "keskkonnakomisjoni liige Pärtel-Peeter Pere"
+}
+],
+"protocolFiles": [
+{
+"uuid": "69748110-563b-40e8-a8dd-ee093a41ab35",
+"fileName": "KEKK_protokoll_04.03.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-08T10:03:41.13",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/69748110-563b-40e8-a8dd-ee093a41ab35/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/69748110-563b-40e8-a8dd-ee093a41ab35"
+}
+}
+},
+{
+"uuid": "110dd07d-b83d-49c0-8e72-f666fa38fa28",
+"fileName": "KEKK_protokoll_04.03.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-08T10:02:17.012",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/110dd07d-b83d-49c0-8e72-f666fa38fa28/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/110dd07d-b83d-49c0-8e72-f666fa38fa28"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-20T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 20.03.2024 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "a5839f78-28e1-420e-9945-2b38f5c8c9c8",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-03-20T15:44:32.353",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a5839f78-28e1-420e-9945-2b38f5c8c9c8"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-02T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 2.04.2024 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "1c7878c4-47ed-4429-ae76-f7a9fe5ac08b",
+"fileName": "KEKK_protokoll_02.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-10T11:45:05.929",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c7878c4-47ed-4429-ae76-f7a9fe5ac08b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c7878c4-47ed-4429-ae76-f7a9fe5ac08b"
+}
+}
+},
+{
+"uuid": "0093b8bc-efbe-4486-aa05-060e73bd6f1c",
+"fileName": "2024-04-02_Jäätmereofrmi_VTK_tutvustus_IJ.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-10T11:42:41.946",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0093b8bc-efbe-4486-aa05-060e73bd6f1c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0093b8bc-efbe-4486-aa05-060e73bd6f1c"
+}
+}
+},
+{
+"uuid": "00fd9ef9-8e14-4e46-8f16-5277dbd16a41",
+"fileName": "KEKK_protokoll_02.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-10T11:41:56.27",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/00fd9ef9-8e14-4e46-8f16-5277dbd16a41/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/00fd9ef9-8e14-4e46-8f16-5277dbd16a41"
+}
+}
+}
+]
+},
+{
+"date": "2025-05-12T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 12.05.2025 kell 11.10",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "5f9a48ca-1485-4fc4-8fab-1a070febea94",
+"fileName": "KEKK_protokoll_12.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T09:08:33.674",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f9a48ca-1485-4fc4-8fab-1a070febea94/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f9a48ca-1485-4fc4-8fab-1a070febea94"
+}
+}
+},
+{
+"uuid": "4f9b7f2f-fe9c-4a77-a769-7b44ccb206d9",
+"fileName": "KEKK_protokoll_12.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T09:07:37.396",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4f9b7f2f-fe9c-4a77-a769-7b44ccb206d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4f9b7f2f-fe9c-4a77-a769-7b44ccb206d9"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-19T11:56:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 19.05.2025 kell 12.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-04T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_KATKESTADA",
+"value": "Teha ettepanek eelnõu teine lugemine katkestada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "63a5b2e4-5363-4e01-9889-60eab6e9889c",
+"fileName": "KEKK_protokoll_19.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-23T10:29:29.195",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/63a5b2e4-5363-4e01-9889-60eab6e9889c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/63a5b2e4-5363-4e01-9889-60eab6e9889c"
+}
+}
+},
+{
+"uuid": "4febad34-3fa2-4e74-9cd0-54b2d387c164",
+"fileName": "KEKK_protokoll_19.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-23T10:30:29.335",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4febad34-3fa2-4e74-9cd0-54b2d387c164/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4febad34-3fa2-4e74-9cd0-54b2d387c164"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-04T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 4.06.2025 14:00",
+"decisionCode": "II_LUGEMINE_KATKESTATUD",
+"votings": [
+{
+"uuid": "940223aa-fa0f-47d4-9789-ff3bed9da9c3",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "3. muudatusettepanek",
+"startDateTime": "2025-06-04T15:39:06.517",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/940223aa-fa0f-47d4-9789-ff3bed9da9c3"
+}
+}
+},
+{
+"uuid": "05f39b71-132d-4b5c-9f11-058968a832c0",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "2. muudatusettepanek",
+"startDateTime": "2025-06-04T15:38:00.103",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/05f39b71-132d-4b5c-9f11-058968a832c0"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING_CONTINUED",
+"proceedingEvents": [
+{
+"date": "2026-03-09T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 9.03.2026 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-03-18T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2026-03-25T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "701c76ca-1029-45dd-9258-9784a9a9c10c",
+"fileName": "KEKK_protokoll_09.03.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T10:14:33.202",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/701c76ca-1029-45dd-9258-9784a9a9c10c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/701c76ca-1029-45dd-9258-9784a9a9c10c"
+}
+}
+},
+{
+"uuid": "29e1c7de-52e8-4974-9772-5e80a862f74a",
+"fileName": "KEKK_protokoll_nr_145_09.03.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T10:13:35.363",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29e1c7de-52e8-4974-9772-5e80a862f74a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29e1c7de-52e8-4974-9772-5e80a862f74a"
+}
+}
+}
+]
+},
+{
+"date": "2026-03-18T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 18.03.2026 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": [
+{
+"uuid": "6bb3d12d-02b6-452f-9fdb-b4fa6247d07c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "3. muudatusettepanek",
+"startDateTime": "2026-03-18T18:36:51.047",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/6bb3d12d-02b6-452f-9fdb-b4fa6247d07c"
+}
+}
+},
+{
+"uuid": "c562c334-61bf-4d8e-a76d-f0f1da6cd7c5",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "2. muudatusettepanek",
+"startDateTime": "2026-03-18T18:35:55.057",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/c562c334-61bf-4d8e-a76d-f0f1da6cd7c5"
+}
+}
+},
+{
+"uuid": "7968f0e6-952f-4d6e-b51b-94735f2078c1",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "1. muudatusettepanek",
+"startDateTime": "2026-03-18T18:34:56.283",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/7968f0e6-952f-4d6e-b51b-94735f2078c1"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2026-03-25T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 25.03.2026 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "1d101704-d9b8-4836-bed3-eba9be85a2f9",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-03-25T14:22:03.31",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/1d101704-d9b8-4836-bed3-eba9be85a2f9"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2026-03-26T22:26:22.389",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2026-04-07T14:00:36.45",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2026-04-10T08:52:06.242",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "3130c34d-12d0-40bd-ab2f-a9ea22b824c2",
+"reference": "1-1/15-393/5",
+"title": "Eesti Planeerijate Ühingu arvamus atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-19",
+"files": [
+{
+"uuid": "abcd777a-4eb2-4783-b706-2cac9a425bda",
+"fileName": "Seisukoht_AOKS_2024_03_18.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T15:00:22.285",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/abcd777a-4eb2-4783-b706-2cac9a425bda/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/abcd777a-4eb2-4783-b706-2cac9a425bda"
+}
+}
+},
+{
+"uuid": "1a1214b7-ea69-4c30-a225-08b9c5e4b480",
+"fileName": "Seisukoht_AOKS_2024_03_18.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T15:00:22.197",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1a1214b7-ea69-4c30-a225-08b9c5e4b480/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1a1214b7-ea69-4c30-a225-08b9c5e4b480"
+}
+}
+},
+{
+"uuid": "efacc9c3-f329-41ec-8ab9-2a0c251d44a0",
+"fileName": "19.03.2024.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T15:00:22.31",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/efacc9c3-f329-41ec-8ab9-2a0c251d44a0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/efacc9c3-f329-41ec-8ab9-2a0c251d44a0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3130c34d-12d0-40bd-ab2f-a9ea22b824c2"
+}
+}
+},
+{
+"uuid": "03704315-e11d-4fe6-980c-0ceb2b1f2d5e",
+"reference": "1-1/15-393/10",
+"title": "Eesti Keskkonnamõjude Hindajate Ühingu, Eesti Kinnisvarafirmade Liidu ja Eesti Planeerijate Ühingu arvamus atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-08",
+"files": [
+{
+"uuid": "21113fc4-8ebc-4671-9e87-5d3e8e92401d",
+"fileName": "AÕKS_muudatusettepanek_KeMÜ_EKFL_EPÜ_04.04.24.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T09:41:37.145",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/21113fc4-8ebc-4671-9e87-5d3e8e92401d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/21113fc4-8ebc-4671-9e87-5d3e8e92401d"
+}
+}
+},
+{
+"uuid": "45b43d55-c92e-40ef-aa07-9c48fcde0d33",
+"fileName": "AÕKS_muudatusettepaneku_kaaskiri_EKFL_04.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse kaaskiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T09:41:37.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/45b43d55-c92e-40ef-aa07-9c48fcde0d33/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/45b43d55-c92e-40ef-aa07-9c48fcde0d33"
+}
+}
+},
+{
+"uuid": "b2615a6b-a3fa-4bc4-b7e8-405e00909d76",
+"fileName": "AÕKS_muudatusettepanek__KeMÜ__EKFL__EPÜ__04.04.24.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T09:41:37.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b2615a6b-a3fa-4bc4-b7e8-405e00909d76/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b2615a6b-a3fa-4bc4-b7e8-405e00909d76"
+}
+}
+},
+{
+"uuid": "7fa692f9-e4df-444a-8769-438f32c888dd",
+"fileName": "KeMÜ__EKFL_ja_EPÜ_ühised_ettepanekud_AÕKS_eelnõule.html",
+"fileExtension": "html",
+"fileTitle": "E-kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T09:41:37.341",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7fa692f9-e4df-444a-8769-438f32c888dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7fa692f9-e4df-444a-8769-438f32c888dd"
+}
+}
+},
+{
+"uuid": "38579330-2d1f-43ba-b456-f800d6f61160",
+"fileName": "AÕKS_muudatusettepaneku_kaaskiri_EKFL_04.04.2024.doc",
+"fileExtension": "doc",
+"fileTitle": "Arvamuse kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T09:41:37.323",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/38579330-2d1f-43ba-b456-f800d6f61160/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/38579330-2d1f-43ba-b456-f800d6f61160"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/03704315-e11d-4fe6-980c-0ceb2b1f2d5e"
+}
+}
+},
+{
+"uuid": "926aa6c7-4242-4b64-945e-d9155ebe1bfb",
+"reference": "1-1/15-393/7",
+"title": "Vabariigi Valitsuse arvamus atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-04",
+"files": [
+{
+"uuid": "05052d67-1975-430d-bb3a-26ad95c7d6e2",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0248_-_Atmosfääriõhu_kaitse_seaduse_muutmise_seaduse_eelnõu_(393_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T10:35:29.371",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/05052d67-1975-430d-bb3a-26ad95c7d6e2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/05052d67-1975-430d-bb3a-26ad95c7d6e2"
+}
+}
+},
+{
+"uuid": "cb0fd8ab-af71-4a64-9ffb-9ce5b6f60550",
+"fileName": "Atmosfï¿½ï¿½riï¿½hu_kaitse_seaduse_muutmise_seaduse_eelnï¿½u_(393_SE).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T10:35:29.273",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cb0fd8ab-af71-4a64-9ffb-9ce5b6f60550/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cb0fd8ab-af71-4a64-9ffb-9ce5b6f60550"
+}
+}
+},
+{
+"uuid": "94ab0b08-41aa-4bfd-ba11-f1124b5a5551",
+"fileName": "Atmosfääriõhu_kaitse_seaduse_muutmise_seaduse_eelnõu_(393_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T10:35:29.351",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/94ab0b08-41aa-4bfd-ba11-f1124b5a5551/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/94ab0b08-41aa-4bfd-ba11-f1124b5a5551"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/926aa6c7-4242-4b64-945e-d9155ebe1bfb"
+}
+}
+},
+{
+"uuid": "2c4f0dc8-81db-4c35-a49d-1deaefe0c055",
+"reference": "1-1/15-393/4",
+"title": "Eesti Linnade ja Valdade Liidu arvamus atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-19",
+"files": [
+{
+"uuid": "034f130b-0b7d-42b1-a93e-3fec71837d10",
+"fileName": "ELVL_Riigikogu_Arvamuse_küsimine___atmosfääriõhu_kaitse.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T14:41:40.196",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/034f130b-0b7d-42b1-a93e-3fec71837d10/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/034f130b-0b7d-42b1-a93e-3fec71837d10"
+}
+}
+},
+{
+"uuid": "43e73607-a135-4a28-b324-d813ab28d42a",
+"fileName": "ELVL_vastuskiri__atmosfääriõhu_kaitse_seaduse_muutmise_seadus.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T14:41:40.301",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/43e73607-a135-4a28-b324-d813ab28d42a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/43e73607-a135-4a28-b324-d813ab28d42a"
+}
+}
+},
+{
+"uuid": "7a1b0384-0888-4683-93fc-f83ef2f8b0ab",
+"fileName": "ELVL_Riigikogu_Atmosfäriõhu_kaitse_seaduse_muutmine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T14:41:40.28",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a1b0384-0888-4683-93fc-f83ef2f8b0ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a1b0384-0888-4683-93fc-f83ef2f8b0ab"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2c4f0dc8-81db-4c35-a49d-1deaefe0c055"
+}
+}
+},
+{
+"uuid": "f50b2747-6ae5-4eda-bda2-a23b5e94f86f",
+"reference": "1-1/15-393/8",
+"title": "Adepte Group OÜ arvamus atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-04",
+"files": [
+{
+"uuid": "007ddf17-b8c8-46cb-bdd1-e46af8bb6a78",
+"fileName": "Seisukoht_eelnõu_393SE_APR24.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T11:09:48.919",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/007ddf17-b8c8-46cb-bdd1-e46af8bb6a78/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/007ddf17-b8c8-46cb-bdd1-e46af8bb6a78"
+}
+}
+},
+{
+"uuid": "dd1b43c1-c958-4767-a2b4-1beae63edc4d",
+"fileName": "Seisukoht_eelnõu_SE393_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T11:09:48.939",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dd1b43c1-c958-4767-a2b4-1beae63edc4d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dd1b43c1-c958-4767-a2b4-1beae63edc4d"
+}
+}
+},
+{
+"uuid": "e5dacfe2-16ca-4a1b-9c11-add34ff8cd92",
+"fileName": "Seisukoht_eelnõu_393SE_APR24.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T11:09:48.68",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e5dacfe2-16ca-4a1b-9c11-add34ff8cd92/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e5dacfe2-16ca-4a1b-9c11-add34ff8cd92"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f50b2747-6ae5-4eda-bda2-a23b5e94f86f"
+}
+}
+},
+{
+"uuid": "95b165e4-bfac-4adc-9d96-8316af2e9a95",
+"reference": "1-1/15-393/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 393 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-06",
+"files": [
+{
+"uuid": "7e08ac1f-609c-407f-a18b-022cbb4799f9",
+"fileName": "AÕKS_m_s_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T14:28:08.401",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e08ac1f-609c-407f-a18b-022cbb4799f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e08ac1f-609c-407f-a18b-022cbb4799f9"
+}
+}
+},
+{
+"uuid": "ed260f60-d7ee-434e-a669-0e07bdd19505",
+"fileName": "1-1-15-393-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_393_SE_kohta.asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-07T15:45:21.224",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ed260f60-d7ee-434e-a669-0e07bdd19505/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ed260f60-d7ee-434e-a669-0e07bdd19505"
+}
+}
+},
+{
+"uuid": "cf096efd-57f4-4abb-aeea-2fb507072f81",
+"fileName": "240307_AÕKS_KEKK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T14:36:52.352",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf096efd-57f4-4abb-aeea-2fb507072f81/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf096efd-57f4-4abb-aeea-2fb507072f81"
+}
+}
+},
+{
+"uuid": "afa4b667-e2fc-45bf-854e-7b904acfa7ec",
+"fileName": "AÕKS_m_s_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T14:27:57.782",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/afa4b667-e2fc-45bf-854e-7b904acfa7ec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/afa4b667-e2fc-45bf-854e-7b904acfa7ec"
+}
+}
+},
+{
+"uuid": "14239e37-ab97-4f4a-a320-8ba20e9465d2",
+"fileName": "AÕKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T14:27:27.261",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/14239e37-ab97-4f4a-a320-8ba20e9465d2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/14239e37-ab97-4f4a-a320-8ba20e9465d2"
+}
+}
+},
+{
+"uuid": "f42a5cab-ddca-4815-9c33-3ce85c0f671e",
+"fileName": "AÕKS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T14:27:44.888",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f42a5cab-ddca-4815-9c33-3ce85c0f671e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f42a5cab-ddca-4815-9c33-3ce85c0f671e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/95b165e4-bfac-4adc-9d96-8316af2e9a95"
+}
+}
+},
+{
+"uuid": "893cd8a7-a195-4a8b-a46f-6e5350190075",
+"reference": "1-1/15-393/3",
+"title": "Eesti Kinnisvarafirmade Liidu arvamus atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-19",
+"files": [
+{
+"uuid": "fcb8829c-e47d-47ec-b932-d2a5ff5143dc",
+"fileName": "EKFL_seisukohad_AOKS_muudatustele_19.03.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T12:28:15.135",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fcb8829c-e47d-47ec-b932-d2a5ff5143dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fcb8829c-e47d-47ec-b932-d2a5ff5143dc"
+}
+}
+},
+{
+"uuid": "8a4cd5c7-ead8-4f77-9c72-5d93402b4b6c",
+"fileName": "EKFL_seisukohad_AÕKS_muudatustele.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T12:28:15.227",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8a4cd5c7-ead8-4f77-9c72-5d93402b4b6c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8a4cd5c7-ead8-4f77-9c72-5d93402b4b6c"
+}
+}
+},
+{
+"uuid": "9e7ec2ee-2b7a-4e13-8eba-70c7298907cb",
+"fileName": "EKFL_seisukohad_AOKS_muudatustele_19.03.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T12:28:15.206",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e7ec2ee-2b7a-4e13-8eba-70c7298907cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e7ec2ee-2b7a-4e13-8eba-70c7298907cb"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/893cd8a7-a195-4a8b-a46f-6e5350190075"
+}
+}
+},
+{
+"uuid": "2cb529a6-8e29-4180-85a8-a5a6935a485d",
+"reference": "1-1/15-393/11",
+"title": "Kliimaministeeriumi arvamus atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-12-04",
+"files": [
+{
+"uuid": "41b55292-ad68-45db-bfde-de9879f495f4",
+"fileName": "Välisõhus_leviva_müra_sihtväärtuse_kohaldamise_tingimused.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T09:32:31.483",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41b55292-ad68-45db-bfde-de9879f495f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41b55292-ad68-45db-bfde-de9879f495f4"
+}
+}
+},
+{
+"uuid": "d6644aeb-3e75-48f4-9bf9-974002dc99ae",
+"fileName": "Välisõhus_leviva_müra_sihtväärtuse_kohaldamise_tingimused.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T09:32:31.376",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6644aeb-3e75-48f4-9bf9-974002dc99ae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6644aeb-3e75-48f4-9bf9-974002dc99ae"
+}
+}
+},
+{
+"uuid": "9083f75c-0541-4d00-bc5c-e130dcc03531",
+"fileName": "Välisõhus_leviva_müra_sihtväärtuse_kohaldamise_tingimused.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T09:32:31.471",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9083f75c-0541-4d00-bc5c-e130dcc03531/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9083f75c-0541-4d00-bc5c-e130dcc03531"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2cb529a6-8e29-4180-85a8-a5a6935a485d"
+}
+}
+},
+{
+"uuid": "2837a296-6041-4235-b44d-6e4c39f92ada",
+"reference": "1-1/15-393/6",
+"title": "Tallinna Linnavolikogu keskkonna- ja kliimakomisjoni arvamus atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-21",
+"files": [
+{
+"uuid": "0272c61c-b80d-42fe-b3d4-5cf1b9a580b2",
+"fileName": "Arvamuse_küsimine_eelnõu_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-21T09:45:14.055",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0272c61c-b80d-42fe-b3d4-5cf1b9a580b2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0272c61c-b80d-42fe-b3d4-5cf1b9a580b2"
+}
+}
+},
+{
+"uuid": "085fc5df-1f7e-490d-8b60-db7952386b8b",
+"fileName": "Atmosfääriõhu_kaitse_seadus_arvamus.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-21T09:45:14.043",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/085fc5df-1f7e-490d-8b60-db7952386b8b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/085fc5df-1f7e-490d-8b60-db7952386b8b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2837a296-6041-4235-b44d-6e4c39f92ada"
+}
+}
+},
+{
+"uuid": "a8a86668-9d53-4981-9035-80fe3389440c",
+"reference": "1-1/15-393/2",
+"title": "Tallinna Linnavalitsuse arvamus atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-18",
+"files": [
+{
+"uuid": "1642250b-f7b8-4b3b-b310-4313ddca5240",
+"fileName": "Tallinna_Linnakantselei__Kiri__6-2-284-3.txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T09:33:26.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1642250b-f7b8-4b3b-b310-4313ddca5240/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1642250b-f7b8-4b3b-b310-4313ddca5240"
+}
+}
+},
+{
+"uuid": "41655757-fc5d-4454-8ed4-df1e07b62ee7",
+"fileName": "Kiri_6-2__15032024_104334.rtf",
+"fileExtension": "rtf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T09:33:26.298",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41655757-fc5d-4454-8ed4-df1e07b62ee7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41655757-fc5d-4454-8ed4-df1e07b62ee7"
+}
+}
+},
+{
+"uuid": "8b341155-e107-4c59-9e44-ead1886531c8",
+"fileName": "6-2_284-3_15032024_125167.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T09:33:26.217",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b341155-e107-4c59-9e44-ead1886531c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b341155-e107-4c59-9e44-ead1886531c8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a8a86668-9d53-4981-9035-80fe3389440c"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "1e12ba95-d1f8-40b6-928b-4a2a73af6c28",
+"reference": "1-1/15-393/9",
+"title": "Riigikogu liikme P. Sibula muudatusettepanekud atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "6fd22ca2-c9a8-4758-8dc1-cc3f4224b467",
+"fileName": "ME_393_SE_kohta.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:18:33.646",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6fd22ca2-c9a8-4758-8dc1-cc3f4224b467/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6fd22ca2-c9a8-4758-8dc1-cc3f4224b467"
+}
+}
+},
+{
+"uuid": "d7adbce1-4429-424f-9c55-6d3c7f7207de",
+"fileName": "ME_393_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:18:18.227",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7adbce1-4429-424f-9c55-6d3c7f7207de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7adbce1-4429-424f-9c55-6d3c7f7207de"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1e12ba95-d1f8-40b6-928b-4a2a73af6c28"
+}
+}
+},
+{
+"uuid": "91786013-a0ee-4b72-8f98-01205576ba83",
+"reference": "1-1/15-393/12",
+"title": "Riigikogu liikme P. Sibula muudatusettepanekud atmosfääriõhu kaitse seaduse muutmise seaduse eelnõu 393 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "4194976e-7a27-43db-a092-4ad96c25ffec",
+"fileName": "Priit_Sibul_MEd_393_SE_II_kohta.doc",
+"fileExtension": "doc",
+"fileTitle": "Muudatusettepanekud",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-18T15:55:53.916",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4194976e-7a27-43db-a092-4ad96c25ffec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4194976e-7a27-43db-a092-4ad96c25ffec"
+}
+}
+},
+{
+"uuid": "5c727a37-e3bb-449f-8d37-eddfbf1e6861",
+"fileName": "Priit_Sibul_MEd_393_SE_II_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanekud asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-18T15:55:39.047",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5c727a37-e3bb-449f-8d37-eddfbf1e6861/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5c727a37-e3bb-449f-8d37-eddfbf1e6861"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/91786013-a0ee-4b72-8f98-01205576ba83"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/0ae7aaf9-2059-4e1b-85b0-25efc29b8b81"
+}
+}
+}

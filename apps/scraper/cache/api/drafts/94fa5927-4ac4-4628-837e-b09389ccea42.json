@@ -1,0 +1,507 @@
+{
+"uuid": "94fa5927-4ac4-4628-837e-b09389ccea42",
+"title": "Riigikogu otsus „Martin Triipani Riigikohtu liikmeks nimetamine\"",
+"mark": 744,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Martin Triipani Riigikohtu liikmeks nimetamine\" 744 OE",
+"initialTitle": "Riigikogu otsus „Martin Triipani Riigikohtu liikmeks nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu näeb ette nimetada Martin Triipan Riigikohtu liikmeks alates 9. märtsist 2026.",
+"initiated": "2025-10-20",
+"joined": null,
+"accepted": "2025-11-11",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0f9372ee-f108-47f9-9192-82ff84cf3efb",
+"name": "Timo Suslov",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0f9372ee-f108-47f9-9192-82ff84cf3efb?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "cdde124d-27c4-4398-b268-5c9e20d34d7f",
+"name": "Riigikohtu esimees",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 1537,
+"text": "kohtunik"
+},
+{
+"edid": 1548,
+"text": "kõrgema astme kohus"
+},
+{
+"edid": 3559,
+"text": "ametisse nimetamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5a9c4e19-f429-453a-a004-df5af278a296",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "db33c6ac-fdd3-49e7-94b5-48f2a2e69da0",
+"fileName": "7-725-496-1_20.10.2025_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-20T15:57:49.189",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/db33c6ac-fdd3-49e7-94b5-48f2a2e69da0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/db33c6ac-fdd3-49e7-94b5-48f2a2e69da0"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6f728285-1cc3-41a1-922d-eb87ba47e413",
+"title": "744OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b694ce33-b661-46a8-a86c-b759903f11eb",
+"fileName": "744_RK_o_M._Triipan_ametisse_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T17:24:59.421",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b694ce33-b661-46a8-a86c-b759903f11eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b694ce33-b661-46a8-a86c-b759903f11eb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5a9c4e19-f429-453a-a004-df5af278a296",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "412f7a56-8c36-47d6-b6f9-ba516f229ca5",
+"fileName": "M._Triipan_ametisse_OE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-20T15:57:49.179",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/412f7a56-8c36-47d6-b6f9-ba516f229ca5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/412f7a56-8c36-47d6-b6f9-ba516f229ca5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5a9c4e19-f429-453a-a004-df5af278a296",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5ff4dfa5-52f6-41ae-a2dd-5d625c663a9f",
+"fileName": "M._Triipan_ametisse_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-20T15:57:49.32",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ff4dfa5-52f6-41ae-a2dd-5d625c663a9f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ff4dfa5-52f6-41ae-a2dd-5d625c663a9f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5a9c4e19-f429-453a-a004-df5af278a296",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "805be8d2-fa06-452f-a3a0-d298d6a9a4ec",
+"fileName": "M._Triipan_Riigikogule_kaaskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-20T15:57:49.305",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/805be8d2-fa06-452f-a3a0-d298d6a9a4ec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/805be8d2-fa06-452f-a3a0-d298d6a9a4ec"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e138f684-2fea-4c7d-8172-362ae8e32d2f",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "334e81ef-b5bb-4915-a9c2-df4bf45c1023",
+"fileName": "744XV_RK_o_11112025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T13:41:36.971",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/334e81ef-b5bb-4915-a9c2-df4bf45c1023/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/334e81ef-b5bb-4915-a9c2-df4bf45c1023"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e138f684-2fea-4c7d-8172-362ae8e32d2f",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "be354ff1-1702-4ab4-8728-08f13a1b2b16",
+"fileName": "744XV_RK_o_11112025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T13:41:26.816",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/be354ff1-1702-4ab4-8728-08f13a1b2b16/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/be354ff1-1702-4ab4-8728-08f13a1b2b16"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6f728285-1cc3-41a1-922d-eb87ba47e413",
+"title": "744OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8e497211-afdb-4a2d-8c7c-5ba1959cf385",
+"fileName": "744_RK_o_M._Triipan_ametisse_OE_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-03T17:25:29.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e497211-afdb-4a2d-8c7c-5ba1959cf385/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e497211-afdb-4a2d-8c7c-5ba1959cf385"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5a9c4e19-f429-453a-a004-df5af278a296",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "63b236c9-185f-445b-9c69-c6a3f034953d",
+"fileName": "M._Triipan_ametisse_OE_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-20T15:57:49.167",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/63b236c9-185f-445b-9c69-c6a3f034953d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/63b236c9-185f-445b-9c69-c6a3f034953d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5a9c4e19-f429-453a-a004-df5af278a296",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "42b20e18-29f0-4904-9686-97ec606f36aa",
+"fileName": "M._Triipan_ametisse_OE_seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-20T15:57:49.335",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42b20e18-29f0-4904-9686-97ec606f36aa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42b20e18-29f0-4904-9686-97ec606f36aa"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c6f00dbb-9835-480d-b8da-f4c943167b40",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ca3dc6ca-525e-40f4-94c8-fee2bed68764",
+"fileName": "744XV_RK_o_112025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T11:15:22.938",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca3dc6ca-525e-40f4-94c8-fee2bed68764/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca3dc6ca-525e-40f4-94c8-fee2bed68764"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c6f00dbb-9835-480d-b8da-f4c943167b40",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dde4a14a-f181-481f-90f6-48a6a2d5f5df",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T12:37:32.951",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dde4a14a-f181-481f-90f6-48a6a2d5f5df/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dde4a14a-f181-481f-90f6-48a6a2d5f5df"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-10-20T15:57:16.761",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-10-21T13:57:00.361",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-03T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 3.11.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2025-11-11T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Timo Suslov"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Teha ettepanek võimaldada vastavalt Riigikogu kodu- ja töökorra seaduse § 117 lõikele 3 Martin Triipanil esineda täiskogu ees kuni viieminutilise ettekandega"
+}
+],
+"protocolFiles": [
+{
+"uuid": "86351778-9667-4f9a-a20b-ab8ed4ad0196",
+"fileName": "Riigikogu_põhiseaduskomisjoni_istungi_protokoll_nr_132.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T10:14:21.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/86351778-9667-4f9a-a20b-ab8ed4ad0196/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/86351778-9667-4f9a-a20b-ab8ed4ad0196"
+}
+}
+},
+{
+"uuid": "ac8e70fe-eec3-480f-8c7c-c6a0c714c8e4",
+"fileName": "PÕSK_protokoll_nr_132_(03.11.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll 03.11.2025.pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T10:13:32.238",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac8e70fe-eec3-480f-8c7c-c6a0c714c8e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac8e70fe-eec3-480f-8c7c-c6a0c714c8e4"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-11T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 11.11.2025 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "57e4c1bc-374c-4e54-a2c3-366cbd68a014",
+"type": {
+"code": "SALAJANE",
+"value": "Salajane"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-11-11T11:12:07.407",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/57e4c1bc-374c-4e54-a2c3-366cbd68a014"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-11-11T13:41:09.538",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2025-11-12T13:11:39.954",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/94fa5927-4ac4-4628-837e-b09389ccea42"
+}
+}
+}

@@ -1,0 +1,421 @@
+{
+"uuid": "c74bfb98-e506-4971-b94f-70c7a27da016",
+"etid": 535,
+"code": "1626",
+"text": "rahvamajanduse arvepidamine",
+"descriptors": [
+{
+"edid": 4362,
+"text": "raamatupidamissüsteem",
+"code": "4362",
+"uuid": "855facb1-b823-461b-bec5-eab76542b108",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"kontoplaan"
+],
+"narrowTerms": [
+"879657db-5fdd-c197-3b56-ba222b59eaf6"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 54,
+"text": "raamatupidamine",
+"code": "54",
+"uuid": "42daa70f-ec5a-4037-abec-aeaac2c9c983",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [
+"raamatupidamisarvestus",
+"raamatupidamise arvestus"
+],
+"narrowTerms": [
+"0a4f8cdf-ce0d-4f0a-a0be-a357a621b72a",
+"ede35067-c930-4150-a438-c84fdb189974",
+"d3fbcc5e-b53b-4b4a-a5dd-b0eee95c46ea",
+"6975a03b-51a2-4443-ed15-741391bcc183",
+"f2b88bb7-7963-436e-9d20-7de2481925c4",
+"2fb050ef-e05c-af47-e4e0-4747c4bb55b4"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/42daa70f-ec5a-4037-abec-aeaac2c9c983"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/855facb1-b823-461b-bec5-eab76542b108"
+}
+}
+},
+{
+"edid": 56,
+"text": "rahvamajanduse arvepidamine",
+"code": "56",
+"uuid": "009d2bc7-df63-4985-beef-568d3f47078d",
+"vol_cnt": 28,
+"scopeNotes": [
+"Raamatupidamissüsteem, mida kasutatakse rahvamajanduse arvepidamisel. Mitte segamini ajada avaliku sektori raamatupidamissüsteemiga."
+],
+"usedFors": [
+"rahvamajanduse raamatupidamine"
+],
+"narrowTerms": [
+"5d343020-46ac-4d6e-bf8d-cca9e1967f01",
+"4e7fed98-4aaf-4f85-97f2-62c6cf9b0efe",
+"0b3a0f2e-ee26-49a9-8b3a-e6199e822b6a",
+"3cd36ecb-c5a8-4ac8-ba1d-4a3ecef43ac6",
+"a99ac1b1-6e6b-4ea2-a6b1-02a170b49887",
+"dbf87d16-3bcc-4af5-8a66-d3290b0cb100"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3193,
+"text": "kaubad ja teenused",
+"code": "3193",
+"uuid": "c8d64da0-7d39-29f9-ef17-f12688a48b14",
+"vol_cnt": 97,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"39e6f136-bfb0-4517-8fd4-89e89ba0b44a",
+"df28d86a-12d2-4daf-ad58-fdf8c82fad02",
+"4f1b255d-b77b-4303-80dd-a2a48689c522",
+"d0083d6a-aea7-49d7-abee-e29a553d5be8",
+"c5133431-c7a2-405f-ad05-b3311a1514f1",
+"ba2dfa29-aab8-4e88-aeac-1ce30845da68",
+"f4cf3e11-8b5f-45fb-be9d-b06dd63bf1c6",
+"8e29c8cf-d573-3416-25c8-52aef490252c",
+"d0cd66b6-4daa-4fd5-a80a-c3e526b543c0"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c8d64da0-7d39-29f9-ef17-f12688a48b14"
+}
+}
+},
+{
+"edid": 4633,
+"text": "kaubandusbilanss",
+"code": "4633",
+"uuid": "04333091-9917-4aba-8435-7afad5e63fd0",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"nähtav bilanss",
+"nähtav kaubandusbilanss"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/04333091-9917-4aba-8435-7afad5e63fd0"
+}
+}
+},
+{
+"edid": 1800,
+"text": "majandusanalüüs",
+"code": "1800",
+"uuid": "c6d0e62c-9862-c297-ab15-9a75330ca0c8",
+"vol_cnt": 19,
+"scopeNotes": [],
+"usedFors": [
+"majanduse hindamine",
+"majandustegevuse analüüs",
+"majandustegevuse hindamine"
+],
+"narrowTerms": [
+"90d08886-67f7-47c8-a7d0-91bad1a741b4",
+"36e35cce-e6ef-414c-ad59-5bf5c88484c7",
+"3544c56a-d02c-4f99-af18-0aca3f6f27a0",
+"80997620-e1b5-4beb-aa31-04167b7c4559",
+"8037096f-ea61-4ed0-aa88-b8b54f958b0e",
+"81af671b-d8c4-44ae-927a-9ca05077ba61",
+"c09dcb16-3c90-4a40-9abe-acf9ede0697a",
+"17e37a23-180b-b3ee-a3a7-634dba450d4f",
+"11783ee2-5309-4ca2-8319-da721b326784",
+"cdc15953-debf-4f73-91a7-d25f32075614"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c6d0e62c-9862-c297-ab15-9a75330ca0c8"
+}
+}
+},
+{
+"edid": 54,
+"text": "raamatupidamine",
+"code": "54",
+"uuid": "42daa70f-ec5a-4037-abec-aeaac2c9c983",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [
+"raamatupidamisarvestus",
+"raamatupidamise arvestus"
+],
+"narrowTerms": [
+"0a4f8cdf-ce0d-4f0a-a0be-a357a621b72a",
+"ede35067-c930-4150-a438-c84fdb189974",
+"d3fbcc5e-b53b-4b4a-a5dd-b0eee95c46ea",
+"6975a03b-51a2-4443-ed15-741391bcc183",
+"f2b88bb7-7963-436e-9d20-7de2481925c4",
+"2fb050ef-e05c-af47-e4e0-4747c4bb55b4"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/42daa70f-ec5a-4037-abec-aeaac2c9c983"
+}
+}
+},
+{
+"edid": 655,
+"text": "rahvamajandus",
+"code": "655",
+"uuid": "041d095a-6a4b-4768-bf92-0cc3a7a6c699",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/041d095a-6a4b-4768-bf92-0cc3a7a6c699"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/009d2bc7-df63-4985-beef-568d3f47078d"
+}
+}
+},
+{
+"edid": 3659,
+"text": "tulu",
+"code": "3659",
+"uuid": "2c5bd344-ced4-4206-8556-7ddd5f5b1797",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kasutada eraisiku või ettevõtte tulu puhul, muus kontekstis kasutada rahvamajanduse tulu."
+],
+"usedFors": [],
+"narrowTerms": [
+"c493efea-e3e5-4324-a5a2-3de420362d49",
+"b4b617c8-e4f2-49d0-a4ae-cbbe840639ba",
+"b71eddee-bfbe-4676-8a48-17d58e564609",
+"38431a56-9be0-4950-85e4-af3d5ea9047e",
+"0abca20a-4ace-4bd8-ad31-0d14ae049f81",
+"e36080ee-e761-498e-9780-1eaf56167dae",
+"a6d629dd-07f3-4d7a-9eea-7b77246e388f",
+"264a907a-2bc0-47c3-af77-056a76433c8e",
+"43f0cdf7-4a28-40b5-a988-445fd6f5ecc8",
+"f9f1ebf1-ed05-449a-b7bf-bcc33a791981"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 4086,
+"text": "elatusmiinimum",
+"code": "4086",
+"uuid": "0fdff5ce-5d9d-9d41-3822-9992106073f5",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"garanteeritud miinimumsissetulek",
+"toimetulekupiir"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0fdff5ce-5d9d-9d41-3822-9992106073f5"
+}
+}
+},
+{
+"edid": 3674,
+"text": "investeerimistulu",
+"code": "3674",
+"uuid": "174a6913-2116-4258-bcdb-f27001927d8c",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"kapitali tulusus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/174a6913-2116-4258-bcdb-f27001927d8c"
+}
+}
+},
+{
+"edid": 3686,
+"text": "rahvamajanduse tulu",
+"code": "3686",
+"uuid": "79c176d9-6eca-48c3-a27a-5e4725133ce5",
+"vol_cnt": 19,
+"scopeNotes": [
+"Tööst ja omandist saadud kogutulu, mis on saadud rahvamajanduse poolt toodetud  kaupade ja teenuste eest."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/79c176d9-6eca-48c3-a27a-5e4725133ce5"
+}
+}
+},
+{
+"edid": 3682,
+"text": "talumajapidamise tulu",
+"code": "3682",
+"uuid": "4758ae8a-3c86-447f-8395-455129eef304",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandustulu"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4758ae8a-3c86-447f-8395-455129eef304"
+}
+}
+},
+{
+"edid": 3679,
+"text": "talupidaja tulu",
+"code": "3679",
+"uuid": "d65284df-94d6-4c5f-bb2c-c20b8d22e107",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d65284df-94d6-4c5f-bb2c-c20b8d22e107"
+}
+}
+},
+{
+"edid": 1326,
+"text": "tulumaks",
+"code": "1326",
+"uuid": "486cab20-fdff-bcab-a695-f72de8e98b7c",
+"vol_cnt": 150,
+"scopeNotes": [
+"Füüsiliste isikute kogutulult (palgalt ja investeeringutulult) makstav maks."
+],
+"usedFors": [],
+"narrowTerms": [
+"aa90fb42-5d69-4f89-af4e-752f85e7041c",
+"ec5ab785-33a4-5615-590d-a4a5abfe0c5f",
+"c371998a-0dff-d0cb-df94-de945f9f63a2",
+"dd73ea0f-0b25-4398-845d-bcaac01b3163",
+"1eb47bdc-cdc8-559f-c8d6-9f31e16d26db",
+"0c411917-abb4-e4c0-067f-03b42a27535a",
+"292e559a-93fc-08cd-7f9e-4e2aec2a411d",
+"0927b33f-72e9-9bbb-c306-91cb8203aa26"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/486cab20-fdff-bcab-a695-f72de8e98b7c"
+}
+}
+},
+{
+"edid": 2490,
+"text": "tulupoliitika",
+"code": "2490",
+"uuid": "5ce6168b-a145-4359-be7a-c84c4f72ca45",
+"vol_cnt": 0,
+"scopeNotes": [
+"Poliitika, mis käsitleb tulude jagamist ja ümberjaotamist. Mitte segamini ajada palgapoliitikaga."
+],
+"usedFors": [],
+"narrowTerms": [
+"3386d5e4-fd94-4f8c-8d51-0dcb62f3f675",
+"063056ac-0057-43d7-9c61-43d353d74c56"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5ce6168b-a145-4359-be7a-c84c4f72ca45"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2c5bd344-ced4-4206-8556-7ddd5f5b1797"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/c74bfb98-e506-4971-b94f-70c7a27da016"
+}
+}
+}

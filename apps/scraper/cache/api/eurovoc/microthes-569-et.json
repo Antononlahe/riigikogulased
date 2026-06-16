@@ -1,0 +1,449 @@
+{
+"uuid": "099a10b5-8412-4803-b50b-c0f1f5a67f87",
+"etid": 569,
+"code": "3236",
+"text": "infotehnoloogia ja andmetöötlus",
+"descriptors": [
+{
+"edid": 5922,
+"text": "arvutisüsteem",
+"code": "5922",
+"uuid": "64794c21-0c14-b007-9b3e-a49558708627",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"andmetöötlussüsteem"
+],
+"narrowTerms": [
+"8436f4d0-4fd3-44b4-bf91-086b0c4c42a9",
+"7ef5f580-2296-4f49-8558-495baad54e15",
+"6f07b6ea-06cb-47b9-8c88-9e25af67a6e5",
+"20e2c68d-388c-46dc-ad5b-e09f6a7cea65",
+"a227cace-ffc6-4e7d-be64-6b5657f8b643",
+"d7d64fe7-25e9-4ceb-9838-66c6338ee563"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 454837,
+"text": "infosõda",
+"code": "c_4e75f061",
+"uuid": "9028de6e-ceab-4d87-8a62-8b8a051039a5",
+"vol_cnt": 23,
+"scopeNotes": [],
+"usedFors": [
+"küberoht",
+"küberrünnak",
+"kübersõda",
+"küberterrorism"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9028de6e-ceab-4d87-8a62-8b8a051039a5"
+}
+}
+},
+{
+"edid": 6267,
+"text": "simulatsioon",
+"code": "6267",
+"uuid": "b5e7e427-df93-4fd1-9745-2048c4e1ae00",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"simulatsioonimudel"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b5e7e427-df93-4fd1-9745-2048c4e1ae00"
+}
+}
+},
+{
+"edid": 454867,
+"text": "Vabadusel, Turvalisusel ja Õigusel Rajaneva Ala Suuremahuliste IT-süsteemide Operatiivjuhtimise Euroopa Amet",
+"code": "c_8a658bb0",
+"uuid": "dda02f82-61e9-449f-a2d9-e79d04d79e21",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [
+"eu-LISA"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dda02f82-61e9-449f-a2d9-e79d04d79e21"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/64794c21-0c14-b007-9b3e-a49558708627"
+}
+}
+},
+{
+"edid": 4488,
+"text": "andmetöötlus",
+"code": "4488",
+"uuid": "24b807ed-ab40-e1a4-e2d9-720ccec6614d",
+"vol_cnt": 84,
+"scopeNotes": [],
+"usedFors": [
+"automaatne andmetöötlus",
+"automatiseeritud andmetöötlus",
+"elektrooniline andmetöötlus"
+],
+"narrowTerms": [
+"71690326-5ae8-d145-f9c2-ba9781b3c6ac",
+"633d4c3a-ac09-32fc-feca-3b17fd8b143b",
+"57afc461-3029-1b91-e581-eb5e2a4fa9c7",
+"ea389671-d4c3-72b0-b4dc-24248dba9b37",
+"d3d22beb-403d-4d9e-8394-42def7279232",
+"8db7c669-29d2-0431-d252-b093fc3c6830",
+"fddfba96-b93f-44a6-92c2-425b3c1db3e8",
+"51b8056d-2a60-7380-6c92-ed0e5e2faeb7"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2157,
+"text": "arvuti",
+"code": "2157",
+"uuid": "cf9de0fa-02e3-40ac-a5fc-b592b378f562",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"miniarvuti"
+],
+"narrowTerms": [
+"75991b09-23ac-410a-9af5-8427b38108cf"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cf9de0fa-02e3-40ac-a5fc-b592b378f562"
+}
+}
+},
+{
+"edid": 6767,
+"text": "elektrooniline dokument",
+"code": "6767",
+"uuid": "37485045-140c-71c0-dbd8-c618ac618a1e",
+"vol_cnt": 46,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/37485045-140c-71c0-dbd8-c618ac618a1e"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/24b807ed-ab40-e1a4-e2d9-720ccec6614d"
+}
+}
+},
+{
+"edid": 1426,
+"text": "informaatika",
+"code": "1426",
+"uuid": "875a8b61-e26a-44cc-89dd-deab575166ff",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"arvutisüsteemid"
+],
+"narrowTerms": [
+"5e94c8f7-993e-4452-88b1-536539833c13",
+"98b74e6b-768d-4c37-bc32-ca22da269cc8",
+"0965358e-9865-400a-ab52-e9a3e46eb6e2",
+"5a96a91f-36d0-45ad-a074-e1fe8a2da578",
+"aec25d32-2468-4ace-b35c-e6a2d5739ed0",
+"f9cb43e6-65e8-40d9-8e23-b0ed526e5071",
+"a7a13049-3456-44d3-b1e0-d7629949d2ee",
+"96acfce1-7f65-4365-b0c8-b37f2db5f5ef"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 781,
+"text": "programmõpe",
+"code": "781",
+"uuid": "7fdc2e6e-2e4c-4f51-934e-f7d46cfa083b",
+"vol_cnt": 0,
+"scopeNotes": [
+"Õpetamismeetod, milles kasutatakse arvuteid."
+],
+"usedFors": [
+"arvuti abil õppimine",
+"arvuti poolt vahendatud õpe",
+"arvutipõhine õpe"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7fdc2e6e-2e4c-4f51-934e-f7d46cfa083b"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/875a8b61-e26a-44cc-89dd-deab575166ff"
+}
+}
+},
+{
+"edid": 1405,
+"text": "infotehnoloogiatööstus",
+"code": "1405",
+"uuid": "44972cc8-af78-4310-974b-66c708945ba7",
+"vol_cnt": 15,
+"scopeNotes": [],
+"usedFors": [
+"arvutitööstus"
+],
+"narrowTerms": [
+"da763c96-f897-608c-a9da-daa8324e07b3",
+"66e4753c-dcd5-724c-b5ea-8e8b6f015089"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5071,
+"text": "bürooautomaatika",
+"code": "5071",
+"uuid": "0ae2184b-acae-476f-89f3-cc6ca4b74f71",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"kontoritehnika"
+],
+"narrowTerms": [
+"5c748b1c-754b-46e7-a1c6-66839cba3258",
+"1700104a-7984-4dc9-9d0b-119d4b6126f6",
+"af87feaf-af66-423b-a1b9-33e1a437372b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0ae2184b-acae-476f-89f3-cc6ca4b74f71"
+}
+}
+},
+{
+"edid": 709,
+"text": "elektroonika",
+"code": "709",
+"uuid": "ad80615c-7c2a-48a2-9734-ff72925a9b64",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ad80615c-7c2a-48a2-9734-ff72925a9b64"
+}
+}
+},
+{
+"edid": 1400,
+"text": "elektroonikatööstus",
+"code": "1400",
+"uuid": "7c005b3b-7f4e-422a-a54d-d7ada2874a40",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"931ad1c1-6741-40bb-9f26-3b7e66ac1630",
+"4ef1b775-5c3d-4592-8537-c7cb3f5103a8",
+"dd5bd029-82ae-4c1c-a8cd-268c5b54a5bd",
+"d00aff3c-831d-436d-945e-470618bd54e3",
+"109e17f8-dfe5-4a0f-a9a3-6136afbbe6b3",
+"4b7968d8-9d0f-429c-88a7-722d20588673"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7c005b3b-7f4e-422a-a54d-d7ada2874a40"
+}
+}
+},
+{
+"edid": 4330,
+"text": "infokandja",
+"code": "4330",
+"uuid": "8e969f6f-e6c2-48a2-bc0b-75e24acce767",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"andmekandja",
+"teabekandja"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8e969f6f-e6c2-48a2-bc0b-75e24acce767"
+}
+}
+},
+{
+"edid": 1367,
+"text": "infotööstus",
+"code": "1367",
+"uuid": "25ea5e2e-1e26-42fe-ba82-05639a9e3a6c",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/25ea5e2e-1e26-42fe-ba82-05639a9e3a6c"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/44972cc8-af78-4310-974b-66c708945ba7"
+}
+}
+},
+{
+"edid": 3028,
+"text": "informaatikaalane seadusandlus",
+"code": "3028",
+"uuid": "26b304ee-7c9e-4995-940b-3cc38353048d",
+"vol_cnt": 25,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"7128f34a-255d-cfec-5e07-7e62a3f3c6f1"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2828,
+"text": "eraelu puutumatuse kaitse",
+"code": "2828",
+"uuid": "80c375c3-eb77-b794-ea23-f7d096cd086c",
+"vol_cnt": 78,
+"scopeNotes": [],
+"usedFors": [
+"õigus eraelu puutumatusele"
+],
+"narrowTerms": [
+"6124f937-d149-71b9-fe92-9b38b417927b",
+"f11ad2d1-7dae-c329-2f31-fb00080eaf27",
+"0021a1f8-2c39-46de-ba41-83502feed2a3"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/80c375c3-eb77-b794-ea23-f7d096cd086c"
+}
+}
+},
+{
+"edid": 453,
+"text": "info kättesaadavus",
+"code": "453",
+"uuid": "5c89540e-441c-822a-05ed-86837cb3f928",
+"vol_cnt": 175,
+"scopeNotes": [],
+"usedFors": [
+"avalik teave",
+"teabe vaba liikumine"
+],
+"narrowTerms": [
+"da1d4054-ab90-492e-9320-1fffc1c63c7f",
+"ede8df32-b85f-433d-a02d-197dfa6be4fd",
+"e094998a-004b-8ea5-52d9-e905612e6f59",
+"053dc716-dfd8-44f7-b9ba-f4719ccf0afb"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5c89540e-441c-822a-05ed-86837cb3f928"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/26b304ee-7c9e-4995-940b-3cc38353048d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/099a10b5-8412-4803-b50b-c0f1f5a67f87"
+}
+}
+}

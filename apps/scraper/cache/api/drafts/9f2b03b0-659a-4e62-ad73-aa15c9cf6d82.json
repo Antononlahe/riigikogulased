@@ -1,0 +1,1102 @@
+{
+"uuid": "9f2b03b0-659a-4e62-ad73-aa15c9cf6d82",
+"title": "Nimeseaduse ja riigilõivuseaduse muutmise seadus",
+"mark": 719,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Nimeseaduse ja riigilõivuseaduse muutmise seadus 719 SE",
+"initialTitle": "Nimeseaduse ja riigilõivuseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Nimeseadust muudetakse, et luua võimalus taotleda uut ees- või perekonnanime rahvastikuregistri veebikeskkonnas ning teha sellega seotud automaatseid otsuseid ja kandeid. Samuti lihtsustatakse inimese soovil eesnime vahetamise korda. Riigilõivuseaduses täpsustatakse nimetaotluste haldusaktide korduva väljastamise riigilõivumäära ning kaotatakse varasem alus eesnime muutmise tasuta menetlemiseks.",
+"initiated": "2025-09-15",
+"joined": null,
+"accepted": "2025-12-03",
+"amendmentsDeadline": "2025-11-05T17:15:00",
+"responsibleMember": {
+"uuid": "7b6823ed-96f9-462b-b931-3dd4faceb09e",
+"name": "Vilja Toomast",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7b6823ed-96f9-462b-b931-3dd4faceb09e?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "2c5ed7f2-f3ac-4443-b962-170130e04c78",
+"name": "Linnar Liivamägi",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/2c5ed7f2-f3ac-4443-b962-170130e04c78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 3315,
+"text": "perekonnanimi"
+},
+{
+"edid": 6894,
+"text": "e-valitsus"
+},
+{
+"edid": 2230,
+"text": "maksutaoline lõiv"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e4032301-2441-4189-9644-7cd2ce03996f",
+"fileName": "RK_25-01660-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:54.753",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e4032301-2441-4189-9644-7cd2ce03996f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e4032301-2441-4189-9644-7cd2ce03996f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ff4c9637-d5a3-4a7d-93e1-9aa962008160",
+"fileName": "[EIS]_Eelnõu_esitamine__SIM-25-0507_-_Nimeseaduse_ja_riigilõivuseaduse_muutmise_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:55.059",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ff4c9637-d5a3-4a7d-93e1-9aa962008160/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ff4c9637-d5a3-4a7d-93e1-9aa962008160"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7059346c-d37a-4346-ab35-fdacf81f0aea",
+"title": "Nimeseaduse ja riigilõivuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bbdffee3-e5a1-41ab-ab11-12c429542c9e",
+"fileName": "719_NS_RLS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-06T12:33:25.043",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bbdffee3-e5a1-41ab-ab11-12c429542c9e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bbdffee3-e5a1-41ab-ab11-12c429542c9e"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "9dba1fc2-635b-45ce-bc2e-d23f45320d80",
+"title": "Nimeseaduse ja riigilõivuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a4df4487-40a2-471c-ad3b-fa4a078d6326",
+"fileName": "719_SE_III_SAALITEKST_(toimetatud).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-19T16:37:41.682",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a4df4487-40a2-471c-ad3b-fa4a078d6326/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a4df4487-40a2-471c-ad3b-fa4a078d6326"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "6df1face-fd3b-4468-b015-fdf685230092",
+"title": "Nimeseaduse ja riigilõivuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2c6f7c52-a8fb-4eea-8c59-0359fe8d8cf0",
+"fileName": "719_SE_II_SAALITEKST.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T15:24:02.085",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c6f7c52-a8fb-4eea-8c59-0359fe8d8cf0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c6f7c52-a8fb-4eea-8c59-0359fe8d8cf0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0586d2a6-7ccb-4f28-afdd-4d8e27f604dd",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:54.945",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0586d2a6-7ccb-4f28-afdd-4d8e27f604dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0586d2a6-7ccb-4f28-afdd-4d8e27f604dd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0c080fbf-198a-4e8f-8c40-ffc5b1c3773f",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:54.958",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c080fbf-198a-4e8f-8c40-ffc5b1c3773f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c080fbf-198a-4e8f-8c40-ffc5b1c3773f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "68ce4c48-e114-45dc-979e-6982827ee5d1",
+"fileName": "25-01660-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:54.931",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/68ce4c48-e114-45dc-979e-6982827ee5d1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/68ce4c48-e114-45dc-979e-6982827ee5d1"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "200842d4-beec-4e3c-b937-2175679047d6",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8d20a073-dda7-4c1c-9888-bf72ece16000",
+"fileName": "719_Kaaskiri_Vabariigi_Presidendile_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-03T16:00:25.887",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d20a073-dda7-4c1c-9888-bf72ece16000/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d20a073-dda7-4c1c-9888-bf72ece16000"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "fbba9a3c-2d58-4cd7-bcd7-f6ec986b0ff1",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c5bae241-e90f-4ca4-ba4d-d4829c583dfa",
+"fileName": "719XV_Nimesead_ms_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-12T12:02:11.59",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c5bae241-e90f-4ca4-ba4d-d4829c583dfa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c5bae241-e90f-4ca4-ba4d-d4829c583dfa"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "fbba9a3c-2d58-4cd7-bcd7-f6ec986b0ff1",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "08100b2f-458e-436e-b275-85cd729fc73f",
+"fileName": "719XV_Nimesead_ms_2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-12T12:01:58.815",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/08100b2f-458e-436e-b275-85cd729fc73f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/08100b2f-458e-436e-b275-85cd729fc73f"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "6df1face-fd3b-4468-b015-fdf685230092",
+"title": "Nimeseaduse ja riigilõivuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e5d1251d-7780-445d-97bc-b199712f735b",
+"fileName": "719_SE_II_ME_TABEL.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T15:24:42.542",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e5d1251d-7780-445d-97bc-b199712f735b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e5d1251d-7780-445d-97bc-b199712f735b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7059346c-d37a-4346-ab35-fdacf81f0aea",
+"title": "Nimeseaduse ja riigilõivuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4b8a166d-be67-4612-a5c1-66eebb6c17a4",
+"fileName": "719_NS_RLS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-06T12:34:08.746",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4b8a166d-be67-4612-a5c1-66eebb6c17a4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4b8a166d-be67-4612-a5c1-66eebb6c17a4"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "6df1face-fd3b-4468-b015-fdf685230092",
+"title": "Nimeseaduse ja riigilõivuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9b01796d-c9e4-4601-887e-afa2574384da",
+"fileName": "719_SE_II_SELETUSKIRI.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-11T15:25:06.102",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9b01796d-c9e4-4601-887e-afa2574384da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9b01796d-c9e4-4601-887e-afa2574384da"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4742486a-a314-446a-925f-5ec7e0a52901",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:54.972",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4742486a-a314-446a-925f-5ec7e0a52901/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4742486a-a314-446a-925f-5ec7e0a52901"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "44092d9f-7e25-4cf8-88bb-9c6e3fee704a",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:54.986",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/44092d9f-7e25-4cf8-88bb-9c6e3fee704a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/44092d9f-7e25-4cf8-88bb-9c6e3fee704a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7059346c-d37a-4346-ab35-fdacf81f0aea",
+"title": "Nimeseaduse ja riigilõivuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "37a3f96a-4dcc-4e83-9add-e078ad5113be",
+"fileName": "719_NS_RLS_m_s_SK_Lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (rakendusakti kavand)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-06T12:34:39.762",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/37a3f96a-4dcc-4e83-9add-e078ad5113be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/37a3f96a-4dcc-4e83-9add-e078ad5113be"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2a5dfd3d-0055-4f7a-a390-f9b6cd11e231",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (rakendusakti kavand) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:54.999",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2a5dfd3d-0055-4f7a-a390-f9b6cd11e231/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2a5dfd3d-0055-4f7a-a390-f9b6cd11e231"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dd648f4a-8865-42ed-b9ed-5f1ebd3deb34",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (rakendusakti kavand) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:55.013",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dd648f4a-8865-42ed-b9ed-5f1ebd3deb34/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dd648f4a-8865-42ed-b9ed-5f1ebd3deb34"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7059346c-d37a-4346-ab35-fdacf81f0aea",
+"title": "Nimeseaduse ja riigilõivuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6a08ba28-87c9-4393-8bc8-c6412898e7d6",
+"fileName": "719_NS_RLS_m_s_SK_Lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-06T12:35:05.747",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6a08ba28-87c9-4393-8bc8-c6412898e7d6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6a08ba28-87c9-4393-8bc8-c6412898e7d6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "44610a77-fb38-4319-a771-15586e267d98",
+"fileName": "Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:55.026",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/44610a77-fb38-4319-a771-15586e267d98/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/44610a77-fb38-4319-a771-15586e267d98"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "968e415a-11e5-47d3-a348-99dbbf216edd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a9666e3d-63e6-49e6-b564-0a6d5f52f24d",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:35:55.039",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a9666e3d-63e6-49e6-b564-0a6d5f52f24d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a9666e3d-63e6-49e6-b564-0a6d5f52f24d"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "1a320e69-4a30-4c50-b26f-e0e81bba71d1",
+"reference": "1-1/15-719/4",
+"title": "Vabariigi Presidendi otsus nr 628",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "457b24df-074e-4153-b91e-c017f508c874",
+"fileName": "VP_12122025_o628.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-12T11:24:34.463",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/457b24df-074e-4153-b91e-c017f508c874/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/457b24df-074e-4153-b91e-c017f508c874"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "1a320e69-4a30-4c50-b26f-e0e81bba71d1",
+"reference": "1-1/15-719/4",
+"title": "Vabariigi Presidendi otsus nr 628",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b84f353b-b6a9-43c0-8614-edfa100f4738",
+"fileName": "VP_12122025_o628.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-12T11:24:34.395",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b84f353b-b6a9-43c0-8614-edfa100f4738/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b84f353b-b6a9-43c0-8614-edfa100f4738"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "200842d4-beec-4e3c-b937-2175679047d6",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "59244853-0a4f-4469-976a-2661ffe9e6ca",
+"fileName": "719XV_Nimesead_ms_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-03T15:39:05.04",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59244853-0a4f-4469-976a-2661ffe9e6ca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59244853-0a4f-4469-976a-2661ffe9e6ca"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "200842d4-beec-4e3c-b937-2175679047d6",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dcd69eca-65ed-47ef-8f71-6dfc6e0756a7",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-03T16:01:33.371",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dcd69eca-65ed-47ef-8f71-6dfc6e0756a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dcd69eca-65ed-47ef-8f71-6dfc6e0756a7"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-09-15T15:35:30.404",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-09-16T14:19:00.055",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-10-06T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 6.10.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-10-22T14:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Vilja Toomast"
+}
+],
+"protocolFiles": [
+{
+"uuid": "a0645129-429a-47e1-9061-7fe860625f1d",
+"fileName": "ÕIGK_protokoll_06.10.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-13T13:02:32.09",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a0645129-429a-47e1-9061-7fe860625f1d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a0645129-429a-47e1-9061-7fe860625f1d"
+}
+}
+},
+{
+"uuid": "7cb90806-7a76-4fb3-9c49-502a46661812",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_93.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-13T13:01:35.253",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7cb90806-7a76-4fb3-9c49-502a46661812/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7cb90806-7a76-4fb3-9c49-502a46661812"
+}
+}
+}
+]
+},
+{
+"date": "2025-10-22T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 22.10.2025 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-11T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 11.11.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-11-19T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2025-12-03T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "c3699b4a-16e3-4b15-9f35-05eb98750fe1",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_98.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-18T10:55:16.326",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3699b4a-16e3-4b15-9f35-05eb98750fe1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3699b4a-16e3-4b15-9f35-05eb98750fe1"
+}
+}
+},
+{
+"uuid": "c246b025-34ed-426d-8768-b722b0a303a7",
+"fileName": "(Lisa_1)_Arvamus_Riigikohtule_(KiKoS_PSJV).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-17T13:56:22.767",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c246b025-34ed-426d-8768-b722b0a303a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c246b025-34ed-426d-8768-b722b0a303a7"
+}
+}
+},
+{
+"uuid": "c87be6fa-2648-4971-babe-24818bce7e94",
+"fileName": "ÕIGK_protokoll_11.11.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-11-18T11:01:29.725",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c87be6fa-2648-4971-babe-24818bce7e94/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c87be6fa-2648-4971-babe-24818bce7e94"
+}
+}
+}
+]
+},
+{
+"date": "2025-11-19T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 19.11.2025 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2025-12-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.12.2025 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "7e1a5813-190b-4ab7-bddc-df6fb4907794",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-12-03T15:30:42.063",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/7e1a5813-190b-4ab7-bddc-df6fb4907794"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-12-05T11:56:36.403",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2025-12-12T11:25:09.035",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2025-12-18T09:20:25.756",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "023ecce1-bda6-4c34-b3f9-54244e0873f3",
+"reference": "1-1/15-719/1",
+"title": "Kaasamiskiri nimeseaduse ja riigilõivuseaduse muutmise seaduse eelnõu 719 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-10-01",
+"files": [
+{
+"uuid": "727caac3-7e33-4fa4-8a9e-c75477ea0ef5",
+"fileName": "Kaasamiskiri_(eelnõu_719_SE).html",
+"fileExtension": "html",
+"fileTitle": "Kaasamiskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-01T10:50:33.74",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/727caac3-7e33-4fa4-8a9e-c75477ea0ef5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/727caac3-7e33-4fa4-8a9e-c75477ea0ef5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/023ecce1-bda6-4c34-b3f9-54244e0873f3"
+}
+}
+},
+{
+"uuid": "61d8e07b-ada7-4ea4-a939-286b3c2bc0dc",
+"reference": "1-1/15-719/2",
+"title": "Eesti Linnade ja Valdade Liidu arvamus nimeseaduse ja riigilõivuseaduse muutmise seaduse eelnõu 719 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-10-02",
+"files": [
+{
+"uuid": "31c089b1-d942-44b8-b098-57ed785bfe40",
+"fileName": "ELVL_02.10.2025_Riigikogu__Nimeseaduse_ja_riigilõivuseaduse_muutmise_eelnõu_719_SE__vastuskiri.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-02T16:40:26.499",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/31c089b1-d942-44b8-b098-57ed785bfe40/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/31c089b1-d942-44b8-b098-57ed785bfe40"
+}
+}
+},
+{
+"uuid": "f5550499-1e02-45ca-9518-1386cf60640e",
+"fileName": "ELVL_02.10.2025_Riigikogu__Nimeseaduse_ja_riigilõivuseaduse_muut.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-02T16:40:26.413",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f5550499-1e02-45ca-9518-1386cf60640e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f5550499-1e02-45ca-9518-1386cf60640e"
+}
+}
+},
+{
+"uuid": "36484ef5-5ddc-412d-a5d4-5cf133b8e22a",
+"fileName": "ELVL_02.10.2025_RK_719_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-02T16:40:26.484",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/36484ef5-5ddc-412d-a5d4-5cf133b8e22a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/36484ef5-5ddc-412d-a5d4-5cf133b8e22a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/61d8e07b-ada7-4ea4-a939-286b3c2bc0dc"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "9810308a-53fb-49e1-8c29-c24d4dc900a9",
+"reference": "1-1/15-719/3",
+"title": "Eesti Konservatiivse Rahvaerakonna fraktsiooni muudatusettepanek  nimeseaduse ja riigilõivuseaduse muutmise seaduse eelnõu 719 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "8e1da70c-9a2a-4a5b-b77f-94a2ef7ba898",
+"fileName": "ME_719SE_EKREFR_20251022.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-22T14:54:22.814",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e1da70c-9a2a-4a5b-b77f-94a2ef7ba898/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e1da70c-9a2a-4a5b-b77f-94a2ef7ba898"
+}
+}
+},
+{
+"uuid": "bad075d6-4fee-4337-93a0-368c289c398c",
+"fileName": "ME_719SE_EKREFR_20251022.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-22T14:54:02.895",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bad075d6-4fee-4337-93a0-368c289c398c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bad075d6-4fee-4337-93a0-368c289c398c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9810308a-53fb-49e1-8c29-c24d4dc900a9"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9f2b03b0-659a-4e62-ad73-aa15c9cf6d82"
+}
+}
+}

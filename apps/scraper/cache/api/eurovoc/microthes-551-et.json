@@ -1,0 +1,394 @@
+{
+"uuid": "e26502f8-4038-406b-bd3f-c3d79f3325b0",
+"etid": 551,
+"code": "2441",
+"text": "eelarve",
+"descriptors": [
+{
+"edid": 929,
+"text": "eelarve täitmine",
+"code": "929",
+"uuid": "abf00e06-227a-4e27-85e8-fe3a2944e45b",
+"vol_cnt": 139,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"91e28aa9-8306-f773-00ed-439172eeaff1",
+"a0043a30-8416-444e-9fad-601e37822da1",
+"718347ef-927f-4d49-a182-7ba62f7fad8b",
+"98daf5f8-fe7c-46c8-99f2-6bfedd3848da",
+"fb9bdf26-3f50-4884-b22e-8d21bdbdafb2",
+"5803a37b-2b3f-492c-b381-8c0bba8c0823",
+"30438124-8e86-4c00-991c-74b84ee7f636",
+"404ce925-b2f6-4680-9d41-a90c29b8c951",
+"74e775c7-0a69-4517-940d-51fec176ddd5",
+"bdd15437-58fd-4bd3-8faa-5be8f89f28d1"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5050,
+"text": "eelarve",
+"code": "5050",
+"uuid": "7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a",
+"vol_cnt": 56,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a"
+}
+}
+},
+{
+"edid": 2448,
+"text": "eelarvepoliitika",
+"code": "2448",
+"uuid": "6beefbb2-52e1-4f44-9d27-c1bc09683103",
+"vol_cnt": 171,
+"scopeNotes": [],
+"usedFors": [
+"eelarvedistsipliin",
+"eelarvereform",
+"iga-aastane eelarve"
+],
+"narrowTerms": [
+"7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a",
+"c2d4c50d-a155-47a2-bd6a-240fb34b17af",
+"5c562359-284f-4ed3-b49b-4d23126bf4c3",
+"4daf1de2-e0a0-442e-8c78-0d8868498dc6",
+"fd0e5b76-f295-6853-dc08-6e759171269d",
+"66796581-8dbc-4438-a759-9df262927ac1",
+"8126124a-18d8-4406-b8c4-41ef756ba803",
+"d0060110-6274-4d60-8f52-572beb5d7449",
+"cc78e88c-d861-4ff0-bcf4-53d8df0c0706"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6beefbb2-52e1-4f44-9d27-c1bc09683103"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/abf00e06-227a-4e27-85e8-fe3a2944e45b"
+}
+}
+},
+{
+"edid": 394,
+"text": "eelarvelised kulud",
+"code": "394",
+"uuid": "e221ebbb-1351-491c-b120-b159cde7abcd",
+"vol_cnt": 91,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"c82b3317-cc00-424b-862d-d72befe65c9b",
+"6c3f12ee-abd4-4da2-920a-fd99b6ca5541",
+"32d70cad-f229-4def-95e1-67f697210297",
+"3ce3469c-50d1-4800-b7bc-1ef83939431a"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5050,
+"text": "eelarve",
+"code": "5050",
+"uuid": "7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a",
+"vol_cnt": 56,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a"
+}
+}
+},
+{
+"edid": 3558,
+"text": "eelarvelised vahendid",
+"code": "3558",
+"uuid": "12ecb76f-09e0-47a6-be62-b7904a35cf49",
+"vol_cnt": 110,
+"scopeNotes": [],
+"usedFors": [
+"eelarvetulu",
+"eelarvevahendid"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/12ecb76f-09e0-47a6-be62-b7904a35cf49"
+}
+}
+},
+{
+"edid": 5576,
+"text": "ELi kulud",
+"code": "5576",
+"uuid": "91406108-6881-4dfc-9e32-5e9367131a87",
+"vol_cnt": 91,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Liidu kulud",
+"EÜ eelarvelised kulud",
+"ühenduse kulud"
+],
+"narrowTerms": [
+"6baf57af-e8ad-443d-a0ef-3e69972b3144",
+"6a6025f3-4d21-43b0-8e02-a96734ca1d0f",
+"7d305a40-f4b6-4a16-b056-23b7dff710ec",
+"eafaf7d7-cd3e-46f3-8332-9d64b85adb01"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/91406108-6881-4dfc-9e32-5e9367131a87"
+}
+}
+},
+{
+"edid": 392,
+"text": "kulud",
+"code": "392",
+"uuid": "13af8b2c-0bf4-440e-b257-147f06fc0212",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/13af8b2c-0bf4-440e-b257-147f06fc0212"
+}
+}
+},
+{
+"edid": 763,
+"text": "kulukohustuste võtmine",
+"code": "763",
+"uuid": "74e775c7-0a69-4517-940d-51fec176ddd5",
+"vol_cnt": 252,
+"scopeNotes": [],
+"usedFors": [
+"kulukohustuste assigneeringud",
+"kulukohustuste kinnitamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/74e775c7-0a69-4517-940d-51fec176ddd5"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e221ebbb-1351-491c-b120-b159cde7abcd"
+}
+}
+},
+{
+"edid": 2698,
+"text": "eelarvemenetlus",
+"code": "2698",
+"uuid": "f0769f42-205d-4123-8b45-fbe943919d54",
+"vol_cnt": 60,
+"scopeNotes": [],
+"usedFors": [
+"eelarve koostamise kord",
+"eelarve menetlus"
+],
+"narrowTerms": [
+"fe0d4a47-a7ec-3297-fe53-c5bb539d2c5f",
+"feafe1bc-ceba-4d9a-b893-2d1665733353",
+"1e6596d3-0c8a-4a81-ad44-c5d048b6fb3b",
+"7e70215d-30af-4756-be46-430d8151c6e3",
+"011150ca-2dc4-4984-9f28-15f13808841e",
+"e59c19be-e6c5-40ba-8ff3-d18c88238a7f",
+"34d3a48b-f069-405f-b8dd-8351634f70c7",
+"9966757d-0db7-941c-a95b-df3cf7540b61",
+"e4a71e21-ba2b-4be1-977b-42a451180e90"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 41,
+"text": "parlamendi pädevus",
+"code": "41",
+"uuid": "05234d4e-049d-e131-a5a9-ae214d0ce7a4",
+"vol_cnt": 14,
+"scopeNotes": [],
+"usedFors": [
+"parlamendi võim"
+],
+"narrowTerms": [
+"df632186-9b21-11f5-0da6-8c4b0e3616c5",
+"83866d2e-0a32-0d53-02ed-a96f297fbd86",
+"458fb08d-d58e-4118-898c-9049c3d7ff1c"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/05234d4e-049d-e131-a5a9-ae214d0ce7a4"
+}
+}
+},
+{
+"edid": 2703,
+"text": "parlamendimenetlus",
+"code": "2703",
+"uuid": "1ac40a64-1a2b-4a5d-9a4f-ef344f88b45d",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"parlamentaarne analüüs"
+],
+"narrowTerms": [
+"48d23c35-de88-4557-90c7-e6997cc8c7df",
+"16f3cfcb-b9a8-485b-a918-3374d348bfe5",
+"ef4b0b75-efb9-07b1-ebf2-fcc337741af2",
+"c04d6e59-0b6a-425a-bdfe-8f394b9fdd84",
+"2d7f519a-ad83-4ea5-ab45-508a393dfd4c",
+"92f1845d-ad8a-4ca8-b01e-aa78a7fcc20d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1ac40a64-1a2b-4a5d-9a4f-ef344f88b45d"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f0769f42-205d-4123-8b45-fbe943919d54"
+}
+}
+},
+{
+"edid": 1012,
+"text": "eelarve rahastamine",
+"code": "1012",
+"uuid": "d33d6de9-84c7-4b47-831d-bd15d2045dd7",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"5a8cd194-780d-d146-cda0-c6fc2a954a67",
+"12ecb76f-09e0-47a6-be62-b7904a35cf49",
+"24279ee1-88b5-5734-20c8-193e5af357bc",
+"11afa304-33f1-4805-85c9-38637579f0bd"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5050,
+"text": "eelarve",
+"code": "5050",
+"uuid": "7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a",
+"vol_cnt": 56,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a"
+}
+}
+},
+{
+"edid": 2448,
+"text": "eelarvepoliitika",
+"code": "2448",
+"uuid": "6beefbb2-52e1-4f44-9d27-c1bc09683103",
+"vol_cnt": 171,
+"scopeNotes": [],
+"usedFors": [
+"eelarvedistsipliin",
+"eelarvereform",
+"iga-aastane eelarve"
+],
+"narrowTerms": [
+"7f0eae9f-3c71-4c98-b1f9-b3efbdc4310a",
+"c2d4c50d-a155-47a2-bd6a-240fb34b17af",
+"5c562359-284f-4ed3-b49b-4d23126bf4c3",
+"4daf1de2-e0a0-442e-8c78-0d8868498dc6",
+"fd0e5b76-f295-6853-dc08-6e759171269d",
+"66796581-8dbc-4438-a759-9df262927ac1",
+"8126124a-18d8-4406-b8c4-41ef756ba803",
+"d0060110-6274-4d60-8f52-572beb5d7449",
+"cc78e88c-d861-4ff0-bcf4-53d8df0c0706"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6beefbb2-52e1-4f44-9d27-c1bc09683103"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d33d6de9-84c7-4b47-831d-bd15d2045dd7"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/e26502f8-4038-406b-bd3f-c3d79f3325b0"
+}
+}
+}

@@ -1,0 +1,805 @@
+{
+"uuid": "38830540-0ff9-4e64-95ce-5cee7566a30d",
+"etid": 572,
+"code": "4006",
+"text": "ettevõtluse korraldus",
+"descriptors": [
+{
+"edid": 554,
+"text": "äriühinguõigus",
+"code": "554",
+"uuid": "c94c1b66-a69e-9749-5707-cf4782626f72",
+"vol_cnt": 29,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"369ea800-7a4a-054e-6f4f-0d33c79014b5"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 828,
+"text": "hargmaine ettevõte",
+"code": "828",
+"uuid": "90ad1cf1-e142-dd20-af54-4a88f986ce65",
+"vol_cnt": 16,
+"scopeNotes": [],
+"usedFors": [
+"hargmaine korporatsioon",
+"hargmaine äriühing",
+"riikidevaheline"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/90ad1cf1-e142-dd20-af54-4a88f986ce65"
+}
+}
+},
+{
+"edid": 539,
+"text": "konkurentsiõigus",
+"code": "539",
+"uuid": "a261f4e8-0020-4b1f-a33c-e885900ed294",
+"vol_cnt": 21,
+"scopeNotes": [],
+"usedFors": [
+"konkurentsisätted"
+],
+"narrowTerms": [
+"01a8c929-9272-4859-9b60-8f92914bc35c",
+"2422d84c-99ef-473c-9ff9-04c70284922d",
+"8f60fe63-6fcd-f003-ca08-9abbab15d102",
+"6f4985f9-9712-4ae8-bfcb-d0653bbe2bd5",
+"d1b6c8dd-4709-4813-a853-5020f974a11d",
+"9b071c7b-ffa6-04c3-24cf-9edc29f444f8"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a261f4e8-0020-4b1f-a33c-e885900ed294"
+}
+}
+},
+{
+"edid": 524,
+"text": "äriõigus",
+"code": "524",
+"uuid": "1393fadc-6c48-4089-b408-589bb6d5c56a",
+"vol_cnt": 15,
+"scopeNotes": [],
+"usedFors": [
+"kaubandusõigus",
+"äriseadusandlus"
+],
+"narrowTerms": [
+"1d423a56-cc08-4c5c-8e27-d27e014a5fb7",
+"12500abd-55e8-43c9-a0a0-ad642945cb70",
+"8af81386-c459-42ea-b113-566c2200d53b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1393fadc-6c48-4089-b408-589bb6d5c56a"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c94c1b66-a69e-9749-5707-cf4782626f72"
+}
+}
+},
+{
+"edid": 2469,
+"text": "ettevõtluspoliitika",
+"code": "2469",
+"uuid": "fcb491a5-b767-d219-c4c7-0a02a85373f0",
+"vol_cnt": 25,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"79af8fab-6e78-4e82-8545-03754e0f49c0",
+"07f21347-7a96-2bb7-6042-c5022841449d",
+"4dbc18e4-7a32-9118-0035-dabf0c9bf1a4",
+"86e49a07-e885-4b6c-a43c-0c14c6fa7b68",
+"0faf0de5-c70e-61ec-b667-7b3cd7a290f7",
+"9796ccc3-5dd0-407a-a2a1-879a3cbf9965",
+"3f017564-6666-4352-b697-8f9042d83f8d",
+"100c52f9-d4cc-43c3-8d2a-f6c50d23fbe8",
+"1ccbb2df-97ec-4302-b51e-9fe00fb8a8a9",
+"27488def-45ff-46e6-9615-43ec9fcd0993",
+"894c64d1-fdea-4e42-a1d0-8f1bfd1ac526",
+"898fb0d7-c483-4e16-a350-81f2dffe4789"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 835,
+"text": "ettevõtlustoetus",
+"code": "835",
+"uuid": "7b5fc267-00f6-89e7-4957-cbf4c00d159c",
+"vol_cnt": 74,
+"scopeNotes": [],
+"usedFors": [
+"päästetasu",
+"toetus ettevõttele"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7b5fc267-00f6-89e7-4957-cbf4c00d159c"
+}
+}
+},
+{
+"edid": 813,
+"text": "ettevõtte tüüp",
+"code": "813",
+"uuid": "0358ce78-f546-480b-90a8-de5222c2f745",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [
+"äriühing"
+],
+"narrowTerms": [
+"99216794-adb2-2ed8-4429-58a50d5fae94",
+"f5315bf5-0a00-4928-98d0-5acac3ca5551",
+"4f1bbf9f-08dc-4ded-8fc6-d93da4474fe8",
+"a9874d35-0c56-e01a-2214-9121c7d7fa42",
+"90ad1cf1-e142-dd20-af54-4a88f986ce65",
+"da4a5471-b847-43d6-9ed7-0930e4fcac48",
+"70c9745f-c9b2-4db1-a3b6-d816aa7b4961",
+"d862c33e-7c5c-4cfd-8fee-e94fc48e88be",
+"4dd506fe-ad4c-464e-95e5-07a9bc8aa3e3",
+"d585ef52-553c-44b7-be57-434d4a641334",
+"dafd3a1f-cfe2-403a-a89a-506169613ea6"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0358ce78-f546-480b-90a8-de5222c2f745"
+}
+}
+},
+{
+"edid": 1164,
+"text": "finantsjuhtimine",
+"code": "1164",
+"uuid": "05904982-15cc-4372-9181-a92584ece785",
+"vol_cnt": 147,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"eea7d9fb-b24c-46eb-b4c8-2e340c2f4c6b",
+"6158d251-0cf8-45f2-b0df-907fe4b3f535",
+"dcf4d47b-b3c5-3d24-95d8-e2e56c3c289d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/05904982-15cc-4372-9181-a92584ece785"
+}
+}
+},
+{
+"edid": 2463,
+"text": "investeerimispoliitika",
+"code": "2463",
+"uuid": "2285c731-fd6d-4388-bae3-ad01006e38ff",
+"vol_cnt": 65,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"ad11030e-b157-46cb-b650-f363b40568ec",
+"5173c229-e901-46dc-8e27-530fcca32f27",
+"174a6913-2116-4258-bcdb-f27001927d8c",
+"36f91f32-4e92-0c03-9f99-17a4a0128d1e",
+"e9bd87fc-13f9-05da-3b7c-498ff9d398e6"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2285c731-fd6d-4388-bae3-ad01006e38ff"
+}
+}
+},
+{
+"edid": 3255,
+"text": "suhtekorraldus",
+"code": "3255",
+"uuid": "49094140-03b1-4c96-9328-efc25618e877",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/49094140-03b1-4c96-9328-efc25618e877"
+}
+}
+},
+{
+"edid": 6913,
+"text": "teenuste sisseost",
+"code": "6913",
+"uuid": "eb46673b-de67-46ee-9bc3-14ca647ae699",
+"vol_cnt": 2,
+"scopeNotes": [
+"Teenuste sisseost leiab aset siis, kui ettevõte ei tooda ise, vaid ostab toodet või protsessi sisse väljastpoolt."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/eb46673b-de67-46ee-9bc3-14ca647ae699"
+}
+}
+},
+{
+"edid": 5985,
+"text": "tegevusharu",
+"code": "5985",
+"uuid": "25821247-af79-4ab3-bb90-8b33eaef5a98",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"483af287-d22c-49b8-8237-77b2539915db",
+"3849724b-6852-4667-973f-92d441b88253",
+"af434c76-9195-44f8-890b-8e2fb11cb708",
+"645215e5-28a6-4e71-b6de-3e314db5fdd2",
+"89ba6b9f-4a29-4a6e-8f09-406c0adec53f",
+"cff3d8a9-45d4-4513-9629-03c6ff434b5a"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/25821247-af79-4ab3-bb90-8b33eaef5a98"
+}
+}
+},
+{
+"edid": 2481,
+"text": "tootmispoliitika",
+"code": "2481",
+"uuid": "e779d709-af04-4cdc-b58f-cfd195ad7266",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"tootmise ümberkorraldamine",
+"tootmisjuhtimine",
+"tööstusjuhtimine"
+],
+"narrowTerms": [
+"ffbe9e3f-2b15-4864-a227-aff956c56efc",
+"d652d5ae-8bca-4ffa-ad51-5741e4a0a0a1",
+"66b0a394-449a-4dc2-8c76-94122fec31d6",
+"20fa7cdd-423b-03a1-4936-99878c4a395e",
+"09bef20a-a256-4310-9cdf-5b5048419cb7",
+"41603c4c-249c-4125-abb0-3802e665e8d5",
+"6f021435-fa3b-4461-9557-7ecc71077003",
+"db48443d-fb4e-4c1e-a2f5-0af6e14383aa",
+"97dce76a-5d3a-4e1b-8afe-73403aed2edf",
+"491e53ff-880b-49b6-adc0-0436641c4a92",
+"a6d8bac9-9bf1-4c93-88c6-a82a37ddc4ea",
+"0d5b2b94-98c2-4a68-868e-fe3e1647ce3d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e779d709-af04-4cdc-b58f-cfd195ad7266"
+}
+}
+},
+{
+"edid": 2507,
+"text": "tööstuspoliitika",
+"code": "2507",
+"uuid": "ace6d913-4804-44fd-9a5d-59661a21fe8a",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"3c66f1f6-cb03-48d6-b6e9-3ca83f72620a",
+"db320505-3a64-4b67-b675-58ee8161adf0",
+"5f470e91-645a-4128-8195-225d5705d760",
+"76062c03-1af4-40c7-b5a6-a17c306608cf",
+"99e3697b-7107-4e96-a179-ebb5ca53f807",
+"19475310-f33b-4457-b502-ecf3af2437ec",
+"07d8dfc1-f76c-485b-a1cd-12383c4b568f",
+"ba4af957-2595-4990-824f-86bc2220a6b9",
+"3613f3b1-4d82-4bbc-89d5-939eb1006b0e",
+"f60577bb-f8d5-452e-8074-94204811130e",
+"04e3a865-fca0-47fc-a48a-c7501208968a",
+"2007bef4-b6bf-43ab-b1c0-89a5a60896dc",
+"7e5750e1-b555-40c0-9755-fad7989203da",
+"bb4c0597-7bb3-47f4-a42d-fd4320182073",
+"c32af56a-0363-4be2-8566-fab9380549c6",
+"cb1fed29-be3b-4f79-bb6d-280ab0c514a6",
+"bacdb32a-5746-482b-ac64-0faf2777227a",
+"c8a40fa2-dca0-442c-91b4-a9f6e85bf4dc"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ace6d913-4804-44fd-9a5d-59661a21fe8a"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fcb491a5-b767-d219-c4c7-0a02a85373f0"
+}
+}
+},
+{
+"edid": 4300,
+"text": "ettevõtte struktuur",
+"code": "4300",
+"uuid": "96b480c7-8ac6-4f8c-9210-69ae281ad12d",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"fdffeac0-1215-4969-b269-dfb2f5f4b855",
+"0f56225b-2d34-441e-9095-6dbd669a9bb8",
+"757f349b-a51f-c8a5-c04b-c9054ba00277",
+"6cf21cda-fb24-e5cf-c05e-ffb8d259d102",
+"192e2dec-a7f0-4e54-8313-be119de5d3bb",
+"87f9bb53-64ef-47ae-9a57-30f70876c6e0"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 813,
+"text": "ettevõtte tüüp",
+"code": "813",
+"uuid": "0358ce78-f546-480b-90a8-de5222c2f745",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [
+"äriühing"
+],
+"narrowTerms": [
+"99216794-adb2-2ed8-4429-58a50d5fae94",
+"f5315bf5-0a00-4928-98d0-5acac3ca5551",
+"4f1bbf9f-08dc-4ded-8fc6-d93da4474fe8",
+"a9874d35-0c56-e01a-2214-9121c7d7fa42",
+"90ad1cf1-e142-dd20-af54-4a88f986ce65",
+"da4a5471-b847-43d6-9ed7-0930e4fcac48",
+"70c9745f-c9b2-4db1-a3b6-d816aa7b4961",
+"d862c33e-7c5c-4cfd-8fee-e94fc48e88be",
+"4dd506fe-ad4c-464e-95e5-07a9bc8aa3e3",
+"d585ef52-553c-44b7-be57-434d4a641334",
+"dafd3a1f-cfe2-403a-a89a-506169613ea6"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0358ce78-f546-480b-90a8-de5222c2f745"
+}
+}
+},
+{
+"edid": 2165,
+"text": "organisatsiooni struktuuri skeem",
+"code": "2165",
+"uuid": "3c63c16f-9e70-414e-ad69-1d2e5070f330",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3c63c16f-9e70-414e-ad69-1d2e5070f330"
+}
+}
+},
+{
+"edid": 4303,
+"text": "tööstusstruktuurid",
+"code": "4303",
+"uuid": "705b1b74-98e5-4309-991d-7b807aee0aa3",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"70b9fd55-2336-4641-b1d2-62ca7e532d79",
+"45a6745e-4940-4e03-8b34-18412ae505d2",
+"956453e5-d547-4fcb-9961-7a586b2de207",
+"e4a15fb8-30ad-41ce-8906-33a875db850d",
+"49c0811c-dee2-4a35-b201-3935566e8583",
+"d52108f7-1e77-4a22-a029-c506beda766b",
+"5be032cf-4e2f-4c17-9ee6-21bbcedeb9b2"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/705b1b74-98e5-4309-991d-7b807aee0aa3"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/96b480c7-8ac6-4f8c-9210-69ae281ad12d"
+}
+}
+},
+{
+"edid": 3582,
+"text": "haldustöötajad",
+"code": "3582",
+"uuid": "b16bc73a-ca3c-40de-a712-77aa50eabfa6",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"haldusteenistus"
+],
+"narrowTerms": [
+"c611dc30-93ca-8aec-4b5d-08e9c3cf646a",
+"b0b4d777-29e9-4129-bafc-e02240d73ddd",
+"5c39cd38-359e-42fa-b91d-053a446a8855"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b16bc73a-ca3c-40de-a712-77aa50eabfa6"
+}
+}
+},
+{
+"edid": 69,
+"text": "majanduslik kontsentratsioon",
+"code": "69",
+"uuid": "885d914e-ddbb-4cee-bcfa-e27d0b103915",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"ettevõtete kontsentratsioon",
+"ettevõtetevaheline kontsentratsioon"
+],
+"narrowTerms": [
+"02b58679-9f0d-db59-6ab5-7c986127dc98",
+"682f1d8e-e6a8-4d73-aefa-253edd8a5a39",
+"c9a0b135-1a73-97ed-de36-c08b5fa7d052",
+"a19d6659-e2a1-4f64-af34-de6d651dbb2a",
+"cf4450dc-8a3a-aeee-a974-a585df540819",
+"d8441618-d8cb-4ce6-a1e0-ad171de7dfac"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 828,
+"text": "hargmaine ettevõte",
+"code": "828",
+"uuid": "90ad1cf1-e142-dd20-af54-4a88f986ce65",
+"vol_cnt": 16,
+"scopeNotes": [],
+"usedFors": [
+"hargmaine korporatsioon",
+"hargmaine äriühing",
+"riikidevaheline"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/90ad1cf1-e142-dd20-af54-4a88f986ce65"
+}
+}
+},
+{
+"edid": 1984,
+"text": "infomonopol",
+"code": "1984",
+"uuid": "fde3479b-9e6f-42f7-be13-e7de8e3b5dcf",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fde3479b-9e6f-42f7-be13-e7de8e3b5dcf"
+}
+}
+},
+{
+"edid": 2474,
+"text": "konkurentsipoliitika",
+"code": "2474",
+"uuid": "9fbdc607-c3eb-cbd8-5fa4-f0c1d69ad13c",
+"vol_cnt": 35,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"7f5138a4-4a0a-4d61-8e62-10eab62cc9ed",
+"ddee4ee4-34f9-3dd5-5b2b-4b77ce41960d",
+"6a54b6db-1aa0-e9a3-c63f-fcd1c32cd805"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9fbdc607-c3eb-cbd8-5fa4-f0c1d69ad13c"
+}
+}
+},
+{
+"edid": 802,
+"text": "konkurentsivabaduse piiramine",
+"code": "802",
+"uuid": "bd923bc6-883e-4309-0fb8-f5d9e8eb2e3b",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"267ebe99-41c1-40b9-99f5-dd86588e0097",
+"be502261-73ad-4dff-9ee1-91ca200973ac",
+"4997b897-657b-454c-96f7-004894465c8c",
+"91d2c7ec-98f9-4ed9-a960-c12f946b88b1",
+"ab2c3f72-bbe0-4aa7-9aa4-49c6be9da4dd",
+"d9abc08c-49c9-46be-8abb-6fab0ce36691"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bd923bc6-883e-4309-0fb8-f5d9e8eb2e3b"
+}
+}
+},
+{
+"edid": 4574,
+"text": "trust",
+"code": "4574",
+"uuid": "91d2c7ec-98f9-4ed9-a960-c12f946b88b1",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/91d2c7ec-98f9-4ed9-a960-c12f946b88b1"
+}
+}
+},
+{
+"edid": 70,
+"text": "tööstuse kontsentratsioon",
+"code": "70",
+"uuid": "d2270737-a07e-45c9-83c0-adee97594df9",
+"vol_cnt": 0,
+"scopeNotes": [
+"Geograafiline kontsentratsioon."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d2270737-a07e-45c9-83c0-adee97594df9"
+}
+}
+},
+{
+"edid": 183,
+"text": "ühinemise kontroll",
+"code": "183",
+"uuid": "9b071c7b-ffa6-04c3-24cf-9edc29f444f8",
+"vol_cnt": 17,
+"scopeNotes": [],
+"usedFors": [
+"monopolide ja ühenduste komisjon"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9b071c7b-ffa6-04c3-24cf-9edc29f444f8"
+}
+}
+},
+{
+"edid": 816,
+"text": "ühisettevõte",
+"code": "816",
+"uuid": "dafd3a1f-cfe2-403a-a89a-506169613ea6",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dafd3a1f-cfe2-403a-a89a-506169613ea6"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/885d914e-ddbb-4cee-bcfa-e27d0b103915"
+}
+}
+},
+{
+"edid": 4703,
+"text": "äritegevus",
+"code": "4703",
+"uuid": "bd9f7faf-c9c1-486d-951d-1f169f7f36f1",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"47579ad1-ce74-4041-a4fc-29f811dd7d03",
+"265b64d8-fe25-43ef-8964-3f034e1e1c9a",
+"0a0eb458-ba1a-4b4d-b018-83651713067c",
+"62bd89a8-7a41-cbca-9ebf-48b0ae44a5e1",
+"7169b9b6-a4f3-4ed7-b4cb-455a38874b49",
+"18c6cc48-531f-44d7-359e-d62096aaf0c7",
+"c4594ae0-1444-446f-b0b8-05952d4e2d0c",
+"848b43e3-2964-45c5-866c-66f1c3be04cc",
+"78b31227-9775-4187-8b57-6c767e4eff69",
+"a816b6fd-b856-41b9-889c-3df5de53d997"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 813,
+"text": "ettevõtte tüüp",
+"code": "813",
+"uuid": "0358ce78-f546-480b-90a8-de5222c2f745",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [
+"äriühing"
+],
+"narrowTerms": [
+"99216794-adb2-2ed8-4429-58a50d5fae94",
+"f5315bf5-0a00-4928-98d0-5acac3ca5551",
+"4f1bbf9f-08dc-4ded-8fc6-d93da4474fe8",
+"a9874d35-0c56-e01a-2214-9121c7d7fa42",
+"90ad1cf1-e142-dd20-af54-4a88f986ce65",
+"da4a5471-b847-43d6-9ed7-0930e4fcac48",
+"70c9745f-c9b2-4db1-a3b6-d816aa7b4961",
+"d862c33e-7c5c-4cfd-8fee-e94fc48e88be",
+"4dd506fe-ad4c-464e-95e5-07a9bc8aa3e3",
+"d585ef52-553c-44b7-be57-434d4a641334",
+"dafd3a1f-cfe2-403a-a89a-506169613ea6"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0358ce78-f546-480b-90a8-de5222c2f745"
+}
+}
+},
+{
+"edid": 1156,
+"text": "ärijuhtimine",
+"code": "1156",
+"uuid": "7eafe884-6391-41bc-a343-8a1b32a45d85",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"ettevõtte töökorraldus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7eafe884-6391-41bc-a343-8a1b32a45d85"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bd9f7faf-c9c1-486d-951d-1f169f7f36f1"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/38830540-0ff9-4e64-95ce-5cee7566a30d"
+}
+}
+}

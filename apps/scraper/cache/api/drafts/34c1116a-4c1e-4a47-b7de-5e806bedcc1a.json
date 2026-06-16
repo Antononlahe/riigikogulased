@@ -1,0 +1,349 @@
+{
+"uuid": "34c1116a-4c1e-4a47-b7de-5e806bedcc1a",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele pangandussektori ajutise solidaarsusmaksu kehtestamise kohta\"",
+"mark": 746,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele pangandussektori ajutise solidaarsusmaksu kehtestamise kohta\" 746 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele pangandussektori ajutise solidaarsusmaksu kehtestamise kohta\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek töötada välja seaduseelnõu, millega kehtestatakse ajutine solidaarsusmaks Eesti pangandussektorile aastateks 2026–2028. Maksu määr oleks 30% panga aastasest kasumist. Juhul, kui pank lõpetab majandusaasta kahjumiga, väheneb järgneva aasta solidaarsusmaks vastavalt kahjumi määrale.",
+"initiated": "2025-10-21",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-11-04T17:15:00",
+"responsibleMember": {
+"uuid": "5650dddf-f2ca-4b94-8888-e7482808f81b",
+"name": "Aivar Sõerd",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/5650dddf-f2ca-4b94-8888-e7482808f81b?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4738,
+"text": "pank"
+},
+{
+"edid": 4842,
+"text": "kasum"
+},
+{
+"edid": 3685,
+"text": "maksustatav tulu"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c4debf33-b53e-487c-b0f1-bd7020fc075d",
+"title": "746 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8a687ca5-23cf-44fd-945b-da6188db6d00",
+"fileName": "746_RK_o_Pangamaks_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-15T12:44:14.12",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8a687ca5-23cf-44fd-945b-da6188db6d00/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8a687ca5-23cf-44fd-945b-da6188db6d00"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e02f938d-8965-482b-8c19-30fa630cfa3d",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d22db097-0dfe-4039-a921-80450bc98bb5",
+"fileName": "Pangamaks_OE_-_21.okt_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T10:14:43.814",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d22db097-0dfe-4039-a921-80450bc98bb5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d22db097-0dfe-4039-a921-80450bc98bb5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e02f938d-8965-482b-8c19-30fa630cfa3d",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c23fd5f8-7627-4764-bf44-de1c8b742235",
+"fileName": "746E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T12:05:24.881",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c23fd5f8-7627-4764-bf44-de1c8b742235/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c23fd5f8-7627-4764-bf44-de1c8b742235"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c4debf33-b53e-487c-b0f1-bd7020fc075d",
+"title": "746 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e8a22065-9311-488c-8e77-3aea689d83b5",
+"fileName": "746_RK_o_Pangamaks_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-15T12:44:23.357",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8a22065-9311-488c-8e77-3aea689d83b5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8a22065-9311-488c-8e77-3aea689d83b5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e02f938d-8965-482b-8c19-30fa630cfa3d",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "60bd41d6-1e20-4887-9609-311819ef4d37",
+"fileName": "746SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T12:05:36.207",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/60bd41d6-1e20-4887-9609-311819ef4d37/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/60bd41d6-1e20-4887-9609-311819ef4d37"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-10-21T10:14:21.723",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-10-21T13:59:00.519",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-12-15T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 15.12.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-01-21T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Aivar Sõerd"
+}
+],
+"protocolFiles": [
+{
+"uuid": "fd71372e-4a00-4c63-bc13-a9dd58bde9b3",
+"fileName": "RAHK_protokoll_15.12.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T09:18:10.749",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fd71372e-4a00-4c63-bc13-a9dd58bde9b3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fd71372e-4a00-4c63-bc13-a9dd58bde9b3"
+}
+}
+},
+{
+"uuid": "fec80803-22f5-40d5-ab3c-8e146d2194bf",
+"fileName": "RAHK_protokoll_nr_194_15.12.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-22T09:17:33.162",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fec80803-22f5-40d5-ab3c-8e146d2194bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fec80803-22f5-40d5-ab3c-8e146d2194bf"
+}
+}
+}
+]
+},
+{
+"date": "2026-01-21T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 21.01.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "df1320d6-ef87-41d5-b4a5-226dd870544b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-01-21T16:21:11.597",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/df1320d6-ef87-41d5-b4a5-226dd870544b"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "b6eafa85-1566-4ee0-bf2a-59af97c2ee4d",
+"reference": "1-1/15-746/1",
+"title": "Riigikogu Kantsele õigus-ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele pangandussektori ajutise solidaarsusmaksu kehtestamise kohta\" eelnõu 746 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-12-04",
+"files": [
+{
+"uuid": "fb7f9127-e1f7-4a07-a244-fe24611bb705",
+"fileName": "345.tel_Arvamus_746OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-12-04T13:52:41.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb7f9127-e1f7-4a07-a244-fe24611bb705/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb7f9127-e1f7-4a07-a244-fe24611bb705"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b6eafa85-1566-4ee0-bf2a-59af97c2ee4d"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/34c1116a-4c1e-4a47-b7de-5e806bedcc1a"
+}
+}
+}

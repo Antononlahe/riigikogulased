@@ -1,0 +1,292 @@
+{
+"uuid": "81932102-99ef-406f-a128-5c8088002f75",
+"etid": 622,
+"code": "6846",
+"text": "mitmesugused tööstused",
+"descriptors": [
+{
+"edid": 5359,
+"text": "keraamika",
+"code": "5359",
+"uuid": "d7adf088-6b70-47f4-8dac-4e0b710dc3ba",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"keraamikatoode",
+"keraamikatööstus",
+"portselan",
+"savinõud"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1826,
+"text": "ehitusmaterjalid",
+"code": "1826",
+"uuid": "6d45c900-f9a9-4445-9043-e2db65e67fa4",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"4d8f8823-5d8a-43e1-88f4-ad7214a1aadc",
+"1dca80cc-86a1-4590-a979-83b57aa4eb2e",
+"90fb4927-dff0-4043-875a-0db80b15ccd1",
+"341cd356-e2e0-4a43-88b4-920d1315ef3c",
+"78e6eb62-2b54-432e-ad0b-aaf602671073",
+"3f0562f5-239c-418a-b56b-4021a796aeab",
+"f0cdcf3c-aa09-4658-a44c-afc80110dd7e",
+"c0b5f22f-2bfb-42c8-9dfe-71f4c482f70b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6d45c900-f9a9-4445-9043-e2db65e67fa4"
+}
+}
+},
+{
+"edid": 3693,
+"text": "tehniline keraamika",
+"code": "3693",
+"uuid": "86343fdc-d970-4278-b8b5-5dc6b2c508e8",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"peenkeraamika"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/86343fdc-d970-4278-b8b5-5dc6b2c508e8"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d7adf088-6b70-47f4-8dac-4e0b710dc3ba"
+}
+}
+},
+{
+"edid": 1390,
+"text": "külmutustööstus",
+"code": "1390",
+"uuid": "76ebf790-072d-4bf5-9d43-d0a69cd87a73",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"jahutustööstus",
+"tööstuslik jahutamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3846,
+"text": "külmseadmed",
+"code": "3846",
+"uuid": "d5cd4fe5-1d61-475b-af55-a14bca618d63",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"külmutusseadmed"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d5cd4fe5-1d61-475b-af55-a14bca618d63"
+}
+}
+},
+{
+"edid": 132,
+"text": "toiduainete säilitamine",
+"code": "132",
+"uuid": "ad24f060-92d7-4f36-a9eb-3acca32133b7",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"a9a52b41-2dcb-4933-8d58-d2450ef3d646",
+"6744db3c-e543-4ec6-b874-14cd7b0cc84b",
+"e7014aae-4961-4494-9ce4-98d7f37d7542",
+"57b7c8b7-071b-4652-849c-e39c232a8f23",
+"c44c1eb0-a8b8-4d32-b426-a92d2055d5cd",
+"ecc99686-d85c-4394-8227-52a6d3c191d4"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ad24f060-92d7-4f36-a9eb-3acca32133b7"
+}
+}
+},
+{
+"edid": 1360,
+"text": "toiduainetööstus",
+"code": "1360",
+"uuid": "6444885b-c372-4d36-8d9d-474c856fe10b",
+"vol_cnt": 17,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"e59dceba-7fb5-4e1a-acb6-0c764e3229d2",
+"d12d2056-dbc9-40d5-bf2e-0dade03177f2",
+"42f20a1d-e7bf-4a8b-b0af-7936c4a0383e",
+"d581f4b0-31eb-48e9-87ed-2ca6b5890f02",
+"40585dd7-d928-4c1d-b6bf-ab4d16a24693",
+"2170dc87-3967-482b-bda8-4142607954fc",
+"9710471c-db1a-4f21-a41e-693938bf1ab9",
+"a16e2e0a-eaed-41f8-b50f-9201800411d6",
+"54e1f592-86f5-410a-823a-9351cfee6361",
+"d0f98339-83fb-46ec-925e-48cf5123ebf4",
+"b2899c65-4e56-4259-8b31-71704f0f07a6",
+"7d320d83-baa5-1ad9-853c-676f3e8f73de",
+"00d08dcd-a019-4e8b-980d-20bb1d2e8fd0"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6444885b-c372-4d36-8d9d-474c856fe10b"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/76ebf790-072d-4bf5-9d43-d0a69cd87a73"
+}
+}
+},
+{
+"edid": 3895,
+"text": "mitmesugused tööstused",
+"code": "3895",
+"uuid": "2a36e5ca-df0b-4bb5-9ee7-6b40c7ee5791",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"02a13659-3bb3-445b-aa65-4ee66515de52",
+"9d1abb81-938c-4d40-b6f2-beaa7ad313ea",
+"d211f722-9750-0e9e-abec-f7c07133a192",
+"7aab9193-6f06-4846-9efc-d7eec326dc46",
+"df02e4ff-de3c-417f-9104-04b65f60547a",
+"6ace2013-8260-4a40-8680-85b3cabab2bc",
+"4518f845-f8c8-4aa5-9b73-7dc1812a2b6b",
+"74bc47d3-35dc-42dd-8b44-4dc874c7f34d",
+"cb252a5a-d582-469e-a656-fb17a0a36188",
+"baba9feb-db25-422b-a9dc-2f88cbc24247",
+"c56927ea-0b5c-4e56-a977-4bfe58024393",
+"28edf7f7-b672-48cd-86a6-6b6b3f2b204e",
+"7ff495a6-1aec-47c3-8f42-b14c34939d6d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2a36e5ca-df0b-4bb5-9ee7-6b40c7ee5791"
+}
+}
+},
+{
+"edid": 1398,
+"text": "vaakumtööstus",
+"code": "1398",
+"uuid": "66b2871c-4135-4755-a6a5-df052cd20a9c",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 720,
+"text": "pakkimine",
+"code": "720",
+"uuid": "6f0c57c8-177d-4055-b158-50addd51f72c",
+"vol_cnt": 20,
+"scopeNotes": [],
+"usedFors": [
+"pakendamine"
+],
+"narrowTerms": [
+"8620dc5b-88e0-dfe5-4461-a5d50f3bd0a8"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6f0c57c8-177d-4055-b158-50addd51f72c"
+}
+}
+},
+{
+"edid": 132,
+"text": "toiduainete säilitamine",
+"code": "132",
+"uuid": "ad24f060-92d7-4f36-a9eb-3acca32133b7",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"a9a52b41-2dcb-4933-8d58-d2450ef3d646",
+"6744db3c-e543-4ec6-b874-14cd7b0cc84b",
+"e7014aae-4961-4494-9ce4-98d7f37d7542",
+"57b7c8b7-071b-4652-849c-e39c232a8f23",
+"c44c1eb0-a8b8-4d32-b426-a92d2055d5cd",
+"ecc99686-d85c-4394-8227-52a6d3c191d4"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ad24f060-92d7-4f36-a9eb-3acca32133b7"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/66b2871c-4135-4755-a6a5-df052cd20a9c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/81932102-99ef-406f-a128-5c8088002f75"
+}
+}
+}

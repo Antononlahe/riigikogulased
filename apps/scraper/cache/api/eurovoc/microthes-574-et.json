@@ -1,0 +1,170 @@
+{
+"uuid": "5e6e3552-2d95-4bb8-bc0a-96c2bb41d7c9",
+"etid": 574,
+"code": "4016",
+"text": "ühingute õiguslik vorm",
+"descriptors": [
+{
+"edid": 4189,
+"text": "organisatsioon",
+"code": "4189",
+"uuid": "7eb811c7-8c54-4a5f-8bcb-83542429d22a",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"ettevõtte õiguslik seisund"
+],
+"narrowTerms": [
+"4b8be594-3ea8-cd39-0c50-2d8ea18a62e4",
+"680088c5-6a3c-4a7a-824e-ce083739969a",
+"eaf1b4da-661f-4279-8526-abacf5e2d932",
+"f12d7e54-7b92-4547-8a2e-ace1c7546b03",
+"56e18f7d-88e2-47d7-b0bc-6271e6caf903",
+"77c5aadf-f22d-40c6-80a1-bd5e0ed51d02",
+"b03bdfa6-1ac3-49da-af01-338be3d2807e",
+"231752c1-2fdd-41e0-8ac4-f04ee4839e25",
+"fcfbcec8-c65d-4670-925a-2955eabe1bf1",
+"12846a62-94e0-4658-8189-d4f840fc5b9e",
+"5ad70c23-65c9-6b3e-26c2-55ec82abdf45",
+"142ee457-dabf-f7ea-567a-c452ba91fda3"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5218,
+"text": "aktsiakapital",
+"code": "5218",
+"uuid": "74221cbe-9fcb-d84d-2b6b-9f263affa534",
+"vol_cnt": 11,
+"scopeNotes": [],
+"usedFors": [
+"osakapital",
+"põhikirjajärgne kapital",
+"registreeritud  kapital",
+"sissemakstud  kapital"
+],
+"narrowTerms": [
+"b069375d-3a22-4b31-9bd8-3e4370dff40a"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/74221cbe-9fcb-d84d-2b6b-9f263affa534"
+}
+}
+},
+{
+"edid": 1331,
+"text": "ettevõtte tulumaks",
+"code": "1331",
+"uuid": "ec5ab785-33a4-5615-590d-a4a5abfe0c5f",
+"vol_cnt": 56,
+"scopeNotes": [],
+"usedFors": [
+"ettevõttemaks",
+"kasumimaks"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ec5ab785-33a4-5615-590d-a4a5abfe0c5f"
+}
+}
+},
+{
+"edid": 813,
+"text": "ettevõtte tüüp",
+"code": "813",
+"uuid": "0358ce78-f546-480b-90a8-de5222c2f745",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [
+"äriühing"
+],
+"narrowTerms": [
+"99216794-adb2-2ed8-4429-58a50d5fae94",
+"f5315bf5-0a00-4928-98d0-5acac3ca5551",
+"4f1bbf9f-08dc-4ded-8fc6-d93da4474fe8",
+"a9874d35-0c56-e01a-2214-9121c7d7fa42",
+"90ad1cf1-e142-dd20-af54-4a88f986ce65",
+"da4a5471-b847-43d6-9ed7-0930e4fcac48",
+"70c9745f-c9b2-4db1-a3b6-d816aa7b4961",
+"d862c33e-7c5c-4cfd-8fee-e94fc48e88be",
+"4dd506fe-ad4c-464e-95e5-07a9bc8aa3e3",
+"d585ef52-553c-44b7-be57-434d4a641334",
+"dafd3a1f-cfe2-403a-a89a-506169613ea6"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/0358ce78-f546-480b-90a8-de5222c2f745"
+}
+}
+},
+{
+"edid": 150,
+"text": "inkorporeerimine",
+"code": "150",
+"uuid": "265b64d8-fe25-43ef-8964-3f034e1e1c9a",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"74221cbe-9fcb-d84d-2b6b-9f263affa534",
+"98590274-ad52-f6d1-0307-745f18e70ba8"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/265b64d8-fe25-43ef-8964-3f034e1e1c9a"
+}
+}
+},
+{
+"edid": 2337,
+"text": "juriidiline isik",
+"code": "2337",
+"uuid": "df97c4ac-9748-6194-0078-e874b87df3fe",
+"vol_cnt": 39,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/df97c4ac-9748-6194-0078-e874b87df3fe"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7eb811c7-8c54-4a5f-8bcb-83542429d22a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/5e6e3552-2d95-4bb8-bc0a-96c2bb41d7c9"
+}
+}
+}

@@ -1,0 +1,333 @@
+{
+"uuid": "620cc71f-b133-4c55-a24b-fa5c40e1a731",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\"",
+"mark": 875,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\" 875 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek tõsta toimetulekupiiri vähemalt 350 euroni kuus.\nKehtiva seaduse kohaselt on üksi elava isiku või perekonna esimese liikme toimetulekupiir 220 eurot. Igale järgnevale täiskasvanud pereliikmele on toimetulekupiir 176 eurot ja igale alaealisele lapsele 264 eurot. Viimastel aastatel on toimetulekupiiri tõstetud kahel korral -  200 euroni juunis 2022 ja 220 euroni 1. jaanuarist 2026 käesoleva aasta riigieelarvega.",
+"initiated": "2026-04-09",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2026-04-23T17:15:00",
+"responsibleMember": {
+"uuid": "8946b072-80c5-436e-95b2-41f928a7c636",
+"name": "Diana Ingerainen",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8946b072-80c5-436e-95b2-41f928a7c636?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d188e268-5d01-7e93-0c22-3ae7f0c1e851",
+"name": "Sotsiaaldemokraatliku Erakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d188e268-5d01-7e93-0c22-3ae7f0c1e851?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4086,
+"text": "elatusmiinimum"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2ff0bfb5-75e8-4658-85f1-506140f6d38e",
+"title": "875 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c849b8f6-74af-4885-98a3-54fdd885612a",
+"fileName": "875_RK_o_Ettepanek_VVle_toimetulekupiir_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T13:23:43.682",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c849b8f6-74af-4885-98a3-54fdd885612a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c849b8f6-74af-4885-98a3-54fdd885612a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ca99c4bc-8235-4c2d-998b-6fb64b33fcf0",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "21c8b90a-7959-4aeb-be17-7c1bc3d008db",
+"fileName": "RK_o_Ettepanek_VVle_EN_2026_.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T14:23:59.568",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/21c8b90a-7959-4aeb-be17-7c1bc3d008db/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/21c8b90a-7959-4aeb-be17-7c1bc3d008db"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ca99c4bc-8235-4c2d-998b-6fb64b33fcf0",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fa7ddb4d-f0fa-47a9-bd9a-9522e2e17a12",
+"fileName": "875E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T14:26:41.575",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa7ddb4d-f0fa-47a9-bd9a-9522e2e17a12/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa7ddb4d-f0fa-47a9-bd9a-9522e2e17a12"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2ff0bfb5-75e8-4658-85f1-506140f6d38e",
+"title": "875 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e24951a6-9167-45b8-bfa6-61a90e8df8cf",
+"fileName": "875_RK_o_Ettepanek_VVle_toimetulekupiir_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-18T13:24:02.3",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e24951a6-9167-45b8-bfa6-61a90e8df8cf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e24951a6-9167-45b8-bfa6-61a90e8df8cf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ca99c4bc-8235-4c2d-998b-6fb64b33fcf0",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5fd250b8-7ccd-4c92-9ba8-8b485aec064e",
+"fileName": "RK_o_Ettepanek_VVle_SE_2026...docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T14:23:59.576",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5fd250b8-7ccd-4c92-9ba8-8b485aec064e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5fd250b8-7ccd-4c92-9ba8-8b485aec064e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ca99c4bc-8235-4c2d-998b-6fb64b33fcf0",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3feaf023-f59b-481a-909f-3c53eac96f1d",
+"fileName": "875SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-09T14:27:07.258",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3feaf023-f59b-481a-909f-3c53eac96f1d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3feaf023-f59b-481a-909f-3c53eac96f1d"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-04-09T14:23:25.932",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-04-09T15:47:00.61",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-05-18T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.05.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-06-03T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Diana Ingerainen"
+}
+],
+"protocolFiles": []
+},
+{
+"date": "2026-06-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.06.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "3543478a-a6c3-4567-bdbe-c3e1e4357d6f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-06-03T16:41:51.427",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/3543478a-a6c3-4567-bdbe-c3e1e4357d6f"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6e357bb7-5f84-4a20-9361-3e5e1d9d6b99",
+"reference": "1-1/15-874/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuste eelnõude  874 OE, 875 OE ja 884 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-05-12",
+"files": [
+{
+"uuid": "b9c1c9fd-cb05-4f9b-81b8-a765f410f88b",
+"fileName": "155.tel_Arvamus_874_875_OE_ja_884_OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-05-12T09:56:15.834",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9c1c9fd-cb05-4f9b-81b8-a765f410f88b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9c1c9fd-cb05-4f9b-81b8-a765f410f88b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6e357bb7-5f84-4a20-9361-3e5e1d9d6b99"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/620cc71f-b133-4c55-a24b-fa5c40e1a731"
+}
+}
+}

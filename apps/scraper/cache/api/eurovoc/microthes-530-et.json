@@ -1,0 +1,662 @@
+{
+"uuid": "99f9213f-db4d-451d-8eeb-110948b66baa",
+"etid": 530,
+"code": "1236",
+"text": "õigused ja vabadused",
+"descriptors": [
+{
+"edid": 538,
+"text": "üksikisiku õigused",
+"code": "538",
+"uuid": "09883bd0-b1da-6ee2-64ce-eb51a4155d7b",
+"vol_cnt": 118,
+"scopeNotes": [],
+"usedFors": [
+"isiku vabadus",
+"isiku õigused",
+"kodaniku õigused",
+"poliitiliste õiguste omamine",
+"põhivabadused",
+"põhiõigused"
+],
+"narrowTerms": [
+"e3b0fdc3-28bc-4f60-95d3-c32671eac552",
+"928038af-c918-40e8-98ec-20ba1af20987",
+"80c375c3-eb77-b794-ea23-f7d096cd086c",
+"a14c2629-1779-4e5d-a7e8-5b50ff3e2011",
+"3933d895-3bbc-2f73-8ef9-564df73ab601",
+"36f8eef0-b89c-64c4-e119-d28b1a17597a",
+"c6413047-27d1-4024-912f-d8097a91c6bb",
+"63e8f054-d964-06b9-9788-9faad54f237a",
+"e1c10aa8-6726-40c6-b112-01abdadd0746",
+"ed9e9db7-558e-4a98-84c9-f5a7023f87da",
+"56c57944-1c9b-cfd2-f70c-37459c929304"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 6219,
+"text": "Euroopa Liidu Põhiõiguste Amet",
+"code": "6219",
+"uuid": "701c5b9a-e600-49ba-b587-6e389705359b",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"EUMC",
+"Euroopa Rassismi ja Ksenofoobia Järelevalvekeskus",
+"FRA"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/701c5b9a-e600-49ba-b587-6e389705359b"
+}
+}
+},
+{
+"edid": 2154,
+"text": "opositsioon",
+"code": "2154",
+"uuid": "4587748f-45e5-4c2b-bcbd-1030cfb4a054",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4587748f-45e5-4c2b-bcbd-1030cfb4a054"
+}
+}
+},
+{
+"edid": 3370,
+"text": "patsiendi õigused",
+"code": "3370",
+"uuid": "dffd2341-b634-4169-c584-8424635b08b0",
+"vol_cnt": 24,
+"scopeNotes": [],
+"usedFors": [
+"patsiendi väärikus",
+"surija õigused"
+],
+"narrowTerms": [
+"7143e514-b900-4f36-9f0f-c4e6267f31f6",
+"a432705b-d534-4cd0-a0fa-419585b98a04"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dffd2341-b634-4169-c584-8424635b08b0"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/09883bd0-b1da-6ee2-64ce-eb51a4155d7b"
+}
+}
+},
+{
+"edid": 3908,
+"text": "diskrimineerimisvastane võitlus",
+"code": "3908",
+"uuid": "f680ae7c-d2f7-ec2e-8328-0ba6a9831c02",
+"vol_cnt": 34,
+"scopeNotes": [],
+"usedFors": [
+"diskrimineerimine",
+"diskrimineeriv kohtlemine"
+],
+"narrowTerms": [
+"457acccc-f568-478b-bc19-67aeed992484",
+"8f2f2340-9d6c-4347-bd60-325836bea36f",
+"a3eb2806-919c-4522-9aa9-1a138daf1a0d",
+"27409af9-d722-4d4b-93f2-b7df755509ae",
+"a4c2bb91-4d25-4c4b-a8e5-51fc91e549d7",
+"aafa0223-4cc9-4b28-b9da-b76f60776324",
+"e979608b-af96-4af5-a402-479c6c753e76",
+"24ea40a8-b10a-4c10-a421-be48c4390ce6",
+"8583310e-6385-068b-0e02-07bc963b793e",
+"abd86796-c91d-e5dd-15c3-4233bbbabc6e",
+"c080aa0f-e68f-47d1-81fe-4c6d55c2e3b6",
+"50dd2d62-de50-1634-3253-0db456f37483",
+"8bc64ce3-fe3f-4837-9ad4-d67399ed9709"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 6081,
+"text": "sotsiaalne klausel",
+"code": "6081",
+"uuid": "3f172e34-f946-4be6-aa9c-8b1985aa647a",
+"vol_cnt": 0,
+"scopeNotes": [
+"Ühendab peamisi töönorme, millele arenenud ja arengumaad vastavad. Need puudutavad ametiühinguvabadust, õigust kollektiivläbiraakimistele, orjuse ja sunniviisilise töö keelustamist, diskrimineerimise tõkestamist ja töötajate vanuse alammäära."
+],
+"usedFors": [
+"sotsiaalne põhinorm",
+"sotsiaalne põhistandard"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3f172e34-f946-4be6-aa9c-8b1985aa647a"
+}
+}
+},
+{
+"edid": 688,
+"text": "võrdne kohtlemine",
+"code": "688",
+"uuid": "4eff4d62-8e0f-3850-7d8b-de765e0c9653",
+"vol_cnt": 152,
+"scopeNotes": [],
+"usedFors": [
+"ebavõrdne kohtlemine",
+"mittediskrimineerimise põhimõte",
+"positiivne diskrimineerimine",
+"võrdsed võimalused",
+"võrdsuspõhimõte",
+"võrdõiguslikkus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4eff4d62-8e0f-3850-7d8b-de765e0c9653"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f680ae7c-d2f7-ec2e-8328-0ba6a9831c02"
+}
+}
+},
+{
+"edid": 584,
+"text": "inimõigused",
+"code": "584",
+"uuid": "56c7d10c-7e6b-430a-a0a8-d0bdc5b7f9cc",
+"vol_cnt": 150,
+"scopeNotes": [
+"Kasutada üldiste uuringute puhul; muul juhul valida konkreetsem deskriptor."
+],
+"usedFors": [
+"inimõiguste kaitse",
+"inimõiguste ohustamine",
+"inimõiguste rikkumine"
+],
+"narrowTerms": [
+"e4bcdcda-90a8-47d7-8052-44c03b1af5c2",
+"815a3810-f49e-9fe9-b7cd-9228bd7f4623",
+"8fc6d1b6-e18c-49f7-9200-5aa6979858a7"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 7192,
+"text": "Ameerika Inimõiguste Kohus",
+"code": "7192",
+"uuid": "c47d36bf-7052-4969-973c-08a6ea2b789a",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c47d36bf-7052-4969-973c-08a6ea2b789a"
+}
+}
+},
+{
+"edid": 1664,
+"text": "Amnesty International",
+"code": "1664",
+"uuid": "f93f8e86-071c-4c0d-bfe6-9c36faab0615",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f93f8e86-071c-4c0d-bfe6-9c36faab0615"
+}
+}
+},
+{
+"edid": 470,
+"text": "dissidentlus",
+"code": "470",
+"uuid": "15b36a81-0661-475b-96d8-0f7e314b8951",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"dissident",
+"teisitimõtleja"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/15b36a81-0661-475b-96d8-0f7e314b8951"
+}
+}
+},
+{
+"edid": 257,
+"text": "Euroopa Inimõiguste Kohus",
+"code": "257",
+"uuid": "84b47313-05c3-8712-729d-f79183f28859",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Inimõiguste Komisjon",
+"inimõiguste kohus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/84b47313-05c3-8712-729d-f79183f28859"
+}
+}
+},
+{
+"edid": 5395,
+"text": "Euroopa sotsiaalharta",
+"code": "5395",
+"uuid": "00fa1c90-6f2e-3d7d-4b14-0268bfbc9eea",
+"vol_cnt": 2,
+"scopeNotes": [
+"Euroopa sotsiaalharta, mis tagab sotsiaalsed ja majanduslikud inimõigused, võttis Euroopa Nõukogu vastu 1961. aastal. 1996. aasta muudatused jõustusid 1999. aastal."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/00fa1c90-6f2e-3d7d-4b14-0268bfbc9eea"
+}
+}
+},
+{
+"edid": 6286,
+"text": "EÜ põhiõiguste harta",
+"code": "6286",
+"uuid": "a272b772-cb25-4c84-abad-ba8b04d91a20",
+"vol_cnt": 17,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa Liidu põhiõiguste harta",
+"Euroopa põhiõiguste harta",
+"põhiõiguste harta"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a272b772-cb25-4c84-abad-ba8b04d91a20"
+}
+}
+},
+{
+"edid": 1198,
+"text": "inimõiguste liikumine",
+"code": "1198",
+"uuid": "4094d79a-b132-4d2a-bafa-743df122e47c",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"inimõiguste rühm"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4094d79a-b132-4d2a-bafa-743df122e47c"
+}
+}
+},
+{
+"edid": 454892,
+"text": "Inimõiguste Nõukogu",
+"code": "c_b605a1d4",
+"uuid": "2729c35c-75e3-4e52-9bfd-962ab1fdbaaf",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"Inimõiguste Komisjon",
+"ÜRO inimõiguste komisjon",
+"ÜRO Inimõiguste Komisjon",
+"ÜRO Inimõiguste Nõukogu"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2729c35c-75e3-4e52-9bfd-962ab1fdbaaf"
+}
+}
+},
+{
+"edid": 4467,
+"text": "piinamine",
+"code": "4467",
+"uuid": "df5d7202-9056-40e4-b0c1-8ef7bb6c934b",
+"vol_cnt": 19,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/df5d7202-9056-40e4-b0c1-8ef7bb6c934b"
+}
+}
+},
+{
+"edid": 3467,
+"text": "rahvusvaheline juriidiline dokument",
+"code": "3467",
+"uuid": "6e2724a6-63da-4e0d-a8f6-69079976a025",
+"vol_cnt": 4,
+"scopeNotes": [
+"Hõlmab lepinguid, toimimisjuhendeid, resolutsioone, tegevuskavasid ja valitsustevaheliste organisatsioonide deklaratsioone. Kasutada seoses vastava organisatsiooniga."
+],
+"usedFors": [],
+"narrowTerms": [
+"c67de7e1-8390-409f-a9d1-9a6758ee6189",
+"29ee8a45-6182-e23e-040b-8fe2f3a63853",
+"047fd37b-e9bc-43c9-9b89-892fe7108df9",
+"1de4e6d5-0144-47bd-96fd-87a4d894a946",
+"9aff64b6-b632-466b-a695-4b0ddede37a6",
+"9b07e383-a675-4d3f-b236-29351b5a55a7"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6e2724a6-63da-4e0d-a8f6-69079976a025"
+}
+}
+},
+{
+"edid": 541,
+"text": "sõjaõigus",
+"code": "541",
+"uuid": "4c90e892-07bf-4ac4-b16e-93929b9c9e96",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4c90e892-07bf-4ac4-b16e-93929b9c9e96"
+}
+}
+},
+{
+"edid": 454842,
+"text": "üleminekuperioodi õigusemõistmine",
+"code": "c_6496f5ea",
+"uuid": "fb1122ed-d9e1-40e8-a475-e467ad6b307e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fb1122ed-d9e1-40e8-a475-e467ad6b307e"
+}
+}
+},
+{
+"edid": 8385,
+"text": "ÜRO inimõiguste ülemvolinik",
+"code": "8385",
+"uuid": "e7f1a95b-fd7e-42a3-80d5-3b1fe70f1cfd",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"ÜRO inimõiguste voliniku büroo"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e7f1a95b-fd7e-42a3-80d5-3b1fe70f1cfd"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/56c7d10c-7e6b-430a-a0a8-d0bdc5b7f9cc"
+}
+}
+},
+{
+"edid": 7347,
+"text": "kodanikukohustused",
+"code": "7347",
+"uuid": "57d1dee8-be14-4c72-bf88-6bb9959b4492",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/57d1dee8-be14-4c72-bf88-6bb9959b4492"
+}
+}
+},
+{
+"edid": 3901,
+"text": "majanduslikud õigused",
+"code": "3901",
+"uuid": "b4998ef5-885e-423b-bd7c-92e309a170f4",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"aaa01d1e-c511-4b14-b2be-0ba4b09a5833",
+"a7d702c5-6ee2-4435-8e0f-a2b3664e9b82",
+"64585c9b-eca3-4a1c-94fe-c3d18d597e52"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b4998ef5-885e-423b-bd7c-92e309a170f4"
+}
+}
+},
+{
+"edid": 3900,
+"text": "poliitilised õigused",
+"code": "3900",
+"uuid": "01aa5bbc-452d-4a01-a507-b6eea8f24690",
+"vol_cnt": 12,
+"scopeNotes": [],
+"usedFors": [
+"poliitiline vabadus"
+],
+"narrowTerms": [
+"c535ff80-423a-4e28-a305-fe67aad28ae0",
+"77dc449c-809d-ce8e-15a6-57e83b0a1cb5",
+"3ff471fe-3538-4587-b57f-12e6295a4356",
+"529e5631-fd25-4ded-b0dc-5d963d80a642",
+"80f70bd9-9964-460a-9ac9-9ecdf4d61d18",
+"ce05fc6b-e3d5-47b2-8150-bbc36e8da7d9"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 470,
+"text": "dissidentlus",
+"code": "470",
+"uuid": "15b36a81-0661-475b-96d8-0f7e314b8951",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"dissident",
+"teisitimõtleja"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/15b36a81-0661-475b-96d8-0f7e314b8951"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/01aa5bbc-452d-4a01-a507-b6eea8f24690"
+}
+}
+},
+{
+"edid": 3899,
+"text": "sotsiaalsed õigused",
+"code": "3899",
+"uuid": "08443096-496c-41e6-ade3-df10cee443b5",
+"vol_cnt": 17,
+"scopeNotes": [],
+"usedFors": [
+"majanduslikud ja sotsiaalsed õigused",
+"sotsiaalne vabadus"
+],
+"narrowTerms": [
+"a736bd0f-35b5-484b-9d8d-ce13c45d5aaf",
+"eb2c070b-481c-43bf-9828-dee05592eb60",
+"7f440ed5-a88e-6fde-6e49-ffda994c2df5",
+"4eff4d62-8e0f-3850-7d8b-de765e0c9653",
+"b07c69c5-3032-4376-98f3-77d1dd89882f",
+"cb9fab53-b0db-40d7-837d-2bb3c767d4b8",
+"0cdadce5-3756-48c1-b246-4cebdb384477",
+"c98f53ab-2efd-4f6f-86ba-7771b3cebf9a",
+"b0739317-ea4c-4134-802c-1ebd244364d0",
+"9b94f652-2468-409d-a2fe-94ea9ada7fc7",
+"a3ce8a6c-21f5-26a2-74fd-96ed8d1970fe"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5484,
+"text": "Euroopa Majandusühenduse töötajate sotsiaalsete põhiõiguste harta",
+"code": "5484",
+"uuid": "b23175fc-fd0c-4fcd-82dc-f451467e9c70",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"ühenduse töötajate sotsiaalsete põhiõiguste harta"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b23175fc-fd0c-4fcd-82dc-f451467e9c70"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/08443096-496c-41e6-ade3-df10cee443b5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/99f9213f-db4d-451d-8eeb-110948b66baa"
+}
+}
+}

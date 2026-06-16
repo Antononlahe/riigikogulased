@@ -1,0 +1,131 @@
+{
+"uuid": "12d0b73b-b3a9-43f1-93f3-a94ecd0ffa7f",
+"etid": 635,
+"code": "7626",
+"text": "valitsusvälised organisatsioonid",
+"descriptors": [
+{
+"edid": 2191,
+"text": "valitsusväline organisatsioon",
+"code": "2191",
+"uuid": "3313c3f2-8922-4340-8e1d-f8d865e46366",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [
+"piirkondlik valitsusväline organisatsioon",
+"rahvusvaheline valitsusväline organisatsioon",
+"vabaühendus",
+"VVO",
+"ülemaailmne valitsusväline organisatsioon"
+],
+"narrowTerms": [
+"f93f8e86-071c-4c0d-bfe6-9c36faab0615",
+"724d2315-1dd9-4cce-b144-a0710d56b231",
+"bfb4b64b-b9f6-4f96-a386-2e21f77e99d3",
+"092a97b3-4c84-4cf7-92fd-957d9ad88312",
+"bb3dd705-ba6b-4966-97c6-e224ec07b496",
+"5dda55ee-0983-4746-a718-0a92b18693e4",
+"dd644026-3840-4724-8386-a39b07579c16",
+"172bc182-007c-46f0-90de-1a2653de20e4",
+"c548616a-1d38-41f2-a6bc-d1402872a441",
+"e34eb0b8-021a-4dc8-b1d9-a4b62ee0ab8a",
+"09eb92bf-fc9f-a0ab-369d-8c9a4ba74c02",
+"2c83bd40-de27-4f7a-aa41-8c1cafb2d77d",
+"d4dbddfb-30a0-4254-8c60-2e8aff462f86",
+"42b9defb-8781-49cf-b4ce-3a8e426cb13a"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 8428,
+"text": "kodanikuühiskond",
+"code": "8428",
+"uuid": "ea390da6-c2a3-4eab-bbf2-bb7db77d9927",
+"vol_cnt": 35,
+"scopeNotes": [
+"Mittetulunduslikud ja riigist sõltumatud liikumised ja ühendused, mille eesmärk on kooskõlastatud jõupingutuste abil muuta riiklikul või rahvusvahelisel tasandil sotsiaalpoliitikat, sotsiaalseid norme või struktuure."
+],
+"usedFors": [
+"kodanikuühiskonna organisatsioon",
+"organiseeritud kodanikuühiskond"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ea390da6-c2a3-4eab-bbf2-bb7db77d9927"
+}
+}
+},
+{
+"edid": 2189,
+"text": "rahvusvaheline organisatsioon",
+"code": "2189",
+"uuid": "44d690d1-6033-9b7d-93c3-fc83528b0bcd",
+"vol_cnt": 115,
+"scopeNotes": [
+"Rauvusvaheliste organisatsioonide nimesid vaata valdkonnast 76."
+],
+"usedFors": [
+"rahvusvaheline asutus",
+"rahvusvaheline institutsioon",
+"rahvusvaheline organ",
+"rahvusvaheline ühendus"
+],
+"narrowTerms": [
+"0458bd79-f1ab-4204-0cc8-a6fc832e3d4a",
+"7d897c0a-2776-47b2-ba77-1586b40fe915",
+"eb09dc2e-5d0e-49f9-b469-b2d80fe3b5df",
+"637f4ae5-e216-4217-86f3-bcd1ad98d6a8"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/44d690d1-6033-9b7d-93c3-fc83528b0bcd"
+}
+}
+},
+{
+"edid": 3331,
+"text": "vabatahtlik organisatsioon",
+"code": "3331",
+"uuid": "c2e89505-a609-4bd8-8b8f-bd3249f95cd6",
+"vol_cnt": 16,
+"scopeNotes": [],
+"usedFors": [
+"heategevusorganisatsioon",
+"vabatahtlike organisatsioon"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c2e89505-a609-4bd8-8b8f-bd3249f95cd6"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3313c3f2-8922-4340-8e1d-f8d865e46366"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/12d0b73b-b3a9-43f1-93f3-a94ecd0ffa7f"
+}
+}
+}

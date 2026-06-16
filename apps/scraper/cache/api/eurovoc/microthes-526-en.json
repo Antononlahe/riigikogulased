@@ -1,0 +1,471 @@
+{
+"uuid": "ab1ca3bb-56f9-4919-8332-e434b660d96f",
+"etid": 526,
+"code": "1216",
+"text": "kriminaalõigus",
+"descriptors": [
+{
+"edid": 3878,
+"text": "karistus",
+"code": "3878",
+"uuid": "40d1f7aa-6dc8-160d-a9df-bc6219f7dab9",
+"vol_cnt": 116,
+"scopeNotes": [],
+"usedFors": [
+"sunnivahend",
+"süüdimõistmine"
+],
+"narrowTerms": [
+"0d93a69e-cba4-5dc7-5e12-762a5eca7bec",
+"98dc89f4-3691-d8c4-e726-047146e23e87",
+"63298e00-0c14-3727-09c6-2e446ec95bbf",
+"d2f963d5-80b6-40eb-965e-20217462600c",
+"ee0bfc35-1149-80d2-3b30-3ce42c82f647",
+"3c34a0fa-9a91-84b8-56a5-a445ba91acde",
+"4c22447a-0511-982a-3242-5339f61489e4",
+"1c341477-3386-4a75-9597-b7d7b9aac168",
+"54eb1a7c-2605-399e-b789-dd60ee5d8043",
+"a7f18984-d99a-53d0-ae79-7aa7e45c9771"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/40d1f7aa-6dc8-160d-a9df-bc6219f7dab9"
+}
+}
+},
+{
+"edid": 1432,
+"text": "süütegu",
+"code": "1432",
+"uuid": "d18b4e70-96f5-dbad-c889-a30edaa509d2",
+"vol_cnt": 63,
+"scopeNotes": [],
+"usedFors": [
+"kuritegu",
+"pisirikkumine",
+"seaduserikkumine",
+"õiguserikkumine"
+],
+"narrowTerms": [
+"2837e716-bcec-471a-b9b5-731cae3d7982",
+"96a5358c-19da-c4b9-34ab-8b8443a0868d",
+"dd3ea945-a575-b3a0-2aeb-6a527c82c3db",
+"7508c352-1590-ca1e-b566-3a13d690df4d",
+"ff810b28-7e26-accb-a0ff-0a340110a909",
+"de2e5b8d-b37f-4991-8f30-0dd0f9041a3a",
+"0290bfca-3e43-3ebd-baca-74de9dfb31b6",
+"c1846efc-e031-09dd-b2f4-2e4c2787b497",
+"2e5858cf-4ddb-4d25-a386-8c3f0c8e432e",
+"8e33f3e9-4efd-d681-fc27-686897038773",
+"1e2825c0-31e7-4bda-ae26-5c768cee16a2",
+"7d30925a-12f6-25f4-1841-1dd7432825ac",
+"33e69503-024f-42a6-a3fa-29b3d1933bb8"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 7365,
+"text": "haldusõigusrikkumine",
+"code": "7365",
+"uuid": "823953c5-abb5-7fea-e43f-3bff7e28fbc8",
+"vol_cnt": 1,
+"scopeNotes": [
+"Haldusreegli rikkumine, mille puhul tavaliselt rakendatakse halduskaristust."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/823953c5-abb5-7fea-e43f-3bff7e28fbc8"
+}
+}
+},
+{
+"edid": 4087,
+"text": "isiklik relv",
+"code": "4087",
+"uuid": "d6ab1b65-561b-e3b0-eb51-4c27a2f7db35",
+"vol_cnt": 42,
+"scopeNotes": [],
+"usedFors": [
+"relva omamine",
+"relva omandamine",
+"relvakandmine",
+"relvakandmisluba"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d6ab1b65-561b-e3b0-eb51-4c27a2f7db35"
+}
+}
+},
+{
+"edid": 5412,
+"text": "tsiviilhagi",
+"code": "5412",
+"uuid": "06e3dfa4-c6b5-4d61-a6b5-83ae2ae2affe",
+"vol_cnt": 3,
+"scopeNotes": [
+"Kuriteoohvri poolt seoses kriminaalmenetlusega esitatud hagi."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/06e3dfa4-c6b5-4d61-a6b5-83ae2ae2affe"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d18b4e70-96f5-dbad-c889-a30edaa509d2"
+}
+}
+},
+{
+"edid": 3954,
+"text": "vangistusõigus",
+"code": "3954",
+"uuid": "14fef3bd-4260-d922-f3c5-dbaee15c817f",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"2540bf8a-a115-6853-3ed5-40405bc3ce3a",
+"805c9df0-366e-37e1-c043-a9a23457fa9e",
+"56a76ab0-e8da-fe97-beb3-782998aee567",
+"7f44c874-c5c4-48ba-97a5-e464b259d9ee",
+"691fd189-3cc3-4552-99cc-4dd6028d6115",
+"a1eac270-bd96-79cf-7c41-2becb752f8e8"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/14fef3bd-4260-d922-f3c5-dbaee15c817f"
+}
+}
+},
+{
+"edid": 3513,
+"text": "kriminaalvastutus",
+"code": "3513",
+"uuid": "1656f4c7-e840-4896-abd0-a40224b63f6e",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"kriminaalvastutuse iga"
+],
+"narrowTerms": [
+"5124bc37-bbe5-4ef3-9f36-97c580e9ef13",
+"97ab61d3-dc0f-4d62-a7d8-e7d799a5bd98",
+"f7bb73d4-2a0a-460e-8b01-e51a7f6fcc55",
+"8b0101d7-a20d-4900-8795-d745b5c93267",
+"02787b8e-30e7-4a3f-891b-1a90c055aa96",
+"46abd7cc-a147-4469-8c53-16cb814bf75f"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1940,
+"text": "alaealisus",
+"code": "1940",
+"uuid": "254702ba-b531-dc57-d6c3-28aeb1bba96f",
+"vol_cnt": 26,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/254702ba-b531-dc57-d6c3-28aeb1bba96f"
+}
+}
+},
+{
+"edid": 8417,
+"text": "kaassüü",
+"code": "8417",
+"uuid": "dd3ea945-a575-b3a0-2aeb-6a527c82c3db",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"kuriteo kaasosaline",
+"kuriteole kaasaaitaja",
+"süükaaslus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dd3ea945-a575-b3a0-2aeb-6a527c82c3db"
+}
+}
+},
+{
+"edid": 6401,
+"text": "keskkonnavastutus",
+"code": "6401",
+"uuid": "7a7598f3-a05f-0bab-05f3-0c52c16828af",
+"vol_cnt": 16,
+"scopeNotes": [],
+"usedFors": [
+"vastutus keskkonnakahju eest",
+"vastutus keskkonnakahjustuste eest",
+"vastutus ökoloogilise kahju eest"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7a7598f3-a05f-0bab-05f3-0c52c16828af"
+}
+}
+},
+{
+"edid": 5415,
+"text": "kriminaalmenetlus",
+"code": "5415",
+"uuid": "87f3f3b3-af9f-e86a-132a-09c316877aa5",
+"vol_cnt": 72,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"21e917f5-88d2-4287-a88f-b26df398955a",
+"06e3dfa4-c6b5-4d61-a6b5-83ae2ae2affe"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/87f3f3b3-af9f-e86a-132a-09c316877aa5"
+}
+}
+},
+{
+"edid": 1747,
+"text": "täisealisus",
+"code": "1747",
+"uuid": "cffacdbf-9609-4cfb-9d08-6de60c08cb09",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cffacdbf-9609-4cfb-9d08-6de60c08cb09"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1656f4c7-e840-4896-abd0-a40224b63f6e"
+}
+}
+},
+{
+"edid": 573,
+"text": "kriminaalõigus",
+"code": "573",
+"uuid": "fa98025a-3c03-4f03-a271-89b9996fb524",
+"vol_cnt": 25,
+"scopeNotes": [],
+"usedFors": [
+"karistusõigus",
+"kriminaalkoodeks"
+],
+"narrowTerms": [
+"c2197d6f-9185-4de8-851a-86abdf7cf5cd",
+"7152a436-1684-4e83-8709-d75e92abea57"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5497,
+"text": "karistusseadustik",
+"code": "5497",
+"uuid": "b66fccd2-9da0-9486-ba29-dabac76b074a",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b66fccd2-9da0-9486-ba29-dabac76b074a"
+}
+}
+},
+{
+"edid": 2704,
+"text": "kriminaalkohtumenetlus",
+"code": "2704",
+"uuid": "bb69adc7-0e5a-4647-b729-34aac4edef89",
+"vol_cnt": 13,
+"scopeNotes": [],
+"usedFors": [
+"kriminaalasja erimenetlus",
+"kriminaalmenetlusõigus",
+"lihtsustatud menetlus"
+],
+"narrowTerms": [
+"3221327e-958e-4272-b8d9-c388d3886010",
+"95be5d43-01e7-6ade-0960-104856468c26",
+"ff3f3c41-c732-4053-9f7c-748baec14d52",
+"ad43f079-3f29-7e7d-35de-4a19a8d0238e",
+"a02de093-2133-4f6c-ac39-c2815bf40143",
+"102b861a-050e-44d7-a90b-9e3c5ca790ca",
+"d6915d92-b7b7-7816-2c49-46d519f782d0",
+"bc28c3d9-a3e3-ef40-e070-eedbde2e8e53",
+"efb93cae-fb12-6463-c350-0a915fc45fac"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bb69adc7-0e5a-4647-b729-34aac4edef89"
+}
+}
+},
+{
+"edid": 1545,
+"text": "kriminaalkohus",
+"code": "1545",
+"uuid": "9da7e988-3ccd-45b2-b5a5-8e6509909c39",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"politseikohus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9da7e988-3ccd-45b2-b5a5-8e6509909c39"
+}
+}
+},
+{
+"edid": 5415,
+"text": "kriminaalmenetlus",
+"code": "5415",
+"uuid": "87f3f3b3-af9f-e86a-132a-09c316877aa5",
+"vol_cnt": 72,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"21e917f5-88d2-4287-a88f-b26df398955a",
+"06e3dfa4-c6b5-4d61-a6b5-83ae2ae2affe"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/87f3f3b3-af9f-e86a-132a-09c316877aa5"
+}
+}
+},
+{
+"edid": 2441,
+"text": "kriminaalpolitsei",
+"code": "2441",
+"uuid": "53856c31-6944-4bc8-ab0a-a831d545eed2",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/53856c31-6944-4bc8-ab0a-a831d545eed2"
+}
+}
+},
+{
+"edid": 307,
+"text": "kriminoloogia",
+"code": "307",
+"uuid": "9d9f2156-e345-4ff4-85e1-b6482e0c2096",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9d9f2156-e345-4ff4-85e1-b6482e0c2096"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fa98025a-3c03-4f03-a271-89b9996fb524"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/ab1ca3bb-56f9-4919-8332-e434b660d96f"
+}
+}
+}

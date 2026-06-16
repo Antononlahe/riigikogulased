@@ -1,0 +1,1234 @@
+{
+"uuid": "4d1dd903-4e9f-4a5b-86cf-5086c0920ae9",
+"title": "Jäätmeseaduse muutmise seadus",
+"mark": 799,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Jäätmeseaduse muutmise seadus 799 SE",
+"initialTitle": "Jäätmeseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga muudetakse jäätmeseaduse § 1 lõike 5 ülamärkes 1 toodut ja lisatakse piirang riigihangete seaduse § 12 rakendamisele ka korraldatud jäätmeveoga hõlmatud jäätmete taaskasutamise ja kõrvaldamise ning kohaliku omavalitsuse üksuse korraldusel kokku kogutud jäätmete taaskasutamise ja kõrvaldamise tellimisele. Muudatuse eesmärk on anda jäätmekäitluses erasektorile rohkem investeerimiskindlust, parandada konkurentsi ja teenuse kvaliteeti. Eelnõu kohaselt jõustub uus nõue 1. jaanuaril 2031, et kohaliku omavalitsuse üksusele jääks uue nõudega arvestamiseks piisavalt aega. Juhul kui avatud või piiratud hankemenetlus on pakkumuste puudumise tõttu lõppenud, näevad riigihangete seaduse sätted ette võimaluse sisetehinguks, ehk väljakuulutamiseta läbirääkimistega hankemenetluse kasutamist.",
+"initiated": "2026-01-19",
+"joined": null,
+"accepted": "2026-03-11",
+"amendmentsDeadline": "2026-02-12T17:15:00",
+"responsibleMember": {
+"uuid": "90074aa2-4938-41a9-8275-3a6efa1cee31",
+"name": "Yoko Alender",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/90074aa2-4938-41a9-8275-3a6efa1cee31?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "2cd280db-ea9c-4d29-8474-f83075ae0fc9",
+"name": "Vivi Older",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/2cd280db-ea9c-4d29-8474-f83075ae0fc9?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1158,
+"text": "jäätmehooldus"
+},
+{
+"edid": 1810,
+"text": "riigihankeleping"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa6d3eca-6733-4cf3-967f-86cbe8d59e85",
+"title": "KEKK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "77fbfd86-a091-4196-917a-8933979ec0e4",
+"fileName": "Eelnõu.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T15:41:16.191",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/77fbfd86-a091-4196-917a-8933979ec0e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/77fbfd86-a091-4196-917a-8933979ec0e4"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "d9deae51-c242-4e62-830d-804ea5a81dd6",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "78442b73-57b1-45cb-abd6-abd217091c8e",
+"fileName": "799_JäätS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T10:44:54.436",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78442b73-57b1-45cb-abd6-abd217091c8e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78442b73-57b1-45cb-abd6-abd217091c8e"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "4f600942-78a3-44a1-bf4d-dc9b7fcbc99f",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bae73921-a638-460e-af9a-bf9c0792c53b",
+"fileName": "799_SE_3.lug_tekst.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-09T09:08:34.308",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bae73921-a638-460e-af9a-bf9c0792c53b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bae73921-a638-460e-af9a-bf9c0792c53b"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "8b63ece1-6f08-4373-854d-b7082ae326e9",
+"title": "799SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4a1a7d9b-07a6-44ba-9187-ce85cb817940",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T16:59:33.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4a1a7d9b-07a6-44ba-9187-ce85cb817940/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4a1a7d9b-07a6-44ba-9187-ce85cb817940"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa6d3eca-6733-4cf3-967f-86cbe8d59e85",
+"title": "KEKK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a578d158-60b7-44ee-8ccd-c0805059ef7d",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T15:41:16.281",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a578d158-60b7-44ee-8ccd-c0805059ef7d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a578d158-60b7-44ee-8ccd-c0805059ef7d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa6d3eca-6733-4cf3-967f-86cbe8d59e85",
+"title": "KEKK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cf8a9b93-a24c-4767-8559-129a54674798",
+"fileName": "Esitluskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T15:41:16.256",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf8a9b93-a24c-4767-8559-129a54674798/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf8a9b93-a24c-4767-8559-129a54674798"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "6ca5a030-1138-40a1-993b-765c94af3bf9",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "700832af-4bb7-4c3f-9e3b-3a1968555866",
+"fileName": "799_Kaaskiri_Vabariigi_Presidendile_2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T14:59:27.513",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/700832af-4bb7-4c3f-9e3b-3a1968555866/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/700832af-4bb7-4c3f-9e3b-3a1968555866"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "ac5efc0a-b47c-46c5-aad4-c2b494a3f581",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b56abae3-93ba-4731-a6ea-a30eab9d3df4",
+"fileName": "799XV_Jaatmes_ms_2026.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T14:03:58.282",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b56abae3-93ba-4731-a6ea-a30eab9d3df4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b56abae3-93ba-4731-a6ea-a30eab9d3df4"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "ac5efc0a-b47c-46c5-aad4-c2b494a3f581",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "05e437b3-e32b-4463-9ece-e24e43f25b01",
+"fileName": "799XV_Jaatmes_ms_2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T14:03:39.706",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/05e437b3-e32b-4463-9ece-e24e43f25b01/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/05e437b3-e32b-4463-9ece-e24e43f25b01"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "d9deae51-c242-4e62-830d-804ea5a81dd6",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8ce95760-74de-49df-a8d6-0edd41e3613d",
+"fileName": "799_JäätS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-21T10:45:17.809",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ce95760-74de-49df-a8d6-0edd41e3613d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ce95760-74de-49df-a8d6-0edd41e3613d"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "8b63ece1-6f08-4373-854d-b7082ae326e9",
+"title": "799SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cf0500b2-6f0a-499b-98f2-3ff4a0c08358",
+"fileName": "Seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T17:00:24.361",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf0500b2-6f0a-499b-98f2-3ff4a0c08358/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf0500b2-6f0a-499b-98f2-3ff4a0c08358"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa6d3eca-6733-4cf3-967f-86cbe8d59e85",
+"title": "KEKK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "acc9791b-ffa6-42cb-aa29-9fd5729e2db8",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T15:41:16.269",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/acc9791b-ffa6-42cb-aa29-9fd5729e2db8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/acc9791b-ffa6-42cb-aa29-9fd5729e2db8"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "27f57a0e-9e8f-4b89-928e-d4a80bd5d6fb",
+"reference": "1-1/15-799/7",
+"title": "Vabariigi Presidendi otsus nr 678",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "15b5dff7-8c7d-4688-974c-ae00256b9201",
+"fileName": "VP_17032026_o678.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T14:02:00.181",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/15b5dff7-8c7d-4688-974c-ae00256b9201/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/15b5dff7-8c7d-4688-974c-ae00256b9201"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "27f57a0e-9e8f-4b89-928e-d4a80bd5d6fb",
+"reference": "1-1/15-799/7",
+"title": "Vabariigi Presidendi otsus nr 678",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "13f2d4b2-8fda-4b00-85bb-e10b800cd4f7",
+"fileName": "VP_17032026_o678.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T14:02:00.106",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/13f2d4b2-8fda-4b00-85bb-e10b800cd4f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/13f2d4b2-8fda-4b00-85bb-e10b800cd4f7"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "6ca5a030-1138-40a1-993b-765c94af3bf9",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3ce6d7b9-b67b-4eb8-aab7-4fb8106641e6",
+"fileName": "799XV_Jaatmes_ms_2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T14:45:54.314",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ce6d7b9-b67b-4eb8-aab7-4fb8106641e6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ce6d7b9-b67b-4eb8-aab7-4fb8106641e6"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "6ca5a030-1138-40a1-993b-765c94af3bf9",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4f2d41a1-10e1-4e0d-a6cf-5dd9680e1ef1",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-11T15:01:15.482",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4f2d41a1-10e1-4e0d-a6cf-5dd9680e1ef1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4f2d41a1-10e1-4e0d-a6cf-5dd9680e1ef1"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-01-19T15:40:50.593",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-01-20T14:16:00.352",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-01-15T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 15.01.2026 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"description": "Juhul kui Riigikogu juhatus võtab eelnõu menetlusse ja määrab selle juhtivkomisjoniks keskkonnakomisjoni",
+"plenaryAgendaDateTime": "2026-01-28T14:00:00"
+},
+{
+"decision": {
+"code": "ALGATADA_EELNOU",
+"value": "Algatada eelnõu"
+}
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Yoko Alender"
+}
+],
+"protocolFiles": [
+{
+"uuid": "78dc6b4d-a683-4551-b764-3b3ef26f652e",
+"fileName": "asendus_KeskK_15.01.2026.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri (Merilind)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-15T09:58:01.809",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78dc6b4d-a683-4551-b764-3b3ef26f652e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78dc6b4d-a683-4551-b764-3b3ef26f652e"
+}
+}
+},
+{
+"uuid": "9369a126-912d-4bab-9ca6-eb1e08fbcd56",
+"fileName": "asendus_KeskK_15.01.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (Merilind)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-15T09:57:32.695",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9369a126-912d-4bab-9ca6-eb1e08fbcd56/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9369a126-912d-4bab-9ca6-eb1e08fbcd56"
+}
+}
+},
+{
+"uuid": "6085c532-e88b-4aea-998a-c1ea8a1d0912",
+"fileName": "KEKK_protokoll_15.01.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T13:05:43.216",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6085c532-e88b-4aea-998a-c1ea8a1d0912/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6085c532-e88b-4aea-998a-c1ea8a1d0912"
+}
+}
+},
+{
+"uuid": "d1decdc0-78ef-4df5-bb2c-ce1b84596ae7",
+"fileName": "Slaidid_Keskkonnakomisjon_150125.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-16T11:28:12.51",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d1decdc0-78ef-4df5-bb2c-ce1b84596ae7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d1decdc0-78ef-4df5-bb2c-ce1b84596ae7"
+}
+}
+},
+{
+"uuid": "4050a833-e6c9-4c64-8742-fc92077c4edb",
+"fileName": "KEKK_protokoll_nr_136_15.01.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T13:05:12.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4050a833-e6c9-4c64-8742-fc92077c4edb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4050a833-e6c9-4c64-8742-fc92077c4edb"
+}
+}
+}
+]
+},
+{
+"date": "2026-01-20T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 20.01.2026 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "904bd349-547d-4364-8b59-f8680ed93722",
+"fileName": "KEKK_protokoll_nr_138_20.01.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-27T16:08:00.389",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/904bd349-547d-4364-8b59-f8680ed93722/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/904bd349-547d-4364-8b59-f8680ed93722"
+}
+}
+},
+{
+"uuid": "afba77d8-5f2e-4007-b662-fff992898c38",
+"fileName": "KEKK_protokoll_20.01.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-27T16:09:19.63",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/afba77d8-5f2e-4007-b662-fff992898c38/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/afba77d8-5f2e-4007-b662-fff992898c38"
+}
+}
+}
+]
+},
+{
+"date": "2026-01-28T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 28.01.2026 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "8c97aa36-b4ee-4f37-b299-ba7ab51ae5b5",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-01-29T01:06:24.863",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8c97aa36-b4ee-4f37-b299-ba7ab51ae5b5"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2026-02-16T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 16.02.2026 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-02-25T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2026-03-11T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "dca5d969-ffc2-4c06-94d6-38ef0cda0c69",
+"fileName": "KEKK_protokoll_nr_142_16.02.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T10:15:42.826",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dca5d969-ffc2-4c06-94d6-38ef0cda0c69/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dca5d969-ffc2-4c06-94d6-38ef0cda0c69"
+}
+}
+},
+{
+"uuid": "022ef830-baf6-4800-97e8-ec47b1148b44",
+"fileName": "KEKK_protokoll_16.02.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-23T10:16:17.161",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/022ef830-baf6-4800-97e8-ec47b1148b44/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/022ef830-baf6-4800-97e8-ec47b1148b44"
+}
+}
+}
+]
+},
+{
+"date": "2026-02-25T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 25.02.2026 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": [
+{
+"uuid": "13b2ee60-d390-4be4-b1cb-08d461df5868",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "II lugemise katkestamine",
+"startDateTime": "2026-02-25T16:19:35.69",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/13b2ee60-d390-4be4-b1cb-08d461df5868"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2026-03-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.03.2026 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "236bd167-79a9-4993-8eab-ea7b8c43ab1d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-03-11T14:44:22.447",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/236bd167-79a9-4993-8eab-ea7b8c43ab1d"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2026-03-11T16:19:28.522",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2026-03-17T14:10:00.29",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2026-03-18T09:43:56.166",
+"status": "AVALDATUD_RIIGITEATAJAS"
+},
+{
+"date": "2026-03-18T12:28:07.678",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "02d83bbf-4339-40fa-895a-e26470b3e06d",
+"reference": "1-1/15-799/4",
+"title": "Ragn-Sells arvamus jäätmeseaduse muutmise seaduse eelnõu 799 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-02-13",
+"files": [
+{
+"uuid": "96363df3-c319-4e42-8db5-336b52f48822",
+"fileName": "Ragn-Sells_täiendav_tagasiside_jäätmeseaduse_muutmise_seaduse_eelnõule_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-13T08:29:11.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/96363df3-c319-4e42-8db5-336b52f48822/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/96363df3-c319-4e42-8db5-336b52f48822"
+}
+}
+},
+{
+"uuid": "2ed8986f-0ac0-45d7-b9bf-826ba69c29fc",
+"fileName": "RS_täiendav_arvamus_eelnõule_799SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-13T08:29:11.286",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ed8986f-0ac0-45d7-b9bf-826ba69c29fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ed8986f-0ac0-45d7-b9bf-826ba69c29fc"
+}
+}
+},
+{
+"uuid": "66c0e1cd-35fd-4b6d-9b0a-cdf607f00fcf",
+"fileName": "RS_täiendav_arvamus_eelnõule_799SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-13T08:29:11.347",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/66c0e1cd-35fd-4b6d-9b0a-cdf607f00fcf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/66c0e1cd-35fd-4b6d-9b0a-cdf607f00fcf"
+}
+}
+},
+{
+"uuid": "e90b93d1-f9d0-4bbf-b71f-9593c29575ea",
+"fileName": "RS_täiendav_arvamus_eelnõule_799SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-13T08:29:11.277",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e90b93d1-f9d0-4bbf-b71f-9593c29575ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e90b93d1-f9d0-4bbf-b71f-9593c29575ea"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/02d83bbf-4339-40fa-895a-e26470b3e06d"
+}
+}
+},
+{
+"uuid": "fbdad928-1783-454a-ba1a-e18dc0ae3764",
+"reference": "1-1/15-799/3",
+"title": "Pärnu linnavalitsuse, Hiiumaa vallavalitsuse, Saaremaa vallavalitsuse, Muhu vallavalitsuse,  OÜ Saaremaa Prügila ja OÜ Paikre arvamus jäätmeseaduse muutmise seaduse eelnõu 799 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-02-02",
+"files": [
+{
+"uuid": "9a82861e-4a02-4e91-82d6-12fc7acc139a",
+"fileName": "9-11-1080-2026_Ühispöördumine_jäätmeseaduse_muutmise_seaduse_eelnõu_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-02T10:51:43.867",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9a82861e-4a02-4e91-82d6-12fc7acc139a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9a82861e-4a02-4e91-82d6-12fc7acc139a"
+}
+}
+},
+{
+"uuid": "bb5956be-e22f-4c80-a567-78b9a8bc1025",
+"fileName": "Riigikogu_sisetehing_käitlus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-02T10:51:44.121",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bb5956be-e22f-4c80-a567-78b9a8bc1025/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bb5956be-e22f-4c80-a567-78b9a8bc1025"
+}
+}
+},
+{
+"uuid": "718d62ec-4bfb-4e6d-aa9b-db5c174150fd",
+"fileName": "Ühispöördumine_jäätmeseaduse_muutmise_seaduse_eelnõu_kohta_(sise.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-02T10:51:43.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/718d62ec-4bfb-4e6d-aa9b-db5c174150fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/718d62ec-4bfb-4e6d-aa9b-db5c174150fd"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fbdad928-1783-454a-ba1a-e18dc0ae3764"
+}
+}
+},
+{
+"uuid": "c334fdc4-110f-499e-914e-e37f300c9776",
+"reference": "1-1/15-799/6",
+"title": "Vabariigi Valitsuse arvamus jäätmeseaduse muutmise seaduse eelnõu 799 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-02-18",
+"files": [
+{
+"uuid": "7393031f-be18-49d3-83dc-56a19143e2fc",
+"fileName": "799_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T12:26:02.064",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7393031f-be18-49d3-83dc-56a19143e2fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7393031f-be18-49d3-83dc-56a19143e2fc"
+}
+}
+},
+{
+"uuid": "e4179128-f28c-4b13-9803-369fc6f35ada",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-26-0086_-_Jäätmeseaduse_muutmise_seaduse_eelnõu_(799_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T12:26:02.054",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e4179128-f28c-4b13-9803-369fc6f35ada/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e4179128-f28c-4b13-9803-369fc6f35ada"
+}
+}
+},
+{
+"uuid": "d2c0626d-c62c-437e-807e-2f1ada7c2dab",
+"fileName": "Vabariigi_Valitsuse_arvamuse_edastamine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-18T12:26:02.134",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d2c0626d-c62c-437e-807e-2f1ada7c2dab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d2c0626d-c62c-437e-807e-2f1ada7c2dab"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c334fdc4-110f-499e-914e-e37f300c9776"
+}
+}
+},
+{
+"uuid": "cb4536dc-129c-4016-a5df-44d468735268",
+"reference": "1-1/15-799/5",
+"title": "Eesti Linnade ja Valdade Liidu arvamus jäätmeseaduse muutmise seaduse eelnõu 799 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-02-13",
+"files": [
+{
+"uuid": "881f2fad-5f81-40ec-887f-27b986f98b8c",
+"fileName": "ELVL___Riigikogu_keskkonnakomisjon__ettepanekud_jäätmeseaduse_muutmiseks.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-13T12:38:02.116",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/881f2fad-5f81-40ec-887f-27b986f98b8c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/881f2fad-5f81-40ec-887f-27b986f98b8c"
+}
+}
+},
+{
+"uuid": "5d9a1cc2-7adc-491c-a27d-dd238aa1a7b9",
+"fileName": "ELVL_ettepanekud_jäätmeseaduse_muutmiseks.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-13T12:38:02.025",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5d9a1cc2-7adc-491c-a27d-dd238aa1a7b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5d9a1cc2-7adc-491c-a27d-dd238aa1a7b9"
+}
+}
+},
+{
+"uuid": "27b248c0-b171-4f57-8ec4-507da3f1107f",
+"fileName": "ELVL__Riigikogu___ettepanekud_jäätmeseaduse_muutmiseks_Sisetehin.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-02-13T12:38:02.038",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/27b248c0-b171-4f57-8ec4-507da3f1107f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/27b248c0-b171-4f57-8ec4-507da3f1107f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cb4536dc-129c-4016-a5df-44d468735268"
+}
+}
+},
+{
+"uuid": "ebe0cd4b-6cf9-414e-9023-a17763fb74f4",
+"reference": "1-1/15-799/2",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus jäätmeseaduse muutmise seaduse eelnõu 799 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-01-27",
+"files": [
+{
+"uuid": "f2bce9d5-3557-4bc9-9464-28676cf8bf5c",
+"fileName": "031._tel_Eelnõu_799_SE_sisetehingu_keeld_2026_01_27.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-27T13:42:19.596",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2bce9d5-3557-4bc9-9464-28676cf8bf5c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2bce9d5-3557-4bc9-9464-28676cf8bf5c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ebe0cd4b-6cf9-414e-9023-a17763fb74f4"
+}
+}
+},
+{
+"uuid": "0ecfc754-266d-4219-9504-f6d62f6ca7e4",
+"reference": "1-1/15-799/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 799 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-01-19",
+"files": [
+{
+"uuid": "7c786d28-fb0f-466f-b493-f9296181ec0e",
+"fileName": "JäätS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T15:45:12.887",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c786d28-fb0f-466f-b493-f9296181ec0e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c786d28-fb0f-466f-b493-f9296181ec0e"
+}
+}
+},
+{
+"uuid": "0b87683c-3690-47ec-b18c-2ff5d6ab561e",
+"fileName": "JäätS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T15:45:29.266",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0b87683c-3690-47ec-b18c-2ff5d6ab561e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0b87683c-3690-47ec-b18c-2ff5d6ab561e"
+}
+}
+},
+{
+"uuid": "1e14639b-09d5-4e6a-a040-7af89357ab10",
+"fileName": "JäätS_m_s_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T15:46:30.534",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e14639b-09d5-4e6a-a040-7af89357ab10/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e14639b-09d5-4e6a-a040-7af89357ab10"
+}
+}
+},
+{
+"uuid": "d4777a25-3bc1-4e5a-8d2b-554b1d3c54fa",
+"fileName": "1-1-15-799-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_799_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-20T14:11:40.647",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d4777a25-3bc1-4e5a-8d2b-554b1d3c54fa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d4777a25-3bc1-4e5a-8d2b-554b1d3c54fa"
+}
+}
+},
+{
+"uuid": "3c369900-ee92-4c06-9c2d-118ff37482fb",
+"fileName": "260120_JäätS_KEKK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T15:53:54.906",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c369900-ee92-4c06-9c2d-118ff37482fb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c369900-ee92-4c06-9c2d-118ff37482fb"
+}
+}
+},
+{
+"uuid": "9a2518a4-7a65-49d9-b5d6-30ed503e4edd",
+"fileName": "JäätS_m_s_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-01-19T15:46:41.23",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9a2518a4-7a65-49d9-b5d6-30ed503e4edd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9a2518a4-7a65-49d9-b5d6-30ed503e4edd"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0ecfc754-266d-4219-9504-f6d62f6ca7e4"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/4d1dd903-4e9f-4a5b-86cf-5086c0920ae9"
+}
+}
+}

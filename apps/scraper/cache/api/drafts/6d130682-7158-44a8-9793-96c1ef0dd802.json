@@ -1,0 +1,414 @@
+{
+"uuid": "6d130682-7158-44a8-9793-96c1ef0dd802",
+"title": "Riigikogu otsus „Riigikogu liikmest Eesti Rahvusringhäälingu nõukogu liikme nimetamine“",
+"mark": 938,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu liikmest Eesti Rahvusringhäälingu nõukogu liikme nimetamine“ 938 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu liikmest Eesti Rahvusringhäälingu nõukogu liikme nimetamine“",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "SAADETUD_RT",
+"introduction": "Otsuse eelnõu näeb ette nimetada Riigikogu liige Evelin Poolamets Eesti Rahvusringhäälingu nõukogu liikmeks. Otsus tuleneb senise nõukogu liikme Varro Vooglaiu lahkumisest Eesti Konservatiivse Rahvaerakonna fraktsioonist. \nEesti Rahvusringhäälingu nõukogu koosneb Riigikogu liikmetest ja Rahvusringhäälingu tegevusvaldkonna tunnustatud asjatundjatest. Riigikogu nimetab Riigikogu kultuurikomisjoni ettepanekul nõukokku ühe esindaja igast Riigikogu fraktsioonist Riigikogu koosseisu volituste lõppemiseni ning neli Rahvusringhäälingu tegevusvaldkonna tunnustatud asjatundjat, kelle volitused kestavad viis aastat.",
+"initiated": "2026-06-01",
+"joined": null,
+"accepted": "2026-06-09",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "a12ffc5c-0809-46cb-abc4-cc99a7fa3f60",
+"name": "Liina Kersna",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/a12ffc5c-0809-46cb-abc4-cc99a7fa3f60?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "4b7dd856-729c-4012-b9c3-396ec181f81e",
+"name": "Helena Pihlakas",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/4b7dd856-729c-4012-b9c3-396ec181f81e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2883,
+"text": "ringhääling"
+},
+{
+"edid": 878,
+"text": "avalik asutus"
+},
+{
+"edid": 1154,
+"text": "juhtimine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f913ea27-639b-482e-9043-5c536ae9f86e",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "014d705f-ec18-4aee-86a4-ae06029d42a9",
+"fileName": "OE_I_ERR_nõukogu_liige.OK.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T16:41:26.427",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/014d705f-ec18-4aee-86a4-ae06029d42a9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/014d705f-ec18-4aee-86a4-ae06029d42a9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2df10e1a-3e9c-4dd1-84b6-73f1c7e534e4",
+"title": "938 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "359f5e99-0d92-4ce1-9b8c-f21082438290",
+"fileName": "938_OE_I_ERR_nõukogu_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-05T11:16:18.29",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/359f5e99-0d92-4ce1-9b8c-f21082438290/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/359f5e99-0d92-4ce1-9b8c-f21082438290"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f913ea27-639b-482e-9043-5c536ae9f86e",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e293da7c-ced3-4106-a05a-35c9ef43f2c8",
+"fileName": "OE_I_ERR_nõukogu_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T16:41:26.484",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e293da7c-ced3-4106-a05a-35c9ef43f2c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e293da7c-ced3-4106-a05a-35c9ef43f2c8"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e6c6a6cf-5a07-4ded-baa0-58ef3d3982e9",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3f93e8eb-2fa8-40cf-b1cb-a19fa84ebb4f",
+"fileName": "938XV_RK_o_10062026.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-10T11:35:24.115",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f93e8eb-2fa8-40cf-b1cb-a19fa84ebb4f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f93e8eb-2fa8-40cf-b1cb-a19fa84ebb4f"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e6c6a6cf-5a07-4ded-baa0-58ef3d3982e9",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e430c5f2-8aa2-4bf3-92b1-6fc5f527f74c",
+"fileName": "938XV_RK_o_10062026.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-10T11:34:58.224",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e430c5f2-8aa2-4bf3-92b1-6fc5f527f74c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e430c5f2-8aa2-4bf3-92b1-6fc5f527f74c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2df10e1a-3e9c-4dd1-84b6-73f1c7e534e4",
+"title": "938 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "33cd0130-28d5-4d88-a0eb-03a617206edf",
+"fileName": "938_OE_SK_ERR_nõukogu_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-05T11:20:37.557",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/33cd0130-28d5-4d88-a0eb-03a617206edf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/33cd0130-28d5-4d88-a0eb-03a617206edf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f913ea27-639b-482e-9043-5c536ae9f86e",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c55db0ff-862c-4e1b-9ed4-982dd88cabec",
+"fileName": "Seletuskiri_ERR_nõukogu_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-01T16:41:26.498",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c55db0ff-862c-4e1b-9ed4-982dd88cabec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c55db0ff-862c-4e1b-9ed4-982dd88cabec"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "797de7f0-73e3-45b5-86e0-b8dc0e7abcd2",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ba075bba-e88a-4396-a2ae-677bcc4117a7",
+"fileName": "938XV_RK_o_062026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-09T10:30:50.771",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba075bba-e88a-4396-a2ae-677bcc4117a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba075bba-e88a-4396-a2ae-677bcc4117a7"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "797de7f0-73e3-45b5-86e0-b8dc0e7abcd2",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fb670259-7b35-44a1-a1da-05314d3636ea",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-09T10:51:13.696",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb670259-7b35-44a1-a1da-05314d3636ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb670259-7b35-44a1-a1da-05314d3636ea"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-06-01T16:39:16.172",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-06-02T15:12:00.426",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-06-01T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 1.06.2026 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2026-06-10T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Liina Kersna"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Esitada kultuurikomisjoni poolt eelnõu täiskogule"
+}
+],
+"protocolFiles": []
+},
+{
+"date": "2026-06-09T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 9.06.2026 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "174cb919-3e04-4f26-bf4c-3b847050e66f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2026-06-09T10:28:35",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/174cb919-3e04-4f26-bf4c-3b847050e66f"
+}
+}
+},
+{
+"uuid": "87225749-e8d8-4e76-be99-5eec58e7fa2c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2026-06-09T10:31:49.723",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/87225749-e8d8-4e76-be99-5eec58e7fa2c"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2026-06-10T11:31:41.382",
+"status": "SAADETUD_RT"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/6d130682-7158-44a8-9793-96c1ef0dd802"
+}
+}
+}

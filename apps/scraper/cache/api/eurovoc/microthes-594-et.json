@@ -1,0 +1,532 @@
+{
+"uuid": "fa70b4e6-9ef9-4ff5-a735-b72dde3f3d83",
+"etid": 594,
+"code": "5621",
+"text": "põllumajandusmaa harimine",
+"descriptors": [
+{
+"edid": 4630,
+"text": "maakasutus",
+"code": "4630",
+"uuid": "f9d912f3-1005-43ce-9b54-595f51e0793f",
+"vol_cnt": 25,
+"scopeNotes": [],
+"usedFors": [
+"maa kasutamine"
+],
+"narrowTerms": [
+"92d055d4-3461-4c42-b71e-0e8456362c23",
+"47c3a603-7fb4-4095-b5dd-1e37f176c7d6",
+"1423ffbb-ad97-4459-bdf9-9f60af30104b",
+"35e600a4-745b-a115-7c9e-52b11a9acba6",
+"26b55f8e-098b-4be8-af2a-0a2ed7bb20e6",
+"b167616a-921b-45c2-bddd-e509e3fb92c7",
+"27a7a556-6a28-4b61-8057-6f0c60bb06df",
+"8ae8d7e2-19ef-425d-93cf-71e6d997a0d5",
+"a6cdc86a-ec84-4c3c-9cf1-1a6b37881dda"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 685,
+"text": "agronoomia",
+"code": "685",
+"uuid": "14473605-d969-491a-a01f-536dc624724e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/14473605-d969-491a-a01f-536dc624724e"
+}
+}
+},
+{
+"edid": 4426,
+"text": "kaugseire",
+"code": "4426",
+"uuid": "5f3eff3d-d11a-4f06-85e1-efb53da1e28e",
+"vol_cnt": 1,
+"scopeNotes": [
+"Tehnikad, mida kasutatakse objektide füüsiliste ja bioloogiliste omaduste määramiseks distantsilt ilma materiaalse kontaktita."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5f3eff3d-d11a-4f06-85e1-efb53da1e28e"
+}
+}
+},
+{
+"edid": 222,
+"text": "maa kasutus",
+"code": "222",
+"uuid": "dc8e1fd2-ff01-4a7e-8eca-c49d4791d32c",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dc8e1fd2-ff01-4a7e-8eca-c49d4791d32c"
+}
+}
+},
+{
+"edid": 1542,
+"text": "maaelu areng",
+"code": "1542",
+"uuid": "f8f43b23-6d27-df53-0623-370ce0da058e",
+"vol_cnt": 63,
+"scopeNotes": [],
+"usedFors": [
+"maaelu planeerimine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f8f43b23-6d27-df53-0623-370ce0da058e"
+}
+}
+},
+{
+"edid": 4336,
+"text": "metsaala",
+"code": "4336",
+"uuid": "82105c42-cfd3-4cd8-b132-638ebffa19e0",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"metsaga kaetud maa"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/82105c42-cfd3-4cd8-b132-638ebffa19e0"
+}
+}
+},
+{
+"edid": 2505,
+"text": "metsapoliitika",
+"code": "2505",
+"uuid": "610f6dfc-5437-d1d0-795c-7f7e2d67738d",
+"vol_cnt": 20,
+"scopeNotes": [],
+"usedFors": [
+"metsakava"
+],
+"narrowTerms": [
+"73e9ab2b-336d-4021-88c4-7b15f62d163f",
+"82105c42-cfd3-4cd8-b132-638ebffa19e0",
+"1d41c5a0-601a-4203-a648-429bfec5bc0d",
+"9fe82d4c-bf41-ccd9-ed33-1e2a74ef4ce8",
+"d95fedb7-1d11-4a14-a2c8-18c0541a7243",
+"09b0248d-204a-43d6-b75b-ba0a0e09d840",
+"4c5f16b4-18b1-df27-9beb-72868fa62be0",
+"1947fc2b-1647-4a65-b1cf-d4c4f0c8d7f8"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/610f6dfc-5437-d1d0-795c-7f7e2d67738d"
+}
+}
+},
+{
+"edid": 4327,
+"text": "põllumajanduslik kõlvik",
+"code": "4327",
+"uuid": "5ee6ace6-31ef-42d3-bfe1-07ea105c1959",
+"vol_cnt": 7,
+"scopeNotes": [],
+"usedFors": [
+"haritav maa",
+"istutusala",
+"külvipind",
+"põllumajanduskõlvik"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5ee6ace6-31ef-42d3-bfe1-07ea105c1959"
+}
+}
+},
+{
+"edid": 2477,
+"text": "põllumajandusliku tootmise poliitika",
+"code": "2477",
+"uuid": "b008d122-0eac-4f5f-b964-753caadf07ba",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"1a947866-e5b9-4076-8d7a-e9cf3262f9bd",
+"7d6691e4-6c71-41aa-b4eb-c4dd9c6972d4",
+"83167c83-3407-4cc5-a09a-b118737cb3b0",
+"46491399-2d7e-ba12-7d84-36607c61b0e8",
+"72cf2186-4060-401c-bbdd-78b7c7e64dda",
+"a1966905-27c8-4bdd-ba25-1826dbe6c4cf",
+"e285b00f-117f-4819-bbec-c49a25f5c946",
+"7a778ea1-9799-4e81-a971-89a7769f5fa5"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b008d122-0eac-4f5f-b964-753caadf07ba"
+}
+}
+},
+{
+"edid": 2655,
+"text": "põllumajandusmaa hind",
+"code": "2655",
+"uuid": "fdaf2ab3-3acf-3826-38ed-69f58f52b486",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fdaf2ab3-3acf-3826-38ed-69f58f52b486"
+}
+}
+},
+{
+"edid": 3034,
+"text": "põllumajanduspiirkond",
+"code": "3034",
+"uuid": "74920c65-6747-4dc2-92b4-5120377d3b6f",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/74920c65-6747-4dc2-92b4-5120377d3b6f"
+}
+}
+},
+{
+"edid": 4298,
+"text": "põllumajandusstruktuur",
+"code": "4298",
+"uuid": "ca0eaedd-cb9e-4ce3-b264-843c79a7c177",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandustootmise struktuur",
+"talumajapidamise struktuur"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ca0eaedd-cb9e-4ce3-b264-843c79a7c177"
+}
+}
+},
+{
+"edid": 4337,
+"text": "talu pindala",
+"code": "4337",
+"uuid": "a784646f-ffe0-4041-8aba-7c8f20dc1919",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"talu suurus"
+],
+"narrowTerms": [
+"8f3f6307-4acf-4b16-80e6-f3962d031960",
+"fd44904c-a02c-46f4-8750-58abc2d2af8f",
+"c0bfed28-3f57-4a91-be04-233c93efc4d1",
+"5ee6ace6-31ef-42d3-bfe1-07ea105c1959",
+"dd9bf05c-7792-48d2-90a6-c591a22c767f",
+"27dfcbc7-6eb0-48eb-9983-47cfdf9f3827"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a784646f-ffe0-4041-8aba-7c8f20dc1919"
+}
+}
+},
+{
+"edid": 1686,
+"text": "tootmise asukoht",
+"code": "1686",
+"uuid": "72cf2186-4060-401c-bbdd-78b7c7e64dda",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandusliku tootmise asukoht"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/72cf2186-4060-401c-bbdd-78b7c7e64dda"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f9d912f3-1005-43ce-9b54-595f51e0793f"
+}
+}
+},
+{
+"edid": 4363,
+"text": "viljelussüsteem",
+"code": "4363",
+"uuid": "22493030-0fc9-4a2d-996f-d12064ad6ad7",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"47bfa45e-7fc1-4698-9b56-87184ebe5a89",
+"2afc220d-f484-4303-8896-31a31d0f5a6d",
+"db06f092-9fc5-40e5-ae19-651327783664",
+"e6fdba74-8ba7-40e0-9524-81949f1749da",
+"d19a1284-563a-433f-8457-7493b141a9a5",
+"957ce933-188a-4e7f-94ce-6c6dd36371e4",
+"50a3f064-f4ef-4904-a4a0-941f196860fb",
+"6faa88d4-bbed-f1bc-ec66-d882491f303f",
+"0ecf03e1-347a-4b18-be24-c729bae5bd96",
+"e5bf8a19-31ce-4823-9aac-9b8248b979e6",
+"630a3fff-efc9-4a47-9640-55df8779adee",
+"37fd9998-8359-429d-b636-65f32599c005"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 6314,
+"text": "agrometsandus",
+"code": "6314",
+"uuid": "79549290-8b48-4661-ab92-886d2d092269",
+"vol_cnt": 0,
+"scopeNotes": [
+"Puude ja põllukultuuride üheaegne kasvatamine ja/või karjakasvatus samal maatükil."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/79549290-8b48-4661-ab92-886d2d092269"
+}
+}
+},
+{
+"edid": 685,
+"text": "agronoomia",
+"code": "685",
+"uuid": "14473605-d969-491a-a01f-536dc624724e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/14473605-d969-491a-a01f-536dc624724e"
+}
+}
+},
+{
+"edid": 2915,
+"text": "põllumajandusuuringud",
+"code": "2915",
+"uuid": "35b37021-64ee-75f6-b709-fefcd2f9a5da",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"põllumajanduslikud uuringud"
+],
+"narrowTerms": [
+"de6d4fc7-e45e-4588-b9c8-268ad72a8656",
+"2624fe44-708b-4005-bb4e-00027ff987c3",
+"5f43b145-797e-49fd-90a1-0ec97bd2781c"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/35b37021-64ee-75f6-b709-fefcd2f9a5da"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/22493030-0fc9-4a2d-996f-d12064ad6ad7"
+}
+}
+},
+{
+"edid": 4412,
+"text": "viljelustehnikad",
+"code": "4412",
+"uuid": "10a18fbb-80b0-4766-8a5c-00822df572a0",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"põllumajandustöö"
+],
+"narrowTerms": [
+"99f4cb15-7e24-488d-8090-175704b4510b",
+"ecc3187f-abdf-4b52-b88c-e1b39ed4a3dd",
+"bb696369-016d-4633-9224-8d4122b8796a",
+"5aa59100-40e9-3dfa-c1a6-d11c27f278e7",
+"bf87ac59-f65d-4176-b656-5e1199d043fa",
+"6e5ebf46-24c1-44c0-9dc9-1e8f074cc865",
+"0b659a77-22e2-4911-9d91-db9975f0e5c2",
+"b07d0d7e-dc07-5cfe-4480-45d5d1725b2a",
+"59f94eab-9ecb-4739-958d-c638560086fd"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 685,
+"text": "agronoomia",
+"code": "685",
+"uuid": "14473605-d969-491a-a01f-536dc624724e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/14473605-d969-491a-a01f-536dc624724e"
+}
+}
+},
+{
+"edid": 4352,
+"text": "metsakasvatus",
+"code": "4352",
+"uuid": "9fe82d4c-bf41-ccd9-ed33-1e2a74ef4ce8",
+"vol_cnt": 13,
+"scopeNotes": [
+"Metsanduse haru, mis tegeleb puude kasvatamisega."
+],
+"usedFors": [
+"metsahaldus"
+],
+"narrowTerms": [
+"a8bb68f1-5299-a236-1256-233e22e6e94f"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9fe82d4c-bf41-ccd9-ed33-1e2a74ef4ce8"
+}
+}
+},
+{
+"edid": 1849,
+"text": "põllumajanduse mehhaniseerimine",
+"code": "1849",
+"uuid": "f91d1a39-11af-4a55-bfbb-50ebaf074631",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"talumajapidamise mehhaniseerimine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f91d1a39-11af-4a55-bfbb-50ebaf074631"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/10a18fbb-80b0-4766-8a5c-00822df572a0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/fa70b4e6-9ef9-4ff5-a735-b72dde3f3d83"
+}
+}
+}

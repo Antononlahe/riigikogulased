@@ -1,0 +1,448 @@
+{
+"uuid": "e5ec8e7d-71f3-4f12-a779-c5c81e856414",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda Rail Balticu projekti elluviimisest Eestis ja astuda välja kõikidest projektiga seonduvatest rahvusvahelistest lepingutest“",
+"mark": 650,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda Rail Balticu projekti elluviimisest Eestis ja astuda välja kõikidest projektiga seonduvatest rahvusvahelistest lepingutest“ 650 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda Rail Balticu projekti elluviimisest Eestis ja astuda välja kõikidest projektiga seonduvatest rahvusvahelistest lepingutest“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek loobuda Rail Balticu projekti elluviimisest Eestis ja astuda välja kõikidest projektiga seonduvatest rahvusvahelistest lepingutest.",
+"initiated": "2025-05-15",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-05-29T17:15:00",
+"responsibleMember": {
+"uuid": "8d9daaeb-dbaf-4887-8311-881b29bedfa9",
+"name": "Õnne Pillak",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8d9daaeb-dbaf-4887-8311-881b29bedfa9?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "29ac9b4b-1d00-402a-a55e-e8044bf8a33a",
+"name": "Piia Schults",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/29ac9b4b-1d00-402a-a55e-e8044bf8a33a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4514,
+"text": "raudteetransport"
+},
+{
+"edid": 3430,
+"text": "raudteevõrk"
+},
+{
+"edid": 5774,
+"text": "Baltimaad"
+},
+{
+"edid": 5574,
+"text": "lepingust taganemine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bad93ca8-8460-431f-ae34-91dd634f6601",
+"title": "650 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4541e462-6c28-4cbb-bad4-31ca4c483706",
+"fileName": "650_RK_o_RailBaltic_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:38:23.936",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4541e462-6c28-4cbb-bad4-31ca4c483706/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4541e462-6c28-4cbb-bad4-31ca4c483706"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0ea46b41-412c-4860-9f28-1d3b3afa957a",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "21907081-9094-4d13-9bed-675aad091e6c",
+"fileName": "OE_RailBaltic_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-15T10:14:57.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/21907081-9094-4d13-9bed-675aad091e6c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/21907081-9094-4d13-9bed-675aad091e6c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0ea46b41-412c-4860-9f28-1d3b3afa957a",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2a5dd7fa-bb7c-4547-ad20-83382cb7ed4f",
+"fileName": "650E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-15T11:36:33.854",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2a5dd7fa-bb7c-4547-ad20-83382cb7ed4f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2a5dd7fa-bb7c-4547-ad20-83382cb7ed4f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "bad93ca8-8460-431f-ae34-91dd634f6601",
+"title": "650 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bd4ae507-d16a-4d73-9461-80ffd257c5ac",
+"fileName": "650_RK_o_RailBaltic_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T15:38:54.673",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bd4ae507-d16a-4d73-9461-80ffd257c5ac/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bd4ae507-d16a-4d73-9461-80ffd257c5ac"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0ea46b41-412c-4860-9f28-1d3b3afa957a",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8886977c-9f19-4a2a-95fb-6a3fbe2b27da",
+"fileName": "Seletuskiri_RailBaltic_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-15T10:14:57.908",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8886977c-9f19-4a2a-95fb-6a3fbe2b27da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8886977c-9f19-4a2a-95fb-6a3fbe2b27da"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0ea46b41-412c-4860-9f28-1d3b3afa957a",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6b0d44c2-e1ec-4bc8-a655-e0c303c00b41",
+"fileName": "650SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-15T11:36:47.969",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b0d44c2-e1ec-4bc8-a655-e0c303c00b41/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b0d44c2-e1ec-4bc8-a655-e0c303c00b41"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-05-15T10:14:26.301",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-05-15T16:04:00.327",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-09-15T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 15.09.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Õnne Pillak"
+},
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-09-24T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "2a221e8a-f56e-4cfe-9bf6-26792d7e0a7b",
+"fileName": "MAJK_protokoll_nr_142_15.09.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T16:24:54.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2a221e8a-f56e-4cfe-9bf6-26792d7e0a7b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2a221e8a-f56e-4cfe-9bf6-26792d7e0a7b"
+}
+}
+},
+{
+"uuid": "caf4d9c2-3c7d-4077-87f2-df34cb8c09cc",
+"fileName": "IALA_esitlus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (663 SE)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T12:57:04.274",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/caf4d9c2-3c7d-4077-87f2-df34cb8c09cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/caf4d9c2-3c7d-4077-87f2-df34cb8c09cc"
+}
+}
+},
+{
+"uuid": "32e1a433-7112-425b-880e-9f54c474902a",
+"fileName": "MKM_2035_15.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Eesti 2035)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T12:56:37.691",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/32e1a433-7112-425b-880e-9f54c474902a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/32e1a433-7112-425b-880e-9f54c474902a"
+}
+}
+},
+{
+"uuid": "f7e9c1db-9178-46e8-b2de-bc1d5e10f7ee",
+"fileName": "Asendusliikme_volikiri_Kokk_Poolamets.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri_Kokk_Poolamets",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T13:16:42.957",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7e9c1db-9178-46e8-b2de-bc1d5e10f7ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7e9c1db-9178-46e8-b2de-bc1d5e10f7ee"
+}
+}
+},
+{
+"uuid": "0fc34b17-11d8-4663-8b56-bcbdf2ac9fa6",
+"fileName": "MAJK_protokoll_nr_142_15.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T16:24:12.569",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0fc34b17-11d8-4663-8b56-bcbdf2ac9fa6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0fc34b17-11d8-4663-8b56-bcbdf2ac9fa6"
+}
+}
+},
+{
+"uuid": "2ba03b99-d72b-4790-bd18-7d4e26e57668",
+"fileName": "Asendusliikme_volikiri_Pillak_Ruusmann.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri_Pillak_Ruusmann",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-23T13:16:07.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ba03b99-d72b-4790-bd18-7d4e26e57668/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ba03b99-d72b-4790-bd18-7d4e26e57668"
+}
+}
+}
+]
+},
+{
+"date": "2025-09-24T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 24.09.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "ea28df34-e50c-4ecd-8904-99b67457de6f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-09-24T15:35:57.71",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ea28df34-e50c-4ecd-8904-99b67457de6f"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "1cef6371-ac14-42e7-9260-79d75a573827",
+"reference": "1-1/15-650/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse eelnõu  „Ettepaneku tegemine Vabariigi Valitsusele loobuda Rail Balticu projekti elluviimisest Eestis ja astuda välja kõikidest projektiga seonduvatest rahvusvahelistest lepingutest“ 650 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-09-12",
+"files": [
+{
+"uuid": "dce484e5-67cd-4b80-9ec5-6d8998ea646e",
+"fileName": "650_OE_12.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-12T13:35:43.121",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dce484e5-67cd-4b80-9ec5-6d8998ea646e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dce484e5-67cd-4b80-9ec5-6d8998ea646e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1cef6371-ac14-42e7-9260-79d75a573827"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/e5ec8e7d-71f3-4f12-a779-c5c81e856414"
+}
+}
+}

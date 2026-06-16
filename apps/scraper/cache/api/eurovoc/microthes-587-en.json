@@ -1,0 +1,382 @@
+{
+"uuid": "fc06bd71-11d6-470d-b527-7d587be83bd4",
+"etid": 587,
+"code": "4826",
+"text": "õhu- ja kosmosetransport",
+"descriptors": [
+{
+"edid": 4505,
+"text": "õhutransport",
+"code": "4505",
+"uuid": "3e5eb826-fabb-8675-f1f6-346576ce93fb",
+"vol_cnt": 174,
+"scopeNotes": [],
+"usedFors": [
+"lennundus",
+"lennuteenus",
+"lennutransport",
+"õhuveondus"
+],
+"narrowTerms": [
+"b9a58f39-ac6a-486a-b05d-5506532fb6ac",
+"b5b46a43-9d47-aa97-7805-5fb5d20362b2",
+"aca292fd-b7f5-4205-b9d4-b6257c66f310",
+"77b98366-4e35-4a7f-8d2b-e1834c5de824",
+"9cf10a91-9b17-45e6-b814-652040935677",
+"3a31f95b-7fef-4b57-9281-b258d81938c9",
+"1ace06c9-860b-42fa-8f6e-5bd102d32ffd",
+"1a3c4fb4-f3b5-4caa-8735-89cb44e6be17"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3776,
+"text": "aviokütus",
+"code": "3776",
+"uuid": "5eeb67df-2ae9-49fb-a14c-17e7d26ed202",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [
+"keroseen"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5eeb67df-2ae9-49fb-a14c-17e7d26ed202"
+}
+}
+},
+{
+"edid": 3853,
+"text": "IATA",
+"code": "3853",
+"uuid": "dd644026-3840-4724-8386-a39b07579c16",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"Rahvusvaheline Lennutranspordi Assotsiatsioon"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dd644026-3840-4724-8386-a39b07579c16"
+}
+}
+},
+{
+"edid": 172,
+"text": "lennujuhtimine",
+"code": "172",
+"uuid": "18d10ce8-3b7b-1554-6f64-cf5e549f8150",
+"vol_cnt": 29,
+"scopeNotes": [],
+"usedFors": [
+"lennukoridor",
+"lennutrass",
+"õhukoridor"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/18d10ce8-3b7b-1554-6f64-cf5e549f8150"
+}
+}
+},
+{
+"edid": 1357,
+"text": "lennukitööstus",
+"code": "1357",
+"uuid": "b26676f9-3db8-4118-af7e-e80a4a406f6e",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [
+"lennukiehitus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b26676f9-3db8-4118-af7e-e80a4a406f6e"
+}
+}
+},
+{
+"edid": 5887,
+"text": "lennuohutus",
+"code": "5887",
+"uuid": "dd9a0bc4-3632-2feb-f2ea-4ea83cf91bb1",
+"vol_cnt": 104,
+"scopeNotes": [
+"Mitte ajada segamini järgmisega: \"lennundusjulgestus\"."
+],
+"usedFors": [
+"õhusõiduki ohutus",
+"õhutranspordi ohutus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/dd9a0bc4-3632-2feb-f2ea-4ea83cf91bb1"
+}
+}
+},
+{
+"edid": 4417,
+"text": "sõjalennuk",
+"code": "4417",
+"uuid": "7a67d4e6-fe12-278a-cef0-f7c951ff8233",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"luurelennuk",
+"sõjalennundus",
+"sõjatranspordilennuk",
+"väetranspordilennuk"
+],
+"narrowTerms": [
+"b25a5a12-3eea-47d0-a4fe-bee997495b5c",
+"f233e418-2023-4ee8-ba8d-f40b4721f3a9",
+"9ce59f76-9592-4fe7-95cf-e5607e0f76f3"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/7a67d4e6-fe12-278a-cef0-f7c951ff8233"
+}
+}
+},
+{
+"edid": 2350,
+"text": "transporditöötajad",
+"code": "2350",
+"uuid": "135e19e6-594d-f3f8-3f6b-821c3965fe7c",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"071b3f8a-9c45-1fe2-85c1-ac201ed273ef",
+"a19a5cef-9db3-43a7-98bc-69bd09489375",
+"d938467f-c9cd-095a-f7bb-eb624c973a68"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/135e19e6-594d-f3f8-3f6b-821c3965fe7c"
+}
+}
+},
+{
+"edid": 859,
+"text": "õhuruum",
+"code": "859",
+"uuid": "f03c41ae-cbb2-38ff-a4e6-53fd0f494e6c",
+"vol_cnt": 34,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f03c41ae-cbb2-38ff-a4e6-53fd0f494e6c"
+}
+}
+},
+{
+"edid": 4378,
+"text": "õhuveotariif",
+"code": "4378",
+"uuid": "bbc27c4d-3ab4-435c-ae67-94b53e4ac265",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bbc27c4d-3ab4-435c-ae67-94b53e4ac265"
+}
+}
+},
+{
+"edid": 518,
+"text": "õhuõigus",
+"code": "518",
+"uuid": "a4a7c661-beb2-4132-88bf-daee0d97956b",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"lennundusõigus"
+],
+"narrowTerms": [
+"f03c41ae-cbb2-38ff-a4e6-53fd0f494e6c",
+"0e411cfd-0fe6-4f64-8a27-7af0a5f40050"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a4a7c661-beb2-4132-88bf-daee0d97956b"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3e5eb826-fabb-8675-f1f6-346576ce93fb"
+}
+}
+},
+{
+"edid": 3092,
+"text": "kosmosetransport",
+"code": "3092",
+"uuid": "1700b7d7-8fc0-4832-b5e1-ec6dea930c00",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"d5149c53-6437-4d8f-9341-2bb1515e655a",
+"1c83ef6a-db3e-4982-bad4-d9a7e65b32a0",
+"4ff12eac-b56c-443c-8dea-a8a9b30196f1",
+"63fb8b6f-eb42-4707-82fe-49f875dbe28e"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2829,
+"text": "Euroopa Kosmoseagentuur",
+"code": "2829",
+"uuid": "e31664c3-32c9-e730-a996-9b56e79bb435",
+"vol_cnt": 21,
+"scopeNotes": [],
+"usedFors": [
+"ELDO",
+"ESA",
+"ESRO",
+"Euroopa Kanderakettide Arendamise Organisatsioon",
+"Euroopa Kosmoseuuringute Organisatsioon"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e31664c3-32c9-e730-a996-9b56e79bb435"
+}
+}
+},
+{
+"edid": 4185,
+"text": "kosmosepoliitika",
+"code": "4185",
+"uuid": "c11142f6-a74c-4e19-a994-5769c565fe37",
+"vol_cnt": 26,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"b2c70deb-7c9c-4f43-8407-5a7edb4e197e"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/c11142f6-a74c-4e19-a994-5769c565fe37"
+}
+}
+},
+{
+"edid": 6382,
+"text": "kosmoseteadus",
+"code": "6382",
+"uuid": "d7c69820-96d8-4844-af09-4ad96a3cec1b",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"3ecf3de6-b914-4eef-8d15-a09c5bbefc03",
+"07946904-1f5f-4455-87c2-0ca5943590a5"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d7c69820-96d8-4844-af09-4ad96a3cec1b"
+}
+}
+},
+{
+"edid": 1358,
+"text": "kosmosetööstus",
+"code": "1358",
+"uuid": "62ac6810-bced-4a38-bfd8-7c42ddc1154a",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/62ac6810-bced-4a38-bfd8-7c42ddc1154a"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1700b7d7-8fc0-4832-b5e1-ec6dea930c00"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/fc06bd71-11d6-470d-b527-7d587be83bd4"
+}
+}
+}

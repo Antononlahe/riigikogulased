@@ -1,0 +1,282 @@
+{
+"uuid": "9446becb-503a-4304-a295-f1b7cd3a1415",
+"etid": 548,
+"code": "2426",
+"text": "rahastamine ja investeerimine",
+"descriptors": [
+{
+"edid": 1488,
+"text": "investeering",
+"code": "1488",
+"uuid": "b4653c24-dabf-bcd2-bf92-b5ec6a97f596",
+"vol_cnt": 454,
+"scopeNotes": [],
+"usedFors": [
+"investeerimine",
+"kapitali investeerimisnõue"
+],
+"narrowTerms": [
+"d239ba86-6518-4953-8e1b-2e5439615099",
+"f087d417-ea1e-4e9d-b891-d1d3ec851060",
+"e351e3eb-29e5-47a9-bfa6-bf253cdf01b7",
+"3360b885-7ef0-4cf3-ba83-ca3238d9edb4",
+"2285c731-fd6d-4388-bae3-ad01006e38ff",
+"22076764-cd43-4809-b6b9-7ceeb988c706",
+"aa87e003-7547-422b-8d59-8325e2d996e5",
+"dd0f4833-c0bc-4847-a7fe-0aacf2d3b233",
+"eb42e475-313c-4d41-878c-6fa94d5b409f"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 265,
+"text": "investeerimiskulud",
+"code": "265",
+"uuid": "f7468bc2-c72b-4a07-97f2-de455d3ce502",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f7468bc2-c72b-4a07-97f2-de455d3ce502"
+}
+}
+},
+{
+"edid": 295,
+"text": "investeerimislaen",
+"code": "295",
+"uuid": "d9c52ec5-deca-4d76-a211-31894a86a2a3",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d9c52ec5-deca-4d76-a211-31894a86a2a3"
+}
+}
+},
+{
+"edid": 4795,
+"text": "investeerimispank",
+"code": "4795",
+"uuid": "a3ef775b-303b-36c7-5cbb-225762ff17e2",
+"vol_cnt": 16,
+"scopeNotes": [],
+"usedFors": [
+"investeerimispangandus",
+"kaubanduspank"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a3ef775b-303b-36c7-5cbb-225762ff17e2"
+}
+}
+},
+{
+"edid": 2386,
+"text": "investeerimistehing",
+"code": "2386",
+"uuid": "03205351-d553-d989-6e8e-454e87678264",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/03205351-d553-d989-6e8e-454e87678264"
+}
+}
+},
+{
+"edid": 4195,
+"text": "investeerimisühing",
+"code": "4195",
+"uuid": "a3a710e2-1b13-ee1d-0202-77509d076015",
+"vol_cnt": 141,
+"scopeNotes": [],
+"usedFors": [
+"fondi valitseja",
+"fondihaldur",
+"investeerimisfirma",
+"investeerimisfond",
+"kaubanduse ja tööstuse kinnisvaraühing",
+"kinnine fond",
+"kinnine investeerimisfond",
+"lepinguline investeerimisfond",
+"muutuva põhikapitaliga investeerimisühing",
+"SICAV",
+"SICOMI",
+"usaldusfond",
+"varahaldur",
+"varahaldusettevõtja",
+"äriühinguna asutatud fond",
+"ühisrahastu"
+],
+"narrowTerms": [
+"4fafc378-dc14-4aba-8e85-945a292c883f",
+"7d9135d2-b031-4946-bdb2-817a00e315c6",
+"680d70f4-0e26-43a8-acf1-8edead5f36e6",
+"2b746172-661a-4670-9b66-eb20db436d0b",
+"1bc21428-754c-4219-84ab-40aa7ba894c5"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a3a710e2-1b13-ee1d-0202-77509d076015"
+}
+}
+},
+{
+"edid": 834,
+"text": "säästud",
+"code": "834",
+"uuid": "a6d629dd-07f3-4d7a-9eea-7b77246e388f",
+"vol_cnt": 12,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a6d629dd-07f3-4d7a-9eea-7b77246e388f"
+}
+}
+},
+{
+"edid": 6145,
+"text": "TRIMs",
+"code": "6145",
+"uuid": "5080df9a-8ac1-4c32-ae7b-30a125578a56",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kaubandusega seotud investeerimismeetmed."
+],
+"usedFors": [
+"kaubandusalased investeerimismeetmed"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5080df9a-8ac1-4c32-ae7b-30a125578a56"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b4653c24-dabf-bcd2-bf92-b5ec6a97f596"
+}
+}
+},
+{
+"edid": 1000,
+"text": "finantseerimine",
+"code": "1000",
+"uuid": "86fab51b-118a-49af-ad17-087306017039",
+"vol_cnt": 20,
+"scopeNotes": [],
+"usedFors": [
+"rahastamine"
+],
+"narrowTerms": [
+"5346d93b-6aa9-4ce2-a45c-0f58cc6167b3",
+"d8ade73b-3f55-57cf-4fff-a6d61971dc1e",
+"88b7b9eb-9ecd-4103-b526-ed700c6973c9",
+"13f85a26-7a9e-4f65-b4c8-3c5affd10468",
+"affc4e33-0644-459b-9c7d-17579cd69683",
+"81c93954-68ad-4858-af85-5b64dd79f64a",
+"61ef709f-a8f6-4580-a7ce-ef03a06ad46b",
+"e3830291-f23c-89e2-6f83-e3a9640e9267",
+"5d2788c6-0c02-3e77-0675-efb29eed7d5d",
+"e7b51a59-1939-448e-8c0c-f9a5652840c3"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1008,
+"text": "abi finantseerimine",
+"code": "1008",
+"uuid": "b000a959-ac09-4fe3-b7f8-b65f4f229fe5",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b000a959-ac09-4fe3-b7f8-b65f4f229fe5"
+}
+}
+},
+{
+"edid": 2606,
+"text": "laen",
+"code": "2606",
+"uuid": "6a9435f9-faa7-c10c-c36e-52420e15739c",
+"vol_cnt": 20,
+"scopeNotes": [],
+"usedFors": [
+"pangalaen"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6a9435f9-faa7-c10c-c36e-52420e15739c"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/86fab51b-118a-49af-ad17-087306017039"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/9446becb-503a-4304-a295-f1b7cd3a1415"
+}
+}
+}

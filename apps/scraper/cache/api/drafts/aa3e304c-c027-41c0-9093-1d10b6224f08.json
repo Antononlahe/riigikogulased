@@ -1,0 +1,517 @@
+{
+"uuid": "aa3e304c-c027-41c0-9093-1d10b6224f08",
+"title": "Riigikogu liikme staatuse seaduse muutmise seadus",
+"mark": 673,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu liikme staatuse seaduse muutmise seadus 673 SE",
+"initialTitle": "Riigikogu liikme staatuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on siduda Riigikogu liikmetele töötasu ja hüvitiste maksmine osalemisega täiskogu istungil ja komisjonitöös.",
+"initiated": "2025-06-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0f9372ee-f108-47f9-9192-82ff84cf3efb",
+"name": "Timo Suslov",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0f9372ee-f108-47f9-9192-82ff84cf3efb?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "b483f709-afa6-4dd9-a8d5-46345c917272",
+"name": "Karin Tuulik",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/b483f709-afa6-4dd9-a8d5-46345c917272?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2246,
+"text": "parlamendiliige"
+},
+{
+"edid": 3273,
+"text": "töö tasustamine"
+},
+{
+"edid": 3557,
+"text": "kuluhüvitised"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c076dfa5-4b40-4939-b0f4-414fe474c3ad",
+"title": "673 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7a488156-6842-41f5-a2d3-8e24e781c17a",
+"fileName": "673_RKLS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-22T10:52:06.495",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a488156-6842-41f5-a2d3-8e24e781c17a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a488156-6842-41f5-a2d3-8e24e781c17a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0724b6b6-d729-4e58-bdb2-5fecdea7fa34",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0e23abe5-3ec1-46cc-ae08-11732c7aca70",
+"fileName": "2025.06Riigikogu_liikme_staatuse_seaduse_muutmise_seaduse_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T10:19:34.15",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e23abe5-3ec1-46cc-ae08-11732c7aca70/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e23abe5-3ec1-46cc-ae08-11732c7aca70"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0724b6b6-d729-4e58-bdb2-5fecdea7fa34",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f0fa967d-8898-46aa-9db4-9fa6871105e1",
+"fileName": "673_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T10:33:29.706",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f0fa967d-8898-46aa-9db4-9fa6871105e1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f0fa967d-8898-46aa-9db4-9fa6871105e1"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c076dfa5-4b40-4939-b0f4-414fe474c3ad",
+"title": "673 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a48547a5-209c-43f3-b183-886dc5d55672",
+"fileName": "673_RKLS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-22T10:52:29.139",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a48547a5-209c-43f3-b183-886dc5d55672/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a48547a5-209c-43f3-b183-886dc5d55672"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0724b6b6-d729-4e58-bdb2-5fecdea7fa34",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5915879a-7893-4f8e-8df2-8138e496320f",
+"fileName": "673_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T10:33:39.661",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5915879a-7893-4f8e-8df2-8138e496320f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5915879a-7893-4f8e-8df2-8138e496320f"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-06-10T10:19:03.62",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-06-10T17:24:00.355",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-10-21T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 21.10.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-11-05T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Timo Suslov"
+}
+],
+"protocolFiles": [
+{
+"uuid": "8e2626d3-8463-43b9-8a71-7bc6c957e879",
+"fileName": "Asendus_Kaljulaid.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Kaljulaid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T15:41:05.357",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e2626d3-8463-43b9-8a71-7bc6c957e879/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e2626d3-8463-43b9-8a71-7bc6c957e879"
+}
+}
+},
+{
+"uuid": "63dffa81-81be-46af-9f80-543b47a0c90f",
+"fileName": "PÕSK_protokoll_nr_131_(21.10.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll 21.10.2025",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T15:41:33.048",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/63dffa81-81be-46af-9f80-543b47a0c90f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/63dffa81-81be-46af-9f80-543b47a0c90f"
+}
+}
+},
+{
+"uuid": "24973777-35a2-44c4-8252-690ef08fc182",
+"fileName": "Riigikogu_põhiseaduskomisjoni_istungi_protokoll_nr_131.asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-27T15:44:35.004",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24973777-35a2-44c4-8252-690ef08fc182/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24973777-35a2-44c4-8252-690ef08fc182"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-11-05T16:06:50.94",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-12-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.12.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "085b3ad8-ea9b-4cd6-a5c2-06a575afb8f4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-12-03T21:07:37.46",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/085b3ad8-ea9b-4cd6-a5c2-06a575afb8f4"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "fac1b559-7d33-4d1d-a122-b03b6d8708ba",
+"reference": "1-1/15-673/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 673 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-06-10",
+"files": [
+{
+"uuid": "928a74c4-839f-464f-9fd2-a439326d4f33",
+"fileName": "250610_RKLS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T11:58:44.634",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/928a74c4-839f-464f-9fd2-a439326d4f33/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/928a74c4-839f-464f-9fd2-a439326d4f33"
+}
+}
+},
+{
+"uuid": "0870c665-1b3f-4205-a079-c55d9b0928cb",
+"fileName": "1-1-15-673-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_673_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T15:35:54.192",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0870c665-1b3f-4205-a079-c55d9b0928cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0870c665-1b3f-4205-a079-c55d9b0928cb"
+}
+}
+},
+{
+"uuid": "5ea8874e-4a5c-46af-a7db-317d05fc3cd6",
+"fileName": "673_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T11:33:15.242",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ea8874e-4a5c-46af-a7db-317d05fc3cd6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ea8874e-4a5c-46af-a7db-317d05fc3cd6"
+}
+}
+},
+{
+"uuid": "96d10152-1c8e-45c2-8759-d74a4399d420",
+"fileName": "RKLS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T10:24:29.342",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/96d10152-1c8e-45c2-8759-d74a4399d420/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/96d10152-1c8e-45c2-8759-d74a4399d420"
+}
+}
+},
+{
+"uuid": "56500d98-a6c9-474e-8648-54df1d17abe0",
+"fileName": "673_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T11:32:52.953",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/56500d98-a6c9-474e-8648-54df1d17abe0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/56500d98-a6c9-474e-8648-54df1d17abe0"
+}
+}
+},
+{
+"uuid": "575dfaa2-ab7f-474d-a155-558db2b31d1d",
+"fileName": "RKLS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T10:22:28.368",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/575dfaa2-ab7f-474d-a155-558db2b31d1d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/575dfaa2-ab7f-474d-a155-558db2b31d1d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fac1b559-7d33-4d1d-a122-b03b6d8708ba"
+}
+}
+},
+{
+"uuid": "2fec6bf8-14ce-4397-8185-bf3cbec412f1",
+"reference": "1-1/15-673/2",
+"title": "Vabariigi Valitsuse arvamuse andmisest loobumine Riigikogu liikme staatuse seaduse muutmise seaduse eelnõu 673 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-07-11",
+"files": [
+{
+"uuid": "b65133c6-5b70-45a8-a5df-9c2f7d2bbfd6",
+"fileName": "673_RK_25-01151-4.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-11T09:40:54.933",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b65133c6-5b70-45a8-a5df-9c2f7d2bbfd6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b65133c6-5b70-45a8-a5df-9c2f7d2bbfd6"
+}
+}
+},
+{
+"uuid": "ac77d9bc-8fb7-4de5-bea9-963f79210640",
+"fileName": "25-01151-4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-11T09:40:54.981",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac77d9bc-8fb7-4de5-bea9-963f79210640/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac77d9bc-8fb7-4de5-bea9-963f79210640"
+}
+}
+},
+{
+"uuid": "d0e42e53-4796-44a1-a57d-42dfcb5e6b4c",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0652_-_Riigikogu_liikme_staatuse_seaduse_muutmise_seaduse_eelnõu_(673_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-07-11T09:40:54.996",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d0e42e53-4796-44a1-a57d-42dfcb5e6b4c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d0e42e53-4796-44a1-a57d-42dfcb5e6b4c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2fec6bf8-14ce-4397-8185-bf3cbec412f1"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/aa3e304c-c027-41c0-9093-1d10b6224f08"
+}
+}
+}

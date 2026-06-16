@@ -1,0 +1,262 @@
+{
+"uuid": "e05e7ddc-2f46-4b38-a567-b976d15a287c",
+"etid": 556,
+"code": "2816",
+"text": "demograafia ja rahvastik",
+"descriptors": [
+{
+"edid": 385,
+"text": "demograafia",
+"code": "385",
+"uuid": "fc83ae2e-ef48-4357-b1ce-47dd39b19d8e",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"rahvastikuteadus"
+],
+"narrowTerms": [
+"2478c07a-f257-4574-8ccc-61c40c4566e0",
+"d674b8ba-77e6-46c5-80b1-69f5a5943afa",
+"b5b11d53-97b1-4432-bad0-136080d168a9",
+"620d2781-6d47-4ee0-89e8-67faa19e17a0",
+"0bd835a0-7a79-4844-8991-f08692611b39",
+"1fd1a8c9-a562-4b34-8e44-099bb83cfc63"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3326,
+"text": "geograafiline jaotumine",
+"code": "3326",
+"uuid": "cc42fd7d-0a44-4a52-8b68-9c7fb681e087",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cc42fd7d-0a44-4a52-8b68-9c7fb681e087"
+}
+}
+},
+{
+"edid": 3956,
+"text": "sotsiaalteadused",
+"code": "3956",
+"uuid": "bb74c0b4-cd1d-47b3-ab14-c4655e06b2ce",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"humanitaarteadused",
+"ühiskonnateadused"
+],
+"narrowTerms": [
+"99376665-ef35-4e1a-9b29-346b1f5ebb40",
+"a3795f5b-3c50-4dce-a8cb-fd039886f75d",
+"24f44c9f-a93c-4b03-ab46-c08e714f3abc",
+"e3438147-7ec7-4bb6-a284-d2928acfad23",
+"efae30b9-33cc-46ed-aef7-831f906eae34",
+"f06b0f86-30bc-411c-b929-1174777a27a2",
+"fd59d2d2-da2b-4ddd-9e8e-08a6bb71b69c",
+"5df62c4a-496b-4cfd-839c-a3c0f27cc606",
+"39ac9f88-9948-40e5-8645-6db2aa21ab41"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bb74c0b4-cd1d-47b3-ab14-c4655e06b2ce"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fc83ae2e-ef48-4357-b1ce-47dd39b19d8e"
+}
+}
+},
+{
+"edid": 3300,
+"text": "rahvastiku geograafiline jaotumine",
+"code": "3300",
+"uuid": "b5e439a9-153f-4a22-9350-4fd651af6c1b",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"31cd28bb-4893-62aa-3863-4ae49de5a087",
+"cccfb4ad-82d2-4959-b6ec-1890da547f67",
+"79a478c9-1c19-4b14-a27f-932aff8cf91b",
+"b68285ac-cb09-4e91-8e05-f0ffa505771b",
+"81a564a1-eda9-4620-a6d1-7c431760c776",
+"53a3218e-e5e0-4499-9245-3b104567bb0e"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 6540,
+"text": "diasporaa",
+"code": "6540",
+"uuid": "2814c0c3-2a4d-41ee-937b-6ac0e815e5a8",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kogukonna hajumine üle maailma."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2814c0c3-2a4d-41ee-937b-6ac0e815e5a8"
+}
+}
+},
+{
+"edid": 3326,
+"text": "geograafiline jaotumine",
+"code": "3326",
+"uuid": "cc42fd7d-0a44-4a52-8b68-9c7fb681e087",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cc42fd7d-0a44-4a52-8b68-9c7fb681e087"
+}
+}
+},
+{
+"edid": 6388,
+"text": "inimgeograafia",
+"code": "6388",
+"uuid": "8247cf35-97e2-4127-8987-74b78b7cc4ae",
+"vol_cnt": 0,
+"scopeNotes": [
+"Uurib inimasustust elukeskkonna ja rahvastiku seisukohast."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8247cf35-97e2-4127-8987-74b78b7cc4ae"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/b5e439a9-153f-4a22-9350-4fd651af6c1b"
+}
+}
+},
+{
+"edid": 52,
+"text": "rahvastiku koosseis",
+"code": "52",
+"uuid": "a0f2f00b-541d-4e7a-8c4e-dad424ee2054",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"rahvastiku struktuur"
+],
+"narrowTerms": [
+"b97d8ebf-8716-4334-82f2-19ea2debb5e1",
+"98688ede-7f65-459c-b46c-80377b506375",
+"d5bf7fda-4df7-4075-8c2b-f99ab8aca530",
+"fb57a750-9dbe-4d6d-8f59-4ae48d35b978"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a0f2f00b-541d-4e7a-8c4e-dad424ee2054"
+}
+}
+},
+{
+"edid": 3318,
+"text": "rahvastikudünaamika",
+"code": "3318",
+"uuid": "afa360ae-490a-4265-9f3a-f1d37b97a32c",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"rahvastiku liikumine"
+],
+"narrowTerms": [
+"0f050fc6-853e-44fa-8e31-4a08dd2b7351",
+"42cf047b-969c-45b3-9b60-9238a87913fb",
+"21a9eb69-799c-4cb9-b4dd-d6d93c91bbeb",
+"8529b805-d371-48c2-a013-a8786fff74c7",
+"3f31bd52-c727-4c03-86e6-1752a31c5d0f",
+"8831154c-42a8-42d7-94e8-a3e6bb031481"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1773,
+"text": "demograafiline analüüs",
+"code": "1773",
+"uuid": "d674b8ba-77e6-46c5-80b1-69f5a5943afa",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"rahvastikuanalüüs"
+],
+"narrowTerms": [
+"fbc45974-3ca5-4172-82e8-202b14c88654",
+"14a80cab-4778-612f-791f-8e2f77dc1e9c",
+"0b881cb9-d7bc-442b-8106-e7efaac3af71",
+"d2210b03-ef98-4767-8a1b-afec72718bce"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/d674b8ba-77e6-46c5-80b1-69f5a5943afa"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/afa360ae-490a-4265-9f3a-f1d37b97a32c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/e05e7ddc-2f46-4b38-a567-b976d15a287c"
+}
+}
+}

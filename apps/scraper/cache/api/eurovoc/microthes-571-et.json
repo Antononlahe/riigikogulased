@@ -1,0 +1,206 @@
+{
+"uuid": "e841c754-db80-474b-9408-f8937dfcafe1",
+"etid": 571,
+"code": "3611",
+"text": "humanitaarteadused",
+"descriptors": [
+{
+"edid": 3928,
+"text": "käitumisteadused",
+"code": "3928",
+"uuid": "50a915d4-06eb-487b-9d01-e5a84f1b4c58",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"biheiviorism",
+"käitumispsühholoogia"
+],
+"narrowTerms": [
+"9d9f2156-e345-4ff4-85e1-b6482e0c2096",
+"61456ad4-55d3-43b2-9c13-7ff516218ce3",
+"e4c13da3-856b-4cfd-a0cd-4bfb46394881"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 7195,
+"text": "individuaalne areng",
+"code": "7195",
+"uuid": "fa6b640d-13d2-49e2-82bc-ea739e04c36b",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"indiviidi areng",
+"isiksuse areng"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fa6b640d-13d2-49e2-82bc-ea739e04c36b"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/50a915d4-06eb-487b-9d01-e5a84f1b4c58"
+}
+}
+},
+{
+"edid": 3956,
+"text": "sotsiaalteadused",
+"code": "3956",
+"uuid": "bb74c0b4-cd1d-47b3-ab14-c4655e06b2ce",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"humanitaarteadused",
+"ühiskonnateadused"
+],
+"narrowTerms": [
+"99376665-ef35-4e1a-9b29-346b1f5ebb40",
+"a3795f5b-3c50-4dce-a8cb-fd039886f75d",
+"24f44c9f-a93c-4b03-ab46-c08e714f3abc",
+"e3438147-7ec7-4bb6-a284-d2928acfad23",
+"efae30b9-33cc-46ed-aef7-831f906eae34",
+"f06b0f86-30bc-411c-b929-1174777a27a2",
+"fd59d2d2-da2b-4ddd-9e8e-08a6bb71b69c",
+"5df62c4a-496b-4cfd-839c-a3c0f27cc606",
+"39ac9f88-9948-40e5-8645-6db2aa21ab41"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 385,
+"text": "demograafia",
+"code": "385",
+"uuid": "fc83ae2e-ef48-4357-b1ce-47dd39b19d8e",
+"vol_cnt": 2,
+"scopeNotes": [],
+"usedFors": [
+"rahvastikuteadus"
+],
+"narrowTerms": [
+"2478c07a-f257-4574-8ccc-61c40c4566e0",
+"d674b8ba-77e6-46c5-80b1-69f5a5943afa",
+"b5b11d53-97b1-4432-bad0-136080d168a9",
+"620d2781-6d47-4ee0-89e8-67faa19e17a0",
+"0bd835a0-7a79-4844-8991-f08692611b39",
+"1fd1a8c9-a562-4b34-8e44-099bb83cfc63"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fc83ae2e-ef48-4357-b1ce-47dd39b19d8e"
+}
+}
+},
+{
+"edid": 6387,
+"text": "kultuurigeograafia",
+"code": "6387",
+"uuid": "39143565-2296-495e-9db4-17f71d0ac6fd",
+"vol_cnt": 0,
+"scopeNotes": [
+"Teadus, mis uurib geograafia ja kultuuri vahelisi suhteid."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/39143565-2296-495e-9db4-17f71d0ac6fd"
+}
+}
+},
+{
+"edid": 1820,
+"text": "sotsiaalne analüüs",
+"code": "1820",
+"uuid": "57077c7c-655b-4ce8-8f6b-82b31abf8aed",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"sotsiaalne uuring"
+],
+"narrowTerms": [
+"7e1932c6-ecfb-4b66-b7ac-91cbeeec060f",
+"5cd3e848-6086-45f2-b02c-b84279078a72",
+"bc8b1433-013c-4030-aa7e-0efeebe4f7f1",
+"d4fccdf3-1a25-4da7-888f-df884c81702d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/57077c7c-655b-4ce8-8f6b-82b31abf8aed"
+}
+}
+},
+{
+"edid": 4706,
+"text": "ühiskondlik elu",
+"code": "4706",
+"uuid": "f4edbe77-77f6-4214-ba5b-bc04027e7ba0",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"69ef7e91-e037-e640-0b94-5ef1bd77802b",
+"d0581d78-9106-4610-bd93-ba3a8c600d0e",
+"b21e924e-9018-4a9e-8eea-4ba135b55a6d",
+"fa6b640d-13d2-49e2-82bc-ea739e04c36b",
+"0ec3d65c-d6ff-4905-9696-d357c02060ca",
+"d84c7efd-6dc3-4037-8161-60b4c59dcc79",
+"2249b3c3-0154-43bc-b729-8c532a74b0b5",
+"74843be8-d71a-444e-b1b6-1a39535745a0",
+"ba9e3480-bd08-4a4d-b521-0485661f7422",
+"8ff21e30-b5c6-4d09-b627-001de76c3a62",
+"3d4933aa-fd17-456c-b1b8-59a2b867adbc",
+"67c02f52-4da6-16b2-d66d-c67a160f0c55",
+"fd17d772-9cd9-4cd4-831f-6a2971f73900",
+"c642744c-ad74-128c-2209-c93337c23fef",
+"2881b319-40f2-4e51-a329-5a74f7432eed",
+"ae0de399-3ba9-438f-9517-88ee6b30f3b9"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f4edbe77-77f6-4214-ba5b-bc04027e7ba0"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bb74c0b4-cd1d-47b3-ab14-c4655e06b2ce"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/e841c754-db80-474b-9408-f8937dfcafe1"
+}
+}
+}

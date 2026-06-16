@@ -1,0 +1,678 @@
+{
+"uuid": "9654ad0c-b42c-4dfb-94c7-9151292e7bb1",
+"title": "Mootorsõidukimaksu seaduse muutmise seadus",
+"mark": 625,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Mootorsõidukimaksu seaduse muutmise seadus 625 SE",
+"initialTitle": "Mootorsõidukimaksu seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga täiendatakse mootorsõidukimaksu seadust sättega, mille kohaselt on maksuvabastuse aluseks mootorsõiduki omamine puudega isiku poolt. Muudatus puudutab ainult mootorsõiduki aastamaksu ega laiene registreerimismaksule.",
+"initiated": "2025-04-14",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "95bde520-3032-48a5-aa20-567020b4e1da",
+"name": "Andres Ando",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/95bde520-3032-48a5-aa20-567020b4e1da?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4409,
+"text": "mootorsõidukimaks"
+},
+{
+"edid": 935,
+"text": "maksuvabastus"
+},
+{
+"edid": 1231,
+"text": "puudega inimene"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "086d7284-e0b5-4ece-9bd8-5bbbc9c35626",
+"title": "625 SE I.lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c8b70ae9-adf9-4798-9652-84307c352180",
+"fileName": "625_MSMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-26T09:33:19.659",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8b70ae9-adf9-4798-9652-84307c352180/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8b70ae9-adf9-4798-9652-84307c352180"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "89e2953b-de09-46d5-ae22-4d8c379d7b73",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cf94fbd1-8958-41f6-895a-230e51b1658a",
+"fileName": "Mootorsõidukimaks_-_puuetega_inimesed.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-14T15:59:24.329",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf94fbd1-8958-41f6-895a-230e51b1658a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf94fbd1-8958-41f6-895a-230e51b1658a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "89e2953b-de09-46d5-ae22-4d8c379d7b73",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4c2de0b4-6b01-4ece-8d93-768aeb7bae31",
+"fileName": "625_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-14T16:40:46.028",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c2de0b4-6b01-4ece-8d93-768aeb7bae31/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c2de0b4-6b01-4ece-8d93-768aeb7bae31"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "086d7284-e0b5-4ece-9bd8-5bbbc9c35626",
+"title": "625 SE I.lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "686b4619-9991-4455-abe9-d3b589164b2e",
+"fileName": "625_MSMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-26T09:33:38.247",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/686b4619-9991-4455-abe9-d3b589164b2e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/686b4619-9991-4455-abe9-d3b589164b2e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "89e2953b-de09-46d5-ae22-4d8c379d7b73",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9fbff526-aedf-41ec-a7f6-0fe9303b51f7",
+"fileName": "625_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-14T16:40:57.08",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9fbff526-aedf-41ec-a7f6-0fe9303b51f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9fbff526-aedf-41ec-a7f6-0fe9303b51f7"
+}
+}
+}
+},
+{
+"readingCode": null,
+"document": {
+"uuid": "1e57b77c-9cc8-4e88-9405-059b0831d47a",
+"title": "Taotlus Riigikogu juhatusele",
+"documentType": "lisadokumendid",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dce9b222-89cf-416b-b7e7-5088032c605e",
+"fileName": "Avaldus_625_SE_väljavõtmiseks_täiskogu_istungilt.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Taotlus Riigikogu juhatusele",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T12:56:39.586",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dce9b222-89cf-416b-b7e7-5088032c605e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dce9b222-89cf-416b-b7e7-5088032c605e"
+}
+}
+}
+},
+{
+"readingCode": null,
+"document": {
+"uuid": "1e57b77c-9cc8-4e88-9405-059b0831d47a",
+"title": "Taotlus Riigikogu juhatusele",
+"documentType": "lisadokumendid",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "36b50cfc-ba41-491c-b165-236ee5f58cab",
+"fileName": "Taotlus_Riigikogu_juhatusele.asice",
+"fileExtension": "asice",
+"fileTitle": "Taotlus Riigikogu juhatusele asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T12:58:36.788",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/36b50cfc-ba41-491c-b165-236ee5f58cab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/36b50cfc-ba41-491c-b165-236ee5f58cab"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-04-14T15:59:00.35",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-04-15T14:24:00.45",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-06-10T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 10.06.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-18T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "22cc7e28-4669-4a69-bc77-68dc28fe3eb5",
+"fileName": "RAHK_protokoll_10.06.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T10:16:02.991",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22cc7e28-4669-4a69-bc77-68dc28fe3eb5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22cc7e28-4669-4a69-bc77-68dc28fe3eb5"
+}
+}
+},
+{
+"uuid": "e842d831-ea3b-4dea-be7f-579c20d8783b",
+"fileName": "RAHK_protokoll_162_10_06_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T10:15:24.459",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e842d831-ea3b-4dea-be7f-579c20d8783b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e842d831-ea3b-4dea-be7f-579c20d8783b"
+}
+}
+},
+{
+"uuid": "834868ac-c1b9-46f0-925a-6a77827ee916",
+"fileName": "671_SE_HLÜ_ettekande_slaidid_10.06.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (671 SE ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:42:12.61",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/834868ac-c1b9-46f0-925a-6a77827ee916/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/834868ac-c1b9-46f0-925a-6a77827ee916"
+}
+}
+},
+{
+"uuid": "ebe82ceb-ad72-474e-902c-d72c4f947604",
+"fileName": "652_SE_ettekande_slaidid_10.06.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (652 SE ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:41:21.514",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ebe82ceb-ad72-474e-902c-d72c4f947604/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ebe82ceb-ad72-474e-902c-d72c4f947604"
+}
+}
+},
+{
+"uuid": "f13d85be-f6a6-433e-a0d0-3f4315b2a2a0",
+"fileName": "Asendusliikme_volikiri_M.Võrklaev-E.Merilind_10.06_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-10T16:39:11.096",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f13d85be-f6a6-433e-a0d0-3f4315b2a2a0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f13d85be-f6a6-433e-a0d0-3f4315b2a2a0"
+}
+}
+}
+]
+},
+{
+"date": "2025-08-28T15:49:23.904",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-09-11T16:15:56.175",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-09-15T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 15.09.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-09-23T10:00:00"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Rahanduskomisjon teeb ettepaneku välja arvata Riigikogu 2. töönädala kolmapäeva, 17. septembri 2025 päevakorrast kaheksas punkt Eesti Keskerakonna fraktsiooni algatatud mootorsõidukimaksu seaduse muutmise eelnõu (625 SE) esimene lugemine."
+}
+],
+"protocolFiles": [
+{
+"uuid": "a7f65e83-eccb-42de-8dc6-17ae94a20156",
+"fileName": "RAHK_protokoll_15.09.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-14T13:03:58.2",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a7f65e83-eccb-42de-8dc6-17ae94a20156/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a7f65e83-eccb-42de-8dc6-17ae94a20156"
+}
+}
+},
+{
+"uuid": "6a2e0643-ff71-45d5-8b57-769a005aa982",
+"fileName": "RAHK_protokoll_169_15.09.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-14T13:03:23.802",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6a2e0643-ff71-45d5-8b57-769a005aa982/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6a2e0643-ff71-45d5-8b57-769a005aa982"
+}
+}
+},
+{
+"uuid": "15281a4a-8ccd-40a1-9703-88aeda73beb9",
+"fileName": "EAN_ettekanne_15.09.2025.pptx",
+"fileExtension": "pptx",
+"fileTitle": "Lisa 1 (Eelarvenõukogu ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-09-15T13:56:27.055",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/15281a4a-8ccd-40a1-9703-88aeda73beb9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/15281a4a-8ccd-40a1-9703-88aeda73beb9"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-09-26T09:31:26.108",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-10-08T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 8.10.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "d1df303c-14c8-4696-ae33-e32f8c3c277c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-10-09T00:29:24.18",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/d1df303c-14c8-4696-ae33-e32f8c3c277c"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "cb8a1d56-f75b-4442-9f5c-03bbad0f73cd",
+"reference": "1-1/15-625/2",
+"title": "Vabariigi Valitsuse arvamus mootorsõidukimaksu seaduse muutmise seaduse eelnõude 625 SE ja 626 SE ning energiakandjate aktsiisitõusude kehtetuks tunnistamise seaduse eelnõu 627 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-05-28",
+"files": [
+{
+"uuid": "10ba76bc-b841-4111-84eb-d3480d78e79c",
+"fileName": "1.1-112325-2_28.05.2025_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-28T17:22:51.229",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/10ba76bc-b841-4111-84eb-d3480d78e79c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/10ba76bc-b841-4111-84eb-d3480d78e79c"
+}
+}
+},
+{
+"uuid": "14053526-edfb-4f7c-baa5-efa1d16a65fd",
+"fileName": "Mootorsõidukimaksu_seaduse_muutmise_seaduse_eelnõu_(625_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-28T17:22:51.302",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/14053526-edfb-4f7c-baa5-efa1d16a65fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/14053526-edfb-4f7c-baa5-efa1d16a65fd"
+}
+}
+},
+{
+"uuid": "36ac3bb9-7186-4701-a4a4-dfa3e068650c",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0396_-_Mootorsõidukimaksu_seaduse_muutmise_seaduse_eelnõu_(625_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-28T17:22:51.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/36ac3bb9-7186-4701-a4a4-dfa3e068650c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/36ac3bb9-7186-4701-a4a4-dfa3e068650c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cb8a1d56-f75b-4442-9f5c-03bbad0f73cd"
+}
+}
+},
+{
+"uuid": "f73ab20f-0403-4f9b-80bc-29f277a53ca9",
+"reference": "1-1/15-625/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 625 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-14",
+"files": [
+{
+"uuid": "64233429-9882-4818-ab25-512333e5701f",
+"fileName": "1-1-15-625-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_625_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T14:14:56.828",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64233429-9882-4818-ab25-512333e5701f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64233429-9882-4818-ab25-512333e5701f"
+}
+}
+},
+{
+"uuid": "9860028a-4305-4044-b55e-3630f99e7234",
+"fileName": "625_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-14T16:45:16.783",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9860028a-4305-4044-b55e-3630f99e7234/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9860028a-4305-4044-b55e-3630f99e7234"
+}
+}
+},
+{
+"uuid": "ad14bbb8-713e-461d-9605-55a8a48b20d6",
+"fileName": "250414_MSMS_KESK_625.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-14T16:53:41.736",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ad14bbb8-713e-461d-9605-55a8a48b20d6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ad14bbb8-713e-461d-9605-55a8a48b20d6"
+}
+}
+},
+{
+"uuid": "259844c5-14d8-42cc-a5b1-21bbbb213086",
+"fileName": "MSMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-14T16:04:13.248",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/259844c5-14d8-42cc-a5b1-21bbbb213086/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/259844c5-14d8-42cc-a5b1-21bbbb213086"
+}
+}
+},
+{
+"uuid": "730ff6c1-b660-40ba-9bcf-0a7d04aabacd",
+"fileName": "625_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-14T16:45:34.925",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/730ff6c1-b660-40ba-9bcf-0a7d04aabacd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/730ff6c1-b660-40ba-9bcf-0a7d04aabacd"
+}
+}
+},
+{
+"uuid": "efb5d608-5ea2-4d03-9639-c091d4faee54",
+"fileName": "MSMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-14T16:03:49.856",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/efb5d608-5ea2-4d03-9639-c091d4faee54/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/efb5d608-5ea2-4d03-9639-c091d4faee54"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f73ab20f-0403-4f9b-80bc-29f277a53ca9"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9654ad0c-b42c-4dfb-94c7-9151292e7bb1"
+}
+}
+}

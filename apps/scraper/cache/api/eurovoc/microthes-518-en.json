@@ -1,0 +1,582 @@
+{
+"uuid": "b944a180-42a9-410b-8634-1f6c67071f07",
+"etid": 518,
+"code": "0816",
+"text": "rahvusvaheline tasakaal",
+"descriptors": [
+{
+"edid": 2500,
+"text": "välispoliitika",
+"code": "2500",
+"uuid": "142a0045-a624-b6d8-8fcb-33ce16518ec8",
+"vol_cnt": 31,
+"scopeNotes": [],
+"usedFors": [
+"välisasjad",
+"välissuhted"
+],
+"narrowTerms": [
+"3b2d561a-59ca-4283-9f15-1211df90f297",
+"0bb83d66-bbdd-4d8f-be96-336340d4b4bb",
+"760e1b23-4c25-4ad7-8f3f-5b480752d2f0",
+"4dd3afb2-8a90-4dbe-90d2-51ce05f39c3f"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 216,
+"text": "rahvusvaheline koostöö",
+"code": "216",
+"uuid": "23b8fecf-80c2-cb05-60b9-ed3668676f2f",
+"vol_cnt": 211,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/23b8fecf-80c2-cb05-60b9-ed3668676f2f"
+}
+}
+},
+{
+"edid": 5788,
+"text": "ühine välis- ja julgeolekupoliitika",
+"code": "5788",
+"uuid": "67fad0b0-f9bf-4578-a784-fc8c74a952e2",
+"vol_cnt": 70,
+"scopeNotes": [],
+"usedFors": [
+"Euroopa välispoliitika",
+"ühine julgeolekupoliitika",
+"ühine välispoliitika",
+"ÜVJP"
+],
+"narrowTerms": [
+"0b4e114f-48e3-4241-b1f0-9f501786a524",
+"933d8758-0761-4c97-99ed-a50afcd7c32d",
+"1b5fb1c3-7a70-4ace-beb8-827645f57dc1",
+"aea1b05a-2b31-4edf-a0db-c884344f76d3",
+"328867d2-9c2a-48c7-984e-ae98a005a5fe"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/67fad0b0-f9bf-4578-a784-fc8c74a952e2"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/142a0045-a624-b6d8-8fcb-33ce16518ec8"
+}
+}
+},
+{
+"edid": 99,
+"text": "rahvusvaheline konflikt",
+"code": "99",
+"uuid": "6792354d-04ad-deb4-6fe0-b67e9407b7c7",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [
+"rahvusvaheline kriis"
+],
+"narrowTerms": [
+"38555208-1189-4ed7-bcb0-fe4dd3c8bf60",
+"310892fd-40b2-46a1-ba06-6eb05e3956bb",
+"8695a4f5-dab1-4816-9111-d2fd9d17350e",
+"55cf8824-7686-4abb-b966-822811859aa8",
+"347d1b83-31bc-4787-afb2-fe1ec4b75ab5",
+"06de19e1-c7a5-4a12-bd30-d933b182d68a",
+"eb872a9d-5e1e-8c92-5dc1-43e83d03419a",
+"c1e93bd8-5dff-467a-aa92-bda254413cb9",
+"12325d42-235b-417b-8625-a5e29a0afdf2",
+"0f08dc43-0fda-41ef-9ea6-8389f042cdaf",
+"16f1357e-c065-ad65-885f-08d462cc0369",
+"4c90e892-07bf-4ac4-b16e-93929b9c9e96"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 454816,
+"text": "ELi tsiviilmissioon",
+"code": "c_2e08d60f",
+"uuid": "933d8758-0761-4c97-99ed-a50afcd7c32d",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [
+"CPCC",
+"ELi tsiviiloperatsioon",
+"Euroopa Liidu tsiviilmissioon",
+"liidu tsiviilmissioon",
+"tsiviilmissioonide plaanimise ja juhtimise teenistus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/933d8758-0761-4c97-99ed-a50afcd7c32d"
+}
+}
+},
+{
+"edid": 2053,
+"text": "neutraliteet",
+"code": "2053",
+"uuid": "4dd3afb2-8a90-4dbe-90d2-51ce05f39c3f",
+"vol_cnt": 0,
+"scopeNotes": [
+"Niisuguse riigi seisukoht, kes vabatahtlikult keeldub rahvusvahelises konfliktis osalemast."
+],
+"usedFors": [
+"neutraalne riik"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4dd3afb2-8a90-4dbe-90d2-51ce05f39c3f"
+}
+}
+},
+{
+"edid": 567,
+"text": "rahvusvaheline avalik õigus",
+"code": "567",
+"uuid": "1e440728-783b-4375-8a56-825437be264f",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"5e1c9f67-4822-4e16-a90c-e6f0e0635032",
+"031b22c8-512a-4f15-ba0d-484334f6571a",
+"afb014ed-8a1b-21ec-7ee5-739f7717aba9",
+"e668d9e9-0d10-4f40-befb-1572166d5041",
+"99d4a9b0-602a-4e56-a4a4-58d42828667e",
+"c1a11309-7a73-4bea-9000-f92ab5a99e1f",
+"59ff7f88-c645-4dc1-a786-f763abc7c252",
+"340e7f9b-f6fc-44c0-b06a-7d0f97a0c43a",
+"239f7e90-f7b1-2a0b-85ea-1dd79c5cd8de",
+"65c39b90-fc32-06f9-d637-47fd31903ffa",
+"2568ef92-4ca4-42f6-91f8-04e20af4b01b",
+"a4a7c661-beb2-4132-88bf-daee0d97956b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1e440728-783b-4375-8a56-825437be264f"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6792354d-04ad-deb4-6fe0-b67e9407b7c7"
+}
+}
+},
+{
+"edid": 3450,
+"text": "rahvusvaheline julgeolek",
+"code": "3450",
+"uuid": "cf03ab43-7da1-804f-4e44-500b3c8c9e20",
+"vol_cnt": 66,
+"scopeNotes": [],
+"usedFors": [
+"rahvusvaheline tasakaal"
+],
+"narrowTerms": [
+"7cbdb523-6bea-415c-b22c-ab57a999a431",
+"375acc15-d580-436e-a6c7-bba460ce5152",
+"7ca367f3-3002-4ef3-8dfd-8b9b59af9b19",
+"298dc78f-d30e-450a-ae7d-7fd6d722daea",
+"d0f66698-5652-495a-8e39-f90456301ae4",
+"974d434f-3bcb-4f2e-ac2d-9610758e0896",
+"38beda2c-5653-44c4-9826-d9fcb847c551",
+"e72ab392-ee2f-4acc-950f-829c6a513827",
+"81d20ae1-e48c-413c-863f-a44cc7d61f84"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2071,
+"text": "liitumatus",
+"code": "2071",
+"uuid": "760e1b23-4c25-4ad7-8f3f-5b480752d2f0",
+"vol_cnt": 0,
+"scopeNotes": [
+"Riigi keeldumine ühegi suurvõimuga liitumast."
+],
+"usedFors": [
+"liitumatu maa"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/760e1b23-4c25-4ad7-8f3f-5b480752d2f0"
+}
+}
+},
+{
+"edid": 2053,
+"text": "neutraliteet",
+"code": "2053",
+"uuid": "4dd3afb2-8a90-4dbe-90d2-51ce05f39c3f",
+"vol_cnt": 0,
+"scopeNotes": [
+"Niisuguse riigi seisukoht, kes vabatahtlikult keeldub rahvusvahelises konfliktis osalemast."
+],
+"usedFors": [
+"neutraalne riik"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/4dd3afb2-8a90-4dbe-90d2-51ce05f39c3f"
+}
+}
+},
+{
+"edid": 3514,
+"text": "OSCE",
+"code": "3514",
+"uuid": "fcf240d4-5d83-3fee-1249-f0061cd54fce",
+"vol_cnt": 14,
+"scopeNotes": [],
+"usedFors": [
+"Belgradi konverents",
+"CSCE",
+"Euroopa Julgeoleku- ja Koostöökonverents",
+"Euroopa Julgeoleku- ja Koostööorganisatsioon",
+"Helsingi lõppakt",
+"Madridi konverents",
+"Viini konverents"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fcf240d4-5d83-3fee-1249-f0061cd54fce"
+}
+}
+},
+{
+"edid": 3483,
+"text": "rahvusvaheline sanktsioon",
+"code": "3483",
+"uuid": "9125fccb-0d49-78fa-6b9c-463c3e5a7ff9",
+"vol_cnt": 82,
+"scopeNotes": [
+"Meetmed rahvusvahelist õigust rikkunud riigi vastu."
+],
+"usedFors": [
+"boikott",
+"embargo",
+"kaubandusembargo",
+"surveabinõu"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9125fccb-0d49-78fa-6b9c-463c3e5a7ff9"
+}
+}
+},
+{
+"edid": 3228,
+"text": "rahvusvahelised suhted",
+"code": "3228",
+"uuid": "2fa7d840-e78e-42c5-8b7c-9d857b86960e",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2fa7d840-e78e-42c5-8b7c-9d857b86960e"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/cf03ab43-7da1-804f-4e44-500b3c8c9e20"
+}
+}
+},
+{
+"edid": 4697,
+"text": "sõjaohver",
+"code": "4697",
+"uuid": "bf53537a-7ced-b195-bfd0-1c13e53ed75e",
+"vol_cnt": 8,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"281f047d-38ae-5a5b-0987-2720138b05b3",
+"0e450fb4-4e4e-4664-9e2c-8072b319ec6d",
+"c96ea337-9a40-4e6d-aa23-ba5e803799d1",
+"9a145738-4391-485c-ac9b-a893a7008dfe"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 8415,
+"text": "koonduslaager",
+"code": "8415",
+"uuid": "3ff271d0-58cb-4db7-a098-3a82b3218131",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"hävituslaager",
+"surmalaager"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3ff271d0-58cb-4db7-a098-3a82b3218131"
+}
+}
+},
+{
+"edid": 8410,
+"text": "miinitõrje",
+"code": "8410",
+"uuid": "8872d643-30f4-43aa-8a15-eee33629d027",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [
+"demineerimine",
+"demineerimisabi",
+"humanitaardemineerimine",
+"lõhkekehade kõrvaldamine",
+"miinide kahjutustamine"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/8872d643-30f4-43aa-8a15-eee33629d027"
+}
+}
+},
+{
+"edid": 4695,
+"text": "ohver",
+"code": "4695",
+"uuid": "02787b8e-30e7-4a3f-891b-1a90c055aa96",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [
+"kannatanu"
+],
+"narrowTerms": [
+"3adc2431-9550-7302-858c-ee430a31551d"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/02787b8e-30e7-4a3f-891b-1a90c055aa96"
+}
+}
+},
+{
+"edid": 564,
+"text": "rahvusvaheline humanitaarõigus",
+"code": "564",
+"uuid": "815a3810-f49e-9fe9-b7cd-9228bd7f4623",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [
+"Genfi konventsioon"
+],
+"narrowTerms": [
+"5bca98aa-d145-45c1-b928-264a1ef20769",
+"8029bf42-338f-49f5-8bd2-aabc20dbdd32"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/815a3810-f49e-9fe9-b7cd-9228bd7f4623"
+}
+}
+},
+{
+"edid": 498,
+"text": "sõjakahjustus",
+"code": "498",
+"uuid": "12325d42-235b-417b-8625-a5e29a0afdf2",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/12325d42-235b-417b-8625-a5e29a0afdf2"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bf53537a-7ced-b195-bfd0-1c13e53ed75e"
+}
+}
+},
+{
+"edid": 6722,
+"text": "rahu",
+"code": "6722",
+"uuid": "a1837fa9-4bb5-441d-ad41-ccc931867e39",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"bd003b42-e82a-472f-a306-1db9464a3d41",
+"2eb863d4-3bcd-d8e0-d695-f2cd90ea76cf",
+"3a978f41-3e44-419c-9af7-8f6c23fde067",
+"bf1e1062-e03e-4ba1-b2a6-33c934258ad0",
+"46f9267d-0eac-4b14-87a5-551d81a76f14",
+"3416c722-cfca-9eb2-ca15-2d89d0c2a41b",
+"19414ba6-70d9-4142-9935-dd4ebd3bc0c4",
+"9f1751ec-adc4-4225-90af-e8379396bd7d"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3056,
+"text": "patsifism",
+"code": "3056",
+"uuid": "9c2239f6-39f9-472c-9384-06bf7b2fff42",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [
+"patsifistlik liikumine",
+"rahuliikumine",
+"sõjavastasus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9c2239f6-39f9-472c-9384-06bf7b2fff42"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a1837fa9-4bb5-441d-ad41-ccc931867e39"
+}
+}
+},
+{
+"edid": 3476,
+"text": "rahvusvaheline küsimus",
+"code": "3476",
+"uuid": "69f60f3a-f871-4e46-961d-d9e0e3413bc3",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kasutada seoses vastava riigiga."
+],
+"usedFors": [],
+"narrowTerms": [
+"b58148a3-88cf-45c1-8578-8fe54e209ead",
+"002fcf67-1505-4a17-b50d-8e3bebbe294f",
+"32327deb-b96e-45e5-a1be-6b055455c302",
+"e5acd8c4-d6ca-41e1-9f60-62cd201b4caf",
+"bb0f8c60-7720-4a47-9e8b-84b458799238",
+"9d90afd3-9642-4b02-9af3-0c27c96d0658",
+"4fbca506-ffa1-43aa-a94f-cd7a3be56cd7",
+"d43c67a8-5782-447c-a762-163e047c8758",
+"fa2a3271-9f04-4fb7-8283-bb95522ecf5b",
+"3b8b1bff-276b-1fd8-143d-b7af6f4e674a",
+"ac17d990-5e95-46ee-98b9-a145a3310a67",
+"c83e87d1-8984-49da-977d-aece74bf9473",
+"15e7e2fb-b4c3-4d9e-9299-bcf117f5d3b7",
+"32d95888-c7bc-4201-bf52-29f0e815ebde",
+"2ede0915-d3c5-4ecd-9ec2-66f4c228470b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/69f60f3a-f871-4e46-961d-d9e0e3413bc3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/b944a180-42a9-410b-8634-1f6c67071f07"
+}
+}
+}

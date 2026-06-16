@@ -1,0 +1,445 @@
+{
+"uuid": "d90d6bfa-60c2-4501-bff1-0af7ef610ca9",
+"etid": 552,
+"code": "2446",
+"text": "maksustamine",
+"descriptors": [
+{
+"edid": 1325,
+"text": "kapitalimaks",
+"code": "1325",
+"uuid": "bed67ef3-c8de-b0a9-8ca2-3c8e16c4802a",
+"vol_cnt": 12,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"60121b2a-f363-49cb-a7d0-6f67f2d97a53",
+"3065982a-4263-4520-8a0f-46ad33647390",
+"59584605-25b3-41e0-a78a-3ad87ea763e0"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1313,
+"text": "otsene maks",
+"code": "1313",
+"uuid": "6db15499-48f6-4f0e-8021-5bfbfb2b3f51",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6db15499-48f6-4f0e-8021-5bfbfb2b3f51"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/bed67ef3-c8de-b0a9-8ca2-3c8e16c4802a"
+}
+}
+},
+{
+"edid": 1021,
+"text": "maksusüsteem",
+"code": "1021",
+"uuid": "f597e092-d4a0-9e11-4f96-24b71193e302",
+"vol_cnt": 66,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"bca4f425-0123-9a1f-b88d-91771802e77a",
+"c049996f-3429-13c3-efdb-221d14513260",
+"9d7cbfa3-0318-c932-5dea-3bf400b875f8",
+"41a7dcb3-f02e-1eee-77e9-14d1a21350d1",
+"5dab643c-5a6b-447d-883d-7b523b7eeb28",
+"bbb54eaf-5dfc-8191-566d-78d6077a2d53"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3558,
+"text": "eelarvelised vahendid",
+"code": "3558",
+"uuid": "12ecb76f-09e0-47a6-be62-b7904a35cf49",
+"vol_cnt": 110,
+"scopeNotes": [],
+"usedFors": [
+"eelarvetulu",
+"eelarvevahendid"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/12ecb76f-09e0-47a6-be62-b7904a35cf49"
+}
+}
+},
+{
+"edid": 1095,
+"text": "maksudest kõrvalehoidumine",
+"code": "1095",
+"uuid": "635bedeb-1b1a-c7c7-0d96-7068eda264e3",
+"vol_cnt": 104,
+"scopeNotes": [
+"Maksukohustuse vähendamine või vältimine ebaseaduslikul teel."
+],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/635bedeb-1b1a-c7c7-0d96-7068eda264e3"
+}
+}
+},
+{
+"edid": 1018,
+"text": "riigirahandus",
+"code": "1018",
+"uuid": "e23b9ba6-de51-c481-dddb-21189baff3ac",
+"vol_cnt": 149,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"639742e6-2fc6-dcb3-9e62-7eab5728c12c",
+"1907b56c-dca6-4241-bd0f-2e523af34ff2",
+"21a59121-67a0-444c-adad-31b6483c5fd9",
+"deeb2d84-0055-4db2-bf7a-45cb39e5e67a",
+"593b6581-a51d-9103-cdbd-c3408491689b",
+"459bad92-2dcb-4881-9563-041039decdaf",
+"c6662eaf-43ba-4099-be04-46892b0625c1",
+"4ea7bd64-d325-40e9-9d4e-3b0b2485a112",
+"ff69d84c-2cb7-45ea-3911-706c544e44d1",
+"bb050579-3368-4150-9aec-da491cb84f7f",
+"a8db3834-33c9-42ca-b4cb-75c94aa04b99"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/e23b9ba6-de51-c481-dddb-21189baff3ac"
+}
+}
+},
+{
+"edid": 3072,
+"text": "tulude ümberjaotamine",
+"code": "3072",
+"uuid": "f9f1ebf1-ed05-449a-b7bf-bcc33a791981",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f9f1ebf1-ed05-449a-b7bf-bcc33a791981"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f597e092-d4a0-9e11-4f96-24b71193e302"
+}
+}
+},
+{
+"edid": 1326,
+"text": "tulumaks",
+"code": "1326",
+"uuid": "486cab20-fdff-bcab-a695-f72de8e98b7c",
+"vol_cnt": 150,
+"scopeNotes": [
+"Füüsiliste isikute kogutulult (palgalt ja investeeringutulult) makstav maks."
+],
+"usedFors": [],
+"narrowTerms": [
+"aa90fb42-5d69-4f89-af4e-752f85e7041c",
+"ec5ab785-33a4-5615-590d-a4a5abfe0c5f",
+"c371998a-0dff-d0cb-df94-de945f9f63a2",
+"dd73ea0f-0b25-4398-845d-bcaac01b3163",
+"1eb47bdc-cdc8-559f-c8d6-9f31e16d26db",
+"0c411917-abb4-e4c0-067f-03b42a27535a",
+"292e559a-93fc-08cd-7f9e-4e2aec2a411d",
+"0927b33f-72e9-9bbb-c306-91cb8203aa26"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1313,
+"text": "otsene maks",
+"code": "1313",
+"uuid": "6db15499-48f6-4f0e-8021-5bfbfb2b3f51",
+"vol_cnt": 6,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/6db15499-48f6-4f0e-8021-5bfbfb2b3f51"
+}
+}
+},
+{
+"edid": 504,
+"text": "topeltmaksustamine",
+"code": "504",
+"uuid": "fc7187fb-8581-17d9-3f83-3fa1126187a8",
+"vol_cnt": 60,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/fc7187fb-8581-17d9-3f83-3fa1126187a8"
+}
+}
+},
+{
+"edid": 3659,
+"text": "tulu",
+"code": "3659",
+"uuid": "2c5bd344-ced4-4206-8556-7ddd5f5b1797",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kasutada eraisiku või ettevõtte tulu puhul, muus kontekstis kasutada rahvamajanduse tulu."
+],
+"usedFors": [],
+"narrowTerms": [
+"c493efea-e3e5-4324-a5a2-3de420362d49",
+"b4b617c8-e4f2-49d0-a4ae-cbbe840639ba",
+"b71eddee-bfbe-4676-8a48-17d58e564609",
+"38431a56-9be0-4950-85e4-af3d5ea9047e",
+"0abca20a-4ace-4bd8-ad31-0d14ae049f81",
+"e36080ee-e761-498e-9780-1eaf56167dae",
+"a6d629dd-07f3-4d7a-9eea-7b77246e388f",
+"264a907a-2bc0-47c3-af77-056a76433c8e",
+"43f0cdf7-4a28-40b5-a988-445fd6f5ecc8",
+"f9f1ebf1-ed05-449a-b7bf-bcc33a791981"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/2c5bd344-ced4-4206-8556-7ddd5f5b1797"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/486cab20-fdff-bcab-a695-f72de8e98b7c"
+}
+}
+},
+{
+"edid": 1310,
+"text": "maks",
+"code": "1310",
+"uuid": "3b78503d-c527-4df4-a41a-afe0dbf57dba",
+"vol_cnt": 10,
+"scopeNotes": [],
+"usedFors": [
+"maksumäär",
+"maksustamismäär"
+],
+"narrowTerms": [
+"c4bb379c-e417-4f6e-8e38-dfde982da7ca",
+"3592500e-9946-40d0-9f1e-6460bcca69d2",
+"23f617ba-de07-4e94-8c4d-0ce2aba68f35",
+"97321b57-1cb2-e36d-3725-d1f0d6d5b9c4",
+"1cbad483-e393-45c6-7c0d-94b94f27d751",
+"141c9e0d-1afe-4e5f-9f27-940a6bf4e1ab",
+"6db15499-48f6-4f0e-8021-5bfbfb2b3f51",
+"fa09d029-120d-498e-9ea5-c8874c536e85"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3b78503d-c527-4df4-a41a-afe0dbf57dba"
+}
+}
+},
+{
+"edid": 2504,
+"text": "fiskaalpoliitika",
+"code": "2504",
+"uuid": "22851365-8b80-4068-8d06-16ab78d6aa35",
+"vol_cnt": 171,
+"scopeNotes": [],
+"usedFors": [
+"maksupoliitika",
+"maksustamispoliitika"
+],
+"narrowTerms": [
+"b5d35ce3-38d5-4a19-80c1-f6d9d5c9e00c",
+"0f2a870c-4cb4-4ada-8129-d70ea5d46f8d",
+"e589e3d0-61e8-41d4-b16d-64fe5fa38fe5",
+"6422b1b8-2b21-4707-8f80-bd4215ef9d47",
+"206fb937-eae7-4f79-aec6-53fa75babd62",
+"da0d0a72-33f1-40e5-9b53-6f8242fece43",
+"f5aeea5e-0afe-5e86-f681-14de1f85bc65",
+"d4c4d202-51dd-2aab-f940-2ea605042cf2",
+"363a5023-da2d-3c4a-1cd5-1f44213d35f4",
+"80ad5506-b699-4228-bffc-0ac64cdfbe5a",
+"e5505504-35f6-3a2a-9571-52c0e3f255e6",
+"dc31d3cf-a9a9-43c9-9e71-998e63646e53",
+"fc7187fb-8581-17d9-3f83-3fa1126187a8"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 5052,
+"text": "riigieelarve",
+"code": "5052",
+"uuid": "ff69d84c-2cb7-45ea-3911-706c544e44d1",
+"vol_cnt": 116,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/ff69d84c-2cb7-45ea-3911-706c544e44d1"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/22851365-8b80-4068-8d06-16ab78d6aa35"
+}
+}
+},
+{
+"edid": 1321,
+"text": "tarbimismaks",
+"code": "1321",
+"uuid": "a983c114-7f95-4cb5-b662-68909eec3d4d",
+"vol_cnt": 1,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"48ef6198-ac9c-f759-412e-337d471bea49",
+"5c830cc1-1f14-414f-9cc2-a9a31a810078",
+"0b55d27f-7e94-54de-4135-1f8e7c9563f3",
+"14b7c18c-22ac-484e-a8fb-f980d331ec53",
+"c8d18dc7-18df-9606-d95c-fce38210c8a8",
+"27fb6469-30f4-4ea5-b3dd-58925324fe49",
+"bbe3e245-634f-4c53-820f-f624a6c87b96",
+"be1742b5-dfdc-432d-a957-d7fab296be06"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 1316,
+"text": "kaudne maks",
+"code": "1316",
+"uuid": "3592500e-9946-40d0-9f1e-6460bcca69d2",
+"vol_cnt": 5,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/3592500e-9946-40d0-9f1e-6460bcca69d2"
+}
+}
+},
+{
+"edid": 139,
+"text": "tarbimine",
+"code": "139",
+"uuid": "9a1ce968-39bc-14ea-7d97-cb5457532981",
+"vol_cnt": 9,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"430bb87a-7862-4b14-854b-4978b606a5ea",
+"ae7fb16d-2dcc-4965-b70d-cf9b095481b3",
+"a1cf4835-d692-46cf-bb78-8ad96344f85b",
+"d547113d-c564-4d41-ac41-cb8869f28514",
+"d56d29cd-5b2c-4a57-a735-4414fc06be67",
+"7c5c037b-c575-448c-a651-f70a688f3fa2",
+"c21b0f20-31fd-4d53-81b9-4bcaf4f88415",
+"130d2a1d-ff83-468d-ab2d-b21906617984",
+"2cc77c85-7fe9-42e4-91df-d6dfda51e853",
+"3f03974e-b969-490e-9744-baf6933e53fe",
+"e0590e41-af20-4923-89cb-d365de24bb53",
+"05b65c90-90d7-4d9e-95d6-c38cb4f36cf7",
+"dc7fc307-47ff-4686-9bd5-a9cdbefe849f"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/9a1ce968-39bc-14ea-7d97-cb5457532981"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a983c114-7f95-4cb5-b662-68909eec3d4d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/d90d6bfa-60c2-4501-bff1-0af7ef610ca9"
+}
+}
+}

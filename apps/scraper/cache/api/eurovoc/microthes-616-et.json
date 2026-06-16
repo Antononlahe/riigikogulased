@@ -1,0 +1,244 @@
+{
+"uuid": "d2b20673-49cf-467f-9709-101cbbd4224d",
+"etid": 616,
+"code": "6816",
+"text": "metalli- ja terasetööstus",
+"descriptors": [
+{
+"edid": 1417,
+"text": "malmi- ja terasetööstus",
+"code": "1417",
+"uuid": "f0d7250c-fd3c-4b3b-a13d-a205223ef9cc",
+"vol_cnt": 12,
+"scopeNotes": [],
+"usedFors": [
+"elektril töötav terasetehas",
+"malmi- ja terasetehas",
+"malmi- ja terasetööstuse ettevõte",
+"terasetehas",
+"terasetööstus",
+"valukoda"
+],
+"narrowTerms": [
+"3e6f6ddc-d829-4cf2-87ee-1818cd04c223",
+"71fce775-c20b-46fb-b8da-5e92e3935d87"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 3837,
+"text": "ferrosulam",
+"code": "3837",
+"uuid": "26ddde2c-6af1-40b9-8106-d25ad32d566e",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/26ddde2c-6af1-40b9-8106-d25ad32d566e"
+}
+}
+},
+{
+"edid": 2673,
+"text": "käivitushind",
+"code": "2673",
+"uuid": "30df4436-dbad-4c91-bd13-c4eaacbe2c97",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/30df4436-dbad-4c91-bd13-c4eaacbe2c97"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f0d7250c-fd3c-4b3b-a13d-a205223ef9cc"
+}
+}
+},
+{
+"edid": 1882,
+"text": "metall",
+"code": "1882",
+"uuid": "f1080245-8e94-4c5a-b222-46f9bb463eb0",
+"vol_cnt": 4,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"135cd2ff-ecb6-4822-8274-cc5107202a60",
+"26ddde2c-6af1-40b9-8106-d25ad32d566e",
+"95e27c5f-1c79-456b-8ce1-8d6f32bf6a1d",
+"00958d4d-e46b-4e36-aaa2-b497620ee2f2",
+"826f31cd-0b66-46d0-b1d2-4c320c1d5117",
+"37444050-de9d-4545-a70d-868e25305682",
+"60f9de50-c216-4b17-8f24-ae47f97674e9",
+"cd936662-7532-d633-84cc-19077a191d5f"
+],
+"microThesauruses": [],
+"relatedTerms": [
+{
+"edid": 2767,
+"text": "kaevandamise toode",
+"code": "2767",
+"uuid": "a4c19f41-51c6-4eb1-bd24-b8c6f96077a0",
+"vol_cnt": 0,
+"scopeNotes": [
+"Kasutada dokumentide puhul, mis hõlmavad kõiki tooteid, muul juhul kasutada konkreetsemat deskriptorit."
+],
+"usedFors": [
+"maak",
+"mineraal"
+],
+"narrowTerms": [
+"4ab1d4ec-916e-4dd0-8825-70cbcb6482cf",
+"409b92f6-7b3a-4ef8-8375-ccc23361a1f7",
+"44469334-e0e3-4f8a-979b-70ceead6e780",
+"86ff4266-3ea1-491b-887e-e814fee4f4a1",
+"17bc80ab-230f-474d-bd00-c82100170fe6"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a4c19f41-51c6-4eb1-bd24-b8c6f96077a0"
+}
+}
+},
+{
+"edid": 3809,
+"text": "keemiline element",
+"code": "3809",
+"uuid": "1ed765e8-dbda-4205-acec-134772dda1bd",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [
+"5f2ac534-0339-4efc-b057-6a677c6586b1",
+"3cbc609c-1165-4722-bd36-9841451eb6ec",
+"e772b65d-c495-436b-9ec3-b8176c6be514",
+"db0dccd9-8583-4912-b462-cba21c0322b3",
+"a185b040-4bed-4156-9177-9b4c8220c3b1",
+"7ac4c119-dd85-4f5d-9836-136a3692c3d5",
+"80f5dc75-9977-4b89-a75b-8a27b6e13ef4",
+"c3327630-5638-41b8-b74b-640fb8d6ef12",
+"b6e8ecc4-c0c5-467e-933a-3ddd05cc8456"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/1ed765e8-dbda-4205-acec-134772dda1bd"
+}
+}
+},
+{
+"edid": 3162,
+"text": "metallireostus",
+"code": "3162",
+"uuid": "a12f1f12-c3b0-4faa-9965-6bb8d96db869",
+"vol_cnt": 15,
+"scopeNotes": [],
+"usedFors": [
+"elavhõbedareostus",
+"pliireostus"
+],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/a12f1f12-c3b0-4faa-9965-6bb8d96db869"
+}
+}
+},
+{
+"edid": 2133,
+"text": "mikroelement",
+"code": "2133",
+"uuid": "42b7bf87-4936-457f-9f08-13acb2837217",
+"vol_cnt": 0,
+"scopeNotes": [],
+"usedFors": [],
+"narrowTerms": [],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/42b7bf87-4936-457f-9f08-13acb2837217"
+}
+}
+}
+],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/f1080245-8e94-4c5a-b222-46f9bb463eb0"
+}
+}
+},
+{
+"edid": 3820,
+"text": "metallurgiatööstus",
+"code": "3820",
+"uuid": "5f48036f-e06e-4ead-b18c-822bd346daa8",
+"vol_cnt": 3,
+"scopeNotes": [],
+"usedFors": [
+"metallurgiatoodang"
+],
+"narrowTerms": [
+"dcf61ae2-3b17-400e-a8a9-a3c3932bccf8",
+"07fadcb7-202b-4e33-a4fc-f52645c809a2",
+"66e4b582-60e4-4517-9fe4-457705707ed8",
+"c20a5fc9-dc98-441d-8df6-8640a67f0d90",
+"292d9012-65ec-40ef-9fe5-d82c23d56efa",
+"a2d03012-3dd1-492f-8058-020f3ccfc727",
+"6d260969-93a3-4f17-af4e-321507ed3e95",
+"178b3587-ca78-4fa5-a741-34d40a6d4980",
+"69c3580e-a117-4d9f-ba5a-8a49a5e71a05",
+"4fd8c86a-fdea-4f31-91da-22f92ab2b05e",
+"a8bee4cb-7d94-417f-8a92-431a47879228",
+"cf794cd1-1b34-4037-ac62-f6f6e607422b"
+],
+"microThesauruses": [],
+"relatedTerms": [],
+"broaderTerms": [],
+"hierPaths": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/descriptor/5f48036f-e06e-4ead-b18c-822bd346daa8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/eurovoc/microthes/d2b20673-49cf-467f-9709-101cbbd4224d"
+}
+}
+}
