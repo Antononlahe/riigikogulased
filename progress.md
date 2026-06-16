@@ -1,14 +1,20 @@
 # Progress
 
 **Last updated:** 2026-06-16
-**Version target:** v0.4 (party/faction rollups). **v0.4-A is CODE-COMPLETE + branch-verified;
-deploy pending.** v0.3 (D1+D2) and v0.2 are DONE and LIVE in prod —
-https://parteidistsipliin.vercel.app.
+**Version target:** v0.4 (party/faction rollups). **v0.4-A is DONE and LIVE in prod** —
+https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also live.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
 
-**v0.4-A (faction rollups) — CODE-COMPLETE + BUILD-VERIFIED ON A NEON BRANCH; DEPLOY PENDING.**
+**v0.4-A (faction rollups) — DONE + LIVE IN PROD (2026-06-16).** Also fixed a separate
+prod bug found right after: the member-page vote timeline ("Hääletuste ajalugu") was
+**invisible for every member** — `@visx` `ParentSize` clipped the chart because its wrapper
+had no height (the absolutely-positioned `overflow:hidden` measurement div collapsed to
+height 0). Fixed by giving the wrapper an explicit `TIMELINE_HEIGHT` + an SSR fallback width
+(`apps/web/components/member/vote-timeline.tsx`); verified live (svg now 640×200, 495 marks
+spread, was width=0). This had shipped broken in v0.2/C, whose interactive browser
+verification was the one step recorded as "still to do".
 Built via subagent-driven development (spec/plan `docs/superpowers/{specs,plans}/2026-06-16-v0.4-a-faction-rollups*`).
 Adds a faction comparison page (`/fraktsioonid`, card grid of the six fraktsioons) and per-faction
 detail pages (`/fraktsioonid/[slug]`, header metrics + member roster ranked by discipline with
@@ -29,9 +35,13 @@ by the build step and fixed: `parties` also holds non-parliamentary erakonds (se
 äriregister reconciliation), so the comparison query now restricts to actual fraktsioons via
 `EXISTS member_faction_terms`.
 
-**Next slice:** deploy v0.4-A (apply `0007` to prod via `migrate`, redeploy `apps/web`), then v0.4-B
-(committee votes: ingest `/api/votings/committees` + committee-level discipline). Cleanup pending
-(user-gated): delete the Neon build-check branch `br-super-night-a6hqytud`.
+**Deployed to prod (2026-06-16):** applied `0007` to prod via the `migrate` CLI (additive — two views,
+no data change), redeployed `apps/web` (`vercel --prod` from `apps/web`). Live-verified:
+`/{,en/}fraktsioonid` 200, `/fraktsioonid/ekre` shows Ühtsus 98.6% / 9 liiget / roster, `/factions`
+→ 307 → `/fraktsioonid`; prod faction cohesion reconciles (sum counted = 23166).
+
+**Next slice:** v0.4-B — committee votes (ingest `/api/votings/committees` + committee-level
+discipline). Cleanup pending (user-gated): delete the Neon build-check branch `br-super-night-a6hqytud`.
 
 ## Prior status (v0.3 / D2 — topic explorer)
 

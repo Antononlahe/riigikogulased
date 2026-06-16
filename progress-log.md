@@ -13,6 +13,39 @@ Entry format:
 
 ---
 
+## 2026-06-16 — v0.4-A deployed to prod + member vote-timeline visibility fix
+
+**What:** (1) Deployed v0.4-A to production: applied `0007_faction_rollup.sql` to prod via the
+`migrate` CLI (additive — two views, no data change; prod was at 0001–0006, 102 members, 49851
+`ballot_alignment` rows), then redeployed `apps/web` (`vercel --prod` from `apps/web`). Live-verified
+`/{,en/}fraktsioonid`, `/fraktsioonid/ekre` (Ühtsus 98.6% / 9 liiget / roster), `/factions`→307→
+`/fraktsioonid`; prod cohesion reconciles (sum counted = 23166). (2) Fixed a separate, pre-existing
+prod bug discovered right after: the member-detail **vote timeline ("Hääletuste ajalugu") rendered
+blank for every member**.
+
+**Why (root cause):** `@visx/responsive` `ParentSize` (v4) wraps its child in an absolutely-positioned
+`overflow:hidden` measurement div that fills an outer `height:100%` div. The timeline's wrapper
+(`<div className="mt-3">`) had **no height**, so the percentage height resolved against an auto-height
+parent → the outer div had no in-flow content (measurement div is `position:absolute`) → collapsed to
+**height 0** → the 200px chart was clipped to nothing. Width measured fine; height was the killer.
+Confirmed by reading the installed `ParentSize.js`/`useParentSize.js` source. The feature shipped this
+way in v0.2/C, whose interactive browser verification was the one step left as "still to do" — so it
+was never caught.
+
+**Fix:** give the wrapper an explicit `TIMELINE_HEIGHT` (kept in sync with the svg height) so the
+ParentSize measurement box can't collapse, plus a `TIMELINE_FALLBACK_WIDTH` for the SSR/pre-measure
+render so the prerendered chart isn't zero-width before the client ResizeObserver reports the real
+width. Verified in both the prerendered HTML and live: svg now **640×200** with **495 mark x-positions
+spread across the width** (was `width=0`, all marks collapsed at one x). Not unit-testable (CSS
+layout/clip; jsdom doesn't lay out) — verified via rendered output + source-level root-cause analysis.
+
+**Touched:** `apps/web/components/member/vote-timeline.tsx` (commit `7635a44`); prod DB (`0007`);
+two Vercel prod deploys.
+
+**Cleanup pending (user-gated):** delete the Neon build-check branch `br-super-night-a6hqytud`.
+
+---
+
 ## 2026-06-16 — v0.4-A: Faction rollups (code-complete + branch-verified; deploy pending)
 
 **What:** Built the v0.4-A faction-rollups slice via subagent-driven development (spec/plan
