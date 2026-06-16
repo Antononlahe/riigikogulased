@@ -26,7 +26,6 @@ matview: **9027ms → 18ms**. Live + verified: `/teemad`, `/teemad/[edid]` (rank
 `/en/teemad`, `/topics`→`/teemad` all 200/redirect; scraper ruff + 64 tests, web typecheck + 26
 tests green.
 
-**Cleanup pending (user-gated):** delete the Neon validation branch `br-sweet-surf-a6p1kiln`.
 **Next slice:** v0.4 (party/faction/committee cohesion rollups). Open follow-up still: broad-field
 faceting covers ~38% of bills (D1 `narrowTerms` crawl) if field-level facets are ever wanted.
 
