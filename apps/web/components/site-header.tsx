@@ -13,7 +13,7 @@ export async function SiteHeader() {
         <nav className="flex items-center gap-4 text-sm text-muted-foreground">
           <Link href="/" className="hover:text-foreground">{nav("members")}</Link>
           <span className="cursor-default opacity-60">{nav("factions")}</span>
-          <span className="cursor-default opacity-60">{nav("topics")}</span>
+          <Link href="/teemad" className="hover:text-foreground">{nav("topics")}</Link>
           <span className="mx-1 h-4 w-px bg-border" aria-hidden />
           <LocaleToggle />
           <ThemeToggle />
