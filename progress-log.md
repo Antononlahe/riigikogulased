@@ -13,6 +13,47 @@ Entry format:
 
 ---
 
+## 2026-06-16 — v0.4-A: Faction rollups (code-complete + branch-verified; deploy pending)
+
+**What:** Built the v0.4-A faction-rollups slice via subagent-driven development (spec/plan
+`docs/superpowers/{specs,plans}/2026-06-16-v0.4-a-faction-rollups*`). New migration
+**`0007_faction_rollup.sql`** adds two read-only views: `faction_discipline` (aggregates the
+`ballot_alignment` matview by `party_id` using the verbatim `member_discipline` predicate — so
+**faction cohesion = aggregate faction discipline, no scoring change**) and `faction_attendance`
+(over `ballots ⋈ votes ⋈ member_faction_terms`, all votes incl. procedural, `present = choice <>
+'absent'`, faction-at-time). New web: pure `lib/factions.ts` (slug/ratio/sort/most-least-loyal,
+10 vitest tests), `lib/factions-queries.ts` (`getFactionComparison` + `getFactionDetail`),
+components `factions/{faction-card,faction-grid,faction-roster}`, routes
+`/[locale]/fraktsioonid` (card grid of the six fraktsioons) + `/[locale]/fraktsioonid/[slug]`
+(header metrics + member roster ranked by discipline, most/least-loyal highlighted). Nav link
+wired (was a disabled span) + `/factions → /fraktsioonid` redirect; i18n et+en `factions` namespace.
+No topic panel (deferred); committee votes are v0.4-B.
+
+**Why:** v0.4 theme (party/faction rollups). Sub-slice A = faction metrics on existing plenary
+data; sub-slice B (committee votes) is a separate later slice. Built two-stage-reviewed per task.
+
+**Verified:** 36 web vitest tests + typecheck + `next lint` green; **production build 427/427 static
+pages** (incl. `/{et,en}/fraktsioonid` + 12 `/fraktsioonid/[slug]` pages) against Neon branch
+`br-super-night-a6hqytud` (project rapid-star-29400137) with `0007` applied via the `migrate` CLI.
+Cohesion reconciles end-to-end: the six factions' counted votes sum to 23166 = the global
+discipline total. **Bug caught by the build step and fixed (commit 159e29b):** `parties` also holds
+non-parliamentary erakonds (seeded by the 0003 äriregister reconciliation) with zero vote data, so
+`getFactionComparison` now restricts to actual fraktsioons via `EXISTS member_faction_terms` (6 rows,
+not ~13). Final whole-slice review (opus): READY TO SHIP.
+
+**Touched:** `packages/db/migrations/0007_faction_rollup.sql`,
+`apps/web/lib/{factions,factions.test,factions-queries}.ts`,
+`apps/web/components/factions/{faction-card,faction-grid,faction-roster}.tsx`,
+`apps/web/app/[locale]/fraktsioonid/{page,[slug]/page}.tsx`,
+`apps/web/components/site-header.tsx`, `apps/web/next.config.ts`,
+`apps/web/messages/{et,en}.json`. Commits `5de6b89`..`159e29b`.
+
+**Deploy pending (NOT done):** apply `0007` to prod via `migrate`, then redeploy `apps/web` from
+`apps/web` (`vercel --prod`). Prod migration apply + deploy are user-gated. Cleanup pending
+(user-gated): delete the Neon build-check branch `br-super-night-a6hqytud`.
+
+---
+
 ## 2026-06-16 — v0.3/D2: Topic explorer LIVE + alignment materialized view (0006)
 
 **What:** Deployed D2 to production (https://parteidistsipliin.vercel.app) and resolved a

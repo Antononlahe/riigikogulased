@@ -1,11 +1,39 @@
 # Progress
 
 **Last updated:** 2026-06-16
-**Version target:** v0.3 (Eurovoc topics). **D1 + D2 are DONE and LIVE in prod** —
-https://parteidistsipliin.vercel.app. v0.2 (A1/A2/B/erakond/C/active-members) also done and live.
+**Version target:** v0.4 (party/faction rollups). **v0.4-A is CODE-COMPLETE + branch-verified;
+deploy pending.** v0.3 (D1+D2) and v0.2 are DONE and LIVE in prod —
+https://parteidistsipliin.vercel.app.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**v0.4-A (faction rollups) — CODE-COMPLETE + BUILD-VERIFIED ON A NEON BRANCH; DEPLOY PENDING.**
+Built via subagent-driven development (spec/plan `docs/superpowers/{specs,plans}/2026-06-16-v0.4-a-faction-rollups*`).
+Adds a faction comparison page (`/fraktsioonid`, card grid of the six fraktsioons) and per-faction
+detail pages (`/fraktsioonid/[slug]`, header metrics + member roster ranked by discipline with
+most/least-loyal highlighting). **Cohesion = aggregate faction discipline** (the existing per-ballot
+alignment rolled up by party — *no scoring change*); **attendance** counts all votes incl. procedural
+(`present = choice <> 'absent'`, faction-at-time); member count = current active members of the faction.
+No topic panel (deferred). New migration **`0007_faction_rollup.sql`** = two read-only views
+(`faction_discipline` over `ballot_alignment`, `faction_attendance` over `ballots`). New web modules
+`lib/factions.ts` (pure, 10 vitest tests) + `lib/factions-queries.ts`; components `factions/{faction-card,
+faction-grid,faction-roster}`; nav link wired + `/factions → /fraktsioonid` redirect; i18n et+en.
+
+**Verified:** 36 web vitest tests, typecheck, `next lint` all green; **production build 427/427 static
+pages** (incl. `/{et,en}/fraktsioonid` + all 12 `/fraktsioonid/[slug]` pages) against a Neon branch
+(`br-super-night-a6hqytud`, project rapid-star-29400137) with `0007` applied. Faction cohesion
+reconciles end-to-end: the six factions' counted votes sum to **23166** = the global discipline total.
+Final whole-slice review (opus): **READY TO SHIP**, no critical/important issues. A real bug was caught
+by the build step and fixed: `parties` also holds non-parliamentary erakonds (seeded by the 0003
+äriregister reconciliation), so the comparison query now restricts to actual fraktsioons via
+`EXISTS member_faction_terms`.
+
+**Next slice:** deploy v0.4-A (apply `0007` to prod via `migrate`, redeploy `apps/web`), then v0.4-B
+(committee votes: ingest `/api/votings/committees` + committee-level discipline). Cleanup pending
+(user-gated): delete the Neon build-check branch `br-super-night-a6hqytud`.
+
+## Prior status (v0.3 / D2 — topic explorer)
 
 **v0.3 / D2 (topic explorer UI) — DONE + LIVE IN PROD (2026-06-16).** Built via subagent-driven
 development (spec/plan `docs/superpowers/{specs,plans}/2026-06-16-v0.3-d2-topic-explorer*`). A
