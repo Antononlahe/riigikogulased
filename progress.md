@@ -1,28 +1,42 @@
 # Progress
 
 **Last updated:** 2026-06-16
-**Version target:** v0.3 (Eurovoc topics). D1 (taxonomy ingestion + bill→topic links) is
-**code-complete offline**; the live ingest + Neon-branch validation + prod cutover (Task 6)
-remain and are user-gated. v0.2 (A1/A2/B/erakond/C/active-members) is all done and LIVE at
-https://parteidistsipliin.vercel.app.
+**Version target:** v0.3 (Eurovoc topics). **D1 (taxonomy ingestion + bill→topic links) is DONE
+and LIVE in prod.** D2 (topic UI) is the next slice. v0.2 (A1/A2/B/erakond/C/active-members) is
+all done and LIVE at https://parteidistsipliin.vercel.app.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
 
-**v0.3 / D1 (Eurovoc topic ingestion) — CODE COMPLETE OFFLINE; live cutover pending.** Built
-via subagent-driven development (plan
-`docs/superpowers/plans/2026-06-15-v0.3-d1-eurovoc-ingestion.md`, spec alongside). Landed Tasks
-1–5: migration `0005_eurovoc.sql` (4 tables `eurovoc_fields`/`eurovoc_microthesauri`/
+**v0.3 / D1 (Eurovoc topic ingestion) — DONE + LIVE IN PROD (2026-06-16).** Built via
+subagent-driven development (plan `docs/superpowers/plans/2026-06-15-v0.3-d1-eurovoc-ingestion.md`,
+spec alongside). Migration `0005_eurovoc.sql` (4 tables `eurovoc_fields`/`eurovoc_microthesauri`/
 `eurovoc_descriptors`/`volume_topics` + the `vote_topics` view) with `db` upserts; pure mappers
-`eurovoc_models.py` (`parse_fields`/`parse_microthes_descriptors`/`parse_draft_descriptor_edids`,
-unit-tested); `eurovoc_cache.py` git-committed raw-JSON archive (unit-tested); writer
-`write_eurovoc_taxonomy`/`write_volume_topics`; the `eurovoc` CLI command (taxonomy fields+
-microthes et+en, then per-`draft_uuid` descriptors → `volume_topics`); and `rebuild` replay of
-the eurovoc+draft caches. **Verified offline:** 61 tests pass, imports clean, ruff clean. No
-discipline change (additive tables + a view only). **Task 6 remains (user-gated):** capture
-fixtures, run `eurovoc` live (~258 taxonomy + ~233 draft calls at 1 req/s, ~8 min), validate the
-reconciliation SQL on a Neon branch, then prod cutover, commit the cache, update docs. D2 (topic
-UI) is the next slice after.
+`eurovoc_models.py` (unit-tested); `eurovoc_cache.py` git-committed raw-JSON archive
+(unit-tested + real-shape fixture tests); writer `write_eurovoc_taxonomy`/`write_volume_topics`;
+the `eurovoc` CLI command (taxonomy fields+microthes et+en, then per-`draft_uuid` descriptors →
+`volume_topics`); and `rebuild` replay of the eurovoc+draft caches. **64 offline tests pass.**
+
+**Validated on Neon branch then cut over to prod (additive — discipline unchanged):** migrations
+`0001–0005`; **21 fields, 127 microthesauruses, 1043 descriptors, 233/233 bills linked, 1052
+topic links, 1828 `vote_topics` rows, 0 orphans, discipline counted 23166 (unchanged)**. The
+taxonomy+drafts raw cache is committed so offline `rebuild` reproduces `volume_topics`.
+
+**Known limitation (decided: ship as-is).** Descriptor-level topic filtering is complete (100%
+of bills), but broad-**field** rollup covers only **88/233 bills (38%)**: Eurovoc descriptors are
+hierarchical and bills cite **narrower** descriptors that the `/api/eurovoc/microthes` endpoint
+omits, with no usable ancestry (`hierPaths`/`broaderTerms`/`microThesauruses` empty), so they are
+captured as draft-only (`microthesaurus_etid NULL`, no field). Lifting field coverage would need
+a recursive `narrowTerms` crawl — deferred to its own slice if D2 wants field-level facets.
+
+**Bug fixed during the live run:** `_refresh_eurovoc` held an idle Neon connection through the
+~4-min taxonomy fetch and the pooler dropped it ("SSL connection has been closed unexpectedly").
+Fixed by fetching the taxonomy into the cache first (no connection held), opening the DB only for
+the write + (interleaved) draft phases.
+
+**Outstanding:** the Neon validation branch `br-restless-river-a696s26g` (project
+rapid-star-29400137) can be deleted once you're confident (Neon deletes are user-gated). The web
+app surfaces nothing new yet — D2 is the topic UI.
 
 ## Prior status (active members)
 

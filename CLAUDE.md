@@ -48,7 +48,7 @@ Four governing decisions shape everything below:
 | --- | --- | --- |
 | v0.1 | shipped | Members list, overall discipline %, sortable. 15th Riigikogu. Live on Vercel. (Open: GH Actions `DATABASE_URL` secret unset, so the daily cron can't write yet.) |
 | v0.2 | current | API migration + member detail pages (vote timeline, party-switch lines) + design-system foundation. Model committees, terms, sittings/sessions, districts; enrich member record. |
-| v0.3 | | Eurovoc topics: link votes->bills->subjects; filter discipline by topic. |
+| v0.3 | current | Eurovoc topics: link votes->bills->subjects; filter discipline by topic. **D1 (ingestion + `vote_topics` view) done + live**; D2 (topic UI) next. |
 | v0.4 | | Party / faction / committee rollups (cohesion). |
 | v0.5 | | Speeches & stenogram activity (how much / on what topics each MP speaks). |
 | v0.6 | | Bills & sponsorship (what each MP authored / co-sponsored, outcomes). |
@@ -215,6 +215,28 @@ Current (migration `0003_erakond.sql`, v0.2/erakond reconciliation):
   dict actually used to map registry memberships to our six parties — the column itself is
   not read by any view).
 
+Current (migration `0005_eurovoc.sql`, v0.3/D1 Eurovoc topics):
+
+- `eurovoc_fields` — 21 top-level Eurovoc fields `(efid PK, uuid, code, text_et, text_en)`.
+- `eurovoc_microthesauri` — 127 microthesauruses `(etid PK, …, field_efid FK)`.
+- `eurovoc_descriptors` — subject descriptors `(edid PK, …, microthesaurus_etid FK)`. The
+  taxonomy (`fields`→`microthes`) only yields each microthesaurus's **top-level** descriptors
+  (~538); bills also cite **narrower** descriptors that the API exposes only as `narrowTerms`
+  UUIDs with no usable ancestry (`hierPaths`/`broaderTerms`/`microThesauruses` empty), so those
+  are inserted from the bill's `{edid,text}` with `microthesaurus_etid NULL` — captured but with
+  no field rollup. Net: descriptor-level topic filtering is complete; broad-**field** faceting
+  resolves for ~38% of bills (88/233). Lifting field coverage would need a recursive
+  `narrowTerms` crawl — deferred (out of D1 scope).
+- `volume_topics` — `(draft_uuid, descriptor_edid)` bill→descriptor links (`draft_uuid` =
+  `votes.draft_uuid`; FK to a `bills`/`volumes` table deferred to v0.6).
+- View `vote_topics` — `(vote_id, descriptor_edid, microthesaurus_etid, field_efid)`: a vote
+  resolved through its bill to descriptors + the rollup. Topic-filtered discipline (D2) is
+  `member_vote_alignment ⋈ vote_topics` filtered by `descriptor_edid`/`field_efid`, then
+  aggregated exactly like `member_discipline` — **no new scoring logic, discipline unchanged**.
+- Ingested by the `eurovoc` CLI command (taxonomy fields+microthes in et+en, then per-
+  `draft_uuid` `/api/volumes/drafts/{uuid}` descriptors). Raw JSON archived under
+  `cache/api/{eurovoc,drafts}/` (committed) so offline `rebuild` reproduces `volume_topics`.
+
 Current (migration `0002_structure.sql`, v0.2/A2):
 
 - `schema_migrations` — `(version, applied_at)`; migrations are applied by
@@ -234,11 +256,11 @@ compresses it to a WebP thumbnail under `apps/web/public/members/<uuid>.webp` (c
 served statically by Next.js) and records `photo_thumb_path`; the full-res image stays a
 runtime URL (`photo_url`).
 
-Planned (v0.3+ migrations, designed up front — see roadmap doc): `volumes` (generic
+Planned (v0.4+ migrations, designed up front — see roadmap doc): `volumes` (generic
 dossier: drafts / interpellations / written-questions / EU / collective-addresses by
-type), `bills` + `bill_sponsors` + `bill_readings`, `speeches`, `eurovoc_descriptors` +
-`volume_topics`. `votes.draft_uuid` becomes a real FK once `volumes`/`bills` land, so
-vote -> bill -> Eurovoc topics resolves.
+type), `bills` + `bill_sponsors` + `bill_readings`, `speeches`. `votes.draft_uuid` becomes a
+real FK once `volumes`/`bills` land (`volume_topics.draft_uuid` likewise). The Eurovoc tables
+(`eurovoc_*` + `volume_topics`) **landed in `0005`** (v0.3/D1); D2 adds the topic UI.
 
 ## Things to be careful about
 
@@ -261,9 +283,10 @@ vote -> bill -> Eurovoc topics resolves.
 
 ## Deferred / open
 
-- Close out v0.1: set the GH Actions `DATABASE_URL` secret so the daily cron can write.
-- Vote topic classification — **decided: official Eurovoc tags from the API** (no manual
-  rules / LLM). Wire up in v0.3.
+- Vote topic classification uses **official Eurovoc tags from the API** (no manual rules /
+  LLM). Ingested in v0.3/D1 (`0005`, `vote_topics` view); D2 adds the topic UI. Open follow-up:
+  broad-**field** faceting covers only ~38% of bills (narrower descriptors have no API
+  ancestry) — a recursive `narrowTerms` crawl could lift it if D2 needs field-level facets.
 - Caching strategy for the dashboard once timeline charts land (likely ISR with 1h
   revalidate).
 - Robots.txt / licensing compliance is currently informal — formalize CC-BY-SA

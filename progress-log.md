@@ -13,6 +13,36 @@ Entry format:
 
 ---
 
+## 2026-06-16 — v0.3/D1: Eurovoc ingestion PROD CUTOVER (live)
+
+**What:** Validated D1 on Neon branch `br-restless-river-a696s26g` then cut over to prod
+(additive: applied `0005`, ran `eurovoc` offline from the committed cache). Prod now has the
+Eurovoc taxonomy + bill→topic links: **21 fields, 127 microthesauruses, 1043 descriptors,
+233/233 bills linked, 1052 topic links, 1828 `vote_topics` rows, 0 orphan links, discipline
+counted 23166 — unchanged**. Captured 3 committed fixtures + a real-shape regression test (64
+offline tests total). Committed the taxonomy+drafts raw cache (256 + 233 files) for offline
+`rebuild`.
+
+**Two issues handled during the live run:** (1) **Bug** — `_refresh_eurovoc` held an idle Neon
+connection through the ~4-min taxonomy fetch; the serverless pooler dropped it ("SSL connection
+has been closed unexpectedly") so the first write failed. Fixed: fetch taxonomy into the cache
+holding no connection, open the DB only for the write + interleaved draft phases. (2) **Coverage
+finding (root-caused, decided ship-as-is)** — broad-**field** rollup resolves for only 88/233
+bills (38%) because Eurovoc is hierarchical and bills cite **narrower** descriptors the
+`/api/eurovoc/microthes` endpoint omits, with empty `hierPaths`/`broaderTerms`/`microThesauruses`
+ancestry. Descriptor-level filtering is 100% complete; field-level faceting is partial. A
+recursive `narrowTerms` crawl to lift field coverage is deferred (own slice).
+
+**Why:** Roadmap governing decision 3 — official Eurovoc tags. D1 lands the data + `vote_topics`
+foundation; D2 (topic UI) is now purely additive.
+
+**Touched:** `apps/scraper/src/parteidistsipliin_scraper/cli.py` (connection-order fix),
+`apps/scraper/tests/test_eurovoc_fixtures.py`, `apps/scraper/fixtures/api/eurovoc/`,
+`apps/scraper/cache/api/{eurovoc,drafts}/`, prod DB (`0005` + eurovoc tables), `CLAUDE.md`,
+`progress.md`.
+
+---
+
 ## 2026-06-16 — v0.3/D1: Eurovoc ingestion code complete (offline)
 
 **What:** Implemented Tasks 1–5 of the D1 plan via subagent-driven development. Migration
