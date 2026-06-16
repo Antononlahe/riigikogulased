@@ -69,6 +69,23 @@ describe("sortFactions", () => {
       "RE",
     ]);
   });
+  it("sorts null-cohesion factions last regardless of direction", () => {
+    const withNull = [
+      row({ partyShortName: "RE", alignedVotes: 90, countedVotes: 100 }),
+      row({ partyShortName: "I", alignedVotes: 0, countedVotes: 0 }), // cohesion null
+      row({ partyShortName: "EKRE", alignedVotes: 98, countedVotes: 100 }),
+    ];
+    expect(sortFactions(withNull, "cohesion", "asc").map((r) => r.partyShortName)).toEqual([
+      "RE",
+      "EKRE",
+      "I",
+    ]);
+    expect(sortFactions(withNull, "cohesion", "desc").map((r) => r.partyShortName)).toEqual([
+      "EKRE",
+      "RE",
+      "I",
+    ]);
+  });
   it("does not mutate the input", () => {
     const before = rows.map((r) => r.partyShortName);
     sortFactions(rows, "cohesion", "asc");

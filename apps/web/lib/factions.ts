@@ -91,13 +91,15 @@ export function mostLeastLoyal(members: RosterMember[]): {
   mostId: number | null;
   leastId: number | null;
 } {
-  const scored = members.filter((m) => m.disciplineScore !== null);
+  const scored = members.filter(
+    (m): m is RosterMember & { disciplineScore: number } => m.disciplineScore !== null,
+  );
   if (scored.length < 2) return { mostId: null, leastId: null };
   let most = scored[0];
   let least = scored[0];
   for (const m of scored) {
-    if ((m.disciplineScore as number) > (most.disciplineScore as number)) most = m;
-    if ((m.disciplineScore as number) < (least.disciplineScore as number)) least = m;
+    if (m.disciplineScore > most.disciplineScore) most = m;
+    if (m.disciplineScore < least.disciplineScore) least = m;
   }
   return { mostId: most.memberId, leastId: least.memberId };
 }
