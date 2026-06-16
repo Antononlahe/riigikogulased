@@ -9,6 +9,8 @@ const nextConfig: NextConfig = {
     return [
       { source: "/topics", destination: "/teemad", permanent: false },
       { source: "/en/topics", destination: "/en/teemad", permanent: false },
+      { source: "/factions", destination: "/fraktsioonid", permanent: false },
+      { source: "/en/factions", destination: "/en/fraktsioonid", permanent: false },
     ];
   },
 };
