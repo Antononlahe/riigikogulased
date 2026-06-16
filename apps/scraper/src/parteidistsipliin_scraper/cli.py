@@ -269,30 +269,35 @@ def eurovoc(
 
 async def _refresh_eurovoc(refresh: bool) -> None:
     ec = EurovocCache()
-    with db.connect() as conn:
-        async with ApiClient() as client:
-            fields = {}
+    async with ApiClient() as client:
+        # Fetch the taxonomy into the cache first, holding NO DB connection: the live
+        # taxonomy fetch is ~256 calls at 1 req/s (~4 min), and a Neon connection left idle
+        # that long is dropped by the pooler ("SSL connection has been closed unexpectedly")
+        # before the first write. The draft phase below interleaves fetch+write (<=1s idle),
+        # so it keeps its connection alive.
+        fields = {}
+        for lang in ("et", "en"):
+            if refresh or ec.read_fields(lang) is None:
+                raw = await client.get_json("/api/eurovoc/fields", {"lang": lang})
+                ec.write_fields(lang, raw)
+            fields[lang] = ec.read_fields(lang)
+        etids = sorted({m.etid for m in parse_fields(fields["et"])[1]})
+        micro = {"et": {}, "en": {}}
+        for etid in etids:
             for lang in ("et", "en"):
-                if refresh or ec.read_fields(lang) is None:
-                    raw = await client.get_json("/api/eurovoc/fields", {"lang": lang})
-                    ec.write_fields(lang, raw)
-                fields[lang] = ec.read_fields(lang)
-            etids = sorted({m.etid for m in parse_fields(fields["et"])[1]})
-            micro = {"et": {}, "en": {}}
-            for etid in etids:
-                for lang in ("et", "en"):
-                    if refresh or ec.read_microthes(etid, lang) is None:
-                        raw = await client.get_json(
-                            "/api/eurovoc/microthes", {"etid": etid, "lang": lang}
-                        )
-                        ec.write_microthes(etid, lang, raw)
-                    micro[lang][etid] = ec.read_microthes(etid, lang)
+                if refresh or ec.read_microthes(etid, lang) is None:
+                    raw = await client.get_json(
+                        "/api/eurovoc/microthes", {"etid": etid, "lang": lang}
+                    )
+                    ec.write_microthes(etid, lang, raw)
+                micro[lang][etid] = ec.read_microthes(etid, lang)
+        with db.connect() as conn:
             n = write_eurovoc_taxonomy(conn, fields["et"], fields["en"], micro["et"], micro["en"])
             conn.commit()
             n_drafts = await _ingest_draft_topics(client, conn, ec, refresh)
-        typer.echo(
-            f"Eurovoc: {len(etids)} microthesauruses, {n} descriptors, {n_drafts} bills linked."
-        )
+    typer.echo(
+        f"Eurovoc: {len(etids)} microthesauruses, {n} descriptors, {n_drafts} bills linked."
+    )
 
 
 async def _ingest_draft_topics(client, conn, ec, refresh: bool) -> int:
