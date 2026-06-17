@@ -13,6 +13,43 @@ Entry format:
 
 ---
 
+## 2026-06-17 — Member page: XV district filter, legible timeline, against-votes list
+
+**What:** Three member-detail improvements (live in prod). (1) **Districts** query in
+`getMemberDetail` now joins `riigikogu_terms` and filters to `number = 15`, so a returning
+MP's earlier-koosseis valimisringkond is no longer shown as current (Juku-Kalle Raid was
+listing both his XII-Riigikogu district and his XV one, unlabeled). Committees were checked —
+no cross-term mixing (they carry dates, all XV). (2) **Vote timeline reworked** for
+legibility + interactivity: y-domain tightened to the data with % reference labels (so the
+~90–100% range is readable instead of a flat slab hugging the top), lighter area; **drag-to-zoom**
+a time window with a reset button; an interaction overlay does hover-tooltip + click-to-open
+on the nearest mark; clicking opens the bill's eelnõu page on riigikogu.ee. (3) New
+**`VotesAgainst`** list below the graph — the member's "against the faction line" votes,
+newest first, each linking to its eelnõu page (`https://www.riigikogu.ee/tegevus/eelnoud/
+eelnou/<draft_uuid>`, verified 200); accessible/keyboard-navigable (the reliable counterpart
+to graph clicks).
+
+**Why:** User feedback — the timeline was a flat unreadable band, two districts showed with
+no explanation, and there was no way to jump from a defection to the actual bill/documents.
+
+**How verified:** 39 web vitest tests (added `eelnouUrl`/`againstVotes` cases), typecheck,
+lint, i18n parity all green; production build 427/427 against prod DB. Live-verified the
+**static** aspects on `/members/juku-kalle-raid`: exactly one district (Mustamäe ja Nõmme),
+10 distinct eelnõu links, y-axis 75/88/100%, svg 640×200. The **interactive** bits
+(drag-zoom, hover tooltip, click-to-open on the graph) cannot be verified without a browser
+(wmux disallowed) — flagged for the user to confirm; the against-list is the verified,
+accessible path to the same links.
+
+**Touched:** `apps/web/lib/{queries,member-detail,member-detail.test}.ts`,
+`apps/web/components/member/{vote-timeline,votes-against}.tsx`,
+`apps/web/app/[locale]/members/[slug]/page.tsx`, `apps/web/messages/{et,en}.json`. Prod deploy.
+
+**Data note:** `riigikogu_terms` holds terms 7–15 (not just 15 as the old CLAUDE.md seed note
+implied) — the writer creates rows for every koosseis appearing in members' histories; term
+number 15 (id 9) is the current one.
+
+---
+
 ## 2026-06-16 — v0.4-A deployed to prod + member vote-timeline visibility fix
 
 **What:** (1) Deployed v0.4-A to production: applied `0007_faction_rollup.sql` to prod via the

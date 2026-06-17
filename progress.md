@@ -15,6 +15,16 @@ height 0). Fixed by giving the wrapper an explicit `TIMELINE_HEIGHT` + an SSR fa
 (`apps/web/components/member/vote-timeline.tsx`); verified live (svg now 640×200, 495 marks
 spread, was width=0). This had shipped broken in v0.2/C, whose interactive browser
 verification was the one step recorded as "still to do".
+
+**Member-page enhancements (2026-06-17, live):** (1) **Districts** now filter to the current
+koosseis (term 15) — a returning MP's earlier-term valimisringkond no longer shows as if
+current (Raid was listing both his XII and XV districts). (2) **Vote timeline reworked for
+legibility** — y-domain tightened to the data (e.g. 75–100% with % reference labels) instead
+of a flat 0–100% slab; drag-to-zoom a time range (+reset); hover/click hit-tests the nearest
+mark and clicking opens the bill on riigikogu.ee. (3) New **"votes against the faction line"
+list** below the graph — every defection links to its eelnõu page (documents/full text),
+accessible + keyboard-navigable. Static aspects verified live (one district, 10 eelnõu links,
+y-axis 75/88/100%); the interactive zoom/hover/click need a human eye (can't browse here).
 Built via subagent-driven development (spec/plan `docs/superpowers/{specs,plans}/2026-06-16-v0.4-a-faction-rollups*`).
 Adds a faction comparison page (`/fraktsioonid`, card grid of the six fraktsioons) and per-faction
 detail pages (`/fraktsioonid/[slug]`, header metrics + member roster ranked by discipline with
