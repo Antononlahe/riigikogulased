@@ -18,13 +18,17 @@ verification was the one step recorded as "still to do".
 
 **Member-page enhancements (2026-06-17, live):** (1) **Districts** now filter to the current
 koosseis (term 15) — a returning MP's earlier-term valimisringkond no longer shows as if
-current (Raid was listing both his XII and XV districts). (2) **Vote timeline reworked for
-legibility** — y-domain tightened to the data (e.g. 75–100% with % reference labels) instead
-of a flat 0–100% slab; drag-to-zoom a time range (+reset); hover/click hit-tests the nearest
-mark and clicking opens the bill on riigikogu.ee. (3) New **"votes against the faction line"
-list** below the graph — every defection links to its eelnõu page (documents/full text),
-accessible + keyboard-navigable. Static aspects verified live (one district, 10 eelnõu links,
-y-axis 75/88/100%); the interactive zoom/hover/click need a human eye (can't browse here).
+current (Raid was listing both his XII and XV districts). (2) **Member votes redesigned
+(defection-first)** after user feedback that the discipline-% trend was meaningless and the
+dense strip's marks were unclickable. The trend line is gone; the new `MemberVotes` client
+component shows a compact timeline (all votes = faint context ticks, votes-against-the-line =
+**large red clickable lollipops** that open the bill) over the **primary "Vastuhääled
+fraktsioonile" list**; hovering a marker highlights its row and vice-versa; both link to the
+eelnõu page. Two **filters**: a radio (Kõik / Jäi erapooletuks / Hääletas teisiti) and a
+vote-type dropdown (Lõpphääletus, Muudatusettepanek, …); the timeline reflects the filter.
+Replaced the earlier `vote-timeline.tsx` (legibility/zoom attempt) + `votes-against.tsx`.
+Static aspects verified live (one district; 13 red markers + 13 list rows, all eelnõu-linked;
+filters render); interactive hover/filter behaviour still needs a human eye (can't browse here).
 Built via subagent-driven development (spec/plan `docs/superpowers/{specs,plans}/2026-06-16-v0.4-a-faction-rollups*`).
 Adds a faction comparison page (`/fraktsioonid`, card grid of the six fraktsioons) and per-faction
 detail pages (`/fraktsioonid/[slug]`, header metrics + member roster ranked by discipline with

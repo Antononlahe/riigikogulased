@@ -13,6 +13,40 @@ Entry format:
 
 ---
 
+## 2026-06-17 — Member votes redesigned: defection-first timeline + filtered list
+
+**What:** Reworked the member voting section after user feedback. The earlier same-day attempt
+(tightened-domain discipline trend + drag-zoom strip, `vote-timeline.tsx`, and a separate
+`votes-against.tsx`) was rejected: the % trend is meaningless to a civic audience and the dense
+strip's per-vote marks were too small to see/click. New single client component
+`components/member/member-votes.tsx`:
+- **Timeline (compact, ~92px):** every vote as a faint context tick; **votes against the
+  faction line as large red clickable lollipops** (open the bill's eelnõu page). No discipline
+  trend line.
+- **Primary list "Vastuhääled fraktsioonile":** the main artifact; each row links to the eelnõu
+  page. **Cross-highlight** — hovering a timeline marker highlights its list row and vice-versa
+  (shared hover state; keyboard focus too).
+- **Two filters:** a radio (Kõik / Jäi erapooletuks / Hääletas teisiti — `againstKind` splits
+  abstentions from opposite votes) and a vote-type dropdown (`voteType`/`voteTypeOptions`
+  collapse "N. muudatusettepanek" → "Muudatusettepanek"; Lõpphääletus etc. pass through). The
+  timeline's red markers reflect the active filter.
+
+**Why:** "people ONLY care about individual votes… it should be a timeline of votes with
+EXPLICITLY visible votes against"; make defections big/clickable (they're rare by design, so no
+fisheye lens needed), list primary, and let users isolate final votes / abstentions.
+
+**How verified:** 43 web vitest tests (added againstKind/voteType/voteTypeOptions cases),
+typecheck, lint, i18n parity green; production build 427/427. Live on
+`/members/juku-kalle-raid`: 13 red lollipops + 13 list rows (all eelnõu-linked), faint context
+ticks, filter radio + type dropdown render, discipline trend gone. **Interactive** hover
+cross-highlight + filter clicks need a browser to confirm (wmux disallowed) — flagged for user.
+
+**Touched:** `apps/web/components/member/member-votes.tsx` (new; replaces vote-timeline.tsx +
+votes-against.tsx, both deleted), `apps/web/lib/{member-detail,member-detail.test}.ts`,
+`apps/web/messages/{et,en}.json`, `apps/web/app/[locale]/members/[slug]/page.tsx`. Prod deploy.
+
+---
+
 ## 2026-06-17 — Member page: XV district filter, legible timeline, against-votes list
 
 **What:** Three member-detail improvements (live in prod). (1) **Districts** query in
