@@ -5,6 +5,9 @@ import {
   partySwitchPoints,
   eelnouUrl,
   againstVotes,
+  againstKind,
+  voteType,
+  voteTypeOptions,
   type VotePoint,
 } from "./member-detail";
 
@@ -85,6 +88,33 @@ describe("againstVotes", () => {
       "2025-09-01T00:00:00Z",
       "2025-07-01T00:00:00Z",
     ]);
+  });
+});
+
+describe("againstKind", () => {
+  it("is 'abstain' when the member abstained", () => {
+    expect(againstKind(v({ memberChoice: "abstain", partyMajorityChoice: "no" }))).toBe("abstain");
+  });
+  it("is 'differ' when the member cast the opposite ballot", () => {
+    expect(againstKind(v({ memberChoice: "no", partyMajorityChoice: "yes" }))).toBe("differ");
+    expect(againstKind(v({ memberChoice: "yes", partyMajorityChoice: "no" }))).toBe("differ");
+  });
+});
+
+describe("voteType / voteTypeOptions", () => {
+  it("collapses numbered amendments and passes other titles through", () => {
+    expect(voteType(v({ title: "10. muudatusettepanek" }))).toBe("Muudatusettepanek");
+    expect(voteType(v({ title: "Lõpphääletus" }))).toBe("Lõpphääletus");
+  });
+  it("lists distinct types sorted", () => {
+    expect(
+      voteTypeOptions([
+        v({ title: "Lõpphääletus" }),
+        v({ title: "3. muudatusettepanek" }),
+        v({ title: "8. muudatusettepanek" }),
+        v({ title: "Tagasi lükkamine" }),
+      ]),
+    ).toEqual(["Lõpphääletus", "Muudatusettepanek", "Tagasi lükkamine"]);
   });
 });
 

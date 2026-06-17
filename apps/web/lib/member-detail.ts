@@ -37,6 +37,29 @@ export function againstVotes(votes: VotePoint[]): VotePoint[] {
     .sort((a, b) => b.votedAt.localeCompare(a.votedAt));
 }
 
+/**
+ * How a defection departed from the line: "abstain" = the member abstained (erapooletu)
+ * where the faction had a yes/no line; "differ" = the member cast the opposite ballot.
+ */
+export type AgainstKind = "abstain" | "differ";
+export function againstKind(v: VotePoint): AgainstKind {
+  return v.memberChoice === "abstain" ? "abstain" : "differ";
+}
+
+/**
+ * Coarse vote type for filtering, derived from the voting title. Numbered amendments
+ * ("10. muudatusettepanek") collapse to a single "Muudatusettepanek"; other titles
+ * (Lõpphääletus, Tagasi lükkamine, …) are already type names and pass through.
+ */
+export function voteType(v: VotePoint): string {
+  return /muudatusettepanek/i.test(v.title) ? "Muudatusettepanek" : v.title.trim();
+}
+
+/** Distinct vote types present in `votes`, Estonian-collated. */
+export function voteTypeOptions(votes: VotePoint[]): string[] {
+  return [...new Set(votes.map(voteType))].sort((a, b) => a.localeCompare(b, "et"));
+}
+
 export type MonthPoint = {
   month: string; // "YYYY-MM"
   aligned: number;
