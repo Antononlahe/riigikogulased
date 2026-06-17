@@ -130,6 +130,8 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
 
   const votesRes = await pool.query(
     `SELECT v.voted_at AS "votedAt", v.title, v.draft_title AS "draftTitle",
+            v.draft_mark AS "draftMark", v.draft_uuid AS "draftUuid",
+            v.riigikogu_uuid AS "riigikoguUuid",
             mva.member_choice AS "memberChoice", mva.party_majority_choice AS "partyMajorityChoice",
             mva.is_procedural AS "isProcedural", p.short_name AS "partyShortName"
        FROM member_vote_alignment mva
@@ -150,10 +152,15 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
       ORDER BY MAX(ct.started_on) DESC NULLS LAST`,
     [id],
   );
+  // Districts can span multiple Riigikogu terms (a returning MP represented a different
+  // valimisringkond in an earlier koosseis); the app is scoped to the XV Riigikogu, so show
+  // only this term's district(s). term number 15 = the current koosseis.
   const districtsRes = await pool.query(
     `SELECT DISTINCT d.name, NULL::text AS "startedOn", NULL::text AS "endedOn"
-       FROM member_district_terms dt JOIN electoral_districts d ON d.id = dt.district_id
-      WHERE dt.member_id = $1`,
+       FROM member_district_terms dt
+       JOIN electoral_districts d ON d.id = dt.district_id
+       JOIN riigikogu_terms rt ON rt.id = dt.term_id
+      WHERE dt.member_id = $1 AND rt.number = 15`,
     [id],
   );
 

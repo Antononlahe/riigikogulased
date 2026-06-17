@@ -3,6 +3,8 @@ import {
   classifyVote,
   monthlyDiscipline,
   partySwitchPoints,
+  eelnouUrl,
+  againstVotes,
   type VotePoint,
 } from "./member-detail";
 
@@ -11,6 +13,9 @@ function v(p: Partial<VotePoint>): VotePoint {
     votedAt: "2025-09-12T10:00:00.000Z",
     title: "Lõpphääletus",
     draftTitle: null,
+    draftMark: null,
+    draftUuid: null,
+    riigikoguUuid: null,
     memberChoice: "yes",
     partyMajorityChoice: "yes",
     isProcedural: false,
@@ -54,6 +59,32 @@ describe("monthlyDiscipline", () => {
   it("score is null for a month with no scored votes", () => {
     const out = monthlyDiscipline([v({ votedAt: "2025-06-10T00:00:00Z", isProcedural: true })]);
     expect(out).toEqual([{ month: "2025-06", aligned: 0, against: 0, score: null }]);
+  });
+});
+
+describe("eelnouUrl", () => {
+  it("builds the Riigikogu eelnõu URL from a draft uuid", () => {
+    expect(eelnouUrl("abc-123")).toBe(
+      "https://www.riigikogu.ee/tegevus/eelnoud/eelnou/abc-123",
+    );
+  });
+  it("is null without a draft", () => {
+    expect(eelnouUrl(null)).toBeNull();
+  });
+});
+
+describe("againstVotes", () => {
+  it("keeps only against-line votes, most recent first", () => {
+    const out = againstVotes([
+      v({ votedAt: "2025-06-01T00:00:00Z", memberChoice: "yes", partyMajorityChoice: "yes" }), // aligned
+      v({ votedAt: "2025-07-01T00:00:00Z", memberChoice: "no", partyMajorityChoice: "yes" }), // against
+      v({ votedAt: "2025-08-01T00:00:00Z", isProcedural: true }), // excluded
+      v({ votedAt: "2025-09-01T00:00:00Z", memberChoice: "abstain", partyMajorityChoice: "no" }), // against
+    ]);
+    expect(out.map((x) => x.votedAt)).toEqual([
+      "2025-09-01T00:00:00Z",
+      "2025-07-01T00:00:00Z",
+    ]);
   });
 });
 

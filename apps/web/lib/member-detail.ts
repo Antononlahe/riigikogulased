@@ -4,6 +4,9 @@ export type VotePoint = {
   votedAt: string; // ISO timestamp
   title: string;
   draftTitle: string | null;
+  draftMark: string | null;
+  draftUuid: string | null;
+  riigikoguUuid: string | null;
   memberChoice: string;
   partyMajorityChoice: string | null;
   isProcedural: boolean;
@@ -17,6 +20,21 @@ export function classifyVote(v: VotePoint): VoteClass {
     return "excluded";
   }
   return v.memberChoice === v.partyMajorityChoice ? "aligned" : "against";
+}
+
+/**
+ * Public Riigikogu page for the bill (eelnõu) a vote belongs to — where the documents and
+ * full text live. Null when the vote has no linked draft.
+ */
+export function eelnouUrl(draftUuid: string | null): string | null {
+  return draftUuid ? `https://www.riigikogu.ee/tegevus/eelnoud/eelnou/${draftUuid}` : null;
+}
+
+/** The member's "against the faction line" votes, most recent first. */
+export function againstVotes(votes: VotePoint[]): VotePoint[] {
+  return votes
+    .filter((v) => classifyVote(v) === "against")
+    .sort((a, b) => b.votedAt.localeCompare(a.votedAt));
 }
 
 export type MonthPoint = {

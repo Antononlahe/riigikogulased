@@ -8,6 +8,7 @@ import { DisciplineSummary } from "@/components/member/discipline-summary";
 import { PartyBreakdown } from "@/components/member/party-breakdown";
 import { AffiliationsPanel } from "@/components/member/affiliations-panel";
 import { VoteTimeline } from "@/components/member/vote-timeline";
+import { VotesAgainst } from "@/components/member/votes-against";
 
 export const revalidate = 3600;
 
@@ -57,6 +58,7 @@ export default async function MemberPage({
               <h2 className="font-serif text-lg font-bold">{t("timeline")}</h2>
               <VoteTimeline votes={d.votes} partyShortName={d.member.partyShortName} />
             </section>
+            <VotesAgainst votes={d.votes} />
             <PartyBreakdown rows={d.breakdown} />
           </div>
           <AffiliationsPanel
