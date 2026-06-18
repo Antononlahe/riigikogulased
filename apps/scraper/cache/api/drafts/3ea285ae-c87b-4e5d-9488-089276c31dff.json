@@ -1,0 +1,1361 @@
+{
+"uuid": "3ea285ae-c87b-4e5d-9488-089276c31dff",
+"title": "Kinnistusraamatuseaduse muutmise seadus",
+"mark": 467,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kinnistusraamatuseaduse muutmise seadus 467 SE",
+"initialTitle": "Kinnistusraamatuseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga piiratakse kinnistusraamatus päringute tegemist nii, et üksikpäringuga ei ole tavakasutajal võimalik e-kinnistusraamatust enam füüsilise isiku nime ja isikukoodi järgi andmeid otsida. Eelnõu eesmärgiks on suurendada eraelu kaitset, säilitades samas kinnistusraamatu avalikkuse. Kinnistusraamatus on võimalik endiselt päringuid muudel kriteeriumitel, nt aadressi, katastritunnuse või registriosa numbri järgi. Muudatused on kavandatud jõustuma 2025. aasta 15. jaanuaril.",
+"initiated": "2024-07-15",
+"joined": null,
+"accepted": "2024-11-13",
+"amendmentsDeadline": "2024-10-09T16:00:00",
+"responsibleMember": {
+"uuid": "c7f4f213-58a3-4b6f-a236-153644653d17",
+"name": "Madis Kallas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/c7f4f213-58a3-4b6f-a236-153644653d17?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "2c5ed7f2-f3ac-4443-b962-170130e04c78",
+"name": "Linnar Liivamägi",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/2c5ed7f2-f3ac-4443-b962-170130e04c78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 5079,
+"text": "kinnistusraamat"
+},
+{
+"edid": 453,
+"text": "info kättesaadavus"
+},
+{
+"edid": 5595,
+"text": "isikuandmed"
+},
+{
+"edid": 2828,
+"text": "eraelu puutumatuse kaitse"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "40b37186-ad7f-4aef-b75a-a098d25d2a50",
+"fileName": "RK_24-01085-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.139",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/40b37186-ad7f-4aef-b75a-a098d25d2a50/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/40b37186-ad7f-4aef-b75a-a098d25d2a50"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ae55bc3f-00e4-4256-b97b-6561b7978ab6",
+"fileName": "[EIS]_Eelnõu_esitamine__JUM-23-1481_-_Kinnistusraamatuseaduse_muutmise_eelnõu_väljatöötamise_kavatsusisikuandmete_ja_eraelu_kaitse_tagamisega_seotud_muudatuste_tegemiseks.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.355",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae55bc3f-00e4-4256-b97b-6561b7978ab6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae55bc3f-00e4-4256-b97b-6561b7978ab6"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4377e1a2-6174-44cd-b569-8238a2683f67",
+"title": "Kinnistusraamatuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e2bdc410-0262-4276-ba7b-615ca7288760",
+"fileName": "467_KRS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-19T15:39:15.901",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2bdc410-0262-4276-ba7b-615ca7288760/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2bdc410-0262-4276-ba7b-615ca7288760"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "077723b9-933e-44eb-851f-128766aba4c4",
+"title": "Kinnistusraamatuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e3ca3881-9207-45fd-b78c-39081d1d085f",
+"fileName": "467_SE_III_SAALITEKST_(toimetatud).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-06T15:28:32.974",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e3ca3881-9207-45fd-b78c-39081d1d085f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e3ca3881-9207-45fd-b78c-39081d1d085f"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "c8515462-30b1-479f-badb-82f4b0c5468c",
+"title": "Kinnistusraamatuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "58f0f72d-4258-424b-b994-1a61b006604e",
+"fileName": "467_SE_II_SAALITEKST.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-04T11:46:53.43",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/58f0f72d-4258-424b-b994-1a61b006604e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/58f0f72d-4258-424b-b994-1a61b006604e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "88afc4b4-1692-420d-b615-cf8fb37b3470",
+"fileName": "Seaduseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.231",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88afc4b4-1692-420d-b615-cf8fb37b3470/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88afc4b4-1692-420d-b615-cf8fb37b3470"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9cfb7770-cdc4-4a62-9889-4040cfafce6f",
+"fileName": "Seaduseelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.288",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9cfb7770-cdc4-4a62-9889-4040cfafce6f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9cfb7770-cdc4-4a62-9889-4040cfafce6f"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c9b4bc6a-4557-438c-a594-127c1b711329",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6e7c40e9-2f53-4398-acf6-95bc019ec1b9",
+"fileName": "467_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-13T09:14:37.879",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e7c40e9-2f53-4398-acf6-95bc019ec1b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e7c40e9-2f53-4398-acf6-95bc019ec1b9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7952c307-7a2a-4cb0-8efd-1c6f56b229d1",
+"fileName": "24-01085-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.216",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7952c307-7a2a-4cb0-8efd-1c6f56b229d1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7952c307-7a2a-4cb0-8efd-1c6f56b229d1"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "0b6cd8f4-bd39-4d80-8e80-db70f091d8f5",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "38031a44-b321-43cb-899a-88a8dce2f3a1",
+"fileName": "467XV_Kinnistusr_ms_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-25T12:44:03.007",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/38031a44-b321-43cb-899a-88a8dce2f3a1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/38031a44-b321-43cb-899a-88a8dce2f3a1"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "0b6cd8f4-bd39-4d80-8e80-db70f091d8f5",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a7e998ad-02a5-4901-9061-73e726958737",
+"fileName": "467XV_Kinnistusr_ms_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-25T12:43:52.468",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a7e998ad-02a5-4901-9061-73e726958737/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a7e998ad-02a5-4901-9061-73e726958737"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "c8515462-30b1-479f-badb-82f4b0c5468c",
+"title": "Kinnistusraamatuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "183547e0-7966-4100-beb1-d9ada7a3e5ea",
+"fileName": "467_SE_II_ME_TABEL.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-04T11:47:52.301",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/183547e0-7966-4100-beb1-d9ada7a3e5ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/183547e0-7966-4100-beb1-d9ada7a3e5ea"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4377e1a2-6174-44cd-b569-8238a2683f67",
+"title": "Kinnistusraamatuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6f567be3-74ed-47b4-865d-dbe363e875f7",
+"fileName": "467_KRS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-19T15:40:00.436",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6f567be3-74ed-47b4-865d-dbe363e875f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6f567be3-74ed-47b4-865d-dbe363e875f7"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "c8515462-30b1-479f-badb-82f4b0c5468c",
+"title": "Kinnistusraamatuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e025151d-4ec9-4047-973d-3f60f07dda3e",
+"fileName": "467_SE_II_SELETUSKIRI.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-04T11:48:21.382",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e025151d-4ec9-4047-973d-3f60f07dda3e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e025151d-4ec9-4047-973d-3f60f07dda3e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "40094e4c-9074-44eb-9368-b5b732fcaecb",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.245",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/40094e4c-9074-44eb-9368-b5b732fcaecb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/40094e4c-9074-44eb-9368-b5b732fcaecb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "43b45b42-4cde-41fb-88f1-a6844162dfff",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/43b45b42-4cde-41fb-88f1-a6844162dfff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/43b45b42-4cde-41fb-88f1-a6844162dfff"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4377e1a2-6174-44cd-b569-8238a2683f67",
+"title": "Kinnistusraamatuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4dcc733f-9e82-4bc1-ad83-94ed1338376e",
+"fileName": "467_KRS_m_s_SK_lisa1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (rakendusakti kavand)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-19T15:40:25.027",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4dcc733f-9e82-4bc1-ad83-94ed1338376e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4dcc733f-9e82-4bc1-ad83-94ed1338376e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1733cbfa-1088-4ce5-921a-a13ac9ab61c3",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (rakendusakti kavand) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.26",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1733cbfa-1088-4ce5-921a-a13ac9ab61c3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1733cbfa-1088-4ce5-921a-a13ac9ab61c3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cf7d55c8-7346-4964-a41b-8b443a7b3632",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (rakendusakti kavand) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.317",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf7d55c8-7346-4964-a41b-8b443a7b3632/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf7d55c8-7346-4964-a41b-8b443a7b3632"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4377e1a2-6174-44cd-b569-8238a2683f67",
+"title": "Kinnistusraamatuseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "25b67975-72cb-44b6-94f6-a4484c267bdb",
+"fileName": "467_KRS_m_s_SK_lisa2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-19T15:40:51.243",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25b67975-72cb-44b6-94f6-a4484c267bdb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25b67975-72cb-44b6-94f6-a4484c267bdb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "28d32b02-6dce-4287-b805-008d2f3a0ff0",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.332",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/28d32b02-6dce-4287-b805-008d2f3a0ff0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/28d32b02-6dce-4287-b805-008d2f3a0ff0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "68c8c446-3d1a-4cb0-956b-31b981c8b5f1",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "381ff02c-3ff3-4687-b9a6-f9ecb0cbd560",
+"fileName": "Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlatustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-15T11:00:53.274",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/381ff02c-3ff3-4687-b9a6-f9ecb0cbd560/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/381ff02c-3ff3-4687-b9a6-f9ecb0cbd560"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "cc926747-1a87-40e4-a04a-4c7087d539b2",
+"reference": "1-1/15-467/7",
+"title": "Vabariigi Presidendi otsus nr 474",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0b279a10-45bd-4586-8c74-0408877a825e",
+"fileName": "VP_25112024_o474.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-25T12:42:13.142",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0b279a10-45bd-4586-8c74-0408877a825e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0b279a10-45bd-4586-8c74-0408877a825e"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "cc926747-1a87-40e4-a04a-4c7087d539b2",
+"reference": "1-1/15-467/7",
+"title": "Vabariigi Presidendi otsus nr 474",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "713a6204-f720-4af4-b282-61854fe0369e",
+"fileName": "VP_25112024_o474.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-03T11:35:59.063",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/713a6204-f720-4af4-b282-61854fe0369e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/713a6204-f720-4af4-b282-61854fe0369e"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c9b4bc6a-4557-438c-a594-127c1b711329",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "662d1871-7538-4a4c-9b7e-a3a548cba746",
+"fileName": "467XV_Kinnistusr_ms_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-13T09:13:08.682",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/662d1871-7538-4a4c-9b7e-a3a548cba746/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/662d1871-7538-4a4c-9b7e-a3a548cba746"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c9b4bc6a-4557-438c-a594-127c1b711329",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3b73d6bd-5c64-40d8-8b9a-3dfdb76c3b68",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-13T15:13:13.196",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3b73d6bd-5c64-40d8-8b9a-3dfdb76c3b68/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3b73d6bd-5c64-40d8-8b9a-3dfdb76c3b68"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-07-15T11:00:07.986",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-07-17T22:45:00.137",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-09-16T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 16.09.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-09-25T14:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_ME_TAHTAJAKS",
+"value": "Teha ettepanek määrata muudatusettepanekute tähtajaks"
+},
+"plenaryAgendaDateTime": "2024-10-09T16:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Madis Kallas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "d3a460b5-dc46-4b32-bc57-a9de98c7e79a",
+"fileName": "ÕIGK_protokoll_16.09.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-20T11:46:52.442",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d3a460b5-dc46-4b32-bc57-a9de98c7e79a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d3a460b5-dc46-4b32-bc57-a9de98c7e79a"
+}
+}
+},
+{
+"uuid": "d38ff7fe-c6f5-4a86-8734-eda5ba563045",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_51.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-20T11:45:56.234",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d38ff7fe-c6f5-4a86-8734-eda5ba563045/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d38ff7fe-c6f5-4a86-8734-eda5ba563045"
+}
+}
+}
+]
+},
+{
+"date": "2024-09-25T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 25.09.2024 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-10-21T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 21.10.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-11-06T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-11-13T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "06e2d444-a4ed-4791-9587-26cedf7732df",
+"fileName": "ÕIGK_protokoll_21.10.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-25T12:32:09.318",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/06e2d444-a4ed-4791-9587-26cedf7732df/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/06e2d444-a4ed-4791-9587-26cedf7732df"
+}
+}
+},
+{
+"uuid": "63b85d50-3f27-42ad-89a3-9427fdb9781c",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_56.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-25T12:31:18.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/63b85d50-3f27-42ad-89a3-9427fdb9781c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/63b85d50-3f27-42ad-89a3-9427fdb9781c"
+}
+}
+}
+]
+},
+{
+"date": "2024-11-04T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 4.11.2024 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "d4ac9257-3994-4e47-b8c9-0902f9daddff",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_57.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-11T12:44:28.377",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d4ac9257-3994-4e47-b8c9-0902f9daddff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d4ac9257-3994-4e47-b8c9-0902f9daddff"
+}
+}
+},
+{
+"uuid": "8934e150-49c2-408f-bb21-45221dcc0447",
+"fileName": "ÕIGK_protokoll_4.11.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-11T12:45:29.634",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8934e150-49c2-408f-bb21-45221dcc0447/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8934e150-49c2-408f-bb21-45221dcc0447"
+}
+}
+}
+]
+},
+{
+"date": "2024-11-06T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 6.11.2024 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-11-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.11.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "93fe55e6-0875-448f-be2f-95c7680aa4ba",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-11-13T15:02:01.447",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/93fe55e6-0875-448f-be2f-95c7680aa4ba"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-11-13T17:08:31.479",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-11-25T12:49:05.582",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-11-25T16:36:32.33",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-11-28T10:13:18.648",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "acbde317-0241-48ce-8780-31899ea1899c",
+"reference": "1-1/15-467/1",
+"title": "Kaasamiskiri (eelnõu 467 SE)",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-09-16",
+"files": [
+{
+"uuid": "a794b060-3e73-4c26-a034-6eef90efd662",
+"fileName": "Kaasamiskiri_(eelnõu_467_SE).html",
+"fileExtension": "html",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T10:02:37.189",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a794b060-3e73-4c26-a034-6eef90efd662/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a794b060-3e73-4c26-a034-6eef90efd662"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/acbde317-0241-48ce-8780-31899ea1899c"
+}
+}
+},
+{
+"uuid": "845ab14d-998d-4afb-9b75-6ce168aa7fad",
+"reference": "1-1/15-467/6",
+"title": "Tartu Maakohtu arvamus kinnistusraamatuseaduse muutmise seaduse eelnõu 467 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-04",
+"files": [
+{
+"uuid": "16c516a0-454a-4c26-bc21-f8196e2513f7",
+"fileName": "7-1241260-1_01.11.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-04T08:37:56.718",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/16c516a0-454a-4c26-bc21-f8196e2513f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/16c516a0-454a-4c26-bc21-f8196e2513f7"
+}
+}
+},
+{
+"uuid": "defbd4e2-bea7-496e-9424-25ffdf00dc16",
+"fileName": "Arvamus_seaduseelnõu_467_SE_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-04T08:37:56.791",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/defbd4e2-bea7-496e-9424-25ffdf00dc16/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/defbd4e2-bea7-496e-9424-25ffdf00dc16"
+}
+}
+},
+{
+"uuid": "7f6e382e-a646-4d4d-8ecf-8195e457a66e",
+"fileName": "Arvamus_seaduseelnõu_467_SE_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-04T08:37:56.781",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7f6e382e-a646-4d4d-8ecf-8195e457a66e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7f6e382e-a646-4d4d-8ecf-8195e457a66e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/845ab14d-998d-4afb-9b75-6ce168aa7fad"
+}
+}
+},
+{
+"uuid": "c31c97a6-aa38-4dcd-96af-d6b99defb630",
+"reference": "1-1/15-467/2",
+"title": "Kohtutäiturite ja Pankrotihaldurite Koja arvamus kinnistusraamatuseaduse muutmise seaduse eelnõu 467 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-01",
+"files": [
+{
+"uuid": "92833402-9737-4a8a-a7be-6e7a5019826a",
+"fileName": "Arvamuse_esitamine_kinnistusraamatuseaduse_muutmise_seaduse_eelnõu_467_SE_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T10:41:30.834",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92833402-9737-4a8a-a7be-6e7a5019826a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92833402-9737-4a8a-a7be-6e7a5019826a"
+}
+}
+},
+{
+"uuid": "4b6da7bf-bad5-40e3-b643-d34f62e66627",
+"fileName": "Arvamus_KRS_RK.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T10:41:30.789",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4b6da7bf-bad5-40e3-b643-d34f62e66627/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4b6da7bf-bad5-40e3-b643-d34f62e66627"
+}
+}
+},
+{
+"uuid": "de5857df-2e97-4241-a27d-add0767b7c98",
+"fileName": "Arvamus_KRS_RK.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T10:41:30.724",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/de5857df-2e97-4241-a27d-add0767b7c98/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de5857df-2e97-4241-a27d-add0767b7c98"
+}
+}
+},
+{
+"uuid": "9b75a25b-8301-4068-b1f0-f590f03ca3bb",
+"fileName": "naidis_Transpordiameti_pohistatud_otsus_andmete_valjastamiseks.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T10:41:30.805",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9b75a25b-8301-4068-b1f0-f590f03ca3bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9b75a25b-8301-4068-b1f0-f590f03ca3bb"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c31c97a6-aa38-4dcd-96af-d6b99defb630"
+}
+}
+},
+{
+"uuid": "b505d5b0-b01a-4ea5-90cd-4cc00de08505",
+"reference": "1-1/15-467/3",
+"title": "Justiitsministeeriumi arvamus kinnistusraamatuseaduse muutmise seaduse eelnõu 467 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-03",
+"files": [
+{
+"uuid": "3a7bc9d6-c25c-4479-989e-75801b2c6a04",
+"fileName": "Kiri_467_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-03T10:21:26.495",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a7bc9d6-c25c-4479-989e-75801b2c6a04/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a7bc9d6-c25c-4479-989e-75801b2c6a04"
+}
+}
+},
+{
+"uuid": "83f09edc-4be5-4f35-9aba-7e8600bc0535",
+"fileName": "8-47046-1_02.10.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-03T10:21:26.384",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83f09edc-4be5-4f35-9aba-7e8600bc0535/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83f09edc-4be5-4f35-9aba-7e8600bc0535"
+}
+}
+},
+{
+"uuid": "07574c7f-c785-48d6-8a90-2834275c397c",
+"fileName": "Muudatusettepanek_seaduseelnõu_467_SE_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-03T10:21:26.464",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07574c7f-c785-48d6-8a90-2834275c397c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07574c7f-c785-48d6-8a90-2834275c397c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b505d5b0-b01a-4ea5-90cd-4cc00de08505"
+}
+}
+},
+{
+"uuid": "2f1f3c00-9aac-4870-a844-9a9151960deb",
+"reference": "1-1/15-467/4",
+"title": "Eesti Pangaliidu arvamus kinnistusraamatuseaduse muutmise seaduse eelnõu 467 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-07",
+"files": [
+{
+"uuid": "545f10b0-fb3f-4bcb-a2d8-c2597c73f70e",
+"fileName": "nr_41_PL_Riigikogu_õiguskomisjonile_7.10.2024_kinnistusraamatuseaduse_muutmine_467_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-07T14:46:02.157",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/545f10b0-fb3f-4bcb-a2d8-c2597c73f70e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/545f10b0-fb3f-4bcb-a2d8-c2597c73f70e"
+}
+}
+},
+{
+"uuid": "c3eebffb-e5e6-494d-9589-82ec83572496",
+"fileName": "väljaläinud_kiri.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-07T14:46:02.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3eebffb-e5e6-494d-9589-82ec83572496/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3eebffb-e5e6-494d-9589-82ec83572496"
+}
+}
+},
+{
+"uuid": "e30f5a65-34ef-499c-86c0-5448eb1a3279",
+"fileName": "PL_Riigikogu_õiguskomisjonile_7.10.2024_kinnistusraamatuseaduse_muutmine_467_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-07T14:46:02.269",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e30f5a65-34ef-499c-86c0-5448eb1a3279/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e30f5a65-34ef-499c-86c0-5448eb1a3279"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2f1f3c00-9aac-4870-a844-9a9151960deb"
+}
+}
+},
+{
+"uuid": "c7d0b4c6-0dbe-4772-b54b-1baa6daa0217",
+"reference": "1-1/15-467/5",
+"title": "Eesti Erametsaliidu arvamus kinnistusraamatuseaduse muutmise seaduse eelnõu 467 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-21",
+"files": [
+{
+"uuid": "acbbbe75-4921-473f-acb8-16100da15665",
+"fileName": "Kinistusraamatuseaduse_muutmine_EEML.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-21T14:37:48.978",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/acbbbe75-4921-473f-acb8-16100da15665/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/acbbbe75-4921-473f-acb8-16100da15665"
+}
+}
+},
+{
+"uuid": "11c4b74d-8d6c-432d-a580-8783d3121029",
+"fileName": "Kinistusraamatuseaduse_muutmine_EEML.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-21T14:37:48.91",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/11c4b74d-8d6c-432d-a580-8783d3121029/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/11c4b74d-8d6c-432d-a580-8783d3121029"
+}
+}
+},
+{
+"uuid": "78191d0b-6da3-486d-9ac5-57552cdc4825",
+"fileName": "kinnistusraamatuseaduse_muutmise_seadus.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-21T14:37:48.999",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78191d0b-6da3-486d-9ac5-57552cdc4825/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78191d0b-6da3-486d-9ac5-57552cdc4825"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c7d0b4c6-0dbe-4772-b54b-1baa6daa0217"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/3ea285ae-c87b-4e5d-9488-089276c31dff"
+}
+}
+}

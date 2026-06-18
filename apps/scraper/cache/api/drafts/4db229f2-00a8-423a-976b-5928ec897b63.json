@@ -1,0 +1,526 @@
+{
+"uuid": "4db229f2-00a8-423a-976b-5928ec897b63",
+"title": "Kohaliku omavalitsuse volikogu valimise seaduse muutmise seadus",
+"mark": 166,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kohaliku omavalitsuse volikogu valimise seaduse muutmise seadus 166 SE",
+"initialTitle": "Kohaliku omavalitsuse volikogu valimise seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärgiks on kehtestada riigikeele staatust, tõsta eesti keele oskuse muukeelse elanikkonna seas ning muuta omavalitsuste volikogude töö eesti keelseks.",
+"initiated": "2023-05-12",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9035e217-d990-40ca-87ed-54c77653c6d7",
+"name": "Pipi-Liis Siemann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9035e217-d990-40ca-87ed-54c77653c6d7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65b1d8bb-7f45-48f5-b4aa-7ba4ca459824",
+"name": "Henn Põlluaas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/65b1d8bb-7f45-48f5-b4aa-7ba4ca459824?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "f4e5d00e-19d1-428a-ba5e-5ce9ae4ef2c2",
+"name": "Helle-Moonika Helme",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/f4e5d00e-19d1-428a-ba5e-5ce9ae4ef2c2?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "4b96f3e5-af5e-41ce-86c9-3fdee3ce51da",
+"name": "Mart Helme",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4b96f3e5-af5e-41ce-86c9-3fdee3ce51da?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 699,
+"text": "kohalikud valimised"
+},
+{
+"edid": 717,
+"text": "õigus valimistel kandideerida"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "80131cda-6399-420f-8e97-f054abb27dd6",
+"title": "166 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bface086-1203-46ac-b136-1980a1fe50cd",
+"fileName": "166_KOVVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:43:24.372",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bface086-1203-46ac-b136-1980a1fe50cd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bface086-1203-46ac-b136-1980a1fe50cd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f7a0b51-5771-4830-8870-bae0d74d7d4f",
+"title": "3 RK liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "857b68df-a8e3-4cb5-bf57-7cde862bebf1",
+"fileName": "166_KOV_valimise_seaduse_muutmise_eelnõu_2023.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T11:31:37.32",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/857b68df-a8e3-4cb5-bf57-7cde862bebf1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/857b68df-a8e3-4cb5-bf57-7cde862bebf1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f7a0b51-5771-4830-8870-bae0d74d7d4f",
+"title": "3 RK liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b1e2432a-6d8e-49b3-94da-1d35f17755e6",
+"fileName": "166_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T16:56:20.127",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b1e2432a-6d8e-49b3-94da-1d35f17755e6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b1e2432a-6d8e-49b3-94da-1d35f17755e6"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "80131cda-6399-420f-8e97-f054abb27dd6",
+"title": "166 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ec141b23-0fe1-42d4-8ade-21336c16d3a7",
+"fileName": "166_KOVVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:47:30.718",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec141b23-0fe1-42d4-8ade-21336c16d3a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec141b23-0fe1-42d4-8ade-21336c16d3a7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f7a0b51-5771-4830-8870-bae0d74d7d4f",
+"title": "3 RK liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a4dbe14c-ed24-463f-a7fe-ec28f22dbed3",
+"fileName": "166_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T16:56:36.821",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a4dbe14c-ed24-463f-a7fe-ec28f22dbed3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a4dbe14c-ed24-463f-a7fe-ec28f22dbed3"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-12T16:16:51.294",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T19:46:00.247",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-11T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 11.09.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-19T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Pipi-Liis Siemann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "d6431bb0-d40a-4369-9a47-47431d53aee3",
+"fileName": "PÕSK_protokoll_11.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-28T10:29:43.852",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6431bb0-d40a-4369-9a47-47431d53aee3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6431bb0-d40a-4369-9a47-47431d53aee3"
+}
+}
+},
+{
+"uuid": "6a556dff-2795-446d-bb05-0eee5d64fe14",
+"fileName": "PÕSK.protokoll.11.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T10:34:40.036",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6a556dff-2795-446d-bb05-0eee5d64fe14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6a556dff-2795-446d-bb05-0eee5d64fe14"
+}
+}
+}
+]
+},
+{
+"date": "2024-02-14T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 14.02.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-02-21T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 21.02.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "dac820e7-1562-42d5-aa13-607fa15c5a0d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-02-21T19:14:57.32",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/dac820e7-1562-42d5-aa13-607fa15c5a0d"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "fdc1c31f-00c5-4e2a-aca2-a59a8dd0ab2a",
+"reference": "1-1/15-166/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 166 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-25",
+"files": [
+{
+"uuid": "c6c61cf4-fb63-466a-be68-fd013de05b42",
+"fileName": "166_KOVVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T11:37:19.368",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c6c61cf4-fb63-466a-be68-fd013de05b42/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c6c61cf4-fb63-466a-be68-fd013de05b42"
+}
+}
+},
+{
+"uuid": "043ab65f-c14b-4a84-afd9-1d1f97cb64ca",
+"fileName": "166_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T11:33:08.332",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/043ab65f-c14b-4a84-afd9-1d1f97cb64ca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/043ab65f-c14b-4a84-afd9-1d1f97cb64ca"
+}
+}
+},
+{
+"uuid": "8eef7e6c-785e-4e24-b985-82838fad71fe",
+"fileName": "1-1-15-166-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_166_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T11:44:48.05",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8eef7e6c-785e-4e24-b985-82838fad71fe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8eef7e6c-785e-4e24-b985-82838fad71fe"
+}
+}
+},
+{
+"uuid": "e76eb61c-e4f5-466b-8574-87a61ceb8677",
+"fileName": "166_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T11:33:33.888",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e76eb61c-e4f5-466b-8574-87a61ceb8677/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e76eb61c-e4f5-466b-8574-87a61ceb8677"
+}
+}
+},
+{
+"uuid": "89ef31e9-67e9-491b-8ed8-837277a27d7a",
+"fileName": "230525_KOVVS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T11:40:07.838",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/89ef31e9-67e9-491b-8ed8-837277a27d7a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/89ef31e9-67e9-491b-8ed8-837277a27d7a"
+}
+}
+},
+{
+"uuid": "a26300d9-a669-42c5-8e8c-69fd4c160fca",
+"fileName": "166_KOVVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T11:36:57.04",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a26300d9-a669-42c5-8e8c-69fd4c160fca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a26300d9-a669-42c5-8e8c-69fd4c160fca"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fdc1c31f-00c5-4e2a-aca2-a59a8dd0ab2a"
+}
+}
+},
+{
+"uuid": "e2a2849d-ab33-407e-b3f7-90c6e42ec615",
+"reference": "1-1/15-166/2",
+"title": "Vabariigi Valitsuse arvamus kohaliku omavalitsuse volikogu valimise seaduse muutmise seaduse eelnõu 166 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-29",
+"files": [
+{
+"uuid": "9a92bbcb-e085-408f-8f2f-06234d9eb30b",
+"fileName": "Vabariigi_Valitsuse_seisukoha_edastamine_(166_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-29T12:31:44.249",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9a92bbcb-e085-408f-8f2f-06234d9eb30b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9a92bbcb-e085-408f-8f2f-06234d9eb30b"
+}
+}
+},
+{
+"uuid": "eb9bf96c-e823-4e97-8149-73a575dbe120",
+"fileName": "8-24002_29.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-29T12:31:44.215",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb9bf96c-e823-4e97-8149-73a575dbe120/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb9bf96c-e823-4e97-8149-73a575dbe120"
+}
+}
+},
+{
+"uuid": "eca96913-139f-41b7-a845-52da02586f23",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0694_-_Kohaliku_omavalitsuse_volikogu_valimise_seaduse_muutmise_seaduse_eelnõu_(166_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-29T12:31:44.269",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eca96913-139f-41b7-a845-52da02586f23/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eca96913-139f-41b7-a845-52da02586f23"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e2a2849d-ab33-407e-b3f7-90c6e42ec615"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/4db229f2-00a8-423a-976b-5928ec897b63"
+}
+}
+}

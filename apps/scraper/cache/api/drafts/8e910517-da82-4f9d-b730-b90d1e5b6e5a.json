@@ -1,0 +1,991 @@
+{
+"uuid": "8e910517-da82-4f9d-b730-b90d1e5b6e5a",
+"title": "Riigikogu otsus „Urmas Varblase Eesti Panga nõukogu esimehe ametisse nimetamine\"",
+"mark": 23,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Urmas Varblase Eesti Panga nõukogu esimehe ametisse nimetamine\" 23 OE",
+"initialTitle": "Riigikogu otsus „Urmas Varblase Eesti Panga nõukogu esimehe ametisse nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Vabariigi President Alar Karis tegi Riigikogule ettepaneku nimetada Urmas Varblane Eesti Panga Nõukogu esimeheks alates 13. juunist 2023, seoses Eesti Panga Nõukogu esimehe Mart Laari ametivolituste lõppemisega 12. juunil.",
+"initiated": "2023-05-02",
+"joined": null,
+"accepted": "2023-05-24",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "002a9679-e3b0-4bca-a568-0466266af2fc",
+"name": "Hendrik Johannes Terras",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/002a9679-e3b0-4bca-a568-0466266af2fc?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3d6390fe-90e2-4c34-b2e4-78b408dd4e0c",
+"name": "Eesti Vabariigi President Alar Karis",
+"type": "classifier",
+"active": false,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 4763,
+"text": "keskpank"
+},
+{
+"edid": 1448,
+"text": "järelevalveorgan"
+},
+{
+"edid": 3559,
+"text": "ametisse nimetamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "61451db9-3f51-4adf-861c-9df5b1dc7a1e",
+"title": "Vabariigi presidendi esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1bbf54a7-be6e-45ac-8c8f-d5fdcce8754a",
+"fileName": "CV_Varblane.pdf",
+"fileExtension": "pdf",
+"fileTitle": "CV",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-02T14:23:20.256",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1bbf54a7-be6e-45ac-8c8f-d5fdcce8754a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1bbf54a7-be6e-45ac-8c8f-d5fdcce8754a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "ac393096-d556-4abe-942e-3f96beb399cb",
+"title": "23 OE I lug.tekst , seletuskiri, CV",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "07bea885-8690-4ff3-988b-e9c5f13d721f",
+"fileName": "23_CV_Varblane.pdf",
+"fileExtension": "pdf",
+"fileTitle": "CV Urmas Varblane",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T09:22:03.877",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07bea885-8690-4ff3-988b-e9c5f13d721f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07bea885-8690-4ff3-988b-e9c5f13d721f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "ac393096-d556-4abe-942e-3f96beb399cb",
+"title": "23 OE I lug.tekst , seletuskiri, CV",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4f535633-de11-4910-bf96-4e360afda681",
+"fileName": "23_RK_otsuse_eelnõu_Varblane_2023.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T09:19:36.183",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4f535633-de11-4910-bf96-4e360afda681/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4f535633-de11-4910-bf96-4e360afda681"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "61451db9-3f51-4adf-861c-9df5b1dc7a1e",
+"title": "Vabariigi presidendi esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a064a952-cf61-4e38-add4-d5ff0c51cc51",
+"fileName": "RK_otsuse_eelnõu_Varblane_2023.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-02T15:46:02.295",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a064a952-cf61-4e38-add4-d5ff0c51cc51/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a064a952-cf61-4e38-add4-d5ff0c51cc51"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "61451db9-3f51-4adf-861c-9df5b1dc7a1e",
+"title": "Vabariigi presidendi esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fff5e926-99dc-4374-9cdf-eb582af58085",
+"fileName": "RKotsuse_eelnou_Varblane.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-02T14:23:20.281",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fff5e926-99dc-4374-9cdf-eb582af58085/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fff5e926-99dc-4374-9cdf-eb582af58085"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "61451db9-3f51-4adf-861c-9df5b1dc7a1e",
+"title": "Vabariigi presidendi esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d9563eb5-b2b0-4cea-a268-0fed52aedd5e",
+"fileName": "VP_kaaskiri_ettepanek.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-02T14:23:20.293",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9563eb5-b2b0-4cea-a268-0fed52aedd5e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9563eb5-b2b0-4cea-a268-0fed52aedd5e"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "65fd39ff-ec7c-421c-9460-a4792732f9f6",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "62fc7756-9aae-4ce1-8710-376131a3dcaa",
+"fileName": "23XV_RK_o_24052023.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T09:22:07.841",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62fc7756-9aae-4ce1-8710-376131a3dcaa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62fc7756-9aae-4ce1-8710-376131a3dcaa"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "65fd39ff-ec7c-421c-9460-a4792732f9f6",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "42b8c0c9-2644-4e03-b7c6-67c04fa1d3a3",
+"fileName": "23XV_RK_o_24052023.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T09:21:52.788",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42b8c0c9-2644-4e03-b7c6-67c04fa1d3a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42b8c0c9-2644-4e03-b7c6-67c04fa1d3a3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "61451db9-3f51-4adf-861c-9df5b1dc7a1e",
+"title": "Vabariigi presidendi esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "03daa297-d2bb-4e79-94bc-32d52efd9ce5",
+"fileName": "Nousolek_Varblane.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Nõusolek",
+"accessRestrictionType": "FOR_USE_WITHIN_ESTABLISHMENT",
+"accessRestrictionStartDate": "2023-05-02",
+"accessRestrictionEndDate": "2098-05-02",
+"accessRestrictionBasis": [
+{
+"code": "23",
+"value": "AvTS § 35 lg 1 p 12 teave, mis sisaldab isikuandmeid, kui sellisele teabele juurdepääsu võimaldamine kahjustaks oluliselt andmesubjekti eraelu puutumatust "
+}
+],
+"created": "2023-05-02T14:23:20.243",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/files/03daa297-d2bb-4e79-94bc-32d52efd9ce5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "ac393096-d556-4abe-942e-3f96beb399cb",
+"title": "23 OE I lug.tekst , seletuskiri, CV",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bd7a4569-96d6-406e-a36b-995c8c755710",
+"fileName": "23_Seletuskiri_Varblane_042023.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T09:21:42.786",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bd7a4569-96d6-406e-a36b-995c8c755710/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bd7a4569-96d6-406e-a36b-995c8c755710"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "61451db9-3f51-4adf-861c-9df5b1dc7a1e",
+"title": "Vabariigi presidendi esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3875f33d-2a0e-45eb-8a77-bf81c253952d",
+"fileName": "Seletuskiri_Varblane_042023.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-02T15:46:36.358",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3875f33d-2a0e-45eb-8a77-bf81c253952d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3875f33d-2a0e-45eb-8a77-bf81c253952d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "61451db9-3f51-4adf-861c-9df5b1dc7a1e",
+"title": "Vabariigi presidendi esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "044eed0c-693a-4d80-a00c-df9306927a99",
+"fileName": "Seletuskiri_Varblane.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-02T14:23:20.268",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/044eed0c-693a-4d80-a00c-df9306927a99/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/044eed0c-693a-4d80-a00c-df9306927a99"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "ac393096-d556-4abe-942e-3f96beb399cb",
+"title": "23 OE I lug.tekst , seletuskiri, CV",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f8317e84-a94c-4d87-bb20-999202744f93",
+"fileName": "23_Nousolek_Varblane.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Urmas Varblase nõusolek",
+"accessRestrictionType": "FOR_USE_WITHIN_ESTABLISHMENT",
+"created": "2023-05-17T09:22:53.219",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f8317e84-a94c-4d87-bb20-999202744f93"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a9d60f10-a22e-40c5-b557-62c32dec4bda",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "467b2a2c-d0f5-41fb-90c5-1ab192a47f8f",
+"fileName": "23XV_RK_o_05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T16:06:08.099",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/467b2a2c-d0f5-41fb-90c5-1ab192a47f8f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/467b2a2c-d0f5-41fb-90c5-1ab192a47f8f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a9d60f10-a22e-40c5-b557-62c32dec4bda",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3ef8afff-676e-4cdb-a03c-b3172b915b79",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T16:16:33.84",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ef8afff-676e-4cdb-a03c-b3172b915b79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ef8afff-676e-4cdb-a03c-b3172b915b79"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-02T14:22:06.199",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-02T17:04:00.34",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-05-08T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 8.05.2023 kell 11.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "fa586639-5587-406e-957b-469c04fd0618",
+"fileName": "RAHK_protokoll_08.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T10:25:01.848",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa586639-5587-406e-957b-469c04fd0618/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa586639-5587-406e-957b-469c04fd0618"
+}
+}
+},
+{
+"uuid": "c5ad7739-4f34-4be8-b49a-e3abcea542fc",
+"fileName": "RAHK_protokoll_4_8_05_2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T10:22:20.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c5ad7739-4f34-4be8-b49a-e3abcea542fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c5ad7739-4f34-4be8-b49a-e3abcea542fc"
+}
+}
+},
+{
+"uuid": "7e92c119-0612-488f-865c-09d56c3ed8cc",
+"fileName": "Nõusolek_(1).docx",
+"fileExtension": "docx",
+"fileTitle": "(Tagatisfondi liikme kinnitus Aivar Sõerd)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:45:29.598",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e92c119-0612-488f-865c-09d56c3ed8cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e92c119-0612-488f-865c-09d56c3ed8cc"
+}
+}
+},
+{
+"uuid": "c4847fb9-619d-4fd4-9e7f-2baf91f4dc79",
+"fileName": "Tagatisfond_Aivar_Sõerd_nõusolek_5.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "(Tagatisfondi liikme kinnitus Aivar Sõerd)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:44:44.505",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c4847fb9-619d-4fd4-9e7f-2baf91f4dc79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c4847fb9-619d-4fd4-9e7f-2baf91f4dc79"
+}
+}
+},
+{
+"uuid": "0e423510-16cf-4d80-82d5-e5c0b33301a1",
+"fileName": "FR_Reform_ettepanek_Tagatisfondi_liikmeks_Aivar_Sõerd_08.05.2023_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Reformierakonna ettepanek Tagatisfondi liikmeks Aivar Sõerd)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:42:12.422",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e423510-16cf-4d80-82d5-e5c0b33301a1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e423510-16cf-4d80-82d5-e5c0b33301a1"
+}
+}
+},
+{
+"uuid": "27d59edf-b9e6-42ee-9374-c8e379cc0fbf",
+"fileName": "Nõusolek.docx",
+"fileExtension": "docx",
+"fileTitle": "(Tagatisfondi liikme kinnitus Martin Helme)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:40:28.376",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/27d59edf-b9e6-42ee-9374-c8e379cc0fbf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/27d59edf-b9e6-42ee-9374-c8e379cc0fbf"
+}
+}
+},
+{
+"uuid": "259a30ac-2dac-4d78-b877-6c54842e7d64",
+"fileName": "Tagatisgond_Martin_Helme_nõusolek_7.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "(Tagatisfondi liikme kinnitus Martin Helme)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:35:57.92",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/259a30ac-2dac-4d78-b877-6c54842e7d64/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/259a30ac-2dac-4d78-b877-6c54842e7d64"
+}
+}
+},
+{
+"uuid": "cd7edfcf-afeb-4bd4-adc4-f1a1301eeac2",
+"fileName": "Ettepanek_tagatisfond.docx",
+"fileExtension": "docx",
+"fileTitle": "( EKRE ettepanek Tagatisfondi liikmeks Martin Helme)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:35:44.835",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd7edfcf-afeb-4bd4-adc4-f1a1301eeac2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd7edfcf-afeb-4bd4-adc4-f1a1301eeac2"
+}
+}
+},
+{
+"uuid": "6e3f7cea-b8e7-4615-ae75-bd40a63a2da1",
+"fileName": "FR_EKRE_ettepanek_Tagatisfondi_liikmeks_Martin_Helme_7.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "( EKRE ettepanek Tagatisfondi liikmeks Martin Helme)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:35:10.108",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e3f7cea-b8e7-4615-ae75-bd40a63a2da1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e3f7cea-b8e7-4615-ae75-bd40a63a2da1"
+}
+}
+},
+{
+"uuid": "529e545d-d060-4bb8-8877-2af6c542a12e",
+"fileName": "EPN_liikme_kinnitus_Jaanus_Karilaid_08.05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "EPN liikme kinnitus Jaanus Karilaid",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:32:15.643",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/529e545d-d060-4bb8-8877-2af6c542a12e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/529e545d-d060-4bb8-8877-2af6c542a12e"
+}
+}
+},
+{
+"uuid": "03bddb64-dbd6-4f97-89b1-07f844511852",
+"fileName": "Kinnitus_EPN_Valge.docx",
+"fileExtension": "docx",
+"fileTitle": "EPN liikme kinnitus Jaak Valge",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:32:10.887",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/03bddb64-dbd6-4f97-89b1-07f844511852/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/03bddb64-dbd6-4f97-89b1-07f844511852"
+}
+}
+},
+{
+"uuid": "0091acaa-f063-43d9-a175-3d25bade21f7",
+"fileName": "EPN_liikme_kinnitus_Jaak_Valge_2.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "EPN liikme kinnitus Jaak Valge",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:31:53.053",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0091acaa-f063-43d9-a175-3d25bade21f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0091acaa-f063-43d9-a175-3d25bade21f7"
+}
+}
+},
+{
+"uuid": "6c46244a-b9bd-4b9b-b84f-aadf24cad6ff",
+"fileName": "Kinnitus_EP_nõukogu_Taro.docx",
+"fileExtension": "docx",
+"fileTitle": "EPN liikme kinnitus Igor Taro",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:31:40.647",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c46244a-b9bd-4b9b-b84f-aadf24cad6ff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c46244a-b9bd-4b9b-b84f-aadf24cad6ff"
+}
+}
+},
+{
+"uuid": "fabda983-8f32-4c8b-8ad8-12012539ba89",
+"fileName": "EPN_liikme_kinnitus_Igor_Taro_5.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "EPN liikme kinnitus Igor Taro",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:31:22.066",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fabda983-8f32-4c8b-8ad8-12012539ba89/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fabda983-8f32-4c8b-8ad8-12012539ba89"
+}
+}
+},
+{
+"uuid": "735a834d-f005-432d-927c-4fbdc3202861",
+"fileName": "KinnitusAnti_Allas_EP_nõukogu.docx",
+"fileExtension": "docx",
+"fileTitle": "EPN liikme kinnitus Anti Allas",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:31:16.686",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/735a834d-f005-432d-927c-4fbdc3202861/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/735a834d-f005-432d-927c-4fbdc3202861"
+}
+}
+},
+{
+"uuid": "e7d46535-da52-4cf6-8041-3c4a97a8fa49",
+"fileName": "EPN_liikme_kinnitus_Anti_Allas_3.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "EPN liikme kinnitus Anti Allas",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:30:52.038",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e7d46535-da52-4cf6-8041-3c4a97a8fa49/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e7d46535-da52-4cf6-8041-3c4a97a8fa49"
+}
+}
+},
+{
+"uuid": "1a3e3e42-e060-453f-8d9d-06dde9719398",
+"fileName": "Kinnitus_EPN_Sutt.docx",
+"fileExtension": "docx",
+"fileTitle": "EPN liikme kinnitus Andres Sutt",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:30:46.182",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1a3e3e42-e060-453f-8d9d-06dde9719398/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1a3e3e42-e060-453f-8d9d-06dde9719398"
+}
+}
+},
+{
+"uuid": "ed598e28-cc79-474b-91e3-426efdc32528",
+"fileName": "EPN_liikme_kinnitus_Andres_Sutt_05.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "EPN liikme kinnitus Andres Sutt",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:30:11.968",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ed598e28-cc79-474b-91e3-426efdc32528/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ed598e28-cc79-474b-91e3-426efdc32528"
+}
+}
+},
+{
+"uuid": "01e4837b-6643-4895-ace1-35c122b516e0",
+"fileName": "EP_Nõukogu_liikme_kinnitus.doc",
+"fileExtension": "doc",
+"fileTitle": "EPN liikme kinnitus Aivar Kokk",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:30:03.221",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/01e4837b-6643-4895-ace1-35c122b516e0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/01e4837b-6643-4895-ace1-35c122b516e0"
+}
+}
+},
+{
+"uuid": "9cf9714c-5d69-4a22-a181-a78c35992232",
+"fileName": "EPN_liikme_kinnitus_Aivar_Kokk_18.04.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "EPN liikme kinnitus Aivar Kokk",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:28:55.662",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9cf9714c-5d69-4a22-a181-a78c35992232/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9cf9714c-5d69-4a22-a181-a78c35992232"
+}
+}
+},
+{
+"uuid": "28a94582-0340-489a-b569-bc71fbc2242c",
+"fileName": "Ettepanek_EPN_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "(Fraktsiooni EKRE EPN liikme esitamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:22:45.534",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/28a94582-0340-489a-b569-bc71fbc2242c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/28a94582-0340-489a-b569-bc71fbc2242c"
+}
+}
+},
+{
+"uuid": "1e9ab7ce-1f33-4040-b1ca-6e163911da3b",
+"fileName": "FR_EKRE_ettepanek_EPN_liikmeks_Jaak_Valge_26.04.2023_.asice",
+"fileExtension": "asice",
+"fileTitle": "(Fraktsiooni EKRE EPN liikme esitamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:22:02.204",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e9ab7ce-1f33-4040-b1ca-6e163911da3b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e9ab7ce-1f33-4040-b1ca-6e163911da3b"
+}
+}
+},
+{
+"uuid": "bef169ff-947d-4057-8f8e-38a4dd2e79b9",
+"fileName": "Ettepanek_EP_nõukogu.docx",
+"fileExtension": "docx",
+"fileTitle": "(Fraktsiooni Eesti 200 EPN liikme esitamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:20:56.638",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bef169ff-947d-4057-8f8e-38a4dd2e79b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bef169ff-947d-4057-8f8e-38a4dd2e79b9"
+}
+}
+},
+{
+"uuid": "4365eb18-34a7-4956-b50d-cf6b8fde7139",
+"fileName": "FR_Eesti_200_ettepanek_EPN_liikmeks__Igor_Taro_5.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "(Fraktsiooni EPN liikmete esitamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:20:17.723",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4365eb18-34a7-4956-b50d-cf6b8fde7139/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4365eb18-34a7-4956-b50d-cf6b8fde7139"
+}
+}
+},
+{
+"uuid": "55037fa0-828c-4eba-9bf6-374e1474ac50",
+"fileName": "Fraktsioonide_EPN_liikmete_esitamine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Fraktsioonide EPN liikmete esitamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T16:14:47.2",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/55037fa0-828c-4eba-9bf6-374e1474ac50/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/55037fa0-828c-4eba-9bf6-374e1474ac50"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-05-16T14:00:00",
+"sittingTitle": "Erakorraline komisjoni istung teisipäev, 16.05.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2023-05-23T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni liige Hendrik Johannes Terras"
+}
+],
+"protocolFiles": [
+{
+"uuid": "342205ae-0079-4b17-a41c-398a691ca21a",
+"fileName": "RAHK_protokoll_9_16_05_2023_erakorraline.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T11:39:58.824",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/342205ae-0079-4b17-a41c-398a691ca21a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/342205ae-0079-4b17-a41c-398a691ca21a"
+}
+}
+},
+{
+"uuid": "a68e874f-9aea-4dc5-b7d3-0c84b303eead",
+"fileName": "RAHK_protokoll_16.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T11:40:38.327",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a68e874f-9aea-4dc5-b7d3-0c84b303eead/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a68e874f-9aea-4dc5-b7d3-0c84b303eead"
+}
+}
+}
+]
+},
+{
+"date": "2023-05-24T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 24.05.2023 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "e3e76143-01f6-44db-a724-77a4fca22fed",
+"type": {
+"code": "SALAJANE",
+"value": "Salajane"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-05-24T15:25:29.18",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e3e76143-01f6-44db-a724-77a4fca22fed"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2023-05-25T09:21:30.271",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2023-05-26T14:28:31.892",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/8e910517-da82-4f9d-b730-b90d1e5b6e5a"
+}
+}
+}

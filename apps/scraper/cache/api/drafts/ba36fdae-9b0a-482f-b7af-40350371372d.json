@@ -1,0 +1,609 @@
+{
+"uuid": "ba36fdae-9b0a-482f-b7af-40350371372d",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele põhikooli- ja gümnaasiumiseaduse muutmiseks\"",
+"mark": 279,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele põhikooli- ja gümnaasiumiseaduse muutmiseks\" 279 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele põhikooli- ja gümnaasiumiseaduse muutmiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek koostada ja esitada Riigikogule põhikooli- ja gümnaasiumiseaduse muutmise seadus, millega kehtestada ukraina sõjapagulaste lastele Eestis õppimisel õppekeeleks ukraina keel.",
+"initiated": "2023-09-20",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-10-05T17:15:00",
+"responsibleMember": {
+"uuid": "b5922bb2-56bb-4de6-a7e1-754553191c27",
+"name": "Heljo Pikhof",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/b5922bb2-56bb-4de6-a7e1-754553191c27?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5946,
+"text": "Ukraina"
+},
+{
+"edid": 2986,
+"text": "pagulane"
+},
+{
+"edid": 789,
+"text": "kohustuslik haridus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "3df58b6d-a09a-46ca-9735-df927a264f23",
+"title": "279 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "240454f1-da85-424e-bcf7-30cca0365774",
+"fileName": "279_OE_põhikooli_ja_gümnaasiumiseadus_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-13T16:59:58.959",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/240454f1-da85-424e-bcf7-30cca0365774/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/240454f1-da85-424e-bcf7-30cca0365774"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f1eae39-db87-4585-9341-5a68422b760b",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7890cb8f-41a5-4198-aa57-544effa0ae8a",
+"fileName": "279_OE_põhikooli_ja_gümnaasiumiseadus_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:30:01.563",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7890cb8f-41a5-4198-aa57-544effa0ae8a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7890cb8f-41a5-4198-aa57-544effa0ae8a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f1eae39-db87-4585-9341-5a68422b760b",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9633f494-eafb-48fd-a1c4-5e4f044a4291",
+"fileName": "279E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:00:01.377",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9633f494-eafb-48fd-a1c4-5e4f044a4291/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9633f494-eafb-48fd-a1c4-5e4f044a4291"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "3df58b6d-a09a-46ca-9735-df927a264f23",
+"title": "279 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6b8fa2b8-7789-48ac-894c-fb97e3f1aa4a",
+"fileName": "279_OE_põhikooli_ja_gümnaasiumiseaduse_muutmise_seaduse_seletuskiri_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-13T17:00:12.76",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b8fa2b8-7789-48ac-894c-fb97e3f1aa4a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b8fa2b8-7789-48ac-894c-fb97e3f1aa4a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f1eae39-db87-4585-9341-5a68422b760b",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "062ba9fe-2791-4438-a1bc-d067f96fe034",
+"fileName": "279_OE_põhikooli_ja_gümnaasiumiseaduse_muutmise_seaduse_seletuskiri_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:30:12.943",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/062ba9fe-2791-4438-a1bc-d067f96fe034/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/062ba9fe-2791-4438-a1bc-d067f96fe034"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f1eae39-db87-4585-9341-5a68422b760b",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f199c006-f5b9-4a3e-82e7-b6c490461443",
+"fileName": "279SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:00:11.087",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f199c006-f5b9-4a3e-82e7-b6c490461443/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f199c006-f5b9-4a3e-82e7-b6c490461443"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-09-20T15:36:57.074",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-09-21T16:09:00.595",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-11-14T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 14.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Jätkata menetlust komisjonis"
+}
+],
+"protocolFiles": [
+{
+"uuid": "0fb6ec8b-b5b5-4cc5-b3aa-1580c8dcb0cf",
+"fileName": "Volikiri_14.11.23.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (V. Vooglaid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-13T15:42:21.832",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0fb6ec8b-b5b5-4cc5-b3aa-1580c8dcb0cf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0fb6ec8b-b5b5-4cc5-b3aa-1580c8dcb0cf"
+}
+}
+},
+{
+"uuid": "7564aca5-1440-4c91-8ad2-b2a051645f2a",
+"fileName": "Protokoll_25_(14.11.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-12T15:06:07.083",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7564aca5-1440-4c91-8ad2-b2a051645f2a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7564aca5-1440-4c91-8ad2-b2a051645f2a"
+}
+}
+},
+{
+"uuid": "6c7462a9-449e-4ef3-80d3-3156b43a02c8",
+"fileName": "KULK_protokoll_(14.11.2023).asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-12T15:10:41.753",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c7462a9-449e-4ef3-80d3-3156b43a02c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c7462a9-449e-4ef3-80d3-3156b43a02c8"
+}
+}
+}
+]
+},
+{
+"date": "2023-12-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.12.2023 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "1e90a69f-a80c-452b-9337-0529d8c83a28",
+"fileName": "Asendamine_Izmailova_12.12.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-09T08:59:35.533",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e90a69f-a80c-452b-9337-0529d8c83a28/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e90a69f-a80c-452b-9337-0529d8c83a28"
+}
+}
+},
+{
+"uuid": "8936dd38-d118-4f70-bb91-d93128c21414",
+"fileName": "Asendamine.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri (Tanel Kiik)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-08T12:07:48.391",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8936dd38-d118-4f70-bb91-d93128c21414/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8936dd38-d118-4f70-bb91-d93128c21414"
+}
+}
+},
+{
+"uuid": "847a84b4-070b-471f-92a1-01257200a604",
+"fileName": "Asendamine_12.12.23.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (Tanel Kiik)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-08T12:06:03.799",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/847a84b4-070b-471f-92a1-01257200a604/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/847a84b4-070b-471f-92a1-01257200a604"
+}
+}
+},
+{
+"uuid": "0350ee6c-4635-42bf-aa55-5ba889a89657",
+"fileName": "KULK_protokoll_12.12.23.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-08T12:04:48.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0350ee6c-4635-42bf-aa55-5ba889a89657/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0350ee6c-4635-42bf-aa55-5ba889a89657"
+}
+}
+},
+{
+"uuid": "dde1b040-1be7-404c-aaa6-6d433b3925fa",
+"fileName": "Protokoll_30_(12.12.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-08T12:03:35.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dde1b040-1be7-404c-aaa6-6d433b3925fa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dde1b040-1be7-404c-aaa6-6d433b3925fa"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-03-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.03.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-03-21T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Heljo Pikhof"
+}
+],
+"protocolFiles": [
+{
+"uuid": "f47d8196-8291-443a-8709-5dd71c5dd261",
+"fileName": "Kultuurikomisjon_ettekanne_12.03.24.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (haridusministri slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T16:32:07.768",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f47d8196-8291-443a-8709-5dd71c5dd261/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f47d8196-8291-443a-8709-5dd71c5dd261"
+}
+}
+},
+{
+"uuid": "a873df03-d620-41f0-afb8-cd2054f4a176",
+"fileName": "KULK_protokoll_46.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T16:33:36.988",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a873df03-d620-41f0-afb8-cd2054f4a176/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a873df03-d620-41f0-afb8-cd2054f4a176"
+}
+}
+},
+{
+"uuid": "54467644-d781-4912-88d9-b38521150770",
+"fileName": "Protokoll_46_(12.03.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T16:31:47.626",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/54467644-d781-4912-88d9-b38521150770/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/54467644-d781-4912-88d9-b38521150770"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-21T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 21.03.2024 10:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-04-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.04.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "f221f647-113d-4efd-9bac-a0f5a2e6d370",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-04-03T17:27:38.1",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f221f647-113d-4efd-9bac-a0f5a2e6d370"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6d0fa119-76bf-4c97-a88b-30bed2b84778",
+"reference": "1-1/15-279/2",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse ,,Ettepaneku tegemine Vabariigi Valitsusele põhikooli- ja gümnaasiumiseaduse muutmiseks\" eelnõu 279 OE; Riigikogu otsuse ,,Ettepaneku tegemine Vabariigi Valitsusele teha ettevalmistused referendumi korraldamiseks seonduvalt seksuaalkasvatuse lubatavusega koolides ja lasteaedades\" eelnõu 281 OE; Riigikogu otsuse ,,Ettepaneku tegemine Vabariigi Valitsusele algatada õigusaktide eelnõud, millega tagatakse koolivõrgu kujundamise arusaadavus ja etteplaneeritus\" eelnõu 285 OE ning Riigikogu otsuse ,,Ettepaneku tegemine Vabariigi Valitsusele rakendada tõhusaid meetmeid kaitsmaks alaealisi kokkupuudete eest pornograafiaga\" eelnõu 326 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-12-11",
+"files": [
+{
+"uuid": "25ec688e-cb09-4d63-a985-f687c774777d",
+"fileName": "396.tel_Arvamus_279OE_281OE_285OE_ja_326OE_häälteenamus..pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-11T14:15:47.487",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25ec688e-cb09-4d63-a985-f687c774777d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25ec688e-cb09-4d63-a985-f687c774777d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6d0fa119-76bf-4c97-a88b-30bed2b84778"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "b3c0e54d-b3a4-476a-bc6a-72d5e0062602",
+"reference": "1-1/15-279/1",
+"title": "Eesti Konservatiivse Rahvaerakonna fraktsiooni muudatusettepanekud ja muudatusettepanekute tagasivõtmine Riigikogu otsuse eelnõu ,,Ettepaneku tegemine Vabariigi Valitsusele põhikooli- ja gümnaasiumiseaduse muutmiseks\" 279 OE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "fa17c3b2-b321-4429-b79f-34128fd306bd",
+"fileName": "MEtagasivõtmine_279OE_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "ME tagasivõtmine",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-22T14:00:49.35",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa17c3b2-b321-4429-b79f-34128fd306bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa17c3b2-b321-4429-b79f-34128fd306bd"
+}
+}
+},
+{
+"uuid": "858653db-e054-4753-a5c0-094799e5c640",
+"fileName": "ME_279OE_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T13:12:58.457",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/858653db-e054-4753-a5c0-094799e5c640/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/858653db-e054-4753-a5c0-094799e5c640"
+}
+}
+},
+{
+"uuid": "5f034373-093c-432e-8cb8-4f53732491ef",
+"fileName": "ME_279OE_EKREfr.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T13:12:51.531",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f034373-093c-432e-8cb8-4f53732491ef/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f034373-093c-432e-8cb8-4f53732491ef"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b3c0e54d-b3a4-476a-bc6a-72d5e0062602"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/ba36fdae-9b0a-482f-b7af-40350371372d"
+}
+}
+}

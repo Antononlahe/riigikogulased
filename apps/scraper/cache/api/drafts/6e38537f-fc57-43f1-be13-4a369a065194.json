@@ -1,0 +1,543 @@
+{
+"uuid": "6e38537f-fc57-43f1-be13-4a369a065194",
+"title": "Õppetoetuste ja õppelaenu seaduse muutmise seadus",
+"mark": 288,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Õppetoetuste ja õppelaenu seaduse muutmise seadus 288 SE",
+"initialTitle": "Õppetoetuste ja õppelaenu seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõus on laenu tagasimaksmise tähtaega pikendatud neljale või viiele aastale, tõstetud õppelaenu mahtu 10 miinimumpalgani ühes õppeaastas, sätestatud, et õppelaenu saavad ainult Eesti Vabariigi ja Eestis õppivate teiste Euroopa Liidu riikide kodanikud, diferentseeritud õppelaenu tagatised, nii, et Eestis õppivate Eesti Vabariigi kodanike puhul pole käendust ega tagatist vaja, ning sätestatud, et riik kustutab õppelaenust pool, kui laenusaaja loodud perekonnas on üks alaealine laps, ning kogu õppelaenu, kui laenusaaja loodud perekonnas on vähemalt kaks alaealist last.",
+"initiated": "2023-09-25",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "ee639cdf-b86c-48b7-9b34-fbba9b83826d",
+"name": "Margit Sutrop",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/ee639cdf-b86c-48b7-9b34-fbba9b83826d?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1380,
+"text": "õppetoetus"
+},
+{
+"edid": 1130,
+"text": "laenutagatis"
+},
+{
+"edid": 3263,
+"text": "tagasimaksmine"
+},
+{
+"edid": 758,
+"text": "laps"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "65b35a0c-6e22-4a83-a361-f3b81c7a7a06",
+"title": "288 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "18c01b6d-7831-47a8-a16e-366f2899c4da",
+"fileName": "288_ÕÕS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-21T14:43:41.744",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/18c01b6d-7831-47a8-a16e-366f2899c4da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/18c01b6d-7831-47a8-a16e-366f2899c4da"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e49b0265-0b13-4abb-b12b-c46f83138f16",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "17bd84ce-601f-4a04-9c7b-88caa54baa7e",
+"fileName": "288_ÕÕS_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:00:59.248",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17bd84ce-601f-4a04-9c7b-88caa54baa7e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17bd84ce-601f-4a04-9c7b-88caa54baa7e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e49b0265-0b13-4abb-b12b-c46f83138f16",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cb897734-9c96-400b-acbf-4a8bd7610774",
+"fileName": "288E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:27:39.136",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cb897734-9c96-400b-acbf-4a8bd7610774/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cb897734-9c96-400b-acbf-4a8bd7610774"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "65b35a0c-6e22-4a83-a361-f3b81c7a7a06",
+"title": "288 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "65697578-b7f7-4f54-82ae-d37c16a633eb",
+"fileName": "288_ÕÕS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-21T14:44:11.523",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/65697578-b7f7-4f54-82ae-d37c16a633eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/65697578-b7f7-4f54-82ae-d37c16a633eb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e49b0265-0b13-4abb-b12b-c46f83138f16",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7d36a444-d380-4d7c-80c8-e781a9a465c9",
+"fileName": "288_ÕÕS_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:01:09.968",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7d36a444-d380-4d7c-80c8-e781a9a465c9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7d36a444-d380-4d7c-80c8-e781a9a465c9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e49b0265-0b13-4abb-b12b-c46f83138f16",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5ae06cba-e8f8-494d-b45f-35a3b0fe96fa",
+"fileName": "288SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:27:51.974",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ae06cba-e8f8-494d-b45f-35a3b0fe96fa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ae06cba-e8f8-494d-b45f-35a3b0fe96fa"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-09-25T16:27:13.237",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-09-26T13:45:00.572",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-11-21T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 21.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-12-05T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Margit Sutrop"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "c1b30001-d339-4bc6-a2a3-34c4e88a362e",
+"fileName": "Poolamets_21.11.23.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T18:13:59.661",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c1b30001-d339-4bc6-a2a3-34c4e88a362e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c1b30001-d339-4bc6-a2a3-34c4e88a362e"
+}
+}
+},
+{
+"uuid": "e3d90859-41ea-4f54-be1d-e65de577772a",
+"fileName": "Protokoll_26_(21.11.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T18:09:03.872",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e3d90859-41ea-4f54-be1d-e65de577772a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e3d90859-41ea-4f54-be1d-e65de577772a"
+}
+}
+},
+{
+"uuid": "ee5f9cea-3be9-4514-83e7-64f987b48aab",
+"fileName": "KULK_protokoll_26_(21.11.2023).asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T18:09:59.228",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee5f9cea-3be9-4514-83e7-64f987b48aab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee5f9cea-3be9-4514-83e7-64f987b48aab"
+}
+}
+}
+]
+},
+{
+"date": "2024-02-07T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 7.02.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "63ebaff4-3e6b-443a-a830-2f7fe8ebaf4e",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-02-07T16:08:07.713",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/63ebaff4-3e6b-443a-a830-2f7fe8ebaf4e"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "b4efdfd3-5edd-4b2c-b7df-1b42ceb90a97",
+"reference": "1-1/15-288/2",
+"title": "Vabariigi Valitsuse arvamus õppetoetuste ja õppelaenu seaduse muutmise seaduse eelnõu 288 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-03",
+"files": [
+{
+"uuid": "07ed5561-7cc7-48f6-a2e5-eb03e8079225",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-1281_-_Õppetoetuste_ja_õppelaenu_seaduse_muutmise_seaduse_eelnõu_(288_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:29:08.186",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07ed5561-7cc7-48f6-a2e5-eb03e8079225/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07ed5561-7cc7-48f6-a2e5-eb03e8079225"
+}
+}
+},
+{
+"uuid": "ade01ad2-a954-460f-b9a8-50fe4ae68a93",
+"fileName": "Vabariigi_Valitsuse_seisukoha_esitamine_ï¿½ppetoetuste_ja_ï¿½ppelaenu_seaduse_muutmise_seaduse_eelnï¿½u_(288_SE)_kohta_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:29:08.138",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ade01ad2-a954-460f-b9a8-50fe4ae68a93/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ade01ad2-a954-460f-b9a8-50fe4ae68a93"
+}
+}
+},
+{
+"uuid": "63c43e7e-a288-44c8-9d7a-9ece7ed14f7b",
+"fileName": "Vabariigi_Valitsuse_seisukoha_esitamine_õppetoetuste_ja_õppelaenu_seaduse_muutmise_seaduse_eelnõu_(288_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:29:08.168",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/63c43e7e-a288-44c8-9d7a-9ece7ed14f7b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/63c43e7e-a288-44c8-9d7a-9ece7ed14f7b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b4efdfd3-5edd-4b2c-b7df-1b42ceb90a97"
+}
+}
+},
+{
+"uuid": "8b0f85ac-bff6-411f-a5c3-718c18c9fd00",
+"reference": "1-1/15-288/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 288 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-25",
+"files": [
+{
+"uuid": "aebaaac0-7e18-44b9-9902-316e79e2326d",
+"fileName": "288_ÕÕS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:18:10.752",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aebaaac0-7e18-44b9-9902-316e79e2326d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aebaaac0-7e18-44b9-9902-316e79e2326d"
+}
+}
+},
+{
+"uuid": "55653d8c-1050-4b6c-b16b-89b7c3cd0dbe",
+"fileName": "230926_ÕÕS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T19:19:51.3",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/55653d8c-1050-4b6c-b16b-89b7c3cd0dbe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/55653d8c-1050-4b6c-b16b-89b7c3cd0dbe"
+}
+}
+},
+{
+"uuid": "8c4f0465-c576-43d8-89f5-0d931991b357",
+"fileName": "288_ÕÕS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:17:49.554",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8c4f0465-c576-43d8-89f5-0d931991b357/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8c4f0465-c576-43d8-89f5-0d931991b357"
+}
+}
+},
+{
+"uuid": "adc12fde-9802-49cc-a30e-be783778717f",
+"fileName": "1-1-15-288-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_288_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T13:48:28.631",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/adc12fde-9802-49cc-a30e-be783778717f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/adc12fde-9802-49cc-a30e-be783778717f"
+}
+}
+},
+{
+"uuid": "ee8ba54b-3032-4933-b1fe-718c061cf3ed",
+"fileName": "288E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:16:31.369",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee8ba54b-3032-4933-b1fe-718c061cf3ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee8ba54b-3032-4933-b1fe-718c061cf3ed"
+}
+}
+},
+{
+"uuid": "59bb8360-a1fa-4b3c-b94f-63cb69e1b248",
+"fileName": "288SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:16:45.823",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59bb8360-a1fa-4b3c-b94f-63cb69e1b248/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59bb8360-a1fa-4b3c-b94f-63cb69e1b248"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8b0f85ac-bff6-411f-a5c3-718c18c9fd00"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/6e38537f-fc57-43f1-be13-4a369a065194"
+}
+}
+}

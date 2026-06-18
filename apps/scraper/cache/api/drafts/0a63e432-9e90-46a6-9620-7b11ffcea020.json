@@ -1,0 +1,517 @@
+{
+"uuid": "0a63e432-9e90-46a6-9620-7b11ffcea020",
+"title": "Riigikogu otsus „Riigikogu liikmest Eesti Rahvusringhäälingu nõukogu \nliikme nimetamine\"",
+"mark": 372,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu liikmest Eesti Rahvusringhäälingu nõukogu \nliikme nimetamine\" 372 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu liikmest Eesti Rahvusringhäälingu nõukogu liikme nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu näeb ette nimetada Eesti Rahvusringhäälingu nõukogu liikmeks Riigikogu liige Vadim Belobrovtsev.\nEesti Rahvusringhäälingu nõukogu koosneb Riigikogu liikmetest ja Rahvusringhäälingu tegevusvaldkonna tunnustatud asjatundjatest. Riigikogu nimetab Riigikogu kultuurikomisjoni ettepanekul nõukokku ühe esindaja igast Riigikogu fraktsioonist Riigikogu koosseisu volituste lõppemiseni ning neli Rahvusringhäälingu tegevusvaldkonna tunnustatud asjatundjat, kelle volitused kestavad viis aastat.\nVadim Belobrovtsevi Eesti Rahvusringhäälingu nõukogu liikmeks nimetamise põhjus on Eesti Rahvusringhäälingu nõukogu senise liikme Andre Hanimägi Eesti Keskerakonna fraktsioonist lahkumine, mille on Riigikogu juhatus registreerinud 5. jaanuaril 2024.",
+"initiated": "2024-02-05",
+"joined": null,
+"accepted": "2024-02-13",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "4f816f8e-1501-4940-b87a-af029fcd98c0",
+"name": "Tanel Tein",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4f816f8e-1501-4940-b87a-af029fcd98c0?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2883,
+"text": "ringhääling"
+},
+{
+"edid": 878,
+"text": "avalik asutus"
+},
+{
+"edid": 1154,
+"text": "juhtimine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0b61d25c-3fc1-4877-b799-e8c9f1277f6d",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6ec06189-0f78-4c91-b2f6-568f823fa47d",
+"fileName": "Esitluskiri_05.02.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-05T16:25:57.417",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6ec06189-0f78-4c91-b2f6-568f823fa47d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6ec06189-0f78-4c91-b2f6-568f823fa47d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "fcc21958-2c92-4891-8752-df60517c509b",
+"title": "372 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "742e41b6-4e10-455e-bef4-2eb4e99363af",
+"fileName": "372_OE_I_ERR_NK_liige_05.02.24.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-07T10:53:59.164",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/742e41b6-4e10-455e-bef4-2eb4e99363af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/742e41b6-4e10-455e-bef4-2eb4e99363af"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0b61d25c-3fc1-4877-b799-e8c9f1277f6d",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0c8e588a-a5ae-4790-8024-9ed3b26e6009",
+"fileName": "OE_I_ERR_NK_liige_05.02.24.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-05T16:25:57.528",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c8e588a-a5ae-4790-8024-9ed3b26e6009/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c8e588a-a5ae-4790-8024-9ed3b26e6009"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0b61d25c-3fc1-4877-b799-e8c9f1277f6d",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "52971100-cbde-4313-be7c-63afe6ca1da3",
+"fileName": "Esitluskiri_05.02.2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-05T16:25:57.509",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52971100-cbde-4313-be7c-63afe6ca1da3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52971100-cbde-4313-be7c-63afe6ca1da3"
+}
+}
+}
+},
+{
+"readingCode": null,
+"document": {
+"uuid": "1fa7e17c-1b52-4234-904b-40121163f0f1",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "49129e99-4f0a-4998-8257-5e1bef22a421",
+"fileName": "372XV_RK_o_15022024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-15T12:25:29.507",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/49129e99-4f0a-4998-8257-5e1bef22a421/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/49129e99-4f0a-4998-8257-5e1bef22a421"
+}
+}
+}
+},
+{
+"readingCode": null,
+"document": {
+"uuid": "1fa7e17c-1b52-4234-904b-40121163f0f1",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c1548ce8-64b4-4346-9f57-da6f56b3b2a4",
+"fileName": "372XV_RK_o_15022024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-15T12:24:03.546",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c1548ce8-64b4-4346-9f57-da6f56b3b2a4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c1548ce8-64b4-4346-9f57-da6f56b3b2a4"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "fcc21958-2c92-4891-8752-df60517c509b",
+"title": "372 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d6430008-1cb6-4132-93a8-1353c8b7325e",
+"fileName": "372_Seletuskiri_ERR_NK_liige_05.02.24.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-07T10:54:19.321",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6430008-1cb6-4132-93a8-1353c8b7325e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6430008-1cb6-4132-93a8-1353c8b7325e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0b61d25c-3fc1-4877-b799-e8c9f1277f6d",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "90f25c57-5df6-4f7c-860a-99b6a9fe1196",
+"fileName": "Seletuskiri_ERR_NK_liige_05.02.24.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-05T16:25:57.544",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90f25c57-5df6-4f7c-860a-99b6a9fe1196/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90f25c57-5df6-4f7c-860a-99b6a9fe1196"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9c987627-2e6c-4cd6-a51a-455aa4aba4d5",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7a85d5d5-7f98-4b0b-8b1f-c82734a08036",
+"fileName": "372XV_RK_o_02.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-13T13:49:15.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a85d5d5-7f98-4b0b-8b1f-c82734a08036/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a85d5d5-7f98-4b0b-8b1f-c82734a08036"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9c987627-2e6c-4cd6-a51a-455aa4aba4d5",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d89c750e-6f46-4b6c-b89b-a25d074948dc",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-15T11:59:12.975",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d89c750e-6f46-4b6c-b89b-a25d074948dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d89c750e-6f46-4b6c-b89b-a25d074948dc"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-02-05T16:25:23.3",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-02-06T13:57:00.547",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-01-25T14:45:00",
+"sittingTitle": "Komisjoni istung neljapäev, 25.01.2024, 2 minutit pärast komisjoni korralise istungi lõppu",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-02-13T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Kadri Tali"
+}
+],
+"protocolFiles": [
+{
+"uuid": "7d61efa8-daa2-4340-801a-1df78f98ac94",
+"fileName": "Protokoll_39__erak_(25.01.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-05T09:16:25.285",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7d61efa8-daa2-4340-801a-1df78f98ac94/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7d61efa8-daa2-4340-801a-1df78f98ac94"
+}
+}
+},
+{
+"uuid": "9c40109b-2597-480d-973a-73ae2ba82ac1",
+"fileName": "Protokoll_39.asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-05T09:17:10.404",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9c40109b-2597-480d-973a-73ae2ba82ac1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9c40109b-2597-480d-973a-73ae2ba82ac1"
+}
+}
+}
+]
+},
+{
+"date": "2024-02-12T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 12.02.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Tanel Tein"
+}
+],
+"protocolFiles": [
+{
+"uuid": "83035536-5e67-4001-aac7-c42a795844a1",
+"fileName": "KULK_protokoll_41.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-21T13:03:06.066",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83035536-5e67-4001-aac7-c42a795844a1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83035536-5e67-4001-aac7-c42a795844a1"
+}
+}
+},
+{
+"uuid": "6b19a147-550c-49e2-9857-c3de952e637d",
+"fileName": "Protokoll_41_(12.02.24).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-21T12:51:58.321",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b19a147-550c-49e2-9857-c3de952e637d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b19a147-550c-49e2-9857-c3de952e637d"
+}
+}
+},
+{
+"uuid": "a46f983f-1c3d-4be6-a450-c9642b1695ae",
+"fileName": "Õpetajad_12.veebr_(002).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Riigikontrolli slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-21T12:54:44.058",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a46f983f-1c3d-4be6-a450-c9642b1695ae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a46f983f-1c3d-4be6-a450-c9642b1695ae"
+}
+}
+}
+]
+},
+{
+"date": "2024-02-13T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 13.02.2024 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "c60ecc8d-5f56-4396-9258-258d7c484bc6",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-02-13T13:42:57.307",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/c60ecc8d-5f56-4396-9258-258d7c484bc6"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-02-15T12:22:27.991",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-02-16T13:54:56.002",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/0a63e432-9e90-46a6-9620-7b11ffcea020"
+}
+}
+}

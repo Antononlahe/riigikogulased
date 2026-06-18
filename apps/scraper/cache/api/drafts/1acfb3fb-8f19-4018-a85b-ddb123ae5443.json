@@ -1,0 +1,575 @@
+{
+"uuid": "1acfb3fb-8f19-4018-a85b-ddb123ae5443",
+"title": "Ühistranspordiseaduse muutmise seadus",
+"mark": 578,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Ühistranspordiseaduse muutmise seadus 578 SE",
+"initialTitle": "Ühistranspordiseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu on ajendatud asjaolust, et tagada võrdne kohtlemine seaduse peatüki „Nõuded taksoveol“ täitmiseks. Samuti on eelnõu eesmärgiks tagada keeleseaduses sätestatud normide ja nõuete täitmine.\nEelnõu kohaselt on taksovedu ilma taksoveoloa, sõidukikaardi ja teenindajakaardita keelatud. Taksoveo osutamisel peab sõidukil olema vähemalt üks taksotunnus, milleks on auto katusel paiknev takso plafoon või auto paremal küljel asetsev taksoteenust osutav kirjeldus. Samuti peab taksoveo osutaja esitama tulenevalt keeleseadusest vähemalt B1-tasemel eesti keele oskust tõendava dokumendi.",
+"initiated": "2025-02-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "798de8ee-0587-4543-aa2e-89c3f6c8f914",
+"name": "Marek Reinaas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/798de8ee-0587-4543-aa2e-89c3f6c8f914?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "29ac9b4b-1d00-402a-a55e-e8044bf8a33a",
+"name": "Piia Schults",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/29ac9b4b-1d00-402a-a55e-e8044bf8a33a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "db532de2-5abd-4b6d-a82c-2d9a75fd9d18",
+"name": "Kalle Grünthal",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/db532de2-5abd-4b6d-a82c-2d9a75fd9d18?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5927,
+"text": "takso"
+},
+{
+"edid": 2602,
+"text": "teenuste pakkumine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "ba0c8baf-de57-4f5f-a2bb-b778a07192bb",
+"title": "578 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "64f32b54-bb09-41ee-9ec4-a6c34273da8b",
+"fileName": "578_ÜTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T17:16:13.898",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64f32b54-bb09-41ee-9ec4-a6c34273da8b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64f32b54-bb09-41ee-9ec4-a6c34273da8b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "345ece49-427d-4e24-89f7-f35c9d50ea24",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7786c116-29ec-4c81-9db2-73f8f2840d3a",
+"fileName": "EELNÕU.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T16:34:27.162",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7786c116-29ec-4c81-9db2-73f8f2840d3a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7786c116-29ec-4c81-9db2-73f8f2840d3a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "345ece49-427d-4e24-89f7-f35c9d50ea24",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5b15f6cc-b773-4798-9c8e-4438875c9d2f",
+"fileName": "578E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T17:58:10.154",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5b15f6cc-b773-4798-9c8e-4438875c9d2f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5b15f6cc-b773-4798-9c8e-4438875c9d2f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "ba0c8baf-de57-4f5f-a2bb-b778a07192bb",
+"title": "578 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e827c4d3-b638-4fe3-9804-87c57405cb58",
+"fileName": "578_ÜTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T17:16:35.365",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e827c4d3-b638-4fe3-9804-87c57405cb58/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e827c4d3-b638-4fe3-9804-87c57405cb58"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "345ece49-427d-4e24-89f7-f35c9d50ea24",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3b3314af-2ec1-4f5d-84d7-1fa0d0c81ab1",
+"fileName": "Ühistranspordiseaduse_muutmise_seaduse_eelnõu_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T16:34:27.154",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3b3314af-2ec1-4f5d-84d7-1fa0d0c81ab1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3b3314af-2ec1-4f5d-84d7-1fa0d0c81ab1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "345ece49-427d-4e24-89f7-f35c9d50ea24",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2fb19cce-77a4-4dc9-8701-c9d8bbc7c708",
+"fileName": "578SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T17:58:20.845",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2fb19cce-77a4-4dc9-8701-c9d8bbc7c708/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2fb19cce-77a4-4dc9-8701-c9d8bbc7c708"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-02-10T16:33:56.754",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-02-11T14:42:00.16",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-04-07T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 7.04.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Marek Reinaas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "48f5d677-a932-4274-96ad-e7aa13471785",
+"fileName": "MAJK_protokoll_nr_118_07.04.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T14:31:19.125",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/48f5d677-a932-4274-96ad-e7aa13471785/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/48f5d677-a932-4274-96ad-e7aa13471785"
+}
+}
+},
+{
+"uuid": "fb186969-3142-4569-88f6-a5ca66cbd8c6",
+"fileName": "Piiratud_juhtimisõigus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Juhilubade direktiiv)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T17:51:42.489",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb186969-3142-4569-88f6-a5ca66cbd8c6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb186969-3142-4569-88f6-a5ca66cbd8c6"
+}
+}
+},
+{
+"uuid": "ba3a243b-3d4a-4389-9d93-25b8c60db1d9",
+"fileName": "MAJK_protokoll_nr_118_07.04.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T14:32:27.456",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba3a243b-3d4a-4389-9d93-25b8c60db1d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba3a243b-3d4a-4389-9d93-25b8c60db1d9"
+}
+}
+}
+]
+},
+{
+"date": "2025-04-08T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 8.04.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-04-15T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "6228b571-c031-434f-a290-d8a305122e8e",
+"fileName": "MAJK_protokoll_08.04.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T16:40:05.418",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6228b571-c031-434f-a290-d8a305122e8e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6228b571-c031-434f-a290-d8a305122e8e"
+}
+}
+},
+{
+"uuid": "6f216fe3-adda-4cc6-ae1d-8d87e46fc1bf",
+"fileName": "MAJK_protokoll_nr_119_08.04.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T16:38:51.921",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6f216fe3-adda-4cc6-ae1d-8d87e46fc1bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6f216fe3-adda-4cc6-ae1d-8d87e46fc1bf"
+}
+}
+}
+]
+},
+{
+"date": "2025-04-15T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 15.04.2025 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "f807901f-7271-4978-82f4-3bae069c8c2d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-04-15T13:53:48.097",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f807901f-7271-4978-82f4-3bae069c8c2d"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "703ed012-d9bc-4515-b877-b65f57a89c46",
+"reference": "1-1/15-578/2",
+"title": "Vabariigi Valitsuse arvamus ühistranspordiseaduse muutmise seaduse eelnõu 578 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-03-26",
+"files": [
+{
+"uuid": "e3e21331-e892-4d09-8808-cd4ae872e41e",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0162_-_Ühistranspordiseaduse_muutmise_seaduse_eelnõu_(578_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-26T13:53:51.314",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e3e21331-e892-4d09-8808-cd4ae872e41e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e3e21331-e892-4d09-8808-cd4ae872e41e"
+}
+}
+},
+{
+"uuid": "7b979e4b-7443-463c-bad2-e0d24ac3f9a6",
+"fileName": "REM_2025_453_2.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-26T13:53:51.232",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7b979e4b-7443-463c-bad2-e0d24ac3f9a6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7b979e4b-7443-463c-bad2-e0d24ac3f9a6"
+}
+}
+},
+{
+"uuid": "1d8098e2-6aba-4096-8c2b-818bf130756c",
+"fileName": "REM_2025_453_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-26T13:53:51.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d8098e2-6aba-4096-8c2b-818bf130756c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d8098e2-6aba-4096-8c2b-818bf130756c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/703ed012-d9bc-4515-b877-b65f57a89c46"
+}
+}
+},
+{
+"uuid": "829e564e-d2ed-4ea7-aff1-1ffb8d40f819",
+"reference": "1-1/15-578/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 578 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-02-10",
+"files": [
+{
+"uuid": "3c8dec66-8762-4c87-b44b-4ea0431c30e2",
+"fileName": "ÜTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T16:37:24.398",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c8dec66-8762-4c87-b44b-4ea0431c30e2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c8dec66-8762-4c87-b44b-4ea0431c30e2"
+}
+}
+},
+{
+"uuid": "968e5f88-5574-4bcd-8150-518af1b0ef40",
+"fileName": "250210_ÜTS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-11T14:22:04.758",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/968e5f88-5574-4bcd-8150-518af1b0ef40/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/968e5f88-5574-4bcd-8150-518af1b0ef40"
+}
+}
+},
+{
+"uuid": "23cb8b28-bda6-4f82-923b-a08dad9c9ba4",
+"fileName": "ÜTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T16:37:33.07",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/23cb8b28-bda6-4f82-923b-a08dad9c9ba4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/23cb8b28-bda6-4f82-923b-a08dad9c9ba4"
+}
+}
+},
+{
+"uuid": "35078850-2aa1-4624-9c0f-cddb76093cb8",
+"fileName": "578SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T17:58:59.161",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35078850-2aa1-4624-9c0f-cddb76093cb8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35078850-2aa1-4624-9c0f-cddb76093cb8"
+}
+}
+},
+{
+"uuid": "e7d00112-4a54-45ba-b697-e87f5e6cfe9a",
+"fileName": "1-1-15-578-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_578_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-11T14:22:59.167",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e7d00112-4a54-45ba-b697-e87f5e6cfe9a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e7d00112-4a54-45ba-b697-e87f5e6cfe9a"
+}
+}
+},
+{
+"uuid": "d2c20ba4-577b-4f96-ba6b-5856b4556716",
+"fileName": "578E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T17:58:41.098",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d2c20ba4-577b-4f96-ba6b-5856b4556716/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d2c20ba4-577b-4f96-ba6b-5856b4556716"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/829e564e-d2ed-4ea7-aff1-1ffb8d40f819"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/1acfb3fb-8f19-4018-a85b-ddb123ae5443"
+}
+}
+}

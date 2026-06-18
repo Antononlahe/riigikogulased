@@ -1,0 +1,494 @@
+{
+"uuid": "e2d89db2-6046-4535-8b60-4f06c50bd0e9",
+"title": "Riigikogu otsus „Riigikogu liikmest Eesti Panga Nõukogu liikme tagasikutsumine ja uue liikme nimetamine\"",
+"mark": 343,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu liikmest Eesti Panga Nõukogu liikme tagasikutsumine ja uue liikme nimetamine\" 343 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu liikmest Eesti Panga Nõukogu liikme tagasikutsumine ja uue liikme nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": "2023-11-08",
+"joined": null,
+"accepted": "2023-11-14",
+"amendmentsDeadline": null,
+"responsibleMember": null,
+"responsibleOfficer": null,
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4763,
+"text": "keskpank"
+},
+{
+"edid": 1448,
+"text": "järelevalveorgan"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "31e27d69-fb32-4793-ab83-230b42c8ed20",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6acbccb8-e46c-4265-ad5c-01dba158f088",
+"fileName": "Riigikogu_otsuse_Riigikogu_liikmest_Eesti_Panga_Nõukogu_liikme_tagasikutsumine_ja_uue_liikme_nimetamine_eelnõu_esitamine(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-08T14:15:05.109",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6acbccb8-e46c-4265-ad5c-01dba158f088/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6acbccb8-e46c-4265-ad5c-01dba158f088"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f09d2b1b-45f2-415a-a02f-51004157fea6",
+"title": "343 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c8cc7464-23e0-48d5-9345-16efbc7bb464",
+"fileName": "343_Eelnõu_-_EPN_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-09T16:48:07.539",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8cc7464-23e0-48d5-9345-16efbc7bb464/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8cc7464-23e0-48d5-9345-16efbc7bb464"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "31e27d69-fb32-4793-ab83-230b42c8ed20",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "07d676e2-8915-434c-85fb-6ca9d0652119",
+"fileName": "Eelnõu_-_EPN_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-08T14:15:05.15",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07d676e2-8915-434c-85fb-6ca9d0652119/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07d676e2-8915-434c-85fb-6ca9d0652119"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "dd8b0a5b-f3c7-42ac-961b-35cc0c411dce",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "aae26f63-acf8-4c8e-b0bf-2b2e7c9688a6",
+"fileName": "343XV_RK_o_15112023.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-15T11:34:19.458",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aae26f63-acf8-4c8e-b0bf-2b2e7c9688a6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aae26f63-acf8-4c8e-b0bf-2b2e7c9688a6"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "dd8b0a5b-f3c7-42ac-961b-35cc0c411dce",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d5f11f58-171b-46d1-89aa-bb6f1fe95402",
+"fileName": "343XV_RK_o_15112023.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-15T11:33:28.378",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d5f11f58-171b-46d1-89aa-bb6f1fe95402/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d5f11f58-171b-46d1-89aa-bb6f1fe95402"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f09d2b1b-45f2-415a-a02f-51004157fea6",
+"title": "343 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fd992f16-f008-4b9c-87ba-c72270ed52bb",
+"fileName": "343_Seletuskiri_-_EPN_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-09T16:49:03.153",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fd992f16-f008-4b9c-87ba-c72270ed52bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fd992f16-f008-4b9c-87ba-c72270ed52bb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "31e27d69-fb32-4793-ab83-230b42c8ed20",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c4f83973-cc8a-4bbc-994f-34bb3716f45b",
+"fileName": "Seletuskiri_-_EPN_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-08T14:15:05.304",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c4f83973-cc8a-4bbc-994f-34bb3716f45b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c4f83973-cc8a-4bbc-994f-34bb3716f45b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "65e5f2ba-8853-486e-a8ae-6c9a91f14e23",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0a10e2df-54ea-4e1b-8a3e-929c8709098e",
+"fileName": "343XV_RK_o_11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-14T12:56:47.571",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0a10e2df-54ea-4e1b-8a3e-929c8709098e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0a10e2df-54ea-4e1b-8a3e-929c8709098e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "65e5f2ba-8853-486e-a8ae-6c9a91f14e23",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f11b4012-d586-4feb-94d5-ca848a48466a",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-14T13:08:36.498",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f11b4012-d586-4feb-94d5-ca848a48466a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f11b4012-d586-4feb-94d5-ca848a48466a"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-11-08T14:14:35.374",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-11-09T16:08:00.6",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-11-07T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 7.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-11-14T10:00:00"
+},
+{
+"decision": {
+"code": "ALGATADA_EELNOU",
+"value": "Algatada eelnõu"
+}
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Jaak Aab"
+}
+],
+"protocolFiles": [
+{
+"uuid": "4ede92b4-fd37-4037-a680-fd1beb29d4ea",
+"fileName": "RAHK_protokoll_nr_33_07.11.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T09:20:06.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ede92b4-fd37-4037-a680-fd1beb29d4ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ede92b4-fd37-4037-a680-fd1beb29d4ea"
+}
+}
+},
+{
+"uuid": "ef148ef2-f9ff-467a-8813-5c4952fb3eae",
+"fileName": "Asendusliikme_volikiri_A._Kokk-R._Solman.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T09:12:23.657",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef148ef2-f9ff-467a-8813-5c4952fb3eae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef148ef2-f9ff-467a-8813-5c4952fb3eae"
+}
+}
+},
+{
+"uuid": "f67b7639-5d52-4275-a365-92ba9a6f526c",
+"fileName": "2024._aasta_riigieelarve_seletuskirja_korrigeerimise_protokoll.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 4 (2024. aasta riigieelarve  seletuskirja korrigeerimise protokoll)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T09:10:57.201",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f67b7639-5d52-4275-a365-92ba9a6f526c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f67b7639-5d52-4275-a365-92ba9a6f526c"
+}
+}
+},
+{
+"uuid": "e815b898-5aa9-47b8-98ff-468ca5e713da",
+"fileName": "KOM_7.11.2023_306_ME-de_loetelu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (306 SE ME-de loetelu)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T09:10:16.507",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e815b898-5aa9-47b8-98ff-468ca5e713da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e815b898-5aa9-47b8-98ff-468ca5e713da"
+}
+}
+},
+{
+"uuid": "98a481c8-5e0e-4fac-bea1-5b4813c2173e",
+"fileName": "KOM_7.11.2023_306_SE_RAM_ettepanekud.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Rahandusministeeriumi ME-d 306 SE-le)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T09:09:23.187",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/98a481c8-5e0e-4fac-bea1-5b4813c2173e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/98a481c8-5e0e-4fac-bea1-5b4813c2173e"
+}
+}
+},
+{
+"uuid": "d38f637f-5e62-415c-bdee-67f8d725cf52",
+"fileName": "KOM_7.11.2023_297_SE_ME-de_loetelu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (297 SE ME-de loetelu)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T09:08:30.08",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d38f637f-5e62-415c-bdee-67f8d725cf52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d38f637f-5e62-415c-bdee-67f8d725cf52"
+}
+}
+},
+{
+"uuid": "d8624238-01d8-4d7b-8b3b-831291ff2acd",
+"fileName": "RAHK_protokoll_nr_33_07.11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T09:07:30.667",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d8624238-01d8-4d7b-8b3b-831291ff2acd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d8624238-01d8-4d7b-8b3b-831291ff2acd"
+}
+}
+}
+]
+},
+{
+"date": "2023-11-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 14.11.2023 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "51c6066b-1912-46ff-937f-ab9d4122ce2b",
+"type": {
+"code": "SALAJANE",
+"value": "Salajane"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-11-14T12:56:40.033",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/51c6066b-1912-46ff-937f-ab9d4122ce2b"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2023-11-15T11:33:09.778",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2023-11-16T16:26:41.43",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/e2d89db2-6046-4535-8b60-4f06c50bd0e9"
+}
+}
+}

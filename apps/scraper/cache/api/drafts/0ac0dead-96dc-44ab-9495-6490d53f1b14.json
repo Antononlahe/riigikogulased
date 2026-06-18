@@ -1,0 +1,925 @@
+{
+"uuid": "0ac0dead-96dc-44ab-9495-6490d53f1b14",
+"title": "Toiduseaduse muutmise seadus",
+"mark": 378,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Toiduseaduse muutmise seadus 378 SE",
+"initialTitle": "Toiduseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": "2024-02-12",
+"joined": null,
+"accepted": "2024-05-15",
+"amendmentsDeadline": "2024-04-16T17:15:00",
+"responsibleMember": {
+"uuid": "4a332fbb-be05-4cb2-b6a0-5916eb40fe89",
+"name": "Urmas Kruuse",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4a332fbb-be05-4cb2-b6a0-5916eb40fe89?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": null,
+"leadingCommittee": {
+"uuid": "b40076b0-a453-4efb-acda-2554015471d1",
+"name": "Maaelukomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/b40076b0-a453-4efb-acda-2554015471d1?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 2735,
+"text": "toiduained"
+},
+{
+"edid": 4085,
+"text": "kiiritamine"
+},
+{
+"edid": 6569,
+"text": "toidu ohutus"
+},
+{
+"edid": 2247,
+"text": "liidu õiguse riigisisene rakendamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e4762034-2261-4436-970a-635f78eab286",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "74dd6323-3ee5-4b79-95eb-6e09c4879828",
+"fileName": "RK_24-00211-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:33:21.313",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/74dd6323-3ee5-4b79-95eb-6e09c4879828/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/74dd6323-3ee5-4b79-95eb-6e09c4879828"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e4762034-2261-4436-970a-635f78eab286",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "277f2cfc-5a93-42d5-956c-6d209571d423",
+"fileName": "[EIS]_Eelnõu_esitamine__REM-23-1223_-_Toiduseaduse_muutmise_seaduse_eelnõu.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:33:21.576",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/277f2cfc-5a93-42d5-956c-6d209571d423/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/277f2cfc-5a93-42d5-956c-6d209571d423"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "8a518d8f-30fb-400a-bc20-6889c15905c5",
+"title": "378 SE kolmanda lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "39c8a8d5-e48f-40e4-ad6c-c0fb4bb36e0b",
+"fileName": "378_SE_(ToiduS)_III_lugemise_tekst_vormistatud.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T17:05:56.103",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/39c8a8d5-e48f-40e4-ad6c-c0fb4bb36e0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/39c8a8d5-e48f-40e4-ad6c-c0fb4bb36e0b"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "010288de-2a7d-421d-b81c-5e47ae13adaa",
+"title": "378 SE teise lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bc90f441-eafe-472d-ac14-8940ae123585",
+"fileName": "378_SE_(ToiduS)_II_lugemise_tekst_toimetatud.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T10:55:23.647",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc90f441-eafe-472d-ac14-8940ae123585/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc90f441-eafe-472d-ac14-8940ae123585"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "939b72d0-cc48-49f0-ad29-487b0bea5b19",
+"title": "378 SE esimese lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "97500249-8ed8-4e65-8013-105c4d424bb6",
+"fileName": "378_ToiduS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-12T11:09:39.376",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/97500249-8ed8-4e65-8013-105c4d424bb6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/97500249-8ed8-4e65-8013-105c4d424bb6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e4762034-2261-4436-970a-635f78eab286",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3a4da3b6-32d0-46c0-8f51-c025326ac506",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:33:21.459",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a4da3b6-32d0-46c0-8f51-c025326ac506/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a4da3b6-32d0-46c0-8f51-c025326ac506"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e4762034-2261-4436-970a-635f78eab286",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "78ff8bbb-ae02-4fbd-a1fe-c1dd3e30c95c",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:33:21.519",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78ff8bbb-ae02-4fbd-a1fe-c1dd3e30c95c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78ff8bbb-ae02-4fbd-a1fe-c1dd3e30c95c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e4762034-2261-4436-970a-635f78eab286",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2bbb6dc4-d15b-44f8-9559-2ea1e302d517",
+"fileName": "24-00211-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:33:21.436",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2bbb6dc4-d15b-44f8-9559-2ea1e302d517/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2bbb6dc4-d15b-44f8-9559-2ea1e302d517"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d9bbbc4b-65a2-4420-8762-c6c4757c6338",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9a9609e5-92f2-4429-bdc8-854fc0a34e61",
+"fileName": "378_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T15:41:26.402",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9a9609e5-92f2-4429-bdc8-854fc0a34e61/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9a9609e5-92f2-4429-bdc8-854fc0a34e61"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "1ec3eac6-23b6-4b4d-a9d7-d89d31f8da19",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "acd5b4e9-8b1e-47f0-a1be-22cefbf800d3",
+"fileName": "378XV_Toiduseadus_ms_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T12:39:21.554",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/acd5b4e9-8b1e-47f0-a1be-22cefbf800d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/acd5b4e9-8b1e-47f0-a1be-22cefbf800d3"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "1ec3eac6-23b6-4b4d-a9d7-d89d31f8da19",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2f2c0c78-59fa-4644-afa6-48b4486866c7",
+"fileName": "378XV_Toiduseadus_ms_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T12:39:06.055",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f2c0c78-59fa-4644-afa6-48b4486866c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f2c0c78-59fa-4644-afa6-48b4486866c7"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "010288de-2a7d-421d-b81c-5e47ae13adaa",
+"title": "378 SE teise lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "623f2408-6fc1-406c-acc3-70f1a994cc22",
+"fileName": "378_SE_II_ME-d_täiskogule.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T10:55:48.667",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/623f2408-6fc1-406c-acc3-70f1a994cc22/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/623f2408-6fc1-406c-acc3-70f1a994cc22"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "010288de-2a7d-421d-b81c-5e47ae13adaa",
+"title": "378 SE teise lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3da92c52-cb82-43a6-a3bd-167fd98fa6b7",
+"fileName": "378_SE_seletuskiri_II_lug_täiskogus_.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T10:56:08.119",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3da92c52-cb82-43a6-a3bd-167fd98fa6b7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3da92c52-cb82-43a6-a3bd-167fd98fa6b7"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "939b72d0-cc48-49f0-ad29-487b0bea5b19",
+"title": "378 SE esimese lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5de68212-24ea-4553-bad5-c23b73eaf1e2",
+"fileName": "378_ToiduS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-12T11:10:15.214",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5de68212-24ea-4553-bad5-c23b73eaf1e2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5de68212-24ea-4553-bad5-c23b73eaf1e2"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e4762034-2261-4436-970a-635f78eab286",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "476937bf-0d22-4cc2-a03d-1dbd913afc23",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:33:21.484",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/476937bf-0d22-4cc2-a03d-1dbd913afc23/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/476937bf-0d22-4cc2-a03d-1dbd913afc23"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e4762034-2261-4436-970a-635f78eab286",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d3ab3424-e493-4465-bee5-f7a8cd6e5aa9",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:33:21.535",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d3ab3424-e493-4465-bee5-f7a8cd6e5aa9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d3ab3424-e493-4465-bee5-f7a8cd6e5aa9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "939b72d0-cc48-49f0-ad29-487b0bea5b19",
+"title": "378 SE esimese lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6e5744c2-cdea-4ce5-b65f-7014a3ef8449",
+"fileName": "378_ToiduS_m_s_SK_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (rakendusakti kavand)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-12T11:10:32.3",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e5744c2-cdea-4ce5-b65f-7014a3ef8449/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e5744c2-cdea-4ce5-b65f-7014a3ef8449"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e4762034-2261-4436-970a-635f78eab286",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b67464d0-808a-4818-a172-69d52342fe54",
+"fileName": "Seletuskirja_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (rakendusakti kavand) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:33:21.502",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b67464d0-808a-4818-a172-69d52342fe54/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b67464d0-808a-4818-a172-69d52342fe54"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e4762034-2261-4436-970a-635f78eab286",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "de2ff969-1dc9-4c8d-af12-5313668bfd38",
+"fileName": "Seletuskirja_lisa.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa (rakendusakti kavand) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:33:21.553",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/de2ff969-1dc9-4c8d-af12-5313668bfd38/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de2ff969-1dc9-4c8d-af12-5313668bfd38"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "0ed61a5a-d7b7-4f51-beb6-564a9b8c0788",
+"reference": "1-1/15-378/2",
+"title": "Vabariigi Presidendi otsus nr 410",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "428dbd19-8f5f-428c-92eb-63a83d7872bd",
+"fileName": "VP_23052024_o410.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T12:36:45.567",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/428dbd19-8f5f-428c-92eb-63a83d7872bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/428dbd19-8f5f-428c-92eb-63a83d7872bd"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "0ed61a5a-d7b7-4f51-beb6-564a9b8c0788",
+"reference": "1-1/15-378/2",
+"title": "Vabariigi Presidendi otsus nr 410",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "62ae7f05-0e43-4872-9e69-eeb03aabfa5f",
+"fileName": "VP_23052024_o410.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T12:36:45.485",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62ae7f05-0e43-4872-9e69-eeb03aabfa5f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62ae7f05-0e43-4872-9e69-eeb03aabfa5f"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d9bbbc4b-65a2-4420-8762-c6c4757c6338",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dfc69ba1-42e0-4d44-8da2-828a9dc293ac",
+"fileName": "378XV_Toiduseadus_ms_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T15:17:15.001",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dfc69ba1-42e0-4d44-8da2-828a9dc293ac/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dfc69ba1-42e0-4d44-8da2-828a9dc293ac"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d9bbbc4b-65a2-4420-8762-c6c4757c6338",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ecacb970-a943-4160-9366-875252769c01",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T15:42:35.111",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ecacb970-a943-4160-9366-875252769c01/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ecacb970-a943-4160-9366-875252769c01"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-02-12T16:32:48.436",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-02-13T16:42:00.723",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-03-11T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 11.03.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-04-02T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni esimees Urmas Kruuse"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "74038d6d-3f5b-41f9-9dbd-930941785335",
+"fileName": "MAEK_protokoll_11.03.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-13T15:18:24.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/74038d6d-3f5b-41f9-9dbd-930941785335/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/74038d6d-3f5b-41f9-9dbd-930941785335"
+}
+}
+},
+{
+"uuid": "d916c71c-e26d-41d1-ade6-86d17c786eca",
+"fileName": "050_protokolli_lisa_2_REM_Piiriülene_koostöö.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-13T15:11:48.956",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d916c71c-e26d-41d1-ade6-86d17c786eca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d916c71c-e26d-41d1-ade6-86d17c786eca"
+}
+}
+},
+{
+"uuid": "0c1d7d97-ae37-459a-b530-41f5bd589d4d",
+"fileName": "050_protokolli_lisa_1_REM_ToiduS_muutmise_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-13T15:10:50.273",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c1d7d97-ae37-459a-b530-41f5bd589d4d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c1d7d97-ae37-459a-b530-41f5bd589d4d"
+}
+}
+},
+{
+"uuid": "5cf2bf10-67eb-4941-be0c-8289910fd85a",
+"fileName": "050_MAEK_protokoll_11.03.24.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-13T15:10:15.3",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5cf2bf10-67eb-4941-be0c-8289910fd85a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5cf2bf10-67eb-4941-be0c-8289910fd85a"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-02T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 2.04.2024 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-29T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 29.04.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-08T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-05-15T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "8955e43a-28df-4649-b30d-e52c1bfff2dc",
+"fileName": "MAEK_protokoll_29.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-29T14:03:18.563",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8955e43a-28df-4649-b30d-e52c1bfff2dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8955e43a-28df-4649-b30d-e52c1bfff2dc"
+}
+}
+},
+{
+"uuid": "115080d9-de6d-4fb4-82f6-9c2452cce068",
+"fileName": "MAEK_protokoll_29.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-29T14:01:18.92",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/115080d9-de6d-4fb4-82f6-9c2452cce068/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/115080d9-de6d-4fb4-82f6-9c2452cce068"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-08T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 8.05.2024 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.05.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "6c91d65c-a588-4f96-bc39-73ca99954127",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-15T15:15:21.863",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/6c91d65c-a588-4f96-bc39-73ca99954127"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-05-17T16:24:42.69",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-05-23T12:37:41.686",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-05-28T18:14:51.45",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "b66487a7-d325-44af-ae0e-d8ab047183be",
+"reference": "1-1/15-378/1",
+"title": "Toiduseaduse muutmise seaduse eelnõu 378 SE menetlemine Riigikogus",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-11",
+"files": [
+{
+"uuid": "43049850-0d4b-41a7-8c93-2550419e728c",
+"fileName": "Toiduseaduse_muutmise_seaduse_eelnõu_378_SE_menetlemine_Riigikogus.html",
+"fileExtension": "html",
+"fileTitle": "E-kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-11T15:41:12.293",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/43049850-0d4b-41a7-8c93-2550419e728c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/43049850-0d4b-41a7-8c93-2550419e728c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b66487a7-d325-44af-ae0e-d8ab047183be"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/0ac0dead-96dc-44ab-9495-6490d53f1b14"
+}
+}
+}

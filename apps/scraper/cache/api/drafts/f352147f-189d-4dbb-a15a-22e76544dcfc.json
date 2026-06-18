@@ -1,0 +1,546 @@
+{
+"uuid": "f352147f-189d-4dbb-a15a-22e76544dcfc",
+"title": "Keskkonnatasude seaduse muutmise seadus",
+"mark": 615,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Keskkonnatasude seaduse muutmise seadus 615 SE",
+"initialTitle": "Keskkonnatasude seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on tagada võrdsed keskkonnamõju hindamise alused olukorras, kus maismaatuulikute tehnilised parameetrid (kõrgus ja võimsus) on jõudnud meretuulikute tasemele. Praegune mõjuala regulatsioon (kuni 3 km) ei kajasta tegelikku keskkonnamõju ja tekitab ebavõrdsust kohalike elanike kohtlemisel. Seetõttu on põhjendatud kehtestada võrdne 20 km mõjuala kõikidele 250 meetri ja kõrgematele tuulikutele, sõltumata nende paiknemisest maismaal või merel.",
+"initiated": "2025-04-07",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "90074aa2-4938-41a9-8275-3a6efa1cee31",
+"name": "Yoko Alender",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/90074aa2-4938-41a9-8275-3a6efa1cee31?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "2cd280db-ea9c-4d29-8474-f83075ae0fc9",
+"name": "Vivi Older",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/2cd280db-ea9c-4d29-8474-f83075ae0fc9?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5839,
+"text": "keskkonnamaks"
+},
+{
+"edid": 748,
+"text": "tuuleenergia"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "5e95c052-064f-4df6-a3bb-4d1a304de91d",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "17c5ffab-07d3-4cda-9b41-c89683b66eff",
+"fileName": "615_KeTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T16:13:43.814",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17c5ffab-07d3-4cda-9b41-c89683b66eff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17c5ffab-07d3-4cda-9b41-c89683b66eff"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "1bfedd76-2798-4508-bca3-0008a1693c78",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bcd341cf-5bdb-4178-ba71-8689dd857118",
+"fileName": "Keskkonnatasude_seaduse_muutmise_seadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T15:52:05.057",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bcd341cf-5bdb-4178-ba71-8689dd857118/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bcd341cf-5bdb-4178-ba71-8689dd857118"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "1bfedd76-2798-4508-bca3-0008a1693c78",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ce56539a-63df-44f6-83b4-8787d5ad82d3",
+"fileName": "615_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T16:28:32.16",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ce56539a-63df-44f6-83b4-8787d5ad82d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ce56539a-63df-44f6-83b4-8787d5ad82d3"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "5e95c052-064f-4df6-a3bb-4d1a304de91d",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d8f44e3b-cb78-4531-b99d-55a865379162",
+"fileName": "615_KeTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T16:14:10.309",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d8f44e3b-cb78-4531-b99d-55a865379162/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d8f44e3b-cb78-4531-b99d-55a865379162"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "1bfedd76-2798-4508-bca3-0008a1693c78",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6d93f67f-ea04-43a1-8c4d-1e8f45674e88",
+"fileName": "615_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T16:28:42.853",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6d93f67f-ea04-43a1-8c4d-1e8f45674e88/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6d93f67f-ea04-43a1-8c4d-1e8f45674e88"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-04-07T15:51:33.288",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-04-08T17:56:00.615",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-05-13T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 13.05.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-05-21T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Yoko Alender"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "bd869b38-fe94-4b9b-83e1-36e4ada3f7f4",
+"fileName": "asendus_KeskK_13.05.2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri (Šmigun-Vähi)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-13T14:53:52.8",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bd869b38-fe94-4b9b-83e1-36e4ada3f7f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bd869b38-fe94-4b9b-83e1-36e4ada3f7f4"
+}
+}
+},
+{
+"uuid": "831241a0-b717-47f2-bee0-78cef2640bf2",
+"fileName": "KEKK_protokoll_13.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-16T12:29:18.34",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/831241a0-b717-47f2-bee0-78cef2640bf2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/831241a0-b717-47f2-bee0-78cef2640bf2"
+}
+}
+},
+{
+"uuid": "714a2afb-0af2-4539-a174-8cf1295dfcc5",
+"fileName": "Asendus_Poolamets_13.05.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Poolamets)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-13T14:54:12.877",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/714a2afb-0af2-4539-a174-8cf1295dfcc5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/714a2afb-0af2-4539-a174-8cf1295dfcc5"
+}
+}
+},
+{
+"uuid": "a474b8a8-bdf8-455c-834c-84b2f2e2fa66",
+"fileName": "Asendus_13.05_Lahe-_Šmigun-VÄhi.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (Šmigun-Vähi)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-13T14:53:26.39",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a474b8a8-bdf8-455c-834c-84b2f2e2fa66/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a474b8a8-bdf8-455c-834c-84b2f2e2fa66"
+}
+}
+},
+{
+"uuid": "66ebb197-5e5f-42f8-99aa-831a1a03e2f0",
+"fileName": "KEKK_protokoll_13.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-16T12:29:48.977",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/66ebb197-5e5f-42f8-99aa-831a1a03e2f0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/66ebb197-5e5f-42f8-99aa-831a1a03e2f0"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-22T13:56:03.984",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-06-04T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 4.06.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "14505b1a-93d7-4363-a65b-7a8335aa3d85",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-06-04T17:28:19.153",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/14505b1a-93d7-4363-a65b-7a8335aa3d85"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "ce0f17d6-8967-41c5-846c-12f2b35de144",
+"reference": "1-1/15-615/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 615 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-07",
+"files": [
+{
+"uuid": "75c56d4b-2ea3-40ae-ba5c-85c272b17c69",
+"fileName": "KeTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T15:56:03.419",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75c56d4b-2ea3-40ae-ba5c-85c272b17c69/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75c56d4b-2ea3-40ae-ba5c-85c272b17c69"
+}
+}
+},
+{
+"uuid": "89fc5805-67bb-44bf-9561-2bad0992e1ba",
+"fileName": "250408_KeTS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T15:45:33.173",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/89fc5805-67bb-44bf-9561-2bad0992e1ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/89fc5805-67bb-44bf-9561-2bad0992e1ba"
+}
+}
+},
+{
+"uuid": "6b7617e8-6ed1-41e5-ba3f-27783cc1377b",
+"fileName": "615_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:42:26.445",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b7617e8-6ed1-41e5-ba3f-27783cc1377b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b7617e8-6ed1-41e5-ba3f-27783cc1377b"
+}
+}
+},
+{
+"uuid": "c5160796-ca67-4754-830a-62a56a6176b5",
+"fileName": "KeTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T15:56:14.458",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c5160796-ca67-4754-830a-62a56a6176b5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c5160796-ca67-4754-830a-62a56a6176b5"
+}
+}
+},
+{
+"uuid": "f02b56db-a2b1-4acc-b8d9-c5acf0cebd51",
+"fileName": "615_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:42:08.302",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f02b56db-a2b1-4acc-b8d9-c5acf0cebd51/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f02b56db-a2b1-4acc-b8d9-c5acf0cebd51"
+}
+}
+},
+{
+"uuid": "e9512151-b76a-4bba-8e15-5afed6dbb722",
+"fileName": "1-1-15-615-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_615_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T15:46:14.901",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e9512151-b76a-4bba-8e15-5afed6dbb722/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e9512151-b76a-4bba-8e15-5afed6dbb722"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ce0f17d6-8967-41c5-846c-12f2b35de144"
+}
+}
+},
+{
+"uuid": "b2fdf47e-ba41-4a13-a971-7f0ebba94e58",
+"reference": "1-1/15-615/2",
+"title": "Vabariigi Valitsuse arvamus keskkonnatasude seaduse muutmise seaduse eelnõu 615 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-05-12",
+"files": [
+{
+"uuid": "7c39015c-0661-495f-a468-6e886e882331",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T10:45:04.773",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c39015c-0661-495f-a468-6e886e882331/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c39015c-0661-495f-a468-6e886e882331"
+}
+}
+},
+{
+"uuid": "6b911050-b45a-47ac-9d0a-6b17cc83a89e",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T10:45:04.73",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b911050-b45a-47ac-9d0a-6b17cc83a89e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b911050-b45a-47ac-9d0a-6b17cc83a89e"
+}
+}
+},
+{
+"uuid": "270cf55f-16b8-4b7f-b0da-122f9f849113",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0363_-_Keskkonnatasude_seaduse_muutmise_seaduse_eelnõu_(615_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T10:45:04.823",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/270cf55f-16b8-4b7f-b0da-122f9f849113/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/270cf55f-16b8-4b7f-b0da-122f9f849113"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b2fdf47e-ba41-4a13-a971-7f0ebba94e58"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/f352147f-189d-4dbb-a15a-22e76544dcfc"
+}
+}
+}

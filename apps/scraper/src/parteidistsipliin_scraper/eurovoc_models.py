@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import date
 from typing import NamedTuple
 
 
@@ -58,3 +59,21 @@ def parse_microthes_descriptors(raw: dict) -> list[DescriptorRow]:
 def parse_draft_descriptor_edids(raw: dict) -> list[tuple[int, str]]:
     """(edid, text) pairs for a draft's Eurovoc descriptors (text is the fallback label)."""
     return [(d["edid"], d.get("text", "")) for d in raw.get("descriptors") or []]
+
+
+class DraftOutcome(NamedTuple):
+    # activeDraftStage: VASTU_VOETUD (adopted), TAGASI_LYKATUD (rejected),
+    # TAGASI_VOETUD (withdrawn), or a reading stage (still in process).
+    stage: str | None
+    status: str | None  # activeDraftStatus (finer status)
+    accepted_on: date | None  # `accepted` adoption date, when present
+
+
+def parse_draft_outcome(raw: dict) -> DraftOutcome:
+    """The bill's final fate from /api/volumes/drafts/{uuid}: stage, status, adoption date."""
+    accepted = raw.get("accepted")
+    return DraftOutcome(
+        stage=raw.get("activeDraftStage"),
+        status=raw.get("activeDraftStatus"),
+        accepted_on=date.fromisoformat(accepted) if accepted else None,
+    )

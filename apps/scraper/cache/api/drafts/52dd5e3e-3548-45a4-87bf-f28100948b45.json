@@ -1,0 +1,661 @@
+{
+"uuid": "52dd5e3e-3548-45a4-87bf-f28100948b45",
+"title": "Riigivaraseaduse ja maakatastriseaduse muutmise seadus",
+"mark": 380,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigivaraseaduse ja maakatastriseaduse muutmise seadus 380 SE",
+"initialTitle": "Riigivaraseaduse ja maakatastriseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu reguleerib riigi poolt riigikaitsemaa võõrandamise erisusi. Selleks nähakse ette, et kui riik võõrandab avalikul enampakkumisel kinnisasja, mille koosseisu kuulub katastriüksus sihtotstarbega riigikaitsemaa, siis muutub võõrandamisele järgnevast päevast kehtetuks selle katastriüksuse kohta kehtestatud detailplaneering ning katastriüksus muutub sihtotstarbeta maaks, et uus omanik saaks taotleda katastriüksusele asjakohase sihtotstarbe määramist. Lisaks nähakse ette, et juhul kui riigikaitsemaa sihtotstarbega katastriüksusel asub ehitis, mille kasutamise otstarbeks on sisekaitse- või kaitseväerajatis, siis muutub see kasutamise otstarve kehtetuks kinnisasja võõrandamisele järgnevast päevast.",
+"initiated": "2024-02-12",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "bd291baf-8d9d-4ed4-83bd-d0892d4a3a1b",
+"name": "Priit Lomp",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/bd291baf-8d9d-4ed4-83bd-d0892d4a3a1b?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "29ac9b4b-1d00-402a-a55e-e8044bf8a33a",
+"name": "Piia Schults",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/29ac9b4b-1d00-402a-a55e-e8044bf8a33a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4446,
+"text": "riigimaa"
+},
+{
+"edid": 5093,
+"text": "vara omandamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b49f34ce-e19b-4250-939c-c4e1dc671427",
+"title": "380 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "15276331-8a5f-4730-8662-6073c710261e",
+"fileName": "380_RVS_MaaKatS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T16:33:49.344",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/15276331-8a5f-4730-8662-6073c710261e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/15276331-8a5f-4730-8662-6073c710261e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f3e82542-8186-433a-be63-50be715f585c",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "af742e42-49fb-49bc-b152-5c8a63d74b23",
+"fileName": "main.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-13T10:04:44.428",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/af742e42-49fb-49bc-b152-5c8a63d74b23/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/af742e42-49fb-49bc-b152-5c8a63d74b23"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f3e82542-8186-433a-be63-50be715f585c",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bbe2be14-0458-4f56-b113-104d4c76066f",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T17:36:40.968",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bbe2be14-0458-4f56-b113-104d4c76066f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bbe2be14-0458-4f56-b113-104d4c76066f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b49f34ce-e19b-4250-939c-c4e1dc671427",
+"title": "380 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4faf55b7-d5c3-4912-a974-85d2293f5c19",
+"fileName": "380_RVS_MaaKatS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T16:34:15.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4faf55b7-d5c3-4912-a974-85d2293f5c19/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4faf55b7-d5c3-4912-a974-85d2293f5c19"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f3e82542-8186-433a-be63-50be715f585c",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dfc42219-27f8-4a2e-b5bf-5c38d619a044",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T17:37:29.796",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dfc42219-27f8-4a2e-b5bf-5c38d619a044/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dfc42219-27f8-4a2e-b5bf-5c38d619a044"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-02-12T17:36:03.311",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-02-13T16:39:00.282",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2024-03-18T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.03.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Priit Lomp"
+}
+],
+"protocolFiles": [
+{
+"uuid": "ffc22646-7316-412d-be5a-230550ba0e6f",
+"fileName": "MAJK_protokoll_nr_53_18.03.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-25T14:09:22.359",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ffc22646-7316-412d-be5a-230550ba0e6f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ffc22646-7316-412d-be5a-230550ba0e6f"
+}
+}
+},
+{
+"uuid": "e620c721-c3ed-4956-9eaf-8401b02aa085",
+"fileName": "MAJK_protokoll_nr_53_18.03.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-25T14:08:25.613",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e620c721-c3ed-4956-9eaf-8401b02aa085/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e620c721-c3ed-4956-9eaf-8401b02aa085"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-09T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 9.04.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-04-17T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "d0033ca6-cbbd-42bf-a921-ce918d987387",
+"fileName": "MAJK_protokoll_nr_58_09.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T14:15:30.671",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d0033ca6-cbbd-42bf-a921-ce918d987387/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d0033ca6-cbbd-42bf-a921-ce918d987387"
+}
+}
+},
+{
+"uuid": "65074eb5-03c8-4c08-8c66-73117142ea39",
+"fileName": "Asendusliikme_volikiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T14:16:06.327",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/65074eb5-03c8-4c08-8c66-73117142ea39/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/65074eb5-03c8-4c08-8c66-73117142ea39"
+}
+}
+},
+{
+"uuid": "a53df31f-8008-413a-843b-43adce55db82",
+"fileName": "Lisa_1_LkindlS_muudatused_9.4.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (400 SE)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T14:15:46.91",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a53df31f-8008-413a-843b-43adce55db82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a53df31f-8008-413a-843b-43adce55db82"
+}
+}
+},
+{
+"uuid": "a53aaf3d-c31a-4c1c-9cfe-390e967f60b5",
+"fileName": "MAJK_protokoll_nr_58_09.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T14:13:30.188",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a53aaf3d-c31a-4c1c-9cfe-390e967f60b5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a53aaf3d-c31a-4c1c-9cfe-390e967f60b5"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-17T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 17.04.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "4ed34342-87cd-427d-9679-1711feee22db",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-04-17T23:35:24.187",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/4ed34342-87cd-427d-9679-1711feee22db"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "26004c3d-d823-43c8-8c75-a8476629100b",
+"reference": "1-1/15-380/2",
+"title": "Vabariigi Valitsuse arvamus riigivaraseaduse ja maakatastriseaduse muutmise seaduse eelnõu 380 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-20",
+"files": [
+{
+"uuid": "c9ce4e3c-a600-41f6-952e-cf7feaad3f3f",
+"fileName": "Vabariigi_Valitsuse_arvamus_riigivaraseaduse_ja_maakatastriseaduse_muutmise_seaduse_eelnõu_(380_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T16:25:43.692",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c9ce4e3c-a600-41f6-952e-cf7feaad3f3f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c9ce4e3c-a600-41f6-952e-cf7feaad3f3f"
+}
+}
+},
+{
+"uuid": "e328644a-1799-4266-9937-2944c21c71e6",
+"fileName": "1.1-11823-5_20.03.2024_Vï¿½ljaminev_kiri_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T16:25:43.377",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e328644a-1799-4266-9937-2944c21c71e6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e328644a-1799-4266-9937-2944c21c71e6"
+}
+}
+},
+{
+"uuid": "54635c75-4a82-4f3b-996b-aed2609d515c",
+"fileName": "Arvamus_riigivaraseaduse_ja_maakatastriseaduse_muutmise_seaduse_eelnou_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T16:25:43.671",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/54635c75-4a82-4f3b-996b-aed2609d515c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/54635c75-4a82-4f3b-996b-aed2609d515c"
+}
+}
+},
+{
+"uuid": "3566fd11-a9db-46dd-9b74-60dfce4c743a",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0134_-_Riigivaraseaduse_ja_maakatastriseaduse_muutmise_seaduse_eelnõu_(380_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T16:25:43.723",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3566fd11-a9db-46dd-9b74-60dfce4c743a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3566fd11-a9db-46dd-9b74-60dfce4c743a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/26004c3d-d823-43c8-8c75-a8476629100b"
+}
+}
+},
+{
+"uuid": "1c896388-7cd9-4013-af93-3f77d48f2d7d",
+"reference": "1-1/15-380/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 380 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-02-12",
+"files": [
+{
+"uuid": "ac7ebe8a-a335-465a-8611-084e27a5297b",
+"fileName": "RVS_MaaKatS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-13T10:09:27.125",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac7ebe8a-a335-465a-8611-084e27a5297b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac7ebe8a-a335-465a-8611-084e27a5297b"
+}
+}
+},
+{
+"uuid": "16e8c849-1a35-4aae-80f4-a082c638a18b",
+"fileName": "240213_RVS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-13T10:26:31.436",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/16e8c849-1a35-4aae-80f4-a082c638a18b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/16e8c849-1a35-4aae-80f4-a082c638a18b"
+}
+}
+},
+{
+"uuid": "67941217-60c8-492f-b6c8-3217c96bfeee",
+"fileName": "1-1-15-380-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_380_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-13T14:13:57.492",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67941217-60c8-492f-b6c8-3217c96bfeee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67941217-60c8-492f-b6c8-3217c96bfeee"
+}
+}
+},
+{
+"uuid": "5ef68220-7738-49fd-b001-85121d4fef9b",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T17:39:45.908",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ef68220-7738-49fd-b001-85121d4fef9b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ef68220-7738-49fd-b001-85121d4fef9b"
+}
+}
+},
+{
+"uuid": "4b9918f9-b7bd-4249-bcfb-913fc66eaaf9",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T17:39:31.655",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4b9918f9-b7bd-4249-bcfb-913fc66eaaf9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4b9918f9-b7bd-4249-bcfb-913fc66eaaf9"
+}
+}
+},
+{
+"uuid": "32bffc65-8638-42f2-9936-606f26bfaf75",
+"fileName": "RVS_MaaKatS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-13T10:09:49.957",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/32bffc65-8638-42f2-9936-606f26bfaf75/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/32bffc65-8638-42f2-9936-606f26bfaf75"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1c896388-7cd9-4013-af93-3f77d48f2d7d"
+}
+}
+},
+{
+"uuid": "60387033-02bc-4da0-aa8f-c53cf5301dbb",
+"reference": "1-6/24-67/1",
+"title": "Riigikaitse sihtotstarbega riigimaade võõrandamisest",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-02",
+"files": [
+{
+"uuid": "37fec9a7-0ab8-47e4-acb9-8075386b4417",
+"fileName": "1-6-24-67-1_-_Riigikaitse_sihtotstarbega_riigimaade_võõrandamisest.asice",
+"fileExtension": "asice",
+"fileTitle": "Väljaminev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T16:38:44.269",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/37fec9a7-0ab8-47e4-acb9-8075386b4417/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/37fec9a7-0ab8-47e4-acb9-8075386b4417"
+}
+}
+},
+{
+"uuid": "c23cdf7a-98cb-4f4a-96ba-8eec3896525e",
+"fileName": "MAJK_protokoll_nr_58_09.04.2024_väljavõte_380_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Lisa asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T16:26:31.394",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c23cdf7a-98cb-4f4a-96ba-8eec3896525e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c23cdf7a-98cb-4f4a-96ba-8eec3896525e"
+}
+}
+},
+{
+"uuid": "4e26b3aa-712d-4a15-88fe-18202972bbb6",
+"fileName": "MAJK_02052024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T16:37:55.977",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4e26b3aa-712d-4a15-88fe-18202972bbb6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4e26b3aa-712d-4a15-88fe-18202972bbb6"
+}
+}
+},
+{
+"uuid": "a2cc39c3-1a0a-4a0f-9945-1158fd605eab",
+"fileName": "MAJK_protokoll_nr_58_09.04.2024_väljavõte_380_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T16:26:48.751",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a2cc39c3-1a0a-4a0f-9945-1158fd605eab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a2cc39c3-1a0a-4a0f-9945-1158fd605eab"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/60387033-02bc-4da0-aa8f-c53cf5301dbb"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/52dd5e3e-3548-45a4-87bf-f28100948b45"
+}
+}
+}

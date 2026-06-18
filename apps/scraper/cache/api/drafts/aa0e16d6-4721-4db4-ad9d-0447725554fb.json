@@ -1,0 +1,442 @@
+{
+"uuid": "aa0e16d6-4721-4db4-ad9d-0447725554fb",
+"title": "Riigikogu otsus „Riigikogu otsuse ˮEesti Vabariigi, Leedu Vabariigi ja Läti Vabariigi Parlamentidevahelise Assamblee Eesti delegatsiooni moodustamineˮ muutmine\"",
+"mark": 646,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu otsuse ˮEesti Vabariigi, Leedu Vabariigi ja Läti Vabariigi Parlamentidevahelise Assamblee Eesti delegatsiooni moodustamineˮ muutmine\" 646 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu otsuse ˮEesti Vabariigi, Leedu Vabariigi ja Läti Vabariigi Parlamentidevahelise Assamblee Eesti delegatsiooni moodustamineˮ muutmine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu näeb ette nimetada komisjoni esindajaks Balti Assamblee delegatsioonis Irja Lutsar seoses Hele Everausi Riigikogu liikme volituste lõppemisega.",
+"initiated": "2025-05-12",
+"joined": null,
+"accepted": "2025-05-22",
+"amendmentsDeadline": "2025-05-16T16:00:00",
+"responsibleMember": {
+"uuid": "d5c54f88-dff3-486b-aac6-2cd124577d38",
+"name": "Ester Karuse",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/d5c54f88-dff3-486b-aac6-2cd124577d38?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad",
+"name": "Ivar Mölder",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3040,
+"text": "parlamendidelegatsioon"
+},
+{
+"edid": 5449,
+"text": "parlamentaarne assamblee"
+},
+{
+"edid": 5774,
+"text": "Baltimaad"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e8b883c1-924e-4770-bd16-c39fe4c9b275",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "29ea859d-8871-4821-a267-93e526fcc89d",
+"fileName": "Riigikogu_otsuse___Eesti_Vabariigi__Leedu_Vabariigi_ja_Läti_Vabariigi_Parlamentidevahelise_Assamblee_Eesti_delegatsiooni_moodustamine_muutmise_eelnõu_esitamine.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T15:29:53.117",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29ea859d-8871-4821-a267-93e526fcc89d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29ea859d-8871-4821-a267-93e526fcc89d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "61786147-a564-4b6e-a7dc-bc61f0b7944b",
+"title": "646 OE I tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0bc38054-f97e-44d3-9783-7fd07820f8b0",
+"fileName": "646_OE_BA_del_muutmine_(algtekst).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T07:48:51.477",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0bc38054-f97e-44d3-9783-7fd07820f8b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0bc38054-f97e-44d3-9783-7fd07820f8b0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e8b883c1-924e-4770-bd16-c39fe4c9b275",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2ad12ade-e5b6-4c4b-a586-112af6dd82ab",
+"fileName": "OE_BA_del_muutmine_(algtekst).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T15:29:53.183",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ad12ade-e5b6-4c4b-a586-112af6dd82ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ad12ade-e5b6-4c4b-a586-112af6dd82ab"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "f05db999-b67b-4954-8257-adc6d752ba50",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4f06f27c-2849-4dfd-a426-fc05b063552c",
+"fileName": "646XV_RK_o_22052025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T13:32:23.479",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4f06f27c-2849-4dfd-a426-fc05b063552c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4f06f27c-2849-4dfd-a426-fc05b063552c"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "f05db999-b67b-4954-8257-adc6d752ba50",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "56e13203-c563-4644-a0a0-0b1a08fcd374",
+"fileName": "646XV_RK_o_22052025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T13:32:08.462",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/56e13203-c563-4644-a0a0-0b1a08fcd374/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/56e13203-c563-4644-a0a0-0b1a08fcd374"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "61786147-a564-4b6e-a7dc-bc61f0b7944b",
+"title": "646 OE I tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "35317df3-c47a-4f0b-96d8-9a501b9e4e7f",
+"fileName": "646_OE_BA_del_muutmine_(seletuskiri).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T07:49:59.09",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35317df3-c47a-4f0b-96d8-9a501b9e4e7f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35317df3-c47a-4f0b-96d8-9a501b9e4e7f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e8b883c1-924e-4770-bd16-c39fe4c9b275",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "039a7e2e-e588-4974-985d-5a333765031b",
+"fileName": "OE_BA_del_muutmine_(seletuskiri).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T15:29:53.171",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/039a7e2e-e588-4974-985d-5a333765031b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/039a7e2e-e588-4974-985d-5a333765031b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "67141e1c-6f09-4fec-9670-28b8d518e62a",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e777c929-d0e3-47f6-97d7-3d0839e7e0da",
+"fileName": "646XV_RK_o_052025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T10:33:57.45",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e777c929-d0e3-47f6-97d7-3d0839e7e0da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e777c929-d0e3-47f6-97d7-3d0839e7e0da"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "67141e1c-6f09-4fec-9670-28b8d518e62a",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8b3414b1-4e7c-4b98-ac0d-a37dbfcf27c0",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T10:47:09.926",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b3414b1-4e7c-4b98-ac0d-a37dbfcf27c0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b3414b1-4e7c-4b98-ac0d-a37dbfcf27c0"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-05-12T15:28:58.135",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-05-13T15:25:00.877",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-12T11:19:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 12.05.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-05-22T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Ester Karuse"
+}
+],
+"protocolFiles": [
+{
+"uuid": "22dd53e8-afc4-47f4-87a1-bef883d23987",
+"fileName": "VÄLK_protokoll_12.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T10:50:26.378",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22dd53e8-afc4-47f4-87a1-bef883d23987/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22dd53e8-afc4-47f4-87a1-bef883d23987"
+}
+}
+},
+{
+"uuid": "bba0ef55-3948-4884-936e-144893ca4e1c",
+"fileName": "VÄLK_protokoll_12.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T10:49:39.678",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bba0ef55-3948-4884-936e-144893ca4e1c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bba0ef55-3948-4884-936e-144893ca4e1c"
+}
+}
+}
+]
+},
+{
+"date": "2025-05-22T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 22.05.2025 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "82133df1-f1c2-42e5-bb79-767c44d3462f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-05-22T10:31:41.72",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/82133df1-f1c2-42e5-bb79-767c44d3462f"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-05-22T13:28:50.404",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2025-05-27T09:01:34.418",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/aa0e16d6-4721-4db4-ad9d-0447725554fb"
+}
+}
+}

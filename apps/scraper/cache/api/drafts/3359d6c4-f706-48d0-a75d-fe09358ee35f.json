@@ -1,0 +1,363 @@
+{
+"uuid": "3359d6c4-f706-48d0-a75d-fe09358ee35f",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele pangandussektori ajutise solidaarsusmaksu kehtestamise kohta\"",
+"mark": 487,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele pangandussektori ajutise solidaarsusmaksu kehtestamise kohta\" 487 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele pangandussektori ajutise solidaarsusmaksu kehtestamise kohta\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek töötada välja seaduse eelnõu, millega kehtestatakse ajutine solidaarsusmaks Eesti pangandussektorile aastateks 2025–2027.",
+"initiated": "2024-09-09",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2024-09-24T17:15:00",
+"responsibleMember": {
+"uuid": "5650dddf-f2ca-4b94-8888-e7482808f81b",
+"name": "Aivar Sõerd",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/5650dddf-f2ca-4b94-8888-e7482808f81b?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4738,
+"text": "pank"
+},
+{
+"edid": 4842,
+"text": "kasum"
+},
+{
+"edid": 3685,
+"text": "maksustatav tulu"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "00a90c15-a1af-4b6c-abcc-2d710e9823c0",
+"title": "487 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e31466c2-6484-4557-b9dd-322b765beb93",
+"fileName": "487_Ettepanek_VVle_Pankade_maksust_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-17T15:08:44.772",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e31466c2-6484-4557-b9dd-322b765beb93/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e31466c2-6484-4557-b9dd-322b765beb93"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "c88ef3bf-3a41-4875-9513-b0a509a29e8b",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ab2312e2-7f75-4a5b-9a26-cf1fd7b13800",
+"fileName": "2024.09Pankade_maksustamise_OE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T17:03:19.372",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ab2312e2-7f75-4a5b-9a26-cf1fd7b13800/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ab2312e2-7f75-4a5b-9a26-cf1fd7b13800"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "c88ef3bf-3a41-4875-9513-b0a509a29e8b",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d4ed8b1e-9565-4a93-ae64-f56c953524e3",
+"fileName": "487_Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T17:46:30.347",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d4ed8b1e-9565-4a93-ae64-f56c953524e3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d4ed8b1e-9565-4a93-ae64-f56c953524e3"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "00a90c15-a1af-4b6c-abcc-2d710e9823c0",
+"title": "487 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cad163b7-62b5-4510-ab48-bdb88eabec1b",
+"fileName": "487_Ettepanek_VVle_Pankade_maksust_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-17T15:08:58.498",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cad163b7-62b5-4510-ab48-bdb88eabec1b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cad163b7-62b5-4510-ab48-bdb88eabec1b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "c88ef3bf-3a41-4875-9513-b0a509a29e8b",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "35930865-dadf-4ae9-94f5-f3fefadc9569",
+"fileName": "487_Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T17:46:46.026",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35930865-dadf-4ae9-94f5-f3fefadc9569/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35930865-dadf-4ae9-94f5-f3fefadc9569"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-09-09T17:02:46.913",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-09-10T13:43:00.122",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-09-17T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 17.09.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-10-22T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Aivar Sõerd"
+}
+],
+"protocolFiles": [
+{
+"uuid": "f4c723ee-630d-451d-a205-f76bfb7632e4",
+"fileName": "RAHK_protokoll_nr_107_17.09.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T14:57:35.374",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f4c723ee-630d-451d-a205-f76bfb7632e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f4c723ee-630d-451d-a205-f76bfb7632e4"
+}
+}
+},
+{
+"uuid": "0bee315e-55d4-4a19-9619-9299502bca2e",
+"fileName": "RAHK_protokoll_17.09.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T14:58:19.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0bee315e-55d4-4a19-9619-9299502bca2e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0bee315e-55d4-4a19-9619-9299502bca2e"
+}
+}
+}
+]
+},
+{
+"date": "2024-10-22T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 22.10.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "5cc93b28-841b-47ac-810e-4c27ee13d4b5",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-10-22T12:03:17.697",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/5cc93b28-841b-47ac-810e-4c27ee13d4b5"
+}
+}
+},
+{
+"uuid": "a1f505d5-4e19-4575-820b-76ed3ce33471",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2024-10-22T11:44:03.357",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a1f505d5-4e19-4575-820b-76ed3ce33471"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "551f3ff0-b24a-47bf-8386-00ed690a72a9",
+"reference": "1-1/15-487/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele pangandussektori ajutise solidaarsusmaksu kehtestamise kohta\" eelnõu 487 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-03",
+"files": [
+{
+"uuid": "90a99306-998b-42cb-aaba-7ecbf2a47fe2",
+"fileName": "275.tel_Arvamus_487OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-03T08:47:05.127",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90a99306-998b-42cb-aaba-7ecbf2a47fe2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90a99306-998b-42cb-aaba-7ecbf2a47fe2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/551f3ff0-b24a-47bf-8386-00ed690a72a9"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/3359d6c4-f706-48d0-a75d-fe09358ee35f"
+}
+}
+}

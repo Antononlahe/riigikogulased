@@ -1,0 +1,430 @@
+{
+"uuid": "0933656d-ebcd-4859-b46a-0c3a96e3c65e",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada liiklusseaduse muutmise eelnõu, mis annab kohalikele omavalitsustele õiguse piirata või keelata renditavate kergliikurite ja pisimopeedide kasutamist“",
+"mark": 618,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada liiklusseaduse muutmise eelnõu, mis annab kohalikele omavalitsustele õiguse piirata või keelata renditavate kergliikurite ja pisimopeedide kasutamist“ 618 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada liiklusseaduse muutmise eelnõu, mis annab kohalikele omavalitsustele õiguse piirata või keelata renditavate kergliikurite ja pisimopeedide kasutamist“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek algatada vastavasisuline eelnõu renditavate kergliikurite ja pisimopeedide kasutamise kohta.",
+"initiated": "2025-04-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-04-23T17:15:00",
+"responsibleMember": {
+"uuid": "0c571754-914d-406a-baba-6734212353de",
+"name": "Urve Tiidus",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0c571754-914d-406a-baba-6734212353de?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "29ac9b4b-1d00-402a-a55e-e8044bf8a33a",
+"name": "Piia Schults",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/29ac9b4b-1d00-402a-a55e-e8044bf8a33a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4653,
+"text": "kaherattaline sõiduk"
+},
+{
+"edid": 3097,
+"text": "sõiduki rent"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6939e4c2-798e-4669-aca8-eeee27c378f4",
+"title": "618 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f3ace4aa-005b-4a8c-9654-4bd86eaa0f74",
+"fileName": "618_RK_o_Ettepanek_kergliikurite_piiramiseks_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T17:04:07.53",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3ace4aa-005b-4a8c-9654-4bd86eaa0f74/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3ace4aa-005b-4a8c-9654-4bd86eaa0f74"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2b02dd93-673e-45da-8775-92df4e044faf",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "92141676-06f7-47f9-834e-82cb6f71d7d5",
+"fileName": "Ettepanek_kergliikurite_piiramiseks.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:10:41.422",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92141676-06f7-47f9-834e-82cb6f71d7d5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92141676-06f7-47f9-834e-82cb6f71d7d5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2b02dd93-673e-45da-8775-92df4e044faf",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5812573d-ab5e-4923-9fe5-4e2c3e2a9738",
+"fileName": "618_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:19:22.502",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5812573d-ab5e-4923-9fe5-4e2c3e2a9738/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5812573d-ab5e-4923-9fe5-4e2c3e2a9738"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6939e4c2-798e-4669-aca8-eeee27c378f4",
+"title": "618 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "750baaae-aecb-48f2-b7bd-eb0050cf1020",
+"fileName": "618_RK_o_Ettepanek_kergliikurite_piiramiseks_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-02T17:08:06.842",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/750baaae-aecb-48f2-b7bd-eb0050cf1020/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/750baaae-aecb-48f2-b7bd-eb0050cf1020"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2b02dd93-673e-45da-8775-92df4e044faf",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "833cc12d-cdcd-48f8-8b4e-3c02e0808b78",
+"fileName": "618_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:19:31.381",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/833cc12d-cdcd-48f8-8b4e-3c02e0808b78/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/833cc12d-cdcd-48f8-8b4e-3c02e0808b78"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-04-08T10:10:12.228",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-04-08T17:58:00.225",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-04-24T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 24.04.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Urve Tiidus"
+}
+],
+"protocolFiles": [
+{
+"uuid": "55d89d32-9476-4ef5-8518-32bcea73d591",
+"fileName": "MAJK_protokoll_nr_124_24.04.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-05T15:00:41.819",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/55d89d32-9476-4ef5-8518-32bcea73d591/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/55d89d32-9476-4ef5-8518-32bcea73d591"
+}
+}
+},
+{
+"uuid": "df2cea19-8fa3-4001-91c6-02cc0fa0a242",
+"fileName": "MAJK_protokoll_nr_124_24.04.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-05T14:58:46.145",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/df2cea19-8fa3-4001-91c6-02cc0fa0a242/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/df2cea19-8fa3-4001-91c6-02cc0fa0a242"
+}
+}
+}
+]
+},
+{
+"date": "2025-05-19T11:56:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 19.05.2025 kell 11.56",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "cc4f90bf-c388-4dba-8e8f-3d57eaaafe95",
+"fileName": "Asendusliikme_volikiri_Jevgrafov_Kovalenko-Kõlvart.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-03T12:09:51.305",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cc4f90bf-c388-4dba-8e8f-3d57eaaafe95/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cc4f90bf-c388-4dba-8e8f-3d57eaaafe95"
+}
+}
+},
+{
+"uuid": "567c8543-a873-451f-bbe7-55dd5db6b3b6",
+"fileName": "MAJK_protokoll_nr_128_19.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-28T10:06:58.585",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/567c8543-a873-451f-bbe7-55dd5db6b3b6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/567c8543-a873-451f-bbe7-55dd5db6b3b6"
+}
+}
+},
+{
+"uuid": "f7f2c114-0cbb-4f32-9826-26897e4f8121",
+"fileName": "MAJK_protokoll_nr_128_19.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-28T10:07:43.409",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7f2c114-0cbb-4f32-9826-26897e4f8121/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7f2c114-0cbb-4f32-9826-26897e4f8121"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-20T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 20.05.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-04T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "27c81b8b-0659-4ff7-af1c-ec2ab0fd17d0",
+"fileName": "MAJK_protokoll_nr_129_20.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-27T11:05:27.677",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/27c81b8b-0659-4ff7-af1c-ec2ab0fd17d0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/27c81b8b-0659-4ff7-af1c-ec2ab0fd17d0"
+}
+}
+},
+{
+"uuid": "738f5f07-5855-48e7-a58b-e7771328963d",
+"fileName": "MAJK_protokoll_nr_129_20.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-27T10:24:59.981",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/738f5f07-5855-48e7-a58b-e7771328963d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/738f5f07-5855-48e7-a58b-e7771328963d"
+}
+}
+},
+{
+"uuid": "8a93a2f3-2bc1-49c5-a64c-396f9e9ca068",
+"fileName": "Liivi_lahe_REP_20.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa (Liivi lahe meretuulepargi elektriühenduse riigi eriplaneering)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-26T13:31:58.512",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8a93a2f3-2bc1-49c5-a64c-396f9e9ca068/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8a93a2f3-2bc1-49c5-a64c-396f9e9ca068"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-04T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 4.06.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "60bd2148-7430-4b18-b13f-5a5f6c5da05d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-06-04T15:21:55.243",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/60bd2148-7430-4b18-b13f-5a5f6c5da05d"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/0933656d-ebcd-4859-b46a-0c3a96e3c65e"
+}
+}
+}

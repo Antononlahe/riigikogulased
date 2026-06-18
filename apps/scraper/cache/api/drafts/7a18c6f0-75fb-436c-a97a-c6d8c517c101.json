@@ -1,0 +1,357 @@
+{
+"uuid": "7a18c6f0-75fb-436c-a97a-c6d8c517c101",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist anda omavalitsustele õigus uute maksude kehtestamiseks ja leida alternatiivseid võimalusi omavalitsustele tulubaasi tugevdamiseks\"",
+"mark": 135,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist anda omavalitsustele õigus uute maksude kehtestamiseks ja leida alternatiivseid võimalusi omavalitsustele tulubaasi tugevdamiseks\" 135 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist anda omavalitsustele õigus uute maksude kehtestamiseks ja leida alternatiivseid võimalusi omavalitsustele tulubaasi tugevdamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist anda omavalitsustele õigus uute maksude kehtestamiseks ja leida alternatiivseid võimalusi omavalitsustele tulubaasi tugevdamiseks.",
+"initiated": "2023-05-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-29T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1317,
+"text": "kohalik maks"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "71d690f3-ffb1-4970-8b4a-b41d82599578",
+"title": "135 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d1cb1869-e745-4474-bc00-e83113b29e5f",
+"fileName": "135_OE_KOV-idele_mitte_uuteks_maksudeks_õigust_anda_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T08:58:27.26",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d1cb1869-e745-4474-bc00-e83113b29e5f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d1cb1869-e745-4474-bc00-e83113b29e5f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b54c7fa9-17c5-4850-9d70-fd5480a1a475",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "12164649-38fb-48c2-8905-9e1af84cd54e",
+"fileName": "135_OE_KOV-idele_mitte_uuteks_maksudeks_õigust_anda.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-15T14:54:19.935",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/12164649-38fb-48c2-8905-9e1af84cd54e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/12164649-38fb-48c2-8905-9e1af84cd54e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b54c7fa9-17c5-4850-9d70-fd5480a1a475",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f01a9d24-7a26-4db8-ac49-6d0ea01f6920",
+"fileName": "135_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T12:02:21.837",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f01a9d24-7a26-4db8-ac49-6d0ea01f6920/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f01a9d24-7a26-4db8-ac49-6d0ea01f6920"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "71d690f3-ffb1-4970-8b4a-b41d82599578",
+"title": "135 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "85e0d44d-42d1-4e00-8cb8-6b9eada980e9",
+"fileName": "135_OE_KOV-idele_mitte_uuteks_maksudeks_õigust_anda_SK.doc.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-10T09:20:04.125",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/85e0d44d-42d1-4e00-8cb8-6b9eada980e9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/85e0d44d-42d1-4e00-8cb8-6b9eada980e9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b54c7fa9-17c5-4850-9d70-fd5480a1a475",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "69e52fd7-f4c9-4340-91f1-7a1c18033fee",
+"fileName": "135_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T12:02:35.622",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/69e52fd7-f4c9-4340-91f1-7a1c18033fee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/69e52fd7-f4c9-4340-91f1-7a1c18033fee"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-11T10:25:34.973",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T20:19:00.133",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-26T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "25b30ecd-32f6-4e1f-ac36-9e4f260cd275",
+"fileName": "RAHK_protokoll_nr_22_19.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:17:38.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25b30ecd-32f6-4e1f-ac36-9e4f260cd275/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25b30ecd-32f6-4e1f-ac36-9e4f260cd275"
+}
+}
+},
+{
+"uuid": "2d25a051-580d-44ba-aa3c-5dfa1ebb4ded",
+"fileName": "Asendusliikme_volikiri_M.Reinaas-T.Tein_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:14:20.776",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d25a051-580d-44ba-aa3c-5dfa1ebb4ded/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d25a051-580d-44ba-aa3c-5dfa1ebb4ded"
+}
+}
+},
+{
+"uuid": "52897e93-05cf-4bca-a974-179e6ba6467a",
+"fileName": "RAHK_protokoll_nr_22_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:13:54.488",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52897e93-05cf-4bca-a974-179e6ba6467a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52897e93-05cf-4bca-a974-179e6ba6467a"
+}
+}
+}
+]
+},
+{
+"date": "2023-11-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 14.11.2023 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "2ea8b72f-a8af-4d9b-af5e-dd5a7e2a6873",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-11-14T10:46:04.707",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/2ea8b72f-a8af-4d9b-af5e-dd5a7e2a6873"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "99eb8e63-1a1d-4cdd-b3f9-be97c1602db0",
+"reference": "1-1/15-38/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu maksumuudatustega seotud otsuste 38 OE, 39 OE, 44 OE, 46 OE, 59 OE, 62 OE, 64 OE, 65 OE, 66 OE, 96 OE, 135 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-12",
+"files": [
+{
+"uuid": "fde6b89a-6afe-4563-a92e-4b0da429ca9f",
+"fileName": "ÕAO_12092023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:33:01.769",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fde6b89a-6afe-4563-a92e-4b0da429ca9f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fde6b89a-6afe-4563-a92e-4b0da429ca9f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/99eb8e63-1a1d-4cdd-b3f9-be97c1602db0"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/7a18c6f0-75fb-436c-a97a-c6d8c517c101"
+}
+}
+}

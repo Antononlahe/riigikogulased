@@ -1,0 +1,600 @@
+{
+"uuid": "a0cf71e5-f993-444e-bc57-438255be36db",
+"title": "Riigikogu otsus „Riigimetsa Majandamise Keskuse nõukogu liikmete nimetamine\"",
+"mark": 210,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigimetsa Majandamise Keskuse nõukogu liikmete nimetamine\" 210 OE",
+"initialTitle": "Riigikogu otsus „Riigimetsa Majandamise Keskuse nõukogu liikmete nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga tehakse ettepanek nimetada RMK nõukogusse Yoko Alender ja Jevgeni Ossinovski. \nVastavalt metsaseadusele kuulub RMK nõukogu koosseisu kaks Riigikogu otsusega nimetatud liiget. Riigikogu nimetatud nõukogu liikme volitused lõpevad koos tema Riigikogu liikme volituste lõppemisega.",
+"initiated": "2023-05-16",
+"joined": null,
+"accepted": "2023-05-22",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "236e49d6-eecb-4562-8ad4-bedd586bb149",
+"name": "Tarmo Tamm",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/236e49d6-eecb-4562-8ad4-bedd586bb149?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "93630c8d-295d-4c76-b30b-2eebc6d35396",
+"name": "Elle Kaur",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/93630c8d-295d-4c76-b30b-2eebc6d35396?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 651,
+"text": "metsamajandus"
+},
+{
+"edid": 2996,
+"text": "riigimets"
+},
+{
+"edid": 878,
+"text": "avalik asutus"
+},
+{
+"edid": 1154,
+"text": "juhtimine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bae2a760-f775-4d1e-ac19-68f172c6a673",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bc67a968-4680-4c02-b1a6-c0df10a82eea",
+"fileName": "Eelno_u_RMK.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T10:45:52.298",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc67a968-4680-4c02-b1a6-c0df10a82eea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc67a968-4680-4c02-b1a6-c0df10a82eea"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9a0603db-fd54-4577-8a76-5996b3b220d4",
+"title": "210 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4b185129-16f4-4a35-a1a8-c0c2b1b702d1",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T09:52:49.337",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4b185129-16f4-4a35-a1a8-c0c2b1b702d1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4b185129-16f4-4a35-a1a8-c0c2b1b702d1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bae2a760-f775-4d1e-ac19-68f172c6a673",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "07f8baaa-edb6-4d1b-a95c-714330440655",
+"fileName": "Eelnõu_RMK.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T10:46:10.057",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07f8baaa-edb6-4d1b-a95c-714330440655/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07f8baaa-edb6-4d1b-a95c-714330440655"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bae2a760-f775-4d1e-ac19-68f172c6a673",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "34668c33-e250-4efb-bc26-a796b3a9f123",
+"fileName": "Esitluskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T10:46:10.011",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34668c33-e250-4efb-bc26-a796b3a9f123/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34668c33-e250-4efb-bc26-a796b3a9f123"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "bc7d5026-0336-4f26-b181-91512efa043e",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a8d93a7f-4bc6-437c-9527-346af0f3d197",
+"fileName": "210XV_RK_o_24052023.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T19:26:11.865",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a8d93a7f-4bc6-437c-9527-346af0f3d197/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a8d93a7f-4bc6-437c-9527-346af0f3d197"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "bc7d5026-0336-4f26-b181-91512efa043e",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7a0d0f9f-50ef-429d-9a9f-72bbd963447d",
+"fileName": "210XV_RK_o_24052023.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T19:26:04.14",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a0d0f9f-50ef-429d-9a9f-72bbd963447d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a0d0f9f-50ef-429d-9a9f-72bbd963447d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9a0603db-fd54-4577-8a76-5996b3b220d4",
+"title": "210 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "02b8b9f5-17fa-48a3-b0d7-dfc9ee629ed6",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T09:53:00.475",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/02b8b9f5-17fa-48a3-b0d7-dfc9ee629ed6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/02b8b9f5-17fa-48a3-b0d7-dfc9ee629ed6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bae2a760-f775-4d1e-ac19-68f172c6a673",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b806d333-80d7-4ff4-9ae7-eb28359ebad6",
+"fileName": "Seletuskiri_RMK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T10:46:10.037",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b806d333-80d7-4ff4-9ae7-eb28359ebad6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b806d333-80d7-4ff4-9ae7-eb28359ebad6"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "35de2ee4-29f8-4523-aa5b-3d007bc75a1a",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bf084e11-150e-420a-a2cc-53cb2b115281",
+"fileName": "210XV_RK_o_05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T18:27:35.3",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf084e11-150e-420a-a2cc-53cb2b115281/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf084e11-150e-420a-a2cc-53cb2b115281"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "35de2ee4-29f8-4523-aa5b-3d007bc75a1a",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a5a614b2-ce57-42ea-910a-870355fead4f",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T08:17:41.47",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a5a614b2-ce57-42ea-910a-870355fead4f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a5a614b2-ce57-42ea-910a-870355fead4f"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-16T10:45:04.458",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-16T13:45:00.426",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-05-15T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 15.05.2023 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2023-05-22T15:00:00"
+},
+{
+"decision": {
+"code": "ALGATADA_EELNOU",
+"value": "Algatada eelnõu"
+}
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Teha Riigikogule ettepanek nimetada Riigimetsa Majandamise Keskuse nõukogu liikmeks Jevgeni Ossinovski ja Yoko Alender"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Tarmo Tamm"
+}
+],
+"protocolFiles": [
+{
+"uuid": "5e5e0e08-0ba0-4c9d-9357-a46d602907b5",
+"fileName": "FR_Eesti_Sotsiaaldemokraatliku_erakonna_ettepanek_RMK_liikmeks_Jevgeni_Ossinovski_10.05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "(Fraktsiooni Sotsiaaldemokraadid RMK liikme nimetamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T10:03:53.728",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5e5e0e08-0ba0-4c9d-9357-a46d602907b5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5e5e0e08-0ba0-4c9d-9357-a46d602907b5"
+}
+}
+},
+{
+"uuid": "bc950f7c-e1a8-4f7c-9bfe-6e4293b7707b",
+"fileName": "FR_Eesti_Reformierakonna_ettepanek_RMK_liikmeks_Yoko_Alender_09.05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "(Fraktsiooni Reformierakond RMK liikme nimetamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T10:03:28.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc950f7c-e1a8-4f7c-9bfe-6e4293b7707b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc950f7c-e1a8-4f7c-9bfe-6e4293b7707b"
+}
+}
+},
+{
+"uuid": "0514dc21-ffd4-4217-896f-d8d5e0a3a942",
+"fileName": "Ettepanek_KIK_nõukogu.docx",
+"fileExtension": "docx",
+"fileTitle": "(Fraktsiooni Eesti 200 KIKi liikme nimetamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T10:01:23.647",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0514dc21-ffd4-4217-896f-d8d5e0a3a942/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0514dc21-ffd4-4217-896f-d8d5e0a3a942"
+}
+}
+},
+{
+"uuid": "67b8584c-9403-4adc-8015-e31590f42756",
+"fileName": "FR_Eesti_200_ettepanek_KIKi_liikmeks_Tarmo_Tamm_08.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "(Fraktsiooni Eesti 200 KIKi liikme nimetamine) asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T10:01:02.714",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67b8584c-9403-4adc-8015-e31590f42756/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67b8584c-9403-4adc-8015-e31590f42756"
+}
+}
+},
+{
+"uuid": "e230b537-dc38-45db-b6df-39a5e2a3b57b",
+"fileName": "FR_Isamaa_erakonna_ettepanek_KIKi_liikmeks_Mart_Maastik_15.05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "(Fraktsiooni Isamaa KIKi liikme nimetamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T09:56:54.538",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e230b537-dc38-45db-b6df-39a5e2a3b57b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e230b537-dc38-45db-b6df-39a5e2a3b57b"
+}
+}
+},
+{
+"uuid": "ae7f97db-ec12-4106-a92b-84c62f1e7479",
+"fileName": "FR_Eesti_Sotsiaaldemokraatliku_erakonna_ettepanek_KIKi_liikmeks_Reili_Rand_10.05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "(Fraktsiooni Eesti Sotsiaaldemorkaadid KIKi liikme nimetamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T09:56:13.843",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae7f97db-ec12-4106-a92b-84c62f1e7479/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae7f97db-ec12-4106-a92b-84c62f1e7479"
+}
+}
+},
+{
+"uuid": "2e562f92-792a-4786-915f-12c9a41c6dae",
+"fileName": "FR_Eesti_Reformierakonna_ettepanek_KIKi_liikmeks_Maido_Ruusmann_09.05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "(Fraktsiooni Eesti Reformierakond KIKi liikme nimetamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T09:54:59.985",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2e562f92-792a-4786-915f-12c9a41c6dae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2e562f92-792a-4786-915f-12c9a41c6dae"
+}
+}
+},
+{
+"uuid": "09519204-0b5b-4620-9b69-21029ceac9e9",
+"fileName": "KEKK_protokoll_15.05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:08:11.549",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/09519204-0b5b-4620-9b69-21029ceac9e9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/09519204-0b5b-4620-9b69-21029ceac9e9"
+}
+}
+},
+{
+"uuid": "0756f638-034c-42ab-89d5-bc68e1bfd76e",
+"fileName": "KEKK_protokoll_15.05.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:08:45.915",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0756f638-034c-42ab-89d5-bc68e1bfd76e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0756f638-034c-42ab-89d5-bc68e1bfd76e"
+}
+}
+},
+{
+"uuid": "31c14f4b-b61d-4b43-a7e6-60dd3c1c4205",
+"fileName": "Kristi_Klaas_Keskkonnakomisjon_150523.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-15T13:40:12.185",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/31c14f4b-b61d-4b43-a7e6-60dd3c1c4205/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/31c14f4b-b61d-4b43-a7e6-60dd3c1c4205"
+}
+}
+}
+]
+},
+{
+"date": "2023-05-22T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 22.05.2023 15:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "18cecfd7-4497-4d15-85fd-8f6dc313a8c9",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-05-22T18:56:56.493",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/18cecfd7-4497-4d15-85fd-8f6dc313a8c9"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2023-05-24T19:25:48.598",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2023-05-26T14:31:30.862",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a0cf71e5-f993-444e-bc57-438255be36db"
+}
+}
+}

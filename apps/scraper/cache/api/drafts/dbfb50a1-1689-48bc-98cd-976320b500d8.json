@@ -1,0 +1,577 @@
+{
+"uuid": "dbfb50a1-1689-48bc-98cd-976320b500d8",
+"title": "Riigikontrolli seaduse, erakonnaseaduse ja teiste seaduste muutmise seadus (erakondade rahastamise kontrollorgan)",
+"mark": 599,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikontrolli seaduse, erakonnaseaduse ja teiste seaduste muutmise seadus (erakondade rahastamise kontrollorgan) 599 SE",
+"initialTitle": "Riigikontrolli seaduse, erakonnaseaduse ja teiste seaduste muutmise seadus (erakondade rahastamise kontrollorgan)",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu väljatöötamine tulenes vajadusest tagada professionaalsem kontroll erakondade tegevuse rahastamise üle. Selleks asendatakse senine erakondade rahastamise järelevalve komisjon uue kontrolliorganiga, milleks on Riigikontroll.",
+"initiated": "2025-03-18",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "4e2e1744-16b5-4d88-a08a-cf250c776956",
+"name": "Ando Kiviberg",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4e2e1744-16b5-4d88-a08a-cf250c776956?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2258,
+"text": "poliitilised parteid"
+},
+{
+"edid": 1359,
+"text": "valimisliit"
+},
+{
+"edid": 5105,
+"text": "kandidaat"
+},
+{
+"edid": 1013,
+"text": "valimiste rahastamine"
+},
+{
+"edid": 1011,
+"text": "partei rahastamine"
+},
+{
+"edid": 2579,
+"text": "järelevalveõigus"
+},
+{
+"edid": 171,
+"text": "halduskontroll"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2bffeff8-6767-42fc-9f9a-a6e80237d1b7",
+"title": "599 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2534d5e1-d95e-4fe8-b977-fd51cc16dadc",
+"fileName": "599_RKS_EKS_jt_s_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-06T17:47:29.163",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2534d5e1-d95e-4fe8-b977-fd51cc16dadc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2534d5e1-d95e-4fe8-b977-fd51cc16dadc"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "edb25053-4cc1-48a7-b30b-1da52a1f1e78",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3a968e8d-59d0-42ff-b956-233b3d72ae2e",
+"fileName": "ERJK_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T10:07:18.784",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a968e8d-59d0-42ff-b956-233b3d72ae2e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a968e8d-59d0-42ff-b956-233b3d72ae2e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "edb25053-4cc1-48a7-b30b-1da52a1f1e78",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "67bfcddb-1bb5-4960-9873-9bf5413a4a07",
+"fileName": "599E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T14:17:12.805",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67bfcddb-1bb5-4960-9873-9bf5413a4a07/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67bfcddb-1bb5-4960-9873-9bf5413a4a07"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2bffeff8-6767-42fc-9f9a-a6e80237d1b7",
+"title": "599 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "44c4ba5c-72bf-4021-9b89-ff403b1ad1aa",
+"fileName": "599_RKS_EKS_jt_s_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-06T17:49:22.517",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/44c4ba5c-72bf-4021-9b89-ff403b1ad1aa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/44c4ba5c-72bf-4021-9b89-ff403b1ad1aa"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "edb25053-4cc1-48a7-b30b-1da52a1f1e78",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3d8488e4-516e-4cff-b9e4-992ef47b9383",
+"fileName": "ERJK_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T10:07:18.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d8488e4-516e-4cff-b9e4-992ef47b9383/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d8488e4-516e-4cff-b9e4-992ef47b9383"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "edb25053-4cc1-48a7-b30b-1da52a1f1e78",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b897c172-1701-4107-8501-a61004b3786c",
+"fileName": "599SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T14:17:30.944",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b897c172-1701-4107-8501-a61004b3786c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b897c172-1701-4107-8501-a61004b3786c"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-03-18T10:06:47.79",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-03-18T13:37:00.892",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-06T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 6.05.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-05-14T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Ando Kiviberg"
+}
+],
+"protocolFiles": [
+{
+"uuid": "e45fcba3-cc3b-49f6-bc97-db08e75114a3",
+"fileName": "PÕSK_protokoll_nr_111.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T13:07:09.848",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e45fcba3-cc3b-49f6-bc97-db08e75114a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e45fcba3-cc3b-49f6-bc97-db08e75114a3"
+}
+}
+},
+{
+"uuid": "10cfbfef-7105-410b-8336-9ba3cab08283",
+"fileName": "Lisa_1.pptx",
+"fileExtension": "pptx",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T13:06:16.406",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/10cfbfef-7105-410b-8336-9ba3cab08283/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/10cfbfef-7105-410b-8336-9ba3cab08283"
+}
+}
+},
+{
+"uuid": "70e1adf6-1c84-4c62-a2c8-bfeb1ace00e8",
+"fileName": "Volikiri_V._Belobrovtsev_(06.05.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T13:06:39.116",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/70e1adf6-1c84-4c62-a2c8-bfeb1ace00e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/70e1adf6-1c84-4c62-a2c8-bfeb1ace00e8"
+}
+}
+},
+{
+"uuid": "167a3be9-1e1d-4511-9de1-e311df035594",
+"fileName": "PÕSK_protokoll_nr_111_(06.05.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T13:06:05.302",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/167a3be9-1e1d-4511-9de1-e311df035594/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/167a3be9-1e1d-4511-9de1-e311df035594"
+}
+}
+}
+]
+},
+{
+"date": "2025-05-14T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 14.05.2025 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2025-06-04T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 4.06.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "3a163e35-c120-4832-b2e5-aa33171339d7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-06-04T19:14:41.583",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/3a163e35-c120-4832-b2e5-aa33171339d7"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "7116309b-e2d5-42f7-9dc9-935d8b170052",
+"reference": "1-1/15-599/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 599 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-03-18",
+"files": [
+{
+"uuid": "afcd903c-dbca-4441-aecd-3aaa41d10c1a",
+"fileName": "250318_RKS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T10:43:26.964",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/afcd903c-dbca-4441-aecd-3aaa41d10c1a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/afcd903c-dbca-4441-aecd-3aaa41d10c1a"
+}
+}
+},
+{
+"uuid": "c64984ee-431e-4d2c-8942-ae840a5662fd",
+"fileName": "RKS_EKS_jt_s_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T10:13:05.928",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c64984ee-431e-4d2c-8942-ae840a5662fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c64984ee-431e-4d2c-8942-ae840a5662fd"
+}
+}
+},
+{
+"uuid": "bdef18de-7105-42e5-9052-585a4e4ac509",
+"fileName": "599E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T14:18:13.336",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bdef18de-7105-42e5-9052-585a4e4ac509/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bdef18de-7105-42e5-9052-585a4e4ac509"
+}
+}
+},
+{
+"uuid": "ef08ea13-e936-48a6-b440-a637fc52f304",
+"fileName": "599SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T14:18:28.74",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef08ea13-e936-48a6-b440-a637fc52f304/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef08ea13-e936-48a6-b440-a637fc52f304"
+}
+}
+},
+{
+"uuid": "7824cd05-936a-4fb0-9e27-5b00b14fd705",
+"fileName": "RKS_EKS_jt_s_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T10:12:45.845",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7824cd05-936a-4fb0-9e27-5b00b14fd705/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7824cd05-936a-4fb0-9e27-5b00b14fd705"
+}
+}
+},
+{
+"uuid": "2a151b1d-a108-4485-91b8-a79da305aac3",
+"fileName": "1-1-15-599-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_599_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T16:13:28.413",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2a151b1d-a108-4485-91b8-a79da305aac3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2a151b1d-a108-4485-91b8-a79da305aac3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7116309b-e2d5-42f7-9dc9-935d8b170052"
+}
+}
+},
+{
+"uuid": "1e8d4f77-c3d5-499a-bd15-eeb5ddd7877f",
+"reference": "1-1/15-599/2",
+"title": "Vabariigi Valitsuse arvamuse andmisest loobumine Riigikontrolli seaduse, erakonnaseaduse ja teiste seaduste muutmise seaduse (erakondade rahastamise kontrollorgan) eelnõu 599 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-17",
+"files": [
+{
+"uuid": "45f5d956-b3af-4398-8bdc-fce540d5e5b1",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0289_-_Riigikontrolli_seaduse__erakonnaseaduse_ja_teiste_seaduste_muutmise_seaduse_(erakondade_rahastamise_kontrollorgan)_eelnõu_(599_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T14:14:14.164",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/45f5d956-b3af-4398-8bdc-fce540d5e5b1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/45f5d956-b3af-4398-8bdc-fce540d5e5b1"
+}
+}
+},
+{
+"uuid": "f9916211-80e0-4575-821b-fd1a420335e8",
+"fileName": "599SE_RK_25-00489-5.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse andmisest loobumine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T14:14:14.103",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f9916211-80e0-4575-821b-fd1a420335e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f9916211-80e0-4575-821b-fd1a420335e8"
+}
+}
+},
+{
+"uuid": "c36ddf55-96e7-4222-8864-d530448aa401",
+"fileName": "25-00489-5.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamuse andmisest loobumine",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T14:14:14.151",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c36ddf55-96e7-4222-8864-d530448aa401/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c36ddf55-96e7-4222-8864-d530448aa401"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1e8d4f77-c3d5-499a-bd15-eeb5ddd7877f"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/dbfb50a1-1689-48bc-98cd-976320b500d8"
+}
+}
+}

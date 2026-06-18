@@ -133,11 +133,13 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
     `SELECT v.id AS "voteId", v.voted_at AS "votedAt", v.title, v.draft_title AS "draftTitle",
             v.draft_mark AS "draftMark", v.draft_uuid AS "draftUuid",
             v.riigikogu_uuid AS "riigikoguUuid",
+            do_.stage AS "outcomeStage",
             mva.member_choice AS "memberChoice", mva.party_majority_choice AS "partyMajorityChoice",
             mva.is_procedural AS "isProcedural", p.short_name AS "partyShortName"
        FROM ballot_alignment mva
        JOIN votes v ON v.id = mva.vote_id
        LEFT JOIN parties p ON p.id = mva.party_id
+       LEFT JOIN draft_outcomes do_ ON do_.draft_uuid = v.draft_uuid
       WHERE mva.member_id = $1
       ORDER BY v.voted_at`,
     [id],

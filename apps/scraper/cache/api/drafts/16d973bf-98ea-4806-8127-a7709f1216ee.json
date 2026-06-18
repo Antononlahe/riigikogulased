@@ -1,0 +1,541 @@
+{
+"uuid": "16d973bf-98ea-4806-8127-a7709f1216ee",
+"title": "Riigikogu valimise seaduse, kohaliku omavalitsuse volikogu valimise seaduse ja Euroopa Parlamendi valimise seaduse muutmise seadus",
+"mark": 292,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu valimise seaduse, kohaliku omavalitsuse volikogu valimise seaduse ja Euroopa Parlamendi valimise seaduse muutmise seadus 292 SE",
+"initialTitle": "Riigikogu valimise seaduse, kohaliku omavalitsuse volikogu valimise seaduse ja Euroopa Parlamendi valimise seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Riigikogu valimise seaduse, kohaliku omavalitsuse volikogu valimise seaduse ja Euroopa Parlamendi valimise seaduse muutmise seaduse eelnõuga tunnistatakse kehtetuks eelnimetatud institutsioonide valimistel e-hääletamise võimalus. Ehk lõpetatakse Eestis e-valimised.",
+"initiated": "2023-09-25",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "001dd80c-38c3-4557-b3ee-408d3ffd5cd7",
+"name": "Katrin Kuusemäe",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/001dd80c-38c3-4557-b3ee-408d3ffd5cd7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 695,
+"text": "valimised"
+},
+{
+"edid": 8559,
+"text": "e-hääletamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "aa08da5d-bc28-44e5-a635-34e34de47814",
+"title": "292 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "12b160d0-7ff3-4925-b1d1-3fb4f3d743f2",
+"fileName": "292_RKVS_KOVVS_EPVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-21T16:45:00.683",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/12b160d0-7ff3-4925-b1d1-3fb4f3d743f2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/12b160d0-7ff3-4925-b1d1-3fb4f3d743f2"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ce42235b-d543-4539-88c1-2a51bd8df687",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "84399fae-05a6-435c-b6da-3f7fdf76d8bc",
+"fileName": "292_RKVS_KOVVS_EPVS_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:03:46.282",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/84399fae-05a6-435c-b6da-3f7fdf76d8bc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/84399fae-05a6-435c-b6da-3f7fdf76d8bc"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ce42235b-d543-4539-88c1-2a51bd8df687",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a1103538-fdd2-4ab5-9a65-6eb5c3d4edc2",
+"fileName": "292E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:37:04.675",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a1103538-fdd2-4ab5-9a65-6eb5c3d4edc2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a1103538-fdd2-4ab5-9a65-6eb5c3d4edc2"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "aa08da5d-bc28-44e5-a635-34e34de47814",
+"title": "292 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "937c8884-935d-45fa-bd21-70a67bc75662",
+"fileName": "292_RKVS_KOVVS_EPVS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-21T16:45:54.356",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/937c8884-935d-45fa-bd21-70a67bc75662/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/937c8884-935d-45fa-bd21-70a67bc75662"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ce42235b-d543-4539-88c1-2a51bd8df687",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4bf1056f-3b9a-4abb-bc34-34da25d4fbbe",
+"fileName": "292_RKVS_KOVVS_EPVS_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:03:58.56",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4bf1056f-3b9a-4abb-bc34-34da25d4fbbe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4bf1056f-3b9a-4abb-bc34-34da25d4fbbe"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ce42235b-d543-4539-88c1-2a51bd8df687",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cf71d499-f3a8-4e75-b15e-79a6c1055875",
+"fileName": "292SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:37:15.855",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf71d499-f3a8-4e75-b15e-79a6c1055875/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf71d499-f3a8-4e75-b15e-79a6c1055875"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-09-25T16:36:34.404",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-09-26T13:47:00.136",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-11-21T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 21.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-12-07T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Katrin Kuusemäe"
+}
+],
+"protocolFiles": [
+{
+"uuid": "75a1bc09-b5ac-4903-902a-e223945bb6e4",
+"fileName": "P._Siemann_asendusliige_21.11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-07T21:32:17.291",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75a1bc09-b5ac-4903-902a-e223945bb6e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75a1bc09-b5ac-4903-902a-e223945bb6e4"
+}
+}
+},
+{
+"uuid": "56c1e96f-07b3-4282-a4ec-3bb0864cc793",
+"fileName": "PÕSK_protokoll_21.11.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-28T11:58:29.761",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/56c1e96f-07b3-4282-a4ec-3bb0864cc793/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/56c1e96f-07b3-4282-a4ec-3bb0864cc793"
+}
+}
+},
+{
+"uuid": "38a9e641-f989-4ba3-8357-050bea474c87",
+"fileName": "PÕSK.protokoll.21.11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-28T11:56:28.779",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/38a9e641-f989-4ba3-8357-050bea474c87/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/38a9e641-f989-4ba3-8357-050bea474c87"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 14.03.2024 10:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-03-20T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 20.03.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "b37b909b-1720-4f8a-8690-f25e9f9e60fa",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-03-20T17:58:05.003",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b37b909b-1720-4f8a-8690-f25e9f9e60fa"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "d6f98a52-7e10-47f5-b220-3ce887b2c87c",
+"reference": "1-1/15-292/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 292 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-25",
+"files": [
+{
+"uuid": "644e807d-c640-49e8-8034-9c2ccebbf856",
+"fileName": "292_RKVS_KOVVS_EPVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:32:26.27",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/644e807d-c640-49e8-8034-9c2ccebbf856/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/644e807d-c640-49e8-8034-9c2ccebbf856"
+}
+}
+},
+{
+"uuid": "b05217f8-874f-494a-a6a2-b2b7d0038723",
+"fileName": "1-1-15-292-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_292_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T13:42:30.467",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b05217f8-874f-494a-a6a2-b2b7d0038723/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b05217f8-874f-494a-a6a2-b2b7d0038723"
+}
+}
+},
+{
+"uuid": "f2d298db-03a5-4c29-9465-984b0a4b2184",
+"fileName": "230926_RKVS_KOVVS_EPVS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T19:17:42.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2d298db-03a5-4c29-9465-984b0a4b2184/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2d298db-03a5-4c29-9465-984b0a4b2184"
+}
+}
+},
+{
+"uuid": "2d7a31e4-a331-486d-afcc-5ff2b7546df3",
+"fileName": "292E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:27:01.655",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d7a31e4-a331-486d-afcc-5ff2b7546df3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d7a31e4-a331-486d-afcc-5ff2b7546df3"
+}
+}
+},
+{
+"uuid": "eeef2bb6-fcb3-4597-a6d9-fc0360d84233",
+"fileName": "292SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:27:12.674",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eeef2bb6-fcb3-4597-a6d9-fc0360d84233/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eeef2bb6-fcb3-4597-a6d9-fc0360d84233"
+}
+}
+},
+{
+"uuid": "a3b3f0c3-01e0-4fd3-aeb2-994b36e2e9a4",
+"fileName": "292_RKVS_KOVVS_EPVS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:32:38.284",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a3b3f0c3-01e0-4fd3-aeb2-994b36e2e9a4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a3b3f0c3-01e0-4fd3-aeb2-994b36e2e9a4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d6f98a52-7e10-47f5-b220-3ce887b2c87c"
+}
+}
+},
+{
+"uuid": "7760f8dc-f842-4005-a3c9-6d89646728c6",
+"reference": "1-1/15-292/2",
+"title": "Vabariigi Valitsuse arvamus Riigikogu valimise seaduse, kohaliku omavalitsuse volikogu valimise seaduse ja Euroopa Parlamendi valimise seaduse muutmise seaduse eelnõu 292 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-03",
+"files": [
+{
+"uuid": "fde48f4b-7c46-4575-a15e-3892876a270d",
+"fileName": "8-26524_02.11.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:37:48.713",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fde48f4b-7c46-4575-a15e-3892876a270d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fde48f4b-7c46-4575-a15e-3892876a270d"
+}
+}
+},
+{
+"uuid": "0e8bb4c9-1fc3-46e2-aa51-ac8efd0abe71",
+"fileName": "Vabariigi_Valitsuse_seisukoha_edastamine_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:37:48.744",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e8bb4c9-1fc3-46e2-aa51-ac8efd0abe71/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e8bb4c9-1fc3-46e2-aa51-ac8efd0abe71"
+}
+}
+},
+{
+"uuid": "afa5f011-3eac-4681-be82-e4d8c9ba3585",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-1276_-_Riigikogu_valimise_seaduse__kohaliku_omavalitsuse_volikogu_valimise_seaduse_ja_Euroopa_Parlamendi_valimise_seaduse_muutmise_seaduse_eelnõu_(292_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:37:48.763",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/afa5f011-3eac-4681-be82-e4d8c9ba3585/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/afa5f011-3eac-4681-be82-e4d8c9ba3585"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7760f8dc-f842-4005-a3c9-6d89646728c6"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/16d973bf-98ea-4806-8127-a7709f1216ee"
+}
+}
+}

@@ -1,0 +1,500 @@
+{
+"uuid": "9a9031ce-e6ee-4f85-9819-ed8e85b1f548",
+"title": "Riikliku pensionikindlustuse seaduse muutmise seadus",
+"mark": 15,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riikliku pensionikindlustuse seaduse muutmise seadus 15 SE",
+"initialTitle": "Riikliku pensionikindlustuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette kehtestada lesepensioni määramise võimalus isikule, kes on vanaduspensionieas ning kelle abikaasa, kellega on isik abielus olnud vähemalt 10 aastat, on vanaduspensioni ajaks surnud. Lesepension määratakse eluks ajaks ning võrdub surnud abikaasale arvutatud  riikliku pensioniga. Lesepensionit ei määrata, kui see on isiku enda riiklikust pensionist väiksem. Lesepensioni indekseeritakse ja tõstetakse erakorraliselt samadel alustel nagu vanaduspensioni. Lesepensioni taotlemise korra ja esitatavate dokumentide loetelu kehtestab valdkonna eest vastutav minister määrusega.",
+"initiated": "2023-04-20",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "8d9daaeb-dbaf-4887-8311-881b29bedfa9",
+"name": "Õnne Pillak",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8d9daaeb-dbaf-4887-8311-881b29bedfa9?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8a5e0f99-b6bc-48ff-91bf-c847958c776e",
+"name": "Heidi Barot",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8a5e0f99-b6bc-48ff-91bf-c847958c776e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3751,
+"text": "pensionisüsteem"
+},
+{
+"edid": 2341,
+"text": "lesk"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "05d356fd-1fac-42a9-9bfb-3acda1f58618",
+"title": "15 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "337ca802-741b-46b9-8f22-c4dc0af62759",
+"fileName": "15SE-I.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T13:51:15.839",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/337ca802-741b-46b9-8f22-c4dc0af62759/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/337ca802-741b-46b9-8f22-c4dc0af62759"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f489d3d8-1f4d-4a08-af37-d860e1723836",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "29ac73de-cb96-46da-8522-6b90571b0de8",
+"fileName": "SE_lesepension_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T10:05:20.645",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29ac73de-cb96-46da-8522-6b90571b0de8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29ac73de-cb96-46da-8522-6b90571b0de8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f489d3d8-1f4d-4a08-af37-d860e1723836",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "669bcac4-85ec-4ba7-a522-a6fed86ad350",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T10:59:08.9",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/669bcac4-85ec-4ba7-a522-a6fed86ad350/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/669bcac4-85ec-4ba7-a522-a6fed86ad350"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "05d356fd-1fac-42a9-9bfb-3acda1f58618",
+"title": "15 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5a585069-6f3b-467b-ae39-ff998318c869",
+"fileName": "15SE-I-seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T13:51:37.45",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5a585069-6f3b-467b-ae39-ff998318c869/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5a585069-6f3b-467b-ae39-ff998318c869"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f489d3d8-1f4d-4a08-af37-d860e1723836",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cbc18fc9-9a50-4cca-b19e-4dddae01c197",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T10:59:31.902",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cbc18fc9-9a50-4cca-b19e-4dddae01c197/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cbc18fc9-9a50-4cca-b19e-4dddae01c197"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-04-20T10:04:38.162",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-04-20T16:48:00.342",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-06-06T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 6.06.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-06-13T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Õnne Pillak"
+}
+],
+"protocolFiles": [
+{
+"uuid": "06681641-4d9e-430b-9939-475332506c0b",
+"fileName": "SOTK_protokoll_06.06.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-15T11:57:33.337",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/06681641-4d9e-430b-9939-475332506c0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/06681641-4d9e-430b-9939-475332506c0b"
+}
+}
+},
+{
+"uuid": "c754a272-1ebe-4a84-ba40-c49cfdfb9ca5",
+"fileName": "SOTK_protokoll_nr_12_(06.06.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-15T11:56:04.125",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c754a272-1ebe-4a84-ba40-c49cfdfb9ca5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c754a272-1ebe-4a84-ba40-c49cfdfb9ca5"
+}
+}
+}
+]
+},
+{
+"date": "2023-06-15T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 15.06.2023 10:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2023-09-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.09.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "c93eb5db-6b8b-47b8-9727-5906fa08ddff",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-09-13T20:38:35.257",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/c93eb5db-6b8b-47b8-9727-5906fa08ddff"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "f6c9d6fb-8752-48e8-89e1-9a2577b01e61",
+"reference": "1-1/15-15/2",
+"title": "Vabariigi Valitsuse arvamus riikliku pensionikindlustuse seaduse muutmise seaduse eelnõu 15 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-23",
+"files": [
+{
+"uuid": "f09a406c-b8ab-4e8c-866a-ce01aa948777",
+"fileName": "1.2-31777-5_23.05.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T14:59:29.831",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f09a406c-b8ab-4e8c-866a-ce01aa948777/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f09a406c-b8ab-4e8c-866a-ce01aa948777"
+}
+}
+},
+{
+"uuid": "5d771c8e-e5cf-4d7a-8c51-8bd0dee79495",
+"fileName": "VV_seisukoht_Riikliku_pensionikindlustuse_seaduse_muutmine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T14:59:29.874",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5d771c8e-e5cf-4d7a-8c51-8bd0dee79495/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5d771c8e-e5cf-4d7a-8c51-8bd0dee79495"
+}
+}
+},
+{
+"uuid": "a6dd8b22-64eb-442f-8b46-f7ad69d3d4e9",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0404_-_Riikliku_pensionikindlustuse_seaduse_muutmise_seaduse_eelnõu_(15_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-23T14:59:29.896",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6dd8b22-64eb-442f-8b46-f7ad69d3d4e9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6dd8b22-64eb-442f-8b46-f7ad69d3d4e9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f6c9d6fb-8752-48e8-89e1-9a2577b01e61"
+}
+}
+},
+{
+"uuid": "95d7c266-0bb1-49d7-b0c1-5030bd78ff66",
+"reference": "1-1/15-15/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 15 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-04-20",
+"files": [
+{
+"uuid": "88ffd6b8-3ee8-4b8f-b23d-1f19614c0439",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T11:00:01.943",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88ffd6b8-3ee8-4b8f-b23d-1f19614c0439/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88ffd6b8-3ee8-4b8f-b23d-1f19614c0439"
+}
+}
+},
+{
+"uuid": "d8b6deb3-6cb1-46ab-81c9-73218389fb05",
+"fileName": "RPKS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T10:10:01.366",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d8b6deb3-6cb1-46ab-81c9-73218389fb05/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d8b6deb3-6cb1-46ab-81c9-73218389fb05"
+}
+}
+},
+{
+"uuid": "066cde68-7610-4722-95bf-80f83f44f2b8",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T11:00:17.844",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/066cde68-7610-4722-95bf-80f83f44f2b8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/066cde68-7610-4722-95bf-80f83f44f2b8"
+}
+}
+},
+{
+"uuid": "06a868ea-2bd9-4f4d-8994-97994be1a079",
+"fileName": "230420_RPKS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T11:11:03.179",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/06a868ea-2bd9-4f4d-8994-97994be1a079/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/06a868ea-2bd9-4f4d-8994-97994be1a079"
+}
+}
+},
+{
+"uuid": "018d4ccf-1e50-42e5-ac7a-c7f70b8a6e08",
+"fileName": "1-1-15-15-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_15_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T15:46:09.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/018d4ccf-1e50-42e5-ac7a-c7f70b8a6e08/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/018d4ccf-1e50-42e5-ac7a-c7f70b8a6e08"
+}
+}
+},
+{
+"uuid": "90b86d6e-be0d-4f3d-8b5a-66595b0d5915",
+"fileName": "RPKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T10:09:45.72",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90b86d6e-be0d-4f3d-8b5a-66595b0d5915/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90b86d6e-be0d-4f3d-8b5a-66595b0d5915"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/95d7c266-0bb1-49d7-b0c1-5030bd78ff66"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9a9031ce-e6ee-4f85-9819-ed8e85b1f548"
+}
+}
+}

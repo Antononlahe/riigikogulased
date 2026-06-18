@@ -1,0 +1,525 @@
+{
+"uuid": "01b16191-4e51-4f04-833a-452532b5701d",
+"title": "Kohaliku omavalitsuse volikogu valimise seaduse muutmise seadus",
+"mark": 2,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kohaliku omavalitsuse volikogu valimise seaduse muutmise seadus 2 SE",
+"initialTitle": "Kohaliku omavalitsuse volikogu valimise seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TEINE_LUGEMINE",
+"activeDraftStatus": "I_LUGEMINE_LOPETATUD",
+"introduction": "Eelnõu eesmärgiks on tagada, et kohalike omavalitsuste valimistel kandideerivad isikud oskaks eesti keelt vastavalt keeleseaduses sätestatud C1 keeletasemele, mis on vajalik juhtimisega seotud töökohtadel, kus tööülesannete hulka võib kuuluda tegevuste kavandamine ja koordineerimine, samuti nõustamine ning avalike ettekannete, sõnavõttude ja kirjalike tekstide koostamine jne. Ühesõnaga, otseselt kõik see, mida volikogu liige vajab volikogu töös, istungitel ja erinevates komisjonides.",
+"initiated": "2023-04-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-09-26T17:15:00",
+"responsibleMember": {
+"uuid": "001dd80c-38c3-4557-b3ee-408d3ffd5cd7",
+"name": "Katrin Kuusemäe",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/001dd80c-38c3-4557-b3ee-408d3ffd5cd7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 699,
+"text": "kohalikud valimised"
+},
+{
+"edid": 717,
+"text": "õigus valimistel kandideerida"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b4abc4e2-3bcb-4333-869d-b3d9ea6597b3",
+"title": "2 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b5b263fd-29cf-4aac-8966-058bc8386512",
+"fileName": "2_KOVVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-05T15:02:27.913",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b5b263fd-29cf-4aac-8966-058bc8386512/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b5b263fd-29cf-4aac-8966-058bc8386512"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0980f6b4-ac57-43e5-bb1d-a92ae476bff7",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ece546d8-d94a-4d46-b8ba-a969b931188e",
+"fileName": "KOV_valimise_seaduse_muutmise_seaduse_eelnõu_EKRE_fr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T10:20:57.098",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ece546d8-d94a-4d46-b8ba-a969b931188e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ece546d8-d94a-4d46-b8ba-a969b931188e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0980f6b4-ac57-43e5-bb1d-a92ae476bff7",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f1409353-1322-4d47-9240-f912bac0bad5",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T11:31:12.343",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f1409353-1322-4d47-9240-f912bac0bad5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f1409353-1322-4d47-9240-f912bac0bad5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b4abc4e2-3bcb-4333-869d-b3d9ea6597b3",
+"title": "2 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ac23384e-8bae-4845-b201-76e6eb6fa2f0",
+"fileName": "2_KOVVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-05T15:03:01.702",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac23384e-8bae-4845-b201-76e6eb6fa2f0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac23384e-8bae-4845-b201-76e6eb6fa2f0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0980f6b4-ac57-43e5-bb1d-a92ae476bff7",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "30708c91-dd3c-4d56-8926-6e82a31f72ba",
+"fileName": "KOV_valimise_seaduse_muutmise_seaduse_eelnõu_EKRE_fr_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T10:21:18.548",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/30708c91-dd3c-4d56-8926-6e82a31f72ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/30708c91-dd3c-4d56-8926-6e82a31f72ba"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0980f6b4-ac57-43e5-bb1d-a92ae476bff7",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "48d215bc-2e21-4ae3-91bf-2a90a2316d79",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T11:31:25.162",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/48d215bc-2e21-4ae3-91bf-2a90a2316d79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/48d215bc-2e21-4ae3-91bf-2a90a2316d79"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-04-11T10:20:29.781",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-04-11T14:33:00.124",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-06-05T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 5.06.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-06-14T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Katrin Kuusemäe"
+}
+],
+"protocolFiles": [
+{
+"uuid": "168d74ca-31cb-4c7f-81be-f57f6e0c63e1",
+"fileName": "PÕSK_protokoll_05.06.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T13:00:25.311",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/168d74ca-31cb-4c7f-81be-f57f6e0c63e1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/168d74ca-31cb-4c7f-81be-f57f6e0c63e1"
+}
+}
+},
+{
+"uuid": "afaf9c28-9b72-4867-b35f-88e1f0d69981",
+"fileName": "PÕSK.protokoll.05.06.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T12:57:20.752",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/afaf9c28-9b72-4867-b35f-88e1f0d69981/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/afaf9c28-9b72-4867-b35f-88e1f0d69981"
+}
+}
+}
+]
+},
+{
+"date": "2023-06-15T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 15.06.2023 10:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2023-09-12T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 12.09.2023 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "7abe27a0-27a7-4975-a120-6a1afa7fa3f6",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-09-12T11:45:52.343",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/7abe27a0-27a7-4975-a120-6a1afa7fa3f6"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "4bf9aa00-3c04-418f-b108-26ace4e20ae2",
+"reference": "1-1/15-2/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 2 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-04-11",
+"files": [
+{
+"uuid": "c96ef302-35d9-4023-bf9f-12671cf305f6",
+"fileName": "KOVVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T10:48:02.931",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c96ef302-35d9-4023-bf9f-12671cf305f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c96ef302-35d9-4023-bf9f-12671cf305f6"
+}
+}
+},
+{
+"uuid": "52634ef9-fb32-4489-b349-e8db735513bd",
+"fileName": "1-1-15-2-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_2_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T13:40:42.692",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52634ef9-fb32-4489-b349-e8db735513bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52634ef9-fb32-4489-b349-e8db735513bd"
+}
+}
+},
+{
+"uuid": "f046ae47-69d8-4e52-8265-e6931dca0a52",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T11:32:21.316",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f046ae47-69d8-4e52-8265-e6931dca0a52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f046ae47-69d8-4e52-8265-e6931dca0a52"
+}
+}
+},
+{
+"uuid": "b7778c8f-935b-4a04-acd4-0195b52b58c7",
+"fileName": "230411_KOVVS1_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T12:10:50.013",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7778c8f-935b-4a04-acd4-0195b52b58c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7778c8f-935b-4a04-acd4-0195b52b58c7"
+}
+}
+},
+{
+"uuid": "aa218cda-74fd-48b0-afd2-caf0c2e81b49",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T11:32:02.761",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aa218cda-74fd-48b0-afd2-caf0c2e81b49/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aa218cda-74fd-48b0-afd2-caf0c2e81b49"
+}
+}
+},
+{
+"uuid": "22d507dc-6cf8-4c9e-8bba-0f5e4bbd9e4a",
+"fileName": "KOVVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T10:47:53.412",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22d507dc-6cf8-4c9e-8bba-0f5e4bbd9e4a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22d507dc-6cf8-4c9e-8bba-0f5e4bbd9e4a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/4bf9aa00-3c04-418f-b108-26ace4e20ae2"
+}
+}
+},
+{
+"uuid": "08bf7fbb-8478-4d7f-971a-b50e9c3dd4fc",
+"reference": "1-1/15-2/2",
+"title": "Vabariigi Valitsuse arvamus kohaliku omavalitsuse volikogu valimise seaduse muutmise seaduse eelnõu 2 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-16",
+"files": [
+{
+"uuid": "83b34db7-a90f-4803-a7c9-926857e8657f",
+"fileName": "8-22664_16.05.2023_Vï¿½ljaminev_kiri.bdoc",
+"fileExtension": "bdoc",
+"fileTitle": "Arvamus bdoc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T17:36:07.906",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83b34db7-a90f-4803-a7c9-926857e8657f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83b34db7-a90f-4803-a7c9-926857e8657f"
+}
+}
+},
+{
+"uuid": "bc771db1-e0f8-4d96-8223-f9cc08202e84",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0388_-_Kohaliku_omavalitsuse_volikogu_valimise_seaduse_muutmise_seaduseeelnõu_(2_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T17:36:07.952",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc771db1-e0f8-4d96-8223-f9cc08202e84/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc771db1-e0f8-4d96-8223-f9cc08202e84"
+}
+}
+},
+{
+"uuid": "99f99168-829d-4e4c-bf22-b5a184ef6422",
+"fileName": "VV_seisukoha_edastamine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T17:36:07.923",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/99f99168-829d-4e4c-bf22-b5a184ef6422/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/99f99168-829d-4e4c-bf22-b5a184ef6422"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/08bf7fbb-8478-4d7f-971a-b50e9c3dd4fc"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/01b16191-4e51-4f04-833a-452532b5701d"
+}
+}
+}

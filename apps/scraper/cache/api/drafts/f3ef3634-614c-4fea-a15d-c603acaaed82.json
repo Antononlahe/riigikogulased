@@ -1,0 +1,600 @@
+{
+"uuid": "f3ef3634-614c-4fea-a15d-c603acaaed82",
+"title": "Riigikogu otsus „Rahvastikukriisi lahendamise probleemkomisjoni moodustamine\"",
+"mark": 324,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Rahvastikukriisi lahendamise probleemkomisjoni moodustamine\" 324 OE",
+"initialTitle": "Riigikogu otsus „Rahvastikukriisi lahendamise probleemkomisjoni moodustamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette moodustada rahvastikukriisi lahendamise probleemkomisjon, mille koosseisu kuulub igast fraktsioonist üks liige. Komisjoni ülesanne on kujundada Eesti rahvastikupoliitikat, et tagada eesti rahvuse, keele ja kultuuri säilimine läbi aegade.",
+"initiated": "2023-10-09",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9035e217-d990-40ca-87ed-54c77653c6d7",
+"name": "Pipi-Liis Siemann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9035e217-d990-40ca-87ed-54c77653c6d7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 14,
+"text": "ajutine komisjon"
+},
+{
+"edid": 2484,
+"text": "rahvastikupoliitika"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c80b55ec-fb90-4fb2-93db-eaa3fbe7b024",
+"title": "324 OE I lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cc7867d5-881f-4b3a-9d9d-87b01ab12362",
+"fileName": "324_OE_rahvastikukriisi_probleemkomisjon_eelnõu_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-19T13:40:39.014",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cc7867d5-881f-4b3a-9d9d-87b01ab12362/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cc7867d5-881f-4b3a-9d9d-87b01ab12362"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5f7eb5fe-b83c-4d88-ac88-2bf408544939",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "49c7fb9b-a476-4c83-8795-dddabee23094",
+"fileName": "324_OE_rahvastikukriisi_probleemkomisjon_eelnõu_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T18:44:24.378",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/49c7fb9b-a476-4c83-8795-dddabee23094/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/49c7fb9b-a476-4c83-8795-dddabee23094"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5f7eb5fe-b83c-4d88-ac88-2bf408544939",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "90d2872c-44c5-439d-87c9-d79ca1371468",
+"fileName": "324E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T17:14:09.457",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90d2872c-44c5-439d-87c9-d79ca1371468/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90d2872c-44c5-439d-87c9-d79ca1371468"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c80b55ec-fb90-4fb2-93db-eaa3fbe7b024",
+"title": "324 OE I lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7e554a05-f45a-4bf8-b17b-601ab800ae84",
+"fileName": "324_OE_rahvastikukriisi_probleemkomisjon_seletuskiri_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-19T13:41:01.143",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e554a05-f45a-4bf8-b17b-601ab800ae84/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e554a05-f45a-4bf8-b17b-601ab800ae84"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5f7eb5fe-b83c-4d88-ac88-2bf408544939",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c37c1503-ee6a-4fc1-a756-49bf72194018",
+"fileName": "324_OE_rahvastikukriisi_probleemkomisjon_seletuskiri_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T18:44:36.375",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c37c1503-ee6a-4fc1-a756-49bf72194018/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c37c1503-ee6a-4fc1-a756-49bf72194018"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5f7eb5fe-b83c-4d88-ac88-2bf408544939",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "14d0a338-02c1-411b-9418-00db95b59bc7",
+"fileName": "324SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T17:14:20.913",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/14d0a338-02c1-411b-9418-00db95b59bc7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/14d0a338-02c1-411b-9418-00db95b59bc7"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-10-09T17:13:40.737",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-10-10T16:01:00.108",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-11-21T13:14:38.289",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2023-11-21T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 21.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-12-14T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Anti Allas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "75a1bc09-b5ac-4903-902a-e223945bb6e4",
+"fileName": "P._Siemann_asendusliige_21.11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-07T21:32:17.291",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75a1bc09-b5ac-4903-902a-e223945bb6e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75a1bc09-b5ac-4903-902a-e223945bb6e4"
+}
+}
+},
+{
+"uuid": "56c1e96f-07b3-4282-a4ec-3bb0864cc793",
+"fileName": "PÕSK_protokoll_21.11.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-28T11:58:29.761",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/56c1e96f-07b3-4282-a4ec-3bb0864cc793/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/56c1e96f-07b3-4282-a4ec-3bb0864cc793"
+}
+}
+},
+{
+"uuid": "38a9e641-f989-4ba3-8357-050bea474c87",
+"fileName": "PÕSK.protokoll.21.11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-28T11:56:28.779",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/38a9e641-f989-4ba3-8357-050bea474c87/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/38a9e641-f989-4ba3-8357-050bea474c87"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 14.03.2024 10:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-09-17T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 17.09.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Eduard Odinets"
+}
+],
+"protocolFiles": [
+{
+"uuid": "24a512ac-141b-4386-97d0-cd19ddaaabd9",
+"fileName": "PÕSK_protokoll_nr_68.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-24T12:32:30.639",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24a512ac-141b-4386-97d0-cd19ddaaabd9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24a512ac-141b-4386-97d0-cd19ddaaabd9"
+}
+}
+},
+{
+"uuid": "d80c6a7a-e22d-499c-a705-afec00e51970",
+"fileName": "Volikiri_A._Poolamets_(17.09.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-24T12:31:49.411",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d80c6a7a-e22d-499c-a705-afec00e51970/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d80c6a7a-e22d-499c-a705-afec00e51970"
+}
+}
+},
+{
+"uuid": "3c2f85ed-672b-474e-9899-43fa205134ed",
+"fileName": "asendus_PSK17.09.2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-24T12:31:48.144",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c2f85ed-672b-474e-9899-43fa205134ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c2f85ed-672b-474e-9899-43fa205134ed"
+}
+}
+},
+{
+"uuid": "79d210a4-bd70-4856-8876-0bf92849e014",
+"fileName": "asendus_PSK17.09.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-24T12:31:35.369",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/79d210a4-bd70-4856-8876-0bf92849e014/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/79d210a4-bd70-4856-8876-0bf92849e014"
+}
+}
+},
+{
+"uuid": "ae358c46-68d7-4121-88eb-85542b62605c",
+"fileName": "PÕSK_protokoll_nr_68_(17.09.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-24T12:31:21.462",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae358c46-68d7-4121-88eb-85542b62605c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae358c46-68d7-4121-88eb-85542b62605c"
+}
+}
+}
+]
+},
+{
+"date": "2024-09-19T13:40:06.269",
+"status": "SAADETUD_I_LUGEMISELE"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-09-24T11:28:31.777",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2024-10-08T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 8.10.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Pipi-Liis Siemann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "bea29cf4-958b-4f1f-83fb-800709f98d3b",
+"fileName": "PÕSK_protokoll_nr_70.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T13:46:58.343",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bea29cf4-958b-4f1f-83fb-800709f98d3b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bea29cf4-958b-4f1f-83fb-800709f98d3b"
+}
+}
+},
+{
+"uuid": "0986f9b8-870f-43ba-a89f-7fa9cfb5f22d",
+"fileName": "põs_kom_Pipi_ja_Joller.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T13:46:38.269",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0986f9b8-870f-43ba-a89f-7fa9cfb5f22d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0986f9b8-870f-43ba-a89f-7fa9cfb5f22d"
+}
+}
+},
+{
+"uuid": "8ba58671-cb27-4bdd-aea5-8c51d744e82e",
+"fileName": "põs_kom_Pipi_ja_Joller.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T13:46:31.678",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ba58671-cb27-4bdd-aea5-8c51d744e82e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ba58671-cb27-4bdd-aea5-8c51d744e82e"
+}
+}
+},
+{
+"uuid": "a564c281-368e-40a3-a59f-a282e5f4d639",
+"fileName": "Volikiri_M._Kallas_(08.10.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T13:46:24.333",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a564c281-368e-40a3-a59f-a282e5f4d639/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a564c281-368e-40a3-a59f-a282e5f4d639"
+}
+}
+},
+{
+"uuid": "0f1ffd3a-e39b-4c8b-a114-a2d49724c4af",
+"fileName": "asendus_PSK08.10.2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T13:46:23.37",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0f1ffd3a-e39b-4c8b-a114-a2d49724c4af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0f1ffd3a-e39b-4c8b-a114-a2d49724c4af"
+}
+}
+},
+{
+"uuid": "5a9911e2-35f1-4d7a-8634-bac307177540",
+"fileName": "asendus_PSK08.10.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T13:46:13.128",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5a9911e2-35f1-4d7a-8634-bac307177540/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5a9911e2-35f1-4d7a-8634-bac307177540"
+}
+}
+},
+{
+"uuid": "43514e92-03c4-4dd4-bb13-dbeac6eec00f",
+"fileName": "PÕSK_protokoll_nr_70_(08.10.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T13:46:03.25",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/43514e92-03c4-4dd4-bb13-dbeac6eec00f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/43514e92-03c4-4dd4-bb13-dbeac6eec00f"
+}
+}
+}
+]
+},
+{
+"date": "2024-10-09T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 9.10.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "fecefa21-4faf-4849-9e54-bd8cfcf2715f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-10-09T15:30:04.6",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/fecefa21-4faf-4849-9e54-bd8cfcf2715f"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/f3ef3634-614c-4fea-a15d-c603acaaed82"
+}
+}
+}

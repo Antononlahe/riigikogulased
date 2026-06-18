@@ -1,0 +1,359 @@
+{
+"uuid": "a439f704-b97a-49bc-a76b-811001a9c330",
+"title": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine peaministri abikaasa osalusega ettevõtte Venemaa-suunalise äritegevuse asjaolude uurimiseks“",
+"mark": 262,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine peaministri abikaasa osalusega ettevõtte Venemaa-suunalise äritegevuse asjaolude uurimiseks“ 262 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine peaministri abikaasa osalusega ettevõtte Venemaa-suunalise äritegevuse asjaolude uurimiseks“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": null,
+"initiated": "2023-09-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "002a9679-e3b0-4bca-a568-0466266af2fc",
+"name": "Hendrik Johannes Terras",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/002a9679-e3b0-4bca-a568-0466266af2fc?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 15,
+"text": "uurimiskomisjon"
+},
+{
+"edid": 5959,
+"text": "valitsusjuht"
+},
+{
+"edid": 4703,
+"text": "äritegevus"
+},
+{
+"edid": 5876,
+"text": "Venemaa"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a0340002-dd37-42fc-9077-2ba50503e8e4",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cd7d5c23-48c9-4986-8ed2-cd02dd09dbd1",
+"fileName": "262_RK_o_uurimiskomisjoni_moodust_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T15:22:03.47",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd7d5c23-48c9-4986-8ed2-cd02dd09dbd1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd7d5c23-48c9-4986-8ed2-cd02dd09dbd1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "491f592d-dbcd-4881-99d2-6c4f6dd05d76",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f82bb17f-bc77-4dcc-ae3e-c7d4d672fbe3",
+"fileName": "Riigikogu_otsuse_eelnõu__uurimiskomisjon.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-11T18:08:40.361",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f82bb17f-bc77-4dcc-ae3e-c7d4d672fbe3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f82bb17f-bc77-4dcc-ae3e-c7d4d672fbe3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "491f592d-dbcd-4881-99d2-6c4f6dd05d76",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dd41ed52-eb49-4e71-bb66-c35ab2db5cf5",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-11T18:10:54.168",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dd41ed52-eb49-4e71-bb66-c35ab2db5cf5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dd41ed52-eb49-4e71-bb66-c35ab2db5cf5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a0340002-dd37-42fc-9077-2ba50503e8e4",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6b244267-aaea-4ded-b74c-27acedbe4a45",
+"fileName": "262_RK_o_uurimiskomisjoni_moodust_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T15:22:40.65",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b244267-aaea-4ded-b74c-27acedbe4a45/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b244267-aaea-4ded-b74c-27acedbe4a45"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "491f592d-dbcd-4881-99d2-6c4f6dd05d76",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b9f3ae71-c636-4358-bf8d-0cc6c8e02fa2",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-11T18:11:05.566",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9f3ae71-c636-4358-bf8d-0cc6c8e02fa2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9f3ae71-c636-4358-bf8d-0cc6c8e02fa2"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-09-11T18:08:05.622",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-09-12T14:06:00.392",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-14T08:30:00",
+"sittingTitle": "Komisjoni erakorraline istung neljapäev, 14.09.2023",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-19T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Hendrik Johannes Terras"
+}
+],
+"protocolFiles": [
+{
+"uuid": "739e1da7-96f7-4c21-9884-27f71e5b9224",
+"fileName": "19.09.2023_PÕSK_erakorralise_istundi_päevakord.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Päevakorra ettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-03T15:16:01.976",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/739e1da7-96f7-4c21-9884-27f71e5b9224/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/739e1da7-96f7-4c21-9884-27f71e5b9224"
+}
+}
+},
+{
+"uuid": "f3654486-e294-495e-9fc2-7c9538e15d59",
+"fileName": "K.Kuusemäe_asendusliige_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:46:47.494",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3654486-e294-495e-9fc2-7c9538e15d59/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3654486-e294-495e-9fc2-7c9538e15d59"
+}
+}
+},
+{
+"uuid": "22b9e82f-5ceb-40dc-8990-6fa9994a38e7",
+"fileName": "PÕSK_erakorralise_istungi_protokoll_14.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:44:09.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22b9e82f-5ceb-40dc-8990-6fa9994a38e7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22b9e82f-5ceb-40dc-8990-6fa9994a38e7"
+}
+}
+},
+{
+"uuid": "fc9cc03b-4a3c-47c2-90d2-b0eace9a0aeb",
+"fileName": "PÕSK.erakorraline_protokoll.14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:41:25.408",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc9cc03b-4a3c-47c2-90d2-b0eace9a0aeb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc9cc03b-4a3c-47c2-90d2-b0eace9a0aeb"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-27T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 27.09.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "b2594c1a-ecb2-497b-ba9b-66bc08b3d980",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-09-27T20:09:38.813",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b2594c1a-ecb2-497b-ba9b-66bc08b3d980"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a439f704-b97a-49bc-a76b-811001a9c330"
+}
+}
+}

@@ -1,0 +1,550 @@
+{
+"uuid": "ce0aae3d-c311-4a92-be61-6193a279d4eb",
+"title": "Liiklusseaduse muutmise seadus (kergliikurite ja pisimopeedide regulatsioon)",
+"mark": 614,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Liiklusseaduse muutmise seadus (kergliikurite ja pisimopeedide regulatsioon) 614 SE",
+"initialTitle": "Liiklusseaduse muutmise seadus (kergliikurite ja pisimopeedide regulatsioon)",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Tänased regulatsioonid ei võimalda kohalikel omavalitsustel piisaval määral kergliikurite ja pisimopeedide liiklust reguleerida ega kehtestada kohalikke piiranguid või lisatingimusi rendiettevõtetele. Kehtiva seaduse järgi saavad kohalikud omavalitsused reguleerida vaid kiirust, asukohta ja parkimist. Seaduses puuduvad ranged nõuded kasutaja vanuse ja juhtimisõiguse kontrollimiseks, mis on eriti problemaatiline alaealiste puhul. Tulemuseks on sagenenud liiklusõnnetused, mis põhjustavad tervisekahjusid ja suurendavad Tervisekassa koormust.",
+"initiated": "2025-04-07",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0c571754-914d-406a-baba-6734212353de",
+"name": "Urve Tiidus",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0c571754-914d-406a-baba-6734212353de?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "29ac9b4b-1d00-402a-a55e-e8044bf8a33a",
+"name": "Piia Schults",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/29ac9b4b-1d00-402a-a55e-e8044bf8a33a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "04510d7c-b12a-48aa-8402-80b0efb114a6",
+"name": "Anastassia Kovalenko-Kõlvart",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/04510d7c-b12a-48aa-8402-80b0efb114a6?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4653,
+"text": "kaherattaline sõiduk"
+},
+{
+"edid": 3097,
+"text": "sõiduki rent"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e9f872ba-2651-4b30-a85e-476ff533aee0",
+"title": "614 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "11345477-5fec-4156-9bd3-33e6924f5824",
+"fileName": "614_LS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T09:48:17.195",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/11345477-5fec-4156-9bd3-33e6924f5824/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/11345477-5fec-4156-9bd3-33e6924f5824"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9d890b94-21d5-41ab-8acc-6c1ff992e1c7",
+"title": "Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4f3901b3-2675-4422-808d-2ff61842b9b4",
+"fileName": "Liiklusseaduse_muutmise_seadus_(kergliikurid_ja_pisimopeedid).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T15:44:44.734",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4f3901b3-2675-4422-808d-2ff61842b9b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4f3901b3-2675-4422-808d-2ff61842b9b4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9d890b94-21d5-41ab-8acc-6c1ff992e1c7",
+"title": "Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f178a274-8cff-40ad-80e5-dc89dd9743af",
+"fileName": "614_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T16:28:04.105",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f178a274-8cff-40ad-80e5-dc89dd9743af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f178a274-8cff-40ad-80e5-dc89dd9743af"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e9f872ba-2651-4b30-a85e-476ff533aee0",
+"title": "614 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "61333d23-e19b-4b61-a3ac-676d9eeefc15",
+"fileName": "614_LS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T09:48:31.834",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/61333d23-e19b-4b61-a3ac-676d9eeefc15/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/61333d23-e19b-4b61-a3ac-676d9eeefc15"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9d890b94-21d5-41ab-8acc-6c1ff992e1c7",
+"title": "Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3f8c86cc-2525-4dc8-a4d5-18ccaa6051df",
+"fileName": "614_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T16:28:14.567",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f8c86cc-2525-4dc8-a4d5-18ccaa6051df/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f8c86cc-2525-4dc8-a4d5-18ccaa6051df"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-04-07T15:44:14.064",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-04-08T17:55:00.614",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-04-24T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 24.04.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Urve Tiidus"
+}
+],
+"protocolFiles": [
+{
+"uuid": "55d89d32-9476-4ef5-8518-32bcea73d591",
+"fileName": "MAJK_protokoll_nr_124_24.04.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-05T15:00:41.819",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/55d89d32-9476-4ef5-8518-32bcea73d591/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/55d89d32-9476-4ef5-8518-32bcea73d591"
+}
+}
+},
+{
+"uuid": "df2cea19-8fa3-4001-91c6-02cc0fa0a242",
+"fileName": "MAJK_protokoll_nr_124_24.04.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-05T14:58:46.145",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/df2cea19-8fa3-4001-91c6-02cc0fa0a242/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/df2cea19-8fa3-4001-91c6-02cc0fa0a242"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-19T11:56:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 19.05.2025 kell 11.56",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-04T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "cc4f90bf-c388-4dba-8e8f-3d57eaaafe95",
+"fileName": "Asendusliikme_volikiri_Jevgrafov_Kovalenko-Kõlvart.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-03T12:09:51.305",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cc4f90bf-c388-4dba-8e8f-3d57eaaafe95/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cc4f90bf-c388-4dba-8e8f-3d57eaaafe95"
+}
+}
+},
+{
+"uuid": "567c8543-a873-451f-bbe7-55dd5db6b3b6",
+"fileName": "MAJK_protokoll_nr_128_19.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-28T10:06:58.585",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/567c8543-a873-451f-bbe7-55dd5db6b3b6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/567c8543-a873-451f-bbe7-55dd5db6b3b6"
+}
+}
+},
+{
+"uuid": "f7f2c114-0cbb-4f32-9826-26897e4f8121",
+"fileName": "MAJK_protokoll_nr_128_19.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-28T10:07:43.409",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7f2c114-0cbb-4f32-9826-26897e4f8121/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7f2c114-0cbb-4f32-9826-26897e4f8121"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-04T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 4.06.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "169682a7-c0c5-40cd-94e9-2bb7ea6c09ab",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-06-04T22:12:00.943",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/169682a7-c0c5-40cd-94e9-2bb7ea6c09ab"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "48dd9bfa-4adc-40f1-beef-7b23d6780699",
+"reference": "1-1/15-614/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 614 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-07",
+"files": [
+{
+"uuid": "b4f13a94-cbcb-4dae-ab02-50c61dca49c8",
+"fileName": "614_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:43:49.644",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4f13a94-cbcb-4dae-ab02-50c61dca49c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4f13a94-cbcb-4dae-ab02-50c61dca49c8"
+}
+}
+},
+{
+"uuid": "1ab1722d-2489-4777-a4a6-b87379f6d237",
+"fileName": "250408_LS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T15:39:28.977",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1ab1722d-2489-4777-a4a6-b87379f6d237/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1ab1722d-2489-4777-a4a6-b87379f6d237"
+}
+}
+},
+{
+"uuid": "4502aa82-dc0b-429f-8aa6-f7afd6ac33f6",
+"fileName": "LS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T15:49:21.541",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4502aa82-dc0b-429f-8aa6-f7afd6ac33f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4502aa82-dc0b-429f-8aa6-f7afd6ac33f6"
+}
+}
+},
+{
+"uuid": "48b6adc0-3384-48d4-bdb4-734ac745e3de",
+"fileName": "1-1-15-614-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_614_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T15:40:35.716",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/48b6adc0-3384-48d4-bdb4-734ac745e3de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/48b6adc0-3384-48d4-bdb4-734ac745e3de"
+}
+}
+},
+{
+"uuid": "20c8a453-f5d6-4272-9744-5020ed7b07ca",
+"fileName": "LS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T15:49:38.925",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/20c8a453-f5d6-4272-9744-5020ed7b07ca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/20c8a453-f5d6-4272-9744-5020ed7b07ca"
+}
+}
+},
+{
+"uuid": "68829598-6498-46d2-82ab-0135a690e12f",
+"fileName": "614_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:43:37.435",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/68829598-6498-46d2-82ab-0135a690e12f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/68829598-6498-46d2-82ab-0135a690e12f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/48dd9bfa-4adc-40f1-beef-7b23d6780699"
+}
+}
+},
+{
+"uuid": "8b9b2ee0-d7ac-4be8-a5e4-4c0fbd58050a",
+"reference": "1-1/15-614/2",
+"title": "Vabariigi Valitsuse arvamus liiklusseaduse muutmise seaduse (kergliikurite ja pisimopeedide regulatsioon) eelnõu 614 SE ja liiklusseaduse täiendamise seaduse eelnõu 616 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-05-19",
+"files": [
+{
+"uuid": "1041f5b7-6688-4d63-bbd5-e064e937bd65",
+"fileName": "VV_arvamus_(614_SE)_ja_(616_SE)_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T10:47:12.908",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1041f5b7-6688-4d63-bbd5-e064e937bd65/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1041f5b7-6688-4d63-bbd5-e064e937bd65"
+}
+}
+},
+{
+"uuid": "4c8df510-ea4a-4029-97cc-9e05ae789422",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine_liiklusseaduse_muutmise_seaduseeelnõu_(kergliikurite_ja_pisimopeedide_regulatsioon)_(614_SE)_ja_l_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T10:47:12.969",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c8df510-ea4a-4029-97cc-9e05ae789422/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c8df510-ea4a-4029-97cc-9e05ae789422"
+}
+}
+},
+{
+"uuid": "9419896c-f506-4912-b1da-ffcc9f2e2146",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0362_-_Liiklusseaduse_muutmise_seaduse_(kergliikurite_ja_pisimopeedide_regulatsioon)eelnõu_(614_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T10:47:12.982",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9419896c-f506-4912-b1da-ffcc9f2e2146/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9419896c-f506-4912-b1da-ffcc9f2e2146"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8b9b2ee0-d7ac-4be8-a5e4-4c0fbd58050a"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/ce0aae3d-c311-4a92-be61-6193a279d4eb"
+}
+}
+}

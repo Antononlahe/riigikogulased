@@ -1,0 +1,378 @@
+{
+"uuid": "55602a44-9d21-4e7c-b8fa-e0f1e4cbfa50",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele õpetajate töötingimuste parandamiseks“",
+"mark": 373,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele õpetajate töötingimuste parandamiseks“ 373 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele õpetajate töötingimuste parandamiseks“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse ettepanek töötada hiljemalt käesoleva aasta 1. maiks välja vajalikud õigusaktid, et tagada koalitsioonilepingus kokku lepitud õpetajate palga jõudmine 120 protsendini Eesti keskmisest palgast ning kehtestada alates 2025. aastast õpetajatele neljaastmeline karjäärimudel, mis on seotud nii töötasu tõusu kui ka koormusarvestuse ja lisatööülesannetega.",
+"initiated": "2024-02-06",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2024-02-20T17:15:00",
+"responsibleMember": {
+"uuid": "a12ffc5c-0809-46cb-abc4-cc99a7fa3f60",
+"name": "Liina Kersna",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/a12ffc5c-0809-46cb-abc4-cc99a7fa3f60?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 777,
+"text": "õpetaja"
+},
+{
+"edid": 3653,
+"text": "palkade tõstmine"
+},
+{
+"edid": 2184,
+"text": "töökorraldus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a407c52e-489f-4ab1-aaea-087d1e261821",
+"title": "373 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "08eaad43-18c4-4c4c-a127-91fb0788a515",
+"fileName": "373_RK_o_töötingimused_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-12T15:27:29.302",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/08eaad43-18c4-4c4c-a127-91fb0788a515/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/08eaad43-18c4-4c4c-a127-91fb0788a515"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d2d0c57f-1e03-4ced-91bf-f85b22e4dbb0",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a62e4709-a4fd-4ffa-8d30-a7f73c62ce3c",
+"fileName": "ISAMAA_eelnõu_õpetajate_töötingimuste_parandamine_06.02.2024.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-06T10:26:49.776",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a62e4709-a4fd-4ffa-8d30-a7f73c62ce3c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a62e4709-a4fd-4ffa-8d30-a7f73c62ce3c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d2d0c57f-1e03-4ced-91bf-f85b22e4dbb0",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9a5d81a3-ebb3-4063-aafe-ba5696c006c4",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-06T10:35:37.529",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9a5d81a3-ebb3-4063-aafe-ba5696c006c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9a5d81a3-ebb3-4063-aafe-ba5696c006c4"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a407c52e-489f-4ab1-aaea-087d1e261821",
+"title": "373 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bbb80ef4-38cd-4d40-98ba-dbb8bd9c374a",
+"fileName": "373_RK_o_töötingimused_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-12T15:28:10.753",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bbb80ef4-38cd-4d40-98ba-dbb8bd9c374a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bbb80ef4-38cd-4d40-98ba-dbb8bd9c374a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d2d0c57f-1e03-4ced-91bf-f85b22e4dbb0",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9107a1e8-2abe-48c1-a510-b4d5637e61ff",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-06T10:35:51.066",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9107a1e8-2abe-48c1-a510-b4d5637e61ff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9107a1e8-2abe-48c1-a510-b4d5637e61ff"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-02-06T10:26:03.688",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-02-06T13:58:00.937",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-03-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.03.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-03-21T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Liina Kersna"
+},
+{
+"decision": {
+"code": "MUUTA_ARUTAMISE_KP",
+"value": "Muuta eelnõu täiskogus arutamise kuupäeva ja määrata selleks"
+},
+"plenaryAgendaDateTime": "2024-03-19T10:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "f47d8196-8291-443a-8709-5dd71c5dd261",
+"fileName": "Kultuurikomisjon_ettekanne_12.03.24.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (haridusministri slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T16:32:07.768",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f47d8196-8291-443a-8709-5dd71c5dd261/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f47d8196-8291-443a-8709-5dd71c5dd261"
+}
+}
+},
+{
+"uuid": "a873df03-d620-41f0-afb8-cd2054f4a176",
+"fileName": "KULK_protokoll_46.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T16:33:36.988",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a873df03-d620-41f0-afb8-cd2054f4a176/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a873df03-d620-41f0-afb8-cd2054f4a176"
+}
+}
+},
+{
+"uuid": "54467644-d781-4912-88d9-b38521150770",
+"fileName": "Protokoll_46_(12.03.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-19T16:31:47.626",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/54467644-d781-4912-88d9-b38521150770/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/54467644-d781-4912-88d9-b38521150770"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-20T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 20.03.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "78344791-62c8-4a26-b159-4a6e42035b48",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-03-20T14:41:04.743",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/78344791-62c8-4a26-b159-4a6e42035b48"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-21T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 19.03.2024 10:00",
+"decisionCode": "ARUTELU_JAI_POOLELI",
+"votings": []
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "1a9408b0-1499-4e01-9a40-76921477118a",
+"reference": "1-1/15-369/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele rahvusooper Estonia juurdeehituse riigi eriplaneeringu algatamiseks\" eelnõu 369 OE ja  Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele õpetajate töötingimuste parandamiseks“ eelnõu 373 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-02-29",
+"files": [
+{
+"uuid": "f80f5652-3d84-4630-9778-6d978e1bb588",
+"fileName": "OAO_369_OE_373_OE_arvamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-29T10:42:52.968",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f80f5652-3d84-4630-9778-6d978e1bb588/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f80f5652-3d84-4630-9778-6d978e1bb588"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1a9408b0-1499-4e01-9a40-76921477118a"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/55602a44-9d21-4e7c-b8fa-e0f1e4cbfa50"
+}
+}
+}

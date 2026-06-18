@@ -1,0 +1,519 @@
+{
+"uuid": "48a62def-62d7-40d6-bee5-a4e160440d67",
+"title": "Riigikogu liikme staatuse seaduse muutmise seadus",
+"mark": 339,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu liikme staatuse seaduse muutmise seadus 339 SE",
+"initialTitle": "Riigikogu liikme staatuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": null,
+"initiated": "2023-10-25",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "002a9679-e3b0-4bca-a568-0466266af2fc",
+"name": "Hendrik Johannes Terras",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/002a9679-e3b0-4bca-a568-0466266af2fc?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2246,
+"text": "parlamendiliige"
+},
+{
+"edid": 3557,
+"text": "kuluhüvitised"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "62f2c97b-96f2-4707-a6f1-b25541f69a05",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a26c27a1-4173-4582-8580-efa349768fb8",
+"fileName": "339_RKLS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-22T12:13:21.02",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a26c27a1-4173-4582-8580-efa349768fb8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a26c27a1-4173-4582-8580-efa349768fb8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d08e37f5-244c-4784-b95c-7fbadabb891e",
+"title": "EKRE algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "800cfe1d-4598-4e3f-862f-ba26528619b8",
+"fileName": "Riigikogu_liikme_staatuse_seaduse_muutmise_seadus_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T14:37:17.144",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/800cfe1d-4598-4e3f-862f-ba26528619b8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/800cfe1d-4598-4e3f-862f-ba26528619b8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d08e37f5-244c-4784-b95c-7fbadabb891e",
+"title": "EKRE algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fadd5abd-c685-4742-8180-e960ee4478ff",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T15:37:46.647",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fadd5abd-c685-4742-8180-e960ee4478ff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fadd5abd-c685-4742-8180-e960ee4478ff"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "08cb172d-6d01-49bb-8980-6289b5a2dff4",
+"title": "Seletuskiri",
+"documentType": "seletuskiri",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "899ef764-1ca5-4a7b-86ae-5fc6def68106",
+"fileName": "339_RKLS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-22T12:14:41.876",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/899ef764-1ca5-4a7b-86ae-5fc6def68106/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/899ef764-1ca5-4a7b-86ae-5fc6def68106"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d08e37f5-244c-4784-b95c-7fbadabb891e",
+"title": "EKRE algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "672470c2-814e-4710-9881-d81fdb25b64e",
+"fileName": "Riigikogu_liikme_staatuse_seaduse_muutmise_seadus_seletuskiri_(1).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T14:41:25.849",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/672470c2-814e-4710-9881-d81fdb25b64e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/672470c2-814e-4710-9881-d81fdb25b64e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d08e37f5-244c-4784-b95c-7fbadabb891e",
+"title": "EKRE algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5e6727fa-ffce-49de-8e7c-8dbb281885b3",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T15:38:07.934",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5e6727fa-ffce-49de-8e7c-8dbb281885b3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5e6727fa-ffce-49de-8e7c-8dbb281885b3"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-10-25T14:36:18.873",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-10-26T16:13:00.538",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-12-18T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.12.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-01-10T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Hendrik Johannes Terras"
+}
+],
+"protocolFiles": [
+{
+"uuid": "70abaa2e-9b35-4e4e-9fe5-dba1f4556bba",
+"fileName": "PÕSK_protokoll_18.12.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll_asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-02T10:44:26.119",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/70abaa2e-9b35-4e4e-9fe5-dba1f4556bba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/70abaa2e-9b35-4e4e-9fe5-dba1f4556bba"
+}
+}
+},
+{
+"uuid": "cc73cf4d-570b-4993-8582-de1fec7d6613",
+"fileName": "PÕSK.protokoll.18.12.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-02T10:43:15.826",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cc73cf4d-570b-4993-8582-de1fec7d6613/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cc73cf4d-570b-4993-8582-de1fec7d6613"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-20T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 20.03.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "c5901b7f-848a-43f2-afc9-e3a4376ad3fb",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-03-20T18:41:19.227",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/c5901b7f-848a-43f2-afc9-e3a4376ad3fb"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "5d0a57b0-98e0-4812-870d-3294825889cd",
+"reference": "1-1/15-339/2",
+"title": "Vabariigi Valitsuse arvamuse andmisest loobumine Riigikogu liikme staatuse seaduse muutmise seaduse eelnõu 339 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-12-06",
+"files": [
+{
+"uuid": "4c8b1560-db5a-4773-a8dc-86c97cf0ba4a",
+"fileName": "23-02118-4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Sissetulev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-06T09:32:01.561",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c8b1560-db5a-4773-a8dc-86c97cf0ba4a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c8b1560-db5a-4773-a8dc-86c97cf0ba4a"
+}
+}
+},
+{
+"uuid": "d8763ac9-2634-4eba-8a42-52bea115cfe2",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-1442_-_Riigikogu_liikme_staatuse_seaduse_muutmise_seaduse_eelnõu_(339_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-06T09:32:01.578",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d8763ac9-2634-4eba-8a42-52bea115cfe2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d8763ac9-2634-4eba-8a42-52bea115cfe2"
+}
+}
+},
+{
+"uuid": "d6d8233a-fefa-424c-bf42-3476cb56fa13",
+"fileName": "RK_23-02118-4.asice",
+"fileExtension": "asice",
+"fileTitle": "Sissetulev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-06T09:32:01.495",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6d8233a-fefa-424c-bf42-3476cb56fa13/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6d8233a-fefa-424c-bf42-3476cb56fa13"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5d0a57b0-98e0-4812-870d-3294825889cd"
+}
+}
+},
+{
+"uuid": "e702f8a8-8ea2-4626-b6ba-ed8aaaae05f1",
+"reference": "1-1/15-339/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 339 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-10-25",
+"files": [
+{
+"uuid": "3121ef38-1c41-49ea-8e0e-68e41bc83618",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T15:39:28.361",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3121ef38-1c41-49ea-8e0e-68e41bc83618/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3121ef38-1c41-49ea-8e0e-68e41bc83618"
+}
+}
+},
+{
+"uuid": "98c402aa-da86-42aa-be27-6c92ac956507",
+"fileName": "1-1-15-339-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_339_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-26T16:16:50.364",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/98c402aa-da86-42aa-be27-6c92ac956507/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/98c402aa-da86-42aa-be27-6c92ac956507"
+}
+}
+},
+{
+"uuid": "0cc51c73-00d3-47b0-8eee-0c2ae43c1c21",
+"fileName": "RKLS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T14:44:12.924",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0cc51c73-00d3-47b0-8eee-0c2ae43c1c21/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0cc51c73-00d3-47b0-8eee-0c2ae43c1c21"
+}
+}
+},
+{
+"uuid": "71ae65b7-6fe6-4304-8dfe-10569d6998f1",
+"fileName": "231025_RKLS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T15:04:26.122",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/71ae65b7-6fe6-4304-8dfe-10569d6998f1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/71ae65b7-6fe6-4304-8dfe-10569d6998f1"
+}
+}
+},
+{
+"uuid": "1e11f910-eb1e-49ad-acfe-d33fc473dc88",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T15:39:40.536",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e11f910-eb1e-49ad-acfe-d33fc473dc88/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e11f910-eb1e-49ad-acfe-d33fc473dc88"
+}
+}
+},
+{
+"uuid": "1b09c8eb-81c6-4555-a00f-d1fc5decc368",
+"fileName": "RKLS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T14:44:22.935",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b09c8eb-81c6-4555-a00f-d1fc5decc368/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b09c8eb-81c6-4555-a00f-d1fc5decc368"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e702f8a8-8ea2-4626-b6ba-ed8aaaae05f1"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/48a62def-62d7-40d6-bee5-a4e160440d67"
+}
+}
+}

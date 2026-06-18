@@ -1,8 +1,12 @@
+from datetime import date
+
 from parteidistsipliin_scraper.eurovoc_models import (
     DescriptorRow,
+    DraftOutcome,
     FieldRow,
     MicrothesRow,
     parse_draft_descriptor_edids,
+    parse_draft_outcome,
     parse_fields,
     parse_microthes_descriptors,
 )
@@ -46,3 +50,27 @@ def test_parse_draft_descriptor_edids():
 def test_parse_draft_no_descriptors_is_empty():
     assert parse_draft_descriptor_edids({"uuid": "x", "descriptors": []}) == []
     assert parse_draft_descriptor_edids({"uuid": "x"}) == []
+
+
+def test_parse_draft_outcome_adopted():
+    raw = {
+        "activeDraftStage": "VASTU_VOETUD",
+        "activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+        "accepted": "2025-11-05",
+    }
+    assert parse_draft_outcome(raw) == DraftOutcome(
+        stage="VASTU_VOETUD", status="AVALDATUD_RIIGITEATAJAS", accepted_on=date(2025, 11, 5)
+    )
+
+
+def test_parse_draft_outcome_rejected_no_accepted_date():
+    raw = {"activeDraftStage": "TAGASI_LYKATUD", "activeDraftStatus": "TAGASI_LYKATUD"}
+    assert parse_draft_outcome(raw) == DraftOutcome(
+        stage="TAGASI_LYKATUD", status="TAGASI_LYKATUD", accepted_on=None
+    )
+
+
+def test_parse_draft_outcome_missing_fields():
+    assert parse_draft_outcome({"uuid": "x"}) == DraftOutcome(
+        stage=None, status=None, accepted_on=None
+    )

@@ -1,0 +1,502 @@
+{
+"uuid": "399f2681-add6-4c52-a2a0-240ef15a1ae0",
+"title": "Tulumaksuseaduse muutmise seadus",
+"mark": 217,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Tulumaksuseaduse muutmise seadus 217 SE",
+"initialTitle": "Tulumaksuseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga eemaldatakse MTÜ Slava Ukraini nende juriidiliste isikute hulgast, millele annetuste ja kingituste tegemisel ei pea residendist juriidiline isik tulumaksu maksma. MTÜ Slava Ukraini asendatakse MTÜga Ukraina eest.",
+"initiated": "2023-05-22",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1326,
+"text": "tulumaks"
+},
+{
+"edid": 2337,
+"text": "juriidiline isik"
+},
+{
+"edid": 935,
+"text": "maksuvabastus"
+},
+{
+"edid": 500,
+"text": "annetus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "97edb057-fcba-499c-8d9d-71c747e8cbbf",
+"title": "217 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d9452efe-55d5-4074-9c34-4a4c4fb2b812",
+"fileName": "217_TuMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T14:06:50.712",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9452efe-55d5-4074-9c34-4a4c4fb2b812/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9452efe-55d5-4074-9c34-4a4c4fb2b812"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0ac335c7-3fb7-498d-b4de-4df817c3d3ec",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "591be223-1390-4744-9010-ad3e913a1cf4",
+"fileName": "217_Tulumaksuseaduse_muutmise_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T16:49:26.597",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/591be223-1390-4744-9010-ad3e913a1cf4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/591be223-1390-4744-9010-ad3e913a1cf4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0ac335c7-3fb7-498d-b4de-4df817c3d3ec",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b8444c4b-efa0-407e-8332-07eeaeb5e28d",
+"fileName": "217E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T18:27:34.657",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b8444c4b-efa0-407e-8332-07eeaeb5e28d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b8444c4b-efa0-407e-8332-07eeaeb5e28d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "97edb057-fcba-499c-8d9d-71c747e8cbbf",
+"title": "217 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "293b423b-df4d-49a5-ae77-bf0a91acd281",
+"fileName": "217_TuMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T14:07:02.179",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/293b423b-df4d-49a5-ae77-bf0a91acd281/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/293b423b-df4d-49a5-ae77-bf0a91acd281"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0ac335c7-3fb7-498d-b4de-4df817c3d3ec",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "04b3d07c-35c0-4dfb-b415-5f4e6e41f338",
+"fileName": "217SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T18:27:53.015",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/04b3d07c-35c0-4dfb-b415-5f4e6e41f338/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/04b3d07c-35c0-4dfb-b415-5f4e6e41f338"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-22T16:53:00.241",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-23T14:13:00.818",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-25T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 25.09.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-10-10T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "aa392299-820a-45ca-b474-993646b97133",
+"fileName": "RAHK_protokoll_nr_23_25.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T15:35:06.174",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aa392299-820a-45ca-b474-993646b97133/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aa392299-820a-45ca-b474-993646b97133"
+}
+}
+},
+{
+"uuid": "403ed8f5-431c-46e3-94a7-b16cb8260295",
+"fileName": "RAHK_protokoll_nr_23_25.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T15:31:49.967",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/403ed8f5-431c-46e3-94a7-b16cb8260295/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/403ed8f5-431c-46e3-94a7-b16cb8260295"
+}
+}
+}
+]
+},
+{
+"date": "2024-02-07T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 7.02.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "778205b1-43ed-4842-82ac-e7e6db79c80d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-02-07T18:04:40.127",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/778205b1-43ed-4842-82ac-e7e6db79c80d"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "1f693781-f374-430a-8657-6472e3276cdb",
+"reference": "1-1/15-217/2",
+"title": "Vabariigi Valitsuse arvamus tulumaksuseaduse muutmise seaduse eelnõu 217 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-02-05",
+"files": [
+{
+"uuid": "8e399d5a-a22e-478b-90e4-6739a91c0d2a",
+"fileName": "1.1-114588-2_11.07.2023_VīŋŊljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-05T17:27:08.847",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e399d5a-a22e-478b-90e4-6739a91c0d2a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e399d5a-a22e-478b-90e4-6739a91c0d2a"
+}
+}
+},
+{
+"uuid": "726934ab-5bbe-4a0b-b5d7-01f36112f69c",
+"fileName": "Tulumaksuseaduse_muutmise_seaduse_eelnõu_(217_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-05T17:27:08.913",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/726934ab-5bbe-4a0b-b5d7-01f36112f69c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/726934ab-5bbe-4a0b-b5d7-01f36112f69c"
+}
+}
+},
+{
+"uuid": "5533118b-3045-4b9a-a4f1-f5b073877b14",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0642_-_Tulumaksuseaduse_muutmise_seaduse_eelnõu_(217_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-05T17:27:08.934",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5533118b-3045-4b9a-a4f1-f5b073877b14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5533118b-3045-4b9a-a4f1-f5b073877b14"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1f693781-f374-430a-8657-6472e3276cdb"
+}
+}
+},
+{
+"uuid": "2a3f74b9-77fe-4bc2-bb70-338aeff2f817",
+"reference": "1-1/15-217/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 217 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-24",
+"files": [
+{
+"uuid": "5d2a7a33-1182-4f53-bb50-59964fef1d63",
+"fileName": "217SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T16:53:40.302",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5d2a7a33-1182-4f53-bb50-59964fef1d63/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5d2a7a33-1182-4f53-bb50-59964fef1d63"
+}
+}
+},
+{
+"uuid": "41dfef66-386f-48c7-9a99-9bcdc4a5269f",
+"fileName": "217_TuMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T16:53:11.603",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41dfef66-386f-48c7-9a99-9bcdc4a5269f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41dfef66-386f-48c7-9a99-9bcdc4a5269f"
+}
+}
+},
+{
+"uuid": "bb3eff52-4c42-4b15-89c8-114a80da706f",
+"fileName": "1-1-15-217-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_217_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T17:25:14.938",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bb3eff52-4c42-4b15-89c8-114a80da706f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bb3eff52-4c42-4b15-89c8-114a80da706f"
+}
+}
+},
+{
+"uuid": "c5e3c3e7-f934-4d52-8dc6-f736f9ab6146",
+"fileName": "217_TuMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T16:52:59.021",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c5e3c3e7-f934-4d52-8dc6-f736f9ab6146/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c5e3c3e7-f934-4d52-8dc6-f736f9ab6146"
+}
+}
+},
+{
+"uuid": "b71ea9ce-1c17-4dbd-8f18-3ad896d0a028",
+"fileName": "230524_TuMS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T16:57:33.21",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b71ea9ce-1c17-4dbd-8f18-3ad896d0a028/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b71ea9ce-1c17-4dbd-8f18-3ad896d0a028"
+}
+}
+},
+{
+"uuid": "28ad8b08-0ae1-401d-828d-8c7f74fd589b",
+"fileName": "217E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T16:53:22.779",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/28ad8b08-0ae1-401d-828d-8c7f74fd589b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/28ad8b08-0ae1-401d-828d-8c7f74fd589b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2a3f74b9-77fe-4bc2-bb70-338aeff2f817"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/399f2681-add6-4c52-a2a0-240ef15a1ae0"
+}
+}
+}

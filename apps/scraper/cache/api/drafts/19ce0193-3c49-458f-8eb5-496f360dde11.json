@@ -1,0 +1,1105 @@
+{
+"uuid": "19ce0193-3c49-458f-8eb5-496f360dde11",
+"title": "Riigieelarve seaduse muutmise seadus",
+"mark": 391,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigieelarve seaduse muutmise seadus 391 SE",
+"initialTitle": "Riigieelarve seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga suurendatakse Riigikogu rolli põhiseaduslike institutsioonide eelarveotsuste tegemisel ning välditakse olukorda, kus Vabariigi Valitsus otsustab nende sõltumatute institutsioonide rahastamise üle, kelle ülesandeks on täitevvõimu tegevuse sõltumatu kontrollimine ja tasakaalustamine.\nEelnõu loob aluse, et põhiseaduslike institutsioonide eelarvetaotlused kiidab heaks Riigikogu rahanduskomisjon enne riigieelarve eelnõu algatamist Riigikogus.",
+"initiated": "2024-03-04",
+"joined": null,
+"accepted": "2024-05-15",
+"amendmentsDeadline": "2024-03-26T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5052,
+"text": "riigieelarve"
+},
+{
+"edid": 4093,
+"text": "võimude lahusus"
+},
+{
+"edid": 4282,
+"text": "finantsautonoomia"
+},
+{
+"edid": 41,
+"text": "parlamendi pädevus"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7cbafe50-eb63-46a4-ada0-319e0f3c488d",
+"title": "RAHK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7a67bd2d-1b19-4bfb-94bc-3d2864444c1f",
+"fileName": "Riigieelarve_seaduse_muutmise_seaduse_eelnõu_algatamise_ettevalmistamine.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-04T15:20:12.789",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a67bd2d-1b19-4bfb-94bc-3d2864444c1f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a67bd2d-1b19-4bfb-94bc-3d2864444c1f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1d9103a5-82bf-41c0-9f71-011bbfd85a8a",
+"title": "391 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6bbb56d4-8aa2-4c0f-9257-f95b691a5200",
+"fileName": "391_RES_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T09:12:58.313",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6bbb56d4-8aa2-4c0f-9257-f95b691a5200/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6bbb56d4-8aa2-4c0f-9257-f95b691a5200"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "e0c74d8f-4720-4c78-ba1c-70ebe2eed206",
+"title": "391 SE II lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "18fbdb2f-dcb7-463a-98b9-af4ff373044d",
+"fileName": "391_SE21.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T13:35:36.999",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/18fbdb2f-dcb7-463a-98b9-af4ff373044d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/18fbdb2f-dcb7-463a-98b9-af4ff373044d"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "ca8bf3e5-8195-4334-9875-cc0aa9b831cf",
+"title": "391 SE III lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2c06efeb-d4e6-42e8-a74b-1db5c0d7fca6",
+"fileName": "391_SE31.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T13:34:53.265",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c06efeb-d4e6-42e8-a74b-1db5c0d7fca6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c06efeb-d4e6-42e8-a74b-1db5c0d7fca6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7cbafe50-eb63-46a4-ada0-319e0f3c488d",
+"title": "RAHK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "75808c99-8145-46ca-a9c4-c336dc1534b4",
+"fileName": "Algatamine_PSI_eelarveautonoomia_EN.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-04T15:20:12.901",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75808c99-8145-46ca-a9c4-c336dc1534b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75808c99-8145-46ca-a9c4-c336dc1534b4"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d31280d2-f655-4984-9689-5298ba71fd8a",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1e503be2-90ac-4cd8-b1f9-b12f952c012d",
+"fileName": "391_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T15:13:59.901",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e503be2-90ac-4cd8-b1f9-b12f952c012d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e503be2-90ac-4cd8-b1f9-b12f952c012d"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "58d3e515-afcb-4e3f-a80b-f09b99be1d19",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b70beec2-4ad8-4895-8b28-0a2fa5dcf562",
+"fileName": "391XV_Riigieelar_ms_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T12:29:12.074",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b70beec2-4ad8-4895-8b28-0a2fa5dcf562/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b70beec2-4ad8-4895-8b28-0a2fa5dcf562"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "58d3e515-afcb-4e3f-a80b-f09b99be1d19",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "09b798db-59fa-40a0-a867-d0d29087207a",
+"fileName": "391XV_Riigieelar_ms_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T12:28:42.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/09b798db-59fa-40a0-a867-d0d29087207a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/09b798db-59fa-40a0-a867-d0d29087207a"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "e0c74d8f-4720-4c78-ba1c-70ebe2eed206",
+"title": "391 SE II lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ba8f01cf-0e44-47ca-87db-c081c6c1f18d",
+"fileName": "391_ME21_docx.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T13:36:09.434",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba8f01cf-0e44-47ca-87db-c081c6c1f18d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba8f01cf-0e44-47ca-87db-c081c6c1f18d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1d9103a5-82bf-41c0-9f71-011bbfd85a8a",
+"title": "391 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fab25d99-315f-4073-a675-dbe9e13e1434",
+"fileName": "391_RES_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T09:13:16.381",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fab25d99-315f-4073-a675-dbe9e13e1434/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fab25d99-315f-4073-a675-dbe9e13e1434"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "e0c74d8f-4720-4c78-ba1c-70ebe2eed206",
+"title": "391 SE II lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0d3c86bb-924c-40ca-8b9d-29d2cdb9c93f",
+"fileName": "391_SE21_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T13:52:22.536",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0d3c86bb-924c-40ca-8b9d-29d2cdb9c93f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0d3c86bb-924c-40ca-8b9d-29d2cdb9c93f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7cbafe50-eb63-46a4-ada0-319e0f3c488d",
+"title": "RAHK algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8037cc30-b67b-4fd1-8f25-9665136d83f5",
+"fileName": "Algatamine_PSI_eelarveautonoomia_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-04T15:20:12.883",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8037cc30-b67b-4fd1-8f25-9665136d83f5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8037cc30-b67b-4fd1-8f25-9665136d83f5"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e5adf3c3-8705-434b-9cdc-c1fef3cd8e61",
+"reference": "1-1/15-391/3",
+"title": "Vabariigi Presidendi otsus nr 408",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "425f989b-70a8-4a80-8cb0-6d112f51e42d",
+"fileName": "VP_23052024_o408.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T12:14:02.146",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/425f989b-70a8-4a80-8cb0-6d112f51e42d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/425f989b-70a8-4a80-8cb0-6d112f51e42d"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e5adf3c3-8705-434b-9cdc-c1fef3cd8e61",
+"reference": "1-1/15-391/3",
+"title": "Vabariigi Presidendi otsus nr 408",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9361238a-e17e-4d1d-89e5-1498b05177c0",
+"fileName": "VP_23052024_o408.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T12:14:02.062",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9361238a-e17e-4d1d-89e5-1498b05177c0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9361238a-e17e-4d1d-89e5-1498b05177c0"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d31280d2-f655-4984-9689-5298ba71fd8a",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "52628653-d973-41b5-86a2-d52a8bfb6fdc",
+"fileName": "391XV_Riigieelar_ms_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T14:44:13.574",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52628653-d973-41b5-86a2-d52a8bfb6fdc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52628653-d973-41b5-86a2-d52a8bfb6fdc"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d31280d2-f655-4984-9689-5298ba71fd8a",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "91a70d49-54ba-40fb-b80e-9e2c929393a1",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T15:15:36.316",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91a70d49-54ba-40fb-b80e-9e2c929393a1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91a70d49-54ba-40fb-b80e-9e2c929393a1"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-03-04T15:19:36.228",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-03-05T14:20:00.111",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-03-04T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 4.03.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-03-12T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "ALGATADA_EELNOU",
+"value": "Algatada eelnõu"
+}
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "f550c9e9-4faa-4796-bf18-7901299dc1b6",
+"fileName": "RAHK_protokoll_nr_60_04.03.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T09:45:48.215",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f550c9e9-4faa-4796-bf18-7901299dc1b6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f550c9e9-4faa-4796-bf18-7901299dc1b6"
+}
+}
+},
+{
+"uuid": "babbdf3b-004f-4a3b-a615-ca3c9ad4dd46",
+"fileName": "RAHK_protokoll_04.03.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T09:47:47.246",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/babbdf3b-004f-4a3b-a615-ca3c9ad4dd46/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/babbdf3b-004f-4a3b-a615-ca3c9ad4dd46"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-12T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 12.03.2024 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+},
+{
+"date": "2024-04-04T13:30:00",
+"sittingTitle": "Komisjoni istung neljapäev, 4.04.2024 kell 13.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "1f7e0516-be29-4dc0-a36d-5c368547f656",
+"fileName": "Asendusliikme_volikiri_M.Reinaas-T.Tamme_04.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri 3",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:08:11.206",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1f7e0516-be29-4dc0-a36d-5c368547f656/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1f7e0516-be29-4dc0-a36d-5c368547f656"
+}
+}
+},
+{
+"uuid": "acb5f904-d6c4-4977-a19e-a783824cc4aa",
+"fileName": "RAM_Kevadprognoos_04.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (RAM kevadprognoos)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:13:00.404",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/acb5f904-d6c4-4977-a19e-a783824cc4aa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/acb5f904-d6c4-4977-a19e-a783824cc4aa"
+}
+}
+},
+{
+"uuid": "41326cb2-94e3-4083-a185-369734706d09",
+"fileName": "RAM_398_SE_krüptovara_slaidid_4.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (RAM 398 SE tutvustus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:11:10.836",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41326cb2-94e3-4083-a185-369734706d09/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41326cb2-94e3-4083-a185-369734706d09"
+}
+}
+},
+{
+"uuid": "5f9199d3-0f03-47e8-ab36-1f266e6c2437",
+"fileName": "Asendusliikme_volikiri_T.Uibo-K.Tali_04.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri 4",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:08:26.864",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f9199d3-0f03-47e8-ab36-1f266e6c2437/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f9199d3-0f03-47e8-ab36-1f266e6c2437"
+}
+}
+},
+{
+"uuid": "17ce2513-b317-4242-9e68-7913c1628370",
+"fileName": "Asendusliikme_volikiri_J.Ossinovski.A.Allas_04.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:07:51.088",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17ce2513-b317-4242-9e68-7913c1628370/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17ce2513-b317-4242-9e68-7913c1628370"
+}
+}
+},
+{
+"uuid": "e2ee8194-a451-4d79-a0ff-a203b909ad78",
+"fileName": "Asendusliige_A.Allas_04042024.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:08:05.481",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2ee8194-a451-4d79-a0ff-a203b909ad78/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2ee8194-a451-4d79-a0ff-a203b909ad78"
+}
+}
+},
+{
+"uuid": "10dfe3ac-d83d-4360-b067-d731b03de3ba",
+"fileName": "RAHK_protokoll_70_04.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-10T15:24:48.277",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/10dfe3ac-d83d-4360-b067-d731b03de3ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/10dfe3ac-d83d-4360-b067-d731b03de3ba"
+}
+}
+},
+{
+"uuid": "42843840-20ae-49f8-a046-ae4c03e59270",
+"fileName": "RAHK_protokoll_04.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-10T15:26:10.263",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42843840-20ae-49f8-a046-ae4c03e59270/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42843840-20ae-49f8-a046-ae4c03e59270"
+}
+}
+},
+{
+"uuid": "b38fedea-b25f-4e79-b701-d2eee93f4068",
+"fileName": "RAM_399_SE_eurosendid_slaidid_4.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (RAM 399 SE tutvustus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:09:04.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b38fedea-b25f-4e79-b701-d2eee93f4068/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b38fedea-b25f-4e79-b701-d2eee93f4068"
+}
+}
+},
+{
+"uuid": "3e08d32f-2844-4885-a2ba-241d1bea528b",
+"fileName": "Asendusliikme_volikiri_A.Korobeinik-A.Kovalenko-Kõlvart_04.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:07:16.568",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e08d32f-2844-4885-a2ba-241d1bea528b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e08d32f-2844-4885-a2ba-241d1bea528b"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-30T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 30.04.2024",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-08T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-05-15T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "6f5a5925-85d2-4c05-9f55-ccb82004858f",
+"fileName": "RAHK_protokoll_30.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-08T11:43:24.863",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6f5a5925-85d2-4c05-9f55-ccb82004858f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6f5a5925-85d2-4c05-9f55-ccb82004858f"
+}
+}
+},
+{
+"uuid": "c85847c3-8fd1-4f24-9903-7b26ff69e2dc",
+"fileName": "RAHK_protokoll_77_30_04_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-08T11:42:36.514",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c85847c3-8fd1-4f24-9903-7b26ff69e2dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c85847c3-8fd1-4f24-9903-7b26ff69e2dc"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-08T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 8.05.2024 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-13T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 13.05.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Kiita heaks III lugemise tekst"
+}
+],
+"protocolFiles": [
+{
+"uuid": "ec299639-916e-4286-8643-05f9781f72e4",
+"fileName": "RAHK_protokoll_13.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-20T15:26:01.236",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec299639-916e-4286-8643-05f9781f72e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec299639-916e-4286-8643-05f9781f72e4"
+}
+}
+},
+{
+"uuid": "29a9c398-2080-4e42-b5cb-a378d2b88a6f",
+"fileName": "RAHK_protokoll_nr_80_13.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-20T15:24:14.01",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29a9c398-2080-4e42-b5cb-a378d2b88a6f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29a9c398-2080-4e42-b5cb-a378d2b88a6f"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.05.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "3090a034-f6b9-43f5-957c-a4cc7b11381d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-15T14:41:14",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/3090a034-f6b9-43f5-957c-a4cc7b11381d"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-05-17T16:17:57.433",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-05-23T12:15:16.098",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-05-28T18:16:48.582",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "987fb9d0-29ba-46f2-b464-a6d5f52ba639",
+"reference": "1-1/15-391/2",
+"title": "Vabariigi Valitsuse arvamus riigieelarve seaduse muutmise seaduse eelnõu 391 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-16",
+"files": [
+{
+"uuid": "06b68b55-3eb4-4068-a9a9-76044fb3461e",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0228_-_Riigieelarve_seaduse_muutmise_seaduse_eelnõu_(391_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T13:51:02.327",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/06b68b55-3eb4-4068-a9a9-76044fb3461e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/06b68b55-3eb4-4068-a9a9-76044fb3461e"
+}
+}
+},
+{
+"uuid": "1c67627c-715c-4736-a317-4100ac8b60f7",
+"fileName": "1.1-111822-1_15.04.2024_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T13:51:02.212",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c67627c-715c-4736-a317-4100ac8b60f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c67627c-715c-4736-a317-4100ac8b60f7"
+}
+}
+},
+{
+"uuid": "d64c5ee6-5ae0-4800-b9be-35190113066e",
+"fileName": "Riigieelarve_seaduse_muutmise_seaduse_eelnõu_(391_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T13:51:02.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d64c5ee6-5ae0-4800-b9be-35190113066e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d64c5ee6-5ae0-4800-b9be-35190113066e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/987fb9d0-29ba-46f2-b464-a6d5f52ba639"
+}
+}
+},
+{
+"uuid": "7b6d6926-9f61-4398-9a76-c1caff52ddf7",
+"reference": "1-1/15-391/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 391 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-04",
+"files": [
+{
+"uuid": "86df3db7-08b2-4314-8bf0-24a6ff5ccd5e",
+"fileName": "RES_m_s_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-04T15:58:57.404",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/86df3db7-08b2-4314-8bf0-24a6ff5ccd5e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/86df3db7-08b2-4314-8bf0-24a6ff5ccd5e"
+}
+}
+},
+{
+"uuid": "05ee01ae-ad4a-4c4a-b0c3-e8a67ecf36af",
+"fileName": "240305_RES_RAHK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-04T19:05:42.429",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/05ee01ae-ad4a-4c4a-b0c3-e8a67ecf36af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/05ee01ae-ad4a-4c4a-b0c3-e8a67ecf36af"
+}
+}
+},
+{
+"uuid": "fc76d644-caac-4289-af09-28d394207ca4",
+"fileName": "RES_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-04T15:58:37.395",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc76d644-caac-4289-af09-28d394207ca4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc76d644-caac-4289-af09-28d394207ca4"
+}
+}
+},
+{
+"uuid": "6e9ea395-a5ff-48af-a55b-3a5b2e66e99c",
+"fileName": "1-1-15-391-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_391_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-05T14:28:20.024",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e9ea395-a5ff-48af-a55b-3a5b2e66e99c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e9ea395-a5ff-48af-a55b-3a5b2e66e99c"
+}
+}
+},
+{
+"uuid": "5bc03c56-fb5e-439d-bb58-a660c738bd0d",
+"fileName": "RES_m_s_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-04T15:58:47.252",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5bc03c56-fb5e-439d-bb58-a660c738bd0d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5bc03c56-fb5e-439d-bb58-a660c738bd0d"
+}
+}
+},
+{
+"uuid": "dc47a475-88c3-4c63-96f8-8548b22f629c",
+"fileName": "RES_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-04T15:58:15.443",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dc47a475-88c3-4c63-96f8-8548b22f629c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dc47a475-88c3-4c63-96f8-8548b22f629c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7b6d6926-9f61-4398-9a76-c1caff52ddf7"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/19ce0193-3c49-458f-8eb5-496f360dde11"
+}
+}
+}

@@ -1,0 +1,619 @@
+{
+"uuid": "bd2d9ae6-6f49-4de9-a7bc-496e298acc31",
+"title": "Perehüvitiste seaduse muutmise seadus",
+"mark": 388,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Perehüvitiste seaduse muutmise seadus 388 SE",
+"initialTitle": "Perehüvitiste seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette tõsta lastega perede paremaks toimetulekuks lapsetoetus pere esimese ja iga järgmise lapse kohta 150 eurole kuus.",
+"initiated": "2024-02-21",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "dea3f114-9d1a-4972-ae8a-76680d465968",
+"name": "Karmen Joller",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/dea3f114-9d1a-4972-ae8a-76680d465968?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8a5e0f99-b6bc-48ff-91bf-c847958c776e",
+"name": "Heidi Barot",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8a5e0f99-b6bc-48ff-91bf-c847958c776e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2604,
+"text": "peretoetus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "947a1f5d-fc8f-4888-b0e6-491a7b344251",
+"title": "388 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b85283a5-ff18-4914-ab53-1cd54dc4cdf8",
+"fileName": "388_PHS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-30T12:21:50.602",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b85283a5-ff18-4914-ab53-1cd54dc4cdf8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b85283a5-ff18-4914-ab53-1cd54dc4cdf8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9b8edd3e-676f-48e9-9f67-99f85961457a",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "adf31e16-7679-4ec5-8828-4fea1ff875d9",
+"fileName": "LapsetoetustetõstmiseSE_(1).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-22T10:55:46.66",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/adf31e16-7679-4ec5-8828-4fea1ff875d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/adf31e16-7679-4ec5-8828-4fea1ff875d9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9b8edd3e-676f-48e9-9f67-99f85961457a",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "619c3bd4-523c-4d4c-9f2b-524f12418f1e",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-22T11:35:11.387",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/619c3bd4-523c-4d4c-9f2b-524f12418f1e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/619c3bd4-523c-4d4c-9f2b-524f12418f1e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "947a1f5d-fc8f-4888-b0e6-491a7b344251",
+"title": "388 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ae40cb39-ccff-486a-ad1d-c9e36c701532",
+"fileName": "388_PHS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-30T12:22:10.449",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae40cb39-ccff-486a-ad1d-c9e36c701532/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae40cb39-ccff-486a-ad1d-c9e36c701532"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9b8edd3e-676f-48e9-9f67-99f85961457a",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a55c3a63-fb6d-40a0-bcde-6354b96b5eaf",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-21T15:56:59.559",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a55c3a63-fb6d-40a0-bcde-6354b96b5eaf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a55c3a63-fb6d-40a0-bcde-6354b96b5eaf"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-02-21T14:52:52.532",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-02-22T16:49:00.482",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-09T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 9.04.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-04-17T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Kristina Šmigun-Vähi"
+}
+],
+"protocolFiles": [
+{
+"uuid": "6e3d73da-bab7-4983-88c5-123193ec060f",
+"fileName": "SOTK_protokoll_09.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T15:14:37.718",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e3d73da-bab7-4983-88c5-123193ec060f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e3d73da-bab7-4983-88c5-123193ec060f"
+}
+}
+},
+{
+"uuid": "e7d4041a-f8ad-46fb-a96b-eeebd8e6680d",
+"fileName": "Lisa_2_(SOM_slaidid_-_toimetulekutoetuse_VTK).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (SOM slaidid - toimetulekutoetuse VTK)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T15:13:05.708",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e7d4041a-f8ad-46fb-a96b-eeebd8e6680d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e7d4041a-f8ad-46fb-a96b-eeebd8e6680d"
+}
+}
+},
+{
+"uuid": "bc09c15c-e617-42f7-bbb2-2c994f64684b",
+"fileName": "Lisa_1_(SOM_slaidid_-_hambaravihüvitiste_proteesiteenustele_laiendamine).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (SOM slaidid - hambaravihüvitiste proteesiteenustele laiendamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T15:11:48.382",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc09c15c-e617-42f7-bbb2-2c994f64684b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc09c15c-e617-42f7-bbb2-2c994f64684b"
+}
+}
+},
+{
+"uuid": "8d00c61f-9ae5-4028-b53c-43e9a043bd2f",
+"fileName": "SOTK_protokoll_09.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T15:07:31.857",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d00c61f-9ae5-4028-b53c-43e9a043bd2f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d00c61f-9ae5-4028-b53c-43e9a043bd2f"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-05T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 5.06.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-06-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.06.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-09-09T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 9.09.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Karmen Joller"
+}
+],
+"protocolFiles": [
+{
+"uuid": "a6978e04-241e-4a6d-95b6-a4f243bd68c7",
+"fileName": "SOTK_protokoll_09.09.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:17:50.085",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6978e04-241e-4a6d-95b6-a4f243bd68c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6978e04-241e-4a6d-95b6-a4f243bd68c7"
+}
+}
+},
+{
+"uuid": "4e4fab1c-cd06-4329-9fce-b5ebfc139e55",
+"fileName": "Asendusliikme_volikiri_(Pikhof).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Pikhof)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:13:21.667",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4e4fab1c-cd06-4329-9fce-b5ebfc139e55/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4e4fab1c-cd06-4329-9fce-b5ebfc139e55"
+}
+}
+},
+{
+"uuid": "ec8f5373-5af9-4314-8b42-75a2bc880721",
+"fileName": "Lisa_(SOM-i_slaidid).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa (SOM-i slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:13:10.595",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec8f5373-5af9-4314-8b42-75a2bc880721/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec8f5373-5af9-4314-8b42-75a2bc880721"
+}
+}
+},
+{
+"uuid": "c3f47230-2c5e-491b-8d77-f45deccaed3c",
+"fileName": "SOTK_protokoll_nr_72_(09.09.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:12:11.978",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3f47230-2c5e-491b-8d77-f45deccaed3c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3f47230-2c5e-491b-8d77-f45deccaed3c"
+}
+}
+}
+]
+},
+{
+"date": "2024-09-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.09.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-09-19T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 19.09.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "80945555-49b5-47cc-9ca5-18df2ec795ac",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-09-19T11:07:39.41",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/80945555-49b5-47cc-9ca5-18df2ec795ac"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "1b40e746-651a-42b9-9acd-e0be8efe1615",
+"reference": "1-1/15-388/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 388 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-02-21",
+"files": [
+{
+"uuid": "1050fafb-41b3-4f9e-af5b-001e75f9bd2c",
+"fileName": "PHS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-22T10:56:58.806",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1050fafb-41b3-4f9e-af5b-001e75f9bd2c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1050fafb-41b3-4f9e-af5b-001e75f9bd2c"
+}
+}
+},
+{
+"uuid": "52923eae-c8de-49d6-8d39-45574eb8a582",
+"fileName": "PHS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-21T16:01:26.35",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52923eae-c8de-49d6-8d39-45574eb8a582/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52923eae-c8de-49d6-8d39-45574eb8a582"
+}
+}
+},
+{
+"uuid": "a381403c-a038-48a6-a7c1-b79312d8f88e",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-22T11:36:06.956",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a381403c-a038-48a6-a7c1-b79312d8f88e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a381403c-a038-48a6-a7c1-b79312d8f88e"
+}
+}
+},
+{
+"uuid": "08e804db-ebde-49f8-969b-07c4719cce22",
+"fileName": "240222_PHS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-21T16:47:27.784",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/08e804db-ebde-49f8-969b-07c4719cce22/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/08e804db-ebde-49f8-969b-07c4719cce22"
+}
+}
+},
+{
+"uuid": "f9d4831c-476e-40a1-8d12-1092ae21c5c4",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-21T15:58:22.074",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f9d4831c-476e-40a1-8d12-1092ae21c5c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f9d4831c-476e-40a1-8d12-1092ae21c5c4"
+}
+}
+},
+{
+"uuid": "e2808469-0643-4c6b-88b7-f01bd2674c8c",
+"fileName": "1-1-15-388-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_388_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-22T16:09:03.882",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2808469-0643-4c6b-88b7-f01bd2674c8c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2808469-0643-4c6b-88b7-f01bd2674c8c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1b40e746-651a-42b9-9acd-e0be8efe1615"
+}
+}
+},
+{
+"uuid": "76e6bb07-32eb-4e7f-b025-8d0f3a893ca7",
+"reference": "1-1/15-388/2",
+"title": "Vabariigi Valitsuse arvamus perehüvitiste seaduse muutmise seaduse eelnõu 388 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-02",
+"files": [
+{
+"uuid": "1db10e32-da15-43b2-885b-571af0ee18af",
+"fileName": "Vabariigi_Valitsuse_seisukoht_perehüvitiste_seaduse_muutmise_seaduse_eelnõu_(388_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T12:30:00.216",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1db10e32-da15-43b2-885b-571af0ee18af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1db10e32-da15-43b2-885b-571af0ee18af"
+}
+}
+},
+{
+"uuid": "f3cb2678-18c8-4e0b-b346-a94c547070a1",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0194_-_Perehüvitiste_seaduse_muutmise_seaduse_eelnõu_(388_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T12:30:00.24",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3cb2678-18c8-4e0b-b346-a94c547070a1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3cb2678-18c8-4e0b-b346-a94c547070a1"
+}
+}
+},
+{
+"uuid": "128c637d-3e64-4728-b937-751c1c2f0aba",
+"fileName": "1.2-3542-4_26.03.2024_Vï¿½ljaminev_kiri_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T12:30:00.153",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/128c637d-3e64-4728-b937-751c1c2f0aba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/128c637d-3e64-4728-b937-751c1c2f0aba"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/76e6bb07-32eb-4e7f-b025-8d0f3a893ca7"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/bd2d9ae6-6f49-4de9-a7bc-496e298acc31"
+}
+}
+}

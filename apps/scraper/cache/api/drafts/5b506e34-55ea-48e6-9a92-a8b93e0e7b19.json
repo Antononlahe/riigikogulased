@@ -1,0 +1,641 @@
+{
+"uuid": "5b506e34-55ea-48e6-9a92-a8b93e0e7b19",
+"title": "Erastamisest laekuva raha kasutamise seaduse muutmise seadus",
+"mark": 70,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Erastamisest laekuva raha kasutamise seaduse muutmise seadus 70 SE",
+"initialTitle": "Erastamisest laekuva raha kasutamise seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette võimaldada erastamisest laekuva raha kasutamist ka omandireformi käigus tagastatud ja muinsuskaitse alal asuva ehitise hooldamiseks, remontimiseks, konserveerimiseks, restaureerimiseks ja taastamiseks. Seletuskirjas märgitakse, et Eestis on 12 muinsuskaitseala ajaloolistes linnasüdametes (Tallinnas, Valgas, Tartus, Pärnus, Võrus, Paides, Viljandis, Kuressaares, Rakveres, Haapsalus ja Lihulas) ja samuti Rebalas.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "bdcec844-b004-4caf-bfc1-6a74c9fbd76f",
+"name": "Erkki Keldo",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/bdcec844-b004-4caf-bfc1-6a74c9fbd76f?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "ef74ad8e-6ea2-4aa6-9419-356e60343f48",
+"name": "Kaido Rosin",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/ef74ad8e-6ea2-4aa6-9419-356e60343f48?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3932,
+"text": "erastamine"
+},
+{
+"edid": 3446,
+"text": "reserv"
+},
+{
+"edid": 2840,
+"text": "muinsuskaitse"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "3744ef2b-a78d-4161-9aeb-e69944c19eb5",
+"title": "70 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "da3df55c-b570-42f3-944e-75482012db7d",
+"fileName": "70_ELRKS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T13:25:53.094",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da3df55c-b570-42f3-944e-75482012db7d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da3df55c-b570-42f3-944e-75482012db7d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6b889b55-011d-4509-bcfa-6b3ea2c89abd",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3db8daf0-df84-40a1-a2bb-f9600115746f",
+"fileName": "70_Erastamisest_laekuva_raha_muutmise_seaduse_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T15:31:16.848",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3db8daf0-df84-40a1-a2bb-f9600115746f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3db8daf0-df84-40a1-a2bb-f9600115746f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6b889b55-011d-4509-bcfa-6b3ea2c89abd",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "13901653-0094-4122-944f-731148c330d9",
+"fileName": "70_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:15:44.578",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/13901653-0094-4122-944f-731148c330d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/13901653-0094-4122-944f-731148c330d9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "3744ef2b-a78d-4161-9aeb-e69944c19eb5",
+"title": "70 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "19a2363c-c506-41d2-8b37-852d6b4f29e7",
+"fileName": "70_ELRKS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T13:26:26.095",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/19a2363c-c506-41d2-8b37-852d6b4f29e7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/19a2363c-c506-41d2-8b37-852d6b4f29e7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6b889b55-011d-4509-bcfa-6b3ea2c89abd",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "252095c7-e80b-45d6-8d66-ba1409f2775e",
+"fileName": "70_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:15:54.13",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/252095c7-e80b-45d6-8d66-ba1409f2775e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/252095c7-e80b-45d6-8d66-ba1409f2775e"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T23:10:28.851",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:42:00.391",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-09-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Erkki Keldo"
+}
+],
+"protocolFiles": [
+{
+"uuid": "b2de0dfa-104d-4398-a502-96614a578809",
+"fileName": "MAJK_protokoll_nr_17_12.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T14:53:24.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b2de0dfa-104d-4398-a502-96614a578809/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b2de0dfa-104d-4398-a502-96614a578809"
+}
+}
+},
+{
+"uuid": "3c2bd9d6-908d-40b5-8217-8e446cee6553",
+"fileName": "MAJK_protokoll_nr_17_12.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T14:55:03.829",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c2bd9d6-908d-40b5-8217-8e446cee6553/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c2bd9d6-908d-40b5-8217-8e446cee6553"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.09.2023 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "a040d56f-3628-408f-8d99-59247d881b05",
+"fileName": "20230919_PlanS_VTK_eelnõu_tutvustus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (PlanS VTK)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-03T09:33:49.854",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a040d56f-3628-408f-8d99-59247d881b05/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a040d56f-3628-408f-8d99-59247d881b05"
+}
+}
+},
+{
+"uuid": "b26531ac-8c28-4e60-81de-d814c85c1a62",
+"fileName": "MAJK_protokoll_nr_19_19.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-03T09:45:04.558",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b26531ac-8c28-4e60-81de-d814c85c1a62/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b26531ac-8c28-4e60-81de-d814c85c1a62"
+}
+}
+},
+{
+"uuid": "7e5a9513-0e24-48a1-941b-a8abc00e9748",
+"fileName": "MAJK_protokoll_nr_19_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-03T09:44:37.612",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e5a9513-0e24-48a1-941b-a8abc00e9748/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e5a9513-0e24-48a1-941b-a8abc00e9748"
+}
+}
+},
+{
+"uuid": "65998aec-644f-4760-bbcf-ebad0b122109",
+"fileName": "Liivi_lahe_elektriühenduste_REP.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Liivi lahe elektriühenduste riigi eriplaneering)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-03T09:34:12.36",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/65998aec-644f-4760-bbcf-ebad0b122109/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/65998aec-644f-4760-bbcf-ebad0b122109"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-25T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 25.09.2023 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-10-11T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "09a7c31a-d1fa-4fcd-9e1b-d78211e45929",
+"fileName": "Ettekanne_Majanduskomisjonis_25092023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Konkurentsiamet)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-02T09:48:01.767",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/09a7c31a-d1fa-4fcd-9e1b-d78211e45929/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/09a7c31a-d1fa-4fcd-9e1b-d78211e45929"
+}
+}
+},
+{
+"uuid": "e6d34703-13f2-4182-ba41-2a6c8fa93425",
+"fileName": "MAJK_protokoll_nr_20_25.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-02T09:45:33.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e6d34703-13f2-4182-ba41-2a6c8fa93425/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e6d34703-13f2-4182-ba41-2a6c8fa93425"
+}
+}
+},
+{
+"uuid": "3e915d33-c5f9-426b-b239-ac515cc50375",
+"fileName": "MAJK_protokoll_nr_20_25.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-02T09:44:49.978",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e915d33-c5f9-426b-b239-ac515cc50375/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e915d33-c5f9-426b-b239-ac515cc50375"
+}
+}
+}
+]
+},
+{
+"date": "2023-10-25T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 25.10.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "9ac06b73-447b-4bca-8496-52b2c21c5842",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-10-25T19:35:42.98",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9ac06b73-447b-4bca-8496-52b2c21c5842"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "64032c0a-65aa-4b85-bfa4-542823ec0846",
+"reference": "1-1/15-70/2",
+"title": "Vabariigi Valitsuse arvamus erastamisest laekuva raha kasutamise seaduse muutmise seaduse eelnõu 70 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-15",
+"files": [
+{
+"uuid": "bad26d9c-c693-4e11-a03d-27d2f166d0cb",
+"fileName": "EIS_-teade__RIIGIKOGU-23-0474_-_Erastamisest_laekuva_raha_kasutamise_seaduse_muutmise_seaduse_eelnõu_(70_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-10-21T11:32:01.637",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bad26d9c-c693-4e11-a03d-27d2f166d0cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bad26d9c-c693-4e11-a03d-27d2f166d0cb"
+}
+}
+},
+{
+"uuid": "d202cf38-b621-4069-a8ab-a3410ac9c6ac",
+"fileName": "Vabariigi_Valitsuse_seisukoht_erastamisest_laekuva_raha_kasutamise_seaduse_muutmise_seaduse_eelnõule_(70_SE)_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-15T10:10:34.658",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d202cf38-b621-4069-a8ab-a3410ac9c6ac/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d202cf38-b621-4069-a8ab-a3410ac9c6ac"
+}
+}
+},
+{
+"uuid": "c7eed33d-2cbb-421e-a442-357ca2932f2f",
+"fileName": "1.1-114188-2_14.06.2023_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-15T10:10:34.627",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c7eed33d-2cbb-421e-a442-357ca2932f2f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c7eed33d-2cbb-421e-a442-357ca2932f2f"
+}
+}
+},
+{
+"uuid": "1ce8f92f-7b6a-47f1-a2d1-7f8e844964fd",
+"fileName": "Vabariigi_Valitsuse_seisukoht_erastamisest_laekuva_raha_kasutamise_seaduse_muutmise_seaduse_eelnõule_(70_SE)_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-15T10:10:34.691",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1ce8f92f-7b6a-47f1-a2d1-7f8e844964fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1ce8f92f-7b6a-47f1-a2d1-7f8e844964fd"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/64032c0a-65aa-4b85-bfa4-542823ec0846"
+}
+}
+},
+{
+"uuid": "ce45df29-7ae8-4fcc-a8e1-bb9040a7ea33",
+"reference": "1-1/15-70/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 70 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-10",
+"files": [
+{
+"uuid": "f400b6f0-ac03-4c9e-9dea-ff323a2feeb7",
+"fileName": "1-1-15-70-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_70_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T17:15:19.13",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f400b6f0-ac03-4c9e-9dea-ff323a2feeb7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f400b6f0-ac03-4c9e-9dea-ff323a2feeb7"
+}
+}
+},
+{
+"uuid": "f3cbd762-c14e-44ae-8742-c96044dc3424",
+"fileName": "70_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T15:34:39.864",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3cbd762-c14e-44ae-8742-c96044dc3424/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3cbd762-c14e-44ae-8742-c96044dc3424"
+}
+}
+},
+{
+"uuid": "f4570b08-18e2-4114-b816-25c98aa41257",
+"fileName": "70_ELRKS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T15:34:02.712",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f4570b08-18e2-4114-b816-25c98aa41257/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f4570b08-18e2-4114-b816-25c98aa41257"
+}
+}
+},
+{
+"uuid": "00c3bdfe-a783-466a-9a15-d021ddabbb8f",
+"fileName": "230510_ELRKS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T17:14:20.398",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/00c3bdfe-a783-466a-9a15-d021ddabbb8f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/00c3bdfe-a783-466a-9a15-d021ddabbb8f"
+}
+}
+},
+{
+"uuid": "018678fa-fa2a-4634-9ff9-454049adfa87",
+"fileName": "70_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T15:34:55.425",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/018678fa-fa2a-4634-9ff9-454049adfa87/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/018678fa-fa2a-4634-9ff9-454049adfa87"
+}
+}
+},
+{
+"uuid": "f8ad38d1-d76d-4788-a74c-e2ff58a4da95",
+"fileName": "70_ELRKS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T15:34:26.385",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f8ad38d1-d76d-4788-a74c-e2ff58a4da95/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f8ad38d1-d76d-4788-a74c-e2ff58a4da95"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ce45df29-7ae8-4fcc-a8e1-bb9040a7ea33"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/5b506e34-55ea-48e6-9a92-a8b93e0e7b19"
+}
+}
+}

@@ -8,6 +8,7 @@ import {
   againstKind,
   voteType,
   voteTypeOptions,
+  billOutcome,
   type VotePoint,
 } from "./member-detail";
 
@@ -20,6 +21,7 @@ function v(p: Partial<VotePoint>): VotePoint {
     draftMark: null,
     draftUuid: null,
     riigikoguUuid: null,
+    outcomeStage: null,
     memberChoice: "yes",
     partyMajorityChoice: "yes",
     isProcedural: false,
@@ -27,6 +29,22 @@ function v(p: Partial<VotePoint>): VotePoint {
     ...p,
   };
 }
+
+describe("billOutcome", () => {
+  it("maps terminal stages to a fate", () => {
+    expect(billOutcome("VASTU_VOETUD")).toBe("adopted");
+    expect(billOutcome("TAGASI_LYKATUD")).toBe("rejected");
+    expect(billOutcome("TAGASI_VOETUD")).toBe("withdrawn");
+  });
+  it("treats reading stages as pending", () => {
+    expect(billOutcome("TEINE_LUGEMINE")).toBe("pending");
+    expect(billOutcome("KOLMAS_LUGEMINE")).toBe("pending");
+  });
+  it("is null without a linked / ingested bill", () => {
+    expect(billOutcome(null)).toBeNull();
+    expect(billOutcome("")).toBeNull();
+  });
+});
 
 describe("classifyVote", () => {
   it("aligned when choice equals the party line", () => {

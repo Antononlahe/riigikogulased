@@ -1,0 +1,381 @@
+{
+"uuid": "4a2c99fd-8343-4353-9d48-a999f7228e53",
+"title": "Riigikogu otsus „Putukate ja putukaid sisaldavate toitude ja toodete erimärgistamise ja müügi kohta\"",
+"mark": 222,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Putukate ja putukaid sisaldavate toitude ja toodete erimärgistamise ja müügi kohta\" 222 OE",
+"initialTitle": "Riigikogu otsus „Putukate ja putukaid sisaldavate toitude ja toodete erimärgistamise ja müügi kohta\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": null,
+"initiated": "2023-05-24",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-06-08T17:15:00",
+"responsibleMember": {
+"uuid": "4a332fbb-be05-4cb2-b6a0-5916eb40fe89",
+"name": "Urmas Kruuse",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4a332fbb-be05-4cb2-b6a0-5916eb40fe89?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "c6c944c5-6a67-464d-b5cc-a95aaf9e6c3f",
+"name": "Marin Daniel",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/c6c944c5-6a67-464d-b5cc-a95aaf9e6c3f?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "b40076b0-a453-4efb-acda-2554015471d1",
+"name": "Maaelukomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/b40076b0-a453-4efb-acda-2554015471d1?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1284,
+"text": "inimeste toitumine"
+},
+{
+"edid": 5676,
+"text": "putukas"
+},
+{
+"edid": 893,
+"text": "sildistamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "d3d25b44-5905-4ff9-b8d7-a2d99978c6dc",
+"title": "222 OE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "65bf5422-6fc3-4a1d-9a17-56fbe4951d8e",
+"fileName": "222_RK_o_Ettepanek_VVle_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-12T13:19:06.473",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/65bf5422-6fc3-4a1d-9a17-56fbe4951d8e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/65bf5422-6fc3-4a1d-9a17-56fbe4951d8e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7eed5019-8aac-4e77-b078-ee485681f3ff",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e2ff519c-d9ec-4239-b563-5c4e196f9dc8",
+"fileName": "222_Putukad.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T16:29:46.317",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2ff519c-d9ec-4239-b563-5c4e196f9dc8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2ff519c-d9ec-4239-b563-5c4e196f9dc8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7eed5019-8aac-4e77-b078-ee485681f3ff",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "161e0e86-02e0-4381-93ba-abe17fff2c21",
+"fileName": "222E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T16:46:24.508",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/161e0e86-02e0-4381-93ba-abe17fff2c21/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/161e0e86-02e0-4381-93ba-abe17fff2c21"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "d3d25b44-5905-4ff9-b8d7-a2d99978c6dc",
+"title": "222 OE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "629b8f91-a928-484a-af33-fbd00e0d2637",
+"fileName": "222_RK_o_Ettepanek_VVle_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-12T13:19:45.39",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/629b8f91-a928-484a-af33-fbd00e0d2637/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/629b8f91-a928-484a-af33-fbd00e0d2637"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7eed5019-8aac-4e77-b078-ee485681f3ff",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ea7fcf45-e419-4047-8037-c5dec1ff44a8",
+"fileName": "222SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-24T14:30:45.393",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ea7fcf45-e419-4047-8037-c5dec1ff44a8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ea7fcf45-e419-4047-8037-c5dec1ff44a8"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-24T14:15:24.399",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-25T16:10:00.871",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-10-09T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 9.10.2023 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-10-17T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "maaelukomisjoni esimees Urmas Kruuse"
+}
+],
+"protocolFiles": [
+{
+"uuid": "edaeb547-da83-4808-8490-0c5b8e18ab88",
+"fileName": "MAEK_protokoll_09.10.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-12T14:59:59.659",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/edaeb547-da83-4808-8490-0c5b8e18ab88/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/edaeb547-da83-4808-8490-0c5b8e18ab88"
+}
+}
+},
+{
+"uuid": "f639a006-45a1-4f46-8ccf-816f84f403ab",
+"fileName": "protokolli_lisa_2_REM_222OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll lisa 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-12T14:56:46.866",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f639a006-45a1-4f46-8ccf-816f84f403ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f639a006-45a1-4f46-8ccf-816f84f403ab"
+}
+}
+},
+{
+"uuid": "67423967-ab6f-4176-8eec-2ac6c67a0e39",
+"fileName": "Protokolli_lisa_1_REM_RES_09.10.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokolli lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-12T14:56:13.3",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67423967-ab6f-4176-8eec-2ac6c67a0e39/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67423967-ab6f-4176-8eec-2ac6c67a0e39"
+}
+}
+},
+{
+"uuid": "b8d97748-e795-4fa6-a587-efdea47e9744",
+"fileName": "019_MAEK_protokoll_09.10.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-12T14:55:07.058",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b8d97748-e795-4fa6-a587-efdea47e9744/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b8d97748-e795-4fa6-a587-efdea47e9744"
+}
+}
+}
+]
+},
+{
+"date": "2024-02-08T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 8.02.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "721176ec-d87f-41ae-8647-1c80eea556f1",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-02-08T11:25:59.327",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/721176ec-d87f-41ae-8647-1c80eea556f1"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "c3a8e428-7127-4b48-8e43-c4298f963810",
+"reference": "1-1/15-222/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Putukate ja putukaid sisaldavate toitude ja toodete erimärgistamise ja müügi kohta\" eelnõu 222 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-01-24",
+"files": [
+{
+"uuid": "4ebea12b-3472-42a0-aa05-65b953250354",
+"fileName": "320.tel_Arvamus_222_OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-24T15:19:27.669",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ebea12b-3472-42a0-aa05-65b953250354/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ebea12b-3472-42a0-aa05-65b953250354"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c3a8e428-7127-4b48-8e43-c4298f963810"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/4a2c99fd-8343-4353-9d48-a999f7228e53"
+}
+}
+}

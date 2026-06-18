@@ -1,0 +1,513 @@
+{
+"uuid": "3c72c02b-1014-4371-aa93-354913ad3f33",
+"title": "Riigikogu otsus „Oliver Kase Riigikohtu liikmeks nimetamine\"",
+"mark": 424,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Oliver Kase Riigikohtu liikmeks nimetamine\" 424 OE",
+"initialTitle": "Riigikogu otsus „Oliver Kase Riigikohtu liikmeks nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": "2024-04-29",
+"joined": null,
+"accepted": "2024-05-14",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9035e217-d990-40ca-87ed-54c77653c6d7",
+"name": "Pipi-Liis Siemann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9035e217-d990-40ca-87ed-54c77653c6d7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "cdde124d-27c4-4398-b268-5c9e20d34d7f",
+"name": "Riigikohtu esimees",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 1537,
+"text": "kohtunik"
+},
+{
+"edid": 1548,
+"text": "kõrgema astme kohus"
+},
+{
+"edid": 3559,
+"text": "ametisse nimetamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5ba4ed38-774f-4edb-bf7f-cbb9d75e9450",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4b490242-6ecf-4363-acf7-ce0192faf4d8",
+"fileName": "7-724-228-1_29.04.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-29T16:25:10.145",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4b490242-6ecf-4363-acf7-ce0192faf4d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4b490242-6ecf-4363-acf7-ce0192faf4d8"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8d6b6f95-1dd6-4183-8799-652ff277fd20",
+"title": "424 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "41b864ff-5835-4b1f-a377-63107373c593",
+"fileName": "424_RK_o_Kask_ametisse_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T14:07:22.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41b864ff-5835-4b1f-a377-63107373c593/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41b864ff-5835-4b1f-a377-63107373c593"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5ba4ed38-774f-4edb-bf7f-cbb9d75e9450",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f5ffd13a-6531-4865-b6bd-d9754823a161",
+"fileName": "O._Kask_ametisse_OE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-29T16:25:10.13",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f5ffd13a-6531-4865-b6bd-d9754823a161/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f5ffd13a-6531-4865-b6bd-d9754823a161"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5ba4ed38-774f-4edb-bf7f-cbb9d75e9450",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cf29a267-3e3d-4b69-a3c6-fb529f6e647f",
+"fileName": "O._Kask_ametisse_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-29T16:25:10.259",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf29a267-3e3d-4b69-a3c6-fb529f6e647f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf29a267-3e3d-4b69-a3c6-fb529f6e647f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5ba4ed38-774f-4edb-bf7f-cbb9d75e9450",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5153696d-08ee-4ad9-9962-fe9f1703a89c",
+"fileName": "O._Kask_Riigikogule_kaaskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-29T16:25:10.241",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5153696d-08ee-4ad9-9962-fe9f1703a89c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5153696d-08ee-4ad9-9962-fe9f1703a89c"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "3c5ed2ba-a6cc-4bdb-ab9f-3e974f5d19bf",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1624b00a-1599-4ae9-b473-f99f02dcc23e",
+"fileName": "424XV_RK_o_15052024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T12:29:09.729",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1624b00a-1599-4ae9-b473-f99f02dcc23e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1624b00a-1599-4ae9-b473-f99f02dcc23e"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "3c5ed2ba-a6cc-4bdb-ab9f-3e974f5d19bf",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4a788e45-1786-421b-91c9-65bfb43e36b2",
+"fileName": "424XV_RK_o_15052024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T12:27:29.823",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4a788e45-1786-421b-91c9-65bfb43e36b2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4a788e45-1786-421b-91c9-65bfb43e36b2"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8d6b6f95-1dd6-4183-8799-652ff277fd20",
+"title": "424 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5abb0490-96a4-43ed-90f1-b47de1e7eff9",
+"fileName": "424_RK_o_Kask_ametisse_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T14:08:08.254",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5abb0490-96a4-43ed-90f1-b47de1e7eff9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5abb0490-96a4-43ed-90f1-b47de1e7eff9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5ba4ed38-774f-4edb-bf7f-cbb9d75e9450",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2293b0dc-f6c9-431a-a680-ee0e24bfc965",
+"fileName": "O._Kask_ametisse_OE_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-29T16:25:10.117",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2293b0dc-f6c9-431a-a680-ee0e24bfc965/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2293b0dc-f6c9-431a-a680-ee0e24bfc965"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5ba4ed38-774f-4edb-bf7f-cbb9d75e9450",
+"title": "Riigikohtu esimehe esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eb63cf91-3adf-4118-9de7-6165580952b2",
+"fileName": "O._Kask_ametisse_OE_seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-29T16:25:10.276",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb63cf91-3adf-4118-9de7-6165580952b2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb63cf91-3adf-4118-9de7-6165580952b2"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b37d4b13-3f44-4422-926f-6087d45f2dc8",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7ba7c6a8-a111-4e96-ba46-0561d9d63cdf",
+"fileName": "424XV_RK_o_052024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-14T10:43:25.422",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7ba7c6a8-a111-4e96-ba46-0561d9d63cdf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7ba7c6a8-a111-4e96-ba46-0561d9d63cdf"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b37d4b13-3f44-4422-926f-6087d45f2dc8",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "849c8079-a8bc-4bdc-92c9-30ec38217a4c",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-14T10:59:18.945",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/849c8079-a8bc-4bdc-92c9-30ec38217a4c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/849c8079-a8bc-4bdc-92c9-30ec38217a4c"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-29T16:24:34.871",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-30T14:38:00.554",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-06T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 6.05.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-14T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Pipi-Liis Siemann"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Teha ettepanek võimaldada vastavalt Riigikogu kodu - ja töökorra seaduse § 117 lõikele 3 Oliver Kasel esineda täiskogu ees kuni viieminutilise ettekandega"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "2f0762a9-e8f9-41b0-8342-70269b13d811",
+"fileName": "PÕSK_protokoll_nr_55.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T13:52:24.108",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f0762a9-e8f9-41b0-8342-70269b13d811/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f0762a9-e8f9-41b0-8342-70269b13d811"
+}
+}
+},
+{
+"uuid": "c342afcb-62d6-4d45-a301-7229ee0471ce",
+"fileName": "PÕSK_protokoll_nr_55_(06.05.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T13:51:51.936",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c342afcb-62d6-4d45-a301-7229ee0471ce/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c342afcb-62d6-4d45-a301-7229ee0471ce"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 14.05.2024 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "6cd82864-12dd-44e0-934b-1f5c0a506b5e",
+"type": {
+"code": "SALAJANE",
+"value": "Salajane"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-14T10:30:20.247",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/6cd82864-12dd-44e0-934b-1f5c0a506b5e"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-05-15T12:27:00.135",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-05-16T18:21:10.784",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/3c72c02b-1014-4371-aa93-354913ad3f33"
+}
+}
+}

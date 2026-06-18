@@ -1,0 +1,583 @@
+{
+"uuid": "6f9f7b8b-2079-45e4-b15e-c6e0673e2a99",
+"title": "Töötervishoiu ja tööohutuse seaduse ning ravikindlustuse seaduse muutmise seadus",
+"mark": 504,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Töötervishoiu ja tööohutuse seaduse ning ravikindlustuse seaduse muutmise seadus 504 SE",
+"initialTitle": "Töötervishoiu ja tööohutuse seaduse ning ravikindlustuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga muudetakse töötervishoiu ja tööohutuse seadust ning ravikindlustus seadust nii, et alates 1. juulist 2025 hakkaks kehtima haigushüvitiste maksmise kord, mille kohaselt on töötaja omavastutus vaid esimene haiguspäev, tööandja maksab hüvitist teisest neljanda päevani ning tervisekassa maksab hüvitist alates viiendast päevast. Samuti suurendatakse haigushüvitist 80%-ni töötaja keskmisest töötasust.",
+"initiated": "2024-09-23",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "dea3f114-9d1a-4972-ae8a-76680d465968",
+"name": "Karmen Joller",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/dea3f114-9d1a-4972-ae8a-76680d465968?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8a5e0f99-b6bc-48ff-91bf-c847958c776e",
+"name": "Heidi Barot",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8a5e0f99-b6bc-48ff-91bf-c847958c776e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3512,
+"text": "tervisekindlustus"
+},
+{
+"edid": 735,
+"text": "tööandja"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "fe98e0eb-712c-4ad9-8bec-a2c19c24c00f",
+"title": "504 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "164f60fe-80a0-40c5-af94-98c236a98982",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-13T22:02:21.234",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/164f60fe-80a0-40c5-af94-98c236a98982/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/164f60fe-80a0-40c5-af94-98c236a98982"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "be75e1c5-712f-4d87-9215-36c34754ebbc",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a7a0b133-7eb8-457e-a8aa-1f1970a7b07a",
+"fileName": "2024.sygis_Haigushüvitiste_suurendamine.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T15:56:55.381",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a7a0b133-7eb8-457e-a8aa-1f1970a7b07a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a7a0b133-7eb8-457e-a8aa-1f1970a7b07a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "fe98e0eb-712c-4ad9-8bec-a2c19c24c00f",
+"title": "504 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a1fc1363-c4ed-4ab0-9b20-68485a18bd0f",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-13T22:02:38.378",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a1fc1363-c4ed-4ab0-9b20-68485a18bd0f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a1fc1363-c4ed-4ab0-9b20-68485a18bd0f"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-09-23T15:56:22.983",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-09-24T14:16:00.101",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2024-11-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.11.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-11-20T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Eero Merilind"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "35b9dace-0c6f-40b2-b7d3-1203fc605138",
+"fileName": "SOTK_protokoll_12.11.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:12:44.529",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35b9dace-0c6f-40b2-b7d3-1203fc605138/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35b9dace-0c6f-40b2-b7d3-1203fc605138"
+}
+}
+},
+{
+"uuid": "b7b4f335-6dc4-4804-844b-1afe68ea0c56",
+"fileName": "SOTK_protokoll_nr_88_(12.11.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:11:57.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7b4f335-6dc4-4804-844b-1afe68ea0c56/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7b4f335-6dc4-4804-844b-1afe68ea0c56"
+}
+}
+},
+{
+"uuid": "b39e697b-78c1-423b-9e01-76b3ea6230d7",
+"fileName": "Lisa_2_(Eesti_Rehabilitatsiooniasutuste_Liidu_arvamus).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Eesti Rehabilitatsiooniasutuste Liidu arvamus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:37:08.825",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b39e697b-78c1-423b-9e01-76b3ea6230d7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b39e697b-78c1-423b-9e01-76b3ea6230d7"
+}
+}
+},
+{
+"uuid": "7511e1ad-01d1-418b-855b-6da052c1b9ed",
+"fileName": "Lisa_3_(SIM_arvamus).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (SIM arvamus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:37:47.03",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7511e1ad-01d1-418b-855b-6da052c1b9ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7511e1ad-01d1-418b-855b-6da052c1b9ed"
+}
+}
+},
+{
+"uuid": "0a4982cd-76c0-4a0f-9cf0-2640660ad494",
+"fileName": "Lisa_1_(ESTA_arvamus).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (ESTA arvamus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:36:23.888",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0a4982cd-76c0-4a0f-9cf0-2640660ad494/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0a4982cd-76c0-4a0f-9cf0-2640660ad494"
+}
+}
+}
+]
+},
+{
+"date": "2024-11-21T16:41:05.351",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2024-12-05T15:25:01.11",
+"status": "SAADETUD_I_LUGEMISELE"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-01-06T10:39:43.514",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-01-13T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 13.01.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Karmen Joller"
+}
+],
+"protocolFiles": [
+{
+"uuid": "dd8844cf-4888-4169-bae3-571f9207efde",
+"fileName": "SOTK_protokoll_13.01.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-17T14:03:50.906",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dd8844cf-4888-4169-bae3-571f9207efde/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dd8844cf-4888-4169-bae3-571f9207efde"
+}
+}
+},
+{
+"uuid": "328d9d53-df6f-4794-a94e-46aab4cc0cd6",
+"fileName": "Lisa_2_(MKMi_slaidid).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (MKMi slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-17T10:50:14.903",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/328d9d53-df6f-4794-a94e-46aab4cc0cd6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/328d9d53-df6f-4794-a94e-46aab4cc0cd6"
+}
+}
+},
+{
+"uuid": "ded72f16-c2d5-437c-85eb-e6b0ca86dcec",
+"fileName": "Lisa_1_(SOMi_slaidid).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (SOMi slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-17T10:49:52.676",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ded72f16-c2d5-437c-85eb-e6b0ca86dcec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ded72f16-c2d5-437c-85eb-e6b0ca86dcec"
+}
+}
+},
+{
+"uuid": "6793f5bb-aa9a-4fcf-85db-2b5562032b62",
+"fileName": "SOTK_protokoll_nr_94_(13.01.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-17T10:44:02.514",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6793f5bb-aa9a-4fcf-85db-2b5562032b62/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6793f5bb-aa9a-4fcf-85db-2b5562032b62"
+}
+}
+}
+]
+},
+{
+"date": "2025-01-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.01.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "ded15cb1-5449-4cfa-9990-b8f79d25d41b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-01-15T16:28:41.663",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ded15cb1-5449-4cfa-9990-b8f79d25d41b"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "50b7000f-5cc2-4f51-b549-776c0c4fcb37",
+"reference": "1-1/15-504/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 504 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-09-23",
+"files": [
+{
+"uuid": "d3e4ed36-9e25-4e80-afc4-495aaedb9fbe",
+"fileName": "1-1-15-504-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_504_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-24T14:15:04.193",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d3e4ed36-9e25-4e80-afc4-495aaedb9fbe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d3e4ed36-9e25-4e80-afc4-495aaedb9fbe"
+}
+}
+},
+{
+"uuid": "91d276ee-3eb3-4b51-975c-7c11d950cf13",
+"fileName": "240924_TTOS_RaKS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-24T13:34:52.802",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91d276ee-3eb3-4b51-975c-7c11d950cf13/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91d276ee-3eb3-4b51-975c-7c11d950cf13"
+}
+}
+},
+{
+"uuid": "d16dffff-c04c-4528-85eb-adfc577d17ea",
+"fileName": "TTOS_RaKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T16:01:16.954",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d16dffff-c04c-4528-85eb-adfc577d17ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d16dffff-c04c-4528-85eb-adfc577d17ea"
+}
+}
+},
+{
+"uuid": "534f6926-d51c-44ba-85d1-ee89edb5b247",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T16:10:08.38",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/534f6926-d51c-44ba-85d1-ee89edb5b247/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/534f6926-d51c-44ba-85d1-ee89edb5b247"
+}
+}
+},
+{
+"uuid": "5cf0797e-3571-4046-8c7c-d066563d3fcb",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T16:09:51.879",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5cf0797e-3571-4046-8c7c-d066563d3fcb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5cf0797e-3571-4046-8c7c-d066563d3fcb"
+}
+}
+},
+{
+"uuid": "4545971d-6346-49f2-9941-53118efafee6",
+"fileName": "TTOS_RaKS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T16:01:35.465",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4545971d-6346-49f2-9941-53118efafee6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4545971d-6346-49f2-9941-53118efafee6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/50b7000f-5cc2-4f51-b549-776c0c4fcb37"
+}
+}
+},
+{
+"uuid": "b270ca09-90a1-41db-bec1-3992a40e8a40",
+"reference": "1-1/15-504/2",
+"title": "Vabariigi Valitsuse arvamus töötervishoiu ja tööohutuse seaduse ning ravikindlustuse seaduse muutmise seaduse eelnõu (504 SE)\"",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-29",
+"files": [
+{
+"uuid": "47e83df0-2188-47c9-a204-a49af0bb1244",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0962_-_Töötervishoiu_ja_tööohutuse_seaduse_ning_ravikindlustuse_seaduse_muutmise_seaduse_eelnõu_(504_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-29T15:04:13.323",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/47e83df0-2188-47c9-a204-a49af0bb1244/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/47e83df0-2188-47c9-a204-a49af0bb1244"
+}
+}
+},
+{
+"uuid": "ca6edb55-498a-4f6a-8e87-a07b3732fc44",
+"fileName": "Valitsuse_arvamuse_esitamine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-29T15:04:13.305",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca6edb55-498a-4f6a-8e87-a07b3732fc44/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca6edb55-498a-4f6a-8e87-a07b3732fc44"
+}
+}
+},
+{
+"uuid": "00b0dfb0-e4a6-4ed5-8035-61ba9cf7ac71",
+"fileName": "1.5-1.12411-4_29.10.2024_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-29T15:04:13.213",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/00b0dfb0-e4a6-4ed5-8035-61ba9cf7ac71/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/00b0dfb0-e4a6-4ed5-8035-61ba9cf7ac71"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b270ca09-90a1-41db-bec1-3992a40e8a40"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/6f9f7b8b-2079-45e4-b15e-c6e0673e2a99"
+}
+}
+}

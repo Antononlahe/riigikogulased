@@ -1,0 +1,454 @@
+{
+"uuid": "d2e6a538-6d7d-47dd-9fe4-e20107d86bad",
+"title": "Riigikogu otsus „Riigikogu liikmest Eesti Rahvusringhäälingu nõukogu \nliikme nimetamine\"",
+"mark": 342,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu liikmest Eesti Rahvusringhäälingu nõukogu \nliikme nimetamine\" 342 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu liikmest Eesti Rahvusringhäälingu nõukogu liikme nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu näeb ette nimetada Riigikogu liige Andre Hanimägi Eesti Rahvusringhäälingu nõukogu liikmeks. Tema nimetamise põhjus on nõukogu senise liikme Tõnis Mölderi lahkumine Eesti Keskerakonna fraktsioonist.\nEesti Rahvusringhäälingu nõukogu koosneb Riigikogu liikmetest ja Rahvusringhäälingu tegevusvaldkonna tunnustatud asjatundjatest. Riigikogu nimetab Riigikogu kultuurikomisjoni ettepanekul nõukokku ühe esindaja igast Riigikogu fraktsioonist Riigikogu koosseisu volituste lõppemiseni ning neli Rahvusringhäälingu tegevusvaldkonna tunnustatud asjatundjat, kelle volitused kestavad viis aastat.",
+"initiated": "2023-11-08",
+"joined": null,
+"accepted": "2023-11-14",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "4f816f8e-1501-4940-b87a-af029fcd98c0",
+"name": "Tanel Tein",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4f816f8e-1501-4940-b87a-af029fcd98c0?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2883,
+"text": "ringhääling"
+},
+{
+"edid": 878,
+"text": "avalik asutus"
+},
+{
+"edid": 1154,
+"text": "juhtimine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fca34791-2d11-40d3-ba5f-10cf2a51a550",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "79d8b3b7-561f-472c-8500-10e8c5a365c7",
+"fileName": "OE_I_ERR_NK_liige_08.11.23.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-08T14:06:25.055",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/79d8b3b7-561f-472c-8500-10e8c5a365c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/79d8b3b7-561f-472c-8500-10e8c5a365c7"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4d8bb4ba-0ded-40f5-bb73-4d31a224dfef",
+"title": "342 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e8e1b61f-c32f-47b4-8564-265ba7d04f37",
+"fileName": "342_OE_I_ERR_NK_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-10T08:45:36.152",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8e1b61f-c32f-47b4-8564-265ba7d04f37/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8e1b61f-c32f-47b4-8564-265ba7d04f37"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fca34791-2d11-40d3-ba5f-10cf2a51a550",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c02adbba-438b-4b4e-b04f-aa6094f121ca",
+"fileName": "OE_I_ERR_NK_liige_08.11.23.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-08T14:06:25.08",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c02adbba-438b-4b4e-b04f-aa6094f121ca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c02adbba-438b-4b4e-b04f-aa6094f121ca"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fca34791-2d11-40d3-ba5f-10cf2a51a550",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7fd24743-6a9b-4316-952a-90f37234ed67",
+"fileName": "Esitluskiri_08.11.2023.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-08T14:06:25.11",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7fd24743-6a9b-4316-952a-90f37234ed67/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7fd24743-6a9b-4316-952a-90f37234ed67"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "9782789a-2869-44c1-bfbc-b61047280e4c",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "424398f8-de58-4f54-b1af-41888a935b2b",
+"fileName": "342XV_RK_o_15112023.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-15T11:31:11.1",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/424398f8-de58-4f54-b1af-41888a935b2b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/424398f8-de58-4f54-b1af-41888a935b2b"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "9782789a-2869-44c1-bfbc-b61047280e4c",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f2fcd2be-57c9-4487-ac41-58c602609290",
+"fileName": "342XV_RK_o_15112023.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-15T11:28:59.548",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2fcd2be-57c9-4487-ac41-58c602609290/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2fcd2be-57c9-4487-ac41-58c602609290"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4d8bb4ba-0ded-40f5-bb73-4d31a224dfef",
+"title": "342 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f66db3d2-747f-4bd7-915a-635b2bb16a79",
+"fileName": "342_Seletuskiri_ERR_NK_liige.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-10T08:46:10.167",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f66db3d2-747f-4bd7-915a-635b2bb16a79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f66db3d2-747f-4bd7-915a-635b2bb16a79"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fca34791-2d11-40d3-ba5f-10cf2a51a550",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7889e2a8-5913-42f1-a428-84c8c0720936",
+"fileName": "Seletuskiri_ERR_NK_liige_08.11.23.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-08T14:06:25.095",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7889e2a8-5913-42f1-a428-84c8c0720936/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7889e2a8-5913-42f1-a428-84c8c0720936"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0fff01fa-22c6-4590-b242-75ac14214628",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1a7d8af2-d594-4574-968c-b71da52853f1",
+"fileName": "342XV_RK_o_11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-14T12:50:55.859",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1a7d8af2-d594-4574-968c-b71da52853f1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1a7d8af2-d594-4574-968c-b71da52853f1"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0fff01fa-22c6-4590-b242-75ac14214628",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "86242f00-8948-476c-927d-91203861c67c",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-14T13:01:10.564",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/86242f00-8948-476c-927d-91203861c67c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/86242f00-8948-476c-927d-91203861c67c"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-11-08T14:04:42.281",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-11-09T16:08:00.268",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-11-07T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 7.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-11-14T10:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "1baf3dd7-fec1-425d-aca2-07d19928ea94",
+"fileName": "Protokoll_23_(07.11.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-28T09:36:22.283",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1baf3dd7-fec1-425d-aca2-07d19928ea94/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1baf3dd7-fec1-425d-aca2-07d19928ea94"
+}
+}
+},
+{
+"uuid": "6d52f982-c023-44c6-b942-19b5bf00b68a",
+"fileName": "KULK_protokoll_23_(07.11.23).asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-28T09:37:07.105",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6d52f982-c023-44c6-b942-19b5bf00b68a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6d52f982-c023-44c6-b942-19b5bf00b68a"
+}
+}
+}
+]
+},
+{
+"date": "2023-11-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 14.11.2023 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "4085249e-9afc-479a-baee-9568c8da1990",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-11-14T12:51:27.187",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/4085249e-9afc-479a-baee-9568c8da1990"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2023-11-15T11:28:17.977",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2023-11-16T16:25:44.709",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/d2e6a538-6d7d-47dd-9fe4-e20107d86bad"
+}
+}
+}

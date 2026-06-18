@@ -1,0 +1,493 @@
+{
+"uuid": "9d370cb0-3f74-4a46-8080-23cfdd47dcc0",
+"title": "Kohaliku omavalitsuse korralduse seaduse muutmise seadus",
+"mark": 63,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kohaliku omavalitsuse korralduse seaduse muutmise seadus 63 SE",
+"initialTitle": "Kohaliku omavalitsuse korralduse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on välistada juhtumid, kus kohalikud volikogud hakkavad esimese asjana pärast valimisi arutama ja otsustama oma esimeeste töötasude tõstmist ja ka valitavate linnapeade ning vallavanemate palkade suurendamist samale koosseisule. Ei peeta õigeks, et kohaliku omavalitsuse volikogu arutab ja otsustab enda valitavate volikogu esimeeste, aseesimeeste, linnapeade ja vallavanemate ning -valitsuse liikmete palkade suurendamist. Seetõttu näeb eelnõu ette, et volikogu esimehe ja aseesimehe, samuti linnapea, vallavanema ja palgaliste valitsuse liikmete töötasu ja hüvitist saab suurendada vaid järgmise volikogu koosseisu kohta.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0c571754-914d-406a-baba-6734212353de",
+"name": "Urve Tiidus",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0c571754-914d-406a-baba-6734212353de?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5118,
+"text": "kohaliku ja piirkondliku omavalitsuse esindaja"
+},
+{
+"edid": 3273,
+"text": "töö tasustamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "dde315c3-a6d4-458a-8685-aceb6a1f92b8",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1491d32b-8877-4d01-bfb8-59140e16234d",
+"fileName": "63_KOKS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-17T11:29:59.614",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1491d32b-8877-4d01-bfb8-59140e16234d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1491d32b-8877-4d01-bfb8-59140e16234d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3ec43d54-2f79-4413-99fd-9cf2701f944d",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d11243d5-d4b8-482c-96ad-e9055dcbf24f",
+"fileName": "63_KOKSi_muutmise_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T13:23:43.737",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d11243d5-d4b8-482c-96ad-e9055dcbf24f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d11243d5-d4b8-482c-96ad-e9055dcbf24f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3ec43d54-2f79-4413-99fd-9cf2701f944d",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5b6eebbf-6e41-4aaf-bf1e-bc621095916a",
+"fileName": "63_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:09:47.344",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5b6eebbf-6e41-4aaf-bf1e-bc621095916a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5b6eebbf-6e41-4aaf-bf1e-bc621095916a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "d7a40a26-ca38-4800-b3b7-ced0490711eb",
+"title": "Seletuskiri",
+"documentType": "seletuskiri",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "164fb1e3-f246-42a7-b925-c56a5adbf562",
+"fileName": "63_KOKS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-17T11:30:53.016",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/164fb1e3-f246-42a7-b925-c56a5adbf562/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/164fb1e3-f246-42a7-b925-c56a5adbf562"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3ec43d54-2f79-4413-99fd-9cf2701f944d",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1dd9130b-66a3-4801-9de5-942884e5c586",
+"fileName": "63_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:09:58.764",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1dd9130b-66a3-4801-9de5-942884e5c586/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1dd9130b-66a3-4801-9de5-942884e5c586"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T22:54:43.184",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:36:00.828",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-18T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.09.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-27T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Urve Tiidus"
+}
+],
+"protocolFiles": [
+{
+"uuid": "260c7c42-5be5-4da8-8e3f-da476db50be6",
+"fileName": "PÕSK_protokoll_18.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:54:46.034",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/260c7c42-5be5-4da8-8e3f-da476db50be6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/260c7c42-5be5-4da8-8e3f-da476db50be6"
+}
+}
+},
+{
+"uuid": "28135d5a-c9d8-4338-919f-a5a7f14835ad",
+"fileName": "PÕSK.protokoll.18.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:51:53.828",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/28135d5a-c9d8-4338-919f-a5a7f14835ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/28135d5a-c9d8-4338-919f-a5a7f14835ad"
+}
+}
+}
+]
+},
+{
+"date": "2023-10-25T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 25.10.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "9acde29d-bb1b-4ad5-b116-7c1727e498fd",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-10-25T19:00:07.1",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9acde29d-bb1b-4ad5-b116-7c1727e498fd"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "db000d76-7318-4542-8079-88ec19ebba04",
+"reference": "1-1/15-63/2",
+"title": "Vabariigi Valitsuse arvamus kohaliku omavalitsuse korralduse seaduse muutmise seaduse eelnõu 63 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-20",
+"files": [
+{
+"uuid": "91c576f1-5eb9-4e34-b64e-1e41ac35338a",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0501_-_Kohaliku_omavalitsuse_korralduse_seaduse_muutmise_seaduse_eelnõu_(63_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-20T16:55:49.781",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91c576f1-5eb9-4e34-b64e-1e41ac35338a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91c576f1-5eb9-4e34-b64e-1e41ac35338a"
+}
+}
+},
+{
+"uuid": "e207ee0b-4e0e-4f62-a4ea-1c4912bc55e3",
+"fileName": "1.1-113580-4_20.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-20T16:55:49.72",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e207ee0b-4e0e-4f62-a4ea-1c4912bc55e3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e207ee0b-4e0e-4f62-a4ea-1c4912bc55e3"
+}
+}
+},
+{
+"uuid": "ec3e6080-ba38-4505-8e5d-0ca596600a31",
+"fileName": "Vabariigi_Valitsuse_seisukoht_kohaliku_omavalitsuse_korralduse_seaduse_muutmise_seaduse_eelnõu_(63_SE)_osas.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-20T16:55:49.755",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec3e6080-ba38-4505-8e5d-0ca596600a31/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec3e6080-ba38-4505-8e5d-0ca596600a31"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/db000d76-7318-4542-8079-88ec19ebba04"
+}
+}
+},
+{
+"uuid": "d723828d-1af8-4489-881b-3f24855bba68",
+"reference": "1-1/15-63/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 63 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-10",
+"files": [
+{
+"uuid": "099257fa-a8d1-4f07-b251-c90ab63487b7",
+"fileName": "63_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T15:22:02.199",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/099257fa-a8d1-4f07-b251-c90ab63487b7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/099257fa-a8d1-4f07-b251-c90ab63487b7"
+}
+}
+},
+{
+"uuid": "a2d50fe4-2dfd-43bb-9244-e5bee1d94422",
+"fileName": "1-1-15-63-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_63_SE_kohta.asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T10:32:17.06",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a2d50fe4-2dfd-43bb-9244-e5bee1d94422/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a2d50fe4-2dfd-43bb-9244-e5bee1d94422"
+}
+}
+},
+{
+"uuid": "985c9d1a-a9fe-415a-9e03-e82155907244",
+"fileName": "63_KOKS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T15:22:13.664",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/985c9d1a-a9fe-415a-9e03-e82155907244/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/985c9d1a-a9fe-415a-9e03-e82155907244"
+}
+}
+},
+{
+"uuid": "215cf431-3cf4-40d3-a9f0-198fbc0e58ed",
+"fileName": "63_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T15:21:46.678",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/215cf431-3cf4-40d3-a9f0-198fbc0e58ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/215cf431-3cf4-40d3-a9f0-198fbc0e58ed"
+}
+}
+},
+{
+"uuid": "333de0e3-570b-4700-945c-516f5b5f7ad7",
+"fileName": "63_KOKS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T15:22:34.112",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/333de0e3-570b-4700-945c-516f5b5f7ad7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/333de0e3-570b-4700-945c-516f5b5f7ad7"
+}
+}
+},
+{
+"uuid": "f723ce9b-2fed-4058-9f8b-e28d45e81846",
+"fileName": "230512_KOKS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T10:31:18.791",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f723ce9b-2fed-4058-9f8b-e28d45e81846/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f723ce9b-2fed-4058-9f8b-e28d45e81846"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d723828d-1af8-4489-881b-3f24855bba68"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9d370cb0-3f74-4a46-8080-23cfdd47dcc0"
+}
+}
+}

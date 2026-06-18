@@ -1,0 +1,491 @@
+{
+"uuid": "d26217bd-def2-4219-8979-e9c2cf4f1d9c",
+"title": "Riigikogu otsus „Põhja-Atlandi Lepingu Organisatsiooni Parlamentaarse Assamblee Eesti delegatsiooni moodustamine\"",
+"mark": 157,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Põhja-Atlandi Lepingu Organisatsiooni Parlamentaarse Assamblee Eesti delegatsiooni moodustamine\" 157 OE",
+"initialTitle": "Riigikogu otsus „Põhja-Atlandi Lepingu Organisatsiooni Parlamentaarse Assamblee Eesti delegatsiooni moodustamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": "2023-05-12",
+"joined": null,
+"accepted": "2023-05-25",
+"amendmentsDeadline": "2023-05-19T15:00:00",
+"responsibleMember": {
+"uuid": "65b1d8bb-7f45-48f5-b4aa-7ba4ca459824",
+"name": "Henn Põlluaas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/65b1d8bb-7f45-48f5-b4aa-7ba4ca459824?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad",
+"name": "Ivar Mölder",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2199,
+"text": "NATO"
+},
+{
+"edid": 5449,
+"text": "parlamentaarne assamblee"
+},
+{
+"edid": 3040,
+"text": "parlamendidelegatsioon"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924a79a7-e7b4-490c-923f-e5e271404449",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d9428924-8c4b-4e3c-922b-359b59947a12",
+"fileName": "Riigikogu_otsuse_Põhja-Atlandi_Lepingu_Organisatsiooni_Parlamentaarse_Assamblee_Eesti_delegatsiooni_moodustamine_eelnõu_esitamine.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T15:47:13.007",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9428924-8c4b-4e3c-922b-359b59947a12/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9428924-8c4b-4e3c-922b-359b59947a12"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "50c0a2bd-11f3-457c-a22b-6c14c466e02b",
+"title": "157 OE I lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9dd49089-d9fa-4254-bc52-f04c170a7a89",
+"fileName": "157_OE_NATO_PA_delegatsiooni_moodustamine_(algtekst).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T16:19:55.865",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9dd49089-d9fa-4254-bc52-f04c170a7a89/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9dd49089-d9fa-4254-bc52-f04c170a7a89"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924a79a7-e7b4-490c-923f-e5e271404449",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "efdb2d35-2836-49f6-9f95-ef0d1c696282",
+"fileName": "OE_NATO_PA_delegatsiooni_moodustamine_(algtekst).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T15:47:29.565",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/efdb2d35-2836-49f6-9f95-ef0d1c696282/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/efdb2d35-2836-49f6-9f95-ef0d1c696282"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "0671d242-7b1c-4f6e-822b-4f7aa8d21223",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9dcd3ea6-f17a-4f76-9da0-f2f0ad7eb233",
+"fileName": "157XV_RK_o_29052023.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-29T13:42:12.279",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9dcd3ea6-f17a-4f76-9da0-f2f0ad7eb233/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9dcd3ea6-f17a-4f76-9da0-f2f0ad7eb233"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "0671d242-7b1c-4f6e-822b-4f7aa8d21223",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6de2ebb1-10c4-404c-acc0-fc55e11030be",
+"fileName": "157XV_RK_o_29052023.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-29T13:41:46.575",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6de2ebb1-10c4-404c-acc0-fc55e11030be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6de2ebb1-10c4-404c-acc0-fc55e11030be"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "50c0a2bd-11f3-457c-a22b-6c14c466e02b",
+"title": "157 OE I lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "786c12c8-079d-463d-a7f6-e332920863f6",
+"fileName": "157_OE_NATO_PA_delegatsiooni_moodustamine_(seletuskiri).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T16:20:22.996",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/786c12c8-079d-463d-a7f6-e332920863f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/786c12c8-079d-463d-a7f6-e332920863f6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "924a79a7-e7b4-490c-923f-e5e271404449",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "22fee727-66b1-41a1-988d-68a9d29627fc",
+"fileName": "OE_NATO_PA_delegatsiooni_moodustamine_(seletuskiri).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T15:47:29.548",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22fee727-66b1-41a1-988d-68a9d29627fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22fee727-66b1-41a1-988d-68a9d29627fc"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7442514f-e044-4b53-9d08-86b53f79c16e",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "44baa2f1-abbf-4e1a-b21a-e5c008ef1ff8",
+"fileName": "157XV_RK_o_05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T10:13:54.687",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/44baa2f1-abbf-4e1a-b21a-e5c008ef1ff8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/44baa2f1-abbf-4e1a-b21a-e5c008ef1ff8"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7442514f-e044-4b53-9d08-86b53f79c16e",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c04f1542-e36b-4df5-82aa-b11240825c6d",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T10:36:34.312",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c04f1542-e36b-4df5-82aa-b11240825c6d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c04f1542-e36b-4df5-82aa-b11240825c6d"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-12T15:46:37.327",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T20:37:00.089",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-05-11T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 11.05.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"description": "juhul kui Riigikogu juhatus määrab juhtivkomisjoniks väliskomisjoni",
+"plenaryAgendaDateTime": "2023-05-25T10:00:00"
+},
+{
+"decision": {
+"code": "TOETADA",
+"value": "Toetada"
+},
+"description": "fraktsioonide ettepanekuid NATO PA Eesti delegatsiooni muutmiseks"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Teha Riigikogu juhatusele ettepanek määrata eelnõule muudatusettepanekute esitamise tähtajaks reede, 19. mai kell 15.00"
+},
+{
+"decision": {
+"code": "KINNITADA_DOKUMENDID",
+"value": "Kinnitada"
+},
+"description": "eelnõu tekst ja seletuskiri ning esitada eelnõu täiskogule"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Henn Põlluaas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "d52fa525-6709-42ae-80a2-3c84bdabd2f8",
+"fileName": "VÄLK_protokoll_11.05.2023_nr_7.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-26T13:16:21.279",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d52fa525-6709-42ae-80a2-3c84bdabd2f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d52fa525-6709-42ae-80a2-3c84bdabd2f8"
+}
+}
+},
+{
+"uuid": "8b812873-1883-464e-9fc9-cf00d53de70d",
+"fileName": "VÄLK_protokoll_11.05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-26T13:15:44.199",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b812873-1883-464e-9fc9-cf00d53de70d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b812873-1883-464e-9fc9-cf00d53de70d"
+}
+}
+}
+]
+},
+{
+"date": "2023-05-22T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 22.05.2023 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "678ac3d4-59df-4f1e-9f23-7bba4ab14074",
+"fileName": "VÄLK_protokoll_22.05.2023_nr_13.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-31T15:22:12.721",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/678ac3d4-59df-4f1e-9f23-7bba4ab14074/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/678ac3d4-59df-4f1e-9f23-7bba4ab14074"
+}
+}
+},
+{
+"uuid": "210355de-2c0f-42c1-98f6-47614b7d1da4",
+"fileName": "VÄLK_protokoll_22.05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-31T15:16:25.332",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/210355de-2c0f-42c1-98f6-47614b7d1da4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/210355de-2c0f-42c1-98f6-47614b7d1da4"
+}
+}
+}
+]
+},
+{
+"date": "2023-05-25T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 25.05.2023 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "b95c3c13-0a4e-4be4-a13d-ea37a1f7a74f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-05-25T10:08:35.607",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b95c3c13-0a4e-4be4-a13d-ea37a1f7a74f"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2023-05-29T13:41:25.141",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2023-05-30T08:48:17.935",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/d26217bd-def2-4219-8979-e9c2cf4f1d9c"
+}
+}
+}

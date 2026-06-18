@@ -1,0 +1,552 @@
+{
+"uuid": "3213cc07-a9cb-4f13-8a17-4434dc51f497",
+"title": "Maamaksuseadus",
+"mark": 582,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Maamaksuseadus 582 SE",
+"initialTitle": "Maamaksuseadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on maamaksutõusu regulatsiooni tagasipööramine. Eelnõuga soovitakse kehtestada maamaksuseaduse suuresti 1. jaanuaril 2024. aastal kehtinud redaktsioon koos tollal kehtinud maksumääradega ja maksusoodustustega.",
+"initiated": "2025-02-19",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2813,
+"text": "maaomand"
+},
+{
+"edid": 1314,
+"text": "omandimaks"
+},
+{
+"edid": 365,
+"text": "maksuvähendus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "14fd1452-f7c9-415c-8c66-91ef6dcc061f",
+"title": "582 SE I.lug tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9160b474-6790-45ff-ba23-6052cc31d799",
+"fileName": "582_MaaMS_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-09T10:06:48.461",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9160b474-6790-45ff-ba23-6052cc31d799/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9160b474-6790-45ff-ba23-6052cc31d799"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5eba56e6-eaaa-4761-ab26-295bebadaf66",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "22313c75-84ec-4716-a709-bbe06b830bbb",
+"fileName": "Maamaksuseadus_Isamaa_(19.02.2025).doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T14:08:46.545",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22313c75-84ec-4716-a709-bbe06b830bbb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22313c75-84ec-4716-a709-bbe06b830bbb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5eba56e6-eaaa-4761-ab26-295bebadaf66",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2b25be62-b64e-4d58-8371-51510db5c36b",
+"fileName": "582E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T15:13:55.219",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b25be62-b64e-4d58-8371-51510db5c36b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b25be62-b64e-4d58-8371-51510db5c36b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "14fd1452-f7c9-415c-8c66-91ef6dcc061f",
+"title": "582 SE I.lug tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2bfad68f-5e83-456f-81fd-2596276d7760",
+"fileName": "582_MaaMS_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-09T10:07:14.602",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2bfad68f-5e83-456f-81fd-2596276d7760/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2bfad68f-5e83-456f-81fd-2596276d7760"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5eba56e6-eaaa-4761-ab26-295bebadaf66",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f2b46a27-f0de-4dec-bde5-22d5a5353272",
+"fileName": "582SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T15:14:08.335",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2b46a27-f0de-4dec-bde5-22d5a5353272/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2b46a27-f0de-4dec-bde5-22d5a5353272"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-02-19T14:08:17.173",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-02-20T20:55:00.182",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-03-19T08:00:00",
+"sittingTitle": "Komisjoni erakorraline istung kolmapäev, 19.03.2025 kell 08.00",
+"committeeDecisions": [],
+"protocolFiles": []
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-04-08T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 8.04.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-04-15T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni esimees Annely Akkermann"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "861ef167-c572-409a-8058-9318c47037bc",
+"fileName": "RAHK_protokoll_08.04.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T07:47:18.953",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/861ef167-c572-409a-8058-9318c47037bc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/861ef167-c572-409a-8058-9318c47037bc"
+}
+}
+},
+{
+"uuid": "80e50ba5-65b5-4650-a8b2-ede5c651860c",
+"fileName": "RAHK_protokoll_146_08.04.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T07:46:12.023",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/80e50ba5-65b5-4650-a8b2-ede5c651860c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/80e50ba5-65b5-4650-a8b2-ede5c651860c"
+}
+}
+},
+{
+"uuid": "d284dda5-efa4-47cd-9299-4c2e8165bddb",
+"fileName": "Asendusliikme_volikir_A._Sõerd-A.Seeme_08.04.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri 3",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-09T11:08:18.266",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d284dda5-efa4-47cd-9299-4c2e8165bddb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d284dda5-efa4-47cd-9299-4c2e8165bddb"
+}
+}
+},
+{
+"uuid": "c3b6f3a1-a4a3-4674-a868-3e9e767a6319",
+"fileName": "Asendusliikme_volikir_A.Korobeinik.L.Laats_08.04.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-09T11:08:06.051",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3b6f3a1-a4a3-4674-a868-3e9e767a6319/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3b6f3a1-a4a3-4674-a868-3e9e767a6319"
+}
+}
+},
+{
+"uuid": "f3fd5d23-4050-45fa-8c3a-dd2797e1bb7b",
+"fileName": "Asendusliikme_volikiri_M.Helme-R.Epler_08.04.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-09T11:07:24.573",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3fd5d23-4050-45fa-8c3a-dd2797e1bb7b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3fd5d23-4050-45fa-8c3a-dd2797e1bb7b"
+}
+}
+}
+]
+},
+{
+"date": "2025-04-16T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 16.04.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "dd35bd83-2e9f-4e86-a604-90eaa4baf8d9",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-04-16T17:36:27.13",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/dd35bd83-2e9f-4e86-a604-90eaa4baf8d9"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "5dc44e5a-5466-445a-b10f-829b97443720",
+"reference": "1-1/15-582/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 582 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-02-19",
+"files": [
+{
+"uuid": "34ca8ef1-20ae-43da-9a63-8aab599230db",
+"fileName": "250220_MaaMS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T15:26:52.165",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34ca8ef1-20ae-43da-9a63-8aab599230db/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34ca8ef1-20ae-43da-9a63-8aab599230db"
+}
+}
+},
+{
+"uuid": "eee7915a-26a1-4446-b29d-f6409c670222",
+"fileName": "MaaMS_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T14:13:18.696",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eee7915a-26a1-4446-b29d-f6409c670222/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eee7915a-26a1-4446-b29d-f6409c670222"
+}
+}
+},
+{
+"uuid": "f20262a0-3d7c-4a22-8425-f484140cee2a",
+"fileName": "582E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T15:14:56.522",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f20262a0-3d7c-4a22-8425-f484140cee2a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f20262a0-3d7c-4a22-8425-f484140cee2a"
+}
+}
+},
+{
+"uuid": "72e69fd9-1264-433e-8873-e2a5d08d0d04",
+"fileName": "582SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T15:15:15.842",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/72e69fd9-1264-433e-8873-e2a5d08d0d04/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/72e69fd9-1264-433e-8873-e2a5d08d0d04"
+}
+}
+},
+{
+"uuid": "a508307a-c97f-4927-a3c9-6a0022d0bc46",
+"fileName": "1-1-15-582-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_582_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-20T15:43:28.419",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a508307a-c97f-4927-a3c9-6a0022d0bc46/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a508307a-c97f-4927-a3c9-6a0022d0bc46"
+}
+}
+},
+{
+"uuid": "a83489d5-923e-4b8c-b200-ed3e7ed35d0d",
+"fileName": "MaaMS_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T14:13:07.911",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a83489d5-923e-4b8c-b200-ed3e7ed35d0d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a83489d5-923e-4b8c-b200-ed3e7ed35d0d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5dc44e5a-5466-445a-b10f-829b97443720"
+}
+}
+},
+{
+"uuid": "94fdf208-e12b-4c3c-a142-ea523cb7cc4a",
+"reference": "1-1/15-582/2",
+"title": "Vabariigi Valitsuse arvamus maamaksuseaduse eelnõu 582 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-03-26",
+"files": [
+{
+"uuid": "5e891071-a3e2-4ab0-9104-2b4212dbcd6f",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0204_-_Maamaksuseaduse_eelnõu_(582_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-26T13:59:26.441",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5e891071-a3e2-4ab0-9104-2b4212dbcd6f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5e891071-a3e2-4ab0-9104-2b4212dbcd6f"
+}
+}
+},
+{
+"uuid": "894edba1-9346-4171-ab9b-62c244b6a760",
+"fileName": "VV_seisukoht_582_SE_le.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-26T13:59:26.428",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/894edba1-9346-4171-ab9b-62c244b6a760/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/894edba1-9346-4171-ab9b-62c244b6a760"
+}
+}
+},
+{
+"uuid": "51b437f4-08e7-4643-831b-05e969da6ca4",
+"fileName": "VV_seisukoht_582_SE-le.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-26T13:59:26.365",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/51b437f4-08e7-4643-831b-05e969da6ca4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/51b437f4-08e7-4643-831b-05e969da6ca4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/94fdf208-e12b-4c3c-a142-ea523cb7cc4a"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/3213cc07-a9cb-4f13-8a17-4434dc51f497"
+}
+}
+}

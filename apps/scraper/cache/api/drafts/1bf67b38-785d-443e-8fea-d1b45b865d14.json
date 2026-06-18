@@ -1,0 +1,355 @@
+{
+"uuid": "1bf67b38-785d-443e-8fea-d1b45b865d14",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele taastada noorte koolispordi toetus\"",
+"mark": 405,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele taastada noorte koolispordi toetus\" 405 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele taastada noorte koolispordi toetus\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek töötada välja koolispordi toetuse taastamine.",
+"initiated": "2024-04-02",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2024-04-16T17:15:00",
+"responsibleMember": {
+"uuid": "4f816f8e-1501-4940-b87a-af029fcd98c0",
+"name": "Tanel Tein",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4f816f8e-1501-4940-b87a-af029fcd98c0?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 716,
+"text": "õpilane"
+},
+{
+"edid": 4245,
+"text": "sport"
+},
+{
+"edid": 1014,
+"text": "riiklik rahastamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e178bc6d-fb13-4a4f-82af-7a2099852fb2",
+"title": "405 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "62ed1654-f935-43a8-9b2b-5020e1285d3d",
+"fileName": "405_RK_o_Koolisporditoetus_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T16:06:59.309",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62ed1654-f935-43a8-9b2b-5020e1285d3d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62ed1654-f935-43a8-9b2b-5020e1285d3d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93d66267-e1d9-4204-b1c1-66171a773964",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "78fe972b-e120-4a65-9367-8c7e701db696",
+"fileName": "KoolisporditoetusOE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T10:35:06.556",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78fe972b-e120-4a65-9367-8c7e701db696/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78fe972b-e120-4a65-9367-8c7e701db696"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93d66267-e1d9-4204-b1c1-66171a773964",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "251d979f-d776-4de7-a9c4-4040b51c6690",
+"fileName": "405_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:16:13.458",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/251d979f-d776-4de7-a9c4-4040b51c6690/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/251d979f-d776-4de7-a9c4-4040b51c6690"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e178bc6d-fb13-4a4f-82af-7a2099852fb2",
+"title": "405 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f8a4c79c-c8c9-45d9-889f-33eaea2669e2",
+"fileName": "405_RK_o_Koolisporditoetus_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T16:07:25.292",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f8a4c79c-c8c9-45d9-889f-33eaea2669e2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f8a4c79c-c8c9-45d9-889f-33eaea2669e2"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93d66267-e1d9-4204-b1c1-66171a773964",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0f2398bb-b8ba-41b4-a991-20ba8a2d5be1",
+"fileName": "405_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:16:26.828",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0f2398bb-b8ba-41b4-a991-20ba8a2d5be1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0f2398bb-b8ba-41b4-a991-20ba8a2d5be1"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-02T10:34:42.814",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-02T13:48:00.832",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-07T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 7.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-14T10:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Tanel Tein"
+}
+],
+"protocolFiles": [
+{
+"uuid": "832d7ac8-22aa-42bf-ab7c-ed8a78bd37bd",
+"fileName": "KULK_protokoll_nr_55.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:54:12.894",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/832d7ac8-22aa-42bf-ab7c-ed8a78bd37bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/832d7ac8-22aa-42bf-ab7c-ed8a78bd37bd"
+}
+}
+},
+{
+"uuid": "f75557c9-b524-4da6-97f3-2cfc3f281e10",
+"fileName": "Protokoll_55_(07.05.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:53:27.71",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f75557c9-b524-4da6-97f3-2cfc3f281e10/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f75557c9-b524-4da6-97f3-2cfc3f281e10"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-29T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 29.05.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "82e34eb1-64c4-45ae-9c81-4056ae7171d3",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-29T21:18:45.557",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/82e34eb1-64c4-45ae-9c81-4056ae7171d3"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "90cd9df4-bf94-4ed2-a1bb-d0ed8ab78f70",
+"reference": "1-1/15-405/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele taastada noorte koolispordi toetus\" eelnõu 405 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-08",
+"files": [
+{
+"uuid": "1fdd6e83-d6d9-44a9-bc2e-0a5d7fef6e82",
+"fileName": "138.1_tel_Eelnõu_405_OE_häältenamus_2024_04_08.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T10:07:34.95",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1fdd6e83-d6d9-44a9-bc2e-0a5d7fef6e82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1fdd6e83-d6d9-44a9-bc2e-0a5d7fef6e82"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/90cd9df4-bf94-4ed2-a1bb-d0ed8ab78f70"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/1bf67b38-785d-443e-8fea-d1b45b865d14"
+}
+}
+}

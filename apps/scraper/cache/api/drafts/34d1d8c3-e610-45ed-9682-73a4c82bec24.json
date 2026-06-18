@@ -1,0 +1,519 @@
+{
+"uuid": "34d1d8c3-e610-45ed-9682-73a4c82bec24",
+"title": "Rahvahääletuse seaduse muutmise seadus",
+"mark": 86,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Rahvahääletuse seaduse muutmise seadus 86 SE",
+"initialTitle": "Rahvahääletuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Rahvahääletuse seaduse muutmise seaduse eelnõuga tunnistatakse kehtetuks rahvahääletuste läbiviimisel e-hääletamise võimalus.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0f9372ee-f108-47f9-9192-82ff84cf3efb",
+"name": "Timo Suslov",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0f9372ee-f108-47f9-9192-82ff84cf3efb?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "b5e0d7fe-b784-4057-bf7e-cc3f1873887d",
+"name": "Varro Vooglaid",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/b5e0d7fe-b784-4057-bf7e-cc3f1873887d?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2966,
+"text": "rahvahääletus"
+},
+{
+"edid": 8559,
+"text": "e-hääletamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "397e370f-c566-4c61-961c-8638883771dc",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "667443ed-ad7d-4355-98fd-49c82c4b1cb7",
+"fileName": "86_EELNÕU_RaHS.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T18:28:27.544",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/667443ed-ad7d-4355-98fd-49c82c4b1cb7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/667443ed-ad7d-4355-98fd-49c82c4b1cb7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0148367b-3991-4b6f-91b6-6253be690c27",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5a640b68-620b-47b4-99fd-0befd8d9ff63",
+"fileName": "86_EELNÕU_RaHS.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T16:37:07.662",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5a640b68-620b-47b4-99fd-0befd8d9ff63/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5a640b68-620b-47b4-99fd-0befd8d9ff63"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0148367b-3991-4b6f-91b6-6253be690c27",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c9a6016c-de41-41fd-a738-0a55f4dab0dc",
+"fileName": "86_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:38:56.005",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c9a6016c-de41-41fd-a738-0a55f4dab0dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c9a6016c-de41-41fd-a738-0a55f4dab0dc"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "397e370f-c566-4c61-961c-8638883771dc",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "80d2dd25-6d93-46ca-93ea-6ddd975835e6",
+"fileName": "86_SELETUSKIRI_RaHS.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T18:29:07.638",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/80d2dd25-6d93-46ca-93ea-6ddd975835e6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/80d2dd25-6d93-46ca-93ea-6ddd975835e6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0148367b-3991-4b6f-91b6-6253be690c27",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1b7542d8-02de-4634-8055-124ab1f7557a",
+"fileName": "86_SELETUSKIRI_RaHS.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T16:37:26.991",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b7542d8-02de-4634-8055-124ab1f7557a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b7542d8-02de-4634-8055-124ab1f7557a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0148367b-3991-4b6f-91b6-6253be690c27",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7e309755-8b5b-4154-be6c-4333e418c0d4",
+"fileName": "86_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:39:06.932",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e309755-8b5b-4154-be6c-4333e418c0d4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e309755-8b5b-4154-be6c-4333e418c0d4"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T23:58:57.647",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:54:00.123",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-20T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige TImo Suslov"
+}
+],
+"protocolFiles": [
+{
+"uuid": "17e8b93b-fbfb-40b3-bdc7-7afd15f63ac9",
+"fileName": "PÕSK_protokoll_12.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T15:27:36.774",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17e8b93b-fbfb-40b3-bdc7-7afd15f63ac9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17e8b93b-fbfb-40b3-bdc7-7afd15f63ac9"
+}
+}
+},
+{
+"uuid": "3927cc59-60f5-4fc1-ab9b-81439762f6b0",
+"fileName": "PÕSK.protokoll.12.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T10:39:27.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3927cc59-60f5-4fc1-ab9b-81439762f6b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3927cc59-60f5-4fc1-ab9b-81439762f6b0"
+}
+}
+}
+]
+},
+{
+"date": "2023-12-20T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 20.12.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "609faed2-c18d-4d56-9db6-a77d38d7f34b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-12-20T18:19:27.98",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/609faed2-c18d-4d56-9db6-a77d38d7f34b"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "cf5dc8ec-c396-4838-8d32-f7fe335e8215",
+"reference": "1-1/15-86/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 86 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-13",
+"files": [
+{
+"uuid": "c915bfb7-15e5-4e55-bf12-b71f2e175f4b",
+"fileName": "86_EELNÕU_RaHS.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T16:38:53.08",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c915bfb7-15e5-4e55-bf12-b71f2e175f4b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c915bfb7-15e5-4e55-bf12-b71f2e175f4b"
+}
+}
+},
+{
+"uuid": "61c77e83-25e6-4909-a2fe-b9bb79fe6549",
+"fileName": "86_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T16:39:32.021",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/61c77e83-25e6-4909-a2fe-b9bb79fe6549/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/61c77e83-25e6-4909-a2fe-b9bb79fe6549"
+}
+}
+},
+{
+"uuid": "6324ad55-b454-4c46-a35b-b91fd6d27f9e",
+"fileName": "1-1-15-86-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_86_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T19:50:44.434",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6324ad55-b454-4c46-a35b-b91fd6d27f9e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6324ad55-b454-4c46-a35b-b91fd6d27f9e"
+}
+}
+},
+{
+"uuid": "8c23e026-a75e-4520-a837-82e63de8b496",
+"fileName": "86_SELETUSKIRI_RaHS.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T16:39:05.06",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8c23e026-a75e-4520-a837-82e63de8b496/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8c23e026-a75e-4520-a837-82e63de8b496"
+}
+}
+},
+{
+"uuid": "b4cbb80a-cb6d-41ad-88cb-6f4c6c22cc98",
+"fileName": "230513_RaHS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T19:50:23.309",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4cbb80a-cb6d-41ad-88cb-6f4c6c22cc98/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4cbb80a-cb6d-41ad-88cb-6f4c6c22cc98"
+}
+}
+},
+{
+"uuid": "c4be4d0a-651c-433e-b14a-3a980379b075",
+"fileName": "86_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T16:39:16.664",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c4be4d0a-651c-433e-b14a-3a980379b075/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c4be4d0a-651c-433e-b14a-3a980379b075"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cf5dc8ec-c396-4838-8d32-f7fe335e8215"
+}
+}
+},
+{
+"uuid": "13afe03b-d78a-4eec-89e7-98e84164de03",
+"reference": "1-1/15-86/2",
+"title": "Vabariigi Valitsuse arvamus rahvahääletuse seaduse muutmise seaduse eelnõu 86 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-26",
+"files": [
+{
+"uuid": "4ec082be-dd44-4b5e-a286-c945c185a09e",
+"fileName": "Vabariigi_Valitsuse_seisukoha_edastamine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-26T11:50:06.954",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ec082be-dd44-4b5e-a286-c945c185a09e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ec082be-dd44-4b5e-a286-c945c185a09e"
+}
+}
+},
+{
+"uuid": "bc3755b6-700a-439a-ae6a-ec04ff5744f1",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0507_-_Rahvahääletuse_seaduse_muutmise_seaduse_eelnõu_(86_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-26T11:50:06.976",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc3755b6-700a-439a-ae6a-ec04ff5744f1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc3755b6-700a-439a-ae6a-ec04ff5744f1"
+}
+}
+},
+{
+"uuid": "1d9a758a-2ea5-4777-a1df-eb420c7a3417",
+"fileName": "8-23569_24.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-26T11:50:06.923",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d9a758a-2ea5-4777-a1df-eb420c7a3417/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d9a758a-2ea5-4777-a1df-eb420c7a3417"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/13afe03b-d78a-4eec-89e7-98e84164de03"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/34d1d8c3-e610-45ed-9682-73a4c82bec24"
+}
+}
+}

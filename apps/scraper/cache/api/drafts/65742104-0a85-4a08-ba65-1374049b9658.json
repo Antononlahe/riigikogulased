@@ -1,0 +1,2117 @@
+{
+"uuid": "65742104-0a85-4a08-ba65-1374049b9658",
+"title": "Krediidiinkassode ja -ostjate seadus",
+"mark": 376,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Krediidiinkassode ja -ostjate seadus 376 SE",
+"initialTitle": "Krediidiinkassode ja -ostjate seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu reguleerib inkassofirmade ja nendega seotud isikute, võlgade ülesostmise finantseerijate, tegevust, samuti võetakse inkassofirmade tegevus Finantsinspektsiooni kontrolli alla.\nEestis tegelevad inkassofirmad erinevat liiki võlgade sissenõudmisega ja/või ka nende nõuete ülesostmisega. Eelnõu reguleerimisalasse ei kuulu aga siiski mitte kõik inkassofirmad, vaid üksnes need, kes tegelevad pankade või teiste krediidiandjate laenudest tulenevate võlgade sissenõudmisega või nende ülesostmisega. Muuhulgas kohaldub eelnõu lisaks tarbijakrediidile ka ettevõtjatele antud pangalaenudest tekkinud võlgnevustega seotud tegevustele. Seepärast määratleb nii eelnõu pealkiri kui eelnõu sisu inkassofirmad ning nendega seotud isikud krediidiinkassodena.\nTeadaolevalt tegelevad aga enamik Eestis asutatud ja tegutsevad inkassofirmad krediidilepingutest tulenevate võlgnevuste sissenõudmisega ja seega võiks eeldada, et seadus hakkab edaspidi kohalduma suuremale osale Eesti inkassoturust. Siiski kui mõni inkassofirma tegeleb näiteks üksnes trahvide või elatisvõlgnevuste sissenõudmisega, siis eelnõu sellise inkassofirma suhtes ei kohaldu. Hinnanguliselt kohalduks eelnõu ca 7 – 8 Eestis tegutsevale inkassofirmale.\nEelnõu kohaselt tuleb inkassofirmadel taotleda finantsinspektsioonilt tegevusluba, samuti antakse finantsinspektsioonile volitus teha järelevalvet krediidiinkassode üle, sh erinevad sanktsioneerimisvõimalused (alates ettekirjutusest kuni väärteomenetluseni). Nähakse ette minimaalne kapitalinõue 25 000 eurot ja eraldi reeglid, kuidas krediidiinkasso peab nö võlglastelt laekunud vahendeid hoidma.\nSamuti nähakse ette usaldusväärsuse nõuded krediidiinkassode juhtidele ja omanikele, nt nõue, et krediidiinkasso juhiks ei saa olla isik, kes on varasemalt tegelenud liigkasuvõtmisega.",
+"initiated": "2024-02-12",
+"joined": null,
+"accepted": "2024-06-12",
+"amendmentsDeadline": "2024-04-23T17:15:00",
+"responsibleMember": {
+"uuid": "728f88bc-4a7f-483e-bf9f-d0a2751566fd",
+"name": "Eduard Odinets",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/728f88bc-4a7f-483e-bf9f-d0a2751566fd?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "2c5ed7f2-f3ac-4443-b962-170130e04c78",
+"name": "Linnar Liivamägi",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/2c5ed7f2-f3ac-4443-b962-170130e04c78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 285,
+"text": "krediit"
+},
+{
+"edid": 3246,
+"text": "krediidiasutus"
+},
+{
+"edid": 3942,
+"text": "maksevõime"
+},
+{
+"edid": 454869,
+"text": "finantsjärelevalve"
+},
+{
+"edid": 5582,
+"text": "võlg"
+},
+{
+"edid": 2836,
+"text": "tarbijakaitse"
+},
+{
+"edid": 2495,
+"text": "krediidipoliitika"
+},
+{
+"edid": 454788,
+"text": "väärtegu"
+},
+{
+"edid": 1549,
+"text": "trahv"
+},
+{
+"edid": 2247,
+"text": "liidu õiguse riigisisene rakendamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "47264d1d-4326-4d47-832c-c5bb7df0fc53",
+"fileName": "RK_24-00220-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.527",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/47264d1d-4326-4d47-832c-c5bb7df0fc53/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/47264d1d-4326-4d47-832c-c5bb7df0fc53"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "17efe0f9-e0f7-498a-8963-be551ed5ce11",
+"fileName": "[EIS]_Eelnõu_esitamine__RAM-23-0861_-_Krediidiinkassode_ja_-ostjate_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.911",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17efe0f9-e0f7-498a-8963-be551ed5ce11/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17efe0f9-e0f7-498a-8963-be551ed5ce11"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "d96ccd3e-0e51-441f-bfb6-8ff25d1077c7",
+"title": "Krediidiinkassode ja -ostjate seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "95145e0c-45de-4ee4-8ba3-ac00c29d53f8",
+"fileName": "376_SE_III_SAALITEKST_(toimetatud).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-06T09:05:18.27",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/95145e0c-45de-4ee4-8ba3-ac00c29d53f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/95145e0c-45de-4ee4-8ba3-ac00c29d53f8"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "d1efa5a9-429c-4aa0-8ff5-b0b82756ea9d",
+"title": "Krediidiinkassode ja -ostjate seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bb61fe37-156d-4354-b600-853de2202b43",
+"fileName": "376_SE_II_SAALITEKST_(toimetatud_lõplik_).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-31T14:22:34.217",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bb61fe37-156d-4354-b600-853de2202b43/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bb61fe37-156d-4354-b600-853de2202b43"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2346f384-efcf-4c71-9970-a2bd62a0fce8",
+"title": "Krediidiinkassode ja -ostjate seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "69bdc9b9-1a7b-41f2-9f42-6a9086a6c706",
+"fileName": "376_Seaduseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T12:42:57.939",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/69bdc9b9-1a7b-41f2-9f42-6a9086a6c706/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/69bdc9b9-1a7b-41f2-9f42-6a9086a6c706"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4ad10f0c-d80c-490b-9c82-7d1fe6ebb315",
+"fileName": "Seaduseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.732",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ad10f0c-d80c-490b-9c82-7d1fe6ebb315/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ad10f0c-d80c-490b-9c82-7d1fe6ebb315"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "40465f9c-aab1-47c6-adb1-2c2049ca6130",
+"fileName": "Seaduseelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.811",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/40465f9c-aab1-47c6-adb1-2c2049ca6130/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/40465f9c-aab1-47c6-adb1-2c2049ca6130"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f1875362-e46c-436f-9f03-82c65e24e34a",
+"fileName": "24-00220-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.716",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f1875362-e46c-436f-9f03-82c65e24e34a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f1875362-e46c-436f-9f03-82c65e24e34a"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "74e40e24-6363-4dc6-85eb-a8849691ec19",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bd14a6c4-d381-4818-842e-92c31281d130",
+"fileName": "376_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-13T09:13:06.971",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bd14a6c4-d381-4818-842e-92c31281d130/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bd14a6c4-d381-4818-842e-92c31281d130"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "b1f02bfb-0f12-4c72-80d6-b4bff12d4177",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a5b7e1c5-d842-48be-991c-82508c1282b1",
+"fileName": "376XV_Krediidiink_s_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-25T14:56:58.814",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a5b7e1c5-d842-48be-991c-82508c1282b1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a5b7e1c5-d842-48be-991c-82508c1282b1"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "b1f02bfb-0f12-4c72-80d6-b4bff12d4177",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "aaae5724-2e9f-496a-a367-73735bd1f620",
+"fileName": "376XV_Krediidiink_s_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-25T14:56:38.246",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aaae5724-2e9f-496a-a367-73735bd1f620/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aaae5724-2e9f-496a-a367-73735bd1f620"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "b1f02bfb-0f12-4c72-80d6-b4bff12d4177",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dc52cf4e-f06c-4143-ad0f-0f6162df0280",
+"fileName": "376XV_Krediidiink_s_2024_(1).docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst parandatud",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-28T13:12:53.76",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dc52cf4e-f06c-4143-ad0f-0f6162df0280/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dc52cf4e-f06c-4143-ad0f-0f6162df0280"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "b1f02bfb-0f12-4c72-80d6-b4bff12d4177",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "67d383f4-e651-47c5-813d-46de099602ff",
+"fileName": "376XV_Krediidiink_s_2024_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst parandatud asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-28T13:12:29.99",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67d383f4-e651-47c5-813d-46de099602ff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67d383f4-e651-47c5-813d-46de099602ff"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "d1efa5a9-429c-4aa0-8ff5-b0b82756ea9d",
+"title": "Krediidiinkassode ja -ostjate seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dc0bc3a9-4111-49b0-8478-4f4346241482",
+"fileName": "376_SE_II_ME_TABEL.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-31T14:23:46.647",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dc0bc3a9-4111-49b0-8478-4f4346241482/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dc0bc3a9-4111-49b0-8478-4f4346241482"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "d1efa5a9-429c-4aa0-8ff5-b0b82756ea9d",
+"title": "Krediidiinkassode ja -ostjate seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "27f32211-bdc4-49ad-b4ea-8b1a2b76b805",
+"fileName": "376_SE_II_SELETUSKIRI.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-31T14:23:21.274",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/27f32211-bdc4-49ad-b4ea-8b1a2b76b805/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/27f32211-bdc4-49ad-b4ea-8b1a2b76b805"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2346f384-efcf-4c71-9970-a2bd62a0fce8",
+"title": "Krediidiinkassode ja -ostjate seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a3c9b94f-1a0f-4ed6-95a7-dcfcc81f139c",
+"fileName": "376_Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T12:43:46.07",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a3c9b94f-1a0f-4ed6-95a7-dcfcc81f139c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a3c9b94f-1a0f-4ed6-95a7-dcfcc81f139c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "77ad8925-e679-49c7-b418-54b308160bb3",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.748",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/77ad8925-e679-49c7-b418-54b308160bb3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/77ad8925-e679-49c7-b418-54b308160bb3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d8b819c4-b9b0-4144-a180-25d2c1fb22ed",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.827",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d8b819c4-b9b0-4144-a180-25d2c1fb22ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d8b819c4-b9b0-4144-a180-25d2c1fb22ed"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2346f384-efcf-4c71-9970-a2bd62a0fce8",
+"title": "Krediidiinkassode ja -ostjate seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d9ac13ce-fb6a-4d04-be8c-21b1c626097f",
+"fileName": "376_Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T12:44:05.521",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9ac13ce-fb6a-4d04-be8c-21b1c626097f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9ac13ce-fb6a-4d04-be8c-21b1c626097f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "92dadc78-dce3-4ddc-b5b8-ddf63501e21c",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.764",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92dadc78-dce3-4ddc-b5b8-ddf63501e21c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92dadc78-dce3-4ddc-b5b8-ddf63501e21c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5e84f769-df1e-421c-979a-e2363fc14d33",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.846",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5e84f769-df1e-421c-979a-e2363fc14d33/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5e84f769-df1e-421c-979a-e2363fc14d33"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2346f384-efcf-4c71-9970-a2bd62a0fce8",
+"title": "Krediidiinkassode ja -ostjate seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7c7f6f53-d717-4e56-bc5a-b63819941ecf",
+"fileName": "376_Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusakti kavand)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T12:44:26.102",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c7f6f53-d717-4e56-bc5a-b63819941ecf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c7f6f53-d717-4e56-bc5a-b63819941ecf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "87f01b57-f440-4076-abdf-f5a4c0ea1b0e",
+"fileName": "Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusakti kavand) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.779",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/87f01b57-f440-4076-abdf-f5a4c0ea1b0e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/87f01b57-f440-4076-abdf-f5a4c0ea1b0e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ba102332-4f61-4aa4-ae0d-338c2abf579a",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (rakendusakti kavand) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.864",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba102332-4f61-4aa4-ae0d-338c2abf579a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba102332-4f61-4aa4-ae0d-338c2abf579a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2346f384-efcf-4c71-9970-a2bd62a0fce8",
+"title": "Krediidiinkassode ja -ostjate seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "53ef0159-efbb-4ebd-a3a2-877552822fde",
+"fileName": "376_Seletuskirja_lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 3 (kooskõlastustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T12:44:43.919",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/53ef0159-efbb-4ebd-a3a2-877552822fde/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/53ef0159-efbb-4ebd-a3a2-877552822fde"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "06e34f21-102a-4006-b62a-9a9cc3864b34",
+"fileName": "Seletuskirja_lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 3 (kooskõlastustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.795",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/06e34f21-102a-4006-b62a-9a9cc3864b34/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/06e34f21-102a-4006-b62a-9a9cc3864b34"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "0f6ec6eb-5ae6-49ff-92a9-a2aa09bc4763",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ac706fed-34e9-48d0-9974-586b6e726d41",
+"fileName": "Seletuskirja_lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 3 (kooskõlastustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-12T16:23:11.88",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac706fed-34e9-48d0-9974-586b6e726d41/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac706fed-34e9-48d0-9974-586b6e726d41"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "9c5f1cd1-56cc-4e7e-94ab-25ef4730ce31",
+"title": "Teatis vea parandamiseks",
+"documentType": "lisadokumendid",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6de85791-90c2-403f-971e-3fef40ff33ed",
+"fileName": "Teatis_vea_parandamiseks.docx",
+"fileExtension": "docx",
+"fileTitle": "Teatis vea parandamiseks",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-28T11:52:31.942",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6de85791-90c2-403f-971e-3fef40ff33ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6de85791-90c2-403f-971e-3fef40ff33ed"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "b7ba0bc7-908c-4739-b0a0-92fd04e6da3e",
+"reference": "1-1/15-376/14",
+"title": "Vabariigi Presidendi otsus nr 439",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8fd025be-b867-4a71-9731-4867010e0fba",
+"fileName": "VP_25062024_o439.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-25T13:40:31.721",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8fd025be-b867-4a71-9731-4867010e0fba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8fd025be-b867-4a71-9731-4867010e0fba"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "b7ba0bc7-908c-4739-b0a0-92fd04e6da3e",
+"reference": "1-1/15-376/14",
+"title": "Vabariigi Presidendi otsus nr 439",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d604f9e0-e24e-46b1-964a-87d6fd586aa8",
+"fileName": "VP_25062024_o439.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-25T13:40:31.634",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d604f9e0-e24e-46b1-964a-87d6fd586aa8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d604f9e0-e24e-46b1-964a-87d6fd586aa8"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "74e40e24-6363-4dc6-85eb-a8849691ec19",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b99a1f79-220b-43b4-9455-85ec857ef836",
+"fileName": "376XV_Krediidiink_s_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-12T17:12:32.778",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b99a1f79-220b-43b4-9455-85ec857ef836/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b99a1f79-220b-43b4-9455-85ec857ef836"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "74e40e24-6363-4dc6-85eb-a8849691ec19",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "85d155ef-9514-4af7-ac97-75f5df3840f3",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-13T09:15:16.527",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/85d155ef-9514-4af7-ac97-75f5df3840f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/85d155ef-9514-4af7-ac97-75f5df3840f3"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "74e40e24-6363-4dc6-85eb-a8849691ec19",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "83505c4c-d848-4334-acc1-8ce4355117f1",
+"fileName": "376XV_Krediidiink_s_2024_(1).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus parandusega",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-28T12:16:34.744",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83505c4c-d848-4334-acc1-8ce4355117f1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83505c4c-d848-4334-acc1-8ce4355117f1"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-02-12T16:22:42.59",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-02-13T16:44:00.269",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-01T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 1.04.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-04-09T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Eduard Odinets"
+}
+],
+"protocolFiles": [
+{
+"uuid": "fa477cdb-a1f5-4b92-83a6-765368862fdc",
+"fileName": "(Lisa_1)_376SE_-_slaidid.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T13:03:19.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa477cdb-a1f5-4b92-83a6-765368862fdc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa477cdb-a1f5-4b92-83a6-765368862fdc"
+}
+}
+},
+{
+"uuid": "8e585205-eb61-404e-bf4f-4861dfd1d5af",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_37.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T13:01:46.492",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e585205-eb61-404e-bf4f-4861dfd1d5af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e585205-eb61-404e-bf4f-4861dfd1d5af"
+}
+}
+},
+{
+"uuid": "67bac6f3-7f6c-4a27-abd8-cfab50036bb0",
+"fileName": "ÕIGK_protokoll_01.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T13:03:03.648",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67bac6f3-7f6c-4a27-abd8-cfab50036bb0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67bac6f3-7f6c-4a27-abd8-cfab50036bb0"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-09T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 9.04.2024 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+},
+{
+"date": "2024-04-29T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 29.04.2024 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "2d540cdd-5541-4a4b-b94d-dbda78ea3065",
+"fileName": "Asendusliikme_volitus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volitus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T12:40:33.471",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d540cdd-5541-4a4b-b94d-dbda78ea3065/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d540cdd-5541-4a4b-b94d-dbda78ea3065"
+}
+}
+},
+{
+"uuid": "97db2379-d521-42d9-8323-361b5fbd8d56",
+"fileName": "ÕIGK_protokoll_29.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T12:41:00.336",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/97db2379-d521-42d9-8323-361b5fbd8d56/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/97db2379-d521-42d9-8323-361b5fbd8d56"
+}
+}
+},
+{
+"uuid": "d722f148-8941-4822-ad76-6e9b5900ffb3",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_41.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T12:39:45.125",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d722f148-8941-4822-ad76-6e9b5900ffb3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d722f148-8941-4822-ad76-6e9b5900ffb3"
+}
+}
+},
+{
+"uuid": "fc335040-a291-4f91-b3ab-c69c74b6dc35",
+"fileName": "(Lisa_1)_KrediidiandjateLiit_290424.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T12:40:21.364",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc335040-a291-4f91-b3ab-c69c74b6dc35/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc335040-a291-4f91-b3ab-c69c74b6dc35"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-06T11:16:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 6.05.2024 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "c1653f91-f569-4d8c-9828-30e9f10b788b",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_42.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-10T12:56:09.101",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c1653f91-f569-4d8c-9828-30e9f10b788b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c1653f91-f569-4d8c-9828-30e9f10b788b"
+}
+}
+},
+{
+"uuid": "17757966-43c7-4641-8d83-6b2867b66cad",
+"fileName": "ÕIGK_protokoll_06.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-10T12:56:51.874",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17757966-43c7-4641-8d83-6b2867b66cad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17757966-43c7-4641-8d83-6b2867b66cad"
+}
+}
+},
+{
+"uuid": "c8e60961-7b13-4d23-b33e-7b63b631709d",
+"fileName": "Asendusliikme_volitus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volitus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-10T12:57:11.352",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8e60961-7b13-4d23-b33e-7b63b631709d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8e60961-7b13-4d23-b33e-7b63b631709d"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-27T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 27.05.2024 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "2ff67249-c4e5-4e9d-a7a2-2a8db729c783",
+"fileName": "ÕIGK_protokoll_27.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T11:07:50.618",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ff67249-c4e5-4e9d-a7a2-2a8db729c783/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ff67249-c4e5-4e9d-a7a2-2a8db729c783"
+}
+}
+},
+{
+"uuid": "aabf73f0-bf92-476b-a53b-0e3f316e63d9",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_44.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T11:05:28.475",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aabf73f0-bf92-476b-a53b-0e3f316e63d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aabf73f0-bf92-476b-a53b-0e3f316e63d9"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-28T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 28.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-06-05T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-06-12T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "e7a87803-c387-4600-b9ad-88193e66b345",
+"fileName": "(Lisa_1)_Isamaa_fraktsiooni_volitus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T11:12:20.99",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e7a87803-c387-4600-b9ad-88193e66b345/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e7a87803-c387-4600-b9ad-88193e66b345"
+}
+}
+},
+{
+"uuid": "9a36a771-a440-492f-8aee-6a77a94744e0",
+"fileName": "ÕIGK_protokoll_28.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T11:11:42.392",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9a36a771-a440-492f-8aee-6a77a94744e0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9a36a771-a440-492f-8aee-6a77a94744e0"
+}
+}
+},
+{
+"uuid": "8e9b2a44-8a77-4889-b0ec-294415e6e535",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_45.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T11:09:36.353",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e9b2a44-8a77-4889-b0ec-294415e6e535/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e9b2a44-8a77-4889-b0ec-294415e6e535"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-05T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 5.06.2024 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-06-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.06.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "bcc3c9a3-511f-4a1c-a646-0e25b25060a7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-06-12T17:10:07.783",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/bcc3c9a3-511f-4a1c-a646-0e25b25060a7"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-06-14T15:16:54.737",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-06-25T13:41:53.585",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-06-28T11:28:16.507",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-07-04T08:24:14.366",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "e4cb0f30-bb09-4675-8d64-b7b6cd28303e",
+"reference": "1-1/15-376/12",
+"title": "Rahandusministeeriumi arvamus krediidiinkassode ja -ostjate seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-03",
+"files": [
+{
+"uuid": "39e57e4d-d705-43a1-babf-1e59b6e39949",
+"fileName": "1.1-10.14533-28_02.05.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-03T13:23:52.109",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/39e57e4d-d705-43a1-babf-1e59b6e39949/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/39e57e4d-d705-43a1-babf-1e59b6e39949"
+}
+}
+},
+{
+"uuid": "bc26494b-059d-41c4-b7bf-6f0d673ae5c6",
+"fileName": "Seisukohad_krediidiinkassode_ja_-ostjate_seaduseelnõu_(SE_376)_täiendamiseks_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-03T13:23:52.223",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc26494b-059d-41c4-b7bf-6f0d673ae5c6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc26494b-059d-41c4-b7bf-6f0d673ae5c6"
+}
+}
+},
+{
+"uuid": "02004add-915f-411a-9756-d02070435ec2",
+"fileName": "SE_376SE_-_RaM_seisukohad_ettepanekute_osas.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-03T13:23:52.199",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/02004add-915f-411a-9756-d02070435ec2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/02004add-915f-411a-9756-d02070435ec2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e4cb0f30-bb09-4675-8d64-b7b6cd28303e"
+}
+}
+},
+{
+"uuid": "4b447231-3341-49a8-a9f5-9c3f40578f23",
+"reference": "1-1/15-376/3",
+"title": "Rahanduskomisjoni arvamus krediidiinkassode ja -ostjate seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-01",
+"files": [
+{
+"uuid": "75e6053a-e41b-496c-a19a-7e79c026a9c8",
+"fileName": "1-1-15-376-3_-_Rahanduskomisjoni_arvamus_krediidiinkassode_ja_-ostjate_seaduse_eelnõu_376_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T16:36:30.788",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75e6053a-e41b-496c-a19a-7e79c026a9c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75e6053a-e41b-496c-a19a-7e79c026a9c8"
+}
+}
+},
+{
+"uuid": "b58ca0d1-af43-4630-9bf9-afdef39254ad",
+"fileName": "RAHK_376SE_01042024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T16:35:07.969",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b58ca0d1-af43-4630-9bf9-afdef39254ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b58ca0d1-af43-4630-9bf9-afdef39254ad"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/4b447231-3341-49a8-a9f5-9c3f40578f23"
+}
+}
+},
+{
+"uuid": "945a5e58-6edf-4e70-aaf9-86ff198147a1",
+"reference": "1-1/15-376/13",
+"title": "Andmekaitse Inspektsiooni arvamus krediidiinkassode ja -ostjate seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-06",
+"files": [
+{
+"uuid": "303540ee-d9b5-4e6c-9234-5eae22d9bf39",
+"fileName": "20240503_krediidinkassode_eelnõu_PL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T11:15:37.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/303540ee-d9b5-4e6c-9234-5eae22d9bf39/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/303540ee-d9b5-4e6c-9234-5eae22d9bf39"
+}
+}
+},
+{
+"uuid": "f4ab062a-50d5-447a-8f57-b955f1d29121",
+"fileName": "20240503_krediidinkassode_eelnõu_PL.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T11:15:37.692",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f4ab062a-50d5-447a-8f57-b955f1d29121/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f4ab062a-50d5-447a-8f57-b955f1d29121"
+}
+}
+},
+{
+"uuid": "22bd8ff1-c3a3-4561-adf5-f45380953ec7",
+"fileName": "Arvamuse_küsimine_(krediidiinkassode_eelnõu_376_SE).html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T11:15:37.799",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22bd8ff1-c3a3-4561-adf5-f45380953ec7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22bd8ff1-c3a3-4561-adf5-f45380953ec7"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/945a5e58-6edf-4e70-aaf9-86ff198147a1"
+}
+}
+},
+{
+"uuid": "aa7e688e-7cd3-46cb-a053-98106f3e49e4",
+"reference": "1-1/15-376/1",
+"title": "Harju Maakohtu arvamus krediidiinkassode ja -ostjate  seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-02-28",
+"files": [
+{
+"uuid": "1cb1121c-5ebc-4505-b732-9afc5556ae90",
+"fileName": "6-324-47_27.02.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-28T09:56:50.583",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1cb1121c-5ebc-4505-b732-9afc5556ae90/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1cb1121c-5ebc-4505-b732-9afc5556ae90"
+}
+}
+},
+{
+"uuid": "6c7b2835-4ad1-4f5e-b12e-a4cd84b67f79",
+"fileName": "Väljaminev_kiri.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-28T09:56:50.71",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c7b2835-4ad1-4f5e-b12e-a4cd84b67f79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c7b2835-4ad1-4f5e-b12e-a4cd84b67f79"
+}
+}
+},
+{
+"uuid": "198a5c19-35ed-4ab7-ade5-bc7a236aaeaa",
+"fileName": "Krediidiinkassode_ja_-ostjate_seaduse_eelnõu_(376_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-28T09:56:50.691",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/198a5c19-35ed-4ab7-ade5-bc7a236aaeaa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/198a5c19-35ed-4ab7-ade5-bc7a236aaeaa"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/aa7e688e-7cd3-46cb-a053-98106f3e49e4"
+}
+}
+},
+{
+"uuid": "38c25539-bf3c-4c77-8344-6393be1bff00",
+"reference": "1-1/15-376/2",
+"title": "RAHK arvamuse küsimine",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-12",
+"files": [
+{
+"uuid": "24afa407-4712-4734-9044-ce1fb773b67c",
+"fileName": "Arvamuse_küsimine_(376_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Sisemine kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-12T16:54:10.348",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24afa407-4712-4734-9044-ce1fb773b67c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24afa407-4712-4734-9044-ce1fb773b67c"
+}
+}
+},
+{
+"uuid": "454affaa-b2bf-43cf-bc65-a7a3c767f1ae",
+"fileName": "1-1-15-376-2_-_RAHK_arvamuse_küsimine.asice",
+"fileExtension": "asice",
+"fileTitle": "Sisemine kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-12T16:54:41.659",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/454affaa-b2bf-43cf-bc65-a7a3c767f1ae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/454affaa-b2bf-43cf-bc65-a7a3c767f1ae"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/38c25539-bf3c-4c77-8344-6393be1bff00"
+}
+}
+},
+{
+"uuid": "0f73b51d-5182-4e6f-a493-dcfdaee88322",
+"reference": "1-1/15-376/8",
+"title": "Võlanõustajate liidu arvamus krediidiinkassode ja -ostjate seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-18",
+"files": [
+{
+"uuid": "d7bddb9b-ef3a-409e-b3b8-698eae6f5834",
+"fileName": "Võlanõustajate_liidu_arvamus_KIKS-ist.txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T10:36:47.417",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7bddb9b-ef3a-409e-b3b8-698eae6f5834/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7bddb9b-ef3a-409e-b3b8-698eae6f5834"
+}
+}
+},
+{
+"uuid": "70b652fa-0b89-4000-bcca-a0fdeb68e20b",
+"fileName": "EVNL_arvamus_KIKSist.doc",
+"fileExtension": "doc",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T10:36:47.395",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/70b652fa-0b89-4000-bcca-a0fdeb68e20b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/70b652fa-0b89-4000-bcca-a0fdeb68e20b"
+}
+}
+},
+{
+"uuid": "6bb43075-a07e-400f-a42e-1ce058e418c9",
+"fileName": "EVNL_arvamus_KIKSist.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T10:36:47.306",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6bb43075-a07e-400f-a42e-1ce058e418c9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6bb43075-a07e-400f-a42e-1ce058e418c9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0f73b51d-5182-4e6f-a493-dcfdaee88322"
+}
+}
+},
+{
+"uuid": "8fd533d8-b9f4-4a7f-a912-07dbeeac9c54",
+"reference": "1-1/15-376/4",
+"title": "Kaasamiskiri (eelnõu 376 SE)",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-02",
+"files": [
+{
+"uuid": "d8bc95f8-0a72-401a-b4e7-9c98298f8839",
+"fileName": "Kaasamiskiri_(eelnõu_376_SE).html",
+"fileExtension": "html",
+"fileTitle": "Väljaminev e-kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T17:17:24.495",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d8bc95f8-0a72-401a-b4e7-9c98298f8839/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d8bc95f8-0a72-401a-b4e7-9c98298f8839"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8fd533d8-b9f4-4a7f-a912-07dbeeac9c54"
+}
+}
+},
+{
+"uuid": "fe668d7a-526b-494e-bae9-c20b4bf32dc1",
+"reference": "1-1/15-376/9",
+"title": "Finantsinspektsiooni arvamus krediidiinkassode ja -ostjate seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-19",
+"files": [
+{
+"uuid": "6c118619-8fd0-43d6-b6e3-d4956377e7ed",
+"fileName": "Finantsinspektsiooni_kiri.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-19T11:49:27.093",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c118619-8fd0-43d6-b6e3-d4956377e7ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c118619-8fd0-43d6-b6e3-d4956377e7ed"
+}
+}
+},
+{
+"uuid": "e3fe57e8-c494-4491-8fa0-f12506d17d81",
+"fileName": "Kiri_19.04.2024_nr_5-8_1963-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-19T11:49:27.072",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e3fe57e8-c494-4491-8fa0-f12506d17d81/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e3fe57e8-c494-4491-8fa0-f12506d17d81"
+}
+}
+},
+{
+"uuid": "dcd2734a-f7ec-47d0-ba8c-eb4b387be524",
+"fileName": "Kiri_19.04.2024_nr_5-8_1963-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-19T11:49:26.98",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dcd2734a-f7ec-47d0-ba8c-eb4b387be524/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dcd2734a-f7ec-47d0-ba8c-eb4b387be524"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fe668d7a-526b-494e-bae9-c20b4bf32dc1"
+}
+}
+},
+{
+"uuid": "b6908a26-722b-41c8-8312-a17c8256f51d",
+"reference": "1-1/15-376/6",
+"title": "Eesti Krediidiandjate Liidu arvamus krediidiinkassode ja -ostjate seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-12",
+"files": [
+{
+"uuid": "f49a295f-ecf4-4303-b4c6-26c010655419",
+"fileName": "EKALi_arvamus_KKMi_piirmäära_osas.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-12T14:14:17.92",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f49a295f-ecf4-4303-b4c6-26c010655419/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f49a295f-ecf4-4303-b4c6-26c010655419"
+}
+}
+},
+{
+"uuid": "e3724fe6-04c0-47d0-b072-067e142c3ee4",
+"fileName": "FW__Tagasiside_Eesti_Krediidiandjate_Liidult.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-12T14:14:17.934",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e3724fe6-04c0-47d0-b072-067e142c3ee4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e3724fe6-04c0-47d0-b072-067e142c3ee4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b6908a26-722b-41c8-8312-a17c8256f51d"
+}
+}
+},
+{
+"uuid": "d12a9e83-00ad-45dc-9ab2-1ffb14f0e4d6",
+"reference": "1-1/15-376/11",
+"title": "FinanceEstonia arvamus krediidiinkassode ja -ostjate seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-23",
+"files": [
+{
+"uuid": "d6a22f84-3fe0-4122-8a6f-ae93a66854ff",
+"fileName": "FinanceEstonia_ettepanekud_krediidiinkassode_ja_-ostjate_seaduse_eelnõule_(376_SE).html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-23T16:04:26.984",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6a22f84-3fe0-4122-8a6f-ae93a66854ff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6a22f84-3fe0-4122-8a6f-ae93a66854ff"
+}
+}
+},
+{
+"uuid": "406a5419-127e-48fe-8108-4b83954cc15e",
+"fileName": "FinanceEstonia_arvamus_KIKS_eelnoule_2024_04_23.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-23T16:04:26.951",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/406a5419-127e-48fe-8108-4b83954cc15e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/406a5419-127e-48fe-8108-4b83954cc15e"
+}
+}
+},
+{
+"uuid": "00966eb8-7a33-49bb-b8b8-2b81e12cdb42",
+"fileName": "FinanceEstonia_arvamus_KIKS_eelnoule_2024_04_23.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-23T16:04:26.86",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/00966eb8-7a33-49bb-b8b8-2b81e12cdb42/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/00966eb8-7a33-49bb-b8b8-2b81e12cdb42"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d12a9e83-00ad-45dc-9ab2-1ffb14f0e4d6"
+}
+}
+},
+{
+"uuid": "5f813ddd-10a9-489f-9d22-3e123b99b6f5",
+"reference": "1-1/15-376/7",
+"title": "Eesti Pangaliidu arvamus krediidiinkassode ja -ostjate seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-17",
+"files": [
+{
+"uuid": "fcb4c406-6d3b-489f-9ecb-97561a90285f",
+"fileName": "Lisa_1_Eesti_Pangaliidu_arvamusele_16.04.2024.pdf",
+"fileExtension": "pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T08:50:03.614",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fcb4c406-6d3b-489f-9ecb-97561a90285f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fcb4c406-6d3b-489f-9ecb-97561a90285f"
+}
+}
+},
+{
+"uuid": "96beddd4-3d3e-4ed6-9485-1d6dc0d8b056",
+"fileName": "PL_õiguskomisjonile_16.04_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T08:50:03.597",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/96beddd4-3d3e-4ed6-9485-1d6dc0d8b056/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/96beddd4-3d3e-4ed6-9485-1d6dc0d8b056"
+}
+}
+},
+{
+"uuid": "7628f42e-3b4e-4631-9ddd-e95c1ff44781",
+"fileName": "Eelnõu_376_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T08:50:03.668",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7628f42e-3b4e-4631-9ddd-e95c1ff44781/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7628f42e-3b4e-4631-9ddd-e95c1ff44781"
+}
+}
+},
+{
+"uuid": "f91b242b-096d-4447-8e38-2beb75d16a6d",
+"fileName": "PL_õiguskomisjonile_16.04_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T08:50:03.542",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f91b242b-096d-4447-8e38-2beb75d16a6d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f91b242b-096d-4447-8e38-2beb75d16a6d"
+}
+}
+},
+{
+"uuid": "e7382fbc-649e-474c-980d-49603e3d3f7a",
+"fileName": "Lisa_2_Eesti_Pangaliidu_arvamus_Harju_MK_arvamuse_kohta.pdf",
+"fileExtension": "pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T08:50:03.632",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e7382fbc-649e-474c-980d-49603e3d3f7a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e7382fbc-649e-474c-980d-49603e3d3f7a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5f813ddd-10a9-489f-9d22-3e123b99b6f5"
+}
+}
+},
+{
+"uuid": "43d061c9-f1a7-4135-8c87-b5d58d3fc6da",
+"reference": "1-1/15-376/5",
+"title": "Omega Invest OÜ arvamus krediidiinkassode ja -ostjate seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-03",
+"files": [
+{
+"uuid": "0e49ec2e-7654-4787-9cb6-39a77badb6de",
+"fileName": "RK_komisjon_arvamus_KIKS.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T12:45:18.88",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e49ec2e-7654-4787-9cb6-39a77badb6de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e49ec2e-7654-4787-9cb6-39a77badb6de"
+}
+}
+},
+{
+"uuid": "2eecfc6c-afa8-4d43-954e-0be3e6774337",
+"fileName": "RK_komisjon_arvamus_KIKS.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T12:45:18.773",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2eecfc6c-afa8-4d43-954e-0be3e6774337/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2eecfc6c-afa8-4d43-954e-0be3e6774337"
+}
+}
+},
+{
+"uuid": "2b6abbf6-27c6-47ee-b907-040f9bf7c0af",
+"fileName": "Kaasamiskiri_(eelnõu_376_SE).html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T12:45:18.927",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b6abbf6-27c6-47ee-b907-040f9bf7c0af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b6abbf6-27c6-47ee-b907-040f9bf7c0af"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/43d061c9-f1a7-4135-8c87-b5d58d3fc6da"
+}
+}
+},
+{
+"uuid": "28b502b4-090b-45ec-9278-d93de43a975d",
+"reference": "1-1/15-376/10",
+"title": "OÜ Aktiva Finance Group arvamus krediidiinkassode ja -ostjate seaduse eelnõu 376 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-22",
+"files": [
+{
+"uuid": "545b732e-bc2f-43dc-b533-8cf8c3c6d3c1",
+"fileName": "Kaasamiskiri_(eelnõu_376_SE).html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-22T13:18:12.749",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/545b732e-bc2f-43dc-b533-8cf8c3c6d3c1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/545b732e-bc2f-43dc-b533-8cf8c3c6d3c1"
+}
+}
+},
+{
+"uuid": "334b4109-7ffb-48c1-b481-e3bc9bafffcc",
+"fileName": "AFG_arvamus_Krediidiinkasso_seaduse_eelnõu_osas_õiguskomisjonile.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-22T13:18:12.702",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/334b4109-7ffb-48c1-b481-e3bc9bafffcc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/334b4109-7ffb-48c1-b481-e3bc9bafffcc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/28b502b4-090b-45ec-9278-d93de43a975d"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [
+{
+"uuid": "fc91791d-63e2-4501-a91d-321c4b9a7349",
+"reference": "1-2/18-321",
+"title": "Eesti seisukohad viivislaenude\nvähendamise eelnõude kohta COM(2018) 134; COM(2018) 135",
+"volumeType": "elVolume",
+"created": "2018-05-17T13:35:52.066",
+"copyOrOriginal": "ORIGINAL",
+"draft": false,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/fc91791d-63e2-4501-a91d-321c4b9a7349"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/65742104-0a85-4a08-ba65-1374049b9658"
+}
+}
+}

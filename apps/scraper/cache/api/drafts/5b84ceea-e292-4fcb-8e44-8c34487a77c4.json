@@ -1,0 +1,493 @@
+{
+"uuid": "5b84ceea-e292-4fcb-8e44-8c34487a77c4",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele eemaldada nn. Pronkssõduri kuju avalikust ruumist\"",
+"mark": 104,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele eemaldada nn. Pronkssõduri kuju avalikust ruumist\" 104 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele eemaldada nn. Pronkssõduri kuju avalikust ruumist\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Soovitakse valitsuse otsust, et kõik okupatsioonivõimude punamonumendid, sh. Pronkssõdur, tuleb tervel Eesti territooriumil koheselt maha võtta. Otsus tuleb viivitamatult ellu viia.",
+"initiated": "2023-05-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-29T17:15:00",
+"responsibleMember": {
+"uuid": "002a9679-e3b0-4bca-a568-0466266af2fc",
+"name": "Hendrik Johannes Terras",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/002a9679-e3b0-4bca-a568-0466266af2fc?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5747,
+"text": "mälestis"
+},
+{
+"edid": 3993,
+"text": "riigi julgeoleku ohustamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1e176228-7708-48d9-b431-0e5f353d62dc",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b4ab6aa1-55de-45b7-9f93-126ba4f6e73d",
+"fileName": "104_RK_otsus_Pronkssoduri_eemaldamine.EN.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T10:01:53.042",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4ab6aa1-55de-45b7-9f93-126ba4f6e73d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4ab6aa1-55de-45b7-9f93-126ba4f6e73d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f764eb25-d04a-46e4-9030-471e3cec533b",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2fe67a1a-aa62-4de3-8bb8-492d1aa94bdd",
+"fileName": "RK_otsus_Pronkssõduri_eemaldamiseks_10.05.23.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T14:11:47.586",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2fe67a1a-aa62-4de3-8bb8-492d1aa94bdd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2fe67a1a-aa62-4de3-8bb8-492d1aa94bdd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f764eb25-d04a-46e4-9030-471e3cec533b",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "124f829f-013a-4e71-b40e-3b6ef7978367",
+"fileName": "104_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T10:18:22.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/124f829f-013a-4e71-b40e-3b6ef7978367/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/124f829f-013a-4e71-b40e-3b6ef7978367"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "32ed07e2-8a51-4f5d-8325-6b0905ea58f4",
+"title": "Seletuskiri",
+"documentType": "seletuskiri",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f8ddcfc6-6bb3-48e4-98f1-a296e4077c00",
+"fileName": "104_RK_otsus_Pronkssõduri_eemaldamiseks_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T10:03:03.117",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f8ddcfc6-6bb3-48e4-98f1-a296e4077c00/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f8ddcfc6-6bb3-48e4-98f1-a296e4077c00"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f764eb25-d04a-46e4-9030-471e3cec533b",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "efb07415-ca94-4ecd-96a7-f3f669342352",
+"fileName": "104_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T10:18:36.867",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/efb07415-ca94-4ecd-96a7-f3f669342352/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/efb07415-ca94-4ecd-96a7-f3f669342352"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-10T23:21:33.406",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T20:42:00.976",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-14T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 14.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-20T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Hendrik Johannes Terras"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "284788cd-f67f-4fef-b0b2-8f0a0c737892",
+"fileName": "Asendusliikme_volikiri_T.Suslov-K.Joller_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-03T14:39:54.501",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/284788cd-f67f-4fef-b0b2-8f0a0c737892/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/284788cd-f67f-4fef-b0b2-8f0a0c737892"
+}
+}
+},
+{
+"uuid": "34805cd4-bbeb-46bb-92bf-0649a79736ad",
+"fileName": "U._Tiidus_asendusliige_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:45:31.793",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34805cd4-bbeb-46bb-92bf-0649a79736ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34805cd4-bbeb-46bb-92bf-0649a79736ad"
+}
+}
+},
+{
+"uuid": "de07be87-9c1e-4ce8-afcb-351dcb55789d",
+"fileName": "T._Suslov_asendusliige_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:45:06.675",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/de07be87-9c1e-4ce8-afcb-351dcb55789d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de07be87-9c1e-4ce8-afcb-351dcb55789d"
+}
+}
+},
+{
+"uuid": "7d96923f-1796-4042-9cdc-8cc74c830cb7",
+"fileName": "J._Valge_asendusliige_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:44:24.15",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7d96923f-1796-4042-9cdc-8cc74c830cb7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7d96923f-1796-4042-9cdc-8cc74c830cb7"
+}
+}
+},
+{
+"uuid": "dccd76cd-10ab-4cb2-bd5c-a296b8cb835e",
+"fileName": "H.V._Seeder_asendusliige_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:43:38.191",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dccd76cd-10ab-4cb2-bd5c-a296b8cb835e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dccd76cd-10ab-4cb2-bd5c-a296b8cb835e"
+}
+}
+},
+{
+"uuid": "854e313b-c7c3-4129-a358-67be97bfd86c",
+"fileName": "PÕSK_protokoll_14.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:48:52.466",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/854e313b-c7c3-4129-a358-67be97bfd86c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/854e313b-c7c3-4129-a358-67be97bfd86c"
+}
+}
+},
+{
+"uuid": "3d3f491c-153f-4004-acdf-f6878e5e55c4",
+"fileName": "PÕSK.protokoll.14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:47:09.469",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d3f491c-153f-4004-acdf-f6878e5e55c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d3f491c-153f-4004-acdf-f6878e5e55c4"
+}
+}
+}
+]
+},
+{
+"date": "2024-01-16T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 16.01.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "65812b3c-721d-4210-ad47-037fc621fbc7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-01-16T11:05:02.01",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/65812b3c-721d-4210-ad47-037fc621fbc7"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "b6edd901-8cdd-4c1d-a219-099b94610418",
+"reference": "1-1/15-104/1",
+"title": "Pronkssõduri eemaldamine avalikust ruumist - 104 OE",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-18",
+"files": [
+{
+"uuid": "bb947274-8148-4da6-a06f-0a1c84d338d3",
+"fileName": "Nn_Pronkssõduri_eemaldamine_avalikust_ruumist_-_104_OE.html",
+"fileExtension": "html",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T16:14:31.537",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bb947274-8148-4da6-a06f-0a1c84d338d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bb947274-8148-4da6-a06f-0a1c84d338d3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b6edd901-8cdd-4c1d-a219-099b94610418"
+}
+}
+},
+{
+"uuid": "fca3d06e-5fe9-4a17-93e5-d7f27e0013d0",
+"reference": "1-1/15-171/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuste eelnõu  171 OE, 42 OE, 97 OE ja 104 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-18",
+"files": [
+{
+"uuid": "4bfc3141-57b9-4e6d-a507-16a2448aa472",
+"fileName": "286.tel_Arvamus_171OE_42OE_104OE_ja_97OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T14:22:31.715",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4bfc3141-57b9-4e6d-a507-16a2448aa472/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4bfc3141-57b9-4e6d-a507-16a2448aa472"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fca3d06e-5fe9-4a17-93e5-d7f27e0013d0"
+}
+}
+},
+{
+"uuid": "ec5ea532-b14c-48cd-baca-e068deb5f827",
+"reference": "1-1/15-104/2",
+"title": "Kaitseministeeriumi vastuskiri Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele eemaldada nn. Pronkssõduri kuju avalikust ruumist\" eelnõu 104 OE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-18",
+"files": [
+{
+"uuid": "8d8b3ffc-4140-4ea3-8b9d-56c23041201a",
+"fileName": "Nn_Pronkssõduri_eemaldamine_avalikust_ruumist_-_104_OE.html",
+"fileExtension": "html",
+"fileTitle": "Sissetulev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T16:16:06.348",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d8b3ffc-4140-4ea3-8b9d-56c23041201a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d8b3ffc-4140-4ea3-8b9d-56c23041201a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ec5ea532-b14c-48cd-baca-e068deb5f827"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/5b84ceea-e292-4fcb-8e44-8c34487a77c4"
+}
+}
+}

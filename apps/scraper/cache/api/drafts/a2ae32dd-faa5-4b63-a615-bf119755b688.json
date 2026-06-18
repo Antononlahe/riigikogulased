@@ -1,0 +1,518 @@
+{
+"uuid": "a2ae32dd-faa5-4b63-a615-bf119755b688",
+"title": "Riigieelarve seaduse Eesti Vabariigi põhiseadusega kooskõlla viimise seadus",
+"mark": 580,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigieelarve seaduse Eesti Vabariigi põhiseadusega kooskõlla viimise seadus 580 SE",
+"initialTitle": "Riigieelarve seaduse Eesti Vabariigi põhiseadusega kooskõlla viimise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on suurendada iga-aastase riigieelarve läbipaistvust ja arusaadavust ning Riigikogu rolli riigieelarve menetlemisel.",
+"initiated": "2025-02-17",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "315ea785-8f59-40e5-a158-3de8b908572f",
+"name": "Maris Lauri",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/315ea785-8f59-40e5-a158-3de8b908572f?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4241,
+"text": "eelarve täpsustamine"
+},
+{
+"edid": 5052,
+"text": "riigieelarve"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "148bceef-6b8c-41d4-9721-5903138bcbfe",
+"title": "580 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9fd770c6-0793-4f1a-a2cb-d18dbbd6e969",
+"fileName": "580_RES_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T16:52:59.834",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9fd770c6-0793-4f1a-a2cb-d18dbbd6e969/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9fd770c6-0793-4f1a-a2cb-d18dbbd6e969"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "917c4a98-d739-43b0-919b-7221746ad8d9",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a954652c-4918-4fd7-aa20-327006df3c95",
+"fileName": "Riigieelarve_seaduse_muutmise_eelnõu_(Isamaa).doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-17T15:54:35.244",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a954652c-4918-4fd7-aa20-327006df3c95/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a954652c-4918-4fd7-aa20-327006df3c95"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "917c4a98-d739-43b0-919b-7221746ad8d9",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "581b9ec0-31dd-48f3-a2ac-5b9da044f78f",
+"fileName": "580_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-17T15:55:09.079",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/581b9ec0-31dd-48f3-a2ac-5b9da044f78f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/581b9ec0-31dd-48f3-a2ac-5b9da044f78f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "148bceef-6b8c-41d4-9721-5903138bcbfe",
+"title": "580 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cbb6213a-baab-4c78-bba6-f725882e7a55",
+"fileName": "580_RES_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T16:53:17.636",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cbb6213a-baab-4c78-bba6-f725882e7a55/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cbb6213a-baab-4c78-bba6-f725882e7a55"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "917c4a98-d739-43b0-919b-7221746ad8d9",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fa757e46-9438-42bd-805e-597e0d4b4421",
+"fileName": "580_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-17T15:55:22.546",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa757e46-9438-42bd-805e-597e0d4b4421/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa757e46-9438-42bd-805e-597e0d4b4421"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-02-17T15:54:10.994",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-02-18T13:41:00.701",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-04-15T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 15.04.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-04-23T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Maris Lauri"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "433e53d3-9591-48e6-a046-0a2a2ec1a45b",
+"fileName": "RAHK_protokoll_15.04.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-05T16:56:30.713",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/433e53d3-9591-48e6-a046-0a2a2ec1a45b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/433e53d3-9591-48e6-a046-0a2a2ec1a45b"
+}
+}
+},
+{
+"uuid": "d1eb1b35-07f6-41bb-823e-ae9ad7de8a62",
+"fileName": "PAD_esitlus_613_SE_15.04.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Rahandusministeeriumi esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-05T16:55:45.841",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d1eb1b35-07f6-41bb-823e-ae9ad7de8a62/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d1eb1b35-07f6-41bb-823e-ae9ad7de8a62"
+}
+}
+},
+{
+"uuid": "63aea19b-99e6-4c82-abb5-6541291aae1a",
+"fileName": "RAHK_protokoll_nr_148_15.04.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-05T16:54:49.371",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/63aea19b-99e6-4c82-abb5-6541291aae1a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/63aea19b-99e6-4c82-abb5-6541291aae1a"
+}
+}
+}
+]
+},
+{
+"date": "2025-04-24T13:26:34.688",
+"status": "SAADETUD_I_LUGEMISELE"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-08T15:14:03.556",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-05-14T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 14.05.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "f9a30ce7-92de-4815-bf70-a78c1e795d5e",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-05-15T01:14:30.877",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f9a30ce7-92de-4815-bf70-a78c1e795d5e"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "5fceed64-d326-4872-939b-adbd5b7dfaa2",
+"reference": "1-1/15-580/2",
+"title": "Vabariigi Valitsuse arvamus riigieelarve seaduse Eesti Vabariigi põhiseadusega kooskõlla viimise seaduse eelnõu 580 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-03-26",
+"files": [
+{
+"uuid": "914a15a5-5917-428a-a999-5b0b9bd8f387",
+"fileName": "1.1-111516-1_25.03.2025_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-26T13:52:04.27",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/914a15a5-5917-428a-a999-5b0b9bd8f387/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/914a15a5-5917-428a-a999-5b0b9bd8f387"
+}
+}
+},
+{
+"uuid": "4b4ddfd0-f2b3-4f83-8a15-2caf182fb4ff",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0178_-_Riigieelarve_seaduse_Eesti_Vabariigi_põhiseadusega_kooskõlla_viimise_seaduse_eelnõu_(580_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-26T13:52:04.372",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4b4ddfd0-f2b3-4f83-8a15-2caf182fb4ff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4b4ddfd0-f2b3-4f83-8a15-2caf182fb4ff"
+}
+}
+},
+{
+"uuid": "4ead01a1-72ca-4c28-8431-6194d6470d2c",
+"fileName": "Riigieelarve_seaduse_Eesti_Vabariigi_põhiseadusega_kooskõlla_viimise_seaduse_eelnõu_(580_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-26T13:52:04.356",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ead01a1-72ca-4c28-8431-6194d6470d2c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ead01a1-72ca-4c28-8431-6194d6470d2c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5fceed64-d326-4872-939b-adbd5b7dfaa2"
+}
+}
+},
+{
+"uuid": "8336b773-03aa-41fe-8a34-99a388dd3fca",
+"reference": "1-1/15-580/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 580 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-02-17",
+"files": [
+{
+"uuid": "ee571301-e91b-435f-aee0-80c3be9bea16",
+"fileName": "1-1-15-580-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_580_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-18T13:50:42.731",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee571301-e91b-435f-aee0-80c3be9bea16/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee571301-e91b-435f-aee0-80c3be9bea16"
+}
+}
+},
+{
+"uuid": "310bd48c-3dd0-4e13-94ed-a185f93bc9a1",
+"fileName": "580_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-17T15:59:39.543",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/310bd48c-3dd0-4e13-94ed-a185f93bc9a1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/310bd48c-3dd0-4e13-94ed-a185f93bc9a1"
+}
+}
+},
+{
+"uuid": "2d03f301-4464-43c5-bb53-f2098998f563",
+"fileName": "580_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-17T15:59:56.819",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d03f301-4464-43c5-bb53-f2098998f563/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d03f301-4464-43c5-bb53-f2098998f563"
+}
+}
+},
+{
+"uuid": "cf43fce7-ef99-4bdf-9524-540687c03215",
+"fileName": "RES_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-17T15:59:28.695",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf43fce7-ef99-4bdf-9524-540687c03215/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf43fce7-ef99-4bdf-9524-540687c03215"
+}
+}
+},
+{
+"uuid": "58b36115-b82e-4660-b78e-dbb1ebb404b0",
+"fileName": "RES_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-17T15:59:13.127",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/58b36115-b82e-4660-b78e-dbb1ebb404b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/58b36115-b82e-4660-b78e-dbb1ebb404b0"
+}
+}
+},
+{
+"uuid": "12b7ec75-1c2a-4388-800b-e980b2afb70a",
+"fileName": "250218_RES_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-17T16:00:12.83",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/12b7ec75-1c2a-4388-800b-e980b2afb70a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/12b7ec75-1c2a-4388-800b-e980b2afb70a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8336b773-03aa-41fe-8a34-99a388dd3fca"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a2ae32dd-faa5-4b63-a615-bf119755b688"
+}
+}
+}

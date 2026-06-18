@@ -1,0 +1,341 @@
+{
+"uuid": "0413a7b6-9e3f-4ce7-b7ef-b9559455a5f7",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele analüüsida täiendavalt põlevkivi väärindamise ja kasutamise võimalusi\"",
+"mark": 50,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele analüüsida täiendavalt põlevkivi väärindamise ja kasutamise võimalusi\" 50 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele analüüsida täiendavalt põlevkivi väärindamise ja kasutamise võimalusi\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga soovitakse teha Vabariigi Valitsusele ettepanekud, et loobuda plaanist mitte avada uusi põlevkivikaevandusi ning analüüsida täiendavalt põlevkivi väärindamise ja kasutamise võimalusi ning langetada otsused pärast analüüsi valmimist.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-23T17:15:00",
+"responsibleMember": {
+"uuid": "122e850b-5e6b-41f6-8b91-830ca8de8450",
+"name": "Mait Klaassen",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/122e850b-5e6b-41f6-8b91-830ca8de8450?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "93630c8d-295d-4c76-b30b-2eebc6d35396",
+"name": "Elle Kaur",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/93630c8d-295d-4c76-b30b-2eebc6d35396?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 454787,
+"text": "põlevkivi"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b60f6d74-68ee-4bfc-aa4b-926417015a44",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "80ac713b-3cac-4583-96d9-401404f03e57",
+"fileName": "50_Rk_o_Põlevkivi_väärindamine_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T08:52:05.397",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/80ac713b-3cac-4583-96d9-401404f03e57/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/80ac713b-3cac-4583-96d9-401404f03e57"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4934fcf8-b49e-47b4-9ddf-37ed98754125",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "43d4dbc0-eaa6-4e6b-9446-564230e3c8d5",
+"fileName": "50_OE_Põlevkivi_väärindamine.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T13:16:17.781",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/43d4dbc0-eaa6-4e6b-9446-564230e3c8d5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/43d4dbc0-eaa6-4e6b-9446-564230e3c8d5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4934fcf8-b49e-47b4-9ddf-37ed98754125",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "de04336d-5813-4eb9-9b26-3d4795b342b5",
+"fileName": "50_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T11:57:51.106",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/de04336d-5813-4eb9-9b26-3d4795b342b5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de04336d-5813-4eb9-9b26-3d4795b342b5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b60f6d74-68ee-4bfc-aa4b-926417015a44",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ad25d566-47fd-4dca-82c0-3e20c5aa50ab",
+"fileName": "50_Rk_o_Põlevkivi_väärindamine_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T08:52:17.775",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ad25d566-47fd-4dca-82c0-3e20c5aa50ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ad25d566-47fd-4dca-82c0-3e20c5aa50ab"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4934fcf8-b49e-47b4-9ddf-37ed98754125",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "83d955ce-49a5-4713-ac38-08e868abb345",
+"fileName": "50_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T11:58:04.217",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83d955ce-49a5-4713-ac38-08e868abb345/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83d955ce-49a5-4713-ac38-08e868abb345"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T20:40:53.927",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:24:00.392",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2023-09-27T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "keskkonnakomisjoni liige Mait Klaassen."
+}
+],
+"protocolFiles": [
+{
+"uuid": "79d22d72-a1da-4267-b294-ddc01167d1b2",
+"fileName": "KEKK_protokoll_19.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T14:24:33.743",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/79d22d72-a1da-4267-b294-ddc01167d1b2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/79d22d72-a1da-4267-b294-ddc01167d1b2"
+}
+}
+},
+{
+"uuid": "0331299e-0fe4-43cb-be57-c852693f6313",
+"fileName": "KEKK_protokoll_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T14:23:31.926",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0331299e-0fe4-43cb-be57-c852693f6313/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0331299e-0fe4-43cb-be57-c852693f6313"
+}
+}
+}
+]
+},
+{
+"date": "2023-10-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.10.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "164b765e-1624-43b1-ac72-9c92acc04807",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-10-11T21:59:12.07",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/164b765e-1624-43b1-ac72-9c92acc04807"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "b5088997-5428-4dbf-bbd5-7f81eed8428f",
+"reference": "1-1/15-50/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele analüüsida täiendavalt põlevkivi väärindamise ja kasutamise võimalusi\" eelnõu 50 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-14",
+"files": [
+{
+"uuid": "070253fe-426b-4faf-b34b-695ed28ba18d",
+"fileName": "288.tel_Arvamus_50_OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-14T13:30:39.65",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/070253fe-426b-4faf-b34b-695ed28ba18d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/070253fe-426b-4faf-b34b-695ed28ba18d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b5088997-5428-4dbf-bbd5-7f81eed8428f"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/0413a7b6-9e3f-4ce7-b7ef-b9559455a5f7"
+}
+}
+}

@@ -1,0 +1,529 @@
+{
+"uuid": "a6b81ae0-8034-4159-9b39-20f9497ed2c0",
+"title": "Karistusseadustiku täiendamise seadus",
+"mark": 76,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Karistusseadustiku täiendamise seadus 76 SE",
+"initialTitle": "Karistusseadustiku täiendamise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärgiks on karistusseadustikku täiendava kuriteokoosseisu lisamine, et tagada ravimite manustamise vabatahtlikkus ja selle osana vaktsineerimisvabaduse põhimõte.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "07003549-aa42-4764-8bdd-cab06cb94a92",
+"name": "Anti Haugas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/07003549-aa42-4764-8bdd-cab06cb94a92?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "441c3c51-2f08-47f3-a36c-e4b310e17e78",
+"name": "Raini Laide",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/441c3c51-2f08-47f3-a36c-e4b310e17e78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "b5e0d7fe-b784-4057-bf7e-cc3f1873887d",
+"name": "Varro Vooglaid",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/b5e0d7fe-b784-4057-bf7e-cc3f1873887d?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3943,
+"text": "isikuvastane kuritegu"
+},
+{
+"edid": 4455,
+"text": "ravi"
+},
+{
+"edid": 3878,
+"text": "karistus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c1210ec0-1803-4d26-b47c-b8cdeaee3412",
+"title": "Karistusseadustiku täiendamise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "91345afb-bc72-4640-a57b-546fb5e754d8",
+"fileName": "76_KarS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T16:29:27.001",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91345afb-bc72-4640-a57b-546fb5e754d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91345afb-bc72-4640-a57b-546fb5e754d8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b7e0d646-412b-489e-ae0f-833c64bd537f",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a2470e25-cb12-41bc-9196-6e3b1608931a",
+"fileName": "76_EELNÕU_KarS.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:41:52.507",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a2470e25-cb12-41bc-9196-6e3b1608931a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a2470e25-cb12-41bc-9196-6e3b1608931a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b7e0d646-412b-489e-ae0f-833c64bd537f",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c193d9e2-cc46-4739-880d-cf2f6f2e560e",
+"fileName": "76_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:29:44.903",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c193d9e2-cc46-4739-880d-cf2f6f2e560e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c193d9e2-cc46-4739-880d-cf2f6f2e560e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c1210ec0-1803-4d26-b47c-b8cdeaee3412",
+"title": "Karistusseadustiku täiendamise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8aa2b563-ba8c-42c9-aa07-a5ebbe28b621",
+"fileName": "76_KarS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T16:29:57.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8aa2b563-ba8c-42c9-aa07-a5ebbe28b621/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8aa2b563-ba8c-42c9-aa07-a5ebbe28b621"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b7e0d646-412b-489e-ae0f-833c64bd537f",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "afc65739-b065-4e1a-92c9-4b2fb05d82d0",
+"fileName": "76_SELETUSKIRI_KarS.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:42:16.257",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/afc65739-b065-4e1a-92c9-4b2fb05d82d0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/afc65739-b065-4e1a-92c9-4b2fb05d82d0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b7e0d646-412b-489e-ae0f-833c64bd537f",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a317cda6-0186-479e-a230-16484a763111",
+"fileName": "76_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:29:56.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a317cda6-0186-479e-a230-16484a763111/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a317cda6-0186-479e-a230-16484a763111"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T23:25:38.887",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:47:00.692",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-26T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 26.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-10-10T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Anti Haugas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "b3d92285-5900-4eee-b543-5944fa406446",
+"fileName": "ÕIGK_protokoll_26.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-19T09:57:03.006",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b3d92285-5900-4eee-b543-5944fa406446/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b3d92285-5900-4eee-b543-5944fa406446"
+}
+}
+},
+{
+"uuid": "3aa57db9-5b21-4592-8059-591e2a4c88e8",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_17.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-19T09:55:32.984",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3aa57db9-5b21-4592-8059-591e2a4c88e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3aa57db9-5b21-4592-8059-591e2a4c88e8"
+}
+}
+}
+]
+},
+{
+"date": "2023-11-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.11.2023 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2023-12-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.12.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "66d14678-9fc1-4723-9c96-9ef4d3cf8c4e",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-12-13T15:55:57.2",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/66d14678-9fc1-4723-9c96-9ef4d3cf8c4e"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "97f044b8-772f-487d-a4a5-2157056564f6",
+"reference": "1-1/15-76/2",
+"title": "Vabariigi Valitsuse arvamus karistusseadustiku täiendamise seaduse eelnõu 76 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-28",
+"files": [
+{
+"uuid": "4d3b7950-5979-4a36-8451-74ef75e4bf07",
+"fileName": "8-23579_28.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-28T12:16:16.475",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4d3b7950-5979-4a36-8451-74ef75e4bf07/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4d3b7950-5979-4a36-8451-74ef75e4bf07"
+}
+}
+},
+{
+"uuid": "b683e5fb-1fc5-44e9-bd3a-24e31b213558",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0529_-_Karistusseadustiku_täiendamise_seaduse_eelnõu_(76_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-28T12:16:16.538",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b683e5fb-1fc5-44e9-bd3a-24e31b213558/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b683e5fb-1fc5-44e9-bd3a-24e31b213558"
+}
+}
+},
+{
+"uuid": "b40f1d8f-28b6-4715-b57f-f52d1ebc0d60",
+"fileName": "Vabariigi_Valitsuse_arvamuse_esitamineseaduseelnõu_76_SE_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-28T12:16:16.517",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b40f1d8f-28b6-4715-b57f-f52d1ebc0d60/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b40f1d8f-28b6-4715-b57f-f52d1ebc0d60"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/97f044b8-772f-487d-a4a5-2157056564f6"
+}
+}
+},
+{
+"uuid": "23439347-4e6a-4105-ab0c-e0cb924064e6",
+"reference": "1-1/15-76/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 76 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-13",
+"files": [
+{
+"uuid": "d77fae4c-2cb5-4ad7-8778-7bbc4462853f",
+"fileName": "76_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:44:29.512",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d77fae4c-2cb5-4ad7-8778-7bbc4462853f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d77fae4c-2cb5-4ad7-8778-7bbc4462853f"
+}
+}
+},
+{
+"uuid": "2f37bb81-12d8-4102-a727-25b5a446b753",
+"fileName": "230513_KarS_RKL3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T19:28:51.052",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f37bb81-12d8-4102-a727-25b5a446b753/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f37bb81-12d8-4102-a727-25b5a446b753"
+}
+}
+},
+{
+"uuid": "9ec4a286-b0fd-486c-8403-04a7700865a8",
+"fileName": "76_EELNÕU_KarS.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:43:47.575",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9ec4a286-b0fd-486c-8403-04a7700865a8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9ec4a286-b0fd-486c-8403-04a7700865a8"
+}
+}
+},
+{
+"uuid": "4298be64-ddee-4e91-a6c5-9c018c382a84",
+"fileName": "76_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:44:11.08",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4298be64-ddee-4e91-a6c5-9c018c382a84/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4298be64-ddee-4e91-a6c5-9c018c382a84"
+}
+}
+},
+{
+"uuid": "60b438c5-b0b0-488f-875d-26f84dfc23bb",
+"fileName": "76_SELETUSKIRI_KarS.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:43:58.784",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/60b438c5-b0b0-488f-875d-26f84dfc23bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/60b438c5-b0b0-488f-875d-26f84dfc23bb"
+}
+}
+},
+{
+"uuid": "9849dd92-4af9-4411-b3a0-9251458e14d2",
+"fileName": "1-1-15-76-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_76_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T19:29:14.626",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9849dd92-4af9-4411-b3a0-9251458e14d2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9849dd92-4af9-4411-b3a0-9251458e14d2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/23439347-4e6a-4105-ab0c-e0cb924064e6"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a6b81ae0-8034-4159-9b39-20f9497ed2c0"
+}
+}
+}

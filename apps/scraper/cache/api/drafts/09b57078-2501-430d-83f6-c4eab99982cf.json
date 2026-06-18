@@ -1,0 +1,545 @@
+{
+"uuid": "09b57078-2501-430d-83f6-c4eab99982cf",
+"title": "Maapõueseaduse muutmise seadus",
+"mark": 121,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Maapõueseaduse muutmise seadus 121 SE",
+"initialTitle": "Maapõueseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga soovitakse muuta maapõueseaduse § 27 lõiget 7, lihtsustades üldgeoloogilise uurimistöö loa ja uuringuloa taotluse menetluse protsessi, et aidata kaasa Eesti maapõuevarade uurimisele.",
+"initiated": "2023-05-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "d18cee4c-7b30-405f-96f2-4ab6f81efaf2",
+"name": "Hanah Lahe",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/d18cee4c-7b30-405f-96f2-4ab6f81efaf2?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "93630c8d-295d-4c76-b30b-2eebc6d35396",
+"name": "Elle Kaur",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/93630c8d-295d-4c76-b30b-2eebc6d35396?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "94ffc777-09a5-4472-bf5d-ce16e78a2341",
+"name": "Rain Epler",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/94ffc777-09a5-4472-bf5d-ce16e78a2341?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "4b96f3e5-af5e-41ce-86c9-3fdee3ce51da",
+"name": "Mart Helme",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4b96f3e5-af5e-41ce-86c9-3fdee3ce51da?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "98008392-64a2-4429-8a41-fb051823e402",
+"name": "Martin Helme",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/98008392-64a2-4429-8a41-fb051823e402?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3546,
+"text": "maavarad"
+},
+{
+"edid": 1151,
+"text": "geoloogia"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "06420e4d-994c-4bfe-bc68-e9adaa2a7a91",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cb409a80-7e8c-46b2-8b08-acc5afd09cd2",
+"fileName": "121_MaaPS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T08:55:36.707",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cb409a80-7e8c-46b2-8b08-acc5afd09cd2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cb409a80-7e8c-46b2-8b08-acc5afd09cd2"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2029256c-9ad9-49d3-ba40-651051c13661",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "43183024-4561-46fc-8115-2847575ddca5",
+"fileName": "121_Maapõueseaduse_muutmise_seadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:20:11.542",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/43183024-4561-46fc-8115-2847575ddca5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/43183024-4561-46fc-8115-2847575ddca5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2029256c-9ad9-49d3-ba40-651051c13661",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "408a8896-8dbd-49d1-86ba-12834e50d41a",
+"fileName": "121_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T11:42:49.866",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/408a8896-8dbd-49d1-86ba-12834e50d41a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/408a8896-8dbd-49d1-86ba-12834e50d41a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "06420e4d-994c-4bfe-bc68-e9adaa2a7a91",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d1b807a3-245c-4ffc-a370-c4b5413ee7f5",
+"fileName": "121_MaaPS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T08:55:52.158",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d1b807a3-245c-4ffc-a370-c4b5413ee7f5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d1b807a3-245c-4ffc-a370-c4b5413ee7f5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2029256c-9ad9-49d3-ba40-651051c13661",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1dca90b2-cc6d-4d82-b183-3714c0165eed",
+"fileName": "121_Maapõueseaduse_muutmise_seaduse_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:20:32.352",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1dca90b2-cc6d-4d82-b183-3714c0165eed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1dca90b2-cc6d-4d82-b183-3714c0165eed"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2029256c-9ad9-49d3-ba40-651051c13661",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "62f12859-8f95-408d-ab31-c18fd7878761",
+"fileName": "121_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T11:43:21.466",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62f12859-8f95-408d-ab31-c18fd7878761/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62f12859-8f95-408d-ab31-c18fd7878761"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-11T10:04:02.029",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T19:06:00.96",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-25T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 25.09.2023",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-10-11T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "keskkonnakomisjoni liige Hanah Lahe"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "652424d6-2e07-4131-9329-f16d07538716",
+"fileName": "KEKK_protokoll_25.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T15:15:59.717",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/652424d6-2e07-4131-9329-f16d07538716/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/652424d6-2e07-4131-9329-f16d07538716"
+}
+}
+},
+{
+"uuid": "ccdb0cca-3a65-4f6b-b4f7-a5a8c0ae65a0",
+"fileName": "KEKK_protokoll_25.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T12:16:41.517",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ccdb0cca-3a65-4f6b-b4f7-a5a8c0ae65a0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ccdb0cca-3a65-4f6b-b4f7-a5a8c0ae65a0"
+}
+}
+}
+]
+},
+{
+"date": "2024-01-25T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 25.01.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "742c55dd-fb91-4b2f-845e-4eea4d2ef45c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-01-25T11:44:09.36",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/742c55dd-fb91-4b2f-845e-4eea4d2ef45c"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "45498b2f-31d6-4add-8905-3ed6870f5946",
+"reference": "1-1/15-121/2",
+"title": "Vabariigi Valitsuse arvamus maapõueseaduse muutmise seaduse eelnõu 121 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-07-11",
+"files": [
+{
+"uuid": "048383f3-23d6-4f04-b843-ce2606636825",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0589_-_Maapõueseaduse_muutmise_seaduse_eelnõu_(121_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-07-11T09:05:40.029",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/048383f3-23d6-4f04-b843-ce2606636825/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/048383f3-23d6-4f04-b843-ce2606636825"
+}
+}
+},
+{
+"uuid": "02225136-807f-4781-86ce-0d6e50d4bb3f",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-07-11T09:05:39.981",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/02225136-807f-4781-86ce-0d6e50d4bb3f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/02225136-807f-4781-86ce-0d6e50d4bb3f"
+}
+}
+},
+{
+"uuid": "7cadf2a7-0d8c-4dbd-a4db-489ae05eaac6",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-07-11T09:05:40.011",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7cadf2a7-0d8c-4dbd-a4db-489ae05eaac6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7cadf2a7-0d8c-4dbd-a4db-489ae05eaac6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/45498b2f-31d6-4add-8905-3ed6870f5946"
+}
+}
+},
+{
+"uuid": "0c4697ed-32d8-4cb7-a0ab-ca2c4fdf1fe6",
+"reference": "1-1/15-121/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 121 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-17",
+"files": [
+{
+"uuid": "74c39559-b392-46c1-aa03-4bba6dcbcc61",
+"fileName": "121_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:17:14.566",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/74c39559-b392-46c1-aa03-4bba6dcbcc61/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/74c39559-b392-46c1-aa03-4bba6dcbcc61"
+}
+}
+},
+{
+"uuid": "dce4762a-d9ad-43f9-9754-e81df4f55e22",
+"fileName": "121_MaaPS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:22:29.17",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dce4762a-d9ad-43f9-9754-e81df4f55e22/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dce4762a-d9ad-43f9-9754-e81df4f55e22"
+}
+}
+},
+{
+"uuid": "ee920eee-3448-4006-911d-695f7c4328f4",
+"fileName": "230513_MaaPS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T21:18:06.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee920eee-3448-4006-911d-695f7c4328f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee920eee-3448-4006-911d-695f7c4328f4"
+}
+}
+},
+{
+"uuid": "ed068c8a-2232-43dc-a02b-4085e274f82c",
+"fileName": "1-1-15-121-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_121_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-19T16:26:45.491",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ed068c8a-2232-43dc-a02b-4085e274f82c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ed068c8a-2232-43dc-a02b-4085e274f82c"
+}
+}
+},
+{
+"uuid": "31b403d6-c17f-426d-adac-60f455511086",
+"fileName": "121_MaaPS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:22:17.656",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/31b403d6-c17f-426d-adac-60f455511086/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/31b403d6-c17f-426d-adac-60f455511086"
+}
+}
+},
+{
+"uuid": "ea694efa-3dd7-4e48-8e21-651a03dc0d3d",
+"fileName": "121_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:15:57.293",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ea694efa-3dd7-4e48-8e21-651a03dc0d3d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ea694efa-3dd7-4e48-8e21-651a03dc0d3d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0c4697ed-32d8-4cb7-a0ab-ca2c4fdf1fe6"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/09b57078-2501-430d-83f6-c4eab99982cf"
+}
+}
+}

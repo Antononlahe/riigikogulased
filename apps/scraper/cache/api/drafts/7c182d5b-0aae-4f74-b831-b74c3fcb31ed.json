@@ -1,0 +1,463 @@
+{
+"uuid": "7c182d5b-0aae-4f74-b831-b74c3fcb31ed",
+"title": "Riigikogu otsus „Riigikogu liikmest rahvusooperi nõukogu liikme tagasikutsumine ja uue liikme nimetamine\"",
+"mark": 494,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu liikmest rahvusooperi nõukogu liikme tagasikutsumine ja uue liikme nimetamine\" 494 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu liikmest rahvusooperi nõukogu liikme tagasikutsumine ja uue liikme nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu eesmärgiks on kutsuda rahvusooperi nõukogust tagasi Riigikogu liige Aleksei Jevgrafov ning nimetada rahvusooperi nõukogu uueks liikmeks Riigikogu liige Aleksandr Tšaplõgin.",
+"initiated": "2024-09-11",
+"joined": null,
+"accepted": "2024-09-18",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "71bdc9b2-841d-408f-8ace-909e8c11d7d5",
+"name": "Signe Kivi",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/71bdc9b2-841d-408f-8ace-909e8c11d7d5?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8319ccc1-fb12-4198-9a3c-2b93191fab87",
+"name": "Kristel Soodla",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8319ccc1-fb12-4198-9a3c-2b93191fab87?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2810,
+"text": "etenduskunstid"
+},
+{
+"edid": 878,
+"text": "avalik asutus"
+},
+{
+"edid": 1154,
+"text": "juhtimine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a2982a34-c205-416e-9b6c-80c8811fd9d4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ef097e52-bdce-4b76-9c20-ec7538695748",
+"fileName": "Otsuse_eelnõu_RO_nõukogu.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-11T14:07:04.792",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef097e52-bdce-4b76-9c20-ec7538695748/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef097e52-bdce-4b76-9c20-ec7538695748"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a2982a34-c205-416e-9b6c-80c8811fd9d4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "10906156-030c-46f5-8d48-bfbe5b15ce76",
+"fileName": "Seletuskiri_RO_nõukogu.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-11T14:07:04.708",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/10906156-030c-46f5-8d48-bfbe5b15ce76/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/10906156-030c-46f5-8d48-bfbe5b15ce76"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "63ab8a28-aadf-4d53-8117-374ee4a13c0c",
+"reference": "1-1/15-494/1",
+"title": "494 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e504db63-ad5f-4f2a-95dc-2d76f53bddf4",
+"fileName": "494_Otsuse_eelnõu_RO_nõukogu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T17:51:35.283",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e504db63-ad5f-4f2a-95dc-2d76f53bddf4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e504db63-ad5f-4f2a-95dc-2d76f53bddf4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a2982a34-c205-416e-9b6c-80c8811fd9d4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "646c3273-b497-4e1a-8d08-7bfdd8d65998",
+"fileName": "Otsuse_eelnõu_RO_nõukogu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-11T14:07:04.836",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/646c3273-b497-4e1a-8d08-7bfdd8d65998/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/646c3273-b497-4e1a-8d08-7bfdd8d65998"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "39739d26-d5ab-457f-8082-9716ab27a740",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a6645010-979b-4090-ab59-a8b6286777d1",
+"fileName": "494XV_RK_o_18092024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-18T20:05:51.647",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6645010-979b-4090-ab59-a8b6286777d1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6645010-979b-4090-ab59-a8b6286777d1"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "39739d26-d5ab-457f-8082-9716ab27a740",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b3703c22-b25e-4018-8999-75c4d43b8083",
+"fileName": "494XV_RK_o_18092024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-18T20:05:27.85",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b3703c22-b25e-4018-8999-75c4d43b8083/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b3703c22-b25e-4018-8999-75c4d43b8083"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "63ab8a28-aadf-4d53-8117-374ee4a13c0c",
+"reference": "1-1/15-494/1",
+"title": "494 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6caf02f3-ecef-4ebf-aeaa-e5e4021b0add",
+"fileName": "494_Seletuskiri_RO_nõukogu.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T17:52:41.123",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6caf02f3-ecef-4ebf-aeaa-e5e4021b0add/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6caf02f3-ecef-4ebf-aeaa-e5e4021b0add"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a2982a34-c205-416e-9b6c-80c8811fd9d4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "af835c60-e3c6-401f-b5cf-62e5c744d120",
+"fileName": "Seletuskiri_RO_nõukogu.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-11T14:07:04.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/af835c60-e3c6-401f-b5cf-62e5c744d120/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/af835c60-e3c6-401f-b5cf-62e5c744d120"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "327494a2-1cae-4364-944e-80a7b65f7de4",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "684ca4bf-a60c-4410-a2a0-009f6ae51836",
+"fileName": "494XV_RK_o_092024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-18T13:52:41.809",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/684ca4bf-a60c-4410-a2a0-009f6ae51836/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/684ca4bf-a60c-4410-a2a0-009f6ae51836"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "327494a2-1cae-4364-944e-80a7b65f7de4",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0115aa74-e21b-4c14-a131-a5cbdc84ce38",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-18T15:06:34.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0115aa74-e21b-4c14-a131-a5cbdc84ce38/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0115aa74-e21b-4c14-a131-a5cbdc84ce38"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-09-11T14:06:27.999",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-09-12T16:00:00",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-09-09T11:10:00",
+"sittingTitle": "Komisjoni istung teisipäev, 10.09.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-09-18T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Signe Kivi"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Esitada kultuurikomisjoni poolt eelnõu täiskogule"
+}
+],
+"protocolFiles": [
+{
+"uuid": "bbc1d0c9-47bc-40b5-a553-6da31c01c272",
+"fileName": "KULK_protokoll_nr_63_(10.09.2024).asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-18T18:16:46.799",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bbc1d0c9-47bc-40b5-a553-6da31c01c272/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bbc1d0c9-47bc-40b5-a553-6da31c01c272"
+}
+}
+},
+{
+"uuid": "2ab25f91-ea3d-467f-bf3f-a7269dc21b41",
+"fileName": "KULK_protokoll_nr_63_(10.09.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-18T18:14:10.203",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ab25f91-ea3d-467f-bf3f-a7269dc21b41/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ab25f91-ea3d-467f-bf3f-a7269dc21b41"
+}
+}
+}
+]
+},
+{
+"date": "2024-09-18T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 18.09.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "c0882935-647a-4c88-a8a4-da6666940892",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-09-18T14:46:02.703",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/c0882935-647a-4c88-a8a4-da6666940892"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-09-18T19:23:05.312",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-09-20T16:08:28.06",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/7c182d5b-0aae-4f74-b831-b74c3fcb31ed"
+}
+}
+}

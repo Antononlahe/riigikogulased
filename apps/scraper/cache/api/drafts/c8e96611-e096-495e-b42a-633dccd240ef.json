@@ -1,0 +1,525 @@
+{
+"uuid": "c8e96611-e096-495e-b42a-633dccd240ef",
+"title": "Kodakondsuse seaduse muutmise seadus",
+"mark": 56,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kodakondsuse seaduse muutmise seadus 56 SE",
+"initialTitle": "Kodakondsuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on sätestada naturalisatsiooni korras Eesti kodakondsuse taotlejatele esitatav eesti keele oskuse nõue vähemalt B-2 tasemel.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "001dd80c-38c3-4557-b3ee-408d3ffd5cd7",
+"name": "Katrin Kuusemäe",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/001dd80c-38c3-4557-b3ee-408d3ffd5cd7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "b483f709-afa6-4dd9-a8d5-46345c917272",
+"name": "Karin Tuulik",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/b483f709-afa6-4dd9-a8d5-46345c917272?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2034,
+"text": "kodakondsus"
+},
+{
+"edid": 5313,
+"text": "ametlik keel"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "617085e2-296a-4594-8641-2f30959d3bf4",
+"title": "56 SE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d757adb0-cb38-4f82-9355-0c39b60eddb6",
+"fileName": "56_KodS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-19T16:09:30.953",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d757adb0-cb38-4f82-9355-0c39b60eddb6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d757adb0-cb38-4f82-9355-0c39b60eddb6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fdda8cbe-9323-4a8c-a8dd-7278fab4b52d",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "17735382-d326-458b-b084-e1ec19221297",
+"fileName": "56_Kodakondsuse_seadus.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T13:17:52.083",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17735382-d326-458b-b084-e1ec19221297/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17735382-d326-458b-b084-e1ec19221297"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fdda8cbe-9323-4a8c-a8dd-7278fab4b52d",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d1313dea-b762-4054-be07-3be6e8ac8820",
+"fileName": "56_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:01:55.808",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d1313dea-b762-4054-be07-3be6e8ac8820/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d1313dea-b762-4054-be07-3be6e8ac8820"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "617085e2-296a-4594-8641-2f30959d3bf4",
+"title": "56 SE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f904cf2b-4420-48e6-8430-ff1dd77b8872",
+"fileName": "56_KodS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-19T16:09:53.021",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f904cf2b-4420-48e6-8430-ff1dd77b8872/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f904cf2b-4420-48e6-8430-ff1dd77b8872"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fdda8cbe-9323-4a8c-a8dd-7278fab4b52d",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3633c507-4ad0-4ad4-bb0a-b5a55430b08a",
+"fileName": "56_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:02:07.06",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3633c507-4ad0-4ad4-bb0a-b5a55430b08a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3633c507-4ad0-4ad4-bb0a-b5a55430b08a"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T22:38:23.449",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:30:00.96",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-27T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Katrin Kuusemäe"
+}
+],
+"protocolFiles": [
+{
+"uuid": "7a9abd67-73de-42cd-b791-6dccbca1792d",
+"fileName": "Volikiri_A.Allas_asendusliige_19.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:50:38.884",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a9abd67-73de-42cd-b791-6dccbca1792d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a9abd67-73de-42cd-b791-6dccbca1792d"
+}
+}
+},
+{
+"uuid": "3e1f3d8f-de95-4fee-b7b9-ba6207e6ce5b",
+"fileName": "Asendusliige_H.Kütt_19092023-1.docx",
+"fileExtension": "docx",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:50:49.921",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e1f3d8f-de95-4fee-b7b9-ba6207e6ce5b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e1f3d8f-de95-4fee-b7b9-ba6207e6ce5b"
+}
+}
+},
+{
+"uuid": "cd1026a1-c9ab-4a9c-9c6a-f5f782fea4f9",
+"fileName": "T._Suslov_asendusliige_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:48:01.054",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd1026a1-c9ab-4a9c-9c6a-f5f782fea4f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd1026a1-c9ab-4a9c-9c6a-f5f782fea4f9"
+}
+}
+},
+{
+"uuid": "ffd2cca2-111c-426f-a7fd-8998e10a4295",
+"fileName": "PÕSK.protokoll.19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:58:05.029",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ffd2cca2-111c-426f-a7fd-8998e10a4295/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ffd2cca2-111c-426f-a7fd-8998e10a4295"
+}
+}
+}
+]
+},
+{
+"date": "2023-10-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.10.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "6ee9d080-c2cd-4cf3-a5a3-a5068346411c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-10-12T00:03:07.813",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/6ee9d080-c2cd-4cf3-a5a3-a5068346411c"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6b60219f-48c5-4f7a-99e5-25256289c566",
+"reference": "1-1/15-56/1",
+"title": "Vabariihgi Valitsuselt arvamuse küsimine eelnõu 56 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-10",
+"files": [
+{
+"uuid": "e21ee9d2-79d7-400d-9de7-d6e5e99539fe",
+"fileName": "56_KodS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:58:41.959",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e21ee9d2-79d7-400d-9de7-d6e5e99539fe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e21ee9d2-79d7-400d-9de7-d6e5e99539fe"
+}
+}
+},
+{
+"uuid": "36d259f0-4f1e-46a1-a1be-b2a3f44ac6c4",
+"fileName": "56_KodS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:58:26.043",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/36d259f0-4f1e-46a1-a1be-b2a3f44ac6c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/36d259f0-4f1e-46a1-a1be-b2a3f44ac6c4"
+}
+}
+},
+{
+"uuid": "58747d99-fcff-472a-b181-07550cc3ccce",
+"fileName": "56_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:57:59.295",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/58747d99-fcff-472a-b181-07550cc3ccce/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/58747d99-fcff-472a-b181-07550cc3ccce"
+}
+}
+},
+{
+"uuid": "8fc08ea4-3b50-4a69-8e29-883e5ff6ea89",
+"fileName": "230512_KodS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T09:44:04.854",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8fc08ea4-3b50-4a69-8e29-883e5ff6ea89/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8fc08ea4-3b50-4a69-8e29-883e5ff6ea89"
+}
+}
+},
+{
+"uuid": "bf33a32e-7f21-405e-a18c-9c17d42c9ea3",
+"fileName": "56_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:58:14.473",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf33a32e-7f21-405e-a18c-9c17d42c9ea3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf33a32e-7f21-405e-a18c-9c17d42c9ea3"
+}
+}
+},
+{
+"uuid": "68222132-2084-413d-812c-9b4d63c14e95",
+"fileName": "1-1-15-56-1_-_Vabariihgi_Valitsuselt_arvamuse_küsimine_eelnõu_56_SE_kohta.asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T09:44:39.92",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/68222132-2084-413d-812c-9b4d63c14e95/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/68222132-2084-413d-812c-9b4d63c14e95"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6b60219f-48c5-4f7a-99e5-25256289c566"
+}
+}
+},
+{
+"uuid": "128d2d65-9d82-4c3c-a783-9111d1cd07c0",
+"reference": "1-1/15-56/2",
+"title": "Vabariigi Valitsuse arvamus kodakondsuse seaduse muutmise seaduse eelnõu 56 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-19",
+"files": [
+{
+"uuid": "789c991a-9ce6-40af-aa73-f11c9b2217a3",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine_kodakondsuse_seaduse_muutmise_seaduse_eelnõu_(56_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-19T22:03:21.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/789c991a-9ce6-40af-aa73-f11c9b2217a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/789c991a-9ce6-40af-aa73-f11c9b2217a3"
+}
+}
+},
+{
+"uuid": "ea104cc1-a5b9-4094-9e33-92b8cbf98e89",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0499_-_Kodakondsuse_seaduse_muutmise_seaduse_eelnõu_(56_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-19T22:03:21.325",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ea104cc1-a5b9-4094-9e33-92b8cbf98e89/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ea104cc1-a5b9-4094-9e33-92b8cbf98e89"
+}
+}
+},
+{
+"uuid": "7c5cf3e6-f228-42cb-a04c-c77cfb3c2da7",
+"fileName": "1-7105-4_19.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-19T22:03:21.269",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c5cf3e6-f228-42cb-a04c-c77cfb3c2da7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c5cf3e6-f228-42cb-a04c-c77cfb3c2da7"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/128d2d65-9d82-4c3c-a783-9111d1cd07c0"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/c8e96611-e096-495e-b42a-633dccd240ef"
+}
+}
+}

@@ -1,0 +1,507 @@
+{
+"uuid": "0eaa374c-d503-4204-b43e-8f80265807a9",
+"title": "Jahiseaduse muutmise seadus",
+"mark": 444,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Jahiseaduse muutmise seadus 444 SE",
+"initialTitle": "Jahiseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga soovitakse vabastada pensionärid jahipidamisõiguse tasust, millega antakse neile jahipidamisel soodsamad võimalused riigiga sõlmitud lepingute täitmisel.",
+"initiated": "2024-05-27",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "d18cee4c-7b30-405f-96f2-4ab6f81efaf2",
+"name": "Hanah Lahe",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/d18cee4c-7b30-405f-96f2-4ab6f81efaf2?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": null,
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "db532de2-5abd-4b6d-a82c-2d9a75fd9d18",
+"name": "Kalle Grünthal",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/db532de2-5abd-4b6d-a82c-2d9a75fd9d18?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5396,
+"text": "jahipidamine"
+},
+{
+"edid": 5839,
+"text": "keskkonnamaks"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "32990b1e-80fc-4eeb-a787-318484ea3f03",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1dfa1e00-db17-4683-8029-279ecb9930ba",
+"fileName": "444_JahiS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-24T15:16:01.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1dfa1e00-db17-4683-8029-279ecb9930ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1dfa1e00-db17-4683-8029-279ecb9930ba"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "75f5dab5-bdbd-41af-b83d-7427b37096ac",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0f596021-b156-4a34-82cb-f00ad6b7fc4a",
+"fileName": "EELNÕU.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T10:42:04.786",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0f596021-b156-4a34-82cb-f00ad6b7fc4a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0f596021-b156-4a34-82cb-f00ad6b7fc4a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "75f5dab5-bdbd-41af-b83d-7427b37096ac",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "08b51932-3ce3-4b66-9415-0e0f21a68cd9",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T16:36:37.552",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/08b51932-3ce3-4b66-9415-0e0f21a68cd9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/08b51932-3ce3-4b66-9415-0e0f21a68cd9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "32990b1e-80fc-4eeb-a787-318484ea3f03",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "45d6f883-2190-4da2-83e7-eb6787ccce1b",
+"fileName": "444_JahS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-24T15:16:30.744",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/45d6f883-2190-4da2-83e7-eb6787ccce1b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/45d6f883-2190-4da2-83e7-eb6787ccce1b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "75f5dab5-bdbd-41af-b83d-7427b37096ac",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c544f4f3-6245-46ac-84db-2e74aa063dec",
+"fileName": "Jahiseaduse_muutmise_seaduse_eelnõu_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T10:42:27.639",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c544f4f3-6245-46ac-84db-2e74aa063dec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c544f4f3-6245-46ac-84db-2e74aa063dec"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "75f5dab5-bdbd-41af-b83d-7427b37096ac",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "370cda8d-c8fc-459c-b77c-c36ad5355774",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T16:36:54.807",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/370cda8d-c8fc-459c-b77c-c36ad5355774/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/370cda8d-c8fc-459c-b77c-c36ad5355774"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-05-27T16:35:14.328",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-05-28T14:10:00.941",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-09-24T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 24.09.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-10-08T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Hanah Lahe"
+}
+],
+"protocolFiles": [
+{
+"uuid": "df40fbc0-a35b-48d6-99d9-21f612f7f2c6",
+"fileName": "KEKK_protokoll_24.09.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-30T15:45:39.567",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/df40fbc0-a35b-48d6-99d9-21f612f7f2c6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/df40fbc0-a35b-48d6-99d9-21f612f7f2c6"
+}
+}
+},
+{
+"uuid": "cc2be0ae-0da7-47f8-9edd-e2e74b8d6eea",
+"fileName": "KEKK_protokoll_24.09.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-30T15:46:17.726",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cc2be0ae-0da7-47f8-9edd-e2e74b8d6eea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cc2be0ae-0da7-47f8-9edd-e2e74b8d6eea"
+}
+}
+}
+]
+},
+{
+"date": "2024-10-08T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 8.10.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "1c6bfb63-5ad9-47c5-b329-529ee3842c86",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-10-08T10:51:03.97",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/1c6bfb63-5ad9-47c5-b329-529ee3842c86"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "60a6c2a8-88a8-4f64-afb6-5a9e8aa6e4e3",
+"reference": "1-1/15-444/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 444 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-27",
+"files": [
+{
+"uuid": "3ed3e141-6c81-4e3b-be16-5df69a251d8e",
+"fileName": "240528_JahiS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T18:05:37.262",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ed3e141-6c81-4e3b-be16-5df69a251d8e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ed3e141-6c81-4e3b-be16-5df69a251d8e"
+}
+}
+},
+{
+"uuid": "adc6ff5c-1115-44bd-8b84-c3b29c1289ad",
+"fileName": "1-1-15-444-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_444_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T13:58:28.656",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/adc6ff5c-1115-44bd-8b84-c3b29c1289ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/adc6ff5c-1115-44bd-8b84-c3b29c1289ad"
+}
+}
+},
+{
+"uuid": "0cf30ba3-165c-4b5e-a521-7beb9cca2ef8",
+"fileName": "JahS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T10:44:56.846",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0cf30ba3-165c-4b5e-a521-7beb9cca2ef8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0cf30ba3-165c-4b5e-a521-7beb9cca2ef8"
+}
+}
+},
+{
+"uuid": "3d4a047a-de37-4f5d-a598-b3cb83bdac09",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T17:39:05.161",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d4a047a-de37-4f5d-a598-b3cb83bdac09/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d4a047a-de37-4f5d-a598-b3cb83bdac09"
+}
+}
+},
+{
+"uuid": "2e1960eb-32aa-489b-b3c3-d897d1bc235a",
+"fileName": "JahiS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T10:44:44.952",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2e1960eb-32aa-489b-b3c3-d897d1bc235a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2e1960eb-32aa-489b-b3c3-d897d1bc235a"
+}
+}
+},
+{
+"uuid": "9ec2afb8-d400-47eb-bd12-caeb1e39bf5b",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T17:39:16.544",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9ec2afb8-d400-47eb-bd12-caeb1e39bf5b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9ec2afb8-d400-47eb-bd12-caeb1e39bf5b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/60a6c2a8-88a8-4f64-afb6-5a9e8aa6e4e3"
+}
+}
+},
+{
+"uuid": "43a77cda-e7a2-49c0-b360-d10ba1489f7d",
+"reference": "1-1/15-444/2",
+"title": "Vabariigi Valitsuse arvamus jahiseaduse muutmise seaduse eelnõu 444 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-07-10",
+"files": [
+{
+"uuid": "cf5a1df7-ac39-4a32-a318-3418d7e389be",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0568_-_Jahiseaduse_muutmise_seaduse_eelnõu_(444_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-10T08:40:08.195",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf5a1df7-ac39-4a32-a318-3418d7e389be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf5a1df7-ac39-4a32-a318-3418d7e389be"
+}
+}
+},
+{
+"uuid": "3ae68771-a19d-4c23-8c46-2ee5dcffe3bd",
+"fileName": "Jahiseaduse_muutmise_seaduse_eelnõu_(444_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-10T08:40:08.175",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ae68771-a19d-4c23-8c46-2ee5dcffe3bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ae68771-a19d-4c23-8c46-2ee5dcffe3bd"
+}
+}
+},
+{
+"uuid": "676e8b7d-3bdb-4487-9d55-b00063f87a72",
+"fileName": "Jahiseaduse_muutmise_seaduse_eelnï¿½u_(444_SE).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-07-10T08:40:08.086",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/676e8b7d-3bdb-4487-9d55-b00063f87a72/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/676e8b7d-3bdb-4487-9d55-b00063f87a72"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/43a77cda-e7a2-49c0-b360-d10ba1489f7d"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/0eaa374c-d503-4204-b43e-8f80265807a9"
+}
+}
+}

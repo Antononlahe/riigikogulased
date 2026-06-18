@@ -1,0 +1,1889 @@
+{
+"uuid": "6f5b83e6-e182-461a-a16b-ca6a58b2da7b",
+"title": "Maamaksuseaduse muutmise seadus",
+"mark": 437,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Maamaksuseaduse muutmise seadus 437 SE",
+"initialTitle": "Maamaksuseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu muudatused suurendavad kohalike omavalitsuste (KOV) otsustusvõimalusi maamaksu määramisel. Praegu on KOVide maksuautonoomia ebapiisav, mistõttu on Eesti KOVid suures sõltuvuses keskvalitsuse rahastamise otsustest. See sunnib KOVe ära ootama riigipoolsed rahastamise otsused eelarvete tegemisel ning pärsib pikemaajalist planeerimist kohaliku elu korraldamisel. KOVi tasandi maksuautonoomia võimaldab kogukonnal leida tasakaalu teenuste taseme ja maksudega panustamise vahel. See tähendab, et kogukonnas saab kokku leppida, mida ollakse nõus maksma mingi teenuse kättesaadavuse või kvaliteedi tõstmise eest.",
+"initiated": "2024-05-13",
+"joined": null,
+"accepted": "2024-06-19",
+"amendmentsDeadline": "2024-06-05T17:15:00",
+"responsibleMember": {
+"uuid": "c0c7bea2-4c5e-4295-9c0f-dca52d602098",
+"name": "Jürgen Ligi",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/c0c7bea2-4c5e-4295-9c0f-dca52d602098?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 2813,
+"text": "maaomand"
+},
+{
+"edid": 1314,
+"text": "omandimaks"
+},
+{
+"edid": 68,
+"text": "kohalik omavalitsus"
+},
+{
+"edid": 4279,
+"text": "maksusoodustus"
+},
+{
+"edid": 935,
+"text": "maksuvabastus"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "006f9d13-542f-47d0-a81a-048073f035b2",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c73ed8d8-1b93-4f17-8b79-925d74394faf",
+"fileName": "RK_24-00758-2.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:25:07.511",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c73ed8d8-1b93-4f17-8b79-925d74394faf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c73ed8d8-1b93-4f17-8b79-925d74394faf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "006f9d13-542f-47d0-a81a-048073f035b2",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7860447b-b648-4039-92bb-3e9b5b7ca3c5",
+"fileName": "[EIS]_Eelnõu_esitamine__REM-24-0273_-_Maamaksuseaduse_muutmise_seaduse_eelnõu.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:25:07.869",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7860447b-b648-4039-92bb-3e9b5b7ca3c5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7860447b-b648-4039-92bb-3e9b5b7ca3c5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "78b06b4f-c601-432f-ab7c-5a2ad4eb9de7",
+"title": "437 SE I lug. tekst, seletuskiri ja lisa",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6d740d11-13d3-4ef9-bb8c-741bbcfcfebc",
+"fileName": "437_MaaMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-16T10:04:55.476",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6d740d11-13d3-4ef9-bb8c-741bbcfcfebc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6d740d11-13d3-4ef9-bb8c-741bbcfcfebc"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "53116634-483b-49eb-8caa-b3e769fc7c98",
+"title": "Eelnõu 437 SE III lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0ce318ed-5ff1-4ae7-a31e-66a4427ed077",
+"fileName": "Eelnõu_437_III_SE_MaaMSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-17T10:20:23.637",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0ce318ed-5ff1-4ae7-a31e-66a4427ed077/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0ce318ed-5ff1-4ae7-a31e-66a4427ed077"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "31639f86-7aa8-4b05-ad98-5ea6bf4f056a",
+"title": "Eelnõu 437 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "67ca91e4-8807-4a38-8ecf-661a384e7a21",
+"fileName": "Eelnõu_437_II_SE_MaaMSms_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-10T16:50:48.764",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67ca91e4-8807-4a38-8ecf-661a384e7a21/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67ca91e4-8807-4a38-8ecf-661a384e7a21"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "006f9d13-542f-47d0-a81a-048073f035b2",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b4d96043-0b27-40d6-8410-bff3b0ce8c40",
+"fileName": "Seaduseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:25:07.739",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4d96043-0b27-40d6-8410-bff3b0ce8c40/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4d96043-0b27-40d6-8410-bff3b0ce8c40"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "006f9d13-542f-47d0-a81a-048073f035b2",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6370f0d9-bc30-4561-914f-e09222981d2a",
+"fileName": "Seaduseelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:25:07.798",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6370f0d9-bc30-4561-914f-e09222981d2a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6370f0d9-bc30-4561-914f-e09222981d2a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "006f9d13-542f-47d0-a81a-048073f035b2",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9f0942a2-6760-48c6-a81d-0319f1ec4f50",
+"fileName": "24-00758-2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:25:07.719",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9f0942a2-6760-48c6-a81d-0319f1ec4f50/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9f0942a2-6760-48c6-a81d-0319f1ec4f50"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "823a4e5b-79f2-46c5-9770-478801916d8e",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eb484c76-7f5b-435c-a666-c4be4db9a9f6",
+"fileName": "437_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-19T11:02:51.498",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb484c76-7f5b-435c-a666-c4be4db9a9f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb484c76-7f5b-435c-a666-c4be4db9a9f6"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "53b5256e-87b2-47d7-9dbc-e5f3e4fdec8c",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "93b618a6-a6b1-46d7-958e-5a5320753885",
+"fileName": "437XV_Maamaksus_ms_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-29T14:09:49.573",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/93b618a6-a6b1-46d7-958e-5a5320753885/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/93b618a6-a6b1-46d7-958e-5a5320753885"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "53b5256e-87b2-47d7-9dbc-e5f3e4fdec8c",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "480cd0f7-1107-43e2-92d9-c202179aacdc",
+"fileName": "437XV_Maamaksus_ms_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-29T14:08:11.733",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/480cd0f7-1107-43e2-92d9-c202179aacdc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/480cd0f7-1107-43e2-92d9-c202179aacdc"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "31639f86-7aa8-4b05-ad98-5ea6bf4f056a",
+"title": "Eelnõu 437 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "da6f18a3-216d-4cbd-9953-fae2d69dc6f2",
+"fileName": "Muudatusettepanekute_loetelu_437_SE_II_ME_loetelu_MaaMSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-10T16:51:35.683",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da6f18a3-216d-4cbd-9953-fae2d69dc6f2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da6f18a3-216d-4cbd-9953-fae2d69dc6f2"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "78b06b4f-c601-432f-ab7c-5a2ad4eb9de7",
+"title": "437 SE I lug. tekst, seletuskiri ja lisa",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6ad6242b-e89e-47a3-8a5b-9a66756df9ed",
+"fileName": "437_MaaMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-16T10:05:20.039",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6ad6242b-e89e-47a3-8a5b-9a66756df9ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6ad6242b-e89e-47a3-8a5b-9a66756df9ed"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "31639f86-7aa8-4b05-ad98-5ea6bf4f056a",
+"title": "Eelnõu 437 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "52639ef2-d394-42af-a626-3f71f77b023f",
+"fileName": "Seletuskiri_437_SE_II_MaaMSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-10T16:51:48.815",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52639ef2-d394-42af-a626-3f71f77b023f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52639ef2-d394-42af-a626-3f71f77b023f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "006f9d13-542f-47d0-a81a-048073f035b2",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2b42778b-97d2-4e9b-8292-283352d15347",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:25:07.757",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b42778b-97d2-4e9b-8292-283352d15347/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b42778b-97d2-4e9b-8292-283352d15347"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "006f9d13-542f-47d0-a81a-048073f035b2",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8ee1fe5f-333b-4a97-9eee-da1a785de37a",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:25:07.815",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ee1fe5f-333b-4a97-9eee-da1a785de37a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ee1fe5f-333b-4a97-9eee-da1a785de37a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "78b06b4f-c601-432f-ab7c-5a2ad4eb9de7",
+"title": "437 SE I lug. tekst, seletuskiri ja lisa",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c5b39301-9bff-4063-84ef-670656b8e726",
+"fileName": "437_MaaMS_m_s_SK_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (kooskõlastustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-16T10:05:32.776",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c5b39301-9bff-4063-84ef-670656b8e726/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c5b39301-9bff-4063-84ef-670656b8e726"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "006f9d13-542f-47d0-a81a-048073f035b2",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f35a0b35-f863-47bd-87e3-2eee5a5acc04",
+"fileName": "Seletuskirja_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (kooskõlastustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:25:07.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f35a0b35-f863-47bd-87e3-2eee5a5acc04/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f35a0b35-f863-47bd-87e3-2eee5a5acc04"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "006f9d13-542f-47d0-a81a-048073f035b2",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c280d7a7-c275-4364-b00b-d917b51d553e",
+"fileName": "Seletuskirja_lisa.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa (kooskõlastustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:25:07.84",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c280d7a7-c275-4364-b00b-d917b51d553e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c280d7a7-c275-4364-b00b-d917b51d553e"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "ed1beb97-6a57-4237-9f3b-3619e765a184",
+"reference": "1-1/15-437/11",
+"title": "Vabariigi Presidendi otsus nr 443",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "01138ac9-6b37-4d66-9dcc-da1710580132",
+"fileName": "VP_29062024_o443.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-29T14:06:52.395",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/01138ac9-6b37-4d66-9dcc-da1710580132/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/01138ac9-6b37-4d66-9dcc-da1710580132"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "ed1beb97-6a57-4237-9f3b-3619e765a184",
+"reference": "1-1/15-437/11",
+"title": "Vabariigi Presidendi otsus nr 443",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "abce818f-0d65-4e09-87f2-8101b0cc0106",
+"fileName": "VP_29062024_o443.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-29T14:06:51.205",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/abce818f-0d65-4e09-87f2-8101b0cc0106/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/abce818f-0d65-4e09-87f2-8101b0cc0106"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "823a4e5b-79f2-46c5-9770-478801916d8e",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e57c0840-fe95-42a5-96d4-20025d58e732",
+"fileName": "437XV_Maamaksus_ms_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-19T11:00:34.423",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e57c0840-fe95-42a5-96d4-20025d58e732/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e57c0840-fe95-42a5-96d4-20025d58e732"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "823a4e5b-79f2-46c5-9770-478801916d8e",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8a83f45e-be2b-4450-9857-1e30a23bb9ab",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-19T13:42:57.574",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8a83f45e-be2b-4450-9857-1e30a23bb9ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8a83f45e-be2b-4450-9857-1e30a23bb9ab"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-05-13T15:24:38.632",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-05-13T16:24:00",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2024-05-14T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 14.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "d3e26c31-4e2a-4b4a-905a-d71462bda4c1",
+"fileName": "RAHK_protokoll_14.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T16:51:14.124",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d3e26c31-4e2a-4b4a-905a-d71462bda4c1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d3e26c31-4e2a-4b4a-905a-d71462bda4c1"
+}
+}
+},
+{
+"uuid": "dbea9113-82ef-482e-a780-ee4cf429c711",
+"fileName": "RAHK_protokoll_81_14_05_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T16:49:56.863",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dbea9113-82ef-482e-a780-ee4cf429c711/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dbea9113-82ef-482e-a780-ee4cf429c711"
+}
+}
+},
+{
+"uuid": "8bb70ac7-548b-4e0a-9e0a-66e8c78aa57e",
+"fileName": "RAHK_protokoll_81_14_05_2024_364_SE_ME_II_RAM_ettepanekud_lisa_4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 4 (RAM muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T11:19:29.328",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8bb70ac7-548b-4e0a-9e0a-66e8c78aa57e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8bb70ac7-548b-4e0a-9e0a-66e8c78aa57e"
+}
+}
+},
+{
+"uuid": "2c10ae31-5f78-49ad-9780-8323cfa3f8c8",
+"fileName": "RAM_364_SE_ettekanne_14.05.2024_lisa_5.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 5 (RAM ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T11:14:21.366",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c10ae31-5f78-49ad-9780-8323cfa3f8c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c10ae31-5f78-49ad-9780-8323cfa3f8c8"
+}
+}
+},
+{
+"uuid": "6b059717-8017-460c-b32a-138a6bff824f",
+"fileName": "RAHK_protokoll_81_14_05_2024_398_SE_ME_loetelu_kavand_lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (muudatusettepanekute loetelu)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T11:00:57.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b059717-8017-460c-b32a-138a6bff824f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b059717-8017-460c-b32a-138a6bff824f"
+}
+}
+},
+{
+"uuid": "d956cd8f-9383-4206-8185-c080bb3e07aa",
+"fileName": "RAHK_prorokoll_81_14_05_2024_389_SE_II_RAM_ettepanekud_UUS_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (RAM ettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T10:53:07.895",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d956cd8f-9383-4206-8185-c080bb3e07aa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d956cd8f-9383-4206-8185-c080bb3e07aa"
+}
+}
+},
+{
+"uuid": "3a8f0f89-4203-425c-a653-1dcc7f85f5b8",
+"fileName": "EAN_ettekanne_14.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Eelarvenõukogu ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T16:10:10.629",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a8f0f89-4203-425c-a653-1dcc7f85f5b8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a8f0f89-4203-425c-a653-1dcc7f85f5b8"
+}
+}
+},
+{
+"uuid": "d7bc6398-80ed-49dc-86a1-8b8366561ceb",
+"fileName": "Asendusliikme_volikiri_S.Pohlak-_K.Kingo_14.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:18:53.976",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7bc6398-80ed-49dc-86a1-8b8366561ceb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7bc6398-80ed-49dc-86a1-8b8366561ceb"
+}
+}
+},
+{
+"uuid": "42e91dfa-cdbb-420a-b67a-ba92b43cd98d",
+"fileName": "Asendusliikme_volikiri_M.Kallas-Priit_Lomp_14.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:18:40.148",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42e91dfa-cdbb-420a-b67a-ba92b43cd98d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42e91dfa-cdbb-420a-b67a-ba92b43cd98d"
+}
+}
+},
+{
+"uuid": "507018fa-cc46-48c1-bccb-aa71a95ccb69",
+"fileName": "Asendusliikme_volikiri_A._Korobeinik-A._Kovalenko-Kõlvart_14.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:18:17.638",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/507018fa-cc46-48c1-bccb-aa71a95ccb69/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/507018fa-cc46-48c1-bccb-aa71a95ccb69"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-16T09:07:00",
+"sittingTitle": "Komisjoni erakorraline istung neljapäev, 16.05.2024 kell 09.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-28T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni liige Jürgen Ligi"
+},
+{
+"decision": {
+"code": "MAARATA_ME_TAHTAJAKS",
+"value": "Teha ettepanek määrata muudatusettepanekute tähtajaks"
+},
+"plenaryAgendaDateTime": "2024-06-05T17:15:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "5a90900c-142c-4d2b-b2f8-28e075ca7988",
+"fileName": "RAHK_protokoll_83_16_05_2024_erakorraline.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T13:07:01.005",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5a90900c-142c-4d2b-b2f8-28e075ca7988/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5a90900c-142c-4d2b-b2f8-28e075ca7988"
+}
+}
+},
+{
+"uuid": "22411612-381e-4401-84f5-007cd0824c35",
+"fileName": "RAHK_protokoll_16.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T13:08:09.492",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22411612-381e-4401-84f5-007cd0824c35/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22411612-381e-4401-84f5-007cd0824c35"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-29T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 29.05.2024 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "c3a7ac27-143a-4ff1-ae1f-01a422117d8f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-05-29T15:43:10.747",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/c3a7ac27-143a-4ff1-ae1f-01a422117d8f"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-06T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 6.06.2024 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "dff0198b-d306-4eb3-8b97-1e87d0c6a04a",
+"fileName": "RAHK_protokoll_06.06.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-13T17:14:25.881",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dff0198b-d306-4eb3-8b97-1e87d0c6a04a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dff0198b-d306-4eb3-8b97-1e87d0c6a04a"
+}
+}
+},
+{
+"uuid": "6ad6a63f-8602-4afb-94ca-480189986dda",
+"fileName": "Asendusliikme_volikiri_A.Kokk-U.Reinsalu_06.06.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-13T17:06:30.81",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6ad6a63f-8602-4afb-94ca-480189986dda/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6ad6a63f-8602-4afb-94ca-480189986dda"
+}
+}
+},
+{
+"uuid": "a61f7327-5f95-4c70-ac64-4f4365101032",
+"fileName": "RAHK_protokoll_nr_90_06.06.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-13T17:06:04.286",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a61f7327-5f95-4c70-ac64-4f4365101032/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a61f7327-5f95-4c70-ac64-4f4365101032"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-06-04T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 4.06.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-06-12T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "323f9523-49da-4c55-9e38-368fe19b3d41",
+"fileName": "RAHK_protokoll_04.06.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-13T15:59:39.615",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/323f9523-49da-4c55-9e38-368fe19b3d41/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/323f9523-49da-4c55-9e38-368fe19b3d41"
+}
+}
+},
+{
+"uuid": "e51cc1ce-28b7-4f89-857f-187a2873e686",
+"fileName": "RAHK_protokoll_88_04_06_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-13T15:58:57.046",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e51cc1ce-28b7-4f89-857f-187a2873e686/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e51cc1ce-28b7-4f89-857f-187a2873e686"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-10T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 10.06.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "dd03e480-0793-40ea-9edc-a2d1d9833032",
+"fileName": "Finantsinspektsiooni_ettekanne_10.06.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Finantsinspektsiooni esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-14T15:12:08.448",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dd03e480-0793-40ea-9edc-a2d1d9833032/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dd03e480-0793-40ea-9edc-a2d1d9833032"
+}
+}
+},
+{
+"uuid": "465f502f-243d-4cf6-b411-cee9be4a24ab",
+"fileName": "RAHK_protokoll_10.06.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-14T15:15:16.429",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/465f502f-243d-4cf6-b411-cee9be4a24ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/465f502f-243d-4cf6-b411-cee9be4a24ab"
+}
+}
+},
+{
+"uuid": "5034d3a4-d086-4cca-935f-f9ebf4c8118d",
+"fileName": "437_SE_ME_loetelu_EKRE_10.06.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (437 SE ME-de loetelu)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-14T15:11:31.059",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5034d3a4-d086-4cca-935f-f9ebf4c8118d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5034d3a4-d086-4cca-935f-f9ebf4c8118d"
+}
+}
+},
+{
+"uuid": "527232e6-c6d6-4f46-85be-e7684a008030",
+"fileName": "RAHK_protokoll_nr_91_10.06.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-14T15:11:12.251",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/527232e6-c6d6-4f46-85be-e7684a008030/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/527232e6-c6d6-4f46-85be-e7684a008030"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.06.2024 14:00",
+"decisionCode": "II_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "35f09edd-f234-4abd-90b9-d9a29a380a9c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "II lugemise katkestamine",
+"startDateTime": "2024-06-12T22:28:57.32",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/35f09edd-f234-4abd-90b9-d9a29a380a9c"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-06-13T15:09:42.699",
+"status": "SAADETUD_III_LUGEMISELE"
+},
+{
+"date": "2024-06-19T10:00:00",
+"sittingTitle": "Täiskogu täiendav istung kolmapäev, 19.06.2024 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "17dd1bc7-1b7a-48c4-92e6-af961db10825",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-06-19T11:16:19.873",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/17dd1bc7-1b7a-48c4-92e6-af961db10825"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-06-20T18:38:11.279",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-06-29T14:12:07.147",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-06-30T07:50:42.148",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "ce7fdec0-ad3e-4ed6-9bf1-d51ccd6ddd6d",
+"reference": "1-1/15-437/3",
+"title": "Eesti Omanike Keskliidu arvamus maamaksuseaduse muutmise seaduse eelnõu 437 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-06-04",
+"files": [
+{
+"uuid": "57540262-4330-4d63-82ff-a018322a7e36",
+"fileName": "Maamaksuseaduse_muutmise_eelnõust.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T15:01:22.472",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/57540262-4330-4d63-82ff-a018322a7e36/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/57540262-4330-4d63-82ff-a018322a7e36"
+}
+}
+},
+{
+"uuid": "918b4f66-8045-4f5a-89e8-0ad13cd640df",
+"fileName": "Maamaksuseaduse_muutmise_eelnõust.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T15:01:22.404",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/918b4f66-8045-4f5a-89e8-0ad13cd640df/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/918b4f66-8045-4f5a-89e8-0ad13cd640df"
+}
+}
+},
+{
+"uuid": "0991c5e1-5479-4df2-bd3b-93f22d3db3c5",
+"fileName": "EOKL_maamaksuseaduse_muutmise_eelnõust.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T15:01:22.492",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0991c5e1-5479-4df2-bd3b-93f22d3db3c5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0991c5e1-5479-4df2-bd3b-93f22d3db3c5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ce7fdec0-ad3e-4ed6-9bf1-d51ccd6ddd6d"
+}
+}
+},
+{
+"uuid": "45155754-3873-403d-9aa4-1e9474dfeff7",
+"reference": "1-1/15-437/9",
+"title": "Eestimaa Talupidajate Keskliidu arvamus maamaksuseaduse muutmise seaduse eelnõu 437 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-06-06",
+"files": [
+{
+"uuid": "4f09339d-0814-4871-8d65-bf1d85f02ce2",
+"fileName": "Maamaksuseaduse_muutmise_seaduse_eelnõu_437_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-06T08:27:50.988",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4f09339d-0814-4871-8d65-bf1d85f02ce2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4f09339d-0814-4871-8d65-bf1d85f02ce2"
+}
+}
+},
+{
+"uuid": "bc79820a-587b-40a9-a4b2-9c049f12b7ea",
+"fileName": "ETKL_maamaks_05.06.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-06T08:27:50.967",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc79820a-587b-40a9-a4b2-9c049f12b7ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc79820a-587b-40a9-a4b2-9c049f12b7ea"
+}
+}
+},
+{
+"uuid": "802d4a31-4b34-487f-ad27-2d6a0d034af1",
+"fileName": "ETKL_maamaks_05.06.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-06T08:27:50.902",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/802d4a31-4b34-487f-ad27-2d6a0d034af1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/802d4a31-4b34-487f-ad27-2d6a0d034af1"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/45155754-3873-403d-9aa4-1e9474dfeff7"
+}
+}
+},
+{
+"uuid": "0e0f47cc-7fcf-4d14-b925-4b5445b43841",
+"reference": "1-1/15-437/7",
+"title": "Eesti Põllumajandus-Kaubanduskoja arvamus maamaksuseaduse muutmise seaduse eelnõu 437 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-06-05",
+"files": [
+{
+"uuid": "e20ea190-4c7d-409b-aaaa-1383fb6dd509",
+"fileName": "EPKK_seisukoht_maamaksuseaduse_muutmise_seaduse_eelnõu_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T16:14:58.269",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e20ea190-4c7d-409b-aaaa-1383fb6dd509/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e20ea190-4c7d-409b-aaaa-1383fb6dd509"
+}
+}
+},
+{
+"uuid": "643f14d9-7513-4e66-bd80-3841dd6020da",
+"fileName": "EPKK_seisukohad_maamaksuseaduse_muutmise_seaduse_eelnõu_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T16:14:58.236",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/643f14d9-7513-4e66-bd80-3841dd6020da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/643f14d9-7513-4e66-bd80-3841dd6020da"
+}
+}
+},
+{
+"uuid": "22ee08ff-f252-490f-8e35-c6d868db4300",
+"fileName": "EPKK_seisukohad_maamaksuseaduse_muutmise_seaduse_eelnõu_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T16:14:58.161",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22ee08ff-f252-490f-8e35-c6d868db4300/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22ee08ff-f252-490f-8e35-c6d868db4300"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0e0f47cc-7fcf-4d14-b925-4b5445b43841"
+}
+}
+},
+{
+"uuid": "dbf74fae-25fe-4b57-bf3d-b4bce9b46be1",
+"reference": "1-1/15-437/1",
+"title": "Eesti Kaubandus-Tööstuskoja arvamus maamaksuseaduse muutmise seaduse eelnõu 437 SE kohta.",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-24",
+"files": [
+{
+"uuid": "584a3f18-8431-4d4c-9896-5da97f196704",
+"fileName": "Arvamuse_esitamine_maamaksuseaduse_muutmise_seaduse_eelnõu_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-24T10:25:41.144",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/584a3f18-8431-4d4c-9896-5da97f196704/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/584a3f18-8431-4d4c-9896-5da97f196704"
+}
+}
+},
+{
+"uuid": "20708ca4-ed3e-4009-8aed-6047229c43d9",
+"fileName": "24_05_24_Arvamus_maamaksuseaduse_muutmise_seaduse_eelnõu_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-24T10:25:40.935",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/20708ca4-ed3e-4009-8aed-6047229c43d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/20708ca4-ed3e-4009-8aed-6047229c43d9"
+}
+}
+},
+{
+"uuid": "89f5c3da-ec02-4a62-886b-1e9b9cffd474",
+"fileName": "24_05_24_Arvamus_maamaksuseaduse_muutmise_seaduse_eelnõu_kohta.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-24T10:25:41.112",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/89f5c3da-ec02-4a62-886b-1e9b9cffd474/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/89f5c3da-ec02-4a62-886b-1e9b9cffd474"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/dbf74fae-25fe-4b57-bf3d-b4bce9b46be1"
+}
+}
+},
+{
+"uuid": "841a49de-8f34-493b-a094-4504df334a86",
+"reference": "1-6/24-79/1",
+"title": "Ettepanekud looduskaitseseaduse, kinnisasja avalikes huvides omandamise seaduse, metsaseaduse ning maamaksuseaduse muutmise seaduse (SE 437) eelnõu muutmiseks",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-31",
+"files": [
+{
+"uuid": "df18a139-4d8a-4ad6-949f-bf4882c890c3",
+"fileName": "Erametsaliit_allk_31052024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Sissetulev kiri II (allkirjastatud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T10:20:01.557",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/df18a139-4d8a-4ad6-949f-bf4882c890c3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/df18a139-4d8a-4ad6-949f-bf4882c890c3"
+}
+}
+},
+{
+"uuid": "a79f5be1-7d29-457f-be9a-e810b916810a",
+"fileName": "Riigikogule_esitatud_ettepanekutest_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-31T13:36:43",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a79f5be1-7d29-457f-be9a-e810b916810a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a79f5be1-7d29-457f-be9a-e810b916810a"
+}
+}
+},
+{
+"uuid": "807bf31b-d386-4d7b-bc1b-ae80229d2e14",
+"fileName": "Ettepanekud_Riigikogule.2024-05-29.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Sissetulev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-31T13:36:42.986",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/807bf31b-d386-4d7b-bc1b-ae80229d2e14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/807bf31b-d386-4d7b-bc1b-ae80229d2e14"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/841a49de-8f34-493b-a094-4504df334a86"
+}
+}
+},
+{
+"uuid": "3392a11e-2709-4cf4-b2d9-ed3121deb520",
+"reference": "1-1/15-437/4",
+"title": "Eesti Erametsaliidu arvamus maamaksuseaduse muutmise seaduse eelnõu 437 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-06-04",
+"files": [
+{
+"uuid": "5fab3cf5-ea7c-4a50-91fc-7df0bec7dac3",
+"fileName": "Rahanduskomisjon_maamaksuseadus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T15:14:28.451",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5fab3cf5-ea7c-4a50-91fc-7df0bec7dac3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5fab3cf5-ea7c-4a50-91fc-7df0bec7dac3"
+}
+}
+},
+{
+"uuid": "74c1df3f-9eed-4f66-a60b-6da3fde4b684",
+"fileName": "RE__RAHK_istung_6._juunil_kell_14.00._Maamaksuseaduse_muutmise_seaduse_eelnõu_(_437_SE)_arutelu.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T15:14:28.471",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/74c1df3f-9eed-4f66-a60b-6da3fde4b684/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/74c1df3f-9eed-4f66-a60b-6da3fde4b684"
+}
+}
+},
+{
+"uuid": "2f00d6bc-19bd-4192-8d4a-bd90eae40e75",
+"fileName": "Rahanduskomisjon_maamaksuseadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T15:14:28.385",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f00d6bc-19bd-4192-8d4a-bd90eae40e75/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f00d6bc-19bd-4192-8d4a-bd90eae40e75"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3392a11e-2709-4cf4-b2d9-ed3121deb520"
+}
+}
+},
+{
+"uuid": "2382a52f-5391-4ed6-99c7-afe122455b4f",
+"reference": "1-1/15-437/5",
+"title": "Regionaal- ja Põllumajandusministeeriumi arvamus maamaksuseaduse muutmise seaduse eelnõu 437 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-06-05",
+"files": [
+{
+"uuid": "5bfea56c-853a-43ab-a2e5-e71c4edfac5d",
+"fileName": "REM_2024_675.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T15:39:32.55",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5bfea56c-853a-43ab-a2e5-e71c4edfac5d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5bfea56c-853a-43ab-a2e5-e71c4edfac5d"
+}
+}
+},
+{
+"uuid": "de253b26-df87-4d92-8223-55eaac12bf3a",
+"fileName": "REM_MaaMS_ME_d_05062024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T15:39:32.641",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/de253b26-df87-4d92-8223-55eaac12bf3a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de253b26-df87-4d92-8223-55eaac12bf3a"
+}
+}
+},
+{
+"uuid": "4ed2aa20-2f92-4834-b8d2-a2c5b96cbb02",
+"fileName": "REM_2024_675.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T15:39:32.66",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ed2aa20-2f92-4834-b8d2-a2c5b96cbb02/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ed2aa20-2f92-4834-b8d2-a2c5b96cbb02"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2382a52f-5391-4ed6-99c7-afe122455b4f"
+}
+}
+},
+{
+"uuid": "cca9af5c-1ea5-4550-b157-74b3a7477bae",
+"reference": "1-1/15-437/2",
+"title": "Maamaksuseaduse muutmise seaduse eelnõu 437 SE kaasamiskiri",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-28",
+"files": [
+{
+"uuid": "46d44d0e-cf84-44e9-958f-2e2698598b30",
+"fileName": "RAHK_437SE_28052024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T14:27:38.826",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/46d44d0e-cf84-44e9-958f-2e2698598b30/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/46d44d0e-cf84-44e9-958f-2e2698598b30"
+}
+}
+},
+{
+"uuid": "ae3a823b-be5f-4ec5-b9bb-dc8e3a75172e",
+"fileName": "1-1-15-437-2_-_Maamaksuseaduse_muutmise_seaduse_eelnõu_437_SE_kaasamiskiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Väljaminev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T14:28:21.215",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae3a823b-be5f-4ec5-b9bb-dc8e3a75172e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae3a823b-be5f-4ec5-b9bb-dc8e3a75172e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cca9af5c-1ea5-4550-b157-74b3a7477bae"
+}
+}
+},
+{
+"uuid": "6858c77c-a125-4f2b-968b-c6fc83586362",
+"reference": "1-1/15-437/10",
+"title": "Eesti Linnade ja Valdade Liidu arvamus maamaksuseaduse muutmise seaduse eelnõu 437 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-06-06",
+"files": [
+{
+"uuid": "fbed76dd-a3a4-4c9f-a5fe-e24daa292503",
+"fileName": "ELVL_vastuskirjad_437SE_ja_443SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-06T10:46:30.561",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fbed76dd-a3a4-4c9f-a5fe-e24daa292503/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fbed76dd-a3a4-4c9f-a5fe-e24daa292503"
+}
+}
+},
+{
+"uuid": "fc4f6d8c-9390-4fda-b27c-e186e56985ac",
+"fileName": "ELVL_Riigikogu_Maamaksuseaduse_muutmise_seaduse_eelnõu_437_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-06T10:46:30.467",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc4f6d8c-9390-4fda-b27c-e186e56985ac/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc4f6d8c-9390-4fda-b27c-e186e56985ac"
+}
+}
+},
+{
+"uuid": "2293eafb-a7ca-4945-8dda-961c82d0302c",
+"fileName": "ELVL__Riigikogu__maamaksuseaduse_muutmine_437SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-06T10:46:30.542",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2293eafb-a7ca-4945-8dda-961c82d0302c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2293eafb-a7ca-4945-8dda-961c82d0302c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6858c77c-a125-4f2b-968b-c6fc83586362"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "6016765c-2bc6-4462-b619-6d4d55d182bf",
+"reference": "1-1/15-437/6",
+"title": "Eesti Konservatiivse Rahvaerakonna fraktsiooni muudatusettepanekud  maamaksuseaduse muutmise seaduse eelnõu 437 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "f4f1fb0f-f4ea-46ef-8a03-66fb6255d792",
+"fileName": "ME_437SE_EKREfr_2.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T16:04:17.54",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f4f1fb0f-f4ea-46ef-8a03-66fb6255d792/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f4f1fb0f-f4ea-46ef-8a03-66fb6255d792"
+}
+}
+},
+{
+"uuid": "cf4c5975-abf0-4a0b-850b-021ca581844d",
+"fileName": "ME_437SE_EKREfr_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T16:04:55.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf4c5975-abf0-4a0b-850b-021ca581844d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf4c5975-abf0-4a0b-850b-021ca581844d"
+}
+}
+},
+{
+"uuid": "db0aa0f3-104d-4877-a84a-d90b7cca79b1",
+"fileName": "ME_437SE_EKREfr.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T16:03:57.598",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/db0aa0f3-104d-4877-a84a-d90b7cca79b1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/db0aa0f3-104d-4877-a84a-d90b7cca79b1"
+}
+}
+},
+{
+"uuid": "48267f72-9fe1-4148-950e-165ef6d6734d",
+"fileName": "ME_437SE_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T16:04:15.596",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/48267f72-9fe1-4148-950e-165ef6d6734d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/48267f72-9fe1-4148-950e-165ef6d6734d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6016765c-2bc6-4462-b619-6d4d55d182bf"
+}
+}
+},
+{
+"uuid": "9b22a104-adf9-40b3-a256-f7b9d14d8630",
+"reference": "1-1/15-437/8",
+"title": "Isamaa fraktsiooni muudatusettepanekud maamaksuseaduse muutmise seaduse eelnõu 437 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "8b929ccb-bfcb-4fdb-ab98-5f1cb66f772c",
+"fileName": "Isamaa_MEd_maamaksuseaduse_muutmise_eelnou_437_SE_kohta_.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T16:34:11.952",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b929ccb-bfcb-4fdb-ab98-5f1cb66f772c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b929ccb-bfcb-4fdb-ab98-5f1cb66f772c"
+}
+}
+},
+{
+"uuid": "ac23e034-9217-411a-9254-2653752cd04e",
+"fileName": "Isamaa_MEd_maamaksuseaduse_muutmise_eelnõu_437_Se_kohta.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T16:34:25.866",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac23e034-9217-411a-9254-2653752cd04e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac23e034-9217-411a-9254-2653752cd04e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9b22a104-adf9-40b3-a256-f7b9d14d8630"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/6f5b83e6-e182-461a-a16b-ca6a58b2da7b"
+}
+}
+}

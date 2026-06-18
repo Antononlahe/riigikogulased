@@ -1,0 +1,365 @@
+{
+"uuid": "419929f8-7a20-4a5b-b6d0-aad2924944b0",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist kaotada täiendav maksuvaba tulu eluasemelaenude intresside eest\"",
+"mark": 62,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist kaotada täiendav maksuvaba tulu eluasemelaenude intresside eest\" 62 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist kaotada täiendav maksuvaba tulu eluasemelaenude intresside eest\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist kaotada täiendav maksuvaba tulu eluasemelaenude intresside eest.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-23T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1312,
+"text": "üksikisiku tulumaks"
+},
+{
+"edid": 365,
+"text": "maksuvähendus"
+},
+{
+"edid": 1690,
+"text": "eluase"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e894516f-654d-44b8-920c-4d9fbf8902c5",
+"title": "62 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ced1d293-4fdd-4cae-a63d-4c34a4d2e5d2",
+"fileName": "62_Rk_o_mitte_kaotada_eluasemelaenude_inressidelt_tulumaksu_tagastust.eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T08:55:07.822",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ced1d293-4fdd-4cae-a63d-4c34a4d2e5d2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ced1d293-4fdd-4cae-a63d-4c34a4d2e5d2"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "33877891-d453-410c-bc27-1908828c2873",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c43c21b8-7819-4cd0-a1dd-b68fd91b49d7",
+"fileName": "62_OE_mitte_kaotada_eluasemelaenude_inressidelt_tulumaksu_tagastust.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T13:23:00.779",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c43c21b8-7819-4cd0-a1dd-b68fd91b49d7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c43c21b8-7819-4cd0-a1dd-b68fd91b49d7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "33877891-d453-410c-bc27-1908828c2873",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cfaeb747-6cc9-4f13-aff8-e89a54d4261a",
+"fileName": "62_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:08:58.606",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cfaeb747-6cc9-4f13-aff8-e89a54d4261a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cfaeb747-6cc9-4f13-aff8-e89a54d4261a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e894516f-654d-44b8-920c-4d9fbf8902c5",
+"title": "62 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ef9fe49c-c869-4023-b59b-a9dcb598eb53",
+"fileName": "62_Rk_o_mitte_kaotada_eluasemelaenude_inressidelt_tulumaksu_tagastust.SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T08:55:25.646",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef9fe49c-c869-4023-b59b-a9dcb598eb53/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef9fe49c-c869-4023-b59b-a9dcb598eb53"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "33877891-d453-410c-bc27-1908828c2873",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e35f390f-30c4-4b8d-9cfb-f3b49534db59",
+"fileName": "62_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:09:11.406",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e35f390f-30c4-4b8d-9cfb-f3b49534db59/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e35f390f-30c4-4b8d-9cfb-f3b49534db59"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T22:51:57.73",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:35:00.108",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-26T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "25b30ecd-32f6-4e1f-ac36-9e4f260cd275",
+"fileName": "RAHK_protokoll_nr_22_19.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:17:38.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25b30ecd-32f6-4e1f-ac36-9e4f260cd275/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25b30ecd-32f6-4e1f-ac36-9e4f260cd275"
+}
+}
+},
+{
+"uuid": "2d25a051-580d-44ba-aa3c-5dfa1ebb4ded",
+"fileName": "Asendusliikme_volikiri_M.Reinaas-T.Tein_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:14:20.776",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d25a051-580d-44ba-aa3c-5dfa1ebb4ded/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d25a051-580d-44ba-aa3c-5dfa1ebb4ded"
+}
+}
+},
+{
+"uuid": "52897e93-05cf-4bca-a974-179e6ba6467a",
+"fileName": "RAHK_protokoll_nr_22_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:13:54.488",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52897e93-05cf-4bca-a974-179e6ba6467a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52897e93-05cf-4bca-a974-179e6ba6467a"
+}
+}
+}
+]
+},
+{
+"date": "2023-10-12T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 12.10.2023 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "99c9ef27-4e49-4829-9952-0e162fdef3d6",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-10-12T11:20:37.2",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/99c9ef27-4e49-4829-9952-0e162fdef3d6"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "99eb8e63-1a1d-4cdd-b3f9-be97c1602db0",
+"reference": "1-1/15-38/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu maksumuudatustega seotud otsuste 38 OE, 39 OE, 44 OE, 46 OE, 59 OE, 62 OE, 64 OE, 65 OE, 66 OE, 96 OE, 135 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-12",
+"files": [
+{
+"uuid": "fde6b89a-6afe-4563-a92e-4b0da429ca9f",
+"fileName": "ÕAO_12092023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:33:01.769",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fde6b89a-6afe-4563-a92e-4b0da429ca9f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fde6b89a-6afe-4563-a92e-4b0da429ca9f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/99eb8e63-1a1d-4cdd-b3f9-be97c1602db0"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/419929f8-7a20-4a5b-b6d0-aad2924944b0"
+}
+}
+}

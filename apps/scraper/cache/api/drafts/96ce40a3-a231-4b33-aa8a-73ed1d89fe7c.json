@@ -1,0 +1,467 @@
+{
+"uuid": "96ce40a3-a231-4b33-aa8a-73ed1d89fe7c",
+"title": "Riigikogu otsus „Riigikogu liikmetest Eesti Rahvusraamatukogu nõukogu \nliikmete nimetamine\"",
+"mark": 93,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu liikmetest Eesti Rahvusraamatukogu nõukogu \nliikmete nimetamine\" 93 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu liikmetest Eesti Rahvusraamatukogu nõukogu liikmete nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Tulenevalt Eesti Rahvusraamatukogu seaduse § 8 lõikest 2 ja lähtudes Riigikogu 2019. aasta 27. mai otsusest, esitab Riigikogu kultuurikomisjon Riigikogu otsuse eelnõu ettepanekuga nimetada Eesti Rahvusraamatukogu nõukogu liikmeks Riigikogu liikmed Helmen Kütt, Anti Poolamets ja Vilja Toomast.",
+"initiated": "2023-05-10",
+"joined": null,
+"accepted": "2023-05-16",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "b5922bb2-56bb-4de6-a7e1-754553191c27",
+"name": "Heljo Pikhof",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/b5922bb2-56bb-4de6-a7e1-754553191c27?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "c1b107ae-7668-48d6-89c1-3b89d0ef1bd1",
+"name": "Silja Tammeorg",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/c1b107ae-7668-48d6-89c1-3b89d0ef1bd1?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4867,
+"text": "rahvusraamatukogu"
+},
+{
+"edid": 1154,
+"text": "juhtimine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2422c067-869a-45f9-99b7-9e793f5713e4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "46e6af5e-acff-41c8-8e49-e5c7bb3c274d",
+"fileName": "Otsuse_eelnõu_rahvusraamatukogu_nõukogu_toim.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T18:08:13.553",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/46e6af5e-acff-41c8-8e49-e5c7bb3c274d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/46e6af5e-acff-41c8-8e49-e5c7bb3c274d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0cf5ac92-41ea-49bc-8e62-dee4bb256a0a",
+"title": "93 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cc5c238e-3a77-49e4-ab16-c1dcc753497d",
+"fileName": "93_Otsuse_eelnõu_rahvusraamatukogu_nõukogu_toim.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T17:13:07.968",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cc5c238e-3a77-49e4-ab16-c1dcc753497d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cc5c238e-3a77-49e4-ab16-c1dcc753497d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2422c067-869a-45f9-99b7-9e793f5713e4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "17a0d076-b867-43e9-9f99-57550a1cb09b",
+"fileName": "Otsuse_eelnõu_rahvusraamatukogu_nõukogu_toim.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T18:08:25.978",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17a0d076-b867-43e9-9f99-57550a1cb09b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17a0d076-b867-43e9-9f99-57550a1cb09b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2422c067-869a-45f9-99b7-9e793f5713e4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a0150aed-3260-46f4-ba22-807617f1a221",
+"fileName": "Esitluskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T18:08:26.02",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a0150aed-3260-46f4-ba22-807617f1a221/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a0150aed-3260-46f4-ba22-807617f1a221"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "a2706c8d-bd25-4fdc-a50b-7e957af6926f",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5be3f3a3-87ba-408e-a29e-c491e42da82b",
+"fileName": "93XV_RK_o_18052023.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-18T14:06:56.112",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5be3f3a3-87ba-408e-a29e-c491e42da82b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5be3f3a3-87ba-408e-a29e-c491e42da82b"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "a2706c8d-bd25-4fdc-a50b-7e957af6926f",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d7fe2041-09fc-4f47-b098-0a0ed61c4e7b",
+"fileName": "93XV_RK_o_18052023.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-18T14:06:01.593",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7fe2041-09fc-4f47-b098-0a0ed61c4e7b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7fe2041-09fc-4f47-b098-0a0ed61c4e7b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0cf5ac92-41ea-49bc-8e62-dee4bb256a0a",
+"title": "93 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d6b836b9-fc24-4a5d-ae80-abb06204f7d3",
+"fileName": "93_Seletuskiri_rahvusraamatukogu_nõukogu.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T17:13:24.512",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6b836b9-fc24-4a5d-ae80-abb06204f7d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6b836b9-fc24-4a5d-ae80-abb06204f7d3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2422c067-869a-45f9-99b7-9e793f5713e4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6023be44-c9e1-4491-9458-74f687713d44",
+"fileName": "Seletuskiri_rahvusraamatukogu_nõukogu.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T18:08:25.995",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6023be44-c9e1-4491-9458-74f687713d44/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6023be44-c9e1-4491-9458-74f687713d44"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "25b146d6-e7ab-4319-b3ac-3603def30bff",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "34d1db05-db0b-4455-a6df-12f4a7a1e13a",
+"fileName": "93XV_RK_o_05.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T10:42:05.432",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34d1db05-db0b-4455-a6df-12f4a7a1e13a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34d1db05-db0b-4455-a6df-12f4a7a1e13a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "25b146d6-e7ab-4319-b3ac-3603def30bff",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "21a5ed59-5aeb-4d55-bd5f-d4a5948e7fbd",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T13:25:33.957",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/21a5ed59-5aeb-4d55-bd5f-d4a5948e7fbd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/21a5ed59-5aeb-4d55-bd5f-d4a5948e7fbd"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-10T18:07:46.828",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-11T17:18:00.383",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-05-09T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 9.05.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2023-05-16T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Heljo Pikhof"
+}
+],
+"protocolFiles": [
+{
+"uuid": "3b2c19fc-5f43-42fc-873e-a1c08146c2c5",
+"fileName": "KULK_protokoll_(09.05.2023).asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T13:37:28.194",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3b2c19fc-5f43-42fc-873e-a1c08146c2c5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3b2c19fc-5f43-42fc-873e-a1c08146c2c5"
+}
+}
+},
+{
+"uuid": "fe33b847-26ff-4deb-a964-c4ddb44e676d",
+"fileName": "09.05.2023_Kultuurikomisjon_ASK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (ASK slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T13:39:01.105",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe33b847-26ff-4deb-a964-c4ddb44e676d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe33b847-26ff-4deb-a964-c4ddb44e676d"
+}
+}
+},
+{
+"uuid": "878218d1-9231-4b24-b7fb-51f9f37dba69",
+"fileName": "Protokoll_3_(09.05.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T13:36:24.817",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/878218d1-9231-4b24-b7fb-51f9f37dba69/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/878218d1-9231-4b24-b7fb-51f9f37dba69"
+}
+}
+}
+]
+},
+{
+"date": "2023-05-16T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 16.05.2023 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "e85fa299-f167-4c35-949e-bc1c85b0e96b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-05-16T12:27:15.59",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e85fa299-f167-4c35-949e-bc1c85b0e96b"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2023-05-18T14:05:40.886",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2023-05-19T10:41:19.124",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/96ce40a3-a231-4b33-aa8a-73ed1d89fe7c"
+}
+}
+}

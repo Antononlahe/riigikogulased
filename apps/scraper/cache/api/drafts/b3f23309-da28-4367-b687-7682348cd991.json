@@ -1,0 +1,184 @@
+{
+"uuid": "b3f23309-da28-4367-b687-7682348cd991",
+"title": "Riigikogu otsus „Nõusoleku andmine Riigikogu liikmelt Kalle Laanetilt saadikupuutumatuse äravõtmiseks ja \ntema osas kohtumenetluse jätkamiseks\"",
+"mark": 660,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Nõusoleku andmine Riigikogu liikmelt Kalle Laanetilt saadikupuutumatuse äravõtmiseks ja \ntema osas kohtumenetluse jätkamiseks\" 660 OE",
+"initialTitle": "Riigikogu otsus „Nõusoleku andmine Riigikogu liikmelt Kalle Laanetilt saadikupuutumatuse äravõtmiseks ja tema osas kohtumenetluse jätkamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": null,
+"joined": null,
+"accepted": "2025-05-22",
+"amendmentsDeadline": null,
+"responsibleMember": null,
+"responsibleOfficer": null,
+"leadingCommittee": null,
+"initiators": [
+{
+"uuid": "f032dd36-8f17-44ad-8d68-d6057e091294",
+"name": "õiguskantsler Ülle Madise",
+"type": "classifier",
+"active": false,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 1303,
+"text": "parlamentaarne puutumatus"
+}
+],
+"texts": [
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "1d78f143-1a9e-476a-bc55-4562fec9af64",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "820775fe-6eee-434f-a4ac-67b4c6ed6dbf",
+"fileName": "660XV_RK_o_22052025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T13:39:32.213",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/820775fe-6eee-434f-a4ac-67b4c6ed6dbf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/820775fe-6eee-434f-a4ac-67b4c6ed6dbf"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "1d78f143-1a9e-476a-bc55-4562fec9af64",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a3da51e2-c4dc-4a04-b70d-65d970cf331e",
+"fileName": "660XV_RK_o_22052025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T13:39:51.839",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a3da51e2-c4dc-4a04-b70d-65d970cf331e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a3da51e2-c4dc-4a04-b70d-65d970cf331e"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "1ad5be04-526f-4c65-9821-e3ddf83fb3af",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0782b3cb-94e0-48c3-88b8-34381b5171c8",
+"fileName": "660XV_RK_o_052025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T11:27:32.423",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0782b3cb-94e0-48c3-88b8-34381b5171c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0782b3cb-94e0-48c3-88b8-34381b5171c8"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "1ad5be04-526f-4c65-9821-e3ddf83fb3af",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f6040481-acfd-4cfc-b9ab-4705b9ca2990",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T11:29:10.024",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f6040481-acfd-4cfc-b9ab-4705b9ca2990/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f6040481-acfd-4cfc-b9ab-4705b9ca2990"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-05-22T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 22.05.2025 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "63de3646-ab20-4f05-a0d7-9071a918e92b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Ettepaneku hääletamine",
+"startDateTime": "2025-05-22T10:25:57.397",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/63de3646-ab20-4f05-a0d7-9071a918e92b"
+}
+}
+}
+]
+},
+{
+"date": "2025-05-22T13:35:51.531",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2025-05-27T09:02:44.502",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/b3f23309-da28-4367-b687-7682348cd991"
+}
+}
+}

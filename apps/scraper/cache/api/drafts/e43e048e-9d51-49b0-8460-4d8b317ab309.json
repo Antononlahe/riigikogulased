@@ -1,0 +1,476 @@
+{
+"uuid": "e43e048e-9d51-49b0-8460-4d8b317ab309",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed üksi elavate pensionäride toetamise suurendamiseks\"",
+"mark": 176,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed üksi elavate pensionäride toetamise suurendamiseks\" 176 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja meetmed üksi elavate pensionäride toetamise suurendamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse ettepanek Vabariigi Valitsusele\ntöötada välja meetmed uksi elavate pensionäride toetamise\nsuurendamiseks.",
+"initiated": "2023-05-13",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-29T17:15:00",
+"responsibleMember": {
+"uuid": "dea3f114-9d1a-4972-ae8a-76680d465968",
+"name": "Karmen Joller",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/dea3f114-9d1a-4972-ae8a-76680d465968?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8a5e0f99-b6bc-48ff-91bf-c847958c776e",
+"name": "Heidi Barot",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8a5e0f99-b6bc-48ff-91bf-c847958c776e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3623,
+"text": "pensionär"
+},
+{
+"edid": 2340,
+"text": "üheliikmeline leibkond"
+},
+{
+"edid": 1369,
+"text": "lisahüvitis"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "217c0f25-09a9-4c4a-8065-b8a8f8d58a45",
+"title": "176 OE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8feffc89-71bf-4242-a107-eb3b37f6906e",
+"fileName": "176_OE_Üksi_elav_pensionär_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-28T12:07:02.869",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8feffc89-71bf-4242-a107-eb3b37f6906e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8feffc89-71bf-4242-a107-eb3b37f6906e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "69528295-e86f-44d5-a490-7c3549f82ab4",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3d539d19-b033-4f40-ac1a-e65c3ec1683d",
+"fileName": "176OE_Üksi_elav_pensionär2.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-15T19:03:11.248",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d539d19-b033-4f40-ac1a-e65c3ec1683d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d539d19-b033-4f40-ac1a-e65c3ec1683d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "69528295-e86f-44d5-a490-7c3549f82ab4",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "beeeb748-2a2c-4369-8fc7-81f87520c07d",
+"fileName": "176E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T11:29:07.61",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/beeeb748-2a2c-4369-8fc7-81f87520c07d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/beeeb748-2a2c-4369-8fc7-81f87520c07d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "217c0f25-09a9-4c4a-8065-b8a8f8d58a45",
+"title": "176 OE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d77aa515-6af1-443f-9101-0eea73b2126f",
+"fileName": "176_OE_Üksi_elav_pensionär_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-28T12:07:19.719",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d77aa515-6af1-443f-9101-0eea73b2126f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d77aa515-6af1-443f-9101-0eea73b2126f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "69528295-e86f-44d5-a490-7c3549f82ab4",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a21fdb8d-2d50-4074-8699-1419b144daa2",
+"fileName": "176SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T11:29:22.533",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a21fdb8d-2d50-4074-8699-1419b144daa2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a21fdb8d-2d50-4074-8699-1419b144daa2"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-13T09:34:09.218",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T19:57:00.18",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-19T14:04:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2023-09-27T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Õnne Pillak"
+}
+],
+"protocolFiles": [
+{
+"uuid": "67966289-864f-4802-9958-f95e8db0604a",
+"fileName": "Asendusliikme_volikiri_Seeme_19092023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Seeme)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T14:38:30.387",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67966289-864f-4802-9958-f95e8db0604a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67966289-864f-4802-9958-f95e8db0604a"
+}
+}
+},
+{
+"uuid": "6a7107ba-1187-4ae4-82b3-e4ea8a29af97",
+"fileName": "Asendusliikme_volikiri_Izmailova_19192023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Izmailova)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T14:37:49.533",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6a7107ba-1187-4ae4-82b3-e4ea8a29af97/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6a7107ba-1187-4ae4-82b3-e4ea8a29af97"
+}
+}
+},
+{
+"uuid": "e68dc1ea-cff8-42ea-9eeb-bd56ae7b3229",
+"fileName": "SOTK_protokoll_19.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T20:38:35.39",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e68dc1ea-cff8-42ea-9eeb-bd56ae7b3229/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e68dc1ea-cff8-42ea-9eeb-bd56ae7b3229"
+}
+}
+},
+{
+"uuid": "b47c5508-c500-4f6b-98fe-5a50932727d3",
+"fileName": "SOTK_protokoll_nr_20_(19.09.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T20:37:14.912",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b47c5508-c500-4f6b-98fe-5a50932727d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b47c5508-c500-4f6b-98fe-5a50932727d3"
+}
+}
+}
+]
+},
+{
+"date": "2023-10-09T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 9.10.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Karmen Joller"
+}
+],
+"protocolFiles": [
+{
+"uuid": "0a72b8ab-b3b4-48fc-a993-a71b9d8e730b",
+"fileName": "Lisa_3_(Haigus-_ja_hooldushüvitis).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (Haigus- ja hooldushüvitis)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-18T22:47:48.243",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0a72b8ab-b3b4-48fc-a993-a71b9d8e730b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0a72b8ab-b3b4-48fc-a993-a71b9d8e730b"
+}
+}
+},
+{
+"uuid": "34a198d3-14f2-4e36-a899-40846627ddbd",
+"fileName": "Lisa_2_(Lähtetoetused).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Lähtetoetused)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-18T22:46:34.924",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34a198d3-14f2-4e36-a899-40846627ddbd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34a198d3-14f2-4e36-a899-40846627ddbd"
+}
+}
+},
+{
+"uuid": "2f52c35c-23ce-4910-8e79-1141dad13b6b",
+"fileName": "Lisa_1_(Eelarve)_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (SOM eelarve)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-18T22:45:47.647",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f52c35c-23ce-4910-8e79-1141dad13b6b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f52c35c-23ce-4910-8e79-1141dad13b6b"
+}
+}
+},
+{
+"uuid": "969835b4-b80e-44b0-b430-f94c8a07afe3",
+"fileName": "SOTK_protokoll_9.10.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-16T19:00:12.269",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/969835b4-b80e-44b0-b430-f94c8a07afe3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/969835b4-b80e-44b0-b430-f94c8a07afe3"
+}
+}
+},
+{
+"uuid": "bae9d89b-6d69-4e5f-afc2-6c39c9175d02",
+"fileName": "SOTK_protokoll_nr_23_(09.10.2023).docx",
+"fileExtension": "docx",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-16T18:10:03.647",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bae9d89b-6d69-4e5f-afc2-6c39c9175d02/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bae9d89b-6d69-4e5f-afc2-6c39c9175d02"
+}
+}
+}
+]
+},
+{
+"date": "2023-10-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.10.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "fdd61525-71fc-431f-a17f-026177fe254e",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-10-11T22:59:58.657",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/fdd61525-71fc-431f-a17f-026177fe254e"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6251b0e5-abe8-46ad-adf5-62959d5d3d89",
+"reference": "1-1/15-53/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuste eelnõu 53 OE, 138 OE, 143 OE, 176 OE ja 208 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-28",
+"files": [
+{
+"uuid": "1b195c2f-13a7-4d42-b061-9d52442542de",
+"fileName": "287.tel_Arvamus_53OE_138OE_143OE_176OE_ja_208OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-28T11:52:31.555",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b195c2f-13a7-4d42-b061-9d52442542de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b195c2f-13a7-4d42-b061-9d52442542de"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6251b0e5-abe8-46ad-adf5-62959d5d3d89"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/e43e048e-9d51-49b0-8460-4d8b317ab309"
+}
+}
+}

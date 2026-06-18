@@ -1,0 +1,2205 @@
+{
+"uuid": "03c5991e-7212-47d2-8663-0787ed0e9d1b",
+"title": "Krüptovaraturu seadus",
+"mark": 398,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Krüptovaraturu seadus 398 SE",
+"initialTitle": "Krüptovaraturu seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu kohaselt viiakse Finantsinspektsiooni järelevalve alla nii krüptovarateenuse osutajad kui ka krüptovara emitendid, kelleks on nii varapõhise tokeni emitendid, e-raha tokeni emitendid (nn stablecoin’ide emitendid) kui ka muu krüptovara emitendid (krüptovaraturu osalised).",
+"initiated": "2024-04-01",
+"joined": null,
+"accepted": "2024-06-05",
+"amendmentsDeadline": "2024-04-23T17:15:00",
+"responsibleMember": {
+"uuid": "315ea785-8f59-40e5-a158-3de8b908572f",
+"name": "Maris Lauri",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/315ea785-8f59-40e5-a158-3de8b908572f?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 1971,
+"text": "elektronraha"
+},
+{
+"edid": 729,
+"text": "raha käibelelaskmine"
+},
+{
+"edid": 7219,
+"text": "digitaaltehnoloogia"
+},
+{
+"edid": 1452,
+"text": "finantseerimisasutus"
+},
+{
+"edid": 8469,
+"text": "finantsteenused"
+},
+{
+"edid": 4347,
+"text": "turujärelevalve"
+},
+{
+"edid": 454869,
+"text": "finantsjärelevalve"
+},
+{
+"edid": 5465,
+"text": "rahapesu"
+},
+{
+"edid": 1549,
+"text": "trahv"
+},
+{
+"edid": 2247,
+"text": "liidu õiguse riigisisene rakendamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "70bbee5d-f135-4db2-85b6-abc0a3e468bc",
+"fileName": "RK_24-00449-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:38.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/70bbee5d-f135-4db2-85b6-abc0a3e468bc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/70bbee5d-f135-4db2-85b6-abc0a3e468bc"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a0b5be67-19ce-414a-a5c2-a874826add62",
+"fileName": "[EIS]_Eelnõu_esitamine__RAM-23-1099_-_Krüptovaraturu_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a0b5be67-19ce-414a-a5c2-a874826add62/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a0b5be67-19ce-414a-a5c2-a874826add62"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1ca145f4-2f03-442e-a3d2-9c0673a06ff5",
+"title": "389 SE I.lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "55c1d3ad-49c4-4c8d-abe9-d31679cf83ec",
+"fileName": "398_Seaduseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:55:01.292",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/55c1d3ad-49c4-4c8d-abe9-d31679cf83ec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/55c1d3ad-49c4-4c8d-abe9-d31679cf83ec"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "2748d224-5b10-4912-8522-65dfb5a66615",
+"title": "Eelnõu 398 SE III lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bc8051bf-e315-4993-b694-a9bbd902de0b",
+"fileName": "Eelnõu_398_SE_III_KrüTS.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T14:23:27.088",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc8051bf-e315-4993-b694-a9bbd902de0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc8051bf-e315-4993-b694-a9bbd902de0b"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "ac73eb7b-8922-42d2-a42a-ca7260399cd1",
+"title": "Eelnõu 398 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7a382de4-dbf3-4f30-88ce-243bf43f5459",
+"fileName": "Eelnõu_398_SE_II_KrüTS.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T15:09:16.416",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a382de4-dbf3-4f30-88ce-243bf43f5459/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a382de4-dbf3-4f30-88ce-243bf43f5459"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0916fd35-337c-46c4-b24c-36115a85e8cf",
+"fileName": "Seaduseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.178",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0916fd35-337c-46c4-b24c-36115a85e8cf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0916fd35-337c-46c4-b24c-36115a85e8cf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4a1fe3e4-e4e5-4de2-bd7e-d06873716c79",
+"fileName": "Seaduseelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.262",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4a1fe3e4-e4e5-4de2-bd7e-d06873716c79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4a1fe3e4-e4e5-4de2-bd7e-d06873716c79"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6d45e768-c06e-4699-8d0c-9db4d81c1646",
+"fileName": "24-00449-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.155",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6d45e768-c06e-4699-8d0c-9db4d81c1646/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6d45e768-c06e-4699-8d0c-9db4d81c1646"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c3489dac-58f1-448d-a5df-d3986bcb6632",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3d318be9-4c3f-4019-9128-42c36cb153a6",
+"fileName": "398_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T15:43:50.815",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d318be9-4c3f-4019-9128-42c36cb153a6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d318be9-4c3f-4019-9128-42c36cb153a6"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e2a9ab68-01c3-43fe-9fb9-ce4dda5ed14a",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "77d6990e-41bb-433b-97f4-1569b979bfc8",
+"fileName": "398XV_Kruptovarat_s_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-12T14:19:16.455",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/77d6990e-41bb-433b-97f4-1569b979bfc8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/77d6990e-41bb-433b-97f4-1569b979bfc8"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e2a9ab68-01c3-43fe-9fb9-ce4dda5ed14a",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "69da31fe-7db5-42af-bb6a-106dc2648c78",
+"fileName": "398XV_Kruptovarat_s_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-12T14:19:04.396",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/69da31fe-7db5-42af-bb6a-106dc2648c78/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/69da31fe-7db5-42af-bb6a-106dc2648c78"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "ac73eb7b-8922-42d2-a42a-ca7260399cd1",
+"title": "Eelnõu 398 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4e684ee1-5ea8-49ba-9e1a-6ff874dfe749",
+"fileName": "Muudatusettepanekute_loetelu_398_SE_II_KrüTS.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T15:09:48.097",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4e684ee1-5ea8-49ba-9e1a-6ff874dfe749/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4e684ee1-5ea8-49ba-9e1a-6ff874dfe749"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1ca145f4-2f03-442e-a3d2-9c0673a06ff5",
+"title": "389 SE I.lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8c389a9c-429a-4fbe-9c0d-cacd90f22e9f",
+"fileName": "398_Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:58:42.06",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8c389a9c-429a-4fbe-9c0d-cacd90f22e9f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8c389a9c-429a-4fbe-9c0d-cacd90f22e9f"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "ac73eb7b-8922-42d2-a42a-ca7260399cd1",
+"title": "Eelnõu 398 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "12be24f4-9875-40aa-8e46-747dda519b33",
+"fileName": "Seletuskiri_398_SE_II_KrüTS.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T15:10:02.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/12be24f4-9875-40aa-8e46-747dda519b33/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/12be24f4-9875-40aa-8e46-747dda519b33"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b62b83aa-28e2-4163-86e8-026e72b87992",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.193",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b62b83aa-28e2-4163-86e8-026e72b87992/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b62b83aa-28e2-4163-86e8-026e72b87992"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "78e7973d-8daa-436a-ad5a-7448defb2a0c",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.279",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78e7973d-8daa-436a-ad5a-7448defb2a0c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78e7973d-8daa-436a-ad5a-7448defb2a0c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1ca145f4-2f03-442e-a3d2-9c0673a06ff5",
+"title": "389 SE I.lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ede18ce1-bf64-4611-958b-0b4275659735",
+"fileName": "398_Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T17:02:38.655",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ede18ce1-bf64-4611-958b-0b4275659735/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ede18ce1-bf64-4611-958b-0b4275659735"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4ad905f5-17ed-4dd7-8bdc-452559dcc011",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.21",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ad905f5-17ed-4dd7-8bdc-452559dcc011/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ad905f5-17ed-4dd7-8bdc-452559dcc011"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eb370f30-0768-4009-996b-e22f7f9417f4",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.298",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb370f30-0768-4009-996b-e22f7f9417f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb370f30-0768-4009-996b-e22f7f9417f4"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1ca145f4-2f03-442e-a3d2-9c0673a06ff5",
+"title": "389 SE I.lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4d4ac506-2086-4467-9e5b-3137f1b6b8da",
+"fileName": "398_Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusakti kavand)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T17:04:05.365",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4d4ac506-2086-4467-9e5b-3137f1b6b8da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4d4ac506-2086-4467-9e5b-3137f1b6b8da"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ffad371b-1bcd-4371-baba-ddd8f50cd746",
+"fileName": "Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusakti kavand) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.228",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ffad371b-1bcd-4371-baba-ddd8f50cd746/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ffad371b-1bcd-4371-baba-ddd8f50cd746"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b0f31c2b-7a58-4313-8f8b-2d0db083f5da",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (rakendusakti kavand) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.316",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b0f31c2b-7a58-4313-8f8b-2d0db083f5da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b0f31c2b-7a58-4313-8f8b-2d0db083f5da"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1ca145f4-2f03-442e-a3d2-9c0673a06ff5",
+"title": "389 SE I.lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d27144ba-9fc2-4a5e-bbe0-3c2a0b025244",
+"fileName": "398_Seletuskirja_lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 3 (märkused ja ettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T17:05:33.889",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d27144ba-9fc2-4a5e-bbe0-3c2a0b025244/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d27144ba-9fc2-4a5e-bbe0-3c2a0b025244"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9c329fbd-766e-493b-b126-36d96895348b",
+"fileName": "Seletuskirja_lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 3 (märkused ja ettepanekud) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.244",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9c329fbd-766e-493b-b126-36d96895348b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9c329fbd-766e-493b-b126-36d96895348b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "15f67888-687a-4904-8600-b6af0a4ef233",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b29cb08f-7f3d-445d-8e8d-cfa3a1f56a7e",
+"fileName": "Seletuskirja_lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 3 (märkused ja ettepanekud) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T15:27:39.334",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b29cb08f-7f3d-445d-8e8d-cfa3a1f56a7e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b29cb08f-7f3d-445d-8e8d-cfa3a1f56a7e"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "f97257b5-6bf6-4f36-b981-f8161bf2845f",
+"reference": "1-1/15-398/14",
+"title": "Vabariigi Presidendi otsus nr 429",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "93483e38-706a-41bd-ab0a-c19a8cedd050",
+"fileName": "VP_12062024_o429.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-12T14:09:29.631",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/93483e38-706a-41bd-ab0a-c19a8cedd050/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/93483e38-706a-41bd-ab0a-c19a8cedd050"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "f97257b5-6bf6-4f36-b981-f8161bf2845f",
+"reference": "1-1/15-398/14",
+"title": "Vabariigi Presidendi otsus nr 429",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5795d41b-d708-4c61-9afa-5eb965cfde37",
+"fileName": "VP_12062024_o429.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-12T14:09:29.559",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5795d41b-d708-4c61-9afa-5eb965cfde37/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5795d41b-d708-4c61-9afa-5eb965cfde37"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c3489dac-58f1-448d-a5df-d3986bcb6632",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2d04a6b2-5de9-43f0-a97d-512e48e9311d",
+"fileName": "398XV_Kruptovarat_s_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T15:14:02.195",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d04a6b2-5de9-43f0-a97d-512e48e9311d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d04a6b2-5de9-43f0-a97d-512e48e9311d"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c3489dac-58f1-448d-a5df-d3986bcb6632",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "511583a0-daa0-4b87-9413-b4538e4d5bf2",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T15:45:30.827",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/511583a0-daa0-4b87-9413-b4538e4d5bf2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/511583a0-daa0-4b87-9413-b4538e4d5bf2"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-01T15:27:00.859",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-02T13:42:00.241",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-04T13:30:00",
+"sittingTitle": "Komisjoni istung neljapäev, 4.04.2024 kell 13.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-04-09T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni liige Maris Lauri"
+}
+],
+"protocolFiles": [
+{
+"uuid": "1f7e0516-be29-4dc0-a36d-5c368547f656",
+"fileName": "Asendusliikme_volikiri_M.Reinaas-T.Tamme_04.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri 3",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:08:11.206",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1f7e0516-be29-4dc0-a36d-5c368547f656/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1f7e0516-be29-4dc0-a36d-5c368547f656"
+}
+}
+},
+{
+"uuid": "acb5f904-d6c4-4977-a19e-a783824cc4aa",
+"fileName": "RAM_Kevadprognoos_04.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (RAM kevadprognoos)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:13:00.404",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/acb5f904-d6c4-4977-a19e-a783824cc4aa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/acb5f904-d6c4-4977-a19e-a783824cc4aa"
+}
+}
+},
+{
+"uuid": "41326cb2-94e3-4083-a185-369734706d09",
+"fileName": "RAM_398_SE_krüptovara_slaidid_4.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (RAM 398 SE tutvustus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:11:10.836",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41326cb2-94e3-4083-a185-369734706d09/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41326cb2-94e3-4083-a185-369734706d09"
+}
+}
+},
+{
+"uuid": "5f9199d3-0f03-47e8-ab36-1f266e6c2437",
+"fileName": "Asendusliikme_volikiri_T.Uibo-K.Tali_04.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri 4",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:08:26.864",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f9199d3-0f03-47e8-ab36-1f266e6c2437/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f9199d3-0f03-47e8-ab36-1f266e6c2437"
+}
+}
+},
+{
+"uuid": "17ce2513-b317-4242-9e68-7913c1628370",
+"fileName": "Asendusliikme_volikiri_J.Ossinovski.A.Allas_04.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:07:51.088",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17ce2513-b317-4242-9e68-7913c1628370/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17ce2513-b317-4242-9e68-7913c1628370"
+}
+}
+},
+{
+"uuid": "e2ee8194-a451-4d79-a0ff-a203b909ad78",
+"fileName": "Asendusliige_A.Allas_04042024.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:08:05.481",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2ee8194-a451-4d79-a0ff-a203b909ad78/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2ee8194-a451-4d79-a0ff-a203b909ad78"
+}
+}
+},
+{
+"uuid": "10dfe3ac-d83d-4360-b067-d731b03de3ba",
+"fileName": "RAHK_protokoll_70_04.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-10T15:24:48.277",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/10dfe3ac-d83d-4360-b067-d731b03de3ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/10dfe3ac-d83d-4360-b067-d731b03de3ba"
+}
+}
+},
+{
+"uuid": "42843840-20ae-49f8-a046-ae4c03e59270",
+"fileName": "RAHK_protokoll_04.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-10T15:26:10.263",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42843840-20ae-49f8-a046-ae4c03e59270/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42843840-20ae-49f8-a046-ae4c03e59270"
+}
+}
+},
+{
+"uuid": "b38fedea-b25f-4e79-b701-d2eee93f4068",
+"fileName": "RAM_399_SE_eurosendid_slaidid_4.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (RAM 399 SE tutvustus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:09:04.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b38fedea-b25f-4e79-b701-d2eee93f4068/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b38fedea-b25f-4e79-b701-d2eee93f4068"
+}
+}
+},
+{
+"uuid": "3e08d32f-2844-4885-a2ba-241d1bea528b",
+"fileName": "Asendusliikme_volikiri_A.Korobeinik-A.Kovalenko-Kõlvart_04.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T16:07:16.568",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e08d32f-2844-4885-a2ba-241d1bea528b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e08d32f-2844-4885-a2ba-241d1bea528b"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-09T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 9.04.2024 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "370c0913-3dcf-4737-8556-150033ad7131",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-04-09T13:56:17.113",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/370c0913-3dcf-4737-8556-150033ad7131"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-16T14:00:00",
+"sittingTitle": "Komisjoni avalik istung teisipäev, 16.04.2024 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "260bc9ec-d027-4ca8-be44-7cfb4ddd5370",
+"fileName": "RAHK_protokoll_16.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T10:54:09.288",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/260bc9ec-d027-4ca8-be44-7cfb4ddd5370/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/260bc9ec-d027-4ca8-be44-7cfb4ddd5370"
+}
+}
+},
+{
+"uuid": "cd7f27d8-0076-4ca6-9ed0-3afce922877a",
+"fileName": "RAHK_protokoll_nr_74_16.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T10:50:10.214",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd7f27d8-0076-4ca6-9ed0-3afce922877a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd7f27d8-0076-4ca6-9ed0-3afce922877a"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-07T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 7.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "1e92ad90-bdcf-4a62-b021-14c6cf9d3f0f",
+"fileName": "Asendusliikme_volikiri_A.Korobeinik-_A.Kovalenko-Kõlvart_07.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T17:29:20.615",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e92ad90-bdcf-4a62-b021-14c6cf9d3f0f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e92ad90-bdcf-4a62-b021-14c6cf9d3f0f"
+}
+}
+},
+{
+"uuid": "eafc55c0-2ebd-4e58-8ef7-ef8c25cd6087",
+"fileName": "RAHK_protokoll_07.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:40:45.268",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eafc55c0-2ebd-4e58-8ef7-ef8c25cd6087/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eafc55c0-2ebd-4e58-8ef7-ef8c25cd6087"
+}
+}
+},
+{
+"uuid": "b58d193f-240d-4606-9be0-1d26d2aef31a",
+"fileName": "RAHK_protokoll_79_07_05_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:40:01.028",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b58d193f-240d-4606-9be0-1d26d2aef31a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b58d193f-240d-4606-9be0-1d26d2aef31a"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-14T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 14.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-29T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-06-05T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "d3e26c31-4e2a-4b4a-905a-d71462bda4c1",
+"fileName": "RAHK_protokoll_14.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T16:51:14.124",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d3e26c31-4e2a-4b4a-905a-d71462bda4c1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d3e26c31-4e2a-4b4a-905a-d71462bda4c1"
+}
+}
+},
+{
+"uuid": "dbea9113-82ef-482e-a780-ee4cf429c711",
+"fileName": "RAHK_protokoll_81_14_05_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-27T16:49:56.863",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dbea9113-82ef-482e-a780-ee4cf429c711/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dbea9113-82ef-482e-a780-ee4cf429c711"
+}
+}
+},
+{
+"uuid": "8bb70ac7-548b-4e0a-9e0a-66e8c78aa57e",
+"fileName": "RAHK_protokoll_81_14_05_2024_364_SE_ME_II_RAM_ettepanekud_lisa_4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 4 (RAM muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T11:19:29.328",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8bb70ac7-548b-4e0a-9e0a-66e8c78aa57e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8bb70ac7-548b-4e0a-9e0a-66e8c78aa57e"
+}
+}
+},
+{
+"uuid": "2c10ae31-5f78-49ad-9780-8323cfa3f8c8",
+"fileName": "RAM_364_SE_ettekanne_14.05.2024_lisa_5.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 5 (RAM ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T11:14:21.366",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c10ae31-5f78-49ad-9780-8323cfa3f8c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c10ae31-5f78-49ad-9780-8323cfa3f8c8"
+}
+}
+},
+{
+"uuid": "6b059717-8017-460c-b32a-138a6bff824f",
+"fileName": "RAHK_protokoll_81_14_05_2024_398_SE_ME_loetelu_kavand_lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (muudatusettepanekute loetelu)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T11:00:57.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b059717-8017-460c-b32a-138a6bff824f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b059717-8017-460c-b32a-138a6bff824f"
+}
+}
+},
+{
+"uuid": "d956cd8f-9383-4206-8185-c080bb3e07aa",
+"fileName": "RAHK_prorokoll_81_14_05_2024_389_SE_II_RAM_ettepanekud_UUS_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (RAM ettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T10:53:07.895",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d956cd8f-9383-4206-8185-c080bb3e07aa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d956cd8f-9383-4206-8185-c080bb3e07aa"
+}
+}
+},
+{
+"uuid": "3a8f0f89-4203-425c-a653-1dcc7f85f5b8",
+"fileName": "EAN_ettekanne_14.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Eelarvenõukogu ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T16:10:10.629",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a8f0f89-4203-425c-a653-1dcc7f85f5b8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a8f0f89-4203-425c-a653-1dcc7f85f5b8"
+}
+}
+},
+{
+"uuid": "d7bc6398-80ed-49dc-86a1-8b8366561ceb",
+"fileName": "Asendusliikme_volikiri_S.Pohlak-_K.Kingo_14.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:18:53.976",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7bc6398-80ed-49dc-86a1-8b8366561ceb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7bc6398-80ed-49dc-86a1-8b8366561ceb"
+}
+}
+},
+{
+"uuid": "42e91dfa-cdbb-420a-b67a-ba92b43cd98d",
+"fileName": "Asendusliikme_volikiri_M.Kallas-Priit_Lomp_14.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:18:40.148",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42e91dfa-cdbb-420a-b67a-ba92b43cd98d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42e91dfa-cdbb-420a-b67a-ba92b43cd98d"
+}
+}
+},
+{
+"uuid": "507018fa-cc46-48c1-bccb-aa71a95ccb69",
+"fileName": "Asendusliikme_volikiri_A._Korobeinik-A._Kovalenko-Kõlvart_14.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:18:17.638",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/507018fa-cc46-48c1-bccb-aa71a95ccb69/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/507018fa-cc46-48c1-bccb-aa71a95ccb69"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-27T11:30:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 27.05.2024 kell 11.30",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "f0210437-9964-4aba-bf09-5aa0c3c0399f",
+"fileName": "RAHK_protokoll_27.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-07T17:46:05.538",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f0210437-9964-4aba-bf09-5aa0c3c0399f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f0210437-9964-4aba-bf09-5aa0c3c0399f"
+}
+}
+},
+{
+"uuid": "26691a55-dc64-4974-b1f0-eeddfeba19ff",
+"fileName": "RAHK_protokoll_84_27_05_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-07T17:45:02.397",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/26691a55-dc64-4974-b1f0-eeddfeba19ff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/26691a55-dc64-4974-b1f0-eeddfeba19ff"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-29T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 29.05.2024 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": [
+{
+"uuid": "2afa325b-0842-4f25-bee6-78aec8a637cb",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "12. muudatusettepanek",
+"startDateTime": "2024-05-29T21:59:43.497",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/2afa325b-0842-4f25-bee6-78aec8a637cb"
+}
+}
+},
+{
+"uuid": "5aaf1b64-1866-4bcc-9f30-105ef340ddde",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "9. muudatusettepanek",
+"startDateTime": "2024-05-29T21:58:31.59",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/5aaf1b64-1866-4bcc-9f30-105ef340ddde"
+}
+}
+},
+{
+"uuid": "e15de51e-ff86-49c0-a9be-41ce66367a9c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "5. muudatusettepanek",
+"startDateTime": "2024-05-29T21:57:10.407",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e15de51e-ff86-49c0-a9be-41ce66367a9c"
+}
+}
+},
+{
+"uuid": "1f0cfaba-746f-41a2-a640-8ca75cc4d2dc",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "3. muudatusettepanek",
+"startDateTime": "2024-05-29T21:55:52.693",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/1f0cfaba-746f-41a2-a640-8ca75cc4d2dc"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-06-03T11:30:00",
+"sittingTitle": "Komisjoni väljasõidu istung esmaspäev, 3.06.2024 kell 11.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Kiita heaks eelnõu III lugemise tekst, kuhu on sisse viidud keelelised ja tehnilised täpsustused."
+}
+],
+"protocolFiles": [
+{
+"uuid": "edaa8076-47a8-48bb-bc43-b699407d999c",
+"fileName": "RAHK_protokoll_03.06.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-07T12:45:37.271",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/edaa8076-47a8-48bb-bc43-b699407d999c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/edaa8076-47a8-48bb-bc43-b699407d999c"
+}
+}
+},
+{
+"uuid": "44b5603c-0d13-44aa-b418-7dd58fbd339a",
+"fileName": "EP_2023._a_aruanne_rahanduskomisjonis_Madis_Müller.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Eesti Panga esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-07T12:44:16.857",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/44b5603c-0d13-44aa-b418-7dd58fbd339a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/44b5603c-0d13-44aa-b418-7dd58fbd339a"
+}
+}
+},
+{
+"uuid": "ddd243d6-941f-4c63-96bc-8f5b04e39fc6",
+"fileName": "RAHK_protokoll_nr_87_03.06.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-07T12:42:05.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ddd243d6-941f-4c63-96bc-8f5b04e39fc6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ddd243d6-941f-4c63-96bc-8f5b04e39fc6"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-05T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 5.06.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "a670ce59-3b56-4be0-8839-ddf83d9a59a3",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-06-05T15:05:29.943",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a670ce59-3b56-4be0-8839-ddf83d9a59a3"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-06-05T15:54:00.816",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-06-12T14:10:06.909",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-06-29T10:01:07.375",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "91409717-121e-4e92-a02d-95375c882443",
+"reference": "1-1/15-398/7",
+"title": "INO MTÜ arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-16",
+"files": [
+{
+"uuid": "97f6fae3-33c4-4c4d-8518-a4688c68cdb9",
+"fileName": "INO_MTÜ_kommentaar__Krüptovaraturu_Seaduse_Selnõule_(398_SE)_15.04.2024.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T09:39:34.834",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/97f6fae3-33c4-4c4d-8518-a4688c68cdb9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/97f6fae3-33c4-4c4d-8518-a4688c68cdb9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/91409717-121e-4e92-a02d-95375c882443"
+}
+}
+},
+{
+"uuid": "e877d40e-9d75-4a25-9af6-cc491ee0e378",
+"reference": "1-1/15-398/13",
+"title": "Eesti Digivara Liidu arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-07",
+"files": [
+{
+"uuid": "940d8ae2-9406-49f2-b693-0a3b040d05b0",
+"fileName": "Krüptovaraturu_seaduse_eelnõu_398_SE_arutelu_ja_isikutuvastuse_tehnilised_nõuded.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T09:47:31.872",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/940d8ae2-9406-49f2-b693-0a3b040d05b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/940d8ae2-9406-49f2-b693-0a3b040d05b0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e877d40e-9d75-4a25-9af6-cc491ee0e378"
+}
+}
+},
+{
+"uuid": "fb4221e6-6487-4318-92b0-add1649149d4",
+"reference": "1-1/15-398/2",
+"title": "Eesti Pangaliidu arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-08",
+"files": [
+{
+"uuid": "8f415328-ec14-4560-8887-fab8251b6c5c",
+"fileName": "PL_RK_rahanduskomisjonile_8.04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T17:31:46.945",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8f415328-ec14-4560-8887-fab8251b6c5c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8f415328-ec14-4560-8887-fab8251b6c5c"
+}
+}
+},
+{
+"uuid": "b9ddea5b-e230-4adc-9d68-f59cf9d38335",
+"fileName": "nr_18_PL_RK_rahanduskomisjonile_8.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T17:31:46.873",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9ddea5b-e230-4adc-9d68-f59cf9d38335/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9ddea5b-e230-4adc-9d68-f59cf9d38335"
+}
+}
+},
+{
+"uuid": "af5f2962-d61d-488e-b565-e15b9289ef64",
+"fileName": "krüptovaraturu_seadus_398_SE_Pangaliidu_pöördumine.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T17:31:46.979",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/af5f2962-d61d-488e-b565-e15b9289ef64/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/af5f2962-d61d-488e-b565-e15b9289ef64"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fb4221e6-6487-4318-92b0-add1649149d4"
+}
+}
+},
+{
+"uuid": "99828e19-0790-4e12-a278-ffcb1605d794",
+"reference": "1-1/15-398/8",
+"title": "Eesti Digivara Liit MTÜ arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-16",
+"files": [
+{
+"uuid": "1486c12c-6d18-4f55-8ec7-785e95ff9c48",
+"fileName": "Krüptovaraturu_seaduse_eelnõu.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T09:48:57.975",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1486c12c-6d18-4f55-8ec7-785e95ff9c48/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1486c12c-6d18-4f55-8ec7-785e95ff9c48"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/99828e19-0790-4e12-a278-ffcb1605d794"
+}
+}
+},
+{
+"uuid": "fb065767-b283-47fb-b020-6d3653e546fe",
+"reference": "1-1/15-398/5",
+"title": "Audiitorkogu täiendav arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-15",
+"files": [
+{
+"uuid": "f081c5a6-e4bd-40fa-b53b-b358a6860c45",
+"fileName": "Audiitorkogu_täiendav_ettepanek_KrÜTS_eelnõule.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:03:37.856",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f081c5a6-e4bd-40fa-b53b-b358a6860c45/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f081c5a6-e4bd-40fa-b53b-b358a6860c45"
+}
+}
+},
+{
+"uuid": "846cb4aa-de81-48ab-b327-fce378eb76be",
+"fileName": "Audiitorkogu_täiendav_ettepanek_KrÜTS_eelnõule.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:03:37.905",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/846cb4aa-de81-48ab-b327-fce378eb76be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/846cb4aa-de81-48ab-b327-fce378eb76be"
+}
+}
+},
+{
+"uuid": "605e01e8-1ded-44b7-b17f-d09a72cdffab",
+"fileName": "Audiitorkogu_täiendav_ettepanek_krüptovaraturu_seaduse_eelnõule.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:03:37.925",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/605e01e8-1ded-44b7-b17f-d09a72cdffab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/605e01e8-1ded-44b7-b17f-d09a72cdffab"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fb065767-b283-47fb-b020-6d3653e546fe"
+}
+}
+},
+{
+"uuid": "09f97172-0969-4daa-aa8b-202dc750a5d6",
+"reference": "1-1/15-398/11",
+"title": "Rahandusministeeriumi arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-03",
+"files": [
+{
+"uuid": "4ca119c6-970f-49c2-9a7c-58fb00e4e9c7",
+"fileName": "Seisukohad_krüptovaraturu_seaduseelnõu_(SE_398)_täiendamiseks_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-03T08:57:34.826",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ca119c6-970f-49c2-9a7c-58fb00e4e9c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ca119c6-970f-49c2-9a7c-58fb00e4e9c7"
+}
+}
+},
+{
+"uuid": "e42cafa5-77ec-4969-af99-d7c840927e6f",
+"fileName": "1.1-10.12099-1_02.05.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-03T08:57:34.693",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e42cafa5-77ec-4969-af99-d7c840927e6f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e42cafa5-77ec-4969-af99-d7c840927e6f"
+}
+}
+},
+{
+"uuid": "9d71734f-ff35-4878-a746-6ffc38ff1a1d",
+"fileName": "Ettepanekud_krütpovaraturu_seaduseelnõu_(SE_398_ME)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-03T08:57:34.793",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d71734f-ff35-4878-a746-6ffc38ff1a1d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d71734f-ff35-4878-a746-6ffc38ff1a1d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/09f97172-0969-4daa-aa8b-202dc750a5d6"
+}
+}
+},
+{
+"uuid": "50ea438a-2ffa-49b4-935e-0fba69b8cadf",
+"reference": "1-1/15-398/4",
+"title": "FinanceEstonia arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-12",
+"files": [
+{
+"uuid": "9551572c-7586-4ba3-b71c-20237bccae03",
+"fileName": "FinanceEstonia_16042024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T12:13:43.556",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9551572c-7586-4ba3-b71c-20237bccae03/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9551572c-7586-4ba3-b71c-20237bccae03"
+}
+}
+},
+{
+"uuid": "b3dc3486-0e85-4260-a761-0ec20979f3ea",
+"fileName": "FinanceEstonia_seisukohad_krüptovaraturu__seaduse_eelnõule_(398_SE)_15.04.24.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T12:04:33.447",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b3dc3486-0e85-4260-a761-0ec20979f3ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b3dc3486-0e85-4260-a761-0ec20979f3ea"
+}
+}
+},
+{
+"uuid": "b5483cf9-4551-41da-9e3a-2fd80e0c95b0",
+"fileName": "FinanceEstonia_seisukohad_krüptovaraturu_seaduse_eelnõule_(398_SE)_15.04.24.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T12:04:47.598",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b5483cf9-4551-41da-9e3a-2fd80e0c95b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b5483cf9-4551-41da-9e3a-2fd80e0c95b0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/50ea438a-2ffa-49b4-935e-0fba69b8cadf"
+}
+}
+},
+{
+"uuid": "e5cbaaf1-a80e-45bb-b35a-d2a9ffeefbaa",
+"reference": "1-1/15-398/12",
+"title": "Eesti Siseaudiitorite Ühingu arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-06",
+"files": [
+{
+"uuid": "384eff5e-d2fa-4629-b0cc-bf5dd3ec9671",
+"fileName": "Krüptovaraturu_seadus_ja_Siseaudit.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-06T16:52:16.117",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/384eff5e-d2fa-4629-b0cc-bf5dd3ec9671/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/384eff5e-d2fa-4629-b0cc-bf5dd3ec9671"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e5cbaaf1-a80e-45bb-b35a-d2a9ffeefbaa"
+}
+}
+},
+{
+"uuid": "926ba4a1-18da-4166-b220-70e64913b521",
+"reference": "1-1/15-398/6",
+"title": "Eesti Web3 Koja ja Oblicity Estonia arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-15",
+"files": [
+{
+"uuid": "8ef70642-c5b3-45e5-b3ee-de50c847f25b",
+"fileName": "Krüptovaratutu_seaduse_eelnõu_398_SE_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T17:00:41.759",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ef70642-c5b3-45e5-b3ee-de50c847f25b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ef70642-c5b3-45e5-b3ee-de50c847f25b"
+}
+}
+},
+{
+"uuid": "b11af3b7-c6e2-4793-80a4-f9e1970d6c7e",
+"fileName": "Eesti_Web3_Koja_ja_Oblicity_Estonia_Ettepanekud.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T17:00:41.776",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b11af3b7-c6e2-4793-80a4-f9e1970d6c7e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b11af3b7-c6e2-4793-80a4-f9e1970d6c7e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/926ba4a1-18da-4166-b220-70e64913b521"
+}
+}
+},
+{
+"uuid": "1a84bb98-5fa8-4840-8df1-1d2b0dbf961b",
+"reference": "1-1/15-398/1",
+"title": "Krüptovaraturu seadus",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-08",
+"files": [
+{
+"uuid": "4bc912e3-59a2-47b8-bc1a-1e53aba32308",
+"fileName": "1-1-15-398-1_-_Krüptovaraturu_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Väljaminev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T17:22:56.598",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4bc912e3-59a2-47b8-bc1a-1e53aba32308/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4bc912e3-59a2-47b8-bc1a-1e53aba32308"
+}
+}
+},
+{
+"uuid": "ca62f6c6-9870-42de-b564-dc28fd9bacb5",
+"fileName": "Kaasamiskiri_398_SE_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T17:22:30.281",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca62f6c6-9870-42de-b564-dc28fd9bacb5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca62f6c6-9870-42de-b564-dc28fd9bacb5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1a84bb98-5fa8-4840-8df1-1d2b0dbf961b"
+}
+}
+},
+{
+"uuid": "b4da950e-f6f6-46dc-a7d0-167d7c7d5e50",
+"reference": "1-1/15-398/3",
+"title": "Eesti Infotehnoloogia ja Telekommunikatsiooni Liidu arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-09",
+"files": [
+{
+"uuid": "134221e8-8c3b-405e-be0a-b8a589eac232",
+"fileName": "FW__Krüptovaraturu_seadus.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:45:42.44",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/134221e8-8c3b-405e-be0a-b8a589eac232/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/134221e8-8c3b-405e-be0a-b8a589eac232"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b4da950e-f6f6-46dc-a7d0-167d7c7d5e50"
+}
+}
+},
+{
+"uuid": "003e8647-be29-4fe4-9ba1-b4bf31988e6d",
+"reference": "1-1/15-398/9",
+"title": "Finantsinspektsiooni arvamus krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-16",
+"files": [
+{
+"uuid": "c48748a1-7314-47f4-abd9-8576963ef90c",
+"fileName": "Finantsinspektsiooni_kiri.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T09:54:07.828",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c48748a1-7314-47f4-abd9-8576963ef90c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c48748a1-7314-47f4-abd9-8576963ef90c"
+}
+}
+},
+{
+"uuid": "ccf81ea1-f976-4e0a-8ea1-7cd5cf1102e7",
+"fileName": "Kiri_16.04.2024_nr_5-8_2102-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T09:54:07.7",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ccf81ea1-f976-4e0a-8ea1-7cd5cf1102e7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ccf81ea1-f976-4e0a-8ea1-7cd5cf1102e7"
+}
+}
+},
+{
+"uuid": "46246b20-e56b-4eed-a4fe-73b1ef800321",
+"fileName": "Kiri_16.04.2024_nr_5-8_2102-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T09:54:07.806",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/46246b20-e56b-4eed-a4fe-73b1ef800321/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/46246b20-e56b-4eed-a4fe-73b1ef800321"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/003e8647-be29-4fe4-9ba1-b4bf31988e6d"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "dc1c3756-3673-49ce-aae6-94f28ecdb723",
+"reference": "1-1/15-398/10",
+"title": "Riigikogu liikme A. Korobeiniku muudatusettepanekud krüptovaraturu seaduse eelnõu 398 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "fc5708d8-f43d-4a62-84f1-8018e54a7ded",
+"fileName": "muudatusettepanekud.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-24T11:18:13.808",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc5708d8-f43d-4a62-84f1-8018e54a7ded/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc5708d8-f43d-4a62-84f1-8018e54a7ded"
+}
+}
+},
+{
+"uuid": "a3494f0c-75a5-47b8-a57b-28afcb40d2e9",
+"fileName": "muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-24T11:18:39.223",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a3494f0c-75a5-47b8-a57b-28afcb40d2e9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a3494f0c-75a5-47b8-a57b-28afcb40d2e9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/dc1c3756-3673-49ce-aae6-94f28ecdb723"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [
+{
+"uuid": "85d0a932-3f3a-46c3-b8be-5b95b2e46efc",
+"reference": "1-2/20-873",
+"title": "Eesti seisukohad Euroopa Liidu\ndigirahanduse paketi kohta - COM(2020) 591, COM(2020) 592, COM(2020) 593, COM(2020) 594, COM(2020) 595, COM(2020) 596",
+"volumeType": "elVolume",
+"created": "2020-12-17T12:57:36.06",
+"copyOrOriginal": "ORIGINAL",
+"draft": false,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/85d0a932-3f3a-46c3-b8be-5b95b2e46efc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/03c5991e-7212-47d2-8663-0787ed0e9d1b"
+}
+}
+}

@@ -1,0 +1,557 @@
+{
+"uuid": "cc900d25-b32f-46fe-8eb3-f2e04fb2767a",
+"title": "Looduskaitseseaduse muutmise seadus",
+"mark": 78,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Looduskaitseseaduse muutmise seadus 78 SE",
+"initialTitle": "Looduskaitseseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga muudetakse looduskaitseseaduse esimeses paragrahvis sõnastatud seaduse eesmärki selliselt, et inimene kui looduse osa ja looduslike protsesside mõjutajat ei käsitletaks loodusest eraldi ega kõrgemal seisvana.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9d863d49-8bfb-4314-bd3c-cfa143f518c8",
+"name": "Tiit Maran",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9d863d49-8bfb-4314-bd3c-cfa143f518c8?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "93630c8d-295d-4c76-b30b-2eebc6d35396",
+"name": "Elle Kaur",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/93630c8d-295d-4c76-b30b-2eebc6d35396?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "94ffc777-09a5-4472-bf5d-ce16e78a2341",
+"name": "Rain Epler",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/94ffc777-09a5-4472-bf5d-ce16e78a2341?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "98008392-64a2-4429-8a41-fb051823e402",
+"name": "Martin Helme",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/98008392-64a2-4429-8a41-fb051823e402?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "f4e5d00e-19d1-428a-ba5e-5ce9ae4ef2c2",
+"name": "Helle-Moonika Helme",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/f4e5d00e-19d1-428a-ba5e-5ce9ae4ef2c2?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2825,
+"text": "keskkonnakaitse"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b78a5281-1c9c-41f1-a7c8-b36c5faa3e5b",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "82141598-c1f4-442c-818f-e7821bd7febb",
+"fileName": "78_LKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T08:53:43.439",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/82141598-c1f4-442c-818f-e7821bd7febb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/82141598-c1f4-442c-818f-e7821bd7febb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ae27d094-5834-4f28-b034-890606958f70",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0f95b662-b478-49e4-89f5-4393fb7b13ba",
+"fileName": "78_Looduskaitseseaduse_muutmise_seadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:49:26.729",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0f95b662-b478-49e4-89f5-4393fb7b13ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0f95b662-b478-49e4-89f5-4393fb7b13ba"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ae27d094-5834-4f28-b034-890606958f70",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5dcda5ce-8bab-4e10-b0a6-856892cab191",
+"fileName": "78_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:31:16.323",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5dcda5ce-8bab-4e10-b0a6-856892cab191/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5dcda5ce-8bab-4e10-b0a6-856892cab191"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b78a5281-1c9c-41f1-a7c8-b36c5faa3e5b",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1ab4a342-b917-45cc-a344-6637880d7734",
+"fileName": "78_LKS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T08:54:02.73",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1ab4a342-b917-45cc-a344-6637880d7734/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1ab4a342-b917-45cc-a344-6637880d7734"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ae27d094-5834-4f28-b034-890606958f70",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c5b0c676-a1ca-4cbc-ad9f-5f760a8c79dd",
+"fileName": "78_Looduskaitseseaduse_muutmise_seaduse_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:49:46.698",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c5b0c676-a1ca-4cbc-ad9f-5f760a8c79dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c5b0c676-a1ca-4cbc-ad9f-5f760a8c79dd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ae27d094-5834-4f28-b034-890606958f70",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c3d7a824-6dfa-4375-aa71-6e0dda0e60ab",
+"fileName": "78_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:31:39.852",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3d7a824-6dfa-4375-aa71-6e0dda0e60ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3d7a824-6dfa-4375-aa71-6e0dda0e60ab"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T23:31:39.11",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:48:00.453",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-18T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.09.2023 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-27T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "keskkonnakomisjoni liige Tiit Maran"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "5c0fee14-9e28-4b03-b62b-4727444e7a04",
+"fileName": "KEKK_protokoll_18.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-21T19:30:59.326",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5c0fee14-9e28-4b03-b62b-4727444e7a04/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5c0fee14-9e28-4b03-b62b-4727444e7a04"
+}
+}
+},
+{
+"uuid": "684813a1-c080-437f-b15a-3537a7debe8b",
+"fileName": "KEKK_protokoll_18.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T17:41:52.14",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/684813a1-c080-437f-b15a-3537a7debe8b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/684813a1-c080-437f-b15a-3537a7debe8b"
+}
+}
+},
+{
+"uuid": "e745d8b8-dd73-41c1-ba4c-75003db83817",
+"fileName": "Protokolli_lisa__Kliimaministeeriumi_2023._a_II_poolaasta_õigusloomeplaan.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokolli lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T13:51:18.155",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e745d8b8-dd73-41c1-ba4c-75003db83817/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e745d8b8-dd73-41c1-ba4c-75003db83817"
+}
+}
+}
+]
+},
+{
+"date": "2023-11-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.11.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "0cb3a2e5-9b42-481b-aa16-40712ed69ca4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-11-15T19:45:51.563",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/0cb3a2e5-9b42-481b-aa16-40712ed69ca4"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "138402d9-1a1c-449d-aa5a-d3053b81afa9",
+"reference": "1-1/15-78/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 78 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-13",
+"files": [
+{
+"uuid": "6c4188ff-955a-4798-9a62-aa8763e6ddd1",
+"fileName": "78_Looduskaitseseaduse_muutmise_seadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:51:59.71",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c4188ff-955a-4798-9a62-aa8763e6ddd1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c4188ff-955a-4798-9a62-aa8763e6ddd1"
+}
+}
+},
+{
+"uuid": "bdeec4fb-768c-42c2-8b2f-363add3a0abf",
+"fileName": "78_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:52:22.982",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bdeec4fb-768c-42c2-8b2f-363add3a0abf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bdeec4fb-768c-42c2-8b2f-363add3a0abf"
+}
+}
+},
+{
+"uuid": "ff732b5c-8579-43ed-88f9-2fe6fbffaa06",
+"fileName": "78_Looduskaitseseaduse_muutmise_seaduse_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:52:11.4",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ff732b5c-8579-43ed-88f9-2fe6fbffaa06/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ff732b5c-8579-43ed-88f9-2fe6fbffaa06"
+}
+}
+},
+{
+"uuid": "b3dd4ff1-d358-4e2e-9d2a-b29704996f91",
+"fileName": "1-1-15-78-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_78_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T19:33:46.815",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b3dd4ff1-d358-4e2e-9d2a-b29704996f91/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b3dd4ff1-d358-4e2e-9d2a-b29704996f91"
+}
+}
+},
+{
+"uuid": "90ab33c3-fbf4-46f9-ba9b-b230cca8de60",
+"fileName": "78_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:52:37.615",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90ab33c3-fbf4-46f9-ba9b-b230cca8de60/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90ab33c3-fbf4-46f9-ba9b-b230cca8de60"
+}
+}
+},
+{
+"uuid": "c3fd6844-264b-44df-ab61-6896fc25ef5b",
+"fileName": "230513_LKS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T19:33:25.865",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3fd6844-264b-44df-ab61-6896fc25ef5b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3fd6844-264b-44df-ab61-6896fc25ef5b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/138402d9-1a1c-449d-aa5a-d3053b81afa9"
+}
+}
+},
+{
+"uuid": "022789d1-a75e-4db5-869a-b78a5fdb7bcc",
+"reference": "1-1/15-78/2",
+"title": "Vabariigi Valitsuse arvamus looduskaitseseaduse muutmise seaduse eelnõu 78 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-07-04",
+"files": [
+{
+"uuid": "fe429af6-00b6-45f3-aa10-50b38d9889f1",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-07-04T13:39:02.485",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe429af6-00b6-45f3-aa10-50b38d9889f1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe429af6-00b6-45f3-aa10-50b38d9889f1"
+}
+}
+},
+{
+"uuid": "6828f045-3be9-4bc2-97eb-aa1176fec2b0",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0508_-_Looduskaitseseaduse_muutmise_seaduse_eelnõu_(78_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-07-04T13:39:02.531",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6828f045-3be9-4bc2-97eb-aa1176fec2b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6828f045-3be9-4bc2-97eb-aa1176fec2b0"
+}
+}
+},
+{
+"uuid": "58b0e664-853f-4382-80b4-b2be4a790fb6",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-07-04T13:39:02.512",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/58b0e664-853f-4382-80b4-b2be4a790fb6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/58b0e664-853f-4382-80b4-b2be4a790fb6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/022789d1-a75e-4db5-869a-b78a5fdb7bcc"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/cc900d25-b32f-46fe-8eb3-f2e04fb2767a"
+}
+}
+}

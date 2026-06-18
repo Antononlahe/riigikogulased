@@ -1,0 +1,323 @@
+{
+"uuid": "fd56844b-a59c-48d9-8ce2-9e2b40dc6676",
+"title": "Riigikogu otsus „Rahvahääletuse korraldamine põlevkivist elektri tootmiseküsimuses“",
+"mark": 581,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Rahvahääletuse korraldamine põlevkivist elektri tootmiseküsimuses“ 581 OE",
+"initialTitle": "Riigikogu otsus „Rahvahääletuse korraldamine põlevkivist elektri tootmiseküsimuses“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette panna 2025. aasta 1. augustil korraldatavale rahvahääletusele järgmine muu riigielu küsimus: „Kas Eestis tuleb loobuda põlevkivi kasutamisest energeetikas 2040. aastaks?“",
+"initiated": "2025-02-18",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "001dd80c-38c3-4557-b3ee-408d3ffd5cd7",
+"name": "Katrin Kuusemäe",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/001dd80c-38c3-4557-b3ee-408d3ffd5cd7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2966,
+"text": "rahvahääletus"
+},
+{
+"edid": 2498,
+"text": "energiapoliitika"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "d40002c2-7caa-4ca7-9734-cf4661f79280",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "24cbcd9c-a3c5-436c-ac8e-99f8ccc00853",
+"fileName": "581_RK_o_rahvahääletus_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-09T15:29:27.079",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24cbcd9c-a3c5-436c-ac8e-99f8ccc00853/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24cbcd9c-a3c5-436c-ac8e-99f8ccc00853"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "299cf77c-b102-4791-a65e-460df769b257",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8f991acc-6e24-474d-9d7d-117e5a3f7145",
+"fileName": "Rahvahääletus18.02.2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-18T10:06:26.965",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8f991acc-6e24-474d-9d7d-117e5a3f7145/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8f991acc-6e24-474d-9d7d-117e5a3f7145"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "299cf77c-b102-4791-a65e-460df769b257",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6dc5ec9d-e65e-4910-b0ed-e1a482eee832",
+"fileName": "581_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-18T10:33:59.783",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6dc5ec9d-e65e-4910-b0ed-e1a482eee832/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6dc5ec9d-e65e-4910-b0ed-e1a482eee832"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "d40002c2-7caa-4ca7-9734-cf4661f79280",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5fec3a46-53a0-4296-b41f-7caee026d6d7",
+"fileName": "581_RK_o_rahvahööletus_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-09T15:29:53.855",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5fec3a46-53a0-4296-b41f-7caee026d6d7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5fec3a46-53a0-4296-b41f-7caee026d6d7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "299cf77c-b102-4791-a65e-460df769b257",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "52feb55c-d551-4d86-8dc2-dd1b29323488",
+"fileName": "581_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-18T10:35:16.334",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52feb55c-d551-4d86-8dc2-dd1b29323488/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52feb55c-d551-4d86-8dc2-dd1b29323488"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-02-18T10:05:50.619",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-02-20T20:54:00.211",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-04-15T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 15.04.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-04-23T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Katrin Kuusemäe"
+}
+],
+"protocolFiles": [
+{
+"uuid": "26f3beb6-e1cb-477f-bd09-2961000569b0",
+"fileName": "PÕSK_protokoll_(15.04.2025).asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-21T15:02:52.364",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/26f3beb6-e1cb-477f-bd09-2961000569b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/26f3beb6-e1cb-477f-bd09-2961000569b0"
+}
+}
+},
+{
+"uuid": "1c06baac-3a91-42f9-8ce2-a8739cafad48",
+"fileName": "PÕSK_protokoll_nr_107_(15.04.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-21T15:01:37.225",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c06baac-3a91-42f9-8ce2-a8739cafad48/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c06baac-3a91-42f9-8ce2-a8739cafad48"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-08T15:11:46.852",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-05-13T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 13.05.2025 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "8d0ae29b-6c8d-4d1c-a7a5-b762770a07a8",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-05-13T13:45:57.92",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8d0ae29b-6c8d-4d1c-a7a5-b762770a07a8"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/fd56844b-a59c-48d9-8ce2-9e2b40dc6676"
+}
+}
+}

@@ -1,0 +1,436 @@
+{
+"uuid": "aa6c8888-c9a3-49ca-b476-9ffce52d0822",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele likvideerida ministeeriumide ja teiste valitsusasutuste kodulehtede venekeelsed versioonid“",
+"mark": 365,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele likvideerida ministeeriumide ja teiste valitsusasutuste kodulehtede venekeelsed versioonid“ 365 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele likvideerida ministeeriumide ja teiste valitsusasutuste kodulehtede venekeelsed versioonid“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele kohustuseks likvideerida ministeeriumide ja teiste valitsusasutuste kodulehtede venekeelsed versioonid. Eestis on kodulehtede venekeelsed versioonid Vabariigi Valitsusel, kõigil üheteistkümnel ministeeriumil ja rohkem kui pooltel teistel valitsusasutustel.\nSeletuskirjas märgitakse, et riigikeele mittevaldamine tähendab ka Eesti avalikust teaberuumist eemalolekut. Seetõttu ei muutu ka muukeelse elanikkonna poliitilised hoiakud. Seega tuleb riigikeele oskuse parandamiseks ette võtta senisest tõhusamaid meetmeid: Eesti avalik ruum tuleb muuta eestikeelseks. Ilma selleta ei parane riigikeele oskus ja Eesti ühiskond ei muutu eestikeelseks.",
+"initiated": "2024-01-22",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2024-02-06T17:15:00",
+"responsibleMember": {
+"uuid": "71bdc9b2-841d-408f-8ace-909e8c11d7d5",
+"name": "Signe Kivi",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/71bdc9b2-841d-408f-8ace-909e8c11d7d5?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8319ccc1-fb12-4198-9a3c-2b93191fab87",
+"name": "Kristel Soodla",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8319ccc1-fb12-4198-9a3c-2b93191fab87?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 6775,
+"text": "veebileht"
+},
+{
+"edid": 878,
+"text": "avalik asutus"
+},
+{
+"edid": 5313,
+"text": "ametlik keel"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "90718583-406d-451e-bfa0-9b431c476901",
+"title": "365 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cf7ccc75-175b-4acc-91a9-34b01241d69d",
+"fileName": "365_RK_o_Ettepanek_VV_le_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T16:27:10.639",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf7ccc75-175b-4acc-91a9-34b01241d69d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf7ccc75-175b-4acc-91a9-34b01241d69d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fd07ba0a-65c1-44dc-8919-8259b7ec0cc2",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "69c96469-f0fd-4d4e-befd-d4bc6d7fbb78",
+"fileName": "OE_Valitsusasutuste_kodulehtede_venekeelsete_versioonide_likvideerimine_eelnõu_ja_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-22T15:45:15.902",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/69c96469-f0fd-4d4e-befd-d4bc6d7fbb78/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/69c96469-f0fd-4d4e-befd-d4bc6d7fbb78"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fd07ba0a-65c1-44dc-8919-8259b7ec0cc2",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5c85f99b-0a21-4028-8e22-ca470c6d17ce",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-22T15:56:45.323",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5c85f99b-0a21-4028-8e22-ca470c6d17ce/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5c85f99b-0a21-4028-8e22-ca470c6d17ce"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "90718583-406d-451e-bfa0-9b431c476901",
+"title": "365 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5cddfcf0-1418-4947-b4b2-6f37fb1b2760",
+"fileName": "365_RK_o_Ettepanek_VV_le_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T16:27:33.503",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5cddfcf0-1418-4947-b4b2-6f37fb1b2760/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5cddfcf0-1418-4947-b4b2-6f37fb1b2760"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fd07ba0a-65c1-44dc-8919-8259b7ec0cc2",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7737a48d-1993-43b9-b1e1-62b6efb8a1a2",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-22T15:57:00.39",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7737a48d-1993-43b9-b1e1-62b6efb8a1a2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7737a48d-1993-43b9-b1e1-62b6efb8a1a2"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-01-22T15:44:27.735",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-01-23T14:41:00.426",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2024-03-18T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.03.2024 kell 11.10",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "348058d4-0005-44a0-920f-187f3c4a6abf",
+"fileName": "Protokoll_47_(18.03.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-25T18:02:36.56",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/348058d4-0005-44a0-920f-187f3c4a6abf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/348058d4-0005-44a0-920f-187f3c4a6abf"
+}
+}
+},
+{
+"uuid": "780e381d-5910-415e-9b43-7206d54667cd",
+"fileName": "KULK_protokoll_47.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-25T18:03:38.68",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/780e381d-5910-415e-9b43-7206d54667cd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/780e381d-5910-415e-9b43-7206d54667cd"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-02T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 2.04.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-04-09T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Signe Kivi"
+}
+],
+"protocolFiles": [
+{
+"uuid": "78729f3d-c301-415a-9e2b-9106cf660779",
+"fileName": "asendus_KulK_02.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (S. Kallas)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:07:17.748",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78729f3d-c301-415a-9e2b-9106cf660779/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78729f3d-c301-415a-9e2b-9106cf660779"
+}
+}
+},
+{
+"uuid": "588d7dbf-edef-4134-945c-43633a97c2cb",
+"fileName": "Kultuurikomisjoni_protokoll_49.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:06:08.413",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/588d7dbf-edef-4134-945c-43633a97c2cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/588d7dbf-edef-4134-945c-43633a97c2cb"
+}
+}
+},
+{
+"uuid": "113a3ea8-5ce9-43bb-9435-6d2e1eaa8c57",
+"fileName": "Protokoll_49_(02.04.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:04:47.982",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/113a3ea8-5ce9-43bb-9435-6d2e1eaa8c57/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/113a3ea8-5ce9-43bb-9435-6d2e1eaa8c57"
+}
+}
+},
+{
+"uuid": "a2aae5d8-b508-42fe-ac8e-a7dd8b7242ab",
+"fileName": "EIM_Seppel_02.04.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (K. Seppeli slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:05:15.229",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a2aae5d8-b508-42fe-ac8e-a7dd8b7242ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a2aae5d8-b508-42fe-ac8e-a7dd8b7242ab"
+}
+}
+},
+{
+"uuid": "feeda6a1-df01-4af0-9f40-94493120fbd3",
+"fileName": "asendus_KulK_02.04.2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri (S. Kallas)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:07:44.426",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/feeda6a1-df01-4af0-9f40-94493120fbd3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/feeda6a1-df01-4af0-9f40-94493120fbd3"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-10T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 10.04.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "9b5b3dcf-89a1-4434-805b-094c3f5ebbd4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-04-10T16:55:03.077",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9b5b3dcf-89a1-4434-805b-094c3f5ebbd4"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "5fa2d06d-5a10-4266-b7a1-4b88c6a89417",
+"reference": "1-1/15-365/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse  „Ettepaneku tegemine Vabariigi Valitsusele likvideerida ministeeriumide ja teiste valitsusasutuste kodulehtede venekeelsed versioonid“ eelnõu 365 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-02-05",
+"files": [
+{
+"uuid": "79beec2c-98aa-446a-8852-bd671195f5f4",
+"fileName": "040._tel_Eelnõu_365_OE_häältenamus_2024_02_05.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-05T11:21:50.874",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/79beec2c-98aa-446a-8852-bd671195f5f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/79beec2c-98aa-446a-8852-bd671195f5f4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5fa2d06d-5a10-4266-b7a1-4b88c6a89417"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/aa6c8888-c9a3-49ca-b476-9ffce52d0822"
+}
+}
+}

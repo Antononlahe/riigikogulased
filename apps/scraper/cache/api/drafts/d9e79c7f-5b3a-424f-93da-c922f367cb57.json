@@ -1,0 +1,530 @@
+{
+"uuid": "d9e79c7f-5b3a-424f-93da-c922f367cb57",
+"title": "Kaitseväeteenistuse seaduse muutmise seadus",
+"mark": 563,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kaitseväeteenistuse seaduse muutmise seadus 563 SE",
+"initialTitle": "Kaitseväeteenistuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette öppekogunemistel osalevate reservväelastele makstava tasu kaasajastamise indekseerimise näol. Eelnõu kohaselt korrutatakse toetus koefitsiendiga 1,3.",
+"initiated": "2025-01-13",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "fd2d1dd5-ff19-445e-b190-28aabb07763a",
+"name": "Leo Kunnas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/fd2d1dd5-ff19-445e-b190-28aabb07763a?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8402b4cc-7f1b-446a-8583-0450f12a16ae",
+"name": "Aivar Engel",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8402b4cc-7f1b-446a-8583-0450f12a16ae?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "0ec16e07-01d7-d638-0022-32c19031a915",
+"name": "Riigikaitsekomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/0ec16e07-01d7-d638-0022-32c19031a915?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "db532de2-5abd-4b6d-a82c-2d9a75fd9d18",
+"name": "Kalle Grünthal",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/db532de2-5abd-4b6d-a82c-2d9a75fd9d18?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3440,
+"text": "reservarmee"
+},
+{
+"edid": 5610,
+"text": "sõjaline õpe"
+},
+{
+"edid": 1339,
+"text": "hüvitamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7ea0ed06-9fe6-474b-b594-e29030906afe",
+"title": "563 SE I lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c3dfeb4f-4bf4-4dda-a881-00c738b7d900",
+"fileName": "563_KVTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-13T15:57:57.432",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3dfeb4f-4bf4-4dda-a881-00c738b7d900/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3dfeb4f-4bf4-4dda-a881-00c738b7d900"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa4c0d18-bada-4bae-b558-acb9eb1ccae8",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d6573286-69e8-4b60-99d3-1adecdbf40bf",
+"fileName": "EELNÕU.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-14T10:12:45.352",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6573286-69e8-4b60-99d3-1adecdbf40bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6573286-69e8-4b60-99d3-1adecdbf40bf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa4c0d18-bada-4bae-b558-acb9eb1ccae8",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "60ee9995-694f-4aed-bcfa-42f2327aea1c",
+"fileName": "563_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-13T16:59:45.155",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/60ee9995-694f-4aed-bcfa-42f2327aea1c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/60ee9995-694f-4aed-bcfa-42f2327aea1c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7ea0ed06-9fe6-474b-b594-e29030906afe",
+"title": "563 SE I lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ef8d01a0-5d95-47c9-a2bf-9d2f53183800",
+"fileName": "563_KVTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-13T15:58:30.038",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef8d01a0-5d95-47c9-a2bf-9d2f53183800/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef8d01a0-5d95-47c9-a2bf-9d2f53183800"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa4c0d18-bada-4bae-b558-acb9eb1ccae8",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fa9c0ff3-7e15-4519-8ae3-f65d48c4e76d",
+"fileName": "Kaitseväeteenistuse_seaduse_muutmise_seaduse_eelnõu_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-14T10:13:07.719",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa9c0ff3-7e15-4519-8ae3-f65d48c4e76d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa9c0ff3-7e15-4519-8ae3-f65d48c4e76d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa4c0d18-bada-4bae-b558-acb9eb1ccae8",
+"title": "1 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2c1321e9-8a1d-4959-aaa8-db6d59f54f31",
+"fileName": "563_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-13T16:59:56.007",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c1321e9-8a1d-4959-aaa8-db6d59f54f31/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c1321e9-8a1d-4959-aaa8-db6d59f54f31"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-01-13T16:59:18.187",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-01-14T13:38:00.317",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-03-13T12:05:00",
+"sittingTitle": "Komisjoni istung neljapäev, 13.03.2025 algab 15 minutit pärast täiskogu lõppu",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-03-19T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Leo Kunnas"
+},
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+},
+"description": "toetuste teemal"
+}
+],
+"protocolFiles": [
+{
+"uuid": "2269ce8b-8165-4166-b338-150e2b78e66c",
+"fileName": "Riigikaitsekomisjoni_13.03.25_istungi_protokoll.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T08:30:51.577",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2269ce8b-8165-4166-b338-150e2b78e66c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2269ce8b-8165-4166-b338-150e2b78e66c"
+}
+}
+},
+{
+"uuid": "60bdeeef-3c2f-41d4-84f7-842d36a01c9e",
+"fileName": "2025-03-13_protokoll_129.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T08:29:37.059",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/60bdeeef-3c2f-41d4-84f7-842d36a01c9e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/60bdeeef-3c2f-41d4-84f7-842d36a01c9e"
+}
+}
+}
+]
+},
+{
+"date": "2025-03-19T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 19.03.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "9fdc945f-f02f-4828-87fb-7b5728cf18a7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-03-19T18:24:18.697",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9fdc945f-f02f-4828-87fb-7b5728cf18a7"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "f8308484-fe67-4fb6-b5f6-e581a4876640",
+"reference": "1-1/15-563/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 563 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-01-14",
+"files": [
+{
+"uuid": "34e3013b-9442-44b8-9edd-18703f83341a",
+"fileName": "KVTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-14T10:15:51.767",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34e3013b-9442-44b8-9edd-18703f83341a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34e3013b-9442-44b8-9edd-18703f83341a"
+}
+}
+},
+{
+"uuid": "f314f716-4b25-4c76-ac59-3641972e8980",
+"fileName": "250114_KVTS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-14T10:43:27.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f314f716-4b25-4c76-ac59-3641972e8980/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f314f716-4b25-4c76-ac59-3641972e8980"
+}
+}
+},
+{
+"uuid": "e8c07200-3a83-49e4-9b0c-b7d21eb2761c",
+"fileName": "KVTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-14T10:16:03.235",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8c07200-3a83-49e4-9b0c-b7d21eb2761c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8c07200-3a83-49e4-9b0c-b7d21eb2761c"
+}
+}
+},
+{
+"uuid": "c4a98558-e8ce-4eef-a902-69e229727c28",
+"fileName": "1-1-15-563-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_563_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-14T13:38:23.145",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c4a98558-e8ce-4eef-a902-69e229727c28/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c4a98558-e8ce-4eef-a902-69e229727c28"
+}
+}
+},
+{
+"uuid": "3c2d1afd-96ec-4dc7-aef8-7cef5249634b",
+"fileName": "563_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-14T10:16:14.823",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c2d1afd-96ec-4dc7-aef8-7cef5249634b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c2d1afd-96ec-4dc7-aef8-7cef5249634b"
+}
+}
+},
+{
+"uuid": "a37f8744-4fc2-4e1f-974c-26c5e2866b25",
+"fileName": "563_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-14T10:16:29.19",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a37f8744-4fc2-4e1f-974c-26c5e2866b25/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a37f8744-4fc2-4e1f-974c-26c5e2866b25"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f8308484-fe67-4fb6-b5f6-e581a4876640"
+}
+}
+},
+{
+"uuid": "b2392d1c-44db-4f77-a8db-98a4c8d3fc49",
+"reference": "1-1/15-563/2",
+"title": "Vabariigi Valitsuse arvamus kaitseväeteenistuse seaduse muutmise seaduse eelnõu 563 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-02-19",
+"files": [
+{
+"uuid": "f57e6d95-f46f-4a9f-b729-8a806da069d7",
+"fileName": "Avalik_20250218_KM_5-7_25_5-5_Väljaminev_algatuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T11:43:45.514",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f57e6d95-f46f-4a9f-b729-8a806da069d7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f57e6d95-f46f-4a9f-b729-8a806da069d7"
+}
+}
+},
+{
+"uuid": "8ab113b8-deb4-40fd-88f7-1f7d5112408d",
+"fileName": "Avalik_20250218_KM_5-7_25_5-5_Vï¿½ljaminev_algatuskiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T11:43:45.468",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ab113b8-deb4-40fd-88f7-1f7d5112408d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ab113b8-deb4-40fd-88f7-1f7d5112408d"
+}
+}
+},
+{
+"uuid": "d6fa02f1-667e-4868-89f4-09000d7e5971",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0040_-_Kaitseväeteenistuse_seaduse_muutmise_seaduse_eelnõu_(563_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-19T11:43:45.524",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6fa02f1-667e-4868-89f4-09000d7e5971/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6fa02f1-667e-4868-89f4-09000d7e5971"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b2392d1c-44db-4f77-a8db-98a4c8d3fc49"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/d9e79c7f-5b3a-424f-93da-c922f367cb57"
+}
+}
+}

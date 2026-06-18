@@ -1,0 +1,349 @@
+{
+"uuid": "7af69b9c-d624-4d89-a671-a13906063163",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele kodumaiste puu- ja juurviljade käibemaksu langetamiseks 5-le protsendile\"",
+"mark": 406,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele kodumaiste puu- ja juurviljade käibemaksu langetamiseks 5-le protsendile\" 406 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele kodumaiste puu- ja juurviljade käibemaksu langetamiseks 5-le protsendile\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse ettepanek alandada just kodumaiste puu- ja juurviljade käibemaksu. Antud tootegruppide soodustamine suunab inimesi tervislikemate toodete tarbimisele ja parendab seeläbi ka tervislikke toitumisharjumusi.",
+"initiated": "2024-04-02",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2024-04-16T17:15:00",
+"responsibleMember": {
+"uuid": "798de8ee-0587-4543-aa2e-89c3f6c8f914",
+"name": "Marek Reinaas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/798de8ee-0587-4543-aa2e-89c3f6c8f914?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4392,
+"text": "käibemaksumäär"
+},
+{
+"edid": 1115,
+"text": "puuvili"
+},
+{
+"edid": 2416,
+"text": "juurvili"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2ae2aded-6f28-4bb2-b3aa-0cbd7c8a8761",
+"title": "406 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7237a8ba-b895-44a1-8548-83daf73d2878",
+"fileName": "406_RK_o_Puu-jajuurviljadekäibemaksualandamine_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T13:17:42.383",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7237a8ba-b895-44a1-8548-83daf73d2878/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7237a8ba-b895-44a1-8548-83daf73d2878"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a300c13a-96ff-44f7-91b4-8f85f19c1dcb",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8c54ee0e-b3c7-4907-abc1-0415bcafbb19",
+"fileName": "OEPuu-jajuurviljadekäibemaksualandamine.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T10:37:45.05",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8c54ee0e-b3c7-4907-abc1-0415bcafbb19/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8c54ee0e-b3c7-4907-abc1-0415bcafbb19"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a300c13a-96ff-44f7-91b4-8f85f19c1dcb",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9af99c0b-fcd3-433b-8d49-1f2027bbc56f",
+"fileName": "406_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:16:48.284",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9af99c0b-fcd3-433b-8d49-1f2027bbc56f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9af99c0b-fcd3-433b-8d49-1f2027bbc56f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2ae2aded-6f28-4bb2-b3aa-0cbd7c8a8761",
+"title": "406 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e6ab896c-a71d-47a2-848d-ced114eee9f0",
+"fileName": "406_RK_o_Puu-jajuurviljadekäibemaksualandamine_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T13:18:01.585",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e6ab896c-a71d-47a2-848d-ced114eee9f0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e6ab896c-a71d-47a2-848d-ced114eee9f0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a300c13a-96ff-44f7-91b4-8f85f19c1dcb",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "538c5432-5a2d-4c29-aaed-fe4b8136d6cd",
+"fileName": "406_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:16:59.441",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/538c5432-5a2d-4c29-aaed-fe4b8136d6cd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/538c5432-5a2d-4c29-aaed-fe4b8136d6cd"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-02T10:37:21.23",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-02T13:49:00.544",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-13T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 13.05.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-28T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Marek Reinaas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "ec299639-916e-4286-8643-05f9781f72e4",
+"fileName": "RAHK_protokoll_13.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-20T15:26:01.236",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec299639-916e-4286-8643-05f9781f72e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec299639-916e-4286-8643-05f9781f72e4"
+}
+}
+},
+{
+"uuid": "29a9c398-2080-4e42-b5cb-a378d2b88a6f",
+"fileName": "RAHK_protokoll_nr_80_13.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-20T15:24:14.01",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29a9c398-2080-4e42-b5cb-a378d2b88a6f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29a9c398-2080-4e42-b5cb-a378d2b88a6f"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-29T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 29.05.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "9b9a8c7a-cd68-4d93-bf83-7324a6708047",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-29T19:31:02.467",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9b9a8c7a-cd68-4d93-bf83-7324a6708047"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "b4b5f8a1-ce06-4d94-82ca-403d332477e8",
+"reference": "1-1/15-406/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele kodumaiste puu- ja juurviljade käibemaksu langetamiseks 5-le protsendile\" eelnõu 306 OE  ja Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele digitaalsete teenuste maksu rakendamiseks Eestis\" eelnõu 408 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-10",
+"files": [
+{
+"uuid": "340e8bf6-b8af-4a92-895c-b9996f045525",
+"fileName": "146.tel_Arvamus_406OE_ja_408OE__häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-10T10:09:54.784",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/340e8bf6-b8af-4a92-895c-b9996f045525/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/340e8bf6-b8af-4a92-895c-b9996f045525"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b4b5f8a1-ce06-4d94-82ca-403d332477e8"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/7af69b9c-d624-4d89-a671-a13906063163"
+}
+}
+}

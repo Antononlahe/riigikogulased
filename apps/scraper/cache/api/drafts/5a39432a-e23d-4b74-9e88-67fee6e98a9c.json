@@ -1,0 +1,361 @@
+{
+"uuid": "5a39432a-e23d-4b74-9e88-67fee6e98a9c",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda automaksu kehtestamisest ja võtta Riigikogu menetlusest tagasi Mootorsõidukimaksu eelnõu\"",
+"mark": 374,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda automaksu kehtestamisest ja võtta Riigikogu menetlusest tagasi Mootorsõidukimaksu eelnõu\" 374 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda automaksu kehtestamisest ja võtta Riigikogu menetlusest tagasi Mootorsõidukimaksu eelnõu\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse ettepanek loobuda automaksu kehtestamisest ja võtta Riigikogu menetlusest tagasi mootorsõidukimaksu eelnõu.",
+"initiated": "2024-02-07",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2024-02-22T17:15:00",
+"responsibleMember": {
+"uuid": "74be76ab-c833-4ae8-89bc-6e4c7bc3f7fd",
+"name": "Jevgeni Ossinovski",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/74be76ab-c833-4ae8-89bc-6e4c7bc3f7fd?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": null,
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4409,
+"text": "mootorsõidukimaks"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "66be7342-ceae-4875-99a9-551aefed2ca3",
+"title": "374 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d7c2ccd1-9c1e-4924-a1d1-e90f9fa17d2b",
+"fileName": "374_RK_o_loobuda_automaksust_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T14:01:17.914",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7c2ccd1-9c1e-4924-a1d1-e90f9fa17d2b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7c2ccd1-9c1e-4924-a1d1-e90f9fa17d2b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2cda7ef8-68f4-41e9-a171-073643774190",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ec9d0e73-8623-4909-b2d8-ef2c35959719",
+"fileName": "ISAMAA_Ettrepanek_loobuda_automaksust_(eelnõu_ja_seletuskiri)_07.02.2024.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-07T14:07:45.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec9d0e73-8623-4909-b2d8-ef2c35959719/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec9d0e73-8623-4909-b2d8-ef2c35959719"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2cda7ef8-68f4-41e9-a171-073643774190",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9dfe0352-0fec-4e79-8951-d41b75c8ea0a",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-07T15:20:51.611",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9dfe0352-0fec-4e79-8951-d41b75c8ea0a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9dfe0352-0fec-4e79-8951-d41b75c8ea0a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "66be7342-ceae-4875-99a9-551aefed2ca3",
+"title": "374 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c81d6e85-9b55-4d9c-afbf-b98ea73fa3d2",
+"fileName": "374_RK_o_loobuda_automaksust_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T14:01:30.975",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c81d6e85-9b55-4d9c-afbf-b98ea73fa3d2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c81d6e85-9b55-4d9c-afbf-b98ea73fa3d2"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2cda7ef8-68f4-41e9-a171-073643774190",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "24150294-0b54-4ee0-bc41-37224d020a5e",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-07T15:21:06.175",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24150294-0b54-4ee0-bc41-37224d020a5e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24150294-0b54-4ee0-bc41-37224d020a5e"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-02-07T14:07:11.111",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-02-08T15:55:00.417",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-03-18T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.03.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-04-02T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Jevgeni Ossinovski"
+}
+],
+"protocolFiles": [
+{
+"uuid": "e2296c35-e344-45bf-919c-c351ad80f907",
+"fileName": "RAHK_protokoll_nr_65_18.03.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T13:14:25.068",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2296c35-e344-45bf-919c-c351ad80f907/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2296c35-e344-45bf-919c-c351ad80f907"
+}
+}
+},
+{
+"uuid": "9ab209e4-513b-4d62-b65f-82728b6cbbd0",
+"fileName": "Asendusliikme_volikiri_S.Pohlak-A.Poolamets_18.03.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T12:41:29.116",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9ab209e4-513b-4d62-b65f-82728b6cbbd0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9ab209e4-513b-4d62-b65f-82728b6cbbd0"
+}
+}
+},
+{
+"uuid": "b3019982-1226-4f2b-8002-5cddfd381203",
+"fileName": "RAHK_protokoll_18.03.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T13:15:17.257",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b3019982-1226-4f2b-8002-5cddfd381203/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b3019982-1226-4f2b-8002-5cddfd381203"
+}
+}
+},
+{
+"uuid": "ad3a1e37-4d60-4267-8fc9-ea7d81296430",
+"fileName": "RAHK_-_kuidas_riigina_mitte_elada_võlgu_v2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Rahandusministeeriumi esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T12:43:33.939",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ad3a1e37-4d60-4267-8fc9-ea7d81296430/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ad3a1e37-4d60-4267-8fc9-ea7d81296430"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-02T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 2.04.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "bf23e99b-4b0c-468d-aba1-8d4562ddc487",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-04-02T11:26:18.36",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/bf23e99b-4b0c-468d-aba1-8d4562ddc487"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "2c2c3370-e2d9-4f03-894b-8f0a7744f519",
+"reference": "1-1/15-374/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele loobuda automaksu kehtestamisest ja võtta Riigikogu menetlusest tagasi Mootorsõidukimaksu eelnõu\" eelnõu 374 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-01",
+"files": [
+{
+"uuid": "690d3c57-7db3-4fa7-ba04-781eb125287c",
+"fileName": "116.tel_Arvamus_374_OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T12:33:28.431",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/690d3c57-7db3-4fa7-ba04-781eb125287c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/690d3c57-7db3-4fa7-ba04-781eb125287c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2c2c3370-e2d9-4f03-894b-8f0a7744f519"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/5a39432a-e23d-4b74-9e88-67fee6e98a9c"
+}
+}
+}

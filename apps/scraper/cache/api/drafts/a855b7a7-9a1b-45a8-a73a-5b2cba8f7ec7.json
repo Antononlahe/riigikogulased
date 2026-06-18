@@ -1,0 +1,596 @@
+{
+"uuid": "a855b7a7-9a1b-45a8-a73a-5b2cba8f7ec7",
+"title": "Rahvatervise seaduse muutmise seadus",
+"mark": 617,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Rahvatervise seaduse muutmise seadus 617 SE",
+"initialTitle": "Rahvatervise seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette lõpetada kellakeeramine suveajale ja talveajale.\nAates 2002. aastast on Eesti läinud suveajale üle märtsi viimaset pühapäeval kell 03:00 ning kellaosutid tuleb nihutada ühe tunni võrra edasi. Suveaja lõpp on olnud oktoobri viimasel pühapäeval kell 04:00 öösel ning siis tuleb kellaosutid nihutada ühe tunni võrra tagasi. Mitteametlikult nimetatakse seda vööndiaega ka talveajaks. Suveaeg on vööndiajast ühe tunni võrra edasi nihutatud kellaaeg.",
+"initiated": "2025-04-07",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "1c173f0d-6c5e-445a-934f-32e7edf903db",
+"name": "Mihkel Lees",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/1c173f0d-6c5e-445a-934f-32e7edf903db?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8a5e0f99-b6bc-48ff-91bf-c847958c776e",
+"name": "Heidi Barot",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8a5e0f99-b6bc-48ff-91bf-c847958c776e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "db532de2-5abd-4b6d-a82c-2d9a75fd9d18",
+"name": "Kalle Grünthal",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/db532de2-5abd-4b6d-a82c-2d9a75fd9d18?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1241,
+"text": "suveaeg"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0d58ee71-6085-4f53-82f8-70d14a2bae49",
+"title": "617 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2fc58744-7a03-419a-b546-743bf695b8e8",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T10:56:39.222",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2fc58744-7a03-419a-b546-743bf695b8e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2fc58744-7a03-419a-b546-743bf695b8e8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2dc063f2-6bbb-4de9-89be-e616d4a64572",
+"title": "Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "119a6c5c-0ffa-4fd9-8051-7f4aa833e84a",
+"fileName": "EELNÕU1.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:31:04.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/119a6c5c-0ffa-4fd9-8051-7f4aa833e84a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/119a6c5c-0ffa-4fd9-8051-7f4aa833e84a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2dc063f2-6bbb-4de9-89be-e616d4a64572",
+"title": "Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b57e3498-5e53-45d9-878b-7c2a9af0e239",
+"fileName": "617E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T16:47:53.739",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b57e3498-5e53-45d9-878b-7c2a9af0e239/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b57e3498-5e53-45d9-878b-7c2a9af0e239"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0d58ee71-6085-4f53-82f8-70d14a2bae49",
+"title": "617 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c0f65245-642f-4a08-86cf-b5ed44196306",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T10:56:57.632",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c0f65245-642f-4a08-86cf-b5ed44196306/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c0f65245-642f-4a08-86cf-b5ed44196306"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2dc063f2-6bbb-4de9-89be-e616d4a64572",
+"title": "Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e2b9a3d4-b6ca-4a5a-aeab-fe3cca74b3e0",
+"fileName": "Kella_keeramise_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:31:15.49",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2b9a3d4-b6ca-4a5a-aeab-fe3cca74b3e0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2b9a3d4-b6ca-4a5a-aeab-fe3cca74b3e0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2dc063f2-6bbb-4de9-89be-e616d4a64572",
+"title": "Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c0b669e5-f857-4cba-949a-63d5f1cd511a",
+"fileName": "617SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T16:48:07.169",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c0b669e5-f857-4cba-949a-63d5f1cd511a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c0b669e5-f857-4cba-949a-63d5f1cd511a"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-04-07T16:35:28.467",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-04-08T17:57:00.628",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-19T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 19.05.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-03T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Mihkel Lees"
+}
+],
+"protocolFiles": [
+{
+"uuid": "41d940f7-0cd3-4870-85a1-ead7cb76143f",
+"fileName": "SOTK_protokoll_19.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-27T11:01:43.801",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41d940f7-0cd3-4870-85a1-ead7cb76143f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41d940f7-0cd3-4870-85a1-ead7cb76143f"
+}
+}
+},
+{
+"uuid": "722f2bf0-d7e7-4298-9765-839e8d10ae98",
+"fileName": "Lisa_(SOM-i_slaidid).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa (SOM-i slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-27T11:00:20.418",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/722f2bf0-d7e7-4298-9765-839e8d10ae98/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/722f2bf0-d7e7-4298-9765-839e8d10ae98"
+}
+}
+},
+{
+"uuid": "66faece2-03df-4d9f-82b0-3c98e739fb8a",
+"fileName": "SOTK_protokoll_nr_122_(19.05.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-27T10:59:41.196",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/66faece2-03df-4d9f-82b0-3c98e739fb8a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/66faece2-03df-4d9f-82b0-3c98e739fb8a"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-02T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 2.06.2025 kell 11.10",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "b15762a5-bf69-4450-9108-604a6ba0799f",
+"fileName": "Asendusliikme_volikiri_-_Kristina_Šmigun-Vähi.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri - Kristina Šmigun-Vähi",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-09T11:17:53.641",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b15762a5-bf69-4450-9108-604a6ba0799f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b15762a5-bf69-4450-9108-604a6ba0799f"
+}
+}
+},
+{
+"uuid": "d9f4626f-9d21-4bf5-b6c9-2206a61e6fa4",
+"fileName": "Asendusliikme_volikiri_-_Diana_Ingerainen.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri - Diana Ingerainen",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-09T11:16:42.894",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9f4626f-9d21-4bf5-b6c9-2206a61e6fa4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9f4626f-9d21-4bf5-b6c9-2206a61e6fa4"
+}
+}
+},
+{
+"uuid": "97851b39-174a-4fa1-8c6a-d2ff6b0409e0",
+"fileName": "SOTK_protokoll_02.06.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-09T11:07:22.798",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/97851b39-174a-4fa1-8c6a-d2ff6b0409e0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/97851b39-174a-4fa1-8c6a-d2ff6b0409e0"
+}
+}
+},
+{
+"uuid": "498deb4f-d4fd-41de-86a5-b8e002293335",
+"fileName": "SOTK_protokoll_nr_124_(02.06.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-09T10:58:58.853",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/498deb4f-d4fd-41de-86a5-b8e002293335/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/498deb4f-d4fd-41de-86a5-b8e002293335"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-04T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 4.06.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "a59f001d-82f6-4c92-be97-4096f107df58",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-06-04T20:07:02.84",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a59f001d-82f6-4c92-be97-4096f107df58"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "4fba15e3-f439-4801-b397-b9027dadba49",
+"reference": "1-1/15-617/2",
+"title": "Vabariigi Valitsuse arvamus rahvatervise seaduse muutmise seaduse eelnõu 617 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-05-14",
+"files": [
+{
+"uuid": "b8720005-cace-4630-a257-f28769b881b4",
+"fileName": "1.2-31007-6_14.05.2025_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T15:42:19.207",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b8720005-cace-4630-a257-f28769b881b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b8720005-cace-4630-a257-f28769b881b4"
+}
+}
+},
+{
+"uuid": "64bc01f9-8548-40d9-b427-0de2b1b0d098",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0365_-_Rahvatervise_seaduse_muutmise_seaduse_eelnõu_(617_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T15:42:19.281",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64bc01f9-8548-40d9-b427-0de2b1b0d098/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64bc01f9-8548-40d9-b427-0de2b1b0d098"
+}
+}
+},
+{
+"uuid": "a0db3fd2-4d1e-4b87-be0a-472da257856b",
+"fileName": "Vabariigi_Valitsuse_seisukoht_rahvatervise_seaduse_muutmise_seaduse_eelnõu_(617_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-14T15:42:19.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a0db3fd2-4d1e-4b87-be0a-472da257856b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a0db3fd2-4d1e-4b87-be0a-472da257856b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/4fba15e3-f439-4801-b397-b9027dadba49"
+}
+}
+},
+{
+"uuid": "63349217-babd-4063-955d-c050b13b7d3f",
+"reference": "1-1/15-617/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 617 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-07",
+"files": [
+{
+"uuid": "4cfd5a21-1f7c-4d03-b9fe-784fefd448dd",
+"fileName": "1-1-15-617-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_617_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T16:02:21.045",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4cfd5a21-1f7c-4d03-b9fe-784fefd448dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4cfd5a21-1f7c-4d03-b9fe-784fefd448dd"
+}
+}
+},
+{
+"uuid": "42efa60e-5047-4edc-884d-2864a0bbaec8",
+"fileName": "250408_RTerS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T16:01:41.965",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42efa60e-5047-4edc-884d-2864a0bbaec8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42efa60e-5047-4edc-884d-2864a0bbaec8"
+}
+}
+},
+{
+"uuid": "82292c8b-e05b-445e-847c-f1f6e6609a07",
+"fileName": "RTerS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:33:24.972",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/82292c8b-e05b-445e-847c-f1f6e6609a07/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/82292c8b-e05b-445e-847c-f1f6e6609a07"
+}
+}
+},
+{
+"uuid": "2109d852-3f5d-47c3-ae25-d063f5a2d2f9",
+"fileName": "617E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T16:49:03.34",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2109d852-3f5d-47c3-ae25-d063f5a2d2f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2109d852-3f5d-47c3-ae25-d063f5a2d2f9"
+}
+}
+},
+{
+"uuid": "431de02a-c291-4eb4-abce-cf509908d3dc",
+"fileName": "RTerS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-08T10:33:38.167",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/431de02a-c291-4eb4-abce-cf509908d3dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/431de02a-c291-4eb4-abce-cf509908d3dc"
+}
+}
+},
+{
+"uuid": "ebc8f8e1-2035-4efd-b6e1-c32bd4a94ee2",
+"fileName": "617SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-07T16:49:14.107",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ebc8f8e1-2035-4efd-b6e1-c32bd4a94ee2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ebc8f8e1-2035-4efd-b6e1-c32bd4a94ee2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/63349217-babd-4063-955d-c050b13b7d3f"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a855b7a7-9a1b-45a8-a73a-5b2cba8f7ec7"
+}
+}
+}

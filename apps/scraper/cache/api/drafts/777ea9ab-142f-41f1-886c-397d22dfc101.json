@@ -1,0 +1,361 @@
+{
+"uuid": "777ea9ab-142f-41f1-886c-397d22dfc101",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele noorte huvitegevuse toetuse suurendamiseks\"",
+"mark": 407,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele noorte huvitegevuse toetuse suurendamiseks\" 407 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele noorte huvitegevuse toetuse suurendamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek suurendada noorte huvitegevuse toetus summani 14 250 000 eurot.",
+"initiated": "2024-04-02",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2024-04-16T17:15:00",
+"responsibleMember": {
+"uuid": "4f816f8e-1501-4940-b87a-af029fcd98c0",
+"name": "Tanel Tein",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4f816f8e-1501-4940-b87a-af029fcd98c0?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8319ccc1-fb12-4198-9a3c-2b93191fab87",
+"name": "Kristel Soodla",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8319ccc1-fb12-4198-9a3c-2b93191fab87?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 676,
+"text": "mitteformaalne haridus"
+},
+{
+"edid": 1014,
+"text": "riiklik rahastamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "dce51edd-8384-4288-953a-cc45acc8ddc1",
+"title": "407 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8b1b9265-543e-40f9-adda-6a355c321b6a",
+"fileName": "407_RK_o_Huvitegevuse_toetuse_eelnou.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-14T15:14:57.182",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b1b9265-543e-40f9-adda-6a355c321b6a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b1b9265-543e-40f9-adda-6a355c321b6a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "915a3de7-387c-459f-bc44-2165b50425c8",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7935865a-ab38-4565-ba0a-707f51ee493f",
+"fileName": "Huvitegevuse_toetuse_eelnou.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T10:40:06.97",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7935865a-ab38-4565-ba0a-707f51ee493f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7935865a-ab38-4565-ba0a-707f51ee493f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "915a3de7-387c-459f-bc44-2165b50425c8",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "89a1c1dd-9bf5-4365-9dfa-24af92aa52b8",
+"fileName": "407_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:17:23.833",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/89a1c1dd-9bf5-4365-9dfa-24af92aa52b8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/89a1c1dd-9bf5-4365-9dfa-24af92aa52b8"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "dce51edd-8384-4288-953a-cc45acc8ddc1",
+"title": "407 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3944b2b8-397d-4dfc-b106-1b607a145488",
+"fileName": "407_RK_o_Huvitegevuse_toetuse_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-14T15:15:08.878",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3944b2b8-397d-4dfc-b106-1b607a145488/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3944b2b8-397d-4dfc-b106-1b607a145488"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "915a3de7-387c-459f-bc44-2165b50425c8",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a11eff8d-fd23-457b-84b3-2898263c6070",
+"fileName": "407_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:17:34.785",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a11eff8d-fd23-457b-84b3-2898263c6070/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a11eff8d-fd23-457b-84b3-2898263c6070"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-02T10:39:37.047",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-02T13:50:00.811",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-14T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 14.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-05-29T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Tanel Tein"
+}
+],
+"protocolFiles": [
+{
+"uuid": "c4275257-0d59-4bc0-95c3-d546d3b55798",
+"fileName": "Protokoll_56_(14.05.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T15:32:32.81",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c4275257-0d59-4bc0-95c3-d546d3b55798/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c4275257-0d59-4bc0-95c3-d546d3b55798"
+}
+}
+},
+{
+"uuid": "47182f17-011a-4494-8c31-1b1d21235286",
+"fileName": "2024.05.11_KESKUS.Eesti.compressed.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (KESKUS projekt)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T15:33:31.35",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/47182f17-011a-4494-8c31-1b1d21235286/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/47182f17-011a-4494-8c31-1b1d21235286"
+}
+}
+},
+{
+"uuid": "3e1addf9-60b7-4e7b-9fb1-89918981c348",
+"fileName": "KULK_protokoll_56.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T15:34:39.006",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e1addf9-60b7-4e7b-9fb1-89918981c348/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e1addf9-60b7-4e7b-9fb1-89918981c348"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-29T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 29.05.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "8d47391d-05e0-43f6-8f00-ca0a46638426",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-29T20:37:56.597",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8d47391d-05e0-43f6-8f00-ca0a46638426"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "c09c33bc-b070-47c5-80e0-e514e1df3253",
+"reference": "1-1/15-407/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele noorte huvitegevuse toetuse suurendamiseks\" eelnõu 407 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-08",
+"files": [
+{
+"uuid": "88a3d1d9-a2f9-449a-af84-095ca91b97c6",
+"fileName": "138.2_tel_Eelnõu_407_OE_häältenamus_2024_04_08.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T10:09:45.326",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88a3d1d9-a2f9-449a-af84-095ca91b97c6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88a3d1d9-a2f9-449a-af84-095ca91b97c6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c09c33bc-b070-47c5-80e0-e514e1df3253"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/777ea9ab-142f-41f1-886c-397d22dfc101"
+}
+}
+}

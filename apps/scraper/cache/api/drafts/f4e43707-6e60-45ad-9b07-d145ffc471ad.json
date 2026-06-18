@@ -1,0 +1,377 @@
+{
+"uuid": "f4e43707-6e60-45ad-9b07-d145ffc471ad",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja tegevuskava Tallinna Haigla rajamiseks\"",
+"mark": 53,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja tegevuskava Tallinna Haigla rajamiseks\" 53 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele töötada välja tegevuskava Tallinna Haigla rajamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse Vabariigi Valitsusele ettepanek töötada välja tegevuskava Tallinna Haigla rajamiseks.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-23T17:15:00",
+"responsibleMember": {
+"uuid": "7d6b0605-e425-41c8-9a53-3b92b81f21b1",
+"name": "Eero Merilind",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7d6b0605-e425-41c8-9a53-3b92b81f21b1?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "57665e48-1e3e-4cbc-bd74-c79d6df13da6",
+"name": "Helgi Kundla",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/57665e48-1e3e-4cbc-bd74-c79d6df13da6?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2792,
+"text": "tegevusprogramm"
+},
+{
+"edid": 876,
+"text": "raviasutus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9d13b3e0-5b6b-409d-acb0-6a9fccd4472c",
+"title": "53 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cb898ac8-1e43-4963-9a40-845939ebcc73",
+"fileName": "53_RK_o_Tallinna_haigla_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T14:24:25.478",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cb898ac8-1e43-4963-9a40-845939ebcc73/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cb898ac8-1e43-4963-9a40-845939ebcc73"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "07103d44-8d80-4367-bd36-ff62dd7c53eb",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2ed5271c-3c26-410e-85a3-1bb994d0e086",
+"fileName": "OE_Tallinna_haigla.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T10:22:20.83",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ed5271c-3c26-410e-85a3-1bb994d0e086/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ed5271c-3c26-410e-85a3-1bb994d0e086"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "07103d44-8d80-4367-bd36-ff62dd7c53eb",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "12d4e0d8-6de0-4758-985b-48b7b19c7bf8",
+"fileName": "53_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T11:59:48.795",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/12d4e0d8-6de0-4758-985b-48b7b19c7bf8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/12d4e0d8-6de0-4758-985b-48b7b19c7bf8"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9d13b3e0-5b6b-409d-acb0-6a9fccd4472c",
+"title": "53 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2d88f047-02d1-4eb2-acc1-34a82fbdc992",
+"fileName": "53_RK_o_Tallinna_haigla_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T14:24:50.44",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d88f047-02d1-4eb2-acc1-34a82fbdc992/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d88f047-02d1-4eb2-acc1-34a82fbdc992"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "07103d44-8d80-4367-bd36-ff62dd7c53eb",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c8c0906a-5048-4d7b-b0fc-b70eec7c3931",
+"fileName": "53_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:00:00.907",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8c0906a-5048-4d7b-b0fc-b70eec7c3931/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8c0906a-5048-4d7b-b0fc-b70eec7c3931"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T22:32:27.862",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:27:00.245",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-18T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.09.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2023-09-26T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Eero Merilind"
+}
+],
+"protocolFiles": [
+{
+"uuid": "f57aefe6-283d-4619-8621-ca510b03f7aa",
+"fileName": "komisjoni_asendus.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri (Seeme)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T12:59:43.227",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f57aefe6-283d-4619-8621-ca510b03f7aa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f57aefe6-283d-4619-8621-ca510b03f7aa"
+}
+}
+},
+{
+"uuid": "40619bd1-85ee-4122-b9ab-db2f6f9bf1b6",
+"fileName": "komisjoni_asendus.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (Seeme) asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T12:57:47.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/40619bd1-85ee-4122-b9ab-db2f6f9bf1b6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/40619bd1-85ee-4122-b9ab-db2f6f9bf1b6"
+}
+}
+},
+{
+"uuid": "2d079e45-0069-45de-85ad-d6012bb780aa",
+"fileName": "SOTK_protokoll_18.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:32:45.992",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d079e45-0069-45de-85ad-d6012bb780aa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d079e45-0069-45de-85ad-d6012bb780aa"
+}
+}
+},
+{
+"uuid": "2d4fc634-a3f2-4a0c-b447-f74b24e34bd5",
+"fileName": "SOTK_protokoll_nr_19_(18.09.2023)_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:31:45.083",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d4fc634-a3f2-4a0c-b447-f74b24e34bd5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d4fc634-a3f2-4a0c-b447-f74b24e34bd5"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-28T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 28.09.2023 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "f96779c1-fc63-4ba3-a67a-fcd8e0931c0a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-09-28T11:45:10.253",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f96779c1-fc63-4ba3-a67a-fcd8e0931c0a"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6251b0e5-abe8-46ad-adf5-62959d5d3d89",
+"reference": "1-1/15-53/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuste eelnõu 53 OE, 138 OE, 143 OE, 176 OE ja 208 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-28",
+"files": [
+{
+"uuid": "1b195c2f-13a7-4d42-b061-9d52442542de",
+"fileName": "287.tel_Arvamus_53OE_138OE_143OE_176OE_ja_208OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-28T11:52:31.555",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b195c2f-13a7-4d42-b061-9d52442542de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b195c2f-13a7-4d42-b061-9d52442542de"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6251b0e5-abe8-46ad-adf5-62959d5d3d89"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/f4e43707-6e60-45ad-9b07-d145ffc471ad"
+}
+}
+}

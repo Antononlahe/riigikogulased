@@ -1,0 +1,377 @@
+{
+"uuid": "db126e5d-14b0-452f-b265-d1681a37e132",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele tühistada Välisministeeriumi otsus Eesti Vabariigi konsulaadi sulgemise kohta San Franciscos\"",
+"mark": 396,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele tühistada Välisministeeriumi otsus Eesti Vabariigi konsulaadi sulgemise kohta San Franciscos\" 396 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele tühistada Välisministeeriumi otsus Eesti Vabariigi konsulaadi sulgemise kohta San Franciscos\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": null,
+"initiated": "2024-03-18",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2024-04-03T17:15:00",
+"responsibleMember": {
+"uuid": "a5d17c31-61e5-4e45-87b0-5834b6728fe6",
+"name": "Juku-Kalle Raid",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/a5d17c31-61e5-4e45-87b0-5834b6728fe6?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad",
+"name": "Ivar Mölder",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5535,
+"text": "konsulaat"
+},
+{
+"edid": 888,
+"text": "Ameerika Ühendriigid"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "5a6eed0b-d5f3-4d71-993a-294a34d3ff3c",
+"title": "396 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "39568fde-7f95-4d8a-bea9-1c9a7bb3ddca",
+"fileName": "396_RK_o_Eesti_Vabariigi_konsulaadi_sulgemisest_San_Franciscos_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-30T10:43:38.415",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/39568fde-7f95-4d8a-bea9-1c9a7bb3ddca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/39568fde-7f95-4d8a-bea9-1c9a7bb3ddca"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f1bfaa45-c0fe-439b-b711-eaa2e78903aa",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "00a0da3d-2702-4f93-b240-85ea54a52fd7",
+"fileName": "RK_otsus_Eesti_Vabariigi_konsulaadi_sulgemisest_San_Franciscos_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T16:11:51.336",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/00a0da3d-2702-4f93-b240-85ea54a52fd7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/00a0da3d-2702-4f93-b240-85ea54a52fd7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f1bfaa45-c0fe-439b-b711-eaa2e78903aa",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7eb8b668-7438-4c5d-b396-695c7cf789e0",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T16:21:24.219",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7eb8b668-7438-4c5d-b396-695c7cf789e0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7eb8b668-7438-4c5d-b396-695c7cf789e0"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "5a6eed0b-d5f3-4d71-993a-294a34d3ff3c",
+"title": "396 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e316aa2a-06d6-4f34-aa6a-3acac1eaa214",
+"fileName": "396_RK_o_Eesti_Vabariigi_konsulaadi_sulgemisest_San_Franciscos_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-30T10:44:05.395",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e316aa2a-06d6-4f34-aa6a-3acac1eaa214/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e316aa2a-06d6-4f34-aa6a-3acac1eaa214"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f1bfaa45-c0fe-439b-b711-eaa2e78903aa",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2d02f4f9-80e6-45ad-b7b4-784bb2afd32c",
+"fileName": "RK_otsus_Eesti_Vabariigi_konsulaadi_sulgemisest_San_Franciscos_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T16:11:51.32",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d02f4f9-80e6-45ad-b7b4-784bb2afd32c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d02f4f9-80e6-45ad-b7b4-784bb2afd32c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f1bfaa45-c0fe-439b-b711-eaa2e78903aa",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b2168764-e443-40c4-81d4-cc00ebb2cdcf",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T16:21:34.991",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b2168764-e443-40c4-81d4-cc00ebb2cdcf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b2168764-e443-40c4-81d4-cc00ebb2cdcf"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-03-18T16:11:00.755",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-03-19T14:09:00.389",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-28T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 28.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-06-05T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Juku-Kalle Raid"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Eelnõu Riigikogu otsusena vastuvõtmiseks on vajalik Riigikogu koosseisu poolthäälte enamus"
+}
+],
+"protocolFiles": [
+{
+"uuid": "ee520b5d-f598-43b7-8e15-4ac50064842e",
+"fileName": "VÄLK_protokoll_28.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T15:31:54.883",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee520b5d-f598-43b7-8e15-4ac50064842e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee520b5d-f598-43b7-8e15-4ac50064842e"
+}
+}
+},
+{
+"uuid": "6cdc32fc-cf03-4282-a4fd-da03a7719176",
+"fileName": "VÄLK_protokoll_28.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T15:31:15.349",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6cdc32fc-cf03-4282-a4fd-da03a7719176/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6cdc32fc-cf03-4282-a4fd-da03a7719176"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-03T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 3.06.2024 15:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "81e893c5-564e-4124-83da-dc9bed9a1316",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-06-03T21:35:34.233",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/81e893c5-564e-4124-83da-dc9bed9a1316"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "2c36cf71-6068-40f7-bea6-aa31afd5f4d3",
+"reference": "1-1/15-396/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele tühistada Välisministeeriumi otsus Eesti Vabariigi konsulaadi sulgemise kohta San Franciscos\" eelnõu 396 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-28",
+"files": [
+{
+"uuid": "295a434e-f2e2-4520-b950-18c2d5e3e1ad",
+"fileName": "145._tel_Eelnõu_396_OE_häältenamus_2024_04_10.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T10:03:04.202",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/295a434e-f2e2-4520-b950-18c2d5e3e1ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/295a434e-f2e2-4520-b950-18c2d5e3e1ad"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2c36cf71-6068-40f7-bea6-aa31afd5f4d3"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/db126e5d-14b0-452f-b265-d1681a37e132"
+}
+}
+}

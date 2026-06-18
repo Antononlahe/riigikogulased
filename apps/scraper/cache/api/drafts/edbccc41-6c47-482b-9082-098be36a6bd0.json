@@ -1,0 +1,574 @@
+{
+"uuid": "edbccc41-6c47-482b-9082-098be36a6bd0",
+"title": "Põhikooli- ja gümnaasiumiseaduse ning kutseõppeasutuse seaduse muutmise seadus",
+"mark": 404,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Põhikooli- ja gümnaasiumiseaduse ning kutseõppeasutuse seaduse muutmise seadus 404 SE",
+"initialTitle": "Põhikooli- ja gümnaasiumiseaduse ning kutseõppeasutuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga sätestatakse koolilõuna toetusele alammäär ehk koolilõuna miinimummaksumuseks määratakse 2 eurot ööpäevas õpilase kohta. Praegu eraldab riik koolilõuna jaoks 1 euro õpilase kohta ja see on muutumatu olnud aastast 2018.",
+"initiated": "2024-04-02",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "2bc608c1-1c67-4db8-968b-94bc3947dfac",
+"name": "Kadri Tali",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/2bc608c1-1c67-4db8-968b-94bc3947dfac?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8319ccc1-fb12-4198-9a3c-2b93191fab87",
+"name": "Kristel Soodla",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8319ccc1-fb12-4198-9a3c-2b93191fab87?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 716,
+"text": "õpilane"
+},
+{
+"edid": 3563,
+"text": "toitlustamine"
+},
+{
+"edid": 1014,
+"text": "riiklik rahastamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8adda3bf-3e3f-4ab2-876d-64826ad9b743",
+"title": "404 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8408aadf-5f7a-4c11-bdcc-d189fc8cedf7",
+"fileName": "404_PGS_KutÕS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T16:11:14.276",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8408aadf-5f7a-4c11-bdcc-d189fc8cedf7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8408aadf-5f7a-4c11-bdcc-d189fc8cedf7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ed047852-ba8e-412c-9116-10694a3f72ad",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "37a10be6-4364-48b0-9026-48446854b538",
+"fileName": "Koolilõuna.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T10:32:18.416",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/37a10be6-4364-48b0-9026-48446854b538/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/37a10be6-4364-48b0-9026-48446854b538"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ed047852-ba8e-412c-9116-10694a3f72ad",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "69904053-540a-46d2-95d2-77f917989bd9",
+"fileName": "404_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:15:39.909",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/69904053-540a-46d2-95d2-77f917989bd9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/69904053-540a-46d2-95d2-77f917989bd9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8adda3bf-3e3f-4ab2-876d-64826ad9b743",
+"title": "404 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0605da6c-321b-465c-aaaf-7cf46cc3d8b0",
+"fileName": "404_PGS_KutÕS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T16:11:50.178",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0605da6c-321b-465c-aaaf-7cf46cc3d8b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0605da6c-321b-465c-aaaf-7cf46cc3d8b0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "ed047852-ba8e-412c-9116-10694a3f72ad",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b55c86d5-be5d-4137-9741-933c9c9efab5",
+"fileName": "404_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:15:50.651",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b55c86d5-be5d-4137-9741-933c9c9efab5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b55c86d5-be5d-4137-9741-933c9c9efab5"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-02T10:31:46.615",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-02T13:47:00.504",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-07T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 7.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-15T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Heljo Pikhof"
+}
+],
+"protocolFiles": [
+{
+"uuid": "832d7ac8-22aa-42bf-ab7c-ed8a78bd37bd",
+"fileName": "KULK_protokoll_nr_55.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:54:12.894",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/832d7ac8-22aa-42bf-ab7c-ed8a78bd37bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/832d7ac8-22aa-42bf-ab7c-ed8a78bd37bd"
+}
+}
+},
+{
+"uuid": "f75557c9-b524-4da6-97f3-2cfc3f281e10",
+"fileName": "Protokoll_55_(07.05.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:53:27.71",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f75557c9-b524-4da6-97f3-2cfc3f281e10/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f75557c9-b524-4da6-97f3-2cfc3f281e10"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.05.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-05-29T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 29.05.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-06-05T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 5.06.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-06-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.06.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-09-09T11:10:00",
+"sittingTitle": "Komisjoni istung teisipäev, 10.09.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Kadri Tali"
+}
+],
+"protocolFiles": [
+{
+"uuid": "bbc1d0c9-47bc-40b5-a553-6da31c01c272",
+"fileName": "KULK_protokoll_nr_63_(10.09.2024).asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-18T18:16:46.799",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bbc1d0c9-47bc-40b5-a553-6da31c01c272/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bbc1d0c9-47bc-40b5-a553-6da31c01c272"
+}
+}
+},
+{
+"uuid": "2ab25f91-ea3d-467f-bf3f-a7269dc21b41",
+"fileName": "KULK_protokoll_nr_63_(10.09.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-18T18:14:10.203",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2ab25f91-ea3d-467f-bf3f-a7269dc21b41/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2ab25f91-ea3d-467f-bf3f-a7269dc21b41"
+}
+}
+}
+]
+},
+{
+"date": "2024-09-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.09.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-09-19T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 19.09.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "8f3e1c96-e95a-4c24-9126-89b057238ad8",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-09-19T11:41:40.117",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8f3e1c96-e95a-4c24-9126-89b057238ad8"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "5bff6bf4-19c6-4c6e-b9a5-67620b2dcd31",
+"reference": "1-1/15-404/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 404 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-02",
+"files": [
+{
+"uuid": "cdf6cafe-6ff9-4692-9e3f-389b4ab8360a",
+"fileName": "PGS_KutÕS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T10:56:52.797",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cdf6cafe-6ff9-4692-9e3f-389b4ab8360a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cdf6cafe-6ff9-4692-9e3f-389b4ab8360a"
+}
+}
+},
+{
+"uuid": "fd15ac6a-21e5-4db7-9d75-0e9ca8a645d8",
+"fileName": "404_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:37:11.169",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fd15ac6a-21e5-4db7-9d75-0e9ca8a645d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fd15ac6a-21e5-4db7-9d75-0e9ca8a645d8"
+}
+}
+},
+{
+"uuid": "8d9bf645-5b0a-4488-bd19-41b5ccbceaaa",
+"fileName": "1-1-15-404-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_404_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T13:45:38.792",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d9bf645-5b0a-4488-bd19-41b5ccbceaaa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d9bf645-5b0a-4488-bd19-41b5ccbceaaa"
+}
+}
+},
+{
+"uuid": "518a72b4-4a63-4462-8e75-015ac073dd6d",
+"fileName": "404_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:37:28.196",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/518a72b4-4a63-4462-8e75-015ac073dd6d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/518a72b4-4a63-4462-8e75-015ac073dd6d"
+}
+}
+},
+{
+"uuid": "a3794ec4-50b2-4664-9205-bba6e86ff133",
+"fileName": "240402_PGS_KutÕS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T13:01:14.741",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a3794ec4-50b2-4664-9205-bba6e86ff133/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a3794ec4-50b2-4664-9205-bba6e86ff133"
+}
+}
+},
+{
+"uuid": "9e795a61-d555-47aa-9ac2-5ce7d01b55bc",
+"fileName": "PGS_KutÕS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T10:57:04.588",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e795a61-d555-47aa-9ac2-5ce7d01b55bc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e795a61-d555-47aa-9ac2-5ce7d01b55bc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5bff6bf4-19c6-4c6e-b9a5-67620b2dcd31"
+}
+}
+},
+{
+"uuid": "933a4334-7493-4279-8b68-af712fdad5fb",
+"reference": "1-1/15-404/2",
+"title": "Vabariigi Valitsuse arvamus põhikooli- ja gümnaasiumiseaduse ning kutseõppeasutuse seaduse muutmise seaduse eelnõu 404 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-02",
+"files": [
+{
+"uuid": "07c9cfec-6741-48a3-b00f-80d09a216a29",
+"fileName": "Vabariigi_Valitsuse_seisukoht_põhikooli-_ja_gümnaasiumiseaduse_ning_kutseõppeasutuse_seaduse_muutmise_seaduse_eelnõu_(404_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T12:24:03.439",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07c9cfec-6741-48a3-b00f-80d09a216a29/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07c9cfec-6741-48a3-b00f-80d09a216a29"
+}
+}
+},
+{
+"uuid": "acca6ef9-e65e-4810-8461-04915be395e2",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0327_-_Põhikooli-_ja_gümnaasiumiseaduse_ning_kutseõppeasutuse_seaduse_muutmise_seaduse_eelnõu_(404_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T12:24:03.459",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/acca6ef9-e65e-4810-8461-04915be395e2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/acca6ef9-e65e-4810-8461-04915be395e2"
+}
+}
+},
+{
+"uuid": "e39b89ac-dc0a-4c53-a3b3-e966213b8d72",
+"fileName": "VV_seisukoht_eelnï¿½u_(404_SE)_kohta_(2).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T12:24:03.333",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e39b89ac-dc0a-4c53-a3b3-e966213b8d72/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e39b89ac-dc0a-4c53-a3b3-e966213b8d72"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/933a4334-7493-4279-8b68-af712fdad5fb"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/edbccc41-6c47-482b-9082-098be36a6bd0"
+}
+}
+}

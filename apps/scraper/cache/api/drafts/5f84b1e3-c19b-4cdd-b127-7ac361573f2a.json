@@ -1,0 +1,559 @@
+{
+"uuid": "5f84b1e3-c19b-4cdd-b127-7ac361573f2a",
+"title": "Õiguskantsleri seaduse ja prokuratuuriseaduse muutmise seadus",
+"mark": 524,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Õiguskantsleri seaduse ja prokuratuuriseaduse muutmise seadus 524 SE",
+"initialTitle": "Õiguskantsleri seaduse ja prokuratuuriseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eesmärgiks on muuta õiguskantslerile ja riigi peaprokurörile seadusega ette nähtud esinduskulude väljamaksmise põhimõtteid. Seletuskirjas märgitakse, et selge aruandlus ja regulatsioonid aitavad tõhustada nende ametikohtade tegevuse kontrolli ja tagada, et ametijuhid peavad kinni avalikust huvist.",
+"initiated": "2024-10-14",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "001dd80c-38c3-4557-b3ee-408d3ffd5cd7",
+"name": "Katrin Kuusemäe",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/001dd80c-38c3-4557-b3ee-408d3ffd5cd7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3556,
+"text": "erisoodustus"
+},
+{
+"edid": 1860,
+"text": "lepitaja"
+},
+{
+"edid": 1938,
+"text": "prokuratuur"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6e6b1323-097a-4dad-a880-f55b535ded06",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a0557ccb-0204-42c5-87d2-95abfcf13b6a",
+"fileName": "524_ÕKS_ProkS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-16T14:58:17.805",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a0557ccb-0204-42c5-87d2-95abfcf13b6a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a0557ccb-0204-42c5-87d2-95abfcf13b6a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5a21ccc7-e761-45fb-a469-d88bccccb307",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "be0d45a7-3bb1-4e60-bbeb-224050bc24df",
+"fileName": "ÕKS_ja_ProkS_eelnõu_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T15:27:56.418",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/be0d45a7-3bb1-4e60-bbeb-224050bc24df/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/be0d45a7-3bb1-4e60-bbeb-224050bc24df"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5a21ccc7-e761-45fb-a469-d88bccccb307",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bb7ec254-3703-42fc-9446-33f64e924384",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T15:55:27.261",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bb7ec254-3703-42fc-9446-33f64e924384/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bb7ec254-3703-42fc-9446-33f64e924384"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6e6b1323-097a-4dad-a880-f55b535ded06",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "07005d91-5721-4da5-ad32-7ffd88d26218",
+"fileName": "524_ÕKS_ProkS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-16T14:58:57.214",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07005d91-5721-4da5-ad32-7ffd88d26218/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07005d91-5721-4da5-ad32-7ffd88d26218"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5a21ccc7-e761-45fb-a469-d88bccccb307",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "963dd3d9-400d-4bd3-8cd4-4a2b48a9b9bf",
+"fileName": "ÕKS_ja_ProkS_seletuskiri_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T15:27:56.432",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/963dd3d9-400d-4bd3-8cd4-4a2b48a9b9bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/963dd3d9-400d-4bd3-8cd4-4a2b48a9b9bf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5a21ccc7-e761-45fb-a469-d88bccccb307",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8bb7c02e-b60b-4ee9-b999-c781b669d842",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T15:55:36.824",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8bb7c02e-b60b-4ee9-b999-c781b669d842/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8bb7c02e-b60b-4ee9-b999-c781b669d842"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-10-14T15:27:14.632",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-10-15T16:45:00.82",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2024-12-03T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 3.12.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-12-12T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Katrin Kuusemäe"
+}
+],
+"protocolFiles": [
+{
+"uuid": "89047936-22b6-4813-a105-6d430998872a",
+"fileName": "Volikiri_E._Merilind_(03.12.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:44:03.606",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/89047936-22b6-4813-a105-6d430998872a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/89047936-22b6-4813-a105-6d430998872a"
+}
+}
+},
+{
+"uuid": "6ac98d81-ec38-433a-bd36-1a09a74f8d70",
+"fileName": "Volikiri_M._Kallas_(03.12.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:43:48.279",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6ac98d81-ec38-433a-bd36-1a09a74f8d70/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6ac98d81-ec38-433a-bd36-1a09a74f8d70"
+}
+}
+},
+{
+"uuid": "ae9cd09a-e80c-424c-93bf-e9249a5c1192",
+"fileName": "PÕSK_protokoll_nr_82.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:43:36.46",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae9cd09a-e80c-424c-93bf-e9249a5c1192/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae9cd09a-e80c-424c-93bf-e9249a5c1192"
+}
+}
+},
+{
+"uuid": "b076ebb6-41aa-4696-a606-7970f90d0c2a",
+"fileName": "PÕSK_protokoll_nr_82_(03.12.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:42:38.206",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b076ebb6-41aa-4696-a606-7970f90d0c2a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b076ebb6-41aa-4696-a606-7970f90d0c2a"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-01-06T10:34:44.145",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-01-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 14.01.2025 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "336141f5-9250-45fc-bc0b-ad6dade11b5f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-01-14T10:46:40.143",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/336141f5-9250-45fc-bc0b-ad6dade11b5f"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "eac00f5e-78cd-4218-8e84-58ffbd9d68c9",
+"reference": "1-1/15-524/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 524 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-14",
+"files": [
+{
+"uuid": "a813accf-1747-4290-908f-68291a1b2149",
+"fileName": "ÕKS_ProkS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T15:31:49.72",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a813accf-1747-4290-908f-68291a1b2149/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a813accf-1747-4290-908f-68291a1b2149"
+}
+}
+},
+{
+"uuid": "d9a13ff3-363a-41b8-89c4-7a2f60ddfbdf",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T15:53:38.703",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9a13ff3-363a-41b8-89c4-7a2f60ddfbdf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9a13ff3-363a-41b8-89c4-7a2f60ddfbdf"
+}
+}
+},
+{
+"uuid": "11cf27c1-406a-4e99-bde1-f2c9ca821eb4",
+"fileName": "1-1-15-524-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_524_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-15T14:08:22.598",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/11cf27c1-406a-4e99-bde1-f2c9ca821eb4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/11cf27c1-406a-4e99-bde1-f2c9ca821eb4"
+}
+}
+},
+{
+"uuid": "73d80ee6-23e1-449a-98ed-2f884c3dbb3c",
+"fileName": "ÕKS_ProkS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T15:31:27.965",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/73d80ee6-23e1-449a-98ed-2f884c3dbb3c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/73d80ee6-23e1-449a-98ed-2f884c3dbb3c"
+}
+}
+},
+{
+"uuid": "a80e1f74-3d65-4f7e-a918-f1ba2d61c86f",
+"fileName": "241015_ÕKS_ProkS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T16:03:50.221",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a80e1f74-3d65-4f7e-a918-f1ba2d61c86f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a80e1f74-3d65-4f7e-a918-f1ba2d61c86f"
+}
+}
+},
+{
+"uuid": "b7bd4b66-af7d-42a0-b447-414a7e56b562",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-14T15:54:01.144",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7bd4b66-af7d-42a0-b447-414a7e56b562/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7bd4b66-af7d-42a0-b447-414a7e56b562"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/eac00f5e-78cd-4218-8e84-58ffbd9d68c9"
+}
+}
+},
+{
+"uuid": "ed4661e6-0258-4b60-9056-e1f821c37cea",
+"reference": "1-1/15-524/2",
+"title": "Vabariigi Valitsuse arvamus õiguskantsleri seaduse ja prokuratuuriseaduse muutmise seaduse eelnõu 524 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-26",
+"files": [
+{
+"uuid": "2bca4df1-2809-472a-9502-283c78a39b0c",
+"fileName": "Vabariigi_Valitsuse_seisukoha_edastamine_õiguskantsleri_seaduse_ja_prokuratuuriseaduse_muutmise_seaduse_eelnõu_(524SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-26T11:30:14.726",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2bca4df1-2809-472a-9502-283c78a39b0c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2bca4df1-2809-472a-9502-283c78a39b0c"
+}
+}
+},
+{
+"uuid": "485106a1-fed0-49b0-9a91-628f57dcdbfe",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-1042_-_Õiguskantsleri_seaduse_ja_prokuratuuriseaduse_muutmise_seaduse_eelnõu(524_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-26T11:30:14.738",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/485106a1-fed0-49b0-9a91-628f57dcdbfe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/485106a1-fed0-49b0-9a91-628f57dcdbfe"
+}
+}
+},
+{
+"uuid": "9b3a4423-6756-4d5b-81f1-6626ff7d6adc",
+"fileName": "8-27432_20.11.2024_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-26T11:30:14.671",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9b3a4423-6756-4d5b-81f1-6626ff7d6adc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9b3a4423-6756-4d5b-81f1-6626ff7d6adc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ed4661e6-0258-4b60-9056-e1f821c37cea"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/5f84b1e3-c19b-4cdd-b127-7ac361573f2a"
+}
+}
+}

@@ -1,0 +1,537 @@
+{
+"uuid": "b1a513fc-5bf7-4cb6-8463-0029bf60a781",
+"title": "Vabariigi Valitsuse seaduse muutmise seadus",
+"mark": 276,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Vabariigi Valitsuse seaduse muutmise seadus 276 SE",
+"initialTitle": "Vabariigi Valitsuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga muudetakse Vabariigi Valitsuse seadust selliselt, et on tagatud Vabariigi Valituse liikmete osas julgeolekukontroll kogu riigisaladuse loa kehtivuse perioodi jooksul.",
+"initiated": "2023-09-20",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9035e217-d990-40ca-87ed-54c77653c6d7",
+"name": "Pipi-Liis Siemann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9035e217-d990-40ca-87ed-54c77653c6d7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1172,
+"text": "valitsus"
+},
+{
+"edid": 5884,
+"text": "riigisaladus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "659d8dcc-4ed7-4966-a655-6a7c279e5871",
+"title": "276 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "96e95b00-23ba-4414-b78e-b650ef677862",
+"fileName": "276_VVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-07T16:03:58.872",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/96e95b00-23ba-4414-b78e-b650ef677862/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/96e95b00-23ba-4414-b78e-b650ef677862"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7209a4e0-7737-4d7d-9148-b93e065cb73b",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "73094985-359e-4795-b04d-bab57720d537",
+"fileName": "276_SE_VVseadus_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:22:39.841",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/73094985-359e-4795-b04d-bab57720d537/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/73094985-359e-4795-b04d-bab57720d537"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7209a4e0-7737-4d7d-9148-b93e065cb73b",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e17437d8-0372-44cc-b9c5-cd51e07864f1",
+"fileName": "276E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T15:55:05.769",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e17437d8-0372-44cc-b9c5-cd51e07864f1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e17437d8-0372-44cc-b9c5-cd51e07864f1"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "659d8dcc-4ed7-4966-a655-6a7c279e5871",
+"title": "276 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4b203fee-85c9-46cc-832d-a97dd77b0b25",
+"fileName": "276_VVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-07T16:05:12.041",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4b203fee-85c9-46cc-832d-a97dd77b0b25/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4b203fee-85c9-46cc-832d-a97dd77b0b25"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7209a4e0-7737-4d7d-9148-b93e065cb73b",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "27a7cde2-2ead-4dd9-9d68-0a9f84722230",
+"fileName": "276_SE_VVseadus_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:22:52.09",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/27a7cde2-2ead-4dd9-9d68-0a9f84722230/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/27a7cde2-2ead-4dd9-9d68-0a9f84722230"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7209a4e0-7737-4d7d-9148-b93e065cb73b",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "71dbcd06-511b-4de5-a13c-0cba460f0901",
+"fileName": "276SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T15:55:17.229",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/71dbcd06-511b-4de5-a13c-0cba460f0901/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/71dbcd06-511b-4de5-a13c-0cba460f0901"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-09-20T15:30:50.667",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-09-21T16:06:00.975",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-11-07T14:04:00",
+"sittingTitle": "Komisjoni istung teisipäev, 7.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-11-15T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Pipi-Liis Siemann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "ad33a382-9c8c-468e-989b-6f3db060d72f",
+"fileName": "PÕSK_protokoll_07.11.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T17:22:58.115",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ad33a382-9c8c-468e-989b-6f3db060d72f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ad33a382-9c8c-468e-989b-6f3db060d72f"
+}
+}
+},
+{
+"uuid": "3f354912-7485-492d-bedd-dec1a7da5bda",
+"fileName": "PÕSK.protokoll.07.11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T17:20:41.842",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f354912-7485-492d-bedd-dec1a7da5bda/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f354912-7485-492d-bedd-dec1a7da5bda"
+}
+}
+}
+]
+},
+{
+"date": "2024-02-14T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 14.02.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-02-21T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 21.02.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-03-06T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 6.03.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-03-12T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 12.03.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "9125bd14-dbdc-4c9d-936e-fc286489d029",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-03-12T12:21:17.95",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9125bd14-dbdc-4c9d-936e-fc286489d029"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6f70d0a6-5156-4d1f-9c5a-758499ef0ab6",
+"reference": "1-1/15-276/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 276 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-20",
+"files": [
+{
+"uuid": "0d15691b-43b4-4372-b899-8d62b86a9c52",
+"fileName": "1-1-15-276-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_276_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-21T16:13:50.388",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0d15691b-43b4-4372-b899-8d62b86a9c52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0d15691b-43b4-4372-b899-8d62b86a9c52"
+}
+}
+},
+{
+"uuid": "417d2624-1219-47e2-b5f3-cd55945b3bfc",
+"fileName": "276_VVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:25:20.157",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/417d2624-1219-47e2-b5f3-cd55945b3bfc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/417d2624-1219-47e2-b5f3-cd55945b3bfc"
+}
+}
+},
+{
+"uuid": "0a8eabdc-fa22-4183-a422-7946c34c1d82",
+"fileName": "230921_VVS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-21T10:50:35.243",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0a8eabdc-fa22-4183-a422-7946c34c1d82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0a8eabdc-fa22-4183-a422-7946c34c1d82"
+}
+}
+},
+{
+"uuid": "cd81ddb6-d237-46bb-a84a-ad9f13fd3f8f",
+"fileName": "276SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:25:48.833",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd81ddb6-d237-46bb-a84a-ad9f13fd3f8f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd81ddb6-d237-46bb-a84a-ad9f13fd3f8f"
+}
+}
+},
+{
+"uuid": "c40b2adb-197a-4c31-8e1d-3901935d89e7",
+"fileName": "276E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:25:33.328",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c40b2adb-197a-4c31-8e1d-3901935d89e7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c40b2adb-197a-4c31-8e1d-3901935d89e7"
+}
+}
+},
+{
+"uuid": "f60815bf-8b4a-4b1c-842d-962174139d4e",
+"fileName": "276_VVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:25:08.522",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f60815bf-8b4a-4b1c-842d-962174139d4e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f60815bf-8b4a-4b1c-842d-962174139d4e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6f70d0a6-5156-4d1f-9c5a-758499ef0ab6"
+}
+}
+},
+{
+"uuid": "23683d15-ab05-4791-b30c-02fd83bd4096",
+"reference": "1-1/15-276/2",
+"title": "Vabariigi Valitsuse arvamus Vabariigi Valitsuse seaduse muutmise seaduse eelnõu 276 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-03",
+"files": [
+{
+"uuid": "b474ed8e-122e-4bee-a393-075f103882d4",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-1242_-_Vabariigi_Valitsuse_seaduse_muutmise_seaduse_eelnõu_(276_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:23:02.556",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b474ed8e-122e-4bee-a393-075f103882d4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b474ed8e-122e-4bee-a393-075f103882d4"
+}
+}
+},
+{
+"uuid": "29ab86cb-2ced-4e82-aa32-146d3680c41d",
+"fileName": "1-7227-6_02.11.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:23:02.508",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29ab86cb-2ced-4e82-aa32-146d3680c41d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29ab86cb-2ced-4e82-aa32-146d3680c41d"
+}
+}
+},
+{
+"uuid": "e28f946e-1045-4272-a5d7-f66bb9180d35",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine_Vabariigi_Valitsuse_seaduse_muutmise_seaduse_eelnõu_(276_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:23:02.538",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e28f946e-1045-4272-a5d7-f66bb9180d35/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e28f946e-1045-4272-a5d7-f66bb9180d35"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/23683d15-ab05-4791-b30c-02fd83bd4096"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/b1a513fc-5bf7-4cb6-8463-0029bf60a781"
+}
+}
+}

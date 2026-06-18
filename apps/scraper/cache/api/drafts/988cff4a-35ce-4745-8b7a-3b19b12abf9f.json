@@ -1,0 +1,539 @@
+{
+"uuid": "988cff4a-35ce-4745-8b7a-3b19b12abf9f",
+"title": "Käibemaksuseaduse muutmise seadus",
+"mark": 539,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Käibemaksuseaduse muutmise seadus 539 SE",
+"initialTitle": "Käibemaksuseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette toiduainete käibemaksumäära langetamise 5% le. Kehtivas seaduses on toiduainete (sh. kartul, puu- ja köögivili) käibemaksu määr 22%.",
+"initiated": "2024-11-12",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4392,
+"text": "käibemaksumäär"
+},
+{
+"edid": 2599,
+"text": "ajakirjandus"
+},
+{
+"edid": 2735,
+"text": "toiduained"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4f1bc1b2-df7a-4cff-956e-f068307787cd",
+"title": "539 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "40ae39d6-b06c-4349-b69e-0b4fe3dd9848",
+"fileName": "539_KäMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-13T15:24:01.983",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/40ae39d6-b06c-4349-b69e-0b4fe3dd9848/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/40ae39d6-b06c-4349-b69e-0b4fe3dd9848"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "82c3dd2b-3e57-4170-acde-dfccb6cce2a9",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f8117548-0610-4aaa-aafe-6ad3800269ae",
+"fileName": "KäMS_Toiduained_eelnou_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T11:37:44.981",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f8117548-0610-4aaa-aafe-6ad3800269ae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f8117548-0610-4aaa-aafe-6ad3800269ae"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "82c3dd2b-3e57-4170-acde-dfccb6cce2a9",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0805c951-102c-4ec8-b65b-6837765dc6e1",
+"fileName": "539_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T10:54:02.456",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0805c951-102c-4ec8-b65b-6837765dc6e1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0805c951-102c-4ec8-b65b-6837765dc6e1"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4f1bc1b2-df7a-4cff-956e-f068307787cd",
+"title": "539 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "87b210ea-cfb7-417a-9c8f-7a8bd1875426",
+"fileName": "539_KäMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-13T15:24:17.379",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/87b210ea-cfb7-417a-9c8f-7a8bd1875426/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/87b210ea-cfb7-417a-9c8f-7a8bd1875426"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "82c3dd2b-3e57-4170-acde-dfccb6cce2a9",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c306d8f8-77fe-4fea-b884-28b71e19f74e",
+"fileName": "KäMS_Toiduained_SK_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T11:38:06.068",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c306d8f8-77fe-4fea-b884-28b71e19f74e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c306d8f8-77fe-4fea-b884-28b71e19f74e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "82c3dd2b-3e57-4170-acde-dfccb6cce2a9",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d59d1d19-f19d-48ae-b9de-6d2e4f8c2998",
+"fileName": "539_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T10:54:25.064",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d59d1d19-f19d-48ae-b9de-6d2e4f8c2998/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d59d1d19-f19d-48ae-b9de-6d2e4f8c2998"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-11-12T10:09:10.033",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-11-12T14:03:00.189",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-01-13T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 13.01.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-01-21T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "f91632f4-b407-41cb-a8a3-309c2f9f5f36",
+"fileName": "RAHK_protokoll_13.01.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-23T13:44:43.755",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f91632f4-b407-41cb-a8a3-309c2f9f5f36/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f91632f4-b407-41cb-a8a3-309c2f9f5f36"
+}
+}
+},
+{
+"uuid": "cfb8f43d-c5cc-4a66-be71-b1e524711ee5",
+"fileName": "Asendusliikme_volikiri_M._Helme-_R._Epler_13.01.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-23T13:42:58.05",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cfb8f43d-c5cc-4a66-be71-b1e524711ee5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cfb8f43d-c5cc-4a66-be71-b1e524711ee5"
+}
+}
+},
+{
+"uuid": "17af1839-a7c2-4389-89da-01be37a68109",
+"fileName": "RAHK_protokoll_nr_133_13.01.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-23T13:42:48.31",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17af1839-a7c2-4389-89da-01be37a68109/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17af1839-a7c2-4389-89da-01be37a68109"
+}
+}
+}
+]
+},
+{
+"date": "2025-01-22T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 22.01.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "b623cba1-ba36-422b-8d83-08845cfa9501",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-01-22T17:34:31.307",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b623cba1-ba36-422b-8d83-08845cfa9501"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "e1f74514-51de-4875-9cd6-9412d5af977d",
+"reference": "1-1/15-539/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 539 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-12",
+"files": [
+{
+"uuid": "e53f3e38-ddb4-4044-a729-d85da125c379",
+"fileName": "KäMS_m-s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T11:53:25.14",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e53f3e38-ddb4-4044-a729-d85da125c379/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e53f3e38-ddb4-4044-a729-d85da125c379"
+}
+}
+},
+{
+"uuid": "42c7eda5-9018-4db6-b0a8-1e42126dbe52",
+"fileName": "1-1-15-539-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_539_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T13:42:57.748",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42c7eda5-9018-4db6-b0a8-1e42126dbe52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42c7eda5-9018-4db6-b0a8-1e42126dbe52"
+}
+}
+},
+{
+"uuid": "abc218ab-a605-4b41-82ee-450476077a6c",
+"fileName": "241112_KMS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T13:40:50.27",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/abc218ab-a605-4b41-82ee-450476077a6c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/abc218ab-a605-4b41-82ee-450476077a6c"
+}
+}
+},
+{
+"uuid": "8ac3bad9-54fb-47cd-a397-298828538542",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T11:55:53.771",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ac3bad9-54fb-47cd-a397-298828538542/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ac3bad9-54fb-47cd-a397-298828538542"
+}
+}
+},
+{
+"uuid": "0d3017e8-d98d-4f64-9b17-10bd908ef67c",
+"fileName": "KäMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T11:53:44.212",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0d3017e8-d98d-4f64-9b17-10bd908ef67c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0d3017e8-d98d-4f64-9b17-10bd908ef67c"
+}
+}
+},
+{
+"uuid": "97ac38ee-a22a-4ee1-9f43-de2a56c52284",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T11:56:50.38",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/97ac38ee-a22a-4ee1-9f43-de2a56c52284/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/97ac38ee-a22a-4ee1-9f43-de2a56c52284"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e1f74514-51de-4875-9cd6-9412d5af977d"
+}
+}
+},
+{
+"uuid": "30796177-7043-4830-8c11-0fe0eb3f4efc",
+"reference": "1-1/15-539/2",
+"title": "Vabariigi Valitsuse arvamus käibemaksuseaduse muutmise seaduse eelnõu 539 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-01-21",
+"files": [
+{
+"uuid": "1cabb1d2-8c2c-4d2b-b3b3-a1c762349fdf",
+"fileName": "Kaibemaksuseaduse_muutmise_seaduse_eelnou....asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-21T09:58:02.09",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1cabb1d2-8c2c-4d2b-b3b3-a1c762349fdf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1cabb1d2-8c2c-4d2b-b3b3-a1c762349fdf"
+}
+}
+},
+{
+"uuid": "8cdf8308-fce8-4e5b-849a-523e4785c596",
+"fileName": "Käibemaksuseaduse_muutmise_seaduse_eelnõu_(539_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-21T09:58:02.115",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8cdf8308-fce8-4e5b-849a-523e4785c596/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8cdf8308-fce8-4e5b-849a-523e4785c596"
+}
+}
+},
+{
+"uuid": "267d2790-583e-40f0-949e-5833b86941d8",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-1140_-_Käibemaksuseaduse_muutmise_seaduse_eelnõu_(539_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-21T09:58:02.125",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/267d2790-583e-40f0-949e-5833b86941d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/267d2790-583e-40f0-949e-5833b86941d8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/30796177-7043-4830-8c11-0fe0eb3f4efc"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/988cff4a-35ce-4745-8b7a-3b19b12abf9f"
+}
+}
+}

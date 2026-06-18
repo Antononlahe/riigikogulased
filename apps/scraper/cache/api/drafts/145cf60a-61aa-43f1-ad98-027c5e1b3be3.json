@@ -1,0 +1,647 @@
+{
+"uuid": "145cf60a-61aa-43f1-ad98-027c5e1b3be3",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele valmistada ette ja taastada sõjaväestatud piirivalve eraldi ametina\"",
+"mark": 274,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele valmistada ette ja taastada sõjaväestatud piirivalve eraldi ametina\" 274 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele valmistada ette ja taastada sõjaväestatud piirivalve eraldi ametina\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse Vabariigi Valitsusele ettepanek koostada ja esitada Riigikogule eelnõu taastada sõjaväestatud piirivalve eraldi ametina koos kriisi- ja sõjaaja ülesannete määratlemise ning vajalike reservüksuste loomise ja varustuse hankimisega.",
+"initiated": "2023-09-20",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-10-05T17:15:00",
+"responsibleMember": {
+"uuid": "1600fe77-4b45-44ab-972a-181a5ef71767",
+"name": "Kristo Enn Vaga",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/1600fe77-4b45-44ab-972a-181a5ef71767?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8402b4cc-7f1b-446a-8583-0450f12a16ae",
+"name": "Aivar Engel",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8402b4cc-7f1b-446a-8583-0450f12a16ae?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "0ec16e07-01d7-d638-0022-32c19031a915",
+"name": "Riigikaitsekomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/0ec16e07-01d7-d638-0022-32c19031a915?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5540,
+"text": "piirikontroll"
+},
+{
+"edid": 3437,
+"text": "sõjaväestatud jõud"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "abb13f6b-abc1-48ea-af4e-dffa53a74b1b",
+"title": "274 OE I lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "31245be8-12b0-44e1-9e7f-c2f872e938e8",
+"fileName": "274_OE_sõjaväestatud_piirivalve_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T14:15:12.489",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/31245be8-12b0-44e1-9e7f-c2f872e938e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/31245be8-12b0-44e1-9e7f-c2f872e938e8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "cb99ab43-e890-4a1a-8d33-aef02b2272e7",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ec3dbd3c-001c-425a-b75a-43827b3d0f6a",
+"fileName": "274_OE_sõjaväestatud_piirivalve_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:19:58.692",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec3dbd3c-001c-425a-b75a-43827b3d0f6a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec3dbd3c-001c-425a-b75a-43827b3d0f6a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "cb99ab43-e890-4a1a-8d33-aef02b2272e7",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5621429f-88d7-46ef-a293-20c4d3da2e83",
+"fileName": "274E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T15:52:08.771",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5621429f-88d7-46ef-a293-20c4d3da2e83/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5621429f-88d7-46ef-a293-20c4d3da2e83"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "abb13f6b-abc1-48ea-af4e-dffa53a74b1b",
+"title": "274 OE I lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e991676e-0828-4a0d-bc9b-f30b6a78ce67",
+"fileName": "274_OE_sõjaväestatud_piirivalve_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T14:15:41.382",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e991676e-0828-4a0d-bc9b-f30b6a78ce67/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e991676e-0828-4a0d-bc9b-f30b6a78ce67"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "cb99ab43-e890-4a1a-8d33-aef02b2272e7",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "02875186-4acd-452d-8cf5-fe10cb10e336",
+"fileName": "274_OE_sõjaväestatud_piirivalve_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:20:09.797",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/02875186-4acd-452d-8cf5-fe10cb10e336/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/02875186-4acd-452d-8cf5-fe10cb10e336"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "cb99ab43-e890-4a1a-8d33-aef02b2272e7",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5ee4beab-f1d9-42cb-bb17-75defc6671d6",
+"fileName": "274SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T15:52:18.376",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ee4beab-f1d9-42cb-bb17-75defc6671d6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ee4beab-f1d9-42cb-bb17-75defc6671d6"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-09-20T14:50:03.303",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-09-21T16:04:00.683",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-11-14T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 14.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "95d6cb8e-5e07-4232-a63e-6068f1f860f6",
+"fileName": "Riigikaitsekomisjoni_14.11.2023_istungi_protokoll.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T20:18:09.744",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/95d6cb8e-5e07-4232-a63e-6068f1f860f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/95d6cb8e-5e07-4232-a63e-6068f1f860f6"
+}
+}
+},
+{
+"uuid": "7d8d8607-9295-446f-9b05-f23ca196ad55",
+"fileName": "2023-11-14_protokoll_30.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T20:16:49.034",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7d8d8607-9295-446f-9b05-f23ca196ad55/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7d8d8607-9295-446f-9b05-f23ca196ad55"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-03-18T11:00:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.03.2024 kell 11.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-04-03T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Kristo Enn Vaga"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Eelnõu vajab Riigikogu otsusena vastuvõtmiseks Riigikogu koosseisu häälteenamust"
+}
+],
+"protocolFiles": [
+{
+"uuid": "5d30dcec-b62b-484c-ae58-c5a438340eeb",
+"fileName": "Riigikaitsekomisjoni_18.03.2024_istungi_protokoll.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T10:09:33.697",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5d30dcec-b62b-484c-ae58-c5a438340eeb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5d30dcec-b62b-484c-ae58-c5a438340eeb"
+}
+}
+},
+{
+"uuid": "9fb04a3c-41ab-430e-a25a-08ffd49dd621",
+"fileName": "2024-03-18_protokoll_59.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T10:06:12.61",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9fb04a3c-41ab-430e-a25a-08ffd49dd621/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9fb04a3c-41ab-430e-a25a-08ffd49dd621"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.04.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "d3d7ba41-1b80-4da7-a432-0c9573d40aaa",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-04-03T16:16:17.87",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/d3d7ba41-1b80-4da7-a432-0c9573d40aaa"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "64a00ffb-d6f6-4685-a0db-7aed81361934",
+"reference": "1-1/15-274/2",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele valmistada ette ja taastada sõjaväestatud piirivalve eraldi ametina\" eelnõu 274 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-10-03",
+"files": [
+{
+"uuid": "c71ed66c-8c28-4eda-9eba-0092609978b8",
+"fileName": "321.tel_Arvamus_274_OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-03T16:12:18.479",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c71ed66c-8c28-4eda-9eba-0092609978b8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c71ed66c-8c28-4eda-9eba-0092609978b8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/64a00ffb-d6f6-4685-a0db-7aed81361934"
+}
+}
+},
+{
+"uuid": "6a5ffe28-b337-4b49-9b88-847ecd13ed3d",
+"reference": "1-1/15-274/1",
+"title": "Seisukoha küsimine",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-22",
+"files": [
+{
+"uuid": "86e1db90-a8ee-485f-a4f2-6f6cf86201d3",
+"fileName": "Seisukoha_küsimine.html",
+"fileExtension": "html",
+"fileTitle": "E-kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-22T11:54:06.023",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/86e1db90-a8ee-485f-a4f2-6f6cf86201d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/86e1db90-a8ee-485f-a4f2-6f6cf86201d3"
+}
+}
+},
+{
+"uuid": "b365721f-3e48-4fe0-ab84-2df37ff38720",
+"fileName": "274_OE_sõjaväestatud_piirivalve_seletuskiri.docx",
+"fileExtension": "docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-22T11:54:05.998",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b365721f-3e48-4fe0-ab84-2df37ff38720/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b365721f-3e48-4fe0-ab84-2df37ff38720"
+}
+}
+},
+{
+"uuid": "8e0091ee-2434-4a16-afa2-7eca2e2a0f71",
+"fileName": "274_OE_sõjaväestatud_piirivalve_eelnõu.docx",
+"fileExtension": "docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-22T11:54:06.011",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e0091ee-2434-4a16-afa2-7eca2e2a0f71/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e0091ee-2434-4a16-afa2-7eca2e2a0f71"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6a5ffe28-b337-4b49-9b88-847ecd13ed3d"
+}
+}
+},
+{
+"uuid": "1702db20-98b3-43f4-96a0-2d850ba4436e",
+"reference": "1-1/15-274/4",
+"title": "Siseministeeriumi arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele valmistada ette ja taastada sõjaväestatud piirivalve eraldi ametina\" eelnõu 274 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-06",
+"files": [
+{
+"uuid": "d96ead92-edc3-4832-ba41-3dca3274c2a3",
+"fileName": "9-812-2_06.11.2023_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-06T15:35:17.718",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d96ead92-edc3-4832-ba41-3dca3274c2a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d96ead92-edc3-4832-ba41-3dca3274c2a3"
+}
+}
+},
+{
+"uuid": "26c6eaf6-15a9-4197-958b-5cc7350db0ec",
+"fileName": "Vastuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-06T15:35:17.749",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/26c6eaf6-15a9-4197-958b-5cc7350db0ec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/26c6eaf6-15a9-4197-958b-5cc7350db0ec"
+}
+}
+},
+{
+"uuid": "fa577270-3dd6-4093-b231-d7fbe254e06d",
+"fileName": "Vastuskiri_274_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-06T15:35:17.77",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa577270-3dd6-4093-b231-d7fbe254e06d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa577270-3dd6-4093-b231-d7fbe254e06d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1702db20-98b3-43f4-96a0-2d850ba4436e"
+}
+}
+},
+{
+"uuid": "b3a8ac68-70ee-4dc7-a1cb-198ca4ce33d5",
+"reference": "1-1/15-274/5",
+"title": "Kaitseministeeriumi arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele valmistada ette ja taastada sõjaväestatud piirivalve eraldi ametina\" eelnõu 274 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-06",
+"files": [
+{
+"uuid": "a4331910-f8c6-4972-9140-b235c4f5bed0",
+"fileName": "KaitseM_06112023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-06T16:11:20.858",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a4331910-f8c6-4972-9140-b235c4f5bed0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a4331910-f8c6-4972-9140-b235c4f5bed0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b3a8ac68-70ee-4dc7-a1cb-198ca4ce33d5"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "71078960-cd73-4b10-87ec-07c5dfdf2c83",
+"reference": "1-1/15-274/3",
+"title": "Eesti Konservatiivse Rahvaerakonna fraktsiooni muudatusettepanekud ja muudatusettepanekute tagasivõtmine riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele valmistada ette ja taastada sõjaväestatud piirivalve eraldi ametina“ eelnõu 274 OE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "b9662a67-70a5-4234-b643-801142d0b174",
+"fileName": "ME_tagasivõtmine_274OR_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "ME tagasivõtmine",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-22T13:46:41.965",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9662a67-70a5-4234-b643-801142d0b174/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9662a67-70a5-4234-b643-801142d0b174"
+}
+}
+},
+{
+"uuid": "438f7afb-8cb8-43b1-a756-8f187932b040",
+"fileName": "ME_274OE_EKREfr.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T13:51:46.753",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/438f7afb-8cb8-43b1-a756-8f187932b040/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/438f7afb-8cb8-43b1-a756-8f187932b040"
+}
+}
+},
+{
+"uuid": "1c7d5a19-7e68-4187-8c36-30419f3aa11a",
+"fileName": "ME_274OE_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T13:51:54.751",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c7d5a19-7e68-4187-8c36-30419f3aa11a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c7d5a19-7e68-4187-8c36-30419f3aa11a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/71078960-cd73-4b10-87ec-07c5dfdf2c83"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/145cf60a-61aa-43f1-ad98-027c5e1b3be3"
+}
+}
+}

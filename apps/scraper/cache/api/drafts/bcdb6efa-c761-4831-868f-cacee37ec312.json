@@ -1,0 +1,377 @@
+{
+"uuid": "bcdb6efa-c761-4831-868f-cacee37ec312",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele esitada negatiivne lisaeelarve seaduse eelnõu valitsemiskulude vähendamiseks 2025. aastal“",
+"mark": 608,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele esitada negatiivne lisaeelarve seaduse eelnõu valitsemiskulude vähendamiseks 2025. aastal“ 608 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele esitada negatiivne lisaeelarve seaduse eelnõu valitsemiskulude vähendamiseks 2025. aastal“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette teha valitsusele ettepanek esitada negatiivne lisaeelarve seaduse eelnõu vähemalt 300 miljoni euro ulatuses riigi valitsemiskulude vähendamiseks 2025. aastal, kusjuures ei vähendata riigikaitsekulusid, õpetajate, politseinike ja päästetöötajate töötasusid.",
+"initiated": "2025-03-27",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-04-10T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5061,
+"text": "lisaeelarve"
+},
+{
+"edid": 403,
+"text": "avaliku sektori kulud"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f616b6c7-09a6-423c-8e09-69dbddaff33f",
+"title": "608 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "46e702ea-f2ee-4684-8aae-fca7c973a115",
+"fileName": "608_RK_o_Ettepanek_VVle_lisaeelarve_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-06T16:35:00.404",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/46e702ea-f2ee-4684-8aae-fca7c973a115/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/46e702ea-f2ee-4684-8aae-fca7c973a115"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2c43ac54-2bfd-4c17-9346-deced9a9d3b8",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d2e788e6-e990-43e2-b29b-cb9aade0a2e4",
+"fileName": "Ettepanek_negatiivse_lisaeelarve_esitamiseks_(27.03.2025).doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-27T10:19:09.844",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d2e788e6-e990-43e2-b29b-cb9aade0a2e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d2e788e6-e990-43e2-b29b-cb9aade0a2e4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2c43ac54-2bfd-4c17-9346-deced9a9d3b8",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "72b430cd-9f9c-4681-b5bd-1b3110c26917",
+"fileName": "608_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-27T10:46:53.21",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/72b430cd-9f9c-4681-b5bd-1b3110c26917/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/72b430cd-9f9c-4681-b5bd-1b3110c26917"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f616b6c7-09a6-423c-8e09-69dbddaff33f",
+"title": "608 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "aacd7a53-4e80-4b65-8e11-117e8aded820",
+"fileName": "608_RK_o_Ettepanek_VVle_lisaeelarve_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-06T16:35:15.079",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aacd7a53-4e80-4b65-8e11-117e8aded820/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aacd7a53-4e80-4b65-8e11-117e8aded820"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2c43ac54-2bfd-4c17-9346-deced9a9d3b8",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "98b88bcd-9b08-4c93-aead-6355fbf3f8f3",
+"fileName": "608_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-27T10:47:04.68",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/98b88bcd-9b08-4c93-aead-6355fbf3f8f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/98b88bcd-9b08-4c93-aead-6355fbf3f8f3"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-03-27T10:18:51.235",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-03-27T16:19:00.491",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-06T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 6.05.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-05-14T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "e3b95972-796e-4062-83f0-37448da88a25",
+"fileName": "RAM_eelnõud_2025_esimesel_pa_28.01.25_Lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (633 SE ja 634 SE Jürgen Ligi ettekande  slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-06T16:59:28.564",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e3b95972-796e-4062-83f0-37448da88a25/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e3b95972-796e-4062-83f0-37448da88a25"
+}
+}
+},
+{
+"uuid": "866513ff-a632-4705-b576-aed30b9f5158",
+"fileName": "RAM_640_SE_ettekande_slaidid_06.05.2025_Lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (640 SE Jürgen Ligi ettekande slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-06T17:01:05.978",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/866513ff-a632-4705-b576-aed30b9f5158/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/866513ff-a632-4705-b576-aed30b9f5158"
+}
+}
+},
+{
+"uuid": "6186d0d0-e005-4b59-ba41-96abfdc7ce71",
+"fileName": "RAHK_protokoll_152_06_05_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T14:58:16.471",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6186d0d0-e005-4b59-ba41-96abfdc7ce71/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6186d0d0-e005-4b59-ba41-96abfdc7ce71"
+}
+}
+},
+{
+"uuid": "380ac5a3-4831-42dc-a013-a71b7959eeee",
+"fileName": "RAHK_protokoll_06.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T14:59:07.412",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/380ac5a3-4831-42dc-a013-a71b7959eeee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/380ac5a3-4831-42dc-a013-a71b7959eeee"
+}
+}
+}
+]
+},
+{
+"date": "2025-05-14T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 14.05.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "fd2f3df6-b9b1-4b41-ad2e-90d5a66e49d7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-05-14T18:08:06.697",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/fd2f3df6-b9b1-4b41-ad2e-90d5a66e49d7"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "a3595d1b-4057-484e-899d-ad3ea2e6563c",
+"reference": "1-1/15-608/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele esitada negatiivne lisaeelarve seaduse eelnõu valitsemiskulude vähendamiseks 2025. aastal“ eelnõu 608 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-05-06",
+"files": [
+{
+"uuid": "47a5bf3b-d6a5-43e2-9eb5-492b7d59ea02",
+"fileName": "145.tel_Arvamus_608OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-06T12:49:16.4",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/47a5bf3b-d6a5-43e2-9eb5-492b7d59ea02/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/47a5bf3b-d6a5-43e2-9eb5-492b7d59ea02"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a3595d1b-4057-484e-899d-ad3ea2e6563c"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/bcdb6efa-c761-4831-868f-cacee37ec312"
+}
+}
+}

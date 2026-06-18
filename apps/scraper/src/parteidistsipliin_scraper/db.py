@@ -466,3 +466,20 @@ def distinct_draft_uuids(conn: psycopg.Connection) -> list[str]:
     with conn.cursor() as cur:
         cur.execute("SELECT DISTINCT draft_uuid::text FROM votes WHERE draft_uuid IS NOT NULL")
         return [r["draft_uuid"] for r in cur.fetchall()]
+
+
+def upsert_draft_outcome(
+    conn: psycopg.Connection, *, draft_uuid: str, stage: str | None,
+    status: str | None, accepted_on: date | None,
+) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO draft_outcomes (draft_uuid, stage, status, accepted_on, fetched_at)
+            VALUES (%s, %s, %s, %s, now())
+            ON CONFLICT (draft_uuid) DO UPDATE SET
+              stage=EXCLUDED.stage, status=EXCLUDED.status,
+              accepted_on=EXCLUDED.accepted_on, fetched_at=now()
+            """,
+            (draft_uuid, stage, status, accepted_on),
+        )

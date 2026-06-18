@@ -1,0 +1,430 @@
+{
+"uuid": "daeabe46-e3a0-462a-aebb-a736752c4755",
+"title": "Riigikogu otsus „Riigikogu otsuse ˮEuroopa Nõukogu Parlamentaarse Assamblee \nEesti delegatsiooni moodustamineˮ muutmine\"",
+"mark": 491,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu otsuse ˮEuroopa Nõukogu Parlamentaarse Assamblee \nEesti delegatsiooni moodustamineˮ muutmine\" 491 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu otsuse ˮEuroopa Nõukogu Parlamentaarse Assamblee Eesti delegatsiooni moodustamineˮ muutmine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga tehakse ettepanek nimetada justiits- ja digiministriks asunud Liisa Pakosta asemel Euroopa Nõukogu Parlamentaarse Assamblee (ENPA) Eesti delegatsiooni juhiks Kadri Tali.\nLisaks arvatakse eelnõu kohaselt delegatsioonist välja senised asendusliikmed Reili Rand ja Ants Frosch ning nimetatakse uuteks asendusliikmeteks Hanah Lahe ja Martin Helme. Delegatsiooni liikmetena jätkavad Aleksei Jevgrafov ja Eerik-Niiles Kross ning asendusliikmena jätkab Tõnis Lukas. Väliskomisjon otsustas eelnõuga tehtavad muudatused fraktsioonide ettepanekuid arvestades.\nENPA delegatsioon esindab Eestit ja kaitseb riigi huvisid Euroopa Nõukogus, mille eesmärk on edendada demokraatiat ning kaitsta inimõigusi ja õigusriigi põhimõtteid Euroopas. Juhtivkomisjoniks määrati väliskomisjon.",
+"initiated": "2024-09-09",
+"joined": null,
+"accepted": "2024-09-19",
+"amendmentsDeadline": "2024-09-13T16:00:00",
+"responsibleMember": {
+"uuid": "a5af5ad0-6e31-443a-9b12-15769d43e784",
+"name": "Maria Jufereva-Skuratovski",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/a5af5ad0-6e31-443a-9b12-15769d43e784?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad",
+"name": "Ivar Mölder",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3040,
+"text": "parlamendidelegatsioon"
+},
+{
+"edid": 5449,
+"text": "parlamentaarne assamblee"
+},
+{
+"edid": 121,
+"text": "Euroopa Nõukogu"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "41406802-8591-4921-9ed8-55009b472ba2",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d20604b7-77c8-4241-8bd9-50d843878c67",
+"fileName": "Riigikogu_otsuse_Euroopa_Nõukogu_Parlamentaarse_Assamblee_Eesti_delegatsiooni_moodustamine_muutmise_eelnõu_esitamine_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T17:21:16.803",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d20604b7-77c8-4241-8bd9-50d843878c67/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d20604b7-77c8-4241-8bd9-50d843878c67"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "10570def-9ffb-4a5e-bd41-f2f83012ccf9",
+"title": "491 OE I lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "93fe1168-d44e-4e6a-b57f-cf68310b8e80",
+"fileName": "491_OE_ENPA_del_muutmine_(algtekst).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T09:56:25.842",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/93fe1168-d44e-4e6a-b57f-cf68310b8e80/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/93fe1168-d44e-4e6a-b57f-cf68310b8e80"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "41406802-8591-4921-9ed8-55009b472ba2",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0f2b24a1-4dab-43d9-b094-83ee904c93db",
+"fileName": "OE_ENPA_del_muutmine_(algtekst).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T17:21:16.881",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0f2b24a1-4dab-43d9-b094-83ee904c93db/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0f2b24a1-4dab-43d9-b094-83ee904c93db"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "bc5758f7-3675-45ea-91e7-e54d5506c0e1",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4964d9ef-3aab-4380-a4b2-57692cd4f478",
+"fileName": "491XV_RK_o_19092024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-19T11:19:40.68",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4964d9ef-3aab-4380-a4b2-57692cd4f478/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4964d9ef-3aab-4380-a4b2-57692cd4f478"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "bc5758f7-3675-45ea-91e7-e54d5506c0e1",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9f428285-d8d9-4388-b663-9570b9b78faf",
+"fileName": "491XV_RK_o_19092024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-19T11:18:27.799",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9f428285-d8d9-4388-b663-9570b9b78faf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9f428285-d8d9-4388-b663-9570b9b78faf"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "10570def-9ffb-4a5e-bd41-f2f83012ccf9",
+"title": "491 OE I lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "090b0b9a-562d-467e-859f-87fe11ce8130",
+"fileName": "491_OE_ENPA_del_muutmine_(seletuskiri).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T09:56:45.585",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/090b0b9a-562d-467e-859f-87fe11ce8130/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/090b0b9a-562d-467e-859f-87fe11ce8130"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "41406802-8591-4921-9ed8-55009b472ba2",
+"title": "VÄLK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8ebccc75-4273-4b10-99fd-03dcf861ec9a",
+"fileName": "OE_ENPA_del_muutmine_(seletuskiri).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T17:21:16.868",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ebccc75-4273-4b10-99fd-03dcf861ec9a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ebccc75-4273-4b10-99fd-03dcf861ec9a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c6838ef7-44ff-44a3-ba0c-6ebcae4bfb07",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4c4d1720-72fa-4334-9dc6-657df1283d2a",
+"fileName": "491XV_RK_o_092024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-19T10:12:36.882",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c4d1720-72fa-4334-9dc6-657df1283d2a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c4d1720-72fa-4334-9dc6-657df1283d2a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c6838ef7-44ff-44a3-ba0c-6ebcae4bfb07",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6dd0ff38-aaf5-4f86-b180-ad9f68f2030e",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-19T10:21:08.634",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6dd0ff38-aaf5-4f86-b180-ad9f68f2030e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6dd0ff38-aaf5-4f86-b180-ad9f68f2030e"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-09-09T17:20:41.056",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-09-10T13:47:00.571",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-09-12T13:15:00",
+"sittingTitle": "Komisjoni istung neljapäev, 12.09.2024 kell 13.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-09-19T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Maria Jufereva-Skuratovski"
+}
+],
+"protocolFiles": [
+{
+"uuid": "c4567120-224e-49cd-ac29-32101ed0618d",
+"fileName": "VÄLK_protokoll_12.09.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-18T09:21:31.451",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c4567120-224e-49cd-ac29-32101ed0618d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c4567120-224e-49cd-ac29-32101ed0618d"
+}
+}
+},
+{
+"uuid": "cedc97d1-bde4-4c20-90c6-ed4cdfc20e09",
+"fileName": "VÄLK_protokoll_12.09.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-18T09:20:58.174",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cedc97d1-bde4-4c20-90c6-ed4cdfc20e09/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cedc97d1-bde4-4c20-90c6-ed4cdfc20e09"
+}
+}
+}
+]
+},
+{
+"date": "2024-09-19T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 19.09.2024 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "eab58c56-bda7-4eff-822b-a7390fc92746",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-09-19T10:09:38.013",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/eab58c56-bda7-4eff-822b-a7390fc92746"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-09-19T11:18:07.197",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-09-20T16:05:49.559",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/daeabe46-e3a0-462a-aebb-a736752c4755"
+}
+}
+}

@@ -1,0 +1,526 @@
+{
+"uuid": "7b14fa92-2623-4539-bad3-0bee86ce90fe",
+"title": "Vabariigi Valitsuse seaduse muutmise seadus",
+"mark": 523,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Vabariigi Valitsuse seaduse muutmise seadus 523 SE",
+"initialTitle": "Vabariigi Valitsuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärgiks on muuta läbipaistvaks esinduskulude maksmine Vabariigi Valitsuse liikmetele ning luua kontrolli võimalus esinduskulude eesmärgipärase kasutamise osas. Eelnõuga sätestatakse, et Vabariigi Valitsuse liikmele makstakse igakuiselt 20 protsenti ametipalgast esinduskuludeks. Esinduskulud makstakse välja esitatud kuludokumentide alusel, vastavad tingimused sätestatakse Vabariigi Valitsuse määrusega kinnitatavas Vabariigi Valitsuse reglemendis",
+"initiated": "2024-10-09",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9035e217-d990-40ca-87ed-54c77653c6d7",
+"name": "Pipi-Liis Siemann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9035e217-d990-40ca-87ed-54c77653c6d7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1172,
+"text": "valitsus"
+},
+{
+"edid": 3556,
+"text": "erisoodustus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4ad75d48-066f-46d5-9d7f-e33d3107536d",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f3c640a3-dba2-4a1c-ac9f-3a8e9f460cbb",
+"fileName": "523_VVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-09T16:18:23.732",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3c640a3-dba2-4a1c-ac9f-3a8e9f460cbb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3c640a3-dba2-4a1c-ac9f-3a8e9f460cbb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3c61473a-6077-45a8-9d98-2949e933aed9",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8a277764-d206-4e40-87c1-a71b0ae26a78",
+"fileName": "Minstrite_kuluhüvitised_SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-09T14:15:56.082",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8a277764-d206-4e40-87c1-a71b0ae26a78/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8a277764-d206-4e40-87c1-a71b0ae26a78"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3c61473a-6077-45a8-9d98-2949e933aed9",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "34266b36-500e-4ce5-b1d0-d1657d467079",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-09T15:00:58.849",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34266b36-500e-4ce5-b1d0-d1657d467079/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34266b36-500e-4ce5-b1d0-d1657d467079"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4ad75d48-066f-46d5-9d7f-e33d3107536d",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ddf81d61-9fc7-4d0c-8d4b-9fbd1aa5d864",
+"fileName": "523_VVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-09T16:18:56.8",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ddf81d61-9fc7-4d0c-8d4b-9fbd1aa5d864/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ddf81d61-9fc7-4d0c-8d4b-9fbd1aa5d864"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3c61473a-6077-45a8-9d98-2949e933aed9",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "301fff13-1064-44ad-a343-a205b7a6d009",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-09T15:01:09.186",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/301fff13-1064-44ad-a343-a205b7a6d009/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/301fff13-1064-44ad-a343-a205b7a6d009"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-10-09T14:15:14.95",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-10-10T15:41:00.684",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-12-03T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 3.12.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-12-12T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Pipi-Liis Siemann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "89047936-22b6-4813-a105-6d430998872a",
+"fileName": "Volikiri_E._Merilind_(03.12.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:44:03.606",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/89047936-22b6-4813-a105-6d430998872a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/89047936-22b6-4813-a105-6d430998872a"
+}
+}
+},
+{
+"uuid": "6ac98d81-ec38-433a-bd36-1a09a74f8d70",
+"fileName": "Volikiri_M._Kallas_(03.12.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:43:48.279",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6ac98d81-ec38-433a-bd36-1a09a74f8d70/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6ac98d81-ec38-433a-bd36-1a09a74f8d70"
+}
+}
+},
+{
+"uuid": "ae9cd09a-e80c-424c-93bf-e9249a5c1192",
+"fileName": "PÕSK_protokoll_nr_82.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:43:36.46",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae9cd09a-e80c-424c-93bf-e9249a5c1192/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae9cd09a-e80c-424c-93bf-e9249a5c1192"
+}
+}
+},
+{
+"uuid": "b076ebb6-41aa-4696-a606-7970f90d0c2a",
+"fileName": "PÕSK_protokoll_nr_82_(03.12.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:42:38.206",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b076ebb6-41aa-4696-a606-7970f90d0c2a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b076ebb6-41aa-4696-a606-7970f90d0c2a"
+}
+}
+}
+]
+},
+{
+"date": "2024-12-12T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 12.12.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "dd90d92a-6b5c-49c8-8cfb-bcbf7e3e7bd0",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-12-12T11:52:34.18",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/dd90d92a-6b5c-49c8-8cfb-bcbf7e3e7bd0"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "97069692-aa66-45e2-932d-14526a06fee9",
+"reference": "1-1/15-523/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 523 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-09",
+"files": [
+{
+"uuid": "c79d85d7-9710-48fb-8605-474bc7808532",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-09T15:08:08.324",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c79d85d7-9710-48fb-8605-474bc7808532/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c79d85d7-9710-48fb-8605-474bc7808532"
+}
+}
+},
+{
+"uuid": "74c9b424-fb88-4b5c-867f-9ad011131d64",
+"fileName": "VVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-09T15:07:23.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/74c9b424-fb88-4b5c-867f-9ad011131d64/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/74c9b424-fb88-4b5c-867f-9ad011131d64"
+}
+}
+},
+{
+"uuid": "861ab791-7370-4547-94aa-22465aef7615",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-09T15:07:53.197",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/861ab791-7370-4547-94aa-22465aef7615/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/861ab791-7370-4547-94aa-22465aef7615"
+}
+}
+},
+{
+"uuid": "ba136c10-2e0a-4233-a663-a68e930964ed",
+"fileName": "VVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-09T15:07:42.742",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba136c10-2e0a-4233-a663-a68e930964ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba136c10-2e0a-4233-a663-a68e930964ed"
+}
+}
+},
+{
+"uuid": "7d18b8b7-73a8-43d6-bd16-4f6a8cb8b986",
+"fileName": "1-1-15-523-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_523_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-10T15:39:49.855",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7d18b8b7-73a8-43d6-bd16-4f6a8cb8b986/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7d18b8b7-73a8-43d6-bd16-4f6a8cb8b986"
+}
+}
+},
+{
+"uuid": "3c5369f8-ef56-4366-a058-b2f06ddbacf7",
+"fileName": "241010_VVS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-09T15:15:34.424",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c5369f8-ef56-4366-a058-b2f06ddbacf7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c5369f8-ef56-4366-a058-b2f06ddbacf7"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/97069692-aa66-45e2-932d-14526a06fee9"
+}
+}
+},
+{
+"uuid": "da346692-ee9b-477e-9be8-c086e0e90514",
+"reference": "1-1/15-523/2",
+"title": "Vabariigi Valitsuse arvamus Vabariigi Valitsuse seaduse muutmise seaduse eelnõu 523 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-20",
+"files": [
+{
+"uuid": "8336d819-553b-4778-b035-f2c224c2e797",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-1026_-_Vabariigi_Valitsuse_seaduse_muutmise_seaduse_eelnõu_(523_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T17:11:02.825",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8336d819-553b-4778-b035-f2c224c2e797/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8336d819-553b-4778-b035-f2c224c2e797"
+}
+}
+},
+{
+"uuid": "f11cd318-b845-4f24-aafa-39ae44279fe5",
+"fileName": "Seisukoha_edastamine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T17:11:02.813",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f11cd318-b845-4f24-aafa-39ae44279fe5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f11cd318-b845-4f24-aafa-39ae44279fe5"
+}
+}
+},
+{
+"uuid": "3ceb60fd-0db9-49d7-8ecf-9d37b21721d8",
+"fileName": "8-17245-5_20.11.2024_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T17:11:02.764",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ceb60fd-0db9-49d7-8ecf-9d37b21721d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ceb60fd-0db9-49d7-8ecf-9d37b21721d8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/da346692-ee9b-477e-9be8-c086e0e90514"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/7b14fa92-2623-4539-bad3-0bee86ce90fe"
+}
+}
+}

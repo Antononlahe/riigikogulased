@@ -1,0 +1,569 @@
+{
+"uuid": "030b5845-17b6-4930-a987-41c86488d9e7",
+"title": "Riigikogu otsus „Riigimetsa Majandamise Keskuse nõukogu liikme \nnimetamine\"",
+"mark": 454,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigimetsa Majandamise Keskuse nõukogu liikme \nnimetamine\" 454 OE",
+"initialTitle": "Riigikogu otsus „Riigimetsa Majandamise Keskuse nõukogu liikme nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu näeb ette, et seoses Jevgeni Ossinovski Riigimetsa Majandamise Keskuse nõukogu liikme volituste lõppemisega nimetada nõukogu liikmeks Riigikogu liige Anti Allas.",
+"initiated": "2024-06-03",
+"joined": null,
+"accepted": "2024-06-11",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9d863d49-8bfb-4314-bd3c-cfa143f518c8",
+"name": "Tiit Maran",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9d863d49-8bfb-4314-bd3c-cfa143f518c8?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "93630c8d-295d-4c76-b30b-2eebc6d35396",
+"name": "Elle Kaur",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/93630c8d-295d-4c76-b30b-2eebc6d35396?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 651,
+"text": "metsamajandus"
+},
+{
+"edid": 2996,
+"text": "riigimets"
+},
+{
+"edid": 878,
+"text": "avalik asutus"
+},
+{
+"edid": 1154,
+"text": "juhtimine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "007821b1-64d9-42d8-b41c-35892f60069b",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "98d8fae3-3ccb-41a5-82f7-66c7c3cfa45f",
+"fileName": "Eelnõu_RMK-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T17:09:06.521",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/98d8fae3-3ccb-41a5-82f7-66c7c3cfa45f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/98d8fae3-3ccb-41a5-82f7-66c7c3cfa45f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "da260f79-69dd-4fb4-b406-ee802fd45174",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "aaaa4e34-09ff-46f3-a78d-b6d937139e8e",
+"fileName": "454_Eelnõu_RMK.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T09:06:27.205",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aaaa4e34-09ff-46f3-a78d-b6d937139e8e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aaaa4e34-09ff-46f3-a78d-b6d937139e8e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "007821b1-64d9-42d8-b41c-35892f60069b",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "017b7d2b-9693-475a-935e-6f38e8fa746c",
+"fileName": "Eelnõu_RMK.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T17:09:06.601",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/017b7d2b-9693-475a-935e-6f38e8fa746c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/017b7d2b-9693-475a-935e-6f38e8fa746c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "007821b1-64d9-42d8-b41c-35892f60069b",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4ec144ae-cc4d-4280-8c01-4e365d8cc258",
+"fileName": "Esitluskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T17:09:06.616",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ec144ae-cc4d-4280-8c01-4e365d8cc258/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ec144ae-cc4d-4280-8c01-4e365d8cc258"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "abdd4506-8324-4385-88fb-c27da13e89d5",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2b47f5a4-8467-4f9e-bc67-572aa801e03d",
+"fileName": "454XV_RK_o_11062024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T17:46:35.45",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b47f5a4-8467-4f9e-bc67-572aa801e03d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b47f5a4-8467-4f9e-bc67-572aa801e03d"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "abdd4506-8324-4385-88fb-c27da13e89d5",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bf71f22c-8c29-4370-a6cc-db67a3763193",
+"fileName": "454XV_RK_o_11062024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T17:46:23.458",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf71f22c-8c29-4370-a6cc-db67a3763193/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf71f22c-8c29-4370-a6cc-db67a3763193"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "da260f79-69dd-4fb4-b406-ee802fd45174",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c8b4f1a9-72e7-43e0-bdbf-1a50f8bd4a2b",
+"fileName": "454_Seletuskiri_RMK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T09:06:38.982",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8b4f1a9-72e7-43e0-bdbf-1a50f8bd4a2b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8b4f1a9-72e7-43e0-bdbf-1a50f8bd4a2b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "007821b1-64d9-42d8-b41c-35892f60069b",
+"title": "KEKK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0f48da4a-1e50-4d41-9f9a-8af04fd0b156",
+"fileName": "Seletuskiri_RMK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T17:09:06.584",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0f48da4a-1e50-4d41-9f9a-8af04fd0b156/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0f48da4a-1e50-4d41-9f9a-8af04fd0b156"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8650406a-2414-4cb2-b7ee-4ef1ef64b346",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "25207e60-6f21-4e65-b58f-3102b3404fa3",
+"fileName": "454XV_RK_o_062024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T11:33:24.186",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25207e60-6f21-4e65-b58f-3102b3404fa3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25207e60-6f21-4e65-b58f-3102b3404fa3"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8650406a-2414-4cb2-b7ee-4ef1ef64b346",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9b632be3-6df6-470d-bb51-40e145344727",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T11:50:12.696",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9b632be3-6df6-470d-bb51-40e145344727/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9b632be3-6df6-470d-bb51-40e145344727"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-06-03T17:07:49.735",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-06-04T13:45:00.174",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-06-03T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 3.06.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-06-12T14:00:00"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Esitada otsuse eelnõu täiskogule"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Teha ettepanek nimetada Riigimetsa Majandamise Keskuse nõukogu uueks liikmeks Riigikogu liige Anti Allas"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Tiit Maran"
+}
+],
+"protocolFiles": [
+{
+"uuid": "c151ba35-0d51-48ce-abe2-38521b0ff915",
+"fileName": "2024_06_03_435SE_MaaPS_täiendamine_põlevkivi_RK-le.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T13:24:29.089",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c151ba35-0d51-48ce-abe2-38521b0ff915/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c151ba35-0d51-48ce-abe2-38521b0ff915"
+}
+}
+},
+{
+"uuid": "be477452-06f0-4c90-93d4-7c5323443b0e",
+"fileName": "JäätS_eelnõu_tutvustus_keskkonnakomisjonis_03-06-2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T13:23:58.939",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/be477452-06f0-4c90-93d4-7c5323443b0e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/be477452-06f0-4c90-93d4-7c5323443b0e"
+}
+}
+},
+{
+"uuid": "788c6bbf-0a62-499d-9e93-177386b885ab",
+"fileName": "KEKK_protokoll_03.06.224.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T13:20:43.662",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/788c6bbf-0a62-499d-9e93-177386b885ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/788c6bbf-0a62-499d-9e93-177386b885ab"
+}
+}
+},
+{
+"uuid": "147b7169-9c76-4e7b-9bf8-a7ddb36396bb",
+"fileName": "KEKK_protokoll_03.06.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T13:20:07.284",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/147b7169-9c76-4e7b-9bf8-a7ddb36396bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/147b7169-9c76-4e7b-9bf8-a7ddb36396bb"
+}
+}
+},
+{
+"uuid": "8c7f2cda-8032-455e-a241-b6e2c42702a7",
+"fileName": "SDE_fraktsiooni_ettepanek_keskkonnakomisjonile_(E.Odinets).docx",
+"fileExtension": "docx",
+"fileTitle": "(Fraktsiooni Sotsiaaldemokraadid KIKi liikme nimetamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T11:20:02.607",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8c7f2cda-8032-455e-a241-b6e2c42702a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8c7f2cda-8032-455e-a241-b6e2c42702a7"
+}
+}
+},
+{
+"uuid": "5c432453-2e14-4b42-b2f5-8a4a1449c630",
+"fileName": "SDE_fraktsiooni_ettepanek_keskkonnakomisjonile_(E.Odinets).asice",
+"fileExtension": "asice",
+"fileTitle": "(Fraktsiooni Sotsiaaldemokraadid KIKi liikme nimetamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T11:19:14.648",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5c432453-2e14-4b42-b2f5-8a4a1449c630/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5c432453-2e14-4b42-b2f5-8a4a1449c630"
+}
+}
+},
+{
+"uuid": "e853bb2c-b821-4cf3-be5d-7fedbb71ad48",
+"fileName": "SDE_fraktsiooni_ettepanek_keskkonnakomisjonile_(A._Allas).docx",
+"fileExtension": "docx",
+"fileTitle": "(Fraktsiooni Sotsiaaldemokraadid RMK liikme nimetamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T11:19:06.43",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e853bb2c-b821-4cf3-be5d-7fedbb71ad48/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e853bb2c-b821-4cf3-be5d-7fedbb71ad48"
+}
+}
+},
+{
+"uuid": "b4b489b2-fc8b-4538-82f7-30efaa78746c",
+"fileName": "SDE_fraktsiooni_ettepanek_keskkonnakomisjonile_(A._Allas).asice",
+"fileExtension": "asice",
+"fileTitle": "(Fraktsiooni Sotsiaaldemokraadid RMK liikme nimetamine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-11T11:17:38.952",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4b489b2-fc8b-4538-82f7-30efaa78746c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4b489b2-fc8b-4538-82f7-30efaa78746c"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-11T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 11.06.2024 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "a168554e-c4d7-421a-a162-4484bbcf092b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-06-11T11:31:06.393",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a168554e-c4d7-421a-a162-4484bbcf092b"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-06-11T17:46:03.158",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-06-13T20:40:42.981",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/030b5845-17b6-4930-a987-41c86488d9e7"
+}
+}
+}

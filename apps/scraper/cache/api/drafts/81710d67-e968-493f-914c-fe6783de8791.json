@@ -1,0 +1,596 @@
+{
+"uuid": "81710d67-e968-493f-914c-fe6783de8791",
+"title": "Tulumaksuseaduse muutmise seadus",
+"mark": 566,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Tulumaksuseaduse muutmise seadus 566 SE",
+"initialTitle": "Tulumaksuseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on kehtestada Eestis tegutsevatele krediidiasutustele erakorraliselt kasumilt täiendav tulumaksukohustus, mis motiveeriks neid muutma oma intressipoliitikat ning tooks ka lisatulu riigieelarvesse.",
+"initiated": "2025-01-22",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "5650dddf-f2ca-4b94-8888-e7482808f81b",
+"name": "Aivar Sõerd",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/5650dddf-f2ca-4b94-8888-e7482808f81b?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1331,
+"text": "ettevõtte tulumaks"
+},
+{
+"edid": 3246,
+"text": "krediidiasutus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1611e00e-14fb-407d-9eda-93079a83b20f",
+"title": "566 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1cfb12fc-aa13-4bfb-943b-813f1681339d",
+"fileName": "566_TuMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T16:02:11.558",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1cfb12fc-aa13-4bfb-943b-813f1681339d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1cfb12fc-aa13-4bfb-943b-813f1681339d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7b2cf46b-d015-4cce-8b05-497d5979be14",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6736e674-1277-4048-8e87-280e085629bb",
+"fileName": "Pangamaks.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-22T14:14:07.723",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6736e674-1277-4048-8e87-280e085629bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6736e674-1277-4048-8e87-280e085629bb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7b2cf46b-d015-4cce-8b05-497d5979be14",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4667b0c4-621b-4817-9fb9-051271a58d37",
+"fileName": "566.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-22T15:55:19.926",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4667b0c4-621b-4817-9fb9-051271a58d37/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4667b0c4-621b-4817-9fb9-051271a58d37"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1611e00e-14fb-407d-9eda-93079a83b20f",
+"title": "566 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f7cf7882-3542-4e78-ba9f-7ac18e465a87",
+"fileName": "566_TuMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T16:02:23.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7cf7882-3542-4e78-ba9f-7ac18e465a87/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7cf7882-3542-4e78-ba9f-7ac18e465a87"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7b2cf46b-d015-4cce-8b05-497d5979be14",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "af1f8649-8343-4d69-8c24-a22b6c887951",
+"fileName": "Pangamaksu_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-22T14:14:07.717",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/af1f8649-8343-4d69-8c24-a22b6c887951/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/af1f8649-8343-4d69-8c24-a22b6c887951"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7b2cf46b-d015-4cce-8b05-497d5979be14",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b5f4977d-efb7-4d3f-9677-d86fa5506179",
+"fileName": "566SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-22T15:55:38.061",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b5f4977d-efb7-4d3f-9677-d86fa5506179/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b5f4977d-efb7-4d3f-9677-d86fa5506179"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-01-22T14:13:36.37",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-01-23T15:49:00.522",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-03-19T08:00:00",
+"sittingTitle": "Komisjoni erakorraline istung kolmapäev, 19.03.2025 kell 08.00",
+"committeeDecisions": [],
+"protocolFiles": []
+},
+{
+"date": "2025-03-20T08:45:00",
+"sittingTitle": "Komisjoni erakorraline istung neljapäev, 20.03.2025 kell 08.45",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "20f0b4b9-e8e9-4d56-855a-f4f60d1c0d2e",
+"fileName": "RAHK_protokoll_nr_142_20.03.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-21T15:04:41.441",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/20f0b4b9-e8e9-4d56-855a-f4f60d1c0d2e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/20f0b4b9-e8e9-4d56-855a-f4f60d1c0d2e"
+}
+}
+},
+{
+"uuid": "5f7540c0-7970-4fe5-96c9-25c3fa0fcc1c",
+"fileName": "Asendusliikme_volikiri_M._Helme-R._Epler_20.03.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-21T15:07:32.131",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f7540c0-7970-4fe5-96c9-25c3fa0fcc1c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f7540c0-7970-4fe5-96c9-25c3fa0fcc1c"
+}
+}
+},
+{
+"uuid": "6b0c7eb8-dd61-4adf-8f81-8deefdb1ee67",
+"fileName": "RAHK_protokoll_20.03.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-21T15:08:54.665",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b0c7eb8-dd61-4adf-8f81-8deefdb1ee67/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b0c7eb8-dd61-4adf-8f81-8deefdb1ee67"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-03-25T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 25.03.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-04-08T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Aivar Sõerd"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "67eeda63-66d9-4fe3-a57a-7f378fdc096f",
+"fileName": "RAHK_protokoll_25.03.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T09:49:49.071",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67eeda63-66d9-4fe3-a57a-7f378fdc096f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67eeda63-66d9-4fe3-a57a-7f378fdc096f"
+}
+}
+},
+{
+"uuid": "192e7cf2-c48b-4d74-90f2-a6b0a805ed5b",
+"fileName": "Asendusliikme_volikiri_M._Helme-S._Pohlak_25.03.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T09:46:01.074",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/192e7cf2-c48b-4d74-90f2-a6b0a805ed5b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/192e7cf2-c48b-4d74-90f2-a6b0a805ed5b"
+}
+}
+},
+{
+"uuid": "c7f590d5-d5ba-4bf4-8d19-70ec53671c09",
+"fileName": "RAHK_protokoll_nr_144_25.03.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T09:45:50.171",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c7f590d5-d5ba-4bf4-8d19-70ec53671c09/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c7f590d5-d5ba-4bf4-8d19-70ec53671c09"
+}
+}
+}
+]
+},
+{
+"date": "2025-04-09T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 9.04.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "c021bd0b-9b4e-41ee-b224-170c16cb2dda",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-04-09T16:43:44.083",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/c021bd0b-9b4e-41ee-b224-170c16cb2dda"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "d2d1bdd7-3efb-4d79-a4db-4a8ceb0eeec4",
+"reference": "1-1/15-566/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 566 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-01-22",
+"files": [
+{
+"uuid": "825b9068-eb41-4b53-9790-7c777afb23f7",
+"fileName": "566.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-22T15:56:45.123",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/825b9068-eb41-4b53-9790-7c777afb23f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/825b9068-eb41-4b53-9790-7c777afb23f7"
+}
+}
+},
+{
+"uuid": "76f2d168-15aa-4362-b2ad-78c3739bf378",
+"fileName": "TuMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-22T14:29:11.123",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/76f2d168-15aa-4362-b2ad-78c3739bf378/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/76f2d168-15aa-4362-b2ad-78c3739bf378"
+}
+}
+},
+{
+"uuid": "ad6042cc-f104-42c1-87f0-ba0175ea754f",
+"fileName": "1-1-15-566-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_566_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-23T15:49:30.184",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ad6042cc-f104-42c1-87f0-ba0175ea754f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ad6042cc-f104-42c1-87f0-ba0175ea754f"
+}
+}
+},
+{
+"uuid": "cfaf1e41-5e6f-409a-a788-8950d99fa9ca",
+"fileName": "TuMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-22T14:28:59.227",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cfaf1e41-5e6f-409a-a788-8950d99fa9ca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cfaf1e41-5e6f-409a-a788-8950d99fa9ca"
+}
+}
+},
+{
+"uuid": "9515af2e-18fb-4689-8075-2e4a4a6b699f",
+"fileName": "566SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-22T15:56:56.771",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9515af2e-18fb-4689-8075-2e4a4a6b699f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9515af2e-18fb-4689-8075-2e4a4a6b699f"
+}
+}
+},
+{
+"uuid": "dbc7d323-721a-4f17-8c52-b753c91eff2f",
+"fileName": "240123_TuMS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-23T10:44:56.662",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dbc7d323-721a-4f17-8c52-b753c91eff2f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dbc7d323-721a-4f17-8c52-b753c91eff2f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d2d1bdd7-3efb-4d79-a4db-4a8ceb0eeec4"
+}
+}
+},
+{
+"uuid": "2fcf6afc-fa4f-480d-b36a-03ea9a934853",
+"reference": "1-1/15-566/2",
+"title": "Vabariigi Valitsuse arvamus tulumaksuseaduse muutmise seaduse eelnõu 566 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-03-20",
+"files": [
+{
+"uuid": "668984cc-8c43-413f-b16c-60e1fe3f4540",
+"fileName": "Tulumaksuseaduse_muutmise_seaduse_eelnõu_(566_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-20T08:56:27.968",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/668984cc-8c43-413f-b16c-60e1fe3f4540/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/668984cc-8c43-413f-b16c-60e1fe3f4540"
+}
+}
+},
+{
+"uuid": "38648578-ec04-4e14-a764-f1e8c74bb5f9",
+"fileName": "1.1-11415-4_19.03.2025_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-20T08:56:27.891",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/38648578-ec04-4e14-a764-f1e8c74bb5f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/38648578-ec04-4e14-a764-f1e8c74bb5f9"
+}
+}
+},
+{
+"uuid": "44445ec9-2fbd-4989-b130-04af330ea2c1",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0068_-_Tulumaksuseaduse_muutmise_seaduse_eelnõu_(566_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-20T08:56:27.983",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/44445ec9-2fbd-4989-b130-04af330ea2c1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/44445ec9-2fbd-4989-b130-04af330ea2c1"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2fcf6afc-fa4f-480d-b36a-03ea9a934853"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/81710d67-e968-493f-914c-fe6783de8791"
+}
+}
+}

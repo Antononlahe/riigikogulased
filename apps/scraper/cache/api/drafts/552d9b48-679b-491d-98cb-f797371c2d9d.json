@@ -1,0 +1,1103 @@
+{
+"uuid": "552d9b48-679b-491d-98cb-f797371c2d9d",
+"title": "Tulumaksuseaduse muutmise seadus",
+"mark": 416,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Tulumaksuseaduse muutmise seadus 416 SE",
+"initialTitle": "Tulumaksuseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Muudatus mõjutab eeskätt pensionäre, kelle pension on võrdne Eesti keskmise pensioniga või on sellest kõrgem. Edaspidi toimuks pensioniealiste maksuvaba tulu tõstmine eraldi otsusena analoogiliselt üldise maksuvaba tulu tõusuga. Nii on võimalik paindlikult arvesse võtta ka riigi eelarvelisi võimalusi ja üldist maksu- ning majanduskeskkonda.",
+"initiated": "2024-04-11",
+"joined": null,
+"accepted": "2024-06-04",
+"amendmentsDeadline": "2024-05-15T17:15:00",
+"responsibleMember": {
+"uuid": "c0c7bea2-4c5e-4295-9c0f-dca52d602098",
+"name": "Jürgen Ligi",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/c0c7bea2-4c5e-4295-9c0f-dca52d602098?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 1312,
+"text": "üksikisiku tulumaks"
+},
+{
+"edid": 3751,
+"text": "pensionisüsteem"
+},
+{
+"edid": 3685,
+"text": "maksustatav tulu"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd762055-3072-44ae-80c0-499b3b264c17",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "92ee6f42-4cbe-4cc3-9b80-55df779cd6f2",
+"fileName": "RK_24-00589-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-11T10:10:48.171",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92ee6f42-4cbe-4cc3-9b80-55df779cd6f2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92ee6f42-4cbe-4cc3-9b80-55df779cd6f2"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd762055-3072-44ae-80c0-499b3b264c17",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "460ea4cf-84a2-4d79-ad9b-72771ed33782",
+"fileName": "[EIS]_Eelnõu_esitamine__SOM-24-0231_-_Tulumaksuseaduse_muutmise_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-11T10:10:48.388",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/460ea4cf-84a2-4d79-ad9b-72771ed33782/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/460ea4cf-84a2-4d79-ad9b-72771ed33782"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "980840cc-f026-4c1a-9e9e-cb39fdc41d6c",
+"title": "416 SE I lug. tekst, seletuskiri ja lisa",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "be0b0c5a-8c1c-446b-b6cb-20455bc5a8d4",
+"fileName": "416_TuMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:43:47.8",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/be0b0c5a-8c1c-446b-b6cb-20455bc5a8d4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/be0b0c5a-8c1c-446b-b6cb-20455bc5a8d4"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "b15a0f7e-dfd6-4816-82aa-d1fa0d46ca10",
+"title": "Eelnõu 416 SE III lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3533424a-a953-4191-857c-8b382a6c9254",
+"fileName": "Eelnõu_416_SE_III_TuMSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-31T10:09:47.524",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3533424a-a953-4191-857c-8b382a6c9254/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3533424a-a953-4191-857c-8b382a6c9254"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "2563e5ed-cda2-454b-9898-bf6d47ce588c",
+"title": "Eelnõu 416 SE II (TuMSms) lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8384f38d-5458-43f0-a52f-9111d3438e7f",
+"fileName": "Eelnõu_416_SE_II_TuMSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T20:55:00.438",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8384f38d-5458-43f0-a52f-9111d3438e7f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8384f38d-5458-43f0-a52f-9111d3438e7f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd762055-3072-44ae-80c0-499b3b264c17",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c78d35e9-1a56-41a8-bd2d-edc2473d9a9f",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-11T10:10:48.283",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c78d35e9-1a56-41a8-bd2d-edc2473d9a9f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c78d35e9-1a56-41a8-bd2d-edc2473d9a9f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd762055-3072-44ae-80c0-499b3b264c17",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2252515f-f603-4ea6-bfa9-8a97496589d9",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-11T10:10:48.331",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2252515f-f603-4ea6-bfa9-8a97496589d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2252515f-f603-4ea6-bfa9-8a97496589d9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd762055-3072-44ae-80c0-499b3b264c17",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b2e055b7-627d-4256-826f-d281052d4a2c",
+"fileName": "24-00589-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-11T10:10:48.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b2e055b7-627d-4256-826f-d281052d4a2c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b2e055b7-627d-4256-826f-d281052d4a2c"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "11fad4c8-616b-403d-a6b5-fc39182519ee",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "763e4517-5746-403f-a1f5-d370ce9cf92b",
+"fileName": "416_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T12:02:07.014",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/763e4517-5746-403f-a1f5-d370ce9cf92b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/763e4517-5746-403f-a1f5-d370ce9cf92b"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "815ccf7f-76e3-452b-aa85-17590715bf92",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9e8c527b-471e-4988-9d6f-5ba6b59bdfef",
+"fileName": "416XV_Tulumaksus_ms_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-12T14:17:36.462",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e8c527b-471e-4988-9d6f-5ba6b59bdfef/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e8c527b-471e-4988-9d6f-5ba6b59bdfef"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "815ccf7f-76e3-452b-aa85-17590715bf92",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "46e5059b-ab03-47bb-af34-4709f176fab7",
+"fileName": "416XV_Tulumaksus_ms_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-12T14:17:25.751",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/46e5059b-ab03-47bb-af34-4709f176fab7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/46e5059b-ab03-47bb-af34-4709f176fab7"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "2563e5ed-cda2-454b-9898-bf6d47ce588c",
+"title": "Eelnõu 416 SE II (TuMSms) lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "45035c5a-a8fc-427b-bf35-141146fd7566",
+"fileName": "Muudatusettepanekute_loetelu_416_SE_II_ME_loetelu_TuMSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T20:55:54.369",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/45035c5a-a8fc-427b-bf35-141146fd7566/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/45035c5a-a8fc-427b-bf35-141146fd7566"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "980840cc-f026-4c1a-9e9e-cb39fdc41d6c",
+"title": "416 SE I lug. tekst, seletuskiri ja lisa",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fb9811e4-69ef-4a54-b43e-936cbe1499c9",
+"fileName": "416_TuMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:44:11.404",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb9811e4-69ef-4a54-b43e-936cbe1499c9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb9811e4-69ef-4a54-b43e-936cbe1499c9"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "2563e5ed-cda2-454b-9898-bf6d47ce588c",
+"title": "Eelnõu 416 SE II (TuMSms) lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0f5bfcc8-1e9a-485a-a73c-7ae1bc4efc6d",
+"fileName": "Seletuskiri_416_SE_II_TuMSms_.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-21T20:56:15.828",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0f5bfcc8-1e9a-485a-a73c-7ae1bc4efc6d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0f5bfcc8-1e9a-485a-a73c-7ae1bc4efc6d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd762055-3072-44ae-80c0-499b3b264c17",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4ad7384a-dbb7-4dd3-8e50-21ddef4d6d2a",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-11T10:10:48.299",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ad7384a-dbb7-4dd3-8e50-21ddef4d6d2a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ad7384a-dbb7-4dd3-8e50-21ddef4d6d2a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd762055-3072-44ae-80c0-499b3b264c17",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7cee9f67-ea7f-4330-87b1-77f5670ec9a7",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-11T10:10:48.347",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7cee9f67-ea7f-4330-87b1-77f5670ec9a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7cee9f67-ea7f-4330-87b1-77f5670ec9a7"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "980840cc-f026-4c1a-9e9e-cb39fdc41d6c",
+"title": "416 SE I lug. tekst, seletuskiri ja lisa",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "05f6c720-2622-4bc3-a338-14976dd5aeba",
+"fileName": "416_TuMS_m_s_SK_Lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (kooskõlastustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:44:34.478",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/05f6c720-2622-4bc3-a338-14976dd5aeba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/05f6c720-2622-4bc3-a338-14976dd5aeba"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd762055-3072-44ae-80c0-499b3b264c17",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "670e6b19-de11-425f-bfe5-2bcb25e475d4",
+"fileName": "Seletuskirja_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (kooskõlastustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-11T10:10:48.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/670e6b19-de11-425f-bfe5-2bcb25e475d4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/670e6b19-de11-425f-bfe5-2bcb25e475d4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd762055-3072-44ae-80c0-499b3b264c17",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4a7d9770-d362-4ed9-b968-5ce2664a12ee",
+"fileName": "Seletuskirja_lisa.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa (kooskõlastustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-11T10:10:48.362",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4a7d9770-d362-4ed9-b968-5ce2664a12ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4a7d9770-d362-4ed9-b968-5ce2664a12ee"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "ddfd6f1c-b77d-4851-ae99-87bed0775566",
+"reference": "1-1/15-416/4",
+"title": "Vabariigi Presidendi otsus nr 428",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2e7ef8c8-5b1c-4c3d-9936-b1f5a02d6e7b",
+"fileName": "VP_12062024_o428.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-12T14:07:53.499",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2e7ef8c8-5b1c-4c3d-9936-b1f5a02d6e7b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2e7ef8c8-5b1c-4c3d-9936-b1f5a02d6e7b"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "ddfd6f1c-b77d-4851-ae99-87bed0775566",
+"reference": "1-1/15-416/4",
+"title": "Vabariigi Presidendi otsus nr 428",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bbc1f784-4c5a-4ba4-a364-6fb35847cb6a",
+"fileName": "VP_12062024_o428.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-12T14:07:53.426",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bbc1f784-4c5a-4ba4-a364-6fb35847cb6a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bbc1f784-4c5a-4ba4-a364-6fb35847cb6a"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "11fad4c8-616b-403d-a6b5-fc39182519ee",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2f01337d-df79-46ec-b968-9fd83685e8ae",
+"fileName": "416XV_Tulumaksus_ms_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T11:20:25.963",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f01337d-df79-46ec-b968-9fd83685e8ae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f01337d-df79-46ec-b968-9fd83685e8ae"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "11fad4c8-616b-403d-a6b5-fc39182519ee",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6f8b943b-77dd-4254-b226-f7830c156fc5",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T12:03:50.235",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6f8b943b-77dd-4254-b226-f7830c156fc5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6f8b943b-77dd-4254-b226-f7830c156fc5"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-11T10:10:18.781",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-11T16:55:00.479",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-15T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 15.04.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-04-30T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni liige Jürgen Ligi"
+}
+],
+"protocolFiles": [
+{
+"uuid": "5978a52e-4798-4513-b304-9c0756ea562a",
+"fileName": "RAHK_protokoll_15.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T12:03:39.116",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5978a52e-4798-4513-b304-9c0756ea562a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5978a52e-4798-4513-b304-9c0756ea562a"
+}
+}
+},
+{
+"uuid": "8af56fa9-e0a3-4757-b57f-e2ef09014e5f",
+"fileName": "RAHK_protokoll_73_15_04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T12:02:51.591",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8af56fa9-e0a3-4757-b57f-e2ef09014e5f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8af56fa9-e0a3-4757-b57f-e2ef09014e5f"
+}
+}
+},
+{
+"uuid": "b8409068-57dc-44e4-8b84-786af4a2a314",
+"fileName": "Pr_Annely_Akkermann.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 1 (Aivar Koka eriarvamus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T11:03:10.489",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b8409068-57dc-44e4-8b84-786af4a2a314/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b8409068-57dc-44e4-8b84-786af4a2a314"
+}
+}
+},
+{
+"uuid": "92d91e32-c818-47a0-9ee1-6185c796c146",
+"fileName": "Aivar_Koka_eriarvamus_hoiu-laenu_ühistu_vastuskirjale_15.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lisa 1 (Aivar Koka eriarvamus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T11:02:40.235",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92d91e32-c818-47a0-9ee1-6185c796c146/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92d91e32-c818-47a0-9ee1-6185c796c146"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-30T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 30.04.2024 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "8aeb4a52-5fac-4746-a9fe-ab5859b1711a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-04-30T13:49:14.55",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8aeb4a52-5fac-4746-a9fe-ab5859b1711a"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-16T09:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 16.05.2024 kell 09.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-28T10:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-06-05T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "5f6abc4d-2647-45ae-823d-6e22d4f422c0",
+"fileName": "RAHK_protokoll_82_16_05_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T12:59:35.232",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f6abc4d-2647-45ae-823d-6e22d4f422c0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f6abc4d-2647-45ae-823d-6e22d4f422c0"
+}
+}
+},
+{
+"uuid": "5be4b74a-3a0a-44e0-9887-1b96bc09ca45",
+"fileName": "RAHK_protokoll_16.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T13:00:36.88",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5be4b74a-3a0a-44e0-9887-1b96bc09ca45/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5be4b74a-3a0a-44e0-9887-1b96bc09ca45"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-28T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 28.05.2024 10:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": [
+{
+"uuid": "86e1ae0c-5d74-417e-a0ae-7927df6efbbf",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "1. muudatusettepanek",
+"startDateTime": "2024-05-28T12:38:12.21",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/86e1ae0c-5d74-417e-a0ae-7927df6efbbf"
+}
+}
+},
+{
+"uuid": "30f4f259-7855-46e5-b64c-e9bbcc5a9d88",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "II lugemise katkestamine",
+"startDateTime": "2024-05-28T12:49:34.48",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/30f4f259-7855-46e5-b64c-e9bbcc5a9d88"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-06-04T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 4.06.2024 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "9df25af5-dfc9-4744-a68f-207a0903685a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-06-04T10:49:39.97",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9df25af5-dfc9-4744-a68f-207a0903685a"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-06-04T13:18:58.802",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-06-12T14:08:34.108",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-06-19T08:52:59.012",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "9a598e95-0efd-4c1e-b81a-65f1e56f76aa",
+"reference": "1-1/15-416/2",
+"title": "Eesti Pensionäride Ühenduste Liidu arvamus tulumaksuseaduse muutmise seaduse eelnõu 416 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-15",
+"files": [
+{
+"uuid": "6094cad3-2c64-4145-aaf1-93fe87a8c2cc",
+"fileName": "arvamus_seadusakti_muudatuse_kohta(pensioni_tulumaksuvabastuse_arvestuse_muudatus)3.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:10:59.302",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6094cad3-2c64-4145-aaf1-93fe87a8c2cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6094cad3-2c64-4145-aaf1-93fe87a8c2cc"
+}
+}
+},
+{
+"uuid": "2f95ee4c-d5e2-4ef3-8fa1-31a524c27ccd",
+"fileName": "arvamus_seadusakti_muudatuse_kohta(pensioni_tulumaksuvabastuse_arvestuse_muudatus)3.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:10:59.212",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f95ee4c-d5e2-4ef3-8fa1-31a524c27ccd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f95ee4c-d5e2-4ef3-8fa1-31a524c27ccd"
+}
+}
+},
+{
+"uuid": "7f3398cb-b103-4696-be95-e1fc1f2b644e",
+"fileName": "arvamus_tulumaksusseaduse_muutmise_seaduse_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:10:59.321",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7f3398cb-b103-4696-be95-e1fc1f2b644e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7f3398cb-b103-4696-be95-e1fc1f2b644e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9a598e95-0efd-4c1e-b81a-65f1e56f76aa"
+}
+}
+},
+{
+"uuid": "6d099573-31f4-496c-931a-e27bcd38043c",
+"reference": "1-1/15-416/1",
+"title": "Tulumaksuseaduse muutmise seadus",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-30",
+"files": [
+{
+"uuid": "985b1cad-7324-4095-a293-e8a1fa4f2876",
+"fileName": "Kaasamiskiri_416_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T12:13:21.515",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/985b1cad-7324-4095-a293-e8a1fa4f2876/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/985b1cad-7324-4095-a293-e8a1fa4f2876"
+}
+}
+},
+{
+"uuid": "c6239990-64a3-4836-abbb-11457fd9b420",
+"fileName": "1-1-15-416-1_-_Tulumaksuseaduse_muutmise_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Väljaminev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T12:14:12.699",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c6239990-64a3-4836-abbb-11457fd9b420/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c6239990-64a3-4836-abbb-11457fd9b420"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6d099573-31f4-496c-931a-e27bcd38043c"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "addcd636-cd69-42b0-b8c2-195bfb688eb2",
+"reference": "1-1/15-416/3",
+"title": "Isamaa fraktsiooni muudatusettepanekud tulumaksuseaduse muutmise seaduse eelnõu 416 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "4dad41f3-e421-4fc8-a017-e94f7f49f3be",
+"fileName": "Isamaa_MEd_416_SE_muutmiseks.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:33:33.342",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4dad41f3-e421-4fc8-a017-e94f7f49f3be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4dad41f3-e421-4fc8-a017-e94f7f49f3be"
+}
+}
+},
+{
+"uuid": "a73a8eb5-11cc-4bf2-9d47-487873677a4e",
+"fileName": "Isamaa_MEd_416_SE_muutmiseks.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:33:42.714",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a73a8eb5-11cc-4bf2-9d47-487873677a4e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a73a8eb5-11cc-4bf2-9d47-487873677a4e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/addcd636-cd69-42b0-b8c2-195bfb688eb2"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/552d9b48-679b-491d-98cb-f797371c2d9d"
+}
+}
+}

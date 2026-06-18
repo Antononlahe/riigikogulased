@@ -1,0 +1,555 @@
+{
+"uuid": "483b5e84-466c-407c-bc1b-322466653c34",
+"title": "Julgeolekuasutuste seaduse muutmise seadus",
+"mark": 30,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Julgeolekuasutuste seaduse muutmise seadus 30 SE",
+"initialTitle": "Julgeolekuasutuste seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga muudetakse Julgeolekuasutuste seaduse (JAS) regulatsioone selliselt, et täiendatakse julgeolekuasutuste loetelu Kaitseväe Luurekeskusega ning korrigeeritakse ning täpsustatakse vastavalt julgeolekuasutuste ülesandeid",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "002a9679-e3b0-4bca-a568-0466266af2fc",
+"name": "Hendrik Johannes Terras",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/002a9679-e3b0-4bca-a568-0466266af2fc?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "c4e3fc0f-80fb-4a3e-b49e-80045c5253d9",
+"name": "Ants Frosch",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/c4e3fc0f-80fb-4a3e-b49e-80045c5253d9?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "fd2d1dd5-ff19-445e-b190-28aabb07763a",
+"name": "Leo Kunnas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/fd2d1dd5-ff19-445e-b190-28aabb07763a?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "563f86fd-db45-4046-b8ed-b66e5a2aec45",
+"name": "Alar Laneman",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/563f86fd-db45-4046-b8ed-b66e5a2aec45?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4140,
+"text": "salateenistus"
+},
+{
+"edid": 2628,
+"text": "relvajõud"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b6425716-c950-4a8f-adf1-15df4ea9a178",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a0a5be92-6b5a-4384-ad21-6a9c3564c900",
+"fileName": "30_Eelnõu_JAS.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T18:33:32.126",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a0a5be92-6b5a-4384-ad21-6a9c3564c900/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a0a5be92-6b5a-4384-ad21-6a9c3564c900"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd882f36-c8ba-493b-880c-b06d71f714d2",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3d4d043c-223f-40d3-bae9-783d82736634",
+"fileName": "30_Eelnõu_JAS.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:03:52.838",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d4d043c-223f-40d3-bae9-783d82736634/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d4d043c-223f-40d3-bae9-783d82736634"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd882f36-c8ba-493b-880c-b06d71f714d2",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9d0d8b48-5d6a-4059-b24e-27194eb36946",
+"fileName": "30_eelnou.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-08T19:27:33.615",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d0d8b48-5d6a-4059-b24e-27194eb36946/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d0d8b48-5d6a-4059-b24e-27194eb36946"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b6425716-c950-4a8f-adf1-15df4ea9a178",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a6355694-5912-468b-b712-ace38a515764",
+"fileName": "30_Seletuskiri_JAS.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T18:34:04.987",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6355694-5912-468b-b712-ace38a515764/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6355694-5912-468b-b712-ace38a515764"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd882f36-c8ba-493b-880c-b06d71f714d2",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ba6acd07-4908-44e7-b390-dc7bcc367de4",
+"fileName": "30_Seletuskiri_JAS.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:04:20.4",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba6acd07-4908-44e7-b390-dc7bcc367de4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba6acd07-4908-44e7-b390-dc7bcc367de4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bd882f36-c8ba-493b-880c-b06d71f714d2",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7d0a4846-1792-4ba3-b2c7-2afd9a3a6acd",
+"fileName": "30_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-08T19:27:46.728",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7d0a4846-1792-4ba3-b2c7-2afd9a3a6acd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7d0a4846-1792-4ba3-b2c7-2afd9a3a6acd"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T18:43:28.916",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:01:00.525",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-20T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Hendrik Johannes Terras"
+}
+],
+"protocolFiles": [
+{
+"uuid": "17e8b93b-fbfb-40b3-bdc7-7afd15f63ac9",
+"fileName": "PÕSK_protokoll_12.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T15:27:36.774",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17e8b93b-fbfb-40b3-bdc7-7afd15f63ac9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17e8b93b-fbfb-40b3-bdc7-7afd15f63ac9"
+}
+}
+},
+{
+"uuid": "3927cc59-60f5-4fc1-ab9b-81439762f6b0",
+"fileName": "PÕSK.protokoll.12.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T10:39:27.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3927cc59-60f5-4fc1-ab9b-81439762f6b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3927cc59-60f5-4fc1-ab9b-81439762f6b0"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-21T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 21.09.2023 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "cc079e26-aed6-4eeb-bcec-f9a65d2e0901",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-09-21T12:04:24.393",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/cc079e26-aed6-4eeb-bcec-f9a65d2e0901"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "7ad54c2b-3fcd-4f8f-941f-79cfd446dc7d",
+"reference": "1-1/15-30/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 30 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-13",
+"files": [
+{
+"uuid": "d376f259-d248-4ba9-9e7f-017e2c93e243",
+"fileName": "30_eelnou.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:05:45.433",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d376f259-d248-4ba9-9e7f-017e2c93e243/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d376f259-d248-4ba9-9e7f-017e2c93e243"
+}
+}
+},
+{
+"uuid": "3cf9f77e-7608-49a5-a1e4-ad7917c9675d",
+"fileName": "230513_JAS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T18:23:45.568",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3cf9f77e-7608-49a5-a1e4-ad7917c9675d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3cf9f77e-7608-49a5-a1e4-ad7917c9675d"
+}
+}
+},
+{
+"uuid": "fe2e7e9f-8241-4dd9-af90-94c98b2a8394",
+"fileName": "30_Seletuskiri_JAS.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:08:32.43",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe2e7e9f-8241-4dd9-af90-94c98b2a8394/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe2e7e9f-8241-4dd9-af90-94c98b2a8394"
+}
+}
+},
+{
+"uuid": "d50e2da0-287f-48a0-be06-017bccc51f47",
+"fileName": "1-1-15-30-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_30_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T18:24:16.014",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d50e2da0-287f-48a0-be06-017bccc51f47/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d50e2da0-287f-48a0-be06-017bccc51f47"
+}
+}
+},
+{
+"uuid": "de8f5374-b7aa-42c1-861a-eacf63648614",
+"fileName": "30_Eelnõu_JAS.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:08:11.527",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/de8f5374-b7aa-42c1-861a-eacf63648614/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de8f5374-b7aa-42c1-861a-eacf63648614"
+}
+}
+},
+{
+"uuid": "abfe5f4d-cd92-4563-9521-47af77d5ac77",
+"fileName": "30_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:06:03.278",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/abfe5f4d-cd92-4563-9521-47af77d5ac77/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/abfe5f4d-cd92-4563-9521-47af77d5ac77"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7ad54c2b-3fcd-4f8f-941f-79cfd446dc7d"
+}
+}
+},
+{
+"uuid": "87de74b0-519e-466b-babb-68ef4733fbb6",
+"reference": "1-1/15-30/2",
+"title": "Vabariigi Valitsuse arvamus julgeolekuasutuste seaduse  muutmise seaduse eelnõu 30 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-21",
+"files": [
+{
+"uuid": "494f1ca1-7b52-4f01-ac5c-fdce91008ffe",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0519_-_Julgeolekuasutuste_seaduse_muutmise_seaduse_eelnõu_(30SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-21T10:41:46.249",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/494f1ca1-7b52-4f01-ac5c-fdce91008ffe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/494f1ca1-7b52-4f01-ac5c-fdce91008ffe"
+}
+}
+},
+{
+"uuid": "d7fbbc5e-629e-49d9-96dc-dcea0be633a3",
+"fileName": "5-13_23_1850_2023010024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "FOR_USE_WITHIN_ESTABLISHMENT",
+"accessRestrictionStartDate": "2023-06-21",
+"accessRestrictionEndDate": "2028-06-21",
+"accessRestrictionBasis": [
+{
+"code": "39",
+"value": "AvTS § 35 lg 2 p 1 õigustloovate aktide eelnõud enne nende kooskõlastamiseks saatmist või vastuvõtmiseks esitamist"
+}
+],
+"created": "2023-06-21T10:41:46.23",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7fbbc5e-629e-49d9-96dc-dcea0be633a3"
+}
+}
+},
+{
+"uuid": "e4603a4c-81e2-4e11-bc1e-0ba71dd0e0f6",
+"fileName": "5-13_23_1850_2023010024_21062023.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "FOR_USE_WITHIN_ESTABLISHMENT",
+"accessRestrictionStartDate": "2023-06-21",
+"accessRestrictionEndDate": "2028-06-21",
+"accessRestrictionBasis": [
+{
+"code": "39",
+"value": "AvTS § 35 lg 2 p 1 õigustloovate aktide eelnõud enne nende kooskõlastamiseks saatmist või vastuvõtmiseks esitamist"
+}
+],
+"created": "2023-06-21T10:41:46.204",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e4603a4c-81e2-4e11-bc1e-0ba71dd0e0f6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/87de74b0-519e-466b-babb-68ef4733fbb6"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/483b5e84-466c-407c-bc1b-322466653c34"
+}
+}
+}

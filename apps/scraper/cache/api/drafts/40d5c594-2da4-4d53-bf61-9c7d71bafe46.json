@@ -1,0 +1,347 @@
+{
+"uuid": "40d5c594-2da4-4d53-bf61-9c7d71bafe46",
+"title": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine Riigikogu e-valimiste protsessi turvalisuse uurimiseks“",
+"mark": 576,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine Riigikogu e-valimiste protsessi turvalisuse uurimiseks“ 576 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine Riigikogu e-valimiste protsessi turvalisuse uurimiseks“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette uurimiskomisjoni moodustamise, mille eesmärk on analüüsida e-valimistega seotud riske ja seaduspärasust ning leida võimalikud lahendused süsteemi parandamiseks.",
+"initiated": "2025-02-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "4e2e1744-16b5-4d88-a08a-cf250c776956",
+"name": "Ando Kiviberg",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/4e2e1744-16b5-4d88-a08a-cf250c776956?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 8559,
+"text": "e-hääletamine"
+},
+{
+"edid": 3037,
+"text": "valimistulemused"
+},
+{
+"edid": 454791,
+"text": "infoturve"
+},
+{
+"edid": 15,
+"text": "uurimiskomisjon"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "cd3e6693-7958-4df5-a4af-045ea171c224",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "36a0676a-d7c5-4b46-b7d5-2bc549916fe9",
+"fileName": "576_RK_o_Riigikogu_e-valimiste_uurimiskomisjon_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T09:07:14.219",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/36a0676a-d7c5-4b46-b7d5-2bc549916fe9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/36a0676a-d7c5-4b46-b7d5-2bc549916fe9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e3133f8c-547f-4915-a48a-e7b25c0e37d5",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "06a8596a-506b-4dc8-8d0c-37618d2dd8d4",
+"fileName": "Riigikogu_e-valimiste_uurimiskomisjon.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T16:00:28.791",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/06a8596a-506b-4dc8-8d0c-37618d2dd8d4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/06a8596a-506b-4dc8-8d0c-37618d2dd8d4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e3133f8c-547f-4915-a48a-e7b25c0e37d5",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "79a3427d-9e9a-4248-8e55-16519c6a1768",
+"fileName": "576E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T17:57:09.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/79a3427d-9e9a-4248-8e55-16519c6a1768/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/79a3427d-9e9a-4248-8e55-16519c6a1768"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "cd3e6693-7958-4df5-a4af-045ea171c224",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0e30c43d-37d1-486a-99dc-9abd8ab7e9a3",
+"fileName": "576_RK_o_Riigikogu_e-valimiste_uurimiskomisjon_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T09:07:43.061",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e30c43d-37d1-486a-99dc-9abd8ab7e9a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e30c43d-37d1-486a-99dc-9abd8ab7e9a3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "e3133f8c-547f-4915-a48a-e7b25c0e37d5",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "910ee8a6-1fa1-4d1a-ab14-5cb76f44e538",
+"fileName": "576SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-10T17:57:22.211",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/910ee8a6-1fa1-4d1a-ab14-5cb76f44e538/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/910ee8a6-1fa1-4d1a-ab14-5cb76f44e538"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-02-10T16:00:01.882",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-02-11T14:39:00.614",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-04-08T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 8.04.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-04-16T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Ando Kiviberg"
+}
+],
+"protocolFiles": [
+{
+"uuid": "78ee66a7-1810-4fa2-aa0e-9af95c2190d9",
+"fileName": "PÕSK_protokoll_nr_105.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T12:26:53.49",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78ee66a7-1810-4fa2-aa0e-9af95c2190d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78ee66a7-1810-4fa2-aa0e-9af95c2190d9"
+}
+}
+},
+{
+"uuid": "ca692631-5909-4218-93a7-3c14e3fe44db",
+"fileName": "Lisa_1.pptx",
+"fileExtension": "pptx",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T12:25:49.375",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca692631-5909-4218-93a7-3c14e3fe44db/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca692631-5909-4218-93a7-3c14e3fe44db"
+}
+}
+},
+{
+"uuid": "6c7c83f1-34b2-41dc-8168-f5a5d182b3f9",
+"fileName": "PÕSK_protokoll_nr_105_(08.04.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T12:25:28.682",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c7c83f1-34b2-41dc-8168-f5a5d182b3f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c7c83f1-34b2-41dc-8168-f5a5d182b3f9"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-04-17T09:35:26.994",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-04-21T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 21.04.2025 15:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "41dfed93-e500-41db-acdd-7b757e1dd451",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-04-21T17:26:50.327",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/41dfed93-e500-41db-acdd-7b757e1dd451"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/40d5c594-2da4-4d53-bf61-9c7d71bafe46"
+}
+}
+}

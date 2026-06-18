@@ -1,0 +1,536 @@
+{
+"uuid": "12557d01-20df-4552-89d7-6d755b6ac4de",
+"title": "Karistusseadustiku muutmise seadus",
+"mark": 72,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Karistusseadustiku muutmise seadus 72 SE",
+"initialTitle": "Karistusseadustiku muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärgiks on valimiste võltsimise eest karistuse karmistamine.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "07003549-aa42-4764-8bdd-cab06cb94a92",
+"name": "Anti Haugas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/07003549-aa42-4764-8bdd-cab06cb94a92?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "441c3c51-2f08-47f3-a36c-e4b310e17e78",
+"name": "Raini Laide",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/441c3c51-2f08-47f3-a36c-e4b310e17e78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "bc9c1725-2fd8-4f54-a0e3-58b87e9dfe1f",
+"name": "Anti Poolamets",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/bc9c1725-2fd8-4f54-a0e3-58b87e9dfe1f?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "c4e3fc0f-80fb-4a3e-b49e-80045c5253d9",
+"name": "Ants Frosch",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/c4e3fc0f-80fb-4a3e-b49e-80045c5253d9?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1093,
+"text": "valimispettus"
+},
+{
+"edid": 1432,
+"text": "süütegu"
+},
+{
+"edid": 3878,
+"text": "karistus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a9ef26dd-262d-4bd8-9720-09cf98234af9",
+"title": "Karistusseadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5fa37054-a314-4b11-b3a5-53453e9092fd",
+"fileName": "72_KarS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T16:55:36.871",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5fa37054-a314-4b11-b3a5-53453e9092fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5fa37054-a314-4b11-b3a5-53453e9092fd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "dfd2aa6a-0151-407d-af57-3d48ba73e16f",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fdb7570f-7e89-4606-a4f9-35da21e45aae",
+"fileName": "72_KarSi_muutmise_seadus_valimiste_võltsimine.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:24:08.656",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fdb7570f-7e89-4606-a4f9-35da21e45aae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fdb7570f-7e89-4606-a4f9-35da21e45aae"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "dfd2aa6a-0151-407d-af57-3d48ba73e16f",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "afbe60d4-a176-4434-954b-415c9b600d30",
+"fileName": "72_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:26:43.364",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/afbe60d4-a176-4434-954b-415c9b600d30/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/afbe60d4-a176-4434-954b-415c9b600d30"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a9ef26dd-262d-4bd8-9720-09cf98234af9",
+"title": "Karistusseadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4aeaff7f-0ff4-40de-a646-3b10d0bcfc6e",
+"fileName": "72_KarS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T16:55:56.911",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4aeaff7f-0ff4-40de-a646-3b10d0bcfc6e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4aeaff7f-0ff4-40de-a646-3b10d0bcfc6e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "dfd2aa6a-0151-407d-af57-3d48ba73e16f",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2f043dac-e3b2-41ee-9e16-303099a64a04",
+"fileName": "72_Seletuskiri_KarSi_paragrahv_valimiste_võltsimine_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:24:30.152",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f043dac-e3b2-41ee-9e16-303099a64a04/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f043dac-e3b2-41ee-9e16-303099a64a04"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "dfd2aa6a-0151-407d-af57-3d48ba73e16f",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1416fa3a-a0b2-4c8f-b356-d52529a624a7",
+"fileName": "72_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:26:55.428",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1416fa3a-a0b2-4c8f-b356-d52529a624a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1416fa3a-a0b2-4c8f-b356-d52529a624a7"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T23:13:38.515",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:44:00.293",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-26T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 26.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-10-10T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Anti Haugas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "b3d92285-5900-4eee-b543-5944fa406446",
+"fileName": "ÕIGK_protokoll_26.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-19T09:57:03.006",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b3d92285-5900-4eee-b543-5944fa406446/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b3d92285-5900-4eee-b543-5944fa406446"
+}
+}
+},
+{
+"uuid": "3aa57db9-5b21-4592-8059-591e2a4c88e8",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_17.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-19T09:55:32.984",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3aa57db9-5b21-4592-8059-591e2a4c88e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3aa57db9-5b21-4592-8059-591e2a4c88e8"
+}
+}
+}
+]
+},
+{
+"date": "2023-11-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.11.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "5a04b00a-97e7-4343-a601-05b32fce901b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-11-15T21:15:18.597",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/5a04b00a-97e7-4343-a601-05b32fce901b"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "0eaaebb6-7831-425a-a9f2-a709d29b31af",
+"reference": "1-1/15-72/2",
+"title": "Vabariigi Valitsuse arvamus karistusseadustiku muutmise seaduse eelnõu 72 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-27",
+"files": [
+{
+"uuid": "ef0fd215-0c67-41c7-8ec4-e62caa737e36",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0516_-_Karistusseadustiku_muutmise_seaduse_eelnõu_(72_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-27T10:30:47.574",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef0fd215-0c67-41c7-8ec4-e62caa737e36/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef0fd215-0c67-41c7-8ec4-e62caa737e36"
+}
+}
+},
+{
+"uuid": "368f1173-da55-43eb-b7fa-1abc651c5f7d",
+"fileName": "Vabariigi_Valitsuse_arvamuse_esitamine_seaduseelnõu_72SE_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-27T10:30:47.554",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/368f1173-da55-43eb-b7fa-1abc651c5f7d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/368f1173-da55-43eb-b7fa-1abc651c5f7d"
+}
+}
+},
+{
+"uuid": "94c700dc-ed9c-44d0-a85b-37f5dba05338",
+"fileName": "8-23618_21.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-27T10:30:47.522",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/94c700dc-ed9c-44d0-a85b-37f5dba05338/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/94c700dc-ed9c-44d0-a85b-37f5dba05338"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0eaaebb6-7831-425a-a9f2-a709d29b31af"
+}
+}
+},
+{
+"uuid": "dcfb7e9b-f853-4d88-a8ec-ed0bd274d3f3",
+"reference": "1-1/15-72/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 72 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-13",
+"files": [
+{
+"uuid": "ecaa2765-7e53-41c6-86f4-7486038713a6",
+"fileName": "72_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:27:19.328",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ecaa2765-7e53-41c6-86f4-7486038713a6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ecaa2765-7e53-41c6-86f4-7486038713a6"
+}
+}
+},
+{
+"uuid": "7ac17a52-3c52-44f2-979e-6021a7615e7d",
+"fileName": "230513_KarS_RKL2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T19:17:34.429",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7ac17a52-3c52-44f2-979e-6021a7615e7d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7ac17a52-3c52-44f2-979e-6021a7615e7d"
+}
+}
+},
+{
+"uuid": "c1e2bc29-166c-49f3-a797-474cf1c8d95a",
+"fileName": "72_KarSi_muutmise_seadus_valimiste_võltsimine.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:26:36.947",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c1e2bc29-166c-49f3-a797-474cf1c8d95a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c1e2bc29-166c-49f3-a797-474cf1c8d95a"
+}
+}
+},
+{
+"uuid": "15713185-c0a3-474b-92b7-ea041ba93b3e",
+"fileName": "1-1-15-72-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_72_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T19:18:24.785",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/15713185-c0a3-474b-92b7-ea041ba93b3e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/15713185-c0a3-474b-92b7-ea041ba93b3e"
+}
+}
+},
+{
+"uuid": "57467916-cec8-4ca2-86c2-1961f960e5a7",
+"fileName": "72_Seletuskiri_KarSi_paragrahv_valimiste_võltsimine_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:26:49.04",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/57467916-cec8-4ca2-86c2-1961f960e5a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/57467916-cec8-4ca2-86c2-1961f960e5a7"
+}
+}
+},
+{
+"uuid": "4f132a48-fb91-4431-b783-af02511d7de9",
+"fileName": "72_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T15:27:01.751",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4f132a48-fb91-4431-b783-af02511d7de9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4f132a48-fb91-4431-b783-af02511d7de9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/dcfb7e9b-f853-4d88-a8ec-ed0bd274d3f3"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/12557d01-20df-4552-89d7-6d755b6ac4de"
+}
+}
+}

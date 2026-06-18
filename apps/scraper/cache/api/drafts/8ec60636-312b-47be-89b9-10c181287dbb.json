@@ -1,0 +1,635 @@
+{
+"uuid": "8ec60636-312b-47be-89b9-10c181287dbb",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele viia Eesti Vabariigi suursaatkond lisraelis Tel Avivist Jeruusalemma\"",
+"mark": 325,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele viia Eesti Vabariigi suursaatkond lisraelis Tel Avivist Jeruusalemma\" 325 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele viia Eesti Vabariigi suursaatkond lisraelis Tel Avivist Jeruusalemma\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": null,
+"initiated": "2023-10-09",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-10-24T17:15:00",
+"responsibleMember": {
+"uuid": "17d27ea5-b5e6-43e0-86db-ebc15bdd5788",
+"name": "Luisa Värk",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/17d27ea5-b5e6-43e0-86db-ebc15bdd5788?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": null,
+"leadingCommittee": {
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1518,
+"text": "Iisrael"
+},
+{
+"edid": 5432,
+"text": "saatkond"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "10eb766b-ea03-441c-9272-c10862ec18e9",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e308bcbb-250a-4eb6-9c21-190c9e6d4c6a",
+"fileName": "325_OE_Iisrael_eelnõu_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T18:44:58.821",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e308bcbb-250a-4eb6-9c21-190c9e6d4c6a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e308bcbb-250a-4eb6-9c21-190c9e6d4c6a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "664dc436-5e21-433d-9a76-1c9d2cf8b523",
+"title": "325 OE I lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4d317d26-f6b8-4fb7-ace5-de2d7a34d7e5",
+"fileName": "325_OE_I_(eelnõu).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu muudetud kujul",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-24T11:34:18.07",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4d317d26-f6b8-4fb7-ace5-de2d7a34d7e5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4d317d26-f6b8-4fb7-ace5-de2d7a34d7e5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "10eb766b-ea03-441c-9272-c10862ec18e9",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cff1b7af-6f44-4236-acec-65ab1138b65e",
+"fileName": "325E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T17:16:54.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cff1b7af-6f44-4236-acec-65ab1138b65e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cff1b7af-6f44-4236-acec-65ab1138b65e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "10eb766b-ea03-441c-9272-c10862ec18e9",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a2bc5fc6-7dff-47ae-af97-4fe42eecd159",
+"fileName": "325_OE_Iisrael_seletuskiri_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T18:45:10.504",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a2bc5fc6-7dff-47ae-af97-4fe42eecd159/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a2bc5fc6-7dff-47ae-af97-4fe42eecd159"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "664dc436-5e21-433d-9a76-1c9d2cf8b523",
+"title": "325 OE I lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e6053b8a-62bb-421d-be31-12fbb43f8e1f",
+"fileName": "325_OE_I_(seletuskiri).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri muudetud kujul",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-24T11:34:46.355",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e6053b8a-62bb-421d-be31-12fbb43f8e1f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e6053b8a-62bb-421d-be31-12fbb43f8e1f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "10eb766b-ea03-441c-9272-c10862ec18e9",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5416fd29-479a-4986-9faf-d9c51962753e",
+"fileName": "325SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T17:17:06.032",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5416fd29-479a-4986-9faf-d9c51962753e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5416fd29-479a-4986-9faf-d9c51962753e"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-10-09T17:16:28.17",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-10-10T16:02:00.599",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-12-07T13:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 7.12.2023 kell 13.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "c0cbfe51-073d-499c-ad94-5317ebb63bde",
+"fileName": "VÄLK_protokoll_07.12.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-08T16:27:25.809",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c0cbfe51-073d-499c-ad94-5317ebb63bde/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c0cbfe51-073d-499c-ad94-5317ebb63bde"
+}
+}
+},
+{
+"uuid": "d2b7dd80-90cd-4ede-8c8b-d6c7bbfa754a",
+"fileName": "Asendusliikme_volikiri_(Vaga).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Vaga)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-08T13:51:02.794",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d2b7dd80-90cd-4ede-8c8b-d6c7bbfa754a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d2b7dd80-90cd-4ede-8c8b-d6c7bbfa754a"
+}
+}
+},
+{
+"uuid": "ef07ce0f-d06f-46af-932a-5ab8c61ba439",
+"fileName": "Asendusliikme_volikiri_(Tein).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Tein)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-08T13:50:31.186",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef07ce0f-d06f-46af-932a-5ab8c61ba439/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef07ce0f-d06f-46af-932a-5ab8c61ba439"
+}
+}
+},
+{
+"uuid": "c118fcf6-5368-41ba-b292-35e7e19189e9",
+"fileName": "VÄLK_protokoll_07.12.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-08T16:28:12.025",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c118fcf6-5368-41ba-b292-35e7e19189e9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c118fcf6-5368-41ba-b292-35e7e19189e9"
+}
+}
+}
+]
+},
+{
+"date": "2023-12-18T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.12.2023 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "d8be6a4f-c52c-4925-a245-934e2925eb78",
+"fileName": "VÄLK_protokoll_18.12.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-23T09:44:01.748",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d8be6a4f-c52c-4925-a245-934e2925eb78/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d8be6a4f-c52c-4925-a245-934e2925eb78"
+}
+}
+},
+{
+"uuid": "980ff518-1d75-49b3-9648-aa7f59ee7a42",
+"fileName": "VÄLK_protokoll_18.12.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-23T09:45:22.176",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/980ff518-1d75-49b3-9648-aa7f59ee7a42/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/980ff518-1d75-49b3-9648-aa7f59ee7a42"
+}
+}
+},
+{
+"uuid": "947ac44a-a46a-4857-a336-dbe0d50c170a",
+"fileName": "Asendusliikme_volikiri_(Uibo).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Uibo)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T16:02:52.186",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/947ac44a-a46a-4857-a336-dbe0d50c170a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/947ac44a-a46a-4857-a336-dbe0d50c170a"
+}
+}
+},
+{
+"uuid": "37cd4250-dadb-4707-855a-303c8c6df1cc",
+"fileName": "EKRE_avaldus_muudatusettepanekute_tagasivõtmiseks.pdf",
+"fileExtension": "pdf",
+"fileTitle": "EKRE avaldus muudatusettepanekute tagasi võtmiseks",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T16:03:13.732",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/37cd4250-dadb-4707-855a-303c8c6df1cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/37cd4250-dadb-4707-855a-303c8c6df1cc"
+}
+}
+}
+]
+},
+{
+"date": "2024-01-23T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 23.01.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-02-07T14:00:00"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Kinnitada eelnõu uus tekst ja juhtivkomisjoni seletuskiri"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Maria Jufereva-Skuratovski"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Eelnõu Riigikogu otsusena vastuvõtmiseks on vajalik Riigikogu koosseisu poolthäälte enamus"
+}
+],
+"protocolFiles": [
+{
+"uuid": "185c593d-7acc-425d-be8f-aed23a5ca156",
+"fileName": "VÄLK_protokoll_23.01.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-20T17:22:46.716",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/185c593d-7acc-425d-be8f-aed23a5ca156/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/185c593d-7acc-425d-be8f-aed23a5ca156"
+}
+}
+},
+{
+"uuid": "1c94a0ff-0871-488a-b4ee-d25bba7fbd33",
+"fileName": "VÄLK_protokoll_23.01.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-20T17:22:13.848",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c94a0ff-0871-488a-b4ee-d25bba7fbd33/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c94a0ff-0871-488a-b4ee-d25bba7fbd33"
+}
+}
+},
+{
+"uuid": "c1b899ac-0c4b-46bf-a596-e646eacc9983",
+"fileName": "Asendus_(Poolamets).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Poolamets)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-23T16:58:49.101",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c1b899ac-0c4b-46bf-a596-e646eacc9983/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c1b899ac-0c4b-46bf-a596-e646eacc9983"
+}
+}
+},
+{
+"uuid": "01c5a67d-3ab1-4a9f-ab8c-895f33182b1a",
+"fileName": "asendus_VK_23.01.2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri (Kuusemäe)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-23T16:55:30.995",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/01c5a67d-3ab1-4a9f-ab8c-895f33182b1a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/01c5a67d-3ab1-4a9f-ab8c-895f33182b1a"
+}
+}
+},
+{
+"uuid": "7e19a703-9604-469f-8f63-1cc8bcdabef6",
+"fileName": "asendus_VK_23.01.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (Kuusemäe)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-23T16:55:05.311",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e19a703-9604-469f-8f63-1cc8bcdabef6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e19a703-9604-469f-8f63-1cc8bcdabef6"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.03.2024 14:00",
+"decisionCode": null,
+"votings": []
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-09-19T13:16:38.888",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2024-09-23T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 23.09.2024 15:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "5b698d2f-ab61-4b01-816f-bb8c7cfdab3f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-09-23T16:07:11.413",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/5b698d2f-ab61-4b01-816f-bb8c7cfdab3f"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "cab0f854-8923-4084-816d-da4aeb577ac6",
+"reference": "1-1/15-325/2",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele viia Eesti Vabariigi  suursaatkond Iisraelis Tel Avivist Jeruusalemma“ eelnõu 325 OE ja Riigikogu  otsuse „Ettepaneku tegemine Vabariigi Valitsusele tühistada Välisministeeriumi otsus  Eesti Vabariigi peakonsulaadi sulgemise kohta New Yorgis“ eelnõu 328 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-01-19",
+"files": [
+{
+"uuid": "b4bcaaa1-3d75-4e9e-9a01-4b50769e73b4",
+"fileName": "002._tel_Eelnõu_325_OE_ja_328_OE_häältenamus_2024_01_11.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-19T10:37:00.692",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4bcaaa1-3d75-4e9e-9a01-4b50769e73b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4bcaaa1-3d75-4e9e-9a01-4b50769e73b4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cab0f854-8923-4084-816d-da4aeb577ac6"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "3df7259a-e3ca-409f-a0dc-d435444403d0",
+"reference": "1-1/15-325/1",
+"title": "Eesti Konservatiivse Rahvaerakonna fraktsiooni muudatusettepanekud ja muudatusettepanekute tagasivõtmine riigikogu otsuse ,,Ettepaneku tegemine Vabariigi Valitsusele viia Eesti Vabariigi suursaatkond lisraelis Tel Avivist Jeruusalemma\" eelnõu 325 OE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "ea9a4b37-ad8e-42f2-a69b-5858bf711414",
+"fileName": "EKRE_avaldus_muudatusettepanekute_tagasivõtmiseks_325OE_328OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "ME tagasivõtmine",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-19T11:40:34.322",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ea9a4b37-ad8e-42f2-a69b-5858bf711414/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ea9a4b37-ad8e-42f2-a69b-5858bf711414"
+}
+}
+},
+{
+"uuid": "cbcb7f4e-645b-4a32-8370-1db05ca76fd4",
+"fileName": "ME_325OE_EKREfr.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-24T14:28:25.567",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cbcb7f4e-645b-4a32-8370-1db05ca76fd4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cbcb7f4e-645b-4a32-8370-1db05ca76fd4"
+}
+}
+},
+{
+"uuid": "acc75748-381f-427e-b707-840d3635efbf",
+"fileName": "ME_325OE_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-24T14:28:37.318",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/acc75748-381f-427e-b707-840d3635efbf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/acc75748-381f-427e-b707-840d3635efbf"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3df7259a-e3ca-409f-a0dc-d435444403d0"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/8ec60636-312b-47be-89b9-10c181287dbb"
+}
+}
+}

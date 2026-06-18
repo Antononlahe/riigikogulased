@@ -1,0 +1,601 @@
+{
+"uuid": "06feff15-a66a-422d-8d19-c36e28801a89",
+"title": "Riigikogu otsus „Riigieelarve kontrolli erikomisjoni moodustamine\"",
+"mark": 14,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigieelarve kontrolli erikomisjoni moodustamine\" 14 OE",
+"initialTitle": "Riigikogu otsus „Riigieelarve kontrolli erikomisjoni moodustamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": "2023-04-19",
+"joined": null,
+"accepted": "2023-04-27",
+"amendmentsDeadline": "2023-04-25T10:00:00",
+"responsibleMember": {
+"uuid": "642e6a9e-8123-4b1d-bbdd-a58a4be0f1fa",
+"name": "Igor Taro",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/642e6a9e-8123-4b1d-bbdd-a58a4be0f1fa?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "b483f709-afa6-4dd9-a8d5-46345c917272",
+"name": "Karin Tuulik",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/b483f709-afa6-4dd9-a8d5-46345c917272?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 22,
+"text": "erikomisjon"
+},
+{
+"edid": 5052,
+"text": "riigieelarve"
+},
+{
+"edid": 190,
+"text": "parlamentaarne kontroll"
+},
+{
+"edid": 7190,
+"text": "parlamendikomisjoni koosseis"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5aae19ca-119c-4b83-bc5d-ae6d1e417347",
+"title": "PÕSK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a3f7f203-deb3-43f9-89a4-b4a0adf3d1a6",
+"fileName": "REK_esituskiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-19T14:16:21.281",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a3f7f203-deb3-43f9-89a4-b4a0adf3d1a6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a3f7f203-deb3-43f9-89a4-b4a0adf3d1a6"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "e5b6e4b6-ed5d-49ec-837e-00af095c4849",
+"title": "14 OE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7f6aa289-5d23-4a36-8287-651be99fde34",
+"fileName": "14_OE_II.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-25T15:50:47.817",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7f6aa289-5d23-4a36-8287-651be99fde34/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7f6aa289-5d23-4a36-8287-651be99fde34"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "fd4c5772-c379-4546-a479-c4c4d6782384",
+"title": "14 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "01945204-0c3e-4c84-9071-1621d1ac87e1",
+"fileName": "14_REK_moodustamine_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T13:18:20.439",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/01945204-0c3e-4c84-9071-1621d1ac87e1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/01945204-0c3e-4c84-9071-1621d1ac87e1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5aae19ca-119c-4b83-bc5d-ae6d1e417347",
+"title": "PÕSK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ee59f8fa-1bee-479a-9963-ddc987c7e33d",
+"fileName": "REK_moodustamine_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-19T14:16:33.905",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee59f8fa-1bee-479a-9963-ddc987c7e33d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee59f8fa-1bee-479a-9963-ddc987c7e33d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5aae19ca-119c-4b83-bc5d-ae6d1e417347",
+"title": "PÕSK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7e5e50e5-c9ac-4267-bda4-b908741a34f8",
+"fileName": "REK_esituskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-19T14:16:33.887",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e5e50e5-c9ac-4267-bda4-b908741a34f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e5e50e5-c9ac-4267-bda4-b908741a34f8"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "08caaa95-eb90-450f-a8e9-69bd0c9ae47d",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "54d8c494-3994-4f00-921a-43dbe79d0577",
+"fileName": "14XV_RK_o_27042023.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-27T11:02:49.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/54d8c494-3994-4f00-921a-43dbe79d0577/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/54d8c494-3994-4f00-921a-43dbe79d0577"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "08caaa95-eb90-450f-a8e9-69bd0c9ae47d",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0c8bd9c9-9c62-4665-b642-bde15fe89b75",
+"fileName": "14XV_RK_o_27042023.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-27T11:02:40.49",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c8bd9c9-9c62-4665-b642-bde15fe89b75/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c8bd9c9-9c62-4665-b642-bde15fe89b75"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "e5b6e4b6-ed5d-49ec-837e-00af095c4849",
+"title": "14 OE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "20afe777-9486-4bdc-b1ef-9cc1a889900d",
+"fileName": "14_OE_II_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-25T15:51:10.76",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/20afe777-9486-4bdc-b1ef-9cc1a889900d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/20afe777-9486-4bdc-b1ef-9cc1a889900d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "fd4c5772-c379-4546-a479-c4c4d6782384",
+"title": "14 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "23e2f648-d511-4dd7-bfcd-cf81ccc97a02",
+"fileName": "14_REK_moodustamine_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-20T13:18:51.982",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/23e2f648-d511-4dd7-bfcd-cf81ccc97a02/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/23e2f648-d511-4dd7-bfcd-cf81ccc97a02"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5aae19ca-119c-4b83-bc5d-ae6d1e417347",
+"title": "PÕSK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2e253a9a-eb79-423f-b6e5-b1c0a006dc0b",
+"fileName": "REK_moodustamine_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-19T14:16:33.922",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2e253a9a-eb79-423f-b6e5-b1c0a006dc0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2e253a9a-eb79-423f-b6e5-b1c0a006dc0b"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "dd8f680b-e5a7-477b-bc10-781353fe3fc5",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b17bcfc8-d3e8-4767-8c16-8278107d258a",
+"fileName": "14XV_RK_o_04.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-27T09:26:01.15",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b17bcfc8-d3e8-4767-8c16-8278107d258a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b17bcfc8-d3e8-4767-8c16-8278107d258a"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "dd8f680b-e5a7-477b-bc10-781353fe3fc5",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "77171f77-5ada-4385-ba97-538b06fba6ff",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-27T10:29:51.379",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/77171f77-5ada-4385-ba97-538b06fba6ff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/77171f77-5ada-4385-ba97-538b06fba6ff"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-04-19T14:15:52.277",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-04-19T16:06:00.855",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-04-20T12:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 20.04.2023 kell 12.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-04-24T15:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_ME_TAHTAJAKS",
+"value": "Teha ettepanek määrata muudatusettepanekute tähtajaks"
+},
+"plenaryAgendaDateTime": "2023-04-25T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Igor Taro"
+},
+{
+"decision": {
+"code": "I_LOPETATAKSE_SIIS_TK",
+"value": "Kui esimene lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-04-27T10:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "1c1c762d-5e13-456c-bd12-8d52a5c306de",
+"fileName": "PÕSK_protokoll_20.04.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-24T13:48:09.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c1c762d-5e13-456c-bd12-8d52a5c306de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c1c762d-5e13-456c-bd12-8d52a5c306de"
+}
+}
+},
+{
+"uuid": "68c0e505-b354-448a-8faf-0432fed3a4b5",
+"fileName": "PÕSK.protokoll.20.04.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-24T13:47:33.462",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/68c0e505-b354-448a-8faf-0432fed3a4b5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/68c0e505-b354-448a-8faf-0432fed3a4b5"
+}
+}
+}
+]
+},
+{
+"date": "2023-04-24T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 24.04.2023 15:00",
+"decisionCode": "SAADETUD_II_LUGEMISELE",
+"votings": []
+},
+{
+"date": "2023-04-25T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 25.04.2023 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "c3dcd21c-ce4f-461c-90b5-9850df62cfa2",
+"fileName": "Volikiri_L.Hussar_25.04.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri L.Hussar",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-03T14:27:39.948",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3dcd21c-ce4f-461c-90b5-9850df62cfa2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3dcd21c-ce4f-461c-90b5-9850df62cfa2"
+}
+}
+},
+{
+"uuid": "0d16ff73-71f0-4216-b4b0-dd55c7b1ec7f",
+"fileName": "PÕSK_protokoll_25.04.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-02T10:24:18.021",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0d16ff73-71f0-4216-b4b0-dd55c7b1ec7f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0d16ff73-71f0-4216-b4b0-dd55c7b1ec7f"
+}
+}
+},
+{
+"uuid": "f6c114a3-99c4-43ef-895b-80ea6194b6c2",
+"fileName": "PÕSK.protokoll.25.04.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-02T10:15:43.767",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f6c114a3-99c4-43ef-895b-80ea6194b6c2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f6c114a3-99c4-43ef-895b-80ea6194b6c2"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2023-04-27T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 27.04.2023 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "853c0211-8f89-4605-b5b9-e07f75568bec",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-04-27T10:10:52.467",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/853c0211-8f89-4605-b5b9-e07f75568bec"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2023-04-27T11:02:19.751",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2023-04-28T16:06:54.629",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/06feff15-a66a-422d-8d19-c36e28801a89"
+}
+}
+}

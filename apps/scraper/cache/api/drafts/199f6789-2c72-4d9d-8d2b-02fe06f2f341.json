@@ -1,0 +1,567 @@
+{
+"uuid": "199f6789-2c72-4d9d-8d2b-02fe06f2f341",
+"title": "Riigikogu kodu- ja töökorra seaduse muutmise seadus",
+"mark": 552,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu kodu- ja töökorra seaduse muutmise seadus 552 SE",
+"initialTitle": "Riigikogu kodu- ja töökorra seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga muudetakse Riigikogu kodu- ja töökorra seadust, et panna selgemalt paika valitsuse liikmete ning muude isikute Riigikogu komisjoni ilmumise ja dokumentide esitamise kohustuste täitmise reeglistik ning sanktsioonid kohustuste mittetäitmise puhuks.",
+"initiated": "2024-12-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0f9372ee-f108-47f9-9192-82ff84cf3efb",
+"name": "Timo Suslov",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0f9372ee-f108-47f9-9192-82ff84cf3efb?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "b483f709-afa6-4dd9-a8d5-46345c917272",
+"name": "Karin Tuulik",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/b483f709-afa6-4dd9-a8d5-46345c917272?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "94ffc777-09a5-4472-bf5d-ce16e78a2341",
+"name": "Rain Epler",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/94ffc777-09a5-4472-bf5d-ce16e78a2341?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "dea71fe2-c8ff-416a-b592-43c5fc094870",
+"name": "Kert Kingo",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/dea71fe2-c8ff-416a-b592-43c5fc094870?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "a39c4392-bbc8-4036-b923-0f5f2b3d9766",
+"name": "Arvo Aller",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/a39c4392-bbc8-4036-b923-0f5f2b3d9766?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5851,
+"text": "parlamendi töökord"
+},
+{
+"edid": 18,
+"text": "parlamendikomisjon"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "23b17fd4-9716-4812-96f6-d690795b7e2a",
+"title": "552 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e8b6d8cd-050d-439e-979c-c29fa692a507",
+"fileName": "552_RKKTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-18T15:51:15.959",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8b6d8cd-050d-439e-979c-c29fa692a507/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8b6d8cd-050d-439e-979c-c29fa692a507"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f6d5ccd5-6dd9-4ef2-8bbe-0921f55a7496",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "096bb208-95e1-4272-8682-36bec2df36b1",
+"fileName": "20241210_Riigikogu_kodu-_ja_töökorra_seaduse_muutmise_seadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-10T10:10:42.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/096bb208-95e1-4272-8682-36bec2df36b1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/096bb208-95e1-4272-8682-36bec2df36b1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f6d5ccd5-6dd9-4ef2-8bbe-0921f55a7496",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fb945eac-a991-43a9-895a-114393330fbc",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-10T11:01:18.851",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb945eac-a991-43a9-895a-114393330fbc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb945eac-a991-43a9-895a-114393330fbc"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "23b17fd4-9716-4812-96f6-d690795b7e2a",
+"title": "552 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f068c367-25e7-4d7b-ae22-c89a2c673ace",
+"fileName": "552_RKKTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-18T15:51:50.036",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f068c367-25e7-4d7b-ae22-c89a2c673ace/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f068c367-25e7-4d7b-ae22-c89a2c673ace"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f6d5ccd5-6dd9-4ef2-8bbe-0921f55a7496",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ae515f96-f385-4c4c-bdc5-9777a91baa49",
+"fileName": "20241210_Riigikogu_kodu-_ja_töökorra_seaduse_muutmise_seadus_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-10T10:10:42.302",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae515f96-f385-4c4c-bdc5-9777a91baa49/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae515f96-f385-4c4c-bdc5-9777a91baa49"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f6d5ccd5-6dd9-4ef2-8bbe-0921f55a7496",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0a0cfd0e-449d-41f9-8469-cb6e06376f2a",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-10T11:01:38.439",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0a0cfd0e-449d-41f9-8469-cb6e06376f2a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0a0cfd0e-449d-41f9-8469-cb6e06376f2a"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-12-10T10:09:13.078",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-12-10T13:37:00.285",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-02-18T14:30:00",
+"sittingTitle": "Komisjoni istung teisipäev, 18.02.2025 kell 14.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-02-26T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Timo Suslov"
+}
+],
+"protocolFiles": [
+{
+"uuid": "2bc7969d-68cb-4c24-b891-535ce6d95585",
+"fileName": "PÕSK_protokoll_nr_95.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-27T11:01:53.382",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2bc7969d-68cb-4c24-b891-535ce6d95585/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2bc7969d-68cb-4c24-b891-535ce6d95585"
+}
+}
+},
+{
+"uuid": "a6d3d0cd-f5ac-4229-a61a-b708ed301caa",
+"fileName": "Volikiri_A._Poolamets_(18.02.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-27T11:01:21.257",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6d3d0cd-f5ac-4229-a61a-b708ed301caa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6d3d0cd-f5ac-4229-a61a-b708ed301caa"
+}
+}
+},
+{
+"uuid": "7b674350-4d5e-4be7-89c4-45183e0317f0",
+"fileName": "PÕSK_protokoll_nr_95_(18.02.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-27T11:01:08.023",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7b674350-4d5e-4be7-89c4-45183e0317f0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7b674350-4d5e-4be7-89c4-45183e0317f0"
+}
+}
+}
+]
+},
+{
+"date": "2025-02-26T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 26.02.2025 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2025-03-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.03.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "74bb2444-49b1-4369-8f9f-1295c6c4f536",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-03-12T15:14:01.783",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/74bb2444-49b1-4369-8f9f-1295c6c4f536"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "c6ed7d9d-5ab7-4f5b-b4c0-489c0e9177d9",
+"reference": "1-1/15-552/2",
+"title": "Vabariigi Valitsuse arvamus Riigikogu kodu- ja töökorra seaduse muutmise seaduse eelnõu 552 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-01-09",
+"files": [
+{
+"uuid": "941f2110-a1ad-47e6-9ae9-d1dca612761c",
+"fileName": "24-01987-4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-09T15:25:11.646",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/941f2110-a1ad-47e6-9ae9-d1dca612761c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/941f2110-a1ad-47e6-9ae9-d1dca612761c"
+}
+}
+},
+{
+"uuid": "1fd14e0d-f814-4526-833a-0adc77765e8f",
+"fileName": "RK_24-01987-4.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-09T15:25:11.603",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1fd14e0d-f814-4526-833a-0adc77765e8f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1fd14e0d-f814-4526-833a-0adc77765e8f"
+}
+}
+},
+{
+"uuid": "7da1c3ad-c53d-4eee-8cc0-be2ddfbf3540",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-1288_-_Riigikogu_kodu-_ja_töökorra_seaduse_muutmise_seaduse_eelnõu_(552_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-09T15:25:11.656",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7da1c3ad-c53d-4eee-8cc0-be2ddfbf3540/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7da1c3ad-c53d-4eee-8cc0-be2ddfbf3540"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c6ed7d9d-5ab7-4f5b-b4c0-489c0e9177d9"
+}
+}
+},
+{
+"uuid": "709c0fd3-6ff7-423d-bfc1-767414501bb2",
+"reference": "1-1/15-552/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 552 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-12-10",
+"files": [
+{
+"uuid": "d3108e54-cf0f-4a28-81f7-28837d60c644",
+"fileName": "RKKTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-10T11:03:29.41",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d3108e54-cf0f-4a28-81f7-28837d60c644/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d3108e54-cf0f-4a28-81f7-28837d60c644"
+}
+}
+},
+{
+"uuid": "56b35598-5777-4f93-beda-3a36a3be9026",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-10T11:02:10.744",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/56b35598-5777-4f93-beda-3a36a3be9026/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/56b35598-5777-4f93-beda-3a36a3be9026"
+}
+}
+},
+{
+"uuid": "3f2a79b2-9b78-49c6-b8d7-ebe7d604fe50",
+"fileName": "RKKTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-10T10:53:05.98",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f2a79b2-9b78-49c6-b8d7-ebe7d604fe50/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f2a79b2-9b78-49c6-b8d7-ebe7d604fe50"
+}
+}
+},
+{
+"uuid": "997c2e1c-20fd-43ef-8611-292f8cbf5087",
+"fileName": "1-1-15-552-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_552_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-10T13:37:27.569",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/997c2e1c-20fd-43ef-8611-292f8cbf5087/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/997c2e1c-20fd-43ef-8611-292f8cbf5087"
+}
+}
+},
+{
+"uuid": "465d6451-0a32-4dfd-bdcc-82a2831dcb0b",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-10T11:01:59.065",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/465d6451-0a32-4dfd-bdcc-82a2831dcb0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/465d6451-0a32-4dfd-bdcc-82a2831dcb0b"
+}
+}
+},
+{
+"uuid": "cc3e9adc-94ee-4560-92cd-5c0d48243c74",
+"fileName": "241210_RKKTS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-10T10:51:42.414",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cc3e9adc-94ee-4560-92cd-5c0d48243c74/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cc3e9adc-94ee-4560-92cd-5c0d48243c74"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/709c0fd3-6ff7-423d-bfc1-767414501bb2"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/199f6789-2c72-4d9d-8d2b-02fe06f2f341"
+}
+}
+}

@@ -20,7 +20,11 @@ from parteidistsipliin_scraper.ariregister_models import (
 from parteidistsipliin_scraper.ariregister_parse import parse_member_history, parse_search_results
 from parteidistsipliin_scraper.enrich import photo_download_url
 from parteidistsipliin_scraper.eurovoc_cache import EurovocCache
-from parteidistsipliin_scraper.eurovoc_models import parse_draft_descriptor_edids, parse_fields
+from parteidistsipliin_scraper.eurovoc_models import (
+    parse_draft_descriptor_edids,
+    parse_draft_outcome,
+    parse_fields,
+)
 from parteidistsipliin_scraper.photo import write_thumbnail
 from parteidistsipliin_scraper.writer import (
     WriteContext,
@@ -328,9 +332,48 @@ async def _ingest_draft_topics(client, conn, ec, refresh: bool) -> int:
         if raw is None or refresh:
             raw = await client.get_json(f"/api/volumes/drafts/{draft_uuid}")
             ec.write_draft(draft_uuid, raw)
+        _write_draft_outcome(conn, draft_uuid, raw)
         edid_texts = parse_draft_descriptor_edids(raw)
         if edid_texts:
             write_volume_topics(conn, draft_uuid, edid_texts)
             n += 1
     conn.commit()
     return n
+
+
+def _write_draft_outcome(conn, draft_uuid: str, raw: dict) -> None:
+    """Persist a bill's final outcome (stage/status/accepted) from its draft JSON."""
+    outcome = parse_draft_outcome(raw)
+    db.upsert_draft_outcome(
+        conn, draft_uuid=draft_uuid, stage=outcome.stage,
+        status=outcome.status, accepted_on=outcome.accepted_on,
+    )
+
+
+@app.command()
+def drafts(
+    refresh: bool = typer.Option(False, "--refresh", help="Re-fetch even if cached."),
+) -> None:
+    """Backfill each bill's final outcome (adopted/rejected/...) into draft_outcomes.
+
+    Reads the draft endpoint for every draft_uuid referenced by a vote. Bills still in
+    process resolve to a terminal stage later, so re-run (or --refresh) to keep current.
+    """
+    asyncio.run(_refresh_draft_outcomes(refresh))
+
+
+async def _refresh_draft_outcomes(refresh: bool) -> None:
+    ec = EurovocCache()
+    n = fetched = 0
+    async with ApiClient() as client:
+        with db.connect() as conn:
+            for draft_uuid in db.distinct_draft_uuids(conn):
+                raw = ec.read_draft(draft_uuid)
+                if raw is None or refresh:
+                    raw = await client.get_json(f"/api/volumes/drafts/{draft_uuid}")
+                    ec.write_draft(draft_uuid, raw)
+                    fetched += 1
+                _write_draft_outcome(conn, draft_uuid, raw)
+                n += 1
+            conn.commit()
+    typer.echo(f"Draft outcomes: {n} bills ({fetched} fetched, rest from cache).")

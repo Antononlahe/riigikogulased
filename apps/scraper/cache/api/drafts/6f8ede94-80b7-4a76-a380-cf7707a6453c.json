@@ -1,0 +1,373 @@
+{
+"uuid": "6f8ede94-80b7-4a76-a380-cf7707a6453c",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 5-le protsendile\"",
+"mark": 10,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 5-le protsendile\" 10 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 5-le protsendile\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse ettepanek Vabariigi Valitsusele ettepaneku langetada toiduainete käibemaks 5-le protsendile.",
+"initiated": "2023-04-18",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-03T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "3b6b4045-4881-4c7f-ae4f-af6cb1598ac6",
+"name": "Kai Raudkivi",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/3b6b4045-4881-4c7f-ae4f-af6cb1598ac6?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4392,
+"text": "käibemaksumäär"
+},
+{
+"edid": 2735,
+"text": "toiduained"
+},
+{
+"edid": 1277,
+"text": "loomasöödad"
+},
+{
+"edid": 1373,
+"text": "toitlustustööstus"
+},
+{
+"edid": 365,
+"text": "maksuvähendus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f669a415-3d0b-471c-90aa-57138bb8052f",
+"title": "10 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2f6cc12c-671b-40a3-967c-4af6db8e7dd6",
+"fileName": "10_RK_o_Ettepanek_VVle_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T12:29:19.403",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f6cc12c-671b-40a3-967c-4af6db8e7dd6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f6cc12c-671b-40a3-967c-4af6db8e7dd6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "c48c82c8-b53c-4284-8bfe-d5ca374db060",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7d2c18f5-6d62-48fb-8c1f-a345b49d623a",
+"fileName": "OE_toiduainete_käibemaks.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-18T11:30:07.586",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7d2c18f5-6d62-48fb-8c1f-a345b49d623a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7d2c18f5-6d62-48fb-8c1f-a345b49d623a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "c48c82c8-b53c-4284-8bfe-d5ca374db060",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "75639e3b-ae7f-4e2d-a927-9022f018efa4",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-18T11:33:42.021",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75639e3b-ae7f-4e2d-a927-9022f018efa4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75639e3b-ae7f-4e2d-a927-9022f018efa4"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f669a415-3d0b-471c-90aa-57138bb8052f",
+"title": "10 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "886ba1e3-9751-40fc-94c3-902508d7a08f",
+"fileName": "10_RK_o_Ettepanek_VVle_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T12:29:32.601",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/886ba1e3-9751-40fc-94c3-902508d7a08f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/886ba1e3-9751-40fc-94c3-902508d7a08f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "c48c82c8-b53c-4284-8bfe-d5ca374db060",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fe4dbdc6-f736-4241-9ce7-b622ee16967e",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-18T11:33:56.011",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe4dbdc6-f736-4241-9ce7-b622ee16967e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe4dbdc6-f736-4241-9ce7-b622ee16967e"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-04-18T11:29:28.155",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-04-18T13:52:00.79",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-06-12T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 12.06.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-12T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni esimees Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "6c584d47-7750-488a-9048-a5dfa3eb4c7c",
+"fileName": "RAHK_protokoll_12.06.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-15T10:30:57.638",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c584d47-7750-488a-9048-a5dfa3eb4c7c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c584d47-7750-488a-9048-a5dfa3eb4c7c"
+}
+}
+},
+{
+"uuid": "83ede2ad-fd19-4c8e-9b08-8f15cdaa68fc",
+"fileName": "RAHK_protokoll_17_12_06_2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-15T10:30:07.256",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83ede2ad-fd19-4c8e-9b08-8f15cdaa68fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83ede2ad-fd19-4c8e-9b08-8f15cdaa68fc"
+}
+}
+},
+{
+"uuid": "35d4ac48-6c64-46cc-ad67-790d7326fb38",
+"fileName": "Asendusliikme_volikiri_H.J.Terras-T.Tamm_12.06.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T13:10:14.244",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35d4ac48-6c64-46cc-ad67-790d7326fb38/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35d4ac48-6c64-46cc-ad67-790d7326fb38"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-12T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 12.09.2023 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "e6c941fd-14b3-4141-8224-b3cd34253849",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-09-12T10:42:30.437",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e6c941fd-14b3-4141-8224-b3cd34253849"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "b7c86fff-b0c0-487e-b454-7c2b230c4c34",
+"reference": "1-1/15-10/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 5-le protsendile\" eelnõu 10 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-10",
+"files": [
+{
+"uuid": "da555cfa-2c74-4922-9461-198a33290fe5",
+"fileName": "OAO_arvamus_10052023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T16:54:52.535",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da555cfa-2c74-4922-9461-198a33290fe5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da555cfa-2c74-4922-9461-198a33290fe5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b7c86fff-b0c0-487e-b454-7c2b230c4c34"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/6f8ede94-80b7-4a76-a380-cf7707a6453c"
+}
+}
+}

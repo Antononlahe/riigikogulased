@@ -1,0 +1,526 @@
+{
+"uuid": "ee7b701b-ba22-4a1d-847b-126671357c0a",
+"title": "Tööstusheite seaduse muutmise seadus",
+"mark": 628,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Tööstusheite seaduse muutmise seadus 628 SE",
+"initialTitle": "Tööstusheite seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette kehtestada ka taastuvenergia tootmisvõimsuste (näiteks tuuleparkide) arendajatele ja käitajatele keskkonna kompleksloa taotlemise ja omamise kohustus. \nSeletuskirjas märgitakse, et viimastel aastatel on algatatud Eestis väga palju planeeringuid taastuvenergia võimsuste (eelkõige tuuleparkide) arendamiseks, mistõttu nende mõju kohalikele elanikele ja ka keskkonnale laiemalt tuleks senisest paremini hinnata. Paljude kavandatavate tuuleparkide mõjud inimestele ja keskkonnale võivad olla suuremad, kui mitmetel juba praegu keskkonna kompleksluba nõudvatel käitistel, näiteks loomalautadel.",
+"initiated": "2025-04-16",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "09500870-255e-416d-8eda-f80e9929adda",
+"name": "Jüri Jaanson",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/09500870-255e-416d-8eda-f80e9929adda?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "93630c8d-295d-4c76-b30b-2eebc6d35396",
+"name": "Elle Kaur",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/93630c8d-295d-4c76-b30b-2eebc6d35396?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3164,
+"text": "tööstusreostus"
+},
+{
+"edid": 754,
+"text": "taastuv energia"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9f9d49e1-f00e-412a-80e3-486efea4295f",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5675f5c2-0105-4045-a947-c5b4e47b28d0",
+"fileName": "628_THS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:44:51.009",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5675f5c2-0105-4045-a947-c5b4e47b28d0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5675f5c2-0105-4045-a947-c5b4e47b28d0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7921eef6-c064-4ecf-9c26-fcdeee16d0a5",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3d220688-bebb-4cc1-aa29-c845a4d075bd",
+"fileName": "Tööstusheite_seaduse_muutmise_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T14:09:02.981",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d220688-bebb-4cc1-aa29-c845a4d075bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d220688-bebb-4cc1-aa29-c845a4d075bd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7921eef6-c064-4ecf-9c26-fcdeee16d0a5",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f07092b9-6168-4a0b-a30d-71b073d53316",
+"fileName": "628_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T14:46:17.813",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f07092b9-6168-4a0b-a30d-71b073d53316/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f07092b9-6168-4a0b-a30d-71b073d53316"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9f9d49e1-f00e-412a-80e3-486efea4295f",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9bda4eed-3c72-4bff-97ca-013293470b67",
+"fileName": "628_THS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T16:45:27.342",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9bda4eed-3c72-4bff-97ca-013293470b67/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9bda4eed-3c72-4bff-97ca-013293470b67"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7921eef6-c064-4ecf-9c26-fcdeee16d0a5",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d8c1c632-36e2-4581-a06f-e87532f6599c",
+"fileName": "628_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T14:47:20.67",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d8c1c632-36e2-4581-a06f-e87532f6599c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d8c1c632-36e2-4581-a06f-e87532f6599c"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-04-16T14:08:29.698",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-04-17T15:47:00.916",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-19T11:56:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 19.05.2025 kell 12.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-06-04T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Jüri Jaanson"
+}
+],
+"protocolFiles": [
+{
+"uuid": "4febad34-3fa2-4e74-9cd0-54b2d387c164",
+"fileName": "KEKK_protokoll_19.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-23T10:30:29.335",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4febad34-3fa2-4e74-9cd0-54b2d387c164/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4febad34-3fa2-4e74-9cd0-54b2d387c164"
+}
+}
+},
+{
+"uuid": "63a5b2e4-5363-4e01-9889-60eab6e9889c",
+"fileName": "KEKK_protokoll_19.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-23T10:29:29.195",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/63a5b2e4-5363-4e01-9889-60eab6e9889c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/63a5b2e4-5363-4e01-9889-60eab6e9889c"
+}
+}
+}
+]
+},
+{
+"date": "2025-06-04T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 4.06.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "45e45541-e367-4d4f-a773-3f252cf359f4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-06-04T17:58:06.697",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/45e45541-e367-4d4f-a773-3f252cf359f4"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "fe07b401-ef37-40e1-87ef-7702558f073b",
+"reference": "1-1/15-628/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 628 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-16",
+"files": [
+{
+"uuid": "34cd1c61-6cca-4867-99a9-e45abe8773cc",
+"fileName": "628_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T14:50:01.822",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34cd1c61-6cca-4867-99a9-e45abe8773cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34cd1c61-6cca-4867-99a9-e45abe8773cc"
+}
+}
+},
+{
+"uuid": "493c99ac-e4b6-4b82-b031-786c7b095491",
+"fileName": "THS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T14:13:55.494",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/493c99ac-e4b6-4b82-b031-786c7b095491/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/493c99ac-e4b6-4b82-b031-786c7b095491"
+}
+}
+},
+{
+"uuid": "c38d9314-4913-49fb-be62-5fe8787986d3",
+"fileName": "THS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T14:14:14.83",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c38d9314-4913-49fb-be62-5fe8787986d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c38d9314-4913-49fb-be62-5fe8787986d3"
+}
+}
+},
+{
+"uuid": "f3cb2a66-87b2-4426-a081-fc7857580f77",
+"fileName": "1-1-15-628-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_628_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T15:40:43.476",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3cb2a66-87b2-4426-a081-fc7857580f77/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3cb2a66-87b2-4426-a081-fc7857580f77"
+}
+}
+},
+{
+"uuid": "1e3ee7fb-d575-4607-8b5f-5cc022e67dd8",
+"fileName": "628_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T14:49:43.181",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e3ee7fb-d575-4607-8b5f-5cc022e67dd8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e3ee7fb-d575-4607-8b5f-5cc022e67dd8"
+}
+}
+},
+{
+"uuid": "9050251f-b2e6-46ba-9498-65b38af9d8ad",
+"fileName": "250417_THS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T15:05:52.572",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9050251f-b2e6-46ba-9498-65b38af9d8ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9050251f-b2e6-46ba-9498-65b38af9d8ad"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fe07b401-ef37-40e1-87ef-7702558f073b"
+}
+}
+},
+{
+"uuid": "762c75c4-2bdf-4d49-a966-aaf3ebda5753",
+"reference": "1-1/15-628/2",
+"title": "Vabariigi Valitsuse arvamus tööstusheite seaduse muutmise seaduse eelnõu 628 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-05-20",
+"files": [
+{
+"uuid": "5b1f422e-4677-42fa-864b-c4b914c0382a",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T09:33:30.01",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5b1f422e-4677-42fa-864b-c4b914c0382a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5b1f422e-4677-42fa-864b-c4b914c0382a"
+}
+}
+},
+{
+"uuid": "4837a089-c70d-4805-97a5-3a236e330a58",
+"fileName": "Kliimaministeeriumi_arvamus_tööstusheite_seaduse_muutmise_seaduse_eelnõu_(628_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T09:33:30.076",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4837a089-c70d-4805-97a5-3a236e330a58/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4837a089-c70d-4805-97a5-3a236e330a58"
+}
+}
+},
+{
+"uuid": "8c312369-d988-4d85-9fe0-aa4ec5c17e57",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-25-0409_-_Tööstusheite_seaduse_muutmise_seaduse_eelnõu_(628_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T09:33:30.092",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8c312369-d988-4d85-9fe0-aa4ec5c17e57/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8c312369-d988-4d85-9fe0-aa4ec5c17e57"
+}
+}
+},
+{
+"uuid": "9ad585e8-bce6-43e1-a842-a1c22e89e9a4",
+"fileName": "Kliimaministeeriumi_arvamus_tööstusheite_seaduse_muutmise_seaduse_eelnõu_(628_SE)_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Lisa asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T09:33:30.032",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9ad585e8-bce6-43e1-a842-a1c22e89e9a4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9ad585e8-bce6-43e1-a842-a1c22e89e9a4"
+}
+}
+},
+{
+"uuid": "6039d926-bbf2-4ef3-9f7e-ce85649fdf52",
+"fileName": "628_SE_VV_arvamuse_teatavaks_tegemine.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T09:33:29.951",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6039d926-bbf2-4ef3-9f7e-ce85649fdf52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6039d926-bbf2-4ef3-9f7e-ce85649fdf52"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/762c75c4-2bdf-4d49-a966-aaf3ebda5753"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/ee7b701b-ba22-4a1d-847b-126671357c0a"
+}
+}
+}

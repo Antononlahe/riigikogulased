@@ -1,0 +1,626 @@
+{
+"uuid": "f1b6bbb5-f192-4003-a9c8-e242775f2fdf",
+"title": "Perehüvitiste seaduse muutmise seadus",
+"mark": 329,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Perehüvitiste seaduse muutmise seadus 329 SE",
+"initialTitle": "Perehüvitiste seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": null,
+"initiated": "2023-10-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "dea3f114-9d1a-4972-ae8a-76680d465968",
+"name": "Karmen Joller",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/dea3f114-9d1a-4972-ae8a-76680d465968?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8a5e0f99-b6bc-48ff-91bf-c847958c776e",
+"name": "Heidi Barot",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8a5e0f99-b6bc-48ff-91bf-c847958c776e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 7981,
+"text": "vanematoetus"
+},
+{
+"edid": 4003,
+"text": "välisriigi kodanik"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b81c7bef-3117-4498-9dd2-3bf4e8477929",
+"title": "329 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ca9a0e49-88f5-483c-b18b-032bf0292f06",
+"fileName": "329_PHS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-30T12:26:09.684",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca9a0e49-88f5-483c-b18b-032bf0292f06/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca9a0e49-88f5-483c-b18b-032bf0292f06"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fd39bea6-092e-48b1-a02b-7456cf285b02",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "66579ba7-9df8-49d7-aba9-5a0435709582",
+"fileName": "perehüvitise_seaduse_muutmise_seaduse_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T14:18:32.017",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/66579ba7-9df8-49d7-aba9-5a0435709582/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/66579ba7-9df8-49d7-aba9-5a0435709582"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fd39bea6-092e-48b1-a02b-7456cf285b02",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a564cee5-755d-4807-a7d1-b22d726a7448",
+"fileName": "329E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T15:44:19.228",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a564cee5-755d-4807-a7d1-b22d726a7448/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a564cee5-755d-4807-a7d1-b22d726a7448"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "b81c7bef-3117-4498-9dd2-3bf4e8477929",
+"title": "329 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "845b17af-a5bc-4843-a148-50b4683a9943",
+"fileName": "329_PHS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-30T12:26:25.082",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/845b17af-a5bc-4843-a148-50b4683a9943/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/845b17af-a5bc-4843-a148-50b4683a9943"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fd39bea6-092e-48b1-a02b-7456cf285b02",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "69b6ab5e-209f-45b9-9b4b-8a3973412812",
+"fileName": "Seletuskir_Perehüvitise_seadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T14:18:55.965",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/69b6ab5e-209f-45b9-9b4b-8a3973412812/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/69b6ab5e-209f-45b9-9b4b-8a3973412812"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fd39bea6-092e-48b1-a02b-7456cf285b02",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "183a4e22-8daa-4779-9543-f32a7c76b0f6",
+"fileName": "329SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T15:44:35.903",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/183a4e22-8daa-4779-9543-f32a7c76b0f6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/183a4e22-8daa-4779-9543-f32a7c76b0f6"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-10-11T14:18:06.897",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-10-12T16:56:00.342",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-12-11T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 11.12.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-12-19T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Õnne Pillak"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "21d35d5c-2ad5-4540-a7d9-2a7c3d908027",
+"fileName": "Detergente_ja_pindaktiivseid_aineid_käsitleva_EL_määruse_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa (SOM esitlus_detergendid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T21:18:43.536",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/21d35d5c-2ad5-4540-a7d9-2a7c3d908027/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/21d35d5c-2ad5-4540-a7d9-2a7c3d908027"
+}
+}
+},
+{
+"uuid": "f7c1c8ae-7935-43c9-9b40-2f1dcc508aba",
+"fileName": "SOTK_protokoll_11.12.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T17:37:36.113",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7c1c8ae-7935-43c9-9b40-2f1dcc508aba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7c1c8ae-7935-43c9-9b40-2f1dcc508aba"
+}
+}
+},
+{
+"uuid": "dadf783d-f233-4dd5-a221-28334913ed71",
+"fileName": "SOTK_protokoll_nr_35_(11.12.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T17:36:10.004",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dadf783d-f233-4dd5-a221-28334913ed71/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dadf783d-f233-4dd5-a221-28334913ed71"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-05T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 5.06.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-06-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.06.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-09-09T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 9.09.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Karmen Joller"
+}
+],
+"protocolFiles": [
+{
+"uuid": "a6978e04-241e-4a6d-95b6-a4f243bd68c7",
+"fileName": "SOTK_protokoll_09.09.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:17:50.085",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6978e04-241e-4a6d-95b6-a4f243bd68c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6978e04-241e-4a6d-95b6-a4f243bd68c7"
+}
+}
+},
+{
+"uuid": "4e4fab1c-cd06-4329-9fce-b5ebfc139e55",
+"fileName": "Asendusliikme_volikiri_(Pikhof).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Pikhof)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:13:21.667",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4e4fab1c-cd06-4329-9fce-b5ebfc139e55/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4e4fab1c-cd06-4329-9fce-b5ebfc139e55"
+}
+}
+},
+{
+"uuid": "ec8f5373-5af9-4314-8b42-75a2bc880721",
+"fileName": "Lisa_(SOM-i_slaidid).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa (SOM-i slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:13:10.595",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec8f5373-5af9-4314-8b42-75a2bc880721/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec8f5373-5af9-4314-8b42-75a2bc880721"
+}
+}
+},
+{
+"uuid": "c3f47230-2c5e-491b-8d77-f45deccaed3c",
+"fileName": "SOTK_protokoll_nr_72_(09.09.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:12:11.978",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3f47230-2c5e-491b-8d77-f45deccaed3c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3f47230-2c5e-491b-8d77-f45deccaed3c"
+}
+}
+}
+]
+},
+{
+"date": "2024-09-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.09.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "1ac3877e-680e-4504-b93f-18f635512b94",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-09-11T19:41:32.05",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/1ac3877e-680e-4504-b93f-18f635512b94"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "504b93fc-7797-49d4-b55a-8b2621214dc6",
+"reference": "1-1/15-329/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 329 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-10-11",
+"files": [
+{
+"uuid": "c385b16c-52d7-4dd8-b1f5-10ea9fe1b4dd",
+"fileName": "PHS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T14:27:39.343",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c385b16c-52d7-4dd8-b1f5-10ea9fe1b4dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c385b16c-52d7-4dd8-b1f5-10ea9fe1b4dd"
+}
+}
+},
+{
+"uuid": "3bb05178-a8c8-403f-b39a-96bb3454b31f",
+"fileName": "231012_PHS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T18:38:54.43",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3bb05178-a8c8-403f-b39a-96bb3454b31f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3bb05178-a8c8-403f-b39a-96bb3454b31f"
+}
+}
+},
+{
+"uuid": "ae3f1853-ad19-4ef2-8d02-946b2321bbae",
+"fileName": "329SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T15:45:06.03",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae3f1853-ad19-4ef2-8d02-946b2321bbae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae3f1853-ad19-4ef2-8d02-946b2321bbae"
+}
+}
+},
+{
+"uuid": "96734c4d-7ee7-456f-a770-01b8e248ca0e",
+"fileName": "Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_329_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-12T16:29:25.91",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/96734c4d-7ee7-456f-a770-01b8e248ca0e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/96734c4d-7ee7-456f-a770-01b8e248ca0e"
+}
+}
+},
+{
+"uuid": "e18a72a2-3b89-40ac-ba60-f7fa25c9cacf",
+"fileName": "329E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T15:44:53.915",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e18a72a2-3b89-40ac-ba60-f7fa25c9cacf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e18a72a2-3b89-40ac-ba60-f7fa25c9cacf"
+}
+}
+},
+{
+"uuid": "348b727e-31f0-4daa-ad1f-f7e2d4c7878a",
+"fileName": "PHS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T14:27:51.256",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/348b727e-31f0-4daa-ad1f-f7e2d4c7878a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/348b727e-31f0-4daa-ad1f-f7e2d4c7878a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/504b93fc-7797-49d4-b55a-8b2621214dc6"
+}
+}
+},
+{
+"uuid": "944d81fa-8fe5-4c4d-a7cd-2c552bd4f1f4",
+"reference": "1-1/15-329/2",
+"title": "Vabariigi Valitsuse arvamus perehüvitiste seaduse muutmise seaduse eelnõu 329 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-16",
+"files": [
+{
+"uuid": "7e54037d-6785-470b-94a8-bda66626f75e",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-1358_-_Perehüvitiste_seaduse_muutmise_seaduse_eelnõu_(329_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T08:52:02.954",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e54037d-6785-470b-94a8-bda66626f75e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e54037d-6785-470b-94a8-bda66626f75e"
+}
+}
+},
+{
+"uuid": "19362e45-a532-4d1a-a9d5-95e5f3ba5392",
+"fileName": "1.2-33755-4_14.11.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T08:52:02.909",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/19362e45-a532-4d1a-a9d5-95e5f3ba5392/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/19362e45-a532-4d1a-a9d5-95e5f3ba5392"
+}
+}
+},
+{
+"uuid": "c86b321d-2e4f-47bd-bbff-bcf8be25201e",
+"fileName": "Vabariigi_Valitsuse_seisukoht_perehüvitiste_seaduse_muutmise_seaduse_eelnõu_(329_SE)_kohta_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-16T08:52:02.936",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c86b321d-2e4f-47bd-bbff-bcf8be25201e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c86b321d-2e4f-47bd-bbff-bcf8be25201e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/944d81fa-8fe5-4c4d-a7cd-2c552bd4f1f4"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/f1b6bbb5-f192-4003-a9c8-e242775f2fdf"
+}
+}
+}

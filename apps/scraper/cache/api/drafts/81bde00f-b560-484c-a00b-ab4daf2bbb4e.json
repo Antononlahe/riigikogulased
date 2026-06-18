@@ -1,0 +1,510 @@
+{
+"uuid": "81bde00f-b560-484c-a00b-ab4daf2bbb4e",
+"title": "Riigieelarve seaduse Eesti Vabariigi põhiseadusega kooskõlla viimise seadus",
+"mark": 525,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigieelarve seaduse Eesti Vabariigi põhiseadusega kooskõlla viimise seadus 525 SE",
+"initialTitle": "Riigieelarve seaduse Eesti Vabariigi põhiseadusega kooskõlla viimise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on riigieelarve läbipaistvuse ja arusaadavuse suurendamine, mis annab ka parlamendile suurema rolli riigieelarve menetlemisel.",
+"initiated": "2024-10-16",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "315ea785-8f59-40e5-a158-3de8b908572f",
+"name": "Maris Lauri",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/315ea785-8f59-40e5-a158-3de8b908572f?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5052,
+"text": "riigieelarve"
+},
+{
+"edid": 4241,
+"text": "eelarve täpsustamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "68dfbf77-5ffa-4feb-9bdc-79ecc7eaed02",
+"title": "525 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "26b0bbf8-5d95-4818-89d7-8990fef1c4a5",
+"fileName": "525_RES_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T10:07:07.448",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/26b0bbf8-5d95-4818-89d7-8990fef1c4a5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/26b0bbf8-5d95-4818-89d7-8990fef1c4a5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "919bce71-94c7-4b2d-b500-7bb83713fdc1",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9f5c10e4-9a8a-4696-b03c-35724cd74c33",
+"fileName": "ISAMAA_Riigieelarve_seaduse_muutmise_seaduse_eelnõu_(16.10.2024).doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-16T14:16:35.565",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9f5c10e4-9a8a-4696-b03c-35724cd74c33/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9f5c10e4-9a8a-4696-b03c-35724cd74c33"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "919bce71-94c7-4b2d-b500-7bb83713fdc1",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ef9b5cad-f72b-42b0-818e-a21d939dd751",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-16T14:56:17.384",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef9b5cad-f72b-42b0-818e-a21d939dd751/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef9b5cad-f72b-42b0-818e-a21d939dd751"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "68dfbf77-5ffa-4feb-9bdc-79ecc7eaed02",
+"title": "525 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "451dd3c1-de8b-433c-b93c-7de3da20f631",
+"fileName": "525_RES_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T10:07:20.34",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/451dd3c1-de8b-433c-b93c-7de3da20f631/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/451dd3c1-de8b-433c-b93c-7de3da20f631"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "919bce71-94c7-4b2d-b500-7bb83713fdc1",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4d47f1a8-4cb9-4383-b707-3a3b8301e518",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-16T14:56:30.695",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4d47f1a8-4cb9-4383-b707-3a3b8301e518/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4d47f1a8-4cb9-4383-b707-3a3b8301e518"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-10-16T14:16:08.666",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-10-17T15:46:00.676",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-12-03T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 3.12.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-12-17T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Maris Lauri"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "fd8a878b-56d1-4304-9c41-ad64f0cf106b",
+"fileName": "RAHK_protokoll_03.12.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-16T14:11:39.004",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fd8a878b-56d1-4304-9c41-ad64f0cf106b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fd8a878b-56d1-4304-9c41-ad64f0cf106b"
+}
+}
+},
+{
+"uuid": "64d9ede6-0f8d-48b3-8fdc-c7e2086f9f35",
+"fileName": "RAHK_protokoll_nr_128_03.12.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-16T14:10:09.681",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64d9ede6-0f8d-48b3-8fdc-c7e2086f9f35/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64d9ede6-0f8d-48b3-8fdc-c7e2086f9f35"
+}
+}
+},
+{
+"uuid": "83926784-c1ce-40f3-bda4-e6679a27e6d0",
+"fileName": "Asendusliikme_volikiri_M.Reinaas-A.Kiviberg_03.12.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-16T14:03:03.48",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83926784-c1ce-40f3-bda4-e6679a27e6d0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83926784-c1ce-40f3-bda4-e6679a27e6d0"
+}
+}
+}
+]
+},
+{
+"date": "2024-12-17T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 17.12.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "63554ffb-092d-44b3-bb1c-f95ea4c33371",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-12-17T11:42:41.4",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/63554ffb-092d-44b3-bb1c-f95ea4c33371"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "5c2cae7d-62dd-47fd-ba55-0718bf30edf8",
+"reference": "1-1/15-525/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 525 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-16",
+"files": [
+{
+"uuid": "a7470c36-bca3-43f5-b68b-6bae795645e7",
+"fileName": "RES_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-16T15:02:48.774",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a7470c36-bca3-43f5-b68b-6bae795645e7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a7470c36-bca3-43f5-b68b-6bae795645e7"
+}
+}
+},
+{
+"uuid": "2c57a0bc-399d-4dc5-90d8-c3cbd2191c72",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-16T15:03:24.424",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c57a0bc-399d-4dc5-90d8-c3cbd2191c72/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c57a0bc-399d-4dc5-90d8-c3cbd2191c72"
+}
+}
+},
+{
+"uuid": "e11ffa14-06ae-4cb2-a295-6382a8c90ba4",
+"fileName": "241017_RES_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-17T15:57:21.941",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e11ffa14-06ae-4cb2-a295-6382a8c90ba4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e11ffa14-06ae-4cb2-a295-6382a8c90ba4"
+}
+}
+},
+{
+"uuid": "00e8ba66-ff80-4bf1-b5c0-20fb4b3fe696",
+"fileName": "1-1-15-525-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_525_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-17T15:58:49.476",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/00e8ba66-ff80-4bf1-b5c0-20fb4b3fe696/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/00e8ba66-ff80-4bf1-b5c0-20fb4b3fe696"
+}
+}
+},
+{
+"uuid": "e4b5e3ef-6efe-468f-bbd6-63740aaef466",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-16T15:03:37.406",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e4b5e3ef-6efe-468f-bbd6-63740aaef466/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e4b5e3ef-6efe-468f-bbd6-63740aaef466"
+}
+}
+},
+{
+"uuid": "41baf80d-fd7c-4ef5-a290-8aa74a8d9eb3",
+"fileName": "RES_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-16T15:03:09.105",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41baf80d-fd7c-4ef5-a290-8aa74a8d9eb3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41baf80d-fd7c-4ef5-a290-8aa74a8d9eb3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5c2cae7d-62dd-47fd-ba55-0718bf30edf8"
+}
+}
+},
+{
+"uuid": "b766fe3b-16ec-4820-9903-d797ba1c66f8",
+"reference": "1-1/15-525/2",
+"title": "Vabariigi Valitsuse arvamus riigieelarve seaduse Eesti Vabariigi põhiseadusega kooskõlla viimise seaduse eelnõu 525 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-28",
+"files": [
+{
+"uuid": "831c64bc-3523-4226-a0fc-9768108cceb9",
+"fileName": "Riigieelarve_seaduse_Eesti_Vabariigi_põhiseadusega_kooskõlla_viimise_seaduse_eelnõu_(525_SE)_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-28T09:30:25.09",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/831c64bc-3523-4226-a0fc-9768108cceb9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/831c64bc-3523-4226-a0fc-9768108cceb9"
+}
+}
+},
+{
+"uuid": "ff62d903-513b-419a-81ae-3b2971987f00",
+"fileName": "1.1-115320-1_27.11.2024_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-28T09:30:25.038",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ff62d903-513b-419a-81ae-3b2971987f00/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ff62d903-513b-419a-81ae-3b2971987f00"
+}
+}
+},
+{
+"uuid": "4c13d0df-bcf3-4ff7-9840-ef0a05da6fc2",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-1047_-_Riigieelarve_seaduse_Eesti_Vabariigi_põhiseadusega_kooskõlla_viimise_seaduse_eelnõu_(525_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-28T09:30:25.101",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c13d0df-bcf3-4ff7-9840-ef0a05da6fc2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c13d0df-bcf3-4ff7-9840-ef0a05da6fc2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b766fe3b-16ec-4820-9903-d797ba1c66f8"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/81bde00f-b560-484c-a00b-ab4daf2bbb4e"
+}
+}
+}

@@ -1,0 +1,559 @@
+{
+"uuid": "fced1e9d-0929-4f08-bb03-2cda2d8da5ac",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele parandada üldist poliitilist kultuuri\"",
+"mark": 97,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele parandada üldist poliitilist kultuuri\" 97 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele parandada üldist poliitilist kultuuri\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": "2023-05-10",
+"joined": null,
+"accepted": "2023-09-21",
+"amendmentsDeadline": "2023-05-26T16:00:00",
+"responsibleMember": {
+"uuid": "002a9679-e3b0-4bca-a568-0466266af2fc",
+"name": "Hendrik Johannes Terras",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/002a9679-e3b0-4bca-a568-0466266af2fc?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 8419,
+"text": "poliitiline kultuur"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a3f314e3-9ef4-4f80-9d7c-5321ba324b07",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a6169552-3ffe-42f8-a189-edb4f29709bb",
+"fileName": "97_OE_ettepanek_parandada_poliitilist_kultuuri_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-19T12:30:01.947",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6169552-3ffe-42f8-a189-edb4f29709bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6169552-3ffe-42f8-a189-edb4f29709bb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "cc781b62-020d-4693-bda6-ddbd3e2d2591",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d443c3f1-7988-4ecb-9ac2-d634573f93d5",
+"fileName": "97_OE_ettepanek_parandada_poliitilist_kultuuri.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-15T14:52:56.863",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d443c3f1-7988-4ecb-9ac2-d634573f93d5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d443c3f1-7988-4ecb-9ac2-d634573f93d5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "cc781b62-020d-4693-bda6-ddbd3e2d2591",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a2b8c39b-8166-427b-86ba-acee33bccce1",
+"fileName": "97_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T20:17:22.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a2b8c39b-8166-427b-86ba-acee33bccce1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a2b8c39b-8166-427b-86ba-acee33bccce1"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "2b9a5dfd-aada-4410-bbc7-eb675141dda8",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3cc6fe4e-3a6a-47f6-b939-c77c4c71a699",
+"fileName": "97XV_RK_o_22092023.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-22T09:10:32.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3cc6fe4e-3a6a-47f6-b939-c77c4c71a699/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3cc6fe4e-3a6a-47f6-b939-c77c4c71a699"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "2b9a5dfd-aada-4410-bbc7-eb675141dda8",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f0c3febe-3dbe-45db-9aea-a9558208150f",
+"fileName": "97XV_RK_o_22092023.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-22T09:10:16.93",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f0c3febe-3dbe-45db-9aea-a9558208150f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f0c3febe-3dbe-45db-9aea-a9558208150f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8d1e35d2-c431-41ee-a00f-b529938ef8f4",
+"title": "Seletuskiri",
+"documentType": "seletuskiri",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8213e99b-c980-41c2-8fdd-83c934f7b769",
+"fileName": "97_OE_ettepanek_parandada_poliitilist_kultuuri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-19T12:30:59.471",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8213e99b-c980-41c2-8fdd-83c934f7b769/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8213e99b-c980-41c2-8fdd-83c934f7b769"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "cc781b62-020d-4693-bda6-ddbd3e2d2591",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fc914b15-f390-4295-87a8-54aae328dce7",
+"fileName": "97_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T20:17:32.56",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc914b15-f390-4295-87a8-54aae328dce7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc914b15-f390-4295-87a8-54aae328dce7"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8d1667f1-41c6-4ded-ab10-4ec108b3e3e0",
+"title": "Teatis vea parandamiseks",
+"documentType": "lisadokumendid",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b8b3c9f1-fcd3-4d60-ac3a-27a70924387f",
+"fileName": "Veateatis.21.09.2023.docx",
+"fileExtension": "docx",
+"fileTitle": "Teatis vea parandamiseks",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-21T14:38:41.488",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b8b3c9f1-fcd3-4d60-ac3a-27a70924387f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b8b3c9f1-fcd3-4d60-ac3a-27a70924387f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "996c4104-276d-4d9d-b2eb-4608d1789bde",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "60cb7f68-db3d-4c72-8d4b-c0d74082f9e6",
+"fileName": "97XV_RK_o_09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-21T14:52:10.58",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/60cb7f68-db3d-4c72-8d4b-c0d74082f9e6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/60cb7f68-db3d-4c72-8d4b-c0d74082f9e6"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "996c4104-276d-4d9d-b2eb-4608d1789bde",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8d4586c8-7a40-4025-b360-d6645946cf14",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-21T15:10:32.531",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d4586c8-7a40-4025-b360-d6645946cf14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d4586c8-7a40-4025-b360-d6645946cf14"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-10T18:36:07.119",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-11T17:22:00.561",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-14T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 14.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-20T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Hendrik Johannes Terras"
+}
+],
+"protocolFiles": [
+{
+"uuid": "284788cd-f67f-4fef-b0b2-8f0a0c737892",
+"fileName": "Asendusliikme_volikiri_T.Suslov-K.Joller_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-03T14:39:54.501",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/284788cd-f67f-4fef-b0b2-8f0a0c737892/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/284788cd-f67f-4fef-b0b2-8f0a0c737892"
+}
+}
+},
+{
+"uuid": "34805cd4-bbeb-46bb-92bf-0649a79736ad",
+"fileName": "U._Tiidus_asendusliige_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:45:31.793",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34805cd4-bbeb-46bb-92bf-0649a79736ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34805cd4-bbeb-46bb-92bf-0649a79736ad"
+}
+}
+},
+{
+"uuid": "de07be87-9c1e-4ce8-afcb-351dcb55789d",
+"fileName": "T._Suslov_asendusliige_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:45:06.675",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/de07be87-9c1e-4ce8-afcb-351dcb55789d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de07be87-9c1e-4ce8-afcb-351dcb55789d"
+}
+}
+},
+{
+"uuid": "7d96923f-1796-4042-9cdc-8cc74c830cb7",
+"fileName": "J._Valge_asendusliige_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:44:24.15",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7d96923f-1796-4042-9cdc-8cc74c830cb7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7d96923f-1796-4042-9cdc-8cc74c830cb7"
+}
+}
+},
+{
+"uuid": "dccd76cd-10ab-4cb2-bd5c-a296b8cb835e",
+"fileName": "H.V._Seeder_asendusliige_14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:43:38.191",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dccd76cd-10ab-4cb2-bd5c-a296b8cb835e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dccd76cd-10ab-4cb2-bd5c-a296b8cb835e"
+}
+}
+},
+{
+"uuid": "854e313b-c7c3-4129-a358-67be97bfd86c",
+"fileName": "PÕSK_protokoll_14.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:48:52.466",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/854e313b-c7c3-4129-a358-67be97bfd86c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/854e313b-c7c3-4129-a358-67be97bfd86c"
+}
+}
+},
+{
+"uuid": "3d3f491c-153f-4004-acdf-f6878e5e55c4",
+"fileName": "PÕSK.protokoll.14.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:47:09.469",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d3f491c-153f-4004-acdf-f6878e5e55c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d3f491c-153f-4004-acdf-f6878e5e55c4"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-21T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 21.09.2023 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "504356dd-e32c-41b1-8b84-4844cbcc45a8",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-09-21T11:21:52.28",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/504356dd-e32c-41b1-8b84-4844cbcc45a8"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2023-09-22T09:05:56.675",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2023-09-26T13:57:13.779",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "fca3d06e-5fe9-4a17-93e5-d7f27e0013d0",
+"reference": "1-1/15-171/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuste eelnõu  171 OE, 42 OE, 97 OE ja 104 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-18",
+"files": [
+{
+"uuid": "4bfc3141-57b9-4e6d-a507-16a2448aa472",
+"fileName": "286.tel_Arvamus_171OE_42OE_104OE_ja_97OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T14:22:31.715",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4bfc3141-57b9-4e6d-a507-16a2448aa472/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4bfc3141-57b9-4e6d-a507-16a2448aa472"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fca3d06e-5fe9-4a17-93e5-d7f27e0013d0"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/fced1e9d-0929-4f08-bb03-2cda2d8da5ac"
+}
+}
+}

@@ -1,0 +1,519 @@
+{
+"uuid": "9d85885f-6f25-4d06-af34-840728102b77",
+"title": "Karistusseadustiku muutmise seadus",
+"mark": 411,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Karistusseadustiku muutmise seadus 411 SE",
+"initialTitle": "Karistusseadustiku muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärgiks on tagada Põhiseaduse § 22 sätestatud nõude, kedagi ei tohi käsitada kuriteos süüdi olevana enne, kui tema kohta on jõustunud süüdimõistev kohtuotsus täitmine.",
+"initiated": "2024-04-03",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "966e7ccd-b097-4e49-923c-c8d39dae2d62",
+"name": "Valdo Randpere",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/966e7ccd-b097-4e49-923c-c8d39dae2d62?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "441c3c51-2f08-47f3-a36c-e4b310e17e78",
+"name": "Raini Laide",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/441c3c51-2f08-47f3-a36c-e4b310e17e78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "db532de2-5abd-4b6d-a82c-2d9a75fd9d18",
+"name": "Kalle Grünthal",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/db532de2-5abd-4b6d-a82c-2d9a75fd9d18?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3943,
+"text": "isikuvastane kuritegu"
+},
+{
+"edid": 3878,
+"text": "karistus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a8920d81-cb71-4c52-be93-ef71bbabc279",
+"title": "Karistusseadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a34b1959-2327-42a7-a9f3-a197b6d457dd",
+"fileName": "411_KarS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:45:44.857",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a34b1959-2327-42a7-a9f3-a197b6d457dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a34b1959-2327-42a7-a9f3-a197b6d457dd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bb0a4194-0f57-4915-a205-81a5c6e48d53",
+"title": "1 RK liikme esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0d8d24f7-f1c7-405f-a98b-6e1ebf19e89c",
+"fileName": "EELNÕU.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T15:56:46.003",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0d8d24f7-f1c7-405f-a98b-6e1ebf19e89c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0d8d24f7-f1c7-405f-a98b-6e1ebf19e89c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bb0a4194-0f57-4915-a205-81a5c6e48d53",
+"title": "1 RK liikme esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bad2212e-c7d3-4459-9abb-e2571f7ae0d5",
+"fileName": "411_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T16:04:18.609",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bad2212e-c7d3-4459-9abb-e2571f7ae0d5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bad2212e-c7d3-4459-9abb-e2571f7ae0d5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a8920d81-cb71-4c52-be93-ef71bbabc279",
+"title": "Karistusseadustiku muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b0272388-c319-4e60-a8a2-c2be459f1550",
+"fileName": "411_KarS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T10:47:13.008",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b0272388-c319-4e60-a8a2-c2be459f1550/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b0272388-c319-4e60-a8a2-c2be459f1550"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bb0a4194-0f57-4915-a205-81a5c6e48d53",
+"title": "1 RK liikme esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0c76ae45-c259-4d12-bab5-1adc217f1c00",
+"fileName": "Süütuse_presumtsiooni_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T15:56:46.022",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c76ae45-c259-4d12-bab5-1adc217f1c00/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c76ae45-c259-4d12-bab5-1adc217f1c00"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "bb0a4194-0f57-4915-a205-81a5c6e48d53",
+"title": "1 RK liikme esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7033ea4d-d7b9-45df-b08c-589f3ab679f9",
+"fileName": "411_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T16:04:34.216",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7033ea4d-d7b9-45df-b08c-589f3ab679f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7033ea4d-d7b9-45df-b08c-589f3ab679f9"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-03T15:55:30.203",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-04T16:08:00.683",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-14T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 14.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-29T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Valdo Randpere"
+}
+],
+"protocolFiles": [
+{
+"uuid": "0b93319d-68c5-4529-9d38-0f92f177838b",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_43.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T11:06:40.867",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0b93319d-68c5-4529-9d38-0f92f177838b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0b93319d-68c5-4529-9d38-0f92f177838b"
+}
+}
+},
+{
+"uuid": "e5c18dac-2663-457c-9a53-06011ee138b1",
+"fileName": "ÕIGK_protokoll_14.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T11:27:20.518",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e5c18dac-2663-457c-9a53-06011ee138b1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e5c18dac-2663-457c-9a53-06011ee138b1"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-29T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 29.05.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "bdc4389f-358a-4acb-89ae-633a323c4c31",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-05-29T23:49:25.103",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/bdc4389f-358a-4acb-89ae-633a323c4c31"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "59fc92d9-632f-4806-b31a-d0186cc05695",
+"reference": "1-1/15-411/2",
+"title": "Vabariigi Valitsuse arvamus karistusseadustiku muutmise seaduse eelnõu 411 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-13",
+"files": [
+{
+"uuid": "41b6dc50-30db-4efb-96d1-7a8e95783154",
+"fileName": "8-23376_10.05.2024_Vï¿½ljaminev_kiri_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T10:31:53.178",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41b6dc50-30db-4efb-96d1-7a8e95783154/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41b6dc50-30db-4efb-96d1-7a8e95783154"
+}
+}
+},
+{
+"uuid": "073f56ba-0831-47b1-8f50-90c8ceee1348",
+"fileName": "Karistusseadustiku_muutmise_seaduse_eelnõu_(411_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T10:31:53.283",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/073f56ba-0831-47b1-8f50-90c8ceee1348/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/073f56ba-0831-47b1-8f50-90c8ceee1348"
+}
+}
+},
+{
+"uuid": "9cd8c46a-56f4-44bb-804c-5c7d953f85a2",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0343_-_Karistusseadustiku_muutmise_seaduse_eelnõu_(411_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T10:31:53.304",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9cd8c46a-56f4-44bb-804c-5c7d953f85a2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9cd8c46a-56f4-44bb-804c-5c7d953f85a2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/59fc92d9-632f-4806-b31a-d0186cc05695"
+}
+}
+},
+{
+"uuid": "3bd790a9-7493-43d5-aac0-cb28848ac91f",
+"reference": "1-1/15-411/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 411 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-03",
+"files": [
+{
+"uuid": "254beb42-8095-4b46-9277-6a0ea782aa54",
+"fileName": "KarS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T16:07:40.724",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/254beb42-8095-4b46-9277-6a0ea782aa54/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/254beb42-8095-4b46-9277-6a0ea782aa54"
+}
+}
+},
+{
+"uuid": "b41297ea-5486-4edb-8520-efc67bf5916f",
+"fileName": "KarS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T16:07:22.974",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b41297ea-5486-4edb-8520-efc67bf5916f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b41297ea-5486-4edb-8520-efc67bf5916f"
+}
+}
+},
+{
+"uuid": "99983d45-873f-4de3-83b7-fcbc309bcc2c",
+"fileName": "411_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T16:05:59.603",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/99983d45-873f-4de3-83b7-fcbc309bcc2c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/99983d45-873f-4de3-83b7-fcbc309bcc2c"
+}
+}
+},
+{
+"uuid": "1899b5d0-e0ca-4b14-b8de-a47ab470ec04",
+"fileName": "1-1-15-411-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_411_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-04T15:54:15.108",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1899b5d0-e0ca-4b14-b8de-a47ab470ec04/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1899b5d0-e0ca-4b14-b8de-a47ab470ec04"
+}
+}
+},
+{
+"uuid": "e54c077e-cc55-4cb2-83cc-11e02c0b826a",
+"fileName": "240404_KarS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T16:32:33.209",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e54c077e-cc55-4cb2-83cc-11e02c0b826a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e54c077e-cc55-4cb2-83cc-11e02c0b826a"
+}
+}
+},
+{
+"uuid": "f71823b0-8225-4926-925c-9bfe36309ab1",
+"fileName": "411_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T16:06:09.563",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f71823b0-8225-4926-925c-9bfe36309ab1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f71823b0-8225-4926-925c-9bfe36309ab1"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3bd790a9-7493-43d5-aac0-cb28848ac91f"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9d85885f-6f25-4d06-af34-840728102b77"
+}
+}
+}

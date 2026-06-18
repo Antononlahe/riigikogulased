@@ -1,0 +1,4109 @@
+{
+"uuid": "dfe31e5d-f2b7-40a9-b5ad-0cf9aea5d078",
+"title": "Ehitusseadustiku ja teiste seaduste muutmise seadus (taastuvenergia kasutuselevõtu kiirendamine)",
+"mark": 308,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Ehitusseadustiku ja teiste seaduste muutmise seadus (taastuvenergia kasutuselevõtu kiirendamine) 308 SE",
+"initialTitle": "Ehitusseadustiku ja teiste seaduste muutmise seadus (taastuvenergia kasutuselevõtu kiirendamine)",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga luuakse uue loa liigina meretuulepargi hoonestusluba. Muudatustega koondatakse seni kolme erineva loamenetluse (hoonestusluba, vee erikasutuse keskkonnaluba ehk veeluba ja ehitusluba) nõuded üheks meretuulepargi hoonestusloa taotlemiseks. Kolme senise loamenetluse liitmisel tekkiv meretuulepargi hoonestusloa taotlemine on mahukam kui seni iga menetlus eraldi, ent see on kiirem, kuna dokumentide esitamist ja eri toiminguid on kokkuvõttes vähem.\nMeretuulepargi hoonestusloa saamine annab õiguse alustada tuulepargi ehitusega ja selleks vajaliku vee erikasutusega. Edaspidi väljastatakse vaid üks haldusakt, mis vähendab ka kohtuvaidluste arvu.\nTaastuvenergia projektid mõjutavad keskkonda ja seetõttu on projektide läbi töötamisel oluline roll keskkonnamõju hindamisel (KMH). Eelnõu järgi viiakse mitu seni üksteisele järgnenud KMH tegevust samaaegseks, mis vähendab nendele kuluvat aega.\nSamuti luuakse eelnõuga erisus ELi otsekohalduva taastuvenergia arendamise kiirendamise määrusega ettenähtud tuule- või päikeseparkide ajakohastamise projektide kiireks KMH-ks. Vajalikku tegevusluba on siis võimalik väljastada kuue ning teatud juhtudel kolme kuuga.\nEelnõuga võetakse Eesti õigusesse üle ka Euroopa Parlamendi ja nõukogu direktiiv, et tõhustada üleeuroopalise transpordivõrgu (TEN-T) väljaarendamist. Direktiivi eesmärk on kiirendada liikmesriikide teede põhivõrgukoridoride projektide loamenetlust. Selleks luuakse ühtse ehitusloa menetluse õigusraamistik, mis vähendab halduskulusid ja hoogustab EL-i jaoks strateegiliselt tähtsate ühenduste ehitamist. Direktiiv annab diskretsiooni ühe konkreetse pädeva asutuse määramiseks. Direktiivi rakendamisega Eestile täiendavat mõju pole, sest sisuliselt on nõuded juba Eesti õiguses olemas, seadusesse viiakse normitehniline viide.",
+"initiated": "2023-10-09",
+"joined": null,
+"accepted": "2024-05-28",
+"amendmentsDeadline": "2023-12-29T16:00:00",
+"responsibleMember": {
+"uuid": "53141769-f7bb-4995-8d12-5ff0d9c1eca1",
+"name": "Mario Kadastik",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/53141769-f7bb-4995-8d12-5ff0d9c1eca1?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8bd39979-5c6b-496c-853f-89e750f396b2",
+"name": "Mari Tänav",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8bd39979-5c6b-496c-853f-89e750f396b2?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 4831,
+"text": "ehitis"
+},
+{
+"edid": 5741,
+"text": "veekeskkond"
+},
+{
+"edid": 2327,
+"text": "ehitusluba"
+},
+{
+"edid": 748,
+"text": "tuuleenergia"
+},
+{
+"edid": 754,
+"text": "taastuv energia"
+},
+{
+"edid": 3139,
+"text": "keskkonnamõju"
+},
+{
+"edid": 5334,
+"text": "teabe avalikustamine"
+},
+{
+"edid": 2230,
+"text": "maksutaoline lõiv"
+},
+{
+"edid": 2247,
+"text": "liidu õiguse riigisisene rakendamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "64b00743-dcbf-469e-9242-f51524e55529",
+"fileName": "RK_23-01683-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.422",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64b00743-dcbf-469e-9242-f51524e55529/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64b00743-dcbf-469e-9242-f51524e55529"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1a4d451e-a6c5-4678-a6ad-9c260dd91f2f",
+"fileName": "[EIS]_Eelnõu_esitamine__KLIM-23-1152_-_Ehitusseadustiku_ja_teiste_seaduste_muutmise_seaduse_eelnõu_(taastuvenergia_kasutuselevõtu_kiirendamine).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.646",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1a4d451e-a6c5-4678-a6ad-9c260dd91f2f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1a4d451e-a6c5-4678-a6ad-9c260dd91f2f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "230bc928-a42e-448f-b53e-6f3a201780ee",
+"title": "308 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bf7545de-b691-45ba-b21d-ebf6b71f3c88",
+"fileName": "308_EhS_jt_s_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-23T14:05:05.203",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf7545de-b691-45ba-b21d-ebf6b71f3c88/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf7545de-b691-45ba-b21d-ebf6b71f3c88"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "0e5bc7e6-5f26-4e8f-b275-bf0b4b49ab51",
+"title": "308 SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bd529a84-dd19-422a-a0fd-4835675474a6",
+"fileName": "308_EhS_jt_s_m_s_eelnõu_II.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:55:17.528",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bd529a84-dd19-422a-a0fd-4835675474a6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bd529a84-dd19-422a-a0fd-4835675474a6"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "9d60e0f4-c3f0-4866-8278-272ca1cdb863",
+"title": "308 SE III",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fbe22ec4-e5df-4b3c-928f-02750b4b7987",
+"fileName": "308_EhS_jt_s_m_s_eelnõu_III.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T08:47:56.459",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fbe22ec4-e5df-4b3c-928f-02750b4b7987/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fbe22ec4-e5df-4b3c-928f-02750b4b7987"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1d2600b2-d068-4798-90f7-ad5fd596cf77",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.489",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d2600b2-d068-4798-90f7-ad5fd596cf77/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d2600b2-d068-4798-90f7-ad5fd596cf77"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a1a75847-82ee-4841-91e4-a882d88fb863",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.562",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a1a75847-82ee-4841-91e4-a882d88fb863/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a1a75847-82ee-4841-91e4-a882d88fb863"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ae503959-5762-445b-8d35-40bdbfc1aabe",
+"fileName": "23-01683-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.471",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae503959-5762-445b-8d35-40bdbfc1aabe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae503959-5762-445b-8d35-40bdbfc1aabe"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "914ad3b8-3db8-4c0a-baa2-5fad82e85d33",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "00623ced-580d-4664-8108-a1579ea8d484",
+"fileName": "308_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T11:30:45.734",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/00623ced-580d-4664-8108-a1579ea8d484/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/00623ced-580d-4664-8108-a1579ea8d484"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "563257d6-7bd1-4c5e-8c45-63b5ac7200a4",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "03a79167-1fdc-4fa5-a056-d824a9eaba3f",
+"fileName": "308XV_Ehitussead_ms_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T17:32:14.959",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/03a79167-1fdc-4fa5-a056-d824a9eaba3f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/03a79167-1fdc-4fa5-a056-d824a9eaba3f"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "563257d6-7bd1-4c5e-8c45-63b5ac7200a4",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cea28968-dd7c-4cda-b399-c8812f84fa14",
+"fileName": "308XV_Ehitussead_ms_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T17:32:02.444",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cea28968-dd7c-4cda-b399-c8812f84fa14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cea28968-dd7c-4cda-b399-c8812f84fa14"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "0e5bc7e6-5f26-4e8f-b275-bf0b4b49ab51",
+"title": "308 SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "351513a3-0827-4889-b9cc-97aafd0ee6be",
+"fileName": "308_SE_II_ME-de_loetelu.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:55:41.386",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/351513a3-0827-4889-b9cc-97aafd0ee6be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/351513a3-0827-4889-b9cc-97aafd0ee6be"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "230bc928-a42e-448f-b53e-6f3a201780ee",
+"title": "308 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "91ee112f-61c9-4472-8c1e-b3c4e8629c5c",
+"fileName": "308_EhS_jt_s_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-23T14:05:22.432",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91ee112f-61c9-4472-8c1e-b3c4e8629c5c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91ee112f-61c9-4472-8c1e-b3c4e8629c5c"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "0e5bc7e6-5f26-4e8f-b275-bf0b4b49ab51",
+"title": "308 SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6f160058-2f30-40cb-9eef-0864634443e3",
+"fileName": "308_SE_II_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T16:03:22.139",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6f160058-2f30-40cb-9eef-0864634443e3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6f160058-2f30-40cb-9eef-0864634443e3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1c082f1f-ba07-4b5a-aeb0-7bc32157e590",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.508",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1c082f1f-ba07-4b5a-aeb0-7bc32157e590/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1c082f1f-ba07-4b5a-aeb0-7bc32157e590"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "60776d53-1044-4fda-945f-9677cbe6dd7d",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.58",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/60776d53-1044-4fda-945f-9677cbe6dd7d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/60776d53-1044-4fda-945f-9677cbe6dd7d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "230bc928-a42e-448f-b53e-6f3a201780ee",
+"title": "308 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "08c71c52-1cba-4f8b-a7e1-7d34bdde6381",
+"fileName": "308_EhS_jt_s_m_s_SK_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-23T14:05:36.366",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/08c71c52-1cba-4f8b-a7e1-7d34bdde6381/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/08c71c52-1cba-4f8b-a7e1-7d34bdde6381"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "29a363fe-6f77-4d2d-a062-235c3e271fe2",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.528",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29a363fe-6f77-4d2d-a062-235c3e271fe2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29a363fe-6f77-4d2d-a062-235c3e271fe2"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "90630298-f548-41b7-94fc-e8ee1db30c6d",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.6",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90630298-f548-41b7-94fc-e8ee1db30c6d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90630298-f548-41b7-94fc-e8ee1db30c6d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "230bc928-a42e-448f-b53e-6f3a201780ee",
+"title": "308 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "49747d25-6722-487e-829a-67fb56e2fa7b",
+"fileName": "308_EhS_jt_s_m_s_SK_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-23T14:06:13.049",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/49747d25-6722-487e-829a-67fb56e2fa7b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/49747d25-6722-487e-829a-67fb56e2fa7b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b4485a7a-3f69-42b9-a401-7f5873bfa4f0",
+"fileName": "Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.545",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4485a7a-3f69-42b9-a401-7f5873bfa4f0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4485a7a-3f69-42b9-a401-7f5873bfa4f0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "00586a63-f925-4f40-b666-3eecbdb3c882",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ccddaabc-bede-41d9-b906-0c4567bca9a7",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T15:18:46.618",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ccddaabc-bede-41d9-b906-0c4567bca9a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ccddaabc-bede-41d9-b906-0c4567bca9a7"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "59db4f74-314c-4c6d-9a03-319069244de1",
+"reference": "1-1/15-308/40",
+"title": "Vabariigi Presidendi otsus nr 414",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c4637488-552d-4c64-9724-dff136d2f80c",
+"fileName": "VP_04062024_o414.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T17:30:20.952",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c4637488-552d-4c64-9724-dff136d2f80c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c4637488-552d-4c64-9724-dff136d2f80c"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "59db4f74-314c-4c6d-9a03-319069244de1",
+"reference": "1-1/15-308/40",
+"title": "Vabariigi Presidendi otsus nr 414",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "89df2c8f-0463-461a-9850-fa240b55370b",
+"fileName": "VP_04062024_o414.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T17:30:20.879",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/89df2c8f-0463-461a-9850-fa240b55370b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/89df2c8f-0463-461a-9850-fa240b55370b"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "914ad3b8-3db8-4c0a-baa2-5fad82e85d33",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "404a9831-d7e9-47e8-8019-ce662048a663",
+"fileName": "308XV_Ehitussead_ms_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T10:48:51.42",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/404a9831-d7e9-47e8-8019-ce662048a663/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/404a9831-d7e9-47e8-8019-ce662048a663"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "914ad3b8-3db8-4c0a-baa2-5fad82e85d33",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "900574f6-965b-423e-8287-37aae3ed19da",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T11:33:35.772",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/900574f6-965b-423e-8287-37aae3ed19da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/900574f6-965b-423e-8287-37aae3ed19da"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "fef396b8-1da6-428d-b125-96102c2f0289",
+"title": "Ministri õiend seletuskirja kohta",
+"documentType": "lisadokumendid",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "03dcc2d1-4954-4906-9935-9abd65495629",
+"fileName": "Ministri_õiend_majanduskomisjonile_eelnõu_308_SE_seletuskirja_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Õiend seletuskirja kohta",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-02T09:49:07.886",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/03dcc2d1-4954-4906-9935-9abd65495629/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/03dcc2d1-4954-4906-9935-9abd65495629"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "fef396b8-1da6-428d-b125-96102c2f0289",
+"title": "Ministri õiend seletuskirja kohta",
+"documentType": "lisadokumendid",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0b426ca2-74b0-4d3c-af1e-b55040fdc34c",
+"fileName": "Ministri_õiend_majanduskomisjonile_eelnõu_308_SE_seletuskirja_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Õiend seletuskirja kohta asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-02T09:48:49.268",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0b426ca2-74b0-4d3c-af1e-b55040fdc34c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0b426ca2-74b0-4d3c-af1e-b55040fdc34c"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-10-09T15:18:07.295",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-10-10T15:40:00.166",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-10-23T11:30:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 23.10.2023 kell 11.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Mario Kadastik"
+},
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-11-08T14:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Küsida eelnõu kohta arvamust Riigikogu keskkonnakomisjonilt. Arvamuse esitamise tähtaeg on 22.11.2023"
+}
+],
+"protocolFiles": [
+{
+"uuid": "75daf9df-ba48-4cbc-8aa6-6d9c2363a1b4",
+"fileName": "MAJK_protokoll_nr_23_23.10.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-30T15:35:34.291",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75daf9df-ba48-4cbc-8aa6-6d9c2363a1b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75daf9df-ba48-4cbc-8aa6-6d9c2363a1b4"
+}
+}
+},
+{
+"uuid": "6380a24c-68bf-45df-af43-b36d05ebf3af",
+"fileName": "MAJK_protokoll_nr_23_23.10.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-30T15:33:19.043",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6380a24c-68bf-45df-af43-b36d05ebf3af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6380a24c-68bf-45df-af43-b36d05ebf3af"
+}
+}
+},
+{
+"uuid": "c938ddc4-0ef0-491c-9a75-76e5c9a05326",
+"fileName": "308SE_MAJK_ENERG_23102023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (308 SE)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-30T15:36:11.107",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c938ddc4-0ef0-491c-9a75-76e5c9a05326/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c938ddc4-0ef0-491c-9a75-76e5c9a05326"
+}
+}
+}
+]
+},
+{
+"date": "2023-12-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.12.2023 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "a46a870b-1a00-48cc-a3ce-a7129709b1a0",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-12-13T17:46:27.047",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a46a870b-1a00-48cc-a3ce-a7129709b1a0"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-09T14:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 9.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-15T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Juhul kui täiskogus ei leia mõni juhtivkomisjoni poolt muudatusettepanekute kohta tehtud otsus toetust, teha ettepanek eelnõu teine lugemine katkestada."
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-05-28T10:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "b902d758-684e-4dfd-bdc9-75dd3f075da3",
+"fileName": "Volikiri_Epler_Poolamets.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri_Epler Poolamets",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T15:00:46.504",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b902d758-684e-4dfd-bdc9-75dd3f075da3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b902d758-684e-4dfd-bdc9-75dd3f075da3"
+}
+}
+},
+{
+"uuid": "142a572c-1fdc-44ff-9a47-ab4bcd201036",
+"fileName": "MAJK_protokoll_nr_62_09.05.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T14:59:39.191",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/142a572c-1fdc-44ff-9a47-ab4bcd201036/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/142a572c-1fdc-44ff-9a47-ab4bcd201036"
+}
+}
+},
+{
+"uuid": "587c82a0-d2b8-46fa-9063-8eab4b9c57b1",
+"fileName": "MAJK_protokoll_nr_62_09.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T14:55:15.001",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/587c82a0-d2b8-46fa-9063-8eab4b9c57b1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/587c82a0-d2b8-46fa-9063-8eab4b9c57b1"
+}
+}
+},
+{
+"uuid": "b225d2fb-7e50-43d6-8c44-7af37ae394ed",
+"fileName": "Volikiri_Valge_Helme.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri_Valge Helme",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-15T15:01:13.795",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b225d2fb-7e50-43d6-8c44-7af37ae394ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b225d2fb-7e50-43d6-8c44-7af37ae394ed"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.05.2024 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": [
+{
+"uuid": "f1b372c6-7386-4299-9d5d-b34278bfcafd",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "49. muudatusettepanek",
+"startDateTime": "2024-05-15T19:27:29.563",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f1b372c6-7386-4299-9d5d-b34278bfcafd"
+}
+}
+},
+{
+"uuid": "a4d46a1c-a1df-42b3-99dd-8c35af230fd7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "II lugemise katkestamine",
+"startDateTime": "2024-05-15T20:04:10.283",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a4d46a1c-a1df-42b3-99dd-8c35af230fd7"
+}
+}
+},
+{
+"uuid": "3f216bac-d578-4d98-aa19-a08bd82f4524",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "79. muudatusettepanek",
+"startDateTime": "2024-05-15T20:02:28.063",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/3f216bac-d578-4d98-aa19-a08bd82f4524"
+}
+}
+},
+{
+"uuid": "02048bd6-3f2b-42eb-b23f-47eb6272d599",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "78. muudatusettepanek",
+"startDateTime": "2024-05-15T20:01:24.57",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/02048bd6-3f2b-42eb-b23f-47eb6272d599"
+}
+}
+},
+{
+"uuid": "412db8e7-83ff-49ff-9c76-dc790afa45c7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "77. muudatusettepanek",
+"startDateTime": "2024-05-15T20:00:35.263",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/412db8e7-83ff-49ff-9c76-dc790afa45c7"
+}
+}
+},
+{
+"uuid": "e64f92ff-d77d-4921-8843-545c59a510c4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "76. muudatusettepanek",
+"startDateTime": "2024-05-15T19:59:45.73",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e64f92ff-d77d-4921-8843-545c59a510c4"
+}
+}
+},
+{
+"uuid": "16e6cc2b-c7de-4403-9bb4-f5739dea6bc5",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "75. muudatusettepanek",
+"startDateTime": "2024-05-15T19:58:48.563",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/16e6cc2b-c7de-4403-9bb4-f5739dea6bc5"
+}
+}
+},
+{
+"uuid": "5a1eb2bd-ea6c-4bcb-8c32-84c0d8731a63",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "74. muudatusettepanek",
+"startDateTime": "2024-05-15T19:57:59.06",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/5a1eb2bd-ea6c-4bcb-8c32-84c0d8731a63"
+}
+}
+},
+{
+"uuid": "3ca542bc-5b48-4cf8-8f57-da13ea6f8190",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "73. muudatusettepanek",
+"startDateTime": "2024-05-15T19:57:04.537",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/3ca542bc-5b48-4cf8-8f57-da13ea6f8190"
+}
+}
+},
+{
+"uuid": "3147ef95-674b-4210-8edc-6b302bcdcfd6",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "72. muudatusettepanek",
+"startDateTime": "2024-05-15T19:56:13.193",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/3147ef95-674b-4210-8edc-6b302bcdcfd6"
+}
+}
+},
+{
+"uuid": "b3b150bb-1545-4422-8b54-51d88026d374",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "71. muudatusettepanek",
+"startDateTime": "2024-05-15T19:55:21.853",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b3b150bb-1545-4422-8b54-51d88026d374"
+}
+}
+},
+{
+"uuid": "7b08ea55-1854-4d00-8776-584ea9b32aa7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "70. muudatusettepanek",
+"startDateTime": "2024-05-15T19:54:31.403",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/7b08ea55-1854-4d00-8776-584ea9b32aa7"
+}
+}
+},
+{
+"uuid": "ee91e62f-2485-44b5-aba2-b64c6f72418b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "69. muudatusettepanek",
+"startDateTime": "2024-05-15T19:43:22.24",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ee91e62f-2485-44b5-aba2-b64c6f72418b"
+}
+}
+},
+{
+"uuid": "d816d7a7-d5cb-4ed3-b535-44e64707c0e3",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "68. muudatusettepanek",
+"startDateTime": "2024-05-15T19:42:13.153",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/d816d7a7-d5cb-4ed3-b535-44e64707c0e3"
+}
+}
+},
+{
+"uuid": "abd31d0d-65ce-4c69-a052-6a894a4fc0b2",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "65. muudatusettepanek",
+"startDateTime": "2024-05-15T19:41:07.157",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/abd31d0d-65ce-4c69-a052-6a894a4fc0b2"
+}
+}
+},
+{
+"uuid": "5f0a4b1c-da41-49dd-89a5-1d439d650289",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "64. muudatusettepanek",
+"startDateTime": "2024-05-15T19:40:09.253",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/5f0a4b1c-da41-49dd-89a5-1d439d650289"
+}
+}
+},
+{
+"uuid": "b1d20083-4feb-4140-9e43-b44e0785f915",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "63. muudatusettepanek",
+"startDateTime": "2024-05-15T19:39:05.853",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b1d20083-4feb-4140-9e43-b44e0785f915"
+}
+}
+},
+{
+"uuid": "d4628985-486b-4fc4-9aa6-e1b616119220",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "62. muudatusettepanek",
+"startDateTime": "2024-05-15T19:38:16.19",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/d4628985-486b-4fc4-9aa6-e1b616119220"
+}
+}
+},
+{
+"uuid": "f5f3a41e-ada3-45a2-975d-931f22df88e9",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "61. muudatusettepanek",
+"startDateTime": "2024-05-15T19:37:26.587",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f5f3a41e-ada3-45a2-975d-931f22df88e9"
+}
+}
+},
+{
+"uuid": "ec1d7351-fdbf-4697-8af4-a9ba8cc43480",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "60. muudatusettepanek",
+"startDateTime": "2024-05-15T19:36:28.187",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ec1d7351-fdbf-4697-8af4-a9ba8cc43480"
+}
+}
+},
+{
+"uuid": "889aae42-d2fa-44c7-aabb-50c877372cfb",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "59. muudatusettepanek",
+"startDateTime": "2024-05-15T19:35:33.06",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/889aae42-d2fa-44c7-aabb-50c877372cfb"
+}
+}
+},
+{
+"uuid": "21194e49-a054-4564-904b-0559111d459a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "58. muudatusettepanek",
+"startDateTime": "2024-05-15T19:34:38.517",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/21194e49-a054-4564-904b-0559111d459a"
+}
+}
+},
+{
+"uuid": "9bbb41e6-27d7-41a0-bbe5-cbdfb7f16b27",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "56. muudatusettepanek",
+"startDateTime": "2024-05-15T19:33:16.297",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9bbb41e6-27d7-41a0-bbe5-cbdfb7f16b27"
+}
+}
+},
+{
+"uuid": "4238ed4f-07bf-43d0-a7ed-90d6e15af35c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "55. muudatusettepanek",
+"startDateTime": "2024-05-15T19:32:28.41",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/4238ed4f-07bf-43d0-a7ed-90d6e15af35c"
+}
+}
+},
+{
+"uuid": "6dfb9d29-c98b-42e3-8805-c6df730ab5fb",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "54. muudatusettepanek",
+"startDateTime": "2024-05-15T19:31:37.4",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/6dfb9d29-c98b-42e3-8805-c6df730ab5fb"
+}
+}
+},
+{
+"uuid": "386ffb5f-6ad1-402b-991d-c2fd478a0ed8",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "53. muudatusettepanek",
+"startDateTime": "2024-05-15T19:30:49.443",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/386ffb5f-6ad1-402b-991d-c2fd478a0ed8"
+}
+}
+},
+{
+"uuid": "265b3ea9-a06c-412a-8db4-2219705d986d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "52. muudatusettepanek",
+"startDateTime": "2024-05-15T19:30:01.127",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/265b3ea9-a06c-412a-8db4-2219705d986d"
+}
+}
+},
+{
+"uuid": "357b12ff-03a4-497b-a0db-848b48301296",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "51. muudatusettepanek",
+"startDateTime": "2024-05-15T19:29:08.4",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/357b12ff-03a4-497b-a0db-848b48301296"
+}
+}
+},
+{
+"uuid": "8863af4b-7b3d-459e-bfaa-1ba170f03fbf",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "50. muudatusettepanek",
+"startDateTime": "2024-05-15T19:28:19.113",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8863af4b-7b3d-459e-bfaa-1ba170f03fbf"
+}
+}
+},
+{
+"uuid": "77d05733-cf97-4186-a8dd-976ca50b3d7d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "5. muudatusettepanek",
+"startDateTime": "2024-05-15T17:42:19.37",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/77d05733-cf97-4186-a8dd-976ca50b3d7d"
+}
+}
+},
+{
+"uuid": "150ea005-1c9f-4205-b356-1a4fdaa68b92",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "6. muudatusettepanek",
+"startDateTime": "2024-05-15T17:53:33.09",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/150ea005-1c9f-4205-b356-1a4fdaa68b92"
+}
+}
+},
+{
+"uuid": "678b2aa4-78f3-4d42-9f13-548b0a851613",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "7. muudatusettepanek",
+"startDateTime": "2024-05-15T18:04:41.67",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/678b2aa4-78f3-4d42-9f13-548b0a851613"
+}
+}
+},
+{
+"uuid": "4d8714ef-0899-4948-bffa-3002db319d99",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "8. muudatusettepanek",
+"startDateTime": "2024-05-15T18:15:51.513",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/4d8714ef-0899-4948-bffa-3002db319d99"
+}
+}
+},
+{
+"uuid": "90d9e415-d333-4b42-ae6b-14b3a54e95f5",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "9. muudatusettepanek",
+"startDateTime": "2024-05-15T18:19:51.62",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/90d9e415-d333-4b42-ae6b-14b3a54e95f5"
+}
+}
+},
+{
+"uuid": "7c446bf8-64f6-461c-996b-93b8bda5e93a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "10. muudatusettepanek",
+"startDateTime": "2024-05-15T18:20:58.23",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/7c446bf8-64f6-461c-996b-93b8bda5e93a"
+}
+}
+},
+{
+"uuid": "2fad661b-91b7-4502-b6bc-102082174379",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "11. muudatusettepanek",
+"startDateTime": "2024-05-15T18:22:00.753",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/2fad661b-91b7-4502-b6bc-102082174379"
+}
+}
+},
+{
+"uuid": "cdf32fa8-f017-4463-92c5-9e66fd37bd1e",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "12. muudatusettepanek",
+"startDateTime": "2024-05-15T18:23:10.237",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/cdf32fa8-f017-4463-92c5-9e66fd37bd1e"
+}
+}
+},
+{
+"uuid": "60c1d051-20b4-4050-8ecf-7a726277502d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "13. muudatusettepanek",
+"startDateTime": "2024-05-15T18:24:03.607",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/60c1d051-20b4-4050-8ecf-7a726277502d"
+}
+}
+},
+{
+"uuid": "5f0307b7-1171-4d38-808e-2cbcdff184fd",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "14. muudatusettepanek",
+"startDateTime": "2024-05-15T18:25:00.24",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/5f0307b7-1171-4d38-808e-2cbcdff184fd"
+}
+}
+},
+{
+"uuid": "d5165997-f954-4e2d-ba93-8e774547a2d9",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "15. muudatusettepanek",
+"startDateTime": "2024-05-15T18:25:52.893",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/d5165997-f954-4e2d-ba93-8e774547a2d9"
+}
+}
+},
+{
+"uuid": "1e38446b-6441-4202-b537-183087262bd4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "16. muudatusettepanek",
+"startDateTime": "2024-05-15T18:26:44.583",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/1e38446b-6441-4202-b537-183087262bd4"
+}
+}
+},
+{
+"uuid": "23a41934-f727-4d6e-83bc-bebdeaacd746",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "17. muudatusettepanek",
+"startDateTime": "2024-05-15T18:27:38.3",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/23a41934-f727-4d6e-83bc-bebdeaacd746"
+}
+}
+},
+{
+"uuid": "f12bfc87-ac2a-4556-b98d-eb56e798709f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "18. muudatusettepanek",
+"startDateTime": "2024-05-15T18:28:35.77",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f12bfc87-ac2a-4556-b98d-eb56e798709f"
+}
+}
+},
+{
+"uuid": "529f31de-e1b0-42ed-9a02-1638b133005d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "19. muudatusettepanek",
+"startDateTime": "2024-05-15T18:39:40.71",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/529f31de-e1b0-42ed-9a02-1638b133005d"
+}
+}
+},
+{
+"uuid": "8797661c-fa3e-4818-8a61-416f0d4e22e8",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "21. muudatusettepanek",
+"startDateTime": "2024-05-15T18:42:25.05",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8797661c-fa3e-4818-8a61-416f0d4e22e8"
+}
+}
+},
+{
+"uuid": "e6286961-013d-4692-8009-45aca2bc7e01",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "22. muudatusettepanek",
+"startDateTime": "2024-05-15T18:43:18.867",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e6286961-013d-4692-8009-45aca2bc7e01"
+}
+}
+},
+{
+"uuid": "ad9f494a-e5a8-45e2-9e8f-5abe9ea4bfcf",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "23. muudatusettepanek",
+"startDateTime": "2024-05-15T18:44:20.89",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ad9f494a-e5a8-45e2-9e8f-5abe9ea4bfcf"
+}
+}
+},
+{
+"uuid": "6022be25-d598-46b7-bd30-72acddc0ace5",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "24. muudatusettepanek",
+"startDateTime": "2024-05-15T18:45:15.75",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/6022be25-d598-46b7-bd30-72acddc0ace5"
+}
+}
+},
+{
+"uuid": "f7000f07-6cfb-4414-b4bc-c701295f4e0f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "25. muudatusettepanek",
+"startDateTime": "2024-05-15T18:46:04.95",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f7000f07-6cfb-4414-b4bc-c701295f4e0f"
+}
+}
+},
+{
+"uuid": "eae03e08-48b6-4af5-99bb-0d6cb24659a6",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "26. muudatusettepanek",
+"startDateTime": "2024-05-15T18:46:53.63",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/eae03e08-48b6-4af5-99bb-0d6cb24659a6"
+}
+}
+},
+{
+"uuid": "18d8ae39-6d11-4911-a794-c1d851143cdc",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "27. muudatusettepanek",
+"startDateTime": "2024-05-15T18:47:45.913",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/18d8ae39-6d11-4911-a794-c1d851143cdc"
+}
+}
+},
+{
+"uuid": "e9e292a3-14c3-4e92-9273-440f6e7dc5e9",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "28. muudatusettepanek",
+"startDateTime": "2024-05-15T18:48:36.777",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e9e292a3-14c3-4e92-9273-440f6e7dc5e9"
+}
+}
+},
+{
+"uuid": "e5302f1e-65c1-4845-a67f-62fbc47dab9c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "29. muudatusettepanek",
+"startDateTime": "2024-05-15T18:49:31.387",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e5302f1e-65c1-4845-a67f-62fbc47dab9c"
+}
+}
+},
+{
+"uuid": "ed889c07-4ec7-4c36-ba82-dce54f51bf3c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "30. muudatusettepanek",
+"startDateTime": "2024-05-15T19:00:40.78",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ed889c07-4ec7-4c36-ba82-dce54f51bf3c"
+}
+}
+},
+{
+"uuid": "78e1cbe1-e06e-422a-964f-62e37b59969b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "31. muudatusettepanek",
+"startDateTime": "2024-05-15T19:01:31.01",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/78e1cbe1-e06e-422a-964f-62e37b59969b"
+}
+}
+},
+{
+"uuid": "56da4772-2562-4dee-9820-a352c2113739",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "32. muudatusettepanek",
+"startDateTime": "2024-05-15T19:02:22.23",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/56da4772-2562-4dee-9820-a352c2113739"
+}
+}
+},
+{
+"uuid": "9ecff47c-3378-414f-a327-a9e1c4f74bc0",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "33. muudatusettepanek",
+"startDateTime": "2024-05-15T19:03:11.727",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9ecff47c-3378-414f-a327-a9e1c4f74bc0"
+}
+}
+},
+{
+"uuid": "911a4b82-8c17-46f0-9f37-cbe93ec3e4a0",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "34. muudatusettepanek",
+"startDateTime": "2024-05-15T19:03:59.837",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/911a4b82-8c17-46f0-9f37-cbe93ec3e4a0"
+}
+}
+},
+{
+"uuid": "173318c6-17f0-4e5e-924b-b3e110841b89",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "35. muudatusettepanek",
+"startDateTime": "2024-05-15T19:04:51.58",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/173318c6-17f0-4e5e-924b-b3e110841b89"
+}
+}
+},
+{
+"uuid": "25624d29-92ec-44c8-a7ed-ee327e60a410",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "36. muudatusettepanek",
+"startDateTime": "2024-05-15T19:05:44.37",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/25624d29-92ec-44c8-a7ed-ee327e60a410"
+}
+}
+},
+{
+"uuid": "61d057ef-b69c-4853-b8f0-7845387f28a4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "37. muudatusettepanek",
+"startDateTime": "2024-05-15T19:06:45.963",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/61d057ef-b69c-4853-b8f0-7845387f28a4"
+}
+}
+},
+{
+"uuid": "844fedf2-416a-417a-ba96-8f8759211f60",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "38. muudatusettepanek",
+"startDateTime": "2024-05-15T19:07:40.873",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/844fedf2-416a-417a-ba96-8f8759211f60"
+}
+}
+},
+{
+"uuid": "5a5cea98-3a48-4d4f-8680-06906369feee",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "39. muudatusettepanek",
+"startDateTime": "2024-05-15T19:08:30.357",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/5a5cea98-3a48-4d4f-8680-06906369feee"
+}
+}
+},
+{
+"uuid": "69e7abd1-d588-4dd3-ba1f-e871db473548",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "40. muudatusettepanek",
+"startDateTime": "2024-05-15T19:19:48.81",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/69e7abd1-d588-4dd3-ba1f-e871db473548"
+}
+}
+},
+{
+"uuid": "04f4a8dc-fc2f-4052-9cca-004eaa4ddf63",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "41. muudatusettepanek",
+"startDateTime": "2024-05-15T19:20:38.92",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/04f4a8dc-fc2f-4052-9cca-004eaa4ddf63"
+}
+}
+},
+{
+"uuid": "862b38a4-bb4d-48e1-a2f9-23b01ed0c4ee",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "42. muudatusettepanek",
+"startDateTime": "2024-05-15T19:21:28.053",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/862b38a4-bb4d-48e1-a2f9-23b01ed0c4ee"
+}
+}
+},
+{
+"uuid": "9e0d29fe-a48b-4aeb-af41-46973728f904",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "43. muudatusettepanek",
+"startDateTime": "2024-05-15T19:22:16.4",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9e0d29fe-a48b-4aeb-af41-46973728f904"
+}
+}
+},
+{
+"uuid": "f45c6537-86dc-4378-aca6-0b63ead86b63",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "44. muudatusettepanek",
+"startDateTime": "2024-05-15T19:23:09.713",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f45c6537-86dc-4378-aca6-0b63ead86b63"
+}
+}
+},
+{
+"uuid": "16f4def7-6145-4277-b29f-faa9ddde2681",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "45. muudatusettepanek",
+"startDateTime": "2024-05-15T19:24:00.283",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/16f4def7-6145-4277-b29f-faa9ddde2681"
+}
+}
+},
+{
+"uuid": "427c575a-5afe-4895-88b1-5748209c2974",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "46. muudatusettepanek",
+"startDateTime": "2024-05-15T19:24:54.16",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/427c575a-5afe-4895-88b1-5748209c2974"
+}
+}
+},
+{
+"uuid": "76f5aeaa-14b6-44b7-8091-b5b8762c7138",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "47. muudatusettepanek",
+"startDateTime": "2024-05-15T19:25:49.533",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/76f5aeaa-14b6-44b7-8091-b5b8762c7138"
+}
+}
+},
+{
+"uuid": "20725040-100f-4519-a5e0-a089248fe961",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "48. muudatusettepanek",
+"startDateTime": "2024-05-15T19:26:38.443",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/20725040-100f-4519-a5e0-a089248fe961"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-28T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 28.05.2024 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "f993a690-f0f9-4e24-9fc3-3faa6cbd0803",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-28T10:41:22.963",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f993a690-f0f9-4e24-9fc3-3faa6cbd0803"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-05-29T09:51:37.414",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-06-04T17:31:14.434",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-06-11T09:46:25.081",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "eca2f551-684d-4b61-bc2a-af96771a6d98",
+"reference": "1-1/15-308/32",
+"title": "Ignitis Renewablesi ja Copenhagen Infrastructure Partnersi arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-12-29",
+"files": [
+{
+"uuid": "06aae1be-3538-47c5-9079-804320e50fb3",
+"fileName": "Ignitis-CIP_opinion_on_the_draft_law_No._308_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "FOR_USE_WITHIN_ESTABLISHMENT",
+"accessRestrictionStartDate": "2023-12-29",
+"accessRestrictionEndDate": "2028-12-29",
+"accessRestrictionBasis": [
+{
+"code": "36",
+"value": "AvTS § 35 lg 1 p 17 teave, mille avalikustamine võib kahjustada ärisaladust"
+}
+],
+"created": "2023-12-29T16:01:54.363",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/files/06aae1be-3538-47c5-9079-804320e50fb3"
+}
+}
+},
+{
+"uuid": "e6034793-6724-486c-9d3e-1c45c84042e3",
+"fileName": "Ignitis_Renewablesi_ja_Copenhagen_Infrastructure_Partnersi_arvamus_seaduseelnõu_nr_308_SE_kohta_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T16:01:54.391",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e6034793-6724-486c-9d3e-1c45c84042e3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e6034793-6724-486c-9d3e-1c45c84042e3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/eca2f551-684d-4b61-bc2a-af96771a6d98"
+}
+}
+},
+{
+"uuid": "3547210c-1e5e-4be4-a8d8-cb9bcc1b84bc",
+"reference": "1-1/15-308/35",
+"title": "Advokaadibüroo RASK vandeadvokaat Ramon Raski ja advokaat Kristiina Padu, Evecon OÜ lepingulise esindaja arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-16",
+"files": [
+{
+"uuid": "de38910b-0490-47a4-9f4b-5b9bc3b0e926",
+"fileName": "Evecon_arvamus__muudatusettepanekud_308_SE_16_04_24.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T13:54:01.26",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/de38910b-0490-47a4-9f4b-5b9bc3b0e926/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/de38910b-0490-47a4-9f4b-5b9bc3b0e926"
+}
+}
+},
+{
+"uuid": "b297e489-f8f3-4507-8dc8-5c815a7d4f8a",
+"fileName": "Evecon_arvamus__muudatusettepanekud_308_SE_16_04_24.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T13:54:01.159",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b297e489-f8f3-4507-8dc8-5c815a7d4f8a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b297e489-f8f3-4507-8dc8-5c815a7d4f8a"
+}
+}
+},
+{
+"uuid": "5edbec85-2d6a-4593-a37b-f06a94120801",
+"fileName": "308_SE__arvamus_ja_sõnastusettepanekud.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T13:54:01.299",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5edbec85-2d6a-4593-a37b-f06a94120801/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5edbec85-2d6a-4593-a37b-f06a94120801"
+}
+}
+},
+{
+"uuid": "b74f93cc-f188-4766-ad70-8cad894c8f85",
+"fileName": "Ülevaade_tuuleenergeetika_arenduste_hetkeseisust_2024.pdf",
+"fileExtension": "pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T13:54:01.134",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b74f93cc-f188-4766-ad70-8cad894c8f85/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b74f93cc-f188-4766-ad70-8cad894c8f85"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3547210c-1e5e-4be4-a8d8-cb9bcc1b84bc"
+}
+}
+},
+{
+"uuid": "a411709b-c5cd-4fff-8872-d57d3c04d1f3",
+"reference": "1-1/15-308/38",
+"title": "Kliimaministeeriumi arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-26",
+"files": [
+{
+"uuid": "439193a8-130a-4dc7-a4f5-8fdc0ea55721",
+"fileName": "Kooskõlastustabel_308_SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-26T08:46:49.405",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/439193a8-130a-4dc7-a4f5-8fdc0ea55721/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/439193a8-130a-4dc7-a4f5-8fdc0ea55721"
+}
+}
+},
+{
+"uuid": "1ae7df67-6996-4e41-b73c-e88b0b730df8",
+"fileName": "Kliimaministeeriumi_arvamus.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-26T08:46:49.419",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1ae7df67-6996-4e41-b73c-e88b0b730df8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1ae7df67-6996-4e41-b73c-e88b0b730df8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a411709b-c5cd-4fff-8872-d57d3c04d1f3"
+}
+}
+},
+{
+"uuid": "8d6cc0bc-8bc5-4892-8a89-b92c6f1cd225",
+"reference": "1-1/15-308/36",
+"title": "OÜ Utilitas Wind täiendav arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-17",
+"files": [
+{
+"uuid": "b4f71f36-e7d3-4c07-871a-1a14da79d7f3",
+"fileName": "Utilitas_Wind_OÜ_muudatusettepanekud_ja_seisukoht_eelnõule_308_SE_(TE_kiirendamine)_2024_04_15_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T11:51:00.072",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4f71f36-e7d3-4c07-871a-1a14da79d7f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4f71f36-e7d3-4c07-871a-1a14da79d7f3"
+}
+}
+},
+{
+"uuid": "ba00f801-64f8-4757-b7ca-a6b5ee6e0341",
+"fileName": "Utilitas_Windi_seisukoht_ja_muudatusettepanekud_eelnõule_308_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T11:51:00.093",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba00f801-64f8-4757-b7ca-a6b5ee6e0341/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba00f801-64f8-4757-b7ca-a6b5ee6e0341"
+}
+}
+},
+{
+"uuid": "d736833a-0b52-485d-b3db-92c77cbdba43",
+"fileName": "Utilitas_Wind_OÜ_muudatusettepanekud_ja_seisukoht_eelnõule_308_SE_(TE_kiirendamine)_2024_04_15_.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T11:50:59.988",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d736833a-0b52-485d-b3db-92c77cbdba43/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d736833a-0b52-485d-b3db-92c77cbdba43"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8d6cc0bc-8bc5-4892-8a89-b92c6f1cd225"
+}
+}
+},
+{
+"uuid": "39ea476f-8a10-4f50-9f86-cefc124779f4",
+"reference": "1-1/15-308/5",
+"title": "Riigikogu keskkonnakomisjoni arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-13",
+"files": [
+{
+"uuid": "69061565-907d-4fb4-ae4e-2f88aa7a19ef",
+"fileName": "KEKK_308_SE_13112023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T13:05:55.251",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/69061565-907d-4fb4-ae4e-2f88aa7a19ef/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/69061565-907d-4fb4-ae4e-2f88aa7a19ef"
+}
+}
+},
+{
+"uuid": "122c2b4f-6ad1-4f0b-a183-d46720a432a9",
+"fileName": "1-1-15-308-5_-_Riigikogu_keskkonnakomisjoni_arvamus_ehitusseadustiku_ja_teiste_seaduste_muutmise_seaduse_(taastuvenergia_kasutuselevõtu_kiirendamine)_eelnõu_308_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T13:07:19.906",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/122c2b4f-6ad1-4f0b-a183-d46720a432a9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/122c2b4f-6ad1-4f0b-a183-d46720a432a9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/39ea476f-8a10-4f50-9f86-cefc124779f4"
+}
+}
+},
+{
+"uuid": "5b0be0bf-40a4-4784-b7dc-e3c6c373ddc9",
+"reference": "1-1/15-308/2",
+"title": "Ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE menetlemine Riigikogus",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-10-26",
+"files": [
+{
+"uuid": "42417d34-da0e-4a22-a73b-ddf7880c174a",
+"fileName": "Ehitusseadustiku_ja_teiste_seaduste_muutmise_seaduse_(taastuvenergia_kasutuselevõtu_kiirendamine)_eelnõu_308_SE_menetlemine_Riigikogus.html",
+"fileExtension": "html",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-26T10:33:58.809",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42417d34-da0e-4a22-a73b-ddf7880c174a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42417d34-da0e-4a22-a73b-ddf7880c174a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5b0be0bf-40a4-4784-b7dc-e3c6c373ddc9"
+}
+}
+},
+{
+"uuid": "9cbfaa5b-3624-4f5e-a061-8f8e350eed14",
+"reference": "1-1/15-308/3",
+"title": "OÜ Utilitas Wind arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-02",
+"files": [
+{
+"uuid": "2db20713-b66d-473d-b190-1ccf3c12731c",
+"fileName": "Seisukoht_ja_muudatusettepanekud_taastuvenergia_kasutuselevõtu_kiirendamise_eelnõule_308_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-02T15:48:38.394",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2db20713-b66d-473d-b190-1ccf3c12731c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2db20713-b66d-473d-b190-1ccf3c12731c"
+}
+}
+},
+{
+"uuid": "399ef2fe-2cbc-46a8-b95c-705dd02be17f",
+"fileName": "Utilitas_Wind_OÜ_muudatusettepanekud_ja_seisukoht_eelnõule_308_SE_(TE_kiirendamine)_2023_11_02.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-02T15:48:38.347",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/399ef2fe-2cbc-46a8-b95c-705dd02be17f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/399ef2fe-2cbc-46a8-b95c-705dd02be17f"
+}
+}
+},
+{
+"uuid": "0de5999c-2f2d-4f05-a8c5-862562fe26a3",
+"fileName": "Utilitas_Wind_OÜ_muudatusettepanekud_ja_seisukoht_eelnõule_308_SE_(TE_kiirendamine)_2023_11_02.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-02T15:48:38.366",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0de5999c-2f2d-4f05-a8c5-862562fe26a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0de5999c-2f2d-4f05-a8c5-862562fe26a3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9cbfaa5b-3624-4f5e-a061-8f8e350eed14"
+}
+}
+},
+{
+"uuid": "260783e6-a19e-4a7e-9b3c-95714b2049ce",
+"reference": "1-1/15-308/4",
+"title": "Maa-ameti arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-07",
+"files": [
+{
+"uuid": "663dd1f8-ccdf-4c9a-9a82-f9ee4a7ed2dc",
+"fileName": "Ehitusseadustiku_ja_teiste_seaduste_muutmise_seaduse_(taastuvenergia_kasutuselevõtu_kiirendamine)_eelnõu.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-07T11:06:19.214",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/663dd1f8-ccdf-4c9a-9a82-f9ee4a7ed2dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/663dd1f8-ccdf-4c9a-9a82-f9ee4a7ed2dc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/260783e6-a19e-4a7e-9b3c-95714b2049ce"
+}
+}
+},
+{
+"uuid": "2ee60486-f559-49b3-b82f-8990db06cf0b",
+"reference": "1-1/15-308/1",
+"title": "Arvamuse küsimine ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-10-23",
+"files": [
+{
+"uuid": "3495e488-f408-480c-8b93-fcaf26b40487",
+"fileName": "Arvamuse_küsimine_308_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Sisemine kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-23T18:21:46.642",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3495e488-f408-480c-8b93-fcaf26b40487/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3495e488-f408-480c-8b93-fcaf26b40487"
+}
+}
+},
+{
+"uuid": "5f6e58bb-e7fa-4883-82b1-2d5d75d5b225",
+"fileName": "1-1-15-308-1_-_Arvamuse_küsimine_ehitusseadustiku_ja_teiste_seaduste_muutmise_seadus_(taastuvenergia_kasutuselevõtu_kiirendamine)_eelnõu_308_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Sisemine kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-23T18:25:57.838",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f6e58bb-e7fa-4883-82b1-2d5d75d5b225/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f6e58bb-e7fa-4883-82b1-2d5d75d5b225"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2ee60486-f559-49b3-b82f-8990db06cf0b"
+}
+}
+},
+{
+"uuid": "c98a025e-6073-4b20-b5a6-944f77dbf9e9",
+"reference": "1-1/15-308/39",
+"title": "OÜ Utilitas Wind arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-10",
+"files": [
+{
+"uuid": "15b57a19-db2f-4c22-90d2-cce6827fa083",
+"fileName": "Täiendavad_muudatusettepanekud_eelnõule_308_SE_seoses_tuuleparke_kavandavate_kohaliku_omavalitsuse_eriplaneeringute_menetlusreeglitega.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-10T10:52:27.826",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/15b57a19-db2f-4c22-90d2-cce6827fa083/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/15b57a19-db2f-4c22-90d2-cce6827fa083"
+}
+}
+},
+{
+"uuid": "d6afa71b-bf60-4943-944c-dc7e2390c1ee",
+"fileName": "Utilitas_Wind_OÜ_muudatusettepanekud_ja_seisukoht_eelnõule_308_SE_(TE_kiirendamine)_2024_05_08.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-10T10:52:27.795",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6afa71b-bf60-4943-944c-dc7e2390c1ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6afa71b-bf60-4943-944c-dc7e2390c1ee"
+}
+}
+},
+{
+"uuid": "dca99287-352b-422b-822b-2db244d6e476",
+"fileName": "Utilitas_Wind_OÜ_muudatusettepanekud_ja_seisukoht_eelnõule_308_SE_(TE_kiirendamine)_2024_05_09.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-10T10:52:27.714",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dca99287-352b-422b-822b-2db244d6e476/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dca99287-352b-422b-822b-2db244d6e476"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c98a025e-6073-4b20-b5a6-944f77dbf9e9"
+}
+}
+},
+{
+"uuid": "2a077d29-a244-4bc1-b293-f9d1654dea1e",
+"reference": "1-1/15-308/6",
+"title": "Sunly AS-i arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-22",
+"files": [
+{
+"uuid": "95a9b620-f85a-40cc-897e-fb86bfcb5a97",
+"fileName": "Sunly_AS_kommentaarid_308_SE_Riigikogu_majanduskomisjon_2023-11-21.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-22T09:57:15.825",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/95a9b620-f85a-40cc-897e-fb86bfcb5a97/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/95a9b620-f85a-40cc-897e-fb86bfcb5a97"
+}
+}
+},
+{
+"uuid": "aee2dc9d-6e5d-4952-b2cc-1c7d83e332ae",
+"fileName": "Sunly_AS-i_arvamus_eelnõu_308_SE_kohta_(taastuvenergia_kasutuselevõtu_kiirendamine).html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-22T09:57:15.835",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aee2dc9d-6e5d-4952-b2cc-1c7d83e332ae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aee2dc9d-6e5d-4952-b2cc-1c7d83e332ae"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2a077d29-a244-4bc1-b293-f9d1654dea1e"
+}
+}
+},
+{
+"uuid": "9e5443d1-672a-4140-aa7c-7e9ceda4dbf6",
+"reference": "1-1/15-308/31",
+"title": "Enefit Green AS arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-12-29",
+"files": [
+{
+"uuid": "d122a61f-721b-43c6-a447-6b0feca54dc0",
+"fileName": "Enefit_Green_AS_kiri_29.12.2023_nr_TO-JUH-6-452.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T15:55:32.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d122a61f-721b-43c6-a447-6b0feca54dc0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d122a61f-721b-43c6-a447-6b0feca54dc0"
+}
+}
+},
+{
+"uuid": "caf87b70-e01c-4afc-a1c8-dd5b61e134ff",
+"fileName": "2023_12_29__ettepanekud_Riigikogu_majanduskomisjonile.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T15:55:32.552",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/caf87b70-e01c-4afc-a1c8-dd5b61e134ff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/caf87b70-e01c-4afc-a1c8-dd5b61e134ff"
+}
+}
+},
+{
+"uuid": "0e5ccf8c-6e7b-446e-9e89-9b06bde9c039",
+"fileName": "2023_12_29__ettepanekud_Riigikogu_majanduskomisjonile.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T15:55:32.605",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e5ccf8c-6e7b-446e-9e89-9b06bde9c039/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e5ccf8c-6e7b-446e-9e89-9b06bde9c039"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9e5443d1-672a-4140-aa7c-7e9ceda4dbf6"
+}
+}
+},
+{
+"uuid": "25b12d3a-c4b3-4e6b-b167-3b423ecb5ca8",
+"reference": "1-1/15-308/37",
+"title": "Enefit Green AS täiendav arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-18",
+"files": [
+{
+"uuid": "d2529d53-a6e2-4077-a968-33f636c64271",
+"fileName": "Kiri_välja_16.04.24_TO-JUH-6_176_ID_7675406_(5).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T08:58:05.151",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d2529d53-a6e2-4077-a968-33f636c64271/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d2529d53-a6e2-4077-a968-33f636c64271"
+}
+}
+},
+{
+"uuid": "d29e3c21-56a1-479b-afc0-c057f259539f",
+"fileName": "Riigikogu_Majanduskomisjon.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T08:58:05.215",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d29e3c21-56a1-479b-afc0-c057f259539f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d29e3c21-56a1-479b-afc0-c057f259539f"
+}
+}
+},
+{
+"uuid": "3e5fe56c-9ed7-4d55-bb66-dbeec1b7d11e",
+"fileName": "Kiri_välja_16.04.24_TO-JUH-6_176_ID_7675406_(5).asice.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T08:58:05.235",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e5fe56c-9ed7-4d55-bb66-dbeec1b7d11e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e5fe56c-9ed7-4d55-bb66-dbeec1b7d11e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/25b12d3a-c4b3-4e6b-b167-3b423ecb5ca8"
+}
+}
+},
+{
+"uuid": "fa7aa7b9-57b8-4e67-a082-bfc9afe989a7",
+"reference": "1-1/15-308/33",
+"title": "Kliimaministeeriumi arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-28",
+"files": [
+{
+"uuid": "2e9fb702-633f-4dad-ab42-050ad4f0bd97",
+"fileName": "Ehitusseadustiku_ja_teiste_seaduste_muutmise_seaduse_(taastuvenergeetika_kasutuselevõtu_kiirendamine)_(308_SE)_eelnõu_muudatusettepanekud.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-28T14:36:42.368",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2e9fb702-633f-4dad-ab42-050ad4f0bd97/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2e9fb702-633f-4dad-ab42-050ad4f0bd97"
+}
+}
+},
+{
+"uuid": "1cad0c84-5121-4bf5-8af8-36eacd6f7af9",
+"fileName": "Ehitusseadustiku_ja_teiste_seaduste_muutmise_seaduse_(taastuvenergeetika_kasutuselevõtu_kiirendamine)_(308_SE)_eelnõu_muudatusettepanekud.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-28T14:36:42.517",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1cad0c84-5121-4bf5-8af8-36eacd6f7af9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1cad0c84-5121-4bf5-8af8-36eacd6f7af9"
+}
+}
+},
+{
+"uuid": "3ac32dfc-2f4e-4bfd-819a-fc04b130dfa9",
+"fileName": "Ehitusseadustiku_ja_teiste_seaduste_muutmise_seaduse_(taastuvenergeetika_kasutuselevõtu_kiirendamine)_(308_SE)_eelnõu_muudatusettepanekud.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-28T14:36:42.475",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ac32dfc-2f4e-4bfd-819a-fc04b130dfa9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ac32dfc-2f4e-4bfd-819a-fc04b130dfa9"
+}
+}
+},
+{
+"uuid": "898463a2-a1c9-462d-ad84-6cde43514a4d",
+"fileName": "Kooskõlastustabel_308_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-28T14:36:42.492",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/898463a2-a1c9-462d-ad84-6cde43514a4d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/898463a2-a1c9-462d-ad84-6cde43514a4d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fa7aa7b9-57b8-4e67-a082-bfc9afe989a7"
+}
+}
+},
+{
+"uuid": "eface36c-1bed-449c-898f-41ad0efd7c08",
+"reference": "1-1/15-308/34",
+"title": "Kliimaministeeriumi täiendatud arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-15",
+"files": [
+{
+"uuid": "0e3c6acb-40e1-4f5b-8d2e-25a27ecf7b9b",
+"fileName": "Ehitusseadustiku_ja_teiste_seaduste_muutmise_seaduse_(taastuvenergeetika_kasutuselevõtu_kiirendamine)_(308_SE)_eelnõu_muudatusettepanekud.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:03:30.657",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e3c6acb-40e1-4f5b-8d2e-25a27ecf7b9b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e3c6acb-40e1-4f5b-8d2e-25a27ecf7b9b"
+}
+}
+},
+{
+"uuid": "8d75af04-ea8b-4d3a-a2c7-58c0a0f0bbb8",
+"fileName": "Kooskõlastustabel_308_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kooskõlastustabel",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:03:30.786",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d75af04-ea8b-4d3a-a2c7-58c0a0f0bbb8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d75af04-ea8b-4d3a-a2c7-58c0a0f0bbb8"
+}
+}
+},
+{
+"uuid": "3b4b3cd7-e512-4211-a572-3925c930eb59",
+"fileName": "Ehitusseadustiku_ja_teiste_seaduste_muutmise_seaduse_(taastuvenergeetika_kasutuselevõtu_kiirendamine)_(308_SE)_eelnõu_muudatusettepanekud.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:03:30.767",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3b4b3cd7-e512-4211-a572-3925c930eb59/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3b4b3cd7-e512-4211-a572-3925c930eb59"
+}
+}
+},
+{
+"uuid": "5a3346fc-c793-4730-b8b4-1396f33df970",
+"fileName": "Ehitusseadustiku_ja_teiste_seaduste_muutmise_seaduse_(taastuvenergeetika_kasutuselevõtu_kiirendamine)_(308_SE)_eelnõu_muudatusettepanekud.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:03:30.81",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5a3346fc-c793-4730-b8b4-1396f33df970/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5a3346fc-c793-4730-b8b4-1396f33df970"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/eface36c-1bed-449c-898f-41ad0efd7c08"
+}
+}
+},
+{
+"uuid": "dd958188-be5c-49b8-9c8e-2315f3a65c3f",
+"reference": "1-1/15-308/7",
+"title": "Evecon OÜ arvamus ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-28",
+"files": [
+{
+"uuid": "9fc0e90e-1163-4e84-9880-a6da155ecd0b",
+"fileName": "Evecon_arvamus_308_SE_27.11.23.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-28T12:49:13.74",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9fc0e90e-1163-4e84-9880-a6da155ecd0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9fc0e90e-1163-4e84-9880-a6da155ecd0b"
+}
+}
+},
+{
+"uuid": "d6dca9a3-420a-4ed9-8147-2ff623cc5e34",
+"fileName": "Evecon_arvamus_308_SE_27.11.23.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-28T12:49:13.678",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6dca9a3-420a-4ed9-8147-2ff623cc5e34/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6dca9a3-420a-4ed9-8147-2ff623cc5e34"
+}
+}
+},
+{
+"uuid": "61053a79-88d8-48c5-8773-d4b217c7c4d3",
+"fileName": "308_SE_muudatusettepanekud_Evecon_OÜ_poolt.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-28T12:49:13.758",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/61053a79-88d8-48c5-8773-d4b217c7c4d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/61053a79-88d8-48c5-8773-d4b217c7c4d3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/dd958188-be5c-49b8-9c8e-2315f3a65c3f"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "d8184f0b-d865-4e35-a01a-d7b79a43c627",
+"reference": "1-1/15-308/8",
+"title": "Riigikogu liikme A. Poolametsa muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "4be450b6-66d7-4874-b485-89481db2737a",
+"fileName": "ME_308SE_A.Poolamets.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:45:21.365",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4be450b6-66d7-4874-b485-89481db2737a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4be450b6-66d7-4874-b485-89481db2737a"
+}
+}
+},
+{
+"uuid": "2e8664e2-a4df-4cc1-ba18-fc2d334e4884",
+"fileName": "ME_308SE_A.Poolamets.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:45:31.778",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2e8664e2-a4df-4cc1-ba18-fc2d334e4884/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2e8664e2-a4df-4cc1-ba18-fc2d334e4884"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d8184f0b-d865-4e35-a01a-d7b79a43c627"
+}
+}
+},
+{
+"uuid": "3bc7f4a0-ff75-4f18-a1ca-c291261d5ba7",
+"reference": "1-1/15-308/9",
+"title": "Riigikogu liikme A. Alleri muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "2c33e55b-d11a-4837-8e01-2f33c37cbc08",
+"fileName": "ME_308SE_Aller.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:46:57.694",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c33e55b-d11a-4837-8e01-2f33c37cbc08/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c33e55b-d11a-4837-8e01-2f33c37cbc08"
+}
+}
+},
+{
+"uuid": "970f3936-ccd1-4752-9f3e-aa42af8364c3",
+"fileName": "ME_308SE_Aller.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:46:49.675",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/970f3936-ccd1-4752-9f3e-aa42af8364c3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/970f3936-ccd1-4752-9f3e-aa42af8364c3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3bc7f4a0-ff75-4f18-a1ca-c291261d5ba7"
+}
+}
+},
+{
+"uuid": "ab0a7ea3-b315-4621-86f9-3085c8c9e51e",
+"reference": "1-1/15-308/10",
+"title": "Riigikogu liikme E. Poolametsa muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "87eb1f0a-1622-4ba8-adae-5bb9c3c4e6c7",
+"fileName": "ME_308SE_E.Poolamets.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:47:57.54",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/87eb1f0a-1622-4ba8-adae-5bb9c3c4e6c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/87eb1f0a-1622-4ba8-adae-5bb9c3c4e6c7"
+}
+}
+},
+{
+"uuid": "f85b97b9-2e9c-4f76-a8a6-9327cc033f79",
+"fileName": "ME_308SE_E.Poolamets.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:48:04.185",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f85b97b9-2e9c-4f76-a8a6-9327cc033f79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f85b97b9-2e9c-4f76-a8a6-9327cc033f79"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ab0a7ea3-b315-4621-86f9-3085c8c9e51e"
+}
+}
+},
+{
+"uuid": "b7202c48-9752-4c52-92f9-bcd1e1dac203",
+"reference": "1-1/15-308/11",
+"title": "Riigikogu liikmete E. Poolametsa ja H. Põlluaasa muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "ab2eebeb-3690-456d-b8f6-9637fdd4772e",
+"fileName": "ME_308SE_E.Poolamets_Polluaas.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:49:16.999",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ab2eebeb-3690-456d-b8f6-9637fdd4772e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ab2eebeb-3690-456d-b8f6-9637fdd4772e"
+}
+}
+},
+{
+"uuid": "854210dc-5e83-40ca-9907-1e6fc04dea5c",
+"fileName": "ME_308SE_E.Poolamets_Polluaas.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:49:29.665",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/854210dc-5e83-40ca-9907-1e6fc04dea5c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/854210dc-5e83-40ca-9907-1e6fc04dea5c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b7202c48-9752-4c52-92f9-bcd1e1dac203"
+}
+}
+},
+{
+"uuid": "6680f673-cd7f-4bb5-80ff-f97d88d7826b",
+"reference": "1-1/15-308/12",
+"title": "Riigikogu liikme R. Epleri muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "d4911e84-f8ba-4f0c-b90f-315bc695228a",
+"fileName": "ME_308SE_Epler.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:50:26.209",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d4911e84-f8ba-4f0c-b90f-315bc695228a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d4911e84-f8ba-4f0c-b90f-315bc695228a"
+}
+}
+},
+{
+"uuid": "5f34760a-d5e4-4038-ac42-72fd76afc8ce",
+"fileName": "ME_308SE_Epler.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:50:33.355",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f34760a-d5e4-4038-ac42-72fd76afc8ce/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f34760a-d5e4-4038-ac42-72fd76afc8ce"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6680f673-cd7f-4bb5-80ff-f97d88d7826b"
+}
+}
+},
+{
+"uuid": "0b6d6d92-3e49-466f-ad0a-62354979c0e7",
+"reference": "1-1/15-308/13",
+"title": "Riigikogu liikmete H.-M. Helme ja A. Alleri muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "709987b7-ccd9-496e-88b9-6bdbb67b3d1f",
+"fileName": "ME_308SE_H.-M.Helme_Aller.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:51:53.527",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/709987b7-ccd9-496e-88b9-6bdbb67b3d1f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/709987b7-ccd9-496e-88b9-6bdbb67b3d1f"
+}
+}
+},
+{
+"uuid": "49ad7117-5696-4f22-b780-a08728a449e4",
+"fileName": "ME_308SE_H.-M.Helme_Aller.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:52:01.619",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/49ad7117-5696-4f22-b780-a08728a449e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/49ad7117-5696-4f22-b780-a08728a449e4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0b6d6d92-3e49-466f-ad0a-62354979c0e7"
+}
+}
+},
+{
+"uuid": "5d2ffb6b-8aa5-4c8e-be3d-ed2db5304876",
+"reference": "1-1/15-308/14",
+"title": "Riigikogu liikmete H.-M. Helme ja K. Kingo muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "8aa95ecb-bb2e-45af-96d7-626fa6abd34b",
+"fileName": "ME_308SE_H.-M.Helme_Kingo.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:53:04.591",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8aa95ecb-bb2e-45af-96d7-626fa6abd34b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8aa95ecb-bb2e-45af-96d7-626fa6abd34b"
+}
+}
+},
+{
+"uuid": "776a69f4-ceb0-4e92-80ad-622f4ad356e9",
+"fileName": "ME_308SE_H.-M.Helme_Kingo.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:53:13.344",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/776a69f4-ceb0-4e92-80ad-622f4ad356e9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/776a69f4-ceb0-4e92-80ad-622f4ad356e9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5d2ffb6b-8aa5-4c8e-be3d-ed2db5304876"
+}
+}
+},
+{
+"uuid": "aba7c5cb-b2e5-42c0-8a2d-1d5270c3e4fd",
+"reference": "1-1/15-308/15",
+"title": "Riigikogu liikmete H.-M. Helme ja Mart Helme muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "7152c074-9062-46ca-b9ed-c1113ad60401",
+"fileName": "ME_308SE_H.-M.Helme_MartHelme.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:54:18.591",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7152c074-9062-46ca-b9ed-c1113ad60401/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7152c074-9062-46ca-b9ed-c1113ad60401"
+}
+}
+},
+{
+"uuid": "345df6f5-a891-40f9-811c-7299d37ecfce",
+"fileName": "ME_308SE_H.-M.Helme_MartHelme.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:54:25.954",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/345df6f5-a891-40f9-811c-7299d37ecfce/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/345df6f5-a891-40f9-811c-7299d37ecfce"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/aba7c5cb-b2e5-42c0-8a2d-1d5270c3e4fd"
+}
+}
+},
+{
+"uuid": "bef603c3-1836-491a-91b1-ce762b3d9057",
+"reference": "1-1/15-308/16",
+"title": "Riigikogu liikme K. Kingo muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "f7c88e9a-4fce-4c02-b229-335e1e69f07d",
+"fileName": "ME_308SE_Kingo.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:58:25.361",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7c88e9a-4fce-4c02-b229-335e1e69f07d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7c88e9a-4fce-4c02-b229-335e1e69f07d"
+}
+}
+},
+{
+"uuid": "d3e4fe23-104d-48b9-9aa8-ce06eeeff643",
+"fileName": "ME_308SE_Kingo.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:58:32.94",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d3e4fe23-104d-48b9-9aa8-ce06eeeff643/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d3e4fe23-104d-48b9-9aa8-ce06eeeff643"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/bef603c3-1836-491a-91b1-ce762b3d9057"
+}
+}
+},
+{
+"uuid": "42cc8453-151c-4e0b-bcbe-b92b7ba62e57",
+"reference": "1-1/15-308/17",
+"title": "Riigikogu liikme R. Koka muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "5915df06-5cb6-44cd-96cd-1bda5b5f0637",
+"fileName": "ME_308SE_Kokk.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:59:51.2",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5915df06-5cb6-44cd-96cd-1bda5b5f0637/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5915df06-5cb6-44cd-96cd-1bda5b5f0637"
+}
+}
+},
+{
+"uuid": "eea402c9-5560-42ef-9d92-3c3719907027",
+"fileName": "ME_308SE_Kokk.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:59:58.63",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eea402c9-5560-42ef-9d92-3c3719907027/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eea402c9-5560-42ef-9d92-3c3719907027"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/42cc8453-151c-4e0b-bcbe-b92b7ba62e57"
+}
+}
+},
+{
+"uuid": "8858248e-e1aa-4cfd-98e1-86a209e80d45",
+"reference": "1-1/15-308/18",
+"title": "Riigikogu liikmete R. Koka ja K. Kingo muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "0638077a-fa50-4f2a-94b9-f2e9502cc996",
+"fileName": "ME_308SE_Kokk_Kingo.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:01:39.025",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0638077a-fa50-4f2a-94b9-f2e9502cc996/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0638077a-fa50-4f2a-94b9-f2e9502cc996"
+}
+}
+},
+{
+"uuid": "b2ae731b-1420-4f08-a2d9-90859cacccbb",
+"fileName": "ME_308SE_Kokk_Kingo.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:01:48.266",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b2ae731b-1420-4f08-a2d9-90859cacccbb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b2ae731b-1420-4f08-a2d9-90859cacccbb"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8858248e-e1aa-4cfd-98e1-86a209e80d45"
+}
+}
+},
+{
+"uuid": "b4237a67-f6a4-45be-8757-5cc0abf6e544",
+"reference": "1-1/15-308/19",
+"title": "Riigikogu liikme L. Kunnase muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "b35b9334-dff7-43c4-9a26-c0c6da4506aa",
+"fileName": "ME_308SE_Kunnas.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:02:52.514",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b35b9334-dff7-43c4-9a26-c0c6da4506aa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b35b9334-dff7-43c4-9a26-c0c6da4506aa"
+}
+}
+},
+{
+"uuid": "c338816a-3648-4397-8776-73202ee159af",
+"fileName": "ME_308SE_Kunnas.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:03:00.14",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c338816a-3648-4397-8776-73202ee159af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c338816a-3648-4397-8776-73202ee159af"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b4237a67-f6a4-45be-8757-5cc0abf6e544"
+}
+}
+},
+{
+"uuid": "79eeb8d9-5999-40c8-aa94-14832de6478b",
+"reference": "1-1/15-308/20",
+"title": "Riigikogu liikmete L. Kunnase ja A. Lanemani muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "3e66653e-2641-4ecb-a3ec-b3548f3769e0",
+"fileName": "ME_308SE_Kunnas_Laneman.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:04:04.427",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e66653e-2641-4ecb-a3ec-b3548f3769e0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e66653e-2641-4ecb-a3ec-b3548f3769e0"
+}
+}
+},
+{
+"uuid": "1e01011c-97a1-4e20-80d8-201262b99e2b",
+"fileName": "ME_308SE_Kunnas_Laneman.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:04:11.741",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e01011c-97a1-4e20-80d8-201262b99e2b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e01011c-97a1-4e20-80d8-201262b99e2b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/79eeb8d9-5999-40c8-aa94-14832de6478b"
+}
+}
+},
+{
+"uuid": "2ead7f19-1bdb-4230-ae39-f26cf201f7df",
+"reference": "1-1/15-308/21",
+"title": "Riigikogu liikme A. Lanemani muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "c12c219b-8335-4d6c-b42b-a741b2b1050c",
+"fileName": "ME_308SE_Laneman.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:05:10.552",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c12c219b-8335-4d6c-b42b-a741b2b1050c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c12c219b-8335-4d6c-b42b-a741b2b1050c"
+}
+}
+},
+{
+"uuid": "316a2bbe-6e76-42af-bc4f-90573aa45790",
+"fileName": "ME_308SE_Laneman.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:05:20.297",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/316a2bbe-6e76-42af-bc4f-90573aa45790/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/316a2bbe-6e76-42af-bc4f-90573aa45790"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2ead7f19-1bdb-4230-ae39-f26cf201f7df"
+}
+}
+},
+{
+"uuid": "9dbbd1d5-64d8-4053-92b3-72883df25c9a",
+"reference": "1-1/15-308/22",
+"title": "Riigikogu liikme Martin Helme muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "6c43037c-f8e9-4b64-a547-0c7c13405e84",
+"fileName": "ME_308SE_MartinHelme.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:06:38.832",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c43037c-f8e9-4b64-a547-0c7c13405e84/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c43037c-f8e9-4b64-a547-0c7c13405e84"
+}
+}
+},
+{
+"uuid": "5bf61edf-7c97-4d48-ba9c-a25ee606ce3c",
+"fileName": "ME_308SE_MartinHelme.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:06:46.341",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5bf61edf-7c97-4d48-ba9c-a25ee606ce3c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5bf61edf-7c97-4d48-ba9c-a25ee606ce3c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9dbbd1d5-64d8-4053-92b3-72883df25c9a"
+}
+}
+},
+{
+"uuid": "1dda807b-ee3b-4481-9451-6f2937ada138",
+"reference": "1-1/15-308/23",
+"title": "Riigikogu liikmete Martin Helme ja A. Alleri muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "11a5b883-343e-4cc9-8131-f3570820f8b1",
+"fileName": "ME_308SE_MartinHelme_Aller.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:08:32.971",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/11a5b883-343e-4cc9-8131-f3570820f8b1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/11a5b883-343e-4cc9-8131-f3570820f8b1"
+}
+}
+},
+{
+"uuid": "d9976364-479a-4168-b9b4-46cb8c556e1b",
+"fileName": "ME_308SE_MartinHelme_Aller.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:08:41.613",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9976364-479a-4168-b9b4-46cb8c556e1b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9976364-479a-4168-b9b4-46cb8c556e1b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1dda807b-ee3b-4481-9451-6f2937ada138"
+}
+}
+},
+{
+"uuid": "54538318-be30-4f58-aca7-492042cfab1c",
+"reference": "1-1/15-308/24",
+"title": "Riigikogu liikmete Martin Helme ja R. Epleri muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "cccffb6f-969b-49bf-857f-e9c2a43c5649",
+"fileName": "ME_308SE_MartinHelme_Epler.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:10:07.406",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cccffb6f-969b-49bf-857f-e9c2a43c5649/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cccffb6f-969b-49bf-857f-e9c2a43c5649"
+}
+}
+},
+{
+"uuid": "1f1b827b-7614-4e15-bc55-fbd2bbc704df",
+"fileName": "ME_308SE_MartinHelme_Epler.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:10:16.113",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1f1b827b-7614-4e15-bc55-fbd2bbc704df/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1f1b827b-7614-4e15-bc55-fbd2bbc704df"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/54538318-be30-4f58-aca7-492042cfab1c"
+}
+}
+},
+{
+"uuid": "83b7c609-7b88-43e6-9977-0ab8a454ad39",
+"reference": "1-1/15-308/25",
+"title": "Riigikogu liikme S. Pohlaku muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "ab365dc8-708a-4e5b-938c-889ccc9c174f",
+"fileName": "ME_308SE_Pohlak.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:11:16.91",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ab365dc8-708a-4e5b-938c-889ccc9c174f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ab365dc8-708a-4e5b-938c-889ccc9c174f"
+}
+}
+},
+{
+"uuid": "95fd6007-b738-4f99-a6d5-3bdc70210878",
+"fileName": "ME_308SE_Pohlak.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:11:23.848",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/95fd6007-b738-4f99-a6d5-3bdc70210878/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/95fd6007-b738-4f99-a6d5-3bdc70210878"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/83b7c609-7b88-43e6-9977-0ab8a454ad39"
+}
+}
+},
+{
+"uuid": "cf834b4b-a456-4df7-b929-f5ef4dddfb0c",
+"reference": "1-1/15-308/26",
+"title": "Riigikogu liikmete S. Pohlaku ja R. Epleri muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "4df191c3-71a5-41aa-9553-42c2dccc4209",
+"fileName": "ME_308SE_Pohlak_Epler.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:12:25.361",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4df191c3-71a5-41aa-9553-42c2dccc4209/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4df191c3-71a5-41aa-9553-42c2dccc4209"
+}
+}
+},
+{
+"uuid": "67fe571f-a460-4e44-b926-897b4cdc0185",
+"fileName": "ME_308SE_Pohlak_Epler.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:12:32.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67fe571f-a460-4e44-b926-897b4cdc0185/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67fe571f-a460-4e44-b926-897b4cdc0185"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cf834b4b-a456-4df7-b929-f5ef4dddfb0c"
+}
+}
+},
+{
+"uuid": "3eb91049-6a10-4b92-8079-317c02ef0bd6",
+"reference": "1-1/15-308/27",
+"title": "Riigikogu liikmete S. Pohlaku ja V. Vooglaiu muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "5235025f-5fd1-46d9-98e1-13df033d8dff",
+"fileName": "ME_308SE_Pohlak_Vooglaid.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:13:31.243",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5235025f-5fd1-46d9-98e1-13df033d8dff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5235025f-5fd1-46d9-98e1-13df033d8dff"
+}
+}
+},
+{
+"uuid": "b0935c55-711c-4b30-9754-e92cd42764b0",
+"fileName": "ME_308SE_Pohlak_Vooglaid.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:13:40.662",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b0935c55-711c-4b30-9754-e92cd42764b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b0935c55-711c-4b30-9754-e92cd42764b0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3eb91049-6a10-4b92-8079-317c02ef0bd6"
+}
+}
+},
+{
+"uuid": "14e63227-beb3-4718-b0fd-bbf16133aa51",
+"reference": "1-1/15-308/28",
+"title": "Riigikogu liikme J. Valge muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "eba7513f-914c-4703-8723-d57dff91fd23",
+"fileName": "ME_308SE_Valge.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:15:05.911",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eba7513f-914c-4703-8723-d57dff91fd23/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eba7513f-914c-4703-8723-d57dff91fd23"
+}
+}
+},
+{
+"uuid": "fe3cb3be-6b99-4149-bb32-09c08a638411",
+"fileName": "ME_308SE_Valge.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:14:52.702",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe3cb3be-6b99-4149-bb32-09c08a638411/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe3cb3be-6b99-4149-bb32-09c08a638411"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/14e63227-beb3-4718-b0fd-bbf16133aa51"
+}
+}
+},
+{
+"uuid": "5b3d5a69-59cd-45ef-8ff2-7916f0448c5a",
+"reference": "1-1/15-308/29",
+"title": "Riigikogu liikmete J. Valge ja V. Vooglaiu muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "16b6d119-baab-410f-a5f4-c214de28aaa5",
+"fileName": "ME_308SE_Valge_Vooglaid.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:16:15.831",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/16b6d119-baab-410f-a5f4-c214de28aaa5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/16b6d119-baab-410f-a5f4-c214de28aaa5"
+}
+}
+},
+{
+"uuid": "bf9985a0-90d7-4896-a24f-bfeb4ccb75dc",
+"fileName": "ME_308SE_Valge_Vooglaid.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:16:24.433",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf9985a0-90d7-4896-a24f-bfeb4ccb75dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf9985a0-90d7-4896-a24f-bfeb4ccb75dc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5b3d5a69-59cd-45ef-8ff2-7916f0448c5a"
+}
+}
+},
+{
+"uuid": "46312734-437d-458e-92a4-6c7839208ee9",
+"reference": "1-1/15-308/30",
+"title": "Riigikogu liikme V. Vooglaiu muudatusettepanekud ehitusseadustiku ja teiste seaduste muutmise seaduse (taastuvenergia kasutuselevõtu kiirendamine) eelnõu 308 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "9281afd9-dd95-4a6b-9454-15427c31c274",
+"fileName": "ME_308SE_Vooglaid.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:17:22.985",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9281afd9-dd95-4a6b-9454-15427c31c274/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9281afd9-dd95-4a6b-9454-15427c31c274"
+}
+}
+},
+{
+"uuid": "275e5a26-7698-425f-82fd-750ddc35dfe7",
+"fileName": "ME_308SE_Vooglaid.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T14:17:34.838",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/275e5a26-7698-425f-82fd-750ddc35dfe7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/275e5a26-7698-425f-82fd-750ddc35dfe7"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/46312734-437d-458e-92a4-6c7839208ee9"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [
+{
+"uuid": "fef9c91a-bd97-4633-aa89-ca42db4ae833",
+"reference": "1-2/18-326",
+"title": "Ettepanek:\nEUROOPA PARLAMENDI JA NÕUKOGU MÄÄRUS\nüleeuroopalise transpordivõrgu väljaarendamise edendamiseks võetavate meetmete\nlihtsustamise kohta- SEC(2018) 228; SWD(2018) 178; SWD(2018) 179; COM(2018) 277",
+"volumeType": "elVolume",
+"created": "2018-05-17T14:29:46.543",
+"copyOrOriginal": "ORIGINAL",
+"draft": false,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/fef9c91a-bd97-4633-aa89-ca42db4ae833"
+}
+}
+},
+{
+"uuid": "6da22e60-fcf8-4d33-bbab-d7642c2c3976",
+"reference": "1-2/22-694",
+"title": "Ettepanek:\nNÕUKOGU MÄÄRUS,\nmillega kehtestatakse raamistik taastuvenergia kasutuselevõtu kiirendamiseks - COM(2022) 591",
+"volumeType": "elVolume",
+"created": "2022-11-10T14:01:20.878",
+"copyOrOriginal": "ORIGINAL",
+"draft": false,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/6da22e60-fcf8-4d33-bbab-d7642c2c3976"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/dfe31e5d-f2b7-40a9-b5ad-0cf9aea5d078"
+}
+}
+}

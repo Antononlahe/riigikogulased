@@ -1,0 +1,361 @@
+{
+"uuid": "6e185910-aa56-49b8-a9e8-15f815347e4d",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda maksutõusudest ja kehtestada meetmed Eesti ettevõtluskeskkonna arendamiseks\"",
+"mark": 64,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda maksutõusudest ja kehtestada meetmed Eesti ettevõtluskeskkonna arendamiseks\" 64 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda maksutõusudest ja kehtestada meetmed Eesti ettevõtluskeskkonna arendamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Ettepaneku tegemine Vabariigi Valitsusele loobuda maksutõusudest ja kehtestada meetmed Eesti ettevõtluskeskkonna arendamiseks.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-23T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1021,
+"text": "maksusüsteem"
+},
+{
+"edid": 2469,
+"text": "ettevõtluspoliitika"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7f59d333-5267-4bd4-b858-4d11580acddb",
+"title": "64 OE I lug.tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "770547af-42bb-4edb-be80-bc490a101ca9",
+"fileName": "64_Rk_o_ettepanek_loobuda_maksutõusudest_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:25:49.574",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/770547af-42bb-4edb-be80-bc490a101ca9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/770547af-42bb-4edb-be80-bc490a101ca9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "8eb59f1f-57ff-4496-b44d-43f2b7e02ded",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5e4d8837-1821-4258-baf9-acdf1a13023c",
+"fileName": "64_Ettepanek_loobuda_maksutõusudest.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T13:24:28.444",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5e4d8837-1821-4258-baf9-acdf1a13023c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5e4d8837-1821-4258-baf9-acdf1a13023c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "8eb59f1f-57ff-4496-b44d-43f2b7e02ded",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9a14d920-50cc-4b85-959a-a5c7f1332f9c",
+"fileName": "64_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:10:37.961",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9a14d920-50cc-4b85-959a-a5c7f1332f9c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9a14d920-50cc-4b85-959a-a5c7f1332f9c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7f59d333-5267-4bd4-b858-4d11580acddb",
+"title": "64 OE I lug.tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "48eec687-8cc7-4c53-ab74-c3e990578f34",
+"fileName": "64_Rk_o_ettepanek_loobuda_maksutõusudest_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:26:18.074",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/48eec687-8cc7-4c53-ab74-c3e990578f34/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/48eec687-8cc7-4c53-ab74-c3e990578f34"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "8eb59f1f-57ff-4496-b44d-43f2b7e02ded",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ac43ade6-7358-440c-a0f5-1c5095e8855b",
+"fileName": "64_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:10:52.521",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac43ade6-7358-440c-a0f5-1c5095e8855b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac43ade6-7358-440c-a0f5-1c5095e8855b"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T22:57:21.72",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:36:00.898",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-19T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni esimees Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "815db99c-04d3-4d7b-8666-eb524c52afd0",
+"fileName": "RAHK_protokoll_12.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T15:50:39.002",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/815db99c-04d3-4d7b-8666-eb524c52afd0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/815db99c-04d3-4d7b-8666-eb524c52afd0"
+}
+}
+},
+{
+"uuid": "b03a74e9-2a03-4144-aa4e-c372fd905efd",
+"fileName": "RAHK_protokoll_20_12_09_2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T15:49:56.89",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b03a74e9-2a03-4144-aa4e-c372fd905efd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b03a74e9-2a03-4144-aa4e-c372fd905efd"
+}
+}
+},
+{
+"uuid": "ae653ac0-c4ed-45af-9dd6-b21ed7640197",
+"fileName": "Asendusliikme_volikiri_T.Uibo-J.K._Raid_12.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:54:59.412",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae653ac0-c4ed-45af-9dd6-b21ed7640197/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae653ac0-c4ed-45af-9dd6-b21ed7640197"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-20T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 20.09.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "336f3dd8-7eac-4a14-873f-7998466f194c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-09-20T17:32:58.097",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/336f3dd8-7eac-4a14-873f-7998466f194c"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "99eb8e63-1a1d-4cdd-b3f9-be97c1602db0",
+"reference": "1-1/15-38/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu maksumuudatustega seotud otsuste 38 OE, 39 OE, 44 OE, 46 OE, 59 OE, 62 OE, 64 OE, 65 OE, 66 OE, 96 OE, 135 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-12",
+"files": [
+{
+"uuid": "fde6b89a-6afe-4563-a92e-4b0da429ca9f",
+"fileName": "ÕAO_12092023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:33:01.769",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fde6b89a-6afe-4563-a92e-4b0da429ca9f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fde6b89a-6afe-4563-a92e-4b0da429ca9f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/99eb8e63-1a1d-4cdd-b3f9-be97c1602db0"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/6e185910-aa56-49b8-a9e8-15f815347e4d"
+}
+}
+}

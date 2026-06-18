@@ -1,0 +1,2132 @@
+{
+"uuid": "34d9788f-38ac-4530-b10b-ad2447b3ecac",
+"title": "Julgeolekumaksu seadus",
+"mark": 512,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Julgeolekumaksu seadus 512 SE",
+"initialTitle": "Julgeolekumaksu seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Kuni 2028. aasta lõpuni kehtestatakse Eesti kaitsevõime arendamiseks ja julgeolekuinvesteeringuteks vahendite saamiseks julgeolekumaks. \nJulgeolekumaks koosneb kolmest osast:  2% käibelt alates 1. juulist 2025; 2% füüsiliste isikute tuludelt alates 1. jaanuarist 2026;  2% ettevõtete kasumilt alates 1. jaanuarist 2026.",
+"initiated": "2024-09-26",
+"joined": null,
+"accepted": "2024-12-11",
+"amendmentsDeadline": "2024-10-30T17:15:00",
+"responsibleMember": {
+"uuid": "315ea785-8f59-40e5-a158-3de8b908572f",
+"name": "Maris Lauri",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/315ea785-8f59-40e5-a158-3de8b908572f?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "95bde520-3032-48a5-aa20-567020b4e1da",
+"name": "Andres Ando",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/95bde520-3032-48a5-aa20-567020b4e1da?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 6927,
+"text": "piirkondlik julgeolek"
+},
+{
+"edid": 3447,
+"text": "kaitsekulutused"
+},
+{
+"edid": 1319,
+"text": "riiklik maks"
+},
+{
+"edid": 3685,
+"text": "maksustatav tulu"
+},
+{
+"edid": 4842,
+"text": "kasum"
+},
+{
+"edid": 4392,
+"text": "käibemaksumäär"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7fbd1d43-7d2a-43ae-8b49-44016b76e7ee",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6e847cda-d73e-42c9-9096-26953574aa05",
+"fileName": "RK_24-01448-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:28:46.416",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e847cda-d73e-42c9-9096-26953574aa05/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e847cda-d73e-42c9-9096-26953574aa05"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7fbd1d43-7d2a-43ae-8b49-44016b76e7ee",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "670ebbc7-c2b7-4790-ac16-90a749b7877c",
+"fileName": "[EIS]_Eelnõu_esitamine__RAM-24-0966_-_Julgeolekumaksu_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:28:46.614",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/670ebbc7-c2b7-4790-ac16-90a749b7877c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/670ebbc7-c2b7-4790-ac16-90a749b7877c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "64661d27-947d-4452-bae0-6fc18eeaaeb0",
+"title": "512 SE I lug. tekst, seletuskiri ja lisa",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cae47f10-bd6c-467e-822a-88d9575054f1",
+"fileName": "512_Julgeolekumaks_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T15:13:29.227",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cae47f10-bd6c-467e-822a-88d9575054f1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cae47f10-bd6c-467e-822a-88d9575054f1"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "36b37f93-5deb-416f-9863-90cd5a8736fa",
+"title": "512 SE III",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e5e441d7-6e42-4b7e-befd-1099349bca47",
+"fileName": "512_SE_III_tekst_täiskogule.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-09T15:57:36.694",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e5e441d7-6e42-4b7e-befd-1099349bca47/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e5e441d7-6e42-4b7e-befd-1099349bca47"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "3de60872-c499-4773-8e9e-ebaaa93877b4",
+"title": "512 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2b972bf6-1b65-4b03-8b8a-60ae5d1626dd",
+"fileName": "512_SE_II_eelnõu_tekst_täiskogule.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T16:44:45.818",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b972bf6-1b65-4b03-8b8a-60ae5d1626dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b972bf6-1b65-4b03-8b8a-60ae5d1626dd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7fbd1d43-7d2a-43ae-8b49-44016b76e7ee",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8d583256-4cc4-4b30-8167-9dfae54a6883",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:28:46.534",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d583256-4cc4-4b30-8167-9dfae54a6883/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d583256-4cc4-4b30-8167-9dfae54a6883"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7fbd1d43-7d2a-43ae-8b49-44016b76e7ee",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d9abc976-a1f6-4122-a3ef-6d75337607c7",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:28:46.57",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9abc976-a1f6-4122-a3ef-6d75337607c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9abc976-a1f6-4122-a3ef-6d75337607c7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7fbd1d43-7d2a-43ae-8b49-44016b76e7ee",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5aeb9d8d-b0c4-4717-b3df-dd4c98ead776",
+"fileName": "24-01448-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:28:46.52",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5aeb9d8d-b0c4-4717-b3df-dd4c98ead776/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5aeb9d8d-b0c4-4717-b3df-dd4c98ead776"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "669cef23-d2a5-413f-8fb0-5e6df659b258",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7ef21256-b0d8-4ba9-ad4d-37f8a789895c",
+"fileName": "512_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-11T14:01:46.936",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7ef21256-b0d8-4ba9-ad4d-37f8a789895c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7ef21256-b0d8-4ba9-ad4d-37f8a789895c"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "929a3c8e-9218-47a8-9d4d-00f4e700d70e",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a9922f6b-10b9-42b9-97e1-1b7be05bb904",
+"fileName": "512XV_Julgeolekum_s_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-18T17:57:27.124",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a9922f6b-10b9-42b9-97e1-1b7be05bb904/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a9922f6b-10b9-42b9-97e1-1b7be05bb904"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "929a3c8e-9218-47a8-9d4d-00f4e700d70e",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3dced029-4d30-4041-ae58-1af7d9127526",
+"fileName": "512XV_Julgeolekum_s_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-18T17:57:16.568",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3dced029-4d30-4041-ae58-1af7d9127526/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3dced029-4d30-4041-ae58-1af7d9127526"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "3de60872-c499-4773-8e9e-ebaaa93877b4",
+"title": "512 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9843671c-aafe-472e-b82b-61cd938870e8",
+"fileName": "512_SE_II_ME_loetelu_täiskogule.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T16:45:20.079",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9843671c-aafe-472e-b82b-61cd938870e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9843671c-aafe-472e-b82b-61cd938870e8"
+}
+}
+}
+},
+{
+"readingCode": null,
+"document": {
+"uuid": "32a22e31-1761-4f3a-bc8d-fff95d82976b",
+"reference": "1-1/15-512/13",
+"title": "Rahandusministeeriumi tagasiside turuosaliste ja huvigruppide poolt eelnõule 512 SE esitatud arvamuste kohta",
+"documentType": "lisadokumendid",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eb878f06-e345-4544-bc4b-af238db7237e",
+"fileName": "RAM_kommentaaride_turuosaliste_ja_huvigruppide_ettepanekutele_JMS_kohta.docx",
+"fileExtension": "docx",
+"fileTitle": "RaM tagasiside arvamustele",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-03T14:58:41.509",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb878f06-e345-4544-bc4b-af238db7237e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb878f06-e345-4544-bc4b-af238db7237e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "64661d27-947d-4452-bae0-6fc18eeaaeb0",
+"title": "512 SE I lug. tekst, seletuskiri ja lisa",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b938f149-77c9-4e89-9030-5b5fbacec2bd",
+"fileName": "512_Julgeolekumaks_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T15:13:46.13",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b938f149-77c9-4e89-9030-5b5fbacec2bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b938f149-77c9-4e89-9030-5b5fbacec2bd"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "3de60872-c499-4773-8e9e-ebaaa93877b4",
+"title": "512 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4a0397da-405d-4607-820b-c34860c445fd",
+"fileName": "512_SE_II_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T16:45:04.227",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4a0397da-405d-4607-820b-c34860c445fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4a0397da-405d-4607-820b-c34860c445fd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7fbd1d43-7d2a-43ae-8b49-44016b76e7ee",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2c82abd7-7f65-4e88-aa11-1105eeb3cf6e",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:28:46.546",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c82abd7-7f65-4e88-aa11-1105eeb3cf6e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c82abd7-7f65-4e88-aa11-1105eeb3cf6e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7fbd1d43-7d2a-43ae-8b49-44016b76e7ee",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cfb3a8cb-8515-4be3-b31b-8080817fbb1a",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:28:46.582",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cfb3a8cb-8515-4be3-b31b-8080817fbb1a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cfb3a8cb-8515-4be3-b31b-8080817fbb1a"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "64661d27-947d-4452-bae0-6fc18eeaaeb0",
+"title": "512 SE I lug. tekst, seletuskiri ja lisa",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bd6dcd76-f07c-4dbc-96eb-6da4fecc03ce",
+"fileName": "512_Julgeolekumaks_SK_Lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (mõjude analüüs)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T15:14:02.897",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bd6dcd76-f07c-4dbc-96eb-6da4fecc03ce/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bd6dcd76-f07c-4dbc-96eb-6da4fecc03ce"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7fbd1d43-7d2a-43ae-8b49-44016b76e7ee",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6336c45c-ab6a-4d8f-aaf5-81e743c7cd73",
+"fileName": "Seletuskirja_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (mõjude analüüs) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:28:46.559",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6336c45c-ab6a-4d8f-aaf5-81e743c7cd73/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6336c45c-ab6a-4d8f-aaf5-81e743c7cd73"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "7fbd1d43-7d2a-43ae-8b49-44016b76e7ee",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b1cc3d95-ec8d-4832-a0e3-7d37f13eb24f",
+"fileName": "Seletuskirja_lisa.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa (mõjude analüüs) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:28:46.595",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b1cc3d95-ec8d-4832-a0e3-7d37f13eb24f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b1cc3d95-ec8d-4832-a0e3-7d37f13eb24f"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e64ff9bb-b9e9-42cd-a79a-ac36262978ce",
+"reference": "1-1/15-512/14",
+"title": "Vabariigi Presidendi otsus nr 506",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7caa4a9a-a4db-47c6-ae66-0852c02bd1fc",
+"fileName": "VP_18122024_o506.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-18T17:48:50.43",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7caa4a9a-a4db-47c6-ae66-0852c02bd1fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7caa4a9a-a4db-47c6-ae66-0852c02bd1fc"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e64ff9bb-b9e9-42cd-a79a-ac36262978ce",
+"reference": "1-1/15-512/14",
+"title": "Vabariigi Presidendi otsus nr 506",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e61fd9f0-14c2-4dc9-8e2f-bbfe6420371c",
+"fileName": "VP_18122024_o506.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-18T17:48:50.383",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e61fd9f0-14c2-4dc9-8e2f-bbfe6420371c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e61fd9f0-14c2-4dc9-8e2f-bbfe6420371c"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "669cef23-d2a5-413f-8fb0-5e6df659b258",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "aa38978b-5736-4355-8fa0-2f431c25ab1e",
+"fileName": "512XV_Julgeolekum_s_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-11T14:00:21.307",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aa38978b-5736-4355-8fa0-2f431c25ab1e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aa38978b-5736-4355-8fa0-2f431c25ab1e"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "669cef23-d2a5-413f-8fb0-5e6df659b258",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8bfc4e2d-bbfe-4e56-858d-4d18fa87153c",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-11T16:39:08.965",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8bfc4e2d-bbfe-4e56-858d-4d18fa87153c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8bfc4e2d-bbfe-4e56-858d-4d18fa87153c"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-09-26T10:28:14.108",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-09-26T15:24:00.726",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-10-01T09:30:00",
+"sittingTitle": "Erakorraline komisjoni istung teisipäev, 1.10.2024 kell 09.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-10-16T14:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni liige Maris Lauri"
+}
+],
+"protocolFiles": [
+{
+"uuid": "88eb5fc2-dbef-4983-8880-d72932e3592d",
+"fileName": "RAHK_protokoll_01.10.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-15T09:08:18.743",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88eb5fc2-dbef-4983-8880-d72932e3592d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88eb5fc2-dbef-4983-8880-d72932e3592d"
+}
+}
+},
+{
+"uuid": "13556bba-cae0-4c85-beb6-03f52814f16d",
+"fileName": "RAHK_protokoll_109_01_10_2024_erakorraline.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-15T09:07:08.988",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/13556bba-cae0-4c85-beb6-03f52814f16d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/13556bba-cae0-4c85-beb6-03f52814f16d"
+}
+}
+},
+{
+"uuid": "5202d169-36c0-4181-be4a-287bee7439e8",
+"fileName": "V.Svet_KLIM_eelarve_2025_513_SE_1.10.2024_Lisa_8.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 8 (Vladimir Sveti ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:57:13.969",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5202d169-36c0-4181-be4a-287bee7439e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5202d169-36c0-4181-be4a-287bee7439e8"
+}
+}
+},
+{
+"uuid": "07337b9f-42ee-499e-8ef5-303c8b1025d8",
+"fileName": "M.Tsahkna_VÄLM_eelarve_2025_513_SE_1.10.2024_Lisa_7.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 7 (Margus Tsahkna ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:56:00.385",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07337b9f-42ee-499e-8ef5-303c8b1025d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07337b9f-42ee-499e-8ef5-303c8b1025d8"
+}
+}
+},
+{
+"uuid": "498bb09d-be3b-4e97-b253-282bd9457044",
+"fileName": "L.Läänemets_SIM_eelarve_2025_513_SE_1.10.2024_Lisa_6.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 6 (Lauri Läänemetsa ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:55:03.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/498bb09d-be3b-4e97-b253-282bd9457044/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/498bb09d-be3b-4e97-b253-282bd9457044"
+}
+}
+},
+{
+"uuid": "73e0ad27-d362-46fe-a50c-234f8e4c66c9",
+"fileName": "L.Pakosta_JMDigi_eelarve_2025_513_SE_1.10.2024_Lisa_5.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 5 (Liisa-Ly Pakosta ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:53:52.01",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/73e0ad27-d362-46fe-a50c-234f8e4c66c9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/73e0ad27-d362-46fe-a50c-234f8e4c66c9"
+}
+}
+},
+{
+"uuid": "1611dc21-fc94-49fe-9a75-80e8902fc693",
+"fileName": "512_SE_2025_REga_seotud_maksueelnõud_1.10.2024_Lisa_4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 4  (eelarvega seotud maksueelnõude ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:51:48.238",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1611dc21-fc94-49fe-9a75-80e8902fc693/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1611dc21-fc94-49fe-9a75-80e8902fc693"
+}
+}
+},
+{
+"uuid": "0c064eb8-3410-48f0-963d-ec3fd5730c7a",
+"fileName": "510_SE_2025_REga_seotud_maksueelnõud_1.10.2024_Lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (eelarvega seotud maksueelnõude ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:49:10.028",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c064eb8-3410-48f0-963d-ec3fd5730c7a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c064eb8-3410-48f0-963d-ec3fd5730c7a"
+}
+}
+},
+{
+"uuid": "645ad965-6d24-4db0-9907-6a11cf11f001",
+"fileName": "509_SE_2025_REga_seotud_maksueelnõud_1.10.2024_Lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (eelarvega seotud maksueelnõude ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:47:57.189",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/645ad965-6d24-4db0-9907-6a11cf11f001/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/645ad965-6d24-4db0-9907-6a11cf11f001"
+}
+}
+},
+{
+"uuid": "0fc82707-83d6-44b9-ad6d-a25dd25d8cb5",
+"fileName": "511_SE_RAM_RE_baasseaduse_muutmine_1.10.2024_Lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Sven Kirsipuu ettekanne-baasseaduse muutmine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:45:24.82",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0fc82707-83d6-44b9-ad6d-a25dd25d8cb5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0fc82707-83d6-44b9-ad6d-a25dd25d8cb5"
+}
+}
+}
+]
+},
+{
+"date": "2024-10-16T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 16.10.2024 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "77cdda85-abce-48df-b1ec-c1e74cf93521",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-10-16T19:17:17.353",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/77cdda85-abce-48df-b1ec-c1e74cf93521"
+}
+}
+}
+]
+},
+{
+"date": "2024-11-21T09:00:00",
+"sittingTitle": "Komisjoni istung neljapäev, 21.11.2024 kell 09.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "cdbd9249-f5eb-49d1-a1b8-a0360174a122",
+"fileName": "RAHK_protokoll_21.11.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T08:49:12.608",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cdbd9249-f5eb-49d1-a1b8-a0360174a122/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cdbd9249-f5eb-49d1-a1b8-a0360174a122"
+}
+}
+},
+{
+"uuid": "4242e18c-27d7-4296-98ab-6698cd1da382",
+"fileName": "RAHK_protokoll_125_21_11_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T08:48:03.711",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4242e18c-27d7-4296-98ab-6698cd1da382/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4242e18c-27d7-4296-98ab-6698cd1da382"
+}
+}
+},
+{
+"uuid": "77142514-34cc-4328-bea6-36005dbea1e1",
+"fileName": "512_SE_ME_RAM_ettepanekud_21.11.2024_Lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (RAM muudatusettepanekute loetelu)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-21T15:15:30.909",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/77142514-34cc-4328-bea6-36005dbea1e1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/77142514-34cc-4328-bea6-36005dbea1e1"
+}
+}
+},
+{
+"uuid": "16e5d848-bbf8-4f59-be83-bc495853f1b9",
+"fileName": "517_SE_ME_RAM_ettepanekud_21.11.2024_Lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (ettepanekute loetelu)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-21T15:02:37.91",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/16e5d848-bbf8-4f59-be83-bc495853f1b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/16e5d848-bbf8-4f59-be83-bc495853f1b9"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-11-19T13:30:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.11.2024 kell 13.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-12-04T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "3870580a-1640-4993-8e1d-897ee46c779b",
+"fileName": "RAHK_protokoll_19.11.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T10:27:36.157",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3870580a-1640-4993-8e1d-897ee46c779b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3870580a-1640-4993-8e1d-897ee46c779b"
+}
+}
+},
+{
+"uuid": "f64af889-7414-455d-a4c1-5af0b765f5ed",
+"fileName": "Rahanduskomisjon191124.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Finantsinspektsiooni esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T10:25:54.657",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f64af889-7414-455d-a4c1-5af0b765f5ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f64af889-7414-455d-a4c1-5af0b765f5ed"
+}
+}
+},
+{
+"uuid": "ee90796a-6c6c-42ee-92bb-252890073831",
+"fileName": "pohimakseteenused_2024_11_19.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Finantsinspektsiooni esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T10:25:17.492",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee90796a-6c6c-42ee-92bb-252890073831/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee90796a-6c6c-42ee-92bb-252890073831"
+}
+}
+},
+{
+"uuid": "c4d616b9-29f2-4030-9aa0-bf0e68f08d75",
+"fileName": "Asendusliikme_volikiri_M.Reinaas-T.Uibo_19.11.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T10:25:04.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c4d616b9-29f2-4030-9aa0-bf0e68f08d75/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c4d616b9-29f2-4030-9aa0-bf0e68f08d75"
+}
+}
+},
+{
+"uuid": "21eb8181-c3ea-4f6a-8c9b-72b1580c2ab1",
+"fileName": "Asendusliikme_volikiri_A._Kokk-U.Reinsalu_19.11.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T10:24:46.052",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/21eb8181-c3ea-4f6a-8c9b-72b1580c2ab1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/21eb8181-c3ea-4f6a-8c9b-72b1580c2ab1"
+}
+}
+},
+{
+"uuid": "7e57888c-e8a6-4f9b-aa91-a5eb0fbfcba5",
+"fileName": "RAHK_protokoll_nr_124_19.11.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T10:24:30.823",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e57888c-e8a6-4f9b-aa91-a5eb0fbfcba5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e57888c-e8a6-4f9b-aa91-a5eb0fbfcba5"
+}
+}
+}
+]
+},
+{
+"date": "2024-11-29T12:00:00",
+"sittingTitle": "Komisjoni erakorraline istung reede, 29.11.2024 kell 12.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-12-11T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "6360586a-7070-490e-9e1f-9fab088581e5",
+"fileName": "RAHK_protokoll_29.11.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-13T09:58:50.056",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6360586a-7070-490e-9e1f-9fab088581e5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6360586a-7070-490e-9e1f-9fab088581e5"
+}
+}
+},
+{
+"uuid": "e13b72a8-f485-4bfe-8043-e1c91bbda94e",
+"fileName": "RAHK_protokoll_nr_126_29.11.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-13T09:57:55.369",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e13b72a8-f485-4bfe-8043-e1c91bbda94e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e13b72a8-f485-4bfe-8043-e1c91bbda94e"
+}
+}
+}
+]
+},
+{
+"date": "2024-12-02T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 2.12.2024 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "7c6b90bb-ce0f-4a11-a30f-7fb8ca09f566",
+"fileName": "513_SE_III_RAM_kavand_02.12.2024_Lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (RAM muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T14:18:38.073",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c6b90bb-ce0f-4a11-a30f-7fb8ca09f566/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c6b90bb-ce0f-4a11-a30f-7fb8ca09f566"
+}
+}
+},
+{
+"uuid": "87c7c797-b550-4e21-b213-60fa5040e50d",
+"fileName": "513_SE_III_loetelu_KESK_FR_02.12.2024_Lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 2 (Keskerakonna fr. muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T14:19:13.829",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/87c7c797-b550-4e21-b213-60fa5040e50d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/87c7c797-b550-4e21-b213-60fa5040e50d"
+}
+}
+},
+{
+"uuid": "f67ef873-bde6-4886-ab18-6238a713257a",
+"fileName": "513_SE_III_loetelu_ISAMAA_FR_02.12.2024_Lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 3 (Isamaa fr. muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T14:19:48.83",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f67ef873-bde6-4886-ab18-6238a713257a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f67ef873-bde6-4886-ab18-6238a713257a"
+}
+}
+},
+{
+"uuid": "88e21042-d872-4c5d-b0f4-3149e75fdb26",
+"fileName": "RAHK_protokoll_02.12.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:28:45.683",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88e21042-d872-4c5d-b0f4-3149e75fdb26/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88e21042-d872-4c5d-b0f4-3149e75fdb26"
+}
+}
+},
+{
+"uuid": "5c01d4c4-ee9b-4a0b-985f-2124b4acca17",
+"fileName": "RAHK_protokoll_127_02_12_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:20:05.535",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5c01d4c4-ee9b-4a0b-985f-2124b4acca17/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5c01d4c4-ee9b-4a0b-985f-2124b4acca17"
+}
+}
+}
+]
+},
+{
+"date": "2024-12-04T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 4.12.2024 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": [
+{
+"uuid": "cea3e6a2-ae7c-4369-b8b1-d6efcc80a12b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "1. muudatusettepanek",
+"startDateTime": "2024-12-04T23:54:14.78",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/cea3e6a2-ae7c-4369-b8b1-d6efcc80a12b"
+}
+}
+},
+{
+"uuid": "b6ad03a1-2e1e-4874-8dcf-6043d192abbc",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "2. muudatusettepanek",
+"startDateTime": "2024-12-04T23:55:20.823",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b6ad03a1-2e1e-4874-8dcf-6043d192abbc"
+}
+}
+},
+{
+"uuid": "cf046b7e-b0a4-4a46-bcbd-08327582193f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "4. muudatusettepanek",
+"startDateTime": "2024-12-04T23:56:33.057",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/cf046b7e-b0a4-4a46-bcbd-08327582193f"
+}
+}
+},
+{
+"uuid": "95b70cd0-5718-4fee-bc4e-62d863684a16",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "II lugemise katkestamine",
+"startDateTime": "2024-12-05T00:00:21.08",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/95b70cd0-5718-4fee-bc4e-62d863684a16"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-12-09T11:30:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 9.12.2024 kell 11.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Kiita heaks eelnõu kolmanda lugemise tekst"
+}
+],
+"protocolFiles": [
+{
+"uuid": "82445d34-040b-4248-9e33-4182dbdc48a1",
+"fileName": "RAHK_protokoll_09.12.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-13T10:11:21.804",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/82445d34-040b-4248-9e33-4182dbdc48a1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/82445d34-040b-4248-9e33-4182dbdc48a1"
+}
+}
+},
+{
+"uuid": "831aeae3-b5ef-48fe-8b5b-47825cdde63b",
+"fileName": "RAHK_protokoll_nr_130_09.12.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-13T10:10:28.733",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/831aeae3-b5ef-48fe-8b5b-47825cdde63b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/831aeae3-b5ef-48fe-8b5b-47825cdde63b"
+}
+}
+}
+]
+},
+{
+"date": "2024-12-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.12.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "970ab5f6-6af5-4b19-824e-518e57c7cb9d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-12-11T15:42:19.58",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/970ab5f6-6af5-4b19-824e-518e57c7cb9d"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-12-11T18:51:55.32",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-12-18T17:49:28.214",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2025-01-02T09:23:52.933",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "faeedef8-3972-4a7d-bf36-22087ca0b91b",
+"reference": "1-1/15-512/1",
+"title": "Julgeolekumaksu seaduse eelnõu 512 SE menetlemine Riigikogus",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-11",
+"files": [
+{
+"uuid": "284e054f-d0b3-4571-a30c-27c81f4fc17c",
+"fileName": "RAHK_512_SE_11102024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-11T13:44:46.855",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/284e054f-d0b3-4571-a30c-27c81f4fc17c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/284e054f-d0b3-4571-a30c-27c81f4fc17c"
+}
+}
+},
+{
+"uuid": "29da9898-48d8-45a1-be6f-f46393b2d81f",
+"fileName": "1-1-15-512-1_-_Julgeolekumaksu_seaduse_eelnõu_512_SE_menetlemine_Riigikogus.asice",
+"fileExtension": "asice",
+"fileTitle": "Väljaminev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-11T13:45:21.568",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29da9898-48d8-45a1-be6f-f46393b2d81f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29da9898-48d8-45a1-be6f-f46393b2d81f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/faeedef8-3972-4a7d-bf36-22087ca0b91b"
+}
+}
+},
+{
+"uuid": "1794beb9-70af-4a2f-b1b4-ab55b74b010b",
+"reference": "1-1/15-512/9",
+"title": "Ettevõtluse ja Innovatsiooni Sihtasutuse e-Residentsuse osakonna arvamus julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-14",
+"files": [
+{
+"uuid": "0e01bbab-2a1a-4b73-b77e-aa634f998844",
+"fileName": "Riigikogu_rahanduskomisjonile.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-14T14:06:05.234",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e01bbab-2a1a-4b73-b77e-aa634f998844/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e01bbab-2a1a-4b73-b77e-aa634f998844"
+}
+}
+},
+{
+"uuid": "4671294e-069b-416d-932f-8c26c27be56a",
+"fileName": "Riigikogu_rahanduskomisjonile.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-14T14:06:05.18",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4671294e-069b-416d-932f-8c26c27be56a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4671294e-069b-416d-932f-8c26c27be56a"
+}
+}
+},
+{
+"uuid": "0cfe3c81-f8db-4074-aa67-5d4c9216b13c",
+"fileName": "Väljaminev_kiri_13.11.24_18-3_24_7656.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-14T14:06:05.223",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0cfe3c81-f8db-4074-aa67-5d4c9216b13c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0cfe3c81-f8db-4074-aa67-5d4c9216b13c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1794beb9-70af-4a2f-b1b4-ab55b74b010b"
+}
+}
+},
+{
+"uuid": "0490e373-4af1-4ef5-b6d4-ffc6529ee723",
+"reference": "1-1/15-512/7",
+"title": "OÜ Advokaadibüroo Eversheds Sutherland Ots & Co arvamus julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-29",
+"files": [
+{
+"uuid": "7b8e1791-0094-4afd-b72e-0732354e07f3",
+"fileName": "Ettepanek_julgeolekumaksu_seaduse_eelnõue_täiendamiseks_[EvS_EE-ACTIVE.FID7740].html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-29T16:57:10.786",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7b8e1791-0094-4afd-b72e-0732354e07f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7b8e1791-0094-4afd-b72e-0732354e07f3"
+}
+}
+},
+{
+"uuid": "8cfe2d8f-c228-4117-a9c8-edd65a628447",
+"fileName": "20241029_Ettepanek_julgeolekumaksu_seaduse_eelnõu_täiendamiseks.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-29T16:57:10.767",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8cfe2d8f-c228-4117-a9c8-edd65a628447/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8cfe2d8f-c228-4117-a9c8-edd65a628447"
+}
+}
+},
+{
+"uuid": "3dd6b117-6529-4f33-985c-621e22d37b52",
+"fileName": "20241029_Ettepanek_julgeolekumaksu_seaduse_eelnõu_täiendamiseks.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-29T16:57:10.691",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3dd6b117-6529-4f33-985c-621e22d37b52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3dd6b117-6529-4f33-985c-621e22d37b52"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0490e373-4af1-4ef5-b6d4-ffc6529ee723"
+}
+}
+},
+{
+"uuid": "4086d567-9f0d-43bc-94ee-af325e52e5ed",
+"reference": "1-1/15-512/4",
+"title": "Eesti Ametiühingute Keskliidu arvamus julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-28",
+"files": [
+{
+"uuid": "517125fd-7568-4a99-bfc7-5303584293e2",
+"fileName": "Julgeolekumasu_seadus_512SE_EAKL_arvamus.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-28T15:31:59.562",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/517125fd-7568-4a99-bfc7-5303584293e2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/517125fd-7568-4a99-bfc7-5303584293e2"
+}
+}
+},
+{
+"uuid": "2dbaa57c-74e3-42d5-938e-dfabbc4dc209",
+"fileName": "Julgeolekumasu_seadus_512SE_EAKL_arvamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-28T15:31:59.628",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2dbaa57c-74e3-42d5-938e-dfabbc4dc209/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2dbaa57c-74e3-42d5-938e-dfabbc4dc209"
+}
+}
+},
+{
+"uuid": "5b5633b4-792c-4d5b-bdbf-adebdd557898",
+"fileName": "RE__Julgeolekumaksu_seaduse_eelnõu_512_SE_menetlemine_Riigikogus.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-28T15:31:59.65",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5b5633b4-792c-4d5b-bdbf-adebdd557898/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5b5633b4-792c-4d5b-bdbf-adebdd557898"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/4086d567-9f0d-43bc-94ee-af325e52e5ed"
+}
+}
+},
+{
+"uuid": "a0294126-fd0b-475b-960c-b6a095a59522",
+"reference": "1-1/15-512/3",
+"title": "Eesti Kaubandus-Tööstuskoja arvamus julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-24",
+"files": [
+{
+"uuid": "82e05c90-1dee-4aac-8ee5-cdcca29e2079",
+"fileName": "24_10_2024_Julgeolekumaksu_seaduse_eelnõu_(512_SE).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-24T11:50:40.559",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/82e05c90-1dee-4aac-8ee5-cdcca29e2079/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/82e05c90-1dee-4aac-8ee5-cdcca29e2079"
+}
+}
+},
+{
+"uuid": "8b015f4b-6c21-4580-a4bc-de42baef24cb",
+"fileName": "Kaubandus-Tööstuskoja_seisukohad_julgeolekumaksu_seaduse_eelnõu_(512_SE)_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-24T11:50:40.696",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b015f4b-6c21-4580-a4bc-de42baef24cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b015f4b-6c21-4580-a4bc-de42baef24cb"
+}
+}
+},
+{
+"uuid": "a22bb579-1f30-47fb-9071-44dab723016a",
+"fileName": "24_10_2024_Julgeolekumaksu_seaduse_eelnõu_(512_SE).docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-24T11:50:40.624",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a22bb579-1f30-47fb-9071-44dab723016a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a22bb579-1f30-47fb-9071-44dab723016a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a0294126-fd0b-475b-960c-b6a095a59522"
+}
+}
+},
+{
+"uuid": "d7dbda72-151e-48c0-b6e1-2cf562085b9c",
+"reference": "1-1/15-512/10",
+"title": "Eesti Kinnisvarafirmade Liit MTÜ, Laagri Kinnisvara OÜ, Merko Kodud OÜ ja KAWE AS arvamus julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-20",
+"files": [
+{
+"uuid": "44786f9f-9fc1-46c7-b158-cf1a872be404",
+"fileName": "Ettepanek_Julgeolekumaksu_seadus_e_eelnõule_19.11.2024_(002).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T08:01:49.968",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/44786f9f-9fc1-46c7-b158-cf1a872be404/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/44786f9f-9fc1-46c7-b158-cf1a872be404"
+}
+}
+},
+{
+"uuid": "1284cbb2-0ba7-44a3-83d3-6ca700b7a6c6",
+"fileName": "Ettepanek_Julgeolekumaksu_seaduse_eelnõule_19.11.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T08:01:50.062",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1284cbb2-0ba7-44a3-83d3-6ca700b7a6c6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1284cbb2-0ba7-44a3-83d3-6ca700b7a6c6"
+}
+}
+},
+{
+"uuid": "6c1fa0c9-0e83-4961-a488-51c33ce1cdf7",
+"fileName": "Ettepanek_Julgeolekumaksu_seaduse_eelnõu_osas.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T08:01:50.073",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c1fa0c9-0e83-4961-a488-51c33ce1cdf7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c1fa0c9-0e83-4961-a488-51c33ce1cdf7"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d7dbda72-151e-48c0-b6e1-2cf562085b9c"
+}
+}
+},
+{
+"uuid": "edc1c015-7532-4f3b-b5ce-3f86e948e124",
+"reference": "1-1/15-512/11",
+"title": "Rahandusministeeriumi arvamus julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-20",
+"files": [
+{
+"uuid": "a95f3dcf-1853-4e97-a6f5-f1639b0e45bd",
+"fileName": "Ettepanekud_julgeolekumaksu_seaduse_eelnõu_512_SE_kohta_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T12:43:01.36",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a95f3dcf-1853-4e97-a6f5-f1639b0e45bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a95f3dcf-1853-4e97-a6f5-f1639b0e45bd"
+}
+}
+},
+{
+"uuid": "c3ad0fc4-4bf9-4cc5-b18f-1f054b1bceba",
+"fileName": "1.1-10.14226-3_20.11.2024_Õigusakti_eelnõu.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T12:43:01.317",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3ad0fc4-4bf9-4cc5-b18f-1f054b1bceba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3ad0fc4-4bf9-4cc5-b18f-1f054b1bceba"
+}
+}
+},
+{
+"uuid": "bccdd369-8747-495e-b6d7-2e94d6283e01",
+"fileName": "_Ettepanekud_julgeolekumaksu_seaduse_eelnõu_512_SE_kohta_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T12:43:01.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bccdd369-8747-495e-b6d7-2e94d6283e01/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bccdd369-8747-495e-b6d7-2e94d6283e01"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/edc1c015-7532-4f3b-b5ce-3f86e948e124"
+}
+}
+},
+{
+"uuid": "04e42901-3100-48ab-a45b-952ff360fb97",
+"reference": "1-1/15-512/12",
+"title": "Rahandusministeeriumi arvamus julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-12-02",
+"files": [
+{
+"uuid": "6eb5e819-13c5-4262-97e1-7e4a64f9e607",
+"fileName": "Vastus_pöördumisele_seoses_julgeolekumaksu_seaduse_eelnõuga_512_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T17:20:25.835",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6eb5e819-13c5-4262-97e1-7e4a64f9e607/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6eb5e819-13c5-4262-97e1-7e4a64f9e607"
+}
+}
+},
+{
+"uuid": "a83bc6ed-a980-4cbd-9794-ba8d06b31a31",
+"fileName": "5-15155-2_02.12.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T17:20:25.782",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a83bc6ed-a980-4cbd-9794-ba8d06b31a31/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a83bc6ed-a980-4cbd-9794-ba8d06b31a31"
+}
+}
+},
+{
+"uuid": "5d19937f-a82f-41f7-8354-7be35926ef5c",
+"fileName": "Vastus_pöördumisele.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T17:20:25.855",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5d19937f-a82f-41f7-8354-7be35926ef5c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5d19937f-a82f-41f7-8354-7be35926ef5c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/04e42901-3100-48ab-a45b-952ff360fb97"
+}
+}
+},
+{
+"uuid": "47ae16eb-0f81-4194-90ae-44cb00fd1dca",
+"reference": "1-1/15-512/2",
+"title": "Heureka Tax & Legal OÜ arvamus julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-22",
+"files": [
+{
+"uuid": "897dc321-0eef-476b-acf2-a56521dc0565",
+"fileName": "Ettepanek_julgeolekumaksu_eelnõu_osas_Heureka_Tax_&_Legal_OÜ_22102024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-22T18:26:08.525",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/897dc321-0eef-476b-acf2-a56521dc0565/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/897dc321-0eef-476b-acf2-a56521dc0565"
+}
+}
+},
+{
+"uuid": "5e95ad86-bb26-40b2-ab84-acc1fc3615d5",
+"fileName": "Eelnõu_512_SE__julgeolekumaks.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-22T18:26:08.544",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5e95ad86-bb26-40b2-ab84-acc1fc3615d5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5e95ad86-bb26-40b2-ab84-acc1fc3615d5"
+}
+}
+},
+{
+"uuid": "fef201df-8293-4dfa-b793-550ebf8c5ed5",
+"fileName": "Ettepanek_julgeolekumaksu_eelnõu_osas_Heureka_Tax_&_Legal_OÜ_22102024.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-22T18:26:08.461",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fef201df-8293-4dfa-b793-550ebf8c5ed5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fef201df-8293-4dfa-b793-550ebf8c5ed5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/47ae16eb-0f81-4194-90ae-44cb00fd1dca"
+}
+}
+},
+{
+"uuid": "fbd294fa-eb2c-4fa6-a8b4-bb2ab45067d6",
+"reference": "1-1/15-512/5",
+"title": "Eesti Tööandjate Keskliidu arvamus julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-28",
+"files": [
+{
+"uuid": "525f195f-0473-44f4-a635-f95765f56318",
+"fileName": "Julgeolekumaksu_seaduse_arvamus.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-28T17:11:16.409",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/525f195f-0473-44f4-a635-f95765f56318/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/525f195f-0473-44f4-a635-f95765f56318"
+}
+}
+},
+{
+"uuid": "281e6b8e-4835-44b6-9d10-c9716155d256",
+"fileName": "Julgeolekumaksu_seaduse_arvamus.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-28T17:11:16.33",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/281e6b8e-4835-44b6-9d10-c9716155d256/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/281e6b8e-4835-44b6-9d10-c9716155d256"
+}
+}
+},
+{
+"uuid": "16e23d25-3b57-4ea9-a2ab-60edcd42d02f",
+"fileName": "Julgeolekumaksu_seaduse_eelnõu_tagasiside.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-28T17:11:16.444",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/16e23d25-3b57-4ea9-a2ab-60edcd42d02f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/16e23d25-3b57-4ea9-a2ab-60edcd42d02f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fbd294fa-eb2c-4fa6-a8b4-bb2ab45067d6"
+}
+}
+},
+{
+"uuid": "ea9cb08d-21fc-4319-b009-107268c0a3be",
+"reference": "1-1/15-512/6",
+"title": "Eesti Kaupmeeste Liidu arvamus julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-29",
+"files": [
+{
+"uuid": "669d9ff3-7b31-4ab0-9abb-daaa66189196",
+"fileName": "Pöördumine_rahanduskomisjon_okt2024_ht.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-29T08:26:18.87",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/669d9ff3-7b31-4ab0-9abb-daaa66189196/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/669d9ff3-7b31-4ab0-9abb-daaa66189196"
+}
+}
+},
+{
+"uuid": "482905d8-41e8-4799-b163-936934692b7a",
+"fileName": "FW__Julgeolekumaksu_seaduse_eelnõu_512_SE_menetlemine_Riigikogus.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-29T08:26:18.976",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/482905d8-41e8-4799-b163-936934692b7a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/482905d8-41e8-4799-b163-936934692b7a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ea9cb08d-21fc-4319-b009-107268c0a3be"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "2060da58-c47e-4351-9367-671c8a72479f",
+"reference": "1-1/15-512/8",
+"title": "Isamaa fraktsiooni muudatusettepanekud julgeolekumaksu seaduse eelnõu 512 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "185f2c3b-5361-4e28-a048-cf6e0956c185",
+"fileName": "Isamaa_MEd_512_SE_(julgeolekumaks)_kohta_copy.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekud",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-30T14:34:46.152",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/185f2c3b-5361-4e28-a048-cf6e0956c185/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/185f2c3b-5361-4e28-a048-cf6e0956c185"
+}
+}
+},
+{
+"uuid": "b9fd9054-9a00-4d1f-9727-f8d9461ae6da",
+"fileName": "Isamaa_MEd_512_SE_(julgeolekumaks)_kohta_copy.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanekud asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-30T14:34:29.935",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9fd9054-9a00-4d1f-9727-f8d9461ae6da/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9fd9054-9a00-4d1f-9727-f8d9461ae6da"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2060da58-c47e-4351-9367-671c8a72479f"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/34d9788f-38ac-4530-b10b-ad2447b3ecac"
+}
+}
+}

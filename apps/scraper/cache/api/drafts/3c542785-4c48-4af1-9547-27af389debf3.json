@@ -1,0 +1,523 @@
+{
+"uuid": "3c542785-4c48-4af1-9547-27af389debf3",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele leida lahendus rahvusooper Estonia juurdeehituse rajamiseks\"",
+"mark": 410,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele leida lahendus rahvusooper Estonia juurdeehituse rajamiseks\" 410 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele leida lahendus rahvusooper Estonia juurdeehituse rajamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek leida lahendus rahvusooper Estonia juurdeehituse rajamiseks ning vaadata selleks üle loodus- ja muinsuskaitselised piirangud, mis välistavad juurdeehituse. Vajaduse korral algatada rahvusooper Estonia juurdeehituse riigi eriplaneering.",
+"initiated": "2024-04-03",
+"joined": null,
+"accepted": "2024-05-07",
+"amendmentsDeadline": "2024-04-08T11:00:00",
+"responsibleMember": {
+"uuid": "0d906012-76b5-468c-a0c9-201f41f271a8",
+"name": "Siim Kallas",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0d906012-76b5-468c-a0c9-201f41f271a8?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2810,
+"text": "etenduskunstid"
+},
+{
+"edid": 4831,
+"text": "ehitis"
+},
+{
+"edid": 4565,
+"text": "riiklikud ehitustööd"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4fa78bf3-f86a-4275-9145-22c38fa98bb5",
+"title": "410 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e25a5a8a-0b6a-43e9-99ed-a13748641792",
+"fileName": "410_RK_o_ESTONIA_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T16:19:56.786",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e25a5a8a-0b6a-43e9-99ed-a13748641792/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e25a5a8a-0b6a-43e9-99ed-a13748641792"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "acb38c62-38a0-42e8-9be3-e0326f6540f4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c62a3297-2f01-499c-9e70-b1f96d6e773a",
+"fileName": "Kultuurikomisjoni_esitatav_OE_ESTONIA_03.04.2024.TÄISKOGULE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T14:30:31.077",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c62a3297-2f01-499c-9e70-b1f96d6e773a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c62a3297-2f01-499c-9e70-b1f96d6e773a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "acb38c62-38a0-42e8-9be3-e0326f6540f4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "aa1df1dd-755a-4c73-8749-4ca898180cc4",
+"fileName": "410_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T16:11:05.199",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/aa1df1dd-755a-4c73-8749-4ca898180cc4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/aa1df1dd-755a-4c73-8749-4ca898180cc4"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "29e53176-1aad-4f77-a655-10ce79dec991",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0447728e-346f-4b98-8ccb-b66c7a037d38",
+"fileName": "410XV_RK_o_09052024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-09T12:18:26.068",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0447728e-346f-4b98-8ccb-b66c7a037d38/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0447728e-346f-4b98-8ccb-b66c7a037d38"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "29e53176-1aad-4f77-a655-10ce79dec991",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "89c53588-f911-45c6-aa38-8e3022dd907b",
+"fileName": "410XV_RK_o_09052024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-09T12:17:31.794",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/89c53588-f911-45c6-aa38-8e3022dd907b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/89c53588-f911-45c6-aa38-8e3022dd907b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "4fa78bf3-f86a-4275-9145-22c38fa98bb5",
+"title": "410 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8d04dc2a-a9b3-4179-b9c3-f8b2b3815dc3",
+"fileName": "410_RK_o_ESTONIA_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T16:20:31.618",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d04dc2a-a9b3-4179-b9c3-f8b2b3815dc3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d04dc2a-a9b3-4179-b9c3-f8b2b3815dc3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "acb38c62-38a0-42e8-9be3-e0326f6540f4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "83cf2dfa-5534-486d-8a60-f63928c64f48",
+"fileName": "Kultuurikomisjoni_esitatav_OE_SK_ESTONIA_03.04.2024.TÄISKOGULE.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-03T14:30:49.963",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83cf2dfa-5534-486d-8a60-f63928c64f48/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83cf2dfa-5534-486d-8a60-f63928c64f48"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "acb38c62-38a0-42e8-9be3-e0326f6540f4",
+"title": "KULK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "410eebf9-34a7-4652-984f-d2400b15ca32",
+"fileName": "410_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-12T13:29:54.207",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/410eebf9-34a7-4652-984f-d2400b15ca32/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/410eebf9-34a7-4652-984f-d2400b15ca32"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "07ac2dfe-ea05-44da-bef7-652177740ced",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "95791ec6-a7da-40ff-a000-996a8890aeb6",
+"fileName": "410XV_RK_o_052024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T12:24:07.889",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/95791ec6-a7da-40ff-a000-996a8890aeb6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/95791ec6-a7da-40ff-a000-996a8890aeb6"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "07ac2dfe-ea05-44da-bef7-652177740ced",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2e38f67e-b791-4c66-8efe-389df92cb701",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-08T10:20:30.884",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2e38f67e-b791-4c66-8efe-389df92cb701/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2e38f67e-b791-4c66-8efe-389df92cb701"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-03T14:30:03.94",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-03T16:32:00.038",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-08T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 8.04.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-04-17T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Siim Kallas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "d8e91a5a-17b4-4d8e-b814-cf0c8bab0e7f",
+"fileName": "Protokoll_51_(08.04.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T14:31:04.546",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d8e91a5a-17b4-4d8e-b814-cf0c8bab0e7f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d8e91a5a-17b4-4d8e-b814-cf0c8bab0e7f"
+}
+}
+},
+{
+"uuid": "48824849-2d45-4a9e-a1c6-ea1e7612b802",
+"fileName": "20240326_EVKL_Rahandusminister.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (EVKL slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T14:31:45.122",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/48824849-2d45-4a9e-a1c6-ea1e7612b802/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/48824849-2d45-4a9e-a1c6-ea1e7612b802"
+}
+}
+},
+{
+"uuid": "ed737991-ea34-4601-a093-9b297de67109",
+"fileName": "KULK_protokoll_51.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T14:32:53.385",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ed737991-ea34-4601-a093-9b297de67109/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ed737991-ea34-4601-a093-9b297de67109"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-17T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 17.04.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-05-07T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 7.05.2024 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "9c116d62-e6c1-4cf8-9238-f08df6e72232",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-07T12:21:24.673",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9c116d62-e6c1-4cf8-9238-f08df6e72232"
+}
+}
+},
+{
+"uuid": "88ade120-2c80-4ecc-a46a-5d340fa0b338",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2024-05-07T11:34:04.37",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/88ade120-2c80-4ecc-a46a-5d340fa0b338"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-05-09T12:17:13.689",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-05-10T10:38:52.986",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "4249a179-7d8a-4333-bb26-6ec99ed5460a",
+"reference": "1-1/15-410/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele leida lahendus rahvusooper Estonia juurdeehituse rajamiseks\" eelnõu 410 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-08",
+"files": [
+{
+"uuid": "eb75040e-3c12-42cc-a447-c11157bb8dfa",
+"fileName": "138.3_tel_Eelnõu_410_OE_häältenamus_2024_04_08.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T10:11:33.876",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb75040e-3c12-42cc-a447-c11157bb8dfa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb75040e-3c12-42cc-a447-c11157bb8dfa"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/4249a179-7d8a-4333-bb26-6ec99ed5460a"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/3c542785-4c48-4af1-9547-27af389debf3"
+}
+}
+}

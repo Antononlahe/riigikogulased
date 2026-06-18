@@ -1,0 +1,365 @@
+{
+"uuid": "7bd58806-1bfd-4aa3-86c3-dd8ca75f8b47",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist kaotada täiendav maksuvaba tulu abikaasa eest\"",
+"mark": 38,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist kaotada täiendav maksuvaba tulu abikaasa eest\" 38 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist kaotada täiendav maksuvaba tulu abikaasa eest\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Ettepanek loobuda plaanist kaotada täiendav maksuvaba tulu abikaasa eest.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-23T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1312,
+"text": "üksikisiku tulumaks"
+},
+{
+"edid": 5566,
+"text": "maksudeklaratsioon"
+},
+{
+"edid": 2335,
+"text": "abieluinimene"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "cdf1ebb8-7234-4e1d-aed1-081e5ae8fcf5",
+"title": "38 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fc35bb8e-c3bb-4640-91be-2d58e365ab3f",
+"fileName": "38_RK_o_ettepanek_mitte_kaotada_maksuvaba_tulu_abikaasa_eest_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T08:50:35.434",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc35bb8e-c3bb-4640-91be-2d58e365ab3f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc35bb8e-c3bb-4640-91be-2d58e365ab3f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9dcf9283-557c-489b-9a30-aaf32019e459",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9c63d283-42e9-4373-b071-d847ec293546",
+"fileName": "38_OE_ettepanek_mitte_kaotada_maksuvaba_tulu_abikaasa_eest.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T13:03:33.547",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9c63d283-42e9-4373-b071-d847ec293546/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9c63d283-42e9-4373-b071-d847ec293546"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9dcf9283-557c-489b-9a30-aaf32019e459",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a677d789-4649-4cfd-b01f-04abef6cd80c",
+"fileName": "38_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T11:48:33.507",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a677d789-4649-4cfd-b01f-04abef6cd80c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a677d789-4649-4cfd-b01f-04abef6cd80c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "cdf1ebb8-7234-4e1d-aed1-081e5ae8fcf5",
+"title": "38 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2f439ad8-402e-49fa-b193-608a856b4f8d",
+"fileName": "38_RK_o_ettepanek_mitte_kaotada_maksuvaba_tulu_abikaasa_eest_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T08:50:58.151",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2f439ad8-402e-49fa-b193-608a856b4f8d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2f439ad8-402e-49fa-b193-608a856b4f8d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9dcf9283-557c-489b-9a30-aaf32019e459",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d9bca56a-1dc2-43d4-871d-392f05040d40",
+"fileName": "38_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T11:48:45.979",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9bca56a-1dc2-43d4-871d-392f05040d40/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9bca56a-1dc2-43d4-871d-392f05040d40"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T20:14:19.685",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:10:00.83",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-26T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "25b30ecd-32f6-4e1f-ac36-9e4f260cd275",
+"fileName": "RAHK_protokoll_nr_22_19.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:17:38.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25b30ecd-32f6-4e1f-ac36-9e4f260cd275/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25b30ecd-32f6-4e1f-ac36-9e4f260cd275"
+}
+}
+},
+{
+"uuid": "2d25a051-580d-44ba-aa3c-5dfa1ebb4ded",
+"fileName": "Asendusliikme_volikiri_M.Reinaas-T.Tein_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:14:20.776",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d25a051-580d-44ba-aa3c-5dfa1ebb4ded/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d25a051-580d-44ba-aa3c-5dfa1ebb4ded"
+}
+}
+},
+{
+"uuid": "52897e93-05cf-4bca-a974-179e6ba6467a",
+"fileName": "RAHK_protokoll_nr_22_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:13:54.488",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52897e93-05cf-4bca-a974-179e6ba6467a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52897e93-05cf-4bca-a974-179e6ba6467a"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-28T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 28.09.2023 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "b11b0fd0-0c10-4512-b865-a1cdf718dbcc",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-09-28T10:25:11.003",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b11b0fd0-0c10-4512-b865-a1cdf718dbcc"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "99eb8e63-1a1d-4cdd-b3f9-be97c1602db0",
+"reference": "1-1/15-38/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu maksumuudatustega seotud otsuste 38 OE, 39 OE, 44 OE, 46 OE, 59 OE, 62 OE, 64 OE, 65 OE, 66 OE, 96 OE, 135 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-12",
+"files": [
+{
+"uuid": "fde6b89a-6afe-4563-a92e-4b0da429ca9f",
+"fileName": "ÕAO_12092023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:33:01.769",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fde6b89a-6afe-4563-a92e-4b0da429ca9f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fde6b89a-6afe-4563-a92e-4b0da429ca9f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/99eb8e63-1a1d-4cdd-b3f9-be97c1602db0"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/7bd58806-1bfd-4aa3-86c3-dd8ca75f8b47"
+}
+}
+}

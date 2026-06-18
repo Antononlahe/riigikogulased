@@ -1,0 +1,514 @@
+{
+"uuid": "fe6fe27e-5612-44c5-94b1-0ccc8cc0d0ee",
+"title": "Riigieelarve seaduse muutmise seadus",
+"mark": 520,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigieelarve seaduse muutmise seadus 520 SE",
+"initialTitle": "Riigieelarve seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga parandatakse riigieelarve läbipaistvust, muutes riigieelarve seadust selliselt, et tagada täielik üleminek kulu- ehk sisendipõhisele eelarvele, kulude tegevus- ja tulemuspõhine väljund jääks alles üksnes seletuskirja lisasse. Käesolev eelnõu tähendab, et esitatud aastaeelarves peavad olema välja toodud riigi kõik tulud ja kulud nende majandusliku sisu järgi ja asutuste kaupa.",
+"initiated": "2024-10-07",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "315ea785-8f59-40e5-a158-3de8b908572f",
+"name": "Maris Lauri",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/315ea785-8f59-40e5-a158-3de8b908572f?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5052,
+"text": "riigieelarve"
+},
+{
+"edid": 4241,
+"text": "eelarve täpsustamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "73edf8b9-20d5-4f27-a745-769d267c70b7",
+"title": "520 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bc604c4f-54ab-49d1-9c8a-e9f0ecaacc9c",
+"fileName": "520_RES_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T10:04:15.579",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc604c4f-54ab-49d1-9c8a-e9f0ecaacc9c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc604c4f-54ab-49d1-9c8a-e9f0ecaacc9c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9bb83ef5-cf9d-446a-bf65-c55ec8f86d77",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4ad199ba-f93e-462c-bf25-440f1c9865ae",
+"fileName": "Riigieelarve_seaduse_muutmise_seadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-07T15:49:52.585",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ad199ba-f93e-462c-bf25-440f1c9865ae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ad199ba-f93e-462c-bf25-440f1c9865ae"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9bb83ef5-cf9d-446a-bf65-c55ec8f86d77",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "25ba8c20-b3ad-4c0b-b9ad-f97edf517c70",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-07T17:00:29.07",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25ba8c20-b3ad-4c0b-b9ad-f97edf517c70/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25ba8c20-b3ad-4c0b-b9ad-f97edf517c70"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "73edf8b9-20d5-4f27-a745-769d267c70b7",
+"title": "520 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1f03a320-6d8f-487b-a5d9-f2297bff12c5",
+"fileName": "520_RES_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T10:04:39.01",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1f03a320-6d8f-487b-a5d9-f2297bff12c5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1f03a320-6d8f-487b-a5d9-f2297bff12c5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "9bb83ef5-cf9d-446a-bf65-c55ec8f86d77",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5f52f3e0-ea7a-43fc-99a4-bcabbe97180b",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-07T17:00:45.593",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f52f3e0-ea7a-43fc-99a4-bcabbe97180b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f52f3e0-ea7a-43fc-99a4-bcabbe97180b"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-10-07T15:49:33.86",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-10-08T13:43:00.029",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2024-12-03T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 3.12.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-12-12T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Maris Lauri"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "fd8a878b-56d1-4304-9c41-ad64f0cf106b",
+"fileName": "RAHK_protokoll_03.12.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-16T14:11:39.004",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fd8a878b-56d1-4304-9c41-ad64f0cf106b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fd8a878b-56d1-4304-9c41-ad64f0cf106b"
+}
+}
+},
+{
+"uuid": "64d9ede6-0f8d-48b3-8fdc-c7e2086f9f35",
+"fileName": "RAHK_protokoll_nr_128_03.12.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-16T14:10:09.681",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64d9ede6-0f8d-48b3-8fdc-c7e2086f9f35/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64d9ede6-0f8d-48b3-8fdc-c7e2086f9f35"
+}
+}
+},
+{
+"uuid": "83926784-c1ce-40f3-bda4-e6679a27e6d0",
+"fileName": "Asendusliikme_volikiri_M.Reinaas-A.Kiviberg_03.12.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-16T14:03:03.48",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83926784-c1ce-40f3-bda4-e6679a27e6d0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83926784-c1ce-40f3-bda4-e6679a27e6d0"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-01-06T10:39:57.576",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-01-16T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 16.01.2025 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "ff48a70f-f542-42c3-9689-2a36b1e4ed9a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-01-16T11:46:43.657",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ff48a70f-f542-42c3-9689-2a36b1e4ed9a"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "2d797f7f-c81e-4d88-b6da-392c5319c941",
+"reference": "1-1/15-520/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 520 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-07",
+"files": [
+{
+"uuid": "683d9fc4-002a-4998-ac0d-c67451b05264",
+"fileName": "RES_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-07T16:05:54.583",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/683d9fc4-002a-4998-ac0d-c67451b05264/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/683d9fc4-002a-4998-ac0d-c67451b05264"
+}
+}
+},
+{
+"uuid": "8ae6f4c8-dd3f-4431-b5cc-4e6c67b07017",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-07T17:00:59.513",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ae6f4c8-dd3f-4431-b5cc-4e6c67b07017/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ae6f4c8-dd3f-4431-b5cc-4e6c67b07017"
+}
+}
+},
+{
+"uuid": "84609a40-d664-4813-8e16-d69eff70e09c",
+"fileName": "241008_RES_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T12:26:38.626",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/84609a40-d664-4813-8e16-d69eff70e09c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/84609a40-d664-4813-8e16-d69eff70e09c"
+}
+}
+},
+{
+"uuid": "4363ec80-6bbe-4828-ba61-1d9bc6170f33",
+"fileName": "1-1-15-520-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_520_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T13:46:45.887",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4363ec80-6bbe-4828-ba61-1d9bc6170f33/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4363ec80-6bbe-4828-ba61-1d9bc6170f33"
+}
+}
+},
+{
+"uuid": "ec3e214f-31d8-49e1-8a4e-06b59780116c",
+"fileName": "RES_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-07T16:06:06.88",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec3e214f-31d8-49e1-8a4e-06b59780116c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec3e214f-31d8-49e1-8a4e-06b59780116c"
+}
+}
+},
+{
+"uuid": "019d8309-dd3f-454a-aa3f-4140bdef92ee",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-07T17:01:10.427",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/019d8309-dd3f-454a-aa3f-4140bdef92ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/019d8309-dd3f-454a-aa3f-4140bdef92ee"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2d797f7f-c81e-4d88-b6da-392c5319c941"
+}
+}
+},
+{
+"uuid": "b94b2c3d-47f2-44a4-8809-9399d392582f",
+"reference": "1-1/15-520/2",
+"title": "Vabariigi Valitsuse arvamus riigieelarve seaduse muutmise seaduse eelnõu 520 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-15",
+"files": [
+{
+"uuid": "92a86289-0565-48b9-8ff1-81c7f376c41d",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-1017_-_Riigieelarve_seaduse_muutmise_seaduse_eelnõu_(520_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-15T15:17:04.537",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92a86289-0565-48b9-8ff1-81c7f376c41d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92a86289-0565-48b9-8ff1-81c7f376c41d"
+}
+}
+},
+{
+"uuid": "bf42e61c-768b-41bc-8869-968aa6a875ab",
+"fileName": "Riigieelarve_seaduse_muutmise_seaduse_eelnõu_(520_SE)_.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-15T15:17:04.526",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf42e61c-768b-41bc-8869-968aa6a875ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf42e61c-768b-41bc-8869-968aa6a875ab"
+}
+}
+},
+{
+"uuid": "dd35e564-faf8-4832-a26f-cd9cc6c2b9e8",
+"fileName": "1.1-115092-1_15.11.2024_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-15T15:17:04.488",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dd35e564-faf8-4832-a26f-cd9cc6c2b9e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dd35e564-faf8-4832-a26f-cd9cc6c2b9e8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b94b2c3d-47f2-44a4-8809-9399d392582f"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/fe6fe27e-5612-44c5-94b1-0ccc8cc0d0ee"
+}
+}
+}

@@ -1,0 +1,382 @@
+{
+"uuid": "d66d3a79-33b6-44fc-baad-061ff9a4857a",
+"title": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine Nordica tegevuse lõpetamisega seonduvate asjaolude uurimiseks“",
+"mark": 543,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine Nordica tegevuse lõpetamisega seonduvate asjaolude uurimiseks“ 543 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine Nordica tegevuse lõpetamisega seonduvate asjaolude uurimiseks“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TEINE_LUGEMINE",
+"activeDraftStatus": "I_LUGEMINE_LOPETATUD",
+"introduction": "Seletuskirjas märgitakse, et tulenevalt juhtimisvigade tõsidusest ning Nordicasse varasematel perioodidel suunatud märkimisväärsetest investeeringutest, on vajalik koheselt moodustada Riigikogu uurimiskomisjon. Uurimiskomisjoni enda usaldusväärsuse ja laiapõhjalisuse tagamiseks peaks sinna kuuluma igast Riigikogu fraktsioonist vähemalt üks esindaja.",
+"initiated": "2024-11-20",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-03-24T17:15:00",
+"responsibleMember": {
+"uuid": "31eee189-0019-469f-8469-7da564bf1af9",
+"name": "Kalle Laanet",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/31eee189-0019-469f-8469-7da564bf1af9?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 15,
+"text": "uurimiskomisjon"
+},
+{
+"edid": 4408,
+"text": "tsiviillennundus"
+},
+{
+"edid": 830,
+"text": "avalik sektor"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "94a14a95-da3b-419c-9ccd-44f9fecc537f",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9802ccbc-448b-479d-a311-15191ecf32bf",
+"fileName": "543_RK_o_Nordica_uurimiskomisjon_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-29T08:56:12.71",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9802ccbc-448b-479d-a311-15191ecf32bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9802ccbc-448b-479d-a311-15191ecf32bf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3266a374-e10e-4769-99b9-721cde895562",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "894ba8dd-d584-4997-b0de-da85b5237cde",
+"fileName": "Nordica_uurimiskomisjon_EKRE.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T14:15:40.796",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/894ba8dd-d584-4997-b0de-da85b5237cde/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/894ba8dd-d584-4997-b0de-da85b5237cde"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3266a374-e10e-4769-99b9-721cde895562",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8734508e-6bcb-40b6-b528-e53c6c9356a9",
+"fileName": "543_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T15:30:02.865",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8734508e-6bcb-40b6-b528-e53c6c9356a9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8734508e-6bcb-40b6-b528-e53c6c9356a9"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "94a14a95-da3b-419c-9ccd-44f9fecc537f",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "334f3e57-c893-46d3-a0a2-e21561580116",
+"fileName": "543_RK_o_Nordica_uurimisjomisjon_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-29T08:56:46.872",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/334f3e57-c893-46d3-a0a2-e21561580116/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/334f3e57-c893-46d3-a0a2-e21561580116"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "3266a374-e10e-4769-99b9-721cde895562",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c7108b22-2dfb-4c60-ab08-122eafdd1e84",
+"fileName": "543_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T15:30:15.667",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c7108b22-2dfb-4c60-ab08-122eafdd1e84/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c7108b22-2dfb-4c60-ab08-122eafdd1e84"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-11-20T14:14:46.986",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-11-21T17:28:00.33",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-01-27T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 27.01.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-02-12T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Kalle Laanet"
+}
+],
+"protocolFiles": [
+{
+"uuid": "a4d92916-746e-45f6-9da0-a9ac868d5bb9",
+"fileName": "PÕSK_protokoll_nr_91.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-04T12:44:04.888",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a4d92916-746e-45f6-9da0-a9ac868d5bb9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a4d92916-746e-45f6-9da0-a9ac868d5bb9"
+}
+}
+},
+{
+"uuid": "cec092ac-ba5b-4574-abe1-9a816d14e4a1",
+"fileName": "PÕSK_protokoll_nr_91_(27.01.2025).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-04T12:43:38.114",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cec092ac-ba5b-4574-abe1-9a816d14e4a1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cec092ac-ba5b-4574-abe1-9a816d14e4a1"
+}
+}
+}
+]
+},
+{
+"date": "2025-02-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.02.2025 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2025-02-18T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 18.02.2025 10:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2025-03-10T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 10.03.2025 15:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "c586dd2b-e2d7-40d9-8796-610d64b720bf",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-03-10T16:24:40.277",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/c586dd2b-e2d7-40d9-8796-610d64b720bf"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [
+{
+"uuid": "488d257b-6d4c-4a6e-a80a-8ead0a72265a",
+"reference": "1-1/15-543/1",
+"title": "Eesti Konservatiivse Rahvaerakonna fraktsiooni muudatusettepanek Riigikogu otsuse eelnõu „Riigikogu uurimiskomisjoni moodustamine Nordica tegevuse lõpetamisega seonduvate asjaolude uurimiseks“ 543 OE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "62f7fa73-7dc8-431b-ba69-7b00f4e896f3",
+"fileName": "ME_543OE_EKREfr.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T11:06:17.16",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62f7fa73-7dc8-431b-ba69-7b00f4e896f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62f7fa73-7dc8-431b-ba69-7b00f4e896f3"
+}
+}
+},
+{
+"uuid": "def3d37a-a82f-434a-ab66-c55d0de3abad",
+"fileName": "ME_543OE_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-18T11:06:33.301",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/def3d37a-a82f-434a-ab66-c55d0de3abad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/def3d37a-a82f-434a-ab66-c55d0de3abad"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/488d257b-6d4c-4a6e-a80a-8ead0a72265a"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/d66d3a79-33b6-44fc-baad-061ff9a4857a"
+}
+}
+}

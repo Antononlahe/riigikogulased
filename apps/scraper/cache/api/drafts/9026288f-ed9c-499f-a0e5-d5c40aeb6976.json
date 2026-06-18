@@ -1,0 +1,560 @@
+{
+"uuid": "9026288f-ed9c-499f-a0e5-d5c40aeb6976",
+"title": "Tulumaksuseaduse muutmise seadus",
+"mark": 130,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Tulumaksuseaduse muutmise seadus 130 SE",
+"initialTitle": "Tulumaksuseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Käesoleva eelnõuga muudetakse tulumaksuseaduse 1. aprillil 2023.a. jõustunud redaktsiooni. Muudatuse tulemusena suureneb kohaliku omavalitsuse üksuste eelarvesse ülekantava tulumaksu suurus.",
+"initiated": "2023-05-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "5650dddf-f2ca-4b94-8888-e7482808f81b",
+"name": "Aivar Sõerd",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/5650dddf-f2ca-4b94-8888-e7482808f81b?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "94ffc777-09a5-4472-bf5d-ce16e78a2341",
+"name": "Rain Epler",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/94ffc777-09a5-4472-bf5d-ce16e78a2341?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "98008392-64a2-4429-8a41-fb051823e402",
+"name": "Martin Helme",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/98008392-64a2-4429-8a41-fb051823e402?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1312,
+"text": "üksikisiku tulumaks"
+},
+{
+"edid": 5501,
+"text": "kohalik valitsusüksus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f80a1da0-1845-4559-8e6c-889ffa85b88e",
+"title": "130 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e5e5bce3-1083-4b6e-b9db-7a06f88fc937",
+"fileName": "130_TuMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T09:36:27.614",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e5e5bce3-1083-4b6e-b9db-7a06f88fc937/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e5e5bce3-1083-4b6e-b9db-7a06f88fc937"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2d25bef3-4a31-4897-b7fe-7842ad14adc9",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "59494c1e-9f8f-4400-b3c4-3208d0c8056f",
+"fileName": "130_TuMS3-7.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:50:43.344",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59494c1e-9f8f-4400-b3c4-3208d0c8056f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59494c1e-9f8f-4400-b3c4-3208d0c8056f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2d25bef3-4a31-4897-b7fe-7842ad14adc9",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "85d863c9-cc70-4cda-a0fc-655bf2c3d2e8",
+"fileName": "130_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T11:57:18.48",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/85d863c9-cc70-4cda-a0fc-655bf2c3d2e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/85d863c9-cc70-4cda-a0fc-655bf2c3d2e8"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f80a1da0-1845-4559-8e6c-889ffa85b88e",
+"title": "130 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3e3a2f45-a0de-43c2-adf0-ec129bb0c71f",
+"fileName": "130_TuMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T09:36:36.338",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e3a2f45-a0de-43c2-adf0-ec129bb0c71f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e3a2f45-a0de-43c2-adf0-ec129bb0c71f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2d25bef3-4a31-4897-b7fe-7842ad14adc9",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8303af51-a970-4e7e-9795-28d0877b4975",
+"fileName": "130_TuMS3SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:51:01.193",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8303af51-a970-4e7e-9795-28d0877b4975/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8303af51-a970-4e7e-9795-28d0877b4975"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2d25bef3-4a31-4897-b7fe-7842ad14adc9",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "114ea81c-04d9-4e29-b326-98be985064e5",
+"fileName": "130_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T11:57:33.257",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/114ea81c-04d9-4e29-b326-98be985064e5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/114ea81c-04d9-4e29-b326-98be985064e5"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-11T10:17:26.202",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T20:14:00.952",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-26T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "25b30ecd-32f6-4e1f-ac36-9e4f260cd275",
+"fileName": "RAHK_protokoll_nr_22_19.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:17:38.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25b30ecd-32f6-4e1f-ac36-9e4f260cd275/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25b30ecd-32f6-4e1f-ac36-9e4f260cd275"
+}
+}
+},
+{
+"uuid": "2d25a051-580d-44ba-aa3c-5dfa1ebb4ded",
+"fileName": "Asendusliikme_volikiri_M.Reinaas-T.Tein_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:14:20.776",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2d25a051-580d-44ba-aa3c-5dfa1ebb4ded/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2d25a051-580d-44ba-aa3c-5dfa1ebb4ded"
+}
+}
+},
+{
+"uuid": "52897e93-05cf-4bca-a974-179e6ba6467a",
+"fileName": "RAHK_protokoll_nr_22_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:13:54.488",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/52897e93-05cf-4bca-a974-179e6ba6467a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/52897e93-05cf-4bca-a974-179e6ba6467a"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-27T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 27.09.2023 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2023-10-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.10.2023 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2023-10-25T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 25.10.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "0fe66193-daa2-4523-817f-2b058bf6f654",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Hääletus",
+"startDateTime": "2023-10-25T17:11:21.473",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/0fe66193-daa2-4523-817f-2b058bf6f654"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "d97b2389-4e6a-415f-bfbd-a1011a6de0f5",
+"reference": "1-1/15-130/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 130 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-17",
+"files": [
+{
+"uuid": "549c0514-365f-4cfe-a810-4be86248e870",
+"fileName": "130_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:34:04.048",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/549c0514-365f-4cfe-a810-4be86248e870/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/549c0514-365f-4cfe-a810-4be86248e870"
+}
+}
+},
+{
+"uuid": "304039a7-5552-4ab9-aff7-91e47f255de5",
+"fileName": "130_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:34:18.578",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/304039a7-5552-4ab9-aff7-91e47f255de5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/304039a7-5552-4ab9-aff7-91e47f255de5"
+}
+}
+},
+{
+"uuid": "4c0216c9-4f77-4cb0-b534-c08bc89b5281",
+"fileName": "230518_TuMS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T21:52:34.93",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c0216c9-4f77-4cb0-b534-c08bc89b5281/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c0216c9-4f77-4cb0-b534-c08bc89b5281"
+}
+}
+},
+{
+"uuid": "7e35cbb8-8d2e-495e-b5bc-937dc587b2e0",
+"fileName": "1-1-15-130-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_130_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-19T16:36:19.217",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e35cbb8-8d2e-495e-b5bc-937dc587b2e0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e35cbb8-8d2e-495e-b5bc-937dc587b2e0"
+}
+}
+},
+{
+"uuid": "f3888d4d-40be-4035-a545-2d53aa6796d4",
+"fileName": "130_TuMS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:54:32.583",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3888d4d-40be-4035-a545-2d53aa6796d4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3888d4d-40be-4035-a545-2d53aa6796d4"
+}
+}
+},
+{
+"uuid": "35ddcbfa-ca45-4709-8d43-fb47e551eeac",
+"fileName": "130_TuMS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:51:21.019",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35ddcbfa-ca45-4709-8d43-fb47e551eeac/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35ddcbfa-ca45-4709-8d43-fb47e551eeac"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d97b2389-4e6a-415f-bfbd-a1011a6de0f5"
+}
+}
+},
+{
+"uuid": "8224f3d4-76af-426b-bc61-01ee641a52a0",
+"reference": "1-1/15-71/2",
+"title": "Vabariigi Valitsuse arvamus tulumaksuseaduse muutmise seaduse eelnõu 71 SE, 75 SE, 82 SE, 88 SE, 110 SE, 112 SE, 116 SE, 127 SE, 130 SE, 133 SE, 150 SE, 151 SE, 155 SE, 181 SE, 194 SE ja 199 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-26",
+"files": [
+{
+"uuid": "1cbfbfab-8c52-425d-b4ab-17cca915a644",
+"fileName": "Vabariigi_Valitsuse_seisukoha_esitamine_tulumaksuseaduse_muutmise_seaduse_eelnõude_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-26T11:50:42.308",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1cbfbfab-8c52-425d-b4ab-17cca915a644/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1cbfbfab-8c52-425d-b4ab-17cca915a644"
+}
+}
+},
+{
+"uuid": "5dac5a65-5591-44cd-9537-6224c451c868",
+"fileName": "1.1-113533-4_21.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-26T11:50:42.194",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5dac5a65-5591-44cd-9537-6224c451c868/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5dac5a65-5591-44cd-9537-6224c451c868"
+}
+}
+},
+{
+"uuid": "b9f7d017-3e25-420c-8119-569584a356cc",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0509_-_Tulumaksuseaduse_muutmise_seaduse_eelnõu_(71_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-26T11:50:42.33",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9f7d017-3e25-420c-8119-569584a356cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9f7d017-3e25-420c-8119-569584a356cc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8224f3d4-76af-426b-bc61-01ee641a52a0"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9026288f-ed9c-499f-a0e5-d5c40aeb6976"
+}
+}
+}

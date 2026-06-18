@@ -1,0 +1,553 @@
+{
+"uuid": "4e9cded4-e8de-4b58-aaa3-a6711e25100d",
+"title": "Ravimiseaduse muutmise seadus",
+"mark": 162,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Ravimiseaduse muutmise seadus 162 SE",
+"initialTitle": "Ravimiseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga soovitakse muuta Ravimiseaduse paragrahvi 13 lõiget l punkti l, millega Eestis keelustatakse ravimid, mille osas ei ole viidud läbi genotoksilisuse ega kartsinogeensuse uuringuid.",
+"initiated": "2023-05-12",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "3febb869-f443-4aba-908e-7c0c30f8c4dd",
+"name": "Irja Lutsar",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/3febb869-f443-4aba-908e-7c0c30f8c4dd?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "57665e48-1e3e-4cbc-bd74-c79d6df13da6",
+"name": "Helgi Kundla",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/57665e48-1e3e-4cbc-bd74-c79d6df13da6?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "db532de2-5abd-4b6d-a82c-2d9a75fd9d18",
+"name": "Kalle Grünthal",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/db532de2-5abd-4b6d-a82c-2d9a75fd9d18?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3813,
+"text": "ravim"
+},
+{
+"edid": 2923,
+"text": "arstiteaduslik uurimus"
+},
+{
+"edid": 5451,
+"text": "müügiluba"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "630d0aea-eb16-4cfa-9bd7-8dcee719af28",
+"title": "162 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3c753916-a397-43d3-8492-7efb3b1bdb02",
+"fileName": "162_RavS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T15:39:36.076",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c753916-a397-43d3-8492-7efb3b1bdb02/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c753916-a397-43d3-8492-7efb3b1bdb02"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6b730ddc-403c-40d0-bb77-7e043c75f8b3",
+"title": "1 RK liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "29417380-ec42-4978-b905-0a533be27ed8",
+"fileName": "162_Ravimiseadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T17:35:46.773",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/29417380-ec42-4978-b905-0a533be27ed8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/29417380-ec42-4978-b905-0a533be27ed8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6b730ddc-403c-40d0-bb77-7e043c75f8b3",
+"title": "1 RK liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b7cbbfa0-3549-479d-a2db-c96d580141af",
+"fileName": "162_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T16:51:17.857",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7cbbfa0-3549-479d-a2db-c96d580141af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7cbbfa0-3549-479d-a2db-c96d580141af"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "630d0aea-eb16-4cfa-9bd7-8dcee719af28",
+"title": "162 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a9e98a06-c3d1-46de-8ee7-5aa45a896dba",
+"fileName": "162_RavS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T15:40:19.759",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a9e98a06-c3d1-46de-8ee7-5aa45a896dba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a9e98a06-c3d1-46de-8ee7-5aa45a896dba"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6b730ddc-403c-40d0-bb77-7e043c75f8b3",
+"title": "1 RK liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3a711f1f-5914-4a68-9df1-637f74870f9d",
+"fileName": "162_Ravimiseaduse_muutmise_eelnõu_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T17:37:32.742",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a711f1f-5914-4a68-9df1-637f74870f9d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a711f1f-5914-4a68-9df1-637f74870f9d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6b730ddc-403c-40d0-bb77-7e043c75f8b3",
+"title": "1 RK liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "03b9a0fc-1746-48d8-844d-58113669900f",
+"fileName": "162_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-12T16:51:39.944",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/03b9a0fc-1746-48d8-844d-58113669900f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/03b9a0fc-1746-48d8-844d-58113669900f"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-12T16:02:38.99",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T19:40:00.399",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-25T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 25.09.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-10-11T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Irja Lutsar"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "d113fe78-93a6-4560-b5cf-18f89654e530",
+"fileName": "TAI_Ettekanne_25.09.23_SOTK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa (Tervise Arengu Instituudi ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-09T09:36:57.163",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d113fe78-93a6-4560-b5cf-18f89654e530/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d113fe78-93a6-4560-b5cf-18f89654e530"
+}
+}
+},
+{
+"uuid": "8052624e-a0d9-4392-8d27-ba9f6114b9c1",
+"fileName": "SOTK_protokoll_25.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-03T21:24:51.652",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8052624e-a0d9-4392-8d27-ba9f6114b9c1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8052624e-a0d9-4392-8d27-ba9f6114b9c1"
+}
+}
+},
+{
+"uuid": "e1047a28-7cf4-40e9-bc6e-048dc1ded587",
+"fileName": "SOTK_protokoll_nr_21_(25.09.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-03T21:23:47.887",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e1047a28-7cf4-40e9-bc6e-048dc1ded587/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e1047a28-7cf4-40e9-bc6e-048dc1ded587"
+}
+}
+}
+]
+},
+{
+"date": "2024-01-23T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 23.01.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "2d1c8bff-7d7b-4a0b-90a6-55e37242798c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-01-23T12:55:40.177",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/2d1c8bff-7d7b-4a0b-90a6-55e37242798c"
+}
+}
+},
+{
+"uuid": "d710352e-9500-4ce7-bac0-8bc1b2a9dfbc",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2024-01-23T11:52:00.453",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/d710352e-9500-4ce7-bac0-8bc1b2a9dfbc"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "60628349-780c-4a1e-8b3d-6aafe32fa167",
+"reference": "1-1/15-162/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 162 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-22",
+"files": [
+{
+"uuid": "209fcee9-464f-47b3-8374-74dcff7fd6a9",
+"fileName": "162_RavS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T17:32:21.292",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/209fcee9-464f-47b3-8374-74dcff7fd6a9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/209fcee9-464f-47b3-8374-74dcff7fd6a9"
+}
+}
+},
+{
+"uuid": "0b76ba00-13d7-416b-b927-ba94a76201ad",
+"fileName": "162_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T17:33:01.22",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0b76ba00-13d7-416b-b927-ba94a76201ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0b76ba00-13d7-416b-b927-ba94a76201ad"
+}
+}
+},
+{
+"uuid": "5f018c72-9d60-4f53-bb6f-2ba58c1be934",
+"fileName": "162_RavS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T17:32:32.099",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f018c72-9d60-4f53-bb6f-2ba58c1be934/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f018c72-9d60-4f53-bb6f-2ba58c1be934"
+}
+}
+},
+{
+"uuid": "4ef1f3e3-52f6-4064-95f2-5c5934a7345b",
+"fileName": "162_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T17:32:43.725",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ef1f3e3-52f6-4064-95f2-5c5934a7345b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ef1f3e3-52f6-4064-95f2-5c5934a7345b"
+}
+}
+},
+{
+"uuid": "457cb032-27d3-4ea4-965b-75513bd418b4",
+"fileName": "1-1-15-162-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_162_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T18:49:35.743",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/457cb032-27d3-4ea4-965b-75513bd418b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/457cb032-27d3-4ea4-965b-75513bd418b4"
+}
+}
+},
+{
+"uuid": "9e5e5f3c-9e70-47fe-851a-f71bf5f1c889",
+"fileName": "230520_RavS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T17:51:19.053",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e5e5f3c-9e70-47fe-851a-f71bf5f1c889/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e5e5f3c-9e70-47fe-851a-f71bf5f1c889"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/60628349-780c-4a1e-8b3d-6aafe32fa167"
+}
+}
+},
+{
+"uuid": "f15a5fe8-9317-4146-97c5-e45cd49b85e1",
+"reference": "1-1/15-162/2",
+"title": "Vabariigi Valitsuse arvamus ravimiseaduse muutmise seaduse eelnõu 162 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-30",
+"files": [
+{
+"uuid": "3720fd69-6e24-49cd-92ba-c2743787c993",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0677_-_Ravimiseaduse_muutmise_seaduse_eelnõu_(162_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-30T08:32:26.881",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3720fd69-6e24-49cd-92ba-c2743787c993/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3720fd69-6e24-49cd-92ba-c2743787c993"
+}
+}
+},
+{
+"uuid": "2e4c85a2-698f-4b64-9316-cf7eca628232",
+"fileName": "1.2-32229-4_29.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-30T08:32:26.83",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2e4c85a2-698f-4b64-9316-cf7eca628232/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2e4c85a2-698f-4b64-9316-cf7eca628232"
+}
+}
+},
+{
+"uuid": "8508423d-a654-4dcc-b766-e11110bfd0ed",
+"fileName": "Vabariigi_Valitsuse_arvamus_eelnõule_162SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-30T08:32:26.861",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8508423d-a654-4dcc-b766-e11110bfd0ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8508423d-a654-4dcc-b766-e11110bfd0ed"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f15a5fe8-9317-4146-97c5-e45cd49b85e1"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/4e9cded4-e8de-4b58-aaa3-a6711e25100d"
+}
+}
+}

@@ -1,0 +1,461 @@
+{
+"uuid": "c3f90dc8-2478-4b1b-bd7b-89775b87b084",
+"title": "Riigikogu otsus „Audiitori nimetamine Riigikontrolli 2024.–2025. aasta tegevuse kontrollimiseks\"",
+"mark": 495,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Audiitori nimetamine Riigikontrolli 2024.–2025. aasta tegevuse kontrollimiseks\" 495 OE",
+"initialTitle": "Riigikogu otsus „Audiitori nimetamine Riigikontrolli 2024.–2025. aasta tegevuse kontrollimiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": "2024-09-12",
+"joined": null,
+"accepted": "2024-09-25",
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "caea357b-12c0-4069-b53e-89f69f517212",
+"name": "Kersti Sarapuu",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/caea357b-12c0-4069-b53e-89f69f517212?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 60,
+"text": "raamatupidaja"
+},
+{
+"edid": 6064,
+"text": "audit"
+},
+{
+"edid": 171,
+"text": "halduskontroll"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d5967613-79d3-4640-96e8-e49eadf49119",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1e050c12-bd84-4d52-abf0-8a407f2fa299",
+"fileName": "Riigikogu_otsuse_Audiitori_nimetamine_Riigikontrolli_2024.–2025._aasta_tegevuse_kontrollimiseks_eelnõu_ettevalmistamine.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-12T10:02:52.533",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e050c12-bd84-4d52-abf0-8a407f2fa299/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e050c12-bd84-4d52-abf0-8a407f2fa299"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "dc8a2069-845a-42b8-9977-18b9230eb0cb",
+"title": "495 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "df372d39-dda9-49e3-a7e3-9d081aa10567",
+"fileName": "495_RIKO_audiitor_2024_-25_OE.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-17T14:59:12.709",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/df372d39-dda9-49e3-a7e3-9d081aa10567/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/df372d39-dda9-49e3-a7e3-9d081aa10567"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d5967613-79d3-4640-96e8-e49eadf49119",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "111dd7c7-39b8-4ca7-aa24-c9160db22007",
+"fileName": "RIKO_audiitor_2024_-25_OE.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-12T10:02:52.645",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/111dd7c7-39b8-4ca7-aa24-c9160db22007/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/111dd7c7-39b8-4ca7-aa24-c9160db22007"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d5967613-79d3-4640-96e8-e49eadf49119",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f25e57a1-02cd-470a-a28a-7b04fb52ce52",
+"fileName": "RIKO_audiitor_2024-25_kaaskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-12T10:02:52.657",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f25e57a1-02cd-470a-a28a-7b04fb52ce52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f25e57a1-02cd-470a-a28a-7b04fb52ce52"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "7cdf8ae6-3208-402b-a4cd-b8250a61b234",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "215f10f5-b2d9-44f9-8dae-334cd963531f",
+"fileName": "495XV_RK_o_26092024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T19:47:55.571",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/215f10f5-b2d9-44f9-8dae-334cd963531f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/215f10f5-b2d9-44f9-8dae-334cd963531f"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "7cdf8ae6-3208-402b-a4cd-b8250a61b234",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "78d32734-dd91-42b5-96f0-7db78263d6cd",
+"fileName": "495XV_RK_o_26092024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T19:47:38.321",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78d32734-dd91-42b5-96f0-7db78263d6cd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78d32734-dd91-42b5-96f0-7db78263d6cd"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "dc8a2069-845a-42b8-9977-18b9230eb0cb",
+"title": "495 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f2c4ae60-a949-4a53-bab0-ddf1089a86a4",
+"fileName": "495_RIKO_audiitor_2024-_2025.SELETUSKIRI.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-17T14:59:32.436",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2c4ae60-a949-4a53-bab0-ddf1089a86a4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2c4ae60-a949-4a53-bab0-ddf1089a86a4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "d5967613-79d3-4640-96e8-e49eadf49119",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5843580f-9c6b-4c72-97b9-d10656a18203",
+"fileName": "RIKO_audiitor_2024-_2025.SELETUSKIRI.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-12T10:02:52.631",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5843580f-9c6b-4c72-97b9-d10656a18203/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5843580f-9c6b-4c72-97b9-d10656a18203"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e68586e3-230b-4c9c-9c24-1703c2e3563d",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c4ffeb0f-f1d4-4241-84e3-b90b2db15721",
+"fileName": "495XV_RK_o_092024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-25T14:14:26.655",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c4ffeb0f-f1d4-4241-84e3-b90b2db15721/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c4ffeb0f-f1d4-4241-84e3-b90b2db15721"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e68586e3-230b-4c9c-9c24-1703c2e3563d",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5caccda1-821d-4fd9-b5ee-24a44d01f99e",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-25T15:39:00.339",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5caccda1-821d-4fd9-b5ee-24a44d01f99e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5caccda1-821d-4fd9-b5ee-24a44d01f99e"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-09-12T10:02:21.041",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-09-12T17:04:00.525",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-09-17T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 17.09.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-09-24T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Kersti Sarapuu"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "f4c723ee-630d-451d-a205-f76bfb7632e4",
+"fileName": "RAHK_protokoll_nr_107_17.09.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T14:57:35.374",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f4c723ee-630d-451d-a205-f76bfb7632e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f4c723ee-630d-451d-a205-f76bfb7632e4"
+}
+}
+},
+{
+"uuid": "0bee315e-55d4-4a19-9619-9299502bca2e",
+"fileName": "RAHK_protokoll_17.09.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T14:58:19.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0bee315e-55d4-4a19-9619-9299502bca2e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0bee315e-55d4-4a19-9619-9299502bca2e"
+}
+}
+}
+]
+},
+{
+"date": "2024-09-25T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 25.09.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "2316eb95-ade4-4e78-b029-98fe29c69158",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-09-25T15:22:47.897",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/2316eb95-ade4-4e78-b029-98fe29c69158"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-09-26T19:45:45.74",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-10-01T14:06:42.545",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/c3f90dc8-2478-4b1b-bd7b-89775b87b084"
+}
+}
+}

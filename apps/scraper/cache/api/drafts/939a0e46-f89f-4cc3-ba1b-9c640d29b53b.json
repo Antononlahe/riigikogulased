@@ -1,0 +1,439 @@
+{
+"uuid": "939a0e46-f89f-4cc3-ba1b-9c640d29b53b",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist maksustada täiendavalt pakendite ja plasti kasutamist\"",
+"mark": 65,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist maksustada täiendavalt pakendite ja plasti kasutamist\" 65 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist maksustada täiendavalt pakendite ja plasti kasutamist\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Ettepaneku tegemine Vabariigi Valitsusele loobuda plaanist maksustada täiendavalt pakendite ja plasti kasutamist.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-23T17:15:00",
+"responsibleMember": {
+"uuid": "5650dddf-f2ca-4b94-8888-e7482808f81b",
+"name": "Aivar Sõerd",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/5650dddf-f2ca-4b94-8888-e7482808f81b?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2746,
+"text": "pakend"
+},
+{
+"edid": 5533,
+"text": "saastava aine pandimaks"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0fffea7e-b458-4f5c-b7a0-373a2b11e128",
+"title": "65 OE I lug.tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fe54f3be-dbb2-43d9-b02b-15daad1e430a",
+"fileName": "65_RK_o_mitte_pakendeid_täiendavalt_maksustada_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T13:36:45.733",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe54f3be-dbb2-43d9-b02b-15daad1e430a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe54f3be-dbb2-43d9-b02b-15daad1e430a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "84baecb9-02f1-40f9-83f7-d3ceb468a35c",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "30d2270b-1918-4cb3-8751-5464f3f5b5d7",
+"fileName": "65_OE_mitte_pakendeid_täiendavalt_maksustada.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T13:25:08.603",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/30d2270b-1918-4cb3-8751-5464f3f5b5d7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/30d2270b-1918-4cb3-8751-5464f3f5b5d7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "84baecb9-02f1-40f9-83f7-d3ceb468a35c",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b3c0d397-b528-4cbb-9c09-c32edb8c98b5",
+"fileName": "65_E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:11:34.86",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b3c0d397-b528-4cbb-9c09-c32edb8c98b5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b3c0d397-b528-4cbb-9c09-c32edb8c98b5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0fffea7e-b458-4f5c-b7a0-373a2b11e128",
+"title": "65 OE I lug.tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d6452ea2-e8ec-40ee-83d8-3ece3469c561",
+"fileName": "65_Rk_o_mitte_pakendeid_täiendavalt_maksustada_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T13:37:16.935",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6452ea2-e8ec-40ee-83d8-3ece3469c561/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6452ea2-e8ec-40ee-83d8-3ece3469c561"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "84baecb9-02f1-40f9-83f7-d3ceb468a35c",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fef1f963-43ae-47ff-89ad-d95e80576b89",
+"fileName": "65_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T12:11:45.324",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fef1f963-43ae-47ff-89ad-d95e80576b89/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fef1f963-43ae-47ff-89ad-d95e80576b89"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T22:59:20.015",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:37:00.375",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-09-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "815db99c-04d3-4d7b-8666-eb524c52afd0",
+"fileName": "RAHK_protokoll_12.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T15:50:39.002",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/815db99c-04d3-4d7b-8666-eb524c52afd0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/815db99c-04d3-4d7b-8666-eb524c52afd0"
+}
+}
+},
+{
+"uuid": "b03a74e9-2a03-4144-aa4e-c372fd905efd",
+"fileName": "RAHK_protokoll_20_12_09_2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T15:49:56.89",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b03a74e9-2a03-4144-aa4e-c372fd905efd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b03a74e9-2a03-4144-aa4e-c372fd905efd"
+}
+}
+},
+{
+"uuid": "ae653ac0-c4ed-45af-9dd6-b21ed7640197",
+"fileName": "Asendusliikme_volikiri_T.Uibo-J.K._Raid_12.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:54:59.412",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ae653ac0-c4ed-45af-9dd6-b21ed7640197/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ae653ac0-c4ed-45af-9dd6-b21ed7640197"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-18T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.09.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-27T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni esimees Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "fd83ce30-a665-4fa1-ba3d-bfbbf74d952e",
+"fileName": "RAHK_protokoll_18.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokol asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T13:08:46.621",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fd83ce30-a665-4fa1-ba3d-bfbbf74d952e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fd83ce30-a665-4fa1-ba3d-bfbbf74d952e"
+}
+}
+},
+{
+"uuid": "5e7c920f-9111-4e30-a81a-ce7513fbbe74",
+"fileName": "RAHK_protokoll_21_18_09_2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T13:08:04.263",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5e7c920f-9111-4e30-a81a-ce7513fbbe74/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5e7c920f-9111-4e30-a81a-ce7513fbbe74"
+}
+}
+},
+{
+"uuid": "192e6115-c9ed-4014-bd03-6a617ef28c35",
+"fileName": "RAM_EL_majandusjuhtimise_raamistiku_reformi_eelnoud_18.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Rahandusministeeriumi esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T13:42:49.362",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/192e6115-c9ed-4014-bd03-6a617ef28c35/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/192e6115-c9ed-4014-bd03-6a617ef28c35"
+}
+}
+},
+{
+"uuid": "bb94c502-7d3f-46b6-8cdf-83523815045e",
+"fileName": "EAN_esitlus_18.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Eelarvenõukogu esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T13:42:03.265",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bb94c502-7d3f-46b6-8cdf-83523815045e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bb94c502-7d3f-46b6-8cdf-83523815045e"
+}
+}
+}
+]
+},
+{
+"date": "2023-10-25T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 25.10.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "27852e1f-725c-447a-a20f-3c1f034058ca",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-10-25T14:19:34.15",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/27852e1f-725c-447a-a20f-3c1f034058ca"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "99eb8e63-1a1d-4cdd-b3f9-be97c1602db0",
+"reference": "1-1/15-38/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu maksumuudatustega seotud otsuste 38 OE, 39 OE, 44 OE, 46 OE, 59 OE, 62 OE, 64 OE, 65 OE, 66 OE, 96 OE, 135 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-12",
+"files": [
+{
+"uuid": "fde6b89a-6afe-4563-a92e-4b0da429ca9f",
+"fileName": "ÕAO_12092023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T16:33:01.769",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fde6b89a-6afe-4563-a92e-4b0da429ca9f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fde6b89a-6afe-4563-a92e-4b0da429ca9f"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/99eb8e63-1a1d-4cdd-b3f9-be97c1602db0"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/939a0e46-f89f-4cc3-ba1b-9c640d29b53b"
+}
+}
+}

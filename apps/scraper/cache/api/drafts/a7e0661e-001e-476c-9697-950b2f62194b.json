@@ -1,0 +1,461 @@
+{
+"uuid": "a7e0661e-001e-476c-9697-950b2f62194b",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele peatada ajutiselt kõigi tuuleparkidega seoses algatatud planeeringute menetlemine, edasilükkava tähtajaga kuni ajakohastatud infraheli mõõtmiste metoodika ja selle helirõhutasemete piirväärtuste kehtestamiseni“",
+"mark": 569,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele peatada ajutiselt kõigi tuuleparkidega seoses algatatud planeeringute menetlemine, edasilükkava tähtajaga kuni ajakohastatud infraheli mõõtmiste metoodika ja selle helirõhutasemete piirväärtuste kehtestamiseni“ 569 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele peatada ajutiselt kõigi tuuleparkidega seoses algatatud planeeringute menetlemine, edasilükkava tähtajaga kuni ajakohastatud infraheli mõõtmiste metoodika ja selle helirõhutasemete piirväärtuste kehtestamiseni“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek peatada ajutiselt seoses kõigi tuuleparkidega algatatud planeeringute menetlemine edasilükkava tähtajaga kuni ajakohastatud infraheli mõõtmiste metoodika ja selle helirõhutasemete piirväärtuste kehtestamiseni.",
+"initiated": "2025-01-27",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2025-02-11T17:15:00",
+"responsibleMember": {
+"uuid": "53141769-f7bb-4995-8d12-5ff0d9c1eca1",
+"name": "Mario Kadastik",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/53141769-f7bb-4995-8d12-5ff0d9c1eca1?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8bd39979-5c6b-496c-853f-89e750f396b2",
+"name": "Mari Tänav",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8bd39979-5c6b-496c-853f-89e750f396b2?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "c1ea2082-ab92-e19b-4cf2-aa4fa10779ea",
+"name": "Majanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/c1ea2082-ab92-e19b-4cf2-aa4fa10779ea?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2715,
+"text": "energia tootmine"
+},
+{
+"edid": 748,
+"text": "tuuleenergia"
+},
+{
+"edid": 2063,
+"text": "müratase"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "88518437-c294-4485-b1fd-e2191c2b3489",
+"title": "569 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "358f84bd-ded6-4451-8f5a-ca76016c4348",
+"fileName": "569_RK_o_Ettepanek_VVle_tuulepargid_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T14:42:50.872",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/358f84bd-ded6-4451-8f5a-ca76016c4348/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/358f84bd-ded6-4451-8f5a-ca76016c4348"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "eaff14fa-082e-4007-9f0f-09c01c4b49b4",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "54e7acec-016e-4596-a91b-8ad7dea0d887",
+"fileName": "569E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-28T09:57:31.478",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/54e7acec-016e-4596-a91b-8ad7dea0d887/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/54e7acec-016e-4596-a91b-8ad7dea0d887"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "eaff14fa-082e-4007-9f0f-09c01c4b49b4",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "226dc881-d588-4694-8e5c-205404713b34",
+"fileName": "20250121_EKRE_eelnõu_ja_Lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu, seletuskiri ja lisa docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-27T16:20:47.078",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/226dc881-d588-4694-8e5c-205404713b34/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/226dc881-d588-4694-8e5c-205404713b34"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "88518437-c294-4485-b1fd-e2191c2b3489",
+"title": "569 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "006736ce-0b49-4a28-a309-2646e63ef870",
+"fileName": "569_RK_o_Ettepanek_VVle_tuulepargid_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T14:44:24.789",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/006736ce-0b49-4a28-a309-2646e63ef870/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/006736ce-0b49-4a28-a309-2646e63ef870"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "eaff14fa-082e-4007-9f0f-09c01c4b49b4",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5e939513-2a5b-489b-8413-490921d2a9fd",
+"fileName": "569L.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-28T09:58:10.226",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5e939513-2a5b-489b-8413-490921d2a9fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5e939513-2a5b-489b-8413-490921d2a9fd"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "88518437-c294-4485-b1fd-e2191c2b3489",
+"title": "569 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5e3bb652-f0de-4602-9c89-43818bee2edb",
+"fileName": "569_RK_o_Ettepanek_VVle_tuulepargid_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T14:43:53.749",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5e3bb652-f0de-4602-9c89-43818bee2edb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5e3bb652-f0de-4602-9c89-43818bee2edb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "eaff14fa-082e-4007-9f0f-09c01c4b49b4",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4c6da70b-6fad-404d-b406-6a1b84e01100",
+"fileName": "569SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-01-28T09:57:56.104",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c6da70b-6fad-404d-b406-6a1b84e01100/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c6da70b-6fad-404d-b406-6a1b84e01100"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-01-27T15:22:09.792",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-01-28T13:36:00.511",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2025-03-17T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 17.03.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Mario Kadastik"
+}
+],
+"protocolFiles": [
+{
+"uuid": "25c4c1e1-036d-4462-8126-4698a4ae3d56",
+"fileName": "MAJK_protokoll_nr_115_17.03.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T13:42:58.622",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25c4c1e1-036d-4462-8126-4698a4ae3d56/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25c4c1e1-036d-4462-8126-4698a4ae3d56"
+}
+}
+},
+{
+"uuid": "bbe5a2c3-bde1-4a07-8221-926155b62fc5",
+"fileName": "MAJK_protokoll_nr_115_17.03.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T13:42:22.417",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bbe5a2c3-bde1-4a07-8221-926155b62fc5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bbe5a2c3-bde1-4a07-8221-926155b62fc5"
+}
+}
+},
+{
+"uuid": "9b0319c7-2b03-4f3a-b921-eca0805aa916",
+"fileName": "HKS2_KLIM_17032025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (HKS 2)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T13:47:06.303",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9b0319c7-2b03-4f3a-b921-eca0805aa916/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9b0319c7-2b03-4f3a-b921-eca0805aa916"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-03-24T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 24.03.2025 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-04-09T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "1a9aca1b-64e7-4af7-9384-3e58276cdf52",
+"fileName": "MAJK_protokoll_nr_116_24.03.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-04T10:08:43.017",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1a9aca1b-64e7-4af7-9384-3e58276cdf52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1a9aca1b-64e7-4af7-9384-3e58276cdf52"
+}
+}
+},
+{
+"uuid": "dcfe2270-3062-4a14-9967-0948584e5284",
+"fileName": "MAJK_protokoll_nr_116_24.03.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-04T10:07:46.005",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dcfe2270-3062-4a14-9967-0948584e5284/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dcfe2270-3062-4a14-9967-0948584e5284"
+}
+}
+}
+]
+},
+{
+"date": "2025-04-09T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 9.04.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "86fb2151-a4cd-4d20-8901-c21e17829c13",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-04-09T18:59:31.98",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/86fb2151-a4cd-4d20-8901-c21e17829c13"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "5bb70b27-b1a1-462d-bfa7-ec7c9bb017e3",
+"reference": "1-1/15-569/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele peatada ajutiselt kõigi tuuleparkidega seoses algatatud planeeringute menetlemine, edasilükkava tähtajaga kuni ajakohastatud infraheli mõõtmiste metoodika ja selle helirõhutasemete piirväärtuste kehtestamiseni“ eelnõu 569 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-02-26",
+"files": [
+{
+"uuid": "22bb4b2f-16de-44fb-a44e-e74ed3d257c3",
+"fileName": "033._tel_Eelnõu_569_OE_häältenamus_2025_02_18.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-02-26T10:43:56.149",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22bb4b2f-16de-44fb-a44e-e74ed3d257c3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22bb4b2f-16de-44fb-a44e-e74ed3d257c3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5bb70b27-b1a1-462d-bfa7-ec7c9bb017e3"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a7e0661e-001e-476c-9697-950b2f62194b"
+}
+}
+}

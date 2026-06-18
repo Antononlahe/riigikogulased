@@ -1,0 +1,557 @@
+{
+"uuid": "1e39ab5a-fab5-4cd6-aba5-51ffa9fc67b8",
+"title": "Teadus- ja arendustegevuse korralduse seaduse muutmise seadus",
+"mark": 192,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Teadus- ja arendustegevuse korralduse seaduse muutmise seadus 192 SE",
+"initialTitle": "Teadus- ja arendustegevuse korralduse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Seaduse muutmise eesmärk on tagada rahvusteadustele piisav ja stabiilne riigieelarveline rahastus.",
+"initiated": "2023-05-13",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "ee639cdf-b86c-48b7-9b34-fbba9b83826d",
+"name": "Margit Sutrop",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/ee639cdf-b86c-48b7-9b34-fbba9b83826d?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "54bc0d5b-7c98-4245-8682-4a3a0b6e0275",
+"name": "Jaak Valge",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/54bc0d5b-7c98-4245-8682-4a3a0b6e0275?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "bc9c1725-2fd8-4f54-a0e3-58b87e9dfe1f",
+"name": "Anti Poolamets",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/bc9c1725-2fd8-4f54-a0e3-58b87e9dfe1f?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "65b1d8bb-7f45-48f5-b4aa-7ba4ca459824",
+"name": "Henn Põlluaas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/65b1d8bb-7f45-48f5-b4aa-7ba4ca459824?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "f4e5d00e-19d1-428a-ba5e-5ce9ae4ef2c2",
+"name": "Helle-Moonika Helme",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/f4e5d00e-19d1-428a-ba5e-5ce9ae4ef2c2?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5237,
+"text": "uurimis- ja arendustegevus"
+},
+{
+"edid": 8442,
+"text": "rahvuslik identiteet"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "208b2728-e98b-4f85-a8f9-26b497efc293",
+"title": "192 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "986797dc-5ad5-40a6-a496-88604417e8c6",
+"fileName": "192_TAKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-22T09:09:33.41",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/986797dc-5ad5-40a6-a496-88604417e8c6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/986797dc-5ad5-40a6-a496-88604417e8c6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "87b99092-e1ad-4ed8-b953-5341c61edf73",
+"title": "4 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dfb6ca30-0a28-4ead-b5a2-246fa32e55dd",
+"fileName": "192_TAKS_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T14:09:03.708",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dfb6ca30-0a28-4ead-b5a2-246fa32e55dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dfb6ca30-0a28-4ead-b5a2-246fa32e55dd"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "87b99092-e1ad-4ed8-b953-5341c61edf73",
+"title": "4 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a937b94d-bc58-4949-901f-cf05a035d7bf",
+"fileName": "192E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T14:23:39.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a937b94d-bc58-4949-901f-cf05a035d7bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a937b94d-bc58-4949-901f-cf05a035d7bf"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "208b2728-e98b-4f85-a8f9-26b497efc293",
+"title": "192 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5ae6951d-c5d0-472d-be6f-ad82ed5a8f82",
+"fileName": "192_TAKS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-22T09:10:01.107",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ae6951d-c5d0-472d-be6f-ad82ed5a8f82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ae6951d-c5d0-472d-be6f-ad82ed5a8f82"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "87b99092-e1ad-4ed8-b953-5341c61edf73",
+"title": "4 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "da77d0f4-b595-4703-8e05-5338264f3399",
+"fileName": "192_TAKS_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T14:09:13.876",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da77d0f4-b595-4703-8e05-5338264f3399/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da77d0f4-b595-4703-8e05-5338264f3399"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "87b99092-e1ad-4ed8-b953-5341c61edf73",
+"title": "4 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f8ef1431-ac0a-4def-b414-d3edc53228e8",
+"fileName": "192SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-13T14:23:49.419",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f8ef1431-ac0a-4def-b414-d3edc53228e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f8ef1431-ac0a-4def-b414-d3edc53228e8"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-13T13:03:32.181",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T20:10:00.609",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-18T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.09.2023 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-10-12T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Margit Sutrop"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "16fcd7aa-8e23-48f7-a28e-7db49a637b61",
+"fileName": "KULK_protokoll_13.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T08:58:51.37",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/16fcd7aa-8e23-48f7-a28e-7db49a637b61/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/16fcd7aa-8e23-48f7-a28e-7db49a637b61"
+}
+}
+},
+{
+"uuid": "c34ea7cc-8fd5-4175-8372-86127cce5393",
+"fileName": "Protokoll_13_(18.09.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T08:57:39.675",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c34ea7cc-8fd5-4175-8372-86127cce5393/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c34ea7cc-8fd5-4175-8372-86127cce5393"
+}
+}
+}
+]
+},
+{
+"date": "2024-02-07T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 7.02.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "7b332735-e76f-46cc-8f0a-81288e4fa07b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-02-07T16:35:52.843",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/7b332735-e76f-46cc-8f0a-81288e4fa07b"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "a5c2fcca-9ecb-42e1-8de2-ed0cb242d6e9",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 192 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-22",
+"files": [
+{
+"uuid": "85db377f-fede-4a3f-bdee-ca7ce880b782",
+"fileName": "192_TAKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T14:10:19.127",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/85db377f-fede-4a3f-bdee-ca7ce880b782/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/85db377f-fede-4a3f-bdee-ca7ce880b782"
+}
+}
+},
+{
+"uuid": "438ebef7-7002-4402-8e91-b20d051ad8bc",
+"fileName": "192E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T13:40:32.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/438ebef7-7002-4402-8e91-b20d051ad8bc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/438ebef7-7002-4402-8e91-b20d051ad8bc"
+}
+}
+},
+{
+"uuid": "330db5f0-10b1-4e7d-90ba-cf3db8492666",
+"fileName": "192SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T13:40:45.128",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/330db5f0-10b1-4e7d-90ba-cf3db8492666/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/330db5f0-10b1-4e7d-90ba-cf3db8492666"
+}
+}
+},
+{
+"uuid": "8dfab2d0-f90d-4a4f-958f-62e5ae4edcfe",
+"fileName": "Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_192_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T18:42:54.625",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8dfab2d0-f90d-4a4f-958f-62e5ae4edcfe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8dfab2d0-f90d-4a4f-958f-62e5ae4edcfe"
+}
+}
+},
+{
+"uuid": "cd8489f0-360c-4cc2-8c52-9f5f4ebebb96",
+"fileName": "230520_TAKS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T16:30:09.781",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd8489f0-360c-4cc2-8c52-9f5f4ebebb96/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd8489f0-360c-4cc2-8c52-9f5f4ebebb96"
+}
+}
+},
+{
+"uuid": "503a7ca9-7961-4354-8d6f-2cf0f99fc892",
+"fileName": "192_TAKS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-22T14:10:30.054",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/503a7ca9-7961-4354-8d6f-2cf0f99fc892/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/503a7ca9-7961-4354-8d6f-2cf0f99fc892"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a5c2fcca-9ecb-42e1-8de2-ed0cb242d6e9"
+}
+}
+},
+{
+"uuid": "6aa62db8-7a21-419d-b849-efc6228a7c9d",
+"reference": "1-1/15-192/1",
+"title": "Vabariigi Valitsuse arvamus teadus- ja arendustegevuse korralduse seaduse muutmise seaduse eelnõu 192 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-29",
+"files": [
+{
+"uuid": "f5e20789-5c35-49d0-92ed-3445f8966e22",
+"fileName": "Vabariigi_Valitsuse_seisukoht_teadus-_ja_arendustegevuse_korralduse_seaduse_muutmise_seaduse_eelnï¿½u_(192_SE)_kohta_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-29T09:32:32.731",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f5e20789-5c35-49d0-92ed-3445f8966e22/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f5e20789-5c35-49d0-92ed-3445f8966e22"
+}
+}
+},
+{
+"uuid": "b83c539c-112c-4404-bc3b-5bfee90ecc26",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0647_-_Teadus-_ja_arendustegevuse_korralduse_seaduse_muutmise_seaduse_eelnõu_(192_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-29T09:32:32.779",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b83c539c-112c-4404-bc3b-5bfee90ecc26/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b83c539c-112c-4404-bc3b-5bfee90ecc26"
+}
+}
+},
+{
+"uuid": "fa396a56-50c6-4d05-9508-48ff88d5deda",
+"fileName": "Vabariigi_Valitsuse_seisukoht_teadus-_ja_arendustegevuse_korralduse_seaduse_muutmise_seaduse_eelnõu_(192_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-29T09:32:32.759",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa396a56-50c6-4d05-9508-48ff88d5deda/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa396a56-50c6-4d05-9508-48ff88d5deda"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6aa62db8-7a21-419d-b849-efc6228a7c9d"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/1e39ab5a-fab5-4cd6-aba5-51ffa9fc67b8"
+}
+}
+}

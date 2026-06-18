@@ -1,0 +1,1434 @@
+{
+"uuid": "864a4f36-c09e-47c1-be33-e00c01cd45e5",
+"title": "Väärtpaberituru seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seadus",
+"mark": 588,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Väärtpaberituru seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seadus 588 SE",
+"initialTitle": "Väärtpaberituru seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu kohaselt peavad Eestis registreeritud suured börsiettevõtted valima kahe eesmärgi vahel: kas vähemalt 40% nõukogu liikmetest või vähemalt 33% juhatuse ja nõukogu liikmetest peavad kuuluma vähem esindatud soo hulka. Valitud eesmärk peab olema ellu viidud 2026. aasta keskpaigaks ning sellest tuleb teavitada finantsinspektsiooni.",
+"initiated": "2025-03-10",
+"joined": null,
+"accepted": "2025-05-21",
+"amendmentsDeadline": "2025-04-23T17:15:00",
+"responsibleMember": {
+"uuid": "76c477e6-4b49-4d49-ad7b-a4853182a1da",
+"name": "Riina Sikkut",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/76c477e6-4b49-4d49-ad7b-a4853182a1da?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 1804,
+"text": "finantsturg"
+},
+{
+"edid": 4190,
+"text": "aktsiaselts"
+},
+{
+"edid": 248,
+"text": "börsinoteering"
+},
+{
+"edid": 115,
+"text": "juhatus"
+},
+{
+"edid": 3913,
+"text": "sooline võrdsus"
+},
+{
+"edid": 688,
+"text": "võrdne kohtlemine"
+},
+{
+"edid": 1549,
+"text": "trahv"
+},
+{
+"edid": 2247,
+"text": "liidu õiguse riigisisene rakendamine"
+}
+],
+"texts": [
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "f861fa2d-10db-401b-8821-34b673f05579",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "277f29c9-df8d-4d68-9e5c-df82fe6a2951",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-21T15:45:30.23",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/277f29c9-df8d-4d68-9e5c-df82fe6a2951/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/277f29c9-df8d-4d68-9e5c-df82fe6a2951"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "31802e2d-e0cd-4526-abd8-7739c84fc1d1",
+"fileName": "RK_25-00392-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.78",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/31802e2d-e0cd-4526-abd8-7739c84fc1d1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/31802e2d-e0cd-4526-abd8-7739c84fc1d1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b935e254-c04b-44d0-b93f-7906a61af813",
+"fileName": "[EIS]_Eelnõu_esitamine__RAM-24-0716_-_Väärtpaberituru_seaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.992",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b935e254-c04b-44d0-b93f-7906a61af813/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b935e254-c04b-44d0-b93f-7906a61af813"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "ec89e34d-725f-400a-b835-d4ed579d8120",
+"title": "588 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9c1485c3-325d-4cad-9f89-25322e60979d",
+"fileName": "588_VPTS_jt_s_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T15:53:54.107",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9c1485c3-325d-4cad-9f89-25322e60979d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9c1485c3-325d-4cad-9f89-25322e60979d"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "9ae93ae3-1aa8-4d58-a2a0-566b25a4c3c4",
+"title": "Eelnõu 588 III SE lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1402ea8d-a5af-43d6-85f5-d7c93726b369",
+"fileName": "Eelnõu_588_SE_III_VPTSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-19T15:35:55.035",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1402ea8d-a5af-43d6-85f5-d7c93726b369/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1402ea8d-a5af-43d6-85f5-d7c93726b369"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "4f86469d-6723-4597-b2ea-fbed27ee421e",
+"title": "Eelnõu 588 SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ebf4796a-56b7-48be-8665-7e8b835cc5c6",
+"fileName": "Eelnõu_588_SE_II_VPTSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T14:01:51.474",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ebf4796a-56b7-48be-8665-7e8b835cc5c6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ebf4796a-56b7-48be-8665-7e8b835cc5c6"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fdea9e44-8783-4844-a5b6-2693910e1848",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.883",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fdea9e44-8783-4844-a5b6-2693910e1848/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fdea9e44-8783-4844-a5b6-2693910e1848"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7e4c7052-83af-47ea-9d92-2594b9322aa0",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.932",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e4c7052-83af-47ea-9d92-2594b9322aa0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e4c7052-83af-47ea-9d92-2594b9322aa0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c6d4b07c-be1f-41e0-a07f-49f9261e82fe",
+"fileName": "25-00392-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.869",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c6d4b07c-be1f-41e0-a07f-49f9261e82fe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c6d4b07c-be1f-41e0-a07f-49f9261e82fe"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "f861fa2d-10db-401b-8821-34b673f05579",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ce80ba13-d7eb-402d-91da-24dc1da2f1fd",
+"fileName": "588_Kaaskiri_Vabariigi_Presidendile_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-21T15:43:50.324",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ce80ba13-d7eb-402d-91da-24dc1da2f1fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ce80ba13-d7eb-402d-91da-24dc1da2f1fd"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "86b1af45-7c0f-4f76-bce8-f84e0dfb13a0",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "21e8ddcc-da2a-48bb-98d4-dac4135b9211",
+"fileName": "588XV_Vaartpaber_ms_2025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-03T17:00:57.903",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/21e8ddcc-da2a-48bb-98d4-dac4135b9211/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/21e8ddcc-da2a-48bb-98d4-dac4135b9211"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "86b1af45-7c0f-4f76-bce8-f84e0dfb13a0",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "68e88a30-179f-465d-bd72-ee74c3928b9b",
+"fileName": "588XV_Vaartpaber_ms_2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-03T17:00:38.336",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/68e88a30-179f-465d-bd72-ee74c3928b9b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/68e88a30-179f-465d-bd72-ee74c3928b9b"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "4f86469d-6723-4597-b2ea-fbed27ee421e",
+"title": "Eelnõu 588 SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5f43d34a-ce93-4ef8-a546-bde259c0d73f",
+"fileName": "Muudatusettepanekute_loetelu_588_SE_II_VPTSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T14:05:42.198",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f43d34a-ce93-4ef8-a546-bde259c0d73f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f43d34a-ce93-4ef8-a546-bde259c0d73f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "ec89e34d-725f-400a-b835-d4ed579d8120",
+"title": "588 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1cc868bb-c2b1-43d5-9a79-6b836cdce379",
+"fileName": "588_VPTS_jt_s_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T15:54:47.186",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1cc868bb-c2b1-43d5-9a79-6b836cdce379/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1cc868bb-c2b1-43d5-9a79-6b836cdce379"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "4f86469d-6723-4597-b2ea-fbed27ee421e",
+"title": "Eelnõu 588 SE II lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c75a70f8-1b57-4b68-bf83-92be5b7c3d51",
+"fileName": "Seletuskiri_588_SE_II_VPTSms.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-12T14:12:01.331",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c75a70f8-1b57-4b68-bf83-92be5b7c3d51/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c75a70f8-1b57-4b68-bf83-92be5b7c3d51"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "08c58f8f-9513-4066-8d52-3dafdbea3d62",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.896",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/08c58f8f-9513-4066-8d52-3dafdbea3d62/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/08c58f8f-9513-4066-8d52-3dafdbea3d62"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5f78c6c8-a242-4bde-9cab-a2debe07399d",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.944",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f78c6c8-a242-4bde-9cab-a2debe07399d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f78c6c8-a242-4bde-9cab-a2debe07399d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "ec89e34d-725f-400a-b835-d4ed579d8120",
+"title": "588 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3f5f3c47-583d-497b-b6c8-88d4ac9cd22e",
+"fileName": "588_VPTS_jt_s_m_s_SK_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T15:55:21.283",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3f5f3c47-583d-497b-b6c8-88d4ac9cd22e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3f5f3c47-583d-497b-b6c8-88d4ac9cd22e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b062f434-c795-4067-9901-396df335dde4",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.908",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b062f434-c795-4067-9901-396df335dde4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b062f434-c795-4067-9901-396df335dde4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4ca5a526-683b-40b2-b1c5-f2fd867f0e7e",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (vastavustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.958",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ca5a526-683b-40b2-b1c5-f2fd867f0e7e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ca5a526-683b-40b2-b1c5-f2fd867f0e7e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "ec89e34d-725f-400a-b835-d4ed579d8120",
+"title": "588 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5a9ae636-1f7c-4294-883b-75d9bd03d921",
+"fileName": "588_VPTS_jt_s_m_s_SK_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-25T15:55:57.783",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5a9ae636-1f7c-4294-883b-75d9bd03d921/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5a9ae636-1f7c-4294-883b-75d9bd03d921"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "da7bcfa1-3351-43b3-ae2a-3fe42431077a",
+"fileName": "SK_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.92",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da7bcfa1-3351-43b3-ae2a-3fe42431077a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da7bcfa1-3351-43b3-ae2a-3fe42431077a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "44618bad-da3f-46b8-8d64-2e8757cd10bd",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fae29e18-ac29-4a2a-ae9a-055284221efa",
+"fileName": "SK_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (kooskõlastustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-10T15:15:42.972",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fae29e18-ac29-4a2a-ae9a-055284221efa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fae29e18-ac29-4a2a-ae9a-055284221efa"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "9df9f92a-dc08-4152-a988-0fce4243048a",
+"reference": "1-1/15-588/6",
+"title": "Vabariigi Presidendi otsus nr 561",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "174454f5-e754-4a67-a829-e3133ad93281",
+"fileName": "VP_03062025_o561.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-03T16:42:32.073",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/174454f5-e754-4a67-a829-e3133ad93281/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/174454f5-e754-4a67-a829-e3133ad93281"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "9df9f92a-dc08-4152-a988-0fce4243048a",
+"reference": "1-1/15-588/6",
+"title": "Vabariigi Presidendi otsus nr 561",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6aedb09d-9117-4e7a-bef3-bb792826a635",
+"fileName": "VP_03062025_o561.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-03T16:42:32.012",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6aedb09d-9117-4e7a-bef3-bb792826a635/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6aedb09d-9117-4e7a-bef3-bb792826a635"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "f861fa2d-10db-401b-8821-34b673f05579",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "93f42a49-0853-48d0-b53c-dd06a9a92bd7",
+"fileName": "588XV_Vaartpaber_ms_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-21T14:54:17.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/93f42a49-0853-48d0-b53c-dd06a9a92bd7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/93f42a49-0853-48d0-b53c-dd06a9a92bd7"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-03-10T15:13:58.829",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-03-11T13:45:00.181",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-03-25T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 25.03.2025 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-04-08T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Riina Sikkut"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "67eeda63-66d9-4fe3-a57a-7f378fdc096f",
+"fileName": "RAHK_protokoll_25.03.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T09:49:49.071",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/67eeda63-66d9-4fe3-a57a-7f378fdc096f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/67eeda63-66d9-4fe3-a57a-7f378fdc096f"
+}
+}
+},
+{
+"uuid": "192e7cf2-c48b-4d74-90f2-a6b0a805ed5b",
+"fileName": "Asendusliikme_volikiri_M._Helme-S._Pohlak_25.03.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T09:46:01.074",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/192e7cf2-c48b-4d74-90f2-a6b0a805ed5b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/192e7cf2-c48b-4d74-90f2-a6b0a805ed5b"
+}
+}
+},
+{
+"uuid": "c7f590d5-d5ba-4bf4-8d19-70ec53671c09",
+"fileName": "RAHK_protokoll_nr_144_25.03.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-15T09:45:50.171",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c7f590d5-d5ba-4bf4-8d19-70ec53671c09/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c7f590d5-d5ba-4bf4-8d19-70ec53671c09"
+}
+}
+}
+]
+},
+{
+"date": "2025-04-08T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 8.04.2025 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "1c3da0e4-6731-4603-9f11-4fe59ea1fde3",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2025-04-08T11:41:27.523",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/1c3da0e4-6731-4603-9f11-4fe59ea1fde3"
+}
+}
+},
+{
+"uuid": "fd4b5375-35b7-47a5-b90b-7653a3c375df",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2025-04-08T12:29:28.143",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/fd4b5375-35b7-47a5-b90b-7653a3c375df"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-05T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 5.05.2025 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-05-14T14:00:00"
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2025-05-21T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "b9e4a6ff-c50c-47f7-85c9-0327f0371f72",
+"fileName": "RAHK_protokoll_05.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T10:50:44.564",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9e4a6ff-c50c-47f7-85c9-0327f0371f72/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9e4a6ff-c50c-47f7-85c9-0327f0371f72"
+}
+}
+},
+{
+"uuid": "36a676ba-8bb1-4aec-88c7-d41e81f50a24",
+"fileName": "EE2035_ministrile_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Rahandusministeeriumi esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T10:49:15.086",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/36a676ba-8bb1-4aec-88c7-d41e81f50a24/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/36a676ba-8bb1-4aec-88c7-d41e81f50a24"
+}
+}
+},
+{
+"uuid": "66e47ec4-f7e4-4750-a5b8-4d6581c78f72",
+"fileName": "RAHK_protokoll_nr_151_05.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-22T10:47:47.369",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/66e47ec4-f7e4-4750-a5b8-4d6581c78f72/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/66e47ec4-f7e4-4750-a5b8-4d6581c78f72"
+}
+}
+}
+]
+},
+{
+"date": "2025-05-14T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 14.05.2025 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2025-05-19T11:00:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 19.05.2025 kell 11.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Kiita heaks eelnõu kolmanda lugemise tekst, kuhu on sisse viidud keelelised ja tehnilised täpsustused."
+}
+],
+"protocolFiles": [
+{
+"uuid": "1f994022-9b49-46ad-9441-10d8585389af",
+"fileName": "RAHK_protokoll_19.05.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T09:37:21.012",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1f994022-9b49-46ad-9441-10d8585389af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1f994022-9b49-46ad-9441-10d8585389af"
+}
+}
+},
+{
+"uuid": "903062e7-ab9b-470e-9238-fc1c87dff281",
+"fileName": "FI_K._Kessleri_ettekanne_19.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Finantsinspektsiooni esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T09:36:26.821",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/903062e7-ab9b-470e-9238-fc1c87dff281/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/903062e7-ab9b-470e-9238-fc1c87dff281"
+}
+}
+},
+{
+"uuid": "6719f8f0-a6c2-4a51-bf48-ce8d23ff7703",
+"fileName": "RAHK_protokoll_nr_156_19.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T09:36:00.081",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6719f8f0-a6c2-4a51-bf48-ce8d23ff7703/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6719f8f0-a6c2-4a51-bf48-ce8d23ff7703"
+}
+}
+},
+{
+"uuid": "118e47de-38fd-4c9a-8bed-791a5fcf18cc",
+"fileName": "RAM_645_SE_ettekande_slaidid_19.05.2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Rahandusministeeriumi esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-06-17T09:36:16.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/118e47de-38fd-4c9a-8bed-791a5fcf18cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/118e47de-38fd-4c9a-8bed-791a5fcf18cc"
+}
+}
+}
+]
+},
+{
+"date": "2025-05-21T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 21.05.2025 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "e49a09ab-bb11-4e5f-bb74-8b2d616f7641",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-05-21T14:57:22.443",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e49a09ab-bb11-4e5f-bb74-8b2d616f7641"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-05-22T13:27:38.798",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2025-06-03T16:45:02.334",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2025-06-10T10:48:20.055",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "93f02251-dcbc-4ebb-8dde-96193b599217",
+"reference": "1-1/15-588/3",
+"title": "Eesti Advokatuuri arvamus väärtpaberituru seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 588 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-11",
+"files": [
+{
+"uuid": "c8ac06f8-4920-4804-87cb-f8eea6a965f7",
+"fileName": "2025-04-11_Eesti_Advokatuuri_seisukohad_VPTS_jt_seaduste_muutmise_seaduse_eelnõu_osas.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-11T09:56:22.958",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8ac06f8-4920-4804-87cb-f8eea6a965f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8ac06f8-4920-4804-87cb-f8eea6a965f7"
+}
+}
+},
+{
+"uuid": "7347ba66-af5c-4e65-895b-e6678ababe1f",
+"fileName": "1-8-228-1_Väärtpaberituru_seaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seaduse_eelnõu__vastuskiri.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-11T09:56:22.971",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7347ba66-af5c-4e65-895b-e6678ababe1f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7347ba66-af5c-4e65-895b-e6678ababe1f"
+}
+}
+},
+{
+"uuid": "d7bf69bf-5e65-4f5c-856b-b2a0a5d75a22",
+"fileName": "2025-04-11_Eesti_Advokatuuri_seisukohad_VPTS_jt_seaduste_muutmise.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-11T09:56:22.909",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d7bf69bf-5e65-4f5c-856b-b2a0a5d75a22/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d7bf69bf-5e65-4f5c-856b-b2a0a5d75a22"
+}
+}
+},
+{
+"uuid": "6e2d863e-696b-41a6-b5bb-380eca27da07",
+"fileName": "Väärtpaberituru_seaduse_muutmise_ja_sellega_seonduvalt_teiste_se.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-11T09:56:22.917",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e2d863e-696b-41a6-b5bb-380eca27da07/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e2d863e-696b-41a6-b5bb-380eca27da07"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/93f02251-dcbc-4ebb-8dde-96193b599217"
+}
+}
+},
+{
+"uuid": "d383985c-1e44-4b60-865f-244aba675698",
+"reference": "1-1/15-588/1",
+"title": "Väärtpaberituru seaduse muutmise ja  sellega seonduvalt teiste seaduste  muutmise seaduse eelnõu",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-03-26",
+"files": [
+{
+"uuid": "4eb97b54-c828-4af4-ba3f-99ebc468e2c7",
+"fileName": "1-1-15-588-1_-_Väärtpaberituru_seaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seaduse_eelnõu.asice",
+"fileExtension": "asice",
+"fileTitle": "Väljaminev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-27T12:08:34.661",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4eb97b54-c828-4af4-ba3f-99ebc468e2c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4eb97b54-c828-4af4-ba3f-99ebc468e2c7"
+}
+}
+},
+{
+"uuid": "7b76c982-810b-407e-a3e8-ad23ac3cf5c5",
+"fileName": "Kaasamiskiri_588_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-27T12:03:28.497",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7b76c982-810b-407e-a3e8-ad23ac3cf5c5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7b76c982-810b-407e-a3e8-ad23ac3cf5c5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d383985c-1e44-4b60-865f-244aba675698"
+}
+}
+},
+{
+"uuid": "818a9466-71e0-4eab-9850-44805c62526b",
+"reference": "1-1/15-588/4",
+"title": "AS Tallinna Sadam arvamus väärtpaberituru seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 588 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-11",
+"files": [
+{
+"uuid": "c2371be4-b923-4e07-8f14-a74f49101971",
+"fileName": "Riigikogu_Rahanduskomisjon_VPTS_eelnou_ettepanek_10_04_2025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-11T11:24:25.318",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c2371be4-b923-4e07-8f14-a74f49101971/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c2371be4-b923-4e07-8f14-a74f49101971"
+}
+}
+},
+{
+"uuid": "c91361a6-195d-4bf2-a886-d617efea9436",
+"fileName": "Arvamuse_esitamine_väärtpaberituru_seaduse__muutmise_ja_sellega_seonduvalt_teiste__seaduste_muutmise_seaduse_588_SE_eelnõu_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-11T11:24:25.332",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c91361a6-195d-4bf2-a886-d617efea9436/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c91361a6-195d-4bf2-a886-d617efea9436"
+}
+}
+},
+{
+"uuid": "84e6a902-f2f0-4ed1-88ac-4bc278928d8e",
+"fileName": "Riigikogu_Rahanduskomisjon_VPTS_eelnou_ettepanek_10_04_2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-11T11:24:25.262",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/84e6a902-f2f0-4ed1-88ac-4bc278928d8e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/84e6a902-f2f0-4ed1-88ac-4bc278928d8e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/818a9466-71e0-4eab-9850-44805c62526b"
+}
+}
+},
+{
+"uuid": "9319960d-4682-457c-b9f8-d6de08f14973",
+"reference": "1-1/15-588/5",
+"title": "Rahandusministeeriumi arvamus väärtpaberituru seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 588 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-05-02",
+"files": [
+{
+"uuid": "53c62678-0a87-49da-85f5-b63a7d4ba1d0",
+"fileName": "Ettepanekute_esitamine_eelnõule_SE_588.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-02T10:48:14.463",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/53c62678-0a87-49da-85f5-b63a7d4ba1d0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/53c62678-0a87-49da-85f5-b63a7d4ba1d0"
+}
+}
+},
+{
+"uuid": "44c26288-87a2-41c7-b637-f78f9b2c6a1c",
+"fileName": "1.1-10.12125-1_02.05.2025_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-02T10:48:14.383",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/44c26288-87a2-41c7-b637-f78f9b2c6a1c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/44c26288-87a2-41c7-b637-f78f9b2c6a1c"
+}
+}
+},
+{
+"uuid": "64deb8ac-8a95-41e3-bd75-6dbd7889eb92",
+"fileName": "Ettepanekute_esitamine_eelnõule_SE_588.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-02T10:48:14.487",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64deb8ac-8a95-41e3-bd75-6dbd7889eb92/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64deb8ac-8a95-41e3-bd75-6dbd7889eb92"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9319960d-4682-457c-b9f8-d6de08f14973"
+}
+}
+},
+{
+"uuid": "d80d28a9-f3d5-448c-9880-6b7c2c3d62eb",
+"reference": "1-1/15-588/2",
+"title": "Eesti Kaubandus-Tööstuskoja arvamus väärtpaberituru seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 588 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-03-27",
+"files": [
+{
+"uuid": "04ade893-0499-4d8f-93d8-aae06b843a52",
+"fileName": "Eesti_Kaubandus-Tööstuskoja_tagasiside_väärtpaberituru_seaduse_muutmise_ja_sellega_seonduvalt_teiste_seaduste_muutmise_seaduse_588_SE_eelnõule_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-27T11:53:37.515",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/04ade893-0499-4d8f-93d8-aae06b843a52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/04ade893-0499-4d8f-93d8-aae06b843a52"
+}
+}
+},
+{
+"uuid": "199f0ae8-eaf7-4bd9-a750-f8efc04eea37",
+"fileName": "27_03_2025_Väärtpaberituru_seaduse_jt_seaduste_muutmise_seadus_588SE_(sooline_tasakaal).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-27T12:53:30.612",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/199f0ae8-eaf7-4bd9-a750-f8efc04eea37/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/199f0ae8-eaf7-4bd9-a750-f8efc04eea37"
+}
+}
+},
+{
+"uuid": "318c3a7c-0fe9-4af4-a899-5d1c4b6fa103",
+"fileName": "27_03_2025_Väärtpaberituru_seaduse_jt_seaduste_muutmise_seadus_588SE_(sooline_tasakaal).docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-03-27T12:53:53.253",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/318c3a7c-0fe9-4af4-a899-5d1c4b6fa103/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/318c3a7c-0fe9-4af4-a899-5d1c4b6fa103"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d80d28a9-f3d5-448c-9880-6b7c2c3d62eb"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [
+{
+"uuid": "af3807b1-8b3e-4e61-8581-50614444204c",
+"reference": "1-2/12-575",
+"title": "Ettepanek: \nEUROOPA PARLAMENDI JA NÕUKOGU DIREKTIIV, \nmilles käsitletakse soolise tasakaalu parandamist börsil noteeritud äriühingute \ntegevjuhtkonda mittekuuluvate juhtorgani liikmete seas ja sellega seotud meetmeid  COM(2012) 614",
+"volumeType": "elVolume",
+"created": "2012-11-19T14:42:42.608",
+"copyOrOriginal": "ORIGINAL",
+"draft": false,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/af3807b1-8b3e-4e61-8581-50614444204c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/864a4f36-c09e-47c1-be33-e00c01cd45e5"
+}
+}
+}

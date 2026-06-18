@@ -1,0 +1,471 @@
+{
+"uuid": "90bd3b87-8890-4878-82f6-dab42925d0ca",
+"title": "Riigikogu otsus „Sündimuse kasvatamise meetmete väljatöötamisest\"",
+"mark": 208,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Sündimuse kasvatamise meetmete väljatöötamisest\" 208 OE",
+"initialTitle": "Riigikogu otsus „Sündimuse kasvatamise meetmete väljatöötamisest\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek töötada välja ja esitada Riigikogule seaduste eelnõud, millega luuakse keskkond, mis toetab sündimuse kasvu Eestis.",
+"initiated": "2023-05-15",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-30T17:15:00",
+"responsibleMember": {
+"uuid": "dea3f114-9d1a-4972-ae8a-76680d465968",
+"name": "Karmen Joller",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/dea3f114-9d1a-4972-ae8a-76680d465968?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "5e677622-3349-497b-b04f-d344eb2e56f7",
+"name": "Kristi Reindla",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/5e677622-3349-497b-b04f-d344eb2e56f7?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2480,
+"text": "sündimuspoliitika"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "cb669e48-1864-4597-9350-033fbc6a231c",
+"title": "208 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5177a83e-59b5-4382-9625-2621169e7f46",
+"fileName": "208_EELNÕU_(2)_(2).docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-30T12:18:30.437",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5177a83e-59b5-4382-9625-2621169e7f46/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5177a83e-59b5-4382-9625-2621169e7f46"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "180ccc92-a166-4283-8a3e-ebd0c8214e84",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "78fc7254-3926-4e87-b84e-97830667d73e",
+"fileName": "208_EELNÕU.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T11:44:31.891",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78fc7254-3926-4e87-b84e-97830667d73e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78fc7254-3926-4e87-b84e-97830667d73e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "180ccc92-a166-4283-8a3e-ebd0c8214e84",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f07607b2-64fd-41fd-a608-ffe551cb772e",
+"fileName": "208E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-15T18:46:12.842",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f07607b2-64fd-41fd-a608-ffe551cb772e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f07607b2-64fd-41fd-a608-ffe551cb772e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "cb669e48-1864-4597-9350-033fbc6a231c",
+"title": "208 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "18bd265d-bcbe-4a78-8af6-0519f8d8af06",
+"fileName": "208_Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-30T12:18:53.561",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/18bd265d-bcbe-4a78-8af6-0519f8d8af06/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/18bd265d-bcbe-4a78-8af6-0519f8d8af06"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "180ccc92-a166-4283-8a3e-ebd0c8214e84",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "34cf7916-39dc-4aa2-a7db-840a4f205f82",
+"fileName": "208_Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-25T11:44:51.427",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/34cf7916-39dc-4aa2-a7db-840a4f205f82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/34cf7916-39dc-4aa2-a7db-840a4f205f82"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "180ccc92-a166-4283-8a3e-ebd0c8214e84",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3e6c868f-f7b6-4991-a62a-eda383e6d4fe",
+"fileName": "208SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-15T18:46:31.702",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e6c868f-f7b6-4991-a62a-eda383e6d4fe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e6c868f-f7b6-4991-a62a-eda383e6d4fe"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-15T17:48:18.96",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-16T13:43:00.827",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-09-26T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 26.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2023-10-10T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Õnne Pillak"
+}
+],
+"protocolFiles": [
+{
+"uuid": "8addd2b3-bfb5-4be2-8133-de48e47d4b68",
+"fileName": "SOM_syndimus_Komisjoni_istung_26.09.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (SOM esitlus_Sündimuse trendid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-22T14:21:31.555",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8addd2b3-bfb5-4be2-8133-de48e47d4b68/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8addd2b3-bfb5-4be2-8133-de48e47d4b68"
+}
+}
+},
+{
+"uuid": "c63b3b7f-8d33-4e42-a5f0-01779b70a3eb",
+"fileName": "SOTK_protokoll_26.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-06T12:43:17.301",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c63b3b7f-8d33-4e42-a5f0-01779b70a3eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c63b3b7f-8d33-4e42-a5f0-01779b70a3eb"
+}
+}
+},
+{
+"uuid": "4fdd12c0-7800-4a6f-a05c-b6f1a871af2d",
+"fileName": "SOTK_protokoll_nr_22_(26.09.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-06T12:40:19.552",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4fdd12c0-7800-4a6f-a05c-b6f1a871af2d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4fdd12c0-7800-4a6f-a05c-b6f1a871af2d"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-13T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 13.06.2024 10:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-09-09T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 9.09.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Karmen Joller"
+}
+],
+"protocolFiles": [
+{
+"uuid": "a6978e04-241e-4a6d-95b6-a4f243bd68c7",
+"fileName": "SOTK_protokoll_09.09.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:17:50.085",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a6978e04-241e-4a6d-95b6-a4f243bd68c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a6978e04-241e-4a6d-95b6-a4f243bd68c7"
+}
+}
+},
+{
+"uuid": "4e4fab1c-cd06-4329-9fce-b5ebfc139e55",
+"fileName": "Asendusliikme_volikiri_(Pikhof).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Pikhof)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:13:21.667",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4e4fab1c-cd06-4329-9fce-b5ebfc139e55/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4e4fab1c-cd06-4329-9fce-b5ebfc139e55"
+}
+}
+},
+{
+"uuid": "ec8f5373-5af9-4314-8b42-75a2bc880721",
+"fileName": "Lisa_(SOM-i_slaidid).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa (SOM-i slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:13:10.595",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec8f5373-5af9-4314-8b42-75a2bc880721/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec8f5373-5af9-4314-8b42-75a2bc880721"
+}
+}
+},
+{
+"uuid": "c3f47230-2c5e-491b-8d77-f45deccaed3c",
+"fileName": "SOTK_protokoll_nr_72_(09.09.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T18:12:11.978",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3f47230-2c5e-491b-8d77-f45deccaed3c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3f47230-2c5e-491b-8d77-f45deccaed3c"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-09-12T11:51:28.945",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2024-09-16T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 16.09.2024 15:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "29b5f5f7-4667-4317-9395-4233afd2bbbb",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-09-16T19:45:04.723",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/29b5f5f7-4667-4317-9395-4233afd2bbbb"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6251b0e5-abe8-46ad-adf5-62959d5d3d89",
+"reference": "1-1/15-53/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuste eelnõu 53 OE, 138 OE, 143 OE, 176 OE ja 208 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-28",
+"files": [
+{
+"uuid": "1b195c2f-13a7-4d42-b061-9d52442542de",
+"fileName": "287.tel_Arvamus_53OE_138OE_143OE_176OE_ja_208OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-28T11:52:31.555",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b195c2f-13a7-4d42-b061-9d52442542de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b195c2f-13a7-4d42-b061-9d52442542de"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6251b0e5-abe8-46ad-adf5-62959d5d3d89"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/90bd3b87-8890-4878-82f6-dab42925d0ca"
+}
+}
+}

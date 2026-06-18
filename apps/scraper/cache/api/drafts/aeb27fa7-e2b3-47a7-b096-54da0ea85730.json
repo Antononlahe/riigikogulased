@@ -1,0 +1,3438 @@
+{
+"uuid": "aeb27fa7-e2b3-47a7-b096-54da0ea85730",
+"title": "Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seadus",
+"mark": 344,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seadus 344 SE",
+"initialTitle": "Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga muudetakse elektroonilise hääletamise regulatsiooni. Korrastatakse õigusliku regulatsiooni, et tagada jätkuv avalikkuse usaldus valimistoimingute vastu. Eelnõuga luuakse õiguslik alus, et lisaks praegu kasutatavatele isikutuvastamise vahenditele saaks võtta kasutusele Smart-ID.",
+"initiated": "2023-11-13",
+"joined": null,
+"accepted": "2024-05-07",
+"amendmentsDeadline": "2023-12-29T16:00:00",
+"responsibleMember": {
+"uuid": "002a9679-e3b0-4bca-a568-0466266af2fc",
+"name": "Hendrik Johannes Terras",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/002a9679-e3b0-4bca-a568-0466266af2fc?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 695,
+"text": "valimised"
+},
+{
+"edid": 8559,
+"text": "e-hääletamine"
+},
+{
+"edid": 5595,
+"text": "isikuandmed"
+},
+{
+"edid": 4182,
+"text": "institutsiooni pädevus"
+},
+{
+"edid": 4359,
+"text": "infosüsteem"
+},
+{
+"edid": 454791,
+"text": "infoturve"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa78cd85-2753-4370-8137-8fddf0ceeaf4",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1857ceb7-e4c6-414a-8b92-bd6426d49b30",
+"fileName": "RK_23-02134-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T15:20:35.289",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1857ceb7-e4c6-414a-8b92-bd6426d49b30/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1857ceb7-e4c6-414a-8b92-bd6426d49b30"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa78cd85-2753-4370-8137-8fddf0ceeaf4",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "09f743eb-7b5f-4230-bb54-c2f539cad21d",
+"fileName": "[EIS]_Eelnõu_esitamine__JUM-23-1170_-_Riigikogu_valimise_seaduse_ja_teiste_seaduste_muutmise_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T15:20:35.452",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/09f743eb-7b5f-4230-bb54-c2f539cad21d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/09f743eb-7b5f-4230-bb54-c2f539cad21d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a3876de9-3171-48df-9c9d-7734242be496",
+"title": "344 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ac2a31e4-7265-4144-a8d2-94acece2f9d5",
+"fileName": "344_RKVS_jt_s_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-21T16:49:26.286",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ac2a31e4-7265-4144-a8d2-94acece2f9d5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ac2a31e4-7265-4144-a8d2-94acece2f9d5"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "3041a809-1cb7-4625-8a8f-c2be42812683",
+"title": "344 SE III",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "04519156-5028-4f14-af82-3c8f95bca665",
+"fileName": "344_RKVS_jt_s_m_s_eelnõu_III_lugemise_tekst.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-30T11:13:38.818",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/04519156-5028-4f14-af82-3c8f95bca665/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/04519156-5028-4f14-af82-3c8f95bca665"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "01922704-6392-4a4c-971c-7fc4a5d850c1",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c332b539-5df1-49b6-9670-95db6812730f",
+"fileName": "344_RKVS_jt_s_m_s_eelnõu_II_lugemise_tekst.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-12T15:05:24.608",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c332b539-5df1-49b6-9670-95db6812730f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c332b539-5df1-49b6-9670-95db6812730f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa78cd85-2753-4370-8137-8fddf0ceeaf4",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "88dd6566-bc44-4587-87b4-e912fda88504",
+"fileName": "Seaduseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T15:20:35.343",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88dd6566-bc44-4587-87b4-e912fda88504/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88dd6566-bc44-4587-87b4-e912fda88504"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa78cd85-2753-4370-8137-8fddf0ceeaf4",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a1a59a34-a6ea-4e68-8d97-d792de6d2d23",
+"fileName": "Seaduseelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T15:20:35.393",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a1a59a34-a6ea-4e68-8d97-d792de6d2d23/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a1a59a34-a6ea-4e68-8d97-d792de6d2d23"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa78cd85-2753-4370-8137-8fddf0ceeaf4",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c5ab8ad0-13fe-4547-8b29-3f0bfb6e0cab",
+"fileName": "23-02134-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T15:20:35.326",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c5ab8ad0-13fe-4547-8b29-3f0bfb6e0cab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c5ab8ad0-13fe-4547-8b29-3f0bfb6e0cab"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "1f1b1a1c-c789-40d5-9e1f-94dea82dcf04",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9d3f9b5c-37d9-496a-8f32-ea2fcc155d00",
+"fileName": "344_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T11:32:48.31",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d3f9b5c-37d9-496a-8f32-ea2fcc155d00/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d3f9b5c-37d9-496a-8f32-ea2fcc155d00"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "d2447b5b-1ab1-49e6-8d03-c73aca892707",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4c092b0a-4577-4807-984e-8b2d259278ab",
+"fileName": "344XV_Riigik_val_ms_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-17T16:13:53.578",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c092b0a-4577-4807-984e-8b2d259278ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c092b0a-4577-4807-984e-8b2d259278ab"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "d2447b5b-1ab1-49e6-8d03-c73aca892707",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "16972336-7a6c-4bb2-8686-07f2652d0711",
+"fileName": "344XV_Riigik_val_ms_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-17T16:13:29.019",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/16972336-7a6c-4bb2-8686-07f2652d0711/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/16972336-7a6c-4bb2-8686-07f2652d0711"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "01922704-6392-4a4c-971c-7fc4a5d850c1",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8708fae5-d0b6-4d5d-b228-2aed33212d8e",
+"fileName": "344_SE_II_muudatusettepanekute_loetelu-1.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-12T15:06:26.388",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8708fae5-d0b6-4d5d-b228-2aed33212d8e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8708fae5-d0b6-4d5d-b228-2aed33212d8e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a3876de9-3171-48df-9c9d-7734242be496",
+"title": "344 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "57007570-6204-4ab0-b04a-26a7d8291b3d",
+"fileName": "344_RKVS_jt_s_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-21T16:50:22.483",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/57007570-6204-4ab0-b04a-26a7d8291b3d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/57007570-6204-4ab0-b04a-26a7d8291b3d"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "01922704-6392-4a4c-971c-7fc4a5d850c1",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "028064fb-c6ba-4aca-8ae1-9cd2b9e05e9a",
+"fileName": "344_SE_II_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-12T15:07:15.922",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/028064fb-c6ba-4aca-8ae1-9cd2b9e05e9a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/028064fb-c6ba-4aca-8ae1-9cd2b9e05e9a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa78cd85-2753-4370-8137-8fddf0ceeaf4",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6d374981-9747-46bf-b21c-31b955428064",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T15:20:35.36",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6d374981-9747-46bf-b21c-31b955428064/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6d374981-9747-46bf-b21c-31b955428064"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa78cd85-2753-4370-8137-8fddf0ceeaf4",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3d6db587-c1da-4a74-82b3-1d8b4708c5af",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T15:20:35.411",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d6db587-c1da-4a74-82b3-1d8b4708c5af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d6db587-c1da-4a74-82b3-1d8b4708c5af"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "a3876de9-3171-48df-9c9d-7734242be496",
+"title": "344 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "457c487a-339f-4946-88ac-dd754048e6f8",
+"fileName": "344_RKVS_jt_s_m_s_SK_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (kooskõlastustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-21T16:51:09.369",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/457c487a-339f-4946-88ac-dd754048e6f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/457c487a-339f-4946-88ac-dd754048e6f8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa78cd85-2753-4370-8137-8fddf0ceeaf4",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "082070cf-6c34-4423-9277-fcef01fa6a33",
+"fileName": "Seletuskirja_lisa.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa (kooskõlastustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T15:20:35.376",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/082070cf-6c34-4423-9277-fcef01fa6a33/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/082070cf-6c34-4423-9277-fcef01fa6a33"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "aa78cd85-2753-4370-8137-8fddf0ceeaf4",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5ef670a0-e6ac-4d62-b37c-d047010c6d04",
+"fileName": "Seletuskirja_lisa.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa (kooskõlastustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-13T15:20:35.427",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ef670a0-e6ac-4d62-b37c-d047010c6d04/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ef670a0-e6ac-4d62-b37c-d047010c6d04"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "86c771c5-b88e-4438-b539-5d4b021a4ddd",
+"reference": "1-1/15-344/37",
+"title": "Vabariigi Presidendi otsus nr 402",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "39203343-1075-4871-96ff-5de7c7554c79",
+"fileName": "VP_17052024_o402.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-17T16:09:40.546",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/39203343-1075-4871-96ff-5de7c7554c79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/39203343-1075-4871-96ff-5de7c7554c79"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "86c771c5-b88e-4438-b539-5d4b021a4ddd",
+"reference": "1-1/15-344/37",
+"title": "Vabariigi Presidendi otsus nr 402",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9d81beb7-2290-4704-9173-304f549f2694",
+"fileName": "VP_17052024_o402.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-17T16:09:40.474",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d81beb7-2290-4704-9173-304f549f2694/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d81beb7-2290-4704-9173-304f549f2694"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "1f1b1a1c-c789-40d5-9e1f-94dea82dcf04",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7d8d13a0-91a2-414a-a3d9-e1b02ef8241d",
+"fileName": "344XV_Riigik_val_ms_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T10:51:26.046",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7d8d13a0-91a2-414a-a3d9-e1b02ef8241d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7d8d13a0-91a2-414a-a3d9-e1b02ef8241d"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "1f1b1a1c-c789-40d5-9e1f-94dea82dcf04",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9e0d4833-87b9-4a66-88ec-ece420196c0f",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T11:35:47.259",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9e0d4833-87b9-4a66-88ec-ece420196c0f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9e0d4833-87b9-4a66-88ec-ece420196c0f"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-11-13T15:20:04.585",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-11-14T13:47:00.501",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-11-21T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 21.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-12-13T14:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Hendrik Johannes Terras"
+}
+],
+"protocolFiles": [
+{
+"uuid": "75a1bc09-b5ac-4903-902a-e223945bb6e4",
+"fileName": "P._Siemann_asendusliige_21.11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-07T21:32:17.291",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75a1bc09-b5ac-4903-902a-e223945bb6e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75a1bc09-b5ac-4903-902a-e223945bb6e4"
+}
+}
+},
+{
+"uuid": "56c1e96f-07b3-4282-a4ec-3bb0864cc793",
+"fileName": "PÕSK_protokoll_21.11.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-28T11:58:29.761",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/56c1e96f-07b3-4282-a4ec-3bb0864cc793/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/56c1e96f-07b3-4282-a4ec-3bb0864cc793"
+}
+}
+},
+{
+"uuid": "38a9e641-f989-4ba3-8357-050bea474c87",
+"fileName": "PÕSK.protokoll.21.11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-28T11:56:28.779",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/38a9e641-f989-4ba3-8357-050bea474c87/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/38a9e641-f989-4ba3-8357-050bea474c87"
+}
+}
+}
+]
+},
+{
+"date": "2023-12-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.12.2023 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "dbd7f463-031e-4152-9000-98e7ddc60a14",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-12-13T19:53:51.34",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/dbd7f463-031e-4152-9000-98e7ddc60a14"
+}
+}
+}
+]
+},
+{
+"date": "2024-01-16T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 16.01.2024 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "59aff30f-a3ab-4bad-8c0a-2315d4ed2856",
+"fileName": "PÕSK.protokoll16.01.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-24T15:33:10.315",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59aff30f-a3ab-4bad-8c0a-2315d4ed2856/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59aff30f-a3ab-4bad-8c0a-2315d4ed2856"
+}
+}
+},
+{
+"uuid": "1969291a-1433-4d6f-bc23-cf6f723f887b",
+"fileName": "PÕSK.protokoll.16.01.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-24T15:29:23.527",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1969291a-1433-4d6f-bc23-cf6f723f887b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1969291a-1433-4d6f-bc23-cf6f723f887b"
+}
+}
+},
+{
+"uuid": "50b076c3-0f5f-4cf9-8ac4-6b5541a31d79",
+"fileName": "Asendusliikme_volikiri_A.Seeme_16.01.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-24T15:38:18.484",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/50b076c3-0f5f-4cf9-8ac4-6b5541a31d79/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/50b076c3-0f5f-4cf9-8ac4-6b5541a31d79"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-11T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 11.03.2024 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "600e2721-9a7b-47ba-a245-b7f3413bd322",
+"fileName": "PÕSK_protokoll.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T14:40:53.277",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/600e2721-9a7b-47ba-a245-b7f3413bd322/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/600e2721-9a7b-47ba-a245-b7f3413bd322"
+}
+}
+},
+{
+"uuid": "fd093b1b-47cd-44bd-86bd-2254acc4e233",
+"fileName": "PÕSK_protokoll_nr_43_(11.03.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T14:40:15.465",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fd093b1b-47cd-44bd-86bd-2254acc4e233/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fd093b1b-47cd-44bd-86bd-2254acc4e233"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-18T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.03.2024 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "19b1116d-54c7-4f2c-9c06-009c671e276a",
+"fileName": "PÕSK_protokoll.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-27T11:15:56.188",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/19b1116d-54c7-4f2c-9c06-009c671e276a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/19b1116d-54c7-4f2c-9c06-009c671e276a"
+}
+}
+},
+{
+"uuid": "afdd1a2d-3914-4c1d-a1fe-00e74ee5fef5",
+"fileName": "PÕSK_protokoll_nr_45_(18.03.2024).pdf",
+"fileExtension": "pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-27T11:15:00.026",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/afdd1a2d-3914-4c1d-a1fe-00e74ee5fef5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/afdd1a2d-3914-4c1d-a1fe-00e74ee5fef5"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.03.2024 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "6c96dc49-f8cc-4494-8a19-6066fdcfd660",
+"fileName": "PÕSK_protokoll.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-27T11:17:31.821",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c96dc49-f8cc-4494-8a19-6066fdcfd660/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c96dc49-f8cc-4494-8a19-6066fdcfd660"
+}
+}
+},
+{
+"uuid": "624c6a5e-0ea8-4c58-9e38-e3f0d1afe6fe",
+"fileName": "PÕSK_protokoll_nr_46_(19.03.2024).pdf",
+"fileExtension": "pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-27T11:17:02.007",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/624c6a5e-0ea8-4c58-9e38-e3f0d1afe6fe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/624c6a5e-0ea8-4c58-9e38-e3f0d1afe6fe"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-09T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 9.04.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-04-16T10:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-04-30T10:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "d41cf01f-14b3-47fb-b607-8abec38e012f",
+"fileName": "PÕSK_protokoll_nr_50.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T15:30:04.494",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d41cf01f-14b3-47fb-b607-8abec38e012f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d41cf01f-14b3-47fb-b607-8abec38e012f"
+}
+}
+},
+{
+"uuid": "f4af7833-5738-43ea-b500-aca138f1c5a4",
+"fileName": "Lisa_1_KAVAND_344_SE_II_muudatusettepanekute_loetelu.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T15:29:04.531",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f4af7833-5738-43ea-b500-aca138f1c5a4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f4af7833-5738-43ea-b500-aca138f1c5a4"
+}
+}
+},
+{
+"uuid": "6b49d21e-c537-498d-8bf4-1bbd6a694d7f",
+"fileName": "PÕSK_protokoll_nr_50_(09.04.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-16T15:28:28.054",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b49d21e-c537-498d-8bf4-1bbd6a694d7f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b49d21e-c537-498d-8bf4-1bbd6a694d7f"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-17T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 17.04.2024 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": [
+{
+"uuid": "eda3b4a2-19aa-418e-9d16-b2f50bda2522",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "1. muudatusettepanek",
+"startDateTime": "2024-04-17T19:18:29.89",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/eda3b4a2-19aa-418e-9d16-b2f50bda2522"
+}
+}
+},
+{
+"uuid": "51c94084-7d65-42d5-975d-bb5be57010d1",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "2. muudatusettepanek",
+"startDateTime": "2024-04-17T19:45:00.23",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/51c94084-7d65-42d5-975d-bb5be57010d1"
+}
+}
+},
+{
+"uuid": "67fac488-cb80-4eec-a21a-89e57cf9b06d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "3. muudatusettepanek",
+"startDateTime": "2024-04-17T19:56:23.947",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/67fac488-cb80-4eec-a21a-89e57cf9b06d"
+}
+}
+},
+{
+"uuid": "a710c715-8688-4cb0-a17d-5ebfeca592e7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "4. muudatusettepanek",
+"startDateTime": "2024-04-17T20:07:35.023",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a710c715-8688-4cb0-a17d-5ebfeca592e7"
+}
+}
+},
+{
+"uuid": "76f8b069-cb33-4c5a-9f46-7119f4cf299b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "5. muudatusettepanek",
+"startDateTime": "2024-04-17T20:18:51.687",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/76f8b069-cb33-4c5a-9f46-7119f4cf299b"
+}
+}
+},
+{
+"uuid": "907bd7d5-30f1-4dfd-9507-85dd4942865a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "6. muudatusettepanek",
+"startDateTime": "2024-04-17T20:30:15.577",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/907bd7d5-30f1-4dfd-9507-85dd4942865a"
+}
+}
+},
+{
+"uuid": "a108a565-8303-4e3a-bc37-504415dc22c8",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "7. muudatusettepanek",
+"startDateTime": "2024-04-17T20:41:32.86",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a108a565-8303-4e3a-bc37-504415dc22c8"
+}
+}
+},
+{
+"uuid": "2e241dc1-22b3-470f-a5d9-ac5b1432dcc1",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Eriarvamuse hääletamine",
+"startDateTime": "2024-04-17T22:14:41.05",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/2e241dc1-22b3-470f-a5d9-ac5b1432dcc1"
+}
+}
+},
+{
+"uuid": "023d5371-1d08-4b8a-8d4b-1064c3a5bd22",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "13. muudatusettepanek",
+"startDateTime": "2024-04-17T22:18:13.91",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/023d5371-1d08-4b8a-8d4b-1064c3a5bd22"
+}
+}
+},
+{
+"uuid": "3ec50601-1e11-4c79-b794-1c61622e2086",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "14. muudatusettepanek",
+"startDateTime": "2024-04-17T22:19:05.38",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/3ec50601-1e11-4c79-b794-1c61622e2086"
+}
+}
+},
+{
+"uuid": "6f3c1a29-0014-473a-820e-85a74e0aa785",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "15. muudatusettepanek",
+"startDateTime": "2024-04-17T22:19:54.15",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/6f3c1a29-0014-473a-820e-85a74e0aa785"
+}
+}
+},
+{
+"uuid": "4073f99d-6212-48a7-a11a-89287eea8858",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "16. muudatusettepanek",
+"startDateTime": "2024-04-17T22:20:44.29",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/4073f99d-6212-48a7-a11a-89287eea8858"
+}
+}
+},
+{
+"uuid": "42be9974-b6ec-4dc1-902a-c1ac762b9fcc",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "67. muudatusettepanek",
+"startDateTime": "2024-04-17T22:26:36.76",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/42be9974-b6ec-4dc1-902a-c1ac762b9fcc"
+}
+}
+},
+{
+"uuid": "e84916d5-4911-4112-880d-5be2114165e4",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "II lugemise katkestamine",
+"startDateTime": "2024-04-17T22:43:02.597",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/e84916d5-4911-4112-880d-5be2114165e4"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-07T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 7.05.2024 10:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "405f0b59-d165-4382-9bd8-2954a3b304b9",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-07T10:48:37.3",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/405f0b59-d165-4382-9bd8-2954a3b304b9"
+}
+}
+},
+{
+"uuid": "ef524e92-1620-439d-b97f-66d9824ae41c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-07T10:47:20.33",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/ef524e92-1620-439d-b97f-66d9824ae41c"
+}
+}
+},
+{
+"uuid": "7273a220-02f6-4252-a619-4b18fd0f9887",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-07T10:52:10.447",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/7273a220-02f6-4252-a619-4b18fd0f9887"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-05-07T12:59:40.741",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-05-17T16:11:10.859",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-05-24T09:28:01.069",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "65d5743d-d8c7-4fb9-9dc9-2426212d8d1f",
+"reference": "1-1/15-344/32",
+"title": "Rahandusministeeriumi arvamus Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-02-13",
+"files": [
+{
+"uuid": "ff3fcda5-5dc7-4365-af32-e7c43d0c6dc3",
+"fileName": "Eelnõu_344_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-13T16:42:58.205",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ff3fcda5-5dc7-4365-af32-e7c43d0c6dc3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ff3fcda5-5dc7-4365-af32-e7c43d0c6dc3"
+}
+}
+},
+{
+"uuid": "95012758-ab87-4777-943e-26271d023752",
+"fileName": "Kaasamiskiri_eelnõule_344_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-13T16:42:58.184",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/95012758-ab87-4777-943e-26271d023752/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/95012758-ab87-4777-943e-26271d023752"
+}
+}
+},
+{
+"uuid": "1ee0f8b9-bef1-4664-8bb2-b8b5d650f268",
+"fileName": "1.1-11441-2_13.02.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-13T16:42:58.088",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1ee0f8b9-bef1-4664-8bb2-b8b5d650f268/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1ee0f8b9-bef1-4664-8bb2-b8b5d650f268"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/65d5743d-d8c7-4fb9-9dc9-2426212d8d1f"
+}
+}
+},
+{
+"uuid": "9f783582-ec8e-4fca-928f-d54e437f1224",
+"reference": "1-1/15-344/1",
+"title": "Arvamuse küsimine seaduse eelnõu 344 SE (RKVS muutmise ja ...) kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-22",
+"files": [
+{
+"uuid": "214441e7-6746-482c-99a8-bef330ec8774",
+"fileName": "Arvamuse_küsimine_seaduse_eelnõu_344_SE_(RKVS_muutmise_ja_...)_kohta.html",
+"fileExtension": "html",
+"fileTitle": "E-kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-22T15:40:13.38",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/214441e7-6746-482c-99a8-bef330ec8774/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/214441e7-6746-482c-99a8-bef330ec8774"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9f783582-ec8e-4fca-928f-d54e437f1224"
+}
+}
+},
+{
+"uuid": "513a3fce-b80c-4747-bffa-969502924d38",
+"reference": "1-1/15-344/28",
+"title": "Vabariigi Valimiskomisjoni arvamus Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-12-29",
+"files": [
+{
+"uuid": "c8efe259-c386-4dec-a35c-3c5409c9fb96",
+"fileName": "VVK_PÕSK.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T16:15:34.432",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8efe259-c386-4dec-a35c-3c5409c9fb96/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8efe259-c386-4dec-a35c-3c5409c9fb96"
+}
+}
+},
+{
+"uuid": "bfa26c64-8fee-4d5e-9322-207c438ccb51",
+"fileName": "VVK_PÕSK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T16:15:45.29",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bfa26c64-8fee-4d5e-9322-207c438ccb51/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bfa26c64-8fee-4d5e-9322-207c438ccb51"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/513a3fce-b80c-4747-bffa-969502924d38"
+}
+}
+},
+{
+"uuid": "7985a4fc-8457-4295-9def-67c2b09e93a0",
+"reference": "1-1/15-344/30",
+"title": "Eesti Linnade ja Valdade Liidu arvamus Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-01-11",
+"files": [
+{
+"uuid": "59e9fc91-88d8-48f5-83e1-dbcc5004a716",
+"fileName": "ELVL_RK_valimisseaduste_muutm_ettepanek_(344_SE)_11.01.24.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-11T17:18:30.808",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59e9fc91-88d8-48f5-83e1-dbcc5004a716/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59e9fc91-88d8-48f5-83e1-dbcc5004a716"
+}
+}
+},
+{
+"uuid": "91350ff4-0c8e-419c-99f0-3e09590ff3dc",
+"fileName": "ELVL_RK_valimisseaduste_muutm_ettepanek_(344_SE)_11.01.24.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-11T17:18:30.736",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91350ff4-0c8e-419c-99f0-3e09590ff3dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91350ff4-0c8e-419c-99f0-3e09590ff3dc"
+}
+}
+},
+{
+"uuid": "f9bd6eb7-373c-43d0-8cc2-3c0a21f11e8d",
+"fileName": "FW__Kaasamiskiri_seaduse_eelnõule_344_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-11T17:18:30.833",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f9bd6eb7-373c-43d0-8cc2-3c0a21f11e8d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f9bd6eb7-373c-43d0-8cc2-3c0a21f11e8d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7985a4fc-8457-4295-9def-67c2b09e93a0"
+}
+}
+},
+{
+"uuid": "7f3d0c35-7a1d-45ea-a7e3-f3b8ec73f26d",
+"reference": "1-1/15-344/31",
+"title": "Kaasamiskiri Rahandusministeeriumile Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-01-30",
+"files": [
+{
+"uuid": "d96461bd-2e38-44dc-b45a-fbb238ea9ab2",
+"fileName": "VVK_PÕSK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-30T10:59:50.073",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d96461bd-2e38-44dc-b45a-fbb238ea9ab2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d96461bd-2e38-44dc-b45a-fbb238ea9ab2"
+}
+}
+},
+{
+"uuid": "eb80c78f-ef72-43b6-b22e-e9a016df7507",
+"fileName": "VVK_PÕSK.asice",
+"fileExtension": "asice",
+"fileTitle": "Lisa asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-30T10:59:37.185",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb80c78f-ef72-43b6-b22e-e9a016df7507/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb80c78f-ef72-43b6-b22e-e9a016df7507"
+}
+}
+},
+{
+"uuid": "6851642c-7e84-4ad0-bafd-034326526c8b",
+"fileName": "PÕSK_344SE_30012024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-30T10:56:27.266",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6851642c-7e84-4ad0-bafd-034326526c8b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6851642c-7e84-4ad0-bafd-034326526c8b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7f3d0c35-7a1d-45ea-a7e3-f3b8ec73f26d"
+}
+}
+},
+{
+"uuid": "882e2661-41e5-4651-a453-b84b827fbbef",
+"reference": "12-19/23-40/4",
+"title": "Riigi valimisteenistuse ja Vabariigi Valimiskomisjoni ettepanekud seaduseelnõule 344 SE",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-15",
+"files": [
+{
+"uuid": "ec8d619f-a703-40b3-9b1f-eaed47e4930e",
+"fileName": "põhiseaduskomisjon.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Ettepanekud seaduseelnõule",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-15T18:03:40.213",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ec8d619f-a703-40b3-9b1f-eaed47e4930e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ec8d619f-a703-40b3-9b1f-eaed47e4930e"
+}
+}
+},
+{
+"uuid": "7643e0bc-1cfe-4732-8951-c66000d2b5fc",
+"fileName": "põhiseaduskomisjon.asice",
+"fileExtension": "asice",
+"fileTitle": "Ettepanekud seaduseelnõule",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-15T18:02:54.974",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7643e0bc-1cfe-4732-8951-c66000d2b5fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7643e0bc-1cfe-4732-8951-c66000d2b5fc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/882e2661-41e5-4651-a453-b84b827fbbef"
+}
+}
+},
+{
+"uuid": "adabeaaa-3a12-41f0-8d33-3cb0314ea7d3",
+"reference": "1-1/15-344/36",
+"title": "PÕSK vastuskiri MTÜ Ausad Valimised arvamusele",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-02",
+"files": [
+{
+"uuid": "da99c38e-0262-4695-ab36-3966106b0abc",
+"fileName": "POSK_01052024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T12:47:09.266",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da99c38e-0262-4695-ab36-3966106b0abc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da99c38e-0262-4695-ab36-3966106b0abc"
+}
+}
+},
+{
+"uuid": "c42b903f-8cdf-472f-b3fe-267b56296c4e",
+"fileName": "1-1-15-344-36_-_PÕSK_vastuskiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Väljaminev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-02T12:50:16.24",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c42b903f-8cdf-472f-b3fe-267b56296c4e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c42b903f-8cdf-472f-b3fe-267b56296c4e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/adabeaaa-3a12-41f0-8d33-3cb0314ea7d3"
+}
+}
+},
+{
+"uuid": "730dba77-9a6d-423d-acbf-4dbff2297f0a",
+"reference": "1-1/15-344/27",
+"title": "Riigi valimisteenistuse arvamus Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-12-29",
+"files": [
+{
+"uuid": "13d32dc1-25d1-43ae-aa84-c4780722363e",
+"fileName": "RVT_PÕSK.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T15:45:44.015",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/13d32dc1-25d1-43ae-aa84-c4780722363e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/13d32dc1-25d1-43ae-aa84-c4780722363e"
+}
+}
+},
+{
+"uuid": "421cecbb-b04d-445e-9f95-c3f27a26edbc",
+"fileName": "RVT_PÕSK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T15:45:56.867",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/421cecbb-b04d-445e-9f95-c3f27a26edbc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/421cecbb-b04d-445e-9f95-c3f27a26edbc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/730dba77-9a6d-423d-acbf-4dbff2297f0a"
+}
+}
+},
+{
+"uuid": "f713f210-ba8a-40e4-b0e0-6632abb1730a",
+"reference": "1-1/15-344/29",
+"title": "Kaasamiskiri  Eesti Linnade ja Valdade Liidule Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-01-09",
+"files": [
+{
+"uuid": "480e21b5-5ccf-470b-8329-40d653fd487f",
+"fileName": "Kaasamiskiri_seaduse_eelnõule_344_SE.html",
+"fileExtension": "html",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-09T14:29:39.871",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/480e21b5-5ccf-470b-8329-40d653fd487f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/480e21b5-5ccf-470b-8329-40d653fd487f"
+}
+}
+},
+{
+"uuid": "90ffc297-fb0b-46da-a332-822c1725de20",
+"fileName": "Arvamus_RVT_PÕSK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-09T14:29:39.857",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/90ffc297-fb0b-46da-a332-822c1725de20/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/90ffc297-fb0b-46da-a332-822c1725de20"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f713f210-ba8a-40e4-b0e0-6632abb1730a"
+}
+}
+},
+{
+"uuid": "2c2f033c-e64c-4c48-8e63-44ac84293ffe",
+"reference": "1-1/15-344/33",
+"title": "Kaasamiskiri eelnõule 344 SE",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-26",
+"files": [
+{
+"uuid": "4c9796d2-63d1-4d55-94d4-803e56144801",
+"fileName": "põhiseaduskomisjon.asice",
+"fileExtension": "asice",
+"fileTitle": "Lisa asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-26T11:35:03.543",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4c9796d2-63d1-4d55-94d4-803e56144801/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4c9796d2-63d1-4d55-94d4-803e56144801"
+}
+}
+},
+{
+"uuid": "c16de232-dd72-4cff-bd81-227d2616be90",
+"fileName": "põhiseaduskomisjon.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-26T11:35:03.621",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c16de232-dd72-4cff-bd81-227d2616be90/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c16de232-dd72-4cff-bd81-227d2616be90"
+}
+}
+},
+{
+"uuid": "cd4d3cca-91b5-451a-8299-62eab8255bbf",
+"fileName": "Kaasamiskiri_eelnõule_344_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-26T11:35:03.643",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd4d3cca-91b5-451a-8299-62eab8255bbf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd4d3cca-91b5-451a-8299-62eab8255bbf"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2c2f033c-e64c-4c48-8e63-44ac84293ffe"
+}
+}
+},
+{
+"uuid": "7144d9dc-d308-49b0-b59a-a0413c2e695e",
+"reference": "1-1/15-344/34",
+"title": "Rahandusministeeriumi arvamus Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-26",
+"files": [
+{
+"uuid": "9da39e42-2059-4e79-b412-807f13836d07",
+"fileName": "Kaasamiskiri_eelnõule_344_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-26T11:38:14.516",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9da39e42-2059-4e79-b412-807f13836d07/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9da39e42-2059-4e79-b412-807f13836d07"
+}
+}
+},
+{
+"uuid": "9126f9bc-1bf3-49ab-ad50-b44fde00bc8d",
+"fileName": "1.1-11441-4_26.03.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-26T11:38:14.43",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9126f9bc-1bf3-49ab-ad50-b44fde00bc8d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9126f9bc-1bf3-49ab-ad50-b44fde00bc8d"
+}
+}
+},
+{
+"uuid": "83dae319-d2f7-4b41-b192-519f93c157b9",
+"fileName": "Eelnõu_344_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-26T11:38:14.534",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83dae319-d2f7-4b41-b192-519f93c157b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83dae319-d2f7-4b41-b192-519f93c157b9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7144d9dc-d308-49b0-b59a-a0413c2e695e"
+}
+}
+},
+{
+"uuid": "bffcdfd1-2d6b-4fb5-9b0d-34c561bf97ed",
+"reference": "1-1/15-344/35",
+"title": "MTÜ Ausad Valimised arvamus Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-12",
+"files": [
+{
+"uuid": "4fde6f3f-4417-4089-aa66-dfe04c0f4453",
+"fileName": "Ettepanekud_valitsuse_e-hääletuse_eelnõule_nr_344.txt",
+"fileExtension": "txt",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-12T11:48:48.751",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4fde6f3f-4417-4089-aa66-dfe04c0f4453/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4fde6f3f-4417-4089-aa66-dfe04c0f4453"
+}
+}
+},
+{
+"uuid": "f67a4d8e-4314-4975-9c72-37b54969d69c",
+"fileName": "vaatlejate_yhisavaldus_31.03.2023.pdf",
+"fileExtension": "pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-12T11:48:48.737",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f67a4d8e-4314-4975-9c72-37b54969d69c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f67a4d8e-4314-4975-9c72-37b54969d69c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/bffcdfd1-2d6b-4fb5-9b0d-34c561bf97ed"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "c42cfe97-fef0-4c87-9593-c82f0fa7ccf9",
+"reference": "1-1/15-344/2",
+"title": "Riigikogu liikme K. Grünthali muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "9d8d7a3b-0fda-49de-b99f-0a76f09231c2",
+"fileName": "18._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.957",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d8d7a3b-0fda-49de-b99f-0a76f09231c2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d8d7a3b-0fda-49de-b99f-0a76f09231c2"
+}
+}
+},
+{
+"uuid": "6741e952-a0ac-4aa3-b304-66482b951430",
+"fileName": "21._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:28.004",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6741e952-a0ac-4aa3-b304-66482b951430/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6741e952-a0ac-4aa3-b304-66482b951430"
+}
+}
+},
+{
+"uuid": "b8839545-c896-48d9-8028-b2690c376159",
+"fileName": "11._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.859",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b8839545-c896-48d9-8028-b2690c376159/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b8839545-c896-48d9-8028-b2690c376159"
+}
+}
+},
+{
+"uuid": "a3b5bd2d-c580-4754-b993-b80518e6cbb5",
+"fileName": "6._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.792",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a3b5bd2d-c580-4754-b993-b80518e6cbb5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a3b5bd2d-c580-4754-b993-b80518e6cbb5"
+}
+}
+},
+{
+"uuid": "f3bc972f-1609-47df-a84e-4cd19fd65531",
+"fileName": "20._344SE_muudatusettepanekute(1).docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.985",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3bc972f-1609-47df-a84e-4cd19fd65531/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3bc972f-1609-47df-a84e-4cd19fd65531"
+}
+}
+},
+{
+"uuid": "e75e8f77-9457-468a-97ff-1ba28106ba3c",
+"fileName": "3._Muudatusettepanek.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.753",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e75e8f77-9457-468a-97ff-1ba28106ba3c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e75e8f77-9457-468a-97ff-1ba28106ba3c"
+}
+}
+},
+{
+"uuid": "7a6cfe34-bdf3-4f22-917f-c04364d12000",
+"fileName": "K_Grünthal_344SE_ME.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:13.631",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a6cfe34-bdf3-4f22-917f-c04364d12000/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a6cfe34-bdf3-4f22-917f-c04364d12000"
+}
+}
+},
+{
+"uuid": "dea42542-4133-4013-b192-56edba594f32",
+"fileName": "4._Muudatusettepanek.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.766",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dea42542-4133-4013-b192-56edba594f32/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dea42542-4133-4013-b192-56edba594f32"
+}
+}
+},
+{
+"uuid": "b309c39a-6306-46e7-aeb3-baaa1201a5af",
+"fileName": "7._Muudatusettepanek.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.805",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b309c39a-6306-46e7-aeb3-baaa1201a5af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b309c39a-6306-46e7-aeb3-baaa1201a5af"
+}
+}
+},
+{
+"uuid": "54c911c1-2121-4367-97fa-85f267640ae8",
+"fileName": "16._Muudatusettepanek.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.928",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/54c911c1-2121-4367-97fa-85f267640ae8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/54c911c1-2121-4367-97fa-85f267640ae8"
+}
+}
+},
+{
+"uuid": "b479ef5a-7332-4e93-9062-70f606b02409",
+"fileName": "10._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.846",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b479ef5a-7332-4e93-9062-70f606b02409/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b479ef5a-7332-4e93-9062-70f606b02409"
+}
+}
+},
+{
+"uuid": "4929d35b-821f-41f0-9380-3fc8c414fd29",
+"fileName": "12._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.873",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4929d35b-821f-41f0-9380-3fc8c414fd29/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4929d35b-821f-41f0-9380-3fc8c414fd29"
+}
+}
+},
+{
+"uuid": "e15a9a08-28cb-4bcb-baaa-e93667d7c7b9",
+"fileName": "2._Muudatusettepanek.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.739",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e15a9a08-28cb-4bcb-baaa-e93667d7c7b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e15a9a08-28cb-4bcb-baaa-e93667d7c7b9"
+}
+}
+},
+{
+"uuid": "691cabd3-a240-4621-a415-e8e56f59a5f2",
+"fileName": "9._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.833",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/691cabd3-a240-4621-a415-e8e56f59a5f2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/691cabd3-a240-4621-a415-e8e56f59a5f2"
+}
+}
+},
+{
+"uuid": "e07b07da-a85b-496f-a96b-a29e3d8f90fa",
+"fileName": "13._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.886",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e07b07da-a85b-496f-a96b-a29e3d8f90fa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e07b07da-a85b-496f-a96b-a29e3d8f90fa"
+}
+}
+},
+{
+"uuid": "c6e80bce-c646-483e-98e7-d673910dceea",
+"fileName": "8._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.819",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c6e80bce-c646-483e-98e7-d673910dceea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c6e80bce-c646-483e-98e7-d673910dceea"
+}
+}
+},
+{
+"uuid": "9afdc4f8-1d1f-4660-80f6-a0abe2f95d05",
+"fileName": "1._Muudatusettepanek.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.725",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9afdc4f8-1d1f-4660-80f6-a0abe2f95d05/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9afdc4f8-1d1f-4660-80f6-a0abe2f95d05"
+}
+}
+},
+{
+"uuid": "b3de89ba-aa72-4510-a8ae-a15a30c0a5e1",
+"fileName": "22._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:28.019",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b3de89ba-aa72-4510-a8ae-a15a30c0a5e1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b3de89ba-aa72-4510-a8ae-a15a30c0a5e1"
+}
+}
+},
+{
+"uuid": "130b0557-120f-40d8-82e2-8852a8fd9c72",
+"fileName": "15._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.914",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/130b0557-120f-40d8-82e2-8852a8fd9c72/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/130b0557-120f-40d8-82e2-8852a8fd9c72"
+}
+}
+},
+{
+"uuid": "8cabd13d-b390-474a-b1b1-cfaa02108b57",
+"fileName": "5._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.779",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8cabd13d-b390-474a-b1b1-cfaa02108b57/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8cabd13d-b390-474a-b1b1-cfaa02108b57"
+}
+}
+},
+{
+"uuid": "0da27859-e4df-4f77-b8cc-852a874ef10c",
+"fileName": "14._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.899",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0da27859-e4df-4f77-b8cc-852a874ef10c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0da27859-e4df-4f77-b8cc-852a874ef10c"
+}
+}
+},
+{
+"uuid": "22ec3f05-d1e4-4de3-8116-90117ee130ef",
+"fileName": "17._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.943",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22ec3f05-d1e4-4de3-8116-90117ee130ef/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22ec3f05-d1e4-4de3-8116-90117ee130ef"
+}
+}
+},
+{
+"uuid": "4013af75-8c2a-4155-92e9-7724dc591de8",
+"fileName": "19._Muudatusettepanekud.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-27T12:39:27.971",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4013af75-8c2a-4155-92e9-7724dc591de8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4013af75-8c2a-4155-92e9-7724dc591de8"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c42cfe97-fef0-4c87-9593-c82f0fa7ccf9"
+}
+}
+},
+{
+"uuid": "e1cad61c-9271-498e-9181-6b89f5bdc530",
+"reference": "1-1/15-344/3",
+"title": "Isamaa fraktsiooni muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "cde312d6-e541-445b-ba98-502b184c258b",
+"fileName": "Isamaa_MEd_eelnõu_344_kohta_v2.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T11:20:34.111",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cde312d6-e541-445b-ba98-502b184c258b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cde312d6-e541-445b-ba98-502b184c258b"
+}
+}
+},
+{
+"uuid": "3040fdc4-f65c-4eb2-8a66-e8ff42446408",
+"fileName": "Isamaa_MEd_eelnõu_344_kohta_v2.doc",
+"fileExtension": "doc",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T11:20:44.074",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3040fdc4-f65c-4eb2-8a66-e8ff42446408/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3040fdc4-f65c-4eb2-8a66-e8ff42446408"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e1cad61c-9271-498e-9181-6b89f5bdc530"
+}
+}
+},
+{
+"uuid": "583b239b-5a93-43bd-baa8-c3f9a5bef98a",
+"reference": "1-1/15-344/4",
+"title": "Riigikogu liikme A. Poolametsa muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "84989897-08c4-4525-9755-8d3dae554a82",
+"fileName": "ME_344SE_A.Poolamets.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T12:55:37.259",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/84989897-08c4-4525-9755-8d3dae554a82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/84989897-08c4-4525-9755-8d3dae554a82"
+}
+}
+},
+{
+"uuid": "91c2a5d4-2bcc-4af2-bc60-e9828397937c",
+"fileName": "ME_344SE_A.Poolamets.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T12:55:45.796",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91c2a5d4-2bcc-4af2-bc60-e9828397937c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91c2a5d4-2bcc-4af2-bc60-e9828397937c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/583b239b-5a93-43bd-baa8-c3f9a5bef98a"
+}
+}
+},
+{
+"uuid": "bddd39cd-45cb-4aa7-957f-ff8fdd3c77b7",
+"reference": "1-1/15-344/5",
+"title": "Riigikogu liikme A. Alleri muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "f31c96ee-b173-4c66-b4c8-8a04eb979836",
+"fileName": "ME_344SE_Aller.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T12:58:04.587",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f31c96ee-b173-4c66-b4c8-8a04eb979836/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f31c96ee-b173-4c66-b4c8-8a04eb979836"
+}
+}
+},
+{
+"uuid": "f3bf9af7-21c0-4d21-b2a5-470a975e256b",
+"fileName": "ME_344SE_Aller.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T12:58:13.5",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3bf9af7-21c0-4d21-b2a5-470a975e256b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3bf9af7-21c0-4d21-b2a5-470a975e256b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/bddd39cd-45cb-4aa7-957f-ff8fdd3c77b7"
+}
+}
+},
+{
+"uuid": "01055196-1a3f-40b0-91ab-86592986b2ee",
+"reference": "1-1/15-344/6",
+"title": "Riigikogu liikme E. Poolametsa muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "24029053-ca75-4767-9f71-d8927e32a8db",
+"fileName": "ME_344SE_E.Poolamets.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T12:59:19.476",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24029053-ca75-4767-9f71-d8927e32a8db/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24029053-ca75-4767-9f71-d8927e32a8db"
+}
+}
+},
+{
+"uuid": "38832a5c-028d-4398-972a-e8008ab57204",
+"fileName": "ME_344SE_E.Poolamets.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T12:59:30.299",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/38832a5c-028d-4398-972a-e8008ab57204/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/38832a5c-028d-4398-972a-e8008ab57204"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/01055196-1a3f-40b0-91ab-86592986b2ee"
+}
+}
+},
+{
+"uuid": "af225f7d-e1c0-416c-a046-b837a98df642",
+"reference": "1-1/15-344/7",
+"title": "Riigikogu liikmete E. Poolametsa ja H. Põlluaasa muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "8fdb5ef8-5349-4cd5-bd0c-4cb0b2cf2a57",
+"fileName": "ME_344SE_E.Poolamets_Polluaas.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:04:33.465",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8fdb5ef8-5349-4cd5-bd0c-4cb0b2cf2a57/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8fdb5ef8-5349-4cd5-bd0c-4cb0b2cf2a57"
+}
+}
+},
+{
+"uuid": "9f2f33c3-723d-4180-9c1d-a03acfaef9c6",
+"fileName": "ME_344SE_E.Poolamets_Polluaas.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:04:41.286",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9f2f33c3-723d-4180-9c1d-a03acfaef9c6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9f2f33c3-723d-4180-9c1d-a03acfaef9c6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/af225f7d-e1c0-416c-a046-b837a98df642"
+}
+}
+},
+{
+"uuid": "c3526e7e-b123-4b80-8acd-6d886b70805f",
+"reference": "1-1/15-344/8",
+"title": "Riigikogu liikme R. Epleri muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "935d987b-3918-4cac-bf58-0a025ba23c86",
+"fileName": "ME_344SE_Epler.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:06:10.828",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/935d987b-3918-4cac-bf58-0a025ba23c86/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/935d987b-3918-4cac-bf58-0a025ba23c86"
+}
+}
+},
+{
+"uuid": "d6fcbfa4-a152-48e7-8610-73ffd2fc713a",
+"fileName": "ME_344SE_Epler.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:06:19.89",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d6fcbfa4-a152-48e7-8610-73ffd2fc713a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d6fcbfa4-a152-48e7-8610-73ffd2fc713a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c3526e7e-b123-4b80-8acd-6d886b70805f"
+}
+}
+},
+{
+"uuid": "0f63982a-f18b-4339-85d5-35167b0ab9a2",
+"reference": "1-1/15-344/9",
+"title": "Riigikogu liikmete H.-M. Helme ja A. Alleri muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "bc013146-3931-4cb0-84e4-b50ec5ec0d28",
+"fileName": "ME_344SE_H.-M.Helme_Aller.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:08:06.27",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc013146-3931-4cb0-84e4-b50ec5ec0d28/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc013146-3931-4cb0-84e4-b50ec5ec0d28"
+}
+}
+},
+{
+"uuid": "42b558d4-93d1-43c3-a0dd-54b15d307bec",
+"fileName": "ME_344SE_H.-M.Helme_Aller.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:08:19.807",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/42b558d4-93d1-43c3-a0dd-54b15d307bec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/42b558d4-93d1-43c3-a0dd-54b15d307bec"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0f63982a-f18b-4339-85d5-35167b0ab9a2"
+}
+}
+},
+{
+"uuid": "73d5d9ab-219f-4bf3-9fb5-bfe245fb6ce4",
+"reference": "1-1/15-344/10",
+"title": "Riigikogu liikmete H.-M. Helme ja K. Kingo muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "bb70cb3f-93f5-4d15-b764-4edc17fd0f03",
+"fileName": "ME_344SE_H.-M.Helme_Kingo.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:09:49.238",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bb70cb3f-93f5-4d15-b764-4edc17fd0f03/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bb70cb3f-93f5-4d15-b764-4edc17fd0f03"
+}
+}
+},
+{
+"uuid": "1be56704-c17e-45db-9424-7b8fbab8edb0",
+"fileName": "ME_344SE_H.-M.Helme_Kingo.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:09:41.191",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1be56704-c17e-45db-9424-7b8fbab8edb0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1be56704-c17e-45db-9424-7b8fbab8edb0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/73d5d9ab-219f-4bf3-9fb5-bfe245fb6ce4"
+}
+}
+},
+{
+"uuid": "d3e6d4a1-e049-4d47-9814-9c5148f5c256",
+"reference": "1-1/15-344/11",
+"title": "Riigikogu liikmete Mart Helme ja H.-M. Helme muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "da614a07-58de-41ae-b793-464219c108f9",
+"fileName": "ME_344SE_H.-M.Helme_MartHelme.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:11:07.234",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da614a07-58de-41ae-b793-464219c108f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da614a07-58de-41ae-b793-464219c108f9"
+}
+}
+},
+{
+"uuid": "1796a8ed-b6cc-44e5-8273-9273e9d74eae",
+"fileName": "ME_344SE_H.-M.Helme_MartHelme.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:11:15.97",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1796a8ed-b6cc-44e5-8273-9273e9d74eae/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1796a8ed-b6cc-44e5-8273-9273e9d74eae"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d3e6d4a1-e049-4d47-9814-9c5148f5c256"
+}
+}
+},
+{
+"uuid": "b25ca7d6-9348-4c3b-8a0f-9170ac364c65",
+"reference": "1-1/15-344/12",
+"title": "Riigikogu liikme K. Kingo muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "ada79f3e-7554-482a-bfe4-db24bcc2dcfc",
+"fileName": "ME_344SE_Kingo.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:12:30.22",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ada79f3e-7554-482a-bfe4-db24bcc2dcfc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ada79f3e-7554-482a-bfe4-db24bcc2dcfc"
+}
+}
+},
+{
+"uuid": "3690e41e-482a-4ebf-828c-cf93f4686c63",
+"fileName": "ME_344SE_Kingo.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:12:40.639",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3690e41e-482a-4ebf-828c-cf93f4686c63/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3690e41e-482a-4ebf-828c-cf93f4686c63"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b25ca7d6-9348-4c3b-8a0f-9170ac364c65"
+}
+}
+},
+{
+"uuid": "e1db2f3e-fcd0-4599-94c5-a251739427ff",
+"reference": "1-1/15-344/13",
+"title": "Riigikogu liikme R. Koka muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "447764b2-c137-4396-9eae-b28d1cceaa81",
+"fileName": "ME_344SE_Kokk.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:13:47.138",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/447764b2-c137-4396-9eae-b28d1cceaa81/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/447764b2-c137-4396-9eae-b28d1cceaa81"
+}
+}
+},
+{
+"uuid": "1ea3a8b2-6d76-4a92-a680-952f80fc7777",
+"fileName": "ME_344SE_Kokk.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:13:39.125",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1ea3a8b2-6d76-4a92-a680-952f80fc7777/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1ea3a8b2-6d76-4a92-a680-952f80fc7777"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e1db2f3e-fcd0-4599-94c5-a251739427ff"
+}
+}
+},
+{
+"uuid": "df540ba4-217c-406d-8603-bac8124f21b3",
+"reference": "1-1/15-344/14",
+"title": "Riigikogu liikmete R. Koka ja K. Kingo muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "8a2c45d4-17fd-4b9a-9886-39b9225b5d4f",
+"fileName": "ME_344SE_Kokk_Kingo.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:14:56.773",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8a2c45d4-17fd-4b9a-9886-39b9225b5d4f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8a2c45d4-17fd-4b9a-9886-39b9225b5d4f"
+}
+}
+},
+{
+"uuid": "e350d8fb-70a4-4690-a7bd-c060dc700389",
+"fileName": "ME_344SE_Kokk_Kingo.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:15:05.633",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e350d8fb-70a4-4690-a7bd-c060dc700389/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e350d8fb-70a4-4690-a7bd-c060dc700389"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/df540ba4-217c-406d-8603-bac8124f21b3"
+}
+}
+},
+{
+"uuid": "251679c0-4d28-4c42-a9ea-90c06cfc51ec",
+"reference": "1-1/15-344/15",
+"title": "Riigikogu liikme L. Kunnase muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "32c35d31-ad02-4461-8f0c-b6458d2f0a51",
+"fileName": "ME_344SE_Kunnas.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:16:34.552",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/32c35d31-ad02-4461-8f0c-b6458d2f0a51/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/32c35d31-ad02-4461-8f0c-b6458d2f0a51"
+}
+}
+},
+{
+"uuid": "35b58171-842a-4502-82d1-f83529b5209b",
+"fileName": "ME_344SE_Kunnas.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:16:46.593",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35b58171-842a-4502-82d1-f83529b5209b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35b58171-842a-4502-82d1-f83529b5209b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/251679c0-4d28-4c42-a9ea-90c06cfc51ec"
+}
+}
+},
+{
+"uuid": "7eb5e51b-7f7d-4271-b7ab-f392619ade27",
+"reference": "1-1/15-344/16",
+"title": "Riigikogu liikmete L. Kunnase ja A. Lanemani muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "d475b478-931a-451b-93da-1baec5dea502",
+"fileName": "ME_344SE_Kunnas_Laneman.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:19:16.538",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d475b478-931a-451b-93da-1baec5dea502/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d475b478-931a-451b-93da-1baec5dea502"
+}
+}
+},
+{
+"uuid": "627ea9eb-153a-4724-beff-6872354c0caa",
+"fileName": "ME_344SE_Kunnas_Laneman.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:19:24.825",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/627ea9eb-153a-4724-beff-6872354c0caa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/627ea9eb-153a-4724-beff-6872354c0caa"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7eb5e51b-7f7d-4271-b7ab-f392619ade27"
+}
+}
+},
+{
+"uuid": "fa776713-9f31-4cbd-ac75-faad9e948f8c",
+"reference": "1-1/15-344/17",
+"title": "Riigikogu liikme A. Lanemani muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "e91ee06e-b585-4466-b857-9a9659a359f4",
+"fileName": "ME_344SE_Laneman.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:21:11.662",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e91ee06e-b585-4466-b857-9a9659a359f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e91ee06e-b585-4466-b857-9a9659a359f4"
+}
+}
+},
+{
+"uuid": "1091cd8a-d725-42ec-a607-32cc45fd6e7e",
+"fileName": "ME_344SE_Laneman.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:21:22.904",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1091cd8a-d725-42ec-a607-32cc45fd6e7e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1091cd8a-d725-42ec-a607-32cc45fd6e7e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/fa776713-9f31-4cbd-ac75-faad9e948f8c"
+}
+}
+},
+{
+"uuid": "7ef18c19-3929-45e7-841a-b9f5bf62790e",
+"reference": "1-1/15-344/18",
+"title": "Riigikogu liikme Martin Helme muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "e8a4f814-2fb7-45cd-84b3-fe3fd7d8c71f",
+"fileName": "ME_344SE_MartinHelme.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:22:55.488",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8a4f814-2fb7-45cd-84b3-fe3fd7d8c71f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8a4f814-2fb7-45cd-84b3-fe3fd7d8c71f"
+}
+}
+},
+{
+"uuid": "bdbd4099-6767-4ec3-98a0-7b61814b83c9",
+"fileName": "ME_344SE_MartinHelme.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:23:04.698",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bdbd4099-6767-4ec3-98a0-7b61814b83c9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bdbd4099-6767-4ec3-98a0-7b61814b83c9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7ef18c19-3929-45e7-841a-b9f5bf62790e"
+}
+}
+},
+{
+"uuid": "e676351c-9689-4e18-806a-fff849311cfe",
+"reference": "1-1/15-344/19",
+"title": "Riigikogu liikmete Martin Helme ja A. Alleri muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "77a72138-8141-4469-8b37-1f6cea5f5955",
+"fileName": "ME_344SE_MartinHelme_Aller.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:25:07.397",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/77a72138-8141-4469-8b37-1f6cea5f5955/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/77a72138-8141-4469-8b37-1f6cea5f5955"
+}
+}
+},
+{
+"uuid": "990b7071-e986-4257-9d18-3014b018f49b",
+"fileName": "ME_344SE_MartinHelme_Aller.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:24:55.597",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/990b7071-e986-4257-9d18-3014b018f49b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/990b7071-e986-4257-9d18-3014b018f49b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e676351c-9689-4e18-806a-fff849311cfe"
+}
+}
+},
+{
+"uuid": "e2b8607b-6618-40af-9d0d-e44650d836f4",
+"reference": "1-1/15-344/20",
+"title": "Riigikogu liikmete Martin Helme ja R. Epleri muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "59bce23c-9259-46c4-8ec0-06ed2eb9cde9",
+"fileName": "ME_344SE_MartinHelme_Epler.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:26:34.979",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59bce23c-9259-46c4-8ec0-06ed2eb9cde9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59bce23c-9259-46c4-8ec0-06ed2eb9cde9"
+}
+}
+},
+{
+"uuid": "65eb7741-291c-48b7-bea7-e747d98c3d13",
+"fileName": "ME_344SE_MartinHelme_Epler.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:26:45.643",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/65eb7741-291c-48b7-bea7-e747d98c3d13/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/65eb7741-291c-48b7-bea7-e747d98c3d13"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e2b8607b-6618-40af-9d0d-e44650d836f4"
+}
+}
+},
+{
+"uuid": "166b318d-b4a5-4934-b502-61d806b229de",
+"reference": "1-1/15-344/21",
+"title": "Riigikogu liikme S. Pohlaku muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "ca375719-6f77-4134-9867-e30efddf5528",
+"fileName": "ME_344SE_Pohlak.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:28:00.133",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca375719-6f77-4134-9867-e30efddf5528/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca375719-6f77-4134-9867-e30efddf5528"
+}
+}
+},
+{
+"uuid": "7cf6101b-c877-49af-badc-8ec35d6c1b85",
+"fileName": "ME_344SE_Pohlak.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:28:21.065",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7cf6101b-c877-49af-badc-8ec35d6c1b85/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7cf6101b-c877-49af-badc-8ec35d6c1b85"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/166b318d-b4a5-4934-b502-61d806b229de"
+}
+}
+},
+{
+"uuid": "94066212-d97e-4154-8af3-279a4305dfc0",
+"reference": "1-1/15-344/22",
+"title": "Riigikogu liikmete S. Pohlaku ja R. Epleri muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "b7bb4868-b4a3-4dbd-9b5c-bc0957700423",
+"fileName": "ME_344SE_Pohlak_Epler.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:29:33.725",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7bb4868-b4a3-4dbd-9b5c-bc0957700423/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7bb4868-b4a3-4dbd-9b5c-bc0957700423"
+}
+}
+},
+{
+"uuid": "7a75414f-c53b-40a9-870f-8f004ba39f00",
+"fileName": "ME_344SE_Pohlak_Epler.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:29:42.423",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a75414f-c53b-40a9-870f-8f004ba39f00/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a75414f-c53b-40a9-870f-8f004ba39f00"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/94066212-d97e-4154-8af3-279a4305dfc0"
+}
+}
+},
+{
+"uuid": "c8a9f964-3e81-4d1d-a2ba-3d4be6233775",
+"reference": "1-1/15-344/23",
+"title": "Riigikogu liikmete S. Pohlaku ja V. Vooglaiu muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "8b09686d-fe51-468a-b28f-66c2abe1ce08",
+"fileName": "ME_344SE_Pohlak_Vooglaid.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:31:15.441",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b09686d-fe51-468a-b28f-66c2abe1ce08/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b09686d-fe51-468a-b28f-66c2abe1ce08"
+}
+}
+},
+{
+"uuid": "53f3fee1-06fe-47a7-aad3-c7f1962dcadb",
+"fileName": "ME_344SE_Pohlak_Vooglaid.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:34:17.87",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/53f3fee1-06fe-47a7-aad3-c7f1962dcadb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/53f3fee1-06fe-47a7-aad3-c7f1962dcadb"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c8a9f964-3e81-4d1d-a2ba-3d4be6233775"
+}
+}
+},
+{
+"uuid": "b48bced9-8daf-4a3c-ac82-7dcc54a77585",
+"reference": "1-1/15-344/24",
+"title": "Riigikogu liikme J. Valge muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "47bdb5e7-b803-4c72-8cf9-27b1888a7fda",
+"fileName": "ME_344SE_Valge.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:35:54.825",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/47bdb5e7-b803-4c72-8cf9-27b1888a7fda/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/47bdb5e7-b803-4c72-8cf9-27b1888a7fda"
+}
+}
+},
+{
+"uuid": "92d84e70-d2bc-4d2a-8fc5-a9be93813ea6",
+"fileName": "ME_344SE_Valge.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:35:29.185",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92d84e70-d2bc-4d2a-8fc5-a9be93813ea6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92d84e70-d2bc-4d2a-8fc5-a9be93813ea6"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b48bced9-8daf-4a3c-ac82-7dcc54a77585"
+}
+}
+},
+{
+"uuid": "3f716180-f00b-457b-a69c-dadbfdd2225d",
+"reference": "1-1/15-344/25",
+"title": "Riigikogu liikmete J. Valge ja V. Vooglaiu muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "31291035-ed5b-42a7-841b-be912b3fbe9e",
+"fileName": "ME_344SE_Valge_Vooglaid.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:37:08.972",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/31291035-ed5b-42a7-841b-be912b3fbe9e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/31291035-ed5b-42a7-841b-be912b3fbe9e"
+}
+}
+},
+{
+"uuid": "7b14fe30-20b1-4c58-b1ae-aeee0afd16fb",
+"fileName": "ME_344SE_Valge_Vooglaid.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:37:31.256",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7b14fe30-20b1-4c58-b1ae-aeee0afd16fb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7b14fe30-20b1-4c58-b1ae-aeee0afd16fb"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3f716180-f00b-457b-a69c-dadbfdd2225d"
+}
+}
+},
+{
+"uuid": "9eb77ff6-9efb-4417-9934-cf9415ae3d6f",
+"reference": "1-1/15-344/26",
+"title": "Riigikogu liikme V. Vooglaiu muudatusettepanekud Riigikogu valimise seaduse muutmise ja sellega seonduvalt teiste seaduste muutmise seaduse eelnõu 344 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "4ebb88e4-4366-47c9-be85-0893afe3ef98",
+"fileName": "ME_344SE_Vooglaid.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:39:46.957",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4ebb88e4-4366-47c9-be85-0893afe3ef98/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4ebb88e4-4366-47c9-be85-0893afe3ef98"
+}
+}
+},
+{
+"uuid": "800e02e7-ea24-412f-a349-db1d683b46a5",
+"fileName": "ME_344SE_Vooglaid.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-29T13:40:00.056",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/800e02e7-ea24-412f-a349-db1d683b46a5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/800e02e7-ea24-412f-a349-db1d683b46a5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9eb77ff6-9efb-4417-9934-cf9415ae3d6f"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/aeb27fa7-e2b3-47a7-b096-54da0ea85730"
+}
+}
+}

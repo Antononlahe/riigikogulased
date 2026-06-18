@@ -1,0 +1,533 @@
+{
+"uuid": "e25637dd-e890-4819-8784-bc57744a7d31",
+"title": "Välismaalaste seaduse muutmise seadus",
+"mark": 45,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Välismaalaste seaduse muutmise seadus 45 SE",
+"initialTitle": "Välismaalaste seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on luua õiguslik alus Venemaa Ukraina vastase agressioonisõja avalike toetajate elamislubade tühistamiseks ning välistada sellistele inimestele ka uute elamislubade ja viisade andmine.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0c571754-914d-406a-baba-6734212353de",
+"name": "Urve Tiidus",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0c571754-914d-406a-baba-6734212353de?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "b483f709-afa6-4dd9-a8d5-46345c917272",
+"name": "Karin Tuulik",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/b483f709-afa6-4dd9-a8d5-46345c917272?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4005,
+"text": "välismaalaste riiki lubamine"
+},
+{
+"edid": 4003,
+"text": "välisriigi kodanik"
+},
+{
+"edid": 4004,
+"text": "elamisluba"
+},
+{
+"edid": 3993,
+"text": "riigi julgeoleku ohustamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "15b3e0ab-7e76-4320-86cb-6980efdfb495",
+"title": "45 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b645939a-7f97-4e54-bd37-45c67b5ae32b",
+"fileName": "43_VMS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-19T16:17:15.695",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b645939a-7f97-4e54-bd37-45c67b5ae32b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b645939a-7f97-4e54-bd37-45c67b5ae32b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "636fd9a5-0a97-4010-96d9-1444277b7fc7",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "323855fd-e0c6-4ffe-8599-cc3192c26453",
+"fileName": "45_Välismaalaste_seadus.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T13:10:00.701",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/323855fd-e0c6-4ffe-8599-cc3192c26453/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/323855fd-e0c6-4ffe-8599-cc3192c26453"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "636fd9a5-0a97-4010-96d9-1444277b7fc7",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "863fa8d8-3327-418b-a0d4-488b6e4718b3",
+"fileName": "45_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T11:54:07.602",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/863fa8d8-3327-418b-a0d4-488b6e4718b3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/863fa8d8-3327-418b-a0d4-488b6e4718b3"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "15b3e0ab-7e76-4320-86cb-6980efdfb495",
+"title": "45 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "898ba494-6556-441c-a173-82f69de72f3e",
+"fileName": "45_VMS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-19T16:17:29.142",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/898ba494-6556-441c-a173-82f69de72f3e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/898ba494-6556-441c-a173-82f69de72f3e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "636fd9a5-0a97-4010-96d9-1444277b7fc7",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0a3785e2-658b-4024-9fdb-c6c2d5bb3e42",
+"fileName": "45_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T11:54:18.892",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0a3785e2-658b-4024-9fdb-c6c2d5bb3e42/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0a3785e2-658b-4024-9fdb-c6c2d5bb3e42"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T20:32:09.915",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:17:00.631",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-27T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Urve Tiidus"
+}
+],
+"protocolFiles": [
+{
+"uuid": "7a9abd67-73de-42cd-b791-6dccbca1792d",
+"fileName": "Volikiri_A.Allas_asendusliige_19.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:50:38.884",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a9abd67-73de-42cd-b791-6dccbca1792d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a9abd67-73de-42cd-b791-6dccbca1792d"
+}
+}
+},
+{
+"uuid": "3e1f3d8f-de95-4fee-b7b9-ba6207e6ce5b",
+"fileName": "Asendusliige_H.Kütt_19092023-1.docx",
+"fileExtension": "docx",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:50:49.921",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e1f3d8f-de95-4fee-b7b9-ba6207e6ce5b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e1f3d8f-de95-4fee-b7b9-ba6207e6ce5b"
+}
+}
+},
+{
+"uuid": "cd1026a1-c9ab-4a9c-9c6a-f5f782fea4f9",
+"fileName": "T._Suslov_asendusliige_19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-11T12:48:01.054",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd1026a1-c9ab-4a9c-9c6a-f5f782fea4f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd1026a1-c9ab-4a9c-9c6a-f5f782fea4f9"
+}
+}
+},
+{
+"uuid": "ffd2cca2-111c-426f-a7fd-8998e10a4295",
+"fileName": "PÕSK.protokoll.19.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:58:05.029",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ffd2cca2-111c-426f-a7fd-8998e10a4295/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ffd2cca2-111c-426f-a7fd-8998e10a4295"
+}
+}
+}
+]
+},
+{
+"date": "2023-10-11T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 11.10.2023 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "94ca61c9-c004-41ae-aaa5-070a09ad24b2",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-10-11T23:47:26.757",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/94ca61c9-c004-41ae-aaa5-070a09ad24b2"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "eda993dc-f75d-4c1a-b334-4da2f8af016d",
+"reference": "1-1/15-45/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 45 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-10",
+"files": [
+{
+"uuid": "f2a2b962-9f3f-4167-8013-468c6e32e50f",
+"fileName": "45_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:47:52.042",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2a2b962-9f3f-4167-8013-468c6e32e50f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2a2b962-9f3f-4167-8013-468c6e32e50f"
+}
+}
+},
+{
+"uuid": "bd64054f-b952-419d-a278-b908f01b4289",
+"fileName": "230511_VMS_I_(2).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T11:40:06.919",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bd64054f-b952-419d-a278-b908f01b4289/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bd64054f-b952-419d-a278-b908f01b4289"
+}
+}
+},
+{
+"uuid": "e5bcfc1f-21b9-4155-85d9-bc83638f6920",
+"fileName": "45_VMS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:46:58.901",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e5bcfc1f-21b9-4155-85d9-bc83638f6920/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e5bcfc1f-21b9-4155-85d9-bc83638f6920"
+}
+}
+},
+{
+"uuid": "0622379f-efec-4aa8-916c-18d42c89d746",
+"fileName": "45_VMS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:47:14.699",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0622379f-efec-4aa8-916c-18d42c89d746/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0622379f-efec-4aa8-916c-18d42c89d746"
+}
+}
+},
+{
+"uuid": "04beab1e-9519-4903-a9d1-976516dfd759",
+"fileName": "1-1-15-45-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_45_SE_kohta.asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T11:40:39.404",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/04beab1e-9519-4903-a9d1-976516dfd759/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/04beab1e-9519-4903-a9d1-976516dfd759"
+}
+}
+},
+{
+"uuid": "1336538d-c521-4b7c-9db3-442760af581a",
+"fileName": "45_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:47:27.08",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1336538d-c521-4b7c-9db3-442760af581a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1336538d-c521-4b7c-9db3-442760af581a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/eda993dc-f75d-4c1a-b334-4da2f8af016d"
+}
+}
+},
+{
+"uuid": "e031984f-7908-410a-902a-5da2bb60c194",
+"reference": "1-1/15-45/2",
+"title": "Vabariigi Valitsuse arvamus välismaalaste seaduse muutmise seaduse eelnõu 45 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-19",
+"files": [
+{
+"uuid": "0dd062c7-9796-464d-9a16-19fbc59bbd82",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine_välismaalaste_seaduse_muutmise_seaduse_eelnõu_(45_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-19T22:22:38.659",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0dd062c7-9796-464d-9a16-19fbc59bbd82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0dd062c7-9796-464d-9a16-19fbc59bbd82"
+}
+}
+},
+{
+"uuid": "d5e50673-1c5b-4978-bf2b-5a947783efc2",
+"fileName": "1-798-4_19.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-19T22:22:38.632",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d5e50673-1c5b-4978-bf2b-5a947783efc2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d5e50673-1c5b-4978-bf2b-5a947783efc2"
+}
+}
+},
+{
+"uuid": "d97b778a-b5fb-4234-b23d-0e2b7143dd3b",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0489_-_Välismaalaste_seaduse_muutmise_seaduse_eelnõu_(45_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-19T22:22:38.679",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d97b778a-b5fb-4234-b23d-0e2b7143dd3b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d97b778a-b5fb-4234-b23d-0e2b7143dd3b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e031984f-7908-410a-902a-5da2bb60c194"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/e25637dd-e890-4819-8784-bc57744a7d31"
+}
+}
+}

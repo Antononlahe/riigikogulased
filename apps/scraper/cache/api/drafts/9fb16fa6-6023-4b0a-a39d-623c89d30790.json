@@ -1,0 +1,463 @@
+{
+"uuid": "9fb16fa6-6023-4b0a-a39d-623c89d30790",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele prokuratuuri üle teenistusliku järelevalve teostamise tõhustamiseks\"",
+"mark": 280,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele prokuratuuri üle teenistusliku järelevalve teostamise tõhustamiseks\" 280 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele prokuratuuri üle teenistusliku järelevalve teostamise tõhustamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärgiks on kohustada valitsust viima seadusandlusesse sisse õigus Justiitsministeeriumil teostada prokuratuuri üle teenistuslikku järelevalvet ilma kitsendavate piiranguteta ja laiendada distsiplinaarmenetluse algatamiseks taotluse esitamise õigust omavate isikute ringi.",
+"initiated": "2023-09-20",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-10-05T17:15:00",
+"responsibleMember": {
+"uuid": "966e7ccd-b097-4e49-923c-c8d39dae2d62",
+"name": "Valdo Randpere",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/966e7ccd-b097-4e49-923c-c8d39dae2d62?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "441c3c51-2f08-47f3-a36c-e4b310e17e78",
+"name": "Raini Laide",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/441c3c51-2f08-47f3-a36c-e4b310e17e78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1938,
+"text": "prokuratuur"
+},
+{
+"edid": 5945,
+"text": "haldusjärelevalve"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1fdea5f3-8668-4896-8ea7-7b14be52a070",
+"title": "Ettepaneku tegemine Vabariigi Valitsusele prokuratuuri üle teenistusliku järelevalve teostamise tõhustamiseks\"",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4d613659-03c8-4ab7-834f-b0a271a3f2c7",
+"fileName": "280_OE_ProkS_eelnõu_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T16:38:56.751",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4d613659-03c8-4ab7-834f-b0a271a3f2c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4d613659-03c8-4ab7-834f-b0a271a3f2c7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "635a0175-72ad-419e-9840-45f39e70ccff",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6b0b55bd-41c5-473c-a6fc-e95e8ec8b823",
+"fileName": "280_OE_ProkS_eelnõu_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:31:00.531",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b0b55bd-41c5-473c-a6fc-e95e8ec8b823/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b0b55bd-41c5-473c-a6fc-e95e8ec8b823"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "635a0175-72ad-419e-9840-45f39e70ccff",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c3192e5e-efb0-46b2-b1fd-e3123cbde5bd",
+"fileName": "280E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:01:14.341",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c3192e5e-efb0-46b2-b1fd-e3123cbde5bd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c3192e5e-efb0-46b2-b1fd-e3123cbde5bd"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1fdea5f3-8668-4896-8ea7-7b14be52a070",
+"title": "Ettepaneku tegemine Vabariigi Valitsusele prokuratuuri üle teenistusliku järelevalve teostamise tõhustamiseks\"",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4d9f50c5-277b-4fd8-8c38-ebb126c7af44",
+"fileName": "280_OE_ProkS_seletuskiri_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T16:39:37.39",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4d9f50c5-277b-4fd8-8c38-ebb126c7af44/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4d9f50c5-277b-4fd8-8c38-ebb126c7af44"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "635a0175-72ad-419e-9840-45f39e70ccff",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e8229b0e-d032-4eaa-bba0-b356865da0bf",
+"fileName": "280_OE_ProkS_seletuskiri_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:31:12.503",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8229b0e-d032-4eaa-bba0-b356865da0bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8229b0e-d032-4eaa-bba0-b356865da0bf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "635a0175-72ad-419e-9840-45f39e70ccff",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "45072189-6a98-4f31-91d2-2dffa9990ffc",
+"fileName": "280SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:01:30.126",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/45072189-6a98-4f31-91d2-2dffa9990ffc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/45072189-6a98-4f31-91d2-2dffa9990ffc"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-09-20T15:38:35.742",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-09-21T16:10:00.528",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-11-21T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 21.11.2023 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "b4f6fb58-8ac9-4194-b671-f14edc995c3b",
+"fileName": "Vilja_Toomast_asendusliikme_volitus_(21.11).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volitus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-05T09:55:52.433",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4f6fb58-8ac9-4194-b671-f14edc995c3b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4f6fb58-8ac9-4194-b671-f14edc995c3b"
+}
+}
+},
+{
+"uuid": "6b9d7341-6aff-4591-a837-23f1f41dadcf",
+"fileName": "ÕIGK_protokoll_21.11.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-05T09:55:09.68",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b9d7341-6aff-4591-a837-23f1f41dadcf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b9d7341-6aff-4591-a837-23f1f41dadcf"
+}
+}
+},
+{
+"uuid": "0764a5fe-5af9-4910-be5c-1f5394eac413",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_26.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-05T09:52:56.752",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0764a5fe-5af9-4910-be5c-1f5394eac413/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0764a5fe-5af9-4910-be5c-1f5394eac413"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-03-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.03.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-04-03T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+},
+"description": "Vastuvõtmiseks nõutav koosseisu häälteenamus ehk vähemalt 51 poolthäält."
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Valdo Randpere"
+}
+],
+"protocolFiles": [
+{
+"uuid": "eff9b55c-d89e-42db-ab49-1b7635c0560b",
+"fileName": "ÕIGK_protokoll_12.03.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-15T10:13:20.268",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eff9b55c-d89e-42db-ab49-1b7635c0560b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eff9b55c-d89e-42db-ab49-1b7635c0560b"
+}
+}
+},
+{
+"uuid": "fb7793c5-8f15-4768-a317-41b0454efb0b",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_35.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-15T10:12:28.093",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb7793c5-8f15-4768-a317-41b0454efb0b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb7793c5-8f15-4768-a317-41b0454efb0b"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-03T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 3.04.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "4abfca1c-253c-436e-ae0a-16ea8aedfe1c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-04-03T15:29:29.18",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/4abfca1c-253c-436e-ae0a-16ea8aedfe1c"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [
+{
+"uuid": "b78f7d2c-fae0-432d-9309-bf0d5ccac13e",
+"reference": "1-1/15-280/1",
+"title": "Eesti Konservatiivse Rahvaerakonna fraktsiooni muudatusettepanekud riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele prokuratuuri üle teenistusliku järelevalve teostamise tõhustamiseks“ eelnõu 280 OE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "3e1c44ac-d4df-4fb7-be45-0f1ab2510eb4",
+"fileName": "EKRE_280_ME_tagasiv._22022024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "ME tagasivõtmine",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-22T14:14:43.442",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e1c44ac-d4df-4fb7-be45-0f1ab2510eb4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e1c44ac-d4df-4fb7-be45-0f1ab2510eb4"
+}
+}
+},
+{
+"uuid": "ad8049de-e1ef-4b37-8847-459e6802c64f",
+"fileName": "ME_280OE_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T13:47:44.222",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ad8049de-e1ef-4b37-8847-459e6802c64f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ad8049de-e1ef-4b37-8847-459e6802c64f"
+}
+}
+},
+{
+"uuid": "076f5886-f5f3-4f7e-88b1-2a83dcc27806",
+"fileName": "ME_280OE_EKREfr.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T13:47:36.527",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/076f5886-f5f3-4f7e-88b1-2a83dcc27806/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/076f5886-f5f3-4f7e-88b1-2a83dcc27806"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/b78f7d2c-fae0-432d-9309-bf0d5ccac13e"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9fb16fa6-6023-4b0a-a39d-623c89d30790"
+}
+}
+}

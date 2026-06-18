@@ -1,0 +1,357 @@
+{
+"uuid": "8cda26b1-aa6d-46b3-990f-77ee89a40013",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 5-le protsendile\"",
+"mark": 492,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 5-le protsendile\" 492 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 5-le protsendile\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse ettepanek langetada 5-le protsendile toidukaupade, jookide ja muude selliste inimestele tarbimiseks mõeldud toorainete (välja arvatud alkohol ja tubakatooted) ja nende valmistamiseks või säilitamiseks kasutatavate maitseainete, säilitusainete, värv- ja muude lisaainete käibemaks. Samuti tehakse ettepanek langetada 5-le protsendile sööda- ja segasööda ning nende valmistamiseks kasutatavate tooraine- ja lisaaine, loomade toiduainena kasutatavate tööstuse jäätmed ning sööda tooraine käibemaks. Veel tehakse ettepanek langetada 5-le protsendile ka restorani- ja toitlustusteenuste käibemaks.",
+"initiated": "2024-09-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2024-09-24T17:15:00",
+"responsibleMember": {
+"uuid": "798de8ee-0587-4543-aa2e-89c3f6c8f914",
+"name": "Marek Reinaas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/798de8ee-0587-4543-aa2e-89c3f6c8f914?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9a65131f-6b0d-433f-8866-c8d8f3f2859a",
+"name": "Kristo Varend",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9a65131f-6b0d-433f-8866-c8d8f3f2859a?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4392,
+"text": "käibemaksumäär"
+},
+{
+"edid": 2735,
+"text": "toiduained"
+},
+{
+"edid": 1277,
+"text": "loomasöödad"
+},
+{
+"edid": 1373,
+"text": "toitlustustööstus"
+},
+{
+"edid": 365,
+"text": "maksuvähendus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "05443954-f50b-447c-8608-b1de3f171a25",
+"title": "492 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "92c1f9eb-64db-4ac6-b596-3d178d30f29a",
+"fileName": "492_Ettepanek_VVle_toiduainete_km_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-17T15:02:07.811",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92c1f9eb-64db-4ac6-b596-3d178d30f29a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92c1f9eb-64db-4ac6-b596-3d178d30f29a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f50a45f5-0979-4bf0-bba1-763fa4a3f997",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "87f98225-fb6f-4a81-ae76-8418a743fb56",
+"fileName": "2024.09.10OE_toiduainete_käibemaks.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-10T10:05:57.635",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/87f98225-fb6f-4a81-ae76-8418a743fb56/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/87f98225-fb6f-4a81-ae76-8418a743fb56"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f50a45f5-0979-4bf0-bba1-763fa4a3f997",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4077d699-fa8f-4edf-a599-3315d3183385",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-10T11:05:36.716",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4077d699-fa8f-4edf-a599-3315d3183385/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4077d699-fa8f-4edf-a599-3315d3183385"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "05443954-f50b-447c-8608-b1de3f171a25",
+"title": "492 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1180d6c4-f402-43a7-9d81-44e7765e0253",
+"fileName": "492_Ettepanek_VVle_toiduainete_km_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-17T15:02:20.584",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1180d6c4-f402-43a7-9d81-44e7765e0253/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1180d6c4-f402-43a7-9d81-44e7765e0253"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f50a45f5-0979-4bf0-bba1-763fa4a3f997",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8b3d7727-104f-45d8-8c9d-96754122a535",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-10T11:05:51.232",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8b3d7727-104f-45d8-8c9d-96754122a535/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8b3d7727-104f-45d8-8c9d-96754122a535"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-09-10T10:05:22.148",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-09-10T13:48:00.852",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-09-17T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 17.09.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-11-05T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Marek Reinaas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "f4c723ee-630d-451d-a205-f76bfb7632e4",
+"fileName": "RAHK_protokoll_nr_107_17.09.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T14:57:35.374",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f4c723ee-630d-451d-a205-f76bfb7632e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f4c723ee-630d-451d-a205-f76bfb7632e4"
+}
+}
+},
+{
+"uuid": "0bee315e-55d4-4a19-9619-9299502bca2e",
+"fileName": "RAHK_protokoll_17.09.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-23T14:58:19.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0bee315e-55d4-4a19-9619-9299502bca2e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0bee315e-55d4-4a19-9619-9299502bca2e"
+}
+}
+}
+]
+},
+{
+"date": "2024-11-07T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 7.11.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "6349c58d-73df-4a98-8783-2c7569e6f37a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-11-07T10:51:41.787",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/6349c58d-73df-4a98-8783-2c7569e6f37a"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "2cb6cba5-bea0-4236-b408-dba73e4b655f",
+"reference": "1-1/15-492/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele toiduainete käibemaksu langetamiseks 5-le protsendile\" eelnõu 492 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-04",
+"files": [
+{
+"uuid": "49aa0505-1a4b-47ab-b9df-75e8e3e3d552",
+"fileName": "314.tel_Arvamus_492_OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-04T09:47:56.576",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/49aa0505-1a4b-47ab-b9df-75e8e3e3d552/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/49aa0505-1a4b-47ab-b9df-75e8e3e3d552"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2cb6cba5-bea0-4236-b408-dba73e4b655f"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/8cda26b1-aa6d-46b3-990f-77ee89a40013"
+}
+}
+}

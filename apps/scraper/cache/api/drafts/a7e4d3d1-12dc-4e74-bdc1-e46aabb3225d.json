@@ -1,0 +1,541 @@
+{
+"uuid": "a7e4d3d1-12dc-4e74-bdc1-e46aabb3225d",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele mitte tunnustada Venemaa Föderatsiooni presidendivalimiste tulemusi\"",
+"mark": 395,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele mitte tunnustada Venemaa Föderatsiooni presidendivalimiste tulemusi\" 395 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele mitte tunnustada Vene Föderatsiooni presidendivalimiste tulemusi\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": "2024-03-14",
+"joined": null,
+"accepted": "2024-06-03",
+"amendmentsDeadline": "2024-03-28T17:15:00",
+"responsibleMember": {
+"uuid": "b2226516-4cd4-4471-b93b-696c40b7a9e2",
+"name": "Eerik-Niiles Kross",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/b2226516-4cd4-4471-b93b-696c40b7a9e2?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad",
+"name": "Ivar Mölder",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/d11c7dfc-54a0-4f95-aee1-e569ad8fa9ad?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "356a272f-ee00-4e88-31c9-8ab5c460efbf",
+"name": "Väliskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/356a272f-ee00-4e88-31c9-8ab5c460efbf?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5876,
+"text": "Venemaa"
+},
+{
+"edid": 704,
+"text": "presidendivalimised"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "58d8ac6e-ee12-4d70-9b21-01ac53b11a96",
+"title": "395 OE I lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b32a3490-f5f9-4d0d-af3e-18a453b1ab84",
+"fileName": "395_OE_I_(eelnõu).doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-16T10:01:52.327",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b32a3490-f5f9-4d0d-af3e-18a453b1ab84/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b32a3490-f5f9-4d0d-af3e-18a453b1ab84"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "24a97c82-6291-4463-98e0-65e88a446684",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5f1086bd-21b5-4ea7-9dc0-3752670d7704",
+"fileName": "VF_valimiste_tulemuste_mittetunnustamine.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-14T10:54:32.111",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f1086bd-21b5-4ea7-9dc0-3752670d7704/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f1086bd-21b5-4ea7-9dc0-3752670d7704"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "24a97c82-6291-4463-98e0-65e88a446684",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5a1dba97-d7ab-461d-be91-74055d164551",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-14T12:34:28.022",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5a1dba97-d7ab-461d-be91-74055d164551/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5a1dba97-d7ab-461d-be91-74055d164551"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "aa97891f-710f-4428-acf3-86aaabe404d7",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fb5940b5-7364-4eed-b69d-ce48320292b4",
+"fileName": "395XV_RK_o_04062024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T17:37:59.188",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb5940b5-7364-4eed-b69d-ce48320292b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb5940b5-7364-4eed-b69d-ce48320292b4"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "aa97891f-710f-4428-acf3-86aaabe404d7",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "25851872-e15a-4508-ba78-0298faa24670",
+"fileName": "395XV_RK_o_04062024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T17:37:46.665",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25851872-e15a-4508-ba78-0298faa24670/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25851872-e15a-4508-ba78-0298faa24670"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "58d8ac6e-ee12-4d70-9b21-01ac53b11a96",
+"title": "395 OE I lugemise tekstid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "899f8920-979b-4285-8076-3e63f11f86f1",
+"fileName": "395_OE_I_(seletuskiri).docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-16T10:02:36.442",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/899f8920-979b-4285-8076-3e63f11f86f1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/899f8920-979b-4285-8076-3e63f11f86f1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "24a97c82-6291-4463-98e0-65e88a446684",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8d9f65c9-f260-4c7c-9431-4fda1ac860b0",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-14T12:34:43.381",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8d9f65c9-f260-4c7c-9431-4fda1ac860b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8d9f65c9-f260-4c7c-9431-4fda1ac860b0"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "abebaded-12eb-4792-a596-b34d7152b080",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "48397ab1-4f37-499a-ac96-00f2f1556ab2",
+"fileName": "395XV_RK_o_062024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T10:46:15.507",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/48397ab1-4f37-499a-ac96-00f2f1556ab2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/48397ab1-4f37-499a-ac96-00f2f1556ab2"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "abebaded-12eb-4792-a596-b34d7152b080",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6247b85e-4a15-4c25-acc9-d40491a0a0ea",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T12:11:01.551",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6247b85e-4a15-4c25-acc9-d40491a0a0ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6247b85e-4a15-4c25-acc9-d40491a0a0ea"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-03-14T10:54:04.167",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-03-14T18:16:00.753",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2024-04-30T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 30.04.2024 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "b40e664c-d0e5-49f1-853e-060b9b98fa59",
+"fileName": "VÄLK_protokoll_30.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T15:17:56.456",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b40e664c-d0e5-49f1-853e-060b9b98fa59/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b40e664c-d0e5-49f1-853e-060b9b98fa59"
+}
+}
+},
+{
+"uuid": "eba62a04-c01b-4716-b705-a1cad1b581dc",
+"fileName": "Venemaa_vastased_sanktsioonid.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T15:17:23.343",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eba62a04-c01b-4716-b705-a1cad1b581dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eba62a04-c01b-4716-b705-a1cad1b581dc"
+}
+}
+},
+{
+"uuid": "ba27c4dd-2935-4d94-8bc5-ee7c2b8c1d47",
+"fileName": "VÄLK_30.04.2024_protokoll.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-23T15:16:55.326",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba27c4dd-2935-4d94-8bc5-ee7c2b8c1d47/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba27c4dd-2935-4d94-8bc5-ee7c2b8c1d47"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-13T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 13.05.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-29T14:00:00"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Eerik-Niiles Kross"
+}
+],
+"protocolFiles": [
+{
+"uuid": "e94d9ca9-ae53-4f1a-8c3f-7a411591411c",
+"fileName": "VÄLK_13.05.2024_protokoll.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T09:45:54.46",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e94d9ca9-ae53-4f1a-8c3f-7a411591411c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e94d9ca9-ae53-4f1a-8c3f-7a411591411c"
+}
+}
+},
+{
+"uuid": "e2e2b462-fdac-4140-97aa-26e575817ebe",
+"fileName": "kaitseministeerium_2023_veeb_eesti_3_04_2024_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T09:45:14.104",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e2e2b462-fdac-4140-97aa-26e575817ebe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e2e2b462-fdac-4140-97aa-26e575817ebe"
+}
+}
+},
+{
+"uuid": "0584a2be-253c-4aee-961b-766a339f73eb",
+"fileName": "VÄLK_protokoll_13.05.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T09:45:05.438",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0584a2be-253c-4aee-961b-766a339f73eb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0584a2be-253c-4aee-961b-766a339f73eb"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-29T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 29.05.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-06-03T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 3.06.2024 15:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "74b9729d-a971-4775-b825-32c06c1f634a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-06-03T20:04:36.427",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/74b9729d-a971-4775-b825-32c06c1f634a"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-06-04T17:37:29.152",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-06-06T14:47:28.774",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "a679f8c7-3e59-404a-9569-fc818718a44b",
+"reference": "1-1/15-395/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele mitte tunnustada Vene Föderatsiooni presidendivalimiste tulemusi\" eelnõu 395 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-24",
+"files": [
+{
+"uuid": "b4718643-5586-4355-ac6c-92a6588f8445",
+"fileName": "144._tel_Eelnõu_395_OE_häältenamus_2024_04_17.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-24T14:08:57.637",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4718643-5586-4355-ac6c-92a6588f8445/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4718643-5586-4355-ac6c-92a6588f8445"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a679f8c7-3e59-404a-9569-fc818718a44b"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a7e4d3d1-12dc-4e74-bdc1-e46aabb3225d"
+}
+}
+}

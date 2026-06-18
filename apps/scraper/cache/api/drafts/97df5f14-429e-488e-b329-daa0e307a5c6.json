@@ -1,0 +1,532 @@
+{
+"uuid": "97df5f14-429e-488e-b329-daa0e307a5c6",
+"title": "Hädaolukorra seaduse muutmise seadus",
+"mark": 124,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Hädaolukorra seaduse muutmise seadus 124 SE",
+"initialTitle": "Hädaolukorra seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Käesoleva eelnõuga täiendatakse hädaolukorra seaduses loendit, kus sätestatakse toiduvaru moodustamise aluseid. Loendisse lisatakse toiduvaru moodustamine hädaolukorras toiduvaru tagamise institutsioon elutähtsa teenuse osutamiseks. Seaduse vastuvõtmiseks on vajalik Riigikogu koosseisu häälteenamus.",
+"initiated": "2023-05-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "f6353ede-a0a5-4918-ab8b-790a1957c5cd",
+"name": "Anti Allas",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/f6353ede-a0a5-4918-ab8b-790a1957c5cd?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a39c4392-bbc8-4036-b923-0f5f2b3d9766",
+"name": "Arvo Aller",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/a39c4392-bbc8-4036-b923-0f5f2b3d9766?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "98008392-64a2-4429-8a41-fb051823e402",
+"name": "Martin Helme",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/98008392-64a2-4429-8a41-fb051823e402?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 885,
+"text": "hädaolukord"
+},
+{
+"edid": 465,
+"text": "toiduainevarud"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f3667d0a-2bea-4ce1-bac3-69910f7304bd",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "600b5f63-ec2d-4b2c-a741-10e209181097",
+"fileName": "124_HOS_m_s_eelnou.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T18:35:41.798",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/600b5f63-ec2d-4b2c-a741-10e209181097/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/600b5f63-ec2d-4b2c-a741-10e209181097"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a9f2b3ff-8b93-49cb-aee2-f5d09f00560f",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bab3032e-fb9e-4fee-ade2-424789a7e64f",
+"fileName": "124_HOS_m_s_eelnou.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:32:36.531",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bab3032e-fb9e-4fee-ade2-424789a7e64f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bab3032e-fb9e-4fee-ade2-424789a7e64f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a9f2b3ff-8b93-49cb-aee2-f5d09f00560f",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2bc177c6-4d3b-46e8-b549-6e89faec5086",
+"fileName": "124_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T11:50:41.583",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2bc177c6-4d3b-46e8-b549-6e89faec5086/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2bc177c6-4d3b-46e8-b549-6e89faec5086"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "f3667d0a-2bea-4ce1-bac3-69910f7304bd",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "799270d6-2f19-46ae-8fff-7401fea43447",
+"fileName": "124_HOS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-12T18:36:19.015",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/799270d6-2f19-46ae-8fff-7401fea43447/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/799270d6-2f19-46ae-8fff-7401fea43447"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a9f2b3ff-8b93-49cb-aee2-f5d09f00560f",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "410b9fb5-705c-47e0-9550-f10d96a91e02",
+"fileName": "124_HOS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:32:48.044",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/410b9fb5-705c-47e0-9550-f10d96a91e02/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/410b9fb5-705c-47e0-9550-f10d96a91e02"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a9f2b3ff-8b93-49cb-aee2-f5d09f00560f",
+"title": "2 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e56b2f0d-1c5b-4f3d-a894-c8e20553c0e1",
+"fileName": "124_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T11:51:10.961",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e56b2f0d-1c5b-4f3d-a894-c8e20553c0e1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e56b2f0d-1c5b-4f3d-a894-c8e20553c0e1"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-11T10:09:51.495",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T19:09:00.902",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-20T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Anti Allas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "17e8b93b-fbfb-40b3-bdc7-7afd15f63ac9",
+"fileName": "PÕSK_protokoll_12.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T15:27:36.774",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17e8b93b-fbfb-40b3-bdc7-7afd15f63ac9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17e8b93b-fbfb-40b3-bdc7-7afd15f63ac9"
+}
+}
+},
+{
+"uuid": "3927cc59-60f5-4fc1-ab9b-81439762f6b0",
+"fileName": "PÕSK.protokoll.12.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T10:39:27.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3927cc59-60f5-4fc1-ab9b-81439762f6b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3927cc59-60f5-4fc1-ab9b-81439762f6b0"
+}
+}
+}
+]
+},
+{
+"date": "2024-01-25T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 25.01.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "240550ad-02ee-4816-95c7-cf91b6a9aa0b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-01-25T10:31:34.083",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/240550ad-02ee-4816-95c7-cf91b6a9aa0b"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "8da60675-f94d-4692-a834-924f401ff60a",
+"reference": "1-1/15-124/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 124 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-17",
+"files": [
+{
+"uuid": "fe2a40c6-2496-4579-89c2-d7f0cc34a5b8",
+"fileName": "124_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:23:36.474",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe2a40c6-2496-4579-89c2-d7f0cc34a5b8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe2a40c6-2496-4579-89c2-d7f0cc34a5b8"
+}
+}
+},
+{
+"uuid": "097cab2f-260e-4c79-986b-e1d1575a91c9",
+"fileName": "124_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:23:21.466",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/097cab2f-260e-4c79-986b-e1d1575a91c9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/097cab2f-260e-4c79-986b-e1d1575a91c9"
+}
+}
+},
+{
+"uuid": "62205f18-b349-4dca-8590-68c016361b5a",
+"fileName": "124_HOS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:33:49.408",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62205f18-b349-4dca-8590-68c016361b5a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62205f18-b349-4dca-8590-68c016361b5a"
+}
+}
+},
+{
+"uuid": "0b249fd9-04ec-43f5-ae8a-9d5178a05c97",
+"fileName": "1-1-15-124-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_124_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-19T16:29:56.17",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0b249fd9-04ec-43f5-ae8a-9d5178a05c97/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0b249fd9-04ec-43f5-ae8a-9d5178a05c97"
+}
+}
+},
+{
+"uuid": "6666b0dc-dcbc-4781-94e6-229c13a0089d",
+"fileName": "124_HOS_m_s_eelnou.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T16:33:37.47",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6666b0dc-dcbc-4781-94e6-229c13a0089d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6666b0dc-dcbc-4781-94e6-229c13a0089d"
+}
+}
+},
+{
+"uuid": "c29c4215-e52b-4157-a140-905651b20651",
+"fileName": "230518_HOS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-17T21:45:58.434",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c29c4215-e52b-4157-a140-905651b20651/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c29c4215-e52b-4157-a140-905651b20651"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/8da60675-f94d-4692-a834-924f401ff60a"
+}
+}
+},
+{
+"uuid": "ad42ac24-40c0-4eb7-a800-854f548b4187",
+"reference": "1-1/15-124/2",
+"title": "Vabariigi Valitsuse arvamus hädaolukorra seaduse muutmise seaduse eelnõu 124 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-27",
+"files": [
+{
+"uuid": "100bb094-33b6-48ac-a4c7-223272fd25f7",
+"fileName": "HOSi_muutmine_Riigikogule.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-27T13:56:44.912",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/100bb094-33b6-48ac-a4c7-223272fd25f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/100bb094-33b6-48ac-a4c7-223272fd25f7"
+}
+}
+},
+{
+"uuid": "be0dd5e7-6114-4a5a-b744-96353c717c51",
+"fileName": "HOSi_muutmine_Riigikogule.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-27T13:56:44.871",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/be0dd5e7-6114-4a5a-b744-96353c717c51/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/be0dd5e7-6114-4a5a-b744-96353c717c51"
+}
+}
+},
+{
+"uuid": "cf1b9b28-797a-4797-8a32-319204090482",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0582_-_Hädaolukorra_seaduse_muutmise_seaduse_eelnõu_(124_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-27T13:56:44.936",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf1b9b28-797a-4797-8a32-319204090482/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf1b9b28-797a-4797-8a32-319204090482"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ad42ac24-40c0-4eb7-a800-854f548b4187"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/97df5f14-429e-488e-b329-daa0e307a5c6"
+}
+}
+}

@@ -13,6 +13,28 @@ Entry format:
 
 ---
 
+## 2026-06-18 — Bill outcome badge on member page (migration 0009, `drafts` command)
+
+**What:** Surface each bill's final fate (adopted / rejected / withdrawn / in-progress) as a chip
+on the member-page defection list. Migration `0009_draft_outcome.sql` adds `draft_outcomes`
+(`draft_uuid` PK, `stage`, `status`, `accepted_on`, `fetched_at`) — a minimal precursor to the
+v0.6 `volumes` table. Source is the draft endpoint's `activeDraftStage`/`activeDraftStatus`/
+`accepted` (`/api/volumes/drafts/{uuid}`), already fetched & cached for Eurovoc. Code complete and
+verified offline; **prod migrate + `drafts` backfill remain (user-gated)**, so no live data yet.
+
+**Why:** User asked whether we can show if a vote "passed", noting some votes need 2/3 vs simple
+majority. The voting API exposes tallies (`inFavor`/`against`/...) but **no per-voting result and no
+threshold field** (confirmed across all 2221 cached votings: only `type.code` AVALIK/
+KOHALOLEKU_KONTROLL/SALAJANE). The draft's `activeDraftStage` is the authoritative *bill* outcome
+recorded by Riigikogu, so it gives an honest pass/fail without us inferring a threshold. Per-voting
+pass/fail stays out of scope.
+
+**Touched:** `packages/db/migrations/0009_draft_outcome.sql`; scraper
+`eurovoc_models.py` (`parse_draft_outcome`/`DraftOutcome` + test), `db.py` (`upsert_draft_outcome`),
+`cli.py` (`drafts` command; outcome upsert folded into `_ingest_draft_topics`); web
+`lib/queries.ts` (LEFT JOIN `draft_outcomes`), `lib/member-detail.ts` (`outcomeStage` field +
+`billOutcome()` + test), `components/member/member-votes.tsx` (`OutcomeBadge`), `messages/{et,en}.json`.
+
 ## 2026-06-18 — Full XV-term backfill: prod rebuilt to the whole koosseis + perf fix (0008)
 
 **What:** Ingested the entire XV Riigikogu term into prod (was ~1 year). Prod now: **2221 votes

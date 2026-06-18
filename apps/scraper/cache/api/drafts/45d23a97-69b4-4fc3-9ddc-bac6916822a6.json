@@ -1,0 +1,539 @@
+{
+"uuid": "45d23a97-69b4-4fc3-9ddc-bac6916822a6",
+"title": "Kõrgharidusseaduse muutmise seadus",
+"mark": 291,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kõrgharidusseaduse muutmise seadus 291 SE",
+"initialTitle": "Kõrgharidusseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga soovitakse eemaldada kõrgharidusseadusest dogmaatilised kammitsad, mis suunavad ülikoole rohkem välistudengeid vastu võtma ja neile ning meile endile inglise keeles haridust andma. Käesoleva eelnõuga peatatakse ingliskeelestumine ning leevendatakse vähemalt osalt ka probleeme kõrghariduse kvaliteedi ning mittevastavusega Eesti vajadusele.",
+"initiated": "2023-09-25",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "2bc608c1-1c67-4db8-968b-94bc3947dfac",
+"name": "Kadri Tali",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/2bc608c1-1c67-4db8-968b-94bc3947dfac?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 800,
+"text": "kõrgharidus"
+},
+{
+"edid": 5313,
+"text": "ametlik keel"
+},
+{
+"edid": 1014,
+"text": "riiklik rahastamine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8881da90-5004-4fc9-aecc-0c0acbd22389",
+"title": "291 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "49ebe86c-88d3-4f79-acd3-a15de60cb29b",
+"fileName": "291_KHaS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Eeletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-02T09:57:32.243",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/49ebe86c-88d3-4f79-acd3-a15de60cb29b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/49ebe86c-88d3-4f79-acd3-a15de60cb29b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8881da90-5004-4fc9-aecc-0c0acbd22389",
+"title": "291 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7587de34-dfcd-40d0-a9a3-81686179da07",
+"fileName": "291_KHaS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-02T09:57:11.679",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7587de34-dfcd-40d0-a9a3-81686179da07/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7587de34-dfcd-40d0-a9a3-81686179da07"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a3dc13a7-324c-4aeb-9c3b-499ea4d4275c",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "09f07cd5-94c2-48e3-8df5-0e4f1d61bab0",
+"fileName": "291_KHaS_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:03:03.202",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/09f07cd5-94c2-48e3-8df5-0e4f1d61bab0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/09f07cd5-94c2-48e3-8df5-0e4f1d61bab0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a3dc13a7-324c-4aeb-9c3b-499ea4d4275c",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ce63d3b3-c244-4ab2-b2f5-2ab3f6b4ff0f",
+"fileName": "291E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:34:44.036",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ce63d3b3-c244-4ab2-b2f5-2ab3f6b4ff0f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ce63d3b3-c244-4ab2-b2f5-2ab3f6b4ff0f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a3dc13a7-324c-4aeb-9c3b-499ea4d4275c",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "30ef8bc3-b59c-4756-91a0-7ad4e332f1b0",
+"fileName": "291_KHaS_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:03:19.224",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/30ef8bc3-b59c-4756-91a0-7ad4e332f1b0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/30ef8bc3-b59c-4756-91a0-7ad4e332f1b0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "a3dc13a7-324c-4aeb-9c3b-499ea4d4275c",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5d989402-1e91-4417-8e88-2f0af681a8c8",
+"fileName": "291SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T16:34:55.147",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5d989402-1e91-4417-8e88-2f0af681a8c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5d989402-1e91-4417-8e88-2f0af681a8c8"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-09-25T16:34:12.184",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-09-26T13:47:00.12",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-11-21T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 21.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-12-05T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Kadri Tali"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "c1b30001-d339-4bc6-a2a3-34c4e88a362e",
+"fileName": "Poolamets_21.11.23.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T18:13:59.661",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c1b30001-d339-4bc6-a2a3-34c4e88a362e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c1b30001-d339-4bc6-a2a3-34c4e88a362e"
+}
+}
+},
+{
+"uuid": "e3d90859-41ea-4f54-be1d-e65de577772a",
+"fileName": "Protokoll_26_(21.11.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T18:09:03.872",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e3d90859-41ea-4f54-be1d-e65de577772a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e3d90859-41ea-4f54-be1d-e65de577772a"
+}
+}
+},
+{
+"uuid": "ee5f9cea-3be9-4514-83e7-64f987b48aab",
+"fileName": "KULK_protokoll_26_(21.11.2023).asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-18T18:09:59.228",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee5f9cea-3be9-4514-83e7-64f987b48aab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee5f9cea-3be9-4514-83e7-64f987b48aab"
+}
+}
+}
+]
+},
+{
+"date": "2024-02-07T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 7.02.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "cf903a98-20bb-401d-939a-dfda74c72044",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-02-07T15:15:50.363",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/cf903a98-20bb-401d-939a-dfda74c72044"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "1f82c4a0-47d2-416a-823d-1de19d97c6a3",
+"reference": "1-1/15-291/2",
+"title": "Vabariigi Valitsuse arvamus kõrgharidusseaduse muutmise seaduse eelnõu 291 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-11-03",
+"files": [
+{
+"uuid": "5543a41d-49e7-4b57-92c0-c4467a7a812f",
+"fileName": "Vabariigi_Valitsuse_seisukoht_kõrgharidusseaduse_muutmise_seaduse_eelnõu_(291_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:20:22.827",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5543a41d-49e7-4b57-92c0-c4467a7a812f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5543a41d-49e7-4b57-92c0-c4467a7a812f"
+}
+}
+},
+{
+"uuid": "63e7eb20-4229-4dc5-8aae-29bb8f6f7dce",
+"fileName": "Vabariigi_Valitsuse_seisukoht_kï¿½rgharidusseaduse_muutmise_seaduse_eelnï¿½u_(291_SE)_kohta_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:20:22.796",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/63e7eb20-4229-4dc5-8aae-29bb8f6f7dce/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/63e7eb20-4229-4dc5-8aae-29bb8f6f7dce"
+}
+}
+},
+{
+"uuid": "729b6103-a241-4fc7-90c2-ece55b93e487",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-1277_-_Kõrgharidusseaduse_muutmise_seaduse_eelnõu_(291_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-03T08:20:22.845",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/729b6103-a241-4fc7-90c2-ece55b93e487/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/729b6103-a241-4fc7-90c2-ece55b93e487"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1f82c4a0-47d2-416a-823d-1de19d97c6a3"
+}
+}
+},
+{
+"uuid": "e04684ae-6ee2-426a-956e-91d46e7b8229",
+"reference": "1-1/15-291/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 291 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-25",
+"files": [
+{
+"uuid": "9282983b-aeef-4490-b6fe-1a6e5efe2a59",
+"fileName": "291_KHaS_m_s_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:30:29.905",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9282983b-aeef-4490-b6fe-1a6e5efe2a59/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9282983b-aeef-4490-b6fe-1a6e5efe2a59"
+}
+}
+},
+{
+"uuid": "33283c1b-ed60-47ea-83c5-37fa35475a52",
+"fileName": "230926_KHaS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T19:18:40.026",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/33283c1b-ed60-47ea-83c5-37fa35475a52/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/33283c1b-ed60-47ea-83c5-37fa35475a52"
+}
+}
+},
+{
+"uuid": "39f0a29d-8263-4e04-b051-456f19e242c7",
+"fileName": "291E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:25:39.095",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/39f0a29d-8263-4e04-b051-456f19e242c7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/39f0a29d-8263-4e04-b051-456f19e242c7"
+}
+}
+},
+{
+"uuid": "24f4dfcc-905f-4699-b721-d3fec5c54e8e",
+"fileName": "1-1-15-291-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_291_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-26T13:43:31.58",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/24f4dfcc-905f-4699-b721-d3fec5c54e8e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/24f4dfcc-905f-4699-b721-d3fec5c54e8e"
+}
+}
+},
+{
+"uuid": "8df999b5-159f-4b14-8554-e0e935eb3ba5",
+"fileName": "291_KHaS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:30:11.169",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8df999b5-159f-4b14-8554-e0e935eb3ba5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8df999b5-159f-4b14-8554-e0e935eb3ba5"
+}
+}
+},
+{
+"uuid": "b1ebcea7-5889-478c-ab2d-3a905c0c608b",
+"fileName": "291SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-25T18:25:57.714",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b1ebcea7-5889-478c-ab2d-3a905c0c608b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b1ebcea7-5889-478c-ab2d-3a905c0c608b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e04684ae-6ee2-426a-956e-91d46e7b8229"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/45d23a97-69b4-4fc3-9ddc-bac6916822a6"
+}
+}
+}

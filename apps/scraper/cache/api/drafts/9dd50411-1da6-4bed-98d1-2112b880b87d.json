@@ -1,0 +1,339 @@
+{
+"uuid": "9dd50411-1da6-4bed-98d1-2112b880b87d",
+"title": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine mõttekoja SALK poolt valimiste mõjutamisega seotud asjaolude uurimiseks“",
+"mark": 251,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine mõttekoja SALK poolt valimiste mõjutamisega seotud asjaolude uurimiseks“ 251 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu uurimiskomisjoni moodustamine mõttekoja SALK poolt valimiste mõjutamisega seotud asjaolude uurimiseks“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Komisjoni eesmärgiks seatakse uurida  ajakirjanduses  esitatud väiteid mõttekoja SALK tegevuse kohta Riigikogu valimiste  mõjutamisel.",
+"initiated": "2023-06-15",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2022-12-21T17:15:00",
+"responsibleMember": {
+"uuid": "002a9679-e3b0-4bca-a568-0466266af2fc",
+"name": "Hendrik Johannes Terras",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/002a9679-e3b0-4bca-a568-0466266af2fc?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "9850f647-cac2-49f7-9aee-c534102dca7c",
+"name": "Erle Enneveer",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/9850f647-cac2-49f7-9aee-c534102dca7c?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 15,
+"text": "uurimiskomisjon"
+},
+{
+"edid": 701,
+"text": "parlamendivalimised"
+},
+{
+"edid": 1588,
+"text": "õiguspärasus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "3c09bdb8-ca1c-4ef1-98b4-c376b448ef92",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ab324bd3-bc5d-487d-832a-01cd05fee3d0",
+"fileName": "251_RK_o_SALK_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-19T11:20:26.641",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ab324bd3-bc5d-487d-832a-01cd05fee3d0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ab324bd3-bc5d-487d-832a-01cd05fee3d0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5588199f-9525-416a-88bb-5155efc2df0f",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "134400ed-149f-4ba6-a9e9-a207432af2ea",
+"fileName": "Isamaa_OE_SALK_eelnõu_ja_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-15T10:41:44.671",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/134400ed-149f-4ba6-a9e9-a207432af2ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/134400ed-149f-4ba6-a9e9-a207432af2ea"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5588199f-9525-416a-88bb-5155efc2df0f",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5cb567d7-2acf-4571-94cc-10d20f1e1cdf",
+"fileName": "251E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-15T11:21:47.012",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5cb567d7-2acf-4571-94cc-10d20f1e1cdf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5cb567d7-2acf-4571-94cc-10d20f1e1cdf"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "3c09bdb8-ca1c-4ef1-98b4-c376b448ef92",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "59c95339-37c6-4e97-b2b7-23219deb7b20",
+"fileName": "251_RK_o_SALK_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-19T11:20:58.593",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59c95339-37c6-4e97-b2b7-23219deb7b20/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59c95339-37c6-4e97-b2b7-23219deb7b20"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "5588199f-9525-416a-88bb-5155efc2df0f",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5f26a4ff-96ab-475d-9269-67d012690e68",
+"fileName": "251SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-15T11:22:00.114",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f26a4ff-96ab-475d-9269-67d012690e68/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f26a4ff-96ab-475d-9269-67d012690e68"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-06-15T10:41:05.362",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-06-15T14:29:00.425",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-10-17T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 17.10.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-10-25T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni esimees Hendrik Johannes Terras"
+}
+],
+"protocolFiles": [
+{
+"uuid": "6309fd51-9006-4980-870e-014a88f25d0a",
+"fileName": "PÕSK.protokoll.17.10.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T10:33:00.078",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6309fd51-9006-4980-870e-014a88f25d0a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6309fd51-9006-4980-870e-014a88f25d0a"
+}
+}
+},
+{
+"uuid": "b44950ab-aed6-43a1-8558-a0f42264b60c",
+"fileName": "PÕSK_protokoll_17.10.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T10:34:02.924",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b44950ab-aed6-43a1-8558-a0f42264b60c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b44950ab-aed6-43a1-8558-a0f42264b60c"
+}
+}
+},
+{
+"uuid": "4f1a0a63-55ec-4282-82e3-ad3744ba7963",
+"fileName": "P._Siemann_asendusliige_17.10.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-25T14:03:23.206",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4f1a0a63-55ec-4282-82e3-ad3744ba7963/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4f1a0a63-55ec-4282-82e3-ad3744ba7963"
+}
+}
+}
+]
+},
+{
+"date": "2023-12-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 14.12.2023 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "d9129132-fd79-4114-9ad8-694023bbbec7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-12-14T11:18:47.567",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/d9129132-fd79-4114-9ad8-694023bbbec7"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/9dd50411-1da6-4bed-98d1-2112b880b87d"
+}
+}
+}

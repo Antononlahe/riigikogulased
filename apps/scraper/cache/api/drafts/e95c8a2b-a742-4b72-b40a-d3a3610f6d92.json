@@ -1,0 +1,2313 @@
+{
+"uuid": "e95c8a2b-a742-4b72-b40a-d3a3610f6d92",
+"title": "Tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seadus",
+"mark": 509,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seadus 509 SE",
+"initialTitle": "Tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "2023. aastal vastu võetud tulumaksuseaduse muudatustega kaotati kahanev maksuvaba tulu ja kehtestati ühtne maksuvaba tulu 700 eurot kuus ehk 8400 eurot aastas. Erandiks on vanaduspensioniealised, kellele kehtib kõrgem maksuvaba tulu. Ühtne maksuvaba tulu määrati jõustuma 2025. aastast.",
+"initiated": "2024-09-26",
+"joined": null,
+"accepted": "2024-12-04",
+"amendmentsDeadline": "2024-10-29T17:15:00",
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "95bde520-3032-48a5-aa20-567020b4e1da",
+"name": "Andres Ando",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/95bde520-3032-48a5-aa20-567020b4e1da?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 1326,
+"text": "tulumaks"
+},
+{
+"edid": 3685,
+"text": "maksustatav tulu"
+},
+{
+"edid": 3556,
+"text": "erisoodustus"
+},
+{
+"edid": 935,
+"text": "maksuvabastus"
+},
+{
+"edid": 3557,
+"text": "kuluhüvitised"
+},
+{
+"edid": 500,
+"text": "annetus"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d484aba8-9cd9-4dbb-906c-ff86efa79a5e",
+"fileName": "RK_24-01445-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.017",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d484aba8-9cd9-4dbb-906c-ff86efa79a5e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d484aba8-9cd9-4dbb-906c-ff86efa79a5e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3c36e20a-d18f-4e99-ae85-a649d53919ca",
+"fileName": "[EIS]_Eelnõu_esitamine__RAM-24-0915_-_Tulumaksuseaduse_ja_kaitseväeteenistuse_seaduse_muutmise_seadusening_tulumaksuseaduse_muutmise_seadus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.224",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c36e20a-d18f-4e99-ae85-a649d53919ca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c36e20a-d18f-4e99-ae85-a649d53919ca"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "c1a48a7a-c2dd-414e-a935-c8852a123bce",
+"title": "509 SE III",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "192776aa-310e-4608-8f8f-e02014dd4249",
+"fileName": "509_SE_III_eelnõu_tekst.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T16:02:35.915",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/192776aa-310e-4608-8f8f-e02014dd4249/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/192776aa-310e-4608-8f8f-e02014dd4249"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "be3e637b-36ec-41eb-8d50-9372492f3543",
+"title": "509 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5bd10206-1b95-4332-94aa-82b9e0be765f",
+"fileName": "509_SE_II_eelnõu_tekst.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-18T16:36:17.536",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5bd10206-1b95-4332-94aa-82b9e0be765f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5bd10206-1b95-4332-94aa-82b9e0be765f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "72a82158-7c12-452a-9b28-29dcfb5461e5",
+"title": "509 SE I lug, tekst seletuskiri, lisad 1 ja 2",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "18020696-5e5b-427a-94aa-af569e250253",
+"fileName": "509_TuMS_KVTRS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T15:05:18.25",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/18020696-5e5b-427a-94aa-af569e250253/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/18020696-5e5b-427a-94aa-af569e250253"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bed0ad74-aa64-40e7-8a22-64b546024d9e",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.116",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bed0ad74-aa64-40e7-8a22-64b546024d9e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bed0ad74-aa64-40e7-8a22-64b546024d9e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7c611783-82f0-4949-8e88-99311ae7b1f0",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.165",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c611783-82f0-4949-8e88-99311ae7b1f0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c611783-82f0-4949-8e88-99311ae7b1f0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "08c57e22-8aa5-47ed-800c-39b629432b93",
+"fileName": "24-01445-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.101",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/08c57e22-8aa5-47ed-800c-39b629432b93/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/08c57e22-8aa5-47ed-800c-39b629432b93"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "dcaceccf-4368-483f-8435-cdbd583de4ed",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4aa042f8-9199-4793-abbf-b84ac1643f7c",
+"fileName": "509_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T14:15:16.44",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4aa042f8-9199-4793-abbf-b84ac1643f7c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4aa042f8-9199-4793-abbf-b84ac1643f7c"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "da0b623d-7775-4586-bc21-24b97fd45d39",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2e056980-2ae2-4a5c-a180-18874636c718",
+"fileName": "509XV_Tulumaks_ms_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T13:01:20.149",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2e056980-2ae2-4a5c-a180-18874636c718/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2e056980-2ae2-4a5c-a180-18874636c718"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "da0b623d-7775-4586-bc21-24b97fd45d39",
+"title": "Seaduse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d09a733f-4ad9-4913-a462-a4fea87d8715",
+"fileName": "509XV_Tulumaks_ms_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T13:01:09.02",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d09a733f-4ad9-4913-a462-a4fea87d8715/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d09a733f-4ad9-4913-a462-a4fea87d8715"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "be3e637b-36ec-41eb-8d50-9372492f3543",
+"title": "509 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "48fdb266-2891-41e7-9c80-3c96a8d0eb58",
+"fileName": "509_SE_II_ME_loetelu_täiskogule.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-18T16:36:49.678",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/48fdb266-2891-41e7-9c80-3c96a8d0eb58/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/48fdb266-2891-41e7-9c80-3c96a8d0eb58"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "be3e637b-36ec-41eb-8d50-9372492f3543",
+"title": "509 SE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6e085f9d-579d-4695-8fc5-545623c048e8",
+"fileName": "509_SE_II_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-18T16:36:34.414",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e085f9d-579d-4695-8fc5-545623c048e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e085f9d-579d-4695-8fc5-545623c048e8"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "72a82158-7c12-452a-9b28-29dcfb5461e5",
+"title": "509 SE I lug, tekst seletuskiri, lisad 1 ja 2",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ea2d0e51-d46e-4485-9916-6ae137b15362",
+"fileName": "509_TuMS_KVTRS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T15:05:44.54",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ea2d0e51-d46e-4485-9916-6ae137b15362/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ea2d0e51-d46e-4485-9916-6ae137b15362"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "173a1e67-3a1d-4484-ad06-dfe24008cee7",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.128",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/173a1e67-3a1d-4484-ad06-dfe24008cee7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/173a1e67-3a1d-4484-ad06-dfe24008cee7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "75b43e7a-18bd-4251-8cf4-22ac039d2425",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.179",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75b43e7a-18bd-4251-8cf4-22ac039d2425/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75b43e7a-18bd-4251-8cf4-22ac039d2425"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "72a82158-7c12-452a-9b28-29dcfb5461e5",
+"title": "509 SE I lug, tekst seletuskiri, lisad 1 ja 2",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f80cae78-2f78-4e47-ba02-d35817f1f946",
+"fileName": "509_TuMS_KVTRS_m_s_SK_Lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (kooskõlastustabel)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T15:06:04.778",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f80cae78-2f78-4e47-ba02-d35817f1f946/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f80cae78-2f78-4e47-ba02-d35817f1f946"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "79c1aaa5-e0e6-4943-94ad-bec0cfe823d5",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (kooskõlastustabel) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.14",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/79c1aaa5-e0e6-4943-94ad-bec0cfe823d5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/79c1aaa5-e0e6-4943-94ad-bec0cfe823d5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a9140d4f-44aa-4b32-a320-06fef3566fc1",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (kooskõlastustabel) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.192",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a9140d4f-44aa-4b32-a320-06fef3566fc1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a9140d4f-44aa-4b32-a320-06fef3566fc1"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "72a82158-7c12-452a-9b28-29dcfb5461e5",
+"title": "509 SE I lug, tekst seletuskiri, lisad 1 ja 2",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ca6f4f42-ddf2-4165-9dba-ccd1bb4d9133",
+"fileName": "509_TuMS_KVTRS_m_s_SK_Lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusakti kavand)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-01T15:07:03.8",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ca6f4f42-ddf2-4165-9dba-ccd1bb4d9133/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ca6f4f42-ddf2-4165-9dba-ccd1bb4d9133"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e18d55ed-c828-41fe-88b1-6dbaec007a22",
+"fileName": "Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (rakendusakti kavand) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.152",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e18d55ed-c828-41fe-88b1-6dbaec007a22/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e18d55ed-c828-41fe-88b1-6dbaec007a22"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2104f616-c444-492f-ab80-b1a7111f3c2b",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e8e6d62f-117a-4666-b019-683d2ff86e44",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (rakendusakti kavand) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-26T10:22:54.204",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8e6d62f-117a-4666-b019-683d2ff86e44/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8e6d62f-117a-4666-b019-683d2ff86e44"
+}
+}
+}
+},
+{
+"readingCode": null,
+"document": {
+"uuid": "d6ddbff6-f846-42c8-b1c8-83bbad75b249",
+"reference": "1-1/15-509/18",
+"title": "Rahandusministeeriumi tagasiside huvigruppide poolt eelnõule 509 SE esitatud arvamuste kohta",
+"documentType": "lisadokumendid",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9d00fc71-4bf0-4dcd-9f77-dc9653f9775d",
+"fileName": "RAM_tagasiside_509_SE_pöördumiste_kohta.docx",
+"fileExtension": "docx",
+"fileTitle": "Tagasiside",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-20T17:05:18.714",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d00fc71-4bf0-4dcd-9f77-dc9653f9775d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d00fc71-4bf0-4dcd-9f77-dc9653f9775d"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "3f659ef1-733f-4e96-bb7f-75aa6c199481",
+"reference": "1-1/15-509/19",
+"title": "Vabariigi Presidendi otsus nr 494",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "08fc8789-af40-49a9-ad09-7f4d46d94b46",
+"fileName": "VP_12122024_o494.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T12:54:43.536",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/08fc8789-af40-49a9-ad09-7f4d46d94b46/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/08fc8789-af40-49a9-ad09-7f4d46d94b46"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "3f659ef1-733f-4e96-bb7f-75aa6c199481",
+"reference": "1-1/15-509/19",
+"title": "Vabariigi Presidendi otsus nr 494",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fb97ca8c-6759-4be5-8133-ac30b910293c",
+"fileName": "VP_12122024_o494.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T12:54:43.49",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fb97ca8c-6759-4be5-8133-ac30b910293c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fb97ca8c-6759-4be5-8133-ac30b910293c"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "dcaceccf-4368-483f-8435-cdbd583de4ed",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2b7a6958-50ec-41ff-9db7-a858899dcaf3",
+"fileName": "509XV_Tulumaks_ms_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T14:11:49.231",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b7a6958-50ec-41ff-9db7-a858899dcaf3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b7a6958-50ec-41ff-9db7-a858899dcaf3"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "dcaceccf-4368-483f-8435-cdbd583de4ed",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3e4eb678-1b9d-46c8-9e22-c81f4be6a6fa",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T15:14:33.265",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3e4eb678-1b9d-46c8-9e22-c81f4be6a6fa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3e4eb678-1b9d-46c8-9e22-c81f4be6a6fa"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-09-26T10:22:25.176",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-09-26T15:21:00.555",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-10-01T09:30:00",
+"sittingTitle": "Erakorraline komisjoni istung teisipäev, 1.10.2024 kell 09.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-10-15T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni esimees Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "88eb5fc2-dbef-4983-8880-d72932e3592d",
+"fileName": "RAHK_protokoll_01.10.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-15T09:08:18.743",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88eb5fc2-dbef-4983-8880-d72932e3592d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88eb5fc2-dbef-4983-8880-d72932e3592d"
+}
+}
+},
+{
+"uuid": "13556bba-cae0-4c85-beb6-03f52814f16d",
+"fileName": "RAHK_protokoll_109_01_10_2024_erakorraline.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-15T09:07:08.988",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/13556bba-cae0-4c85-beb6-03f52814f16d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/13556bba-cae0-4c85-beb6-03f52814f16d"
+}
+}
+},
+{
+"uuid": "5202d169-36c0-4181-be4a-287bee7439e8",
+"fileName": "V.Svet_KLIM_eelarve_2025_513_SE_1.10.2024_Lisa_8.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 8 (Vladimir Sveti ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:57:13.969",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5202d169-36c0-4181-be4a-287bee7439e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5202d169-36c0-4181-be4a-287bee7439e8"
+}
+}
+},
+{
+"uuid": "07337b9f-42ee-499e-8ef5-303c8b1025d8",
+"fileName": "M.Tsahkna_VÄLM_eelarve_2025_513_SE_1.10.2024_Lisa_7.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 7 (Margus Tsahkna ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:56:00.385",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/07337b9f-42ee-499e-8ef5-303c8b1025d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/07337b9f-42ee-499e-8ef5-303c8b1025d8"
+}
+}
+},
+{
+"uuid": "498bb09d-be3b-4e97-b253-282bd9457044",
+"fileName": "L.Läänemets_SIM_eelarve_2025_513_SE_1.10.2024_Lisa_6.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 6 (Lauri Läänemetsa ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:55:03.267",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/498bb09d-be3b-4e97-b253-282bd9457044/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/498bb09d-be3b-4e97-b253-282bd9457044"
+}
+}
+},
+{
+"uuid": "73e0ad27-d362-46fe-a50c-234f8e4c66c9",
+"fileName": "L.Pakosta_JMDigi_eelarve_2025_513_SE_1.10.2024_Lisa_5.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 5 (Liisa-Ly Pakosta ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:53:52.01",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/73e0ad27-d362-46fe-a50c-234f8e4c66c9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/73e0ad27-d362-46fe-a50c-234f8e4c66c9"
+}
+}
+},
+{
+"uuid": "1611dc21-fc94-49fe-9a75-80e8902fc693",
+"fileName": "512_SE_2025_REga_seotud_maksueelnõud_1.10.2024_Lisa_4.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 4  (eelarvega seotud maksueelnõude ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:51:48.238",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1611dc21-fc94-49fe-9a75-80e8902fc693/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1611dc21-fc94-49fe-9a75-80e8902fc693"
+}
+}
+},
+{
+"uuid": "0c064eb8-3410-48f0-963d-ec3fd5730c7a",
+"fileName": "510_SE_2025_REga_seotud_maksueelnõud_1.10.2024_Lisa_3.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (eelarvega seotud maksueelnõude ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:49:10.028",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0c064eb8-3410-48f0-963d-ec3fd5730c7a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0c064eb8-3410-48f0-963d-ec3fd5730c7a"
+}
+}
+},
+{
+"uuid": "645ad965-6d24-4db0-9907-6a11cf11f001",
+"fileName": "509_SE_2025_REga_seotud_maksueelnõud_1.10.2024_Lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (eelarvega seotud maksueelnõude ettekanne)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:47:57.189",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/645ad965-6d24-4db0-9907-6a11cf11f001/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/645ad965-6d24-4db0-9907-6a11cf11f001"
+}
+}
+},
+{
+"uuid": "0fc82707-83d6-44b9-ad6d-a25dd25d8cb5",
+"fileName": "511_SE_RAM_RE_baasseaduse_muutmine_1.10.2024_Lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Sven Kirsipuu ettekanne-baasseaduse muutmine)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-02T09:45:24.82",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0fc82707-83d6-44b9-ad6d-a25dd25d8cb5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0fc82707-83d6-44b9-ad6d-a25dd25d8cb5"
+}
+}
+}
+]
+},
+{
+"date": "2024-10-15T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 15.10.2024 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-11-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.11.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-11-20T14:00:00"
+},
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "6ef9f656-998e-4511-b240-46bed85756b4",
+"fileName": "RAHK_protokoll_12.11.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:23:11.485",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6ef9f656-998e-4511-b240-46bed85756b4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6ef9f656-998e-4511-b240-46bed85756b4"
+}
+}
+},
+{
+"uuid": "6a484e2f-80a0-49be-8cbe-f7bc5c4a5d17",
+"fileName": "RAHK_protokoll_121_12_11_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:22:26.565",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6a484e2f-80a0-49be-8cbe-f7bc5c4a5d17/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6a484e2f-80a0-49be-8cbe-f7bc5c4a5d17"
+}
+}
+}
+]
+},
+{
+"date": "2024-11-14T09:00:00",
+"sittingTitle": "Erakorraline komisjoni istung neljapäev, 14.11.2024 kell 09.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-12-04T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "839776da-a7d0-48a6-8b70-a662e67d984f",
+"fileName": "Asendusliikme_volikiri_A._Sõerd-_K.E._Vaga_14.11.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T10:13:26.941",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/839776da-a7d0-48a6-8b70-a662e67d984f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/839776da-a7d0-48a6-8b70-a662e67d984f"
+}
+}
+},
+{
+"uuid": "a08dddf7-4194-4592-b588-195810ea0cf7",
+"fileName": "RAHK_protokoll_14.11.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T10:15:27.035",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a08dddf7-4194-4592-b588-195810ea0cf7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a08dddf7-4194-4592-b588-195810ea0cf7"
+}
+}
+},
+{
+"uuid": "e4f4f26d-e0a5-4d46-a976-830555d52c65",
+"fileName": "RAHK_protokoll_nr_122_14.11.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T10:13:05.681",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e4f4f26d-e0a5-4d46-a976-830555d52c65/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e4f4f26d-e0a5-4d46-a976-830555d52c65"
+}
+}
+}
+]
+},
+{
+"date": "2024-11-20T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 20.11.2024 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": [
+{
+"uuid": "9e02fbda-dfd9-41f4-bff8-48135f420e4d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "II lugemise katkestamine",
+"startDateTime": "2024-11-21T00:30:34.32",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/9e02fbda-dfd9-41f4-bff8-48135f420e4d"
+}
+}
+},
+{
+"uuid": "8c194ea5-c046-46c2-a39d-49a51557818a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "4. muudatusettepanek",
+"startDateTime": "2024-11-21T00:28:57.357",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8c194ea5-c046-46c2-a39d-49a51557818a"
+}
+}
+},
+{
+"uuid": "0a805920-3253-49c8-9e0c-8fe7780d6547",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "3. muudatusettepanek",
+"startDateTime": "2024-11-21T00:27:54.773",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/0a805920-3253-49c8-9e0c-8fe7780d6547"
+}
+}
+},
+{
+"uuid": "78763743-fb63-46e7-b1ab-45e629efcba8",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "1. muudatusettepanek",
+"startDateTime": "2024-11-21T00:26:38.287",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/78763743-fb63-46e7-b1ab-45e629efcba8"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-12-02T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 2.12.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Kiita heaks eelnõu III lugemise tekst"
+}
+],
+"protocolFiles": [
+{
+"uuid": "7c6b90bb-ce0f-4a11-a30f-7fb8ca09f566",
+"fileName": "513_SE_III_RAM_kavand_02.12.2024_Lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (RAM muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T14:18:38.073",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c6b90bb-ce0f-4a11-a30f-7fb8ca09f566/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c6b90bb-ce0f-4a11-a30f-7fb8ca09f566"
+}
+}
+},
+{
+"uuid": "87c7c797-b550-4e21-b213-60fa5040e50d",
+"fileName": "513_SE_III_loetelu_KESK_FR_02.12.2024_Lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 2 (Keskerakonna fr. muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T14:19:13.829",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/87c7c797-b550-4e21-b213-60fa5040e50d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/87c7c797-b550-4e21-b213-60fa5040e50d"
+}
+}
+},
+{
+"uuid": "f67ef873-bde6-4886-ab18-6238a713257a",
+"fileName": "513_SE_III_loetelu_ISAMAA_FR_02.12.2024_Lisa_3.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 3 (Isamaa fr. muudatusettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T14:19:48.83",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f67ef873-bde6-4886-ab18-6238a713257a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f67ef873-bde6-4886-ab18-6238a713257a"
+}
+}
+},
+{
+"uuid": "88e21042-d872-4c5d-b0f4-3149e75fdb26",
+"fileName": "RAHK_protokoll_02.12.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:28:45.683",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88e21042-d872-4c5d-b0f4-3149e75fdb26/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88e21042-d872-4c5d-b0f4-3149e75fdb26"
+}
+}
+},
+{
+"uuid": "5c01d4c4-ee9b-4a0b-985f-2124b4acca17",
+"fileName": "RAHK_protokoll_127_02_12_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-12T15:20:05.535",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5c01d4c4-ee9b-4a0b-985f-2124b4acca17/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5c01d4c4-ee9b-4a0b-985f-2124b4acca17"
+}
+}
+}
+]
+},
+{
+"date": "2024-12-04T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 4.12.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "229c159e-6326-43a9-ac49-547e39e51be2",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-12-04T14:57:16.26",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/229c159e-6326-43a9-ac49-547e39e51be2"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-12-05T13:17:17.603",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-12-12T12:55:28.934",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-12-20T08:08:41.045",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "4faa533b-ec5f-4443-8c56-73a1bdc50778",
+"reference": "1-1/15-509/7",
+"title": "Sotsiaalministeeriumi arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-23",
+"files": [
+{
+"uuid": "a3f2c66b-119f-4c23-8cf8-bddf38b44315",
+"fileName": "1.2-52675-1_23.10.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-23T10:27:35.932",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a3f2c66b-119f-4c23-8cf8-bddf38b44315/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a3f2c66b-119f-4c23-8cf8-bddf38b44315"
+}
+}
+},
+{
+"uuid": "d66a94e8-1a2c-4250-89ba-9bf9bde10bf4",
+"fileName": "Muudatusettepanek_509_SE-le.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-23T10:27:36.043",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d66a94e8-1a2c-4250-89ba-9bf9bde10bf4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d66a94e8-1a2c-4250-89ba-9bf9bde10bf4"
+}
+}
+},
+{
+"uuid": "c0cc5c2c-3143-4781-8e6b-900cdbb70e17",
+"fileName": "Muudatusettepanek_509_SE-le.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-23T10:27:36.027",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c0cc5c2c-3143-4781-8e6b-900cdbb70e17/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c0cc5c2c-3143-4781-8e6b-900cdbb70e17"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/4faa533b-ec5f-4443-8c56-73a1bdc50778"
+}
+}
+},
+{
+"uuid": "01c9e94e-eeb5-426d-8ad1-2943109251c4",
+"reference": "1-1/15-509/8",
+"title": "MTÜ Ambla Metsaühistu arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-24",
+"files": [
+{
+"uuid": "6e1f8e3f-fabf-4a36-b036-f2d4f5bcb754",
+"fileName": "509_SE_-_Ettepanekud_tulumaksuseaduse_muutmise_seaduse_eelnõu_muutmiseks_-_23.10.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-24T10:32:00.242",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6e1f8e3f-fabf-4a36-b036-f2d4f5bcb754/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6e1f8e3f-fabf-4a36-b036-f2d4f5bcb754"
+}
+}
+},
+{
+"uuid": "c7663cf3-0ea0-4eda-8cae-5caaa17ebada",
+"fileName": "509_SE_-_Ettepanekud_tulumaksuseaduse_muutmise_seaduse_eelnõu_muutmiseks_-_23.10.2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-24T10:32:00.307",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c7663cf3-0ea0-4eda-8cae-5caaa17ebada/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c7663cf3-0ea0-4eda-8cae-5caaa17ebada"
+}
+}
+},
+{
+"uuid": "f2d2b192-9e8a-4d20-9496-a21fdfb59b16",
+"fileName": "Eelnõu_509SE.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-24T10:32:00.331",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2d2b192-9e8a-4d20-9496-a21fdfb59b16/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2d2b192-9e8a-4d20-9496-a21fdfb59b16"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/01c9e94e-eeb5-426d-8ad1-2943109251c4"
+}
+}
+},
+{
+"uuid": "1a1fdf97-5cad-43a3-8b3f-77a66ddc8f4a",
+"reference": "1-1/15-509/14",
+"title": "MTÜ Ambla Metsaühistu täiendav arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-11",
+"files": [
+{
+"uuid": "78390be5-db2e-4273-963e-30f9a496a043",
+"fileName": "Eelnõu_509_SE_muudatusettepanekute_täiendavad_selgitused.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-11T16:04:55.223",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78390be5-db2e-4273-963e-30f9a496a043/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78390be5-db2e-4273-963e-30f9a496a043"
+}
+}
+},
+{
+"uuid": "060ee7d2-4f42-45a8-8b51-2b8d665947ea",
+"fileName": "Täiendavad_selgitused_tulumaksuseaduse_muudatusettepanekute_kohta_-_11.11.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-11T16:04:55.136",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/060ee7d2-4f42-45a8-8b51-2b8d665947ea/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/060ee7d2-4f42-45a8-8b51-2b8d665947ea"
+}
+}
+},
+{
+"uuid": "14c3a7fe-572d-4d5e-8764-042f40868e01",
+"fileName": "Täiendavad_selgitused_tulumaksuseaduse_muudatusettepanekute_kohta_-_11.11.2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-11T16:04:55.212",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/14c3a7fe-572d-4d5e-8764-042f40868e01/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/14c3a7fe-572d-4d5e-8764-042f40868e01"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/1a1fdf97-5cad-43a3-8b3f-77a66ddc8f4a"
+}
+}
+},
+{
+"uuid": "50028f6d-0fb5-4433-9e60-12707d7eb973",
+"reference": "1-1/15-509/11",
+"title": "AS Alexela arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-08",
+"files": [
+{
+"uuid": "cde636ec-5525-4f71-9d94-714c1f56a570",
+"fileName": "Ettepanek.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-08T12:55:54.464",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cde636ec-5525-4f71-9d94-714c1f56a570/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cde636ec-5525-4f71-9d94-714c1f56a570"
+}
+}
+},
+{
+"uuid": "6178d2d2-0d21-4db2-8a4d-59254c6d2b54",
+"fileName": "Ettevõtjate_kiri_Rahanduskomisjonile_nov_24.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-08T12:55:54.347",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6178d2d2-0d21-4db2-8a4d-59254c6d2b54/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6178d2d2-0d21-4db2-8a4d-59254c6d2b54"
+}
+}
+},
+{
+"uuid": "637232f8-b241-497c-a3b7-c0013aec0d57",
+"fileName": "Ettevõtjate_kiri_Rahanduskomisjonile_nov_24.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-08T12:55:54.448",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/637232f8-b241-497c-a3b7-c0013aec0d57/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/637232f8-b241-497c-a3b7-c0013aec0d57"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/50028f6d-0fb5-4433-9e60-12707d7eb973"
+}
+}
+},
+{
+"uuid": "5bd3ff98-5672-4024-859f-12cd400c0b17",
+"reference": "1-1/15-509/1",
+"title": "Eesti Tööandjate Keskliidu arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-03",
+"files": [
+{
+"uuid": "1590bcdf-31b2-488e-bbeb-895180944c60",
+"fileName": "Terviseedenduse_maksuvabastuse_laiendamine_(509_SE).html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-03T16:05:10.633",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1590bcdf-31b2-488e-bbeb-895180944c60/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1590bcdf-31b2-488e-bbeb-895180944c60"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5bd3ff98-5672-4024-859f-12cd400c0b17"
+}
+}
+},
+{
+"uuid": "115cd11a-5220-4657-ab36-b7ba25053da1",
+"reference": "1-1/15-509/13",
+"title": "Eesti Tööandjate Keskliidu arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-11",
+"files": [
+{
+"uuid": "76ac595a-57b3-47a9-85de-ae61c37070d1",
+"fileName": "509_TuMS_KVTRS_m_s_eelnõu_ETKL_muudatusettepanek_tervisekulude_osas.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-11T14:05:01.805",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/76ac595a-57b3-47a9-85de-ae61c37070d1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/76ac595a-57b3-47a9-85de-ae61c37070d1"
+}
+}
+},
+{
+"uuid": "5583cd6f-43f1-42dc-a5fb-c250f9c77561",
+"fileName": "Sõnastusettepanek_509SE_juurde.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-11T14:05:01.818",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5583cd6f-43f1-42dc-a5fb-c250f9c77561/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5583cd6f-43f1-42dc-a5fb-c250f9c77561"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/115cd11a-5220-4657-ab36-b7ba25053da1"
+}
+}
+},
+{
+"uuid": "62a4d40f-7053-451b-96b2-cd0f766afcc6",
+"reference": "1-1/15-509/4",
+"title": "Kaubandus-Tööstuskoja arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-15",
+"files": [
+{
+"uuid": "92a00bb0-65c9-4af5-ade1-e00e3edfb2d2",
+"fileName": "15_10_2024_Tulumaksuseaduse_ja_kaitseväeteenistuse_seaduse_muutmise_seaduse_ning_tulumaksuseaduse_muutmise_seadus_509_SE.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-15T13:05:58.941",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92a00bb0-65c9-4af5-ade1-e00e3edfb2d2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92a00bb0-65c9-4af5-ade1-e00e3edfb2d2"
+}
+}
+},
+{
+"uuid": "efe4bcf9-ffd3-495f-90f4-53dfc6250bf0",
+"fileName": "Kaubandus-Tööstuskoja_arvamus_tulumaksuseaduse_muudatuste_kohta_.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-15T13:05:59.024",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/efe4bcf9-ffd3-495f-90f4-53dfc6250bf0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/efe4bcf9-ffd3-495f-90f4-53dfc6250bf0"
+}
+}
+},
+{
+"uuid": "35585045-1abb-4f2e-a7f5-bcafcf246723",
+"fileName": "15_10_2024_Tulumaksuseaduse_ja_kaitseväeteenistuse_seaduse_muutmise_seaduse_ning_tulumaksuseaduse_muutmise_seadus_509_SE.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-15T13:05:58.873",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35585045-1abb-4f2e-a7f5-bcafcf246723/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35585045-1abb-4f2e-a7f5-bcafcf246723"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/62a4d40f-7053-451b-96b2-cd0f766afcc6"
+}
+}
+},
+{
+"uuid": "5be7c1c3-c117-4ed2-ae68-b83f09e82683",
+"reference": "1-1/15-509/10",
+"title": "Eesti Tööandjate Keskliidu arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-06",
+"files": [
+{
+"uuid": "bc22b822-ff27-4d72-87c5-06935cbceec4",
+"fileName": "Tulumaksuseaduse_muudatused_Riigikogus_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-06T17:03:21.46",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bc22b822-ff27-4d72-87c5-06935cbceec4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc22b822-ff27-4d72-87c5-06935cbceec4"
+}
+}
+},
+{
+"uuid": "7a1db4e8-ddaa-4e0b-afb6-d31adad414a9",
+"fileName": "136-1_Tulumaksuseaduse_muudatused_Riigikogus_2.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-06T17:03:21.409",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7a1db4e8-ddaa-4e0b-afb6-d31adad414a9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7a1db4e8-ddaa-4e0b-afb6-d31adad414a9"
+}
+}
+},
+{
+"uuid": "75646b95-1589-4329-af7a-6975c9823ba9",
+"fileName": "Tulumaksumuudatusi_sisaldava_eelnõu_509_SE_menetlemine_Riigikogus.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-06T17:03:21.515",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/75646b95-1589-4329-af7a-6975c9823ba9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/75646b95-1589-4329-af7a-6975c9823ba9"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/5be7c1c3-c117-4ed2-ae68-b83f09e82683"
+}
+}
+},
+{
+"uuid": "215b89f2-8c5b-4818-8e04-d19d25ef1cbb",
+"reference": "1-1/15-509/17",
+"title": "MTÜ Eesti Teadveloleku Kompetentsikeskuse ToKo täiendav arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-18",
+"files": [
+{
+"uuid": "30a0b8c5-82a5-4a2c-86da-783c12e19783",
+"fileName": "Fwd__Eelnõu_509_SE_arutelu_rahanduskomisjonis_12.11.24_kell_14.00.html",
+"fileExtension": "html",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-18T11:05:10.88",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/30a0b8c5-82a5-4a2c-86da-783c12e19783/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/30a0b8c5-82a5-4a2c-86da-783c12e19783"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/215b89f2-8c5b-4818-8e04-d19d25ef1cbb"
+}
+}
+},
+{
+"uuid": "c89f0c4b-a193-42a4-8566-526a3f0f0429",
+"reference": "1-1/15-509/3",
+"title": "Tulumaksumuudatusi sisaldava eelnõu 509 SE menetlemine Riigikogus",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-11",
+"files": [
+{
+"uuid": "5aca5f0d-cc29-4c56-8043-95a1a1e91e34",
+"fileName": "1-1-15-509-3_-_Tulumaksumuudatusi_sisaldava_eelnõu_509_SE_menetlemine_Riigikogus.asice",
+"fileExtension": "asice",
+"fileTitle": "Väljaminev kiri asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-11T12:32:37.654",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5aca5f0d-cc29-4c56-8043-95a1a1e91e34/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5aca5f0d-cc29-4c56-8043-95a1a1e91e34"
+}
+}
+},
+{
+"uuid": "c05db86b-ad1c-405b-b303-e52cb79fd86b",
+"fileName": "RAHK_509_SE_11102024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Väljaminev kiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-11T12:31:10.636",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c05db86b-ad1c-405b-b303-e52cb79fd86b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c05db86b-ad1c-405b-b303-e52cb79fd86b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/c89f0c4b-a193-42a4-8566-526a3f0f0429"
+}
+}
+},
+{
+"uuid": "ac124506-098e-45e7-8ac5-3497174c02cd",
+"reference": "1-1/15-509/15",
+"title": "J. K., T. P., A. R., K. P. ja A. L. arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-12",
+"files": [
+{
+"uuid": "9d40c7ef-ecc7-4b03-a11f-1d3858f66702",
+"fileName": "Arvamus_509_SE_12112024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T08:46:31.307",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9d40c7ef-ecc7-4b03-a11f-1d3858f66702/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9d40c7ef-ecc7-4b03-a11f-1d3858f66702"
+}
+}
+},
+{
+"uuid": "4464424f-4408-4bc2-b533-05a66b1028f1",
+"fileName": "Pöördumine_seoses_Tulumaksuseaduse_ja_kaitseväeteenistuse_seaduse_muutmise_seaduse_ning_tulumaksuseaduse_muutmise_seadus_509_SE.html",
+"fileExtension": "html",
+"fileTitle": "E-kiri",
+"accessRestrictionType": "FOR_USE_WITHIN_ESTABLISHMENT",
+"accessRestrictionStartDate": "2024-11-12",
+"accessRestrictionEndDate": "2099-11-12",
+"accessRestrictionBasis": [
+{
+"code": "23",
+"value": "AvTS § 35 lg 1 p 12 teave, mis sisaldab isikuandmeid, kui sellisele teabele juurdepääsu võimaldamine kahjustaks oluliselt andmesubjekti eraelu puutumatust "
+}
+],
+"created": "2024-11-12T08:39:48.901",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4464424f-4408-4bc2-b533-05a66b1028f1"
+}
+}
+},
+{
+"uuid": "bc6d8651-d360-4192-bfc7-6469d5d77b46",
+"fileName": "Pöördumine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus AK",
+"accessRestrictionType": "FOR_USE_WITHIN_ESTABLISHMENT",
+"accessRestrictionStartDate": "2024-11-12",
+"accessRestrictionEndDate": "2099-11-12",
+"accessRestrictionBasis": [
+{
+"code": "23",
+"value": "AvTS § 35 lg 1 p 12 teave, mis sisaldab isikuandmeid, kui sellisele teabele juurdepääsu võimaldamine kahjustaks oluliselt andmesubjekti eraelu puutumatust "
+}
+],
+"created": "2024-11-12T08:39:48.893",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bc6d8651-d360-4192-bfc7-6469d5d77b46"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ac124506-098e-45e7-8ac5-3497174c02cd"
+}
+}
+},
+{
+"uuid": "9b050f29-8110-438a-ab52-5258ed566dc2",
+"reference": "1-1/15-509/16",
+"title": "Ambla Metsaühistu arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-14",
+"files": [
+{
+"uuid": "46c1e41e-bad6-4d30-ba03-cf1a98f3fae4",
+"fileName": "Maksutulu_-_13.11.2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-14T08:49:27.677",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/46c1e41e-bad6-4d30-ba03-cf1a98f3fae4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/46c1e41e-bad6-4d30-ba03-cf1a98f3fae4"
+}
+}
+},
+{
+"uuid": "f27bc912-bc8f-4222-b8a6-a9e1be54d621",
+"fileName": "509_SE_I.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-14T08:49:27.688",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f27bc912-bc8f-4222-b8a6-a9e1be54d621/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f27bc912-bc8f-4222-b8a6-a9e1be54d621"
+}
+}
+},
+{
+"uuid": "c1ff0f2a-3c9a-4a71-bd78-c30600e76ffc",
+"fileName": "Maksutulu_-_13.11.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-14T08:49:27.63",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c1ff0f2a-3c9a-4a71-bd78-c30600e76ffc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c1ff0f2a-3c9a-4a71-bd78-c30600e76ffc"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/9b050f29-8110-438a-ab52-5258ed566dc2"
+}
+}
+},
+{
+"uuid": "cab64338-0999-45f0-b5d1-3c71eb533f57",
+"reference": "1-1/15-509/2",
+"title": "MTÜ Eesti Teadveloleku Kompetentsikeskuse ToKo arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-10",
+"files": [
+{
+"uuid": "ad013183-6b15-45bc-acea-1071c06c1e58",
+"fileName": "Ettepanek_Riigikogu_rahanduskomisjon_8.okt.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-10T14:43:59.564",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ad013183-6b15-45bc-acea-1071c06c1e58/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ad013183-6b15-45bc-acea-1071c06c1e58"
+}
+}
+},
+{
+"uuid": "c8e3dfde-adc0-42bf-8d48-aca321358486",
+"fileName": "Ettepanek_Tulumaksuseaduse_muutmise_eelnõu_muutmiseks.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-10T14:43:59.585",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c8e3dfde-adc0-42bf-8d48-aca321358486/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c8e3dfde-adc0-42bf-8d48-aca321358486"
+}
+}
+},
+{
+"uuid": "17d16c4a-0194-48d3-884e-d51dccd1251d",
+"fileName": "Ettepanek_Riigikogu_rahanduskomisjon_8.okt.2024_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-10T14:43:59.412",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17d16c4a-0194-48d3-884e-d51dccd1251d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17d16c4a-0194-48d3-884e-d51dccd1251d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cab64338-0999-45f0-b5d1-3c71eb533f57"
+}
+}
+},
+{
+"uuid": "78cf9bb2-1674-401c-b4e2-98218a6055f9",
+"reference": "1-1/15-509/5",
+"title": "Tulundusühistu Tuleva arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-18",
+"files": [
+{
+"uuid": "5dc7c596-4297-40cf-85c0-fa4dd913a2ca",
+"fileName": "Ettepanek_Riigikogule_maksustada_tööandjapensionit_sarnaselt_töötaja_tervise_edendamiseks_tehtavate_kulutustega.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-18T11:34:08.035",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5dc7c596-4297-40cf-85c0-fa4dd913a2ca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5dc7c596-4297-40cf-85c0-fa4dd913a2ca"
+}
+}
+},
+{
+"uuid": "7aa9577c-4ab2-4691-8290-9e526966d772",
+"fileName": "Ettepanek_509_SE-sse.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-18T11:34:08.119",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7aa9577c-4ab2-4691-8290-9e526966d772/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7aa9577c-4ab2-4691-8290-9e526966d772"
+}
+}
+},
+{
+"uuid": "c49eab48-3260-42ab-afae-34ddf661908c",
+"fileName": "Ettepanek_Riigikogule_maksustada_tööandjapensionit_sarnaselt_töötaja_tervise_edendamiseks_tehtavate_kulutustega_(2).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-18T11:34:08.099",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c49eab48-3260-42ab-afae-34ddf661908c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c49eab48-3260-42ab-afae-34ddf661908c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/78cf9bb2-1674-401c-b4e2-98218a6055f9"
+}
+}
+},
+{
+"uuid": "ffede392-55ba-40b5-9aee-bb1a79fee0c8",
+"reference": "1-1/15-509/20",
+"title": "Vastuskiri tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-12-23",
+"files": [
+{
+"uuid": "4b0dc483-9472-44f6-8fe9-88ca42603dea",
+"fileName": "RAHK_509_SE_20122024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuskiri",
+"accessRestrictionType": "FOR_USE_WITHIN_ESTABLISHMENT",
+"accessRestrictionStartDate": "2024-12-23",
+"accessRestrictionEndDate": "2099-12-23",
+"accessRestrictionBasis": [
+{
+"code": "23",
+"value": "AvTS § 35 lg 1 p 12 teave, mis sisaldab isikuandmeid, kui sellisele teabele juurdepääsu võimaldamine kahjustaks oluliselt andmesubjekti eraelu puutumatust "
+}
+],
+"created": "2024-12-23T09:00:06.914",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4b0dc483-9472-44f6-8fe9-88ca42603dea"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ffede392-55ba-40b5-9aee-bb1a79fee0c8"
+}
+}
+},
+{
+"uuid": "350efe85-217e-4183-b1c4-064d03e8ed2f",
+"reference": "1-1/15-509/12",
+"title": "Rahandusministeeriumi arvamus tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-11",
+"files": [
+{
+"uuid": "a0db4b92-5640-461d-9f6f-cb7203573144",
+"fileName": "5-14988-1_08.11.2024_Väljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-11T09:24:04.629",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a0db4b92-5640-461d-9f6f-cb7203573144/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a0db4b92-5640-461d-9f6f-cb7203573144"
+}
+}
+},
+{
+"uuid": "1775f8f7-f472-4c50-93d4-cee6b5cf95cd",
+"fileName": "Eelnõu_509SE_muudatusettepanek.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-11T09:24:04.681",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1775f8f7-f472-4c50-93d4-cee6b5cf95cd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1775f8f7-f472-4c50-93d4-cee6b5cf95cd"
+}
+}
+},
+{
+"uuid": "809a4b1b-89cb-4b02-a05d-c37f860ca704",
+"fileName": "Eelnõu_509SE_muudatusettepanek.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-11T09:24:04.691",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/809a4b1b-89cb-4b02-a05d-c37f860ca704/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/809a4b1b-89cb-4b02-a05d-c37f860ca704"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/350efe85-217e-4183-b1c4-064d03e8ed2f"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "611f4b8d-0b26-4738-8ac9-8b7663ba269d",
+"reference": "1-1/15-509/6",
+"title": "Riigikogu liikme K. E. Vaga muudatusettepanek tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "d0ac4145-6aac-4a1a-b6fa-7792b9c3a4af",
+"fileName": "ME_509_SE_K.E.Vaga.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-18T15:11:29.109",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d0ac4145-6aac-4a1a-b6fa-7792b9c3a4af/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d0ac4145-6aac-4a1a-b6fa-7792b9c3a4af"
+}
+}
+},
+{
+"uuid": "2fe2c9d2-122d-48b0-adaf-43a33a131af2",
+"fileName": "ME_509_SE_K.E.Vaga.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-18T15:11:08.394",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2fe2c9d2-122d-48b0-adaf-43a33a131af2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2fe2c9d2-122d-48b0-adaf-43a33a131af2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/611f4b8d-0b26-4738-8ac9-8b7663ba269d"
+}
+}
+},
+{
+"uuid": "cd682b21-06f7-4cbe-93c5-998e715e990f",
+"reference": "1-1/15-509/9",
+"title": "Isamaa fraktsiooni muudatusettepanekud tulumaksuseaduse ja kaitseväeteenistuse seaduse muutmise seaduse ning tulumaksuseaduse muutmise seaduse eelnõu 509 SE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "0a9da7cb-d91b-4a74-bdc9-338095299fca",
+"fileName": "Isamaa_MEd_509_SE_kohta.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-28T15:40:55.941",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0a9da7cb-d91b-4a74-bdc9-338095299fca/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0a9da7cb-d91b-4a74-bdc9-338095299fca"
+}
+}
+},
+{
+"uuid": "725d5ae9-2d71-4ad5-99a4-8f4716eff0a2",
+"fileName": "Isamaa_MEd_509_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-28T15:40:46.073",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/725d5ae9-2d71-4ad5-99a4-8f4716eff0a2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/725d5ae9-2d71-4ad5-99a4-8f4716eff0a2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/cd682b21-06f7-4cbe-93c5-998e715e990f"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/e95c8a2b-a742-4b72-b40a-d3a3610f6d92"
+}
+}
+}

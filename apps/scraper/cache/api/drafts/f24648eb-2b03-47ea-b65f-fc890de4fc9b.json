@@ -1,0 +1,522 @@
+{
+"uuid": "f24648eb-2b03-47ea-b65f-fc890de4fc9b",
+"title": "Mootorsõidukimaksu seaduse kehtetuks tunnistamise ja liiklusseaduses sõiduautode registreerimistasu kehtetuks tunnistamise seadus",
+"mark": 850,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Mootorsõidukimaksu seaduse kehtetuks tunnistamise ja liiklusseaduses sõiduautode registreerimistasu kehtetuks tunnistamise seadus 850 SE",
+"initialTitle": "Mootorsõidukimaksu seaduse kehtetuks tunnistamise ja liiklusseaduses sõiduautode registreerimistasu kehtetuks tunnistamise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tunnistatakse kehtetuks mootorsõidukimaksu seadus. Lisaks tunnistatakse kehtetuks sõiduautode registreerimistasu. Seega ei hakka mootorsõidukimaksu ja sõiduautode registreerimistasu riigieelarvesse laekuma.",
+"initiated": "2026-03-16",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "7655e8d3-b658-49f0-8e09-f6cbc4a2c714",
+"name": "Annely Akkermann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/7655e8d3-b658-49f0-8e09-f6cbc4a2c714?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "95bde520-3032-48a5-aa20-567020b4e1da",
+"name": "Andres Ando",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/95bde520-3032-48a5-aa20-567020b4e1da?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4409,
+"text": "mootorsõidukimaks"
+},
+{
+"edid": 6621,
+"text": "kehtetuks tunnistamine"
+},
+{
+"edid": 3110,
+"text": "sõiduki registreerimine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7c5bbf57-dfbe-4e71-b259-64b69d5c60be",
+"title": "850 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9277fbd3-6c02-4d7f-bdaa-905074b8e627",
+"fileName": "850_MSMS_LS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-11T13:16:43.233",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9277fbd3-6c02-4d7f-bdaa-905074b8e627/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9277fbd3-6c02-4d7f-bdaa-905074b8e627"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f90865fa-b1de-4d2a-8155-4b12fea0dc66",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "56685f9d-91b6-4ad1-b80f-1c388a360444",
+"fileName": "Automaksu_kehtetuks_tunnistamise_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T15:28:24.543",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/56685f9d-91b6-4ad1-b80f-1c388a360444/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/56685f9d-91b6-4ad1-b80f-1c388a360444"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f90865fa-b1de-4d2a-8155-4b12fea0dc66",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "17d26979-a4cb-4949-b3ce-7cabd924ff04",
+"fileName": "850_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T16:05:38.278",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/17d26979-a4cb-4949-b3ce-7cabd924ff04/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/17d26979-a4cb-4949-b3ce-7cabd924ff04"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7c5bbf57-dfbe-4e71-b259-64b69d5c60be",
+"title": "850 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "abf763f9-1bc7-4208-a37e-f1389ecbe432",
+"fileName": "850_MSMS_LS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-11T13:16:58.544",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/abf763f9-1bc7-4208-a37e-f1389ecbe432/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/abf763f9-1bc7-4208-a37e-f1389ecbe432"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f90865fa-b1de-4d2a-8155-4b12fea0dc66",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a48530d7-9dd2-4933-afe0-faf4222e7caa",
+"fileName": "850_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T16:05:50.625",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a48530d7-9dd2-4933-afe0-faf4222e7caa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a48530d7-9dd2-4933-afe0-faf4222e7caa"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2026-03-16T15:27:55.58",
+"status": "ALGATATUD"
+},
+{
+"date": "2026-03-17T13:55:00.175",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2026-05-11T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 11.05.2026 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2026-05-20T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "f7b04452-d765-4032-9690-39d47eec18b9",
+"fileName": "Finantsinspektsiooni_esitlus_11.05.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (Finantsinspektsiooni esitlus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-16T11:51:03.531",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7b04452-d765-4032-9690-39d47eec18b9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7b04452-d765-4032-9690-39d47eec18b9"
+}
+}
+},
+{
+"uuid": "a33b9dc1-59d4-4ad3-baa5-edc566dcec8d",
+"fileName": "RAHK_protokoll_11.05.2026.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-16T11:59:33.041",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a33b9dc1-59d4-4ad3-baa5-edc566dcec8d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a33b9dc1-59d4-4ad3-baa5-edc566dcec8d"
+}
+}
+},
+{
+"uuid": "14aa1bf4-f862-49cf-b540-f04368f279fc",
+"fileName": "RAHK_protokoll_nr_229_11.05.2026.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-06-16T11:49:25.162",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/14aa1bf4-f862-49cf-b540-f04368f279fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/14aa1bf4-f862-49cf-b540-f04368f279fc"
+}
+}
+}
+]
+},
+{
+"date": "2026-05-21T16:30:26.438",
+"status": "SAADETUD_I_LUGEMISELE"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2026-06-11T13:15:20.782",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2026-06-17T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 17.06.2026 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "0a0dd1c7-0731-4ae8-9c69-fe4ed6bf2478",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2026-06-18T00:10:51.86",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/0a0dd1c7-0731-4ae8-9c69-fe4ed6bf2478"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "89e4dbbf-ec9d-401a-9062-2fc637606ec8",
+"reference": "1-1/15-850/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 850 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-03-16",
+"files": [
+{
+"uuid": "41a1d4ee-5066-4d6c-bb9f-ea244fe0c01e",
+"fileName": "850_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T16:25:17.635",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/41a1d4ee-5066-4d6c-bb9f-ea244fe0c01e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/41a1d4ee-5066-4d6c-bb9f-ea244fe0c01e"
+}
+}
+},
+{
+"uuid": "8eb0139a-c043-47fb-83ec-f28a6b655191",
+"fileName": "1-1-15-850-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_850_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-17T14:26:06.89",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8eb0139a-c043-47fb-83ec-f28a6b655191/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8eb0139a-c043-47fb-83ec-f28a6b655191"
+}
+}
+},
+{
+"uuid": "9cc1388e-ddb2-4604-88b2-73a4f50c3ee3",
+"fileName": "850_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T16:24:59.587",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9cc1388e-ddb2-4604-88b2-73a4f50c3ee3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9cc1388e-ddb2-4604-88b2-73a4f50c3ee3"
+}
+}
+},
+{
+"uuid": "f752304d-1ab0-4013-b283-ec6978e105c4",
+"fileName": "260317_MSMS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T16:47:50.334",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f752304d-1ab0-4013-b283-ec6978e105c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f752304d-1ab0-4013-b283-ec6978e105c4"
+}
+}
+},
+{
+"uuid": "5ffa7bdf-ed8a-4dd1-b47d-0d989032fa2b",
+"fileName": "MSMS_LS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T15:32:11.418",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ffa7bdf-ed8a-4dd1-b47d-0d989032fa2b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ffa7bdf-ed8a-4dd1-b47d-0d989032fa2b"
+}
+}
+},
+{
+"uuid": "88c754a1-b4d3-40c5-98d1-a31b364b4ae7",
+"fileName": "MSMS_LS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-03-16T15:31:57.578",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88c754a1-b4d3-40c5-98d1-a31b364b4ae7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88c754a1-b4d3-40c5-98d1-a31b364b4ae7"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/89e4dbbf-ec9d-401a-9062-2fc637606ec8"
+}
+}
+},
+{
+"uuid": "652beb49-d72f-4334-a1fd-29b961f74790",
+"reference": "1-1/15-850/2",
+"title": "Vabariigi Valitsuse arvamus mootorsõidukimaksu seaduse kehtetuks tunnistamise ja liiklusseaduses sõiduautode registreerimistasu kehtetuks tunnistamise seaduse eelnõu 850 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2026-04-22",
+"files": [
+{
+"uuid": "35c3388f-4823-418d-85f7-2e8bb359c66f",
+"fileName": "1.1-111293-4_22.04.2026_VīŋŊljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-22T17:11:29.155",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35c3388f-4823-418d-85f7-2e8bb359c66f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35c3388f-4823-418d-85f7-2e8bb359c66f"
+}
+}
+},
+{
+"uuid": "b84f9155-edcd-4493-b958-e4eaeadd275c",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-26-0352_-_Mootorsõidukimaksu_seaduse_kehtetuks_tunnistamise_ja_liiklusseaduses_sõiduautode_registreerimistasu_kehtetuks_tunnistamise_seaduse_eelnõu_(850_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-22T17:11:29.145",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b84f9155-edcd-4493-b958-e4eaeadd275c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b84f9155-edcd-4493-b958-e4eaeadd275c"
+}
+}
+},
+{
+"uuid": "f2aa2c4f-d80f-4ae2-a72a-335489c7aba4",
+"fileName": "Arvamuse_edastamine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2026-04-22T17:11:29.213",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2aa2c4f-d80f-4ae2-a72a-335489c7aba4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2aa2c4f-d80f-4ae2-a72a-335489c7aba4"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/652beb49-d72f-4334-a1fd-29b961f74790"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/f24648eb-2b03-47ea-b65f-fc890de4fc9b"
+}
+}
+}

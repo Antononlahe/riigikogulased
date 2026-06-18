@@ -1,0 +1,574 @@
+{
+"uuid": "a76d29d6-e89b-4388-83ec-b382dbf87c42",
+"title": "Riigikogu otsus „Riigikogu liikmetest Eesti Panga Nõukogu liikmete nimetamine\"",
+"mark": 629,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Riigikogu liikmetest Eesti Panga Nõukogu liikmete nimetamine\" 629 OE",
+"initialTitle": "Riigikogu otsus „Riigikogu liikmetest Eesti Panga Nõukogu liikmete nimetamine\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu näeb ette nimetada Eesti Panga Nõukogu liikmeteks Riigikogu liikmed Tarmo Tamm ja Mart Võrklaev.",
+"initiated": "2025-04-17",
+"joined": null,
+"accepted": "2025-04-23",
+"amendmentsDeadline": null,
+"responsibleMember": null,
+"responsibleOfficer": null,
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4763,
+"text": "keskpank"
+},
+{
+"edid": 1448,
+"text": "järelevalveorgan"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2a4bc71f-edfb-4a16-be53-b41db77eab96",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d1a5be22-86a1-4e9c-8346-624e7df3f4a8",
+"fileName": "Riigikogu_otsuse_Riigikogu_liikmetest_Eesti_Panga_Nõukogu_liikmete_nimetamine_eelnõu_esitamine.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T10:03:06.947",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d1a5be22-86a1-4e9c-8346-624e7df3f4a8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d1a5be22-86a1-4e9c-8346-624e7df3f4a8"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "fd03dd16-6622-4ecb-9971-dfe48c226972",
+"title": "Riigikogu otsuse I lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ebfd1ec5-c269-4e4a-aa3c-1d3be20c27ed",
+"fileName": "629_Eelnõu_-_EPN_liikmed.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-22T16:18:01.135",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ebfd1ec5-c269-4e4a-aa3c-1d3be20c27ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ebfd1ec5-c269-4e4a-aa3c-1d3be20c27ed"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2a4bc71f-edfb-4a16-be53-b41db77eab96",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "54edd63e-ee85-41dd-b36d-2458dc1141a4",
+"fileName": "Eelnõu_-_EPN_liikmed.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T10:03:06.993",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/54edd63e-ee85-41dd-b36d-2458dc1141a4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/54edd63e-ee85-41dd-b36d-2458dc1141a4"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "c99b4db9-9190-4b90-9927-65b79137d832",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "300da79a-d1c1-4ffa-8671-590ae14efd3a",
+"fileName": "629XV_RK_o_23042025.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-23T18:44:22.386",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/300da79a-d1c1-4ffa-8671-590ae14efd3a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/300da79a-d1c1-4ffa-8671-590ae14efd3a"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "c99b4db9-9190-4b90-9927-65b79137d832",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3917c892-167a-45c0-9f96-5ba237bd426b",
+"fileName": "629XV_RK_o_23042025.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-23T18:44:04.745",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3917c892-167a-45c0-9f96-5ba237bd426b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3917c892-167a-45c0-9f96-5ba237bd426b"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "fd03dd16-6622-4ecb-9971-dfe48c226972",
+"title": "Riigikogu otsuse I lugemise tekst",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "acb6056e-ab49-46b2-9d92-355fff804f60",
+"fileName": "629_Seletuskiri_-_EPN_liikmed.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-22T16:18:41.596",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/acb6056e-ab49-46b2-9d92-355fff804f60/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/acb6056e-ab49-46b2-9d92-355fff804f60"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2a4bc71f-edfb-4a16-be53-b41db77eab96",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ff07419c-e18a-4bf7-87a6-86e89e59c57d",
+"fileName": "Seletuskiri_-_EPN_liikmed.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-17T10:03:06.983",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ff07419c-e18a-4bf7-87a6-86e89e59c57d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ff07419c-e18a-4bf7-87a6-86e89e59c57d"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0ab35b4a-fab6-4c72-9fcc-83c172151998",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5d2e078b-9908-4bb6-b7f3-e55212ad7475",
+"fileName": "629XV_RK_o_042025.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-23T15:04:13.883",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5d2e078b-9908-4bb6-b7f3-e55212ad7475/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5d2e078b-9908-4bb6-b7f3-e55212ad7475"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "0ab35b4a-fab6-4c72-9fcc-83c172151998",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3d613750-c110-4014-bc01-15927c34b6e3",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-23T17:06:09.498",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3d613750-c110-4014-bc01-15927c34b6e3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3d613750-c110-4014-bc01-15927c34b6e3"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2025-04-17T10:02:39.919",
+"status": "ALGATATUD"
+},
+{
+"date": "2025-04-17T15:48:00.546",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-04-17T08:30:00",
+"sittingTitle": "Komisjoni erakorraline istung neljapäev, 17.04.2025 kell 08.30",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2025-04-23T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Aivar Sõerd"
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "algatada eelnõu"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "d54f598c-3821-4b99-a803-2f301f8b696f",
+"fileName": "RAHK_protokoll_17.04.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T13:47:20.505",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d54f598c-3821-4b99-a803-2f301f8b696f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d54f598c-3821-4b99-a803-2f301f8b696f"
+}
+}
+},
+{
+"uuid": "8692cdb1-8bf6-476f-9ea1-fbdfd3145f40",
+"fileName": "RAHK_protokoll_149_17_04_2025_erakorraline.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-05-20T13:46:42.419",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8692cdb1-8bf6-476f-9ea1-fbdfd3145f40/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8692cdb1-8bf6-476f-9ea1-fbdfd3145f40"
+}
+}
+}
+]
+},
+{
+"date": "2025-04-23T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 23.04.2025 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "4b6f4920-a0b2-4f7a-a8b5-5002ba74d9cf",
+"type": {
+"code": "SALAJANE",
+"value": "Salajane"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-04-23T15:01:12.143",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/4b6f4920-a0b2-4f7a-a8b5-5002ba74d9cf"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2025-04-23T18:40:17.357",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2025-04-25T09:16:18.757",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "a7cebb65-2b42-49f2-9ff8-386d2be7dbbc",
+"reference": "1-6/25-56/2",
+"title": "Eesti 200 fraktsiooni esindaja Eesti Panga Nõukogus",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-10",
+"files": [
+{
+"uuid": "c52b434d-acb1-4c44-b8a7-078db03adbd1",
+"fileName": "EPN__liikme_kinnitus_Tarmo_Tamm_10.04.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Liikme kinnitus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T12:53:13.783",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c52b434d-acb1-4c44-b8a7-078db03adbd1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c52b434d-acb1-4c44-b8a7-078db03adbd1"
+}
+}
+},
+{
+"uuid": "6906bc21-7b65-4948-88b9-64b3752d747f",
+"fileName": "Kinnitus_EP_Tarmo_Tamm.docx",
+"fileExtension": "docx",
+"fileTitle": "Liikme kinnitus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T12:53:21.418",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6906bc21-7b65-4948-88b9-64b3752d747f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6906bc21-7b65-4948-88b9-64b3752d747f"
+}
+}
+},
+{
+"uuid": "1f5f712f-86b7-46c8-bdfd-fa839507de32",
+"fileName": "Ettepanek_EP_nõukogu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eesti 200 ettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T12:53:11.97",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1f5f712f-86b7-46c8-bdfd-fa839507de32/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1f5f712f-86b7-46c8-bdfd-fa839507de32"
+}
+}
+},
+{
+"uuid": "cc94129a-4ea7-4661-930f-30a8c99b3250",
+"fileName": "Eesti_200_ettepanek_EPN_liikmeks_Tarmo_Tamm_10.04.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Eesti 200 ettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-10T12:52:57.453",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cc94129a-4ea7-4661-930f-30a8c99b3250/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cc94129a-4ea7-4661-930f-30a8c99b3250"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/a7cebb65-2b42-49f2-9ff8-386d2be7dbbc"
+}
+}
+},
+{
+"uuid": "99cb6900-315b-462d-8562-b8f587b1f881",
+"reference": "1-6/25-56/3",
+"title": "Eesti Reformierakonna fraktsiooni esindaja Eesti Panga Nõukogus",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2025-04-16",
+"files": [
+{
+"uuid": "0519e683-727e-49df-a42e-da5dc71854fb",
+"fileName": "Kinnitus_EP_Nõukogu_Mart_Võrklaev.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Liikme kinnitus",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T15:37:25.826",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0519e683-727e-49df-a42e-da5dc71854fb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0519e683-727e-49df-a42e-da5dc71854fb"
+}
+}
+},
+{
+"uuid": "1f002fbd-3e15-4108-9c17-6a134f8e5642",
+"fileName": "EPN_liikme_kinnitus_Mart_Võrklaev_16.04.2025.asice",
+"fileExtension": "asice",
+"fileTitle": "Liikme kinnitus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T15:37:13.815",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1f002fbd-3e15-4108-9c17-6a134f8e5642/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1f002fbd-3e15-4108-9c17-6a134f8e5642"
+}
+}
+},
+{
+"uuid": "2c6a9dd1-baaa-4934-b94a-5b91d9b70116",
+"fileName": "REF.FR_ettepanek_EPN_liikmeks_Mart_Võrklaev_16.04.2025_.asice",
+"fileExtension": "asice",
+"fileTitle": "ReF ettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T15:36:43.967",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2c6a9dd1-baaa-4934-b94a-5b91d9b70116/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2c6a9dd1-baaa-4934-b94a-5b91d9b70116"
+}
+}
+},
+{
+"uuid": "72e44707-b5e7-4cb9-b6c1-5714e59750ee",
+"fileName": "EP_nõukogu_rahanduskomisjonile_(16.04.2025).docx",
+"fileExtension": "docx",
+"fileTitle": "ReF ettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2025-04-16T15:37:06.793",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/72e44707-b5e7-4cb9-b6c1-5714e59750ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/72e44707-b5e7-4cb9-b6c1-5714e59750ee"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/99cb6900-315b-462d-8562-b8f587b1f881"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a76d29d6-e89b-4388-83ec-b382dbf87c42"
+}
+}
+}

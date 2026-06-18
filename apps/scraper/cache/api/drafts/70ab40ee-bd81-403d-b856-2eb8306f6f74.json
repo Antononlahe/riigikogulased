@@ -1,0 +1,493 @@
+{
+"uuid": "70ab40ee-bd81-403d-b856-2eb8306f6f74",
+"title": "Kohaliku omavalitsuse korralduse seaduse muutmise seadus",
+"mark": 37,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kohaliku omavalitsuse korralduse seaduse muutmise seadus 37 SE",
+"initialTitle": "Kohaliku omavalitsuse korralduse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TEINE_LUGEMINE",
+"activeDraftStatus": "I_LUGEMINE_LOPETATUD",
+"introduction": "Eelnõu eesmärk on anda kohalike omavalitsuste volikogude liikmele õigus pöörduda oma õiguste rikkumisel halduskohtusse.",
+"initiated": "2023-05-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-10-11T17:15:00",
+"responsibleMember": {
+"uuid": "0c571754-914d-406a-baba-6734212353de",
+"name": "Urve Tiidus",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0c571754-914d-406a-baba-6734212353de?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 68,
+"text": "kohalik omavalitsus"
+},
+{
+"edid": 5118,
+"text": "kohaliku ja piirkondliku omavalitsuse esindaja"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "85f7c8bb-3143-419b-84b3-7384f6b1670d",
+"title": "37 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1cd1b85f-5f94-4742-adc6-575b27e0442c",
+"fileName": "37_KOKS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T15:39:37.345",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1cd1b85f-5f94-4742-adc6-575b27e0442c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1cd1b85f-5f94-4742-adc6-575b27e0442c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b275afdb-8deb-4b2e-9a47-42d7f62f3ea6",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7c7b6c6e-2b9b-4aa4-931f-c7d0e4995c43",
+"fileName": "37_KOKSi_muutmine_-_volikogu_liikme_kohtuliku_kaebe_õigus.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T13:02:42.386",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c7b6c6e-2b9b-4aa4-931f-c7d0e4995c43/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c7b6c6e-2b9b-4aa4-931f-c7d0e4995c43"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b275afdb-8deb-4b2e-9a47-42d7f62f3ea6",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "25499350-f319-4cf8-a398-163c7920cce5",
+"fileName": "37_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T11:47:59.84",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25499350-f319-4cf8-a398-163c7920cce5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25499350-f319-4cf8-a398-163c7920cce5"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "85f7c8bb-3143-419b-84b3-7384f6b1670d",
+"title": "37 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "770712b1-6293-400c-9b4a-4cec13963e0d",
+"fileName": "37_KOKS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T15:40:10.361",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/770712b1-6293-400c-9b4a-4cec13963e0d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/770712b1-6293-400c-9b4a-4cec13963e0d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b275afdb-8deb-4b2e-9a47-42d7f62f3ea6",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f860d036-6523-4a27-9e6b-6ad57623c9f8",
+"fileName": "37_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-09T11:48:11.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f860d036-6523-4a27-9e6b-6ad57623c9f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f860d036-6523-4a27-9e6b-6ad57623c9f8"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-08T20:12:05.822",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-09T15:09:00.495",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-18T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 18.09.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-27T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Urve Tiidus"
+}
+],
+"protocolFiles": [
+{
+"uuid": "260c7c42-5be5-4da8-8e3f-da476db50be6",
+"fileName": "PÕSK_protokoll_18.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:54:46.034",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/260c7c42-5be5-4da8-8e3f-da476db50be6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/260c7c42-5be5-4da8-8e3f-da476db50be6"
+}
+}
+},
+{
+"uuid": "28135d5a-c9d8-4338-919f-a5a7f14835ad",
+"fileName": "PÕSK.protokoll.18.09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-29T17:51:53.828",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/28135d5a-c9d8-4338-919f-a5a7f14835ad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/28135d5a-c9d8-4338-919f-a5a7f14835ad"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-27T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 27.09.2023 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "8bfaf678-9eb8-4f56-ae60-5402d0a791d0",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-09-27T20:32:06",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/8bfaf678-9eb8-4f56-ae60-5402d0a791d0"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "d67ca40a-5b1d-4ade-ac66-47b661fe1112",
+"reference": "1-1/15-37/2",
+"title": "Vabariigi Valitsuse arvamus kohaliku omavalitsuse korralduse seaduse muutmise seaduse eelnõu 37 SE",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-20",
+"files": [
+{
+"uuid": "1fdf7ab2-08fc-4b2a-a67d-e32ec266a58b",
+"fileName": "Vabariigi_Valitsuse_seisukoht_kohaliku_omavalitsuse_korralduse_seaduse_muutmise_seaduse_eelnõu_(37_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-20T16:15:51.733",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1fdf7ab2-08fc-4b2a-a67d-e32ec266a58b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1fdf7ab2-08fc-4b2a-a67d-e32ec266a58b"
+}
+}
+},
+{
+"uuid": "84aa8be5-7224-4c75-9978-362795ef8815",
+"fileName": "1.1-114187-2_20.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-20T16:15:51.669",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/84aa8be5-7224-4c75-9978-362795ef8815/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/84aa8be5-7224-4c75-9978-362795ef8815"
+}
+}
+},
+{
+"uuid": "c604052d-b44a-45a8-a705-08f375b1d734",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0465_-_Kohaliku_omavalitsuse_korralduse_seaduse_muutmise_seaduse_eelnõu_(37_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-20T16:15:51.757",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c604052d-b44a-45a8-a705-08f375b1d734/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c604052d-b44a-45a8-a705-08f375b1d734"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d67ca40a-5b1d-4ade-ac66-47b661fe1112"
+}
+}
+},
+{
+"uuid": "0590643d-ec6a-49f8-b720-730b0c1324ef",
+"reference": "1-1/15-37/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 37 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-10",
+"files": [
+{
+"uuid": "f0478bb2-1549-4939-8ad4-c65e62041043",
+"fileName": "37_KOKS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:01:07.914",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f0478bb2-1549-4939-8ad4-c65e62041043/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f0478bb2-1549-4939-8ad4-c65e62041043"
+}
+}
+},
+{
+"uuid": "279fe44f-5bf1-44f6-a318-e508e5fd186b",
+"fileName": "1-1-15-37-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_37_SE_kohta.asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T09:24:01.652",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/279fe44f-5bf1-44f6-a318-e508e5fd186b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/279fe44f-5bf1-44f6-a318-e508e5fd186b"
+}
+}
+},
+{
+"uuid": "1dcdfff1-27fa-40db-9be7-c62596ebb155",
+"fileName": "37_KOKS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:38:42.124",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1dcdfff1-27fa-40db-9be7-c62596ebb155/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1dcdfff1-27fa-40db-9be7-c62596ebb155"
+}
+}
+},
+{
+"uuid": "db0ab7ec-6525-4d4b-993f-b306cdf80927",
+"fileName": "37_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:00:38.661",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/db0ab7ec-6525-4d4b-993f-b306cdf80927/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/db0ab7ec-6525-4d4b-993f-b306cdf80927"
+}
+}
+},
+{
+"uuid": "225a43ce-43de-4062-8267-b2a293fbac0a",
+"fileName": "230511_KOKS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T09:22:52.402",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/225a43ce-43de-4062-8267-b2a293fbac0a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/225a43ce-43de-4062-8267-b2a293fbac0a"
+}
+}
+},
+{
+"uuid": "0ecc381d-7b29-40de-951e-369aa5cc7c47",
+"fileName": "37_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-10T14:00:26.232",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0ecc381d-7b29-40de-951e-369aa5cc7c47/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0ecc381d-7b29-40de-951e-369aa5cc7c47"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/0590643d-ec6a-49f8-b720-730b0c1324ef"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/70ab40ee-bd81-403d-b856-2eb8306f6f74"
+}
+}
+}

@@ -1,0 +1,541 @@
+{
+"uuid": "8ba6e415-ebaa-4bf6-9a79-ef81c290eb88",
+"title": "Riigikogu otsus „Eesti esindaja nimetamine Põhjamaade Investeerimispanga kontrollkomiteesse\"",
+"mark": 403,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Eesti esindaja nimetamine Põhjamaade Investeerimispanga kontrollkomiteesse\" 403 OE",
+"initialTitle": "Riigikogu otsus „Eesti esindaja nimetamine Põhjamaade Investeerimispanga kontrollkomiteesse\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga tehakse ettepanek nimetada alates 1. juunist 2024 kuni 31. maini 2026 Eesti esindajaks Põhjamaade Investeerimispanga kontrollkomitees rahanduskomisjoni esimees Annely Akkermann. Käesoleval ajal on nõukogu liige Aivar Kokk.",
+"initiated": "2024-04-02",
+"joined": null,
+"accepted": "2024-05-08",
+"amendmentsDeadline": "2024-04-16T17:15:00",
+"responsibleMember": {
+"uuid": "a62b7530-a1fb-4c0b-b041-f10c2cfaa31a",
+"name": "Andrei Korobeinik",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/a62b7530-a1fb-4c0b-b041-f10c2cfaa31a?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7f83ae4a-a452-4843-9488-4ebdbec3c573",
+"name": "Tiina Licht",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7f83ae4a-a452-4843-9488-4ebdbec3c573?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 211,
+"text": "rahandusalane koostöö"
+},
+{
+"edid": 911,
+"text": "Põhja-Euroopa"
+},
+{
+"edid": 4795,
+"text": "investeerimispank"
+},
+{
+"edid": 6064,
+"text": "audit"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "30f768da-5c5f-45d2-a6b0-7dd0d1cb604a",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "88e2e19a-6be8-4eb4-95b6-af649b62371c",
+"fileName": "Riigikogu_otsuse_Eesti_esindaja_nimetamine_Põhjamaade_Investeerimispanga_kontrollkomiteesse_eelnõu_algatamise_ettevalmistamine.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T10:06:36.538",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/88e2e19a-6be8-4eb4-95b6-af649b62371c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/88e2e19a-6be8-4eb4-95b6-af649b62371c"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "23d5909c-f3fe-45d5-91e1-1c0683f4c1c5",
+"title": "403 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9b9e544b-ee67-413d-ac2c-03e27dd11c4f",
+"fileName": "403_NIB_AA_2024_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:46:52.112",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9b9e544b-ee67-413d-ac2c-03e27dd11c4f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9b9e544b-ee67-413d-ac2c-03e27dd11c4f"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "30f768da-5c5f-45d2-a6b0-7dd0d1cb604a",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ba4324d9-4f1f-4f52-b8c6-53b87321667e",
+"fileName": "NIB_AA_2024_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T10:06:36.652",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba4324d9-4f1f-4f52-b8c6-53b87321667e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba4324d9-4f1f-4f52-b8c6-53b87321667e"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "30f768da-5c5f-45d2-a6b0-7dd0d1cb604a",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fbb8272d-0c4a-46e4-9137-515b776bf0bf",
+"fileName": "403_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:14:44.832",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fbb8272d-0c4a-46e4-9137-515b776bf0bf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fbb8272d-0c4a-46e4-9137-515b776bf0bf"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "30f768da-5c5f-45d2-a6b0-7dd0d1cb604a",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2212ec65-7775-401d-a5db-02d6257bf0a7",
+"fileName": "Esitluskiri_NIB_2024_docx.docx",
+"fileExtension": "docx",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T10:06:36.671",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2212ec65-7775-401d-a5db-02d6257bf0a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2212ec65-7775-401d-a5db-02d6257bf0a7"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e64ed5f5-4111-418a-8d38-62d3a05fd2fe",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9ee4569b-fdaf-4d63-b785-eeacc2834440",
+"fileName": "403XV_RK_o_09052024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-09T12:14:51.87",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9ee4569b-fdaf-4d63-b785-eeacc2834440/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9ee4569b-fdaf-4d63-b785-eeacc2834440"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "e64ed5f5-4111-418a-8d38-62d3a05fd2fe",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f0d27a8b-9dcd-4a4f-9eee-490642ced16f",
+"fileName": "403XV_RK_o_09052024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-09T12:12:29.856",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f0d27a8b-9dcd-4a4f-9eee-490642ced16f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f0d27a8b-9dcd-4a4f-9eee-490642ced16f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "23d5909c-f3fe-45d5-91e1-1c0683f4c1c5",
+"title": "403 OE I lug. tekst ja seletuskiri",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "bf81fd4e-7bad-4031-91e1-9df376e06c89",
+"fileName": "403_NIB_AA_2024_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-15T14:47:12.637",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bf81fd4e-7bad-4031-91e1-9df376e06c89/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bf81fd4e-7bad-4031-91e1-9df376e06c89"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "30f768da-5c5f-45d2-a6b0-7dd0d1cb604a",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e351182a-b3fd-4e00-9884-7c6dfef4716a",
+"fileName": "NIB_AA_2024_seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T10:06:36.636",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e351182a-b3fd-4e00-9884-7c6dfef4716a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e351182a-b3fd-4e00-9884-7c6dfef4716a"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "30f768da-5c5f-45d2-a6b0-7dd0d1cb604a",
+"title": "RAHK esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a9f19414-5dbc-4a86-acbf-f2cb85ecf4fc",
+"fileName": "403_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T11:15:05.54",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a9f19414-5dbc-4a86-acbf-f2cb85ecf4fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a9f19414-5dbc-4a86-acbf-f2cb85ecf4fc"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "158c8704-abc4-4d47-ab47-fbd128cce4de",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "567c8efc-2dd0-479b-8195-ad6ad1e292e4",
+"fileName": "403XV_RK_o_052024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-08T15:32:34.222",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/567c8efc-2dd0-479b-8195-ad6ad1e292e4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/567c8efc-2dd0-479b-8195-ad6ad1e292e4"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "158c8704-abc4-4d47-ab47-fbd128cce4de",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d9b3e281-b2a1-44a4-8775-7f66f476b18e",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-08T15:57:04.696",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9b3e281-b2a1-44a4-8775-7f66f476b18e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9b3e281-b2a1-44a4-8775-7f66f476b18e"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-02T10:05:51.605",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-02T13:47:00.584",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-15T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 15.04.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-04-30T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "komisjoni liige Andrei Korobeinik"
+}
+],
+"protocolFiles": [
+{
+"uuid": "5978a52e-4798-4513-b304-9c0756ea562a",
+"fileName": "RAHK_protokoll_15.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T12:03:39.116",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5978a52e-4798-4513-b304-9c0756ea562a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5978a52e-4798-4513-b304-9c0756ea562a"
+}
+}
+},
+{
+"uuid": "8af56fa9-e0a3-4757-b57f-e2ef09014e5f",
+"fileName": "RAHK_protokoll_73_15_04.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-18T12:02:51.591",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8af56fa9-e0a3-4757-b57f-e2ef09014e5f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8af56fa9-e0a3-4757-b57f-e2ef09014e5f"
+}
+}
+},
+{
+"uuid": "b8409068-57dc-44e4-8b84-786af4a2a314",
+"fileName": "Pr_Annely_Akkermann.docx",
+"fileExtension": "docx",
+"fileTitle": "Lisa 1 (Aivar Koka eriarvamus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T11:03:10.489",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b8409068-57dc-44e4-8b84-786af4a2a314/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b8409068-57dc-44e4-8b84-786af4a2a314"
+}
+}
+},
+{
+"uuid": "92d91e32-c818-47a0-9ee1-6185c796c146",
+"fileName": "Aivar_Koka_eriarvamus_hoiu-laenu_ühistu_vastuskirjale_15.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lisa 1 (Aivar Koka eriarvamus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-17T11:02:40.235",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92d91e32-c818-47a0-9ee1-6185c796c146/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92d91e32-c818-47a0-9ee1-6185c796c146"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-08T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 8.05.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "203185e7-affc-4c90-b8b3-faf79e6e6687",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-05-08T15:27:38.01",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/203185e7-affc-4c90-b8b3-faf79e6e6687"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-05-09T12:11:39.748",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-05-10T10:38:14.294",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/8ba6e415-ebaa-4bf6-9a79-ef81c290eb88"
+}
+}
+}

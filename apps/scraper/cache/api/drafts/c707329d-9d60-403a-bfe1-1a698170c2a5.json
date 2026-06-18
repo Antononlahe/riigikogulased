@@ -1,0 +1,551 @@
+{
+"uuid": "c707329d-9d60-403a-bfe1-1a698170c2a5",
+"title": "Prokuratuuriseaduse muutmise seadus",
+"mark": 105,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Prokuratuuriseaduse muutmise seadus 105 SE",
+"initialTitle": "Prokuratuuriseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Algatuse eesmärgiks on luua võimalus Justiitsministeeriumil teostada prokuratuuri üle teenistuslikku järelevalvet ilma kitsendavate piiranguteta.",
+"initiated": "2023-05-10",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "966e7ccd-b097-4e49-923c-c8d39dae2d62",
+"name": "Valdo Randpere",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/966e7ccd-b097-4e49-923c-c8d39dae2d62?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "441c3c51-2f08-47f3-a36c-e4b310e17e78",
+"name": "Raini Laide",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/441c3c51-2f08-47f3-a36c-e4b310e17e78?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "dfac6020-b820-8d8d-06a6-90cc2672eb49",
+"name": "Õiguskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/dfac6020-b820-8d8d-06a6-90cc2672eb49?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "dea71fe2-c8ff-416a-b592-43c5fc094870",
+"name": "Kert Kingo",
+"type": "plenary-member",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/dea71fe2-c8ff-416a-b592-43c5fc094870?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "b5e0d7fe-b784-4057-bf7e-cc3f1873887d",
+"name": "Varro Vooglaid",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/b5e0d7fe-b784-4057-bf7e-cc3f1873887d?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+{
+"uuid": "98008392-64a2-4429-8a41-fb051823e402",
+"name": "Martin Helme",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/98008392-64a2-4429-8a41-fb051823e402?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1938,
+"text": "prokuratuur"
+},
+{
+"edid": 5945,
+"text": "haldusjärelevalve"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8d8c1889-0f98-4724-985c-b2d4ba03fcce",
+"title": "Prokuratuuriseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1d9ebaf3-996e-407e-b494-f9891c18085c",
+"fileName": "105_ProkS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T16:57:29.176",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d9ebaf3-996e-407e-b494-f9891c18085c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d9ebaf3-996e-407e-b494-f9891c18085c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2343f49b-a73d-4d3c-8db9-18c3a4bfe893",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0334caec-689d-4033-b5b8-9accdb8427c4",
+"fileName": "105_Prokuratuuriseaduse_muutmise_seadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T12:09:53.101",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0334caec-689d-4033-b5b8-9accdb8427c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0334caec-689d-4033-b5b8-9accdb8427c4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2343f49b-a73d-4d3c-8db9-18c3a4bfe893",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b98dae48-a36d-42b2-9f7c-5c15d9dd35de",
+"fileName": "105_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T10:19:16.172",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b98dae48-a36d-42b2-9f7c-5c15d9dd35de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b98dae48-a36d-42b2-9f7c-5c15d9dd35de"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "8d8c1889-0f98-4724-985c-b2d4ba03fcce",
+"title": "Prokuratuuriseaduse muutmise seadus",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3cac00c4-139c-4636-93a6-8c12844bde21",
+"fileName": "105_ProkS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-27T16:57:54.186",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3cac00c4-139c-4636-93a6-8c12844bde21/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3cac00c4-139c-4636-93a6-8c12844bde21"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2343f49b-a73d-4d3c-8db9-18c3a4bfe893",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "817938be-2569-4ed5-a3eb-55c8ba65c1a5",
+"fileName": "105_Prokuratuuriseaduse_muutmise_seaduse_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T12:10:18.364",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/817938be-2569-4ed5-a3eb-55c8ba65c1a5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/817938be-2569-4ed5-a3eb-55c8ba65c1a5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "2343f49b-a73d-4d3c-8db9-18c3a4bfe893",
+"title": "3 Riigikogu liikme algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "05e25a14-1e72-42f9-b797-ea0e97a97f68",
+"fileName": "105_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T10:19:33.146",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/05e25a14-1e72-42f9-b797-ea0e97a97f68/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/05e25a14-1e72-42f9-b797-ea0e97a97f68"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-10T23:23:37.807",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T20:43:00.707",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-26T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 26.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-10-11T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Valdo Randpere"
+}
+],
+"protocolFiles": [
+{
+"uuid": "b3d92285-5900-4eee-b543-5944fa406446",
+"fileName": "ÕIGK_protokoll_26.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-19T09:57:03.006",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b3d92285-5900-4eee-b543-5944fa406446/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b3d92285-5900-4eee-b543-5944fa406446"
+}
+}
+},
+{
+"uuid": "3aa57db9-5b21-4592-8059-591e2a4c88e8",
+"fileName": "Riigikogu_õiguskomisjoni_istungi_protokoll_nr_17.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-19T09:55:32.984",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3aa57db9-5b21-4592-8059-591e2a4c88e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3aa57db9-5b21-4592-8059-591e2a4c88e8"
+}
+}
+}
+]
+},
+{
+"date": "2024-01-09T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 9.01.2024 10:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-01-16T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 16.01.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "84028e7a-db75-4e29-80a0-0593910703cc",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-01-16T12:54:09.55",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/84028e7a-db75-4e29-80a0-0593910703cc"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "34f65464-ca96-4323-b2fc-ec95fc17eaa3",
+"reference": "1-1/15-105/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 105 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-16",
+"files": [
+{
+"uuid": "e26c0d9f-f77a-419b-9263-e3b91adfd6dd",
+"fileName": "230518_ProkS_RKL.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-18T10:29:55.538",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e26c0d9f-f77a-419b-9263-e3b91adfd6dd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e26c0d9f-f77a-419b-9263-e3b91adfd6dd"
+}
+}
+},
+{
+"uuid": "3a827133-5e99-4678-91d4-aa0ed48064ba",
+"fileName": "105_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T12:13:50.61",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a827133-5e99-4678-91d4-aa0ed48064ba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a827133-5e99-4678-91d4-aa0ed48064ba"
+}
+}
+},
+{
+"uuid": "51f2db65-351b-4b26-aee2-a0673fee0b82",
+"fileName": "105_ProkS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T12:13:18.861",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/51f2db65-351b-4b26-aee2-a0673fee0b82/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/51f2db65-351b-4b26-aee2-a0673fee0b82"
+}
+}
+},
+{
+"uuid": "f20ce4a3-3796-412d-8705-cd834b6aec72",
+"fileName": "1-1-15-105-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_105_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-19T16:52:00.949",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f20ce4a3-3796-412d-8705-cd834b6aec72/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f20ce4a3-3796-412d-8705-cd834b6aec72"
+}
+}
+},
+{
+"uuid": "fa1af52e-2e1b-4ea3-9335-15e6b52c2d78",
+"fileName": "105_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T12:14:06.964",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fa1af52e-2e1b-4ea3-9335-15e6b52c2d78/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fa1af52e-2e1b-4ea3-9335-15e6b52c2d78"
+}
+}
+},
+{
+"uuid": "a27561a4-dd52-45d5-b7a8-82acf921aaad",
+"fileName": "105_ProkS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T12:13:35.844",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a27561a4-dd52-45d5-b7a8-82acf921aaad/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a27561a4-dd52-45d5-b7a8-82acf921aaad"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/34f65464-ca96-4323-b2fc-ec95fc17eaa3"
+}
+}
+},
+{
+"uuid": "03ea81df-914e-44a3-aae0-6b63b616b51d",
+"reference": "1-1/15-105/2",
+"title": "Vabariigi Valitsuse arvamus prokuratuuriseaduse muutmise seaduse eelnõu 105 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-06-28",
+"files": [
+{
+"uuid": "27f88d3e-4b02-4f7a-8bf0-34380e01f36e",
+"fileName": "Vabariigi_Valitsuse_arvamuse_esitamine_seaduseelnõu_105SE_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-28T10:10:46.192",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/27f88d3e-4b02-4f7a-8bf0-34380e01f36e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/27f88d3e-4b02-4f7a-8bf0-34380e01f36e"
+}
+}
+},
+{
+"uuid": "77392c27-6159-4bc0-bf2b-509f34d7e389",
+"fileName": "8-23767_28.06.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-28T10:10:46.158",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/77392c27-6159-4bc0-bf2b-509f34d7e389/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/77392c27-6159-4bc0-bf2b-509f34d7e389"
+}
+}
+},
+{
+"uuid": "bbb47e8b-dc35-414a-a1e4-e6eb3cb01fb0",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0588_-_Prokuratuuriseaduse_muutmise_seaduse_eelnõu_(105_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-28T10:10:46.212",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bbb47e8b-dc35-414a-a1e4-e6eb3cb01fb0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bbb47e8b-dc35-414a-a1e4-e6eb3cb01fb0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/03ea81df-914e-44a3-aae0-6b63b616b51d"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/c707329d-9d60-403a-bfe1-1a698170c2a5"
+}
+}
+}

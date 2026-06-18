@@ -1,0 +1,1067 @@
+{
+"uuid": "3eb52431-7bf2-4bc5-84bd-4c6313f720c4",
+"title": "Veeseaduse muutmise seadus",
+"mark": 346,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Veeseaduse muutmise seadus 346 SE",
+"initialTitle": "Veeseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõuga muudetakse veeseadust, millesse lisatakse taaskasutusvee tootmise ja kasutamise võimaldamiseks vajalikud sätted. Defineeritakse mõisted „taaskasutusvesi“, „taaskasutusvee tootmine“ ja „taaskasutusvee kasutamine“. Taaskasutusvee tootmise suhtes rakendatakse vee erikasutuse keskkonnaloa kohustus ning taaskasutusvee kasutamiseks veekeskkonnariskiga tegevuse registreerimise kohustus. Luuakse vajalikud volitusnormid rakendusaktide kehtestamiseks.",
+"initiated": "2023-11-20",
+"joined": null,
+"accepted": "2024-03-06",
+"amendmentsDeadline": "2024-01-30T17:15:00",
+"responsibleMember": {
+"uuid": "d18cee4c-7b30-405f-96f2-4ab6f81efaf2",
+"name": "Hanah Lahe",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/d18cee4c-7b30-405f-96f2-4ab6f81efaf2?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "93630c8d-295d-4c76-b30b-2eebc6d35396",
+"name": "Elle Kaur",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/93630c8d-295d-4c76-b30b-2eebc6d35396?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "4f907fd8-ace5-c3eb-d50a-b65606cd3621",
+"name": "Keskkonnakomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/4f907fd8-ace5-c3eb-d50a-b65606cd3621?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 3535,
+"text": "veevarud"
+},
+{
+"edid": 612,
+"text": "heitvesi"
+},
+{
+"edid": 4485,
+"text": "veekäitlus"
+},
+{
+"edid": 4628,
+"text": "veekasutus"
+},
+{
+"edid": 3730,
+"text": "terviserisk"
+},
+{
+"edid": 2247,
+"text": "liidu õiguse riigisisene rakendamine"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "1a5ad6c9-6de2-4958-901d-a34d0fde3d14",
+"fileName": "RK_23-02135-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:28.737",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1a5ad6c9-6de2-4958-901d-a34d0fde3d14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1a5ad6c9-6de2-4958-901d-a34d0fde3d14"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f71be1fb-6c8a-47ac-a921-c0dcc67b0f26",
+"fileName": "[EIS]_Eelnõu_esitamine__KLIM-23-1073_-_Veeseaduse_muutmise_seaduse_eelnõu.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:29.038",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f71be1fb-6c8a-47ac-a921-c0dcc67b0f26/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f71be1fb-6c8a-47ac-a921-c0dcc67b0f26"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6f26c249-d8e9-44e8-88cc-51ac0ac94b38",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0e7551f3-042d-40ce-8ce2-bf326f80c3f8",
+"fileName": "346_VeeS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-09T15:44:47.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e7551f3-042d-40ce-8ce2-bf326f80c3f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e7551f3-042d-40ce-8ce2-bf326f80c3f8"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "57e7bbef-bfe7-41e3-b52e-2ae163a068a4",
+"title": "346 SE III lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a8ce13db-11c9-4d9d-97f0-f2e8b580f17e",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-27T15:37:38.794",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a8ce13db-11c9-4d9d-97f0-f2e8b580f17e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a8ce13db-11c9-4d9d-97f0-f2e8b580f17e"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "5560267e-cb85-4810-93fb-5de7a7d06b2f",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "62def18d-2195-4815-9378-200775883377",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-19T12:52:02.478",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/62def18d-2195-4815-9378-200775883377/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/62def18d-2195-4815-9378-200775883377"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0ca07a66-8f7a-4e85-8469-5f6e91ddc0a9",
+"fileName": "Seaduseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:28.888",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0ca07a66-8f7a-4e85-8469-5f6e91ddc0a9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0ca07a66-8f7a-4e85-8469-5f6e91ddc0a9"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "cdfcd41a-6113-4514-8869-7c5a77f8834b",
+"fileName": "Seaduseelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:28.954",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cdfcd41a-6113-4514-8869-7c5a77f8834b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cdfcd41a-6113-4514-8869-7c5a77f8834b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7769d84b-4eea-479a-a0b5-28ca44f30e72",
+"fileName": "23-02135-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:28.869",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7769d84b-4eea-479a-a0b5-28ca44f30e72/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7769d84b-4eea-479a-a0b5-28ca44f30e72"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "169dabaf-f09c-47c8-a83e-624a493ccfb6",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5b365dab-0c05-44fe-b371-c0492e2ecae2",
+"fileName": "346_Kaaskiri_Vabariigi_Presidendile_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri Vabariigi Presidendile",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T15:38:21.903",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5b365dab-0c05-44fe-b371-c0492e2ecae2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5b365dab-0c05-44fe-b371-c0492e2ecae2"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "69883cc3-9e1f-4ceb-bf65-f1600428dd65",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7bbd7641-b54c-4237-8d0a-b10b83cce68f",
+"fileName": "346XV_Veeseadus_ms_2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-14T18:03:35.714",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7bbd7641-b54c-4237-8d0a-b10b83cce68f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7bbd7641-b54c-4237-8d0a-b10b83cce68f"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "69883cc3-9e1f-4ceb-bf65-f1600428dd65",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ba300f47-06fe-4113-8065-b2f993c98159",
+"fileName": "346XV_Veeseadus_ms_2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-14T18:03:25.957",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ba300f47-06fe-4113-8065-b2f993c98159/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ba300f47-06fe-4113-8065-b2f993c98159"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "5560267e-cb85-4810-93fb-5de7a7d06b2f",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8842b6fa-409a-4bc2-88ef-1802e0b062a6",
+"fileName": "Muudatusettepanekute_loetelu.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanekute loetelu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-19T12:54:48.002",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8842b6fa-409a-4bc2-88ef-1802e0b062a6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8842b6fa-409a-4bc2-88ef-1802e0b062a6"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6f26c249-d8e9-44e8-88cc-51ac0ac94b38",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "06c7b981-92de-4301-a4d4-9149e4338f6e",
+"fileName": "346_VeeS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-09T15:45:25.829",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/06c7b981-92de-4301-a4d4-9149e4338f6e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/06c7b981-92de-4301-a4d4-9149e4338f6e"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "5560267e-cb85-4810-93fb-5de7a7d06b2f",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "66719e9e-8729-4382-9dfd-0695b7831df4",
+"fileName": "Seletuskiri.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-19T12:54:19.077",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/66719e9e-8729-4382-9dfd-0695b7831df4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/66719e9e-8729-4382-9dfd-0695b7831df4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7c42ea13-e7df-421c-a82e-f84e79faf3f2",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:28.905",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c42ea13-e7df-421c-a82e-f84e79faf3f2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c42ea13-e7df-421c-a82e-f84e79faf3f2"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "079c6a31-7b9c-4da8-bbf6-c79a04cea1fb",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:28.971",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/079c6a31-7b9c-4da8-bbf6-c79a04cea1fb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/079c6a31-7b9c-4da8-bbf6-c79a04cea1fb"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6f26c249-d8e9-44e8-88cc-51ac0ac94b38",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "74c772c8-ab93-4bb8-8cdd-cb3e64ae904b",
+"fileName": "346_VeeS_m_s_SK_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (rakendusakti kavandid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-09T15:45:39.751",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/74c772c8-ab93-4bb8-8cdd-cb3e64ae904b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/74c772c8-ab93-4bb8-8cdd-cb3e64ae904b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "595f5936-288e-4f52-9ddb-9b1e200a5ba3",
+"fileName": "Seletuskirja_lisa_1.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 1 (rakendusaktide kavandid) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:28.921",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/595f5936-288e-4f52-9ddb-9b1e200a5ba3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/595f5936-288e-4f52-9ddb-9b1e200a5ba3"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "64927920-cede-4be9-b5d7-b385ef59ba01",
+"fileName": "Seletuskirja_lisa_1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 1 (rakendusaktide kavandid) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:28.992",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64927920-cede-4be9-b5d7-b385ef59ba01/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64927920-cede-4be9-b5d7-b385ef59ba01"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "6f26c249-d8e9-44e8-88cc-51ac0ac94b38",
+"title": "Eelnõu",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b3987f3a-1e50-4415-836b-7681b183b46d",
+"fileName": "346_VeeS_m_s_SK_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (märkused ja ettepanekud)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-09T15:49:18.377",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b3987f3a-1e50-4415-836b-7681b183b46d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b3987f3a-1e50-4415-836b-7681b183b46d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d1945928-2420-4d0f-bbbd-1669a3b3f370",
+"fileName": "Seletuskirja_lisa_2.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskirja lisa 2 (märkused ja ettepanekud) docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:28.938",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d1945928-2420-4d0f-bbbd-1669a3b3f370/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d1945928-2420-4d0f-bbbd-1669a3b3f370"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "19af3d8e-b45b-4a74-9f80-a6445050cae0",
+"title": "VV algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "330620dd-5c11-41ad-ab76-deaffb4b3136",
+"fileName": "Seletuskirja_lisa_2.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskirja lisa 2 (märkused ja ettepanekud) pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T15:48:29.012",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/330620dd-5c11-41ad-ab76-deaffb4b3136/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/330620dd-5c11-41ad-ab76-deaffb4b3136"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "2b103460-7541-4478-8ae3-2e278b952cab",
+"reference": "1-1/15-346/2",
+"title": "Vabariigi Presidendi otsus nr 370",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e9da7e37-26f4-49a1-b713-1232aad443c2",
+"fileName": "VP_14032024_o370.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vabariigi Presidendi otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-14T18:00:51.786",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e9da7e37-26f4-49a1-b713-1232aad443c2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e9da7e37-26f4-49a1-b713-1232aad443c2"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "2b103460-7541-4478-8ae3-2e278b952cab",
+"reference": "1-1/15-346/2",
+"title": "Vabariigi Presidendi otsus nr 370",
+"documentType": "vabariigiPresidendiOtsus",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0e18ee97-baa1-481c-a4bf-e89595e94f40",
+"fileName": "VP_14032024_o370.asice",
+"fileExtension": "asice",
+"fileTitle": "Vabariigi Presidendi otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-14T18:00:51.694",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0e18ee97-baa1-481c-a4bf-e89595e94f40/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0e18ee97-baa1-481c-a4bf-e89595e94f40"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "169dabaf-f09c-47c8-a83e-624a493ccfb6",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a13a0a78-ede3-4c41-9159-68974d7f4d45",
+"fileName": "346XV_Veeseadus_ms_2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud seadus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T15:31:04.631",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a13a0a78-ede3-4c41-9159-68974d7f4d45/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a13a0a78-ede3-4c41-9159-68974d7f4d45"
+}
+}
+}
+},
+{
+"readingCode": "THIRD_READING",
+"document": {
+"uuid": "169dabaf-f09c-47c8-a83e-624a493ccfb6",
+"title": "Vastuvõetud seadus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "31b2c1e9-ade8-4b29-86d2-3528e01ff977",
+"fileName": "Vastuvõetud_seadus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud seadus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-06T16:07:28.462",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/31b2c1e9-ade8-4b29-86d2-3528e01ff977/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/31b2c1e9-ade8-4b29-86d2-3528e01ff977"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-11-20T15:47:56.104",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-11-21T14:02:00.731",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-01-09T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 9.01.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-01-16T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "keskkonnakomisjoni liige Hanah Lahe."
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "3dc880ec-0a16-47a9-9a71-e262992ca48e",
+"fileName": "Lisa_1__veeseaduse_muutmise_seaduse_eelnõu_VTK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1, veeseaduse muutmise seaduse eelnõu VTK",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-16T09:06:57.022",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3dc880ec-0a16-47a9-9a71-e262992ca48e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3dc880ec-0a16-47a9-9a71-e262992ca48e"
+}
+}
+},
+{
+"uuid": "6dcdc80e-607b-44e1-b568-a8abb9c0a450",
+"fileName": "Lisa_2__346_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2, 346 SE",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-16T09:02:19.618",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6dcdc80e-607b-44e1-b568-a8abb9c0a450/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6dcdc80e-607b-44e1-b568-a8abb9c0a450"
+}
+}
+},
+{
+"uuid": "5593075d-858d-4902-99bd-292cb55cf943",
+"fileName": "KEKK_protokoll_09.01.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-16T08:59:47.207",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5593075d-858d-4902-99bd-292cb55cf943/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5593075d-858d-4902-99bd-292cb55cf943"
+}
+}
+},
+{
+"uuid": "9270498b-b35c-44ab-acb1-6488931a94f4",
+"fileName": "KEKK_protokoll_09.01.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-16T08:59:01.506",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9270498b-b35c-44ab-acb1-6488931a94f4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9270498b-b35c-44ab-acb1-6488931a94f4"
+}
+}
+}
+]
+},
+{
+"date": "2024-01-16T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 16.01.2024 10:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "cab06fc9-b89b-4e81-8bb9-676a28f0993d",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-01-16T11:43:24.117",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/cab06fc9-b89b-4e81-8bb9-676a28f0993d"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-02-06T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 6.02.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-02-21T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "II_LOPETATAKSE_SIIS_TK",
+"value": "Kui teine lugemine lõpetatakse, teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-03-06T14:00:00"
+}
+],
+"protocolFiles": [
+{
+"uuid": "83fb093f-84eb-4dbf-b801-f46ba433093d",
+"fileName": "KEKK_protokoll_06.02.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-09T11:58:33.493",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/83fb093f-84eb-4dbf-b801-f46ba433093d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/83fb093f-84eb-4dbf-b801-f46ba433093d"
+}
+}
+},
+{
+"uuid": "737d8c5e-712f-43a5-8b63-93b662a5a130",
+"fileName": "KEKK_protokoll_06.02.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-09T11:31:32.526",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/737d8c5e-712f-43a5-8b63-93b662a5a130/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/737d8c5e-712f-43a5-8b63-93b662a5a130"
+}
+}
+}
+]
+},
+{
+"date": "2024-02-21T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 21.02.2024 14:00",
+"decisionCode": "SAADETUD_III_LUGEMISELE",
+"votings": []
+}
+]
+},
+{
+"readingCode": "THIRD_READING",
+"proceedingEvents": [
+{
+"date": "2024-03-06T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 6.03.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "fb54a115-30c0-41c2-90f2-27dad26351d2",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-03-06T15:38:26.77",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/fb54a115-30c0-41c2-90f2-27dad26351d2"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-03-07T13:28:00.12",
+"status": "SAADETUD_VABARIIGI_PRESIDENDILE"
+},
+{
+"date": "2024-03-14T18:02:14.318",
+"status": "VALJAKUULUTATUD"
+},
+{
+"date": "2024-03-21T15:53:58.715",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "59c7b7bf-d32a-4655-bb13-77ef5344eeeb",
+"reference": "1-1/15-346/1",
+"title": "Kliimaministeeriumi arvamus veeseaduse muutmise seaduse eelnõu 346 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-02-06",
+"files": [
+{
+"uuid": "d343066a-b514-46de-9511-bafb7eaf91d3",
+"fileName": "Veeseaduse_muutmise_seaduse_eelnõu_346_SE_muudatusettepanekud.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-06T08:17:07.981",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d343066a-b514-46de-9511-bafb7eaf91d3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d343066a-b514-46de-9511-bafb7eaf91d3"
+}
+}
+},
+{
+"uuid": "cf4e9027-7db9-4b5f-b885-1d4562166e57",
+"fileName": "Veeseaduse_muutmise_seaduse_eelnõu_346_SE_muudatusettepanekud.html",
+"fileExtension": "html",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-06T08:17:08.074",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cf4e9027-7db9-4b5f-b885-1d4562166e57/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cf4e9027-7db9-4b5f-b885-1d4562166e57"
+}
+}
+},
+{
+"uuid": "8917649a-f235-458d-9afb-af3c68d0fc0c",
+"fileName": "Veeseaduse_muutmise_seaduse_eelnõu_346_SE_muudatusettepanekud.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-06T08:17:08.05",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8917649a-f235-458d-9afb-af3c68d0fc0c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8917649a-f235-458d-9afb-af3c68d0fc0c"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/59c7b7bf-d32a-4655-bb13-77ef5344eeeb"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/3eb52431-7bf2-4bc5-84bd-4c6313f720c4"
+}
+}
+}

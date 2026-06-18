@@ -1,0 +1,536 @@
+{
+"uuid": "bbdfde03-10db-43d7-a2b6-e01342ba3828",
+"title": "Keeleseaduse ja ühistranspordiseaduse muutmise seadus",
+"mark": 397,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Keeleseaduse ja ühistranspordiseaduse muutmise seadus 397 SE",
+"initialTitle": "Keeleseaduse ja ühistranspordiseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga soovitakse ajakohastada keelevaldkonna õigusraamistikku. Olulisemad muudatused puudutavad avalik-õiguslike juriidiliste isikute eestikeelset asjaajamist, võõrkeelsete kaubamärkide, audioreklaami ning riigi ja kohaliku omavalitsuse asutuste veebiaadresside keelsust, samuti platvormitööd tegevate isikute keelenõudeid. Ühistranspordiseaduse muudatuse sisuks on taksojuhile nõutaval tasemel riigikeele oskuse nõude sätestamine teenindajakaardi saamise eeldusena.",
+"initiated": "2024-03-20",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "71bdc9b2-841d-408f-8ace-909e8c11d7d5",
+"name": "Signe Kivi",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/71bdc9b2-841d-408f-8ace-909e8c11d7d5?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8319ccc1-fb12-4198-9a3c-2b93191fab87",
+"name": "Kristel Soodla",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8319ccc1-fb12-4198-9a3c-2b93191fab87?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5313,
+"text": "ametlik keel"
+},
+{
+"edid": 878,
+"text": "avalik asutus"
+},
+{
+"edid": 5927,
+"text": "takso"
+},
+{
+"edid": 5945,
+"text": "haldusjärelevalve"
+},
+{
+"edid": 7941,
+"text": "keelepoliitika"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9c84f334-7238-4f4b-82f3-9990dc9c839d",
+"title": "397 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4b8ffe64-803a-4e9b-9a21-4054f39e49e8",
+"fileName": "397_KeeleS_ÜTS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T15:29:44.317",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4b8ffe64-803a-4e9b-9a21-4054f39e49e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4b8ffe64-803a-4e9b-9a21-4054f39e49e8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93a3c61a-b350-4769-a4de-1101357d6414",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6b71de34-2784-4011-8e5a-b165a95565d8",
+"fileName": "Keeleseadus_Isamaa_(eelnõu_ja_seletuskiri).doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T14:17:48.809",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6b71de34-2784-4011-8e5a-b165a95565d8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6b71de34-2784-4011-8e5a-b165a95565d8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93a3c61a-b350-4769-a4de-1101357d6414",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f0ad2e70-ffce-4fca-bc6e-d6403466d2bb",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T14:39:39.9",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f0ad2e70-ffce-4fca-bc6e-d6403466d2bb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f0ad2e70-ffce-4fca-bc6e-d6403466d2bb"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9c84f334-7238-4f4b-82f3-9990dc9c839d",
+"title": "397 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "635f2a7d-4fe0-4646-a786-d447214ae4c1",
+"fileName": "397_KeeleS_ÜTS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-07T15:31:49.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/635f2a7d-4fe0-4646-a786-d447214ae4c1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/635f2a7d-4fe0-4646-a786-d447214ae4c1"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "93a3c61a-b350-4769-a4de-1101357d6414",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "59df73a2-8224-44b5-9a0b-16de663605b7",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T14:39:57.101",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59df73a2-8224-44b5-9a0b-16de663605b7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59df73a2-8224-44b5-9a0b-16de663605b7"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-03-20T14:17:26.526",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-03-21T16:28:00.645",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-29T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 29.04.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-05-09T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Signe Kivi"
+}
+],
+"protocolFiles": [
+{
+"uuid": "df6859fe-bd7a-4c0e-8c91-071a2c1459a7",
+"fileName": "Protokoll_53_(29.04.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-09T11:43:13.965",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/df6859fe-bd7a-4c0e-8c91-071a2c1459a7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/df6859fe-bd7a-4c0e-8c91-071a2c1459a7"
+}
+}
+},
+{
+"uuid": "d9728f9c-ef40-42a8-b3ef-b8139f0d78a4",
+"fileName": "KULK_protokoll_53.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-09T11:44:36.6",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d9728f9c-ef40-42a8-b3ef-b8139f0d78a4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d9728f9c-ef40-42a8-b3ef-b8139f0d78a4"
+}
+}
+},
+{
+"uuid": "04f8f4d5-f0b6-432d-8ce8-cb489b80ddff",
+"fileName": "Eesti_Rahvusringhäälingu_uue_telekompleksi_dokument_24042024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (ministri ettepanek)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-09T10:04:53.394",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/04f8f4d5-f0b6-432d-8ce8-cb489b80ddff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/04f8f4d5-f0b6-432d-8ce8-cb489b80ddff"
+}
+}
+}
+]
+},
+{
+"date": "2024-05-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 14.05.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "80be0938-798c-410c-99a8-e8cf69bf9579",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tööaja pikendamine",
+"startDateTime": "2024-05-14T12:35:32.24",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/80be0938-798c-410c-99a8-e8cf69bf9579"
+}
+}
+},
+{
+"uuid": "a0a9a53d-94ae-4c85-a8e8-b7bbacebf03b",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-05-14T13:26:45.727",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a0a9a53d-94ae-4c85-a8e8-b7bbacebf03b"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "e6cdc93b-78ad-4e67-a75f-b3098bdd0aff",
+"reference": "1-1/15-397/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 397 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-03-20",
+"files": [
+{
+"uuid": "cd4125b5-bccc-4d9d-8854-20de18c0ec7f",
+"fileName": "1-1-15-397-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_397_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-21T16:10:40.478",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cd4125b5-bccc-4d9d-8854-20de18c0ec7f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cd4125b5-bccc-4d9d-8854-20de18c0ec7f"
+}
+}
+},
+{
+"uuid": "b9402b98-a266-4354-a808-f2a68d8f65a8",
+"fileName": "240321_KeeleS_ÜTS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-21T12:52:59.9",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b9402b98-a266-4354-a808-f2a68d8f65a8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b9402b98-a266-4354-a808-f2a68d8f65a8"
+}
+}
+},
+{
+"uuid": "92259b56-28f1-48e3-a283-2ef2427efc8f",
+"fileName": "KeeleS_ÜTS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T14:24:57.323",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/92259b56-28f1-48e3-a283-2ef2427efc8f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/92259b56-28f1-48e3-a283-2ef2427efc8f"
+}
+}
+},
+{
+"uuid": "1319e257-af44-48ef-bec2-d221e2a1501a",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T14:40:59.893",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1319e257-af44-48ef-bec2-d221e2a1501a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1319e257-af44-48ef-bec2-d221e2a1501a"
+}
+}
+},
+{
+"uuid": "773641c8-fd3f-4a71-9ccf-35ae5acb5309",
+"fileName": "KeeleS_ÜTS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T14:25:20.19",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/773641c8-fd3f-4a71-9ccf-35ae5acb5309/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/773641c8-fd3f-4a71-9ccf-35ae5acb5309"
+}
+}
+},
+{
+"uuid": "79065282-36bd-4ce8-bbe8-16374fc57877",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-20T14:40:47.298",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/79065282-36bd-4ce8-bbe8-16374fc57877/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/79065282-36bd-4ce8-bbe8-16374fc57877"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e6cdc93b-78ad-4e67-a75f-b3098bdd0aff"
+}
+}
+},
+{
+"uuid": "ac2a7894-3e42-4cec-9765-c5d453ef7653",
+"reference": "1-1/15-397/2",
+"title": "Vabariigi Valitsuse arvamus keeleseaduse ja ühistranspordiseaduse muutmise seaduse eelnõu 397 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-26",
+"files": [
+{
+"uuid": "365390af-afab-4481-885e-188e30a11dc5",
+"fileName": "Vabariigi_Valitsuse_arvamus_(397_SE)_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-26T15:55:19.48",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/365390af-afab-4481-885e-188e30a11dc5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/365390af-afab-4481-885e-188e30a11dc5"
+}
+}
+},
+{
+"uuid": "e5037268-b957-4cb3-9eac-0b9531116d27",
+"fileName": "Vabariigi_Valitsuse_seisukoht_keeleseaduse_ja_ühistranspordiseaduse_muutmise_seaduse_eelnõu_(397_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-26T15:55:19.564",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e5037268-b957-4cb3-9eac-0b9531116d27/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e5037268-b957-4cb3-9eac-0b9531116d27"
+}
+}
+},
+{
+"uuid": "3c2b696c-7a35-41b0-b9e5-21d3f745cca3",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0296_-_Keeleseaduse_ja_ühistranspordiseaduse_muutmise_seaduse_eelnõu_(397_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-26T15:55:19.584",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c2b696c-7a35-41b0-b9e5-21d3f745cca3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c2b696c-7a35-41b0-b9e5-21d3f745cca3"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/ac2a7894-3e42-4cec-9765-c5d453ef7653"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/bbdfde03-10db-43d7-a2b6-e01342ba3828"
+}
+}
+}

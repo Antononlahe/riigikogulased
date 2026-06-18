@@ -14,9 +14,11 @@ import {
   voteType,
   voteTypeOptions,
   eelnouUrl,
+  billOutcome,
   type VotePoint,
   type VoteResult,
   type FactionTally,
+  type BillOutcome,
 } from "@/lib/member-detail";
 import { PARTY_ORDER } from "@/lib/party";
 import { PartyBadge } from "@/components/party-badge";
@@ -202,6 +204,26 @@ function Timeline({
       />
       </svg>
     </div>
+  );
+}
+
+// Per-outcome chip styling. The label text comes from translations (memberDetail.outcome.*).
+const OUTCOME_STYLE: Record<BillOutcome, string> = {
+  adopted: "border-emerald-600/30 bg-emerald-600/10 text-emerald-700 dark:text-emerald-400",
+  rejected: "border-destructive/30 bg-destructive/10 text-destructive",
+  withdrawn: "border-border bg-secondary text-muted-foreground",
+  pending: "border-amber-600/30 bg-amber-600/10 text-amber-700 dark:text-amber-500",
+};
+
+/** Small chip showing the bill's final fate (adopted / rejected / ...). */
+function OutcomeBadge({ outcome }: { outcome: BillOutcome }) {
+  const t = useTranslations("memberDetail");
+  return (
+    <span
+      className={`shrink-0 whitespace-nowrap rounded border px-1.5 py-0.5 text-[10px] font-medium ${OUTCOME_STYLE[outcome]}`}
+    >
+      {t(`outcome.${outcome}` as "outcome.adopted")}
+    </span>
   );
 }
 
@@ -408,6 +430,7 @@ export function MemberVotes({
                     onFocus: () => setHovered(k),
                     onBlur: () => setHovered(null),
                   };
+                  const outcome = billOutcome(v.outcomeStage);
                   const body = (
                     <>
                       <div className="flex items-baseline gap-2">
@@ -418,6 +441,7 @@ export function MemberVotes({
                           {title}
                           {v.draftMark ? <span className="text-muted-foreground"> ({v.draftMark})</span> : null}
                         </span>
+                        {outcome ? <OutcomeBadge outcome={outcome} /> : null}
                       </div>
                       <div className="mt-0.5 pl-[5.5rem] text-xs text-muted-foreground">
                         {v.title !== title ? `${v.title} · ` : ""}

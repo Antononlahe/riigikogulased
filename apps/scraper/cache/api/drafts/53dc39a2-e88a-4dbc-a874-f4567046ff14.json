@@ -1,0 +1,526 @@
+{
+"uuid": "53dc39a2-e88a-4dbc-a874-f4567046ff14",
+"title": "Puuetega inimeste sotsiaaltoetuste seaduse muutmise seadus",
+"mark": 8,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Puuetega inimeste sotsiaaltoetuste seaduse muutmise seadus 8 SE",
+"initialTitle": "Puuetega inimeste sotsiaaltoetuste seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette suurendada puuetega inimeste sotsiaaltoetuste seaduses olevaid puudega lapse toetust, puudega tööealise inimese toetust, puudega vanaduspensioniealise inimese toetust, puudega vanema toetust, õppetoetust ja täienduskoolitustoetust. Eelnõuga tõstetakse kõiki eelnimetatud toetusi kaks korda.",
+"initiated": "2023-04-17",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "8d9daaeb-dbaf-4887-8311-881b29bedfa9",
+"name": "Õnne Pillak",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/8d9daaeb-dbaf-4887-8311-881b29bedfa9?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "8a5e0f99-b6bc-48ff-91bf-c847958c776e",
+"name": "Heidi Barot",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/8a5e0f99-b6bc-48ff-91bf-c847958c776e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 1231,
+"text": "puudega inimene"
+},
+{
+"edid": 1369,
+"text": "lisahüvitis"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c540984b-2007-4823-9953-cda21af6435b",
+"title": "8 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "59e8eb06-0874-404f-8203-4f6e4af435f7",
+"fileName": "8SE-I.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T14:48:42.708",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/59e8eb06-0874-404f-8203-4f6e4af435f7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/59e8eb06-0874-404f-8203-4f6e4af435f7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6a8a75cc-4bcf-4847-a723-a8b301fbfd4a",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "91d7f343-13d4-41a9-b139-2a6a296ba439",
+"fileName": "Eelnõu_puuetega_inimeste.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-17T15:07:50.69",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/91d7f343-13d4-41a9-b139-2a6a296ba439/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/91d7f343-13d4-41a9-b139-2a6a296ba439"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6a8a75cc-4bcf-4847-a723-a8b301fbfd4a",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "353bfc77-4af8-4f07-838a-00393fcb903f",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-17T16:33:56.231",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/353bfc77-4af8-4f07-838a-00393fcb903f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/353bfc77-4af8-4f07-838a-00393fcb903f"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "c540984b-2007-4823-9953-cda21af6435b",
+"title": "8 SE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5f831ad6-f827-45f0-87be-c5f40e898272",
+"fileName": "8SE-I-seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T14:49:05.082",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5f831ad6-f827-45f0-87be-c5f40e898272/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5f831ad6-f827-45f0-87be-c5f40e898272"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "6a8a75cc-4bcf-4847-a723-a8b301fbfd4a",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b4dc6de7-c6f9-4e5b-ad1c-4e4c39fc595d",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-17T16:34:12.461",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4dc6de7-c6f9-4e5b-ad1c-4e4c39fc595d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4dc6de7-c6f9-4e5b-ad1c-4e4c39fc595d"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-04-17T15:06:48.47",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-04-18T13:49:00.704",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-06-12T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 12.06.2023 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-14T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Õnne Pillak"
+}
+],
+"protocolFiles": [
+{
+"uuid": "39cb0299-5bb4-4af0-bd74-fab8fed2f06d",
+"fileName": "SOTK_protokoll_12.06.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-20T17:32:08.941",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/39cb0299-5bb4-4af0-bd74-fab8fed2f06d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/39cb0299-5bb4-4af0-bd74-fab8fed2f06d"
+}
+}
+},
+{
+"uuid": "730cc067-9401-4137-bc53-66375cfd337b",
+"fileName": "SOTK_protokoll_nr_14_(12.06.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-20T17:30:59.875",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/730cc067-9401-4137-bc53-66375cfd337b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/730cc067-9401-4137-bc53-66375cfd337b"
+}
+}
+},
+{
+"uuid": "6df5f8c8-3ee6-4e69-920a-23014ab4b034",
+"fileName": "Kollektiivne_pöördumine.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa (kollektiivse pöördumise tekst)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-20T17:34:52.563",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6df5f8c8-3ee6-4e69-920a-23014ab4b034/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6df5f8c8-3ee6-4e69-920a-23014ab4b034"
+}
+}
+},
+{
+"uuid": "6beb7795-a7c8-46d9-8bd7-7ed89d31711d",
+"fileName": "RE_volikiri_Siemann_12.06.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (Siemann)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-20T17:33:45.549",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6beb7795-a7c8-46d9-8bd7-7ed89d31711d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6beb7795-a7c8-46d9-8bd7-7ed89d31711d"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 14.09.2023 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "52fe8fb7-b2ad-4e50-a689-d5b7770bc4e9",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-09-14T13:47:56.63",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/52fe8fb7-b2ad-4e50-a689-d5b7770bc4e9"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "09be1b4e-cd99-4cd0-8cc4-b3dd00b8f5b3",
+"reference": "1-1/15-8/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 8 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-04-17",
+"files": [
+{
+"uuid": "8432fb25-e694-4a66-87e7-47fd1f8dfcdb",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-17T16:34:53.478",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8432fb25-e694-4a66-87e7-47fd1f8dfcdb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8432fb25-e694-4a66-87e7-47fd1f8dfcdb"
+}
+}
+},
+{
+"uuid": "b4601b82-28b2-498b-ab5f-e5c28b5a55d6",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-17T16:35:10.023",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b4601b82-28b2-498b-ab5f-e5c28b5a55d6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b4601b82-28b2-498b-ab5f-e5c28b5a55d6"
+}
+}
+},
+{
+"uuid": "f986df77-58f4-45d7-aabe-82451afa4170",
+"fileName": "230418_PISTS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-18T12:53:50.283",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f986df77-58f4-45d7-aabe-82451afa4170/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f986df77-58f4-45d7-aabe-82451afa4170"
+}
+}
+},
+{
+"uuid": "f3f01cca-3b7d-4e7d-8245-17bf6c1c5a0d",
+"fileName": "PISTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-17T15:21:31.717",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f3f01cca-3b7d-4e7d-8245-17bf6c1c5a0d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f3f01cca-3b7d-4e7d-8245-17bf6c1c5a0d"
+}
+}
+},
+{
+"uuid": "5fb83d7d-dd9f-4576-b75d-bc2bab7fa506",
+"fileName": "PISTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-17T15:21:41.871",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5fb83d7d-dd9f-4576-b75d-bc2bab7fa506/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5fb83d7d-dd9f-4576-b75d-bc2bab7fa506"
+}
+}
+},
+{
+"uuid": "d30a57e2-bb4a-408a-8b0d-f89f98222e81",
+"fileName": "1-1-15-8-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_8_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-18T13:46:09.748",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d30a57e2-bb4a-408a-8b0d-f89f98222e81/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d30a57e2-bb4a-408a-8b0d-f89f98222e81"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/09be1b4e-cd99-4cd0-8cc4-b3dd00b8f5b3"
+}
+}
+},
+{
+"uuid": "3595c293-656a-4925-8a75-45d9da7c1250",
+"reference": "1-1/15-8/2",
+"title": "Vabariigi Valitsuse arvamus puuetega inimeste sotsiaaltoetuste seaduse muutmise seaduse eelnõu 8 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-29",
+"files": [
+{
+"uuid": "84694458-f63b-4073-9f7f-14614a51d89a",
+"fileName": "1.2-31755-5_29.05.2023_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-29T12:19:21.794",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/84694458-f63b-4073-9f7f-14614a51d89a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/84694458-f63b-4073-9f7f-14614a51d89a"
+}
+}
+},
+{
+"uuid": "c7035547-f880-4387-a3dc-952314e0e38b",
+"fileName": "VV_seisukoht_puuetega_inimeste_sotsiaaltoetuste_seaduse_muutmisele.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-29T12:19:21.824",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c7035547-f880-4387-a3dc-952314e0e38b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c7035547-f880-4387-a3dc-952314e0e38b"
+}
+}
+},
+{
+"uuid": "45f80811-4ff4-4ae8-8485-26790b385026",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0400_-_Puuetega_inimeste_sotsiaaltoetuste_seaduse_muutmise_seaduse_eelnõu_(8_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-29T12:19:21.843",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/45f80811-4ff4-4ae8-8485-26790b385026/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/45f80811-4ff4-4ae8-8485-26790b385026"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3595c293-656a-4925-8a75-45d9da7c1250"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/53dc39a2-e88a-4dbc-a874-f4567046ff14"
+}
+}
+}

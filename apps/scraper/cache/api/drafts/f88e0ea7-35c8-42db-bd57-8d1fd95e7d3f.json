@@ -1,0 +1,500 @@
+{
+"uuid": "f88e0ea7-35c8-42db-bd57-8d1fd95e7d3f",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete ja ravimite käibemaksu langetamiseks 5-le protsendile“",
+"mark": 272,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete ja ravimite käibemaksu langetamiseks 5-le protsendile“ 272 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele toiduainete ja ravimite käibemaksu langetamiseks 5-le protsendile“",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ettepanek langetada 5-le protsendile toidukaupade (välja arvatud alkohol) käibemaks. Samuti tehakse ettepanek langetada 5-le protsendile ravimite käibemaks.",
+"initiated": "2023-09-20",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-10-05T17:15:00",
+"responsibleMember": null,
+"responsibleOfficer": {
+"uuid": "3b6b4045-4881-4c7f-ae4f-af6cb1598ac6",
+"name": "Kai Raudkivi",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/3b6b4045-4881-4c7f-ae4f-af6cb1598ac6?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "527a03f5-d564-70f2-6266-70c1cdb5535f",
+"name": "Rahanduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/527a03f5-d564-70f2-6266-70c1cdb5535f?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 4392,
+"text": "käibemaksumäär"
+},
+{
+"edid": 2735,
+"text": "toiduained"
+},
+{
+"edid": 3813,
+"text": "ravim"
+},
+{
+"edid": 365,
+"text": "maksuvähendus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1cfb2c42-0952-49cb-b1d7-70dfda8527c7",
+"title": "272 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "32ba6774-d328-4092-bb0c-ae839016a1dc",
+"fileName": "272_OE_kaibemaks_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-04T13:17:57.568",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/32ba6774-d328-4092-bb0c-ae839016a1dc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/32ba6774-d328-4092-bb0c-ae839016a1dc"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f567e87c-c268-45ac-a21f-4efa4fa3f235",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "4f7ef4ad-e765-4b6c-881e-dcd84271ff75",
+"fileName": "272_OE_kaibemaks_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:17:49.251",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4f7ef4ad-e765-4b6c-881e-dcd84271ff75/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4f7ef4ad-e765-4b6c-881e-dcd84271ff75"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f567e87c-c268-45ac-a21f-4efa4fa3f235",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "144b0d18-080c-4da4-87cd-e9244cbc5dcc",
+"fileName": "272E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T15:49:08.854",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/144b0d18-080c-4da4-87cd-e9244cbc5dcc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/144b0d18-080c-4da4-87cd-e9244cbc5dcc"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1cfb2c42-0952-49cb-b1d7-70dfda8527c7",
+"title": "272 OE I lugemine",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "39cf938f-e0d1-4ee7-bd28-28eed9043eec",
+"fileName": "272_OE_kaibemaks_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-04T13:18:19.229",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/39cf938f-e0d1-4ee7-bd28-28eed9043eec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/39cf938f-e0d1-4ee7-bd28-28eed9043eec"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f567e87c-c268-45ac-a21f-4efa4fa3f235",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "306ff91f-c672-474a-9fe4-24ef3e1646ac",
+"fileName": "272_OE_kaibemaks_seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T16:18:23.648",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/306ff91f-c672-474a-9fe4-24ef3e1646ac/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/306ff91f-c672-474a-9fe4-24ef3e1646ac"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "f567e87c-c268-45ac-a21f-4efa4fa3f235",
+"title": "EKREF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "be4e1518-52bc-4b93-b9b4-6ed793805ecc",
+"fileName": "272SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T15:49:25.3",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/be4e1518-52bc-4b93-b9b4-6ed793805ecc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/be4e1518-52bc-4b93-b9b4-6ed793805ecc"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-09-20T14:36:33.515",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-09-21T16:02:00.389",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-11-20T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 20.11.2023 kell 11.15",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "61b8a1d7-9f96-4fe6-96eb-dfd4900a9151",
+"fileName": "RAHK_protokoll_20.11.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-23T16:52:28.909",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/61b8a1d7-9f96-4fe6-96eb-dfd4900a9151/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/61b8a1d7-9f96-4fe6-96eb-dfd4900a9151"
+}
+}
+},
+{
+"uuid": "65f0d8af-5967-4ffa-b79c-4b85d98319a0",
+"fileName": "RAHK_protokoll_37_20_11_2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-23T16:51:44.155",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/65f0d8af-5967-4ffa-b79c-4b85d98319a0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/65f0d8af-5967-4ffa-b79c-4b85d98319a0"
+}
+}
+},
+{
+"uuid": "3eae12c1-798b-4fc4-bc4a-0b6ac1c33c59",
+"fileName": "Asendusliikme_volikiri_M.Helme-A.Poolamets_20.11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T14:05:47.109",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3eae12c1-798b-4fc4-bc4a-0b6ac1c33c59/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3eae12c1-798b-4fc4-bc4a-0b6ac1c33c59"
+}
+}
+},
+{
+"uuid": "ee2fb485-e925-4576-be37-a6ec500ee37f",
+"fileName": "Asendusliikme_volikiri_A.Kokk-T.Mölder_20.11.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-11-20T14:05:20.866",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ee2fb485-e925-4576-be37-a6ec500ee37f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ee2fb485-e925-4576-be37-a6ec500ee37f"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-03-04T11:15:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 4.03.2024 kell 11.15",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-03-12T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Annely Akkermann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "f550c9e9-4faa-4796-bf18-7901299dc1b6",
+"fileName": "RAHK_protokoll_nr_60_04.03.2024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T09:45:48.215",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f550c9e9-4faa-4796-bf18-7901299dc1b6/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f550c9e9-4faa-4796-bf18-7901299dc1b6"
+}
+}
+},
+{
+"uuid": "babbdf3b-004f-4a3b-a615-ca3c9ad4dd46",
+"fileName": "RAHK_protokoll_04.03.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-18T09:47:47.246",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/babbdf3b-004f-4a3b-a615-ca3c9ad4dd46/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/babbdf3b-004f-4a3b-a615-ca3c9ad4dd46"
+}
+}
+}
+]
+},
+{
+"date": "2024-03-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.03.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "4a480185-fc46-4516-9a51-b071056cf9a7",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-03-13T15:15:29.787",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/4a480185-fc46-4516-9a51-b071056cf9a7"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "12bd14b5-aac7-4359-98f0-02c4e024bef3",
+"reference": "1-1/15-272/2",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele toiduainete ja ravimite käibemaksu langetamiseks 5-le protsendile“ eelnõu 272 OE ja Riigikogu otsuse ,,Ettepaneku tegemine Vabariigi Valitsusele langetada vähiravimite käibemaksumäära\" eelnõu 277 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-12-08",
+"files": [
+{
+"uuid": "64651280-e8bd-4c3e-933b-8832cc211fd5",
+"fileName": "398.tel_Arvamus_272OE_ja_277OE__häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-08T10:59:02.179",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/64651280-e8bd-4c3e-933b-8832cc211fd5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/64651280-e8bd-4c3e-933b-8832cc211fd5"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/12bd14b5-aac7-4359-98f0-02c4e024bef3"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "bd6a890c-c721-4652-bb9a-e30048ba46c7",
+"reference": "1-1/15-272/1",
+"title": "Eesti Konservatiivse Rahvaerakonna fraktsiooni muudatusettepanekud riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele toiduainete ja ravimite käibemaksu langetamiseks 5-le protsendile“ eelnõu 272 OE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "2b8c9b1d-8c25-49dc-81be-60e05578270e",
+"fileName": "EKRE_272_ME_tagasiv._22022024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "ME tagasivõtmine",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-02-22T14:07:46.761",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b8c9b1d-8c25-49dc-81be-60e05578270e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b8c9b1d-8c25-49dc-81be-60e05578270e"
+}
+}
+},
+{
+"uuid": "784a0097-c973-43ab-8557-38c78c296b14",
+"fileName": "ME_272OE_EKREfr.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T12:59:36.744",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/784a0097-c973-43ab-8557-38c78c296b14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/784a0097-c973-43ab-8557-38c78c296b14"
+}
+}
+},
+{
+"uuid": "f10e1e39-82ca-4bfe-a93b-1fad385ebd6e",
+"fileName": "ME_272OE_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T13:00:08.768",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f10e1e39-82ca-4bfe-a93b-1fad385ebd6e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f10e1e39-82ca-4bfe-a93b-1fad385ebd6e"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/bd6a890c-c721-4652-bb9a-e30048ba46c7"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/f88e0ea7-35c8-42db-bd57-8d1fd95e7d3f"
+}
+}
+}

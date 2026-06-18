@@ -1,0 +1,525 @@
+{
+"uuid": "3c5122cd-9aa4-49f0-a018-fa20b98bf68d",
+"title": "Keeleseaduse muutmise seadus",
+"mark": 1,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Keeleseaduse muutmise seadus 1 SE",
+"initialTitle": "Keeleseaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TEINE_LUGEMINE",
+"activeDraftStatus": "I_LUGEMINE_LOPETATUD",
+"introduction": "Eelnõuga tõstetakse keeleseaduse rikkumisega seotud trahvimäärasid ning täiendatakse seadust uute mõjutusvahenditega. Eelnõu ei sisalda uusi, vähetuntud ega võõrkeelseid termineid. \nEelnõu ei ole seotud Euroopa Liidu õigusega.",
+"initiated": "2023-04-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "71bdc9b2-841d-408f-8ace-909e8c11d7d5",
+"name": "Signe Kivi",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/71bdc9b2-841d-408f-8ace-909e8c11d7d5?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "d4e90963-1d10-4f8a-bf37-a99ca8531ff3",
+"name": "Eesti Konservatiivse Rahvaerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d4e90963-1d10-4f8a-bf37-a99ca8531ff3?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 5313,
+"text": "ametlik keel"
+},
+{
+"edid": 1549,
+"text": "trahv"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "49ae6ef9-f94f-4f92-a81f-fceb99d2b883",
+"title": "1 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d3c68642-cca6-4953-a7f3-2ec9cf75e915",
+"fileName": "1_KeeleS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T18:04:52.764",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d3c68642-cca6-4953-a7f3-2ec9cf75e915/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d3c68642-cca6-4953-a7f3-2ec9cf75e915"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "edd18594-0b46-4697-b1a5-d0ec758a3696",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "fcb5c355-ef46-4982-91ca-8f85226edfba",
+"fileName": "keeleseaduse_muutmise_seadus.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T10:16:56.402",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fcb5c355-ef46-4982-91ca-8f85226edfba/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fcb5c355-ef46-4982-91ca-8f85226edfba"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "edd18594-0b46-4697-b1a5-d0ec758a3696",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "af9d31a0-e515-493c-8273-564200373ac1",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T11:34:29.674",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/af9d31a0-e515-493c-8273-564200373ac1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/af9d31a0-e515-493c-8273-564200373ac1"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "49ae6ef9-f94f-4f92-a81f-fceb99d2b883",
+"title": "1 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b7a14d33-aaac-48dc-a2ec-c766166f6796",
+"fileName": "1_KeeleS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-12T18:05:13.214",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7a14d33-aaac-48dc-a2ec-c766166f6796/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7a14d33-aaac-48dc-a2ec-c766166f6796"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "edd18594-0b46-4697-b1a5-d0ec758a3696",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "6fba04ab-1737-49f7-90f7-169b61e39deb",
+"fileName": "keeleseaduse_muutmise_seaduse_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T10:16:56.39",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6fba04ab-1737-49f7-90f7-169b61e39deb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6fba04ab-1737-49f7-90f7-169b61e39deb"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "edd18594-0b46-4697-b1a5-d0ec758a3696",
+"title": "EKREF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d72ba54f-60d6-4d0f-b75c-e4159dad48a3",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T11:34:42.16",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d72ba54f-60d6-4d0f-b75c-e4159dad48a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d72ba54f-60d6-4d0f-b75c-e4159dad48a3"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-04-11T10:16:04.522",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-04-11T14:32:00.066",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-06-06T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 6.06.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-06-15T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Signe Kivi"
+}
+],
+"protocolFiles": [
+{
+"uuid": "a77fddb1-e879-4987-a04a-622bb62f4695",
+"fileName": "Protokoll_7_(06.06.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-13T11:47:49.669",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a77fddb1-e879-4987-a04a-622bb62f4695/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a77fddb1-e879-4987-a04a-622bb62f4695"
+}
+}
+},
+{
+"uuid": "2b3512d8-6ba4-4e01-ba00-f17ad9fc00fd",
+"fileName": "KULK_protokoll_(06.06.23).asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll.asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-06-13T11:48:55.934",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b3512d8-6ba4-4e01-ba00-f17ad9fc00fd/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b3512d8-6ba4-4e01-ba00-f17ad9fc00fd"
+}
+}
+}
+]
+},
+{
+"date": "2023-06-15T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 15.06.2023 10:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2023-09-13T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 13.09.2023 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": [
+{
+"uuid": "81de442e-061d-450b-a649-f31ccf2f7b7a",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2023-09-13T18:50:03.973",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/81de442e-061d-450b-a649-f31ccf2f7b7a"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "d39d48e1-71f1-4597-a2fc-53a254e89ac8",
+"reference": "1-1/15-1/2",
+"title": "Vabariigi Valitsuse arvamus keeleseaduse muutmise seaduse eelnõu 1 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-05-16",
+"files": [
+{
+"uuid": "837fdb57-004d-42a4-9229-e4932173f3cb",
+"fileName": "Vabariigi_Valitsuse_arvamus_keeleseaduse_muutmise_seaduse_eelnõu_(1_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T17:31:25.264",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/837fdb57-004d-42a4-9229-e4932173f3cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/837fdb57-004d-42a4-9229-e4932173f3cb"
+}
+}
+},
+{
+"uuid": "624df0d2-009d-478b-9eb0-c447a756b41a",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-23-0386_-_Keeleseaduse_muutmise_seaduse_eelnõu_(1_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "E-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T17:31:25.282",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/624df0d2-009d-478b-9eb0-c447a756b41a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/624df0d2-009d-478b-9eb0-c447a756b41a"
+}
+}
+},
+{
+"uuid": "af1c0023-6c2d-4f29-8fc9-992e8d61a827",
+"fileName": "Vabariigi_Valitsuse_arvamus_keeleseaduse_muutmise_seaduse_eelnï¿½u_(1_SE)_kohta_(1).asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-16T17:31:25.222",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/af1c0023-6c2d-4f29-8fc9-992e8d61a827/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/af1c0023-6c2d-4f29-8fc9-992e8d61a827"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d39d48e1-71f1-4597-a2fc-53a254e89ac8"
+}
+}
+},
+{
+"uuid": "902eab5d-1a0a-45bd-a1fe-ed0a7b643551",
+"reference": "1-1/15-1/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 1 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-04-11",
+"files": [
+{
+"uuid": "bba50d91-d132-479b-80b8-3428a24b6894",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T11:35:31.872",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bba50d91-d132-479b-80b8-3428a24b6894/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bba50d91-d132-479b-80b8-3428a24b6894"
+}
+}
+},
+{
+"uuid": "7c3ed671-18c3-4cea-ab9a-1fb928741ab2",
+"fileName": "1-1-15-1-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_1_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T13:39:13.956",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c3ed671-18c3-4cea-ab9a-1fb928741ab2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c3ed671-18c3-4cea-ab9a-1fb928741ab2"
+}
+}
+},
+{
+"uuid": "c0ab95d7-8b0a-412f-96a1-752aa47cb12c",
+"fileName": "230411_KeeleS_EKRE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T12:07:16.559",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c0ab95d7-8b0a-412f-96a1-752aa47cb12c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c0ab95d7-8b0a-412f-96a1-752aa47cb12c"
+}
+}
+},
+{
+"uuid": "484ece42-afab-46c0-af4e-71196e4dc251",
+"fileName": "KeeleS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T10:41:03.796",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/484ece42-afab-46c0-af4e-71196e4dc251/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/484ece42-afab-46c0-af4e-71196e4dc251"
+}
+}
+},
+{
+"uuid": "82015c61-1e68-4c71-b9fe-77507593065b",
+"fileName": "KeeleS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T10:41:12.765",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/82015c61-1e68-4c71-b9fe-77507593065b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/82015c61-1e68-4c71-b9fe-77507593065b"
+}
+}
+},
+{
+"uuid": "f03677b2-1b92-4768-9b72-9ad67b74c72a",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-04-11T11:35:18.261",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f03677b2-1b92-4768-9b72-9ad67b74c72a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f03677b2-1b92-4768-9b72-9ad67b74c72a"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/902eab5d-1a0a-45bd-a1fe-ed0a7b643551"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/3c5122cd-9aa4-49f0-a018-fa20b98bf68d"
+}
+}
+}

@@ -1,0 +1,184 @@
+{
+"uuid": "552c5311-f121-43a7-96d8-7824298fee8f",
+"title": "Riigikogu otsus „Nõusoleku andmine Riigikogu liikmelt Kert Kingolt saadikupuutumatuse äravõtmiseks ja tema suhtes kohtumenetluse jätkamiseks\"",
+"mark": 271,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Nõusoleku andmine Riigikogu liikmelt Kert Kingolt saadikupuutumatuse äravõtmiseks ja tema suhtes kohtumenetluse jätkamiseks\" 271 OE",
+"initialTitle": "Riigikogu otsus „Nõusoleku andmine Riigikogu liikmelt Kert Kingolt saadikupuutumatuse äravõtmiseks ja tema suhtes kohtumenetluse jätkamiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": null,
+"initiated": null,
+"joined": null,
+"accepted": "2023-09-18",
+"amendmentsDeadline": null,
+"responsibleMember": null,
+"responsibleOfficer": null,
+"leadingCommittee": null,
+"initiators": [
+{
+"uuid": "f032dd36-8f17-44ad-8d68-d6057e091294",
+"name": "õiguskantsler Ülle Madise",
+"type": "classifier",
+"active": false,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 1303,
+"text": "parlamentaarne puutumatus"
+}
+],
+"texts": [
+{
+"readingCode": null,
+"document": {
+"uuid": "ddcf65f6-8fa0-4ba3-87b9-268da20ed71a",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e3ec8958-a291-46d0-bfb0-b5fda5a66d0c",
+"fileName": "271XV_RK_o_19092023.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T09:11:39.135",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e3ec8958-a291-46d0-bfb0-b5fda5a66d0c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e3ec8958-a291-46d0-bfb0-b5fda5a66d0c"
+}
+}
+}
+},
+{
+"readingCode": null,
+"document": {
+"uuid": "ddcf65f6-8fa0-4ba3-87b9-268da20ed71a",
+"title": "Otsuse edastamine RT-le",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "30a90df0-56b0-4eda-b522-88d818bba9d9",
+"fileName": "271XV_RK_o_19092023.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-20T09:09:02.631",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/30a90df0-56b0-4eda-b522-88d818bba9d9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/30a90df0-56b0-4eda-b522-88d818bba9d9"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "90fcd8dd-6009-46f8-ad60-2e32c149792d",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c0367954-b4cb-4bd2-b043-478ba6352adc",
+"fileName": "271XV_RK_o_09.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T17:13:42.851",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c0367954-b4cb-4bd2-b043-478ba6352adc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c0367954-b4cb-4bd2-b043-478ba6352adc"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "90fcd8dd-6009-46f8-ad60-2e32c149792d",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e5b4d391-97d0-4b8b-abeb-5b8769e54caf",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-18T17:16:42.325",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e5b4d391-97d0-4b8b-abeb-5b8769e54caf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e5b4d391-97d0-4b8b-abeb-5b8769e54caf"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2023-09-18T15:00:00",
+"sittingTitle": "Täiskogu korraline istung esmaspäev, 18.09.2023 15:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "cb5bd5fa-5d42-4f1d-bd49-eef2a568535f",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Ettepaneku hääletamine",
+"startDateTime": "2023-09-18T16:44:26.38",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/cb5bd5fa-5d42-4f1d-bd49-eef2a568535f"
+}
+}
+}
+]
+},
+{
+"date": "2023-09-20T09:08:43.21",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2023-09-21T22:06:56.449",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/552c5311-f121-43a7-96d8-7824298fee8f"
+}
+}
+}

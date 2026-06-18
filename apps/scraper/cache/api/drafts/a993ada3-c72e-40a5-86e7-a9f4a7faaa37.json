@@ -1,0 +1,504 @@
+{
+"uuid": "a993ada3-c72e-40a5-86e7-a9f4a7faaa37",
+"title": "Riigikogu valimise seaduse muutmise seadus (kompensatsioonimandaadi saamine vastavalt kandidaadile antud häälte arvule)",
+"mark": 412,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu valimise seaduse muutmise seadus (kompensatsioonimandaadi saamine vastavalt kandidaadile antud häälte arvule) 412 SE",
+"initialTitle": "Riigikogu valimise seaduse muutmise seadus (kompensatsioonimandaadi saamine vastavalt kandidaadile antud häälte arvule)",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu näeb ette kompensatsioonimandaatide süsteemi muutmise Riigikogu valimisel. Eesmärk on, et kompensatsioonimandaadi saaks kandidaat, kes saab rohkem hääli. Selleks reastatakse erakonna üleriigilises nimekirjas kandidaadid saadud häälte arvu alusel ning erakonnale kuuluvad kompensatsioonimandaadid lähevad kandidaatidele, kes on erakonna ümberreastatud üleriigilises nimekirjas eespool.",
+"initiated": "2024-04-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9035e217-d990-40ca-87ed-54c77653c6d7",
+"name": "Pipi-Liis Siemann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9035e217-d990-40ca-87ed-54c77653c6d7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 701,
+"text": "parlamendivalimised"
+},
+{
+"edid": 3313,
+"text": "kohtade jaotus"
+},
+{
+"edid": 4328,
+"text": "asendusliige"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7b96f004-1ac0-4f88-8406-f817f6f6e9e7",
+"title": "412 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "db546df6-7a54-4cb7-9e93-5d24ca1b9c70",
+"fileName": "412_RKVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T16:50:08.378",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/db546df6-7a54-4cb7-9e93-5d24ca1b9c70/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/db546df6-7a54-4cb7-9e93-5d24ca1b9c70"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa573a75-1cfe-45db-983a-f9ca154bba4e",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b7cb41d9-beea-4ef5-a7aa-ededb17fff8d",
+"fileName": "Valimiseelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T15:49:12.907",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7cb41d9-beea-4ef5-a7aa-ededb17fff8d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7cb41d9-beea-4ef5-a7aa-ededb17fff8d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa573a75-1cfe-45db-983a-f9ca154bba4e",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "26a72aff-3fab-4893-b5c9-39a6453ec553",
+"fileName": "412_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T16:06:17.723",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/26a72aff-3fab-4893-b5c9-39a6453ec553/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/26a72aff-3fab-4893-b5c9-39a6453ec553"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "7b96f004-1ac0-4f88-8406-f817f6f6e9e7",
+"title": "412 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "96db5061-bf4b-4123-bf9f-7974759c35f0",
+"fileName": "412_RKVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-04T16:51:26.128",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/96db5061-bf4b-4123-bf9f-7974759c35f0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/96db5061-bf4b-4123-bf9f-7974759c35f0"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "fa573a75-1cfe-45db-983a-f9ca154bba4e",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "dc94fe80-03c5-470b-b96f-cb5170773b0d",
+"fileName": "412_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T16:06:27.39",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dc94fe80-03c5-470b-b96f-cb5170773b0d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dc94fe80-03c5-470b-b96f-cb5170773b0d"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-08T15:48:21.055",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-09T14:23:00.834",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-06-04T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 4.06.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-06-12T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Pipi-Liis Siemann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "8e81d474-56b3-4722-8210-4bd6ed37653a",
+"fileName": "PÕSK_protokoll_nr_61.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-10T13:01:35.485",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8e81d474-56b3-4722-8210-4bd6ed37653a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8e81d474-56b3-4722-8210-4bd6ed37653a"
+}
+}
+},
+{
+"uuid": "c510f9a3-edd6-4236-b4c0-c1c687d910fe",
+"fileName": "PÕSK_protokoll_nr_61_(04.06.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-10T13:01:00.783",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c510f9a3-edd6-4236-b4c0-c1c687d910fe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c510f9a3-edd6-4236-b4c0-c1c687d910fe"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.06.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-09-10T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 10.09.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "f7dac35d-618e-4eba-a731-264b91472b66",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-09-10T10:46:53.88",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/f7dac35d-618e-4eba-a731-264b91472b66"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "2d9b1775-fade-4415-ba0c-4a19e2bab3a7",
+"reference": "1-1/15-412/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 412 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-08",
+"files": [
+{
+"uuid": "408048b2-d0dd-42c1-9c04-949d9a2b2856",
+"fileName": "240409_RKVS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T16:37:06.973",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/408048b2-d0dd-42c1-9c04-949d9a2b2856/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/408048b2-d0dd-42c1-9c04-949d9a2b2856"
+}
+}
+},
+{
+"uuid": "3ab635ee-4388-4e88-90f8-5ae17e0663fa",
+"fileName": "412_SE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T16:32:33.348",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ab635ee-4388-4e88-90f8-5ae17e0663fa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ab635ee-4388-4e88-90f8-5ae17e0663fa"
+}
+}
+},
+{
+"uuid": "c01a1eab-6b3f-4f6c-a5f6-864af04ea073",
+"fileName": "412_SE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T16:32:16.693",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c01a1eab-6b3f-4f6c-a5f6-864af04ea073/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c01a1eab-6b3f-4f6c-a5f6-864af04ea073"
+}
+}
+},
+{
+"uuid": "a9abaaad-1a23-4c5f-93da-5939b7929810",
+"fileName": "RKVS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T15:54:01.455",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a9abaaad-1a23-4c5f-93da-5939b7929810/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a9abaaad-1a23-4c5f-93da-5939b7929810"
+}
+}
+},
+{
+"uuid": "12731cb8-f23d-480f-906b-69ed92f515f9",
+"fileName": "1-1-15-412-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_412_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T14:24:25.4",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/12731cb8-f23d-480f-906b-69ed92f515f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/12731cb8-f23d-480f-906b-69ed92f515f9"
+}
+}
+},
+{
+"uuid": "1f963b21-09b9-493b-916e-352fabdfc2de",
+"fileName": "RKVS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-08T15:54:21.409",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1f963b21-09b9-493b-916e-352fabdfc2de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1f963b21-09b9-493b-916e-352fabdfc2de"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/2d9b1775-fade-4415-ba0c-4a19e2bab3a7"
+}
+}
+},
+{
+"uuid": "3aab6ed1-f1a0-4c9c-9962-e5bdee727c7f",
+"reference": "1-1/15-412/2",
+"title": "Vabariigi Valitsuse arvamus Riigikogu valimise seaduse muutmise seaduse (kompensatsioonimandaadi saamine vastavalt kandidaadile antud häälte arvule) eelnõu 412 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-13",
+"files": [
+{
+"uuid": "dff19086-5b3e-456b-8cb4-77eac2844394",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0373_-_Riigikogu_valimise_seaduse_muutmise_seaduse_(kompensatsioonimandaadi_saaminevastavalt_kandidaadile_antud_häälte_arvule)_eelnõu_(412_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:34:53.388",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dff19086-5b3e-456b-8cb4-77eac2844394/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dff19086-5b3e-456b-8cb4-77eac2844394"
+}
+}
+},
+{
+"uuid": "26245cac-1ce6-4ce5-8a9e-c6fce06ef4e2",
+"fileName": "VV_seisukoha_edastamine_(412_SE).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:34:53.37",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/26245cac-1ce6-4ce5-8a9e-c6fce06ef4e2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/26245cac-1ce6-4ce5-8a9e-c6fce06ef4e2"
+}
+}
+},
+{
+"uuid": "fc169cae-563e-4e58-9acb-c0dfee785b02",
+"fileName": "8-23490_13.05.2024_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-13T15:34:53.288",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fc169cae-563e-4e58-9acb-c0dfee785b02/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fc169cae-563e-4e58-9acb-c0dfee785b02"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/3aab6ed1-f1a0-4c9c-9962-e5bdee727c7f"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a993ada3-c72e-40a5-86e7-a9f4a7faaa37"
+}
+}
+}

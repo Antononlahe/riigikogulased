@@ -1,0 +1,597 @@
+{
+"uuid": "a539897c-b9ff-4829-a3a5-0fef4b223ef7",
+"title": "Pühade ja tähtpäevade seaduse § 2 muutmise seadus",
+"mark": 402,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Pühade ja tähtpäevade seaduse § 2 muutmise seadus 402 SE",
+"initialTitle": "Pühade ja tähtpäevade seaduse § 2 muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga täiendatakse pühade ja tähtpäevade seaduses sätteid, millega lisatakse riigipühade hulka ülestõusmispühade teine püha. Eelnõu jõustumisel suureneks riigipühade arv Eestis kaheteistkümneni. Ülestõusmispühade teine püha järgneb esimesele pühale, mis tähendab, et see langeb alati esmaspäevale.",
+"initiated": "2024-04-01",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "9035e217-d990-40ca-87ed-54c77653c6d7",
+"name": "Pipi-Liis Siemann",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/9035e217-d990-40ca-87ed-54c77653c6d7?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "0d651ae7-dcdf-427a-a298-f566f76b76cb",
+"name": "Helin Leichter",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/0d651ae7-dcdf-427a-a298-f566f76b76cb?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 3547,
+"text": "riigipüha"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e096fb15-776b-49ba-9242-bc16c245dac3",
+"title": "402 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "e8cba509-0e00-4f6e-8293-731c79b484f8",
+"fileName": "402_PTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T16:07:44.213",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e8cba509-0e00-4f6e-8293-731c79b484f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e8cba509-0e00-4f6e-8293-731c79b484f8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b85d463c-0a5c-475d-a1ed-334fd68e7937",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b19e1d85-fbe6-46b3-9096-b1d423011911",
+"fileName": "pühade_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T16:06:17.58",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b19e1d85-fbe6-46b3-9096-b1d423011911/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b19e1d85-fbe6-46b3-9096-b1d423011911"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b85d463c-0a5c-475d-a1ed-334fd68e7937",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "0fc4d82f-b928-4ba4-85e1-637f69895e35",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T17:30:00.075",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0fc4d82f-b928-4ba4-85e1-637f69895e35/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0fc4d82f-b928-4ba4-85e1-637f69895e35"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e096fb15-776b-49ba-9242-bc16c245dac3",
+"title": "402 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a9acfd08-5f9e-4c16-91be-3df6291cad06",
+"fileName": "402_PTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-28T16:08:28.317",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a9acfd08-5f9e-4c16-91be-3df6291cad06/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a9acfd08-5f9e-4c16-91be-3df6291cad06"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "b85d463c-0a5c-475d-a1ed-334fd68e7937",
+"title": "KESKF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c0dcaa3e-addb-4c88-baf6-ab59b2d691a3",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T17:30:10.619",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c0dcaa3e-addb-4c88-baf6-ab59b2d691a3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c0dcaa3e-addb-4c88-baf6-ab59b2d691a3"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-04-01T16:05:41.337",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-04-02T13:46:00.765",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-05-28T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 28.05.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-06-05T14:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Anti Allas"
+}
+],
+"protocolFiles": [
+{
+"uuid": "871d4dea-a255-471b-8e06-0734edfba33a",
+"fileName": "Slaidid_(MKM).pptx",
+"fileExtension": "pptx",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T13:30:46.454",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/871d4dea-a255-471b-8e06-0734edfba33a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/871d4dea-a255-471b-8e06-0734edfba33a"
+}
+}
+},
+{
+"uuid": "fe7e659c-4bbd-40f5-ae21-fc730d2ff11c",
+"fileName": "PÕSK_protokoll_nr_59.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T13:32:07.69",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/fe7e659c-4bbd-40f5-ae21-fc730d2ff11c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/fe7e659c-4bbd-40f5-ae21-fc730d2ff11c"
+}
+}
+},
+{
+"uuid": "93ec63bd-0ef0-4969-9593-32d9e2138bed",
+"fileName": "Pipi-Liis_Joller.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-05T10:36:15.744",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/93ec63bd-0ef0-4969-9593-32d9e2138bed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/93ec63bd-0ef0-4969-9593-32d9e2138bed"
+}
+}
+},
+{
+"uuid": "5ee6e4ba-df47-4cf0-9fb5-dfbad879b09f",
+"fileName": "PÕSK_protokoll_nr_59_(28.05.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-03T13:30:34.378",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5ee6e4ba-df47-4cf0-9fb5-dfbad879b09f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5ee6e4ba-df47-4cf0-9fb5-dfbad879b09f"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-05T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 5.06.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-06-11T14:00:00",
+"sittingTitle": "Põhiseaduskomisjoni ja õiguskomisjoni ühine istung teisipäev, 11.06.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Pipi-Liis Siemann"
+}
+],
+"protocolFiles": [
+{
+"uuid": "3c5dd35c-6fb3-46c4-8abe-7aec2487effe",
+"fileName": "Põhiseaduskomisjoni_ja_õiguskomisjoni_ühine_istung_nr_30.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-14T11:59:55.454",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c5dd35c-6fb3-46c4-8abe-7aec2487effe/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c5dd35c-6fb3-46c4-8abe-7aec2487effe"
+}
+}
+},
+{
+"uuid": "5873a1b3-57b1-415f-8a46-36b0e9ccb7a0",
+"fileName": "PSK_ettekanne_juuni_2024.pptx",
+"fileExtension": "pptx",
+"fileTitle": "Lisa 1",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-14T11:59:13.217",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5873a1b3-57b1-415f-8a46-36b0e9ccb7a0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5873a1b3-57b1-415f-8a46-36b0e9ccb7a0"
+}
+}
+},
+{
+"uuid": "f7444bc7-5d8d-4894-9d92-00f702c1e6fc",
+"fileName": "Riigikogu_põhiseaduskomisjoni_ja_õiguskomisjoni_ühise_istungi_protokoll_nr_30.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-06-14T11:58:17.356",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f7444bc7-5d8d-4894-9d92-00f702c1e6fc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f7444bc7-5d8d-4894-9d92-00f702c1e6fc"
+}
+}
+}
+]
+},
+{
+"date": "2024-06-12T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 12.06.2024 14:00",
+"decisionCode": null,
+"votings": []
+},
+{
+"date": "2024-09-10T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 10.09.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "09cb1630-86f6-4495-8f23-90e893650c99",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-09-10T10:36:29.977",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/09cb1630-86f6-4495-8f23-90e893650c99"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "837efa1b-b9c7-4da9-8be3-908d7814724e",
+"reference": "1-1/15-402/2",
+"title": "Vabariigi Valitsuse arvamus pühade ja tähtpäevade seaduse § 2 muutmise seaduse eelnõu 402 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-05-09",
+"files": [
+{
+"uuid": "639301fe-3556-4952-bb7a-0d4e4e725bc1",
+"fileName": "Vabariigi_Valitsuse_seisukoha_edastamine_pühade_ja_tähtpäevade_seaduse_§_2_muutmise_seaduse_(SE_402)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-09T10:52:35.205",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/639301fe-3556-4952-bb7a-0d4e4e725bc1/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/639301fe-3556-4952-bb7a-0d4e4e725bc1"
+}
+}
+},
+{
+"uuid": "f2ddf735-0889-4831-a633-bf11c2a26ac3",
+"fileName": "8-23189_08.05.2024_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-09T10:52:35.108",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f2ddf735-0889-4831-a633-bf11c2a26ac3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f2ddf735-0889-4831-a633-bf11c2a26ac3"
+}
+}
+},
+{
+"uuid": "46427af5-b37f-4284-a0cb-b1e0ba544ae2",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-0328_-_Pühade_ja_tähtpäevade_seaduse_§_2_muutmise_seaduse_eelnõu_(402_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-05-09T10:52:35.227",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/46427af5-b37f-4284-a0cb-b1e0ba544ae2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/46427af5-b37f-4284-a0cb-b1e0ba544ae2"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/837efa1b-b9c7-4da9-8be3-908d7814724e"
+}
+}
+},
+{
+"uuid": "7f7e681c-b8cc-4247-93ef-7ca82d5f8dd7",
+"reference": "1-1/15-402/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 402 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-04-01",
+"files": [
+{
+"uuid": "203b5af5-66c4-46ce-ab2c-1b4f9386ebe8",
+"fileName": "240402_PTS_KESK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T17:33:27.611",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/203b5af5-66c4-46ce-ab2c-1b4f9386ebe8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/203b5af5-66c4-46ce-ab2c-1b4f9386ebe8"
+}
+}
+},
+{
+"uuid": "615ae7f4-5ff3-4a93-b9f1-486d1bd4341c",
+"fileName": "PTS_m_s_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T17:13:57.637",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/615ae7f4-5ff3-4a93-b9f1-486d1bd4341c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/615ae7f4-5ff3-4a93-b9f1-486d1bd4341c"
+}
+}
+},
+{
+"uuid": "cb801e68-3fa3-45fb-8e68-c04f9121e054",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T17:28:14.009",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cb801e68-3fa3-45fb-8e68-c04f9121e054/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cb801e68-3fa3-45fb-8e68-c04f9121e054"
+}
+}
+},
+{
+"uuid": "35d13cd2-a34f-4cb3-b809-a60e3d16e56f",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T17:28:28.418",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35d13cd2-a34f-4cb3-b809-a60e3d16e56f/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35d13cd2-a34f-4cb3-b809-a60e3d16e56f"
+}
+}
+},
+{
+"uuid": "f6f3bfce-bacd-4155-a92c-92330b5c4d97",
+"fileName": "PTS_m_s_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-01T17:13:38.934",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f6f3bfce-bacd-4155-a92c-92330b5c4d97/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f6f3bfce-bacd-4155-a92c-92330b5c4d97"
+}
+}
+},
+{
+"uuid": "3c7da76a-02b5-4bd1-89a8-b3de2076cbd0",
+"fileName": "1-1-15-402-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_402_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T13:44:34.276",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3c7da76a-02b5-4bd1-89a8-b3de2076cbd0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3c7da76a-02b5-4bd1-89a8-b3de2076cbd0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/7f7e681c-b8cc-4247-93ef-7ca82d5f8dd7"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/a539897c-b9ff-4829-a3a5-0fef4b223ef7"
+}
+}
+}

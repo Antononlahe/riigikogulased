@@ -1,0 +1,510 @@
+{
+"uuid": "c62f0f7c-cc80-4f32-99c9-80ae274dad15",
+"title": "Kodakondsuse seaduse muutmise seadus",
+"mark": 522,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Kodakondsuse seaduse muutmise seadus 522 SE",
+"initialTitle": "Kodakondsuse seaduse muutmise seadus",
+"draftTypeCode": "SE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõu eesmärk on välistada Eestis kodakondsuse andmine ja taastamine isikutele, keda on kriminaalkorras korduvalt karistatud tahtlike kuritegude eest.",
+"initiated": "2024-10-08",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": null,
+"responsibleMember": {
+"uuid": "0f9372ee-f108-47f9-9192-82ff84cf3efb",
+"name": "Timo Suslov",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/0f9372ee-f108-47f9-9192-82ff84cf3efb?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "b483f709-afa6-4dd9-a8d5-46345c917272",
+"name": "Karin Tuulik",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/b483f709-afa6-4dd9-a8d5-46345c917272?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "38144a73-dde6-fd5e-68db-63e2736c85e2",
+"name": "Põhiseaduskomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/38144a73-dde6-fd5e-68db-63e2736c85e2?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2034,
+"text": "kodakondsus"
+},
+{
+"edid": 1432,
+"text": "süütegu"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2d7a9fb9-c6f8-42ee-9487-4bc551841ecb",
+"title": "522 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "f1d2985d-0117-44bd-b078-df84cca77344",
+"fileName": "522_KodS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T15:39:55.712",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/f1d2985d-0117-44bd-b078-df84cca77344/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/f1d2985d-0117-44bd-b078-df84cca77344"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "519492b8-886a-4608-a7ec-ab899a89e104",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c0e9b960-1e9d-4c1f-b961-4daee414710d",
+"fileName": "KodS_muutmise_eelnõu_(kriminaalid).doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T10:25:27.403",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c0e9b960-1e9d-4c1f-b961-4daee414710d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c0e9b960-1e9d-4c1f-b961-4daee414710d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "519492b8-886a-4608-a7ec-ab899a89e104",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "81d520b7-64f8-49f8-9a13-f62c47c2c1c4",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T10:39:10.464",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/81d520b7-64f8-49f8-9a13-f62c47c2c1c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/81d520b7-64f8-49f8-9a13-f62c47c2c1c4"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "2d7a9fb9-c6f8-42ee-9487-4bc551841ecb",
+"title": "522 SE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "187f29af-bfd9-45c0-8f85-fa9bf83817c4",
+"fileName": "522_KodS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T15:41:10.218",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/187f29af-bfd9-45c0-8f85-fa9bf83817c4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/187f29af-bfd9-45c0-8f85-fa9bf83817c4"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "519492b8-886a-4608-a7ec-ab899a89e104",
+"title": "IF algatatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "22e5aa32-32b5-4a0a-ab9f-abeb837af3df",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T10:39:22.122",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/22e5aa32-32b5-4a0a-ab9f-abeb837af3df/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/22e5aa32-32b5-4a0a-ab9f-abeb837af3df"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-10-08T10:24:57.849",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-10-08T13:45:00.264",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-11-19T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 19.11.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-12-03T10:00:00"
+},
+{
+"decision": {
+"code": "TAGASI_LUKATA",
+"value": "Teha ettepanek eelnõu tagasi lükata"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "põhiseaduskomisjoni liige Timo Suslov"
+}
+],
+"protocolFiles": [
+{
+"uuid": "abc40244-e2e7-41e7-bf8f-bdf8d21da9f9",
+"fileName": "PÕSK_protokoll_nr_80.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-29T13:42:33.479",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/abc40244-e2e7-41e7-bf8f-bdf8d21da9f9/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/abc40244-e2e7-41e7-bf8f-bdf8d21da9f9"
+}
+}
+},
+{
+"uuid": "65a88036-4b0c-41a3-be12-7183aa0b1b3e",
+"fileName": "Volikiri_M._Kallas_(19.11.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-29T13:42:02.035",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/65a88036-4b0c-41a3-be12-7183aa0b1b3e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/65a88036-4b0c-41a3-be12-7183aa0b1b3e"
+}
+}
+},
+{
+"uuid": "2bbd7cf8-aa0d-4ad9-af03-c6be0c9cf2ee",
+"fileName": "PÕSK_protokoll_nr_80_(19.11.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-29T13:41:51.136",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2bbd7cf8-aa0d-4ad9-af03-c6be0c9cf2ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2bbd7cf8-aa0d-4ad9-af03-c6be0c9cf2ee"
+}
+}
+}
+]
+},
+{
+"date": "2024-12-05T10:00:00",
+"sittingTitle": "Täiskogu korraline istung neljapäev, 5.12.2024 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "2d257193-7712-4449-a39c-dcc87e54e50e",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Tagasi lükkamine",
+"startDateTime": "2024-12-05T11:59:15.63",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/2d257193-7712-4449-a39c-dcc87e54e50e"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "24bff1d7-4db3-49f1-a1f3-8a2bf4bc28b9",
+"reference": "1-1/15-522/1",
+"title": "Vabariigi Valitsuselt arvamuse küsimine eelnõu 522 SE kohta",
+"documentType": "letterDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-10-08",
+"files": [
+{
+"uuid": "18f04a99-bde6-421f-8118-f6150341bc1b",
+"fileName": "241008_KodS_I.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T12:23:57.475",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/18f04a99-bde6-421f-8118-f6150341bc1b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/18f04a99-bde6-421f-8118-f6150341bc1b"
+}
+}
+},
+{
+"uuid": "9fabf657-fa1a-49c3-b45e-9bfc160549d4",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T10:43:34.263",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9fabf657-fa1a-49c3-b45e-9bfc160549d4/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9fabf657-fa1a-49c3-b45e-9bfc160549d4"
+}
+}
+},
+{
+"uuid": "c5213272-f9d0-4f4c-a5c0-5a4a46d2d5f8",
+"fileName": "KodS_m_s_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T10:40:18.814",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c5213272-f9d0-4f4c-a5c0-5a4a46d2d5f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c5213272-f9d0-4f4c-a5c0-5a4a46d2d5f8"
+}
+}
+},
+{
+"uuid": "19ec5bac-0b0d-4819-aaba-2657aa92c855",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T10:43:47.919",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/19ec5bac-0b0d-4819-aaba-2657aa92c855/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/19ec5bac-0b0d-4819-aaba-2657aa92c855"
+}
+}
+},
+{
+"uuid": "85a2f0c6-1d37-4e8c-9eda-77a59e296122",
+"fileName": "1-1-15-522-1_-_Vabariigi_Valitsuselt_arvamuse_küsimine_eelnõu_522_SE_kohta.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamuse küsimine asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T13:47:43.791",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/85a2f0c6-1d37-4e8c-9eda-77a59e296122/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/85a2f0c6-1d37-4e8c-9eda-77a59e296122"
+}
+}
+},
+{
+"uuid": "2010243a-2d33-4e18-909c-6aa52a2841be",
+"fileName": "KodS_m_s_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-08T10:43:21.305",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2010243a-2d33-4e18-909c-6aa52a2841be/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2010243a-2d33-4e18-909c-6aa52a2841be"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/24bff1d7-4db3-49f1-a1f3-8a2bf4bc28b9"
+}
+}
+},
+{
+"uuid": "e9c6b051-09db-4a85-a4c3-d53bcb135b19",
+"reference": "1-1/15-522/2",
+"title": "Vabariigi Valitsuse arvamus kodakondsuse seaduse muutmise seaduse eelnõu 522 SE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-13",
+"files": [
+{
+"uuid": "cda8318a-8797-4a34-a20e-8ff0c4264c14",
+"fileName": "Vabariigi_Valitsuse_arvamuse_teatavaks_tegemine_kodakondsuse_seaduse_muutmise_seaduse_eelnõu_(522_SE)_kohta.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-13T11:38:21.838",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/cda8318a-8797-4a34-a20e-8ff0c4264c14/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/cda8318a-8797-4a34-a20e-8ff0c4264c14"
+}
+}
+},
+{
+"uuid": "a72a48ea-c1b6-45fc-a27d-b124361a0cff",
+"fileName": "1-7221-4_07.11.2024_Vï¿½ljaminev_kiri.asice",
+"fileExtension": "asice",
+"fileTitle": "Arvamus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-13T11:38:21.759",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a72a48ea-c1b6-45fc-a27d-b124361a0cff/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a72a48ea-c1b6-45fc-a27d-b124361a0cff"
+}
+}
+},
+{
+"uuid": "a350e6ba-f97b-4ea0-94bc-ffeb783d8f8b",
+"fileName": "[EIS]_Eelnõu_esitamine__RIIGIKOGU-24-1016_-_Kodakondsuse_seaduse_muutmise_seaduse_eelnõu_(522_SE).txt",
+"fileExtension": "txt",
+"fileTitle": "EIS-teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-13T11:38:21.851",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a350e6ba-f97b-4ea0-94bc-ffeb783d8f8b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a350e6ba-f97b-4ea0-94bc-ffeb783d8f8b"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/e9c6b051-09db-4a85-a4c3-d53bcb135b19"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/c62f0f7c-cc80-4f32-99c9-80ae274dad15"
+}
+}
+}

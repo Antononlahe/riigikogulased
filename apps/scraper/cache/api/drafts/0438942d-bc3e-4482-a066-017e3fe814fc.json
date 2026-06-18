@@ -1,0 +1,606 @@
+{
+"uuid": "0438942d-bc3e-4482-a066-017e3fe814fc",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada õigusaktide eelnõud, millega tagatakse koolivõrgu kujundamise arusaadavus ja etteplaneeritus\"",
+"mark": 285,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada õigusaktide eelnõud, millega tagatakse koolivõrgu kujundamise arusaadavus ja etteplaneeritus\" 285 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada õigusaktide eelnõud, millega tagatakse koolivõrgu kujundamise arusaadavus ja etteplaneeritus\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse valitsusele ülesandeks töötada välja niisugused õigusaktid, mis annaksid omavalitsustele, kuhu jäävad hajaasustusega piirkonnad, kindlustunde, et suudetakse vajalikke väikekoole alles hoida.",
+"initiated": "2023-09-21",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-10-05T17:15:00",
+"responsibleMember": {
+"uuid": "ee639cdf-b86c-48b7-9b34-fbba9b83826d",
+"name": "Margit Sutrop",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/ee639cdf-b86c-48b7-9b34-fbba9b83826d?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "7757da25-6c60-4cbb-80e4-427705ccf92e",
+"name": "Carina Rikart",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/7757da25-6c60-4cbb-80e4-427705ccf92e?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "d8e4e49e-c184-7536-6e62-7ae3a4089893",
+"name": "Kultuurikomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/d8e4e49e-c184-7536-6e62-7ae3a4089893?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2175,
+"text": "õpetamise korraldamine"
+},
+{
+"edid": 3079,
+"text": "maapiirkond"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9d4e1500-2c2e-49ef-b15c-0f47368c5725",
+"title": "285 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "da8480c6-7259-4f7c-8ae5-609fdac63d67",
+"fileName": "285_RK_o_Ettepanek_VVle_koolivõrk_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T16:28:36.242",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da8480c6-7259-4f7c-8ae5-609fdac63d67/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da8480c6-7259-4f7c-8ae5-609fdac63d67"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "905d0557-1356-483f-b926-0fc2ac319a21",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3ba79a9f-16ad-499b-857a-82f6b8a59648",
+"fileName": "Ettepaneku_tegemine_Vabariigi_Valitsusele_algatada_õigusaktide_eelnõud_millega_tagatakse_koolivõrgu_kujundamise_arusaadavus_ja_etteplaneeritus.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-21T10:34:03.351",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3ba79a9f-16ad-499b-857a-82f6b8a59648/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3ba79a9f-16ad-499b-857a-82f6b8a59648"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "905d0557-1356-483f-b926-0fc2ac319a21",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2bb69a12-f6db-4014-8556-28062eb27321",
+"fileName": "285E.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-21T10:51:26.55",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2bb69a12-f6db-4014-8556-28062eb27321/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2bb69a12-f6db-4014-8556-28062eb27321"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "9d4e1500-2c2e-49ef-b15c-0f47368c5725",
+"title": "285 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c2ceee1c-bf42-463f-9e7a-c86e02775c48",
+"fileName": "285_RK_o_Ettepanek_VVle_koolivõrk_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-02T16:29:05.339",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c2ceee1c-bf42-463f-9e7a-c86e02775c48/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c2ceee1c-bf42-463f-9e7a-c86e02775c48"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "905d0557-1356-483f-b926-0fc2ac319a21",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7e399750-7afa-455b-b527-7fe4b024d91d",
+"fileName": "285SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-21T10:51:40.526",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7e399750-7afa-455b-b527-7fe4b024d91d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7e399750-7afa-455b-b527-7fe4b024d91d"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-09-21T10:33:22.877",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-09-21T16:15:00.751",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2023-11-14T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 14.11.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Jätkata menetlust komisjonis"
+}
+],
+"protocolFiles": [
+{
+"uuid": "0fb6ec8b-b5b5-4cc5-b3aa-1580c8dcb0cf",
+"fileName": "Volikiri_14.11.23.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri (V. Vooglaid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-13T15:42:21.832",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0fb6ec8b-b5b5-4cc5-b3aa-1580c8dcb0cf/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0fb6ec8b-b5b5-4cc5-b3aa-1580c8dcb0cf"
+}
+}
+},
+{
+"uuid": "7564aca5-1440-4c91-8ad2-b2a051645f2a",
+"fileName": "Protokoll_25_(14.11.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-12T15:06:07.083",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7564aca5-1440-4c91-8ad2-b2a051645f2a/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7564aca5-1440-4c91-8ad2-b2a051645f2a"
+}
+}
+},
+{
+"uuid": "6c7462a9-449e-4ef3-80d3-3156b43a02c8",
+"fileName": "KULK_protokoll_(14.11.2023).asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-12T15:10:41.753",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6c7462a9-449e-4ef3-80d3-3156b43a02c8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6c7462a9-449e-4ef3-80d3-3156b43a02c8"
+}
+}
+}
+]
+},
+{
+"date": "2023-12-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.12.2023 kell 14.00",
+"committeeDecisions": [],
+"protocolFiles": [
+{
+"uuid": "1e90a69f-a80c-452b-9337-0529d8c83a28",
+"fileName": "Asendamine_Izmailova_12.12.2023.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Asendusliikme volikiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-09T08:59:35.533",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1e90a69f-a80c-452b-9337-0529d8c83a28/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1e90a69f-a80c-452b-9337-0529d8c83a28"
+}
+}
+},
+{
+"uuid": "8936dd38-d118-4f70-bb91-d93128c21414",
+"fileName": "Asendamine.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri (Tanel Kiik)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-08T12:07:48.391",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8936dd38-d118-4f70-bb91-d93128c21414/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8936dd38-d118-4f70-bb91-d93128c21414"
+}
+}
+},
+{
+"uuid": "847a84b4-070b-471f-92a1-01257200a604",
+"fileName": "Asendamine_12.12.23.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (Tanel Kiik)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-08T12:06:03.799",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/847a84b4-070b-471f-92a1-01257200a604/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/847a84b4-070b-471f-92a1-01257200a604"
+}
+}
+},
+{
+"uuid": "0350ee6c-4635-42bf-aa55-5ba889a89657",
+"fileName": "KULK_protokoll_12.12.23.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-08T12:04:48.649",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0350ee6c-4635-42bf-aa55-5ba889a89657/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0350ee6c-4635-42bf-aa55-5ba889a89657"
+}
+}
+},
+{
+"uuid": "dde1b040-1be7-404c-aaa6-6d433b3925fa",
+"fileName": "Protokoll_30_(12.12.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-01-08T12:03:35.294",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/dde1b040-1be7-404c-aaa6-6d433b3925fa/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/dde1b040-1be7-404c-aaa6-6d433b3925fa"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-04-02T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 2.04.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "VOTTA_TK_JA_LOPPHAALETUS",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda ja viia läbi lõpphääletus"
+},
+"plenaryAgendaDateTime": "2024-04-09T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Margit Sutrop"
+}
+],
+"protocolFiles": [
+{
+"uuid": "78729f3d-c301-415a-9e2b-9106cf660779",
+"fileName": "asendus_KulK_02.04.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Asendusliikme volikiri (S. Kallas)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:07:17.748",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/78729f3d-c301-415a-9e2b-9106cf660779/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/78729f3d-c301-415a-9e2b-9106cf660779"
+}
+}
+},
+{
+"uuid": "588d7dbf-edef-4134-945c-43633a97c2cb",
+"fileName": "Kultuurikomisjoni_protokoll_49.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:06:08.413",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/588d7dbf-edef-4134-945c-43633a97c2cb/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/588d7dbf-edef-4134-945c-43633a97c2cb"
+}
+}
+},
+{
+"uuid": "113a3ea8-5ce9-43bb-9435-6d2e1eaa8c57",
+"fileName": "Protokoll_49_(02.04.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:04:47.982",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/113a3ea8-5ce9-43bb-9435-6d2e1eaa8c57/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/113a3ea8-5ce9-43bb-9435-6d2e1eaa8c57"
+}
+}
+},
+{
+"uuid": "a2aae5d8-b508-42fe-ac8e-a7dd8b7242ab",
+"fileName": "EIM_Seppel_02.04.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (K. Seppeli slaidid)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:05:15.229",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a2aae5d8-b508-42fe-ac8e-a7dd8b7242ab/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a2aae5d8-b508-42fe-ac8e-a7dd8b7242ab"
+}
+}
+},
+{
+"uuid": "feeda6a1-df01-4af0-9f40-94493120fbd3",
+"fileName": "asendus_KulK_02.04.2024.docx",
+"fileExtension": "docx",
+"fileTitle": "Asendusliikme volikiri (S. Kallas)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-04-09T12:07:44.426",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/feeda6a1-df01-4af0-9f40-94493120fbd3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/feeda6a1-df01-4af0-9f40-94493120fbd3"
+}
+}
+}
+]
+},
+{
+"date": "2024-04-10T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 10.04.2024 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "28284208-296b-425b-a3da-04190cff108c",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-04-10T15:34:02.993",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/28284208-296b-425b-a3da-04190cff108c"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6d0fa119-76bf-4c97-a88b-30bed2b84778",
+"reference": "1-1/15-279/2",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse ,,Ettepaneku tegemine Vabariigi Valitsusele põhikooli- ja gümnaasiumiseaduse muutmiseks\" eelnõu 279 OE; Riigikogu otsuse ,,Ettepaneku tegemine Vabariigi Valitsusele teha ettevalmistused referendumi korraldamiseks seonduvalt seksuaalkasvatuse lubatavusega koolides ja lasteaedades\" eelnõu 281 OE; Riigikogu otsuse ,,Ettepaneku tegemine Vabariigi Valitsusele algatada õigusaktide eelnõud, millega tagatakse koolivõrgu kujundamise arusaadavus ja etteplaneeritus\" eelnõu 285 OE ning Riigikogu otsuse ,,Ettepaneku tegemine Vabariigi Valitsusele rakendada tõhusaid meetmeid kaitsmaks alaealisi kokkupuudete eest pornograafiaga\" eelnõu 326 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-12-11",
+"files": [
+{
+"uuid": "25ec688e-cb09-4d63-a985-f687c774777d",
+"fileName": "396.tel_Arvamus_279OE_281OE_285OE_ja_326OE_häälteenamus..pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-12-11T14:15:47.487",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/25ec688e-cb09-4d63-a985-f687c774777d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/25ec688e-cb09-4d63-a985-f687c774777d"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6d0fa119-76bf-4c97-a88b-30bed2b84778"
+}
+}
+}
+],
+"amendments": [
+{
+"uuid": "f79b2721-d103-44f3-8b8f-7cbde9ce0831",
+"reference": "1-1/15-285/1",
+"title": "Eesti Konservatiivse Rahvaerakonna fraktsiooni muudatusettepanekud ja muudatusettepanekute tagasivõtmine Riigikogu otsuse eelnõu ,,Ettepaneku tegemine Vabariigi Valitsusele algatada õigusaktide eelnõud, millega tagatakse koolivõrgu kujundamise arusaadavus ja etteplaneeritus\" 285 OE kohta",
+"documentType": "muudatusettepanek",
+"copyOrOriginal": "ORIGINAL",
+"files": [
+{
+"uuid": "bd4f057d-9e62-4860-8d00-4d8048a9b925",
+"fileName": "EKRE_ME_tagasivõtmine_285OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "ME tagasivõtmine",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-03-26T13:36:26.226",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/bd4f057d-9e62-4860-8d00-4d8048a9b925/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/bd4f057d-9e62-4860-8d00-4d8048a9b925"
+}
+}
+},
+{
+"uuid": "311b010a-8509-48f3-baba-e5207d978315",
+"fileName": "ME_285OE_EKREfr.docx",
+"fileExtension": "docx",
+"fileTitle": "Muudatusettepanek",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T13:11:42.059",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/311b010a-8509-48f3-baba-e5207d978315/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/311b010a-8509-48f3-baba-e5207d978315"
+}
+}
+},
+{
+"uuid": "8607ffaf-0026-4d71-b0a1-6b4a0b468aa0",
+"fileName": "ME_285OE_EKREfr.asice",
+"fileExtension": "asice",
+"fileTitle": "Muudatusettepanek asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-10-05T13:11:32.242",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8607ffaf-0026-4d71-b0a1-6b4a0b468aa0/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8607ffaf-0026-4d71-b0a1-6b4a0b468aa0"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/f79b2721-d103-44f3-8b8f-7cbde9ce0831"
+}
+}
+}
+],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/0438942d-bc3e-4482-a066-017e3fe814fc"
+}
+}
+}

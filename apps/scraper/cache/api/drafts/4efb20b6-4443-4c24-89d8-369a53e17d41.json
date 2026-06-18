@@ -1,0 +1,347 @@
+{
+"uuid": "4efb20b6-4443-4c24-89d8-369a53e17d41",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada perehüvitiste seaduse muutmise eelnõu, millega hakatakse lapsetoetusi indekseerima\"",
+"mark": 138,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada perehüvitiste seaduse muutmise eelnõu, millega hakatakse lapsetoetusi indekseerima\" 138 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele algatada perehüvitiste seaduse muutmise eelnõu, millega hakatakse lapsetoetusi indekseerima\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse Vabariigi Valitsusele ettepanek\nalgatada seaduse eelnõu, millega hakatakse lapsetoetusi indekseerima.",
+"initiated": "2023-05-11",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2023-05-29T17:15:00",
+"responsibleMember": {
+"uuid": "3febb869-f443-4aba-908e-7c0c30f8c4dd",
+"name": "Irja Lutsar",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/3febb869-f443-4aba-908e-7c0c30f8c4dd?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "57665e48-1e3e-4cbc-bd74-c79d6df13da6",
+"name": "Helgi Kundla",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/57665e48-1e3e-4cbc-bd74-c79d6df13da6?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "a844d128-287d-4c20-bf30-61fcb0af23cf",
+"name": "Isamaa fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/a844d128-287d-4c20-bf30-61fcb0af23cf?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 2604,
+"text": "peretoetus"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e858267d-9bce-4ba1-b759-5262cbb36459",
+"title": "138 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "74e2aec6-5c22-42e2-b677-ef15f300851c",
+"fileName": "138_OE_ettepanek_hakata_lapsetoetusi_indekseerima_eelnõu.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-13T12:57:12.318",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/74e2aec6-5c22-42e2-b677-ef15f300851c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/74e2aec6-5c22-42e2-b677-ef15f300851c"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "869836d4-2d6d-4edc-b47d-ad8906bc9dc7",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "51a8a2d3-7824-4bd8-9da4-0196cf395d51",
+"fileName": "138_OE_ettepanek_hakata_lapsetoetusi_indekseerima.doc",
+"fileExtension": "doc",
+"fileTitle": "Eelnõu ja seletuskiri doc",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-15T14:55:35.777",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/51a8a2d3-7824-4bd8-9da4-0196cf395d51/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/51a8a2d3-7824-4bd8-9da4-0196cf395d51"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "869836d4-2d6d-4edc-b47d-ad8906bc9dc7",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "a82f15cb-ff43-4abb-b985-b1581bc5c685",
+"fileName": "138_eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T12:05:12.06",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/a82f15cb-ff43-4abb-b985-b1581bc5c685/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/a82f15cb-ff43-4abb-b985-b1581bc5c685"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "e858267d-9bce-4ba1-b759-5262cbb36459",
+"title": "138 OE I",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "ef10b685-4c84-4740-b3b2-ba7deb215fd8",
+"fileName": "138_OE_ettepanek_hakata_lapsetoetusi_indekseerima_SK.doc",
+"fileExtension": "doc",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-13T12:57:37.044",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/ef10b685-4c84-4740-b3b2-ba7deb215fd8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/ef10b685-4c84-4740-b3b2-ba7deb215fd8"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "869836d4-2d6d-4edc-b47d-ad8906bc9dc7",
+"title": "IF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "639d2081-94c4-4a1f-b19d-62f0fa5ef1ee",
+"fileName": "138_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-05-11T12:05:28.523",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/639d2081-94c4-4a1f-b19d-62f0fa5ef1ee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/639d2081-94c4-4a1f-b19d-62f0fa5ef1ee"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2023-05-11T10:31:44.678",
+"status": "ALGATATUD"
+},
+{
+"date": "2023-05-15T20:22:00.034",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2023-09-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.09.2023 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2023-09-20T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Irja Lutsar"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "1d724fbe-7a8a-47e2-b650-d4b940a7a8ec",
+"fileName": "SOTK_protokoll_12.09.2023.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-19T13:31:12.578",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1d724fbe-7a8a-47e2-b650-d4b940a7a8ec/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1d724fbe-7a8a-47e2-b650-d4b940a7a8ec"
+}
+}
+},
+{
+"uuid": "933e2b00-9488-42ec-99d4-83a6690a3e36",
+"fileName": "SOTK_protokoll_nr_18_(12.09.2023).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-19T13:30:09.75",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/933e2b00-9488-42ec-99d4-83a6690a3e36/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/933e2b00-9488-42ec-99d4-83a6690a3e36"
+}
+}
+}
+]
+},
+{
+"date": "2023-11-14T10:00:00",
+"sittingTitle": "Täiskogu korraline istung teisipäev, 14.11.2023 10:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "39572737-def6-4163-a5f1-14d6dc108865",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2023-11-14T11:51:50.97",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/39572737-def6-4163-a5f1-14d6dc108865"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "6251b0e5-abe8-46ad-adf5-62959d5d3d89",
+"reference": "1-1/15-53/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuste eelnõu 53 OE, 138 OE, 143 OE, 176 OE ja 208 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2023-09-28",
+"files": [
+{
+"uuid": "1b195c2f-13a7-4d42-b061-9d52442542de",
+"fileName": "287.tel_Arvamus_53OE_138OE_143OE_176OE_ja_208OE_häälteenamus.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2023-09-28T11:52:31.555",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/1b195c2f-13a7-4d42-b061-9d52442542de/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/1b195c2f-13a7-4d42-b061-9d52442542de"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/6251b0e5-abe8-46ad-adf5-62959d5d3d89"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/4efb20b6-4443-4c24-89d8-369a53e17d41"
+}
+}
+}

@@ -1,0 +1,407 @@
+{
+"uuid": "aba47342-bb02-4a5b-8ab4-2f1c051924f6",
+"title": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele eraldada vahendid Tallinna Haigla kaasfinantseerimiseks\"",
+"mark": 498,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele eraldada vahendid Tallinna Haigla kaasfinantseerimiseks\" 498 OE",
+"initialTitle": "Riigikogu otsus „Ettepaneku tegemine Vabariigi Valitsusele eraldada vahendid Tallinna Haigla kaasfinantseerimiseks\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "TAGASI_LYKATUD",
+"activeDraftStatus": "TAGASI_LYKATUD",
+"introduction": "Eelnõuga tehakse ettepanek eraldada vahendid Tallinna Haigla kaasfinantseerimiseks.\nSeletuskirjas märgitakse, et Eesti vajab kaasaegse ruumilahendusega Tallinna Haiglat, mis arvestab tänapäevase nakkuskontrolli vajadusi, lisab haiglavoodeid, suurendab tervishoiusüsteemi võimekust kriisiolukordades, võimaldab meie piiratud meditsiinipersonali paremat koostööd ja parandab patsientidele raviteenuste kättesaadavust.",
+"initiated": "2024-09-16",
+"joined": null,
+"accepted": null,
+"amendmentsDeadline": "2024-10-01T17:15:00",
+"responsibleMember": {
+"uuid": "3febb869-f443-4aba-908e-7c0c30f8c4dd",
+"name": "Irja Lutsar",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/3febb869-f443-4aba-908e-7c0c30f8c4dd?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "57665e48-1e3e-4cbc-bd74-c79d6df13da6",
+"name": "Helgi Kundla",
+"type": "user",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/57665e48-1e3e-4cbc-bd74-c79d6df13da6?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "44584179-67a8-ce54-da37-569f1a480919",
+"name": "Sotsiaalkomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/44584179-67a8-ce54-da37-569f1a480919?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "3c1832c0-7727-18d1-d9d3-e685a58f44b0",
+"name": "Eesti Keskerakonna fraktsioon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/3c1832c0-7727-18d1-d9d3-e685a58f44b0?lang=ET"
+}
+}
+}
+],
+"descriptors": [
+{
+"edid": 876,
+"text": "raviasutus"
+},
+{
+"edid": 6025,
+"text": "kaasfinantseerimine"
+}
+],
+"texts": [
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1875b0de-3b6f-4d38-9d36-d7af5494d24b",
+"title": "498 OE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "039070f1-6587-41f9-9694-62aa23a02b28",
+"fileName": "498_RK_o_Ettepanek_VVle_Tallinna_Haigla_eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T15:44:16.309",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/039070f1-6587-41f9-9694-62aa23a02b28/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/039070f1-6587-41f9-9694-62aa23a02b28"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4b21e32f-7a3f-4d48-abfd-62d4691bc16b",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3a5c37e9-6570-42f6-8fda-a5392d334625",
+"fileName": "2024.09.16OE_Tallinna_haigla.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu ja seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T15:40:55.783",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a5c37e9-6570-42f6-8fda-a5392d334625/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a5c37e9-6570-42f6-8fda-a5392d334625"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4b21e32f-7a3f-4d48-abfd-62d4691bc16b",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "120cb558-c279-4175-94ae-72048b755ba3",
+"fileName": "498_OE.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T16:19:54.219",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/120cb558-c279-4175-94ae-72048b755ba3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/120cb558-c279-4175-94ae-72048b755ba3"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "1875b0de-3b6f-4d38-9d36-d7af5494d24b",
+"title": "498 OE",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "c6cc2c8f-ad15-423a-9cf0-fde159f730f5",
+"fileName": "498_RK_o_Ettepanek_VVle_Tallinna_Haigla_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-12T15:45:05.974",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c6cc2c8f-ad15-423a-9cf0-fde159f730f5/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c6cc2c8f-ad15-423a-9cf0-fde159f730f5"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4b21e32f-7a3f-4d48-abfd-62d4691bc16b",
+"title": "KESKF esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "eb54e240-efd0-479e-8dc8-d184f6674849",
+"fileName": "498_OE_SK.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-16T16:20:14.4",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/eb54e240-efd0-479e-8dc8-d184f6674849/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/eb54e240-efd0-479e-8dc8-d184f6674849"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-09-16T15:40:30.998",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-09-17T14:21:00.537",
+"status": "MENETLUSSE_VOETUD"
+},
+{
+"date": "2024-11-12T14:00:00",
+"sittingTitle": "Komisjoni istung teisipäev, 12.11.2024 kell 14.00",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-11-21T10:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Irja Lutsar"
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "35b9dace-0c6f-40b2-b7d3-1203fc605138",
+"fileName": "SOTK_protokoll_12.11.2024.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:12:44.529",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/35b9dace-0c6f-40b2-b7d3-1203fc605138/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/35b9dace-0c6f-40b2-b7d3-1203fc605138"
+}
+}
+},
+{
+"uuid": "b7b4f335-6dc4-4804-844b-1afe68ea0c56",
+"fileName": "SOTK_protokoll_nr_88_(12.11.2024).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:11:57.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b7b4f335-6dc4-4804-844b-1afe68ea0c56/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b7b4f335-6dc4-4804-844b-1afe68ea0c56"
+}
+}
+},
+{
+"uuid": "b39e697b-78c1-423b-9e01-76b3ea6230d7",
+"fileName": "Lisa_2_(Eesti_Rehabilitatsiooniasutuste_Liidu_arvamus).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 2 (Eesti Rehabilitatsiooniasutuste Liidu arvamus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:37:08.825",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b39e697b-78c1-423b-9e01-76b3ea6230d7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b39e697b-78c1-423b-9e01-76b3ea6230d7"
+}
+}
+},
+{
+"uuid": "7511e1ad-01d1-418b-855b-6da052c1b9ed",
+"fileName": "Lisa_3_(SIM_arvamus).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 3 (SIM arvamus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:37:47.03",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7511e1ad-01d1-418b-855b-6da052c1b9ed/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7511e1ad-01d1-418b-855b-6da052c1b9ed"
+}
+}
+},
+{
+"uuid": "0a4982cd-76c0-4a0f-9cf0-2640660ad494",
+"fileName": "Lisa_1_(ESTA_arvamus).pdf",
+"fileExtension": "pdf",
+"fileTitle": "Lisa 1 (ESTA arvamus)",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-19T16:36:23.888",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/0a4982cd-76c0-4a0f-9cf0-2640660ad494/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/0a4982cd-76c0-4a0f-9cf0-2640660ad494"
+}
+}
+}
+]
+},
+{
+"date": "2024-12-05T15:24:49.573",
+"status": "SAADETUD_I_LUGEMISELE"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2025-01-06T10:39:33.289",
+"status": "SAADETUD_I_LUGEMISELE"
+},
+{
+"date": "2025-01-15T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 15.01.2025 14:00",
+"decisionCode": "TAGASI_LYKATUD",
+"votings": [
+{
+"uuid": "b5d8dd86-1ecf-4937-9778-f9da53985663",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2025-01-15T15:50:07.76",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/b5d8dd86-1ecf-4937-9778-f9da53985663"
+}
+}
+}
+]
+}
+]
+}
+],
+"opinions": [
+{
+"uuid": "d150170c-6844-4359-9060-4b14481e3c07",
+"reference": "1-1/15-498/1",
+"title": "Riigikogu Kantselei õigus- ja analüüsiosakonna arvamus Riigikogu otsuse „Ettepaneku tegemine Vabariigi Valitsusele eraldada vahendid Tallinna Haigla kaasfinantseerimiseks\" eelnõu 498 OE kohta",
+"documentType": "opinionDocument",
+"copyOrOriginal": "ORIGINAL",
+"date": "2024-11-13",
+"files": [
+{
+"uuid": "c9878f53-397d-43ee-81e1-2c0364e3d540",
+"fileName": "264._tel_Eelnõu_498_OE_häältenamus_2024_10_10.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Arvamus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-13T14:34:37.982",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/c9878f53-397d-43ee-81e1-2c0364e3d540/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/c9878f53-397d-43ee-81e1-2c0364e3d540"
+}
+}
+}
+],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/documents/d150170c-6844-4359-9060-4b14481e3c07"
+}
+}
+}
+],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/aba47342-bb02-4a5b-8ab4-2f1c051924f6"
+}
+}
+}

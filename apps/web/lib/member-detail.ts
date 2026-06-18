@@ -8,11 +8,37 @@ export type VotePoint = {
   draftMark: string | null;
   draftUuid: string | null;
   riigikoguUuid: string | null;
+  outcomeStage: string | null; // bill's activeDraftStage, null when no linked bill / not ingested
   memberChoice: string;
   partyMajorityChoice: string | null;
   isProcedural: boolean;
   partyShortName: string | null;
 };
+
+/**
+ * The bill's final fate, derived from its draft stage (activeDraftStage). This is the
+ * *bill's* outcome as recorded by Riigikogu — not the result of this individual voting —
+ * so it sidesteps the per-vote majority-threshold problem. "pending" = still in process;
+ * null = no linked bill or outcome not yet ingested.
+ */
+export type BillOutcome = "adopted" | "rejected" | "withdrawn" | "pending";
+
+export function billOutcome(stage: string | null): BillOutcome | null {
+  switch (stage) {
+    case "VASTU_VOETUD":
+      return "adopted";
+    case "TAGASI_LYKATUD":
+      return "rejected";
+    case "TAGASI_VOETUD":
+      return "withdrawn";
+    case null:
+    case undefined:
+    case "":
+      return null;
+    default:
+      return "pending"; // a reading stage (TEINE_LUGEMINE / KOLMAS_LUGEMINE / ...)
+  }
+}
 
 const REGISTERED = new Set(["yes", "no", "abstain"]);
 

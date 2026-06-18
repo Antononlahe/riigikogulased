@@ -1,0 +1,717 @@
+{
+"uuid": "5623a4ac-e9a3-413d-8ae7-65ba4d78209c",
+"title": "Riigikogu otsus „Kaitseväe kasutamine Eesti riigi rahvusvaheliste kohustuste täitmisel Ühendkuningriigi ühendekspeditsiooniväe koosseisus\"",
+"mark": 483,
+"copyOrOriginal": "ORIGINAL",
+"membership": 15,
+"titleWithMarkAndTypeCode": "Riigikogu otsus „Kaitseväe kasutamine Eesti riigi rahvusvaheliste kohustuste täitmisel Ühendkuningriigi ühendekspeditsiooniväe koosseisus\" 483 OE",
+"initialTitle": "Riigikogu otsus „Kaitseväe kasutamine Eesti riigi rahvusvaheliste kohustuste täitmisel Ühendkuningriigi ühendekspeditsiooniväe koosseisus\"",
+"draftTypeCode": "OE",
+"activeDraftStage": "VASTU_VOETUD",
+"activeDraftStatus": "AVALDATUD_RIIGITEATAJAS",
+"introduction": "Eelnõu võimaldab jätkata Eesti riigi rahvusvaheliste kohustuste täitmist Ühendkuningriigi ühendekspeditsiooniväe koosseisus",
+"initiated": "2024-09-09",
+"joined": null,
+"accepted": "2024-12-04",
+"amendmentsDeadline": "2024-11-20T10:00:00",
+"responsibleMember": {
+"uuid": "1600fe77-4b45-44ab-972a-181a5ef71767",
+"name": "Kristo Enn Vaga",
+"type": "plenary-member",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/plenary-members/1600fe77-4b45-44ab-972a-181a5ef71767?querySteno=true&includeInactive=false&lang=ET"
+}
+}
+},
+"responsibleOfficer": {
+"uuid": "1e1e3c96-2866-4e3a-a2c0-f5f06892f1fd",
+"name": "Tarmo Heinsar",
+"type": "user",
+"active": false,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/contacts/1e1e3c96-2866-4e3a-a2c0-f5f06892f1fd?lang=ET"
+}
+}
+},
+"leadingCommittee": {
+"uuid": "0ec16e07-01d7-d638-0022-32c19031a915",
+"name": "Riigikaitsekomisjon",
+"type": "usergroup",
+"active": true,
+"user": null,
+"role": null,
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/usergroups/0ec16e07-01d7-d638-0022-32c19031a915?lang=ET"
+}
+}
+},
+"initiators": [
+{
+"uuid": "65e1db80-49f1-4c5b-b1b6-539b7efd199f",
+"name": "Vabariigi Valitsus",
+"type": "classifier",
+"active": true,
+"user": null,
+"role": null
+}
+],
+"descriptors": [
+{
+"edid": 218,
+"text": "sõjaline koostöö"
+},
+{
+"edid": 3441,
+"text": "välismaal paiknevad jõud"
+},
+{
+"edid": 3774,
+"text": "Ühendkuningriik"
+}
+],
+"texts": [
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4a9a68d6-1247-43fd-8775-dc00c32c67a6",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "2cf320d5-40ad-46ca-9c3a-8ae6d6b1d322",
+"fileName": "RK_24-01291-1.asice",
+"fileExtension": "asice",
+"fileTitle": "Algtekstid asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T16:41:14.616",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2cf320d5-40ad-46ca-9c3a-8ae6d6b1d322/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2cf320d5-40ad-46ca-9c3a-8ae6d6b1d322"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4a9a68d6-1247-43fd-8775-dc00c32c67a6",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "d702a8b2-1746-49de-9a29-13727154d99e",
+"fileName": "[EIS]_Eelnõu_esitamine__KAM-24-0723_-_Kaitseväe_kasutamine_Eesti_riigi_rahvusvaheliste_kohustuste_täitmisel_Ühendkuningriigi_ühendekspeditsiooniväe_koosseisus.txt",
+"fileExtension": "txt",
+"fileTitle": "EIS teade",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T16:41:14.77",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/d702a8b2-1746-49de-9a29-13727154d99e/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/d702a8b2-1746-49de-9a29-13727154d99e"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "591c907f-4b3f-4d0a-a310-9f22c7804b1e",
+"title": "483 OE I lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b220ff4c-f957-4a35-9c9f-ed7658c8be19",
+"fileName": "483_Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-16T10:35:44.787",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b220ff4c-f957-4a35-9c9f-ed7658c8be19/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b220ff4c-f957-4a35-9c9f-ed7658c8be19"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "e94a56a6-4751-41e0-a3c9-0ad2fe3e689b",
+"title": "483 OE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "9b9fe9c4-24b8-4c51-a5d6-03fec6971ad7",
+"fileName": "483_OE_II_Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T13:50:29.823",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/9b9fe9c4-24b8-4c51-a5d6-03fec6971ad7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/9b9fe9c4-24b8-4c51-a5d6-03fec6971ad7"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4a9a68d6-1247-43fd-8775-dc00c32c67a6",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "3a3af776-df45-4795-8d90-3f682635235d",
+"fileName": "Eelnõu.docx",
+"fileExtension": "docx",
+"fileTitle": "Eelnõu docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T16:41:14.713",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/3a3af776-df45-4795-8d90-3f682635235d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/3a3af776-df45-4795-8d90-3f682635235d"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4a9a68d6-1247-43fd-8775-dc00c32c67a6",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "da7e794d-bc60-4a8b-81ec-c296ce7e8686",
+"fileName": "Eelnõu.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Eelnõu pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T16:41:14.74",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/da7e794d-bc60-4a8b-81ec-c296ce7e8686/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/da7e794d-bc60-4a8b-81ec-c296ce7e8686"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4a9a68d6-1247-43fd-8775-dc00c32c67a6",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "00cfcd6e-4eff-440f-b2ab-dee226a1d35c",
+"fileName": "24-01291-1.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Kaaskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T16:41:14.694",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/00cfcd6e-4eff-440f-b2ab-dee226a1d35c/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/00cfcd6e-4eff-440f-b2ab-dee226a1d35c"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "98c451cc-76b7-4eda-acd7-24efa317cef4",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "76f8d106-27e7-477d-a3bb-0bf2d46c177d",
+"fileName": "483XV_RK_o_05122024.docx",
+"fileExtension": "docx",
+"fileTitle": "Lõpptekst",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T13:18:54.373",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/76f8d106-27e7-477d-a3bb-0bf2d46c177d/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/76f8d106-27e7-477d-a3bb-0bf2d46c177d"
+}
+}
+}
+},
+{
+"readingCode": "EFFECTUATION",
+"document": {
+"uuid": "98c451cc-76b7-4eda-acd7-24efa317cef4",
+"title": "RT-le saatmine",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "36723c78-b9e6-4b8b-ad89-83fb2e5a7ad3",
+"fileName": "483XV_RK_o_05122024.asice",
+"fileExtension": "asice",
+"fileTitle": "Lõpptekst asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T13:18:41.58",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/36723c78-b9e6-4b8b-ad89-83fb2e5a7ad3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/36723c78-b9e6-4b8b-ad89-83fb2e5a7ad3"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "e94a56a6-4751-41e0-a3c9-0ad2fe3e689b",
+"title": "483 OE II lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "7c1926fd-6af0-4e31-b859-b66ad8da02a2",
+"fileName": "483_OE_II_SK.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T13:50:43.502",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/7c1926fd-6af0-4e31-b859-b66ad8da02a2/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/7c1926fd-6af0-4e31-b859-b66ad8da02a2"
+}
+}
+}
+},
+{
+"readingCode": "FIRST_READING",
+"document": {
+"uuid": "591c907f-4b3f-4d0a-a310-9f22c7804b1e",
+"title": "483 OE I lugemise dokumendid",
+"documentType": "lugemiseTekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5377db43-0ee7-4521-9606-d63457c2a6cc",
+"fileName": "483_Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-16T10:36:03.822",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5377db43-0ee7-4521-9606-d63457c2a6cc/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5377db43-0ee7-4521-9606-d63457c2a6cc"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4a9a68d6-1247-43fd-8775-dc00c32c67a6",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "8ab696b3-34b1-44d5-90e6-a274d4854c5b",
+"fileName": "Seletuskiri.docx",
+"fileExtension": "docx",
+"fileTitle": "Seletuskiri docx",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T16:41:14.726",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/8ab696b3-34b1-44d5-90e6-a274d4854c5b/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/8ab696b3-34b1-44d5-90e6-a274d4854c5b"
+}
+}
+}
+},
+{
+"readingCode": "INITIATION",
+"document": {
+"uuid": "4a9a68d6-1247-43fd-8775-dc00c32c67a6",
+"title": "VV esitatud eelnõu",
+"documentType": "algtekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "5319ef20-a3a5-42de-a8f4-e3a05cac4828",
+"fileName": "Seletuskiri.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Seletuskiri pdf",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-09-09T16:41:14.753",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/5319ef20-a3a5-42de-a8f4-e3a05cac4828/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/5319ef20-a3a5-42de-a8f4-e3a05cac4828"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "a0cf7277-4451-4e91-a2ef-354411a4579f",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "99d7ec20-5122-4d24-a177-cc7aff13f6f3",
+"fileName": "483XV_RK_o_122024.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Vastuvõetud otsus",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-04T15:58:23.31",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/99d7ec20-5122-4d24-a177-cc7aff13f6f3/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/99d7ec20-5122-4d24-a177-cc7aff13f6f3"
+}
+}
+}
+},
+{
+"readingCode": "SECOND_READING",
+"document": {
+"uuid": "a0cf7277-4451-4e91-a2ef-354411a4579f",
+"title": "Vastuvõetud otsus",
+"documentType": "lopptekst",
+"copyOrOriginal": "ORIGINAL"
+},
+"file": {
+"uuid": "b915e575-984e-4b61-b28c-22d7cc5e7583",
+"fileName": "Vastuvõetud_otsus.asice",
+"fileExtension": "asice",
+"fileTitle": "Vastuvõetud otsus asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-05T09:18:37.965",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/b915e575-984e-4b61-b28c-22d7cc5e7583/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/b915e575-984e-4b61-b28c-22d7cc5e7583"
+}
+}
+}
+}
+],
+"readings": [
+{
+"readingCode": "INITIATION",
+"proceedingEvents": [
+{
+"date": "2024-09-09T16:40:49.162",
+"status": "ALGATATUD"
+},
+{
+"date": "2024-09-10T13:40:00.11",
+"status": "MENETLUSSE_VOETUD"
+}
+]
+},
+{
+"readingCode": "FIRST_READING",
+"proceedingEvents": [
+{
+"date": "2024-10-14T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 14.10.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-11-06T14:00:00"
+},
+{
+"decision": {
+"code": "MAARATA_ME_TAHTAJAKS",
+"value": "Teha ettepanek määrata muudatusettepanekute tähtajaks"
+},
+"plenaryAgendaDateTime": "2024-11-20T10:00:00"
+},
+{
+"decision": {
+"code": "I_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek esimene lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "MAARATA_JUHTKOM_ETTEKANDJAKS",
+"value": "Määrata juhtivkomisjoni esindajaks"
+},
+"description": "Kristo Enn Vaga"
+},
+{
+"decision": {
+"code": "JATKATA_ARUTELU",
+"value": "Jätkata arutelu komisjonis"
+}
+}
+],
+"protocolFiles": [
+{
+"uuid": "6f67a3d9-3500-404a-acc6-3ac4986852f8",
+"fileName": "Riigikaitsekomisjoni_14.10.2024_istungi_protokoll.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-18T09:40:25.391",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/6f67a3d9-3500-404a-acc6-3ac4986852f8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/6f67a3d9-3500-404a-acc6-3ac4986852f8"
+}
+}
+},
+{
+"uuid": "2b09d811-0328-4e23-92ab-1e6532a6c432",
+"fileName": "2024-10-14_protokoll_93.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-10-18T09:38:55.151",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/2b09d811-0328-4e23-92ab-1e6532a6c432/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/2b09d811-0328-4e23-92ab-1e6532a6c432"
+}
+}
+}
+]
+},
+{
+"date": "2024-11-06T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 6.11.2024 14:00",
+"decisionCode": "I_LUGEMINE_LOPETATUD",
+"votings": []
+}
+]
+},
+{
+"readingCode": "SECOND_READING",
+"proceedingEvents": [
+{
+"date": "2024-11-21T14:03:00",
+"sittingTitle": "Komisjoni istung neljapäev, 21.11.2024 kell 14.03",
+"committeeDecisions": [
+{
+"decision": {
+"code": "SAATA_TK_PAEVAKORDA",
+"value": "Teha ettepanek võtta eelnõu täiskogu päevakorda"
+},
+"plenaryAgendaDateTime": "2024-12-04T14:00:00"
+},
+{
+"decision": {
+"code": "II_LUGEMINE_LOPETADA",
+"value": "Teha ettepanek teine lugemine lõpetada"
+}
+},
+{
+"decision": {
+"code": "VASTU_VOTTA",
+"value": "Teha ettepanek viia läbi eelnõu lõpphääletus"
+}
+},
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Eelnõu vajab Riigikogu otsusena vastuvõtmiseks poolthäälteenamust"
+}
+],
+"protocolFiles": [
+{
+"uuid": "e6700914-25b3-4a5d-bfc0-add5439ad6e8",
+"fileName": "Riigikaitsekomisjoni_21.11.2024_istungi_protokoll_nr_105.asice",
+"fileExtension": "asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-22T11:28:01.012",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/e6700914-25b3-4a5d-bfc0-add5439ad6e8/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/e6700914-25b3-4a5d-bfc0-add5439ad6e8"
+}
+}
+},
+{
+"uuid": "4e303d45-1bf3-4f17-8181-ce4f7a427dee",
+"fileName": "2024-11-21_protokoll_105.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-11-22T11:26:11.377",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4e303d45-1bf3-4f17-8181-ce4f7a427dee/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4e303d45-1bf3-4f17-8181-ce4f7a427dee"
+}
+}
+}
+]
+},
+{
+"date": "2024-12-02T11:10:00",
+"sittingTitle": "Komisjoni istung esmaspäev, 2.12.2024 kell 11.10",
+"committeeDecisions": [
+{
+"decision": {
+"code": "MUU_OTSUS",
+"value": "Muu otsus"
+},
+"description": "Kiita heaks eelnõu teise lugemise tekst ja seletuskiri"
+}
+],
+"protocolFiles": [
+{
+"uuid": "921ec9c8-d21a-4dc7-8213-ec9e33be1704",
+"fileName": "Riigikaitsekomisjoni_2.12.2024_istungi_protokoll.asice",
+"fileExtension": "asice",
+"fileTitle": "Protokoll asice",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T15:17:16.785",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/921ec9c8-d21a-4dc7-8213-ec9e33be1704/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/921ec9c8-d21a-4dc7-8213-ec9e33be1704"
+}
+}
+},
+{
+"uuid": "4d269b39-67c2-49c9-a33f-35bc59bb2eb7",
+"fileName": "2024-12-02_protokoll_107.pdf",
+"fileExtension": "pdf",
+"fileTitle": "Protokoll",
+"accessRestrictionType": "PUBLIC",
+"created": "2024-12-02T15:14:58.545",
+"_links": {
+"download": {
+"href": "https://api.riigikogu.ee/api/files/4d269b39-67c2-49c9-a33f-35bc59bb2eb7/download"
+},
+"self": {
+"href": "https://api.riigikogu.ee/api/files/4d269b39-67c2-49c9-a33f-35bc59bb2eb7"
+}
+}
+}
+]
+},
+{
+"date": "2024-12-04T14:00:00",
+"sittingTitle": "Täiskogu korraline istung kolmapäev, 4.12.2024 14:00",
+"decisionCode": "VASTU_VOETUD",
+"votings": [
+{
+"uuid": "a1be0a05-c25b-4bb9-af0c-bff1d83d1003",
+"type": {
+"code": "AVALIK",
+"value": "Avalik"
+},
+"description": "Lõpphääletus",
+"startDateTime": "2024-12-04T18:05:57.957",
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/votings/a1be0a05-c25b-4bb9-af0c-bff1d83d1003"
+}
+}
+}
+]
+}
+]
+},
+{
+"readingCode": "EFFECTUATION",
+"proceedingEvents": [
+{
+"date": "2024-12-05T13:18:26.339",
+"status": "SAADETUD_RT"
+},
+{
+"date": "2024-12-06T09:17:09.61",
+"status": "AVALDATUD_RIIGITEATAJAS"
+}
+]
+}
+],
+"opinions": [],
+"amendments": [],
+"relatedVolumes": [],
+"preProcedureDocuments": [],
+"preProcedureVolumes": [],
+"_links": {
+"self": {
+"href": "https://api.riigikogu.ee/api/volumes/5623a4ac-e9a3-413d-8ae7-65ba4d78209c"
+}
+}
+}
