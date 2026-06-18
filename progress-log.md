@@ -13,6 +13,47 @@ Entry format:
 
 ---
 
+## 2026-06-18 — Full XV-term backfill: prod rebuilt to the whole koosseis + perf fix (0008)
+
+**What:** Ingested the entire XV Riigikogu term into prod (was ~1 year). Prod now: **2221 votes
+(was 598), 193,624 ballots, 124 members (101 active / 23 former), span 2023-04-18 → 2026-06-18**;
+discipline **91,280 counted / 90,772 aligned / 508 defections** (was 23166/23044/122). Live at
+https://parteidistsipliin.vercel.app.
+
+**Why a clean rebuild (not additive backfill):** `set_member_faction` tracks only the single open
+faction term and writes on change in chronological order (fresh `WriteContext` per run), so
+adding *older* votings to the populated prod would corrupt faction-term dates. The correct path
+is a clean-slate rebuild from a complete cache.
+
+**Procedure:** (1) `backfill --from 2023-04-18 --cache-only` fetched the full range into the cache
+(2221 votings, +1623 new, ~45 min at 1 req/s, no DB writes). (2) Validated on Neon branch
+`br-delicate-bird-a67p1t1t`: TRUNCATE writer tables (kept parties/procedural_vote_types/
+schema_migrations) → `rebuild`; numbers sane + reconcile. (3) Prod cutover: backup branch
+`br-dawn-rain-a609iz8y` → **TRUNCATE (classifier-gated → run by the user)** → `rebuild` →
+`members` (101 active + 23 former) → `photos` (101 thumbnails; TRUNCATE had cleared
+`photo_thumb_path`). (4) Redeploy.
+
+**Perf fix — `0008_fast_discipline.sql`:** the first redeploy FAILED — at ~190k ballots the
+homepage / faction-roster / member-detail pages that read the `member_discipline` and
+`member_vote_alignment` *views* (which recompute party-at-time via correlated subqueries) blew
+Vercel's 60s/page budget. Fix: redefine `member_discipline` to aggregate the `ballot_alignment`
+**matview**, and repoint `getMemberDetail`'s breakdown + votes queries to the matview (same
+columns/results — verified identical totals). Applied `0008` to prod via `migrate`; member_discipline
+SUM now returns instantly. Redeploy then succeeded; all routes 200, Raid 96.2%.
+
+**Touched:** `packages/db/migrations/0008_fast_discipline.sql`, `apps/web/lib/queries.ts`, prod DB
+(TRUNCATE + rebuild + members + photos + 0008), the API cache (members/sessions committed;
+votings NOT — see below), Vercel prod (2 deploys; first failed, second READY).
+
+**Follow-ups:** (1) **`votings.jsonl` ballooned to ~114 MB** (full term) — over GitHub's 100 MB
+file limit, so it is intentionally NOT committed; the committed votings cache stays the 1-year
+version and offline `rebuild` won't reproduce full prod until the cache is gzipped + the
+`ApiVoteCache` reader updated (mirror the äriregister gzip approach) or moved to Git LFS.
+(2) User-gated Neon branch cleanup: `br-delicate-bird-a67p1t1t` (validation),
+`br-dawn-rain-a609iz8y` (backup — keep until confident), `br-super-night-a6hqytud` (build-check).
+
+---
+
 ## 2026-06-17 — Member votes redesigned: defection-first timeline + filtered list
 
 **What:** Reworked the member voting section after user feedback. The earlier same-day attempt

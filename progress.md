@@ -29,6 +29,44 @@ vote-type dropdown (Lõpphääletus, Muudatusettepanek, …); the timeline refle
 Replaced the earlier `vote-timeline.tsx` (legibility/zoom attempt) + `votes-against.tsx`.
 Static aspects verified live (one district; 13 red markers + 13 list rows, all eelnõu-linked;
 filters render); interactive hover/filter behaviour still needs a human eye (can't browse here).
+
+**Member page — further additions (2026-06-18, live):** (3) **Mouse-wheel zoom** on the
+timeline (native non-passive listener, zooms the time window around the cursor; reset button;
+ticks/markers filter to the visible window). (4) **Per-vote result panel** — no public
+per-voting page exists on riigikogu.ee, so each defection row has an expandable "Kuidas
+hääletati" panel built from our `ballots`: per-faction tally (poolt/vastu/erapooletu/puudus)
+with the MP's faction + own choice highlighted + overall totals (`getMemberDetail.voteResults`,
+faction-at-time). (5) The **"Parteidistsipliin" site title now links home**. 43 web tests +
+typecheck + lint + build green; live-verified static aspects. **User still needs to eyeball
+the interactive bits**: wheel-zoom, hover cross-highlight, the two list filters, and the
+expand panel.
+
+**Full-XV data backfill — DONE + LIVE IN PROD (2026-06-18).** Prod now spans the **whole XV
+term**: **2221 votes (was 598), 193,624 ballots, 124 members (101 active / 23 former),
+2023-04-18 → 2026-06-18**; discipline **91,280 counted / 90,772 aligned / 508 defections**
+(was 23166/23044/122). A naive additive backfill was unsafe (`set_member_faction` is chronological,
+single-open-term), so this was a **clean-slate rebuild from a full cache**: cache-only backfill
+→ validated on Neon branch `br-delicate-bird-a67p1t1t` → prod cutover (backup branch
+`br-dawn-rain-a609iz8y` → TRUNCATE writer tables [kept parties/procedural_vote_types/
+schema_migrations] → `rebuild` → `members` → `photos`) → redeploy. The prod TRUNCATE is
+classifier-gated and was **run by the user**; everything else via the app CLI.
+
+**Perf fix during cutover — migration `0008`.** At full-XV scale the homepage + faction-roster +
+member-detail builds that read the `member_discipline` / `member_vote_alignment` *views*
+(recompute party-at-time over ~190k ballots) exceeded Vercel's 60s/page budget and the first
+redeploy FAILED. Fix: `0008_fast_discipline.sql` redefines `member_discipline` to aggregate the
+`ballot_alignment` **matview**, and `getMemberDetail`'s breakdown/votes queries were repointed to
+the matview too (same columns, same numbers — verified 91,280/90,772/508). Redeploy then
+succeeded; live-verified (`/`, `/en`, `/fraktsioonid`, `/teemad`, member pages all 200; Raid
+96.2%).
+
+**Follow-ups (not blocking; live is fine):** (1) **`votings.jsonl` is now ~114 MB** — over
+GitHub's 100 MB limit, so it is NOT committed; offline `rebuild` reproducibility needs the cache
+gzipped + the `ApiVoteCache` reader updated (like the äriregister cache), or Git LFS. The
+committed votings cache is currently the stale 1-year version. (2) Delete the Neon branches
+(user-gated): `br-delicate-bird-a67p1t1t` (validation), `br-dawn-rain-a609iz8y` (backup, keep
+until confident), `br-super-night-a6hqytud` (earlier build-check). (3) The daily cron keeps
+appending forward as before; matview refresh is wired.
 Built via subagent-driven development (spec/plan `docs/superpowers/{specs,plans}/2026-06-16-v0.4-a-faction-rollups*`).
 Adds a faction comparison page (`/fraktsioonid`, card grid of the six fraktsioons) and per-faction
 detail pages (`/fraktsioonid/[slug]`, header metrics + member roster ranked by discipline with

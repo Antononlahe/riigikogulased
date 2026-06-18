@@ -118,7 +118,7 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
               AND mva.member_choice IN ('yes','no','abstain') AND NOT mva.is_procedural
               AND mva.member_choice <> mva.party_majority_choice) AS defections,
             MIN(v.voted_at)::text AS "firstDate", MAX(v.voted_at)::text AS "lastDate"
-       FROM member_vote_alignment mva
+       FROM ballot_alignment mva
        JOIN votes v ON v.id = mva.vote_id
        LEFT JOIN parties p ON p.id = mva.party_id
       WHERE mva.member_id = $1
@@ -135,7 +135,7 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
             v.riigikogu_uuid AS "riigikoguUuid",
             mva.member_choice AS "memberChoice", mva.party_majority_choice AS "partyMajorityChoice",
             mva.is_procedural AS "isProcedural", p.short_name AS "partyShortName"
-       FROM member_vote_alignment mva
+       FROM ballot_alignment mva
        JOIN votes v ON v.id = mva.vote_id
        LEFT JOIN parties p ON p.id = mva.party_id
       WHERE mva.member_id = $1
