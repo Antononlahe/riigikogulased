@@ -9,7 +9,9 @@ export async function SiteHeader() {
   return (
     <header className="border-b-2 border-foreground">
       <div className="mx-auto flex max-w-5xl items-end justify-between px-4 py-5">
-        <span className="font-serif text-2xl font-bold tracking-tight">{site("title")}</span>
+        <Link href="/" className="font-serif text-2xl font-bold tracking-tight hover:opacity-80">
+          {site("title")}
+        </Link>
         <nav className="flex items-center gap-4 text-sm text-muted-foreground">
           <Link href="/" className="hover:text-foreground">{nav("members")}</Link>
           <Link href="/fraktsioonid" className="hover:text-foreground">{nav("factions")}</Link>

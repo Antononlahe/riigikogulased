@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { ChevronDown } from "lucide-react";
 import { scaleTime } from "@visx/scale";
@@ -52,22 +52,83 @@ function Timeline({
   setHovered: (k: string | null) => void;
 }) {
   const t = useTranslations("memberDetail");
-  if (all.length === 0) return <p className="text-sm text-muted-foreground">{t("noVotes")}</p>;
+  const svgRef = useRef<SVGSVGElement | null>(null);
+  const [zoom, setZoom] = useState<[number, number] | null>(null);
+
+  const hasData = all.length > 0;
+  const fullMin = hasData ? new Date(all[0].votedAt).getTime() : 0;
+  const fullMax = hasData ? new Date(all[all.length - 1].votedAt).getTime() : 0;
+  const domMin = zoom ? zoom[0] : fullMin;
+  const domMax = zoom ? zoom[1] : fullMax;
+
+  // Latest geometry for the native (non-passive) wheel handler, which needs preventDefault.
+  const stateRef = useRef({ width, domMin, domMax, fullMin, fullMax });
+  stateRef.current = { width, domMin, domMax, fullMin, fullMax };
+
+  useEffect(() => {
+    const el = svgRef.current;
+    if (!el) return;
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      const s = stateRef.current;
+      const left = MARGIN.left;
+      const right = s.width - MARGIN.right;
+      const span0 = s.domMax - s.domMin;
+      const fullSpan = s.fullMax - s.fullMin;
+      if (right <= left || span0 <= 0 || fullSpan <= 0) return;
+      const r = el.getBoundingClientRect();
+      const cx = Math.max(left, Math.min(right, e.clientX - r.left));
+      const cursorMs = s.domMin + ((cx - left) / (right - left)) * span0;
+      let span = span0 * (e.deltaY < 0 ? 0.8 : 1.25);
+      if (span >= fullSpan) {
+        setZoom(null); // zoomed all the way out → back to full range
+        return;
+      }
+      const minSpan = Math.min(fullSpan, 1000 * 60 * 60 * 24 * 3); // floor at ~3 days
+      span = Math.max(minSpan, span);
+      const ratio = (cursorMs - s.domMin) / span0; // keep the cursor's date fixed
+      let nMin = cursorMs - ratio * span;
+      let nMax = nMin + span;
+      if (nMin < s.fullMin) {
+        nMin = s.fullMin;
+        nMax = nMin + span;
+      }
+      if (nMax > s.fullMax) {
+        nMax = s.fullMax;
+        nMin = Math.max(s.fullMin, nMax - span);
+      }
+      setZoom([nMin, nMax]);
+    };
+    el.addEventListener("wheel", onWheel, { passive: false });
+    return () => el.removeEventListener("wheel", onWheel);
+  }, []);
+
+  if (!hasData) return <p className="text-sm text-muted-foreground">{t("noVotes")}</p>;
 
   const innerRight = width - MARGIN.right;
-  const dates = all.map((v) => new Date(v.votedAt));
+  const inDom = (ms: number) => ms >= domMin && ms <= domMax;
   const x = scaleTime({
-    domain: [dates[0], dates[dates.length - 1]],
+    domain: [new Date(domMin), new Date(domMax)],
     range: [MARGIN.left, innerRight],
   });
-  const active = all.filter((v) => activeKeys.has(keyOf(v)));
+  const active = all.filter((v) => activeKeys.has(keyOf(v)) && inDom(new Date(v.votedAt).getTime()));
 
   return (
-    <svg width={width} height={TIMELINE_HEIGHT} role="img" aria-label={t("timelineAria", { n: all.length })}>
-      {/* every non-highlighted vote: faint context tick (cadence, not interactive) */}
+    <div className="relative">
+      {zoom && (
+        <button
+          type="button"
+          onClick={() => setZoom(null)}
+          className="absolute right-0 top-0 z-10 rounded border border-border bg-background px-2 py-0.5 text-xs text-muted-foreground hover:text-foreground"
+        >
+          {t("zoomReset")}
+        </button>
+      )}
+      <svg ref={svgRef} width={width} height={TIMELINE_HEIGHT} role="img" aria-label={t("timelineAria", { n: all.length })}>
+      {/* every non-highlighted vote in view: faint context tick (cadence, not interactive) */}
       <Group>
         {all.map((v, i) =>
-          activeKeys.has(keyOf(v)) ? null : (
+          activeKeys.has(keyOf(v)) || !inDom(new Date(v.votedAt).getTime()) ? null : (
             <line
               key={i}
               x1={x(new Date(v.votedAt))}
@@ -135,7 +196,8 @@ function Timeline({
         tickStroke="var(--border)"
         tickLabelProps={{ fill: "var(--muted-foreground)", fontSize: 10, textAnchor: "middle" }}
       />
-    </svg>
+      </svg>
+    </div>
   );
 }
 
