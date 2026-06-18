@@ -15,7 +15,11 @@ import {
   voteTypeOptions,
   eelnouUrl,
   type VotePoint,
+  type VoteResult,
+  type FactionTally,
 } from "@/lib/member-detail";
+import { PARTY_ORDER } from "@/lib/party";
+import { PartyBadge } from "@/components/party-badge";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -201,6 +205,76 @@ function Timeline({
   );
 }
 
+const TALLY_COLS = ["yes", "no", "abstain", "absent"] as const;
+
+/** Per-faction ballot tally for one voting, the member's own faction + choice highlighted. */
+function ResultPanel({
+  result,
+  memberParty,
+  memberChoice,
+}: {
+  result: VoteResult;
+  memberParty: string | null;
+  memberChoice: string;
+}) {
+  const t = useTranslations("memberDetail");
+  const head: Record<(typeof TALLY_COLS)[number], string> = {
+    yes: t("choiceShort.yes"),
+    no: t("choiceShort.no"),
+    abstain: t("choiceShort.abstain"),
+    absent: t("tallyAbsent"),
+  };
+  const ordered = PARTY_ORDER.map((s) => result.factions.find((f) => f.party === s)).filter(
+    (f): f is FactionTally => Boolean(f),
+  );
+  return (
+    <div className="mt-2 rounded-md border border-border bg-secondary/40 p-3 text-xs">
+      <table className="w-full">
+        <thead>
+          <tr className="text-muted-foreground">
+            <th className="text-left font-medium">&nbsp;</th>
+            {TALLY_COLS.map((c) => (
+              <th key={c} className="px-1 text-right font-medium">
+                {head[c]}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {ordered.map((f) => {
+            const mine = f.party === memberParty;
+            return (
+              <tr key={f.party} className={mine ? "font-semibold" : ""}>
+                <td className="py-0.5">
+                  <PartyBadge shortName={f.party} />
+                </td>
+                {TALLY_COLS.map((c) => (
+                  <td
+                    key={c}
+                    className={`px-1 text-right tabular-nums ${
+                      mine && c === memberChoice ? "rounded bg-destructive/15 text-foreground" : ""
+                    }`}
+                  >
+                    {f[c] || "·"}
+                  </td>
+                ))}
+              </tr>
+            );
+          })}
+          <tr className="border-t border-border text-muted-foreground">
+            <td className="py-0.5">{t("resultOverall")}</td>
+            {TALLY_COLS.map((c) => (
+              <td key={c} className="px-1 text-right tabular-nums">
+                {result.overall[c]}
+              </td>
+            ))}
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 /**
  * Member voting block: a compact defection-first timeline (all votes as faint context, votes
  * against the faction line as large red clickable markers) over the primary "votes against"
@@ -208,7 +282,13 @@ function Timeline({
  * reflects the current filter. Hovering a marker highlights its list row and vice-versa; both
  * link to the bill's eelnõu page on riigikogu.ee.
  */
-export function MemberVotes({ votes }: { votes: VotePoint[] }) {
+export function MemberVotes({
+  votes,
+  voteResults,
+}: {
+  votes: VotePoint[];
+  voteResults: Record<number, VoteResult>;
+}) {
   const t = useTranslations("memberDetail");
   const all = useMemo(
     () => [...votes].sort((a, b) => a.votedAt.localeCompare(b.votedAt)),
@@ -218,6 +298,7 @@ export function MemberVotes({ votes }: { votes: VotePoint[] }) {
   const typeOptions = useMemo(() => voteTypeOptions(defs), [defs]);
 
   const [hovered, setHovered] = useState<string | null>(null);
+  const [open, setOpen] = useState<string | null>(null);
   const [kind, setKind] = useState<Kind>("all");
   const [type, setType] = useState<string>("all");
 
@@ -344,23 +425,41 @@ export function MemberVotes({ votes }: { votes: VotePoint[] }) {
                       </div>
                     </>
                   );
+                  const result = voteResults[v.voteId];
+                  const isOpen = open === k;
                   return (
-                    <li key={i} className={`px-3 py-2.5 text-sm ${on ? "bg-secondary" : "hover:bg-secondary"}`}>
-                      {url ? (
-                        <a
-                          href={url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title={t("openInRiigikogu")}
-                          className="block hover:underline"
-                          {...handlers}
-                        >
-                          {body}
-                        </a>
-                      ) : (
-                        <div className="block" {...handlers}>
-                          {body}
-                        </div>
+                    <li key={i} className={`px-3 py-2.5 text-sm ${on ? "bg-secondary" : "hover:bg-secondary"}`} {...handlers}>
+                      <div className="flex items-start justify-between gap-3">
+                        {url ? (
+                          <a
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title={t("openInRiigikogu")}
+                            className="block min-w-0 flex-1 hover:underline"
+                          >
+                            {body}
+                          </a>
+                        ) : (
+                          <div className="min-w-0 flex-1">{body}</div>
+                        )}
+                        {result && (
+                          <button
+                            type="button"
+                            onClick={() => setOpen(isOpen ? null : k)}
+                            aria-expanded={isOpen}
+                            className="shrink-0 whitespace-nowrap rounded border border-border px-2 py-0.5 text-xs text-muted-foreground hover:text-foreground"
+                          >
+                            {t("howVoted")} {isOpen ? "▴" : "▾"}
+                          </button>
+                        )}
+                      </div>
+                      {isOpen && result && (
+                        <ResultPanel
+                          result={result}
+                          memberParty={v.partyShortName}
+                          memberChoice={v.memberChoice}
+                        />
                       )}
                     </li>
                   );

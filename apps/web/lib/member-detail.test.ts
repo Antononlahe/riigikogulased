@@ -13,6 +13,7 @@ import {
 
 function v(p: Partial<VotePoint>): VotePoint {
   return {
+    voteId: 1,
     votedAt: "2025-09-12T10:00:00.000Z",
     title: "Lõpphääletus",
     draftTitle: null,

@@ -1,5 +1,5 @@
 import { pool } from "./db";
-import type { VotePoint } from "./member-detail";
+import type { VotePoint, VoteResult, Tally } from "./member-detail";
 
 export type MemberDisciplineRow = {
   memberId: number;
@@ -76,6 +76,7 @@ export type MemberDetail = {
   defections: number;
   breakdown: PartyBreakdownRow[];
   votes: VotePoint[];
+  voteResults: Record<number, VoteResult>;
   committees: Affiliation[];
   districts: Affiliation[];
 };
@@ -129,7 +130,7 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
   );
 
   const votesRes = await pool.query(
-    `SELECT v.voted_at AS "votedAt", v.title, v.draft_title AS "draftTitle",
+    `SELECT v.id AS "voteId", v.voted_at AS "votedAt", v.title, v.draft_title AS "draftTitle",
             v.draft_mark AS "draftMark", v.draft_uuid AS "draftUuid",
             v.riigikogu_uuid AS "riigikoguUuid",
             mva.member_choice AS "memberChoice", mva.party_majority_choice AS "partyMajorityChoice",
@@ -164,6 +165,68 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
     [id],
   );
 
+  // Per-faction ballot tallies for the member's defection votings (the "how they voted" panel).
+  // Defection vote ids are computed with the same predicate as lib/member-detail classifyVote.
+  const REG = new Set(["yes", "no", "abstain"]);
+  const defectionIds = (
+    votesRes.rows as Array<{
+      voteId: number;
+      isProcedural: boolean;
+      memberChoice: string;
+      partyMajorityChoice: string | null;
+    }>
+  )
+    .filter(
+      (r) =>
+        !r.isProcedural &&
+        r.partyMajorityChoice !== null &&
+        REG.has(r.memberChoice) &&
+        r.memberChoice !== r.partyMajorityChoice,
+    )
+    .map((r) => r.voteId);
+
+  const voteResults: Record<number, VoteResult> = {};
+  if (defectionIds.length > 0) {
+    const TALLY = `
+      COUNT(*) FILTER (WHERE b.choice = 'yes')::int     AS yes,
+      COUNT(*) FILTER (WHERE b.choice = 'no')::int      AS no,
+      COUNT(*) FILTER (WHERE b.choice = 'abstain')::int AS abstain,
+      COUNT(*) FILTER (WHERE b.choice IN ('absent','neutral'))::int AS absent`;
+    const overallRes = await pool.query(
+      `SELECT b.vote_id AS "voteId", ${TALLY}
+         FROM ballots b WHERE b.vote_id = ANY($1::int[]) GROUP BY b.vote_id`,
+      [defectionIds],
+    );
+    const factionRes = await pool.query(
+      `SELECT b.vote_id AS "voteId", p.short_name AS party, ${TALLY}
+         FROM ballots b
+         JOIN votes v ON v.id = b.vote_id
+         JOIN member_faction_terms mft ON mft.member_id = b.member_id
+           AND mft.started_on <= v.voted_at::date
+           AND (mft.ended_on IS NULL OR mft.ended_on > v.voted_at::date)
+           AND mft.party_id IS NOT NULL
+         JOIN parties p ON p.id = mft.party_id
+        WHERE b.vote_id = ANY($1::int[])
+        GROUP BY b.vote_id, p.short_name`,
+      [defectionIds],
+    );
+    for (const r of overallRes.rows as Array<{ voteId: number } & Tally>) {
+      voteResults[r.voteId] = {
+        overall: { yes: r.yes, no: r.no, abstain: r.abstain, absent: r.absent },
+        factions: [],
+      };
+    }
+    for (const r of factionRes.rows as Array<{ voteId: number; party: string } & Tally>) {
+      voteResults[r.voteId]?.factions.push({
+        party: r.party,
+        yes: r.yes,
+        no: r.no,
+        abstain: r.abstain,
+        absent: r.absent,
+      });
+    }
+  }
+
   return {
     member,
     counted: Number(summary.counted),
@@ -179,6 +242,7 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
       ...r,
       votedAt: new Date(r.votedAt).toISOString(),
     })) as VotePoint[],
+    voteResults,
     committees: committeesRes.rows as Affiliation[],
     districts: districtsRes.rows as Affiliation[],
   };

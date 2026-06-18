@@ -1,6 +1,7 @@
 export type VoteClass = "aligned" | "against" | "excluded";
 
 export type VotePoint = {
+  voteId: number;
   votedAt: string; // ISO timestamp
   title: string;
   draftTitle: string | null;
@@ -59,6 +60,12 @@ export function voteType(v: VotePoint): string {
 export function voteTypeOptions(votes: VotePoint[]): string[] {
   return [...new Set(votes.map(voteType))].sort((a, b) => a.localeCompare(b, "et"));
 }
+
+/** Ballot tally for a voting (counts of each choice). */
+export type Tally = { yes: number; no: number; abstain: number; absent: number };
+export type FactionTally = Tally & { party: string };
+/** Full result for one voting: overall counts + per-faction breakdown (faction-at-time). */
+export type VoteResult = { overall: Tally; factions: FactionTally[] };
 
 export type MonthPoint = {
   month: string; // "YYYY-MM"

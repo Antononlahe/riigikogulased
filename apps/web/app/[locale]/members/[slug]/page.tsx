@@ -53,7 +53,7 @@ export default async function MemberPage({
               defections={d.defections}
               partyShortName={d.member.partyShortName}
             />
-            <MemberVotes votes={d.votes} />
+            <MemberVotes votes={d.votes} voteResults={d.voteResults} />
             <PartyBreakdown rows={d.breakdown} />
           </div>
           <AffiliationsPanel
