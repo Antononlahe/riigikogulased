@@ -49,7 +49,8 @@ export function attendanceRate(present: number, total: number): number | null {
   return total > 0 ? present / total : null;
 }
 
-function sortValue(r: FactionComparisonRow, key: FactionSortKey): number | null {
+/** The comparable value for one faction on a given metric (null = not computable). */
+export function factionMetric(r: FactionComparisonRow, key: FactionSortKey): number | null {
   switch (key) {
     case "cohesion":
       return cohesion(r.alignedVotes, r.countedVotes);
@@ -73,8 +74,8 @@ export function sortFactions(
   const byName = (a: FactionComparisonRow, b: FactionComparisonRow) =>
     a.partyShortName.localeCompare(b.partyShortName, "et");
   return [...rows].sort((a, b) => {
-    const av = sortValue(a, key);
-    const bv = sortValue(b, key);
+    const av = factionMetric(a, key);
+    const bv = factionMetric(b, key);
     if (av === null && bv === null) return byName(a, b);
     if (av === null) return 1;
     if (bv === null) return -1;

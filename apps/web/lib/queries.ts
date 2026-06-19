@@ -34,6 +34,10 @@ export async function getMemberDiscipline(): Promise<MemberDisciplineRow[]> {
     FROM member_discipline md
     JOIN members m ON m.id = md.member_id
     LEFT JOIN member_current_party mcp ON mcp.member_id = md.member_id
+    -- Exclude substitute members (asendusliikmed) who appear in voting rosters but never
+    -- cast a real ballot: the API lists them in voters[] yet every ballot is 'absent', so
+    -- they have 0 counted votes and nothing to rank. (All seated members score >0.)
+    WHERE md.counted_votes > 0
     ORDER BY "disciplineScore" ASC NULLS LAST, md.full_name ASC
   `);
   return rows;

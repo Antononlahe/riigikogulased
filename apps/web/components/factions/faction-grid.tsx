@@ -2,8 +2,10 @@
 
 import { useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
+import { motion, MotionConfig } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { sortFactions, type FactionComparisonRow, type FactionSortKey, type SortDir } from "@/lib/factions";
+import { FactionBars } from "@/components/factions/faction-bars";
 import { FactionCard } from "@/components/factions/faction-card";
 import { Button } from "@/components/ui/button";
 import {
@@ -31,7 +33,7 @@ export function FactionGrid({ rows }: { rows: FactionComparisonRow[] }) {
   }
 
   return (
-    <>
+    <MotionConfig reducedMotion="user">
       <div className="mb-3 flex items-center gap-2">
         <span className="text-xs text-muted-foreground">{t("sortBy")}:</span>
         <DropdownMenu>
@@ -49,11 +51,14 @@ export function FactionGrid({ rows }: { rows: FactionComparisonRow[] }) {
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
+      <FactionBars rows={visible} sortKey={sortKey} />
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {visible.map((r) => (
-          <FactionCard key={r.partyId} row={r} />
+          <motion.div key={r.partyId} layout transition={{ duration: 0.2 }}>
+            <FactionCard row={r} />
+          </motion.div>
         ))}
       </div>
-    </>
+    </MotionConfig>
   );
 }

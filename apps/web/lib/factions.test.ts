@@ -4,6 +4,7 @@ import {
   partyFromSlug,
   cohesion,
   attendanceRate,
+  factionMetric,
   sortFactions,
   mostLeastLoyal,
   type FactionComparisonRow,
@@ -46,6 +47,18 @@ describe("ratios", () => {
   it("computes attendance, null when no ballots", () => {
     expect(attendanceRate(80, 100)).toBeCloseTo(0.8);
     expect(attendanceRate(0, 0)).toBeNull();
+  });
+});
+
+describe("factionMetric", () => {
+  it("returns the right value per key (rates, then count)", () => {
+    const r = row({ alignedVotes: 90, countedVotes: 100, presentBallots: 80, totalBallots: 100, memberCount: 30 });
+    expect(factionMetric(r, "cohesion")).toBeCloseTo(0.9);
+    expect(factionMetric(r, "attendance")).toBeCloseTo(0.8);
+    expect(factionMetric(r, "members")).toBe(30);
+  });
+  it("is null for a rate that can't be computed", () => {
+    expect(factionMetric(row({ countedVotes: 0, alignedVotes: 0 }), "cohesion")).toBeNull();
   });
 });
 

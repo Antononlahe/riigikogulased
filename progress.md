@@ -7,6 +7,14 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**Member/faction UI polish (2026-06-19).** (1) Homepage list excludes **substitute members
+(asendusliikmed)** — 5 never-seated people whose ballots are all `absent` (0 counted votes);
+`getMemberDiscipline` now filters `counted_votes > 0` (124 → 119 shown; detail pages still exist).
+(2) Homepage shows a live **member count** next to the party filter. (3) `/fraktsioonid` gained a
+**comparative bar chart** (`FactionBars`) for the active sort metric, sharing the dropdown's state
+with the cards; both bars and cards **animate on reorder** (Framer `layout`, like the homepage
+table). Verified green (typecheck + 48 tests + lint + build); see progress-log for the deploy.
+
 **v0.4-A (faction rollups) — DONE + LIVE IN PROD (2026-06-16).** Also fixed a separate
 prod bug found right after: the member-page vote timeline ("Hääletuste ajalugu") was
 **invisible for every member** — `@visx` `ParentSize` clipped the chart because its wrapper

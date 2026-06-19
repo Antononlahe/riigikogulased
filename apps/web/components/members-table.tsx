@@ -65,6 +65,9 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
+        <span className="text-xs tabular-nums text-muted-foreground" aria-live="polite">
+          {t("showing", { count: visible.length })}
+        </span>
       </div>
 
       <div className="overflow-x-auto rounded-md border border-border">

@@ -13,6 +13,31 @@ Entry format:
 
 ---
 
+## 2026-06-19 — Exclude substitute members from list; member count; faction comparison bars
+
+**What:** Three member/faction UI changes. (1) The homepage list now excludes **substitute members
+(asendusliikmed)** — 5 people (Maksim Iljin, Raimond Tamm, Irina Talviste, Aleksei Jašin, Madle
+Lippus) who appear in the API's per-voting `voters[]` roster but whose every ballot is `absent`
+(never seated, 0 counted votes). `getMemberDiscipline` gained `WHERE md.counted_votes > 0`; this set
+is exactly the 5 (all `active=false`, `present_ballots=0`), so 124 members → 119 shown. They still
+have detail pages; only the ranked list drops them. (2) The homepage shows a live **"{count}
+members"** count next to the party filter (`table.showing`, reflects the active filter). (3)
+`/fraktsioonid` gained a **comparative horizontal bar chart** (`FactionBars`) for the current sort
+metric (cohesion / attendance / members), scaled relative to the max with exact value labels and
+party colors. It shares the sort dropdown's state with the card grid so both reorder together, and
+both the bars and the cards now **animate on reorder** via Framer `layout` (matching the homepage
+table), wrapped in `MotionConfig reducedMotion="user"`.
+
+**Why:** User feedback — never-seated substitutes cluttered the list with empty 0-vote rows; the list
+needed a visible size; the faction page wanted at-a-glance visual comparison with the same
+sort-and-animate feel as the homepage.
+
+**Touched:** `lib/queries.ts` (WHERE filter), `components/members-table.tsx` (count),
+`lib/factions.ts` (`factionMetric` export, reused by `sortFactions`), `lib/factions.test.ts`,
+`components/factions/faction-bars.tsx` (new), `components/factions/faction-grid.tsx` (bars + layout
+animation), `messages/{et,en}.json`. Verified: web typecheck + 48 tests + lint + production build
+(all pages prerendered) green.
+
 ## 2026-06-19 — scrape.yml: safer command dispatch (no shell injection)
 
 **What:** The daily-scrape "Run scraper" step no longer interpolates `${{ inputs.command }}`
