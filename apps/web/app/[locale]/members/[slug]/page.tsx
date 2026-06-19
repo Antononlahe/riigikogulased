@@ -70,7 +70,7 @@ export default async function MemberPage({
               partyShortName={d.member.partyShortName}
             />
             <MemberVotes votes={d.votes} voteResults={d.voteResults} />
-            {speechStats && <SpeechPanel stats={speechStats} />}
+            {speechStats && <SpeechPanel stats={speechStats} memberId={d.member.memberId} />}
             <CommitteeLoyalty committees={committeeLoyalty} />
             <PartyBreakdown rows={d.breakdown} />
           </div>

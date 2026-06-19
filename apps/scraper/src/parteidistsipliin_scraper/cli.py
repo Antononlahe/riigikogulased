@@ -25,7 +25,10 @@ from parteidistsipliin_scraper.eurovoc_models import (
     parse_draft_outcome,
     parse_fields,
 )
+from parteidistsipliin_scraper.lemmatize import lemmatize
 from parteidistsipliin_scraper.photo import write_thumbnail
+from parteidistsipliin_scraper.verbatim_cache import VerbatimCache
+from parteidistsipliin_scraper.verbatim_parse import parse_sitting
 from parteidistsipliin_scraper.writer import (
     WriteContext,
     write_erakond_terms,
@@ -172,6 +175,14 @@ def rebuild() -> None:
         speech_raw = cache.read_speeches()
         if speech_raw:
             _ingest_speech_stats(conn, speech_raw, _TERM_START, None)
+        # Replay cached verbatims -> searchable speeches (re-lemmatised). Needs the `nlp`
+        # extra; skip (don't fail the rebuild) if EstNLTK isn't installed.
+        verbatim_sittings = VerbatimCache().read_all()
+        if verbatim_sittings:
+            try:
+                _ingest_verbatims(conn, verbatim_sittings, no_lemma=False)
+            except ImportError:
+                typer.echo("EstNLTK not installed; skipping verbatim speech index in rebuild.")
         conn.commit()
         db.refresh_alignment(conn)
         conn.commit()
@@ -378,6 +389,76 @@ def _ingest_speech_stats(conn, raw: list[dict], start: date, end: date | None) -
 def speeches() -> None:
     """Ingest per-member plenary speech statistics (kõned/küsimused/protseduurilised)."""
     asyncio.run(_refresh_speeches())
+
+
+def _month_ranges(start: date, end: date):
+    """Yield (lo, hi) inclusive day ranges, one per calendar month, clipped to [start, end]."""
+    cur = date(start.year, start.month, 1)
+    while cur <= end:
+        nxt = date(cur.year + 1, 1, 1) if cur.month == 12 else date(cur.year, cur.month + 1, 1)
+        yield max(cur, start), min(nxt - timedelta(days=1), end)
+        cur = nxt
+
+
+def _ingest_verbatims(conn, sittings: list[dict], *, no_lemma: bool, chunk: int = 500) -> int:
+    """Parse sittings -> member speeches, lemmatise, bulk-upsert. Returns speeches written.
+
+    Writes are batched (chunked executemany) rather than one round-trip per speech: at ~5k
+    speeches a remote per-row insert is dominated by ~100ms RTT each.
+    """
+    name_to_id = db.member_name_to_id(conn)
+    batch: list[tuple] = []
+    n = 0
+    for sitting in sittings:
+        for rec in parse_sitting(sitting, name_to_id):
+            lemmas = None if no_lemma else lemmatize(rec.text)
+            batch.append((
+                rec.member_id, rec.speech_key, rec.speaker_uuid, rec.spoken_at,
+                rec.sitting_date, rec.agenda_title, rec.steno_link, rec.text, lemmas,
+            ))
+            if len(batch) >= chunk:
+                db.upsert_speeches(conn, batch)
+                n += len(batch)
+                batch = []
+    db.upsert_speeches(conn, batch)
+    n += len(batch)
+    return n
+
+
+@app.command()
+def verbatims(
+    start: datetime = typer.Option(..., "--from", help="Inclusive start date (YYYY-MM-DD)."),  # noqa: B008
+    end: datetime | None = typer.Option(None, "--to", help="Inclusive end date; default today."),  # noqa: B008
+    cache_only: bool = typer.Option(False, "--cache-only", help="Fetch + cache only, no DB."),
+    no_lemma: bool = typer.Option(False, "--no-lemma", help="Skip lemmatisation."),
+) -> None:
+    """Ingest sitting stenograms -> per-member searchable speeches (Vabamorf-lemmatised).
+
+    Fetches /api/steno/verbatims month by month, archives each sitting (gzip), and indexes
+    every member-attributed SPEECH event. Needs the `nlp` extra (EstNLTK) unless --no-lemma.
+    """
+    end_date = (end or datetime.now()).date()
+    asyncio.run(_scrape_verbatims(start.date(), end_date, cache_only, no_lemma))
+
+
+async def _scrape_verbatims(start: date, end: date, cache_only: bool, no_lemma: bool) -> None:
+    cache = VerbatimCache()
+    sittings: list[dict] = []
+    async with ApiClient() as client:
+        for lo, hi in _month_ranges(start, end):
+            raw = await client.get_json(
+                "/api/steno/verbatims", {"startDate": lo.isoformat(), "endDate": hi.isoformat()}
+            )
+            for sitting in raw:
+                cache.write_sitting(sitting)
+                sittings.append(sitting)
+    typer.echo(f"Fetched {len(sittings)} sittings between {start} and {end}.")
+    if cache_only:
+        return
+    with db.connect() as conn:
+        n = _ingest_verbatims(conn, sittings, no_lemma=no_lemma)
+        conn.commit()
+    typer.echo(f"Indexed {n} speeches.")
 
 
 async def _refresh_speeches() -> None:

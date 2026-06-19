@@ -3,6 +3,7 @@
 // (need /api/steno ingestion).
 import { getTranslations } from "next-intl/server";
 import type { SpeechStats } from "@/lib/speeches";
+import { SpeechSearch } from "@/components/member/speech-search";
 
 function Tile({ label, value }: { label: string; value: number }) {
   return (
@@ -13,7 +14,7 @@ function Tile({ label, value }: { label: string; value: number }) {
   );
 }
 
-export async function SpeechPanel({ stats }: { stats: SpeechStats }) {
+export async function SpeechPanel({ stats, memberId }: { stats: SpeechStats; memberId: number }) {
   const t = await getTranslations("memberDetail");
   return (
     <section>
@@ -25,6 +26,7 @@ export async function SpeechPanel({ stats }: { stats: SpeechStats }) {
         <Tile label={t("totalLabel")} value={stats.total} />
       </div>
       <p className="mt-2 text-xs text-muted-foreground">{t("speechesNote")}</p>
+      <SpeechSearch memberId={memberId} />
     </section>
   );
 }

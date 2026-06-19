@@ -485,6 +485,39 @@ def upsert_draft_outcome(
         )
 
 
+def member_name_to_id(conn: psycopg.Connection) -> dict[str, int]:
+    """Map every member's full name to its surrogate id (for verbatim speaker matching)."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT id, full_name FROM members")
+        return {r["full_name"]: r["id"] for r in cur.fetchall()}
+
+
+def upsert_speeches(conn: psycopg.Connection, rows: list[tuple]) -> None:
+    """Bulk-upsert speech rows in one batched round-trip (executemany), not one per row.
+
+    Each tuple: (member_id, speech_key, speaker_uuid, spoken_at, sitting_date,
+    agenda_title, steno_link, text, lemmas). Remote per-row inserts are latency-bound, so
+    callers chunk and batch here (see cli._ingest_verbatims).
+    """
+    if not rows:
+        return
+    with conn.cursor() as cur:
+        cur.executemany(
+            """
+            INSERT INTO member_speeches
+              (member_id, speech_key, speaker_uuid, spoken_at, sitting_date,
+               agenda_title, steno_link, text, lemmas)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+            ON CONFLICT (speech_key) DO UPDATE SET
+              member_id=EXCLUDED.member_id, speaker_uuid=EXCLUDED.speaker_uuid,
+              spoken_at=EXCLUDED.spoken_at, sitting_date=EXCLUDED.sitting_date,
+              agenda_title=EXCLUDED.agenda_title, steno_link=EXCLUDED.steno_link,
+              text=EXCLUDED.text, lemmas=EXCLUDED.lemmas
+            """,
+            rows,
+        )
+
+
 def member_id_by_riigikogu_id(conn: psycopg.Connection, riigikogu_id: str) -> int | None:
     """Resolve a member's surrogate id from their API uuid, or None if not in the DB."""
     with conn.cursor() as cur:
