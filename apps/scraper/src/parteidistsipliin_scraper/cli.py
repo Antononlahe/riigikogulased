@@ -438,11 +438,21 @@ def verbatims(
     every member-attributed SPEECH event. Needs the `nlp` extra (EstNLTK) unless --no-lemma.
     """
     end_date = (end or datetime.now()).date()
-    asyncio.run(_scrape_verbatims(start.date(), end_date, cache_only, no_lemma))
-
-
-async def _scrape_verbatims(start: date, end: date, cache_only: bool, no_lemma: bool) -> None:
     cache = VerbatimCache()
+    # Fetch is async (rate-limited API); the long lemmatise+DB ingest is plain synchronous
+    # and runs OUTSIDE asyncio.run -- running ~25 min of blocking work inside the event loop
+    # tripped a "loop stopped before Future completed" teardown that rolled back the ingest.
+    sittings = asyncio.run(_fetch_verbatims(cache, start.date(), end_date))
+    typer.echo(f"Fetched {len(sittings)} sittings between {start.date()} and {end_date}.")
+    if cache_only:
+        return
+    with db.connect() as conn:
+        n = _ingest_verbatims(conn, sittings, no_lemma=no_lemma)
+        conn.commit()
+    typer.echo(f"Indexed {n} speeches.")
+
+
+async def _fetch_verbatims(cache: VerbatimCache, start: date, end: date) -> list[dict]:
     sittings: list[dict] = []
     async with ApiClient() as client:
         for lo, hi in _month_ranges(start, end):
@@ -452,13 +462,7 @@ async def _scrape_verbatims(start: date, end: date, cache_only: bool, no_lemma: 
             for sitting in raw:
                 cache.write_sitting(sitting)
                 sittings.append(sitting)
-    typer.echo(f"Fetched {len(sittings)} sittings between {start} and {end}.")
-    if cache_only:
-        return
-    with db.connect() as conn:
-        n = _ingest_verbatims(conn, sittings, no_lemma=no_lemma)
-        conn.commit()
-    typer.echo(f"Indexed {n} speeches.")
+    return sittings
 
 
 async def _refresh_speeches() -> None:
