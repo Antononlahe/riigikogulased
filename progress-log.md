@@ -13,6 +13,22 @@ Entry format:
 
 ---
 
+## 2026-06-19 — scrape.yml: safer command dispatch (no shell injection)
+
+**What:** The daily-scrape "Run scraper" step no longer interpolates `${{ inputs.command }}`
+directly into a `bash if [ -n "…" ]`. It now sets `SCRAPER_COMMAND: ${{ inputs.command || 'daily' }}`
+and runs `uv run parteidistsipliin-scraper $SCRAPER_COMMAND`. Behaviour is identical (schedule →
+`daily`; dispatch → the chosen command) but it drops the GitHub Actions script-injection antipattern
+and the clunky empty-string branch.
+
+**Why:** Reviewing a failed cron run (`if [ -n "" ]; then …`). The failure itself was a transient
+`ConnectTimeout` to api.riigikogu.ee from the runner, not a YAML/logic bug — but the direct-shell
+interpolation was worth fixing. (Aside: `ApiClient` retries 429/5xx but not connection-level
+timeouts; hardening that is a candidate if the timeout recurs.) A prototyped `drafts --pending`
+auto-refresh step was **pulled back** at the user's request — outcome refresh stays manual for now.
+
+**Touched:** `.github/workflows/scrape.yml`.
+
 ## 2026-06-18 — Bill outcome badge on member page (migration 0009, `drafts` command)
 
 **What:** Surface each bill's final fate (adopted / rejected / withdrawn / in-progress) as a chip

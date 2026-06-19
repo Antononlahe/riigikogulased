@@ -26,9 +26,9 @@ jobs:
       - uses: astral-sh/setup-uv@v3
       - run: uv sync
       - name: Run scraper
-        run: |
-          if [ -n "${{ inputs.command }}" ]; then
-            uv run parteidistsipliin-scraper ${{ inputs.command }}
-          else
-            uv run parteidistsipliin-scraper daily
-          fi
+        # On a schedule there are no inputs, so `command` falls back to "daily". Pass the
+        # value through an env var rather than interpolating ${{ }} straight into the shell
+        # (avoids the script-injection footgun and the awkward empty-string check).
+        env:
+          SCRAPER_COMMAND: ${{ inputs.command || 'daily' }}
+        run: uv run parteidistsipliin-scraper $SCRAPER_COMMAND

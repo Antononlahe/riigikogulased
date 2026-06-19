@@ -41,22 +41,31 @@ typecheck + lint + build green; live-verified static aspects. **User still needs
 the interactive bits**: wheel-zoom, hover cross-highlight, the two list filters, and the
 expand panel.
 
-**Bill outcome badge — CODE COMPLETE, awaiting prod migrate + backfill (2026-06-18).** The
-member-page defection list now shows each bill's **final fate** (Vastu võetud / Tagasi lükatud /
-Tagasi võetud / Menetluses) as a chip next to the title. Source: the draft endpoint's
-`activeDraftStage` (already fetched/cached for Eurovoc) — this is the *bill's* outcome as recorded
-by Riigikogu, so it **sidesteps the per-voting majority-threshold problem** (we never compute
-pass/fail; per-voting pass/fail stays out of scope — the API gives no per-voting result or
-threshold). New migration **`0009_draft_outcome.sql`** (table `draft_outcomes(draft_uuid PK, stage,
-status, accepted_on, fetched_at)`, a minimal precursor to v0.6 `volumes`). Scraper:
-`parse_draft_outcome` + `db.upsert_draft_outcome`; outcome upsert folded into `_ingest_draft_topics`;
-new **`drafts` CLI command** backfills outcomes for every draft_uuid in `votes` (788 distinct; 233
-already cached, ~555 to fetch live at 1 req/s ≈ 10 min). Web: `draft_outcomes` LEFT JOIN in
-`getMemberDetail` votes query → `VotePoint.outcomeStage`; pure `billOutcome()` mapper + `OutcomeBadge`;
-et+en strings. **Verified offline:** scraper 67 tests + ruff; web typecheck + 46 tests + lint, all
-green. **User must run (prod writes are classifier-gated):** `migrate` (applies 0009) then `drafts`
-(backfill); commit the new `cache/api/drafts/*.json`; redeploy `apps/web`. Until then badges show
-nothing (graceful: null outcome renders no chip).
+**Bill outcome badge — DONE + LIVE IN PROD (2026-06-18).** The member-page defection list shows
+each bill's **final fate** (Vastu võetud / Tagasi lükatud / Tagasi võetud / Menetluses) as a chip
+next to the title. Source: the draft endpoint's `activeDraftStage` (already fetched/cached for
+Eurovoc) — this is the *bill's* outcome as recorded by Riigikogu, so it **sidesteps the per-voting
+majority-threshold problem** (we never compute pass/fail; per-voting pass/fail stays out of scope —
+the API gives no per-voting result or threshold). Migration **`0009_draft_outcome.sql`** (table
+`draft_outcomes(draft_uuid PK, stage, status, accepted_on, fetched_at)`, a minimal precursor to v0.6
+`volumes`). Scraper: `parse_draft_outcome` + `db.upsert_draft_outcome`; outcome upsert folded into
+`_ingest_draft_topics`; **`drafts` CLI command** (full fetch; `--refresh` re-fetches cached). Web:
+`draft_outcomes` LEFT JOIN in `getMemberDetail` → `VotePoint.outcomeStage`; pure `billOutcome()`
+mapper + `OutcomeBadge`; et+en strings. **Shipped:** 0009 applied to prod; `drafts` backfilled
+**788 bills (394 adopted, 362 rejected)**; raw draft JSON committed (offline rebuild reproduces
+`draft_outcomes`); deployed; live-verified on `/members/juku-kalle-raid` (29 Vastu võetud / 9 Tagasi
+lükatud / 1 Tagasi võetud / 6 Menetluses).
+
+**Open follow-up:** outcome refresh is **not** wired into the daily cron yet (a `drafts --pending`
+auto-refresh was prototyped 2026-06-19 then pulled back). So in-process bills won't flip to
+adopted/rejected on their own — re-run `drafts` manually to update. Revisit when ready.
+
+**`scrape.yml` cleanup (2026-06-19):** the daily run step no longer interpolates
+`${{ inputs.command }}` straight into the shell (`if [ -n "…" ]` script-injection antipattern); it
+now passes `${{ inputs.command || 'daily' }}` via the `SCRAPER_COMMAND` env var. Behaviour
+unchanged: schedule runs `daily`, dispatch runs the chosen command. (The 2026-06-18 cron failure was
+a transient `ConnectTimeout` to api.riigikogu.ee from the runner, not a workflow logic bug; note the
+`ApiClient` retries 429/5xx but not connection-level timeouts — a candidate hardening if it recurs.)
 
 **Full-XV data backfill — DONE + LIVE IN PROD (2026-06-18).** Prod now spans the **whole XV
 term**: **2221 votes (was 598), 193,624 ballots, 124 members (101 active / 23 former),
