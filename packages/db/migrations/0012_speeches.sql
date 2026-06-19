@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS member_speeches (
   id           BIGSERIAL PRIMARY KEY,
   member_id    INT  NOT NULL REFERENCES members(id) ON DELETE CASCADE,
   speech_key   TEXT NOT NULL UNIQUE,         -- sha1(link|ts|speaker|text head); idempotent re-ingest
-  speaker_uuid UUID,                          -- the verbatim event's speaker id (provenance only)
+  speaker_uuid TEXT,                          -- verbatim event speaker id (provenance; not always a UUID, e.g. "510")
   spoken_at    TIMESTAMPTZ,
   sitting_date DATE,
   agenda_title TEXT,
