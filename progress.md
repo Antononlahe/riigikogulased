@@ -458,3 +458,23 @@ Future work (post-1.0, requested 2026-06-15): **committee-level party discipline
 the discipline metric over committee votes (`/api/votings/committees`) to show how loyal
 members are to the party line within committees, per committee and per member. Recorded in
 the roadmap doc.
+
+Future work (post-1.0, requested 2026-06-19): **government vs opposition.** Track which
+parties form the government (coalition) over time and use it as a second axis on the
+discipline story. Entails:
+- A new model of **government terms** — `(government, started_on, ended_on)` plus the
+  coalition composition `(government, party_id)` per government (e.g. Kallas II/III, Michal).
+  Source: not in the votes feed; needs the Riigikogu/Stenbock cabinet history (likely a
+  small curated seed table or a separate source, like the äriregister erakond pattern) since
+  the API exposes faction membership but not coalition/opposition status.
+- Resolve each vote's date → the government in force → label every **faction** as
+  coalition or opposition **at the time of that vote** (governments change mid-term, so this
+  is time-bounded like `member_faction_terms`).
+- New framing this unlocks (UI is additive, discipline definition unchanged): mark
+  **government-formation/reshuffle events** on the member timeline (vertical guides, like the
+  party-switch lines); distinguish a defection that **sided with the opposition** from one
+  that didn't; coalition-vs-opposition cohesion rollups on `/fraktsioonid`; and "how often
+  did the opposition actually win a vote" context for the bill-outcome badges.
+- Open question: a party can switch sides without an election (coalition collapse/
+  reshuffle); the time-bounded coalition table handles it, but the seed data must capture
+  those exact transition dates.
