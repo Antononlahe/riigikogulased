@@ -323,6 +323,11 @@ export function MemberVotes({
   const [open, setOpen] = useState<string | null>(null);
   const [kind, setKind] = useState<Kind>("all");
   const [type, setType] = useState<string>("all");
+  // Long defection lists bury everything below them on the member page, so collapse to the
+  // first few by default once there are more than COLLAPSE_OVER.
+  const [expanded, setExpanded] = useState(false);
+  const COLLAPSE_OVER = 10;
+  const COLLAPSED_COUNT = 3;
 
   const filtered = useMemo(
     () =>
@@ -333,6 +338,8 @@ export function MemberVotes({
     [defs, kind, type],
   );
   const activeKeys = useMemo(() => new Set(filtered.map(keyOf)), [filtered]);
+  const collapsible = filtered.length > COLLAPSE_OVER;
+  const shown = collapsible && !expanded ? filtered.slice(0, COLLAPSED_COUNT) : filtered;
 
   const kinds: { key: Kind; label: string }[] = [
     { key: "all", label: t("filterAll") },
@@ -415,7 +422,7 @@ export function MemberVotes({
               <p className="mt-3 text-sm text-muted-foreground">{t("filterEmpty")}</p>
             ) : (
               <ul className="mt-3 divide-y divide-border rounded-md border border-border">
-                {filtered.map((v, i) => {
+                {shown.map((v, i) => {
                   const k = keyOf(v);
                   const on = hovered === k;
                   const url = eelnouUrl(v.draftUuid);
@@ -489,6 +496,19 @@ export function MemberVotes({
                   );
                 })}
               </ul>
+            )}
+            {collapsible && (
+              <button
+                type="button"
+                onClick={() => setExpanded((e) => !e)}
+                aria-expanded={expanded}
+                className="mt-2 text-xs font-medium text-ring hover:underline"
+              >
+                {expanded
+                  ? t("showLess")
+                  : t("showAll", { n: filtered.length })}{" "}
+                {expanded ? "▴" : "▾"}
+              </button>
             )}
           </>
         )}
