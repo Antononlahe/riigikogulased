@@ -15,7 +15,32 @@ Two gotchas the parser handles:
 from __future__ import annotations
 
 import hashlib
+import re
 from dataclasses import dataclass
+from html import unescape
+
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def _clean(s: str | None) -> str | None:
+    """Strip HTML tags + unescape entities + collapse whitespace (agenda titles are HTML)."""
+    if not s:
+        return s
+    return re.sub(r"\s+", " ", unescape(_TAG_RE.sub("", s))).strip() or None
+
+
+def sitting_type_of(title: str | None) -> str:
+    """Normalise a verbatim sitting title to a meeting-type code for the search UI."""
+    t = (title or "").lower()
+    if "infotund" in t:
+        return "infotund"
+    if "erakorraline" in t:
+        return "erakorraline"
+    if "täiendav" in t:
+        return "taiendav"
+    if "täiskogu istung" in t:
+        return "istung"
+    return "eri"  # named one-offs (e.g. a foreign leader's address)
 
 
 @dataclass(frozen=True)
@@ -25,6 +50,7 @@ class SpeechRecord:
     speaker_uuid: str | None    # the event's speaker id (provenance only; not unique)
     spoken_at: str | None       # ISO datetime string from the event
     sitting_date: str | None    # YYYY-MM-DD
+    sitting_type: str           # istung | infotund | erakorraline | taiendav | eri
     agenda_title: str | None
     steno_link: str | None
     text: str
@@ -57,9 +83,10 @@ def parse_sitting(sitting: dict, name_to_id: dict[str, int]) -> list[SpeechRecor
     """Every member-attributed SPEECH event in one verbatim sitting."""
     sitting_link = sitting.get("link")
     sitting_date = (sitting.get("date") or "")[:10] or None
+    s_type = sitting_type_of(sitting.get("title"))
     out: list[SpeechRecord] = []
     for ai in sitting.get("agendaItems", []) or []:
-        agenda_title = ai.get("title")
+        agenda_title = _clean(ai.get("title"))
         for ev in ai.get("events", []) or []:
             if ev.get("type") != "SPEECH":
                 continue
@@ -77,6 +104,7 @@ def parse_sitting(sitting: dict, name_to_id: dict[str, int]) -> list[SpeechRecor
                     speaker_uuid=ev.get("uuid"),
                     spoken_at=ts,
                     sitting_date=sitting_date,
+                    sitting_type=s_type,
                     agenda_title=agenda_title,
                     steno_link=ev.get("link") or sitting_link,
                     text=text,

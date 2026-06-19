@@ -9,6 +9,7 @@ export type SpeechHit = {
   speechKey: string;
   spokenAt: string | null;
   sittingDate: string | null;
+  sittingType: string | null;
   agendaTitle: string | null;
   link: string | null;
   /** Snippet with matches wrapped in HL_START/HL_END sentinels. */

@@ -26,6 +26,7 @@ export async function searchMemberSpeeches(
     SELECT speech_key AS "speechKey",
            spoken_at AS "spokenAt",
            sitting_date::text AS "sittingDate",
+           sitting_type AS "sittingType",
            agenda_title AS "agendaTitle",
            steno_link AS link,
            ts_headline('simple', text, plainto_tsquery('simple', $2), $5) AS snippet

@@ -62,7 +62,7 @@ export default async function MemberPage({
         <MemberHeader member={d.member} />
         <p className="mt-1 text-xs uppercase tracking-wide text-muted-foreground">{t("cycle")}</p>
         <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_18rem]">
-          <div className="space-y-8">
+          <div className="min-w-0 space-y-8">
             <DisciplineSummary
               counted={d.counted}
               aligned={d.aligned}

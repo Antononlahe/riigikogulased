@@ -495,9 +495,10 @@ def member_name_to_id(conn: psycopg.Connection) -> dict[str, int]:
 def upsert_speeches(conn: psycopg.Connection, rows: list[tuple]) -> None:
     """Bulk-upsert speech rows in one batched round-trip (executemany), not one per row.
 
-    Each tuple: (member_id, speech_key, speaker_uuid, spoken_at, sitting_date,
-    agenda_title, steno_link, text, lemmas). Remote per-row inserts are latency-bound, so
-    callers chunk and batch here (see cli._ingest_verbatims).
+    Each tuple: (member_id, speech_key, speaker_uuid, spoken_at, sitting_date, sitting_type,
+    agenda_title, steno_link, text, lemmas) -- the final `lemmas` string is turned into the
+    `search` tsvector inline (the lemmas column itself was dropped in 0014). Remote per-row
+    inserts are latency-bound, so callers chunk and batch here (see cli._ingest_verbatims).
     """
     if not rows:
         return
@@ -505,15 +506,29 @@ def upsert_speeches(conn: psycopg.Connection, rows: list[tuple]) -> None:
         cur.executemany(
             """
             INSERT INTO member_speeches
-              (member_id, speech_key, speaker_uuid, spoken_at, sitting_date,
-               agenda_title, steno_link, text, lemmas)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+              (member_id, speech_key, speaker_uuid, spoken_at, sitting_date, sitting_type,
+               agenda_title, steno_link, text, search)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, to_tsvector('simple', %s))
             ON CONFLICT (speech_key) DO UPDATE SET
               member_id=EXCLUDED.member_id, speaker_uuid=EXCLUDED.speaker_uuid,
               spoken_at=EXCLUDED.spoken_at, sitting_date=EXCLUDED.sitting_date,
-              agenda_title=EXCLUDED.agenda_title, steno_link=EXCLUDED.steno_link,
-              text=EXCLUDED.text, lemmas=EXCLUDED.lemmas
+              sitting_type=EXCLUDED.sitting_type, agenda_title=EXCLUDED.agenda_title,
+              steno_link=EXCLUDED.steno_link, text=EXCLUDED.text, search=EXCLUDED.search
             """,
+            rows,
+        )
+
+
+def update_speech_meta(conn: psycopg.Connection, rows: list[tuple]) -> None:
+    """Batch-update metadata (sitting_type, agenda_title, steno_link) by speech_key, without
+    touching text/lemmas -- so existing rows can be refreshed without re-lemmatising.
+    Each tuple: (sitting_type, agenda_title, steno_link, speech_key)."""
+    if not rows:
+        return
+    with conn.cursor() as cur:
+        cur.executemany(
+            "UPDATE member_speeches SET sitting_type=%s, agenda_title=%s, steno_link=%s "
+            "WHERE speech_key=%s",
             rows,
         )
 

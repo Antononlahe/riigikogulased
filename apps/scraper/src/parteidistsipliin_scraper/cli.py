@@ -414,7 +414,8 @@ def _ingest_verbatims(conn, sittings: list[dict], *, no_lemma: bool, chunk: int 
             lemmas = None if no_lemma else lemmatize(rec.text)
             batch.append((
                 rec.member_id, rec.speech_key, rec.speaker_uuid, rec.spoken_at,
-                rec.sitting_date, rec.agenda_title, rec.steno_link, rec.text, lemmas,
+                rec.sitting_date, rec.sitting_type, rec.agenda_title, rec.steno_link,
+                rec.text, lemmas,
             ))
             if len(batch) >= chunk:
                 db.upsert_speeches(conn, batch)

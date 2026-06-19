@@ -1,4 +1,9 @@
-from parteidistsipliin_scraper.verbatim_parse import SpeechRecord, match_speaker, parse_sitting
+from parteidistsipliin_scraper.verbatim_parse import (
+    SpeechRecord,
+    match_speaker,
+    parse_sitting,
+    sitting_type_of,
+)
 
 NAME_TO_ID = {"Rain Epler": 1, "Lauri Hussar": 2, "Andres Sutt": 3, "Mart Helme": 4}
 
@@ -25,9 +30,10 @@ def test_parse_sitting_extracts_only_member_speeches():
     sitting = {
         "link": "https://stenogrammid.riigikogu.ee/202606111000",
         "date": "2026-06-11T07:00:00.000+00:00",
+        "title": "XV Riigikogu, VII istungjärk, infotund",
         "agendaItems": [
             {
-                "title": "Riigikaitse",
+                "title": "<p>Riigikaitse</p>",  # HTML is stripped at parse
                 "events": [
                     # member speech (event link null -> falls back to sitting link)
                     {"type": "SPEECH", "uuid": "spk1", "date": "2026-06-11T10:00:08.000+00:00",
@@ -53,8 +59,18 @@ def test_parse_sitting_extracts_only_member_speeches():
     assert epler.member_id == 1
     assert epler.speaker_uuid == "spk1"
     assert epler.sitting_date == "2026-06-11"
-    assert epler.agenda_title == "Riigikaitse"
+    assert epler.sitting_type == "infotund"
+    assert epler.agenda_title == "Riigikaitse"  # <p> stripped
     # event link is null -> falls back to the sitting link
     assert epler.steno_link == "https://stenogrammid.riigikogu.ee/202606111000"
     # per-utterance key is a stable content hash, distinct per speech, never null
     assert len(epler.speech_key) == 40 and epler.speech_key != recs[1].speech_key
+
+
+def test_sitting_type_of():
+    assert sitting_type_of("XV Riigikogu, VII istungjärk, täiskogu istung") == "istung"
+    assert sitting_type_of("XV Riigikogu, V istungjärk, infotund") == "infotund"
+    assert sitting_type_of("XV Riigikogu, Riigikogu erakorraline istungjärk") == "erakorraline"
+    assert sitting_type_of("XV Riigikogu, III istungjärk, täiskogu täiendav istung") == "taiendav"
+    assert sitting_type_of("Ukraina presidendi kõne") == "eri"
+    assert sitting_type_of(None) == "eri"
