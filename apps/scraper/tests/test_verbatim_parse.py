@@ -35,15 +35,20 @@ def test_parse_sitting_extracts_only_member_speeches():
             {
                 "title": "<p>Riigikaitse</p>",  # HTML is stripped at parse
                 "events": [
-                    # member speech (event link null -> falls back to sitting link)
+                    # member speech (>= MIN_TEXT_LEN; null event link -> sitting link)
                     {"type": "SPEECH", "uuid": "spk1", "date": "2026-06-11T10:00:08.000+00:00",
-                     "speaker": "Rain Epler", "text": "Tere, austatud Riigikogu!", "link": None},
+                     "speaker": "Rain Epler", "link": None,
+                     "text": "Riigikaitse rahastamine vajab pikaajalist ja väga selget plaani."},
                     # member speech with a NULL event uuid -> still kept (uuid is speaker id)
                     {"type": "SPEECH", "uuid": None, "date": "2026-06-11T10:09:00.000+00:00",
-                     "speaker": "Esimees Lauri Hussar", "text": "Aitäh!", "link": "y"},
+                     "speaker": "Esimees Lauri Hussar",
+                     "text": "Tänan ettekande eest, läheme edasi järgmise punkti juurde nüüd."},
                     # non-member speaker -> dropped
-                    {"type": "SPEECH", "uuid": "spk2", "date": "2026-06-11T10:05:00.000+00:00",
-                     "speaker": "Külaline Mari Maa", "text": "Tervist.", "link": "x"},
+                    {"type": "SPEECH", "uuid": "spk2", "speaker": "Külaline Mari Maa",
+                     "text": "Tervitan kõiki Riigikogu liikmeid ja tänan esinemise eest siin."},
+                    # too short (< MIN_TEXT_LEN) procedural call -> dropped
+                    {"type": "SPEECH", "uuid": "spk5", "speaker": "Mart Helme",
+                     "text": "Madis Kallas, palun!"},
                     # not a speech event -> dropped
                     {"type": "VOTING_EVENT", "uuid": "spk3", "speaker": None, "text": "FOR"},
                     # empty text -> dropped
@@ -53,7 +58,8 @@ def test_parse_sitting_extracts_only_member_speeches():
         ],
     }
     recs = parse_sitting(sitting, NAME_TO_ID)
-    assert len(recs) == 2  # Epler + Hussar (null-uuid kept); non-member, non-speech, empty dropped
+    # Epler + Hussar (null-uuid kept); dropped: non-member, too-short call, non-speech, empty
+    assert len(recs) == 2
     epler = recs[0]
     assert isinstance(epler, SpeechRecord)
     assert epler.member_id == 1

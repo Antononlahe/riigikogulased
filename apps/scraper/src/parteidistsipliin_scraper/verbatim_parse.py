@@ -21,6 +21,11 @@ from html import unescape
 
 _TAG_RE = re.compile(r"<[^>]+>")
 
+# Skip very short utterances: these are overwhelmingly the chair's procedural calls
+# ("Aitäh! Martin Helme, palun!", "Madis Kallas, palun!") -- noise that clutters search
+# results and never carries searchable substance. ~28% of raw SPEECH events.
+MIN_TEXT_LEN = 60
+
 
 def _clean(s: str | None) -> str | None:
     """Strip HTML tags + unescape entities + collapse whitespace (agenda titles are HTML)."""
@@ -91,7 +96,7 @@ def parse_sitting(sitting: dict, name_to_id: dict[str, int]) -> list[SpeechRecor
             if ev.get("type") != "SPEECH":
                 continue
             text = (ev.get("text") or "").strip()
-            if not text:
+            if len(text) < MIN_TEXT_LEN:
                 continue
             member_id = match_speaker(ev.get("speaker"), name_to_id)
             if member_id is None:
