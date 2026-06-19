@@ -169,6 +169,9 @@ def rebuild() -> None:
                     et = parse_draft_descriptor_edids(raw)
                     if et:
                         write_volume_topics(conn, draft_uuid, et)
+        speech_raw = cache.read_speeches()
+        if speech_raw:
+            _ingest_speech_stats(conn, speech_raw, _TERM_START, None)
         conn.commit()
         db.refresh_alignment(conn)
         conn.commit()
@@ -348,6 +351,48 @@ def _write_draft_outcome(conn, draft_uuid: str, raw: dict) -> None:
         conn, draft_uuid=draft_uuid, stage=outcome.stage,
         status=outcome.status, accepted_on=outcome.accepted_on,
     )
+
+
+# XV Riigikogu start (riigikogu_terms seed); the speech-stats window opens here.
+_TERM_START = date(2023, 4, 10)
+
+
+def _ingest_speech_stats(conn, raw: list[dict], start: date, end: date | None) -> int:
+    """Upsert per-member speech counts from /api/statistics/speeches/plenary into the DB."""
+    n = 0
+    for m in raw:
+        mid = db.member_id_by_riigikogu_id(conn, m["uuid"])
+        if mid is None:
+            continue  # a stats uuid we don't have as a member (shouldn't happen for XV)
+        db.upsert_speech_stats(
+            conn, member_id=mid,
+            speeches=m.get("speeches") or 0, questions=m.get("questions") or 0,
+            procedural=m.get("procedural") or 0, total=m.get("total") or 0,
+            period_start=start, period_end=end,
+        )
+        n += 1
+    return n
+
+
+@app.command()
+def speeches() -> None:
+    """Ingest per-member plenary speech statistics (kõned/küsimused/protseduurilised)."""
+    asyncio.run(_refresh_speeches())
+
+
+async def _refresh_speeches() -> None:
+    cache = ApiVoteCache()
+    end = date.today()
+    async with ApiClient() as client:
+        raw = await client.get_json(
+            "/api/statistics/speeches/plenary",
+            {"startDate": _TERM_START.isoformat(), "endDate": end.isoformat(), "lang": "et"},
+        )
+    cache.write_speeches(raw)
+    with db.connect() as conn:
+        n = _ingest_speech_stats(conn, raw, _TERM_START, end)
+        conn.commit()
+    typer.echo(f"Speech stats: {n} members of {len(raw)} ingested.")
 
 
 @app.command()

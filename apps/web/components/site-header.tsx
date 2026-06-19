@@ -16,6 +16,7 @@ export async function SiteHeader() {
           <Link href="/" className="hover:text-foreground">{nav("members")}</Link>
           <Link href="/fraktsioonid" className="hover:text-foreground">{nav("factions")}</Link>
           <Link href="/teemad" className="hover:text-foreground">{nav("topics")}</Link>
+          <Link href="/statistika" className="hover:text-foreground">{nav("statistics")}</Link>
           <span className="mx-1 h-4 w-px bg-border" aria-hidden />
           <LocaleToggle />
           <ThemeToggle />

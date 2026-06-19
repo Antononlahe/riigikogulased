@@ -27,6 +27,7 @@ class ApiVoteCache:
         self.members_file = self.dir / "plenary-members.json"
         self.members_extra_file = self.dir / "plenary-members-extra.json"
         self.sessions_file = self.dir / "sessions.json"
+        self.speeches_file = self.dir / "speech-stats.json"
         self._seen: set[str] = set()
         if self.votings_file.exists():
             for line in self.votings_file.read_text(encoding="utf-8").splitlines():
@@ -94,6 +95,18 @@ class ApiVoteCache:
             return []
         raw = json.loads(self.members_extra_file.read_text(encoding="utf-8"))
         return [PlenaryMember.model_validate(m) for m in raw]
+
+    def write_speeches(self, raw: list[dict]) -> None:
+        """Snapshot of /api/statistics/speeches/plenary (per-member speech counts)."""
+        self.dir.mkdir(parents=True, exist_ok=True)
+        self.speeches_file.write_text(
+            json.dumps(raw, ensure_ascii=False, indent=0), encoding="utf-8"
+        )
+
+    def read_speeches(self) -> list[dict]:
+        if not self.speeches_file.exists():
+            return []
+        return json.loads(self.speeches_file.read_text(encoding="utf-8"))
 
     def __len__(self) -> int:
         return len(self._seen)

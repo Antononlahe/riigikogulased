@@ -13,6 +13,59 @@ Entry format:
 
 ---
 
+## 2026-06-19 — /statistika page: committee cohesion (v0.4 A/B/C) + speaker leaderboard (v0.5-A); member-page committee loyalty (D) + speech panel (v0.5-B)
+
+**What:** Shipped six MVP features from the component storybook, all live + validated with real
+data, built to be easily removable.
+- **v0.4 committee cohesion.** The API exposes only committee *sitting/agenda* records and a
+  committee's *aggregate* decision (e.g. "FOR") — **never per-member roll-call ballots** (verified
+  live against `/api/votings/committees`), so true committee-vote discipline does not exist in the
+  source. Implemented the honest, available-data reading: **committee cohesion = aggregate plenary
+  party-discipline of a committee's current members**, the faction-rollup pattern regrouped by
+  committee membership (no scoring change). Migration **`0010_committee_rollup.sql`** = two read-only
+  views (`committee_discipline`, `committee_party_discipline`) aggregating the **`member_discipline`
+  matview** (124 rows — byte-identical to a ballot rollup but trivially cheap, which matters for the
+  ~120 member-page builds). On `/statistika`: **A** committee card grid (sortable by cohesion /
+  members / defections), **B** committee×party cohesion matrix (range-relative green/red shading),
+  **C** per-committee detail at `/statistika/komisjonid/[slug]` (reuses `FactionRoster`).
+  Cohesion spread 98.5–99.8%.
+- **v0.4-D** member page: a "Distsipliin komisjonides" panel — each of the member's current
+  committees with the committee's cohesion, the member's own discipline, and their rank within it
+  (window-function `RANK()` over committee co-members).
+- **v0.5 speeches.** New ingest: the **`speeches` CLI command** hits
+  `/api/statistics/speeches/plenary?startDate=&endDate=` (pre-computed; returns **all 101 active
+  members in one call** — speeches/questions/procedural/total). Migration **`0011_speech_stats.sql`**
+  = `member_speech_stats` table; raw snapshot cached to `cache/api/speech-stats.json` (committed,
+  124K) and replayed by `rebuild`. **v0.5-A** speaker leaderboard on `/statistika` (sortable by each
+  count). **v0.5-B** member-page "Sõnavõtud" panel (4 KPI tiles). Word counts / cadence sparkline /
+  Eurovoc topic treemap from the storybook are **out of scope** — that endpoint carries no word
+  counts or per-speech topics; they'd need full `/api/steno` ingestion (noted as the upgrade path).
+
+**Why:** v0.4 (party/committee rollups) + v0.5 (speeches) roadmap slices; user asked to ship A/B/C/D
++ v0.5-A/B as removable MVPs to evaluate with real data before committing.
+
+**Removability:** delete the `app/[locale]/statistika` tree, `components/statistika/*`, the two
+member-page panel components + their imports in the member page, `lib/{committees,committees-queries,
+speeches,speeches-queries}.ts(+tests)`, migrations 0010/0011, and the `nav.statistics` link. Nothing
+core depends on them.
+
+**Validated:** 55 web vitest tests + typecheck + `next lint` green; production build **569/569**
+static pages (incl. `/{et,en}/statistika` + 30 committee-detail pages + all member pages) against
+prod DB. Migrations 0010/0011 applied to prod via `migrate` (additive); `speeches` ingested 101/101.
+Live: `/statistika`, `/en/statistika` (English strings), `/statistika/komisjonid/oiguskomisjon`, and
+member pages all 200 with real numbers (Rain Epler 273 speeches / 781 questions / 1282 total; top
+leaderboard totals 1282/1224/1215).
+
+**Touched:** `packages/db/migrations/0010_committee_rollup.sql`, `0011_speech_stats.sql`;
+`apps/scraper/src/parteidistsipliin_scraper/{cli,db,api_cache}.py`; `apps/scraper/cache/api/
+speech-stats.json`; `apps/web/lib/{committees,committees-queries,speeches,speeches-queries}.ts` (+
+tests); `apps/web/components/statistika/{committee-card,committee-grid,committee-matrix,
+speaker-leaderboard}.tsx`; `apps/web/components/member/{committee-loyalty,speech-panel}.tsx`;
+`apps/web/app/[locale]/statistika/**`; `apps/web/app/[locale]/members/[slug]/page.tsx`;
+`apps/web/components/site-header.tsx`; `apps/web/messages/{et,en}.json`.
+
+---
+
 ## 2026-06-19 — Exclude substitute members from list; member count; faction comparison bars
 
 **What:** Three member/faction UI changes. (1) The homepage list now excludes **substitute members

@@ -8,6 +8,10 @@ import { DisciplineSummary } from "@/components/member/discipline-summary";
 import { PartyBreakdown } from "@/components/member/party-breakdown";
 import { AffiliationsPanel } from "@/components/member/affiliations-panel";
 import { MemberVotes } from "@/components/member/member-votes";
+import { CommitteeLoyalty } from "@/components/member/committee-loyalty";
+import { SpeechPanel } from "@/components/member/speech-panel";
+import { getMemberCommittees } from "@/lib/committees-queries";
+import { getMemberSpeechStats } from "@/lib/speeches-queries";
 
 export const revalidate = 3600;
 
@@ -39,6 +43,18 @@ export default async function MemberPage({
 
   const d = detail;
 
+  // Removable v0.4-D / v0.5-B panels; failures degrade gracefully to nothing.
+  let committeeLoyalty: Awaited<ReturnType<typeof getMemberCommittees>> = [];
+  let speechStats: Awaited<ReturnType<typeof getMemberSpeechStats>> = null;
+  try {
+    [committeeLoyalty, speechStats] = await Promise.all([
+      getMemberCommittees(d.member.memberId),
+      getMemberSpeechStats(d.member.memberId),
+    ]);
+  } catch {
+    // leave empties
+  }
+
   return (
     <>
       <SiteHeader />
@@ -54,6 +70,8 @@ export default async function MemberPage({
               partyShortName={d.member.partyShortName}
             />
             <MemberVotes votes={d.votes} voteResults={d.voteResults} />
+            {speechStats && <SpeechPanel stats={speechStats} />}
+            <CommitteeLoyalty committees={committeeLoyalty} />
             <PartyBreakdown rows={d.breakdown} />
           </div>
           <AffiliationsPanel

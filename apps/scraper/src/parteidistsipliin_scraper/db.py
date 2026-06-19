@@ -483,3 +483,32 @@ def upsert_draft_outcome(
             """,
             (draft_uuid, stage, status, accepted_on),
         )
+
+
+def member_id_by_riigikogu_id(conn: psycopg.Connection, riigikogu_id: str) -> int | None:
+    """Resolve a member's surrogate id from their API uuid, or None if not in the DB."""
+    with conn.cursor() as cur:
+        cur.execute("SELECT id FROM members WHERE riigikogu_id = %s", (riigikogu_id,))
+        row = cur.fetchone()
+        return row["id"] if row else None
+
+
+def upsert_speech_stats(
+    conn: psycopg.Connection, *, member_id: int, speeches: int, questions: int,
+    procedural: int, total: int, period_start: date | None, period_end: date | None,
+) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO member_speech_stats
+              (member_id, speeches, questions, procedural, total,
+               period_start, period_end, fetched_at)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, now())
+            ON CONFLICT (member_id) DO UPDATE SET
+              speeches=EXCLUDED.speeches, questions=EXCLUDED.questions,
+              procedural=EXCLUDED.procedural, total=EXCLUDED.total,
+              period_start=EXCLUDED.period_start, period_end=EXCLUDED.period_end,
+              fetched_at=now()
+            """,
+            (member_id, speeches, questions, procedural, total, period_start, period_end),
+        )

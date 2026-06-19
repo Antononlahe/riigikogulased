@@ -7,6 +7,25 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**/statistika page + member-page panels — DONE + LIVE IN PROD (2026-06-19).** Shipped six
+removable MVPs from `component-storybook.html`, validated live with real data.
+- **v0.4 committee cohesion (A/B/C)** on **`/statistika`**. The API has **no per-member committee
+  roll-call ballots** (only committee *agenda* records + an aggregate "FOR"/"AGAINST" decision —
+  verified live), so committee discipline is implemented as **cohesion = aggregate plenary
+  party-discipline of a committee's current members** (faction-rollup regrouped by committee; no
+  scoring change). Migration `0010_committee_rollup.sql` (views `committee_discipline` +
+  `committee_party_discipline` over the `member_discipline` matview). A = sortable card grid, B =
+  committee×party matrix, C = `/statistika/komisjonid/[slug]` roster. Spread 98.5–99.8%.
+- **v0.4-D** member page "Distsipliin komisjonides" panel (committee cohesion + member's rank in it).
+- **v0.5-A** speaker leaderboard on `/statistika`; **v0.5-B** member-page "Sõnavõtud" panel. Data:
+  new `speeches` CLI command → `/api/statistics/speeches/plenary` (all members in one call) →
+  `member_speech_stats` (migration `0011`), cached to `speech-stats.json`, replayed by `rebuild`.
+  Word counts / cadence / topic treemap deferred (need `/api/steno`).
+
+**Removable by design** (see the header comment in `app/[locale]/statistika/page.tsx`). User wants
+to evaluate with real data before deciding to keep. Verified: 55 web tests + typecheck + lint green;
+build 569/569; live pages 200 with real numbers. See progress-log 2026-06-19 for the full entry.
+
 **Member/faction UI polish (2026-06-19).** (1) Homepage list excludes **substitute members
 (asendusliikmed)** — 5 never-seated people whose ballots are all `absent` (0 counted votes);
 `getMemberDiscipline` now filters `counted_votes > 0` (124 → 119 shown; detail pages still exist).
