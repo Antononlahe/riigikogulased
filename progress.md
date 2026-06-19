@@ -7,6 +7,18 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**Per-MP stenogram speech search — DONE + LIVE IN PROD (2026-06-19).** A search box on each
+member page over that MP's actual stenogram speeches (`/api/steno/verbatims`), with
+**Estonian lemma-aware** matching: text is lemmatised at ingest with Vabamorf/EstNLTK into a
+`simple` tsvector (base-form queries match all inflections), `pg_trgm` ILIKE fallback for
+inflected/typo queries. Migration `0012_speeches.sql` (`member_speeches`); `verbatims` CLI
+(async fetch / synchronous batched ingest); `/api/member-speeches` route + client search box.
+**100,200 speeches across 117 members backfilled to prod** (full XV term); live-verified
+(base "riigikaitse" → 20 highlighted hits; inflected "riigikaitset" → ILIKE fallback). EstNLTK
+is an optional `nlp` extra; the daily cron does not yet run `verbatims`. See progress-log
+2026-06-19 for the full entry (incl. three bugs fixed) and [[batch-remote-writes]] memory.
+
+
 **/statistika page + member-page panels — DONE + LIVE IN PROD (2026-06-19).** Shipped six
 removable MVPs from `component-storybook.html`, validated live with real data.
 - **v0.4 committee cohesion (A/B/C)** on **`/statistika`**. The API has **no per-member committee

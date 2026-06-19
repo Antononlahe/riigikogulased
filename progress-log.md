@@ -13,6 +13,55 @@ Entry format:
 
 ---
 
+## 2026-06-19 — Per-MP stenogram speech search (Estonian lemma-aware FTS) — LIVE IN PROD
+
+**What:** Each member page now has a search box over that MP's actual stenogram speeches.
+Source: `/api/steno/verbatims` (whole-sitting transcripts; `SPEECH` events carry speaker,
+text, timestamp, agenda, stenogram link). Speaker → member matched by trailing full name
+(handles role prefixes "Aseesimees/…minister X"). **Estonian is heavily inflected and Postgres
+has no Estonian stemmer, and Neon forbids custom Ispell/Hunspell dictionaries** — so we
+lemmatise at INGEST with Vabamorf/EstNLTK (optional `nlp` extra) into a `simple` tsvector;
+base-form queries then match every inflection. `pg_trgm` ILIKE over raw text is the fallback
+for inflected/typo queries the lemma index can't catch. Highlight via `ts_headline` with
+non-HTML sentinels rendered as React `<mark>` (XSS-safe).
+
+Migration **`0012_speeches.sql`** (`member_speeches`: text + lemmas + generated `simple`
+tsvector GIN + trigram GIN + `pg_trgm`). New scraper: `verbatim_parse` (pure, speaker match +
+content-hash key), `verbatim_cache` (gzip per-sitting), `lemmatize` (lazy EstNLTK), `verbatims`
+CLI (fetch async, ingest synchronous, **chunked `executemany` batched writes**), rebuild replay
+(guarded if EstNLTK absent). Web: `/api/member-speeches` route handler (dynamic) + debounced
+client `SpeechSearch` under the speech panel; et+en strings.
+
+**Live:** deployed; **100,200 speeches across 117 members** backfilled to prod (full XV term,
+499 sittings). Verified on prod: base form "riigikaitse" → 20 highlighted hits from Reinsalu's
+real speeches; inflected "riigikaitset" → 5 via ILIKE fallback. 55 web tests + 4 parse tests +
+typecheck + lint + build green.
+
+**Three bugs caught by validating prod rows (not trusting exit codes), each fixed:**
+(1) the verbatim event `uuid` is the SPEAKER's id (repeated, sometimes null), not per-speech →
+switched the unique key to a content hash (a 6-week sample had collapsed 7017→106 rows).
+(2) ~25 min of blocking lemmatise+DB ran INSIDE the asyncio coroutine → "Event loop stopped
+before Future completed" teardown rolled back the ingest → split fetch (async) from ingest
+(sync). (3) `speaker_uuid UUID` rejected real non-UUID speaker ids (e.g. "510") → `TEXT`.
+Also switched per-row upserts to chunked `executemany` (a 5k-row sample had been ~24 min wall /
+3.4 min CPU — network-bound on per-row RTT); see memory [[batch-remote-writes]].
+
+**Scope:** counts-vs-words — verbatims give full text (searched here); word totals / cadence /
+per-speech topics remain out of scope (not in the stats endpoint). **Open:** the 33 MB gzip
+verbatim cache is committed for offline rebuild; the daily cron does NOT yet run `verbatims`
+(needs the `nlp` extra in CI) so new speeches aren't auto-indexed — re-run `verbatims` to update.
+Branch: built on `claude/mp-speech-search`, merged to `claude/clever-noether-ch7018`. Neon
+validation branch `br-damp-mountain-a6pwggmc` (speech-search-validate) can be deleted (user-gated).
+
+**Touched:** `packages/db/migrations/0012_speeches.sql`; `apps/scraper/src/parteidistsipliin_scraper/
+{verbatim_parse,verbatim_cache,lemmatize,db,cli}.py`; `apps/scraper/pyproject.toml`;
+`apps/scraper/tests/test_verbatim_parse.py`; `apps/scraper/cache/api/verbatims/` (gzip);
+`apps/web/lib/speech-search{,-queries}.ts`; `apps/web/app/api/member-speeches/route.ts`;
+`apps/web/components/member/{speech-search,speech-panel}.tsx`;
+`apps/web/app/[locale]/members/[slug]/page.tsx`; `apps/web/messages/{et,en}.json`.
+
+---
+
 ## 2026-06-19 — /statistika page: committee cohesion (v0.4 A/B/C) + speaker leaderboard (v0.5-A); member-page committee loyalty (D) + speech panel (v0.5-B)
 
 **What:** Shipped six MVP features from the component storybook, all live + validated with real
