@@ -13,6 +13,33 @@ Entry format:
 
 ---
 
+## 2026-06-22 — Removed committee "cohesion" UI everywhere (misleading) — LIVE IN PROD
+
+**What:** Deleted all committee-cohesion UI. The metric proxied committee discipline as the
+aggregate *plenary* discipline of a committee's current members — the Riigikogu API exposes no
+per-member committee roll-call ballots, so it read as if committees had internal voting
+discipline when no such data exists. User flagged it as misleading. Removed: the two
+`/statistika` sections ("Komisjonide ühtsus" cards + "Ühtsus komisjonides erakonniti" party
+matrix), the `/statistika/komisjonid/[slug]` roster route, and the member-page "Distsipliin
+komisjonides" panel. **Kept:** committee *membership* (the "Komisjonid" list in the member
+sidebar `AffiliationsPanel`, sourced from `getMemberDetail`, unaffected).
+
+**Why:** No per-committee roll-call data exists; a discipline-shaped number with no underlying
+committee votes misinforms readers. Membership is a plain fact and stays.
+
+**Touched:** deleted `apps/web/lib/committees.ts`, `lib/committees-queries.ts`,
+`lib/committees.test.ts`, `components/statistika/{committee-card,committee-grid,committee-matrix}.tsx`,
+`components/member/committee-loyalty.tsx`, `app/[locale]/statistika/komisjonid/`. Edited
+`app/[locale]/statistika/page.tsx` (now speaker leaderboard only) and `members/[slug]/page.tsx`
+(dropped `getMemberCommittees`/`CommitteeLoyalty`). Pruned orphaned i18n keys in
+`messages/{et,en}.json`. Migration `0010_committee_rollup.sql` + its `committee_discipline`/
+`committee_party_discipline` views left applied-but-dead (nothing reads them; a future `DROP VIEW`
+migration can clean up). Verified: typecheck + lint + 50 web tests green; deployed
+`vercel --prod` from `apps/web`; live — `/statistika` 200 (no cohesion, leaderboard present),
+roster route 404, member page still lists Komisjonid.
+
+---
+
 ## 2026-06-19 — Per-MP stenogram speech search (Estonian lemma-aware FTS) — LIVE IN PROD
 
 **What:** Each member page now has a search box over that MP's actual stenogram speeches.

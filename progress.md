@@ -1,11 +1,20 @@
 # Progress
 
-**Last updated:** 2026-06-18
+**Last updated:** 2026-06-22
 **Version target:** v0.4 (party/faction rollups). **v0.4-A is DONE and LIVE in prod** —
 https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also live.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**Committee "cohesion" UI removed (2026-06-22, LIVE).** All committee-discipline UI deleted as
+misleading — there is **no per-committee roll-call data** in the API, so the metric was just
+aggregate plenary discipline regrouped by committee. Removed the two `/statistika` committee
+sections, the `/statistika/komisjonid/[slug]` roster route, and the member-page "Distsipliin
+komisjonides" panel; **committee membership is kept** (member sidebar "Komisjonid" list). The
+`0010_committee_rollup.sql` views are now applied-but-dead (drop in a future migration if
+wanted). `/statistika` is now just the speaker leaderboard. See progress-log 2026-06-22.
+
 
 **Per-MP stenogram speech search — DONE + LIVE IN PROD (2026-06-19).** A search box on each
 member page over that MP's actual stenogram speeches (`/api/steno/verbatims`), with
@@ -21,14 +30,11 @@ is an optional `nlp` extra; the daily cron does not yet run `verbatims`. See pro
 
 **/statistika page + member-page panels — DONE + LIVE IN PROD (2026-06-19).** Shipped six
 removable MVPs from `component-storybook.html`, validated live with real data.
-- **v0.4 committee cohesion (A/B/C)** on **`/statistika`**. The API has **no per-member committee
-  roll-call ballots** (only committee *agenda* records + an aggregate "FOR"/"AGAINST" decision —
-  verified live), so committee discipline is implemented as **cohesion = aggregate plenary
-  party-discipline of a committee's current members** (faction-rollup regrouped by committee; no
-  scoring change). Migration `0010_committee_rollup.sql` (views `committee_discipline` +
-  `committee_party_discipline` over the `member_discipline` matview). A = sortable card grid, B =
-  committee×party matrix, C = `/statistika/komisjonid/[slug]` roster. Spread 98.5–99.8%.
-- **v0.4-D** member page "Distsipliin komisjonides" panel (committee cohesion + member's rank in it).
+- **v0.4 committee cohesion (A/B/C) — REMOVED 2026-06-22 as misleading** (see top of Current
+  status). The API has no per-member committee roll-call ballots, so "cohesion" was only
+  aggregate plenary discipline regrouped by committee — pulled. Migration
+  `0010_committee_rollup.sql` views remain applied-but-dead.
+- **v0.4-D member page "Distsipliin komisjonides" panel — REMOVED 2026-06-22** (same reason).
 - **v0.5-A** speaker leaderboard on `/statistika`; **v0.5-B** member-page "Sõnavõtud" panel. Data:
   new `speeches` CLI command → `/api/statistics/speeches/plenary` (all members in one call) →
   `member_speech_stats` (migration `0011`), cached to `speech-stats.json`, replayed by `rebuild`.
