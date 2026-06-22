@@ -1,32 +1,95 @@
-// v0.5-B member-page speech panel (REMOVABLE FEATURE). Counts from the API's pre-computed
-// speech statistics (member_speech_stats). Word totals / cadence / topics are out of scope
-// (need /api/steno ingestion).
+// v0.5-B member-page speech panel (REMOVABLE FEATURE). Count tiles come from the API's
+// pre-computed stats (member_speech_stats). Word totals + cadence + the browse list come
+// from the ingested stenogram text (member_speeches) -- a different (smaller) population, so
+// they don't reconcile with the count tiles, by design.
 import { getTranslations } from "next-intl/server";
 import type { SpeechStats } from "@/lib/speeches";
+import { getMemberSpeechMeta } from "@/lib/speeches-queries";
 import { SpeechSearch } from "@/components/member/speech-search";
+import { SpeechBrowse } from "@/components/member/speech-browse";
 
-function Tile({ label, value }: { label: string; value: number }) {
+function Tile({ label, value, sub }: { label: string; value: number | string; sub?: string }) {
   return (
     <div className="rounded-md border border-border p-3">
       <div className="text-[11px] uppercase tracking-wide text-muted-foreground">{label}</div>
       <div className="mt-1 font-serif text-2xl font-bold tabular-nums">{value}</div>
+      {sub && <div className="mt-0.5 text-[11px] text-muted-foreground">{sub}</div>}
+    </div>
+  );
+}
+
+// Monthly cadence: a pure CSS bar strip (no chart lib). Bars scale to the busiest month;
+// the month axis is zero-filled server-side so recess gaps show as empty.
+function Cadence({
+  data,
+  title,
+  subtitle,
+}: {
+  data: { month: string; count: number }[];
+  title: string;
+  subtitle: string;
+}) {
+  const max = Math.max(1, ...data.map((d) => d.count));
+  const first = data[0]?.month ?? "";
+  const last = data[data.length - 1]?.month ?? "";
+  return (
+    <div className="mt-4">
+      <div className="mb-1.5 flex items-baseline justify-between">
+        <h3 className="font-serif text-sm font-bold">{title}</h3>
+        <span className="text-[11px] text-muted-foreground">{subtitle}</span>
+      </div>
+      <div className="flex h-16 items-end gap-px border-b border-border" aria-hidden="true">
+        {data.map((d) => (
+          <div
+            key={d.month}
+            title={`${d.month}: ${d.count}`}
+            className="min-h-px flex-1 rounded-t-sm bg-ring/80"
+            style={{ height: `${Math.max(2, (d.count / max) * 100)}%` }}
+          />
+        ))}
+      </div>
+      <div className="mt-1 flex justify-between text-[10px] text-muted-foreground tabular-nums">
+        <span>{first}</span>
+        <span>{last}</span>
+      </div>
     </div>
   );
 }
 
 export async function SpeechPanel({ stats, memberId }: { stats: SpeechStats; memberId: number }) {
   const t = await getTranslations("memberDetail");
+  const meta = await getMemberSpeechMeta(memberId);
   return (
     <section>
       <h2 className="mb-3 font-serif text-lg font-bold">{t("speechesTitle")}</h2>
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
         <Tile label={t("speechesLabel")} value={stats.speeches} />
         <Tile label={t("questionsLabel")} value={stats.questions} />
         <Tile label={t("proceduralLabel")} value={stats.procedural} />
         <Tile label={t("totalLabel")} value={stats.total} />
+        {meta && (
+          <>
+            <Tile
+              label={t("wordsTotal")}
+              value={meta.totalWords.toLocaleString("et")}
+              sub={t("wordsFromSteno")}
+            />
+            <Tile
+              label={t("wordsAvg")}
+              value={meta.avgWords.toLocaleString("et")}
+              sub={t("wordsPerSpeech")}
+            />
+          </>
+        )}
       </div>
       <p className="mt-2 text-xs text-muted-foreground">{t("speechesNote")}</p>
+      {meta && meta.cadence.length > 1 && (
+        <Cadence data={meta.cadence} title={t("cadenceTitle")} subtitle={t("cadenceSub")} />
+      )}
       <SpeechSearch memberId={memberId} />
+      {meta && (
+        <SpeechBrowse memberId={memberId} total={meta.speechCount} years={meta.years} types={meta.types} />
+      )}
     </section>
   );
 }

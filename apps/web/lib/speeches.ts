@@ -24,6 +24,44 @@ export type SpeechStats = {
 export type SpeakerSortKey = "total" | "speeches" | "questions" | "procedural";
 export type SortDir = "asc" | "desc";
 
+// --- member-page word totals / cadence / browse list (from member_speeches) ---
+// NOTE: member_speeches is the stenogram corpus we ingested (member-attributed, >=60 chars),
+// a different population from member_speech_stats' API counts -- so word totals don't
+// reconcile with the count tiles, and that's expected.
+
+export type SpeechMeta = {
+  speechCount: number;
+  totalWords: number;
+  avgWords: number;
+  cadence: { month: string; count: number }[]; // zero-filled month axis (recess gaps show)
+  years: number[]; // years present, desc
+  types: string[]; // sitting_type values present
+};
+
+export type SpeechBrowseItem = {
+  speechKey: string;
+  spokenAt: string | null;
+  sittingDate: string | null;
+  sittingType: string | null;
+  agendaTitle: string | null;
+  link: string | null;
+  opening: string;
+  wordCount: number;
+};
+
+export type SpeechSort = "recent" | "oldest" | "longest";
+
+// Whitelist: ORDER BY is interpolated into SQL, so it must never come from raw user input.
+const SPEECH_ORDER: Record<SpeechSort, string> = {
+  recent: "spoken_at DESC NULLS LAST",
+  oldest: "spoken_at ASC NULLS LAST",
+  longest: "length(text) DESC",
+};
+
+export function speechBrowseOrderBy(sort: string): string {
+  return SPEECH_ORDER[sort as SpeechSort] ?? SPEECH_ORDER.recent;
+}
+
 export function speakerMetric(r: SpeakerRow, key: SpeakerSortKey): number {
   return r[key];
 }

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { sortSpeakers, speakerMetric, type SpeakerRow } from "./speeches";
+import { sortSpeakers, speakerMetric, speechBrowseOrderBy, type SpeakerRow } from "./speeches";
 
 const row = (over: Partial<SpeakerRow>): SpeakerRow => ({
   memberId: 1, fullName: "X", slug: "x", partyShortName: "RE", photoThumbPath: null,
@@ -19,5 +19,18 @@ describe("sortSpeakers", () => {
     const rows = [row({ memberId: 1, questions: 5 }), row({ memberId: 2, questions: 1 })];
     expect(sortSpeakers(rows, "questions", "asc").map((r) => r.memberId)).toEqual([2, 1]);
     expect(speakerMetric(row({ speeches: 7 }), "speeches")).toBe(7);
+  });
+});
+
+describe("speechBrowseOrderBy", () => {
+  it("maps known sorts to fixed SQL", () => {
+    expect(speechBrowseOrderBy("recent")).toBe("spoken_at DESC NULLS LAST");
+    expect(speechBrowseOrderBy("oldest")).toBe("spoken_at ASC NULLS LAST");
+    expect(speechBrowseOrderBy("longest")).toBe("length(text) DESC");
+  });
+  it("falls back to recent for unknown / injection input (never echoes input)", () => {
+    const evil = "spoken_at; DROP TABLE member_speeches; --";
+    expect(speechBrowseOrderBy(evil)).toBe("spoken_at DESC NULLS LAST");
+    expect(speechBrowseOrderBy("")).toBe("spoken_at DESC NULLS LAST");
   });
 });

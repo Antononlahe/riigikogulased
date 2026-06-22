@@ -7,6 +7,23 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**Member-page speech panel — word counts + cadence + browse list (2026-06-22).** Three
+additive bits on the member page's "Sõnavõtud" panel, all from already-ingested data (no
+migration, no re-ingest): (1) two **word-count tiles** (total + avg/speech) from
+`member_speeches` text; (2) a **monthly cadence** CSS bar strip (zero-filled axis, recess gaps
+show); (3) a **collapsed, scrollable browse list** of all the MP's speeches with three filters
+— sort (recent/oldest/longest), year, and **sitting-type** (Istung/Infotund/…). The "type"
+filter is `sitting_type`, not a per-speech kõne/küsimus label: the verbatim feed has no
+per-speech type, only aggregate counts exist for that (infotund ≈ question time covers the
+useful split). Browse mode rides the existing `/api/member-speeches` route (non-empty `q`
+searches; else browse). Word totals come from a smaller population than the count tiles
+(`member_speeches` is ≥60-char + member-attributed) so they don't reconcile, by design. Files:
+`lib/speeches.ts` (+types, sort whitelist), `lib/speeches-queries.ts` (+`getMemberSpeechMeta`/
+`browseMemberSpeeches`), `route.ts`, `components/member/speech-{panel,browse}.tsx`, et+en
+messages, `speeches.test.ts`. Verified: tsc + lint + 52 web tests green (incl. a sort-whitelist
+SQL-injection guard). See progress-log 2026-06-22.
+
+
 **Committee "cohesion" UI removed (2026-06-22, LIVE).** All committee-discipline UI deleted as
 misleading — there is **no per-committee roll-call data** in the API, so the metric was just
 aggregate plenary discipline regrouped by committee. Removed the two `/statistika` committee

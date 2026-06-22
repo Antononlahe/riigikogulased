@@ -13,6 +13,25 @@ Entry format:
 
 ---
 
+## 2026-06-22 — Member speech panel: word counts, cadence, filterable browse list
+**What:** Added to the member-page "Sõnavõtud" panel: two word-count tiles (total + avg/speech),
+a monthly cadence CSS bar strip (zero-filled month axis), and a collapsed/scrollable browse list
+of the MP's speeches with sort + year + sitting-type filters and offset paging. All from
+already-ingested `member_speeches` — no migration, no re-ingest. The browse list rides the
+existing `/api/member-speeches` route (non-empty `q` → search; else browse). The "type" filter is
+`sitting_type` (Istung/Infotund/…), not a per-speech kõne/küsimus label — the verbatim feed
+carries no per-speech type, only aggregate `member_speech_stats` counts do (infotund ≈ question
+time covers the useful split). Word totals draw from a smaller, ≥60-char member-attributed
+population than the API count tiles, so they don't reconcile, by design.
+**Why:** User wanted speeches browsable (not just searchable) and the v0.5-deferred word/cadence
+metrics — which became free once the `0012` verbatim ingest landed the speech text the original
+`0011` deferral note assumed was missing.
+**Touched:** `apps/web/lib/speeches.ts` (+`SpeechMeta`/`SpeechBrowseItem` types, `speechBrowseOrderBy`
+sort whitelist), `lib/speeches-queries.ts` (+`getMemberSpeechMeta`, `browseMemberSpeeches`),
+`app/api/member-speeches/route.ts` (browse mode), `components/member/speech-panel.tsx` (tiles +
+cadence + wiring), new `components/member/speech-browse.tsx`, `messages/{et,en}.json`,
+`lib/speeches.test.ts` (sort-whitelist injection guard). Verified: tsc + next lint + 52 vitest green.
+
 ## 2026-06-22 — Removed committee "cohesion" UI everywhere (misleading) — LIVE IN PROD
 
 **What:** Deleted all committee-cohesion UI. The metric proxied committee discipline as the
