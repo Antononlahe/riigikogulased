@@ -7,6 +7,29 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**Election results — personal votes & mandate type (2026-06-23). CODE DONE; prod migrate +
+ingest + deploy PENDING (gated).** A new data axis: how each MP won their 2023 seat. Source is
+the RIA election open data (`opendata.valimised.ee/api/RK_2023/{RESULTS,ELECTION_CANDIDATES}.xml`
+— two static XMLs, no auth), chosen over kuluhüvitised + asset-declarations after a 3-way
+parallel POC (kuluhüvitised = no API / annual / name-only join → parked; declarations =
+eID-gated, no bulk access → dropped; both documented under `apps/scraper/poc/`). Migration
+**`0015_election.sql`** (`member_election_results`: member_id, election_code, party_code,
+district_number, personal_votes, quota, mandate_type CHECK PERSONAL/DISTRICT/COMPENSATION;
+additive, no view/discipline change). Scraper: `election_cache.py` (committed raw-XML archive
+under `cache/election/RK_2023/`), `election_parse.py` (pure, parses national block ehakCode 0000),
+`db.member_name_dob_to_id` + `member_unique_dob_to_id` (guarded DOB fallback for
+nickname/surname-change cases — unique-DOB only, zero false-match risk), `upsert_election_result`,
+the **`election` CLI command** (fetch+cache+match+upsert) + rebuild replay. Web: `election-queries.ts`,
+`components/member/election-panel.tsx` (sidebar card: personal votes + mandate badge + note),
+page wiring, et+en i18n. **Match validated read-only against prod: 87/101 elected MPs matched**
+(85 by name+DOB, +2 by DOB fallback: Kalev/Grigore-Kalev Stoicescu, Luisa Värk/Rõivas); the 14
+unmatched are all ministers/MEPs who won a seat but never sat (Kaja Kallas, Michal, Tsahkna,
+Terras, Toom, …) — correctly excluded, no false matches. Verified: scraper ruff + 75 tests; web
+tsc + lint + 52 tests green. **Remaining (gated, user-run): `migrate` + `election` against prod,
+then `vercel --prod`.** `election` is not wired into the daily cron (frozen per-term data). See
+progress-log 2026-06-23.
+
+
 **Member-page speech panel — word counts + cadence + browse list (2026-06-22).** Three
 additive bits on the member page's "Sõnavõtud" panel, all from already-ingested data (no
 migration, no re-ingest): (1) two **word-count tiles** (total + avg/speech) from

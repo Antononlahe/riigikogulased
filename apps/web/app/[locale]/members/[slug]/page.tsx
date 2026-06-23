@@ -10,6 +10,8 @@ import { AffiliationsPanel } from "@/components/member/affiliations-panel";
 import { MemberVotes } from "@/components/member/member-votes";
 import { SpeechPanel } from "@/components/member/speech-panel";
 import { getMemberSpeechStats } from "@/lib/speeches-queries";
+import { ElectionPanel } from "@/components/member/election-panel";
+import { getMemberElection } from "@/lib/election-queries";
 
 export const revalidate = 3600;
 
@@ -49,6 +51,14 @@ export default async function MemberPage({
     // leave empty
   }
 
+  // Election result panel; degrades gracefully if absent (former MP / not yet ingested).
+  let election: Awaited<ReturnType<typeof getMemberElection>> = null;
+  try {
+    election = await getMemberElection(d.member.memberId);
+  } catch {
+    // leave empty
+  }
+
   return (
     <>
       <SiteHeader />
@@ -67,11 +77,14 @@ export default async function MemberPage({
             {speechStats && <SpeechPanel stats={speechStats} memberId={d.member.memberId} />}
             <PartyBreakdown rows={d.breakdown} />
           </div>
-          <AffiliationsPanel
-            member={d.member}
-            committees={d.committees}
-            districts={d.districts}
-          />
+          <div className="space-y-6">
+            {election && <ElectionPanel election={election} />}
+            <AffiliationsPanel
+              member={d.member}
+              committees={d.committees}
+              districts={d.districts}
+            />
+          </div>
         </div>
       </main>
     </>

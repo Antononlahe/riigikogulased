@@ -533,6 +533,72 @@ def update_speech_meta(conn: psycopg.Connection, rows: list[tuple]) -> None:
         )
 
 
+def member_name_dob_to_id(conn: psycopg.Connection) -> dict[tuple[str, str], int]:
+    """Map (normalized full name, ISO DOB) -> member id, for name+DOB external matching.
+
+    Normalization mirrors election_parse.normalize_name (NFC + casefold + collapsed
+    whitespace) so ALL-CAPS election names match title-case member names.
+    """
+    import re
+    import unicodedata
+
+    def norm(s: str) -> str:
+        return re.sub(r"\s+", " ", unicodedata.normalize("NFC", (s or "").strip().casefold()))
+
+    with conn.cursor() as cur:
+        cur.execute(
+            "SELECT id, full_name, date_of_birth FROM members WHERE date_of_birth IS NOT NULL"
+        )
+        return {
+            (norm(r["full_name"]), r["date_of_birth"].isoformat()): r["id"]
+            for r in cur.fetchall()
+        }
+
+
+def member_unique_dob_to_id(conn: psycopg.Connection) -> dict[str, int]:
+    """Map ISO DOB -> member id, but ONLY for DOBs held by exactly one member.
+
+    A safe fallback for election rows whose name differs from ours (nickname / surname
+    change): a globally-unique DOB can't false-match. Ambiguous DOBs (shared birthdays) are
+    omitted, so they never produce a wrong link.
+    """
+    with conn.cursor() as cur:
+        cur.execute(
+            "SELECT date_of_birth FROM members WHERE date_of_birth IS NOT NULL "
+            "GROUP BY date_of_birth HAVING count(*) = 1"
+        )
+        unique = {r["date_of_birth"].isoformat() for r in cur.fetchall()}
+        cur.execute(
+            "SELECT id, date_of_birth FROM members WHERE date_of_birth IS NOT NULL"
+        )
+        return {
+            r["date_of_birth"].isoformat(): r["id"]
+            for r in cur.fetchall()
+            if r["date_of_birth"].isoformat() in unique
+        }
+
+
+def upsert_election_result(
+    conn: psycopg.Connection, *, member_id: int, election_code: str, party_code: str | None,
+    district_number: int | None, personal_votes: int, quota: str | None, mandate_type: str,
+) -> None:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO member_election_results
+              (member_id, election_code, party_code, district_number,
+               personal_votes, quota, mandate_type)
+            VALUES (%s, %s, %s, %s, %s, %s, %s)
+            ON CONFLICT (member_id, election_code) DO UPDATE SET
+              party_code=EXCLUDED.party_code, district_number=EXCLUDED.district_number,
+              personal_votes=EXCLUDED.personal_votes, quota=EXCLUDED.quota,
+              mandate_type=EXCLUDED.mandate_type
+            """,
+            (member_id, election_code, party_code, district_number,
+             personal_votes, quota, mandate_type),
+        )
+
+
 def member_id_by_riigikogu_id(conn: psycopg.Connection, riigikogu_id: str) -> int | None:
     """Resolve a member's surrogate id from their API uuid, or None if not in the DB."""
     with conn.cursor() as cur:

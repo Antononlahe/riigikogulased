@@ -18,6 +18,8 @@ from parteidistsipliin_scraper.ariregister_models import (
     memberships_to_party_terms,
 )
 from parteidistsipliin_scraper.ariregister_parse import parse_member_history, parse_search_results
+from parteidistsipliin_scraper.election_cache import ElectionCache
+from parteidistsipliin_scraper.election_parse import parse_election
 from parteidistsipliin_scraper.enrich import photo_download_url
 from parteidistsipliin_scraper.eurovoc_cache import EurovocCache
 from parteidistsipliin_scraper.eurovoc_models import (
@@ -172,6 +174,13 @@ def rebuild() -> None:
                     et = parse_draft_descriptor_edids(raw)
                     if et:
                         write_volume_topics(conn, draft_uuid, et)
+        el_cache = ElectionCache()
+        for ec_dir in sorted(el_cache.dir.glob("RK_*")) if el_cache.dir.exists() else []:
+            code = ec_dir.name
+            results_xml = el_cache.read(code, "RESULTS")
+            cands_xml = el_cache.read(code, "ELECTION_CANDIDATES")
+            if results_xml and cands_xml:
+                _write_election_results(conn, parse_election(results_xml, cands_xml), code)
         speech_raw = cache.read_speeches()
         if speech_raw:
             _ingest_speech_stats(conn, speech_raw, _TERM_START, None)
@@ -508,3 +517,69 @@ async def _refresh_draft_outcomes(refresh: bool) -> None:
                 n += 1
             conn.commit()
     typer.echo(f"Draft outcomes: {n} bills ({fetched} fetched, rest from cache).")
+
+
+_ELECTION_FILES = ("RESULTS", "ELECTION_CANDIDATES")
+
+
+def _write_election_results(conn, results, election_code: str) -> tuple[int, int]:
+    """Match election rows to members by name+DOB and upsert. Returns (matched, unmatched).
+
+    Primary key is name+DOB; a unique-DOB fallback catches MPs whose election name differs
+    from ours (nickname, surname change) without risking a false match (see db helper).
+    """
+    by_name_dob = db.member_name_dob_to_id(conn)
+    by_unique_dob = db.member_unique_dob_to_id(conn)
+    matched = unmatched = 0
+    for r in results:
+        mid = by_name_dob.get((r.norm_name, r.dob)) if r.dob else None
+        if mid is None and r.dob:
+            mid = by_unique_dob.get(r.dob)
+        if mid is None:
+            unmatched += 1
+            continue
+        db.upsert_election_result(
+            conn, member_id=mid, election_code=election_code, party_code=r.party_code,
+            district_number=r.district_number, personal_votes=r.personal_votes,
+            quota=r.quota, mandate_type=r.mandate_type,
+        )
+        matched += 1
+    return matched, unmatched
+
+
+@app.command()
+def election(
+    election_code: str = typer.Option("RK_2023", help="RIA election code, e.g. RK_2023."),
+    refresh: bool = typer.Option(False, "--refresh", help="Re-fetch even if cached."),
+) -> None:
+    """Ingest per-MP personal votes + mandate type from the RIA election open data."""
+    asyncio.run(_refresh_election(election_code, refresh))
+
+
+async def _refresh_election(election_code: str, refresh: bool) -> None:
+    import httpx
+
+    cache = ElectionCache()
+    base = f"https://opendata.valimised.ee/api/{election_code}"
+    ua = (
+        "parteidistsipliin-scraper/0.2 "
+        "(+https://github.com/antononlahe/parteidistsipliin; RIA avaandmed)"
+    )
+    async with httpx.AsyncClient(timeout=30.0, headers={"User-Agent": ua}) as client:
+        for i, file in enumerate(_ELECTION_FILES):
+            if refresh or cache.read(election_code, file) is None:
+                if i:
+                    await asyncio.sleep(1.0)  # 1 req/s politeness
+                resp = await client.get(f"{base}/{file}.xml")
+                resp.raise_for_status()
+                cache.write(election_code, file, resp.text)
+    results = parse_election(
+        cache.read(election_code, "RESULTS"), cache.read(election_code, "ELECTION_CANDIDATES")
+    )
+    with db.connect() as conn:
+        matched, unmatched = _write_election_results(conn, results, election_code)
+        conn.commit()
+    typer.echo(
+        f"Election {election_code}: {len(results)} elected, "
+        f"matched {matched}, unmatched {unmatched}."
+    )

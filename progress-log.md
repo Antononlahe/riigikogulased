@@ -13,6 +13,31 @@ Entry format:
 
 ---
 
+## 2026-06-23 — Election results: per-MP personal votes + mandate type (code done; prod pending)
+**What:** New additive feature surfacing how each MP won their 2023 seat — personal votes,
+electoral district, and mandate type (PERSONAL / DISTRICT / COMPENSATION). Source: RIA election
+open data (`opendata.valimised.ee/api/RK_2023/RESULTS.xml` + `ELECTION_CANDIDATES.xml`, two static
+no-auth XMLs, archived to a committed cache). Migration `0015_election.sql` adds
+`member_election_results` (one row per member+election; additive, no view/discipline change).
+Scraper: `election_cache.py`, `election_parse.py` (pure, national block ehakCode 0000),
+`db.member_name_dob_to_id` + `member_unique_dob_to_id` (guarded unique-DOB fallback) +
+`upsert_election_result`, `election` CLI command + rebuild replay. Web: `election-queries.ts`,
+`election-panel.tsx` (sidebar card), member-page wiring, et+en i18n. Chosen over kuluhüvitised
+(no API, annual, name-only join → parked) and asset declarations (eID-gated, no bulk access →
+dropped) after a 3-way parallel POC; research kept under `apps/scraper/poc/{kuluhyvitised,declarations}/`.
+**Why:** User asked to look beyond the Riigikogu API for other public MP data; this is the
+cleanest high-value source — a genuinely new axis (earned mandate vs party-list ride-in) next to
+voting discipline, with no scoring change.
+**Validation:** read-only dry-run against prod matched 87/101 elected MPs (85 name+DOB, +2 DOB
+fallback: Stoicescu, Värk/Rõivas); 14 unmatched are ministers/MEPs who never sat (correct, no false
+matches). Scraper ruff + 75 tests; web tsc + lint + 52 tests green. **Not yet applied to prod** —
+`migrate` + `election` ingest + `vercel --prod` deploy are pending (prod schema change is
+classifier-gated). `election` is intentionally not in the daily cron (frozen per-term data).
+**Touched:** `packages/db/migrations/0015_election.sql`; `apps/scraper/src/parteidistsipliin_scraper/`
+`{election_cache,election_parse,db,cli}.py`; `apps/scraper/cache/election/RK_2023/*.xml`;
+`apps/scraper/tests/test_election_parse.py`; `apps/web/lib/election-queries.ts`,
+`components/member/election-panel.tsx`, `app/[locale]/members/[slug]/page.tsx`, `messages/{et,en}.json`.
+
 ## 2026-06-22 — Member speech panel: word counts, cadence, filterable browse list
 **What:** Added to the member-page "Sõnavõtud" panel: two word-count tiles (total + avg/speech),
 a monthly cadence CSS bar strip (zero-filled month axis), and a collapsed/scrollable browse list
