@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "permissions": {
+    "allow": [
+      "Bash(cd apps/scraper && uv run parteidistsipliin-scraper migrate)",
+      "Bash(uv run parteidistsipliin-scraper migrate:*)"
+    ]
+  }
+}

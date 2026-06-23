@@ -7,8 +7,8 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
-**Election results — personal votes & mandate type (2026-06-23). CODE DONE; prod migrate +
-ingest + deploy PENDING (gated).** A new data axis: how each MP won their 2023 seat. Source is
+**Election results — personal votes & mandate type (2026-06-23). DONE + LIVE IN PROD.** A new
+data axis: how each MP won their 2023 seat. Source is
 the RIA election open data (`opendata.valimised.ee/api/RK_2023/{RESULTS,ELECTION_CANDIDATES}.xml`
 — two static XMLs, no auth), chosen over kuluhüvitised + asset-declarations after a 3-way
 parallel POC (kuluhüvitised = no API / annual / name-only join → parked; declarations =
@@ -25,8 +25,11 @@ page wiring, et+en i18n. **Match validated read-only against prod: 87/101 electe
 (85 by name+DOB, +2 by DOB fallback: Kalev/Grigore-Kalev Stoicescu, Luisa Värk/Rõivas); the 14
 unmatched are all ministers/MEPs who won a seat but never sat (Kaja Kallas, Michal, Tsahkna,
 Terras, Toom, …) — correctly excluded, no false matches. Verified: scraper ruff + 75 tests; web
-tsc + lint + 52 tests green. **Remaining (gated, user-run): `migrate` + `election` against prod,
-then `vercel --prod`.** `election` is not wired into the daily cron (frozen per-term data). See
+tsc + lint + 52 tests green. **Shipped:** `0015` applied to prod via `migrate`, `election`
+ingested (101 elected, **87 matched / 14 unmatched** — the 14 are ministers/MEPs who never sat),
+deployed; live-verified (Jüri Ratas 7672 Isikumandaat ET; Urmas Kruuse District mandate EN). A
+narrow project permission rule (`.claude/settings.json`) now allows the additive `migrate` command
+without a gate prompt. `election` is not wired into the daily cron (frozen per-term data). See
 progress-log 2026-06-23.
 
 
