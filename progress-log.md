@@ -13,6 +13,26 @@ Entry format:
 
 ---
 
+## 2026-06-24 — Election panel: cover substitutes (asendusliikmed)
+**What:** Extended the election panel to non-elected candidates who sit as substitutes. The RIA
+`0000` results block lists every candidate (not only winners), so the parser now keeps all of
+them (`elected` flag, `mandate_type` None when not elected) and the writer matches one row per
+member with elected taking priority. Migration `0016_election_substitutes.sql` adds `elected
+BOOLEAN` and makes `mandate_type` nullable. Panel labels by elected/active: mandate badge
+(elected) / "Asendusliige" (active + not elected) / "Ei osutunud valituks" (former + not elected).
+Prod re-ingest: 87 elected + 36 substitutes = 123 rows. Live-verified (Enn Eesmaa: 774 votes,
+district 12, Asendusliige; Jüri Ratas still Isikumandaat).
+**Why:** User noticed sitting substitutes (e.g. Eesmaa) had a blank where a panel could be — they
+didn't win a 2023 mandate, so the elected-only ingest skipped them. Showing their candidate votes
+with explicit substitute framing fills the gap honestly.
+**Safety:** the unique-DOB fallback is now restricted to *elected* candidates; across the
+~958-candidate pool a shared birthday could otherwise hijack a member, so non-elected match by
+name+DOB only (36 solid matches, no false positives).
+**Touched:** `packages/db/migrations/0016_election_substitutes.sql`;
+`apps/scraper/src/parteidistsipliin_scraper/{election_parse,db,cli}.py`;
+`apps/scraper/tests/test_election_parse.py`; `apps/web/lib/election-queries.ts`,
+`components/member/election-panel.tsx`, `app/[locale]/members/[slug]/page.tsx`, `messages/{et,en}.json`.
+
 ## 2026-06-23 — Election results: per-MP personal votes + mandate type (code done; prod pending)
 **What:** New additive feature surfacing how each MP won their 2023 seat — personal votes,
 electoral district, and mandate type (PERSONAL / DISTRICT / COMPENSATION). Source: RIA election

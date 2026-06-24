@@ -152,12 +152,16 @@
       "mandate": {
         "personal": "Isikumandaat",
         "district": "Ringkonnamandaat",
-        "compensation": "Kompensatsioonimandaat"
+        "compensation": "Kompensatsioonimandaat",
+        "substitute": "Asendusliige",
+        "notElected": "Ei osutunud valituks"
       },
       "mandateNote": {
         "personal": "Kogus ise täiskvoodi jagu hääli.",
         "district": "Valiti ringkonna häältega.",
-        "compensation": "Pääses parlamenti erakonna nimekirja kaudu."
+        "compensation": "Pääses parlamenti erakonna nimekirja kaudu.",
+        "substitute": "Ei saanud 2023. aastal otsemandaati; asus Riigikokku asendusliikmena.",
+        "notElected": "Kandideeris 2023. aastal, kuid ei osutunud valituks."
       }
     },
     "born": "Sündinud",

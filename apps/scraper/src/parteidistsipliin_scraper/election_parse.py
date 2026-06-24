@@ -28,7 +28,8 @@ class ElectionResult:
     district_number: int | None
     personal_votes: int
     quota: str | None  # kept as string; DB column is NUMERIC
-    mandate_type: str  # PERSONAL | DISTRICT | COMPENSATION
+    elected: bool
+    mandate_type: str | None  # PERSONAL | DISTRICT | COMPENSATION; None if not elected
 
     @property
     def norm_name(self) -> str:
@@ -77,11 +78,11 @@ def _int_or_none(s: str | None) -> int | None:
         return None
 
 
-def _candidate_result(c: ET.Element, party_code: str | None, dob_by_appid: dict[str, str]):
+def _candidate_result(
+    c: ET.Element, party_code: str | None, dob_by_appid: dict[str, str]
+) -> ElectionResult:
     appid = c.findtext("applicationId")
     mandate = c.findtext("mandateType")
-    if mandate not in MANDATE_TYPES:
-        return None
     return ElectionResult(
         forename=c.findtext("forename") or "",
         surname=c.findtext("surname") or "",
@@ -90,12 +91,16 @@ def _candidate_result(c: ET.Element, party_code: str | None, dob_by_appid: dict[
         district_number=_int_or_none(c.findtext("districtNumber")),
         personal_votes=int(c.findtext("votes") or 0),
         quota=c.findtext("quota"),
-        mandate_type=mandate,
+        elected=c.findtext("elected") == "true",
+        mandate_type=mandate if mandate in MANDATE_TYPES else None,
     )
 
 
-def parse_elected(results_xml: str, dob_by_appid: dict[str, str]) -> list[ElectionResult]:
-    """One ElectionResult per elected candidate in the national block (ehakCode 0000)."""
+def parse_candidates(results_xml: str, dob_by_appid: dict[str, str]) -> list[ElectionResult]:
+    """One ElectionResult per candidate in the national block (ehakCode 0000) -- BOTH elected
+    and not. The 0000 block lists every candidate; non-elected ones carry their personal votes
+    but no mandateType. The caller matches to members (so non-MPs are dropped) and decides which
+    to keep."""
     out: list[ElectionResult] = []
     for er in _root(results_xml).iter("electionResult"):
         if er.findtext("ehakCode") != "0000":
@@ -108,22 +113,14 @@ def parse_elected(results_xml: str, dob_by_appid: dict[str, str]) -> list[Electi
             if cs is None:
                 continue
             for c in cs.findall("candidate"):
-                if c.findtext("elected") != "true":
-                    continue
-                r = _candidate_result(c, party.findtext("code"), dob_by_appid)
-                if r is not None:
-                    out.append(r)
+                out.append(_candidate_result(c, party.findtext("code"), dob_by_appid))
         inds = er.find("independentCandidates")
         if inds is not None:
             for c in inds.findall("independentCandidate"):
-                if c.findtext("elected") != "true":
-                    continue
-                r = _candidate_result(c, None, dob_by_appid)
-                if r is not None:
-                    out.append(r)
+                out.append(_candidate_result(c, None, dob_by_appid))
     return out
 
 
 def parse_election(results_xml: str, candidates_xml: str) -> list[ElectionResult]:
-    """Full parse: elected MPs with personal votes, mandate type, and DOB."""
-    return parse_elected(results_xml, parse_dob_map(candidates_xml))
+    """Full parse: every candidate (elected + not) with personal votes, mandate type, and DOB."""
+    return parse_candidates(results_xml, parse_dob_map(candidates_xml))

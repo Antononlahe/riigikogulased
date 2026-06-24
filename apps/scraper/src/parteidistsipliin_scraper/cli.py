@@ -522,29 +522,36 @@ async def _refresh_draft_outcomes(refresh: bool) -> None:
 _ELECTION_FILES = ("RESULTS", "ELECTION_CANDIDATES")
 
 
-def _write_election_results(conn, results, election_code: str) -> tuple[int, int]:
-    """Match election rows to members by name+DOB and upsert. Returns (matched, unmatched).
+def _write_election_results(conn, candidates, election_code: str) -> tuple[int, int]:
+    """Match candidates to members by name+DOB and upsert one row per member. Returns
+    (elected_matched, substitute_matched).
 
-    Primary key is name+DOB; a unique-DOB fallback catches MPs whose election name differs
-    from ours (nickname, surname change) without risking a false match (see db helper).
+    Elected candidates win priority (an MP elected outright is never recorded as a substitute)
+    and may use a unique-DOB fallback for name mismatches (nickname / surname change) -- safe
+    because the elected set is small. Non-elected candidates match by name+DOB ONLY: the full
+    candidate pool is ~1000, so a DOB fallback there could hijack a member via a shared birthday.
     """
     by_name_dob = db.member_name_dob_to_id(conn)
     by_unique_dob = db.member_unique_dob_to_id(conn)
-    matched = unmatched = 0
-    for r in results:
-        mid = by_name_dob.get((r.norm_name, r.dob)) if r.dob else None
-        if mid is None and r.dob:
-            mid = by_unique_dob.get(r.dob)
-        if mid is None:
-            unmatched += 1
+    chosen: dict[int, object] = {}
+    # Elected first so they take precedence over any same-member non-elected candidacy.
+    for r in sorted(candidates, key=lambda r: not r.elected):
+        if not r.dob:
             continue
+        mid = by_name_dob.get((r.norm_name, r.dob))
+        if mid is None and r.elected:
+            mid = by_unique_dob.get(r.dob)
+        if mid is None or mid in chosen:
+            continue
+        chosen[mid] = r
+    for mid, r in chosen.items():
         db.upsert_election_result(
             conn, member_id=mid, election_code=election_code, party_code=r.party_code,
             district_number=r.district_number, personal_votes=r.personal_votes,
-            quota=r.quota, mandate_type=r.mandate_type,
+            quota=r.quota, elected=r.elected, mandate_type=r.mandate_type,
         )
-        matched += 1
-    return matched, unmatched
+    elected = sum(1 for r in chosen.values() if r.elected)
+    return elected, len(chosen) - elected
 
 
 @app.command()
@@ -577,9 +584,9 @@ async def _refresh_election(election_code: str, refresh: bool) -> None:
         cache.read(election_code, "RESULTS"), cache.read(election_code, "ELECTION_CANDIDATES")
     )
     with db.connect() as conn:
-        matched, unmatched = _write_election_results(conn, results, election_code)
+        elected, substitutes = _write_election_results(conn, results, election_code)
         conn.commit()
     typer.echo(
-        f"Election {election_code}: {len(results)} elected, "
-        f"matched {matched}, unmatched {unmatched}."
+        f"Election {election_code}: {len(results)} candidates parsed; "
+        f"matched {elected} elected + {substitutes} substitutes to members."
     )

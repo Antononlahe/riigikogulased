@@ -78,7 +78,7 @@ export default async function MemberPage({
             <PartyBreakdown rows={d.breakdown} />
           </div>
           <div className="space-y-6">
-            {election && <ElectionPanel election={election} />}
+            {election && <ElectionPanel election={election} active={d.member.active} />}
             <AffiliationsPanel
               member={d.member}
               committees={d.committees}

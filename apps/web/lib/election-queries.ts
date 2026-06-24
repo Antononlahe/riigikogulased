@@ -7,14 +7,15 @@ export type MemberElection = {
   partyCode: string | null;
   districtNumber: number | null;
   personalVotes: number;
-  mandateType: "PERSONAL" | "DISTRICT" | "COMPENSATION";
+  elected: boolean;
+  mandateType: "PERSONAL" | "DISTRICT" | "COMPENSATION" | null;
 };
 
 export async function getMemberElection(memberId: number): Promise<MemberElection | null> {
   const { rows } = await pool.query(
     `SELECT election_code AS "electionCode", party_code AS "partyCode",
             district_number AS "districtNumber", personal_votes AS "personalVotes",
-            mandate_type AS "mandateType"
+            elected, mandate_type AS "mandateType"
        FROM member_election_results
       WHERE member_id = $1
       ORDER BY election_code DESC

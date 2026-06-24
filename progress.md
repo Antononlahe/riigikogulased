@@ -7,6 +7,17 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**Election results — substitutes added (2026-06-24, LIVE).** The panel now also covers
+**non-elected** candidates who sit as **asendusliikmed (substitutes)** — e.g. Enn Eesmaa (774
+votes, district 12, not elected, active → "Asendusliige"). The `0000` results block lists every
+candidate, not just winners, so the parser now keeps all of them; the writer matches one row per
+member, **elected taking priority**, with the unique-DOB fallback restricted to elected only
+(the ~958-candidate pool would otherwise let a shared birthday hijack a member). Migration
+`0016_election_substitutes.sql` adds `elected BOOLEAN` + makes `mandate_type` nullable. Prod:
+**87 elected + 36 substitutes** (123 rows). Panel labels by elected/active: mandate badge (elected)
+/ Asendusliige (active, not elected) / Ei osutunud valituks (former, not elected). Live-verified
+ET+EN. See progress-log 2026-06-24.
+
 **Election results — personal votes & mandate type (2026-06-23). DONE + LIVE IN PROD.** A new
 data axis: how each MP won their 2023 seat. Source is
 the RIA election open data (`opendata.valimised.ee/api/RK_2023/{RESULTS,ELECTION_CANDIDATES}.xml`

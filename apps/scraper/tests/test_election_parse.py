@@ -29,7 +29,7 @@ RESULTS_XML = """<?xml version="1.0" encoding="UTF-8"?>
           <candidate>
             <applicationId>20</applicationId><forename>URMAS</forename><surname>REINSALU</surname>
             <elected>false</elected><votes>4509</votes><districtNumber>4</districtNumber>
-            <mandateType>DISTRICT</mandateType><quota>0.6833</quota>
+            <quota>0.6833</quota>
           </candidate>
         </candidates>
       </party>
@@ -58,20 +58,23 @@ def test_parse_dob_map():
     }
 
 
-def test_parse_election_only_elected_national_block():
+def test_parse_election_all_candidates_national_block():
     rows = parse_election(RESULTS_XML, CANDIDATES_XML)
-    # Reinsalu not elected -> dropped; district block (0001) ignored -> Kallas appears once.
-    assert [(r.surname, r.mandate_type) for r in rows] == [
-        ("KALLAS", "PERSONAL"),
-        ("MARK", "COMPENSATION"),
-    ]
-    kallas = rows[0]
+    # All 0000 candidates kept (elected + not); district block (0001) ignored.
+    by_surname = {r.surname: r for r in rows}
+    assert set(by_surname) == {"KALLAS", "REINSALU", "MARK"}
+    kallas = by_surname["KALLAS"]
+    assert kallas.elected is True and kallas.mandate_type == "PERSONAL"
     assert kallas.personal_votes == 31816
     assert kallas.district_number == 4
     assert kallas.party_code == "REF"
     assert kallas.dob == "1977-06-18"
     assert kallas.norm_name == "kaja kallas"
-    assert rows[1].party_code is None  # independent
+    # Reinsalu ran but was not elected -> kept, no mandate.
+    reinsalu = by_surname["REINSALU"]
+    assert reinsalu.elected is False and reinsalu.mandate_type is None
+    assert reinsalu.personal_votes == 4509
+    assert by_surname["MARK"].party_code is None  # independent, elected
 
 
 def test_normalize_name_casefold_and_whitespace():

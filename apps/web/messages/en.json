@@ -152,12 +152,16 @@
       "mandate": {
         "personal": "Personal mandate",
         "district": "District mandate",
-        "compensation": "Compensation mandate"
+        "compensation": "Compensation mandate",
+        "substitute": "Substitute member",
+        "notElected": "Not elected"
       },
       "mandateNote": {
         "personal": "Won a full quota of votes outright.",
         "district": "Elected on district votes.",
-        "compensation": "Entered parliament via the party list."
+        "compensation": "Entered parliament via the party list.",
+        "substitute": "Did not win a 2023 mandate; entered the Riigikogu as a substitute.",
+        "notElected": "Ran in 2023 but was not elected."
       }
     },
     "born": "Born",

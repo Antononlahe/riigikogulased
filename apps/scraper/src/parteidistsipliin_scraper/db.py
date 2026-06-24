@@ -580,22 +580,23 @@ def member_unique_dob_to_id(conn: psycopg.Connection) -> dict[str, int]:
 
 def upsert_election_result(
     conn: psycopg.Connection, *, member_id: int, election_code: str, party_code: str | None,
-    district_number: int | None, personal_votes: int, quota: str | None, mandate_type: str,
+    district_number: int | None, personal_votes: int, quota: str | None,
+    elected: bool, mandate_type: str | None,
 ) -> None:
     with conn.cursor() as cur:
         cur.execute(
             """
             INSERT INTO member_election_results
               (member_id, election_code, party_code, district_number,
-               personal_votes, quota, mandate_type)
-            VALUES (%s, %s, %s, %s, %s, %s, %s)
+               personal_votes, quota, elected, mandate_type)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
             ON CONFLICT (member_id, election_code) DO UPDATE SET
               party_code=EXCLUDED.party_code, district_number=EXCLUDED.district_number,
               personal_votes=EXCLUDED.personal_votes, quota=EXCLUDED.quota,
-              mandate_type=EXCLUDED.mandate_type
+              elected=EXCLUDED.elected, mandate_type=EXCLUDED.mandate_type
             """,
             (member_id, election_code, party_code, district_number,
-             personal_votes, quota, mandate_type),
+             personal_votes, quota, elected, mandate_type),
         )
 
 
