@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+from collections import Counter
 from datetime import date, datetime, timedelta
 
 import typer
@@ -416,6 +417,13 @@ def _ingest_verbatims(conn, sittings: list[dict], *, no_lemma: bool, chunk: int 
     speeches a remote per-row insert is dominated by ~100ms RTT each.
     """
     name_to_id = db.member_name_to_id(conn)
+    # Members who appear in older stenograms under a previous surname (marriage/divorce). The
+    # verbatim feed keys speeches by display name, so the old name must alias to the current
+    # member or those speeches are dropped. ponytail: hardcoded -- add a line if another MP
+    # changes name. Luisa Rõivas -> Luisa Värk (divorced 2025).
+    for old, current in {"Luisa Rõivas": "Luisa Värk"}.items():
+        if current in name_to_id:
+            name_to_id.setdefault(old, name_to_id[current])
     batch: list[tuple] = []
     n = 0
     for sitting in sittings:
@@ -475,14 +483,36 @@ async def _fetch_verbatims(cache: VerbatimCache, start: date, end: date) -> list
     return sittings
 
 
+def _year_windows(start: date, end: date):
+    """Yield contiguous, non-overlapping ~1-year [lo, hi] windows covering [start, end].
+
+    The speech-stats endpoint returns 418 ("teapot") for ranges beyond ~2 years, so the
+    term-long query has to be chunked. Windows don't overlap, so per-member counts sum cleanly.
+    """
+    lo = start
+    while lo <= end:
+        hi = min(lo + timedelta(days=364), end)
+        yield lo, hi
+        lo = hi + timedelta(days=1)
+
+
 async def _refresh_speeches() -> None:
     cache = ApiVoteCache()
     end = date.today()
+    merged: dict[str, dict] = {}
     async with ApiClient() as client:
-        raw = await client.get_json(
-            "/api/statistics/speeches/plenary",
-            {"startDate": _TERM_START.isoformat(), "endDate": end.isoformat(), "lang": "et"},
-        )
+        for lo, hi in _year_windows(_TERM_START, end):
+            for m in await client.get_json(
+                "/api/statistics/speeches/plenary",
+                {"startDate": lo.isoformat(), "endDate": hi.isoformat(), "lang": "et"},
+            ):
+                acc = merged.setdefault(
+                    m["uuid"],
+                    {"uuid": m["uuid"], "speeches": 0, "questions": 0, "procedural": 0, "total": 0},
+                )
+                for k in ("speeches", "questions", "procedural", "total"):
+                    acc[k] += m.get(k) or 0
+    raw = list(merged.values())
     cache.write_speeches(raw)
     with db.connect() as conn:
         n = _ingest_speech_stats(conn, raw, _TERM_START, end)
@@ -533,13 +563,20 @@ def _write_election_results(conn, candidates, election_code: str) -> tuple[int, 
     """
     by_name_dob = db.member_name_dob_to_id(conn)
     by_unique_dob = db.member_unique_dob_to_id(conn)
+    # How many candidates share each DOB -- a DOB unique in the whole candidate pool can't
+    # hijack the wrong member, so it's a safe fallback key even for non-elected candidates.
+    cand_dob_counts = Counter(r.dob for r in candidates if r.dob)
     chosen: dict[int, object] = {}
     # Elected first so they take precedence over any same-member non-elected candidacy.
     for r in sorted(candidates, key=lambda r: not r.elected):
         if not r.dob:
             continue
         mid = by_name_dob.get((r.norm_name, r.dob))
-        if mid is None and r.elected:
+        # DOB fallback for name mismatches (nickname / surname change, e.g. "Raul-Stig Rästa"
+        # the member knows as "Stig Rästa"). Safe when the DOB is unique among members; for
+        # non-elected candidates also require it unique among candidates (the pool is ~1000, so
+        # a shared birthday could otherwise mis-map). by_unique_dob already enforces member side.
+        if mid is None and (r.elected or cand_dob_counts[r.dob] == 1):
             mid = by_unique_dob.get(r.dob)
         if mid is None or mid in chosen:
             continue
@@ -550,6 +587,17 @@ def _write_election_results(conn, candidates, election_code: str) -> tuple[int, 
             district_number=r.district_number, personal_votes=r.personal_votes,
             quota=r.quota, elected=r.elected, mandate_type=r.mandate_type,
         )
+    # Elected candidates who matched NO member never took their seat (declined to stay minister/
+    # MEP/mayor -- e.g. Kõlvart). Persist them as election_candidates so the site can show
+    # "would've been in but isn't". Non-elected (the low-vote long tail) are not stored.
+    matched = set(chosen.values())
+    for r in candidates:
+        if r.elected and r not in matched and r.app_id:
+            db.upsert_election_candidate(
+                conn, election_code=election_code, app_id=int(r.app_id), forename=r.forename,
+                surname=r.surname, party_code=r.party_code, district_number=r.district_number,
+                personal_votes=r.personal_votes, mandate_type=r.mandate_type,
+            )
     elected = sum(1 for r in chosen.values() if r.elected)
     return elected, len(chosen) - elected
 

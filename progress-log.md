@@ -22,6 +22,15 @@ commands existed but nothing invoked them daily. (The two June 15–16 red runs 
 transient API ConnectErrors.)
 **Touched:** `.github/workflows/scrape.yml`.
 
+## 2026-06-25 — Fix `speeches`: chunk the term query under the API's ~2-year cap
+**What:** `_refresh_speeches` queried `/api/statistics/speeches/plenary` for the whole term in
+one shot; the endpoint now returns 418 for ranges beyond ~2 years (term is ~38 months), so the
+command had been failing. Now fetches in contiguous ~1-year windows (`_year_windows`) and sums
+per-member counts before the upsert. Cache/ingest shape unchanged (so `rebuild` still works).
+**Why:** First scheduled run of the new speeches step 418'd; the command had silently outgrown
+the endpoint's window limit. Verified each ≤2y window returns 200 against the live API.
+**Touched:** `apps/scraper/src/parteidistsipliin_scraper/cli.py`, `tests/test_cli.py`.
+
 ## 2026-06-25 — Luisa Värk speech backfill applied + Stig Rästa election match fixed (LIVE)
 **What:** Two name-mismatch data fixes landed in prod.
 (1) **Luisa Värk speeches** — backfilled her ~55 dropped "Luisa Rõivas" stenogram speeches into prod
