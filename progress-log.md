@@ -13,6 +13,97 @@ Entry format:
 
 ---
 
+## 2026-06-25 — Daily cron now ingests speeches + stenograms, not just votings
+**What:** Added `speeches` (speech stats) and `verbatims --from yesterday` (stenogram floor
+speeches, with the `nlp` extra installed in-step) steps to the scheduled scrape, gated to the
+`daily` path. The cron previously ran only `daily`, which ingests votings alone.
+**Why:** Speeches/motions were never refreshed on schedule — the separate `speeches`/`verbatims`
+commands existed but nothing invoked them daily. (The two June 15–16 red runs were unrelated
+transient API ConnectErrors.)
+**Touched:** `.github/workflows/scrape.yml`.
+
+## 2026-06-25 — Luisa Värk speech backfill applied + Stig Rästa election match fixed (LIVE)
+**What:** Two name-mismatch data fixes landed in prod.
+(1) **Luisa Värk speeches** — backfilled her ~55 dropped "Luisa Rõivas" stenogram speeches into prod
+(3 → 58), parsed offline with the alias and **lemmatised locally (EstNLTK)**, inserted via Neon MCP
+(`member_speeches`, `to_tsvector('simple', …)`, ON CONFLICT speech_key). Done this way because the
+scraper can't reach prod from here (no DATABASE_URL); equivalent end-state to a `verbatims` re-ingest.
+Live-verified: her member page now lists 58 speeches.
+(2) **Stig Rästa election result** — the only active member with no `member_election_results` row.
+Cause: the candidate is **"Raul-Stig Rästa"** (DOB 1980-02-24, 1142 votes, non-elected substitute)
+but the member is **"Stig Rästa"**; name+DOB missed and the DOB fallback was elected-only. Durable fix
+in `_write_election_results`: extend the unique-DOB fallback to **non-elected** candidates **when the
+DOB is unique in the candidate pool** (his is; 34 DOBs are shared, so the guard prevents hijacks).
+Inserted his row in prod (EE200, district 4, 1142, elected=false → "Asendusliige"). Live-verified:
+his member page shows "1142 isiklikku häält · Asendusliige".
+**Touched:** `cli.py` (`_write_election_results` non-elected unique-DOB fallback + `Counter` import;
+Luisa alias from prior entry). Scraper ruff + 75 tests green.
+
+## 2026-06-25 — Non-sitting winners (Kõlvart), homepage current-only filter, nav reorder, words-only abbrev, Luisa speech alias (LIVE)
+**What:** Five changes.
+(1) **"Won a seat but never sat"** — new table `election_candidates` (migration `0017`) holding
+elected candidates with no `members` row (declined to stay minister/MEP/mayor). Parser already
+yields every candidate; `ElectionResult` gained `app_id`; `_write_election_results` now persists
+the unmatched-elected (`db.upsert_election_candidate`). Web: `getElectedNonSitting` (RIA party
+codes → site short names, title-cased names), `components/election/non-sitting.tsx`, a guarded
+homepage section ("Valituks osutus, kuid kohta ei võtnud"). **14 rows in prod** (Kaja Kallas 31816,
+Kõlvart 14592, Michal, Paet, Klaas, Pevkur, Madison, K.Kallas, Purga, Kaljurand, Toom, Tsahkna,
+Svet, Terras). Non-elected long tail intentionally excluded ("would've been IN" only).
+(2) **Homepage current-only filter** — a "Näita endisi liikmeid" checkbox (off by default → only
+the 101 active MPs; on → +former). `X liiget` updates live.
+(3) **Nav reorder** — Statistika moved to 2nd (Liikmed · Statistika · Fraktsioonid · Teemad).
+(4) **Leaderboard abbreviation** — only the word columns compact to "293k"; speech counts stay
+full numbers (per request).
+(5) **Luisa Värk speech bug** — she spoke as "Luisa Rõivas" pre-divorce, so name-keyed verbatim
+attribution dropped ~55 of her speeches (prod had 3, alias recovers 58). Durable fix: a
+`{"Luisa Rõivas": "Luisa Värk"}` alias when building `name_to_id` in `_ingest_verbatims`.
+**PROD speech backfill pending the user's re-ingest** (`verbatims`/`rebuild`) — code fix only.
+**Prod writes:** `0017` + 14 rows applied via Neon MCP (classifier-gated, user-approved); `schema_migrations`
+row added. **Verified live:** nav order, 101 liiget + checkbox, Kõlvart section (Kaja Kallas 31 816),
+Kokku 1282 full / Sõnu kokku 293k.
+**Touched (scraper):** `election_parse.py` (+app_id), `db.py` (+upsert_election_candidate),
+`cli.py` (persist unmatched-elected; Luisa alias), `0017_election_candidates.sql`, `test_election_parse.py`.
+**Touched (web):** `lib/election-queries.ts`, `components/election/non-sitting.tsx`,
+`components/members-table.tsx`, `components/site-header.tsx`, `components/statistika/speaker-leaderboard.tsx`,
+`app/[locale]/page.tsx`, et+en messages. tsc + lint + 57 web tests + ruff + 75 scraper tests green.
+
+## 2026-06-25 — Reworked: per-MP word columns on /statistika + merged votes-into-mandate on homepage (LIVE)
+**What:** Corrected the earlier same-day attempt after user feedback. (1) `/statistika` speaker
+leaderboard gained two **per-member sortable columns** — `Sõnu kokku` (total words) and `Sõnu/kõne`
+(avg words/speech) from `member_speeches`, with **compact abbreviation** (`compactNumber`: 293043 →
+"293k", 1.2M etc). The earlier site-wide tiles were removed. (2) Homepage: the standalone `Hääli`
+column was **merged into the Mandaat column** — the personal-vote number now renders next to the
+mandate badge ("7672 Isikumandaat"), the column header still sorts by votes. Deployed
+(`dpl_GWQmNq3...`); live-verified (Epler 293k / 185; Ratas "7672 Isikumandaat").
+**Why:** User clarified they wanted per-candidate sortable word stats (not one site-wide tile) and
+the vote count placed beside the mandate type (not a separate column).
+**Touched:** `lib/speeches.ts` (+totalWords/avgWords on SpeakerRow, +sort keys, +`compactNumber`),
+`lib/speeches-queries.ts` (leaderboard lateral word join; removed `getSpeechWordTotals`),
+`components/statistika/speaker-leaderboard.tsx`, `app/[locale]/statistika/page.tsx` (tiles removed),
+`components/members-table.tsx` (merged column), `lib/speeches.test.ts` (+compactNumber test → 57
+tests), et+en `statistika.totalWords/avgWords`.
+**Verified:** tsc + lint + 57 vitest green; leaderboard query run against prod.
+
+## 2026-06-25 — Homepage election columns + /statistika word-count tiles
+**What:** Two additive UI bits from already-ingested data (no migration, no re-ingest).
+(1) The homepage members table gained a **Hääli** column (2023 personal votes, sortable) and a
+non-sortable **Mandaat** badge (Isikumandaat / Ringkonnamandaat / Kompensatsioonimandaat /
+Asendusliige / Ei osutunud valituks), reusing the member-page election labels. `getMemberDiscipline`
+LEFT JOIN LATERAL's the latest `member_election_results` per member; new pure `mandateKey()` helper
+mirrors the election-panel label logic. (2) `/statistika` gained the two **word-count tiles**
+(site-wide total + avg/speech) from `member_speeches`, reusing the `memberDetail.wordsTotal/...`
+strings. Site-wide totals are **10,045,100 words / 139 avg** (the per-member tiles the user pasted,
+293k/185, were one MP — site-wide is naturally much larger).
+**Why:** User wanted the election result (count + mandate type) surfaced on the main list, sortable
+by votes, and the word-count tiles promoted from the member page to the stats page.
+**Touched:** `lib/queries.ts` (+3 row fields, lateral join), `lib/members.ts` (+`votes` sort key,
+`mandateKey`), `lib/members.test.ts` (+4 tests → 56 web tests), `components/members-table.tsx`,
+`lib/speeches-queries.ts` (+`getSpeechWordTotals`), `app/[locale]/statistika/page.tsx`, et+en
+messages (`table.mandate`, `table.sort.votes`).
+**Verified:** tsc + next lint + 56 vitest tests green; both queries run against prod (Ratas 7672
+Isikumandaat). Local `next build` not run (no local DATABASE_URL; conn string gated) — Vercel has it.
+**Open:** not yet deployed (user gates deploy; this batches with the next `vercel --prod`).
+
 ## 2026-06-24 — Election panel: cover substitutes (asendusliikmed)
 **What:** Extended the election panel to non-elected candidates who sit as substitutes. The RIA
 `0000` results block lists every candidate (not only winners), so the parser now keeps all of

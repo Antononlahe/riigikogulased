@@ -32,3 +32,17 @@ jobs:
         env:
           SCRAPER_COMMAND: ${{ inputs.command || 'daily' }}
         run: uv run parteidistsipliin-scraper $SCRAPER_COMMAND
+      # The `daily` command ingests only votings. Speeches/motions live in separate commands,
+      # so the cron must run them too. Only on the daily path (a custom dispatch command
+      # shouldn't also trigger these).
+      - name: Ingest speech stats
+        if: ${{ (inputs.command || 'daily') == 'daily' }}
+        run: uv run parteidistsipliin-scraper speeches
+      - name: Ingest stenogram speeches
+        # Stenogram lemmatisation needs the heavy `nlp` extra (EstNLTK/Vabamorf); installed
+        # here rather than in `uv sync` so the vote path stays light. --from yesterday picks up
+        # the latest sittings; the ingest upserts, so the overlap with today is harmless.
+        if: ${{ (inputs.command || 'daily') == 'daily' }}
+        run: |
+          uv sync --extra nlp
+          uv run parteidistsipliin-scraper verbatims --from "$(date -u -d yesterday +%F)"
