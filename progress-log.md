@@ -13,6 +13,24 @@ Entry format:
 
 ---
 
+## 2026-06-26 — Juhatus speech-context badge (board_role) + daily members refresh (LIVE)
+**What:** Presiding officers (Riigikogu esimees/aseesimehed) say many short procedural remarks the
+speech ingest filters out (`MIN_TEXT_LEN=60`), so their speech tallies read artificially low with no
+context. Captured `plenaryMembership.role` as `members.board_role` (migration `0018`,
+ESIMEES/ASEESIMEES/NULL) and added a badge + explanatory note on the member speech panel and the
+speaker leaderboard (et+en). Role is read live from the API (self-correcting on board change; single
+current-role column, no past-board history). Added a daily `members` cron step so board changes
+refresh automatically. Shipped: `0018` applied to prod via Neon MCP + recorded in schema_migrations;
+`members` dispatch populated board_role (Hussar=ESIMEES; Aller, Kivimägi=ASEESIMEES); deployed
+`apps/web`; live-verified ET+EN on `/members/lauri-hussar` and `/statistika`. Scraper 76 tests + ruff,
+web tsc + lint + 57 tests green.
+**Why:** User asked how to convey that juhatus members' filtered procedural "fluff" makes their counts
+look low. Chose a data-driven badge over hardcoding (the role is in the API) or per-member generated text.
+**Touched:** `packages/db/migrations/0018_board_role.sql`, `apps/scraper/.../{enrich,db,api_models}.py`,
+`apps/scraper/{fixtures/api/plenary_members.json,tests/test_enrich.py}`, `apps/web/lib/{queries,speeches,
+speeches-queries}.ts`, `apps/web/components/{member/speech-panel,statistika/speaker-leaderboard}.tsx`,
+`apps/web/app/[locale]/members/[slug]/page.tsx`, `apps/web/messages/{et,en}.json`, `.github/workflows/scrape.yml`.
+
 ## 2026-06-25 — Daily cron now ingests speeches + stenograms, not just votings
 **What:** Added `speeches` (speech stats) and `verbatims --from yesterday` (stenogram floor
 speeches, with the `nlp` extra installed in-step) steps to the scheduled scrape, gated to the

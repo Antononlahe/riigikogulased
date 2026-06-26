@@ -1,11 +1,59 @@
 # Progress
 
-**Last updated:** 2026-06-22
+**Last updated:** 2026-06-26
 **Version target:** v0.4 (party/faction rollups). **v0.4-A is DONE and LIVE in prod** —
 https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also live.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**Juhatus speech-context badge — DONE + LIVE IN PROD (2026-06-26).** The speech ingest filters
+short procedural remarks (`MIN_TEXT_LEN=60`), which disproportionately suppresses the Riigikogu
+esimees/aseesimehed tallies; users had no context. Capture `plenaryMembership.role` as
+`members.board_role` (migration **`0018`**, ESIMEES/ASEESIMEES/NULL) and surface a **badge +
+explanatory note** on the member speech panel and the speaker leaderboard (et+en). Role is read
+live from the API, so it **self-corrects when the board changes** (single current-role column —
+no history of past board members, acceptable). Added a daily **`members` cron step** so board
+changes refresh without a manual run. Prod: `0018` applied via Neon MCP; `members` run populated
+board_role (Hussar=ESIMEES; Aller, Kivimägi=ASEESIMEES); deployed; live-verified ET+EN on
+`/members/lauri-hussar` and `/statistika`. See progress-log 2026-06-26.
+
+**Daily cron now ingests speeches + stenograms (2026-06-25).** The scheduled scrape only ran
+`daily` (votings); the `speeches`/`verbatims` commands existed but nothing ran them. Added both as
+daily steps. Also fixed `speeches`: `/api/statistics/speeches/plenary` now 418s for ranges over
+~2 years, so `_refresh_speeches` chunks the term into ~1-year windows and sums (see progress-log).
+
+**Non-sitting winners + homepage filter + polish — DONE + LIVE IN PROD (2026-06-25).**
+(1) New `election_candidates` table (migration `0017`) + homepage section "Valituks osutus, kuid
+kohta ei võtnud": the **14 candidates who won a 2023 mandate but never sat** (declined — Kaja Kallas
+31816, Kõlvart 14592, Michal, Paet…), ranked by votes. Parser/`cli` persist unmatched-elected;
+`getElectedNonSitting` web query. (2) Homepage **"Näita endisi liikmeid" checkbox** — off by default
+→ only the **101 active** MPs (count updates). (3) **Statistika moved to 2nd** in nav. (4) Leaderboard
+abbreviation now **words-only** (293k); speech counts full. (5) **Luisa Värk speech bug** fixed in
+code (alias "Luisa Rõivas"→"Luisa Värk" in verbatim attribution, 3→58 speeches) — **prod speech
+backfill pending the user's `verbatims`/`rebuild` re-ingest**. Prod `0017`+14 rows applied via Neon MCP
+(user-approved). See progress-log 2026-06-25.
+
+**Name-mismatch fixes — DONE + LIVE (2026-06-25).** (a) **Luisa Värk** speeches backfilled in prod
+(3 → 58): her old-name "Luisa Rõivas" speeches parsed offline + lemmatised (EstNLTK) + inserted via
+Neon MCP (scraper can't reach prod from here). Durable alias already committed. (b) **Stig Rästa**
+election result fixed: candidate "Raul-Stig Rästa" (1142 votes, substitute) didn't match member "Stig
+Rästa"; extended the unique-DOB fallback to non-elected candidates when the DOB is unique in the pool.
+Row inserted in prod (1142 · Asendusliige). Both live-verified.
+
+**Open follow-up:** "Who replaces whom / why" for asendusliikmed remains infeasible without a curated
+seat-swap seed (API has no replacement link).
+
+**(earlier) Homepage election + /statistika word columns — DONE + LIVE IN PROD (2026-06-25).** Two additive
+UI bits, no migration/re-ingest. (1) Homepage members table: the 2023 **personal-vote count now sits
+next to the Mandaat badge** in one column ("7672 Isikumandaat"), sortable by votes; `getMemberDiscipline`
+lateral-joins latest `member_election_results`, pure `mandateKey()` in `lib/members.ts`. (2) `/statistika`
+speaker leaderboard: two **per-MP sortable columns** — `Sõnu kokku` + `Sõnu/kõne` from `member_speeches`,
+**compact-abbreviated** (`compactNumber`, 293043 → "293k"). (Reworked from a first attempt that used a
+site-wide tile + separate Hääli column — see progress-log 2026-06-25 ×2.) tsc + lint + 57 web tests
+green; live-verified (Epler 293k/185; Ratas "7672 Isikumandaat").
+
+**(earlier) Election results — substitutes added (2026-06-24, LIVE).**
 
 **Election results — substitutes added (2026-06-24, LIVE).** The panel now also covers
 **non-elected** candidates who sit as **asendusliikmed (substitutes)** — e.g. Enn Eesmaa (774
