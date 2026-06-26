@@ -13,6 +13,23 @@ Entry format:
 
 ---
 
+## 2026-06-26 — Tenure context + per-time speech-rate normalization (LIVE)
+**What:** Raw speech counts mislead for short-tenure MPs (recent substitutes). Added a "Kuud RK-s"
+(months served) context column + an Absoluutne/Aja kohta (per-month) toggle to the speaker leaderboard
+that normalizes volume metrics by `daysInTerm` (= CURRENT_DATE - mandate_started_on, computed in SQL,
+no migration). Per-month applies a 90-day floor: sub-floor members' rate is shown but parked + flagged
+(∗) to avoid the small-denominator deception. Member speech panel gets a matching tenure pill + a
+recent-joiner note (< 90 days). avgWords (a per-speech ratio) and the tenure column itself are never
+normalized. Pure mode-aware helpers in `lib/speeches.ts` (`speakerMetric`/`sortSpeakers`/`isRateEligible`),
++3 vitest tests (60 total). Deployed `apps/web`; live-verified ET+EN.
+**Why:** User flagged that low speech numbers are deceptive for MPs who joined recently; wanted both
+tenure-as-context and a normalized rate (reviewed via a Roman-senate HTML mock). Floor + parking chosen
+so a 3-week member doesn't top the chart on noise. NB: shortest live tenure is 199 days, so nothing is
+under the floor yet — the flag path has no current real example.
+**Touched:** `apps/web/lib/{speeches,speeches-queries,speeches.test}.ts`,
+`apps/web/components/{statistika/speaker-leaderboard,member/speech-panel}.tsx`,
+`apps/web/app/[locale]/members/[slug]/page.tsx`, `apps/web/messages/{et,en}.json`.
+
 ## 2026-06-26 — Juhatus speech-context badge (board_role) + daily members refresh (LIVE)
 **What:** Presiding officers (Riigikogu esimees/aseesimehed) say many short procedural remarks the
 speech ingest filters out (`MIN_TEXT_LEN=60`), so their speech tallies read artificially low with no

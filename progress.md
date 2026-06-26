@@ -7,6 +7,18 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**Tenure context + per-time speech rate — DONE + LIVE IN PROD (2026-06-26).** Raw speech counts
+understate recently-joined MPs (substitutes haven't had time to speak). Added to the speaker
+leaderboard a **"Kuud RK-s" (months served) context column** + an **Absoluutne / Aja kohta (per-month)
+toggle** that normalizes the volume metrics by tenure (`daysInTerm = CURRENT_DATE - mandate_started_on`,
+computed in SQL — no migration). Per-month uses a **90-day floor**: sub-floor members' rate is shown
+but parked at the bottom + flagged (∗), since a tiny denominator gives a misleadingly high rate.
+Mirrored on the member speech panel: a **tenure pill** + a note for recent joiners (< 90 days). Pure
+logic in `lib/speeches.ts` (mode-aware `speakerMetric`/`sortSpeakers`, `isRateEligible`), 3 new tests.
+Deployed; live-verified ET+EN (toggle + column render; Stig Rästa "15 kuud"). NB: shortest current
+tenure is 199 days, so **no member is under the floor today** — the ∗/uus flag has no live example yet
+(correct). See progress-log 2026-06-26.
+
 **Juhatus speech-context badge — DONE + LIVE IN PROD (2026-06-26).** The speech ingest filters
 short procedural remarks (`MIN_TEXT_LEN=60`), which disproportionately suppresses the Riigikogu
 esimees/aseesimehed tallies; users had no context. Capture `plenaryMembership.role` as
