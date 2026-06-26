@@ -13,6 +13,24 @@ Entry format:
 
 ---
 
+## 2026-06-26 — Leaderboard inline/split member detail + drop homepage discipline bar (LIVE)
+**What:** Clicking a speaker on `/statistika` now opens their detail in-page (discipline % +
+Hääletusi/Fraktsiooniga koos/Fraktsiooni vastu tiles + speech tiles + "Ava täislehel" link to the
+full member page) instead of navigating away. A view toggle (icon buttons) next to the abs/rate
+toggle switches inline (detail expands under the row) vs split (sticky side panel); default split,
+auto-forced to inline on phones (<=768px, via matchMedia) where a side panel won't fit. New
+`SpeakerDetail` component shared by both layouts; leaderboard query now carries
+counted/aligned/defections (LEFT JOIN member_discipline). Also removed the colored `DisciplineBar`
+from the homepage members table (kept the % as text) per user ("not helpful"); DisciplineBar stays
+in faction-roster/topic/discipline-summary. No overlay, no dimming (earlier drawer mock rejected for
+both). tsc + lint + 60 tests green; deployed + live-verified ET (panel, toggle, homepage % text).
+**Why:** User wanted an individual-person view that doesn't open a new page; iterated via mocks
+(drawer rejected → inline/split preferred). Detail kept to a summary; full vote timeline stays on
+the real `/members/[slug]` page via "Ava täislehel".
+**Touched:** `apps/web/components/statistika/{speaker-leaderboard,speaker-detail}.tsx`,
+`apps/web/components/members-table.tsx`, `apps/web/lib/{speeches,speeches-queries,speeches.test}.ts`,
+`apps/web/messages/{et,en}.json`.
+
 ## 2026-06-26 — Leaderboard: stop column shuffle on re-sort + group dividers (LIVE)
 **What:** The speaker leaderboard's bar rendered only in the sorted column and widened it, so
 auto table-layout re-flowed every column (numbers slid horizontally) on each sort. Replaced the

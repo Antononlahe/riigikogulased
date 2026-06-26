@@ -7,6 +7,15 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**Leaderboard inline/split member detail + homepage bar removed — DONE + LIVE (2026-06-26).**
+`/statistika` speaker rows are now clickable to open an in-page member summary (discipline +
+speech tiles + "Ava täislehel" link) instead of navigating — via a view toggle (icon buttons,
+next to abs/rate) that switches inline (under the row) vs split (side panel); default split,
+forced to inline on phones. New shared `SpeakerDetail`; query carries counted/aligned/defections.
+Removed the colored `DisciplineBar` from the homepage members table (kept % as text); the
+component remains in faction-roster/topic/discipline-summary. (Drawer/overlay idea was rejected —
+no dimming, in-layout only.) See progress-log 2026-06-26.
+
 **Tenure context + per-time speech rate — DONE + LIVE IN PROD (2026-06-26).** Raw speech counts
 understate recently-joined MPs (substitutes haven't had time to speak). Added to the speaker
 leaderboard a **"Kuud RK-s" (months served) context column** + an **Absoluutne / Aja kohta (per-month)
