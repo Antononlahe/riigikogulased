@@ -10,6 +10,10 @@ export type SpeakerRow = {
   active: boolean;
   boardRole: string | null; // ESIMEES | ASEESIMEES | null (Riigikogu juhatus)
   daysInTerm: number | null; // days since mandate start (this term); null if unknown
+  // Discipline figures for the detail panel (from member_discipline); null if not scored.
+  counted: number | null;
+  aligned: number | null;
+  defections: number | null;
   speeches: number;
   questions: number;
   procedural: number;

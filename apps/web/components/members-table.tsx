@@ -5,11 +5,10 @@ import { useTranslations } from "next-intl";
 import { motion, MotionConfig } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import type { MemberDisciplineRow } from "@/lib/queries";
-import { sortRows, filterByParty, type SortKey, type SortDir } from "@/lib/members";
+import { sortRows, filterByParty, mandateKey, type SortKey, type SortDir } from "@/lib/members";
 import { PARTY_ORDER } from "@/lib/party";
 import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
-import { DisciplineBar } from "@/components/discipline-bar";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -30,14 +29,17 @@ const COLS: Col[] = [
 export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
   const t = useTranslations("table");
   const f = useTranslations("filter");
+  const te = useTranslations("memberDetail.election");
   const [sortKey, setSortKey] = useState<SortKey>("discipline");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
   const [party, setParty] = useState<string | null>(null);
+  // Off by default: show only members currently in parliament (~101). On: include former MPs.
+  const [showFormer, setShowFormer] = useState(false);
 
-  const visible = useMemo(
-    () => sortRows(filterByParty(rows, party), sortKey, sortDir),
-    [rows, party, sortKey, sortDir],
-  );
+  const visible = useMemo(() => {
+    const base = showFormer ? rows : rows.filter((r) => r.active);
+    return sortRows(filterByParty(base, party), sortKey, sortDir);
+  }, [rows, party, showFormer, sortKey, sortDir]);
 
   function toggleSort(key: SortKey) {
     if (key === sortKey) setSortDir((d) => (d === "asc" ? "desc" : "asc"));
@@ -65,7 +67,16 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
-        <span className="text-xs tabular-nums text-muted-foreground" aria-live="polite">
+        <label className="ml-3 flex cursor-pointer items-center gap-2 text-xs text-muted-foreground">
+          <input
+            type="checkbox"
+            className="h-3.5 w-3.5 accent-foreground"
+            checked={showFormer}
+            onChange={(e) => setShowFormer(e.target.checked)}
+          />
+          {f("showFormer")}
+        </label>
+        <span className="ml-auto text-xs tabular-nums text-muted-foreground" aria-live="polite">
           {t("showing", { count: visible.length })}
         </span>
       </div>
@@ -91,6 +102,18 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
                   </button>
                 </th>
               ))}
+              <th
+                aria-sort={sortKey === "votes" ? (sortDir === "asc" ? "ascending" : "descending") : undefined}
+                className="px-4 py-3"
+              >
+                <button
+                  className="inline-flex items-center gap-1 font-semibold uppercase hover:text-foreground"
+                  onClick={() => toggleSort("votes")}
+                >
+                  {t("mandate")}
+                  {sortKey === "votes" ? (sortDir === "asc" ? "↑" : "↓") : ""}
+                </button>
+              </th>
             </tr>
           </thead>
           <tbody>
@@ -123,14 +146,34 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
                     )}
                   </span>
                 </td>
-                <td className="px-4 py-2.5">
-                  <DisciplineBar score={r.disciplineScore} shortName={r.partyShortName} />
+                <td className="px-4 py-2.5 text-right">
+                  <span className="font-semibold tabular-nums">
+                    {r.disciplineScore === null
+                      ? "—"
+                      : `${(Math.round(r.disciplineScore * 1000) / 10).toFixed(1)}%`}
+                  </span>
                 </td>
                 <td className="px-4 py-2.5 text-right tabular-nums text-muted-foreground">
                   {r.countedVotes}
                 </td>
                 <td className="px-4 py-2.5 text-right tabular-nums text-muted-foreground">
                   {r.defections}
+                </td>
+                <td className="px-4 py-2.5">
+                  {(() => {
+                    const key = mandateKey(r);
+                    if (!key) return <span className="text-muted-foreground">—</span>;
+                    return (
+                      <span className="flex items-center gap-2">
+                        {r.electionVotes != null && (
+                          <b className="tabular-nums">{r.electionVotes.toLocaleString("et")}</b>
+                        )}
+                        <span className="inline-block rounded-sm bg-secondary px-1.5 py-0.5 text-[11px] font-medium">
+                          {te(`mandate.${key}` as "mandate.personal")}
+                        </span>
+                      </span>
+                    );
+                  })()}
                 </td>
               </motion.tr>
             ))}

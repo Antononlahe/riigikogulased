@@ -15,12 +15,14 @@ export async function getSpeechLeaderboard(): Promise<SpeakerRow[]> {
            mcp.party_short_name AS "partyShortName", m.photo_thumb_path AS "photoThumbPath",
            m.active, m.board_role AS "boardRole",
            (CURRENT_DATE - m.mandate_started_on)::int AS "daysInTerm",
+           d.counted_votes AS "counted", d.aligned_votes AS "aligned", d.defections AS "defections",
            s.speeches, s.questions, s.procedural, s.total,
            COALESCE(w.total_words, 0) AS "totalWords",
            COALESCE(w.avg_words, 0)   AS "avgWords"
     FROM member_speech_stats s
     JOIN members m ON m.id = s.member_id
     LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+    LEFT JOIN member_discipline d ON d.member_id = m.id
     LEFT JOIN LATERAL (
       SELECT sum(array_length(string_to_array(btrim(text), ' '), 1))::int AS total_words,
              round(avg(array_length(string_to_array(btrim(text), ' '), 1)))::int AS avg_words
