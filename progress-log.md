@@ -13,6 +13,13 @@ Entry format:
 
 ---
 
+## 2026-06-26 — Homepage table: vertical group dividers (LIVE)
+**What:** Added `border-r border-border` dividers on the homepage Liikmed table header and body cells
+for the `defections` and `attendance` columns, creating three visual groups: Vastu | Kohalolek | Mandaat.
+Mirrors the divider style already in use on the statistika leaderboard. No logic or query changes.
+**Why:** User asked to match the leaderboard's group-separation style on the main table.
+**Touched:** `apps/web/components/members-table.tsx`.
+
 ## 2026-06-26 — Per-member attendance % on homepage; inline/split peek reverted + dropped (LIVE)
 **What:** (1) Added a sortable "Kohalolek" (attendance) column to the homepage Liikmed table:
 ballots where `choice <> 'absent'` / all the member's ballots. New `member_attendance` view

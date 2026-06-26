@@ -7,6 +7,11 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**Homepage table group dividers — DONE + LIVE (2026-06-26).** Added thin vertical `border-r border-border`
+dividers on the homepage Liikmed table to delineate the three column groups: Vastu | Kohalolek | Mandaat
+(matching the statistika leaderboard style). Pure CSS change on `<th>` and `<td>` for the `defections`
+and `attendance` columns. No logic change.
+
 **Per-member attendance % on the homepage — DONE + LIVE (2026-06-26).** New sortable "Kohalolek"
 column on the Liikmed table. Attendance = ballots where `choice <> 'absent'` over all the member's
 ballots (mirrors `faction_attendance`; `neutral`/did-not-vote = present; denominator is
