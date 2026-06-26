@@ -92,7 +92,7 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
                   aria-sort={
                     sortKey === c.key ? (sortDir === "asc" ? "ascending" : "descending") : undefined
                   }
-                  className={`px-4 py-3 ${c.numeric ? "text-right" : ""}`}
+                  className={`px-4 py-3 ${c.numeric ? "text-right" : ""} ${c.key === "defections" || c.key === "attendance" ? "border-r border-border" : ""}`}
                 >
                   <button
                     className="inline-flex items-center gap-1 font-semibold uppercase hover:text-foreground"
@@ -157,10 +157,10 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
                 <td className="px-4 py-2.5 text-right tabular-nums text-muted-foreground">
                   {r.countedVotes}
                 </td>
-                <td className="px-4 py-2.5 text-right tabular-nums text-muted-foreground">
+                <td className="border-r border-border px-4 py-2.5 text-right tabular-nums text-muted-foreground">
                   {r.defections}
                 </td>
-                <td className="px-4 py-2.5 text-right tabular-nums text-muted-foreground">
+                <td className="border-r border-border px-4 py-2.5 text-right tabular-nums text-muted-foreground">
                   {r.attendance === null ? "—" : `${(r.attendance * 100).toFixed(1)}%`}
                 </td>
                 <td className="px-4 py-2.5">
