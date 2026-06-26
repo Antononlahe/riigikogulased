@@ -92,7 +92,7 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
               <th className="px-4 py-2 text-left text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
                 {t("member")}
               </th>
-              <th className="px-3 py-2 text-right" aria-sort={sortKey === "tenure" ? (sortDir === "asc" ? "ascending" : "descending") : "none"}>
+              <th className="border-r border-border px-3 py-2 text-right" aria-sort={sortKey === "tenure" ? (sortDir === "asc" ? "ascending" : "descending") : "none"}>
                 <button
                   onClick={() => choose("tenure")}
                   className={`text-[11px] font-bold uppercase tracking-wide hover:text-foreground ${sortKey === "tenure" ? "text-foreground" : "text-muted-foreground"}`}
@@ -101,7 +101,7 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
                 </button>
               </th>
               {COLS.map((c) => (
-                <th key={c} className="px-3 py-2 text-right" aria-sort={sortKey === c ? (sortDir === "asc" ? "ascending" : "descending") : "none"}>
+                <th key={c} className={`min-w-[4.75rem] px-3 py-2 text-right ${c === "total" ? "border-r border-border" : ""}`} aria-sort={sortKey === c ? (sortDir === "asc" ? "ascending" : "descending") : "none"}>
                   <button
                     onClick={() => choose(c)}
                     className={`text-[11px] font-bold uppercase tracking-wide hover:text-foreground ${sortKey === c ? "text-foreground" : "text-muted-foreground"}`}
@@ -136,7 +136,7 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
                       )}
                     </span>
                   </td>
-                  <td className="px-3 py-2 text-right tabular-nums">
+                  <td className="border-r border-border px-3 py-2 text-right tabular-nums">
                     <span className="inline-flex items-center justify-end gap-1.5">
                       <span className={sortKey === "tenure" ? "font-bold" : "text-muted-foreground"}>
                         {m != null ? m : "—"}
@@ -154,31 +154,28 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
                   {COLS.map((c) => {
                     const flagged = mode === "rate" && isNormalizable(c) && !isRateEligible(r);
                     const shown = cellText(r, c);
-                    if (flagged) {
-                      return (
-                        <td key={c} className="px-3 py-2 text-right tabular-nums">
-                          <b className="cursor-help text-amber-700/80 dark:text-amber-500/80" title={t("tenureFlagNote")}>
-                            {shown}
-                            <span aria-hidden>∗</span>
-                          </b>
-                        </td>
-                      );
-                    }
+                    const active = sortKey === c;
+                    // In-cell bar: a low-opacity fill anchored to the right, BEHIND the value, only
+                    // on the sorted column. Out of flow (absolute), so the number never moves when
+                    // you re-sort -- and the low opacity keeps the number readable on top.
+                    const pct = active && !flagged ? (speakerMetric(r, c, mode) / max) * 100 : 0;
+                    const divider = c === "total" ? "border-r border-border" : "";
                     return (
-                      <td key={c} className="px-3 py-2 text-right tabular-nums">
-                        {sortKey === c ? (
-                          <span className="flex items-center justify-end gap-2">
-                            <span className="h-[6px] w-20 overflow-hidden rounded bg-muted" aria-hidden>
-                              <span
-                                className="block h-full rounded"
-                                style={{ width: `${(speakerMetric(r, c, mode) / max) * 100}%`, background: token.fill }}
-                              />
-                            </span>
-                            <b className="w-12 text-right">{shown}</b>
-                          </span>
-                        ) : (
-                          <span className="text-muted-foreground">{shown}</span>
+                      <td key={c} className={`relative px-3 py-2 text-right tabular-nums ${divider}`}>
+                        {active && !flagged && (
+                          <span
+                            aria-hidden
+                            className="pointer-events-none absolute inset-y-1 right-0 rounded-sm"
+                            style={{ width: `${pct}%`, backgroundColor: token.fill, opacity: 0.2 }}
+                          />
                         )}
+                        <span
+                          className={`relative ${flagged ? "cursor-help text-amber-700/90 dark:text-amber-500/90" : active ? "font-semibold text-foreground" : "text-muted-foreground"}`}
+                          title={flagged ? t("tenureFlagNote") : undefined}
+                        >
+                          {shown}
+                          {flagged && <span aria-hidden>∗</span>}
+                        </span>
                       </td>
                     );
                   })}
