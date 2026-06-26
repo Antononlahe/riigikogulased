@@ -70,6 +70,7 @@ def test_member_fields_extraction():
     assert f.mandate_started_on == date(2023, 4, 10)
     assert f.photo_uuid == "photo-0001"
     assert f.photo_url == photo_download_url("photo-0001")
+    assert f.board_role == "ASEESIMEES"  # from plenaryMembership.role.code
 
 
 def test_minimal_member_tolerates_missing_committees_and_district():
@@ -84,6 +85,7 @@ def test_minimal_member_tolerates_missing_committees_and_district():
     assert f.date_of_birth is None
     assert f.gender is None
     assert f.seniority_days is None
+    assert f.board_role is None  # plenaryMembership.role is LIIGE -> not a board role
 
 
 def test_photo_download_url_is_absolute():

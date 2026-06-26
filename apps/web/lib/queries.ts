@@ -13,6 +13,11 @@ export type MemberDisciplineRow = {
   countedVotes: number;
   defections: number;
   disciplineScore: number | null;
+  // Abbreviated 2023 election result for the homepage (full card is on the member page).
+  // null fields = no recorded election result (e.g. a former MP predating the ingest).
+  electionVotes: number | null;
+  mandateType: "PERSONAL" | "DISTRICT" | "COMPENSATION" | null;
+  elected: boolean | null;
 };
 
 export async function getMemberDiscipline(): Promise<MemberDisciplineRow[]> {
@@ -30,10 +35,20 @@ export async function getMemberDiscipline(): Promise<MemberDisciplineRow[]> {
       md.defections,
       CASE WHEN md.counted_votes > 0
            THEN md.aligned_votes::float / md.counted_votes
-           ELSE NULL END AS "disciplineScore"
+           ELSE NULL END AS "disciplineScore",
+      er.personal_votes AS "electionVotes",
+      er.mandate_type   AS "mandateType",
+      er.elected        AS "elected"
     FROM member_discipline md
     JOIN members m ON m.id = md.member_id
     LEFT JOIN member_current_party mcp ON mcp.member_id = md.member_id
+    LEFT JOIN LATERAL (
+      SELECT personal_votes, mandate_type, elected
+        FROM member_election_results er
+       WHERE er.member_id = md.member_id
+       ORDER BY er.election_code DESC
+       LIMIT 1
+    ) er ON true
     -- Exclude substitute members (asendusliikmed) who appear in voting rosters but never
     -- cast a real ballot: the API lists them in voters[] yet every ballot is 'absent', so
     -- they have 0 counted votes and nothing to rank. (All seated members score >0.)
@@ -59,6 +74,7 @@ export type MemberRecord = {
   phone: string | null;
   senorityDays: number | null;
   mandateStartedOn: string | null;
+  boardRole: string | null; // ESIMEES | ASEESIMEES | null (Riigikogu juhatus)
 };
 
 export type PartyBreakdownRow = {
@@ -94,7 +110,8 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
             m.photo_thumb_path AS "photoThumbPath", m.photo_url AS "photoUrl",
             m.date_of_birth::text AS "dateOfBirth", m.gender, m.email, m.phone,
             m.parliament_seniority_days AS "senorityDays",
-            m.mandate_started_on::text AS "mandateStartedOn"
+            m.mandate_started_on::text AS "mandateStartedOn",
+            m.board_role AS "boardRole"
        FROM members m
        LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
       WHERE m.slug = $1`,

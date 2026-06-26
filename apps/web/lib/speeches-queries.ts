@@ -13,11 +13,18 @@ export async function getSpeechLeaderboard(): Promise<SpeakerRow[]> {
   const { rows } = await pool.query(`
     SELECT m.id AS "memberId", m.full_name AS "fullName", m.slug,
            mcp.party_short_name AS "partyShortName", m.photo_thumb_path AS "photoThumbPath",
-           m.active,
-           s.speeches, s.questions, s.procedural, s.total
+           m.active, m.board_role AS "boardRole",
+           s.speeches, s.questions, s.procedural, s.total,
+           COALESCE(w.total_words, 0) AS "totalWords",
+           COALESCE(w.avg_words, 0)   AS "avgWords"
     FROM member_speech_stats s
     JOIN members m ON m.id = s.member_id
     LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+    LEFT JOIN LATERAL (
+      SELECT sum(array_length(string_to_array(btrim(text), ' '), 1))::int AS total_words,
+             round(avg(array_length(string_to_array(btrim(text), ' '), 1)))::int AS avg_words
+        FROM member_speeches ms WHERE ms.member_id = m.id
+    ) w ON true
     ORDER BY s.total DESC, m.full_name ASC
   `);
   return rows as SpeakerRow[];

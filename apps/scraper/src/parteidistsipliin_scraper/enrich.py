@@ -40,6 +40,7 @@ class MemberFields(NamedTuple):
     photo_uuid: str | None
     photo_file_name: str | None
     photo_url: str | None
+    board_role: str | None  # ESIMEES | ASEESIMEES | None (Riigikogu juhatus role)
 
 
 def _span(s: Session) -> int:
@@ -93,6 +94,9 @@ def district_terms(m: PlenaryMember) -> list[DistrictTerm]:
 
 def member_fields(m: PlenaryMember) -> MemberFields:
     photo_uuid = m.photo.uuid if m.photo else None
+    pm = m.plenaryMembership
+    role = pm.role.code if pm and pm.role else None
+    board_role = role if role in ("ESIMEES", "ASEESIMEES") else None
     return MemberFields(
         date_of_birth=m.dateOfBirth,
         date_of_death=m.dateOfDeath,
@@ -104,4 +108,5 @@ def member_fields(m: PlenaryMember) -> MemberFields:
         photo_uuid=photo_uuid,
         photo_file_name=m.photo.fileName if m.photo else None,
         photo_url=photo_download_url(photo_uuid) if photo_uuid else None,
+        board_role=board_role,
     )

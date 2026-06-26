@@ -26,10 +26,15 @@
     "speakersIntro": "Counts of floor speeches, questions, and procedural remarks in plenary (Riigikogu statistics).",
     "empty": "No data available.",
     "member": "Member",
+    "boardChair": "Riigikogu President",
+    "boardDeputy": "Riigikogu Vice-President",
+    "boardNote": "Member of the Riigikogu board: short procedural remarks made while presiding (calling speakers, etc.) are not counted as speeches, so this figure reflects time spent presiding.",
     "speeches": "Speeches",
     "questions": "Questions",
     "procedural": "Procedural",
-    "total": "Total"
+    "total": "Total",
+    "totalWords": "Total words",
+    "avgWords": "Words/speech"
   },
   "theme": {
     "label": "Theme",
@@ -46,16 +51,26 @@
     "sortBy": "Sort",
     "showing": "{count} members",
     "former": "former",
+    "mandate": "Mandate",
     "sort": {
       "discipline": "Discipline",
       "name": "Name",
       "counted": "Votes",
-      "defections": "Against"
+      "defections": "Against",
+      "votes": "Personal votes"
     }
   },
   "filter": {
     "party": "Faction",
-    "all": "All factions"
+    "all": "All factions",
+    "showFormer": "Show former members"
+  },
+  "nonSitting": {
+    "heading": "Won a seat but never took it",
+    "intro": "Candidates who won a mandate but never entered the Riigikogu (stayed on as minister, MEP, or mayor, like Mihhail Kõlvart). Ranked by personal votes.",
+    "name": "Name",
+    "votes": "Votes",
+    "mandate": "Mandate"
   },
   "topics": {
     "heading": "Topics",
@@ -111,6 +126,9 @@
     "proceduralLabel": "Procedural",
     "totalLabel": "Total",
     "speechesNote": "Source: Riigikogu speech statistics (whole XV term).",
+    "boardChair": "Riigikogu President",
+    "boardDeputy": "Riigikogu Vice-President",
+    "boardNote": "Short procedural remarks made while presiding (calling speakers, opening votes, etc.) are not counted as speeches, so this figure reflects time spent presiding.",
     "searchSpeeches": "Search this member's speeches…",
     "searchHint": "Search is Estonian inflection-aware (e.g. \"kool\" also finds \"koolis\", \"koolide\").",
     "searchLoading": "Searching…",
@@ -148,6 +166,7 @@
     "election": {
       "title": "2023 election",
       "personalVotes": "personal votes",
+      "enteredOn": "Took the seat on {date}",
       "district": "Electoral district {n}",
       "mandate": {
         "personal": "Personal mandate",

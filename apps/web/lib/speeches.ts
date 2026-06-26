@@ -8,11 +8,22 @@ export type SpeakerRow = {
   partyShortName: string | null;
   photoThumbPath: string | null;
   active: boolean;
+  boardRole: string | null; // ESIMEES | ASEESIMEES | null (Riigikogu juhatus)
   speeches: number;
   questions: number;
   procedural: number;
   total: number;
+  // Word totals from the ingested stenogram corpus (member_speeches), 0 if none ingested.
+  totalWords: number;
+  avgWords: number;
 };
+
+/** Compact number for big counts: 100000 -> "100k", 1234567 -> "1.2M". Leaves <1000 as-is. */
+export function compactNumber(n: number): string {
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, "") + "M";
+  if (n >= 1_000) return Math.round(n / 1_000) + "k";
+  return String(n);
+}
 
 export type SpeechStats = {
   speeches: number;
@@ -21,7 +32,13 @@ export type SpeechStats = {
   total: number;
 };
 
-export type SpeakerSortKey = "total" | "speeches" | "questions" | "procedural";
+export type SpeakerSortKey =
+  | "total"
+  | "speeches"
+  | "questions"
+  | "procedural"
+  | "totalWords"
+  | "avgWords";
 export type SortDir = "asc" | "desc";
 
 // --- member-page word totals / cadence / browse list (from member_speeches) ---

@@ -9,12 +9,20 @@ import { partyToken } from "@/lib/party";
 import {
   sortSpeakers,
   speakerMetric,
+  compactNumber,
   type SpeakerRow,
   type SpeakerSortKey,
   type SortDir,
 } from "@/lib/speeches";
 
-const COLS: SpeakerSortKey[] = ["speeches", "questions", "procedural", "total"];
+const COLS: SpeakerSortKey[] = [
+  "speeches",
+  "questions",
+  "procedural",
+  "total",
+  "totalWords",
+  "avgWords",
+];
 
 export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
   const t = useTranslations("statistika");
@@ -66,25 +74,38 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
                       {r.fullName}
                     </Link>
                     <PartyBadge shortName={r.partyShortName} />
+                    {(r.boardRole === "ESIMEES" || r.boardRole === "ASEESIMEES") && (
+                      <span
+                        title={t("boardNote")}
+                        className="cursor-help rounded-full border border-border bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground"
+                      >
+                        {t(r.boardRole === "ESIMEES" ? "boardChair" : "boardDeputy")}
+                      </span>
+                    )}
                   </span>
                 </td>
-                {COLS.map((c) => (
-                  <td key={c} className="px-3 py-2 text-right tabular-nums">
-                    {sortKey === c ? (
-                      <span className="flex items-center justify-end gap-2">
-                        <span className="h-[6px] w-20 overflow-hidden rounded bg-muted" aria-hidden>
-                          <span
-                            className="block h-full rounded"
-                            style={{ width: `${(r[c] / max) * 100}%`, background: token.fill }}
-                          />
+                {COLS.map((c) => {
+                  // Only word counts get the compact "293k" form; speech counts stay full.
+                  const isWords = c === "totalWords" || c === "avgWords";
+                  const shown = isWords ? compactNumber(r[c]) : r[c];
+                  return (
+                    <td key={c} className="px-3 py-2 text-right tabular-nums">
+                      {sortKey === c ? (
+                        <span className="flex items-center justify-end gap-2">
+                          <span className="h-[6px] w-20 overflow-hidden rounded bg-muted" aria-hidden>
+                            <span
+                              className="block h-full rounded"
+                              style={{ width: `${(r[c] / max) * 100}%`, background: token.fill }}
+                            />
+                          </span>
+                          <b className="w-12 text-right">{shown}</b>
                         </span>
-                        <b className="w-12 text-right">{r[c]}</b>
-                      </span>
-                    ) : (
-                      <span className="text-muted-foreground">{r[c]}</span>
-                    )}
-                  </td>
-                ))}
+                      ) : (
+                        <span className="text-muted-foreground">{shown}</span>
+                      )}
+                    </td>
+                  );
+                })}
               </tr>
             );
           })}

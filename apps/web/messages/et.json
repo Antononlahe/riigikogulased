@@ -26,10 +26,15 @@
     "speakersIntro": "Kõnede, küsimuste ja protseduuriliste sõnavõttude arv täiskogul (Riigikogu statistika).",
     "empty": "Andmed puuduvad.",
     "member": "Liige",
+    "boardChair": "Riigikogu esimees",
+    "boardDeputy": "Riigikogu aseesimees",
+    "boardNote": "Riigikogu juhatuse liige: istungi juhatajana öeldud lühikesed protseduurilised märkused (kõnelejate kutsumine jms) jäävad kõnede arvust välja, mistõttu see näitaja peegeldab istungite juhatamisele kulunud aega.",
     "speeches": "Kõnesid",
     "questions": "Küsimusi",
     "procedural": "Protseduurilisi",
-    "total": "Kokku"
+    "total": "Kokku",
+    "totalWords": "Sõnu kokku",
+    "avgWords": "Sõnu/kõne"
   },
   "theme": {
     "label": "Värviteema",
@@ -46,16 +51,26 @@
     "sortBy": "Sorteeri",
     "showing": "{count} liiget",
     "former": "endine",
+    "mandate": "Mandaat",
     "sort": {
       "discipline": "Distsipliin",
       "name": "Nimi",
       "counted": "Hääletusi",
-      "defections": "Vastu"
+      "defections": "Vastu",
+      "votes": "Hääli"
     }
   },
   "filter": {
     "party": "Fraktsioon",
-    "all": "Kõik fraktsioonid"
+    "all": "Kõik fraktsioonid",
+    "showFormer": "Näita endisi liikmeid"
+  },
+  "nonSitting": {
+    "heading": "Valituks osutus, kuid kohta ei võtnud",
+    "intro": "Kandidaadid, kes said mandaadi, kuid Riigikokku ei asunud (jäid ministriks, europarlamenti või linnapeaks, nagu Mihhail Kõlvart). Järjestatud isiklike häälte järgi.",
+    "name": "Nimi",
+    "votes": "Hääli",
+    "mandate": "Mandaat"
   },
   "topics": {
     "heading": "Teemad",
@@ -111,6 +126,9 @@
     "proceduralLabel": "Protseduurilisi",
     "totalLabel": "Kokku",
     "speechesNote": "Allikas: Riigikogu kõnestatistika (kogu XV koosseis).",
+    "boardChair": "Riigikogu esimees",
+    "boardDeputy": "Riigikogu aseesimees",
+    "boardNote": "Istungi juhatajana öeldud lühikesed protseduurilised märkused (kõnelejate kutsumine, hääletuste avamine jms) jäävad kõnede arvust välja, mistõttu see näitaja peegeldab istungite juhatamisele kulunud aega.",
     "searchSpeeches": "Otsi liikme sõnavõttudest…",
     "searchHint": "Otsing arvestab eesti keele käändeid (nt „kool“ leiab ka „koolis“, „koolide“).",
     "searchLoading": "Otsin…",
@@ -149,6 +167,7 @@
       "title": "2023. aasta valimised",
       "personalVotes": "isiklikku häält",
       "district": "Valimisringkond {n}",
+      "enteredOn": "Asus Riigikokku {date}",
       "mandate": {
         "personal": "Isikumandaat",
         "district": "Ringkonnamandaat",

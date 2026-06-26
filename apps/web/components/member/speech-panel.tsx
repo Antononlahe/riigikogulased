@@ -56,12 +56,30 @@ function Cadence({
   );
 }
 
-export async function SpeechPanel({ stats, memberId }: { stats: SpeechStats; memberId: number }) {
+export async function SpeechPanel({
+  stats,
+  memberId,
+  boardRole,
+}: {
+  stats: SpeechStats;
+  memberId: number;
+  boardRole?: string | null;
+}) {
   const t = await getTranslations("memberDetail");
   const meta = await getMemberSpeechMeta(memberId);
+  // Presiding officers (juhatus) say a lot of short procedural calls that the speech ingest
+  // filters out, so their tallies read low; flag the role so the number isn't misread.
+  const board = boardRole === "ESIMEES" || boardRole === "ASEESIMEES" ? boardRole : null;
   return (
     <section>
-      <h2 className="mb-3 font-serif text-lg font-bold">{t("speechesTitle")}</h2>
+      <div className="mb-3 flex flex-wrap items-center gap-2">
+        <h2 className="font-serif text-lg font-bold">{t("speechesTitle")}</h2>
+        {board && (
+          <span className="rounded-full border border-border bg-muted px-2 py-0.5 text-[11px] font-medium text-muted-foreground">
+            {t(board === "ESIMEES" ? "boardChair" : "boardDeputy")}
+          </span>
+        )}
+      </div>
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
         <Tile label={t("speechesLabel")} value={stats.speeches} />
         <Tile label={t("questionsLabel")} value={stats.questions} />
@@ -83,6 +101,7 @@ export async function SpeechPanel({ stats, memberId }: { stats: SpeechStats; mem
         )}
       </div>
       <p className="mt-2 text-xs text-muted-foreground">{t("speechesNote")}</p>
+      {board && <p className="mt-1 text-xs text-muted-foreground">{t("boardNote")}</p>}
       {meta && meta.cadence.length > 1 && (
         <Cadence data={meta.cadence} title={t("cadenceTitle")} subtitle={t("cadenceSub")} />
       )}

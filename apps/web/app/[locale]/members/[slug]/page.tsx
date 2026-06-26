@@ -74,11 +74,23 @@ export default async function MemberPage({
               partyShortName={d.member.partyShortName}
             />
             <MemberVotes votes={d.votes} voteResults={d.voteResults} />
-            {speechStats && <SpeechPanel stats={speechStats} memberId={d.member.memberId} />}
+            {speechStats && (
+              <SpeechPanel
+                stats={speechStats}
+                memberId={d.member.memberId}
+                boardRole={d.member.boardRole}
+              />
+            )}
             <PartyBreakdown rows={d.breakdown} />
           </div>
           <div className="space-y-6">
-            {election && <ElectionPanel election={election} active={d.member.active} />}
+            {election && (
+              <ElectionPanel
+                election={election}
+                active={d.member.active}
+                enteredOn={d.member.mandateStartedOn}
+              />
+            )}
             <AffiliationsPanel
               member={d.member}
               committees={d.committees}

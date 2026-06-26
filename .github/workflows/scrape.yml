@@ -32,6 +32,12 @@ jobs:
         env:
           SCRAPER_COMMAND: ${{ inputs.command || 'daily' }}
         run: uv run parteidistsipliin-scraper $SCRAPER_COMMAND
+      # Refresh member records (bio, committees, new/replacement MPs, and the Riigikogu juhatus
+      # board_role) so changes -- e.g. a new esimees/aseesimees after a coalition shift -- show up
+      # without a manual run. Only on the daily path.
+      - name: Refresh members
+        if: ${{ (inputs.command || 'daily') == 'daily' }}
+        run: uv run parteidistsipliin-scraper members
       # The `daily` command ingests only votings. Speeches/motions live in separate commands,
       # so the cron must run them too. Only on the daily path (a custom dispatch command
       # shouldn't also trigger these).

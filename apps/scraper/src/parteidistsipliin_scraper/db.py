@@ -354,13 +354,13 @@ def enrich_member(conn: psycopg.Connection, member_id: int, f) -> None:
               date_of_birth = %s, date_of_death = %s, gender = %s,
               email = %s, phone = %s, parliament_seniority_days = %s,
               mandate_started_on = %s, photo_uuid = %s,
-              photo_file_name = %s, photo_url = %s
+              photo_file_name = %s, photo_url = %s, board_role = %s
             WHERE id = %s
             """,
             (
                 f.date_of_birth, f.date_of_death, f.gender, f.email, f.phone,
                 f.seniority_days, f.mandate_started_on, f.photo_uuid,
-                f.photo_file_name, f.photo_url, member_id,
+                f.photo_file_name, f.photo_url, f.board_role, member_id,
             ),
         )
 
@@ -597,6 +597,29 @@ def upsert_election_result(
             """,
             (member_id, election_code, party_code, district_number,
              personal_votes, quota, elected, mandate_type),
+        )
+
+
+def upsert_election_candidate(
+    conn: psycopg.Connection, *, election_code: str, app_id: int, forename: str, surname: str,
+    party_code: str | None, district_number: int | None, personal_votes: int,
+    mandate_type: str | None,
+) -> None:
+    """An elected candidate who never took a seat (no members row). See 0017_election_candidates."""
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO election_candidates
+              (election_code, app_id, forename, surname, party_code, district_number,
+               personal_votes, mandate_type)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            ON CONFLICT (election_code, app_id) DO UPDATE SET
+              forename=EXCLUDED.forename, surname=EXCLUDED.surname, party_code=EXCLUDED.party_code,
+              district_number=EXCLUDED.district_number, personal_votes=EXCLUDED.personal_votes,
+              mandate_type=EXCLUDED.mandate_type
+            """,
+            (election_code, app_id, forename, surname, party_code, district_number,
+             personal_votes, mandate_type),
         )
 
 

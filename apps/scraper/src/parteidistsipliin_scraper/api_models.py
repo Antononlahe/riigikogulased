@@ -129,6 +129,7 @@ class PlenaryMembership(_Api):
     membershipNumber: int | None = None
     startDate: date | None = None
     endDate: date | None = None
+    role: CodeValue | None = None  # LIIGE | ESIMEES | ASEESIMEES (Riigikogu juhatus role)
 
 
 class MemberFaction(_Api):
