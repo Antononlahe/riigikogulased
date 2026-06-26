@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { sortRows, filterByParty } from "./members";
+import { sortRows, filterByParty, mandateKey } from "./members";
 import type { MemberDisciplineRow } from "./queries";
 
 function row(p: Partial<MemberDisciplineRow>): MemberDisciplineRow {
@@ -15,6 +15,9 @@ function row(p: Partial<MemberDisciplineRow>): MemberDisciplineRow {
     countedVotes: 0,
     defections: 0,
     disciplineScore: 0,
+    electionVotes: null,
+    mandateType: null,
+    elected: null,
     ...p,
   };
 }
@@ -46,6 +49,32 @@ describe("sortRows", () => {
     const before = rows.map((r) => r.fullName);
     sortRows(rows, "defections", "desc");
     expect(rows.map((r) => r.fullName)).toEqual(before);
+  });
+});
+
+describe("sortRows by election votes", () => {
+  const er: MemberDisciplineRow[] = [
+    row({ fullName: "Anna", electionVotes: 500 }),
+    row({ fullName: "Bobi", electionVotes: 7672 }),
+    row({ fullName: "Cara", electionVotes: null }),
+  ];
+  it("descending ranks by personal votes, nulls last", () => {
+    expect(sortRows(er, "votes", "desc").map((r) => r.fullName)).toEqual(["Bobi", "Anna", "Cara"]);
+  });
+});
+
+describe("mandateKey", () => {
+  it("elected -> lowercased mandate type", () => {
+    expect(mandateKey({ elected: true, mandateType: "PERSONAL", active: true })).toBe("personal");
+    expect(mandateKey({ elected: true, mandateType: "DISTRICT", active: true })).toBe("district");
+    expect(mandateKey({ elected: true, mandateType: null, active: true })).toBe("personal");
+  });
+  it("non-elected -> substitute if sitting, notElected if gone", () => {
+    expect(mandateKey({ elected: false, mandateType: null, active: true })).toBe("substitute");
+    expect(mandateKey({ elected: false, mandateType: null, active: false })).toBe("notElected");
+  });
+  it("no recorded result -> null", () => {
+    expect(mandateKey({ elected: null, mandateType: null, active: true })).toBeNull();
   });
 });
 

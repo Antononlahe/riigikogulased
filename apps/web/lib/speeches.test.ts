@@ -9,8 +9,7 @@ import {
 
 const row = (over: Partial<SpeakerRow>): SpeakerRow => ({
   memberId: 1, fullName: "X", slug: "x", partyShortName: "RE", photoThumbPath: null,
-  active: true, boardRole: null, daysInTerm: 1170, counted: 200, aligned: 190, defections: 10,
-  speeches: 10, questions: 20, procedural: 5, total: 35,
+  active: true, boardRole: null, daysInTerm: 1170, speeches: 10, questions: 20, procedural: 5, total: 35,
   totalWords: 1000, avgWords: 100, ...over,
 });
 

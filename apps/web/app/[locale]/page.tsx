@@ -1,7 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getMemberDiscipline, type MemberDisciplineRow } from "@/lib/queries";
+import { getElectedNonSitting, type NonSittingCandidate } from "@/lib/election-queries";
 import { SiteHeader } from "@/components/site-header";
 import { MembersTable } from "@/components/members-table";
+import { NonSitting } from "@/components/election/non-sitting";
 
 export const revalidate = 3600;
 
@@ -21,6 +23,13 @@ export default async function HomePage({
     rows = await getMemberDiscipline();
   } catch (e) {
     dbError = e instanceof Error ? e.message : String(e);
+  }
+
+  let nonSitting: NonSittingCandidate[] = [];
+  try {
+    nonSitting = await getElectedNonSitting();
+  } catch {
+    // table not yet present / empty -> section is simply hidden
   }
 
   return (
@@ -46,6 +55,8 @@ export default async function HomePage({
             </div>
           )}
         </section>
+
+        {nonSitting.length > 0 && <NonSitting rows={nonSitting} />}
 
         <footer className="mt-12 border-t border-border pt-4 text-xs text-muted-foreground">
           <p>{footer("source")}</p>

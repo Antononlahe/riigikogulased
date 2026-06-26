@@ -1,6 +1,6 @@
 import type { MemberDisciplineRow } from "./queries";
 
-export type SortKey = "discipline" | "name" | "counted" | "defections";
+export type SortKey = "discipline" | "name" | "counted" | "defections" | "votes";
 export type SortDir = "asc" | "desc";
 
 function numericValue(r: MemberDisciplineRow, key: Exclude<SortKey, "name">): number | null {
@@ -11,7 +11,28 @@ function numericValue(r: MemberDisciplineRow, key: Exclude<SortKey, "name">): nu
       return r.countedVotes;
     case "defections":
       return r.defections;
+    case "votes":
+      return r.electionVotes;
   }
+}
+
+export type MandateKey =
+  | "personal"
+  | "district"
+  | "compensation"
+  | "substitute"
+  | "notElected"
+  | null;
+
+/** The election-mandate label key for a member, mirroring the member-page election panel:
+ *  elected -> mandate type; non-elected but still sitting -> substitute (asendusliige);
+ *  non-elected and gone -> notElected; no recorded result -> null (renders as "—"). */
+export function mandateKey(
+  r: Pick<MemberDisciplineRow, "elected" | "mandateType" | "active">,
+): MandateKey {
+  if (r.elected === null) return null;
+  if (r.elected) return (r.mandateType ?? "PERSONAL").toLowerCase() as MandateKey;
+  return r.active ? "substitute" : "notElected";
 }
 
 /**

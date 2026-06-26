@@ -8,9 +8,11 @@ import type { MemberElection } from "@/lib/election-queries";
 export function ElectionPanel({
   election,
   active,
+  enteredOn,
 }: {
   election: MemberElection;
   active: boolean;
+  enteredOn?: string | null;
 }) {
   const t = useTranslations("memberDetail.election");
   // Key into the mandate/note message groups: the mandate type when elected, else substitute
@@ -34,6 +36,14 @@ export function ElectionPanel({
         <p className="mt-1 text-xs text-muted-foreground">
           {t(`mandateNote.${key}` as "mandateNote.personal")}
         </p>
+        {key === "substitute" && enteredOn && (
+          <p className="mt-1 text-xs text-muted-foreground">
+            {/* "2025-12-09" -> "09.12.2025" (no Date(): avoids tz off-by-one) */}
+            {t("enteredOn", {
+              date: enteredOn.slice(0, 10).split("-").reverse().join("."),
+            })}
+          </p>
+        )}
       </div>
       {election.districtNumber != null && (
         <p className="mt-2 text-xs text-muted-foreground">
