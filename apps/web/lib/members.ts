@@ -1,6 +1,6 @@
 import type { MemberDisciplineRow } from "./queries";
 
-export type SortKey = "discipline" | "name" | "counted" | "defections" | "votes";
+export type SortKey = "discipline" | "name" | "counted" | "defections" | "votes" | "attendance";
 export type SortDir = "asc" | "desc";
 
 function numericValue(r: MemberDisciplineRow, key: Exclude<SortKey, "name">): number | null {
@@ -13,6 +13,8 @@ function numericValue(r: MemberDisciplineRow, key: Exclude<SortKey, "name">): nu
       return r.defections;
     case "votes":
       return r.electionVotes;
+    case "attendance":
+      return r.attendance;
   }
 }
 

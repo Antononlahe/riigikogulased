@@ -15,6 +15,7 @@ function row(p: Partial<MemberDisciplineRow>): MemberDisciplineRow {
     countedVotes: 0,
     defections: 0,
     disciplineScore: 0,
+    attendance: null,
     electionVotes: null,
     mandateType: null,
     elected: null,

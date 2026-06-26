@@ -13,6 +13,8 @@ export type MemberDisciplineRow = {
   countedVotes: number;
   defections: number;
   disciplineScore: number | null;
+  // Share of the member's ballots where they were present (choice <> 'absent'); null if none.
+  attendance: number | null;
   // Abbreviated 2023 election result for the homepage (full card is on the member page).
   // null fields = no recorded election result (e.g. a former MP predating the ingest).
   electionVotes: number | null;
@@ -36,12 +38,16 @@ export async function getMemberDiscipline(): Promise<MemberDisciplineRow[]> {
       CASE WHEN md.counted_votes > 0
            THEN md.aligned_votes::float / md.counted_votes
            ELSE NULL END AS "disciplineScore",
+      CASE WHEN ma.total_ballots > 0
+           THEN ma.present_ballots::float / ma.total_ballots
+           ELSE NULL END AS "attendance",
       er.personal_votes AS "electionVotes",
       er.mandate_type   AS "mandateType",
       er.elected        AS "elected"
     FROM member_discipline md
     JOIN members m ON m.id = md.member_id
     LEFT JOIN member_current_party mcp ON mcp.member_id = md.member_id
+    LEFT JOIN member_attendance ma ON ma.member_id = md.member_id
     LEFT JOIN LATERAL (
       SELECT personal_votes, mandate_type, elected
         FROM member_election_results er

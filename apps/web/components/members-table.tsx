@@ -24,6 +24,7 @@ const COLS: Col[] = [
   { key: "discipline", numeric: true },
   { key: "counted", numeric: true },
   { key: "defections", numeric: true },
+  { key: "attendance", numeric: true },
 ];
 
 export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
@@ -158,6 +159,9 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
                 </td>
                 <td className="px-4 py-2.5 text-right tabular-nums text-muted-foreground">
                   {r.defections}
+                </td>
+                <td className="px-4 py-2.5 text-right tabular-nums text-muted-foreground">
+                  {r.attendance === null ? "—" : `${(r.attendance * 100).toFixed(1)}%`}
                 </td>
                 <td className="px-4 py-2.5">
                   {(() => {
