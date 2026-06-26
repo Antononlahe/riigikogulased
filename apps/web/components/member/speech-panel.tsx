@@ -5,6 +5,7 @@
 import { getTranslations } from "next-intl/server";
 import type { SpeechStats } from "@/lib/speeches";
 import { getMemberSpeechMeta } from "@/lib/speeches-queries";
+import { RATE_FLOOR_DAYS, DAYS_PER_MONTH } from "@/lib/speeches";
 import { SpeechSearch } from "@/components/member/speech-search";
 import { SpeechBrowse } from "@/components/member/speech-browse";
 
@@ -60,16 +61,30 @@ export async function SpeechPanel({
   stats,
   memberId,
   boardRole,
+  mandateStartedOn,
 }: {
   stats: SpeechStats;
   memberId: number;
   boardRole?: string | null;
+  mandateStartedOn?: string | null;
 }) {
   const t = await getTranslations("memberDetail");
   const meta = await getMemberSpeechMeta(memberId);
   // Presiding officers (juhatus) say a lot of short procedural calls that the speech ingest
   // filters out, so their tallies read low; flag the role so the number isn't misread.
   const board = boardRole === "ESIMEES" || boardRole === "ASEESIMEES" ? boardRole : null;
+  // Tenure context: a recent joiner's low counts are expected, not low activity. Days served
+  // this term (mandate start -> now); flag when short so the number isn't misread.
+  const days = mandateStartedOn
+    ? Math.floor((Date.now() - Date.parse(mandateStartedOn)) / 86_400_000)
+    : null;
+  const recent = days != null && days < RATE_FLOOR_DAYS;
+  const tenurePill =
+    days == null
+      ? null
+      : recent
+        ? t("tenureDays", { n: days })
+        : t("tenureMonths", { n: Math.round(days / DAYS_PER_MONTH) });
   return (
     <section>
       <div className="mb-3 flex flex-wrap items-center gap-2">
@@ -77,6 +92,13 @@ export async function SpeechPanel({
         {board && (
           <span className="rounded-full border border-border bg-muted px-2 py-0.5 text-[11px] font-medium text-muted-foreground">
             {t(board === "ESIMEES" ? "boardChair" : "boardDeputy")}
+          </span>
+        )}
+        {tenurePill && (
+          <span
+            className={`rounded-full border px-2 py-0.5 text-[11px] font-medium ${recent ? "border-amber-300 bg-amber-50 text-amber-700 dark:border-amber-800/60 dark:bg-amber-950/40 dark:text-amber-500" : "border-border bg-muted text-muted-foreground"}`}
+          >
+            {tenurePill}
           </span>
         )}
       </div>
@@ -102,6 +124,7 @@ export async function SpeechPanel({
       </div>
       <p className="mt-2 text-xs text-muted-foreground">{t("speechesNote")}</p>
       {board && <p className="mt-1 text-xs text-muted-foreground">{t("boardNote")}</p>}
+      {recent && <p className="mt-1 text-xs text-muted-foreground">{t("tenureNote")}</p>}
       {meta && meta.cadence.length > 1 && (
         <Cadence data={meta.cadence} title={t("cadenceTitle")} subtitle={t("cadenceSub")} />
       )}

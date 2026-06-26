@@ -9,7 +9,7 @@ import {
 
 const row = (over: Partial<SpeakerRow>): SpeakerRow => ({
   memberId: 1, fullName: "X", slug: "x", partyShortName: "RE", photoThumbPath: null,
-  active: true, boardRole: null, speeches: 10, questions: 20, procedural: 5, total: 35,
+  active: true, boardRole: null, daysInTerm: 1170, speeches: 10, questions: 20, procedural: 5, total: 35,
   totalWords: 1000, avgWords: 100, ...over,
 });
 
@@ -26,6 +26,28 @@ describe("sortSpeakers", () => {
     const rows = [row({ memberId: 1, questions: 5 }), row({ memberId: 2, questions: 1 })];
     expect(sortSpeakers(rows, "questions", "asc").map((r) => r.memberId)).toEqual([2, 1]);
     expect(speakerMetric(row({ speeches: 7 }), "speeches")).toBe(7);
+  });
+});
+
+describe("tenure normalization (rate mode)", () => {
+  it("normalizes volume metrics per month but leaves avgWords + tenure raw", () => {
+    const r = row({ daysInTerm: 30.44, total: 10, avgWords: 120 });
+    expect(speakerMetric(r, "total", "rate")).toBeCloseTo(10, 5); // 10 over ~1 month
+    expect(speakerMetric(r, "avgWords", "rate")).toBe(120); // per-speech ratio: not normalized
+    expect(speakerMetric(r, "tenure", "rate")).toBeCloseTo(1, 5); // months served
+  });
+  it("parks sub-floor (low-tenure) members at the bottom in rate mode, regardless of dir", () => {
+    const veteran = row({ memberId: 1, daysInTerm: 1170, total: 100 }); // ~3.4k/mo? no: 100/38.4
+    const rookie = row({ memberId: 2, daysInTerm: 20, total: 11 }); // 11/0.66 = huge rate, but flagged
+    const ranked = sortSpeakers([rookie, veteran], "total", "desc", "rate");
+    expect(ranked.map((r) => r.memberId)).toEqual([1, 2]); // rookie parked despite higher raw rate
+  });
+  it("does not park anyone in absolute mode", () => {
+    const veteran = row({ memberId: 1, daysInTerm: 1170, total: 100 });
+    const rookie = row({ memberId: 2, daysInTerm: 20, total: 11 });
+    expect(sortSpeakers([rookie, veteran], "total", "desc", "abs").map((r) => r.memberId)).toEqual([
+      1, 2,
+    ]);
   });
 });
 

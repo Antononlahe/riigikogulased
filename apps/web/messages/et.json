@@ -34,7 +34,15 @@
     "procedural": "Protseduurilisi",
     "total": "Kokku",
     "totalWords": "Sõnu kokku",
-    "avgWords": "Sõnu/kõne"
+    "avgWords": "Sõnu/kõne",
+    "tenure": "Kuud RK-s",
+    "tenureNew": "uus",
+    "tenureNewNote": "Liitus Riigikoguga hiljuti (alla 3 kuu); väike kõnede arv on ootuspärane.",
+    "modeAbsolute": "Absoluutne",
+    "modeRate": "Aja kohta",
+    "modeAbsoluteHint": "Toores koguarv kogu koosseisu jooksul.",
+    "modeRateHint": "Sõnavõtte kuus, normaliseeritud Riigikogus oldud aja järgi.",
+    "tenureFlagNote": "Alla 3 kuu staažiga liikmed: määr on arvutatud, kuid liiga väikese valimi tõttu järjestamata (väike ajavahemik annab eksitavalt kõrge määra)."
   },
   "theme": {
     "label": "Värviteema",
@@ -129,6 +137,9 @@
     "boardChair": "Riigikogu esimees",
     "boardDeputy": "Riigikogu aseesimees",
     "boardNote": "Istungi juhatajana öeldud lühikesed protseduurilised märkused (kõnelejate kutsumine, hääletuste avamine jms) jäävad kõnede arvust välja, mistõttu see näitaja peegeldab istungite juhatamisele kulunud aega.",
+    "tenureDays": "{n} päeva Riigikogus (sel koosseisul)",
+    "tenureMonths": "{n} kuud Riigikogus (sel koosseisul)",
+    "tenureNote": "Liige on selles koosseisus olnud Riigikogus vähe aega, mistõttu kõnede arv on ootuspäraselt väike.",
     "searchSpeeches": "Otsi liikme sõnavõttudest…",
     "searchHint": "Otsing arvestab eesti keele käändeid (nt „kool“ leiab ka „koolis“, „koolide“).",
     "searchLoading": "Otsin…",

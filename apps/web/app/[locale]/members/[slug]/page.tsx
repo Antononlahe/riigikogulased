@@ -79,6 +79,7 @@ export default async function MemberPage({
                 stats={speechStats}
                 memberId={d.member.memberId}
                 boardRole={d.member.boardRole}
+                mandateStartedOn={d.member.mandateStartedOn}
               />
             )}
             <PartyBreakdown rows={d.breakdown} />

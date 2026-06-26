@@ -14,6 +14,7 @@ export async function getSpeechLeaderboard(): Promise<SpeakerRow[]> {
     SELECT m.id AS "memberId", m.full_name AS "fullName", m.slug,
            mcp.party_short_name AS "partyShortName", m.photo_thumb_path AS "photoThumbPath",
            m.active, m.board_role AS "boardRole",
+           (CURRENT_DATE - m.mandate_started_on)::int AS "daysInTerm",
            s.speeches, s.questions, s.procedural, s.total,
            COALESCE(w.total_words, 0) AS "totalWords",
            COALESCE(w.avg_words, 0)   AS "avgWords"
