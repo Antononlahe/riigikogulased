@@ -13,6 +13,18 @@ Entry format:
 
 ---
 
+## 2026-06-26 — Leaderboard: stop column shuffle on re-sort + group dividers (LIVE)
+**What:** The speaker leaderboard's bar rendered only in the sorted column and widened it, so
+auto table-layout re-flowed every column (numbers slid horizontally) on each sort. Replaced the
+side-bar with a low-opacity (0.2) in-cell fill behind the value, positioned absolutely (out of
+flow) so the value never moves; kept readable via a solid semibold number on top. Added vertical
+group dividers: Kuud RK-s | speech counts (Kõnesid/Küsimusi/Protseduurilisi/Kokku) | word metrics
+(Sõnu kokku/Sõnu/kõne). Pure CSS/layout, no logic change. tsc + lint + 60 tests green; deployed +
+live-verified.
+**Why:** User reported the shuffling text was annoying; confirmed root cause = sort-dependent
+column widths. Chose in-cell bar (compact, fully stable) over reserving bar space (wider table).
+**Touched:** `apps/web/components/statistika/speaker-leaderboard.tsx`.
+
 ## 2026-06-26 — Tenure context + per-time speech-rate normalization (LIVE)
 **What:** Raw speech counts mislead for short-tenure MPs (recent substitutes). Added a "Kuud RK-s"
 (months served) context column + an Absoluutne/Aja kohta (per-month) toggle to the speaker leaderboard
