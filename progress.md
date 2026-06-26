@@ -7,16 +7,21 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**Per-member attendance % on the homepage — DONE + LIVE (2026-06-26).** New sortable "Kohalolek"
+column on the Liikmed table. Attendance = ballots where `choice <> 'absent'` over all the member's
+ballots (mirrors `faction_attendance`; `neutral`/did-not-vote = present; denominator is
+tenure-bounded since ballots only exist for rostered votings; includes procedural). New
+`member_attendance` view (migration `0019`, applied to prod via Neon MCP). The homepage's
+`counted_votes > 0` filter already hides the all-absent never-seated substitutes.
+
 **Homepage discipline bar removed — DONE + LIVE (2026-06-26).** Dropped the colored `DisciplineBar`
 from the homepage members table (kept the % as text) per user ("not helpful"); the component
 remains in faction-roster/topic/discipline-summary.
 
-**Leaderboard inline/split member detail — REVERTED (2026-06-26).** Was briefly added to
-`/statistika` but pulled: wrong page (user wanted it on the Liikmed list, not Statistika) and a
-summary panel duplicates the row's numbers. **Decision pending** on whether a member quick-peek is
-worth building at all — and if so, it should live on the Liikmed list and show the
-votes-against-party list (the non-duplicative payoff), not a numbers summary. Drawer/overlay with
-dimming was already rejected. See progress-log 2026-06-26.
+**Leaderboard inline/split member detail — REVERTED + IDEA DROPPED (2026-06-26).** Briefly added to
+`/statistika`, then pulled (wrong page + a summary panel duplicates the row's numbers). User decided
+to **drop the member quick-peek entirely** — the full `/members/[slug]` page already serves it and is
+one click away. Drawer/overlay with dimming was also rejected. Not revisiting unless asked.
 
 **Tenure context + per-time speech rate — DONE + LIVE IN PROD (2026-06-26).** Raw speech counts
 understate recently-joined MPs (substitutes haven't had time to speak). Added to the speaker

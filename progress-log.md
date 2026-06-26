@@ -13,6 +13,21 @@ Entry format:
 
 ---
 
+## 2026-06-26 — Per-member attendance % on homepage; inline/split peek reverted + dropped (LIVE)
+**What:** (1) Added a sortable "Kohalolek" (attendance) column to the homepage Liikmed table:
+ballots where `choice <> 'absent'` / all the member's ballots. New `member_attendance` view
+(migration `0019`, mirrors `faction_attendance` but per member), applied to prod via Neon MCP +
+recorded in schema_migrations; `getMemberDiscipline` LEFT JOINs it. `neutral`/did-not-vote counts as
+present; denominator is tenure-bounded (ballots exist only for rostered votings); includes procedural.
+(2) **Reverted** the `/statistika` inline/split member detail added earlier today (restored files from
+f5ef3b3, deleted `speaker-detail.tsx`) — wrong page + duplicative; user then **dropped the quick-peek
+idea entirely** (full member page already covers it). Homepage discipline-bar removal kept.
+**Why:** User asked for attendance per member ("how is it tracked?" → present = not absent, as they
+guessed). Quick-peek dropped after the duplication concern.
+**Touched:** `packages/db/migrations/0019_member_attendance.sql`, `apps/web/lib/{queries,members,members.test}.ts`,
+`apps/web/components/members-table.tsx`, `apps/web/messages/{et,en}.json`; reverted
+`apps/web/components/statistika/*` + `apps/web/lib/speeches*`.
+
 ## 2026-06-26 — Leaderboard inline/split member detail + drop homepage discipline bar (LIVE)
 **What:** Clicking a speaker on `/statistika` now opens their detail in-page (discipline % +
 Hääletusi/Fraktsiooniga koos/Fraktsiooni vastu tiles + speech tiles + "Ava täislehel" link to the
