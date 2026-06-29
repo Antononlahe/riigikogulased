@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { MemberAvatar } from "@/components/member-avatar";
@@ -10,6 +10,21 @@ import type { ExpenseLeaderRow } from "@/lib/expenses-queries";
 
 type SortKey = "limit" | "spent" | "unused" | "pct";
 type SortDir = "asc" | "desc";
+
+// CSV category key -> ascii message key (labels live in memberDetail.expenses.categories,
+// shared with the member-page panel).
+const CAT_KEY: Record<string, string> = {
+  "sõidukulud": "travel",
+  "side_ja_postikulud": "comms",
+  "lähetuskulud": "trips",
+  "majutuskulud": "lodging",
+  "bürookulud": "office",
+  "koolituskulud": "training",
+  "tõlketeenuse_kulud": "translation",
+  "uuringud_ja_ekspertiisid": "research",
+  "esindus_ja_vastuvõtukulud": "representation",
+  "tervishoiuteenused": "healthcare",
+};
 
 const eur = (n: number) =>
   n.toLocaleString("et", { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
@@ -25,8 +40,10 @@ const COLS: SortKey[] = ["limit", "spent", "unused", "pct"];
 
 export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
   const t = useTranslations("statistika");
+  const tc = useTranslations("memberDetail.expenses.categories");
   const [sortKey, setSortKey] = useState<SortKey>("spent");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
+  const [showDetail, setShowDetail] = useState(false);
 
   const visible = useMemo(() => {
     const s = [...rows].sort((a, b) => metric(a, sortKey) - metric(b, sortKey));
@@ -51,7 +68,17 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
   }
 
   return (
-    <div className="overflow-x-auto rounded-md border border-border">
+    <div>
+      <label className="mb-3 flex w-fit cursor-pointer items-center gap-2 text-[13px] font-medium text-muted-foreground hover:text-foreground">
+        <input
+          type="checkbox"
+          checked={showDetail}
+          onChange={(e) => setShowDetail(e.target.checked)}
+          className="h-4 w-4 accent-foreground"
+        />
+        {t("showBreakdown")}
+      </label>
+      <div className="overflow-x-auto rounded-md border border-border">
       <table className="w-full text-sm">
         <thead>
           <tr className="border-b border-border">
@@ -77,10 +104,11 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
         <tbody>
           {visible.map((r) => {
             const token = partyToken(r.partyShortName);
+            const cats = Object.entries(r.breakdown).sort((a, b) => b[1] - a[1]);
             return (
+              <Fragment key={r.memberId}>
               <tr
-                key={r.memberId}
-                className={`border-b border-border last:border-0 hover:bg-secondary ${r.active ? "" : "opacity-55"}`}
+                className={`border-border hover:bg-secondary ${showDetail && cats.length ? "" : "border-b last:border-0"} ${r.active ? "" : "opacity-55"}`}
               >
                 <td className="px-4 py-2">
                   <span className="flex items-center gap-3 font-semibold">
@@ -116,10 +144,26 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
                   );
                 })}
               </tr>
+              {showDetail && cats.length > 0 && (
+                <tr className="border-b border-border last:border-0 bg-secondary/40">
+                  <td colSpan={1 + COLS.length} className="px-4 pb-3 pt-0">
+                    <div className="flex flex-wrap gap-x-5 gap-y-1 text-xs text-muted-foreground">
+                      {cats.map(([key, amount]) => (
+                        <span key={key} className="tabular-nums">
+                          {tc(`${CAT_KEY[key] ?? "other"}` as "travel")}:{" "}
+                          <span className="font-medium text-foreground">{eur(amount)}</span>
+                        </span>
+                      ))}
+                    </div>
+                  </td>
+                </tr>
+              )}
+              </Fragment>
             );
           })}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }

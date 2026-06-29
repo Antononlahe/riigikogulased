@@ -20,6 +20,7 @@ export type ExpenseLeaderRow = {
   active: boolean;
   limit: number;
   spent: number;
+  breakdown: Record<string, number>;
 };
 
 /** Years we have expense data for, newest first (drives the leaderboard year selector). */
@@ -36,7 +37,7 @@ export async function getExpenseLeaderboard(year: number): Promise<ExpenseLeader
   const { rows } = await pool.query(
     `SELECT m.id AS "memberId", m.full_name AS "fullName", m.slug,
             mcp.party_short_name AS "partyShortName", m.photo_thumb_path AS "photoThumbPath",
-            m.active, e.limit_eur AS "limit", e.spent_eur AS "spent"
+            m.active, e.limit_eur AS "limit", e.spent_eur AS "spent", e.breakdown
        FROM member_expenses e
        JOIN members m ON m.id = e.member_id
        LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
@@ -48,6 +49,7 @@ export async function getExpenseLeaderboard(year: number): Promise<ExpenseLeader
     ...r,
     limit: Number(r.limit),
     spent: Number(r.spent),
+    breakdown: r.breakdown ?? {},
   })) as ExpenseLeaderRow[];
 }
 

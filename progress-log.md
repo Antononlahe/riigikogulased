@@ -13,6 +13,20 @@ Entry format:
 
 ---
 
+## 2026-06-30 — Expense leaderboard: opt-in per-category breakdown rows
+**What:** Added a "Näita kulude jaotust" checkbox to the `/statistika` Kuluhüvitised leaderboard.
+When on, each member row expands with a detail row listing the category split (the same JSONB
+`breakdown` the member-page panel uses, sorted desc). `getExpenseLeaderboard` now also selects
+`breakdown`; labels reuse `memberDetail.expenses.categories`. Off by default so the table stays
+compact. Prod ingest from 2026-06-29 ran: 321/335 rows matched (14 unmatched = 2023 ministers not
+sitting as MPs + the "Stig Rästa" nickname case).
+**Why:** User asked why the detailed data wasn't surfaced on the leaderboard and wanted it behind a
+toggle. The data was already stored, just not displayed there.
+**Touched:** `apps/web/lib/expenses-queries.ts`, `components/statistika/expense-leaderboard.tsx`,
+`messages/{et,en}.json`.
+
+---
+
 ## 2026-06-29 — Kuluhüvitised (MP expense compensations) dataset + views
 **What:** New dataset surfacing each MP's annual expense-compensation limit, spend, and category
 split (kuluhüvitised), 2023-25. Migration `0020_member_expenses.sql` adds `member_expenses
