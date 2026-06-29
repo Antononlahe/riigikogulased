@@ -42,7 +42,15 @@
     "modeRate": "Aja kohta",
     "modeAbsoluteHint": "Toores koguarv kogu koosseisu jooksul.",
     "modeRateHint": "Sõnavõtte kuus, normaliseeritud Riigikogus oldud aja järgi.",
-    "tenureFlagNote": "Alla 3 kuu staažiga liikmed: määr on arvutatud, kuid liiga väikese valimi tõttu järjestamata (väike ajavahemik annab eksitavalt kõrge määra)."
+    "tenureFlagNote": "Alla 3 kuu staažiga liikmed: määr on arvutatud, kuid liiga väikese valimi tõttu järjestamata (väike ajavahemik annab eksitavalt kõrge määra).",
+    "tabSpeakers": "Kõnelejad",
+    "tabExpenses": "Kuluhüvitised",
+    "expensesHeading": "Kuluhüvitised",
+    "expensesIntro": "Riigikogu liikmete kuluhüvitiste limiit ja kasutus aastas (Riigikogu avaldatud koondandmed).",
+    "col_limit": "Limiit",
+    "col_spent": "Kulud",
+    "col_unused": "Kasutamata",
+    "col_pct": "Kasutatud"
   },
   "theme": {
     "label": "Värviteema",
@@ -236,6 +244,24 @@
       "aligned": "Fraktsiooniga",
       "against": "Fraktsiooni vastu",
       "excluded": "Arvestamata"
+    },
+    "expenses": {
+      "title": "Kuluhüvitised",
+      "intro": "Aastane kuluhüvitiste limiit ja kasutus.",
+      "breakdownHeading": "Kulude jaotus {year}",
+      "categories": {
+        "travel": "Sõidukulud",
+        "comms": "Side- ja postikulud",
+        "trips": "Lähetuskulud",
+        "lodging": "Majutuskulud",
+        "office": "Bürookulud",
+        "training": "Koolituskulud",
+        "translation": "Tõlketeenuse kulud",
+        "research": "Uuringud ja ekspertiisid",
+        "representation": "Esindus- ja vastuvõtukulud",
+        "healthcare": "Tervishoiuteenused",
+        "other": "Muu"
+      }
     }
   }
 }

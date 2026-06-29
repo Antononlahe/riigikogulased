@@ -12,6 +12,8 @@ import { SpeechPanel } from "@/components/member/speech-panel";
 import { getMemberSpeechStats } from "@/lib/speeches-queries";
 import { ElectionPanel } from "@/components/member/election-panel";
 import { getMemberElection } from "@/lib/election-queries";
+import { ExpensePanel } from "@/components/member/expense-panel";
+import { getMemberExpenses } from "@/lib/expenses-queries";
 
 export const revalidate = 3600;
 
@@ -59,6 +61,14 @@ export default async function MemberPage({
     // leave empty
   }
 
+  // Expense-compensation panel; degrades gracefully if absent (no data / not yet ingested).
+  let expenses: Awaited<ReturnType<typeof getMemberExpenses>> = [];
+  try {
+    expenses = await getMemberExpenses(d.member.memberId);
+  } catch {
+    // leave empty
+  }
+
   return (
     <>
       <SiteHeader />
@@ -83,6 +93,7 @@ export default async function MemberPage({
               />
             )}
             <PartyBreakdown rows={d.breakdown} />
+            <ExpensePanel years={expenses} />
           </div>
           <div className="space-y-6">
             {election && (

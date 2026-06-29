@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 from collections import Counter
 from datetime import date, datetime, timedelta
+from pathlib import Path
 
 import typer
 from dotenv import load_dotenv
@@ -21,6 +22,7 @@ from parteidistsipliin_scraper.ariregister_models import (
 from parteidistsipliin_scraper.ariregister_parse import parse_member_history, parse_search_results
 from parteidistsipliin_scraper.election_cache import ElectionCache
 from parteidistsipliin_scraper.election_parse import parse_election
+from parteidistsipliin_scraper.expense_parse import parse_year as parse_expense_year
 from parteidistsipliin_scraper.enrich import photo_download_url
 from parteidistsipliin_scraper.eurovoc_cache import EurovocCache
 from parteidistsipliin_scraper.eurovoc_models import (
@@ -638,3 +640,37 @@ async def _refresh_election(election_code: str, refresh: bool) -> None:
         f"Election {election_code}: {len(results)} candidates parsed; "
         f"matched {elected} elected + {substitutes} substitutes to members."
     )
+
+
+_EXPENSE_DIR = Path(__file__).resolve().parents[2] / "cache" / "kuluhuvitised"
+
+
+@app.command()
+def kuluhuvitised() -> None:
+    """Ingest per-MP expense compensations (kuluhüvitised) from the committed CSV summaries.
+
+    koond_YYYY.csv (limit + spent) joined with liikide_YYYY.csv (category split) per year, matched
+    to members by normalized name (the CSV has no DOB). No network; no alignment refresh (additive).
+    """
+    with db.connect() as conn:
+        name_to_id = db.member_norm_name_to_id(conn)
+        total = matched = 0
+        unmatched: list[str] = []
+        for year in (2023, 2024, 2025):
+            koond = (_EXPENSE_DIR / f"koond_{year}.csv").read_text(encoding="utf-8")
+            liikide = (_EXPENSE_DIR / f"liikide_{year}.csv").read_text(encoding="utf-8")
+            for r in parse_expense_year(koond, liikide, year):
+                total += 1
+                mid = name_to_id.get(r.norm_name)
+                if mid is None:
+                    unmatched.append(f"{r.raw_name} ({year})")
+                    continue
+                db.upsert_member_expense(
+                    conn, member_id=mid, year=year, limit_eur=r.limit_eur,
+                    spent_eur=r.spent_eur, breakdown=r.breakdown,
+                )
+                matched += 1
+        conn.commit()
+    typer.echo(f"Kuluhüvitised: {matched}/{total} rows matched to members.")
+    if unmatched:
+        typer.echo(f"  unmatched ({len(unmatched)}): {', '.join(unmatched)}")

@@ -42,7 +42,15 @@
     "modeRateHint": "Speeches per month, normalized by time served in the Riigikogu.",
     "tenureFlagNote": "Members with under 3 months served: the rate is computed but not ranked, because too small a window gives a misleadingly high rate.",
     "totalWords": "Total words",
-    "avgWords": "Words/speech"
+    "avgWords": "Words/speech",
+    "tabSpeakers": "Speakers",
+    "tabExpenses": "Expenses",
+    "expensesHeading": "Expense compensations",
+    "expensesIntro": "Each MP's annual expense-compensation limit and how much of it was used (Riigikogu published summaries).",
+    "col_limit": "Limit",
+    "col_spent": "Spent",
+    "col_unused": "Unused",
+    "col_pct": "Used"
   },
   "theme": {
     "label": "Theme",
@@ -236,6 +244,24 @@
       "aligned": "With faction",
       "against": "Against faction",
       "excluded": "Excluded"
+    },
+    "expenses": {
+      "title": "Expense compensations",
+      "intro": "Annual expense-compensation limit and usage.",
+      "breakdownHeading": "Expense breakdown {year}",
+      "categories": {
+        "travel": "Travel",
+        "comms": "Communication & postage",
+        "trips": "Business trips",
+        "lodging": "Accommodation",
+        "office": "Office",
+        "training": "Training",
+        "translation": "Translation services",
+        "research": "Research & expertise",
+        "representation": "Representation & receptions",
+        "healthcare": "Healthcare services",
+        "other": "Other"
+      }
     }
   }
 }

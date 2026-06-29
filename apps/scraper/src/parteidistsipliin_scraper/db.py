@@ -623,6 +623,49 @@ def upsert_election_candidate(
         )
 
 
+def member_norm_name_to_id(conn: psycopg.Connection) -> dict[str, int]:
+    """Map normalized full name -> member id, ONLY for names unique among members.
+
+    The kuluhüvitised CSV has no DOB, so name is the only key. Names shared by two members are
+    omitted (we can't tell which is meant) rather than mis-mapped. Normalization mirrors
+    election_parse.normalize_name (NFC + casefold + collapsed whitespace).
+    """
+    import re
+    import unicodedata
+
+    def norm(s: str) -> str:
+        return re.sub(r"\s+", " ", unicodedata.normalize("NFC", (s or "").strip().casefold()))
+
+    counts: dict[str, int] = {}
+    by_name: dict[str, int] = {}
+    with conn.cursor() as cur:
+        cur.execute("SELECT id, full_name FROM members")
+        for r in cur.fetchall():
+            n = norm(r["full_name"])
+            counts[n] = counts.get(n, 0) + 1
+            by_name[n] = r["id"]
+    return {n: mid for n, mid in by_name.items() if counts[n] == 1}
+
+
+def upsert_member_expense(
+    conn: psycopg.Connection, *, member_id: int, year: int, limit_eur, spent_eur,
+    breakdown: dict,
+) -> None:
+    from psycopg.types.json import Json
+
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO member_expenses (member_id, year, limit_eur, spent_eur, breakdown)
+            VALUES (%s, %s, %s, %s, %s)
+            ON CONFLICT (member_id, year) DO UPDATE SET
+              limit_eur=EXCLUDED.limit_eur, spent_eur=EXCLUDED.spent_eur,
+              breakdown=EXCLUDED.breakdown
+            """,
+            (member_id, year, limit_eur, spent_eur, Json(breakdown)),
+        )
+
+
 def member_id_by_riigikogu_id(conn: psycopg.Connection, riigikogu_id: str) -> int | None:
     """Resolve a member's surrogate id from their API uuid, or None if not in the DB."""
     with conn.cursor() as cur:

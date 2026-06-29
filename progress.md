@@ -1,11 +1,24 @@
 # Progress
 
-**Last updated:** 2026-06-26
+**Last updated:** 2026-06-29
 **Version target:** v0.4 (party/faction rollups). **v0.4-A is DONE and LIVE in prod** —
 https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also live.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**Kuluhüvitised (MP expense compensations) — CODE DONE (2026-06-29), pending prod ingest + deploy.**
+New civic-transparency dataset (out of the v0.4-0.7 roadmap; a self-contained slice). Source: Riigikogu
+published summaries, committed as CSVs under `apps/scraper/cache/kuluhuvitised/` (koond = limit+spent,
+liikide = category split), 2023-25. Matched to members by normalized name (no DOB in the source).
+- Migration `0020_member_expenses.sql` — `member_expenses (member_id, year, limit_eur, spent_eur,
+  breakdown JSONB)`, additive, no view touched.
+- Scraper: `expense_parse.py` (+ test) and the `kuluhuvitised` CLI command (no network, no alignment refresh).
+- Web: `/statistika` now has a server-driven `?vaade=` toggle between two leaderboards (Kõnelejad /
+  Kuluhüvitised) — the ~100-row tables are too long to stack; the expense view has a year selector
+  (`?vaade=kulud&aasta=YYYY`). New `ExpensePanel` on the member page (spent/limit bar per year +
+  category split). All queries guarded (missing table => empty state).
+- **TODO (gated, user-run): apply prod migration + ingest, then deploy.** See progress-log for commands.
 
 **Homepage table group dividers — DONE + LIVE (2026-06-26).** Added thin vertical `border-r border-border`
 dividers on the homepage Liikmed table to delineate the three column groups: Vastu | Kohalolek | Mandaat

@@ -13,6 +13,34 @@ Entry format:
 
 ---
 
+## 2026-06-29 — Kuluhüvitised (MP expense compensations) dataset + views
+**What:** New dataset surfacing each MP's annual expense-compensation limit, spend, and category
+split (kuluhüvitised), 2023-25. Migration `0020_member_expenses.sql` adds `member_expenses
+(member_id, year, limit_eur, spent_eur, breakdown JSONB)` — additive, no view/discipline impact.
+Scraper `expense_parse.py` parses the two CSV shapes (koond = limit+spent, liikide = category
+split; both carry a KOKKU total row that is skipped), and the `kuluhuvitised` CLI command matches
+rows to members by normalized name (the source has no DOB) and upserts them (no network, no
+alignment refresh). Web: `/statistika` gained a server-driven `?vaade=` toggle (Kõnelejad |
+Kuluhüvitised) because the two ~100-row leaderboards are too long to stack; the expense view has a
+`?vaade=kulud&aasta=YYYY` year selector. New `ExpensePanel` on the member page (per-year spent/limit
+bar + the latest year's category breakdown). All web queries are try/catch-guarded so a missing
+table degrades to an empty state.
+**Why:** User-requested civic-transparency feature. Out of the v0.4-0.7 roadmap but self-contained
+and additive, so shipped as its own slice. Toggle (not stacked sections) chosen by the user because
+each leaderboard is a full roster table.
+**Touched:** `packages/db/migrations/0020_member_expenses.sql`; `apps/scraper/.../expense_parse.py`
+(+ `tests/test_expense_parse.py`), `db.py` (`member_norm_name_to_id`, `upsert_member_expense`),
+`cli.py` (`kuluhuvitised` command), `apps/scraper/cache/kuluhuvitised/*.csv` (moved from repo root);
+`apps/web/lib/expenses-queries.ts`, `components/member/expense-panel.tsx`,
+`components/statistika/expense-leaderboard.tsx`, `app/[locale]/statistika/page.tsx`,
+`app/[locale]/members/[slug]/page.tsx`, `messages/{et,en}.json`.
+**Deploy steps (gated, user-run):** from `apps/scraper`, `python -m parteidistsipliin_scraper migrate`
+then `python -m parteidistsipliin_scraper kuluhuvitised` (both hit prod Neon); then from `apps/web`,
+`vercel --prod --yes`. Member/statistika pages are ISR (revalidate 3600), so they also self-refresh
+within an hour if deployed before the ingest.
+
+---
+
 ## 2026-06-26 — Homepage table: vertical group dividers (LIVE)
 **What:** Added `border-r border-border` dividers on the homepage Liikmed table header and body cells
 for the `defections` and `attendance` columns, creating three visual groups: Vastu | Kohalolek | Mandaat.
