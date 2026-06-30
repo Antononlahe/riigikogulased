@@ -22,6 +22,8 @@ function row(partial: Partial<FactionComparisonRow>): FactionComparisonRow {
     presentBallots: 80,
     totalBallots: 100,
     memberCount: 30,
+    expenseSpent: 0,
+    expenseLimit: 0,
     ...partial,
   };
 }
@@ -56,9 +58,11 @@ describe("factionMetric", () => {
     expect(factionMetric(r, "cohesion")).toBeCloseTo(0.9);
     expect(factionMetric(r, "attendance")).toBeCloseTo(0.8);
     expect(factionMetric(r, "members")).toBe(30);
+    expect(factionMetric(row({ expenseSpent: 84, expenseLimit: 100 }), "expenses")).toBeCloseTo(0.84);
   });
   it("is null for a rate that can't be computed", () => {
     expect(factionMetric(row({ countedVotes: 0, alignedVotes: 0 }), "cohesion")).toBeNull();
+    expect(factionMetric(row({ expenseSpent: 0, expenseLimit: 0 }), "expenses")).toBeNull();
   });
 });
 

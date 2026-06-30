@@ -15,7 +15,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-const KEYS: FactionSortKey[] = ["cohesion", "attendance", "members"];
+const KEYS: FactionSortKey[] = ["cohesion", "attendance", "members", "expenses"];
 
 export function FactionGrid({ rows }: { rows: FactionComparisonRow[] }) {
   const t = useTranslations("factions");

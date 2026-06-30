@@ -10,6 +10,10 @@ export type FactionComparisonRow = {
   presentBallots: number;
   totalBallots: number;
   memberCount: number;
+  // Pooled expense-compensation usage across the faction's current members (all years):
+  // sum(spent) / sum(limit). Both 0 when the faction has no expense rows.
+  expenseSpent: number;
+  expenseLimit: number;
 };
 
 /** A roster row reuses the members-table shape so DisciplineBar/PartyBadge drop in. */
@@ -27,7 +31,7 @@ export type RosterMember = {
   disciplineScore: number | null;
 };
 
-export type FactionSortKey = "cohesion" | "attendance" | "members";
+export type FactionSortKey = "cohesion" | "attendance" | "members" | "expenses";
 export type SortDir = "asc" | "desc";
 
 /** Slug for a faction route segment: the short name, lowercased ("ekre", "e200", "i"). */
@@ -49,6 +53,10 @@ export function attendanceRate(present: number, total: number): number | null {
   return total > 0 ? present / total : null;
 }
 
+export function expenseUsage(spent: number, limit: number): number | null {
+  return limit > 0 ? spent / limit : null;
+}
+
 /** The comparable value for one faction on a given metric (null = not computable). */
 export function factionMetric(r: FactionComparisonRow, key: FactionSortKey): number | null {
   switch (key) {
@@ -58,6 +66,8 @@ export function factionMetric(r: FactionComparisonRow, key: FactionSortKey): num
       return attendanceRate(r.presentBallots, r.totalBallots);
     case "members":
       return r.memberCount;
+    case "expenses":
+      return expenseUsage(r.expenseSpent, r.expenseLimit);
   }
 }
 

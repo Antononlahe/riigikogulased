@@ -13,6 +13,18 @@ Entry format:
 
 ---
 
+## 2026-06-30 — Faction expense-usage % on /fraktsioonid
+**What:** Each faction card now shows pooled expense-compensation usage (sum spent / sum limit over
+the faction's current members, all years 2023-25, attributed by current faction), and "Kuluhüvitised"
+is a new sort key (cards + comparison bars reorder by it). One LEFT JOIN added to
+`getFactionComparison`; `expenseUsage` helper + `factionMetric` case + test.
+**Why:** User request. Cheap because the bars/`factionMetric`/sort infra is metric-generic, so a new
+rate key drops in.
+**Touched:** `apps/web/lib/factions.ts` (+ `factions.test.ts`), `lib/factions-queries.ts`,
+`components/factions/faction-card.tsx`, `components/factions/faction-grid.tsx`, `messages/{et,en}.json`.
+
+---
+
 ## 2026-06-30 — Expense leaderboard: opt-in per-category breakdown rows
 **What:** Added a "Näita kulude jaotust" checkbox to the `/statistika` Kuluhüvitised leaderboard.
 When on, each member row expands with a detail row listing the category split (the same JSONB

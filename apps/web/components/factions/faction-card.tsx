@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { partyToken } from "@/lib/party";
 import { Link } from "@/i18n/routing";
-import { factionSlug, cohesion, attendanceRate, type FactionComparisonRow } from "@/lib/factions";
+import { factionSlug, cohesion, attendanceRate, expenseUsage, type FactionComparisonRow } from "@/lib/factions";
 
 function pct(v: number | null): string {
   return v === null ? "—" : `${(Math.round(v * 1000) / 10).toFixed(1)}%`;
@@ -12,6 +12,7 @@ export function FactionCard({ row }: { row: FactionComparisonRow }) {
   const token = partyToken(row.partyShortName);
   const coh = cohesion(row.alignedVotes, row.countedVotes);
   const att = attendanceRate(row.presentBallots, row.totalBallots);
+  const exp = expenseUsage(row.expenseSpent, row.expenseLimit);
   return (
     <Link
       href={`/fraktsioonid/${factionSlug(row.partyShortName)}`}
@@ -37,6 +38,9 @@ export function FactionCard({ row }: { row: FactionComparisonRow }) {
       <div className="mt-3 flex justify-between text-xs text-muted-foreground">
         <span>{t("attendance")}: <span className="tabular-nums text-foreground">{pct(att)}</span></span>
         <span>{t("defections")}: <span className="tabular-nums text-foreground">{row.defections}</span></span>
+      </div>
+      <div className="mt-1 text-xs text-muted-foreground">
+        {t("expenses")}: <span className="tabular-nums text-foreground">{pct(exp)}</span>
       </div>
     </Link>
   );
