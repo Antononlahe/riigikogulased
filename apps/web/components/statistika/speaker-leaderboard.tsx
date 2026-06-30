@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
+import { ScrollableTable } from "@/components/ui/scrollable-table";
 import { partyToken } from "@/lib/party";
 import {
   sortSpeakers,
@@ -85,8 +86,8 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
           {t(mode === "abs" ? "modeAbsoluteHint" : "modeRateHint")}
         </span>
       </div>
-      <div className="overflow-x-auto rounded-md border border-border">
-        <table className="w-full text-sm">
+      <div className="hidden sm:block">
+        <ScrollableTable minWidthClass="min-w-[52rem]">
           <thead>
             <tr className="border-b border-border">
               <th className="px-4 py-2 text-left text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
@@ -183,8 +184,45 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
               );
             })}
           </tbody>
-        </table>
+        </ScrollableTable>
       </div>
+
+      {/* Mobile: one card per speaker -- no sideways scroll through 8 columns. */}
+      <ul className="space-y-2 sm:hidden">
+        {visible.map((r) => {
+          const m = months(r);
+          return (
+            <li
+              key={r.memberId}
+              className={`rounded-md border border-border p-3 ${r.active ? "" : "opacity-55"}`}
+            >
+              <span className="flex items-center gap-3 font-semibold">
+                <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
+                <Link href={`/members/${r.slug}`} className="hover:underline">
+                  {r.fullName}
+                </Link>
+                <PartyBadge shortName={r.partyShortName} />
+              </span>
+              <div className="mt-2.5 grid grid-cols-3 gap-x-3 gap-y-1 text-xs text-muted-foreground">
+                {COLS.map((c) => (
+                  <span key={c}>
+                    {t(c)}:{" "}
+                    <span className={`tabular-nums ${sortKey === c ? "font-semibold text-foreground" : "text-foreground"}`}>
+                      {cellText(r, c)}
+                    </span>
+                  </span>
+                ))}
+                {m != null && (
+                  <span>
+                    {t("tenure")}: <span className="tabular-nums text-foreground">{m}</span>
+                  </span>
+                )}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+
       {mode === "rate" && (
         <p className="mt-2 text-xs text-muted-foreground">
           <span className="text-amber-700 dark:text-amber-500">∗</span> {t("tenureFlagNote")}

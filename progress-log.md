@@ -13,6 +13,28 @@ Entry format:
 
 ---
 
+## 2026-06-30 — Mobile table overhaul (scroll fix + cards)
+**What:** Tables were collapsing instead of scrolling on mobile (`w-full` with no `min-width`, so
+`overflow-x-auto` never engaged; columns squished, text wrapped). Added a shared
+`components/ui/scrollable-table.tsx` wrapper giving every data table a real `min-width` (so scroll
+works), a CSS-only edge scroll-shadow (`.scroll-x` in globals.css), and a sticky first column
+(`.sticky-1`) so the row's identity stays put while numbers scroll. Applied to all data tables
+(homepage, both statistika leaderboards, faction roster, non-sitting, topic ranking,
+party-breakdown). For the three primary tables (homepage members, speaker + expense leaderboards)
+the table now shows only at `sm+` and is replaced by a stacked **card list** under `sm` (no sideways
+scroll at all). Homepage also drops the "counted" column below `md` and the filter/controls row got
+`flex-wrap`. The small per-vote tally matrix in member-votes was left alone (it fits).
+**Why:** User reported the site was "yucky on mobile" and tables didn't scroll well. Root cause was
+the dead overflow, not a need for a data-grid library — fixed with CSS + Tailwind responsive
+utilities, no new deps (TanStack/MUI etc. don't solve a layout problem and clash with the design
+system).
+**Touched:** `app/[locale]/globals.css`, `components/ui/scrollable-table.tsx` (new),
+`components/members-table.tsx`, `components/statistika/{speaker,expense}-leaderboard.tsx`,
+`components/factions/faction-roster.tsx`, `components/election/non-sitting.tsx`,
+`components/topics/topic-discipline-table.tsx`, `components/member/party-breakdown.tsx`.
+
+---
+
 ## 2026-06-30 — Faction expense-usage % on /fraktsioonid
 **What:** Each faction card now shows pooled expense-compensation usage (sum spent / sum limit over
 the faction's current members, all years 2023-25, attributed by current faction), and "Kuluhüvitised"

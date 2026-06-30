@@ -100,3 +100,34 @@
     @view-transition { navigation: none; }
   }
 }
+
+/* ---- horizontal-scroll affordance for wide tables (CSS-only "scrolling shadows") ----
+   Edge shadows appear only when there's content to scroll to; opaque caps (attachment:local)
+   ride with the content and hide the shadow at each end. No JS. */
+.scroll-x {
+  overflow-x: auto;
+  background:
+    linear-gradient(to right, var(--background) 30%, transparent) 0 0 / 28px 100%,
+    linear-gradient(to left, var(--background) 30%, transparent) 100% 0 / 28px 100%,
+    radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.13), transparent) 0 0 / 14px 100%,
+    radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.13), transparent) 100% 0 / 14px 100%;
+  background-repeat: no-repeat;
+  background-attachment: local, local, scroll, scroll;
+}
+.dark .scroll-x {
+  background-image:
+    linear-gradient(to right, var(--background) 30%, transparent),
+    linear-gradient(to left, var(--background) 30%, transparent),
+    radial-gradient(farthest-side at 0 50%, rgba(0, 0, 0, 0.4), transparent),
+    radial-gradient(farthest-side at 100% 50%, rgba(0, 0, 0, 0.4), transparent);
+}
+
+/* First column stays put while the rest scrolls horizontally. ponytail: the sticky cell carries
+   its own opaque bg, so the row-hover tint doesn't reach it -- acceptable; revisit only if it reads
+   wrong. Cells opt in by being the first child of each row. */
+.sticky-1 :is(thead, tbody) tr > :first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--background);
+}

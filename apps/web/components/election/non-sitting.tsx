@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import type { NonSittingCandidate } from "@/lib/election-queries";
 import { PartyBadge } from "@/components/party-badge";
+import { ScrollableTable } from "@/components/ui/scrollable-table";
 
 // People who won a mandate in 2023 but never took their Riigikogu seat (declined to stay a
 // minister / MEP / mayor -- e.g. Mihhail Kõlvart). They have no member page, so names are plain
@@ -12,8 +13,7 @@ export async function NonSitting({ rows }: { rows: NonSittingCandidate[] }) {
     <section className="mt-12">
       <h2 className="font-serif text-xl font-bold">{t("heading")}</h2>
       <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("intro")}</p>
-      <div className="mt-4 overflow-x-auto rounded-md border border-border">
-        <table className="w-full text-sm">
+      <ScrollableTable className="mt-4" minWidthClass="min-w-[30rem]">
           <thead>
             <tr className="border-b border-border text-left text-[11px] uppercase tracking-wide text-muted-foreground">
               <th className="px-4 py-3">{t("name")}</th>
@@ -43,8 +43,7 @@ export async function NonSitting({ rows }: { rows: NonSittingCandidate[] }) {
               </tr>
             ))}
           </tbody>
-        </table>
-      </div>
+      </ScrollableTable>
     </section>
   );
 }

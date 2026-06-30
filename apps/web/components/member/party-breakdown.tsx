@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import type { PartyBreakdownRow } from "@/lib/queries";
 import { PartyBadge } from "@/components/party-badge";
+import { ScrollableTable } from "@/components/ui/scrollable-table";
 
 export function PartyBreakdown({ rows }: { rows: PartyBreakdownRow[] }) {
   const t = useTranslations("memberDetail");
@@ -9,7 +10,7 @@ export function PartyBreakdown({ rows }: { rows: PartyBreakdownRow[] }) {
   return (
     <section>
       <h2 className="font-serif text-lg font-bold">{t("byParty")}</h2>
-      <table className="mt-3 w-full text-sm">
+      <ScrollableTable className="mt-3" minWidthClass="min-w-[30rem]">
         <thead>
           <tr className="border-b border-border text-left text-[11px] uppercase text-muted-foreground">
             <th className="py-2">{t("party")}</th>
@@ -34,7 +35,7 @@ export function PartyBreakdown({ rows }: { rows: PartyBreakdownRow[] }) {
             </tr>
           ))}
         </tbody>
-      </table>
+      </ScrollableTable>
     </section>
   );
 }

@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
 import { DisciplineBar } from "@/components/discipline-bar";
+import { ScrollableTable } from "@/components/ui/scrollable-table";
 import { MEMBER_MIN_VOTES, splitByThreshold, type TopicMemberRow } from "@/lib/topics";
 
 export async function TopicDisciplineTable({ members }: { members: TopicMemberRow[] }) {
@@ -15,8 +16,7 @@ export async function TopicDisciplineTable({ members }: { members: TopicMemberRo
   return (
     <section>
       <h2 className="font-serif text-lg font-bold">{t("ranking")}</h2>
-      <div className="mt-3 overflow-x-auto rounded-md border border-border">
-        <table className="w-full text-sm">
+      <ScrollableTable className="mt-3" minWidthClass="min-w-[34rem]">
           <thead>
             <tr className="border-b border-border text-left text-[11px] uppercase tracking-wide text-muted-foreground">
               <th className="px-4 py-3">{t("memberCol")}</th>
@@ -44,8 +44,7 @@ export async function TopicDisciplineTable({ members }: { members: TopicMemberRo
               </tr>
             ))}
           </tbody>
-        </table>
-      </div>
+      </ScrollableTable>
       {belowThresholdCount > 0 && (
         <p className="mt-2 text-xs text-muted-foreground">
           {t("belowThreshold", { n: belowThresholdCount, min: MEMBER_MIN_VOTES })}

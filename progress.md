@@ -7,6 +7,18 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
+**Mobile tables overhauled — DONE + LIVE (2026-06-30).** Tables were collapsing instead of
+scrolling on mobile. Added shared `components/ui/scrollable-table.tsx` (min-width so scroll works +
+CSS scroll-shadow + sticky first column), applied to all data tables; the three primary tables
+(homepage, both leaderboards) now render as stacked **cards under `sm`** (no sideways scroll). No new
+deps — it was a CSS/layout problem, not a data-grid one. See progress-log for details.
+
+**Kuluhüvitised (MP expense compensations) — DONE + LIVE (2026-06-29/30).** Dataset shipped:
+member_expenses (`0020`), name-matched ingest (321/335), member panel, `/statistika` ?vaade= toggle
+with opt-in per-category breakdown rows, and pooled expense-usage % on `/fraktsioonid`.
+
+<details><summary>Original kuluhüvitised landing note</summary>
+
 **Kuluhüvitised (MP expense compensations) — CODE DONE (2026-06-29), pending prod ingest + deploy.**
 New civic-transparency dataset (out of the v0.4-0.7 roadmap; a self-contained slice). Source: Riigikogu
 published summaries, committed as CSVs under `apps/scraper/cache/kuluhuvitised/` (koond = limit+spent,
@@ -19,6 +31,8 @@ liikide = category split), 2023-25. Matched to members by normalized name (no DO
   (`?vaade=kulud&aasta=YYYY`). New `ExpensePanel` on the member page (spent/limit bar per year +
   category split). All queries guarded (missing table => empty state).
 - **TODO (gated, user-run): apply prod migration + ingest, then deploy.** See progress-log for commands.
+
+</details>
 
 **Homepage table group dividers — DONE + LIVE (2026-06-26).** Added thin vertical `border-r border-border`
 dividers on the homepage Liikmed table to delineate the three column groups: Vastu | Kohalolek | Mandaat

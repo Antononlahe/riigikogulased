@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
+import { ScrollableTable } from "@/components/ui/scrollable-table";
 import { partyToken } from "@/lib/party";
 import type { ExpenseLeaderRow } from "@/lib/expenses-queries";
 
@@ -78,8 +79,8 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
         />
         {t("showBreakdown")}
       </label>
-      <div className="overflow-x-auto rounded-md border border-border">
-      <table className="w-full text-sm">
+      <div className="hidden sm:block">
+      <ScrollableTable minWidthClass="min-w-[40rem]">
         <thead>
           <tr className="border-b border-border">
             <th className="px-4 py-2 text-left text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
@@ -162,8 +163,49 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
             );
           })}
         </tbody>
-      </table>
+      </ScrollableTable>
       </div>
+
+      {/* Mobile: one card per member -- no sideways scroll. */}
+      <ul className="space-y-2 sm:hidden">
+        {visible.map((r) => {
+          const cats = Object.entries(r.breakdown).sort((a, b) => b[1] - a[1]);
+          return (
+            <li
+              key={r.memberId}
+              className={`rounded-md border border-border p-3 ${r.active ? "" : "opacity-55"}`}
+            >
+              <span className="flex items-center gap-3 font-semibold">
+                <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
+                <Link href={`/members/${r.slug}`} className="hover:underline">
+                  {r.fullName}
+                </Link>
+                <PartyBadge shortName={r.partyShortName} />
+              </span>
+              <div className="mt-2.5 grid grid-cols-2 gap-x-4 gap-y-1 text-xs text-muted-foreground">
+                {COLS.map((c) => (
+                  <span key={c}>
+                    {t(`col_${c}` as "col_spent")}:{" "}
+                    <span className={`tabular-nums ${sortKey === c ? "font-semibold text-foreground" : "text-foreground"}`}>
+                      {cell(r, c)}
+                    </span>
+                  </span>
+                ))}
+              </div>
+              {showDetail && cats.length > 0 && (
+                <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 border-t border-border pt-2 text-xs text-muted-foreground">
+                  {cats.map(([key, amount]) => (
+                    <span key={key} className="tabular-nums">
+                      {tc(`${CAT_KEY[key] ?? "other"}` as "travel")}:{" "}
+                      <span className="font-medium text-foreground">{eur(amount)}</span>
+                    </span>
+                  ))}
+                </div>
+              )}
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }

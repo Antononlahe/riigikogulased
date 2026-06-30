@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { MemberAvatar } from "@/components/member-avatar";
 import { DisciplineBar } from "@/components/discipline-bar";
 import { Link } from "@/i18n/routing";
+import { ScrollableTable } from "@/components/ui/scrollable-table";
 import { mostLeastLoyal, type RosterMember } from "@/lib/factions";
 
 export async function FactionRoster({ members }: { members: RosterMember[] }) {
@@ -11,8 +12,7 @@ export async function FactionRoster({ members }: { members: RosterMember[] }) {
   return (
     <section>
       <h2 className="mb-3 font-serif text-lg font-bold">{t("roster")}</h2>
-      <div className="overflow-x-auto rounded-md border border-border">
-        <table className="w-full text-sm">
+      <ScrollableTable minWidthClass="min-w-[30rem]">
           <tbody>
             {members.map((m) => (
               <tr
@@ -58,8 +58,7 @@ export async function FactionRoster({ members }: { members: RosterMember[] }) {
               </tr>
             ))}
           </tbody>
-        </table>
-      </div>
+      </ScrollableTable>
     </section>
   );
 }
