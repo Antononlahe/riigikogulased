@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getMemberDetail } from "@/lib/queries";
-import { pool } from "@/lib/db";
 import { SiteHeader } from "@/components/site-header";
 import { MemberHeader } from "@/components/member/member-header";
 import { DisciplineSummary } from "@/components/member/discipline-summary";
@@ -16,14 +15,15 @@ import { ExpensePanel } from "@/components/member/expense-panel";
 import { getMemberExpenses } from "@/lib/expenses-queries";
 
 export const revalidate = 3600;
-
-export async function generateStaticParams() {
-  try {
-    const { rows } = await pool.query<{ slug: string }>("SELECT slug FROM members");
-    return rows.map((r) => ({ slug: r.slug }));
-  } catch {
-    return [];
-  }
+export const dynamicParams = true;
+// ponytail: prerender NO member pages at build (empty list) -- avoids re-reading every member's
+// full vote history on each deploy (~200MB Neon egress/deploy). But the presence of
+// generateStaticParams + dynamicParams=true still makes each page ISR-cached on-demand (first
+// visit per page per hour renders + caches, rest are CDN HITs). Returning [] is the sweet spot:
+// zero build egress AND cached pages. (An empty list here, unlike no function at all, keeps the
+// route ISR rather than falling back to per-request dynamic rendering.)
+export function generateStaticParams(): { slug: string }[] {
+  return [];
 }
 
 export default async function MemberPage({
@@ -45,29 +45,17 @@ export default async function MemberPage({
 
   const d = detail;
 
-  // Removable v0.5-B panel; failure degrades gracefully to nothing.
-  let speechStats: Awaited<ReturnType<typeof getMemberSpeechStats>> = null;
-  try {
-    speechStats = await getMemberSpeechStats(d.member.memberId);
-  } catch {
-    // leave empty
-  }
-
-  // Election result panel; degrades gracefully if absent (former MP / not yet ingested).
-  let election: Awaited<ReturnType<typeof getMemberElection>> = null;
-  try {
-    election = await getMemberElection(d.member.memberId);
-  } catch {
-    // leave empty
-  }
-
-  // Expense-compensation panel; degrades gracefully if absent (no data / not yet ingested).
-  let expenses: Awaited<ReturnType<typeof getMemberExpenses>> = [];
-  try {
-    expenses = await getMemberExpenses(d.member.memberId);
-  } catch {
-    // leave empty
-  }
+  // These three panels are independent and each degrades gracefully to empty on failure. Fetch
+  // them in parallel (allSettled) so an ISR cache-miss render pays one round-trip instead of three
+  // stacked ones -- matching getMemberDetail's own Promise.all fan-out.
+  const [speechStatsR, electionR, expensesR] = await Promise.allSettled([
+    getMemberSpeechStats(d.member.memberId),
+    getMemberElection(d.member.memberId),
+    getMemberExpenses(d.member.memberId),
+  ]);
+  const speechStats = speechStatsR.status === "fulfilled" ? speechStatsR.value : null;
+  const election = electionR.status === "fulfilled" ? electionR.value : null;
+  const expenses = expensesR.status === "fulfilled" ? expensesR.value : [];
 
   return (
     <>

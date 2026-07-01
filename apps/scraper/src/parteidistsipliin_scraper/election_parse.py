@@ -21,6 +21,7 @@ MANDATE_TYPES = {"PERSONAL", "DISTRICT", "COMPENSATION"}
 
 @dataclass(frozen=True)
 class ElectionResult:
+    app_id: str | None  # RIA applicationId; stable per candidate, used as the PK for non-sitters
     forename: str
     surname: str
     dob: str | None  # ISO YYYY-MM-DD
@@ -84,6 +85,7 @@ def _candidate_result(
     appid = c.findtext("applicationId")
     mandate = c.findtext("mandateType")
     return ElectionResult(
+        app_id=appid,
         forename=c.findtext("forename") or "",
         surname=c.findtext("surname") or "",
         dob=dob_by_appid.get(appid or ""),

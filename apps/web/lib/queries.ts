@@ -127,14 +127,15 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
   const member = memberRes.rows[0] as MemberRecord;
   const id = member.memberId;
 
-  const summaryRes = await pool.query(
-    `SELECT counted_votes AS counted, aligned_votes AS aligned, defections
+  // These five all depend only on `id` and are independent of each other -- run concurrently
+  // so the member page pays one round-trip's latency, not five stacked (cold-render waterfall).
+  const [summaryRes, breakdownRes, votesRes, committeesRes, districtsRes] = await Promise.all([
+    pool.query(
+      `SELECT counted_votes AS counted, aligned_votes AS aligned, defections
        FROM member_discipline WHERE member_id = $1`,
-    [id],
-  );
-  const summary = summaryRes.rows[0] ?? { counted: 0, aligned: 0, defections: 0 };
-
-  const breakdownRes = await pool.query(
+      [id],
+    ),
+    pool.query(
     `SELECT p.short_name AS "partyShortName", p.name AS "partyName",
             COUNT(*) FILTER (WHERE mva.party_majority_choice IS NOT NULL
               AND mva.member_choice IN ('yes','no','abstain') AND NOT mva.is_procedural) AS counted,
@@ -153,10 +154,9 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
       HAVING COUNT(*) FILTER (WHERE mva.party_majority_choice IS NOT NULL
         AND mva.member_choice IN ('yes','no','abstain') AND NOT mva.is_procedural) > 0
       ORDER BY MIN(v.voted_at)`,
-    [id],
-  );
-
-  const votesRes = await pool.query(
+      [id],
+    ),
+    pool.query(
     `SELECT v.id AS "voteId", v.voted_at AS "votedAt", v.title, v.draft_title AS "draftTitle",
             v.draft_mark AS "draftMark", v.draft_uuid AS "draftUuid",
             v.riigikogu_uuid AS "riigikoguUuid",
@@ -169,10 +169,9 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
        LEFT JOIN draft_outcomes do_ ON do_.draft_uuid = v.draft_uuid
       WHERE mva.member_id = $1
       ORDER BY v.voted_at`,
-    [id],
-  );
-
-  const committeesRes = await pool.query(
+      [id],
+    ),
+    pool.query(
     `SELECT c.name,
             MAX(ct.started_on)::text AS "startedOn",
             MAX(ct.ended_on)::text   AS "endedOn"
@@ -180,19 +179,21 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
       WHERE ct.member_id = $1
       GROUP BY c.name
       ORDER BY MAX(ct.started_on) DESC NULLS LAST`,
-    [id],
-  );
-  // Districts can span multiple Riigikogu terms (a returning MP represented a different
-  // valimisringkond in an earlier koosseis); the app is scoped to the XV Riigikogu, so show
-  // only this term's district(s). term number 15 = the current koosseis.
-  const districtsRes = await pool.query(
+      [id],
+    ),
+    // Districts can span multiple Riigikogu terms (a returning MP represented a different
+    // valimisringkond in an earlier koosseis); the app is scoped to the XV Riigikogu, so show
+    // only this term's district(s). term number 15 = the current koosseis.
+    pool.query(
     `SELECT DISTINCT d.name, NULL::text AS "startedOn", NULL::text AS "endedOn"
        FROM member_district_terms dt
        JOIN electoral_districts d ON d.id = dt.district_id
        JOIN riigikogu_terms rt ON rt.id = dt.term_id
       WHERE dt.member_id = $1 AND rt.number = 15`,
-    [id],
-  );
+      [id],
+    ),
+  ]);
+  const summary = summaryRes.rows[0] ?? { counted: 0, aligned: 0, defections: 0 };
 
   // Per-faction ballot tallies for the member's defection votings (the "how they voted" panel).
   // Defection vote ids are computed with the same predicate as lib/member-detail classifyVote.
@@ -221,13 +222,14 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
       COUNT(*) FILTER (WHERE b.choice = 'no')::int      AS no,
       COUNT(*) FILTER (WHERE b.choice = 'abstain')::int AS abstain,
       COUNT(*) FILTER (WHERE b.choice IN ('absent','neutral'))::int AS absent`;
-    const overallRes = await pool.query(
-      `SELECT b.vote_id AS "voteId", ${TALLY}
+    const [overallRes, factionRes] = await Promise.all([
+      pool.query(
+        `SELECT b.vote_id AS "voteId", ${TALLY}
          FROM ballots b WHERE b.vote_id = ANY($1::int[]) GROUP BY b.vote_id`,
-      [defectionIds],
-    );
-    const factionRes = await pool.query(
-      `SELECT b.vote_id AS "voteId", p.short_name AS party, ${TALLY}
+        [defectionIds],
+      ),
+      pool.query(
+        `SELECT b.vote_id AS "voteId", p.short_name AS party, ${TALLY}
          FROM ballots b
          JOIN votes v ON v.id = b.vote_id
          JOIN member_faction_terms mft ON mft.member_id = b.member_id
@@ -237,8 +239,9 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
          JOIN parties p ON p.id = mft.party_id
         WHERE b.vote_id = ANY($1::int[])
         GROUP BY b.vote_id, p.short_name`,
-      [defectionIds],
-    );
+        [defectionIds],
+      ),
+    ]);
     for (const r of overallRes.rows as Array<{ voteId: number } & Tally>) {
       voteResults[r.voteId] = {
         overall: { yes: r.yes, no: r.no, abstain: r.abstain, absent: r.absent },

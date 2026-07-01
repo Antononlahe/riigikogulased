@@ -1,3 +1,4 @@
+import { unstable_cache } from "next/cache";
 import { pool } from "./db";
 import {
   speechBrowseOrderBy,
@@ -9,7 +10,13 @@ import {
 
 /** All members with recorded speech stats, for the leaderboard (A). Active members only
  *  (the API's plenary speech statistics cover the current roster). */
-export async function getSpeechLeaderboard(): Promise<SpeakerRow[]> {
+export const getSpeechLeaderboard = unstable_cache(
+  _getSpeechLeaderboard,
+  ["speech-leaderboard"],
+  { revalidate: 3600 },
+);
+
+async function _getSpeechLeaderboard(): Promise<SpeakerRow[]> {
   const { rows } = await pool.query(`
     SELECT m.id AS "memberId", m.full_name AS "fullName", m.slug,
            mcp.party_short_name AS "partyShortName", m.photo_thumb_path AS "photoThumbPath",
@@ -22,8 +29,10 @@ export async function getSpeechLeaderboard(): Promise<SpeakerRow[]> {
     JOIN members m ON m.id = s.member_id
     LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
     LEFT JOIN LATERAL (
-      SELECT sum(array_length(string_to_array(btrim(text), ' '), 1))::int AS total_words,
-             round(avg(array_length(string_to_array(btrim(text), ' '), 1)))::int AS avg_words
+      -- word_count is a STORED generated column (0021); aggregating the int avoids
+      -- re-tokenising every speech's text on each render (~1.4s -> ~15ms).
+      SELECT sum(word_count)::int AS total_words,
+             round(avg(word_count))::int AS avg_words
         FROM member_speeches ms WHERE ms.member_id = m.id
     ) w ON true
     ORDER BY s.total DESC, m.full_name ASC
@@ -47,7 +56,7 @@ export async function getMemberSpeechMeta(memberId: number): Promise<SpeechMeta 
   const [agg, cadence] = await Promise.all([
     pool.query(
       `SELECT count(*)::int AS "speechCount",
-              coalesce(sum(array_length(string_to_array(btrim(text), ' '), 1)), 0)::int AS "totalWords",
+              coalesce(sum(word_count), 0)::int AS "totalWords",
               coalesce(array_agg(DISTINCT extract(year FROM spoken_at)::int)
                        FILTER (WHERE spoken_at IS NOT NULL), '{}') AS years,
               coalesce(array_agg(DISTINCT sitting_type)
@@ -96,7 +105,7 @@ export async function browseMemberSpeeches(
             sitting_date::text AS "sittingDate", sitting_type AS "sittingType",
             agenda_title AS "agendaTitle", steno_link AS link,
             btrim(left(text, 240)) AS opening,
-            array_length(string_to_array(btrim(text), ' '), 1) AS "wordCount"
+            word_count AS "wordCount"
        FROM member_speeches
       WHERE member_id = $1
         AND ($2::int IS NULL OR extract(year FROM spoken_at) = $2)

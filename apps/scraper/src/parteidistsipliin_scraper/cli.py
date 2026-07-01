@@ -68,7 +68,8 @@ async def _scrape_range(start: date, end: date, *, cache_only: bool = False) -> 
             ctx = _new_context(cache)
             write_sessions(conn, ctx)
             n = await _scrape_into(client, conn, start, end, cache, ctx)
-            db.refresh_alignment(conn)
+            if n:  # nothing new -> alignment inputs unchanged, skip the ~8s exclusive-lock refresh
+                db.refresh_alignment(conn)
             conn.commit()
             return n
 
@@ -174,6 +175,10 @@ def rebuild() -> None:
             for draft_uuid in db.distinct_draft_uuids(conn):
                 raw = ec.read_draft(draft_uuid)
                 if raw:
+                    # The cached draft JSON also carries the bill's outcome; write it so an offline
+                    # rebuild reproduces draft_outcomes (0009) instead of leaving the timeline's
+                    # adopted/rejected badges NULL. Mirrors _ingest_draft_topics.
+                    _write_draft_outcome(conn, draft_uuid, raw)
                     et = parse_draft_descriptor_edids(raw)
                     if et:
                         write_volume_topics(conn, draft_uuid, et)
@@ -233,8 +238,8 @@ async def _refresh_members() -> None:
                 write_member(conn, PlenaryMember.model_validate(rec), ctx, active=False)
             cache.write_members_extra(extra_raw)
             conn.commit()
-        db.refresh_alignment(conn)
-        conn.commit()
+        # No refresh_alignment here: write_member touches only enrichment/committee/district data,
+        # none of which are inputs to ballot_alignment (faction terms come from voters[]).
         typer.echo(f"Refreshed {len(listed)} active + {len(gap_ids)} former members.")
 
 

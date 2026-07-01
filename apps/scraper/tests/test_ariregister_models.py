@@ -117,7 +117,9 @@ def test_card_to_party_term_builds_open_term_for_known_party():
 
 
 def test_card_to_party_term_none_for_unknown_party():
-    assert card_to_party_term("Eesti Rahvuslased ja Konservatiivid") is None
+    # A clearly-fictional name -- avoid real minor parties (e.g. ERK), which get added to the
+    # mapping over time and would silently turn this negative case into a false pass/fail.
+    assert card_to_party_term("Väljamõeldud Erakond XYZ") is None
     assert card_to_party_term(None) is None
 
 

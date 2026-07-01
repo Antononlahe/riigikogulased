@@ -76,6 +76,7 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
             <button
               key={m}
               onClick={() => setMode(m)}
+              aria-pressed={mode === m}
               className={`px-3 py-1.5 ${mode === m ? "bg-foreground text-background" : "bg-card text-muted-foreground hover:text-foreground"}`}
             >
               {t(m === "abs" ? "modeAbsolute" : "modeRate")}
@@ -90,10 +91,10 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
         <ScrollableTable minWidthClass="min-w-[52rem]">
           <thead>
             <tr className="border-b border-border">
-              <th className="px-4 py-2 text-left text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
+              <th scope="col" className="px-4 py-2 text-left text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
                 {t("member")}
               </th>
-              <th className="border-r border-border px-3 py-2 text-right" aria-sort={sortKey === "tenure" ? (sortDir === "asc" ? "ascending" : "descending") : "none"}>
+              <th scope="col" className="border-r border-border px-3 py-2 text-right" aria-sort={sortKey === "tenure" ? (sortDir === "asc" ? "ascending" : "descending") : "none"}>
                 <button
                   onClick={() => choose("tenure")}
                   className={`text-[11px] font-bold uppercase tracking-wide hover:text-foreground ${sortKey === "tenure" ? "text-foreground" : "text-muted-foreground"}`}
@@ -102,7 +103,7 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
                 </button>
               </th>
               {COLS.map((c) => (
-                <th key={c} className={`min-w-[4.75rem] px-3 py-2 text-right ${c === "total" ? "border-r border-border" : ""}`} aria-sort={sortKey === c ? (sortDir === "asc" ? "ascending" : "descending") : "none"}>
+                <th key={c} scope="col" className={`min-w-[4.75rem] px-3 py-2 text-right ${c === "total" ? "border-r border-border" : ""}`} aria-sort={sortKey === c ? (sortDir === "asc" ? "ascending" : "descending") : "none"}>
                   <button
                     onClick={() => choose(c)}
                     className={`text-[11px] font-bold uppercase tracking-wide hover:text-foreground ${sortKey === c ? "text-foreground" : "text-muted-foreground"}`}
@@ -120,7 +121,7 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
               const isNew = r.daysInTerm != null && r.daysInTerm < RATE_FLOOR_DAYS;
               return (
                 <tr key={r.memberId} className={`border-b border-border last:border-0 hover:bg-secondary ${r.active ? "" : "opacity-55"}`}>
-                  <td className="px-4 py-2">
+                  <th scope="row" className="px-4 py-2 text-left font-normal">
                     <span className="flex items-center gap-3 font-semibold">
                       <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
                       <Link href={`/members/${r.slug}`} className="hover:underline">
@@ -136,7 +137,7 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
                         </span>
                       )}
                     </span>
-                  </td>
+                  </th>
                   <td className="border-r border-border px-3 py-2 text-right tabular-nums">
                     <span className="inline-flex items-center justify-end gap-1.5">
                       <span className={sortKey === "tenure" ? "font-bold" : "text-muted-foreground"}>

@@ -49,30 +49,44 @@ class ApiClient:
         await self._client.aclose()
 
     async def get_json(self, path: str, params: dict[str, Any] | None = None) -> Any:
-        url = path if path.startswith("http") else f"{self.base_url}{path}"
-        for attempt in range(5):
-            await self._respect_delay()
-            resp = await self._client.get(url, params=params)
-            if resp.status_code == 200:
-                return resp.json()
-            if resp.status_code in (429, 502, 503, 504):
-                await asyncio.sleep(2**attempt)
-                continue
-            resp.raise_for_status()
-        raise RuntimeError(f"failed to fetch {url} after retries")
+        resp = await self._get(self._url(path), params=params)
+        return resp.json()
 
     async def get_bytes(self, path: str) -> bytes:
         """Fetch a binary file (e.g. a member photo). Same throttle/backoff as get_json."""
-        url = path if path.startswith("http") else f"{self.base_url}{path}"
+        resp = await self._get(self._url(path), accept="*/*")
+        return resp.content
+
+    def _url(self, path: str) -> str:
+        return path if path.startswith("http") else f"{self.base_url}{path}"
+
+    async def _get(
+        self,
+        url: str,
+        *,
+        params: dict[str, Any] | None = None,
+        accept: str = "application/json",
+    ) -> httpx.Response:
+        # Retry on transient HTTP statuses AND transport errors. A bare ConnectTimeout /
+        # ReadTimeout (httpx.RequestError) used to propagate uncaught and fail the whole
+        # cron run on a single slow/flaky response from the API.
+        last_exc: httpx.RequestError | None = None
         for attempt in range(5):
             await self._respect_delay()
-            resp = await self._client.get(url, headers={"Accept": "*/*"})
+            try:
+                resp = await self._client.get(url, params=params, headers={"Accept": accept})
+            except httpx.RequestError as exc:
+                last_exc = exc
+                await asyncio.sleep(2**attempt)
+                continue
             if resp.status_code == 200:
-                return resp.content
+                return resp
             if resp.status_code in (429, 502, 503, 504):
                 await asyncio.sleep(2**attempt)
                 continue
             resp.raise_for_status()
+        if last_exc is not None:
+            raise last_exc
         raise RuntimeError(f"failed to fetch {url} after retries")
 
     async def _respect_delay(self) -> None:

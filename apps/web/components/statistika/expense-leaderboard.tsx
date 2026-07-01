@@ -83,12 +83,13 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
       <ScrollableTable minWidthClass="min-w-[40rem]">
         <thead>
           <tr className="border-b border-border">
-            <th className="px-4 py-2 text-left text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
+            <th scope="col" className="px-4 py-2 text-left text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
               {t("member")}
             </th>
             {COLS.map((c) => (
               <th
                 key={c}
+                scope="col"
                 className="min-w-[5.5rem] px-3 py-2 text-right"
                 aria-sort={sortKey === c ? (sortDir === "asc" ? "ascending" : "descending") : "none"}
               >
@@ -111,7 +112,7 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
               <tr
                 className={`border-border hover:bg-secondary ${showDetail && cats.length ? "" : "border-b last:border-0"} ${r.active ? "" : "opacity-55"}`}
               >
-                <td className="px-4 py-2">
+                <th scope="row" className="px-4 py-2 text-left font-normal">
                   <span className="flex items-center gap-3 font-semibold">
                     <MemberAvatar
                       fullName={r.fullName}
@@ -123,7 +124,7 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
                     </Link>
                     <PartyBadge shortName={r.partyShortName} />
                   </span>
-                </td>
+                </th>
                 {COLS.map((c) => {
                   const active = sortKey === c;
                   const pct = active ? (metric(r, c) / max) * 100 : 0;

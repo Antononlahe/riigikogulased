@@ -69,6 +69,7 @@ def test_parse_election_all_candidates_national_block():
     assert kallas.district_number == 4
     assert kallas.party_code == "REF"
     assert kallas.dob == "1977-06-18"
+    assert kallas.app_id == "10"
     assert kallas.norm_name == "kaja kallas"
     # Reinsalu ran but was not elected -> kept, no mandate.
     reinsalu = by_surname["REINSALU"]

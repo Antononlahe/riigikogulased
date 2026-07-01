@@ -13,6 +13,97 @@ Entry format:
 
 ---
 
+## 2026-07-01 — Whole-repo review + 13 low-risk fixes
+**What:** Ran a multi-agent whole-repo code review (7 focused auditors -> adversarial verify ->
+synthesis; report in `code-review-2026-07-01.md`). No Critical/High findings; the scoring metric came
+back clean. Applied the 13 confirmed worth-fixing items. Scraper: offline `rebuild` now writes
+`draft_outcomes` (was silently empty from cache); `AriregisterClient` retries transport errors like
+`ApiClient`; `apply_migrations` commits the body + `schema_migrations` row in ONE transaction (strips
+the files' outer BEGIN/COMMIT) so an interrupted run can't wedge the chain; `_scrape_range` refreshes
+`ballot_alignment` only when new votings landed and `members` no longer refreshes it (not an alignment
+input); de-duplicated `normalize_name` (was triplicated across db.py + election_parse); throttle test
+no longer asserts on wall-clock; refreshed the stale README. Web: member page fetches its 3 independent
+panels via `Promise.allSettled` (was a 3-round-trip waterfall); two speech queries read the stored
+`word_count` column instead of re-tokenising; added `aria-current`/`aria-pressed` and `<th scope>`
+row/col headers across the statistika + members tables. DB: `0021` gains `IF NOT EXISTS`. Also
+repointed a stale ariregister test (ERK is now a mapped party, so its "unknown party" case moved to a
+fictional name).
+**Why:** User asked for a many-angle functional + engineering review, then to apply the low-risk set.
+Deferred (need a DB test harness): faction-term-build, ApiClient error-branch, and election-fixture tests.
+**Touched:** `apps/scraper/src/parteidistsipliin_scraper/{cli,db,ariregister_client}.py`,
+`apps/scraper/tests/{test_api_client,test_ariregister_models}.py`, `apps/scraper/README.md`,
+`apps/web/app/[locale]/members/[slug]/page.tsx`, `apps/web/lib/speeches-queries.ts`,
+`apps/web/components/{members-table,statistika/expense-leaderboard,statistika/speaker-leaderboard,statistika/statistika-tabs,statistika/expenses-section}.tsx`,
+`packages/db/migrations/0021_speech_word_count.sql`, `CLAUDE.md`, `code-review-2026-07-01.md`.
+
+## 2026-07-01 — Statistika static route split + member page ISR fix + query parallelization
+**What:** Three related perf changes. (1) Split /statistika into static routes: `/statistika`
+(speakers), `/statistika/kulud` (expenses, latest year), `/statistika/kulud/[aasta]` (per-year,
+generateStaticParams + dynamicParams=false). None read `searchParams`, so all render statically and
+serve from the CDN (PRERENDER -> HIT); tab and year switches are now cache hits, not ~0.5s dynamic
+renders. Shared `StatistikaTabs` (server, active-prop) and `ExpensesSection` components. (2) Fixed a
+regression from the earlier egress change: removing `generateStaticParams` from the member page had
+silently made it render *dynamically* (`Cache-Control: private, no-store`, `X-Vercel-Cache: MISS`
+every load, ~1.7s) rather than on-demand ISR. Restored caching with `generateStaticParams` returning
+`[]` (prerenders nothing -> still zero build egress, but keeps the route ISR so pages cache on first
+visit: MISS -> HIT ~0.4s). (3) Parallelized `getMemberDetail`'s query waterfall (5 id-dependent
+queries + the 2 defection-tally queries now run via `Promise.all`), cutting the cold-render latency.
+**Why:** User: switching Statistika tabs felt bad at ~0.5s; member pages slow.
+**Touched:** `apps/web/app/[locale]/statistika/{page.tsx,kulud/page.tsx,kulud/[aasta]/page.tsx}`,
+`apps/web/components/statistika/{statistika-tabs,expenses-section}.tsx`,
+`apps/web/app/[locale]/members/[slug]/page.tsx`, `apps/web/lib/queries.ts`.
+Correction to the 2026-07-01 egress entry below: its "first visit per page per hour pays one SSR" was
+wrong -- without generateStaticParams the page was fully dynamic (every visit re-rendered). Now fixed.
+
+## 2026-07-01 — Statistika speaker leaderboard: ~2.5s -> ~0.5s
+**What:** The /statistika speaker leaderboard rendered dynamically (reads `searchParams`, so
+`revalidate` never cached it -> `X-Vercel-Cache: MISS` every load) and its query tokenised the full
+`text` of all ~62k speeches on every render just to show total/avg word columns (EXPLAIN: 1404ms;
+15ms without the tokenisation). Two-part fix: (1) migration `0021_speech_word_count.sql` adds a STORED
+generated `word_count` column to `member_speeches` (computed once at write, backfilled by the ALTER,
+no ingest change), and `getSpeechLeaderboard` now SUM/AVGs that int (1404ms -> 220ms; numbers
+byte-identical); (2) wrapped `getSpeechLeaderboard` in `unstable_cache` (1h) so the still-dynamic page
+serves from the data cache instead of re-hitting Neon each render, removing the query cost and the
+Neon cold-wake spikes. Live: warm loads ~0.5s (was 2.2-3.0s); first load post-deploy/revalidate ~2.5s
+(one-time cache population). Migration applied to prod + recorded in schema_migrations as '0021'.
+**Why:** User reported Statistika taking >1s on every switch.
+**Touched:** `packages/db/migrations/0021_speech_word_count.sql`, `apps/web/lib/speeches-queries.ts`;
+prod `member_speeches` (added column).
+Not done: the page still renders dynamically (searchParams) so it's never a CDN HIT — making the
+default speakers view a static route would get it to ~0.13s but needs a routing split; `word_count`
+covering index (member_id, word_count) would take the query 220ms -> ~15ms. Both deferred (0.5s is fine).
+
+## 2026-07-01 — ERK abbreviation for Jaak Valge on Statistika
+**What:** Jaak Valge showed his party as the full "Eesti Rahvuslased ja Konservatiivid" instead of an
+abbreviation. He left EKRE's fraktsioon, so `member_current_party` falls back to his current erakond
+(ERK), whose `parties` row (id 13) had the full name stored as `short_name` (the unmapped-party
+fallback in `ariregister_models.registry_code_to_party`). Added ERK to `_NAME_TO_PARTY` so future
+äriregister ingests abbreviate it, and ran `UPDATE parties SET short_name='ERK' WHERE id=13` on prod.
+He was the only *current* member on an unmapped full-name party (the other unmapped rows are defunct
+historical parties nobody currently sits in). ERK has no Riigikogu fraktsioon, so scoring is unchanged
+(still excluded). Not done: an ERK party-color token (chip uses default color).
+**Why:** Consistency — every other speaker shows an abbreviation.
+**Touched:** `apps/scraper/src/parteidistsipliin_scraper/ariregister_models.py`; prod `parties` row 13.
+
+## 2026-07-01 — "Experimental" label moved off Statistika onto Fraktsioonid + Teemad
+**What:** Dropped "Katseline."/"Experimental." from the statistika `intro` and moved the experimental
+marker into the Fraktsioonid and Teemad H1s ("Fraktsioonid (eksperimentaalne)" / "(experimental)",
+same for Teemad) via the `heading` message keys. Nav labels (`nav.*`) unchanged. Deployed to prod.
+**Why:** Statistika is mature enough to drop the caveat; the two newer pages are thinner and warrant it.
+**Touched:** `apps/web/messages/{et,en}.json`.
+
+## 2026-07-01 — Member pages: on-demand ISR instead of build-time prerender
+**What:** Removed `generateStaticParams` from `members/[slug]/page.tsx` (was prerendering all ~101
+members × 2 locales on every deploy) in favor of on-demand rendering + 1h ISR (`dynamicParams = true`,
+`revalidate = 3600` unchanged). Dropped the now-unused `pool` import.
+**Why:** Neon hit 90% of its 5 GB/mo public network transfer. Each deploy re-read every member's full
+vote history (`getMemberDetail` `votesRes` pulls titles/draft_titles, thousands of rows, ~1 MB/member)
+= ~200 MB egress per prod deploy; frequent deploys during active dev ≈ the 4.5 GB. On-demand ISR makes
+egress traffic-driven (once per page per hour) instead of deploy-driven. Trade-off: first visitor per
+page per hour pays one SSR (~0.3–1.5 s warm, +~0.5–3 s if Neon compute was autosuspended).
+**Touched:** `apps/web/app/[locale]/members/[slug]/page.tsx`. Deferred: `ballot_alignment (member_id)`
+index (warm-render seq scans, not egress); trimming vote titles out of the build query (now moot).
+
 ## 2026-06-30 — Mobile table overhaul (scroll fix + cards)
 **What:** Tables were collapsing instead of scrolling on mobile (`w-full` with no `min-width`, so
 `overflow-x-auto` never engaged; columns squished, text wrapped). Added a shared

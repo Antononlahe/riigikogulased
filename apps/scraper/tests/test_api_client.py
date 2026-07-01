@@ -37,14 +37,34 @@ async def test_retries_on_429_then_succeeds():
 
 
 @pytest.mark.asyncio
+async def test_retries_on_connect_timeout_then_succeeds():
+    # A transient transport error (e.g. ConnectTimeout) must be retried, not propagated.
+    calls = {"n": 0}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        calls["n"] += 1
+        if calls["n"] == 1:
+            raise httpx.ConnectTimeout("boom", request=request)
+        return httpx.Response(200, json={"ok": 1})
+
+    transport = httpx.MockTransport(handler)
+    async with ApiClient(delay_ms=0, transport=transport) as client:
+        body = await client.get_json("/api/x")
+    assert body == {"ok": 1}
+    assert calls["n"] == 2
+
+
+@pytest.mark.asyncio
 async def test_throttle_spaces_requests():
     transport, _ = _transport([(200, {})])
     async with ApiClient(delay_ms=80, transport=transport) as client:
-        await client.get_json("/api/a")
         t0 = time.monotonic()
+        await client.get_json("/api/a")
         await client.get_json("/api/b")
         elapsed = time.monotonic() - t0
-    assert elapsed >= 0.075  # second call waited ~80ms
+    # t0 is captured before the first request (which sets _last_request_at), so this measures the
+    # full inter-request spacing -- no scheduler gap between the two calls can erode the margin.
+    assert elapsed >= 0.075  # two calls spaced ~80ms apart
 
 
 @pytest.mark.asyncio

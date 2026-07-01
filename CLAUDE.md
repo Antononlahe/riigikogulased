@@ -248,9 +248,10 @@ Current (migration `0006_alignment_matview.sql`, v0.3/D2):
   matview makes them ~18ms. The **web topic queries (`apps/web/lib/topics-queries.ts`) read
   `ballot_alignment`**, never `member_vote_alignment` directly. Refresh it with
   `db.refresh_alignment(conn)` (a plain `REFRESH MATERIALIZED VIEW`) **after any ingest that changes
-  ballots/votes/faction/erakond terms** — already wired into `_scrape_range` (backfill/daily),
-  `rebuild`, `members`, and `erakond`. The `eurovoc`/`photos` commands don't touch alignment, so they
-  don't refresh. Apply migrations without a full rebuild via the **`migrate` CLI command**
+  ballots/votes/faction/erakond terms** — wired into `_scrape_range` (backfill/daily, but only when
+  new votings landed), `rebuild`, and `erakond`. The `members`/`eurovoc`/`photos` commands don't
+  change alignment inputs, so they don't refresh. Apply migrations without a full rebuild via the
+  **`migrate` CLI command**
   (`db.apply_migrations`); the matview is created+populated at migration time.
 
 Current (migration `0002_structure.sql`, v0.2/A2):

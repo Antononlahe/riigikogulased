@@ -52,15 +52,26 @@ class AriregisterClient:
 
     async def _get(self, path: str, params: dict | None) -> str:
         url = f"{self.base_url}{path}"
+        # Retry on transient HTTP statuses AND transport errors, matching ApiClient. A bare
+        # ConnectTimeout/ReadTimeout (httpx.RequestError) would otherwise propagate uncaught and
+        # abort the whole multi-minute erakond run on one slow response from the registry.
+        last_exc: httpx.RequestError | None = None
         for attempt in range(5):
             await self._respect_delay()
-            resp = await self._client.get(url, params=params)
+            try:
+                resp = await self._client.get(url, params=params)
+            except httpx.RequestError as exc:
+                last_exc = exc
+                await asyncio.sleep(2**attempt)
+                continue
             if resp.status_code == 200:
                 return resp.text
             if resp.status_code in (429, 502, 503, 504):
                 await asyncio.sleep(2**attempt)
                 continue
             resp.raise_for_status()
+        if last_exc is not None:
+            raise last_exc
         raise RuntimeError(f"failed to fetch {url} after retries")
 
     async def _respect_delay(self) -> None:

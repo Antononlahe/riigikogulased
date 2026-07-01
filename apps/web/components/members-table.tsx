@@ -134,6 +134,7 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
               {COLS.map((c) => (
                 <th
                   key={c.key}
+                  scope="col"
                   aria-sort={
                     sortKey === c.key ? (sortDir === "asc" ? "ascending" : "descending") : undefined
                   }
@@ -149,6 +150,7 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
                 </th>
               ))}
               <th
+                scope="col"
                 aria-sort={sortKey === "votes" ? (sortDir === "asc" ? "ascending" : "descending") : undefined}
                 className="px-4 py-3"
               >
@@ -170,7 +172,7 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
                 transition={{ duration: 0.2 }}
                 className={`border-b border-border last:border-0 hover:bg-secondary ${r.active ? "" : "opacity-55"}`}
               >
-                <td className="px-4 py-2.5">{nameCell(r)}</td>
+                <th scope="row" className="px-4 py-2.5 text-left font-normal">{nameCell(r)}</th>
                 <td className="px-4 py-2.5 text-right">
                   <span className="font-semibold tabular-nums">{discPct(r)}</span>
                 </td>

@@ -27,23 +27,19 @@ uv run parteidistsipliin-scraper members
 
 ## Layout
 
-- `client.py` — polite httpx client (rate-limit, retries, identifies via User-Agent).
-- `parsers/` — pure parser functions: `(html: str) -> pydantic model`. Tested against
-  fixtures.
-- `db.py` — psycopg-based writers. `upsert_vote`, `upsert_member`, etc.
-- `cli.py` — Typer commands that wire client + parsers + db together.
+- `api_client.py` — polite async httpx client for api.riigikogu.ee (1 req/s throttle, 429/5xx +
+  transport-error retries, CC-BY-SA User-Agent). `ariregister_client.py` is the sibling client
+  for the äriregister party registry.
+- `api_parse.py` / `api_models.py` — pydantic models + helpers that turn API JSON into rows.
+- `db.py` — psycopg-based writers (`upsert_member`, `write_voting`, `apply_migrations`, …).
+- `cli.py` — Typer commands (`backfill`, `daily`, `members`, `erakond`, `eurovoc`, `rebuild`, …)
+  that wire client + parse + db together.
 
-## Parser status
-
-The selectors in `parsers/*.py` are stubs — the sandbox where this repo was
-bootstrapped could not reach `riigikogu.ee`. Run the scraper against the real site
-once and update the CSS selectors / JSON paths to match. Each parser has a `# TODO:
-verify against live HTML` marker.
+The `parsers/` package is an empty placeholder: the HTML parsers were removed in the v0.2 API
+cutover. Reintroduce one only if a concrete API data gap appears.
 
 ## Tests
 
-`pytest` runs the parsers against committed HTML fixtures under `fixtures/`. To add a
-new fixture: grab the page with `curl -A "$SCRAPER_USER_AGENT" <url> >
-fixtures/<name>.html` and write a corresponding `tests/test_*.py` case.
-
-Tests do **not** hit the network.
+`pytest` runs offline against committed fixtures under `fixtures/api/` and the raw cache under
+`cache/`; no test hits the network. `rebuild` replays the committed cache to reproduce the DB
+with no network access.

@@ -48,6 +48,9 @@ _NAME_TO_PARTY: dict[str, tuple[str, str]] = {
     "isamaa erakond": ("I", "Erakond Isamaa"),
     "erakond isamaa": ("I", "Erakond Isamaa"),
     "erakond isamaa ja res publica liit": ("I", "Erakond Isamaa"),
+    # ERK: new party (2024 EKRE splinter, Jaak Valge et al.); no Riigikogu fraktsioon, so
+    # erakond-only and excluded from scoring, but should still show its abbreviation.
+    "eesti rahvuslased ja konservatiivid": ("ERK", "Eesti Rahvuslased ja Konservatiivid"),
 }
 
 

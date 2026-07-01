@@ -8,6 +8,8 @@ from pathlib import Path
 import psycopg
 from psycopg.rows import dict_row
 
+from parteidistsipliin_scraper.election_parse import normalize_name
+
 
 def _slugify(name: str) -> str:
     s = name.lower()
@@ -189,14 +191,21 @@ def _applied_versions(conn: psycopg.Connection) -> set[str]:
         return {r["version"] for r in cur.fetchall()}
 
 
+# A lone `BEGIN;` / `COMMIT;` line: older migrations wrap their whole body in one. apply_migrations
+# strips these so the body and its schema_migrations bookkeeping commit as a single transaction.
+_OUTER_TXN = re.compile(r"(?im)^[ \t]*(?:begin|commit)[ \t]*;[ \t]*$")
+
+
 def apply_migrations(conn: psycopg.Connection, migrations_dir: Path | None = None) -> list[str]:
     """Apply every unapplied NNNN_*.sql in order; record each in schema_migrations.
 
-    Each migration file is responsible for its own BEGIN/COMMIT. We record each version
-    in schema_migrations here so the tracking table is the source of truth regardless of
-    whether a given file self-seeds it. The tracking table is created up front because the
-    earliest migrations (0001) predate it -- without this, applying 0001 on a database that
-    lacks the table would try to record into a relation only a later migration creates.
+    The migration body and its schema_migrations version row commit as ONE transaction: we strip
+    the file's own outer BEGIN;/COMMIT; and let this function own the commit. Otherwise a crash
+    between the file's COMMIT and a separate version INSERT would leave a migration
+    applied-but-unrecorded, and the next run would re-execute a non-idempotent body (0003's RENAME,
+    0014's DROP EXPRESSION) and wedge the whole chain. Assumes migrations use BEGIN/COMMIT only as
+    an outer wrapper, never to split the body into independently-committed parts. The tracking
+    table is created up front because the earliest migrations (0001) predate it.
     """
     conn.execute(
         "CREATE TABLE IF NOT EXISTS schema_migrations ("
@@ -209,7 +218,7 @@ def apply_migrations(conn: psycopg.Connection, migrations_dir: Path | None = Non
     ran: list[str] = []
     for path in pending_migrations(applied, migrations_dir):
         version = path.name.split("_", 1)[0]
-        conn.execute(path.read_text(encoding="utf-8"))
+        conn.execute(_OUTER_TXN.sub("", path.read_text(encoding="utf-8")))
         conn.execute(
             "INSERT INTO schema_migrations (version) VALUES (%s) "
             "ON CONFLICT (version) DO NOTHING",
@@ -536,21 +545,15 @@ def update_speech_meta(conn: psycopg.Connection, rows: list[tuple]) -> None:
 def member_name_dob_to_id(conn: psycopg.Connection) -> dict[tuple[str, str], int]:
     """Map (normalized full name, ISO DOB) -> member id, for name+DOB external matching.
 
-    Normalization mirrors election_parse.normalize_name (NFC + casefold + collapsed
-    whitespace) so ALL-CAPS election names match title-case member names.
+    Uses election_parse.normalize_name (NFC + casefold + collapsed whitespace) so ALL-CAPS
+    election names match title-case member names.
     """
-    import re
-    import unicodedata
-
-    def norm(s: str) -> str:
-        return re.sub(r"\s+", " ", unicodedata.normalize("NFC", (s or "").strip().casefold()))
-
     with conn.cursor() as cur:
         cur.execute(
             "SELECT id, full_name, date_of_birth FROM members WHERE date_of_birth IS NOT NULL"
         )
         return {
-            (norm(r["full_name"]), r["date_of_birth"].isoformat()): r["id"]
+            (normalize_name(r["full_name"]), r["date_of_birth"].isoformat()): r["id"]
             for r in cur.fetchall()
         }
 
@@ -630,18 +633,12 @@ def member_norm_name_to_id(conn: psycopg.Connection) -> dict[str, int]:
     omitted (we can't tell which is meant) rather than mis-mapped. Normalization mirrors
     election_parse.normalize_name (NFC + casefold + collapsed whitespace).
     """
-    import re
-    import unicodedata
-
-    def norm(s: str) -> str:
-        return re.sub(r"\s+", " ", unicodedata.normalize("NFC", (s or "").strip().casefold()))
-
     counts: dict[str, int] = {}
     by_name: dict[str, int] = {}
     with conn.cursor() as cur:
         cur.execute("SELECT id, full_name FROM members")
         for r in cur.fetchall():
-            n = norm(r["full_name"])
+            n = normalize_name(r["full_name"])
             counts[n] = counts.get(n, 0) + 1
             by_name[n] = r["id"]
     return {n: mid for n, mid in by_name.items() if counts[n] == 1}
