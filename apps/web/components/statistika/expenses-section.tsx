@@ -12,8 +12,8 @@ export async function ExpensesSection({ year }: { year: number }) {
   const latest = years[0] ?? 0;
   const rows = year ? await getExpenseLeaderboard(year) : [];
   return (
-    <section className="mt-8">
-      <h2 className="font-serif text-xl font-bold">{t("expensesHeading")}</h2>
+    <section>
+      <h1 className="font-serif text-2xl font-bold tracking-tight">{t("expensesHeading")}</h1>
       <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("expensesIntro")}</p>
       {years.length > 1 && (
         <div className="mt-4 inline-flex overflow-hidden rounded-md border border-border">

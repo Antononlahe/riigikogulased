@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Party Discipline",
+    "title": "Riigikogulased",
     "tagline": "How often do Estonian MPs vote against their own faction?"
   },
   "members": {
-    "heading": "Riigikogu members",
+    "heading": "Party Discipline",
     "cycle": "XV Riigikogu · 2023–",
-    "subheading": "Discipline score measures how often a member votes with their faction's majority position. Procedural votes (presence checks, agenda adoption) are excluded.",
+    "subheading": "Discipline percentage measures how often a member votes with their faction's majority position. Procedural votes (presence checks, agenda adoption) are excluded.",
     "empty": "No data yet. Run the scraper to populate the database."
   },
   "footer": {
@@ -14,15 +14,14 @@
     "github": "Source on GitHub"
   },
   "nav": {
-    "members": "Members",
+    "members": "Party Discipline",
+    "speeches": "Speeches",
+    "expenses": "Expenses",
     "factions": "Factions",
-    "topics": "Topics",
-    "statistics": "Statistics"
+    "topics": "Topics"
   },
   "statistika": {
-    "heading": "Statistics",
-    "intro": "Speaking activity in the 15th Riigikogu.",
-    "speakersHeading": "Speakers",
+    "speakersHeading": "Speeches",
     "speakersIntro": "Counts of floor speeches, questions, and procedural remarks in plenary (Riigikogu statistics).",
     "empty": "No data available.",
     "member": "Member",
@@ -43,8 +42,6 @@
     "tenureFlagNote": "Members with under 3 months served: the rate is computed but not ranked, because too small a window gives a misleadingly high rate.",
     "totalWords": "Total words",
     "avgWords": "Words/speech",
-    "tabSpeakers": "Speakers",
-    "tabExpenses": "Expenses",
     "expensesHeading": "Expense compensations",
     "expensesIntro": "Each MP's annual expense-compensation limit and how much of it was used (Riigikogu published summaries).",
     "col_limit": "Limit",

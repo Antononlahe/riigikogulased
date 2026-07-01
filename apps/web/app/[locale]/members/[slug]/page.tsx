@@ -13,6 +13,7 @@ import { ElectionPanel } from "@/components/member/election-panel";
 import { getMemberElection } from "@/lib/election-queries";
 import { ExpensePanel } from "@/components/member/expense-panel";
 import { getMemberExpenses } from "@/lib/expenses-queries";
+import { RATE_FLOOR_DAYS, DAYS_PER_MONTH } from "@/lib/speeches";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -45,6 +46,19 @@ export default async function MemberPage({
 
   const d = detail;
 
+  // Tenure this term (mandate start -> now) -- a headline identity fact shown prominently under
+  // the name. `tenureNew` flags members with under ~3 months served.
+  const tenureDays = d.member.mandateStartedOn
+    ? Math.floor((Date.now() - Date.parse(d.member.mandateStartedOn)) / 86_400_000)
+    : null;
+  const tenureNew = tenureDays != null && tenureDays < RATE_FLOOR_DAYS;
+  const tenureLabel =
+    tenureDays == null
+      ? null
+      : tenureNew
+        ? t("tenureDays", { n: tenureDays })
+        : t("tenureMonths", { n: Math.round(tenureDays / DAYS_PER_MONTH) });
+
   // These three panels are independent and each degrades gracefully to empty on failure. Fetch
   // them in parallel (allSettled) so an ISR cache-miss render pays one round-trip instead of three
   // stacked ones -- matching getMemberDetail's own Promise.all fan-out.
@@ -63,6 +77,16 @@ export default async function MemberPage({
       <main className="mx-auto max-w-5xl px-4 py-10">
         <MemberHeader member={d.member} />
         <p className="mt-1 text-xs uppercase tracking-wide text-muted-foreground">{t("cycle")}</p>
+        {tenureLabel && (
+          <p className="mt-1.5 flex flex-wrap items-center gap-2 text-sm font-semibold text-foreground">
+            {tenureLabel}
+            {tenureNew && (
+              <span className="rounded-full border border-amber-300 bg-amber-50 px-1.5 py-0.5 text-[10px] font-medium text-amber-700 dark:border-amber-800/60 dark:bg-amber-950/40 dark:text-amber-500">
+                {t("tenureNew")}
+              </span>
+            )}
+          </p>
+        )}
         <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_18rem]">
           <div className="min-w-0 space-y-8">
             <DisciplineSummary

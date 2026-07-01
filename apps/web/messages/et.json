@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Parteidistsipliin",
+    "title": "Riigikogulased",
     "tagline": "Kui sageli hääletavad Riigikogu liikmed oma fraktsiooni vastu?"
   },
   "members": {
-    "heading": "Riigikogu liikmed",
+    "heading": "Parteidistsipliin",
     "cycle": "XV Riigikogu · 2023–",
-    "subheading": "Distsipliiniskoor näitab, kui tihti liige hääletab oma fraktsiooni enamuse positsiooniga. Kohaloleku kontrolle ja päevakorra kinnitamisi arvesse ei võeta.",
+    "subheading": "Distsipliiniprotsent näitab, kui tihti liige hääletab oma fraktsiooni enamuse positsiooniga. Kohaloleku kontrolle ja päevakorra kinnitamisi arvesse ei võeta.",
     "empty": "Andmeid veel ei ole. Käivita scraper, et populaarne andmebaas."
   },
   "footer": {
@@ -14,15 +14,14 @@
     "github": "Lähtekood GitHubis"
   },
   "nav": {
-    "members": "Liikmed",
+    "members": "Parteidistsipliin",
+    "speeches": "Sõnavõtud",
+    "expenses": "Kuluhüvitised",
     "factions": "Fraktsioonid",
-    "topics": "Teemad",
-    "statistics": "Statistika"
+    "topics": "Teemad"
   },
   "statistika": {
-    "heading": "Statistika",
-    "intro": "Kõnelejate aktiivsus XV Riigikogus.",
-    "speakersHeading": "Kõnelejad",
+    "speakersHeading": "Sõnavõtud",
     "speakersIntro": "Kõnede, küsimuste ja protseduuriliste sõnavõttude arv täiskogul (Riigikogu statistika).",
     "empty": "Andmed puuduvad.",
     "member": "Liige",
@@ -43,8 +42,6 @@
     "modeAbsoluteHint": "Toores koguarv kogu koosseisu jooksul.",
     "modeRateHint": "Sõnavõtte kuus, normaliseeritud Riigikogus oldud aja järgi.",
     "tenureFlagNote": "Alla 3 kuu staažiga liikmed: määr on arvutatud, kuid liiga väikese valimi tõttu järjestamata (väike ajavahemik annab eksitavalt kõrge määra).",
-    "tabSpeakers": "Kõnelejad",
-    "tabExpenses": "Kuluhüvitised",
     "expensesHeading": "Kuluhüvitised",
     "expensesIntro": "Riigikogu liikmete kuluhüvitiste limiit ja kasutus aastas (Riigikogu avaldatud koondandmed).",
     "col_limit": "Limiit",

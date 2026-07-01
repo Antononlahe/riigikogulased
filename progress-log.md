@@ -13,6 +13,24 @@ Entry format:
 
 ---
 
+## 2026-07-01 — Rebrand + nav restructure (Riigikogulased)
+**What:** UI/nav changes. (1) Site title (top-left brand + browser tab) renamed Parteidistsipliin ->
+"Riigikogulased". (2) The former "Liikmed" page is renamed "Parteidistsipliin": nav item + homepage H1
+both now "Parteidistsipliin" (EN "Party Discipline"), and its subheading now says "Distsipliiniprotsent"
+(was "Distsipliiniskoor"; EN "Discipline percentage"). (3) Split the single "Statistika" nav item (which
+had in-page subtabs) into two top-level nav items: "Sõnavõtud" (renamed from "Kõnelejad", -> /statistika)
+and "Kuluhüvitised" (-> /statistika/kulud). Removed the StatistikaTabs subtab bar from all three
+statistika routes, promoted each route's own heading to the page H1, deleted the now-unused
+statistika-tabs.tsx, and dropped 4 dead message keys (statistika.heading/intro/tabSpeakers/tabExpenses)
+from both catalogs (ET/EN parity 218=218). Routes/URLs are unchanged. Also moved the member-page tenure
+line ("N kuud Riigikogus (sel koosseisul)") out of the speech panel to a prominent line under the name.
+**Why:** User rebrand: "Riigikogulased" as the brand, "Parteidistsipliin" for the discipline page, and
+speeches/expenses as separate top-level sections; tenure deserved a prominent slot.
+**Touched:** `apps/web/messages/{et,en}.json`, `apps/web/components/site-header.tsx`,
+`apps/web/app/[locale]/statistika/{page.tsx,kulud/page.tsx,kulud/[aasta]/page.tsx}`,
+`apps/web/components/statistika/expenses-section.tsx` (+ deleted `statistika-tabs.tsx`),
+`apps/web/app/[locale]/members/[slug]/page.tsx`, `apps/web/components/member/speech-panel.tsx`.
+
 ## 2026-07-01 — Whole-repo review + 13 low-risk fixes
 **What:** Ran a multi-agent whole-repo code review (7 focused auditors -> adversarial verify ->
 synthesis; report in `code-review-2026-07-01.md`). No Critical/High findings; the scoring metric came
