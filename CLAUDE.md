@@ -8,45 +8,20 @@ A public dashboard that surfaces how loyal each Riigikogu (Estonian parliament) 
 their party's voting line, based on the official Riigikogu vote archive. The point is
 journalism / civic transparency, not real-time analytics.
 
-## Scope ladder
+## Stack
 
-The full roadmap (researched + approved 2026-06-14) lives in
-`~/.claude/plans/can-you-go-over-crystalline-beacon.md`.
-Four governing decisions shape everything below:
-
-1. **Ingestion migrates to the official Open Data API** — `api.riigikogu.ee` (JSON,
-   stable UUIDs, CC-BY-SA, **1 req/sec** limit, OpenAPI spec at `/v3/api-docs`). The
-   HTML parsers were **removed** in the v0.2 cutover (done) — the API is the only
-   ingestion source; reintroduce a parser only if a concrete API data gap appears. The
-   API exposes far more than the
-   public HTML: full member bios, committees, Riigikogu terms, speeches/stenograms,
-   bills+sponsors, interpellations, written questions, EU docs, a Eurovoc subject
-   taxonomy, seating, events, and pre-computed voting/speech/participation statistics.
-2. **Schema is laid down now for four domains** — votes (have), speeches, bills,
-   oversight — so later UI is additive, not migratory.
-3. **Topic categorization uses official Eurovoc tags**, not manual rules / LLM.
-4. **UI is first-class from v0.2** — design system + charts + motion (see below).
-
-| Version | Status | Features |
-| --- | --- | --- |
-| v0.1 | shipped | Members list, overall discipline %, sortable. 15th Riigikogu. Live on Vercel. (Open: GH Actions `DATABASE_URL` secret unset, so the daily cron can't write yet.) |
-| v0.2 | current | API migration + member detail pages (vote timeline, party-switch lines) + design-system foundation. Model committees, terms, sittings/sessions, districts; enrich member record. |
-| v0.3 | shipped | Eurovoc topics: link votes->bills->subjects; filter discipline by topic. D1 (ingestion + `vote_topics` view) done + live. **D2's `/teemad` topic-explorer UI was removed 2026-07-02** (user: pointless); the data layer (`eurovoc_*`, `volume_topics`, `vote_topics`) stays ingested for future use. |
-| v0.4 | | Party / faction / committee rollups (cohesion). |
-| v0.5 | | Speeches & stenogram activity (how much / on what topics each MP speaks). |
-| v0.6 | | Bills & sponsorship (what each MP authored / co-sponsored, outcomes). |
-| v0.7 | | Oversight: interpellations, written questions, attendance/participation. |
-| v1.0 | | Search, social share cards, historical backfill across terms, polish, ET/EN review. |
-| post-1.0 | | "MP activity profiler" — comparison, leaderboards, topic explorer, maverick index, coalition dynamics. See roadmap doc. |
-
-Stay inside the current version's scope. New ideas go to the roadmap doc / GitHub issues,
-not into the diff.
-
-**UI stack (from v0.2):** keep Next.js App Router + Tailwind + next-intl on Vercel; add
-shadcn/ui (Radix) for components, Recharts for standard charts + visx/D3 for bespoke
-visuals (vote timeline, agreement matrix, hall plan), Framer Motion + Next.js View
-Transitions for motion. One shared party-color token palette (RE/EKRE/KE/E200/SDE/I);
-light/dark; mobile-first; honor `prefers-reduced-motion`.
+- **Ingestion**: the official Open Data API `api.riigikogu.ee` (JSON, stable UUIDs,
+  CC-BY-SA, **1 req/sec** limit, OpenAPI spec at `/v3/api-docs`) is the only source
+  (bar the äriregister gap noted under Architecture). It exposes full member bios,
+  committees, Riigikogu terms, speeches/stenograms, bills+sponsors, interpellations,
+  written questions, EU docs, a Eurovoc subject taxonomy, seating, events, and
+  pre-computed statistics.
+- **Topics**: categorization uses official Eurovoc tags from the API, not manual rules
+  / LLM.
+- **Web**: Next.js App Router + Tailwind + next-intl on Vercel; shadcn/ui (Radix)
+  components, Recharts + visx/D3 for charts, Framer Motion + View Transitions for
+  motion. One shared party-color token palette (RE/EKRE/KE/E200/SDE/I); light/dark;
+  mobile-first; honors `prefers-reduced-motion`.
 
 ## Architecture
 
@@ -272,12 +247,6 @@ compresses it to a WebP thumbnail under `apps/web/public/members/<uuid>.webp` (c
 served statically by Next.js) and records `photo_thumb_path`; the full-res image stays a
 runtime URL (`photo_url`).
 
-Planned (v0.4+ migrations, designed up front — see roadmap doc): `volumes` (generic
-dossier: drafts / interpellations / written-questions / EU / collective-addresses by
-type), `bills` + `bill_sponsors` + `bill_readings`, `speeches`. `votes.draft_uuid` becomes a
-real FK once `volumes`/`bills` land (`volume_topics.draft_uuid` likewise). The Eurovoc tables
-(`eurovoc_*` + `volume_topics`) **landed in `0005`** (v0.3/D1); D2 adds the topic UI.
-
 ## Things to be careful about
 
 - The API gives ISO dates/datetimes (`startDateTime` etc.); pydantic parses them at the
@@ -296,14 +265,3 @@ real FK once `volumes`/`bills` land (`volume_topics.draft_uuid` likewise). The E
   (`ERAPOOLETU`) — the API distinguishes these via `decision.code`; map precisely in
   `api_parse.decision_to_choice` and don't collapse them. `KOHAL` (present, in presence
   checks) is intentionally dropped.
-
-## Deferred / open
-
-- Vote topic classification uses **official Eurovoc tags from the API** (no manual rules /
-  LLM). Ingested in v0.3/D1 (`0005`, `vote_topics` view); D2 adds the topic UI. Open follow-up:
-  broad-**field** faceting covers only ~38% of bills (narrower descriptors have no API
-  ancestry) — a recursive `narrowTerms` crawl could lift it if D2 needs field-level facets.
-- Caching strategy for the dashboard once timeline charts land (likely ISR with 1h
-  revalidate).
-- Robots.txt / licensing compliance is currently informal — formalize CC-BY-SA
-  attribution and the 1 req/s limit before going public.
