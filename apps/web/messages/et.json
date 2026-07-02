@@ -22,28 +22,28 @@
   },
   "decisive": {
     "heading": "Otsustavad hääled",
-    "intro": "Kas fraktsiooni joone vastu hääletamine on mõne hääletuse tulemust päriselt muutnud? Iga hääletuse juures arvestame õiget vastuvõtmise lävendit: enamasti poolthäälteenamus, aga umbusaldusavaldused, ettepanekud Vabariigi Valitsusele, saadikupuutumatuse äravõtmine ja põhiseaduse §-s 104 loetletud seadused nõuavad koosseisu häälteenamust (51 häält).",
+    "intro": "Kas fraktsiooni vastu hääletamine on mõne hääletuse tulemust päriselt muutnud? Iga hääletuse juures arvestame õiget vastuvõtmise lävendit: enamasti poolthäälteenamus, aga umbusaldusavaldused, ettepanekud Vabariigi Valitsusele, saadikupuutumatuse äravõtmine ja põhiseaduse §-s 104 loetletud seadused nõuavad koosseisu häälteenamust (51 häält).",
     "emptyHeadline": "0 hääletust",
-    "emptyBody": "Selles koosseisus ei ole fraktsiooni joone vastu antud hääled muutnud ühegi hääletuse tulemust. Fraktsioonivastaseid hääli anti {defectionVotes} hääletusel, kuid tulemus oleks olnud sama ka siis, kui kõik oleksid hääletanud oma fraktsiooni joone järgi.",
+    "emptyBody": "Selles koosseisus ei ole fraktsiooni vastu antud hääled muutnud ühegi hääletuse tulemust. Fraktsioonivastaseid hääli anti {defectionVotes} hääletusel, kuid tulemus oleks olnud sama ka siis, kui kõik oleksid hääletanud koos oma fraktsiooniga.",
     "showClose": "Näita ka napilt mööda läinud hääletusi",
     "closeIntro": "Hääletused, kus fraktsioonivastaseid hääli oli vähemalt sama palju, kui tulemuse muutmiseks vaja — tulemus jäi samaks vaid seetõttu, et need hääled ei langenud ühte suunda.",
     "closeEmpty": "Selliseid hääletusi ei ole.",
     "ruleSimple": "poolthäälteenamus",
     "ruleMembers": "koosseisu häälteenamus (51)",
     "result": "Tulemus {yes} : {no} —",
-    "counterfactual": "fraktsioonijoone järgi {yes} : {no} —",
+    "counterfactual": "kõik fraktsiooniga kaasa hääletades {yes} : {no} —",
     "passed": "vastu võetud",
     "failed": "ei leidnud toetust",
     "wouldPass": "oleks vastu võetud",
     "wouldFail": "ei oleks vastu võetud",
     "sameOutcome": "tulemus ei muutu",
-    "defected": "hääletas {choice}, fraktsiooni joon oli {line}",
+    "defected": "hääletas {choice}, fraktsioon {line}",
     "choice": {
       "yes": "poolt",
       "no": "vastu",
       "abstain": "erapooletu"
     },
-    "methodNote": "Metoodika: arvesse lähevad sisulised hääletused (kohaloleku kontroll ja päevakorra kinnitamine on välja jäetud). Fraktsiooni joon on fraktsiooni liikmete enamuse seisukoht; liige läheb arvesse, kui tema hääl (poolt/vastu/erapooletu) erineb joonest. Vastuvõtmise lävend on tuletatud hääletuse liigist ja eelnõu pealkirjast — API seda otse ei avalda."
+    "methodNote": "Metoodika: arvesse lähevad sisulised hääletused (kohaloleku kontroll ja päevakorra kinnitamine on välja jäetud). Fraktsiooni seisukoht on fraktsiooni liikmete enamuse hääl; liige läheb arvesse, kui tema hääl (poolt/vastu/erapooletu) sellest erineb. Vastuvõtmise lävend on tuletatud hääletuse liigist ja eelnõu pealkirjast — API seda otse ei avalda."
   },
   "statistika": {
     "speakersHeading": "Sõnavõtud",
