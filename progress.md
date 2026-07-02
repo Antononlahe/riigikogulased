@@ -7,7 +7,12 @@ https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also li
 
 ## Current status
 
-**Otsustavad hääled (decisive votes) — CODE DONE (2026-07-02), pending user-gated prod steps.**
+**/teemad topic explorer REMOVED (2026-07-02).** User verdict: pointless. Deleted the UI only
+(`app/[locale]/teemad`, `components/topics`, `lib/topics*`, nav link, `/topics` redirects,
+`topics` message namespace); the Eurovoc data layer (0005, `vote_topics`, `eurovoc` CLI) stays.
+Its nav slot went to Otsustavad hääled.
+
+**Otsustavad hääled (decisive votes) — DONE + LIVE IN PROD (2026-07-02).**
 New page `/statistika/otsustavad`: did voting against the fraktsioon line ever flip an outcome?
 Vote thresholds are respected — the API doesn't expose the passage rule, so
 `api_parse.required_majority` derives it (umbusaldusavaldus PS §97, ettepanek Vabariigi
@@ -20,9 +25,13 @@ out of 280 defection votes — the page leads with that as the headline empty st
 client-side "näita napilt" toggle revealing near misses (defectors ≥ flip gap; currently 2:
 2023-09-21 ettepanek-VV otsus 37:19 w/ 17 defections, 2024-06-12 tuumaenergia otsus 41:25 w/
 16). New `thresholds` CLI backfills the two columns offline from the votings cache; ingest
-sets them for new votes. Verified: 82 scraper tests, 60 web tests, build green.
-**TODO (gated, user-run):** `python -m parteidistsipliin_scraper migrate` then
-`python -m parteidistsipliin_scraper thresholds` (both from apps/scraper), then deploy web.
+sets them for new votes. Verified: 82 scraper tests, web tests, build green.
+**Shipped (user-authorized):** `migrate` (0022) + `thresholds` run on prod. NB: the committed
+votings cache is the stale 1-year slice (598), so the full-term backfill was completed with an
+ad-hoc pass: classify all 2224 votes from DB slug+draft_title, plus API fetch of the 12 final
+votes lacking both draft and document title (all but 2 were umbusaldus motions, incl. both PM
+no-confidence votes). Final: **158 votes classified 'members' (51 needed)**; still 0 flips,
+2 near misses, 280 defection votes. Deployed.
 
 **Mobile tables overhauled — DONE + LIVE (2026-06-30).** Tables were collapsing instead of
 scrolling on mobile. Added shared `components/ui/scrollable-table.tsx` (min-width so scroll works +

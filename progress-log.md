@@ -13,6 +13,24 @@ Entry format:
 
 ---
 
+## 2026-07-02 — /teemad removed; decisive votes shipped to prod
+**What:** (1) Removed the `/teemad` topic-explorer UI per user ("kinda pointless"): deleted
+`app/[locale]/teemad`, `components/topics/*`, `lib/topics{,.test,-queries}.ts`, the `/topics`
+redirects, the nav link and the `topics` message namespace (ET/EN). Data layer untouched — the
+Eurovoc tables, `vote_topics` view and the `eurovoc` CLI stay for future use. The freed nav slot
+went to "Otsustavad hääled". (2) Ran the prod steps for the decisive-votes slice (user-authorized):
+`migrate` applied 0022; `thresholds` classified the cached 598 votings — but the committed votings
+cache is the stale 1-year slice while prod holds 2224 votes, so the rest were backfilled ad hoc:
+required_majority recomputed for ALL votes from DB slug+draft_title, plus a polite 1 req/s API
+fetch of the 12 final votes with neither draft nor document title (10 were umbusaldus motions,
+incl. both PM no-confidence votes — Kaja Kallas 2023, Michal 2026). Final prod state: **158/2224
+votes need 51 yes; 0 outcome flips; 2 near misses; 280 defection votes.** Deployed to Vercel.
+**Why:** User request; also the stale-cache gap would have silently misclassified pre-2025
+umbusaldus votes as simple-majority.
+**Touched:** `apps/web/{app/[locale]/teemad (deleted), components/topics (deleted),
+lib/topics* (deleted), next.config.ts, components/site-header.tsx, messages/{et,en}.json}`;
+prod DB (0022 + threshold backfill); CLAUDE.md scope table.
+
 ## 2026-07-02 — Otsustavad hääled: decisive-votes page with real passage thresholds
 **What:** New `/statistika/otsustavad` page answering "did a vote against the fraktsioon line ever
 flip an outcome?" — with per-vote passage thresholds respected, since the answer is wrong without

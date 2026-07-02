@@ -48,7 +48,7 @@ Four governing decisions shape everything below:
 | --- | --- | --- |
 | v0.1 | shipped | Members list, overall discipline %, sortable. 15th Riigikogu. Live on Vercel. (Open: GH Actions `DATABASE_URL` secret unset, so the daily cron can't write yet.) |
 | v0.2 | current | API migration + member detail pages (vote timeline, party-switch lines) + design-system foundation. Model committees, terms, sittings/sessions, districts; enrich member record. |
-| v0.3 | shipped | Eurovoc topics: link votes->bills->subjects; filter discipline by topic. **D1 (ingestion + `vote_topics` view) and D2 (topic explorer UI at `/teemad`) both done + live.** |
+| v0.3 | shipped | Eurovoc topics: link votes->bills->subjects; filter discipline by topic. D1 (ingestion + `vote_topics` view) done + live. **D2's `/teemad` topic-explorer UI was removed 2026-07-02** (user: pointless); the data layer (`eurovoc_*`, `volume_topics`, `vote_topics`) stays ingested for future use. |
 | v0.4 | | Party / faction / committee rollups (cohesion). |
 | v0.5 | | Speeches & stenogram activity (how much / on what topics each MP speaks). |
 | v0.6 | | Bills & sponsorship (what each MP authored / co-sponsored, outcomes). |

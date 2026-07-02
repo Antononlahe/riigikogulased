@@ -18,7 +18,6 @@
     "speeches": "Speeches",
     "expenses": "Expenses",
     "factions": "Factions",
-    "topics": "Topics",
     "decisive": "Decisive votes"
   },
   "decisive": {
@@ -112,26 +111,6 @@
     "name": "Name",
     "votes": "Votes",
     "mandate": "Mandate"
-  },
-  "topics": {
-    "heading": "Topics (experimental)",
-    "intro": "Topics come from the official Eurovoc tags on bills.",
-    "coverageNote": "Showing {n} topics tied to bills; not all votes are covered.",
-    "search": "Search topics",
-    "votes": "Votes",
-    "topicDefections": "Defections",
-    "noBroadField": "No broad field",
-    "ranking": "Discipline on this topic",
-    "memberCol": "Member",
-    "votesOnTopic": "Votes on topic",
-    "defectionsCol": "Against",
-    "disciplineCol": "Discipline",
-    "belowThreshold": "{n} members had too few votes on this topic to rank (under {min}).",
-    "bills": "Bills behind this topic",
-    "billVotes": "votes",
-    "billDefections": "defections",
-    "empty": "No comparable votes on this topic.",
-    "totals": "{votes} votes · {bills} bills · {defections} defections"
   },
   "factions": {
     "heading": "Factions (experimental)",
