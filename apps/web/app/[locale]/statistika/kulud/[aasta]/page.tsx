@@ -1,8 +1,9 @@
 // Expense compensations for a specific year. Prerendered per year (generateStaticParams +
 // dynamicParams=false), so year switching is a CDN hit. See ../../page.tsx for the removable note.
 import { notFound } from "next/navigation";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { ExpensesSection } from "@/components/statistika/expenses-section";
 import { getExpenseYears } from "@/lib/expenses-queries";
 
@@ -23,16 +24,13 @@ export default async function ExpensesYearPage({
   setRequestLocale(locale);
   const year = Number(aasta);
   if (!Number.isInteger(year) || year <= 0) notFound();
-  const footer = await getTranslations("footer");
 
   return (
     <>
       <SiteHeader />
       <main className="mx-auto max-w-5xl px-4 py-10">
         <ExpensesSection year={year} />
-        <footer className="mt-12 border-t border-border pt-4 text-xs text-muted-foreground">
-          <p>{footer("source")}</p>
-        </footer>
+        <SiteFooter />
       </main>
     </>
   );

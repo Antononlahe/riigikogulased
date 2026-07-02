@@ -5,6 +5,7 @@
 // components, speeches*/expenses* lib modules, migrations 0011 + 0020 + 0021, and the nav link.
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { SpeakerLeaderboard } from "@/components/statistika/speaker-leaderboard";
 import { getSpeechLeaderboard } from "@/lib/speeches-queries";
 import type { SpeakerRow } from "@/lib/speeches";
@@ -19,7 +20,6 @@ export default async function StatisticsPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("statistika");
-  const footer = await getTranslations("footer");
 
   let speakers: SpeakerRow[] = [];
   try {
@@ -41,9 +41,7 @@ export default async function StatisticsPage({
             <SpeakerLeaderboard rows={speakers} />
           )}
         </div>
-        <footer className="mt-12 border-t border-border pt-4 text-xs text-muted-foreground">
-          <p>{footer("source")}</p>
-        </footer>
+        <SiteFooter />
       </main>
     </>
   );

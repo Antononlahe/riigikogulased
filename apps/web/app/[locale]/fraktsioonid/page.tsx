@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getFactionComparison } from "@/lib/factions-queries";
 import { type FactionComparisonRow } from "@/lib/factions";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { FactionGrid } from "@/components/factions/faction-grid";
 
 export const revalidate = 3600;
@@ -14,7 +15,6 @@ export default async function FactionsPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("factions");
-  const footer = await getTranslations("footer");
 
   let rows: FactionComparisonRow[] = [];
   try {
@@ -36,9 +36,7 @@ export default async function FactionsPage({
             <FactionGrid rows={rows} />
           )}
         </div>
-        <footer className="mt-12 border-t border-border pt-4 text-xs text-muted-foreground">
-          <p>{footer("source")}</p>
-        </footer>
+        <SiteFooter />
       </main>
     </>
   );

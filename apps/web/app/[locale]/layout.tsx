@@ -46,7 +46,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning className={`${inter.variable} ${sourceSerif.variable}`}>
       <body className="min-h-screen font-sans antialiased">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange>
           <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
         </ThemeProvider>
       </body>

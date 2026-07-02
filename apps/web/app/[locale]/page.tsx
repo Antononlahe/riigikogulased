@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getMemberDiscipline, type MemberDisciplineRow } from "@/lib/queries";
 import { getElectedNonSitting, type NonSittingCandidate } from "@/lib/election-queries";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { MembersTable } from "@/components/members-table";
 import { NonSitting } from "@/components/election/non-sitting";
 
@@ -15,7 +16,6 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("members");
-  const footer = await getTranslations("footer");
 
   let rows: MemberDisciplineRow[] = [];
   let dbError: string | null = null;
@@ -58,9 +58,7 @@ export default async function HomePage({
 
         {nonSitting.length > 0 && <NonSitting rows={nonSitting} />}
 
-        <footer className="mt-12 border-t border-border pt-4 text-xs text-muted-foreground">
-          <p>{footer("source")}</p>
-        </footer>
+        <SiteFooter />
       </main>
     </>
   );

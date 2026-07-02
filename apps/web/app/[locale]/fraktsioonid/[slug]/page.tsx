@@ -4,6 +4,7 @@ import { getFactionDetail } from "@/lib/factions-queries";
 import { partyFromSlug, factionSlug, cohesion, attendanceRate } from "@/lib/factions";
 import { PARTY_ORDER } from "@/lib/party";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { FactionRoster } from "@/components/factions/faction-roster";
 
 export const revalidate = 3600;
@@ -56,6 +57,7 @@ export default async function FactionDetailPage({
         <div className="mt-8">
           <FactionRoster members={detail.members} />
         </div>
+        <SiteFooter />
       </main>
     </>
   );

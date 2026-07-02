@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getMemberDetail } from "@/lib/queries";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { MemberHeader } from "@/components/member/member-header";
 import { DisciplineSummary } from "@/components/member/discipline-summary";
 import { PartyBreakdown } from "@/components/member/party-breakdown";
@@ -122,6 +123,7 @@ export default async function MemberPage({
             />
           </div>
         </div>
+        <SiteFooter />
       </main>
     </>
   );

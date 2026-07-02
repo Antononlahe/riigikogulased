@@ -13,6 +13,31 @@ Entry format:
 
 ---
 
+## 2026-07-02 — Theme picker simplified to light/dark toggle (dropped "system")
+**What:** Replaced the dropdown `ThemeToggle` (light/dark/system) with a single-button toggle
+matching `LocaleToggle`'s pattern — click flips between light and dark via `resolvedTheme`.
+`ThemeProvider`'s `defaultTheme` changed from `"system"` to `"light"` and `enableSystem` dropped.
+Removed the now-unused `theme.system` message key (ET/EN).
+**Why:** User request — wanted parity with the simple two-state language toggle, no OS-following
+option.
+**Touched:** `apps/web/components/theme-toggle.tsx`, `apps/web/app/[locale]/layout.tsx`,
+`apps/web/messages/{et,en}.json`.
+
+---
+
+## 2026-07-02 — SiteFooter component; contact line; fixed missing footer on member/faction pages
+**What:** Extracted the copy-pasted `<footer>` block (6 of 8 pages duplicated it) into
+`components/site-footer.tsx`, added a second line with a mailto contact
+("Tagasiside/Feedback: Anton Žatkin · anton.zatkin@gmail.com", ET/EN via `footer.contact`), and
+wired it into all 8 `[locale]` pages — including `members/[slug]` and `fraktsioonid/[slug]`, which
+had never had a footer at all.
+**Why:** User request; the two detail-page routes were silently missing the data-source
+attribution/footer entirely.
+**Touched:** `apps/web/components/site-footer.tsx` (new), all 8 `app/[locale]/**/page.tsx`,
+`apps/web/messages/{et,en}.json` (`footer.contact`).
+
+---
+
 ## 2026-07-02 — /teemad removed; decisive votes shipped to prod
 **What:** (1) Removed the `/teemad` topic-explorer UI per user ("kinda pointless"): deleted
 `app/[locale]/teemad`, `components/topics/*`, `lib/topics{,.test,-queries}.ts`, the `/topics`

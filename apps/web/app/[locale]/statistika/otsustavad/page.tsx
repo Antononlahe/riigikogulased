@@ -4,6 +4,7 @@
 // lib/decisive-queries.ts.
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { DecisiveVotes } from "@/components/statistika/decisive-votes";
 import {
   getCloseVotes,
@@ -22,7 +23,6 @@ export default async function DecisiveVotesPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("decisive");
-  const footer = await getTranslations("footer");
 
   let decisive: DecisiveVote[] = [];
   let close: DecisiveVote[] = [];
@@ -51,9 +51,7 @@ export default async function DecisiveVotesPage({
           />
         </div>
         <p className="mt-6 max-w-2xl text-xs text-muted-foreground">{t("methodNote")}</p>
-        <footer className="mt-12 border-t border-border pt-4 text-xs text-muted-foreground">
-          <p>{footer("source")}</p>
-        </footer>
+        <SiteFooter />
       </main>
     </>
   );
