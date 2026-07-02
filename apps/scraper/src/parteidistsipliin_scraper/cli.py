@@ -22,7 +22,6 @@ from parteidistsipliin_scraper.ariregister_models import (
 from parteidistsipliin_scraper.ariregister_parse import parse_member_history, parse_search_results
 from parteidistsipliin_scraper.election_cache import ElectionCache
 from parteidistsipliin_scraper.election_parse import parse_election
-from parteidistsipliin_scraper.expense_parse import parse_year as parse_expense_year
 from parteidistsipliin_scraper.enrich import photo_download_url
 from parteidistsipliin_scraper.eurovoc_cache import EurovocCache
 from parteidistsipliin_scraper.eurovoc_models import (
@@ -30,6 +29,7 @@ from parteidistsipliin_scraper.eurovoc_models import (
     parse_draft_outcome,
     parse_fields,
 )
+from parteidistsipliin_scraper.expense_parse import parse_year as parse_expense_year
 from parteidistsipliin_scraper.lemmatize import lemmatize
 from parteidistsipliin_scraper.photo import write_thumbnail
 from parteidistsipliin_scraper.verbatim_cache import VerbatimCache
