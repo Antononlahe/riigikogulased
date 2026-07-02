@@ -24,7 +24,9 @@ jobs:
       - run: pnpm lint
       - run: pnpm build
         env:
-          DATABASE_URL: postgres://stub:stub@localhost/stub
+          # generateStaticParams reads the DB at build time (member/faction/kulud pages),
+          # so the build needs the real read connection -- same as the Vercel prod build.
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
   scraper:
     runs-on: ubuntu-latest
