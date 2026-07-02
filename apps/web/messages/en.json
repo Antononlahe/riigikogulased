@@ -18,7 +18,33 @@
     "speeches": "Speeches",
     "expenses": "Expenses",
     "factions": "Factions",
-    "topics": "Topics"
+    "topics": "Topics",
+    "decisive": "Decisive votes"
+  },
+  "decisive": {
+    "heading": "Decisive votes",
+    "intro": "Has voting against the faction line ever actually changed the outcome of a vote? Each vote is checked against its correct passage threshold: usually a simple majority of votes cast, but no-confidence motions, proposals to the Government, immunity waivers and the laws listed in §104 of the Constitution require a majority of the full membership (51 votes).",
+    "emptyHeadline": "0 votes",
+    "emptyBody": "In this Riigikogu, votes cast against the faction line have not changed the outcome of a single vote. Defections occurred in {defectionVotes} votes, but every outcome would have been the same had everyone followed their faction line.",
+    "showClose": "Also show near misses",
+    "closeIntro": "Votes where the defectors were numerous enough to flip the result — the outcome held only because those votes did not fall in one direction.",
+    "closeEmpty": "No such votes.",
+    "ruleSimple": "simple majority",
+    "ruleMembers": "majority of members (51)",
+    "result": "Result {yes} : {no} —",
+    "counterfactual": "along faction lines {yes} : {no} —",
+    "passed": "passed",
+    "failed": "failed",
+    "wouldPass": "would have passed",
+    "wouldFail": "would not have passed",
+    "sameOutcome": "same outcome",
+    "defected": "voted {choice}, the line was {line}",
+    "choice": {
+      "yes": "in favour",
+      "no": "against",
+      "abstain": "abstain"
+    },
+    "methodNote": "Method: only substantive votes count (presence checks and agenda adoptions are excluded). The faction line is the majority position of the faction's members; a member counts when their vote (yes/no/abstain) differs from it. The passage threshold is derived from the vote type and bill title — the API does not expose it directly."
   },
   "statistika": {
     "speakersHeading": "Speeches",

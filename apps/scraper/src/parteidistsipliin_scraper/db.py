@@ -397,12 +397,15 @@ def set_member_thumb(conn: psycopg.Connection, member_id: int, thumb_path: str) 
 def link_vote(
     conn: psycopg.Connection, *, vote_id: int, sitting_id: int | None,
     draft_uuid: str | None, draft_title: str | None, draft_mark: str | None,
+    document_title: str | None, required_majority: str,
 ) -> None:
     with conn.cursor() as cur:
         cur.execute(
             "UPDATE votes SET sitting_id = %s, draft_uuid = %s, "
-            "draft_title = %s, draft_mark = %s WHERE id = %s",
-            (sitting_id, draft_uuid, draft_title, draft_mark, vote_id),
+            "draft_title = %s, draft_mark = %s, document_title = %s, "
+            "required_majority = %s WHERE id = %s",
+            (sitting_id, draft_uuid, draft_title, draft_mark, document_title,
+             required_majority, vote_id),
         )
 
 

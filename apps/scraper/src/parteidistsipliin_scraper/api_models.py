@@ -58,6 +58,13 @@ class RelatedDraft(_Api):
     mark: int | str | None = None
 
 
+class RelatedDocument(_Api):
+    """Non-draft subject of a voting (e.g. an umbusaldusavaldus letter)."""
+
+    uuid: str | None = None
+    title: str | None = None
+
+
 class Session(_Api):
     membership: int
     number: int
@@ -99,6 +106,7 @@ class Voting(_Api):
     voters: list[Voter] = []
     sitting: Sitting | None = None
     relatedDraft: RelatedDraft | None = None
+    relatedDocument: RelatedDocument | None = None
 
 
 class VotingSummary(_Api):

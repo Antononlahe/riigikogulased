@@ -13,6 +13,34 @@ Entry format:
 
 ---
 
+## 2026-07-02 — Otsustavad hääled: decisive-votes page with real passage thresholds
+**What:** New `/statistika/otsustavad` page answering "did a vote against the fraktsioon line ever
+flip an outcome?" — with per-vote passage thresholds respected, since the answer is wrong without
+them (e.g. the 2026-04-14 Mölder immunity waiver FAILED at 44:1, and every umbusaldusavaldus
+"passing" 25:0 actually failed — all need 51 yes). The API doesn't expose the rule, so
+`api_parse.required_majority(slug, draft_title, document_title)` derives it: 'members' (koosseisu
+häälteenamus, >= 51) for umbusaldusavaldus (PS §97), Riigikogu otsus proposals to the Government
+(RKKTS §154 lg 2), immunity waivers (PS §76), and final votes on PS §104 constitutional-class laws
+matched by title regex (annual "N. aasta riigieelarve" correctly excluded); 'simple' (yes > no)
+otherwise. 45 of 1719 votings classify as 'members'. Migration `0022_decisive.sql`:
+`votes.required_majority` + `votes.document_title` (umbusaldus votings have no relatedDraft, only
+relatedDocument — modeled as `RelatedDocument` in api_models) + view `vote_decisiveness`
+(counterfactual where every defector votes their party line, over the ballot_alignment matview;
+passed/cf_passed under the correct threshold + flip_gap closeness). Result today: **0 outcome
+flips** across 280 defection votes / 508 defections — the page's empty state states that as the
+finding; a client-side toggle reveals near misses (flip_gap <= defections, currently 2). New
+`thresholds` CLI command backfills both columns offline from the committed votings cache;
+`write_voting` sets them at ingest. UA draftTypeCode turned out to mean confidence-tied bill
+(usaldusküsimus), NOT umbusaldus — simple majority, no special case.
+**Why:** User asked which votes it "actually mattered" that someone defected/abstained, and
+insisted thresholds be respected; with the coalition at 52/101 the page is forward-looking even
+though empty today.
+**Touched:** `packages/db/migrations/0022_decisive.sql`; scraper `api_parse.py` (+tests),
+`api_models.py`, `db.py` (link_vote), `writer.py`, `cli.py` (thresholds cmd); web
+`lib/decisive-queries.ts`, `components/statistika/decisive-votes.tsx`,
+`app/[locale]/statistika/otsustavad/page.tsx`, `site-header.tsx`, `messages/{et,en}.json`.
+**Prod steps (user-gated, not yet run):** `migrate`, `thresholds`, web deploy.
+
 ## 2026-07-01 — Rebrand + nav restructure (Riigikogulased)
 **What:** UI/nav changes. (1) Site title (top-left brand + browser tab) renamed Parteidistsipliin ->
 "Riigikogulased". (2) The former "Liikmed" page is renamed "Parteidistsipliin": nav item + homepage H1

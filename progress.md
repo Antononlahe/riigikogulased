@@ -1,11 +1,28 @@
 # Progress
 
-**Last updated:** 2026-06-29
+**Last updated:** 2026-07-02
 **Version target:** v0.4 (party/faction rollups). **v0.4-A is DONE and LIVE in prod** —
 https://parteidistsipliin.vercel.app/fraktsioonid. v0.3 (D1+D2) and v0.2 also live.
 **Branch:** `claude/clever-noether-ch7018`
 
 ## Current status
+
+**Otsustavad hääled (decisive votes) — CODE DONE (2026-07-02), pending user-gated prod steps.**
+New page `/statistika/otsustavad`: did voting against the fraktsioon line ever flip an outcome?
+Vote thresholds are respected — the API doesn't expose the passage rule, so
+`api_parse.required_majority` derives it (umbusaldusavaldus PS §97, ettepanek Vabariigi
+Valitsusele RKKTS §154 lg 2, saadikupuutumatus PS §76, and PS §104 laws by title pattern all
+need 51 yes; everything else yes > no; 45/1719 votings classified 'members'). Migration
+**`0022_decisive.sql`** adds `votes.required_majority` + `votes.document_title` (umbusaldus
+votings carry only relatedDocument) and the `vote_decisiveness` view (per-vote counterfactual:
+all defectors vote the line; cf counts, passed/cf_passed, flip_gap). Answer today: **0 flips**
+out of 280 defection votes — the page leads with that as the headline empty state, with a
+client-side "näita napilt" toggle revealing near misses (defectors ≥ flip gap; currently 2:
+2023-09-21 ettepanek-VV otsus 37:19 w/ 17 defections, 2024-06-12 tuumaenergia otsus 41:25 w/
+16). New `thresholds` CLI backfills the two columns offline from the votings cache; ingest
+sets them for new votes. Verified: 82 scraper tests, 60 web tests, build green.
+**TODO (gated, user-run):** `python -m parteidistsipliin_scraper migrate` then
+`python -m parteidistsipliin_scraper thresholds` (both from apps/scraper), then deploy web.
 
 **Mobile tables overhauled — DONE + LIVE (2026-06-30).** Tables were collapsing instead of
 scrolling on mobile. Added shared `components/ui/scrollable-table.tsx` (min-width so scroll works +

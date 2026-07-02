@@ -254,6 +254,22 @@ Current (migration `0006_alignment_matview.sql`, v0.3/D2):
   **`migrate` CLI command**
   (`db.apply_migrations`); the matview is created+populated at migration time.
 
+Current (migration `0022_decisive.sql`, decisive votes):
+
+- `votes.required_majority` — `'simple'` (poolthäälteenamus, yes > no) or `'members'`
+  (koosseisu häälteenamus, >= 51 yes). The API does not expose the passage rule; it is
+  derived at ingest by `api_parse.required_majority` from the vote slug + draft/document
+  titles (umbusaldusavaldus PS §97, ettepanek Vabariigi Valitsusele RKKTS §154 lg 2,
+  saadikupuutumatus PS §76, PS §104 laws by title pattern — annual "N. aasta riigieelarve"
+  excluded). NB: draftTypeCode `UA` means a confidence-tied bill (usaldusküsimus), which is
+  simple majority — not umbusaldus. Backfill via the `thresholds` CLI (offline, from the
+  votings cache); `rebuild` reproduces it.
+- `votes.document_title` — `relatedDocument` title (umbusaldus votings carry no draft).
+- View `vote_decisiveness` — per non-procedural vote: defection counts, counterfactual
+  yes/no if every defector voted the party line, passed/cf_passed under the correct
+  threshold, and `flip_gap` (closeness). Reads the `ballot_alignment` matview. Feeds
+  `/statistika/otsustavad` (discipline scoring untouched).
+
 Current (migration `0002_structure.sql`, v0.2/A2):
 
 - `schema_migrations` — `(version, applied_at)`; migrations are applied by

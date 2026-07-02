@@ -129,6 +129,34 @@ def migrate() -> None:
 
 
 @app.command()
+def thresholds() -> None:
+    """Backfill votes.required_majority + document_title from the on-disk votings cache.
+
+    One-off after migration 0022 (new votings get both at ingest; rebuild replays the
+    cache through write_voting anyway). Offline; idempotent.
+    """
+    from parteidistsipliin_scraper.api_parse import required_majority, vote_type_slug
+
+    cache = ApiVoteCache()
+    rows = []
+    for v in (Voting.model_validate(x) for x in cache.read_votings()):
+        draft_title = v.relatedDraft.title if v.relatedDraft else None
+        doc_title = v.relatedDocument.title if v.relatedDocument else None
+        rm = required_majority(vote_type_slug(v.description), draft_title, doc_title)
+        rows.append((rm, doc_title, v.uuid))
+    with db.connect() as conn:
+        with conn.cursor() as cur:
+            cur.executemany(
+                "UPDATE votes SET required_majority = %s, document_title = %s "
+                "WHERE riigikogu_uuid = %s",
+                rows,
+            )
+        conn.commit()
+    n51 = sum(1 for r in rows if r[0] == "members")
+    typer.echo(f"Classified {len(rows)} votings ({n51} need 51 votes).")
+
+
+@app.command()
 def rebuild() -> None:
     """Rebuild the database from the on-disk API cache, with no network access."""
     cache = ApiVoteCache()

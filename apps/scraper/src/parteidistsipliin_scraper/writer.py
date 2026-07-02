@@ -7,7 +7,11 @@ from datetime import date
 
 from parteidistsipliin_scraper import db
 from parteidistsipliin_scraper.api_models import PlenaryMember, Session, Voting
-from parteidistsipliin_scraper.api_parse import decision_to_choice, vote_type_slug
+from parteidistsipliin_scraper.api_parse import (
+    decision_to_choice,
+    required_majority,
+    vote_type_slug,
+)
 from parteidistsipliin_scraper.ariregister_models import PartyTerm
 from parteidistsipliin_scraper.enrich import (
     committee_terms,
@@ -115,11 +119,17 @@ def write_voting(conn, voting: Voting, ctx: WriteContext) -> None:
 
     sitting_id = _write_sitting(conn, voting, ctx, vote_day)
     draft = voting.relatedDraft
+    document = voting.relatedDocument
+    slug = vote_type_slug(voting.description)
     db.link_vote(
         conn, vote_id=vote_id, sitting_id=sitting_id,
         draft_uuid=str(draft.uuid) if draft else None,
         draft_title=draft.title if draft else None,
         draft_mark=str(draft.mark) if draft and draft.mark is not None else None,
+        document_title=document.title if document else None,
+        required_majority=required_majority(
+            slug, draft.title if draft else None, document.title if document else None
+        ),
     )
     conn.commit()
 
