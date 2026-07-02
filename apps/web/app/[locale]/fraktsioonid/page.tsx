@@ -5,7 +5,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { FactionGrid } from "@/components/factions/faction-grid";
 
-export const revalidate = 3600;
+export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 
 export default async function FactionsPage({
   params,

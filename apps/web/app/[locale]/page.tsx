@@ -6,7 +6,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { MembersTable } from "@/components/members-table";
 import { NonSitting } from "@/components/election/non-sitting";
 
-export const revalidate = 3600;
+export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 
 export default async function HomePage({
   params,

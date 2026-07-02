@@ -16,7 +16,7 @@ import { ExpensePanel } from "@/components/member/expense-panel";
 import { getMemberExpenses } from "@/lib/expenses-queries";
 import { RATE_FLOOR_DAYS, DAYS_PER_MONTH } from "@/lib/speeches";
 
-export const revalidate = 3600;
+export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 export const dynamicParams = true;
 // ponytail: prerender NO member pages at build (empty list) -- avoids re-reading every member's
 // full vote history on each deploy (~200MB Neon egress/deploy). But the presence of

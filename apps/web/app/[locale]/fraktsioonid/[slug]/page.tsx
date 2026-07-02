@@ -7,7 +7,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { FactionRoster } from "@/components/factions/faction-roster";
 
-export const revalidate = 3600;
+export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 export const dynamicParams = false;
 
 export async function generateStaticParams() {

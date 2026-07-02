@@ -10,7 +10,7 @@ import { SpeakerLeaderboard } from "@/components/statistika/speaker-leaderboard"
 import { getSpeechLeaderboard } from "@/lib/speeches-queries";
 import type { SpeakerRow } from "@/lib/speeches";
 
-export const revalidate = 3600;
+export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 
 export default async function StatisticsPage({
   params,

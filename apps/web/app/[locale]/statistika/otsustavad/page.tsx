@@ -13,7 +13,7 @@ import {
   type DecisiveVote,
 } from "@/lib/decisive-queries";
 
-export const revalidate = 3600;
+export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 
 export default async function DecisiveVotesPage({
   params,

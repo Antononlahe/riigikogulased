@@ -6,7 +6,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { ExpensesSection } from "@/components/statistika/expenses-section";
 import { getExpenseYears } from "@/lib/expenses-queries";
 
-export const revalidate = 3600;
+export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 
 export default async function ExpensesPage({
   params,
