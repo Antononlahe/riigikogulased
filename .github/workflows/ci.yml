@@ -8,6 +8,9 @@ on:
 jobs:
   web:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/web
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -15,10 +18,11 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
+          cache-dependency-path: apps/web/pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
-      - run: pnpm --filter web typecheck
-      - run: pnpm --filter web lint
-      - run: pnpm --filter web build
+      - run: pnpm typecheck
+      - run: pnpm lint
+      - run: pnpm build
         env:
           DATABASE_URL: postgres://stub:stub@localhost/stub
 
