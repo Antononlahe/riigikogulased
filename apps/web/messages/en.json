@@ -19,7 +19,8 @@
     "speeches": "Speeches",
     "expenses": "Expenses",
     "factions": "Factions",
-    "decisive": "Decisive votes"
+    "decisive": "Decisive votes",
+    "varia": "Varia"
   },
   "decisive": {
     "heading": "Decisive votes",
@@ -75,6 +76,31 @@
     "col_unused": "Unused",
     "col_pct": "Used",
     "showBreakdown": "Show expense breakdown"
+  },
+  "varia": {
+    "hubTitle": "Varia",
+    "hubIntro": "Lighter statistics about Riigikogu members — attendance, generations, word use and more.",
+    "tileKohalolek": "Attendance",
+    "tileKohalolekDesc": "Who is absent from votes most often?",
+    "tilePolvkonnad": "Generations",
+    "tilePolvkonnadDesc": "Age distribution of members by faction.",
+    "tileMargusonad": "Signature words",
+    "tileMargusonadDesc": "Each faction's most distinctive words in speeches.",
+    "absenceTitle": "Attendance",
+    "absenceIntro": "The share of substantive votes a member was absent for. Presence checks and agenda adoptions are excluded; members with under 20 votes are omitted.",
+    "member": "Member",
+    "totalVotes": "Votes",
+    "absentVotes": "Absent",
+    "absentPct": "Absent %",
+    "empty": "No data available.",
+    "generationsTitle": "Generations",
+    "generationsIntro": "The distribution of members' birth years and the age profile of each faction.",
+    "avgAge": "Average age",
+    "youngest": "Youngest",
+    "oldest": "Oldest",
+    "yearsOld": "{n} years old",
+    "margusonadTitle": "Signature words",
+    "margusonadIntro": "Each faction's most distinctive words in plenary speeches (TF-IDF over lemmatised stenograms)."
   },
   "theme": {
     "label": "Theme",

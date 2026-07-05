@@ -19,7 +19,8 @@
     "speeches": "Sõnavõtud",
     "expenses": "Kuluhüvitised",
     "factions": "Fraktsioonid",
-    "decisive": "Otsustavad hääled"
+    "decisive": "Otsustavad hääled",
+    "varia": "Varia"
   },
   "decisive": {
     "heading": "Otsustavad hääled",
@@ -75,6 +76,31 @@
     "col_unused": "Kasutamata",
     "col_pct": "Kasutatud",
     "showBreakdown": "Näita kulude jaotust"
+  },
+  "varia": {
+    "hubTitle": "Varia",
+    "hubIntro": "Kergemad statistikad Riigikogu liikmete kohta – kohalolek, põlvkonnad, sõnakasutus ja rohkem.",
+    "tileKohalolek": "Kohalolek",
+    "tileKohalolekDesc": "Kes puudub hääletustelt kõige sagedamini?",
+    "tilePolvkonnad": "Põlvkonnad",
+    "tilePolvkonnadDesc": "Liikmete vanuseline jaotus fraktsioonide kaupa.",
+    "tileMargusonad": "Märgusõnad",
+    "tileMargusonadDesc": "Iga fraktsiooni iseloomulikumad sõnad kõnedes.",
+    "absenceTitle": "Kohalolek",
+    "absenceIntro": "Kui suurel osal sisulistest hääletustest on liige puudunud. Kohaloleku kontrolle ja päevakorra kinnitamisi arvesse ei võeta; alla 20 hääletusega liikmed on välja jäetud.",
+    "member": "Liige",
+    "totalVotes": "Hääletusi",
+    "absentVotes": "Puudus",
+    "absentPct": "Puudumise %",
+    "empty": "Andmed puuduvad.",
+    "generationsTitle": "Põlvkonnad",
+    "generationsIntro": "Riigikogu liikmete sünniaastate jaotus ja fraktsioonide vanuseline profiil.",
+    "avgAge": "Keskmine vanus",
+    "youngest": "Noorim",
+    "oldest": "Vanim",
+    "yearsOld": "{n}-aastane",
+    "margusonadTitle": "Märgusõnad",
+    "margusonadIntro": "Iga fraktsiooni kõige iseloomulikumad sõnad täiskogu kõnedes (TF-IDF lemmatiseeritud stenogrammide põhjal)."
   },
   "theme": {
     "label": "Värviteema",
