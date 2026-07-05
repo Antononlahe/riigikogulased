@@ -60,13 +60,20 @@ function Accordion({ rows, max }: { rows: Row[]; max: number }) {
   );
 }
 
-function Section({ title, sub, children }: { title: string; sub: string; children: React.ReactNode }) {
+// Collapsed by default (each section is long). Native <details> -- no JS, accessible.
+function Section({ title, sub, count, children }: { title: string; sub: string; count: number; children: React.ReactNode }) {
   return (
-    <section className="mt-10 first:mt-0">
-      <h2 className="font-serif text-xl font-bold tracking-tight">{title}</h2>
-      <p className="mt-1 text-sm text-muted-foreground">{sub}</p>
-      <div className="mt-3">{children}</div>
-    </section>
+    <details className="group mt-4 rounded-md border border-border first:mt-0">
+      <summary className="flex cursor-pointer list-none items-center gap-3 p-4">
+        <span aria-hidden className="text-xs text-muted-foreground transition-transform group-open:rotate-90">▶</span>
+        <span className="min-w-0 flex-1">
+          <span className="font-serif text-xl font-bold tracking-tight">{title}</span>
+          <span className="block text-sm text-muted-foreground">{sub}</span>
+        </span>
+        <span className="shrink-0 text-sm tabular-nums text-muted-foreground">{count}</span>
+      </summary>
+      <div className="px-4 pb-4">{children}</div>
+    </details>
   );
 }
 
@@ -111,7 +118,7 @@ export function Network({ friendship, causes }: { friendship: CaucusMember[]; ca
 
   return (
     <>
-      <Section title={t("friendshipH")} sub={t("friendshipSub")}>
+      <Section title={t("friendshipH")} sub={t("friendshipSub")} count={countryRows.length}>
         <Accordion
           max={Math.max(1, ...countryRows.map((r) => r.members.length))}
           rows={countryRows.map((r) => ({
@@ -121,7 +128,7 @@ export function Network({ friendship, causes }: { friendship: CaucusMember[]; ca
         />
       </Section>
 
-      <Section title={t("globetrotterH")} sub={t("globetrotterSub")}>
+      <Section title={t("globetrotterH")} sub={t("globetrotterSub")} count={memberRows.length}>
         <Accordion
           max={Math.max(1, ...memberRows.map((r) => r.total))}
           rows={shownMembers.map((r) => ({
@@ -148,7 +155,7 @@ export function Network({ friendship, causes }: { friendship: CaucusMember[]; ca
         )}
       </Section>
 
-      <Section title={t("causesH")} sub={t("causesSub")}>
+      <Section title={t("causesH")} sub={t("causesSub")} count={causeRows.length}>
         <Accordion
           max={Math.max(1, ...causeRows.map((r) => r.members.length))}
           rows={causeRows.map((r) => ({
