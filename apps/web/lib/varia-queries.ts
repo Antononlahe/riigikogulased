@@ -101,16 +101,15 @@ export const getHobbyMembers = unstable_cache(async (): Promise<PeopleRow[]> => 
 }, ["varia-hobby-members"], { revalidate: 86400 });
 
 export const getProfessionMembers = unstable_cache(async (): Promise<PeopleRow[]> => {
-  // Grouped by fraktsioon; members with no faction/party fall into the '-' bucket. The
-  // profession rides along as each member's `detail`.
+  // One row per (member, profession) -- a member has several. Grouped by fraktsioon in the UI;
+  // members with no faction/party fall into the '-' bucket. The profession rides along as `detail`.
   const { rows } = await pool.query(`
     SELECT COALESCE(mcp.party_short_name, '-') AS category, m.full_name AS "fullName", m.slug,
-           mcp.party_short_name AS party, mp.profession_tag AS detail
-    FROM member_profiles mp
-    JOIN members m ON m.id = mp.member_id
+           mcp.party_short_name AS party, pr.profession_tag AS detail
+    FROM member_professions pr
+    JOIN members m ON m.id = pr.member_id
     LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
-    WHERE mp.profession_tag IS NOT NULL
-    ORDER BY category, "fullName"`);
+    ORDER BY category, "fullName", pr.profession_tag`);
   return rows as PeopleRow[];
 }, ["varia-profession-members"], { revalidate: 86400 });
 

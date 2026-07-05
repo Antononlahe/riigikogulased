@@ -88,9 +88,11 @@ AKKERMANN = "7655e8d3-b658-49f0-8e09-f6cbc4a2c714"
 
 def test_profession_tags_committed():
     prof = load_tag_map()["profession"]
-    assert prof[ALENDER] == "kultuur ja kunst"
-    assert prof[AAB] == "õpetaja"
-    assert prof[AKKERMANN] == "ettevõtja"
+    # profession is a list of tags per member (dominant role first).
+    assert prof[ALENDER] == ["kultuur ja kunst"]
+    assert prof[AAB][0] == "õpetaja"
+    assert prof[AKKERMANN][0] == "ettevõtja"
+    assert all(isinstance(v, list) and v for v in prof.values())
 
 
 def test_hobby_tag_map_buckets_phrases():

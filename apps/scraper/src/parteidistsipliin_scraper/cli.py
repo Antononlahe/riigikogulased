@@ -511,9 +511,11 @@ def _write_profiles(conn, cache: ProfileCache, uuids: list[str]) -> int:
         coords = coords_for(p.birthplace_town)
         if p.birthplace_town and coords is None:
             misses.append(p.birthplace_town)
+        professions = prof_map.get(uuid) or []
         db.write_member_profile(
             conn, mid, p,
-            profession_tag=prof_map.get(uuid),
+            profession_tag=(professions[0] if professions else None),
+            professions=professions,
             hobbies=[(h, hobby_map.get(h, "Muu")) for h in p.hobbies_raw],
             universities=canonical_university(p.education_raw),
             coords=coords,
