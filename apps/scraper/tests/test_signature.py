@@ -1,0 +1,29 @@
+from parteidistsipliin_scraper.signature import compute_signature_terms
+
+
+def test_distinctive_lemma_ranks_first():
+    # 'kala' appears only in doc 1 -> distinctive there; 'ja' is everywhere -> not distinctive.
+    docs = {
+        1: "kala kala ja ja vesi",
+        2: "auto auto ja ja tee",
+        3: "maja maja ja ja aed",
+    }
+    rows = compute_signature_terms(docs, top_n=3)
+    top1 = [(lemma, rank) for sid, lemma, score, rank in rows if sid == 1 and rank == 1]
+    assert top1 == [("kala", 1)]
+    # a term present in every document (df == N) carries no distinctiveness and is dropped.
+    assert all(lemma != "ja" for sid, lemma, score, rank in rows)
+
+
+def test_ranks_are_contiguous_per_scope_and_capped():
+    docs = {
+        1: "alpha beeta gamma delta alpha beeta gamma alpha beeta alpha",
+        2: "yksi kaksi kolme",
+    }
+    rows = compute_signature_terms(docs, top_n=2)
+    ranks_1 = sorted(rank for sid, lemma, score, rank in rows if sid == 1)
+    assert ranks_1 == [1, 2]  # capped at top_n, ranks 1..2 contiguous
+
+
+def test_empty_and_blank_docs_yield_no_rows():
+    assert compute_signature_terms({1: "", 2: "   "}, top_n=5) == []

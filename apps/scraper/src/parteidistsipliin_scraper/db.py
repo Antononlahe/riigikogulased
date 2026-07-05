@@ -693,3 +693,64 @@ def upsert_speech_stats(
             """,
             (member_id, speeches, questions, procedural, total, period_start, period_end),
         )
+
+
+def _lemma_docs(conn: psycopg.Connection, scope_kind: str) -> dict[int, str]:
+    """Per-scope concatenated lemmas from member_speeches, for signature-word TF-IDF.
+
+    scope_kind='member' groups by member; 'party' groups by each member's current party.
+    """
+    if scope_kind == "member":
+        sql = """
+            SELECT member_id AS sid, string_agg(lemmas, ' ') AS doc
+              FROM member_speeches
+             WHERE lemmas IS NOT NULL AND lemmas <> ''
+             GROUP BY member_id
+        """
+    elif scope_kind == "party":
+        sql = """
+            SELECT mcp.party_id AS sid, string_agg(ms.lemmas, ' ') AS doc
+              FROM member_speeches ms
+              JOIN member_current_party mcp ON mcp.member_id = ms.member_id
+             WHERE mcp.party_id IS NOT NULL AND ms.lemmas IS NOT NULL AND ms.lemmas <> ''
+             GROUP BY mcp.party_id
+        """
+    else:
+        raise ValueError(f"unknown scope_kind: {scope_kind}")
+    with conn.cursor() as cur:
+        cur.execute(sql)
+        return {r["sid"]: r["doc"] for r in cur.fetchall()}
+
+
+def replace_signature_terms(
+    conn: psycopg.Connection, rows: list[tuple[str, int, str, float, int]]
+) -> None:
+    """Full-replace signature_terms. rows: (scope_kind, scope_id, lemma, score, rank)."""
+    with conn.cursor() as cur:
+        cur.execute("TRUNCATE signature_terms")
+        cur.executemany(
+            "INSERT INTO signature_terms (scope_kind, scope_id, lemma, score, rank)"
+            " VALUES (%s, %s, %s, %s, %s)",
+            rows,
+        )
+
+
+def refresh_signatures(conn: psycopg.Connection, top_n: int = 25) -> int:
+    """Recompute signature_terms for member + party scopes from member_speeches. Returns row count.
+
+    Safe to call when signature_terms doesn't exist yet (pre-migration): it no-ops with a notice.
+    """
+    from parteidistsipliin_scraper.signature import compute_signature_terms
+
+    with conn.cursor() as cur:
+        cur.execute("SELECT to_regclass('signature_terms') IS NOT NULL AS present")
+        row = cur.fetchone()
+        if not row or not row["present"]:
+            return 0
+
+    rows: list[tuple[str, int, str, float, int]] = []
+    for kind in ("member", "party"):
+        for sid, lemma, score, rank in compute_signature_terms(_lemma_docs(conn, kind), top_n):
+            rows.append((kind, sid, lemma, score, rank))
+    replace_signature_terms(conn, rows)
+    return len(rows)

@@ -231,6 +231,8 @@ def rebuild() -> None:
         conn.commit()
         db.refresh_alignment(conn)
         conn.commit()
+        db.refresh_signatures(conn)
+        conn.commit()
     typer.echo(
         f"Rebuilt {len(votings)} votings, {len(ctx.sitting_id_by_uuid)} sittings, "
         f"{len(members)} members from cache."
@@ -436,6 +438,15 @@ def speeches() -> None:
     asyncio.run(_refresh_speeches())
 
 
+@app.command()
+def signatures() -> None:
+    """Recompute signature words (distinctive lemmas per member + party) from member_speeches."""
+    with db.connect() as conn:
+        n = db.refresh_signatures(conn)
+        conn.commit()
+    typer.echo(f"Wrote {n} signature-term rows." if n else "signature_terms table absent; run migrate first.")
+
+
 def _month_ranges(start: date, end: date):
     """Yield (lo, hi) inclusive day ranges, one per calendar month, clipped to [start, end]."""
     cur = date(start.year, start.month, 1)
@@ -502,6 +513,9 @@ def verbatims(
     with db.connect() as conn:
         n = _ingest_verbatims(conn, sittings, no_lemma=no_lemma)
         conn.commit()
+        if n and not no_lemma:
+            db.refresh_signatures(conn)  # new lemmas landed -> refresh signature words
+            conn.commit()
     typer.echo(f"Indexed {n} speeches.")
 
 
