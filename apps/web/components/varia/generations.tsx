@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
+import { MemberAvatar } from "@/components/member-avatar";
 import { PARTY_ORDER, type PartyShort } from "@/lib/party";
 import { generationOf, GENERATIONS, type GenRow, type Generation } from "@/lib/varia";
 
@@ -27,15 +28,17 @@ const COHORT_LABEL: Record<Generation, string> = {
   "-54": "–1954",
 };
 
-type PartyAgg = { party: PartyShort; count: number; avgAge: number; cohorts: Record<Generation, number> };
+type Person = { fullName: string; slug: string; photoThumbPath: string | null; age: number };
+type PartyAgg = { party: PartyShort; count: number; avgAge: number; cohorts: Record<Generation, Person[]> };
 
-function emptyCohorts(): Record<Generation, number> {
-  return { "95+": 0, "85-94": 0, "75-84": 0, "65-74": 0, "55-64": 0, "-54": 0 };
+function emptyCohorts(): Record<Generation, Person[]> {
+  return { "95+": [], "85-94": [], "75-84": [], "65-74": [], "55-64": [], "-54": [] };
 }
 
 export function Generations({ rows }: { rows: GenRow[] }) {
   const t = useTranslations("varia");
   const [tip, setTip] = useState<{ x: number; y: number; text: string } | null>(null);
+  const [sel, setSel] = useState<{ party: PartyShort; g: Generation } | null>(null);
 
   const { byParty, youngest, oldest, avgAge } = useMemo(() => {
     const map = new Map<PartyShort, PartyAgg>();
@@ -47,7 +50,9 @@ export function Generations({ rows }: { rows: GenRow[] }) {
       if (!agg) continue;
       agg.count += 1;
       agg.avgAge += r.age;
-      agg.cohorts[generationOf(r.birthYear)] += 1;
+      agg.cohorts[generationOf(r.birthYear)].push({
+        fullName: r.fullName, slug: r.slug, photoThumbPath: r.photoThumbPath, age: r.age,
+      });
     }
     const byParty = [...map.values()].filter((a) => a.count > 0)
       .map((a) => ({ ...a, avgAge: Math.round(a.avgAge / a.count) }));
@@ -89,31 +94,73 @@ export function Generations({ rows }: { rows: GenRow[] }) {
         ))}
       </div>
 
-      {/* Per-party age profile: 100% stacked cohort bars, youngest segment on the left. */}
+      {/* Per-party age profile: 100% stacked cohort bars, youngest segment on the left. Click a
+          segment to reveal the people in that faction + age bracket. */}
       <ul className="space-y-3">
-        {byParty.map((a) => (
-          <li key={a.party} className="flex items-center gap-3">
-            <span className="w-16 shrink-0"><PartyBadge shortName={a.party} /></span>
-            <span className="flex h-6 flex-1 overflow-hidden rounded-sm">
-              {GENERATIONS.map((g) => {
-                const n = a.cohorts[g];
-                if (!n) return null;
-                return (
-                  <span
-                    key={g}
-                    style={{ width: `${(n / a.count) * 100}%`, backgroundColor: COHORT_COLOR[g] }}
-                    onMouseMove={(e) =>
-                      setTip({ x: e.clientX, y: e.clientY, text: `${a.party} · ${COHORT_LABEL[g]}: ${n}` })}
-                    onMouseLeave={() => setTip(null)}
-                  />
-                );
-              })}
-            </span>
-            <span className="w-10 shrink-0 text-right text-xs tabular-nums text-muted-foreground" title={t("avgAge")}>
-              {a.avgAge}
-            </span>
-          </li>
-        ))}
+        {byParty.map((a) => {
+          const open = sel?.party === a.party ? sel.g : null;
+          return (
+            <li key={a.party}>
+              <div className="flex items-center gap-3">
+                <span className="w-16 shrink-0"><PartyBadge shortName={a.party} /></span>
+                <span className="flex h-6 flex-1 overflow-hidden rounded-sm">
+                  {GENERATIONS.map((g) => {
+                    const n = a.cohorts[g].length;
+                    if (!n) return null;
+                    const isOpen = open === g;
+                    return (
+                      <button
+                        type="button"
+                        key={g}
+                        aria-label={`${a.party} ${COHORT_LABEL[g]}: ${n}`}
+                        className="h-full cursor-pointer transition-[filter] hover:brightness-110"
+                        style={{
+                          width: `${(n / a.count) * 100}%`,
+                          backgroundColor: COHORT_COLOR[g],
+                          boxShadow: isOpen ? "inset 0 0 0 2px var(--foreground)" : undefined,
+                        }}
+                        onClick={() => setSel(isOpen ? null : { party: a.party, g })}
+                        onMouseMove={(e) =>
+                          setTip({ x: e.clientX, y: e.clientY, text: `${a.party} · ${COHORT_LABEL[g]}: ${n}` })}
+                        onMouseLeave={() => setTip(null)}
+                      />
+                    );
+                  })}
+                </span>
+                <span className="w-10 shrink-0 text-right text-xs tabular-nums text-muted-foreground" title={t("avgAge")}>
+                  {a.avgAge}
+                </span>
+              </div>
+
+              {open && (
+                <div className="ml-16 mt-2 rounded-md border border-border p-3">
+                  <div className="mb-2 flex items-center gap-2">
+                    <span aria-hidden className="h-3 w-3 rounded-sm" style={{ backgroundColor: COHORT_COLOR[open] }} />
+                    <PartyBadge shortName={a.party} />
+                    <span className="text-sm font-semibold">{COHORT_LABEL[open]}</span>
+                    <span className="text-sm text-muted-foreground">· {a.cohorts[open].length}</span>
+                    <button type="button" onClick={() => setSel(null)} className="ml-auto text-sm text-muted-foreground hover:text-foreground">
+                      {t("close")}
+                    </button>
+                  </div>
+                  <ul className="grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
+                    {[...a.cohorts[open]].sort((x, y) => x.age - y.age).map((m) => (
+                      <li key={m.slug}>
+                        <Link href={`/members/${m.slug}`} className="flex items-center gap-2 hover:underline">
+                          <MemberAvatar fullName={m.fullName} photoThumbPath={m.photoThumbPath} shortName={a.party} />
+                          <span className="min-w-0">
+                            <span className="block truncate text-sm font-medium">{m.fullName}</span>
+                            <span className="block text-xs text-muted-foreground">{t("yearsOld", { n: m.age })}</span>
+                          </span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </li>
+          );
+        })}
       </ul>
 
       {/* Instant cursor tooltip (fixed-positioned; no native-title delay). */}
