@@ -27,7 +27,7 @@
 ## File Structure
 
 **Phase 0 (web + one precompute):**
-- `packages/db/migrations/0024_signature_terms.sql` — precomputed distinctive-lemma table.
+- `packages/db/migrations/0023_signature_terms.sql` — precomputed distinctive-lemma table.
 - `apps/scraper/src/parteidistsipliin_scraper/signature.py` — TF-IDF precompute over `member_speeches`.
 - `apps/scraper/tests/test_signature.py` — precompute unit test.
 - CLI: add `signatures` command to `cli.py`.
@@ -48,7 +48,7 @@
 - `apps/scraper/src/parteidistsipliin_scraper/profile_tags.py` — `UNIVERSITIES` dict + tag taxonomy + LLM tagging entrypoint + committed-JSON loader.
 - `apps/scraper/src/parteidistsipliin_scraper/towns.py` — `TOWN_COORDS` lookup (town → lat/lon).
 - CLI: add `profiles` command (`--refresh`, `--tag`).
-- `packages/db/migrations/0023_member_profiles.sql` — profile tables.
+- `packages/db/migrations/0024_member_profiles.sql` — profile tables.
 - `apps/scraper/cache/profiles/*.html.gz`, `apps/scraper/cache/profiles/profile_tags.json` (committed).
 - `apps/scraper/fixtures/profiles/*.html` (2–3 committed fixtures), `apps/scraper/tests/test_profile_parse.py`.
 - Web: `apps/web/app/[locale]/statistika/varia/inimesed/page.tsx`, `.../vorgustik/page.tsx` + components; extend `varia-queries.ts`/`varia.ts`.
@@ -313,12 +313,12 @@ export function generationOf(year: number): string {
 ## Task 4: Signature-terms migration
 
 **Files:**
-- Create: `packages/db/migrations/0024_signature_terms.sql`
+- Create: `packages/db/migrations/0023_signature_terms.sql`
 
 - [ ] **Step 1: Write the migration**
 
 ```sql
--- packages/db/migrations/0024_signature_terms.sql
+-- packages/db/migrations/0023_signature_terms.sql
 -- Precomputed "signature words": the most distinctive lemmas for each member and each party,
 -- by TF-IDF over member_speeches.lemmas. A cache like ballot_alignment/member_expenses: the
 -- web reads top-N per scope instead of running TF-IDF per request. Recomputed by the
@@ -339,7 +339,7 @@ CREATE INDEX IF NOT EXISTS signature_terms_scope_idx
 COMMIT;
 ```
 
-- [ ] **Step 2: Commit** `feat(db): 0024 signature_terms cache table`.
+- [ ] **Step 2: Commit** `feat(db): 0023 signature_terms cache table`.
   (Apply-to-prod is a later, user-gated step — see Task 6.)
 
 ---
@@ -388,11 +388,11 @@ def test_distinctive_lemma_ranks_first():
 
 ---
 
-## Task 6: Apply 0024 + populate signatures (USER-GATED)
+## Task 6: Apply 0023 + populate signatures (USER-GATED)
 
 **This task is executed by the user** (prod DB write). The agent prepares the exact commands and hands off.
 
-- [ ] **Step 1: Apply migration 0024 to prod** via the `migrate` CLI (`apply_migrations`), per CLAUDE.md. Command:
+- [ ] **Step 1: Apply migration 0023 to prod** via the `migrate` CLI (`apply_migrations`), per CLAUDE.md. Command:
   `apps/scraper/.venv/Scripts/python -m parteidistsipliin_scraper migrate`
 - [ ] **Step 2: Populate** `apps/scraper/.venv/Scripts/python -m parteidistsipliin_scraper signatures`
 - [ ] **Step 3: Sanity check** `SELECT scope_kind, count(*) FROM signature_terms GROUP BY 1;` — expect member + party rows.
@@ -478,10 +478,10 @@ and add `"varia"` to the `nav` namespace in both message files.
 - [ ] **Step 2:** `profiles --tag` collects all distinct hobby/profession raws from the cache, sends them to the LLM with the taxonomy (one call per field, strict "assign each to exactly one existing tag or 'Muu'"), writes the JSON. Deterministic re-runs only add new phrases.
 - [ ] **Step 3:** `load_tag_map()` + a golden-file shape test. The writer maps raw→tag through this JSON (never calls the LLM). Commit the JSON.
 
-## Task 13: Migration 0023 + writer + wire-up
+## Task 13: Migration 0024 + writer + wire-up
 
-**Files:** `packages/db/migrations/0023_member_profiles.sql` (tables from spec §5), `db.py` (`upsert_profiles`), `writer.py` (map `ProfileData`+tag map+coords → rows), `cli.py` (`profiles` now also writes DB), `rebuild` (replay profiles cache).
-- [ ] TDD the writer mapping against a fixture `ProfileData` → expected row dicts (batched insert). Apply 0023 + run `profiles` write = **USER-GATED** (mirror Task 6). Commit code; hand off apply/populate.
+**Files:** `packages/db/migrations/0024_member_profiles.sql` (tables from spec §5), `db.py` (`upsert_profiles`), `writer.py` (map `ProfileData`+tag map+coords → rows), `cli.py` (`profiles` now also writes DB), `rebuild` (replay profiles cache).
+- [ ] TDD the writer mapping against a fixture `ProfileData` → expected row dicts (batched insert). Apply 0024 + run `profiles` write = **USER-GATED** (mirror Task 6). Commit code; hand off apply/populate.
 
 ## Task 14: `inimesed` page (CV bundle)
 
