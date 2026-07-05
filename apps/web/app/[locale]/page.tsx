@@ -5,6 +5,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { MembersTable } from "@/components/members-table";
 import { NonSitting } from "@/components/election/non-sitting";
+import { FactionMetricBars } from "@/components/factions/faction-metric-bars";
 
 export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 
@@ -40,6 +41,8 @@ export default async function HomePage({
           <h1 className="font-serif text-2xl font-bold tracking-tight">{t("heading")}</h1>
           <p className="text-xs uppercase tracking-wide text-muted-foreground">{t("cycle")}</p>
           <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("subheading")}</p>
+
+          <FactionMetricBars metric="cohesion" />
 
           {dbError ? (
             <p className="mt-6 rounded border border-destructive/40 bg-destructive/5 p-4 text-sm">

@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ExpensesSection } from "@/components/statistika/expenses-section";
+import { FactionMetricBars } from "@/components/factions/faction-metric-bars";
 import { getExpenseYears } from "@/lib/expenses-queries";
 
 export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
@@ -22,6 +23,7 @@ export default async function ExpensesPage({
     <>
       <SiteHeader />
       <main className="mx-auto max-w-5xl px-4 py-10">
+        <FactionMetricBars metric="expenses" />
         <ExpensesSection year={latest} />
         <SiteFooter />
       </main>

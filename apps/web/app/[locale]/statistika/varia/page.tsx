@@ -17,7 +17,6 @@ export default async function VariaHubPage({ params }: { params: Promise<{ local
     { href: "/statistika/varia/inimesed", title: t("tileInimesed"), desc: t("tileInimesedDesc") },
     { href: "/statistika/varia/parlamendiryhmad", title: t("tileVorgustik"), desc: t("tileVorgustikDesc") },
     // Demoted from the main nav (kept to 3 headings): still their own routes.
-    { href: "/fraktsioonid", title: t("tileFraktsioonid"), desc: t("tileFraktsioonidDesc") },
     { href: "/statistika/kulud", title: t("tileKulud"), desc: t("tileKuludDesc") },
     { href: "/statistika/otsustavad", title: t("tileOtsustavad"), desc: t("tileOtsustavadDesc") },
   ];
