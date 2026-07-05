@@ -1,6 +1,6 @@
 import { unstable_cache } from "next/cache";
 import { pool } from "./db";
-import type { AbsenceRow } from "./varia";
+import type { AbsenceRow, GenRow } from "./varia";
 
 /** Ghost-MP leaderboard: per member, the share of NON-procedural ballots they were absent for.
  *  Procedural votes (presence checks, agenda adoption) are excluded -- they'd swamp the signal.
@@ -29,4 +29,25 @@ async function _getAbsenceLeaderboard(): Promise<AbsenceRow[]> {
     ORDER BY "absentPct" DESC, m.full_name ASC
   `);
   return rows as AbsenceRow[];
+}
+
+/** Active members with a known birth date, for the generational stats. */
+export const getMembersWithAge = unstable_cache(
+  _getMembersWithAge,
+  ["varia-generations"],
+  { revalidate: 86400 },
+);
+
+async function _getMembersWithAge(): Promise<GenRow[]> {
+  const { rows } = await pool.query(`
+    SELECT m.id AS "memberId", m.full_name AS "fullName", m.slug,
+           mcp.party_short_name AS "partyShortName", m.photo_thumb_path AS "photoThumbPath",
+           extract(year FROM m.date_of_birth)::int AS "birthYear",
+           date_part('year', age(m.date_of_birth))::int AS age
+    FROM members m
+    LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+    WHERE m.active AND m.date_of_birth IS NOT NULL
+    ORDER BY m.date_of_birth ASC
+  `);
+  return rows as GenRow[];
 }

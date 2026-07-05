@@ -13,6 +13,29 @@ export type AbsenceRow = {
   absentPct: number; // 100 * absent / total, 1 decimal
 };
 
+export type GenRow = {
+  memberId: number;
+  fullName: string;
+  slug: string;
+  partyShortName: string | null;
+  photoThumbPath: string | null;
+  birthYear: number;
+  age: number;
+};
+
+/** Official arvud-räägivad birth cohorts, newest first. Boundary years fall in the newer bucket. */
+export const GENERATIONS = ["95+", "85-94", "75-84", "65-74", "55-64", "-54"] as const;
+export type Generation = (typeof GENERATIONS)[number];
+
+export function generationOf(year: number): Generation {
+  if (year >= 1995) return "95+";
+  if (year >= 1985) return "85-94";
+  if (year >= 1975) return "75-84";
+  if (year >= 1965) return "65-74";
+  if (year >= 1955) return "55-64";
+  return "-54";
+}
+
 /** Sort an absence leaderboard by absent %, name-ascending within a tie. */
 export function sortAbsence(rows: AbsenceRow[], dir: "asc" | "desc"): AbsenceRow[] {
   const asc = [...rows].sort((a, b) =>
