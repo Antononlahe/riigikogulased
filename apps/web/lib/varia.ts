@@ -13,6 +13,9 @@ export type AbsenceRow = {
   absentPct: number; // 100 * absent / total, 1 decimal
 };
 
+export type SignatureWord = { lemma: string; score: number; rank: number };
+export type PartyWords = { partyShortName: string; words: SignatureWord[] };
+
 export type GenRow = {
   memberId: number;
   fullName: string;

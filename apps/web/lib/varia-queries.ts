@@ -1,6 +1,6 @@
 import { unstable_cache } from "next/cache";
 import { pool } from "./db";
-import type { AbsenceRow, GenRow } from "./varia";
+import type { AbsenceRow, GenRow, PartyWords } from "./varia";
 
 /** Ghost-MP leaderboard: per member, the share of NON-procedural ballots they were absent for.
  *  Procedural votes (presence checks, agenda adoption) are excluded -- they'd swamp the signal.
@@ -50,4 +50,31 @@ async function _getMembersWithAge(): Promise<GenRow[]> {
     ORDER BY m.date_of_birth ASC
   `);
   return rows as GenRow[];
+}
+
+/** Top signature words per party (scope 'party' in signature_terms), up to 15 each. */
+export const getPartySignatureWords = unstable_cache(
+  _getPartySignatureWords,
+  ["varia-signatures"],
+  { revalidate: 86400 },
+);
+
+async function _getPartySignatureWords(): Promise<PartyWords[]> {
+  const { rows } = await pool.query(`
+    SELECT p.short_name AS "partyShortName", st.lemma, st.score, st.rank
+    FROM signature_terms st
+    JOIN parties p ON p.id = st.scope_id
+    WHERE st.scope_kind = 'party' AND st.rank <= 15
+    ORDER BY p.short_name, st.rank
+  `);
+  const byParty = new Map<string, PartyWords>();
+  for (const r of rows as { partyShortName: string; lemma: string; score: number; rank: number }[]) {
+    let e = byParty.get(r.partyShortName);
+    if (!e) {
+      e = { partyShortName: r.partyShortName, words: [] };
+      byParty.set(r.partyShortName, e);
+    }
+    e.words.push({ lemma: r.lemma, score: r.score, rank: r.rank });
+  }
+  return [...byParty.values()];
 }
