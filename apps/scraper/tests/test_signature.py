@@ -1,4 +1,4 @@
-from parteidistsipliin_scraper.signature import compute_signature_terms
+from parteidistsipliin_scraper.signature import compute_from_counts, compute_signature_terms
 
 
 def test_distinctive_lemma_ranks_first():
@@ -27,3 +27,16 @@ def test_ranks_are_contiguous_per_scope_and_capped():
 
 def test_empty_and_blank_docs_yield_no_rows():
     assert compute_signature_terms({1: "", 2: "   "}, top_n=5) == []
+
+
+def test_compute_from_counts_matches_text_path():
+    # The DB path feeds term-count dicts (read from the tsvector) straight into compute_from_counts.
+    counts = {
+        1: {"kala": 2, "ja": 2, "vesi": 1},
+        2: {"auto": 2, "ja": 2, "tee": 1},
+        3: {"maja": 2, "ja": 2, "aed": 1},
+    }
+    rows = compute_from_counts(counts, top_n=3)
+    top1 = [(lemma, rank) for sid, lemma, score, rank in rows if sid == 1 and rank == 1]
+    assert top1 == [("kala", 1)]
+    assert all(lemma != "ja" for sid, lemma, score, rank in rows)

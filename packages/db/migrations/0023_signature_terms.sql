@@ -1,6 +1,7 @@
 -- packages/db/migrations/0023_signature_terms.sql
 -- Precomputed "signature words": the most distinctive lemmas for each member and each party,
--- ranked by TF-IDF over member_speeches.lemmas. A cache like ballot_alignment / member_expenses:
+-- ranked by TF-IDF over the member_speeches `search` tsvector lexemes (the raw `lemmas` text
+-- column was dropped in 0014). A cache like ballot_alignment / member_expenses:
 -- the web reads the top-N per scope instead of running TF-IDF at request time.
 --
 -- Recomputed by the `signatures` CLI (offline, from member_speeches) and in rebuild, after any

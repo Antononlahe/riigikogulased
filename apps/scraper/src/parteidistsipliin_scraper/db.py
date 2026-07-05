@@ -695,31 +695,43 @@ def upsert_speech_stats(
         )
 
 
-def _lemma_docs(conn: psycopg.Connection, scope_kind: str) -> dict[int, str]:
-    """Per-scope concatenated lemmas from member_speeches, for signature-word TF-IDF.
+def _lemma_counts(conn: psycopg.Connection, scope_kind: str) -> dict[int, dict[str, int]]:
+    """Per-scope lemma->count from member_speeches, for signature-word TF-IDF.
 
-    scope_kind='member' groups by member; 'party' groups by each member's current party.
+    The raw `lemmas` text column was dropped in 0014; lemma frequencies are read from the
+    `search` tsvector, whose 'simple'-config lexemes are the lemmas and whose position count
+    (array_length(positions,1)) is the occurrence count. scope_kind='member' groups by member;
+    'party' groups by each member's current party.
+
+    ponytail: tsvector caps stored positions per lexeme (~256), so counts for extremely frequent
+    lemmas are approximate -- fine for ranking distinctive words.
     """
     if scope_kind == "member":
         sql = """
-            SELECT member_id AS sid, string_agg(lemmas, ' ') AS doc
-              FROM member_speeches
-             WHERE lemmas IS NOT NULL AND lemmas <> ''
-             GROUP BY member_id
+            SELECT ms.member_id AS sid, u.lexeme AS lemma,
+                   sum(coalesce(array_length(u.positions, 1), 1))::int AS n
+              FROM member_speeches ms,
+                   unnest(ms.search) AS u(lexeme, positions, weights)
+             GROUP BY ms.member_id, u.lexeme
         """
     elif scope_kind == "party":
         sql = """
-            SELECT mcp.party_id AS sid, string_agg(ms.lemmas, ' ') AS doc
+            SELECT mcp.party_id AS sid, u.lexeme AS lemma,
+                   sum(coalesce(array_length(u.positions, 1), 1))::int AS n
               FROM member_speeches ms
-              JOIN member_current_party mcp ON mcp.member_id = ms.member_id
-             WHERE mcp.party_id IS NOT NULL AND ms.lemmas IS NOT NULL AND ms.lemmas <> ''
-             GROUP BY mcp.party_id
+              JOIN member_current_party mcp ON mcp.member_id = ms.member_id,
+                   unnest(ms.search) AS u(lexeme, positions, weights)
+             WHERE mcp.party_id IS NOT NULL
+             GROUP BY mcp.party_id, u.lexeme
         """
     else:
         raise ValueError(f"unknown scope_kind: {scope_kind}")
+    docs: dict[int, dict[str, int]] = {}
     with conn.cursor() as cur:
         cur.execute(sql)
-        return {r["sid"]: r["doc"] for r in cur.fetchall()}
+        for r in cur.fetchall():
+            docs.setdefault(r["sid"], {})[r["lemma"]] = r["n"]
+    return docs
 
 
 def replace_signature_terms(
@@ -740,7 +752,7 @@ def refresh_signatures(conn: psycopg.Connection, top_n: int = 25) -> int:
 
     Safe to call when signature_terms doesn't exist yet (pre-migration): it no-ops with a notice.
     """
-    from parteidistsipliin_scraper.signature import compute_signature_terms
+    from parteidistsipliin_scraper.signature import compute_from_counts
 
     with conn.cursor() as cur:
         cur.execute("SELECT to_regclass('signature_terms') IS NOT NULL AS present")
@@ -750,7 +762,7 @@ def refresh_signatures(conn: psycopg.Connection, top_n: int = 25) -> int:
 
     rows: list[tuple[str, int, str, float, int]] = []
     for kind in ("member", "party"):
-        for sid, lemma, score, rank in compute_signature_terms(_lemma_docs(conn, kind), top_n):
+        for sid, lemma, score, rank in compute_from_counts(_lemma_counts(conn, kind), top_n):
             rows.append((kind, sid, lemma, score, rank))
     replace_signature_terms(conn, rows)
     return len(rows)
