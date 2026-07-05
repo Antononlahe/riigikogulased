@@ -32,6 +32,9 @@ from parteidistsipliin_scraper.eurovoc_models import (
 from parteidistsipliin_scraper.expense_parse import parse_year as parse_expense_year
 from parteidistsipliin_scraper.lemmatize import lemmatize
 from parteidistsipliin_scraper.photo import write_thumbnail
+from parteidistsipliin_scraper.profile_cache import ProfileCache
+from parteidistsipliin_scraper.profile_client import ProfileClient
+from parteidistsipliin_scraper.profile_parse import parse_profile
 from parteidistsipliin_scraper.verbatim_cache import VerbatimCache
 from parteidistsipliin_scraper.verbatim_parse import parse_sitting
 from parteidistsipliin_scraper.writer import (
@@ -231,6 +234,13 @@ def rebuild() -> None:
         conn.commit()
         db.refresh_alignment(conn)
         conn.commit()
+        db.refresh_signatures(conn)
+        conn.commit()
+        # Replay cached member profile pages -> CV data (bio, hobbies, universities, caucuses).
+        prof_cache = ProfileCache()
+        if prof_cache.read_all():
+            _write_profiles(conn, prof_cache, sorted(db.all_member_riigikogu_ids(conn)))
+            conn.commit()
     typer.echo(
         f"Rebuilt {len(votings)} votings, {len(ctx.sitting_id_by_uuid)} sittings, "
         f"{len(members)} members from cache."
@@ -436,6 +446,85 @@ def speeches() -> None:
     asyncio.run(_refresh_speeches())
 
 
+@app.command()
+def signatures() -> None:
+    """Recompute signature words (distinctive lemmas per member + party) from member_speeches."""
+    with db.connect() as conn:
+        n = db.refresh_signatures(conn)
+        conn.commit()
+    typer.echo(
+        f"Wrote {n} signature-term rows." if n else "signature_terms absent; run migrate first."
+    )
+
+
+@app.command()
+def profiles(
+    refresh: bool = typer.Option(False, "--refresh", help="Re-fetch even if cached."),
+    fetch_only: bool = typer.Option(False, "--fetch-only", help="Fetch + cache only, no DB write."),
+) -> None:
+    """Scrape member profile pages -> gzip cache, then write CV data (bio, hobbies, groups) to DB.
+
+    Profiles are fetched at 1 req/s. The raw HTML is cached (committed) so `rebuild` reproduces
+    the DB with no network. Hobby/profession tagging is a separate step: `profiles-tag`.
+    """
+    with db.connect() as conn:
+        uuids = sorted(db.all_member_riigikogu_ids(conn))
+    cache = ProfileCache()
+    fetched = asyncio.run(_fetch_profiles(cache, uuids, refresh))
+    typer.echo(f"Fetched {fetched} profiles ({len(uuids)} members, rest cached).")
+    if fetch_only:
+        return
+    with db.connect() as conn:
+        n = _write_profiles(conn, cache, uuids)
+        conn.commit()
+    typer.echo(f"Wrote profile rows for {n} members.")
+
+
+async def _fetch_profiles(cache: ProfileCache, uuids: list[str], refresh: bool) -> int:
+    fetched = 0
+    async with ProfileClient() as client:
+        for uuid in uuids:
+            if not refresh and cache.has(uuid):
+                continue
+            cache.write(uuid, await client.profile(uuid))
+            fetched += 1
+    return fetched
+
+
+def _write_profiles(conn, cache: ProfileCache, uuids: list[str]) -> int:
+    from parteidistsipliin_scraper.profile_tags import canonical_university, load_tag_map
+    from parteidistsipliin_scraper.towns import coords_for
+
+    tag_map = load_tag_map()
+    hobby_map = tag_map.get("hobby", {})
+    prof_map = tag_map.get("profession", {})
+    misses: list[str] = []
+    n = 0
+    for uuid in uuids:
+        html = cache.read(uuid)
+        if html is None:
+            continue
+        mid = db.member_id_by_riigikogu_id(conn, uuid)
+        if mid is None:
+            continue
+        p = parse_profile(html)
+        coords = coords_for(p.birthplace_town)
+        if p.birthplace_town and coords is None:
+            misses.append(p.birthplace_town)
+        db.write_member_profile(
+            conn, mid, p,
+            profession_tag=prof_map.get(uuid),
+            hobbies=[(h, hobby_map.get(h, "Muu")) for h in p.hobbies_raw],
+            universities=canonical_university(p.education_raw),
+            coords=coords,
+        )
+        n += 1
+    if misses:
+        uniq = sorted(set(misses))
+        typer.echo(f"  no coords for {len(uniq)} birthplaces (add to towns.py): {uniq}")
+    return n
+
+
 def _month_ranges(start: date, end: date):
     """Yield (lo, hi) inclusive day ranges, one per calendar month, clipped to [start, end]."""
     cur = date(start.year, start.month, 1)
@@ -502,6 +591,9 @@ def verbatims(
     with db.connect() as conn:
         n = _ingest_verbatims(conn, sittings, no_lemma=no_lemma)
         conn.commit()
+        if n and not no_lemma:
+            db.refresh_signatures(conn)  # new lemmas landed -> refresh signature words
+            conn.commit()
     typer.echo(f"Indexed {n} speeches.")
 
 

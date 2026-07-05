@@ -1,5 +1,5 @@
 import { pool } from "./db";
-import { HL_START, HL_END, type SpeechHit } from "./speech-search";
+import { HL_START, HL_END, prefixHighlightQuery, type SpeechHit } from "./speech-search";
 
 // Match strategy: the `search` tsvector indexes Vabamorf base-form LEMMAS, so a base-form
 // query ("kool") matches every inflection in the corpus. The web app can't lemmatise the
@@ -20,6 +20,8 @@ export async function searchMemberSpeeches(
   const headlineOpts =
     `StartSel=${HL_START}, StopSel=${HL_END}, ` +
     "MaxFragments=2, FragmentDelimiter= … , MinWords=5, MaxWords=20, ShortWord=2";
+  // Prefix query so inflections/compounds highlight; empty falls back to plain lexeme highlight.
+  const hq = prefixHighlightQuery(query);
   const { rows } = await pool.query(
     `
     WITH ql AS (SELECT websearch_to_tsquery('simple', $2) AS q)
@@ -29,7 +31,9 @@ export async function searchMemberSpeeches(
            sitting_type AS "sittingType",
            agenda_title AS "agendaTitle",
            steno_link AS link,
-           ts_headline('simple', text, plainto_tsquery('simple', $2), $5) AS snippet
+           ts_headline('simple', text,
+             CASE WHEN $6 = '' THEN plainto_tsquery('simple', $2) ELSE to_tsquery('simple', $6) END,
+             $5) AS snippet
     FROM member_speeches, ql
     WHERE member_id = $1
       AND (search @@ ql.q OR text ILIKE $3)
@@ -38,7 +42,7 @@ export async function searchMemberSpeeches(
              spoken_at DESC NULLS LAST
     LIMIT $4
     `,
-    [memberId, query, like, limit, headlineOpts],
+    [memberId, query, like, limit, headlineOpts, hq],
   );
   return rows.map((r) => ({
     ...r,

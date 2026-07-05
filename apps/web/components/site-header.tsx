@@ -8,16 +8,16 @@ export async function SiteHeader() {
   const nav = await getTranslations("nav");
   return (
     <header className="border-b-2 border-foreground">
-      <div className="mx-auto flex max-w-5xl items-end justify-between px-4 py-5">
+      {/* flex-wrap: on narrow screens the nav drops to a second line instead of overflowing
+          (no horizontal scroll). Kept to 3 headings; the rest live under Varia. */}
+      <div className="mx-auto flex max-w-5xl flex-wrap items-end justify-between gap-y-2 px-4 py-5">
         <Link href="/" className="font-serif text-2xl font-bold tracking-tight hover:opacity-80">
           {site("title")}
         </Link>
         <nav className="flex items-center gap-4 text-sm text-muted-foreground">
           <Link href="/" className="hover:text-foreground">{nav("members")}</Link>
           <Link href="/statistika" className="hover:text-foreground">{nav("speeches")}</Link>
-          <Link href="/statistika/kulud" className="hover:text-foreground">{nav("expenses")}</Link>
-          <Link href="/fraktsioonid" className="hover:text-foreground">{nav("factions")}</Link>
-          <Link href="/statistika/otsustavad" className="hover:text-foreground">{nav("decisive")}</Link>
+          <Link href="/statistika/varia" className="hover:text-foreground">{nav("varia")}</Link>
           <span className="mx-1 h-4 w-px bg-border" aria-hidden />
           <LocaleToggle />
           <ThemeToggle />

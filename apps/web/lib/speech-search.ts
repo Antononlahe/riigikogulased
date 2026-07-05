@@ -5,6 +5,15 @@
 export const HL_START = "[[hl]]";
 export const HL_END = "[[/hl]]";
 
+// Build a prefix tsquery ("kool:* | õpe:*") for ts_headline so it highlights Estonian
+// inflections/compounds (koolis, kooli, koolitus), not just the exact base form. The corpus
+// `search` vector is lemma-indexed so it MATCHES those forms, but a plain headline query would
+// miss them and fall back to the speech opening. Empty string if no usable token.
+export function prefixHighlightQuery(q: string): string {
+  const terms = q.toLowerCase().match(/[\p{L}\p{N}]{2,}/gu) ?? [];
+  return terms.map((t) => `${t}:*`).join(" | ");
+}
+
 export type SpeechHit = {
   speechKey: string;
   spokenAt: string | null;

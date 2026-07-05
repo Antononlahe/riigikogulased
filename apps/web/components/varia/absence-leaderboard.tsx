@@ -1,0 +1,97 @@
+"use client";
+
+import { useMemo, useState } from "react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
+import { MemberAvatar } from "@/components/member-avatar";
+import { PartyBadge } from "@/components/party-badge";
+import { ScrollableTable } from "@/components/ui/scrollable-table";
+import { partyToken } from "@/lib/party";
+import { sortAbsence, type AbsenceRow } from "@/lib/varia";
+
+export function AbsenceLeaderboard({ rows }: { rows: AbsenceRow[] }) {
+  const t = useTranslations("varia");
+  const [dir, setDir] = useState<"asc" | "desc">("desc");
+  const visible = useMemo(() => sortAbsence(rows, dir), [rows, dir]);
+  const max = useMemo(() => Math.max(1, ...rows.map((r) => r.absentPct)), [rows]);
+
+  return (
+    <div>
+      {/* Desktop table */}
+      <div className="hidden sm:block">
+        <ScrollableTable minWidthClass="min-w-[34rem]">
+          <thead>
+            <tr className="border-b border-border">
+              <th scope="col" className="px-4 py-2 text-left text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
+                {t("member")}
+              </th>
+              <th scope="col" className="px-3 py-2 text-right text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
+                {t("totalVotes")}
+              </th>
+              <th scope="col" className="px-3 py-2 text-right text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
+                {t("absentVotes")}
+              </th>
+              <th scope="col" className="px-3 py-2 text-right" aria-sort={dir === "asc" ? "ascending" : "descending"}>
+                <button
+                  onClick={() => setDir((d) => (d === "asc" ? "desc" : "asc"))}
+                  className="text-[11px] font-bold uppercase tracking-wide text-foreground hover:text-foreground"
+                >
+                  {t("absentPct")} {dir === "asc" ? "↑" : "↓"}
+                </button>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {visible.map((r) => {
+              const token = partyToken(r.partyShortName);
+              const pct = (r.absentPct / max) * 100;
+              return (
+                <tr key={r.memberId} className={`border-b border-border last:border-0 hover:bg-secondary ${r.active ? "" : "opacity-55"}`}>
+                  <th scope="row" className="px-4 py-2 text-left font-normal">
+                    <span className="flex items-center gap-3 font-semibold">
+                      <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
+                      <Link href={`/members/${r.slug}`} className="hover:underline">
+                        {r.fullName}
+                      </Link>
+                      <PartyBadge shortName={r.partyShortName} />
+                    </span>
+                  </th>
+                  <td className="px-3 py-2 text-right tabular-nums text-muted-foreground">{r.total}</td>
+                  <td className="px-3 py-2 text-right tabular-nums text-muted-foreground">{r.absent}</td>
+                  <td className="relative px-3 py-2 text-right tabular-nums">
+                    <span
+                      aria-hidden
+                      className="pointer-events-none absolute inset-y-1 right-0 rounded-sm"
+                      style={{ width: `${pct}%`, backgroundColor: token.fill, opacity: 0.2 }}
+                    />
+                    <span className="relative font-semibold text-foreground">{r.absentPct}%</span>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </ScrollableTable>
+      </div>
+
+      {/* Mobile: one card per member */}
+      <ul className="space-y-2 sm:hidden">
+        {visible.map((r) => (
+          <li key={r.memberId} className={`rounded-md border border-border p-3 ${r.active ? "" : "opacity-55"}`}>
+            <span className="flex items-center gap-3 font-semibold">
+              <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
+              <Link href={`/members/${r.slug}`} className="hover:underline">
+                {r.fullName}
+              </Link>
+              <PartyBadge shortName={r.partyShortName} />
+              <span className="ml-auto tabular-nums font-bold text-foreground">{r.absentPct}%</span>
+            </span>
+            <div className="mt-2 text-xs text-muted-foreground">
+              {t("absentVotes")}: <span className="tabular-nums text-foreground">{r.absent}</span> ·{" "}
+              {t("totalVotes")}: <span className="tabular-nums text-foreground">{r.total}</span>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}

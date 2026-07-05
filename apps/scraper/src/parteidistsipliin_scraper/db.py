@@ -693,3 +693,130 @@ def upsert_speech_stats(
             """,
             (member_id, speeches, questions, procedural, total, period_start, period_end),
         )
+
+
+def _lemma_counts(conn: psycopg.Connection, scope_kind: str) -> dict[int, dict[str, int]]:
+    """Per-scope lemma->count from member_speeches, for signature-word TF-IDF.
+
+    The raw `lemmas` text column was dropped in 0014; lemma frequencies are read from the
+    `search` tsvector, whose 'simple'-config lexemes are the lemmas and whose position count
+    (array_length(positions,1)) is the occurrence count. scope_kind='member' groups by member;
+    'party' groups by each member's current party.
+
+    ponytail: tsvector caps stored positions per lexeme (~256), so counts for extremely frequent
+    lemmas are approximate -- fine for ranking distinctive words.
+    """
+    if scope_kind == "member":
+        sql = """
+            SELECT ms.member_id AS sid, u.lexeme AS lemma,
+                   sum(coalesce(array_length(u.positions, 1), 1))::int AS n
+              FROM member_speeches ms,
+                   unnest(ms.search) AS u(lexeme, positions, weights)
+             GROUP BY ms.member_id, u.lexeme
+        """
+    elif scope_kind == "party":
+        sql = """
+            SELECT mcp.party_id AS sid, u.lexeme AS lemma,
+                   sum(coalesce(array_length(u.positions, 1), 1))::int AS n
+              FROM member_speeches ms
+              JOIN member_current_party mcp ON mcp.member_id = ms.member_id,
+                   unnest(ms.search) AS u(lexeme, positions, weights)
+             WHERE mcp.party_id IS NOT NULL
+             GROUP BY mcp.party_id, u.lexeme
+        """
+    else:
+        raise ValueError(f"unknown scope_kind: {scope_kind}")
+    docs: dict[int, dict[str, int]] = {}
+    with conn.cursor() as cur:
+        cur.execute(sql)
+        for r in cur.fetchall():
+            docs.setdefault(r["sid"], {})[r["lemma"]] = r["n"]
+    return docs
+
+
+def replace_signature_terms(
+    conn: psycopg.Connection, rows: list[tuple[str, int, str, float, int]]
+) -> None:
+    """Full-replace signature_terms. rows: (scope_kind, scope_id, lemma, score, rank)."""
+    with conn.cursor() as cur:
+        cur.execute("TRUNCATE signature_terms")
+        cur.executemany(
+            "INSERT INTO signature_terms (scope_kind, scope_id, lemma, score, rank)"
+            " VALUES (%s, %s, %s, %s, %s)",
+            rows,
+        )
+
+
+def refresh_signatures(conn: psycopg.Connection, top_n: int = 25) -> int:
+    """Recompute signature_terms for member + party scopes from member_speeches. Returns row count.
+
+    Safe to call when signature_terms doesn't exist yet (pre-migration): it no-ops with a notice.
+    """
+    from parteidistsipliin_scraper.signature import compute_from_counts
+
+    with conn.cursor() as cur:
+        cur.execute("SELECT to_regclass('signature_terms') IS NOT NULL AS present")
+        row = cur.fetchone()
+        if not row or not row["present"]:
+            return 0
+
+    rows: list[tuple[str, int, str, float, int]] = []
+    for kind in ("member", "party"):
+        for sid, lemma, score, rank in compute_from_counts(_lemma_counts(conn, kind), top_n):
+            rows.append((kind, sid, lemma, score, rank))
+    replace_signature_terms(conn, rows)
+    return len(rows)
+
+
+def _replace_child(
+    conn: psycopg.Connection, table: str, cols: str, member_id: int, rows: list[tuple]
+) -> None:
+    """DELETE a member's rows in a profile child table, then bulk-insert `rows`. Idempotent."""
+    placeholders = ", ".join(["%s"] * (cols.count(",") + 1))
+    with conn.cursor() as cur:
+        cur.execute(f"DELETE FROM {table} WHERE member_id = %s", (member_id,))
+        if rows:
+            cur.executemany(
+                f"INSERT INTO {table} (member_id, {cols}) VALUES (%s, {placeholders})",
+                [(member_id, *r) for r in rows],
+            )
+
+
+def write_member_profile(
+    conn: psycopg.Connection,
+    member_id: int,
+    p,
+    *,
+    profession_tag: str | None,
+    hobbies: list[tuple[str, str]],     # (raw, hobby_tag)
+    universities: list[str],
+    coords: tuple[float, float] | None,
+) -> None:
+    """Upsert a member's profile row + replace its child rows (hobbies, universities, languages,
+    honours, caucuses) from parsed ProfileData `p`."""
+    lat, lon = (coords if coords else (None, None))
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO member_profiles
+              (member_id, birthplace_town, birthplace_lat, birthplace_lon,
+               children_count, family_status_raw, profession_tag, scraped_at)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, now())
+            ON CONFLICT (member_id) DO UPDATE SET
+              birthplace_town=EXCLUDED.birthplace_town,
+              birthplace_lat=EXCLUDED.birthplace_lat, birthplace_lon=EXCLUDED.birthplace_lon,
+              children_count=EXCLUDED.children_count, family_status_raw=EXCLUDED.family_status_raw,
+              profession_tag=EXCLUDED.profession_tag, scraped_at=now()
+            """,
+            (member_id, p.birthplace_town, lat, lon, p.children_count,
+             p.family_status_raw, profession_tag),
+        )
+    _replace_child(conn, "member_hobbies", "raw, hobby_tag", member_id, hobbies)
+    _replace_child(
+        conn, "member_universities", "university", member_id, [(u,) for u in universities]
+    )
+    caucuses = (
+        [("friendship", g) for g in p.friendship_groups]
+        + [("cause", g) for g in p.cause_groups]
+    )
+    _replace_child(conn, "member_caucuses", "kind, name", member_id, caucuses)
