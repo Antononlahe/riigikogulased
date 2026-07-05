@@ -18,6 +18,7 @@ export async function SiteHeader() {
           <Link href="/statistika/kulud" className="hover:text-foreground">{nav("expenses")}</Link>
           <Link href="/fraktsioonid" className="hover:text-foreground">{nav("factions")}</Link>
           <Link href="/statistika/otsustavad" className="hover:text-foreground">{nav("decisive")}</Link>
+          <Link href="/statistika/varia" className="hover:text-foreground">{nav("varia")}</Link>
           <span className="mx-1 h-4 w-px bg-border" aria-hidden />
           <LocaleToggle />
           <ThemeToggle />
