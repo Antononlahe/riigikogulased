@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { sortAbsence, generationOf, friendshipCountry, type AbsenceRow } from "./varia";
+import { sortAbsence, generationOf, friendshipCountry, groupPeople, type AbsenceRow, type PeopleRow } from "./varia";
 
 const row = (o: Partial<AbsenceRow>): AbsenceRow => ({
   memberId: 1,
@@ -50,6 +50,23 @@ describe("generationOf", () => {
     expect(generationOf(1965)).toBe("65-74");
     expect(generationOf(1955)).toBe("55-64");
     expect(generationOf(1954)).toBe("-54");
+  });
+});
+
+describe("groupPeople", () => {
+  const p = (o: Partial<PeopleRow>): PeopleRow => ({ category: "x", fullName: "A", slug: "a", party: "RE", detail: null, ...o });
+
+  it("groups by category, biggest first, and dedups members by slug", () => {
+    const groups = groupPeople([
+      p({ category: "sport", slug: "a" }),
+      p({ category: "sport", slug: "a" }), // same member, second hobby phrase -> deduped
+      p({ category: "sport", slug: "b" }),
+      p({ category: "muusika", slug: "c" }),
+    ]);
+    expect(groups.map((g) => [g.category, g.members.length])).toEqual([
+      ["sport", 2],
+      ["muusika", 1],
+    ]);
   });
 });
 

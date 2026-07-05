@@ -3,7 +3,7 @@ import { pool } from "./db";
 import { HL_START, HL_END, prefixHighlightQuery } from "./speech-search";
 import type {
   AbsenceRow, GenRow, PartyWords,
-  TagCount, PartyProfession, UniRow, ChildRow, BirthPin, CaucusMember,
+  PeopleRow, ChildRow, BirthPin, CaucusMember,
 } from "./varia";
 
 /** Ghost-MP leaderboard: per member, the share of NON-procedural ballots they were absent for.
@@ -86,41 +86,44 @@ async function _getPartySignatureWords(): Promise<PartyWords[]> {
 // --- Phase 1: biographical stats (member_profiles + child tables). Each returns [] on error /
 // before the tables are populated, so the pages render an empty state. ---
 
-export const getHobbyCloud = unstable_cache(async (): Promise<TagCount[]> => {
-  const { rows } = await pool.query(`
-    SELECT hobby_tag AS tag, count(DISTINCT member_id)::int AS count
-    FROM member_hobbies GROUP BY hobby_tag ORDER BY count DESC, hobby_tag`);
-  return rows as TagCount[];
-}, ["varia-hobbies"], { revalidate: 86400 });
+// Each people section fetches flat (category, member) rows -- the client groups them so
+// expanding a category reveals its members without another round-trip (same idea as caucuses).
 
-export const getProfessionsByParty = unstable_cache(async (): Promise<PartyProfession[]> => {
+export const getHobbyMembers = unstable_cache(async (): Promise<PeopleRow[]> => {
   const { rows } = await pool.query(`
-    SELECT mcp.party_short_name AS party, mp.profession_tag AS tag,
-           count(*)::int AS count
+    SELECT DISTINCT h.hobby_tag AS category, m.full_name AS "fullName", m.slug,
+           mcp.party_short_name AS party, NULL::text AS detail
+    FROM member_hobbies h
+    JOIN members m ON m.id = h.member_id
+    LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+    ORDER BY category, "fullName"`);
+  return rows as PeopleRow[];
+}, ["varia-hobby-members"], { revalidate: 86400 });
+
+export const getProfessionMembers = unstable_cache(async (): Promise<PeopleRow[]> => {
+  // Grouped by fraktsioon; members with no faction/party fall into the '-' bucket. The
+  // profession rides along as each member's `detail`.
+  const { rows } = await pool.query(`
+    SELECT COALESCE(mcp.party_short_name, '-') AS category, m.full_name AS "fullName", m.slug,
+           mcp.party_short_name AS party, mp.profession_tag AS detail
     FROM member_profiles mp
-    JOIN member_current_party mcp ON mcp.member_id = mp.member_id
-    WHERE mp.profession_tag IS NOT NULL AND mcp.party_short_name IS NOT NULL
-    GROUP BY mcp.party_short_name, mp.profession_tag`);
-  const byParty = new Map<string, PartyProfession>();
-  for (const r of rows as { party: string; tag: string; count: number }[]) {
-    let e = byParty.get(r.party);
-    if (!e) { e = { partyShortName: r.party, members: 0, distinct: 0, top: [] }; byParty.set(r.party, e); }
-    e.top.push({ tag: r.tag, count: r.count });
-    e.members += r.count;
-  }
-  for (const e of byParty.values()) {
-    e.distinct = e.top.length;
-    e.top.sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag, "et"));
-  }
-  return [...byParty.values()];
-}, ["varia-professions"], { revalidate: 86400 });
+    JOIN members m ON m.id = mp.member_id
+    LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+    WHERE mp.profession_tag IS NOT NULL
+    ORDER BY category, "fullName"`);
+  return rows as PeopleRow[];
+}, ["varia-profession-members"], { revalidate: 86400 });
 
-export const getUniversityLeague = unstable_cache(async (): Promise<UniRow[]> => {
+export const getUniversityMembers = unstable_cache(async (): Promise<PeopleRow[]> => {
   const { rows } = await pool.query(`
-    SELECT university, count(DISTINCT member_id)::int AS count
-    FROM member_universities GROUP BY university ORDER BY count DESC, university`);
-  return rows as UniRow[];
-}, ["varia-universities"], { revalidate: 86400 });
+    SELECT DISTINCT u.university AS category, m.full_name AS "fullName", m.slug,
+           mcp.party_short_name AS party, NULL::text AS detail
+    FROM member_universities u
+    JOIN members m ON m.id = u.member_id
+    LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+    ORDER BY category, "fullName"`);
+  return rows as PeopleRow[];
+}, ["varia-university-members"], { revalidate: 86400 });
 
 export const getChildren = unstable_cache(async (): Promise<ChildRow[]> => {
   const { rows } = await pool.query(`

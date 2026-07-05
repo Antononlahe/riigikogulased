@@ -1,10 +1,11 @@
 "use client";
 
+import { useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
 import { partyToken, PARTY_ORDER } from "@/lib/party";
-import type { TagCount, PartyProfession, UniRow, ChildRow } from "@/lib/varia";
+import { groupPeople, type PeopleRow, type PeopleMember, type ChildRow } from "@/lib/varia";
 
 function Section({ title, sub, children }: { title: string; sub: string; children: React.ReactNode }) {
   return (
@@ -16,83 +17,111 @@ function Section({ title, sub, children }: { title: string; sub: string; childre
   );
 }
 
-/** Horizontal count bars, generic. */
-function Bars({ rows, max }: { rows: { label: string; count: number; token?: string }[]; max: number }) {
+/** One member line: name + party badge (+ optional detail note, e.g. the profession). */
+function MemberLine({ m, showBadge }: { m: PeopleMember; showBadge: boolean }) {
   return (
-    <ul className="space-y-1.5">
-      {rows.map((r) => (
-        <li key={r.label} className="flex items-center gap-3">
-          <span className="w-40 shrink-0 truncate text-sm" title={r.label}>{r.label}</span>
-          <span className="relative h-5 flex-1 rounded-sm bg-muted">
-            <span
-              className="absolute inset-y-0 left-0 rounded-sm"
-              style={{ width: `${(r.count / max) * 100}%`, backgroundColor: r.token ?? "var(--foreground)", opacity: 0.7 }}
-            />
-          </span>
-          <span className="w-8 shrink-0 text-right text-sm tabular-nums text-muted-foreground">{r.count}</span>
-        </li>
-      ))}
+    <li className="flex items-center gap-1.5 text-sm">
+      <Link href={`/members/${m.slug}`} className="hover:underline">{m.fullName}</Link>
+      {showBadge && m.party && <PartyBadge shortName={m.party} />}
+      {m.detail && <span className="text-muted-foreground">· {m.detail}</span>}
+    </li>
+  );
+}
+
+type Row = { key: string; label: React.ReactNode; count: number; members: PeopleMember[]; showBadge: boolean };
+
+/** Click a category to reveal its members. Data is already loaded, so this is pure UI. */
+function Accordion({ rows, max }: { rows: Row[]; max: number }) {
+  const [open, setOpen] = useState<string | null>(null);
+  return (
+    <ul className="divide-y divide-border">
+      {rows.map((r) => {
+        const isOpen = open === r.key;
+        return (
+          <li key={r.key}>
+            <button
+              type="button"
+              onClick={() => setOpen(isOpen ? null : r.key)}
+              className="flex w-full items-center gap-3 py-2 text-left"
+              aria-expanded={isOpen}
+            >
+              <span aria-hidden className={`text-xs text-muted-foreground transition-transform ${isOpen ? "rotate-90" : ""}`}>▶</span>
+              <span className="min-w-0 flex-1 truncate text-sm font-medium">{r.label}</span>
+              <span className="hidden h-2 w-24 rounded-sm bg-muted sm:block" aria-hidden>
+                <span className="block h-full rounded-sm bg-foreground/60" style={{ width: `${(r.count / max) * 100}%` }} />
+              </span>
+              <span className="w-8 shrink-0 text-right text-sm tabular-nums text-muted-foreground">{r.count}</span>
+            </button>
+            {isOpen && (
+              <ul className="flex flex-wrap gap-x-4 gap-y-1.5 pb-3 pl-6">
+                {r.members.map((m) => (
+                  <MemberLine key={m.slug} m={m} showBadge={r.showBadge} />
+                ))}
+              </ul>
+            )}
+          </li>
+        );
+      })}
     </ul>
   );
 }
 
-export function HobbyCloud({ hobbies }: { hobbies: TagCount[] }) {
+export function Hobbies({ rows }: { rows: PeopleRow[] }) {
   const t = useTranslations("varia");
-  const max = Math.max(1, ...hobbies.map((h) => h.count));
-  const min = Math.min(...hobbies.map((h) => h.count));
-  const size = (c: number) => 14 + Math.round(((c - min) / Math.max(1, max - min)) * 20);
+  const groups = useMemo(() => groupPeople(rows), [rows]);
+  const max = Math.max(1, ...groups.map((g) => g.members.length));
   return (
     <Section title={t("hobbiesH")} sub={t("hobbiesSub")}>
-      <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
-        {hobbies.map((h) => (
-          <span key={h.tag} className="font-semibold leading-tight" style={{ fontSize: `${size(h.count)}px` }}>
-            {h.tag}
-            <span className="ml-1 align-super text-[11px] font-normal text-muted-foreground">{h.count}</span>
-          </span>
-        ))}
-      </div>
+      <Accordion
+        max={max}
+        rows={groups.map((g) => ({ key: g.category, label: g.category, count: g.members.length, members: g.members, showBadge: true }))}
+      />
     </Section>
   );
 }
 
-export function Professions({ parties }: { parties: PartyProfession[] }) {
+export function Universities({ rows }: { rows: PeopleRow[] }) {
   const t = useTranslations("varia");
-  const order = (p: PartyProfession) => {
-    const i = PARTY_ORDER.indexOf(p.partyShortName as never);
-    return i === -1 ? 99 : i;
-  };
-  const sorted = [...parties].sort((a, b) => order(a) - order(b));
-  return (
-    <Section title={t("professionsH")} sub={t("professionsSub")}>
-      <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        {sorted.map((p) => (
-          <li key={p.partyShortName} className="rounded-md border border-border p-4">
-            <div className="mb-2 flex items-center gap-2">
-              <PartyBadge shortName={p.partyShortName} />
-              <span className="text-xs text-muted-foreground">
-                {p.members} {t("members")} · {t("diversity")} {(p.distinct / Math.max(1, p.members)).toFixed(2)}
-              </span>
-            </div>
-            <div className="flex flex-wrap gap-x-3 gap-y-1 text-sm">
-              {p.top.slice(0, 5).map((x) => (
-                <span key={x.tag}>
-                  {x.tag} <span className="tabular-nums text-muted-foreground">{x.count}</span>
-                </span>
-              ))}
-            </div>
-          </li>
-        ))}
-      </ul>
-    </Section>
-  );
-}
-
-export function Universities({ unis }: { unis: UniRow[] }) {
-  const t = useTranslations("varia");
-  const max = Math.max(1, ...unis.map((u) => u.count));
+  const groups = useMemo(() => groupPeople(rows), [rows]);
+  const max = Math.max(1, ...groups.map((g) => g.members.length));
   return (
     <Section title={t("universitiesH")} sub={t("universitiesSub")}>
-      <Bars rows={unis.map((u) => ({ label: u.university, count: u.count }))} max={max} />
+      <Accordion
+        max={max}
+        rows={groups.map((g) => ({ key: g.category, label: g.category, count: g.members.length, members: g.members, showBadge: true }))}
+      />
+    </Section>
+  );
+}
+
+export function Professions({ rows }: { rows: PeopleRow[] }) {
+  const t = useTranslations("varia");
+  // Ordered by the shared party order; the '-' (no-faction) bucket sorts last.
+  const groups = useMemo(() => {
+    const order = (c: string) => {
+      const i = PARTY_ORDER.indexOf(c as never);
+      return i === -1 ? 99 : i;
+    };
+    return groupPeople(rows).sort((a, b) => order(a.category) - order(b.category));
+  }, [rows]);
+  const max = Math.max(1, ...groups.map((g) => g.members.length));
+  return (
+    <Section title={t("professionsH")} sub={t("professionsSub")}>
+      <Accordion
+        max={max}
+        rows={groups.map((g) => ({
+          key: g.category,
+          label:
+            g.category === "-" ? (
+              <span className="text-muted-foreground">{t("noFaction")}</span>
+            ) : (
+              <PartyBadge shortName={g.category} />
+            ),
+          count: g.members.length,
+          members: g.members,
+          showBadge: false, // grouped by party already; show the profession detail instead
+        }))}
+      />
     </Section>
   );
 }
@@ -108,6 +137,7 @@ export function Children({ rows }: { rows: ChildRow[] }) {
         <Stat label={t("childrenTotal")} value={total} />
         <Stat label={t("childrenAvg")} value={avg} />
       </div>
+      <p className="mb-2 text-sm font-semibold">{t("childrenTop")}</p>
       <ul className="space-y-1.5">
         {top.map((c) => (
           <li key={c.slug} className="flex items-center gap-3">

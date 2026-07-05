@@ -13,10 +13,39 @@ export type AbsenceRow = {
   absentPct: number; // 100 * absent / total, 1 decimal
 };
 
-export type TagCount = { tag: string; count: number };
-export type PartyProfession = { partyShortName: string; members: number; distinct: number; top: TagCount[] };
-export type UniRow = { university: string; count: number };
 export type ChildRow = { fullName: string; slug: string; partyShortName: string | null; children: number };
+
+/** Flat (category, member) row for the expandable people sections (hobbies / professions /
+ *  universities). `detail` carries an optional per-member note (the profession, for the
+ *  professions section; null elsewhere). Grouped client-side by `groupPeople`. */
+export type PeopleRow = {
+  category: string;
+  fullName: string;
+  slug: string;
+  party: string | null;
+  detail: string | null;
+};
+export type PeopleMember = { fullName: string; slug: string; party: string | null; detail: string | null };
+export type PeopleGroup = { category: string; members: PeopleMember[] };
+
+/** Group flat rows by category, dedup members by slug within a group, biggest group first
+ *  (ties Estonian-collated by category). */
+export function groupPeople(rows: PeopleRow[]): PeopleGroup[] {
+  const map = new Map<string, PeopleGroup>();
+  for (const r of rows) {
+    let g = map.get(r.category);
+    if (!g) {
+      g = { category: r.category, members: [] };
+      map.set(r.category, g);
+    }
+    if (!g.members.some((m) => m.slug === r.slug)) {
+      g.members.push({ fullName: r.fullName, slug: r.slug, party: r.party, detail: r.detail });
+    }
+  }
+  return [...map.values()].sort(
+    (a, b) => b.members.length - a.members.length || a.category.localeCompare(b.category, "et"),
+  );
+}
 export type BirthPin = {
   town: string;
   lat: number;

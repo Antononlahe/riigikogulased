@@ -1,12 +1,12 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { HobbyCloud, Professions, Universities, Children } from "@/components/varia/people";
+import { Hobbies, Professions, Universities, Children } from "@/components/varia/people";
 import { BirthplaceMap } from "@/components/varia/birthplace-map";
 import {
-  getHobbyCloud, getProfessionsByParty, getUniversityLeague, getChildren, getBirthPins,
+  getHobbyMembers, getProfessionMembers, getUniversityMembers, getChildren, getBirthPins,
 } from "@/lib/varia-queries";
-import type { TagCount, PartyProfession, UniRow, ChildRow, BirthPin } from "@/lib/varia";
+import type { PeopleRow, ChildRow, BirthPin } from "@/lib/varia";
 
 export const revalidate = 86400;
 
@@ -15,11 +15,11 @@ export default async function PeoplePage({ params }: { params: Promise<{ locale:
   setRequestLocale(locale);
   const t = await getTranslations("varia");
 
-  let hobbies: TagCount[] = [], professions: PartyProfession[] = [], unis: UniRow[] = [];
+  let hobbies: PeopleRow[] = [], professions: PeopleRow[] = [], unis: PeopleRow[] = [];
   let children: ChildRow[] = [], pins: BirthPin[] = [];
   try {
     [hobbies, professions, unis, children, pins] = await Promise.all([
-      getHobbyCloud(), getProfessionsByParty(), getUniversityLeague(), getChildren(), getBirthPins(),
+      getHobbyMembers(), getProfessionMembers(), getUniversityMembers(), getChildren(), getBirthPins(),
     ]);
   } catch {
     /* empty state until member_profiles is populated */
@@ -37,9 +37,9 @@ export default async function PeoplePage({ params }: { params: Promise<{ locale:
           <p className="mt-6 text-sm text-muted-foreground">{t("empty")}</p>
         ) : (
           <div className="mt-8">
-            {hobbies.length > 0 && <HobbyCloud hobbies={hobbies} />}
-            {professions.length > 0 && <Professions parties={professions} />}
-            {unis.length > 0 && <Universities unis={unis} />}
+            {hobbies.length > 0 && <Hobbies rows={hobbies} />}
+            {professions.length > 0 && <Professions rows={professions} />}
+            {unis.length > 0 && <Universities rows={unis} />}
             {children.length > 0 && <Children rows={children} />}
             {pins.length > 0 && (
               <section className="mt-10">
