@@ -1,6 +1,6 @@
 import { unstable_cache } from "next/cache";
 import { pool } from "./db";
-import { HL_START, HL_END } from "./speech-search";
+import { HL_START, HL_END, prefixHighlightQuery } from "./speech-search";
 import type {
   AbsenceRow, GenRow, PartyWords,
   TagCount, PartyProfession, UniRow, ChildRow, BirthPin, CaucusMember,
@@ -178,18 +178,21 @@ export async function searchPartyWord(party: string, lemma: string, limit = 12):
   if (!q) return [];
   const opts = `StartSel=${HL_START}, StopSel=${HL_END}, MaxFragments=1, ` +
     "MinWords=8, MaxWords=24, ShortWord=2";
+  // Highlight the lemma's inflections/compounds, not just the exact base form (see
+  // prefixHighlightQuery). The match still uses the lemma vector; only the headline broadens.
+  const hq = prefixHighlightQuery(q) || `${q}:*`;
   const { rows } = await pool.query(`
     WITH ql AS (SELECT plainto_tsquery('simple', $2) AS q)
     SELECT ms.speech_key AS "speechKey", m.full_name AS "fullName", m.slug,
            coalesce(ms.spoken_at::text, ms.sitting_date::text) AS date,
            ms.steno_link AS link,
-           ts_headline('simple', ms.text, ql.q, $4) AS snippet
+           ts_headline('simple', ms.text, to_tsquery('simple', $5), $4) AS snippet
     FROM member_speeches ms
     CROSS JOIN ql
     JOIN member_current_party mcp ON mcp.member_id = ms.member_id
     JOIN members m ON m.id = ms.member_id
     WHERE mcp.party_short_name = $1 AND ms.search @@ ql.q
     ORDER BY ts_rank_cd(ms.search, ql.q) DESC, ms.spoken_at DESC NULLS LAST
-    LIMIT $3`, [party, q, limit, opts]);
+    LIMIT $3`, [party, q, limit, opts, hq]);
   return rows as WordSpeech[];
 }
