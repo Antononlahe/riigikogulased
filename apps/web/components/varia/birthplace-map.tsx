@@ -3,43 +3,50 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import { ESTONIA_PATH, projectEstonia } from "@/lib/estonia-geo";
 import type { BirthPin } from "@/lib/varia";
-
-// Estonia bounding box. ponytail: a plain projection onto this box, not a real coastline SVG
-// (no committed outline asset yet); dots still convey the W-E / N-S spread. Swap in an Estonia
-// outline path behind the dots when one is added under public/varia/.
-const LON0 = 21.7, LON1 = 28.3, LAT0 = 57.5, LAT1 = 59.75;
-const W = 100, H = (LAT1 - LAT0) / (LON1 - LON0) * W * 1.9; // lat degrees are ~2x wider here
-
-function project(lat: number, lon: number): [number, number] {
-  const x = ((lon - LON0) / (LON1 - LON0)) * W;
-  const y = (1 - (lat - LAT0) / (LAT1 - LAT0)) * H;
-  return [x, y];
-}
 
 export function BirthplaceMap({ pins }: { pins: BirthPin[] }) {
   const t = useTranslations("varia");
   const [sel, setSel] = useState<BirthPin | null>(null);
   const max = Math.max(1, ...pins.map((p) => p.members.length));
+  // Draw larger bubbles last so they don't hide small ones; keeps clicks sensible.
+  const ordered = [...pins].sort((a, b) => a.members.length - b.members.length);
 
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-[2fr_1fr]">
-      <div className="rounded-md border border-border bg-muted/30 p-2">
-        <svg viewBox={`-4 -4 ${W + 8} ${H + 8}`} className="w-full" role="img" aria-label={t("birthplaceH")}>
-          {pins.map((p) => {
-            const [x, y] = project(p.lat, p.lon);
-            const r = 1.4 + (p.members.length / max) * 3.2;
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-[3fr_2fr]">
+      <div className="rounded-md border border-border bg-card p-2">
+        <svg viewBox={`-4 -4 108 73`} className="w-full" role="img" aria-label={t("birthplaceH")}>
+          <path d={ESTONIA_PATH} fill="var(--muted)" stroke="var(--border)" strokeWidth={0.4} />
+          {ordered.map((p) => {
+            const [x, y] = projectEstonia(p.lat, p.lon);
+            const n = p.members.length;
+            const r = 1.3 + Math.sqrt(n / max) * 4.2;
             const active = sel?.town === p.town;
             return (
-              <circle
+              <g
                 key={p.town}
-                cx={x} cy={y} r={r}
                 className="cursor-pointer"
-                style={{ fill: "var(--foreground)", opacity: active ? 0.95 : 0.55 }}
+                onMouseEnter={() => setSel(p)}
                 onClick={() => setSel(active ? null : p)}
               >
-                <title>{`${p.town} (${p.members.length})`}</title>
-              </circle>
+                <circle
+                  cx={x} cy={y} r={r}
+                  style={{
+                    fill: "var(--primary, #2563eb)",
+                    opacity: active ? 1 : 0.75,
+                    stroke: "var(--card)", strokeWidth: 0.3,
+                  }}
+                />
+                {n > 1 && (
+                  <text
+                    x={x} y={y} dy="0.32em" textAnchor="middle"
+                    style={{ fontSize: `${Math.min(r * 1.1, 3.4)}px`, fill: "#fff", fontWeight: 700, pointerEvents: "none" }}
+                  >
+                    {n}
+                  </text>
+                )}
+              </g>
             );
           })}
         </svg>
@@ -47,7 +54,10 @@ export function BirthplaceMap({ pins }: { pins: BirthPin[] }) {
       <div className="rounded-md border border-border p-3">
         {sel ? (
           <>
-            <div className="mb-2 font-semibold">{sel.town}</div>
+            <div className="mb-2 flex items-baseline justify-between">
+              <span className="font-semibold">{sel.town}</span>
+              <span className="text-sm text-muted-foreground">{sel.members.length} {t("members")}</span>
+            </div>
             <ul className="space-y-1 text-sm">
               {sel.members.map((m) => (
                 <li key={m.slug}>

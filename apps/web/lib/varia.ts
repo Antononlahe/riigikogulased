@@ -20,6 +20,7 @@ export type ChildRow = { fullName: string; slug: string; partyShortName: string 
 export type BirthPin = { town: string; lat: number; lon: number; members: { fullName: string; slug: string }[] };
 export type CaucusRow = { name: string; count: number; parties: string[] };
 export type Globetrotter = { fullName: string; slug: string; partyShortName: string | null; groups: number };
+export type CaucusMember = { name: string; fullName: string; slug: string; party: string | null };
 
 /** "Eesti-Soome parlamendirühm" -> "Soome". Falls back to the raw name if the shape differs. */
 export function friendshipCountry(name: string): string {

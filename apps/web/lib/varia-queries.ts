@@ -1,8 +1,9 @@
 import { unstable_cache } from "next/cache";
 import { pool } from "./db";
+import { HL_START, HL_END } from "./speech-search";
 import type {
   AbsenceRow, GenRow, PartyWords,
-  TagCount, PartyProfession, UniRow, ChildRow, BirthPin, CaucusRow, Globetrotter,
+  TagCount, PartyProfession, UniRow, ChildRow, BirthPin, CaucusMember,
 } from "./varia";
 
 /** Ghost-MP leaderboard: per member, the share of NON-procedural ballots they were absent for.
@@ -146,33 +147,49 @@ export const getBirthPins = unstable_cache(async (): Promise<BirthPin[]> => {
   return rows as BirthPin[];
 }, ["varia-birthpins"], { revalidate: 86400 });
 
-async function _caucuses(kind: "friendship" | "cause"): Promise<CaucusRow[]> {
+/** Every (caucus, member) row for a kind -- the client groups it by group / country / member so
+ *  clicking any of the three reveals membership without another round-trip. */
+async function _caucusMembers(kind: "friendship" | "cause"): Promise<CaucusMember[]> {
   const { rows } = await pool.query(`
-    SELECT mc.name,
-           count(DISTINCT mc.member_id)::int AS count,
-           coalesce(array_agg(DISTINCT mcp.party_short_name)
-                    FILTER (WHERE mcp.party_short_name IS NOT NULL), '{}') AS parties
-    FROM member_caucuses mc
-    LEFT JOIN member_current_party mcp ON mcp.member_id = mc.member_id
-    WHERE mc.kind = $1
-    GROUP BY mc.name ORDER BY count DESC, mc.name`, [kind]);
-  return rows as CaucusRow[];
-}
-
-export const getFriendshipGroups = unstable_cache(() => _caucuses("friendship"),
-  ["varia-friendship"], { revalidate: 86400 });
-export const getCauseCaucuses = unstable_cache(() => _caucuses("cause"),
-  ["varia-causes"], { revalidate: 86400 });
-
-export const getGlobetrotters = unstable_cache(async (): Promise<Globetrotter[]> => {
-  const { rows } = await pool.query(`
-    SELECT m.full_name AS "fullName", m.slug, mcp.party_short_name AS "partyShortName",
-           count(*)::int AS groups
+    SELECT mc.name, m.full_name AS "fullName", m.slug, mcp.party_short_name AS party
     FROM member_caucuses mc
     JOIN members m ON m.id = mc.member_id
     LEFT JOIN member_current_party mcp ON mcp.member_id = mc.member_id
-    WHERE mc.kind = 'friendship'
-    GROUP BY m.full_name, m.slug, mcp.party_short_name
-    ORDER BY groups DESC, m.full_name LIMIT 15`);
-  return rows as Globetrotter[];
-}, ["varia-globetrotters"], { revalidate: 86400 });
+    WHERE mc.kind = $1
+    ORDER BY mc.name, m.full_name`, [kind]);
+  return rows as CaucusMember[];
+}
+
+export const getFriendshipMembers = unstable_cache(() => _caucusMembers("friendship"),
+  ["varia-friendship-members"], { revalidate: 86400 });
+export const getCauseMembers = unstable_cache(() => _caucusMembers("cause"),
+  ["varia-cause-members"], { revalidate: 86400 });
+
+export type WordSpeech = {
+  speechKey: string; fullName: string; slug: string;
+  date: string | null; link: string | null; snippet: string;
+};
+
+/** Speeches by a party's current members that use a signature lemma. The `search` tsvector is
+ *  lemma-indexed, so the base-form lemma matches every inflection. Dynamic (not cached) -- it's
+ *  hit on click, not at build. */
+export async function searchPartyWord(party: string, lemma: string, limit = 12): Promise<WordSpeech[]> {
+  const q = lemma.trim();
+  if (!q) return [];
+  const opts = `StartSel=${HL_START}, StopSel=${HL_END}, MaxFragments=1, ` +
+    "MinWords=8, MaxWords=24, ShortWord=2";
+  const { rows } = await pool.query(`
+    WITH ql AS (SELECT plainto_tsquery('simple', $2) AS q)
+    SELECT ms.speech_key AS "speechKey", m.full_name AS "fullName", m.slug,
+           coalesce(ms.spoken_at::text, ms.sitting_date::text) AS date,
+           ms.steno_link AS link,
+           ts_headline('simple', ms.text, ql.q, $4) AS snippet
+    FROM member_speeches ms
+    CROSS JOIN ql
+    JOIN member_current_party mcp ON mcp.member_id = ms.member_id
+    JOIN members m ON m.id = ms.member_id
+    WHERE mcp.party_short_name = $1 AND ms.search @@ ql.q
+    ORDER BY ts_rank_cd(ms.search, ql.q) DESC, ms.spoken_at DESC NULLS LAST
+    LIMIT $3`, [party, q, limit, opts]);
+  return rows as WordSpeech[];
+}

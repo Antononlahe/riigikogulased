@@ -13,6 +13,7 @@ rest are scored tf * log(N / df) and the top-N per scope are kept. Pure and DB-f
 from __future__ import annotations
 
 import math
+import re
 from collections import Counter
 
 # Estonian function words + plenary boilerplate that survive lemmatisation and would otherwise
@@ -28,11 +29,32 @@ STOPWORDS = frozenset(
     """.split()  # noqa: SIM905
 )
 
+# Hand-curated removals: distinctive-but-uninteresting tokens that TF-IDF surfaces -- discourse
+# fillers ("otsekui", "minu meelest"), plenary procedure ("kõnesoov", "saalikutsung"), address
+# forms ("ministrihärra", "auväärt"), and stray speaker-name fragments the lemmatiser left behind.
+# Kept deliberately: loaded topic words (co2, immigrant, soros, tuulik, vaesus) stay -- they ARE
+# each party's signature. This list is mirrored on the web (signature-words.tsx) for transparency;
+# edit both together.
+MANUAL_EXCLUDE = frozenset(
+    """
+    otsekui meelest vaatamata enesestmõistetavalt ükspuha miskisugune kuskilt
+    kõnesoov saalikutsung kohalolija kohalolek vastusõnavõtt hääletamissedel täpsustav
+    austatav auväärt lugupeetav ministrihärra ministriproua
+    poo esm tanel vadim epleri laatsi sillart uikala heldna
+    """.split()  # noqa: SIM905
+)
+
 MIN_LEMMA_LEN = 3
+_NUMERICISH = re.compile(r"^[\d.,:/-]+$")  # "17.15", timestamps, bare numbers
 
 
 def _keep(lemma: str) -> bool:
-    return len(lemma) >= MIN_LEMMA_LEN and not lemma.isdigit() and lemma not in STOPWORDS
+    return (
+        len(lemma) >= MIN_LEMMA_LEN
+        and not _NUMERICISH.match(lemma)
+        and lemma not in STOPWORDS
+        and lemma not in MANUAL_EXCLUDE
+    )
 
 
 def _tokens(doc: str) -> list[str]:

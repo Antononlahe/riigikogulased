@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from parteidistsipliin_scraper.profile_parse import parse_profile
+from parteidistsipliin_scraper.profile_parse import _children_from, parse_profile
 
 FIX = Path(__file__).resolve().parents[1] / "fixtures" / "profiles"
 
@@ -26,6 +26,20 @@ def test_children_count_from_number_words(profiles):
     assert profiles["alender"].children_count == 4       # "neli last"
     assert profiles["aab"].children_count == 2            # "kaks last" -- NOT "viis lapselast"
     assert profiles["akkermann"].children_count == 3      # "kolm last"
+
+
+def test_children_count_edge_phrasings():
+    # Number not adjacent to "last" (adjective in between).
+    assert _children_from("Lesk, peres neli täiskasvanud last ja seitse lapselast") == 4
+    # Children as sons/daughters, no "last" token.
+    assert _children_from("Abielus, kaks tütart") == 2
+    assert _children_from("Abielus, kolm poega ja tütar") == 4
+    # Grandchildren must not leak into the count.
+    assert _children_from("Abielus, kaheksa last, kuus lapselast") == 8
+    assert _children_from("Lesk, viis last, üheksa lapselast") == 5
+    # No children signal.
+    assert _children_from("Abielus") is None
+    assert _children_from("Vallaline") is None
 
 
 def test_family_status_raw(profiles):

@@ -1,9 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { FriendshipByCountry, Globetrotters, CauseCaucuses } from "@/components/varia/network";
-import { getFriendshipGroups, getGlobetrotters, getCauseCaucuses } from "@/lib/varia-queries";
-import type { CaucusRow, Globetrotter } from "@/lib/varia";
+import { Network } from "@/components/varia/network";
+import { getFriendshipMembers, getCauseMembers } from "@/lib/varia-queries";
+import type { CaucusMember } from "@/lib/varia";
 
 export const revalidate = 86400;
 
@@ -12,11 +12,9 @@ export default async function NetworkPage({ params }: { params: Promise<{ locale
   setRequestLocale(locale);
   const t = await getTranslations("varia");
 
-  let friendship: CaucusRow[] = [], globetrotters: Globetrotter[] = [], causes: CaucusRow[] = [];
+  let friendship: CaucusMember[] = [], causes: CaucusMember[] = [];
   try {
-    [friendship, globetrotters, causes] = await Promise.all([
-      getFriendshipGroups(), getGlobetrotters(), getCauseCaucuses(),
-    ]);
+    [friendship, causes] = await Promise.all([getFriendshipMembers(), getCauseMembers()]);
   } catch {
     /* empty state until member_caucuses is populated */
   }
@@ -33,9 +31,7 @@ export default async function NetworkPage({ params }: { params: Promise<{ locale
           <p className="mt-6 text-sm text-muted-foreground">{t("empty")}</p>
         ) : (
           <div className="mt-8">
-            {friendship.length > 0 && <FriendshipByCountry groups={friendship} />}
-            {globetrotters.length > 0 && <Globetrotters rows={globetrotters} />}
-            {causes.length > 0 && <CauseCaucuses causes={causes} />}
+            <Network friendship={friendship} causes={causes} />
           </div>
         )}
         <SiteFooter />

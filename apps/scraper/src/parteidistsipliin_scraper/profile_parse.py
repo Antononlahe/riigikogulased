@@ -32,9 +32,21 @@ _NUM_WORDS = {
     "seitse": 7, "kaheksa": 8, "üheksa": 9, "kümme": 10, "üksteist": 11, "kaksteist": 12,
 }
 _DATE_LINE = re.compile(r"^\s*(\d{2}\.\d{2}\.\d{4})\s+(\S.*)$")
-# "<word> last" where the word precedes the standalone token "last" (child), NOT "lapselast"
-# (grandchild) -- the \b before 'last' does not fire inside the single token "lapselast".
-_CHILDREN = re.compile(r"(\S+)\s+last\b", re.IGNORECASE)
+# A cardinal number: word (longest-first so "üksteist" beats "üks") or digits.
+_NUM_TOKEN = re.compile(
+    r"\b(üksteist|kaksteist|üks|kaks|kolm|neli|viis|kuus|seitse|kaheksa|üheksa|kümme|\d+)\b",
+    re.IGNORECASE,
+)
+# Standalone "last" (child), NOT "lapselast" (grandchild): the \b before 'last' can't fire inside
+# the single token "lapselast" (preceding char 'e' is a word char).
+_CHILD = re.compile(r"\blast\b", re.IGNORECASE)
+# Fallback when children aren't phrased as "N last": count sons + daughters ("kaks tütart",
+# "kolm poega ja tütar"). Stems cover the inflections (poeg/poega/pojad, tütar/tütart/tütred).
+_KID_KIND = re.compile(
+    r"(?:(üksteist|kaksteist|üks|kaks|kolm|neli|viis|kuus|seitse|kaheksa|üheksa|kümme|\d+)\s+)?"
+    r"(poeg|poja|tütar|tütre)\w*",
+    re.IGNORECASE,
+)
 _BR = re.compile(r"<br\s*/?>", re.IGNORECASE)
 
 
@@ -78,14 +90,25 @@ def _split_list(value: str) -> list[str]:
     return [p for p in (_clean(x) for x in parts) if p]
 
 
+def _word_to_int(word: str) -> int | None:
+    word = word.lower().strip(".,")
+    return int(word) if word.isdigit() else _NUM_WORDS.get(word)
+
+
 def _children_from(status: str) -> int | None:
-    m = _CHILDREN.search(status)
-    if not m:
-        return None
-    word = m.group(1).lower().strip(".,")
-    if word.isdigit():
-        return int(word)
-    return _NUM_WORDS.get(word)
+    # Primary: the number before the first standalone "last". Scan the whole prefix (not just the
+    # adjacent token) so "neli täiskasvanud last" reads 4, and grandchildren ("... lapselast")
+    # after the first "last" are ignored.
+    m = _CHILD.search(status)
+    if m:
+        nums = _NUM_TOKEN.findall(status[: m.start()])
+        return _word_to_int(nums[-1]) if nums else None
+    # Fallback: sum sons + daughters when children aren't phrased with "last".
+    total, found = 0, False
+    for num, _stem in _KID_KIND.findall(status):
+        found = True
+        total += (_word_to_int(num) or 0) if num else 1
+    return total if found else None
 
 
 def parse_profile(html: str) -> ProfileData:
