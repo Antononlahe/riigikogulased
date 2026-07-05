@@ -17,7 +17,12 @@ export type TagCount = { tag: string; count: number };
 export type PartyProfession = { partyShortName: string; members: number; distinct: number; top: TagCount[] };
 export type UniRow = { university: string; count: number };
 export type ChildRow = { fullName: string; slug: string; partyShortName: string | null; children: number };
-export type BirthPin = { town: string; lat: number; lon: number; members: { fullName: string; slug: string }[] };
+export type BirthPin = {
+  town: string;
+  lat: number;
+  lon: number;
+  members: { fullName: string; slug: string; party: string | null }[];
+};
 export type CaucusRow = { name: string; count: number; parties: string[] };
 export type Globetrotter = { fullName: string; slug: string; partyShortName: string | null; groups: number };
 export type CaucusMember = { name: string; fullName: string; slug: string; party: string | null };
@@ -54,19 +59,12 @@ export function generationOf(year: number): Generation {
   return "-54";
 }
 
-/** Sort an absence leaderboard by absent %, name-ascending within a tie. */
-export function sortAbsence(rows: AbsenceRow[], dir: "asc" | "desc"): AbsenceRow[] {
-  const asc = [...rows].sort((a, b) =>
-    a.absentPct === b.absentPct
-      ? a.fullName.localeCompare(b.fullName, "et")
-      : a.absentPct - b.absentPct,
+export type AbsenceSortKey = "total" | "absent" | "absentPct";
+
+/** Sort an absence leaderboard by the given numeric column, name-ascending within a tie. */
+export function sortAbsence(rows: AbsenceRow[], dir: "asc" | "desc", key: AbsenceSortKey = "absentPct"): AbsenceRow[] {
+  const sign = dir === "asc" ? 1 : -1;
+  return [...rows].sort((a, b) =>
+    a[key] === b[key] ? a.fullName.localeCompare(b.fullName, "et") : sign * (a[key] - b[key]),
   );
-  // desc: reverse the pct order but keep the name tiebreak ascending within each pct group.
-  if (dir === "asc") return asc;
-  const desc = [...rows].sort((a, b) =>
-    a.absentPct === b.absentPct
-      ? a.fullName.localeCompare(b.fullName, "et")
-      : b.absentPct - a.absentPct,
-  );
-  return desc;
 }

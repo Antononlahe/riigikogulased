@@ -1,10 +1,33 @@
 "use client";
 
 import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
+import { MemberAvatar } from "@/components/member-avatar";
 import { ESTONIA_PATH, projectEstonia } from "@/lib/estonia-geo";
+import { PARTY_ORDER, partyToken } from "@/lib/party";
 import type { BirthPin } from "@/lib/varia";
+
+/** party -> members, in PARTY_ORDER then a trailing "-" bucket for the unaffiliated. */
+function partySlices(members: BirthPin["members"]) {
+  const groups = new Map<string | null, BirthPin["members"]>();
+  for (const order of [...PARTY_ORDER, null]) groups.set(order, []);
+  for (const m of members) groups.get(PARTY_ORDER.includes(m.party as never) ? m.party : null)!.push(m);
+  return [...groups.entries()].filter(([, ms]) => ms.length > 0);
+}
+
+/** SVG arc path for a pie slice of radius r centred at (cx, cy), spanning [a0, a1) radians. */
+function wedgePath(cx: number, cy: number, r: number, a0: number, a1: number) {
+  if (a1 - a0 >= Math.PI * 2 - 1e-6) {
+    // Full circle: two half-arcs (a single arc command can't span 360deg).
+    return `M ${cx - r} ${cy} A ${r} ${r} 0 1 1 ${cx + r} ${cy} A ${r} ${r} 0 1 1 ${cx - r} ${cy} Z`;
+  }
+  const x0 = cx + r * Math.cos(a0), y0 = cy + r * Math.sin(a0);
+  const x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1);
+  const large = a1 - a0 > Math.PI ? 1 : 0;
+  return `M ${cx} ${cy} L ${x0} ${y0} A ${r} ${r} 0 ${large} 1 ${x1} ${y1} Z`;
+}
 
 export function BirthplaceMap({ pins }: { pins: BirthPin[] }) {
   const t = useTranslations("varia");
@@ -23,6 +46,8 @@ export function BirthplaceMap({ pins }: { pins: BirthPin[] }) {
             const n = p.members.length;
             const r = 1.3 + Math.sqrt(n / max) * 4.2;
             const active = sel?.town === p.town;
+            const slices = partySlices(p.members);
+            let angle = -Math.PI / 2;
             return (
               <g
                 key={p.town}
@@ -30,14 +55,22 @@ export function BirthplaceMap({ pins }: { pins: BirthPin[] }) {
                 onMouseEnter={() => setSel(p)}
                 onClick={() => setSel(active ? null : p)}
               >
-                <circle
-                  cx={x} cy={y} r={r}
-                  style={{
-                    fill: "var(--primary, #2563eb)",
-                    opacity: active ? 1 : 0.75,
-                    stroke: "var(--card)", strokeWidth: 0.3,
-                  }}
-                />
+                {slices.map(([party, ms]) => {
+                  const span = (ms.length / n) * Math.PI * 2;
+                  const a0 = angle;
+                  angle += span;
+                  return (
+                    <motion.path
+                      key={party ?? "-"}
+                      d={wedgePath(x, y, r, a0, angle)}
+                      initial={false}
+                      animate={{ scale: active ? 1.15 : 1, opacity: active ? 1 : 0.8 }}
+                      style={{ transformOrigin: `${x}px ${y}px`, stroke: "var(--card)", strokeWidth: 0.25 }}
+                      fill={partyToken(party).fill}
+                      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                    />
+                  );
+                })}
                 {n > 1 && (
                   <text
                     x={x} y={y} dy="0.32em" textAnchor="middle"
@@ -52,23 +85,42 @@ export function BirthplaceMap({ pins }: { pins: BirthPin[] }) {
         </svg>
       </div>
       <div className="rounded-md border border-border p-3">
-        {sel ? (
-          <>
-            <div className="mb-2 flex items-baseline justify-between">
-              <span className="font-semibold">{sel.town}</span>
-              <span className="text-sm text-muted-foreground">{sel.members.length} {t("members")}</span>
-            </div>
-            <ul className="space-y-1 text-sm">
-              {sel.members.map((m) => (
-                <li key={m.slug}>
-                  <Link href={`/members/${m.slug}`} className="hover:underline">{m.fullName}</Link>
-                </li>
-              ))}
-            </ul>
-          </>
-        ) : (
-          <p className="text-sm text-muted-foreground">{t("birthplaceSub")}</p>
-        )}
+        <AnimatePresence mode="wait">
+          {sel ? (
+            <motion.div
+              key={sel.town}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.15 }}
+            >
+              <div className="mb-3 flex items-baseline justify-between">
+                <span className="font-semibold">{sel.town}</span>
+                <span className="text-sm text-muted-foreground">{sel.members.length} {t("members")}</span>
+              </div>
+              {/* Burst: each member "pops" out of the pie into its own party-coloured dot. */}
+              <ul className="flex flex-wrap gap-2">
+                {sel.members.map((m, i) => (
+                  <motion.li
+                    key={m.slug}
+                    initial={{ opacity: 0, scale: 0.2, y: -8 }}
+                    animate={{ opacity: 1, scale: 1, y: 0 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 18, delay: i * 0.03 }}
+                  >
+                    <Link href={`/members/${m.slug}`} className="flex items-center gap-1.5 hover:underline">
+                      <MemberAvatar fullName={m.fullName} photoThumbPath={null} shortName={m.party} />
+                      <span className="text-sm">{m.fullName}</span>
+                    </Link>
+                  </motion.li>
+                ))}
+              </ul>
+            </motion.div>
+          ) : (
+            <motion.p key="empty" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-sm text-muted-foreground">
+              {t("birthplaceSub")}
+            </motion.p>
+          )}
+        </AnimatePresence>
       </div>
     </div>
   );

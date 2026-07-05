@@ -138,10 +138,11 @@ export const getBirthPins = unstable_cache(async (): Promise<BirthPin[]> => {
   const { rows } = await pool.query(`
     SELECT mp.birthplace_town AS town,
            mp.birthplace_lat::float AS lat, mp.birthplace_lon::float AS lon,
-           json_agg(json_build_object('fullName', m.full_name, 'slug', m.slug)
+           json_agg(json_build_object('fullName', m.full_name, 'slug', m.slug, 'party', mcp.party_short_name)
                     ORDER BY m.full_name) AS members
     FROM member_profiles mp
     JOIN members m ON m.id = mp.member_id
+    LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
     WHERE mp.birthplace_lat IS NOT NULL
     GROUP BY mp.birthplace_town, mp.birthplace_lat, mp.birthplace_lon`);
   return rows as BirthPin[];

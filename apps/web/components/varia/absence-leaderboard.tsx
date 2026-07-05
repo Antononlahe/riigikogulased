@@ -7,13 +7,37 @@ import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
 import { ScrollableTable } from "@/components/ui/scrollable-table";
 import { partyToken } from "@/lib/party";
-import { sortAbsence, type AbsenceRow } from "@/lib/varia";
+import { sortAbsence, type AbsenceRow, type AbsenceSortKey } from "@/lib/varia";
 
 export function AbsenceLeaderboard({ rows }: { rows: AbsenceRow[] }) {
   const t = useTranslations("varia");
+  const [sortKey, setSortKey] = useState<AbsenceSortKey>("absentPct");
   const [dir, setDir] = useState<"asc" | "desc">("desc");
-  const visible = useMemo(() => sortAbsence(rows, dir), [rows, dir]);
+  const visible = useMemo(() => sortAbsence(rows, dir, sortKey), [rows, dir, sortKey]);
   const max = useMemo(() => Math.max(1, ...rows.map((r) => r.absentPct)), [rows]);
+
+  function toggleSort(key: AbsenceSortKey) {
+    if (key === sortKey) {
+      setDir((d) => (d === "asc" ? "desc" : "asc"));
+    } else {
+      setSortKey(key);
+      setDir("desc");
+    }
+  }
+
+  function SortHeader({ sortKeyName, label }: { sortKeyName: AbsenceSortKey; label: string }) {
+    const active = sortKey === sortKeyName;
+    return (
+      <th scope="col" className="px-3 py-2 text-right" aria-sort={active ? (dir === "asc" ? "ascending" : "descending") : "none"}>
+        <button
+          onClick={() => toggleSort(sortKeyName)}
+          className="text-[11px] font-bold uppercase tracking-wide text-muted-foreground hover:text-foreground"
+        >
+          {label} {active ? (dir === "asc" ? "↑" : "↓") : ""}
+        </button>
+      </th>
+    );
+  }
 
   return (
     <div>
@@ -25,20 +49,9 @@ export function AbsenceLeaderboard({ rows }: { rows: AbsenceRow[] }) {
               <th scope="col" className="px-4 py-2 text-left text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
                 {t("member")}
               </th>
-              <th scope="col" className="px-3 py-2 text-right text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
-                {t("totalVotes")}
-              </th>
-              <th scope="col" className="px-3 py-2 text-right text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
-                {t("absentVotes")}
-              </th>
-              <th scope="col" className="px-3 py-2 text-right" aria-sort={dir === "asc" ? "ascending" : "descending"}>
-                <button
-                  onClick={() => setDir((d) => (d === "asc" ? "desc" : "asc"))}
-                  className="text-[11px] font-bold uppercase tracking-wide text-foreground hover:text-foreground"
-                >
-                  {t("absentPct")} {dir === "asc" ? "↑" : "↓"}
-                </button>
-              </th>
+              <SortHeader sortKeyName="total" label={t("totalVotes")} />
+              <SortHeader sortKeyName="absent" label={t("absentVotes")} />
+              <SortHeader sortKeyName="absentPct" label={t("absentPct")} />
             </tr>
           </thead>
           <tbody>

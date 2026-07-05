@@ -29,7 +29,7 @@ const COHORT_LABEL: Record<Generation, string> = {
 };
 
 type Person = { fullName: string; slug: string; photoThumbPath: string | null; age: number };
-type PartyAgg = { party: PartyShort; count: number; avgAge: number; cohorts: Record<Generation, Person[]> };
+type PartyAgg = { party: PartyShort | null; count: number; avgAge: number; cohorts: Record<Generation, Person[]> };
 
 function emptyCohorts(): Record<Generation, Person[]> {
   return { "95+": [], "85-94": [], "75-84": [], "65-74": [], "55-64": [], "-54": [] };
@@ -38,15 +38,17 @@ function emptyCohorts(): Record<Generation, Person[]> {
 export function Generations({ rows }: { rows: GenRow[] }) {
   const t = useTranslations("varia");
   const [tip, setTip] = useState<{ x: number; y: number; text: string } | null>(null);
-  const [sel, setSel] = useState<{ party: PartyShort; g: Generation } | null>(null);
+  const [sel, setSel] = useState<{ party: PartyShort | null; g: Generation } | null>(null);
 
   const { byParty, youngest, oldest, avgAge } = useMemo(() => {
-    const map = new Map<PartyShort, PartyAgg>();
+    const map = new Map<PartyShort | null, PartyAgg>();
     for (const p of PARTY_ORDER) map.set(p, { party: p, count: 0, avgAge: 0, cohorts: emptyCohorts() });
+    map.set(null, { party: null, count: 0, avgAge: 0, cohorts: emptyCohorts() });
     let ageSum = 0;
     for (const r of rows) {
       ageSum += r.age;
-      const agg = r.partyShortName ? map.get(r.partyShortName as PartyShort) : undefined;
+      const key = (r.partyShortName as PartyShort | null) ?? null;
+      const agg = map.get(key);
       if (!agg) continue;
       agg.count += 1;
       agg.avgAge += r.age;
@@ -99,8 +101,9 @@ export function Generations({ rows }: { rows: GenRow[] }) {
       <ul className="space-y-3">
         {byParty.map((a) => {
           const open = sel?.party === a.party ? sel.g : null;
+          const partyLabel = a.party ?? "-";
           return (
-            <li key={a.party}>
+            <li key={a.party ?? "other"}>
               <div className="flex items-center gap-3">
                 <span className="w-16 shrink-0"><PartyBadge shortName={a.party} /></span>
                 <span className="flex h-6 flex-1 overflow-hidden rounded-sm">
@@ -112,7 +115,7 @@ export function Generations({ rows }: { rows: GenRow[] }) {
                       <button
                         type="button"
                         key={g}
-                        aria-label={`${a.party} ${COHORT_LABEL[g]}: ${n}`}
+                        aria-label={`${partyLabel} ${COHORT_LABEL[g]}: ${n}`}
                         className="h-full cursor-pointer transition-[filter] hover:brightness-110"
                         style={{
                           width: `${(n / a.count) * 100}%`,
@@ -121,7 +124,7 @@ export function Generations({ rows }: { rows: GenRow[] }) {
                         }}
                         onClick={() => setSel(isOpen ? null : { party: a.party, g })}
                         onMouseMove={(e) =>
-                          setTip({ x: e.clientX, y: e.clientY, text: `${a.party} · ${COHORT_LABEL[g]}: ${n}` })}
+                          setTip({ x: e.clientX, y: e.clientY, text: `${partyLabel} · ${COHORT_LABEL[g]}: ${n}` })}
                         onMouseLeave={() => setTip(null)}
                       />
                     );
