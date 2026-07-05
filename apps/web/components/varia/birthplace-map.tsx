@@ -4,7 +4,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { MemberAvatar } from "@/components/member-avatar";
+import { PartyBadge } from "@/components/party-badge";
 import { ESTONIA_PATH, projectEstonia } from "@/lib/estonia-geo";
 import { PARTY_ORDER, partyToken } from "@/lib/party";
 import type { BirthPin } from "@/lib/varia";
@@ -98,22 +98,26 @@ export function BirthplaceMap({ pins }: { pins: BirthPin[] }) {
                 <span className="font-semibold">{sel.town}</span>
                 <span className="text-sm text-muted-foreground">{sel.members.length} {t("members")}</span>
               </div>
-              {/* Burst: each member "pops" out of the pie into its own party-coloured dot. */}
-              <ul className="flex flex-wrap gap-2">
-                {sel.members.map((m, i) => (
-                  <motion.li
-                    key={m.slug}
-                    initial={{ opacity: 0, scale: 0.2, y: -8 }}
-                    animate={{ opacity: 1, scale: 1, y: 0 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 18, delay: i * 0.03 }}
+              {/* Burst: the pie splits into its party slices, each listing its members. */}
+              <div className="space-y-3">
+                {partySlices(sel.members).map(([party, ms], gi) => (
+                  <motion.div
+                    key={party ?? "-"}
+                    initial={{ opacity: 0, x: -8 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 22, delay: gi * 0.05 }}
                   >
-                    <Link href={`/members/${m.slug}`} className="flex items-center gap-1.5 hover:underline">
-                      <MemberAvatar fullName={m.fullName} photoThumbPath={null} shortName={m.party} />
-                      <span className="text-sm">{m.fullName}</span>
-                    </Link>
-                  </motion.li>
+                    <PartyBadge shortName={party} />
+                    <ul className="mt-1 flex flex-wrap gap-x-3 gap-y-1">
+                      {ms.map((m) => (
+                        <li key={m.slug}>
+                          <Link href={`/members/${m.slug}`} className="text-sm hover:underline">{m.fullName}</Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </motion.div>
                 ))}
-              </ul>
+              </div>
             </motion.div>
           ) : (
             <motion.p key="empty" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-sm text-muted-foreground">
