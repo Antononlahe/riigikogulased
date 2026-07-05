@@ -1,6 +1,9 @@
 import { unstable_cache } from "next/cache";
 import { pool } from "./db";
-import type { AbsenceRow, GenRow, PartyWords } from "./varia";
+import type {
+  AbsenceRow, GenRow, PartyWords,
+  TagCount, PartyProfession, UniRow, ChildRow, BirthPin, CaucusRow, Globetrotter,
+} from "./varia";
 
 /** Ghost-MP leaderboard: per member, the share of NON-procedural ballots they were absent for.
  *  Procedural votes (presence checks, agenda adoption) are excluded -- they'd swamp the signal.
@@ -78,3 +81,98 @@ async function _getPartySignatureWords(): Promise<PartyWords[]> {
   }
   return [...byParty.values()];
 }
+
+// --- Phase 1: biographical stats (member_profiles + child tables). Each returns [] on error /
+// before the tables are populated, so the pages render an empty state. ---
+
+export const getHobbyCloud = unstable_cache(async (): Promise<TagCount[]> => {
+  const { rows } = await pool.query(`
+    SELECT hobby_tag AS tag, count(DISTINCT member_id)::int AS count
+    FROM member_hobbies GROUP BY hobby_tag ORDER BY count DESC, hobby_tag`);
+  return rows as TagCount[];
+}, ["varia-hobbies"], { revalidate: 86400 });
+
+export const getProfessionsByParty = unstable_cache(async (): Promise<PartyProfession[]> => {
+  const { rows } = await pool.query(`
+    SELECT mcp.party_short_name AS party, mp.profession_tag AS tag,
+           count(*)::int AS count
+    FROM member_profiles mp
+    JOIN member_current_party mcp ON mcp.member_id = mp.member_id
+    WHERE mp.profession_tag IS NOT NULL AND mcp.party_short_name IS NOT NULL
+    GROUP BY mcp.party_short_name, mp.profession_tag`);
+  const byParty = new Map<string, PartyProfession>();
+  for (const r of rows as { party: string; tag: string; count: number }[]) {
+    let e = byParty.get(r.party);
+    if (!e) { e = { partyShortName: r.party, members: 0, distinct: 0, top: [] }; byParty.set(r.party, e); }
+    e.top.push({ tag: r.tag, count: r.count });
+    e.members += r.count;
+  }
+  for (const e of byParty.values()) {
+    e.distinct = e.top.length;
+    e.top.sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag, "et"));
+  }
+  return [...byParty.values()];
+}, ["varia-professions"], { revalidate: 86400 });
+
+export const getUniversityLeague = unstable_cache(async (): Promise<UniRow[]> => {
+  const { rows } = await pool.query(`
+    SELECT university, count(DISTINCT member_id)::int AS count
+    FROM member_universities GROUP BY university ORDER BY count DESC, university`);
+  return rows as UniRow[];
+}, ["varia-universities"], { revalidate: 86400 });
+
+export const getChildren = unstable_cache(async (): Promise<ChildRow[]> => {
+  const { rows } = await pool.query(`
+    SELECT m.full_name AS "fullName", m.slug, mcp.party_short_name AS "partyShortName",
+           mp.children_count AS children
+    FROM member_profiles mp
+    JOIN members m ON m.id = mp.member_id
+    LEFT JOIN member_current_party mcp ON mcp.member_id = mp.member_id
+    WHERE mp.children_count IS NOT NULL
+    ORDER BY mp.children_count DESC, m.full_name`);
+  return rows as ChildRow[];
+}, ["varia-children"], { revalidate: 86400 });
+
+export const getBirthPins = unstable_cache(async (): Promise<BirthPin[]> => {
+  const { rows } = await pool.query(`
+    SELECT mp.birthplace_town AS town,
+           mp.birthplace_lat::float AS lat, mp.birthplace_lon::float AS lon,
+           json_agg(json_build_object('fullName', m.full_name, 'slug', m.slug)
+                    ORDER BY m.full_name) AS members
+    FROM member_profiles mp
+    JOIN members m ON m.id = mp.member_id
+    WHERE mp.birthplace_lat IS NOT NULL
+    GROUP BY mp.birthplace_town, mp.birthplace_lat, mp.birthplace_lon`);
+  return rows as BirthPin[];
+}, ["varia-birthpins"], { revalidate: 86400 });
+
+async function _caucuses(kind: "friendship" | "cause"): Promise<CaucusRow[]> {
+  const { rows } = await pool.query(`
+    SELECT mc.name,
+           count(DISTINCT mc.member_id)::int AS count,
+           coalesce(array_agg(DISTINCT mcp.party_short_name)
+                    FILTER (WHERE mcp.party_short_name IS NOT NULL), '{}') AS parties
+    FROM member_caucuses mc
+    LEFT JOIN member_current_party mcp ON mcp.member_id = mc.member_id
+    WHERE mc.kind = $1
+    GROUP BY mc.name ORDER BY count DESC, mc.name`, [kind]);
+  return rows as CaucusRow[];
+}
+
+export const getFriendshipGroups = unstable_cache(() => _caucuses("friendship"),
+  ["varia-friendship"], { revalidate: 86400 });
+export const getCauseCaucuses = unstable_cache(() => _caucuses("cause"),
+  ["varia-causes"], { revalidate: 86400 });
+
+export const getGlobetrotters = unstable_cache(async (): Promise<Globetrotter[]> => {
+  const { rows } = await pool.query(`
+    SELECT m.full_name AS "fullName", m.slug, mcp.party_short_name AS "partyShortName",
+           count(*)::int AS groups
+    FROM member_caucuses mc
+    JOIN members m ON m.id = mc.member_id
+    LEFT JOIN member_current_party mcp ON mcp.member_id = mc.member_id
+    WHERE mc.kind = 'friendship'
+    GROUP BY m.full_name, m.slug, mcp.party_short_name
+    ORDER BY groups DESC, m.full_name LIMIT 15`);
+  return rows as Globetrotter[];
+}, ["varia-globetrotters"], { revalidate: 86400 });

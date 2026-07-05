@@ -13,6 +13,20 @@ export type AbsenceRow = {
   absentPct: number; // 100 * absent / total, 1 decimal
 };
 
+export type TagCount = { tag: string; count: number };
+export type PartyProfession = { partyShortName: string; members: number; distinct: number; top: TagCount[] };
+export type UniRow = { university: string; count: number };
+export type ChildRow = { fullName: string; slug: string; partyShortName: string | null; children: number };
+export type BirthPin = { town: string; lat: number; lon: number; members: { fullName: string; slug: string }[] };
+export type CaucusRow = { name: string; count: number; parties: string[] };
+export type Globetrotter = { fullName: string; slug: string; partyShortName: string | null; groups: number };
+
+/** "Eesti-Soome parlamendirühm" -> "Soome". Falls back to the raw name if the shape differs. */
+export function friendshipCountry(name: string): string {
+  const m = name.match(/^Eesti[-–]\s*(.+?)\s+parlamendirühm/i);
+  return m ? m[1] : name.replace(/\s*parlamendirühm$/i, "");
+}
+
 export type SignatureWord = { lemma: string; score: number; rank: number };
 export type PartyWords = { partyShortName: string; words: SignatureWord[] };
 

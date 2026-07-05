@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { sortAbsence, generationOf, type AbsenceRow } from "./varia";
+import { sortAbsence, generationOf, friendshipCountry, type AbsenceRow } from "./varia";
 
 const row = (o: Partial<AbsenceRow>): AbsenceRow => ({
   memberId: 1,
@@ -50,5 +50,16 @@ describe("generationOf", () => {
     expect(generationOf(1965)).toBe("65-74");
     expect(generationOf(1955)).toBe("55-64");
     expect(generationOf(1954)).toBe("-54");
+  });
+});
+
+describe("friendshipCountry", () => {
+  it("extracts the country from a friendship-group name", () => {
+    expect(friendshipCountry("Eesti-Soome parlamendirühm")).toBe("Soome");
+    expect(friendshipCountry("Eesti-Kasahstani parlamendirühm")).toBe("Kasahstani");
+  });
+  it("handles an en-dash and falls back gracefully", () => {
+    expect(friendshipCountry("Eesti–Ukraina parlamendirühm")).toBe("Ukraina");
+    expect(friendshipCountry("Miski muu rühm")).toBe("Miski muu rühm");
   });
 });
