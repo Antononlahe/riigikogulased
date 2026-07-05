@@ -16,15 +16,16 @@ import math
 from collections import Counter
 
 # Estonian function words + plenary boilerplate that survive lemmatisation and would otherwise
-# clutter the tail. df==N dropping handles the truly ubiquitous ones; this trims the near-ubiquitous.
+# clutter the tail. df==N dropping handles the ubiquitous ones; this trims the near-ubiquitous.
 STOPWORDS = frozenset(
+    # noqa list below: multiline word list is far more readable than a 40-item literal
     """
     ja ning või aga et kui kas ka ei ole olema see too mis kes kus millal kuidas
     mina sina tema meie teie nemad oma ise seesama
     ta ma me te nad nii ju veel juba ainult
     hea austatud lugupeetud kolleeg härra proua aitäh tänan palun
     riigikogu istung eelnõu küsimus ettepanek
-    """.split()
+    """.split()  # noqa: SIM905
 )
 
 MIN_LEMMA_LEN = 3
@@ -44,7 +45,8 @@ def compute_from_counts(
     """Score per-scope term-count dicts. Returns (scope_id, lemma, score, rank), ranked 1..top_n."""
     # Filter each scope's terms, drop scopes left empty.
     filtered = {
-        sid: {lemma: n for lemma, n in terms.items() if _keep(lemma)} for sid, terms in counts.items()
+        sid: {lemma: n for lemma, n in terms.items() if _keep(lemma)}
+        for sid, terms in counts.items()
     }
     filtered = {sid: terms for sid, terms in filtered.items() if terms}
     n = len(filtered)

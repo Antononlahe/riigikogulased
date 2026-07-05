@@ -766,3 +766,57 @@ def refresh_signatures(conn: psycopg.Connection, top_n: int = 25) -> int:
             rows.append((kind, sid, lemma, score, rank))
     replace_signature_terms(conn, rows)
     return len(rows)
+
+
+def _replace_child(
+    conn: psycopg.Connection, table: str, cols: str, member_id: int, rows: list[tuple]
+) -> None:
+    """DELETE a member's rows in a profile child table, then bulk-insert `rows`. Idempotent."""
+    placeholders = ", ".join(["%s"] * (cols.count(",") + 1))
+    with conn.cursor() as cur:
+        cur.execute(f"DELETE FROM {table} WHERE member_id = %s", (member_id,))
+        if rows:
+            cur.executemany(
+                f"INSERT INTO {table} (member_id, {cols}) VALUES (%s, {placeholders})",
+                [(member_id, *r) for r in rows],
+            )
+
+
+def write_member_profile(
+    conn: psycopg.Connection,
+    member_id: int,
+    p,
+    *,
+    profession_tag: str | None,
+    hobbies: list[tuple[str, str]],     # (raw, hobby_tag)
+    universities: list[str],
+    coords: tuple[float, float] | None,
+) -> None:
+    """Upsert a member's profile row + replace its child rows (hobbies, universities, languages,
+    honours, caucuses) from parsed ProfileData `p`."""
+    lat, lon = (coords if coords else (None, None))
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO member_profiles
+              (member_id, birthplace_town, birthplace_lat, birthplace_lon,
+               children_count, family_status_raw, profession_tag, scraped_at)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, now())
+            ON CONFLICT (member_id) DO UPDATE SET
+              birthplace_town=EXCLUDED.birthplace_town,
+              birthplace_lat=EXCLUDED.birthplace_lat, birthplace_lon=EXCLUDED.birthplace_lon,
+              children_count=EXCLUDED.children_count, family_status_raw=EXCLUDED.family_status_raw,
+              profession_tag=EXCLUDED.profession_tag, scraped_at=now()
+            """,
+            (member_id, p.birthplace_town, lat, lon, p.children_count,
+             p.family_status_raw, profession_tag),
+        )
+    _replace_child(conn, "member_hobbies", "raw, hobby_tag", member_id, hobbies)
+    _replace_child(
+        conn, "member_universities", "university", member_id, [(u,) for u in universities]
+    )
+    caucuses = (
+        [("friendship", g) for g in p.friendship_groups]
+        + [("cause", g) for g in p.cause_groups]
+    )
+    _replace_child(conn, "member_caucuses", "kind, name", member_id, caucuses)
