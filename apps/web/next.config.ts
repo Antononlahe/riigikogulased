@@ -10,7 +10,8 @@ const nextConfig: NextConfig = {
     // since localePrefix is "as-needed".
     const renames = [
       ["/parteidistsipliin", "/saadikud"],
-      ["/members/:slug", "/saadik/:slug"],
+      // [^.]+ so member photos (/members/<uuid>.webp, static files) are NOT redirected.
+      ["/members/:slug([^.]+)", "/saadik/:slug"],
       ["/statistika", "/statistika/sonavotud"],
     ] as const;
     return renames.flatMap(([source, destination]) => [
