@@ -6,6 +6,7 @@ import { Link } from "@/i18n/routing";
 import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
 import { ScrollableTable } from "@/components/ui/scrollable-table";
+import { PartyFilterBar } from "@/components/party-filter-bar";
 import { partyToken } from "@/lib/party";
 import type { ExpenseLeaderRow } from "@/lib/expenses-queries";
 
@@ -45,11 +46,16 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
   const [sortKey, setSortKey] = useState<SortKey>("spent");
   const [sortDir, setSortDir] = useState<SortDir>("desc");
   const [showDetail, setShowDetail] = useState(false);
+  const [party, setParty] = useState<string | null>(null);
+  const [showFormer, setShowFormer] = useState(false);
 
   const visible = useMemo(() => {
-    const s = [...rows].sort((a, b) => metric(a, sortKey) - metric(b, sortKey));
+    const base = (showFormer ? rows : rows.filter((r) => r.active)).filter(
+      (r) => party === null || r.partyShortName === party,
+    );
+    const s = [...base].sort((a, b) => metric(a, sortKey) - metric(b, sortKey));
     return sortDir === "desc" ? s.reverse() : s;
-  }, [rows, sortKey, sortDir]);
+  }, [rows, party, showFormer, sortKey, sortDir]);
   const max = useMemo(
     () => Math.max(1, ...visible.map((r) => metric(r, sortKey))),
     [visible, sortKey],
@@ -70,6 +76,13 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
 
   return (
     <div>
+      <PartyFilterBar
+        party={party}
+        onParty={setParty}
+        showFormer={showFormer}
+        onShowFormer={setShowFormer}
+        count={visible.length}
+      />
       <label className="mb-3 flex w-fit cursor-pointer items-center gap-2 text-[13px] font-medium text-muted-foreground hover:text-foreground">
         <input
           type="checkbox"

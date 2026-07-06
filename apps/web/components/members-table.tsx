@@ -3,20 +3,12 @@
 import { useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion, MotionConfig } from "framer-motion";
-import { ChevronDown } from "lucide-react";
 import type { MemberDisciplineRow } from "@/lib/queries";
 import { sortRows, filterByParty, mandateKey, type SortKey, type SortDir } from "@/lib/members";
-import { PARTY_ORDER } from "@/lib/party";
 import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
 import { ScrollableTable } from "@/components/ui/scrollable-table";
-import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+import { PartyFilterBar } from "@/components/party-filter-bar";
 import { Link } from "@/i18n/routing";
 
 // `hide` trims lower-value columns on small screens (the table only shows at sm+; cards take over
@@ -37,7 +29,6 @@ const attPct = (r: MemberDisciplineRow) =>
 
 export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
   const t = useTranslations("table");
-  const f = useTranslations("filter");
   const te = useTranslations("memberDetail.election");
   const [sortKey, setSortKey] = useState<SortKey>("discipline");
   const [sortDir, setSortDir] = useState<SortDir>("asc");
@@ -96,35 +87,13 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
 
   return (
     <MotionConfig reducedMotion="user">
-      <div className="mb-3 flex flex-wrap items-center gap-x-3 gap-y-2">
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button variant="outline" size="sm">
-              {party ?? f("all")} <ChevronDown className="ml-1 h-4 w-4" />
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="start">
-            <DropdownMenuItem onClick={() => setParty(null)}>{f("all")}</DropdownMenuItem>
-            {PARTY_ORDER.map((p) => (
-              <DropdownMenuItem key={p} onClick={() => setParty(p)}>
-                {p}
-              </DropdownMenuItem>
-            ))}
-          </DropdownMenuContent>
-        </DropdownMenu>
-        <label className="flex cursor-pointer items-center gap-2 text-xs text-muted-foreground">
-          <input
-            type="checkbox"
-            className="h-3.5 w-3.5 accent-foreground"
-            checked={showFormer}
-            onChange={(e) => setShowFormer(e.target.checked)}
-          />
-          {f("showFormer")}
-        </label>
-        <span className="ml-auto text-xs tabular-nums text-muted-foreground" aria-live="polite">
-          {t("showing", { count: visible.length })}
-        </span>
-      </div>
+      <PartyFilterBar
+        party={party}
+        onParty={setParty}
+        showFormer={showFormer}
+        onShowFormer={setShowFormer}
+        count={visible.length}
+      />
 
       {/* Desktop / tablet: the table (with working horizontal scroll). */}
       <div className="hidden sm:block">

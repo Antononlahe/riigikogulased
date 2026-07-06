@@ -6,6 +6,7 @@ import { Link } from "@/i18n/routing";
 import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
 import { ScrollableTable } from "@/components/ui/scrollable-table";
+import { PartyFilterBar } from "@/components/party-filter-bar";
 import { partyToken } from "@/lib/party";
 import { sortAbsence, type AbsenceRow, type AbsenceSortKey } from "@/lib/varia";
 
@@ -13,7 +14,14 @@ export function AbsenceLeaderboard({ rows }: { rows: AbsenceRow[] }) {
   const t = useTranslations("varia");
   const [sortKey, setSortKey] = useState<AbsenceSortKey>("absentPct");
   const [dir, setDir] = useState<"asc" | "desc">("desc");
-  const visible = useMemo(() => sortAbsence(rows, dir, sortKey), [rows, dir, sortKey]);
+  const [party, setParty] = useState<string | null>(null);
+  const [showFormer, setShowFormer] = useState(false);
+  const visible = useMemo(() => {
+    const base = (showFormer ? rows : rows.filter((r) => r.active)).filter(
+      (r) => party === null || r.partyShortName === party,
+    );
+    return sortAbsence(base, dir, sortKey);
+  }, [rows, party, showFormer, dir, sortKey]);
   const max = useMemo(() => Math.max(1, ...rows.map((r) => r.absentPct)), [rows]);
 
   function toggleSort(key: AbsenceSortKey) {
@@ -41,6 +49,13 @@ export function AbsenceLeaderboard({ rows }: { rows: AbsenceRow[] }) {
 
   return (
     <div>
+      <PartyFilterBar
+        party={party}
+        onParty={setParty}
+        showFormer={showFormer}
+        onShowFormer={setShowFormer}
+        count={visible.length}
+      />
       {/* Desktop table */}
       <div className="hidden sm:block">
         <ScrollableTable minWidthClass="min-w-[34rem]">
