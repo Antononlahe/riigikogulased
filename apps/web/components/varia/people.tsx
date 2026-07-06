@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
-import { partyToken } from "@/lib/party";
+import { partyToken, isKnownParty, PARTY_ORDER, type PartyShort } from "@/lib/party";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,6 +12,10 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { groupPeople, type PeopleRow, type PeopleMember, type ChildRow } from "@/lib/varia";
+
+// A faction must field at least this many members with data before its per-party stat is shown;
+// below it we print "-" (ERK, with its single member, never qualifies -- and isn't a fraktsioon).
+const MIN_PARTY = 5;
 
 function Section({ title, sub, children }: { title: string; sub: string; children: React.ReactNode }) {
   return (
@@ -23,9 +27,36 @@ function Section({ title, sub, children }: { title: string; sub: string; childre
   );
 }
 
-/** Click `trigger` to pop up the members it represents (name -> profile, with party badge).
+/** Members per fraktsioon, palette order, biggest first; unknown/ERK members dropped. */
+function partyCounts(members: PeopleMember[]): { party: PartyShort; count: number }[] {
+  const m = new Map<PartyShort, number>();
+  for (const x of members)
+    if (isKnownParty(x.party)) m.set(x.party, (m.get(x.party) ?? 0) + 1);
+  return PARTY_ORDER.filter((p) => m.has(p))
+    .map((p) => ({ party: p, count: m.get(p)! }))
+    .sort((a, b) => b.count - a.count);
+}
+
+/** Party breakdown of a group: a badge + count per fraktsioon present. */
+function PartyTally({ members }: { members: PeopleMember[] }) {
+  const counts = partyCounts(members);
+  if (counts.length === 0) return null;
+  return (
+    <div className="flex flex-wrap gap-x-3 gap-y-1">
+      {counts.map(({ party, count }) => (
+        <span key={party} className="flex items-center gap-1 text-xs">
+          <PartyBadge shortName={party} />
+          <span className="tabular-nums text-muted-foreground">{count}</span>
+        </span>
+      ))}
+    </div>
+  );
+}
+
+/** Click `trigger` to pop up the party breakdown + members (name -> profile, with party badge).
  *  Radix handles open/close, escape, outside-click and positioning -- no extra dep. */
 function PeoplePopup({ trigger, members }: { trigger: React.ReactNode; members: PeopleMember[] }) {
+  const t = useTranslations("varia");
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
@@ -33,7 +64,14 @@ function PeoplePopup({ trigger, members }: { trigger: React.ReactNode; members: 
           {trigger}
         </button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="start" className="max-h-80 overflow-y-auto">
+      <DropdownMenuContent align="start" className="max-h-80 w-60 overflow-y-auto">
+        <div className="px-2 py-1.5">
+          <div className="mb-1 text-[10px] font-bold uppercase tracking-wide text-muted-foreground">
+            {t("byParty")}
+          </div>
+          <PartyTally members={members} />
+        </div>
+        <div className="my-1 h-px bg-border" />
         {members.map((m) => (
           <DropdownMenuItem key={m.slug} asChild>
             <Link href={`/members/${m.slug}`} className="flex items-center gap-1.5">
@@ -47,7 +85,7 @@ function PeoplePopup({ trigger, members }: { trigger: React.ReactNode; members: 
   );
 }
 
-/** Word cloud: bigger = more members. Each word pops up who listed that interest. */
+/** Word cloud: bigger = more members. Each word pops up the party breakdown + who listed it. */
 export function Hobbies({ rows }: { rows: PeopleRow[] }) {
   const t = useTranslations("varia");
   const groups = useMemo(() => groupPeople(rows), [rows]);
@@ -77,7 +115,24 @@ export function Hobbies({ rows }: { rows: PeopleRow[] }) {
 
 type Row = { key: string; label: string; members: PeopleMember[] };
 
-/** Click a university to reveal who studied there. */
+/** Stacked-by-party magnitude bar: total length ~ group size vs the largest, segments by faction. */
+function StackedBar({ members, max }: { members: PeopleMember[]; max: number }) {
+  return (
+    <span className="hidden h-2 w-24 overflow-hidden rounded-sm bg-muted sm:block" aria-hidden>
+      <span className="flex h-full" style={{ width: `${(members.length / max) * 100}%` }}>
+        {partyCounts(members).map(({ party, count }) => (
+          <span
+            key={party}
+            className="block h-full"
+            style={{ width: `${(count / members.length) * 100}%`, backgroundColor: partyToken(party).fill }}
+          />
+        ))}
+      </span>
+    </span>
+  );
+}
+
+/** Click a university to reveal the party breakdown + who studied there. */
 export function Universities({ rows }: { rows: PeopleRow[] }) {
   const t = useTranslations("varia");
   const groups = useMemo(() => groupPeople(rows), [rows]);
@@ -99,20 +154,26 @@ export function Universities({ rows }: { rows: PeopleRow[] }) {
               >
                 <span aria-hidden className={`text-xs text-muted-foreground transition-transform ${isOpen ? "rotate-90" : ""}`}>▶</span>
                 <span className="min-w-0 flex-1 truncate text-sm font-medium">{r.label}</span>
-                <span className="hidden h-2 w-24 rounded-sm bg-muted sm:block" aria-hidden>
-                  <span className="block h-full rounded-sm bg-foreground/60" style={{ width: `${(r.members.length / max) * 100}%` }} />
-                </span>
+                <StackedBar members={r.members} max={max} />
                 <span className="w-8 shrink-0 text-right text-sm tabular-nums text-muted-foreground">{r.members.length}</span>
               </button>
               {isOpen && (
-                <ul className="flex flex-wrap gap-x-4 gap-y-1.5 pb-3 pl-6">
-                  {r.members.map((m) => (
-                    <li key={m.slug} className="flex items-center gap-1.5 text-sm">
-                      <Link href={`/members/${m.slug}`} className="hover:underline">{m.fullName}</Link>
-                      {m.party && <PartyBadge shortName={m.party} />}
-                    </li>
-                  ))}
-                </ul>
+                <div className="pb-3 pl-6">
+                  <div className="mb-2 flex items-center gap-2">
+                    <span className="text-[10px] font-bold uppercase tracking-wide text-muted-foreground">
+                      {t("byParty")}
+                    </span>
+                    <PartyTally members={r.members} />
+                  </div>
+                  <ul className="flex flex-wrap gap-x-4 gap-y-1.5">
+                    {r.members.map((m) => (
+                      <li key={m.slug} className="flex items-center gap-1.5 text-sm">
+                        <Link href={`/members/${m.slug}`} className="hover:underline">{m.fullName}</Link>
+                        {m.party && <PartyBadge shortName={m.party} />}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               )}
             </li>
           );
@@ -127,12 +188,45 @@ export function Children({ rows }: { rows: ChildRow[] }) {
   const total = rows.reduce((s, c) => s + c.children, 0);
   const avg = rows.length ? (total / rows.length).toFixed(1) : "0";
   const top = rows.slice(0, 8);
+
+  // Per-fraktsioon "average per family": sum / members-with-data, but only when a faction has
+  // enough members to be meaningful (else "-"). Only the six fraktsioons; ERK is excluded.
+  const byParty = useMemo(() => {
+    const acc = new Map<PartyShort, { sum: number; n: number }>();
+    for (const c of rows) {
+      if (!isKnownParty(c.partyShortName)) continue;
+      const e = acc.get(c.partyShortName) ?? { sum: 0, n: 0 };
+      e.sum += c.children;
+      e.n += 1;
+      acc.set(c.partyShortName, e);
+    }
+    return PARTY_ORDER.map((p) => {
+      const e = acc.get(p);
+      return { party: p, value: e && e.n >= MIN_PARTY ? (e.sum / e.n).toFixed(1) : "-" };
+    });
+  }, [rows]);
+
   return (
     <Section title={t("childrenH")} sub={t("childrenSub")}>
-      <div className="mb-4 flex gap-3">
+      <div className="mb-4 flex flex-wrap gap-3">
         <Stat label={t("childrenTotal")} value={total} />
         <Stat label={t("childrenAvg")} value={avg} />
       </div>
+
+      <div className="mb-5">
+        <p className="mb-2 text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
+          {t("childrenByParty")}
+        </p>
+        <div className="flex flex-wrap gap-2">
+          {byParty.map(({ party, value }) => (
+            <div key={party} className="flex items-center gap-2 rounded-md border border-border px-3 py-1.5">
+              <PartyBadge shortName={party} />
+              <span className="text-sm font-bold tabular-nums">{value}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
       <p className="mb-2 text-sm font-semibold">{t("childrenTop")}</p>
       <ul className="space-y-1.5">
         {top.map((c) => (

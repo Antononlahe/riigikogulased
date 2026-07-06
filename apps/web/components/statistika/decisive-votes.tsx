@@ -1,13 +1,12 @@
 "use client";
 
-import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
 import type { DecisiveVote } from "@/lib/decisive-queries";
 
-// Decisive votes list + the "almost" toggle. Cards, not a table: each vote carries a
-// variable-length defector list, and the empty decisive list is itself the message.
+// Closest-calls list, tightest first, then the punchline: did any defection actually flip a
+// result? Cards, not a table -- each vote carries a variable-length defector list.
 
 function VoteCard({ v }: { v: DecisiveVote }) {
   const t = useTranslations("decisive");
@@ -71,49 +70,43 @@ export function DecisiveVotes({
   defectionVoteCount: number;
 }) {
   const t = useTranslations("decisive");
-  const [showClose, setShowClose] = useState(false);
 
   return (
-    <div>
-      {decisive.length === 0 ? (
-        <div className="rounded-md border-2 border-foreground p-5">
-          <p className="font-serif text-xl font-bold">{t("emptyHeadline")}</p>
-          <p className="mt-1.5 max-w-2xl text-sm text-muted-foreground">
-            {t("emptyBody", { defectionVotes: defectionVoteCount })}
-          </p>
-        </div>
-      ) : (
-        <ul className="space-y-3">
-          {decisive.map((v) => (
-            <VoteCard key={v.voteId} v={v} />
-          ))}
-        </ul>
-      )}
+    <div className="space-y-8">
+      {/* Lead: the closest calls, tightest first. */}
+      <div>
+        <p className="mb-3 max-w-2xl text-sm text-muted-foreground">{t("closeIntro")}</p>
+        {close.length === 0 ? (
+          <p className="text-sm text-muted-foreground">{t("closeEmpty")}</p>
+        ) : (
+          <ul className="space-y-3">
+            {close.map((v) => (
+              <VoteCard key={v.voteId} v={v} />
+            ))}
+          </ul>
+        )}
+      </div>
 
-      <label className="mt-6 flex w-fit cursor-pointer items-center gap-2 text-[13px] font-medium text-muted-foreground hover:text-foreground">
-        <input
-          type="checkbox"
-          checked={showClose}
-          onChange={(e) => setShowClose(e.target.checked)}
-          className="h-4 w-4 accent-foreground"
-        />
-        {t("showClose")}
-      </label>
-
-      {showClose && (
-        <div className="mt-3">
-          <p className="mb-3 max-w-2xl text-sm text-muted-foreground">{t("closeIntro")}</p>
-          {close.length === 0 ? (
-            <p className="text-sm text-muted-foreground">{t("closeEmpty")}</p>
-          ) : (
-            <ul className="space-y-3">
-              {close.map((v) => (
+      {/* Punchline: did any defection actually change a result? Usually none. */}
+      <div className="rounded-md border-2 border-foreground p-5">
+        {decisive.length === 0 ? (
+          <>
+            <p className="font-serif text-xl font-bold">{t("emptyHeadline")}</p>
+            <p className="mt-1.5 max-w-2xl text-sm text-muted-foreground">
+              {t("emptyBody", { defectionVotes: defectionVoteCount })}
+            </p>
+          </>
+        ) : (
+          <>
+            <p className="font-serif text-xl font-bold">{t("flippedHeadline", { n: decisive.length })}</p>
+            <ul className="mt-3 space-y-3">
+              {decisive.map((v) => (
                 <VoteCard key={v.voteId} v={v} />
               ))}
             </ul>
-          )}
-        </div>
-      )}
+          </>
+        )}
+      </div>
     </div>
   );
 }

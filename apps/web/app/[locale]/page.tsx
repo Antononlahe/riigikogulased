@@ -1,14 +1,13 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { getMemberDiscipline, type MemberDisciplineRow } from "@/lib/queries";
-import { getElectedNonSitting, type NonSittingCandidate } from "@/lib/election-queries";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
-import { MembersTable } from "@/components/members-table";
-import { NonSitting } from "@/components/election/non-sitting";
-import { FactionMetricBars } from "@/components/factions/faction-metric-bars";
+import { StatCard } from "@/components/stat-card";
+import { getStatHighlights, type PersonHighlight } from "@/lib/hub-queries";
 
 export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 
+// Front page: a hub of superlative cards, each the top row of a leaderboard, linking to the full
+// page behind it. The flagship discipline table lives at /parteidistsipliin.
 export default async function HomePage({
   params,
 }: {
@@ -16,51 +15,50 @@ export default async function HomePage({
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("members");
+  const t = await getTranslations("hub");
+  const h = await getStatHighlights();
 
-  let rows: MemberDisciplineRow[] = [];
-  let dbError: string | null = null;
-  try {
-    rows = await getMemberDiscipline();
-  } catch (e) {
-    dbError = e instanceof Error ? e.message : String(e);
-  }
+  // A person card: the holder if sole, else "N saadikut" (a tie) linking to the full list.
+  const person = (p: PersonHighlight) =>
+    p.tied > 1
+      ? { href: p.href, name: t("tiedCount", { n: p.tied }) }
+      : {
+          href: p.href,
+          name: p.name,
+          party: p.party,
+          avatar: { fullName: p.name, photoThumbPath: p.photoThumbPath, shortName: p.party },
+        };
 
-  let nonSitting: NonSittingCandidate[] = [];
-  try {
-    nonSitting = await getElectedNonSitting();
-  } catch {
-    // table not yet present / empty -> section is simply hidden
-  }
+  // Each entry is null when its highlight is missing; filtered out below.
+  const cards = [
+    h.rebel && { eyebrow: t("rebelTitle"), value: t("rebelValue", { pct: h.rebel.value }), ...person(h.rebel) },
+    h.talker && { eyebrow: t("talkerTitle"), value: t("talkerValue", { n: h.talker.value }), ...person(h.talker) },
+    h.absentee && { eyebrow: t("absenteeTitle"), value: t("absenteeValue", { pct: h.absentee.value }), ...person(h.absentee) },
+    h.closestVote && {
+      eyebrow: t("closestTitle"),
+      value: t("closestValue", { gap: h.closestVote.value }),
+      href: h.closestVote.href,
+      name: h.closestVote.name,
+    },
+    h.youngest && { eyebrow: t("youngestTitle"), value: t("youngestValue", { age: h.youngest.value }), ...person(h.youngest) },
+    h.mostChildren && { eyebrow: t("childrenTitle"), value: t("childrenValue", { n: h.mostChildren.value }), ...person(h.mostChildren) },
+  ].filter((c): c is NonNullable<typeof c> => Boolean(c));
 
   return (
     <>
       <SiteHeader />
       <main className="mx-auto max-w-5xl px-4 py-10">
-        <section>
-          <h1 className="font-serif text-2xl font-bold tracking-tight">{t("heading")}</h1>
-          <p className="text-xs uppercase tracking-wide text-muted-foreground">{t("cycle")}</p>
-          <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("subheading")}</p>
-
-          <FactionMetricBars metric="cohesion" />
-
-          {dbError ? (
-            <p className="mt-6 rounded border border-destructive/40 bg-destructive/5 p-4 text-sm">
-              {t("empty")}
-              <br />
-              <span className="font-mono text-xs">{dbError}</span>
-            </p>
-          ) : rows.length === 0 ? (
-            <p className="mt-6 text-sm text-muted-foreground">{t("empty")}</p>
-          ) : (
-            <div className="mt-6">
-              <MembersTable rows={rows} />
-            </div>
-          )}
-        </section>
-
-        {nonSitting.length > 0 && <NonSitting rows={nonSitting} />}
-
+        <h1 className="font-serif text-2xl font-bold tracking-tight">{t("heading")}</h1>
+        <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("intro")}</p>
+        {cards.length === 0 ? (
+          <p className="mt-8 text-sm text-muted-foreground">{t("empty")}</p>
+        ) : (
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {cards.map((c, i) => (
+              <StatCard key={i} {...c} />
+            ))}
+          </div>
+        )}
         <SiteFooter />
       </main>
     </>

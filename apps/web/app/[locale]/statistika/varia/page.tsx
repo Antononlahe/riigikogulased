@@ -16,9 +16,8 @@ export default async function VariaHubPage({ params }: { params: Promise<{ local
     { href: "/statistika/varia/margusonad", title: t("tileMargusonad"), desc: t("tileMargusonadDesc") },
     { href: "/statistika/varia/inimesed", title: t("tileInimesed"), desc: t("tileInimesedDesc") },
     { href: "/statistika/varia/parlamendiryhmad", title: t("tileVorgustik"), desc: t("tileVorgustikDesc") },
-    // Demoted from the main nav (kept to 3 headings): still their own routes.
-    { href: "/statistika/kulud", title: t("tileKulud"), desc: t("tileKuludDesc") },
-    { href: "/statistika/otsustavad", title: t("tileOtsustavad"), desc: t("tileOtsustavadDesc") },
+    // Kuluhüvitised + Otsustavad hääled used to live here too; they are now first-class nav
+    // headings (Statistika dropdown / top level), so Varia holds only the light stats.
   ];
 
   return (

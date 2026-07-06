@@ -37,11 +37,8 @@ export default async function PeoplePage({ params }: { params: Promise<{ locale:
           <p className="mt-6 text-sm text-muted-foreground">{t("empty")}</p>
         ) : (
           <div className="mt-8">
-            {hobbies.length > 0 && <Hobbies rows={hobbies} />}
-            {unis.length > 0 && <Universities rows={unis} />}
-            {children.length > 0 && <Children rows={children} />}
             {pins.length > 0 && (
-              <section className="mt-10">
+              <section className="mt-10 first:mt-0">
                 <h2 className="font-serif text-xl font-bold tracking-tight">{t("birthplaceH")}</h2>
                 <p className="mt-1 text-sm text-muted-foreground">{t("birthplaceSub")}</p>
                 <div className="mt-4">
@@ -49,6 +46,9 @@ export default async function PeoplePage({ params }: { params: Promise<{ locale:
                 </div>
               </section>
             )}
+            {children.length > 0 && <Children rows={children} />}
+            {hobbies.length > 0 && <Hobbies rows={hobbies} />}
+            {unis.length > 0 && <Universities rows={unis} />}
           </div>
         )}
         <SiteFooter />

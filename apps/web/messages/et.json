@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Riigikogulased",
-    "tagline": "Kui sageli hääletavad Riigikogu liikmed oma fraktsiooni vastu?"
+    "tagline": "Riigikogu numbrites: parteidistsipliin, sõnavõtud, kulud ja muu."
   },
   "members": {
     "heading": "Parteidistsipliin",
@@ -16,17 +16,36 @@
   },
   "nav": {
     "members": "Parteidistsipliin",
+    "statistika": "Statistika",
     "speeches": "Sõnavõtud",
     "expenses": "Kuluhüvitised",
-    "factions": "Fraktsioonid",
     "decisive": "Otsustavad hääled",
     "varia": "Varia"
   },
+  "hub": {
+    "heading": "Riigikogu numbrites",
+    "intro": "Käesoleva koosseisu silmapaistvaimad numbrid. Klõpsa kaardil, et näha tervikpilti.",
+    "empty": "Andmeid pole veel.",
+    "tiedCount": "{n} saadikut",
+    "rebelTitle": "Enim oma fraktsiooni vastu",
+    "rebelValue": "vastu {pct}%",
+    "talkerTitle": "Sõnaohtraim",
+    "talkerValue": "{n, number} sõna",
+    "absenteeTitle": "Enim puudumisi",
+    "absenteeValue": "puudus {pct}%",
+    "closestTitle": "Napim hääletus",
+    "closestValue": "{gap} hääle kaugusel",
+    "youngestTitle": "Noorim saadik",
+    "youngestValue": "{age} aastat",
+    "childrenTitle": "Lasterikkaim",
+    "childrenValue": "{n} last"
+  },
   "decisive": {
-    "heading": "Otsustavad hääled",
-    "intro": "Kas fraktsiooni vastu hääletamine on mõne hääletuse tulemust päriselt muutnud? Iga hääletuse juures arvestame õiget vastuvõtmise lävendit: enamasti poolthäälteenamus, aga umbusaldusavaldused, ettepanekud Vabariigi Valitsusele, saadikupuutumatuse äravõtmine ja põhiseaduse §-s 104 loetletud seadused nõuavad koosseisu häälteenamust (51 häält).",
+    "heading": "Napimad hääletused",
+    "intro": "Napimad hääletused: kordi, mil fraktsiooni vastu antud hääli oli arvuliselt sama palju, kui tulemuse muutmiseks vaja — tulemus jäi samaks vaid seetõttu, et need hääled ei langenud ühte suunda. Iga hääletuse juures arvestame õiget vastuvõtmise lävendit: enamasti poolthäälteenamus, aga umbusaldusavaldused, ettepanekud Vabariigi Valitsusele, saadikupuutumatuse äravõtmine ja põhiseaduse §-s 104 loetletud seadused nõuavad koosseisu häälteenamust (51 häält).",
     "emptyHeadline": "0 hääletust",
     "emptyBody": "Selles koosseisus ei ole fraktsiooni vastu antud hääled muutnud ühegi hääletuse tulemust. Fraktsioonivastaseid hääli anti {defectionVotes} hääletusel, kuid tulemus oleks olnud sama ka siis, kui kõik oleksid hääletanud koos oma fraktsiooniga.",
+    "flippedHeadline": "{n} hääletust, kus fraktsioonivastane hääl muutis tulemust",
     "showClose": "Näita ka napilt mööda läinud hääletusi",
     "closeIntro": "Hääletused, kus fraktsioonivastaseid hääli oli vähemalt sama palju, kui tulemuse muutmiseks vaja — tulemus jäi samaks vaid seetõttu, et need hääled ei langenud ühte suunda.",
     "closeEmpty": "Selliseid hääletusi ei ole.",
@@ -144,7 +163,9 @@
     "members": "liiget",
     "groups": "rühma",
     "parties": "fraktsiooni",
-    "childrenTop": "Kõige lasterikkamad:"
+    "childrenTop": "Kõige lasterikkamad:",
+    "childrenByParty": "Keskmine peres fraktsiooniti",
+    "byParty": "Fraktsiooniti"
   },
   "theme": {
     "label": "Värviteema",

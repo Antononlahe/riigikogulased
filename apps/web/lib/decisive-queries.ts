@@ -75,12 +75,13 @@ export async function getDecisiveVotes(): Promise<DecisiveVote[]> {
 }
 
 /** Near misses: the defectors were numerically enough to flip the outcome
- *  (flip_gap <= defections) but it did not flip. */
+ *  (flip_gap <= defections) but it did not flip. Tightest first (smallest gap) -- the closest
+ *  calls are the story; the hub's "closest vote" card takes row 0. */
 export async function getCloseVotes(limit = 50): Promise<DecisiveVote[]> {
   const { rows } = await pool.query(
     `${SELECT}
       WHERE passed = cf_passed AND defections > 0 AND flip_gap <= defections
-      ORDER BY voted_at DESC
+      ORDER BY flip_gap ASC, defections DESC, voted_at DESC
       LIMIT $1`,
     [limit],
   );

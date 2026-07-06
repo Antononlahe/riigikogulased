@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Riigikogulased",
-    "tagline": "How often do Estonian MPs vote against their own faction?"
+    "tagline": "The Riigikogu in numbers: party discipline, speeches, spending and more."
   },
   "members": {
     "heading": "Party Discipline",
@@ -16,17 +16,36 @@
   },
   "nav": {
     "members": "Party Discipline",
+    "statistika": "Statistics",
     "speeches": "Speeches",
     "expenses": "Expenses",
-    "factions": "Factions",
     "decisive": "Decisive votes",
     "varia": "Varia"
   },
+  "hub": {
+    "heading": "The Riigikogu in numbers",
+    "intro": "The standout figures of the current Riigikogu. Tap a card for the full picture.",
+    "empty": "No data yet.",
+    "tiedCount": "{n} MPs",
+    "rebelTitle": "Most often against their faction",
+    "rebelValue": "against {pct}%",
+    "talkerTitle": "Most talkative",
+    "talkerValue": "{n, number} words",
+    "absenteeTitle": "Most absences",
+    "absenteeValue": "absent {pct}%",
+    "closestTitle": "Closest vote",
+    "closestValue": "{gap} votes away",
+    "youngestTitle": "Youngest member",
+    "youngestValue": "{age} years",
+    "childrenTitle": "Most children",
+    "childrenValue": "{n} children"
+  },
   "decisive": {
-    "heading": "Decisive votes",
-    "intro": "Has voting against the faction line ever actually changed the outcome of a vote? Each vote is checked against its correct passage threshold: usually a simple majority of votes cast, but no-confidence motions, proposals to the Government, immunity waivers and the laws listed in §104 of the Constitution require a majority of the full membership (51 votes).",
+    "heading": "Closest votes",
+    "intro": "The closest calls: times when votes cast against the faction line were numerically enough to change the outcome — the result held only because those votes did not fall the same way. Each vote is checked against its correct passage threshold: usually a simple majority of votes cast, but no-confidence motions, proposals to the Government, immunity waivers and the laws listed in §104 of the Constitution require a majority of the full membership (51 votes).",
     "emptyHeadline": "0 votes",
     "emptyBody": "In this Riigikogu, votes cast against the faction line have not changed the outcome of a single vote. Defections occurred in {defectionVotes} votes, but every outcome would have been the same had everyone followed their faction line.",
+    "flippedHeadline": "{n} votes where a defection changed the outcome",
     "showClose": "Also show near misses",
     "closeIntro": "Votes where the defectors were numerous enough to flip the result — the outcome held only because those votes did not fall in one direction.",
     "closeEmpty": "No such votes.",
@@ -144,7 +163,9 @@
     "members": "members",
     "groups": "groups",
     "parties": "factions",
-    "childrenTop": "Most children:"
+    "childrenTop": "Most children:",
+    "childrenByParty": "Average per family by faction",
+    "byParty": "By faction"
   },
   "theme": {
     "label": "Theme",
