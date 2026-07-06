@@ -6,7 +6,13 @@ import { getExpenseLeaderboard, getExpenseYears } from "@/lib/expenses-queries";
 // Expenses leaderboard for one year, shared by /statistika/kulud (latest year) and
 // /statistika/kulud/[aasta]. Year selector links to those static paths (latest -> base,
 // others -> /kulud/<year>), so switching years is a CDN hit, not a dynamic render.
-export async function ExpensesSection({ year }: { year: number }) {
+export async function ExpensesSection({
+  year,
+  afterIntro,
+}: {
+  year: number;
+  afterIntro?: React.ReactNode; // optional slot rendered under the heading (faction bars on the base page)
+}) {
   const t = await getTranslations("statistika");
   const years = await getExpenseYears();
   const latest = years[0] ?? 0;
@@ -33,6 +39,7 @@ export async function ExpensesSection({ year }: { year: number }) {
           ))}
         </div>
       )}
+      {afterIntro}
       <div className="mt-5">
         {rows.length === 0 ? (
           <p className="text-sm text-muted-foreground">{t("empty")}</p>

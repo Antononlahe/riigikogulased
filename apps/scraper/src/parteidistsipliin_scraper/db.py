@@ -788,7 +788,6 @@ def write_member_profile(
     p,
     *,
     profession_tag: str | None,
-    professions: list[str],             # all pre-politics profession tags (profession_tag = first)
     hobbies: list[tuple[str, str]],     # (raw, hobby_tag)
     universities: list[str],
     coords: tuple[float, float] | None,
@@ -812,7 +811,6 @@ def write_member_profile(
             (member_id, p.birthplace_town, lat, lon, p.children_count,
              p.family_status_raw, profession_tag),
         )
-    _replace_child(conn, "member_professions", "profession_tag", member_id, [(t,) for t in professions])
     _replace_child(conn, "member_hobbies", "raw, hobby_tag", member_id, hobbies)
     _replace_child(
         conn, "member_universities", "university", member_id, [(u,) for u in universities]

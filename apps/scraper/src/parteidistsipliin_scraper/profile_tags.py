@@ -2,10 +2,9 @@
 
 - Universities are a small closed set matched by a committed alias dictionary (no LLM).
 - Hobbies and pre-politics professions have no official taxonomy, so a one-time offline LLM pass
-  (the `profiles-tag` command) maps each distinct hobby phrase to a fixed tag and each member's
-  career to a LIST of profession tags (dominant role first; a member usually has several), and
-  commits the result as cache/profiles/profile_tags.json. `load_tag_map` reads that committed
-  file; the writer joins raw -> tag through it, so rebuild/CI never call an LLM.
+  (the `profiles-tag` command) maps each distinct hobby phrase and each member's career to a
+  fixed tag, and commits the result as cache/profiles/profile_tags.json. `load_tag_map` reads
+  that committed file; the writer joins raw -> tag through it, so rebuild/CI never call an LLM.
 """
 
 from __future__ import annotations
