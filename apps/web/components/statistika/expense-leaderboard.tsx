@@ -132,7 +132,7 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
                       photoThumbPath={r.photoThumbPath}
                       shortName={r.partyShortName}
                     />
-                    <Link href={`/members/${r.slug}`} className="hover:underline">
+                    <Link href={`/saadik/${r.slug}`} className="hover:underline">
                       {r.fullName}
                     </Link>
                     <PartyBadge shortName={r.partyShortName} />
@@ -191,7 +191,7 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
             >
               <span className="flex items-center gap-3 font-semibold">
                 <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
-                <Link href={`/members/${r.slug}`} className="hover:underline">
+                <Link href={`/saadik/${r.slug}`} className="hover:underline">
                   {r.fullName}
                 </Link>
                 <PartyBadge shortName={r.partyShortName} />

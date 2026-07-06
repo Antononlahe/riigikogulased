@@ -19,7 +19,7 @@ function MemberList({ members }: { members: Member[] }) {
     <ul className="flex flex-wrap gap-x-4 gap-y-1.5 pt-2">
       {members.map((m) => (
         <li key={m.slug} className="flex items-center gap-1.5 text-sm">
-          <Link href={`/members/${m.slug}`} className="hover:underline">{m.fullName}</Link>
+          <Link href={`/saadik/${m.slug}`} className="hover:underline">{m.fullName}</Link>
           {m.party && <PartyBadge shortName={m.party} />}
         </li>
       ))}

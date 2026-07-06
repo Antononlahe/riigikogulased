@@ -64,6 +64,59 @@ export async function getMemberDiscipline(): Promise<MemberDisciplineRow[]> {
   return rows;
 }
 
+export type MemberIndexRow = {
+  fullName: string;
+  slug: string;
+  partyShortName: string | null;
+  active: boolean;
+};
+
+/** Lightweight name index for the header search box. */
+export async function getMemberIndex(): Promise<MemberIndexRow[]> {
+  const { rows } = await pool.query(`
+    SELECT m.full_name AS "fullName", m.slug,
+           mcp.party_short_name AS "partyShortName", m.active
+      FROM members m
+      LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+     ORDER BY m.active DESC, m.full_name ASC
+  `);
+  return rows;
+}
+
+export type PeerAverages = {
+  // Mean per-member discipline score among all other members with enough counted votes.
+  avgDiscipline: number | null;
+  // Mean total speech count (member_speech_stats) among all other members.
+  avgSpeeches: number | null;
+  // Mean spent EUR in the latest expense year among all other members, and that year.
+  avgSpent: number | null;
+  expenseYear: number | null;
+};
+
+/** All-member averages excluding `memberId`, for the "compare with others" popovers. */
+export async function getPeerAverages(memberId: number): Promise<PeerAverages> {
+  const { rows } = await pool.query(
+    `SELECT
+       (SELECT avg(aligned_votes::float / counted_votes)
+          FROM member_discipline
+         WHERE counted_votes >= 20 AND member_id <> $1) AS "avgDiscipline",
+       (SELECT avg(total)::float
+          FROM member_speech_stats WHERE member_id <> $1) AS "avgSpeeches",
+       (SELECT avg(spent_eur)::float
+          FROM member_expenses
+         WHERE year = (SELECT max(year) FROM member_expenses) AND member_id <> $1) AS "avgSpent",
+       (SELECT max(year) FROM member_expenses) AS "expenseYear"`,
+    [memberId],
+  );
+  const r = rows[0] ?? {};
+  return {
+    avgDiscipline: r.avgDiscipline != null ? Number(r.avgDiscipline) : null,
+    avgSpeeches: r.avgSpeeches != null ? Number(r.avgSpeeches) : null,
+    avgSpent: r.avgSpent != null ? Number(r.avgSpent) : null,
+    expenseYear: r.expenseYear ?? null,
+  };
+}
+
 export type MemberRecord = {
   memberId: number;
   fullName: string;

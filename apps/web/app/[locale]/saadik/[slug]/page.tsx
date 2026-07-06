@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { getMemberDetail } from "@/lib/queries";
+import { getMemberDetail, getPeerAverages, type PeerAverages } from "@/lib/queries";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 import { MemberHeader } from "@/components/member/member-header";
 import { DisciplineSummary } from "@/components/member/discipline-summary";
 import { PartyBreakdown } from "@/components/member/party-breakdown";
@@ -36,6 +37,7 @@ export default async function MemberPage({
   const { locale, slug } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("memberDetail");
+  const nav = await getTranslations("nav");
 
   let detail = null;
   try {
@@ -63,19 +65,22 @@ export default async function MemberPage({
   // These three panels are independent and each degrades gracefully to empty on failure. Fetch
   // them in parallel (allSettled) so an ISR cache-miss render pays one round-trip instead of three
   // stacked ones -- matching getMemberDetail's own Promise.all fan-out.
-  const [speechStatsR, electionR, expensesR] = await Promise.allSettled([
+  const [speechStatsR, electionR, expensesR, peersR] = await Promise.allSettled([
     getMemberSpeechStats(d.member.memberId),
     getMemberElection(d.member.memberId),
     getMemberExpenses(d.member.memberId),
+    getPeerAverages(d.member.memberId),
   ]);
   const speechStats = speechStatsR.status === "fulfilled" ? speechStatsR.value : null;
   const election = electionR.status === "fulfilled" ? electionR.value : null;
   const expenses = expensesR.status === "fulfilled" ? expensesR.value : [];
+  const peers: PeerAverages | null = peersR.status === "fulfilled" ? peersR.value : null;
 
   return (
     <>
       <SiteHeader />
       <main className="mx-auto max-w-5xl px-4 py-10">
+        <Breadcrumbs items={[{ label: nav("members"), href: "/saadikud" }, { label: d.member.fullName }]} />
         <MemberHeader member={d.member} />
         <p className="mt-1 text-xs uppercase tracking-wide text-muted-foreground">{t("cycle")}</p>
         {tenureLabel && (
@@ -95,6 +100,7 @@ export default async function MemberPage({
               aligned={d.aligned}
               defections={d.defections}
               partyShortName={d.member.partyShortName}
+              avgDiscipline={peers?.avgDiscipline}
             />
             <MemberVotes votes={d.votes} voteResults={d.voteResults} />
             {speechStats && (
@@ -103,10 +109,11 @@ export default async function MemberPage({
                 memberId={d.member.memberId}
                 boardRole={d.member.boardRole}
                 mandateStartedOn={d.member.mandateStartedOn}
+                avgSpeeches={peers?.avgSpeeches}
               />
             )}
             <PartyBreakdown rows={d.breakdown} />
-            <ExpensePanel years={expenses} />
+            <ExpensePanel years={expenses} avgSpent={peers?.avgSpent} avgYear={peers?.expenseYear} />
           </div>
           <div className="space-y-6">
             {election && (

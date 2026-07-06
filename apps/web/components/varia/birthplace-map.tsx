@@ -111,7 +111,7 @@ export function BirthplaceMap({ pins }: { pins: BirthPin[] }) {
                     <ul className="mt-1 flex flex-wrap gap-x-3 gap-y-1">
                       {ms.map((m) => (
                         <li key={m.slug}>
-                          <Link href={`/members/${m.slug}`} className="text-sm hover:underline">{m.fullName}</Link>
+                          <Link href={`/saadik/${m.slug}`} className="text-sm hover:underline">{m.fullName}</Link>
                         </li>
                       ))}
                     </ul>

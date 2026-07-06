@@ -74,13 +74,13 @@ export function Generations({ rows }: { rows: GenRow[] }) {
         <Callout label={t("avgAge")}><span className="text-2xl font-bold tabular-nums">{avgAge}</span></Callout>
         {youngest && (
           <Callout label={t("youngest")}>
-            <Link href={`/members/${youngest.slug}`} className="font-semibold hover:underline">{youngest.fullName}</Link>
+            <Link href={`/saadik/${youngest.slug}`} className="font-semibold hover:underline">{youngest.fullName}</Link>
             <span className="block text-xs text-muted-foreground">{t("yearsOld", { n: youngest.age })}</span>
           </Callout>
         )}
         {oldest && (
           <Callout label={t("oldest")}>
-            <Link href={`/members/${oldest.slug}`} className="font-semibold hover:underline">{oldest.fullName}</Link>
+            <Link href={`/saadik/${oldest.slug}`} className="font-semibold hover:underline">{oldest.fullName}</Link>
             <span className="block text-xs text-muted-foreground">{t("yearsOld", { n: oldest.age })}</span>
           </Callout>
         )}
@@ -149,7 +149,7 @@ export function Generations({ rows }: { rows: GenRow[] }) {
                   <ul className="grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
                     {[...a.cohorts[open]].sort((x, y) => x.age - y.age).map((m) => (
                       <li key={m.slug}>
-                        <Link href={`/members/${m.slug}`} className="flex items-center gap-2 hover:underline">
+                        <Link href={`/saadik/${m.slug}`} className="flex items-center gap-2 hover:underline">
                           <MemberAvatar fullName={m.fullName} photoThumbPath={m.photoThumbPath} shortName={a.party} />
                           <span className="min-w-0">
                             <span className="block truncate text-sm font-medium">{m.fullName}</span>

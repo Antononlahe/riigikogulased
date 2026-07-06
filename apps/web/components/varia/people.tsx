@@ -74,7 +74,7 @@ function PeoplePopup({ trigger, members }: { trigger: React.ReactNode; members: 
         <div className="my-1 h-px bg-border" />
         {members.map((m) => (
           <DropdownMenuItem key={m.slug} asChild>
-            <Link href={`/members/${m.slug}`} className="flex items-center gap-1.5">
+            <Link href={`/saadik/${m.slug}`} className="flex items-center gap-1.5">
               <span className="truncate">{m.fullName}</span>
               {m.party && <PartyBadge shortName={m.party} />}
             </Link>
@@ -168,7 +168,7 @@ export function Universities({ rows }: { rows: PeopleRow[] }) {
                   <ul className="flex flex-wrap gap-x-4 gap-y-1.5">
                     {r.members.map((m) => (
                       <li key={m.slug} className="flex items-center gap-1.5 text-sm">
-                        <Link href={`/members/${m.slug}`} className="hover:underline">{m.fullName}</Link>
+                        <Link href={`/saadik/${m.slug}`} className="hover:underline">{m.fullName}</Link>
                         {m.party && <PartyBadge shortName={m.party} />}
                       </li>
                     ))}
@@ -232,7 +232,7 @@ export function Children({ rows }: { rows: ChildRow[] }) {
         {top.map((c) => (
           <li key={c.slug} className="flex items-center gap-3">
             <span className="flex w-56 shrink-0 items-center gap-2">
-              <Link href={`/members/${c.slug}`} className="truncate text-sm font-semibold hover:underline">
+              <Link href={`/saadik/${c.slug}`} className="truncate text-sm font-semibold hover:underline">
                 {c.fullName}
               </Link>
               <PartyBadge shortName={c.partyShortName} />

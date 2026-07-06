@@ -8,6 +8,7 @@ import { getMemberSpeechMeta } from "@/lib/speeches-queries";
 import { RATE_FLOOR_DAYS } from "@/lib/speeches";
 import { SpeechSearch } from "@/components/member/speech-search";
 import { SpeechBrowse } from "@/components/member/speech-browse";
+import { ComparePopover } from "@/components/member/compare-popover";
 
 function Tile({ label, value, sub }: { label: string; value: number | string; sub?: string }) {
   return (
@@ -62,11 +63,13 @@ export async function SpeechPanel({
   memberId,
   boardRole,
   mandateStartedOn,
+  avgSpeeches,
 }: {
   stats: SpeechStats;
   memberId: number;
   boardRole?: string | null;
   mandateStartedOn?: string | null;
+  avgSpeeches?: number | null;
 }) {
   const t = await getTranslations("memberDetail");
   const meta = await getMemberSpeechMeta(memberId);
@@ -83,6 +86,16 @@ export async function SpeechPanel({
     <section>
       <div className="mb-3 flex flex-wrap items-center gap-2">
         <h2 className="font-serif text-lg font-bold">{t("speechesTitle")}</h2>
+        {avgSpeeches != null && (
+          <ComparePopover
+            ariaLabel={t("compare.aria")}
+            memberLabel={t("compare.member")}
+            memberValue={stats.total.toLocaleString("et")}
+            othersLabel={t("compare.others")}
+            othersValue={Math.round(avgSpeeches).toLocaleString("et")}
+            note={t("compare.speechesNote")}
+          />
+        )}
         {board && (
           <span className="rounded-full border border-border bg-muted px-2 py-0.5 text-[11px] font-medium text-muted-foreground">
             {t(board === "ESIMEES" ? "boardChair" : "boardDeputy")}

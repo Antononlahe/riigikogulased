@@ -11,6 +11,7 @@
   },
   "footer": {
     "source": "Andmeallikas: Riigikogu",
+    "methodology": "Metoodika",
     "github": "Lähtekood GitHubis",
     "contact": "Tagasiside: Anton Žatkin ·"
   },
@@ -20,7 +21,9 @@
     "speeches": "Sõnavõtud",
     "expenses": "Kuluhüvitised",
     "decisive": "Otsustavad hääled",
-    "varia": "Varia"
+    "varia": "Varia",
+    "searchPlaceholder": "Otsi saadikut…",
+    "searchNoResults": "Ei leidnud."
   },
   "hub": {
     "heading": "Riigikogu numbrites",
@@ -28,14 +31,22 @@
     "empty": "Andmeid pole veel.",
     "tiedCount": "{n} saadikut",
     "rebelTitle": "Enim oma fraktsiooni vastu",
+    "loyalTitle": "Fraktsioonitruum",
     "rebelValue": "vastu {pct}%",
+    "rebelSub": "hääletas fraktsiooni vastu {d} korral {c}-st",
     "talkerTitle": "Sõnaohtraim",
+    "quietTitle": "Sõnaahtraim",
     "talkerValue": "{n, number} sõna",
+    "talkerSub": "{n, number} sõnavõttu täiskogul",
     "absenteeTitle": "Enim puudumisi",
+    "presentTitle": "Kohalolijaim",
     "absenteeValue": "puudus {pct}%",
+    "absenteeSub": "puudus {a} hääletuselt {c}-st",
     "closestTitle": "Napim hääletus",
     "closestValue": "{gap} hääle kaugusel",
+    "closestSub": "nii lähedal oli tulemuse muutumine",
     "youngestTitle": "Noorim saadik",
+    "oldestTitle": "Vanim saadik",
     "youngestValue": "{age} aastat",
     "childrenTitle": "Lasterikkaim",
     "childrenValue": "{n} last"
@@ -167,6 +178,22 @@
     "childrenByParty": "Keskmine peres fraktsiooniti",
     "byParty": "Fraktsiooniti"
   },
+  "metoodika": {
+    "title": "Metoodika",
+    "intro": "Kuidas me arvutame parteidistsipliini ja kust andmed pärinevad.",
+    "s1h": "Andmeallikad",
+    "s1p": "Kõik hääletus- ja liikmeandmed pärinevad Riigikogu ametlikust avaandmete liidesest (api.riigikogu.ee, litsents CC-BY-SA 3.0). Riigikogu API näitab ainult fraktsioonikuuluvust, mitte erakondlikku kuuluvust — erakonna liikmesus tuleb äriregistri erakondade registrist, kus isik seotakse saadikuga nime ja sünnikuupäeva järgi. Andmeid uuendatakse kord ööpäevas.",
+    "s2h": "Kelle vastu distsipliini mõõdame",
+    "s2p": "Iga hääletuse juures määrame saadikule „skoorimise erakonna\": kui ta kuulub hääletuse hetkel fraktsiooni, siis selle fraktsiooni erakond; kui ta on fraktsioonitu, aga on äriregistri järgi mõne erakonna liige, siis see erakond. Päriselt sõltumatud saadikud (ei fraktsiooni ega erakonda) jäävad arvestusest välja.",
+    "s3h": "Erakonna seisukoht",
+    "s3p": "Erakonna seisukoht ühel hääletusel on tema fraktsiooni liikmete häälte range enamus (poolt / vastu / erapooletu). Saadiku enda hääl jäetakse enamuse arvutusest välja, kui ta ise on sama fraktsiooni liige. Kui ühelgi valikul ranget enamust pole — fraktsioon oli lõhki —, siis see hääletus saadiku skoori ei mõjuta.",
+    "s4h": "Mida arvesse ei võeta",
+    "s4p": "Välja jäävad protseduurilised hääletused (kohaloleku kontroll, päevakorra kinnitamine), hääletused, kus saadik puudus (puudumine pole vastuhääl), hääletused, kus fraktsioon oli lõhki, ning hääletused, kus saadiku erakonnal pole Riigikogus fraktsiooni (pole seisukohta, mille vastu hääletada).",
+    "s5h": "Skoor",
+    "s5p": "Distsipliiniprotsent = erakonna seisukohaga kooskõlas antud hääled / (kooskõlas + vastu antud hääled). Näiteks 95% tähendab, et sajast arvesse läinud hääletusest hääletas saadik viiel korral oma erakonna enamuse vastu.",
+    "s6h": "Piirangud",
+    "s6p": "Enamuspositsioon ei pruugi alati kajastada erakonna ametlikku seisukohta — me mõõdame käitumist, mitte kokkuleppeid. Väikese hääletuste arvuga saadikute (nt äsja liitunud asendusliikmed) protsent on statistiliselt ebakindel; edetabelites rakendame seetõttu miinimumlävendit."
+  },
   "theme": {
     "label": "Värviteema",
     "light": "Hele",
@@ -222,6 +249,13 @@
     "barsHeading": "Fraktsiooniti"
   },
   "memberDetail": {
+    "compare": {
+      "aria": "Võrdle teistega",
+      "member": "See saadik",
+      "others": "Teiste keskmine",
+      "speechesNote": "Sõnavõtte kokku (kõned, küsimused, protseduurilised).",
+      "expensesNote": "Kuluhüvitisi kasutatud {year}. aastal."
+    },
     "discipline": "Distsipliin",
     "counted": "Hääletusi",
     "against": "Vastu",

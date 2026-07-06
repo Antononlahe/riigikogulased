@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 import { Network } from "@/components/varia/network";
 import { getFriendshipMembers, getCauseMembers } from "@/lib/varia-queries";
 import type { CaucusMember } from "@/lib/varia";
@@ -25,6 +26,7 @@ export default async function NetworkPage({ params }: { params: Promise<{ locale
     <>
       <SiteHeader />
       <main className="mx-auto max-w-5xl px-4 py-10">
+        <Breadcrumbs items={[{ label: t("hubTitle"), href: "/statistika/varia" }, { label: t("vorgustikTitle") }]} />
         <h1 className="font-serif text-2xl font-bold tracking-tight">{t("vorgustikTitle")}</h1>
         <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("vorgustikIntro")}</p>
         {empty ? (

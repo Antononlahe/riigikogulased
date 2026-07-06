@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import type { ExpenseYear } from "@/lib/expenses-queries";
+import { ComparePopover } from "@/components/member/compare-popover";
 
 // CSV category key -> ascii message key (keeps next-intl keys ascii; labels live in messages).
 const CAT_KEY: Record<string, string> = {
@@ -20,15 +21,38 @@ const eur = (n: number) =>
 
 // Member-page panel: annual expense compensation (kuluhüvitised). A spent/limit bar per year,
 // plus the category split for the most recent year. Source: Riigikogu published summaries.
-export function ExpensePanel({ years }: { years: ExpenseYear[] }) {
+export function ExpensePanel({
+  years,
+  avgSpent,
+  avgYear,
+}: {
+  years: ExpenseYear[];
+  avgSpent?: number | null;
+  avgYear?: number | null;
+}) {
   const t = useTranslations("memberDetail.expenses");
+  const c = useTranslations("memberDetail.compare");
   if (years.length === 0) return null;
   const latest = years[0];
   const cats = Object.entries(latest.breakdown).sort((a, b) => b[1] - a[1]);
+  // Compare spent in the site-wide latest expense year; only if this member has that year.
+  const compareYear = years.find((y) => y.year === avgYear);
 
   return (
     <div className="rounded-md border border-border p-4">
-      <h3 className="font-serif text-lg font-bold">{t("title")}</h3>
+      <div className="flex items-center gap-1.5">
+        <h3 className="font-serif text-lg font-bold">{t("title")}</h3>
+        {avgSpent != null && compareYear && (
+          <ComparePopover
+            ariaLabel={c("aria")}
+            memberLabel={c("member")}
+            memberValue={eur(compareYear.spent)}
+            othersLabel={c("others")}
+            othersValue={eur(avgSpent)}
+            note={c("expensesNote", { year: avgYear as number })}
+          />
+        )}
+      </div>
       <p className="mt-1 text-xs text-muted-foreground">{t("intro")}</p>
 
       <div className="mt-4 space-y-3">

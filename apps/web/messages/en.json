@@ -11,6 +11,7 @@
   },
   "footer": {
     "source": "Data source: Riigikogu",
+    "methodology": "Methodology",
     "github": "Source on GitHub",
     "contact": "Feedback: Anton Žatkin ·"
   },
@@ -20,7 +21,9 @@
     "speeches": "Speeches",
     "expenses": "Expenses",
     "decisive": "Decisive votes",
-    "varia": "Varia"
+    "varia": "Varia",
+    "searchPlaceholder": "Find an MP…",
+    "searchNoResults": "No matches."
   },
   "hub": {
     "heading": "The Riigikogu in numbers",
@@ -28,14 +31,22 @@
     "empty": "No data yet.",
     "tiedCount": "{n} MPs",
     "rebelTitle": "Most often against their faction",
+    "loyalTitle": "Most loyal to their faction",
     "rebelValue": "against {pct}%",
+    "rebelSub": "voted against the faction line {d} times out of {c}",
     "talkerTitle": "Most talkative",
+    "quietTitle": "Quietest",
     "talkerValue": "{n, number} words",
+    "talkerSub": "{n, number} floor contributions",
     "absenteeTitle": "Most absences",
+    "presentTitle": "Most present",
     "absenteeValue": "absent {pct}%",
+    "absenteeSub": "missed {a} of {c} votes",
     "closestTitle": "Closest vote",
     "closestValue": "{gap} votes away",
+    "closestSub": "that is how close the outcome came to flipping",
     "youngestTitle": "Youngest member",
+    "oldestTitle": "Oldest member",
     "youngestValue": "{age} years",
     "childrenTitle": "Most children",
     "childrenValue": "{n} children"
@@ -167,6 +178,22 @@
     "childrenByParty": "Average per family by faction",
     "byParty": "By faction"
   },
+  "metoodika": {
+    "title": "Methodology",
+    "intro": "How we compute party discipline and where the data comes from.",
+    "s1h": "Data sources",
+    "s1p": "All voting and member data comes from the Riigikogu's official open data API (api.riigikogu.ee, licensed CC-BY-SA 3.0). The Riigikogu API only records faction (fraktsioon) membership, not party membership — party membership comes from the Estonian Business Register's registry of political parties, matched to members by name and date of birth. Data is refreshed once a day.",
+    "s2h": "Whose line a member is scored against",
+    "s2p": "For each vote we assign the member a \"scoring party\": the party of the faction they sit in at the time of the vote; if they are unaffiliated but a registered member of a party, that party. Truly independent members (no faction and no party) are excluded.",
+    "s3h": "The party line",
+    "s3p": "A party's position on a vote is the strict majority choice (yes / no / abstain) among its faction members. The member's own ballot is excluded from the majority calculation when they themselves sit in that faction. If no choice has a strict majority — the faction was split — the vote does not affect the member's score.",
+    "s4h": "What is excluded",
+    "s4p": "We exclude procedural votes (presence checks, agenda adoption), votes where the member was absent (absence is not a defection), votes where the faction was split, and votes where the member's party has no faction in the Riigikogu (there is no line to defy).",
+    "s5h": "The score",
+    "s5p": "Discipline percentage = votes aligned with the party line / (aligned + defecting votes). A score of 95% means that out of a hundred counted votes, the member voted against their party's majority five times.",
+    "s6h": "Limitations",
+    "s6p": "The majority position may not always match the party's official stance — we measure behaviour, not agreements. For members with few counted votes (e.g. recently seated substitutes) the percentage is statistically unstable; leaderboards therefore apply a minimum-vote floor."
+  },
   "theme": {
     "label": "Theme",
     "light": "Light",
@@ -222,6 +249,13 @@
     "barsHeading": "By faction"
   },
   "memberDetail": {
+    "compare": {
+      "aria": "Compare with others",
+      "member": "This MP",
+      "others": "Average of others",
+      "speechesNote": "Total floor contributions (speeches, questions, procedural).",
+      "expensesNote": "Expense compensation used in {year}."
+    },
     "discipline": "Discipline",
     "counted": "Votes",
     "against": "Against",

@@ -6,10 +6,17 @@ const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 const nextConfig: NextConfig = {
   typedRoutes: true,
   async redirects() {
-    return [
-      { source: "/factions", destination: "/fraktsioonid", permanent: false },
-      { source: "/en/factions", destination: "/en/fraktsioonid", permanent: false },
-    ];
+    // Old routes (pre-2026-07 Estonian rename). Both bare (default locale et) and /en/ forms,
+    // since localePrefix is "as-needed".
+    const renames = [
+      ["/parteidistsipliin", "/saadikud"],
+      ["/members/:slug", "/saadik/:slug"],
+      ["/statistika", "/statistika/sonavotud"],
+    ] as const;
+    return renames.flatMap(([source, destination]) => [
+      { source, destination, permanent: true },
+      { source: `/en${source}`, destination: `/en${destination}`, permanent: true },
+    ]);
   },
 };
 

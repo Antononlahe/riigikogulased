@@ -43,7 +43,7 @@ function VoteCard({ v }: { v: DecisiveVote }) {
       <ul className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
         {v.defectors.map((d) => (
           <li key={d.slug} className="flex items-center gap-1.5">
-            <Link href={`/members/${d.slug}`} className="font-medium text-foreground hover:underline">
+            <Link href={`/saadik/${d.slug}`} className="font-medium text-foreground hover:underline">
               {d.fullName}
             </Link>
             <PartyBadge shortName={d.partyShortName} />

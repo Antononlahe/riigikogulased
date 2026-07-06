@@ -124,7 +124,7 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
                   <th scope="row" className="px-4 py-2 text-left font-normal">
                     <span className="flex items-center gap-3 font-semibold">
                       <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
-                      <Link href={`/members/${r.slug}`} className="hover:underline">
+                      <Link href={`/saadik/${r.slug}`} className="hover:underline">
                         {r.fullName}
                       </Link>
                       <PartyBadge shortName={r.partyShortName} />
@@ -199,7 +199,7 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
             >
               <span className="flex items-center gap-3 font-semibold">
                 <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
-                <Link href={`/members/${r.slug}`} className="hover:underline">
+                <Link href={`/saadik/${r.slug}`} className="hover:underline">
                   {r.fullName}
                 </Link>
                 <PartyBadge shortName={r.partyShortName} />

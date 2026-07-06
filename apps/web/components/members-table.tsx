@@ -69,7 +69,7 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
       <span className="flex items-center gap-3 font-semibold">
         <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
         <Link
-          href={`/members/${r.slug}`}
+          href={`/saadik/${r.slug}`}
           className="hover:underline"
           style={{ viewTransitionName: `member-${r.slug}` }}
         >

@@ -2,15 +2,23 @@ import { getTranslations } from "next-intl/server";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { LocaleToggle } from "@/components/locale-toggle";
 import { StatistikaMenu } from "@/components/statistika-menu";
+import { MemberSearch } from "@/components/member-search";
 import { Link } from "@/i18n/routing";
+import { getMemberIndex, type MemberIndexRow } from "@/lib/queries";
 
 export async function SiteHeader() {
   const site = await getTranslations("site");
   const nav = await getTranslations("nav");
+  let memberIndex: MemberIndexRow[] = [];
+  try {
+    memberIndex = await getMemberIndex();
+  } catch {
+    // DB down -> search box simply hidden
+  }
   // Four visible headings; the two boards that used to hide in Varia (Sõnavõtud, Kuluhüvitised)
   // now live under the Statistika dropdown, and Otsustavad hääled is promoted to its own heading.
   const statsItems = [
-    { href: "/statistika", label: nav("speeches") },
+    { href: "/statistika/sonavotud", label: nav("speeches") },
     { href: "/statistika/kulud", label: nav("expenses") },
   ];
   return (
@@ -22,11 +30,18 @@ export async function SiteHeader() {
           {site("title")}
         </Link>
         <nav className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
-          <Link href="/parteidistsipliin" className="hover:text-foreground">{nav("members")}</Link>
+          <Link href="/saadikud" className="hover:text-foreground">{nav("members")}</Link>
           <Link href="/statistika/otsustavad" className="hover:text-foreground">{nav("decisive")}</Link>
           <StatistikaMenu label={nav("statistika")} items={statsItems} />
           <Link href="/statistika/varia" className="hover:text-foreground">{nav("varia")}</Link>
           <span className="mx-1 h-4 w-px bg-border" aria-hidden />
+          {memberIndex.length > 0 && (
+            <MemberSearch
+              items={memberIndex}
+              placeholder={nav("searchPlaceholder")}
+              noResults={nav("searchNoResults")}
+            />
+          )}
           <LocaleToggle />
           <ThemeToggle />
         </nav>

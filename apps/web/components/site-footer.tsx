@@ -1,11 +1,18 @@
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/routing";
 
 export async function SiteFooter() {
   const footer = await getTranslations("footer");
   return (
     <footer className="mt-12 flex items-start justify-between gap-4 border-t border-border pt-4 text-xs text-muted-foreground">
       <div>
-        <p>{footer("source")}</p>
+        <p>
+          {footer("source")}
+          {" · "}
+          <Link href="/metoodika" className="underline underline-offset-2 hover:text-foreground">
+            {footer("methodology")}
+          </Link>
+        </p>
         <p>
           {footer("contact")}{" "}
           <a href="mailto:anton.zatkin@gmail.com" className="hover:text-foreground">
