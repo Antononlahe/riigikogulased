@@ -13,7 +13,7 @@
     "scrape": "cd apps/scraper && uv run parteidistsipliin-scraper",
     "scrape:install": "cd apps/scraper && uv sync",
     "scrape:test": "cd apps/scraper && uv run pytest",
-    "db:migrate": "psql \"$DATABASE_URL\" -f packages/db/migrations/0001_initial.sql"
+    "db:migrate": "cd apps/scraper && uv run parteidistsipliin-scraper migrate"
   },
   "packageManager": "pnpm@9.12.0",
   "engines": {
