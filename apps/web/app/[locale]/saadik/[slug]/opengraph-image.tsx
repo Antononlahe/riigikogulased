@@ -99,7 +99,7 @@ export default async function OgImage({
           }}
         >
           {photo && (
-            {/* eslint-disable-next-line @next/next/no-img-element -- satori renders raw <img> */}
+            // eslint-disable-next-line @next/next/no-img-element -- satori renders raw <img>
             <img
               alt=""
               src={photo}
