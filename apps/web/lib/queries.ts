@@ -154,11 +154,22 @@ export type MemberDetail = {
   aligned: number;
   defections: number;
   breakdown: PartyBreakdownRow[];
+  // Only the member's against-the-line votes carry full rows; every other vote is just a date in
+  // contextDates (timeline ticks). Shipping all ~4k full rows made each member page ~1.2MB of
+  // ISR-cached HTML, which blew through Vercel's ISR-write quota (2026-07-05..06 incident).
   votes: VotePoint[];
+  contextDates: string[]; // "YYYY-MM-DD" of every non-defection vote, ascending
   voteResults: Record<number, VoteResult>;
   committees: Affiliation[];
   districts: Affiliation[];
 };
+
+// A defection under the scoring rules: non-procedural, a party line existed, the member cast a
+// registered ballot that differed from it. Mirrors lib/member-detail classifyVote === "against".
+const DEFECTION_SQL = `NOT mva.is_procedural
+  AND mva.party_majority_choice IS NOT NULL
+  AND mva.member_choice IN ('yes','no','abstain')
+  AND mva.member_choice <> mva.party_majority_choice`;
 
 export async function getMemberDetail(slug: string): Promise<MemberDetail | null> {
   const memberRes = await pool.query(
@@ -180,9 +191,10 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
   const member = memberRes.rows[0] as MemberRecord;
   const id = member.memberId;
 
-  // These five all depend only on `id` and are independent of each other -- run concurrently
-  // so the member page pays one round-trip's latency, not five stacked (cold-render waterfall).
-  const [summaryRes, breakdownRes, votesRes, committeesRes, districtsRes] = await Promise.all([
+  // These all depend only on `id` and are independent of each other -- run concurrently
+  // so the member page pays one round-trip's latency, not six stacked (cold-render waterfall).
+  const [summaryRes, breakdownRes, votesRes, contextRes, committeesRes, districtsRes] =
+    await Promise.all([
     pool.query(
       `SELECT counted_votes AS counted, aligned_votes AS aligned, defections
        FROM member_discipline WHERE member_id = $1`,
@@ -220,7 +232,16 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
        JOIN votes v ON v.id = mva.vote_id
        LEFT JOIN parties p ON p.id = mva.party_id
        LEFT JOIN draft_outcomes do_ ON do_.draft_uuid = v.draft_uuid
-      WHERE mva.member_id = $1
+      WHERE mva.member_id = $1 AND ${DEFECTION_SQL}
+      ORDER BY v.voted_at`,
+      [id],
+    ),
+    pool.query(
+    // One row per vote (not DISTINCT per day): the timeline's aria-label counts votes.
+    `SELECT to_char(v.voted_at, 'YYYY-MM-DD') AS d
+       FROM ballot_alignment mva
+       JOIN votes v ON v.id = mva.vote_id
+      WHERE mva.member_id = $1 AND NOT (${DEFECTION_SQL})
       ORDER BY v.voted_at`,
       [id],
     ),
@@ -249,24 +270,8 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
   const summary = summaryRes.rows[0] ?? { counted: 0, aligned: 0, defections: 0 };
 
   // Per-faction ballot tallies for the member's defection votings (the "how they voted" panel).
-  // Defection vote ids are computed with the same predicate as lib/member-detail classifyVote.
-  const REG = new Set(["yes", "no", "abstain"]);
-  const defectionIds = (
-    votesRes.rows as Array<{
-      voteId: number;
-      isProcedural: boolean;
-      memberChoice: string;
-      partyMajorityChoice: string | null;
-    }>
-  )
-    .filter(
-      (r) =>
-        !r.isProcedural &&
-        r.partyMajorityChoice !== null &&
-        REG.has(r.memberChoice) &&
-        r.memberChoice !== r.partyMajorityChoice,
-    )
-    .map((r) => r.voteId);
+  // votesRes already contains exactly the defections (DEFECTION_SQL).
+  const defectionIds = (votesRes.rows as Array<{ voteId: number }>).map((r) => r.voteId);
 
   const voteResults: Record<number, VoteResult> = {};
   if (defectionIds.length > 0) {
@@ -327,6 +332,7 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
       ...r,
       votedAt: new Date(r.votedAt).toISOString(),
     })) as VotePoint[],
+    contextDates: contextRes.rows.map((r) => r.d as string),
     voteResults,
     committees: committeesRes.rows as Affiliation[],
     districts: districtsRes.rows as Affiliation[],

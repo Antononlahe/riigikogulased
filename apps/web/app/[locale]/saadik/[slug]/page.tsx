@@ -102,7 +102,7 @@ export default async function MemberPage({
               partyShortName={d.member.partyShortName}
               avgDiscipline={peers?.avgDiscipline}
             />
-            <MemberVotes votes={d.votes} voteResults={d.voteResults} />
+            <MemberVotes votes={d.votes} contextDates={d.contextDates} voteResults={d.voteResults} />
             {speechStats && (
               <SpeechPanel
                 stats={speechStats}

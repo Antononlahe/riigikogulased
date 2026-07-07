@@ -46,13 +46,15 @@ type Kind = "all" | "abstain" | "differ";
 
 function Timeline({
   width,
-  all,
+  contextMs,
+  defs,
   activeKeys,
   hovered,
   setHovered,
 }: {
   width: number;
-  all: VotePoint[];
+  contextMs: number[]; // non-defection vote timestamps, ascending (faint context ticks)
+  defs: VotePoint[]; // against-the-line votes (the only ones with full data)
   activeKeys: Set<string>;
   hovered: string | null;
   setHovered: (k: string | null) => void;
@@ -61,9 +63,12 @@ function Timeline({
   const svgRef = useRef<SVGSVGElement | null>(null);
   const [zoom, setZoom] = useState<[number, number] | null>(null);
 
-  const hasData = all.length > 0;
-  const fullMin = hasData ? new Date(all[0].votedAt).getTime() : 0;
-  const fullMax = hasData ? new Date(all[all.length - 1].votedAt).getTime() : 0;
+  const defMs = defs.map((v) => new Date(v.votedAt).getTime());
+  const total = contextMs.length + defs.length;
+  const hasData = total > 0;
+  // contextMs is ascending, defMs is not (defs come most-recent-first).
+  const fullMin = hasData ? Math.min(contextMs[0] ?? Infinity, ...defMs) : 0;
+  const fullMax = hasData ? Math.max(contextMs[contextMs.length - 1] ?? -Infinity, ...defMs) : 0;
   const domMin = zoom ? zoom[0] : fullMin;
   const domMax = zoom ? zoom[1] : fullMax;
 
@@ -117,7 +122,22 @@ function Timeline({
     domain: [new Date(domMin), new Date(domMax)],
     range: [MARGIN.left, innerRight],
   });
-  const active = all.filter((v) => activeKeys.has(keyOf(v)) && inDom(new Date(v.votedAt).getTime()));
+  const active = defs.filter((v) => activeKeys.has(keyOf(v)) && inDom(new Date(v.votedAt).getTime()));
+
+  // Faint context ticks: every non-defection vote plus non-highlighted defections, decimated to
+  // one tick per pixel column -- thousands of overplotted 1px lines convey nothing more than one,
+  // and undecimated they ballooned the SSR HTML (~4k SVG nodes per page).
+  const seenPx = new Set<number>();
+  const ticks = [
+    ...contextMs,
+    ...defs.filter((v) => !activeKeys.has(keyOf(v))).map((v) => new Date(v.votedAt).getTime()),
+  ].filter((ms) => {
+    if (!inDom(ms)) return false;
+    const px = Math.round(x(new Date(ms)));
+    if (seenPx.has(px)) return false;
+    seenPx.add(px);
+    return true;
+  });
 
   return (
     <div className="relative">
@@ -130,23 +150,21 @@ function Timeline({
           {t("zoomReset")}
         </button>
       )}
-      <svg ref={svgRef} width={width} height={TIMELINE_HEIGHT} role="img" aria-label={t("timelineAria", { n: all.length })}>
+      <svg ref={svgRef} width={width} height={TIMELINE_HEIGHT} role="img" aria-label={t("timelineAria", { n: total })}>
       {/* every non-highlighted vote in view: faint context tick (cadence, not interactive) */}
       <Group>
-        {all.map((v, i) =>
-          activeKeys.has(keyOf(v)) || !inDom(new Date(v.votedAt).getTime()) ? null : (
-            <line
-              key={i}
-              x1={x(new Date(v.votedAt))}
-              x2={x(new Date(v.votedAt))}
-              y1={BASE_Y - 6}
-              y2={BASE_Y + 6}
-              stroke="var(--muted-foreground)"
-              strokeWidth={1}
-              opacity={0.2}
-            />
-          ),
-        )}
+        {ticks.map((ms, i) => (
+          <line
+            key={i}
+            x1={x(new Date(ms))}
+            x2={x(new Date(ms))}
+            y1={BASE_Y - 6}
+            y2={BASE_Y + 6}
+            stroke="var(--muted-foreground)"
+            strokeWidth={1}
+            opacity={0.2}
+          />
+        ))}
       </Group>
 
       {/* highlighted defections: big red clickable lollipops */}
@@ -306,16 +324,15 @@ function ResultPanel({
  */
 export function MemberVotes({
   votes,
+  contextDates,
   voteResults,
 }: {
-  votes: VotePoint[];
+  votes: VotePoint[]; // against-the-line votes only (full rows)
+  contextDates: string[]; // "YYYY-MM-DD" of every other vote, ascending (timeline context)
   voteResults: Record<number, VoteResult>;
 }) {
   const t = useTranslations("memberDetail");
-  const all = useMemo(
-    () => [...votes].sort((a, b) => a.votedAt.localeCompare(b.votedAt)),
-    [votes],
-  );
+  const contextMs = useMemo(() => contextDates.map((d) => new Date(d).getTime()), [contextDates]);
   const defs = useMemo(() => againstVotes(votes), [votes]);
   const typeOptions = useMemo(() => voteTypeOptions(defs), [defs]);
 
@@ -356,7 +373,8 @@ export function MemberVotes({
             {({ width }) => (
               <Timeline
                 width={width || FALLBACK_WIDTH}
-                all={all}
+                contextMs={contextMs}
+                defs={defs}
                 activeKeys={activeKeys}
                 hovered={hovered}
                 setHovered={setHovered}
