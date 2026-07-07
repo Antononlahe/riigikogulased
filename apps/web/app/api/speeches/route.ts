@@ -16,12 +16,13 @@ export async function GET(request: Request) {
   try {
     if (q.length >= 2) {
       const limitRaw = Number(searchParams.get("limit"));
-      const hits = await searchSpeeches(q, {
+      const { hits, total } = await searchSpeeches(q, {
         memberId,
         party: searchParams.get("party") || undefined,
         limit: Number.isInteger(limitRaw) && limitRaw > 0 && limitRaw <= 50 ? limitRaw : undefined,
+        offset: Number(searchParams.get("offset") ?? 0) || 0,
       });
-      return NextResponse.json({ hits });
+      return NextResponse.json({ hits, total });
     }
     if (!memberId) return NextResponse.json({ hits: [], items: [] });
     const yearRaw = searchParams.get("year");
@@ -34,6 +35,6 @@ export async function GET(request: Request) {
     return NextResponse.json({ items });
   } catch {
     // table absent (feature not migrated here) or query error -> empty, never 500
-    return NextResponse.json({ hits: [], items: [] });
+    return NextResponse.json({ hits: [], items: [], total: 0 });
   }
 }

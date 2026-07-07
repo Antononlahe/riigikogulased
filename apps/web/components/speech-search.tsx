@@ -49,6 +49,7 @@ export function SpeechSearch({ memberId }: { memberId?: number }) {
   const t = useTranslations("memberDetail");
   const [q, setQ] = useState("");
   const [hits, setHits] = useState<SpeechHit[] | null>(null);
+  const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(false);
   const reqId = useRef(0);
   const global = memberId == null;
@@ -59,28 +60,38 @@ export function SpeechSearch({ memberId }: { memberId?: number }) {
     if (initial) setQ(initial);
   }, [global]);
 
+  // Fetch one page; offset 0 replaces the list (new search), otherwise appends (load more).
+  const fetchPage = async (term: string, offset: number) => {
+    const id = ++reqId.current;
+    setLoading(true);
+    try {
+      const member = memberId ? `memberId=${memberId}&` : "";
+      const res = await fetch(
+        `/api/speeches?${member}q=${encodeURIComponent(term)}&offset=${offset}`,
+      );
+      const data = (await res.json()) as { hits: SpeechHit[]; total: number };
+      if (id !== reqId.current) return;
+      setHits((prev) => (offset === 0 || !prev ? data.hits : [...prev, ...data.hits]));
+      setTotal(data.total ?? 0);
+    } catch {
+      if (id === reqId.current && offset === 0) setHits([]);
+    } finally {
+      if (id === reqId.current) setLoading(false);
+    }
+  };
+
   useEffect(() => {
     const term = q.trim();
     if (term.length < 2) {
       setHits(null);
+      setTotal(0);
       setLoading(false);
+      reqId.current++;
       return;
     }
-    setLoading(true);
-    const id = ++reqId.current;
-    const timer = setTimeout(async () => {
-      try {
-        const member = memberId ? `memberId=${memberId}&` : "";
-        const res = await fetch(`/api/speeches?${member}q=${encodeURIComponent(term)}`);
-        const data = (await res.json()) as { hits: SpeechHit[] };
-        if (id === reqId.current) setHits(data.hits);
-      } catch {
-        if (id === reqId.current) setHits([]);
-      } finally {
-        if (id === reqId.current) setLoading(false);
-      }
-    }, 300);
+    const timer = setTimeout(() => fetchPage(term, 0), 300);
     return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [q, memberId]);
 
   return (
@@ -109,11 +120,14 @@ export function SpeechSearch({ memberId }: { memberId?: number }) {
 
       {q.trim().length >= 2 && (
         <div className="mt-3">
-          {loading && <p className="text-sm text-muted-foreground">{t("searchLoading")}</p>}
+          {loading && !hits && <p className="text-sm text-muted-foreground">{t("searchLoading")}</p>}
           {!loading && hits && hits.length === 0 && (
             <p className="text-sm text-muted-foreground">{t("searchNoResults")}</p>
           )}
-          {!loading && hits && hits.length > 0 && (
+          {hits && hits.length > 0 && (
+            <p className="mb-2 text-xs text-muted-foreground">{t("searchTotal", { n: total })}</p>
+          )}
+          {hits && hits.length > 0 && (
             <ul className="divide-y divide-border overflow-hidden rounded-md border border-border">
               {hits.map((h) => {
                 const type = h.sittingType ?? "istung";
@@ -156,6 +170,16 @@ export function SpeechSearch({ memberId }: { memberId?: number }) {
                 );
               })}
             </ul>
+          )}
+          {hits && hits.length > 0 && hits.length < total && (
+            <button
+              type="button"
+              disabled={loading}
+              onClick={() => fetchPage(q.trim(), hits.length)}
+              className="mt-3 rounded-md border border-border px-3 py-1.5 text-sm hover:bg-secondary disabled:opacity-50"
+            >
+              {loading ? t("searchLoading") : t("loadMore")}
+            </button>
           )}
         </div>
       )}
