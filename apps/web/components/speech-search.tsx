@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { X } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
-import { HL_START, HL_END, type SpeechHit } from "@/lib/speech-search";
+import { HL_START, HL_END, pageList, type SpeechHit } from "@/lib/speech-search";
 
 function formatDate(iso: string | null): string {
   if (!iso) return "";
@@ -42,6 +42,8 @@ export function Snippet({ snippet }: { snippet: string }) {
   return <>{out}</>;
 }
 
+const PAGE_SIZE = 20;
+
 // Full-text search over stenogram speeches. With `memberId` it's the member-page box
 // (that member only); without it it searches the whole corpus and shows who spoke.
 // Site-wide mode reads an initial `?q=` from the URL so other pages can deep-link a search.
@@ -50,9 +52,11 @@ export function SpeechSearch({ memberId }: { memberId?: number }) {
   const [q, setQ] = useState("");
   const [hits, setHits] = useState<SpeechHit[] | null>(null);
   const [total, setTotal] = useState(0);
+  const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const reqId = useRef(0);
   const global = memberId == null;
+  const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
 
   useEffect(() => {
     if (!global) return;
@@ -60,24 +64,29 @@ export function SpeechSearch({ memberId }: { memberId?: number }) {
     if (initial) setQ(initial);
   }, [global]);
 
-  // Fetch one page; offset 0 replaces the list (new search), otherwise appends (load more).
-  const fetchPage = async (term: string, offset: number) => {
+  const fetchPage = async (term: string, p: number) => {
     const id = ++reqId.current;
     setLoading(true);
     try {
       const member = memberId ? `memberId=${memberId}&` : "";
       const res = await fetch(
-        `/api/speeches?${member}q=${encodeURIComponent(term)}&offset=${offset}`,
+        `/api/speeches?${member}q=${encodeURIComponent(term)}&offset=${(p - 1) * PAGE_SIZE}`,
       );
       const data = (await res.json()) as { hits: SpeechHit[]; total: number };
       if (id !== reqId.current) return;
-      setHits((prev) => (offset === 0 || !prev ? data.hits : [...prev, ...data.hits]));
+      setHits(data.hits);
       setTotal(data.total ?? 0);
+      setPage(p);
     } catch {
-      if (id === reqId.current && offset === 0) setHits([]);
+      if (id === reqId.current) setHits([]);
     } finally {
       if (id === reqId.current) setLoading(false);
     }
+  };
+
+  const goto = (p: number) => {
+    const target = Math.min(Math.max(1, p), pages);
+    if (target !== page && !loading) fetchPage(q.trim(), target);
   };
 
   useEffect(() => {
@@ -85,11 +94,12 @@ export function SpeechSearch({ memberId }: { memberId?: number }) {
     if (term.length < 2) {
       setHits(null);
       setTotal(0);
+      setPage(1);
       setLoading(false);
       reqId.current++;
       return;
     }
-    const timer = setTimeout(() => fetchPage(term, 0), 300);
+    const timer = setTimeout(() => fetchPage(term, 1), 300);
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [q, memberId]);
@@ -171,15 +181,45 @@ export function SpeechSearch({ memberId }: { memberId?: number }) {
               })}
             </ul>
           )}
-          {hits && hits.length > 0 && hits.length < total && (
-            <button
-              type="button"
-              disabled={loading}
-              onClick={() => fetchPage(q.trim(), hits.length)}
-              className="mt-3 rounded-md border border-border px-3 py-1.5 text-sm hover:bg-secondary disabled:opacity-50"
-            >
-              {loading ? t("searchLoading") : t("loadMore")}
-            </button>
+          {hits && hits.length > 0 && pages > 1 && (
+            <nav aria-label={t("searchPagerAria")} className="mt-3 flex flex-wrap items-center gap-1.5 text-sm">
+              {pageList(page, pages).map((p, i) =>
+                p === "…" ? (
+                  <span key={`gap-${i}`} aria-hidden className="px-1 text-muted-foreground">…</span>
+                ) : (
+                  <button
+                    key={p}
+                    type="button"
+                    disabled={loading || p === page}
+                    aria-current={p === page ? "page" : undefined}
+                    onClick={() => goto(p)}
+                    className={`min-w-8 rounded-md border px-2 py-1 tabular-nums ${
+                      p === page
+                        ? "border-foreground bg-foreground text-background"
+                        : "border-border hover:bg-secondary disabled:opacity-50"
+                    }`}
+                  >
+                    {p}
+                  </button>
+                ),
+              )}
+              {pages > 5 && (
+                <input
+                  type="number"
+                  min={1}
+                  max={pages}
+                  aria-label={t("searchGotoPage")}
+                  placeholder={t("searchGotoPage")}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter") {
+                      goto(Number(e.currentTarget.value));
+                      e.currentTarget.value = "";
+                    }
+                  }}
+                  className="ml-1 w-28 rounded-md border border-border bg-card px-2 py-1 text-sm outline-none placeholder:text-muted-foreground focus:border-ring"
+                />
+              )}
+            </nav>
           )}
         </div>
       )}

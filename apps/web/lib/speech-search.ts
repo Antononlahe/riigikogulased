@@ -14,6 +14,20 @@ export function prefixHighlightQuery(q: string): string {
   return terms.map((t) => `${t}:*`).join(" | ");
 }
 
+/** Compressed pager: first, last, and a window around the current page, with "…" gaps. */
+export function pageList(current: number, last: number): (number | "…")[] {
+  const wanted = new Set([1, last, current - 1, current, current + 1]);
+  const out: (number | "…")[] = [];
+  let prev = 0;
+  for (let p = 1; p <= last; p++) {
+    if (!wanted.has(p)) continue;
+    if (p - prev > 1) out.push("…");
+    out.push(p);
+    prev = p;
+  }
+  return out;
+}
+
 export type SpeechHit = {
   speechKey: string;
   spokenAt: string | null;
