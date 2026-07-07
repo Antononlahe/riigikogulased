@@ -21,7 +21,7 @@ import { RATE_FLOOR_DAYS, DAYS_PER_MONTH } from "@/lib/speeches";
 export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 export const dynamicParams = true;
 // ponytail: prerender NO member pages at build (empty list) -- avoids re-reading every member's
-// full vote history on each deploy (~200MB Neon egress/deploy). But the presence of
+// full vote history on each deploy (~200MB DB egress/deploy). But the presence of
 // generateStaticParams + dynamicParams=true still makes each page ISR-cached on-demand (first
 // visit per page per hour renders + caches, rest are CDN HITs). Returning [] is the sweet spot:
 // zero build egress AND cached pages. (An empty list here, unlike no function at all, keeps the

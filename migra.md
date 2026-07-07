@@ -60,8 +60,8 @@ migration when renaming the public URL anyway.
 
 7. **Ops you now own** (ongoing, ~15 min/mo)
    - Ubuntu unattended-upgrades on; Coolify self-update from its dashboard.
-   - Hetzner snapshot or weekly backup (~1 EUR/mo) -- the VPS is stateless apart from
-     Coolify config (DB is Neon), so recovery = reinstall + reconnect repo.
+   - Hetzner snapshot or weekly backup (~1 EUR/mo). UPDATE 2026-07-07: the VPS is no
+     longer stateless -- Postgres moved onto Coolify (phase 2), so backups are mandatory.
    - Uptime check (e.g. free UptimeRobot) since there's no Vercel status page anymore.
 
 ## Effort and cost summary
@@ -74,6 +74,6 @@ migration when renaming the public URL anyway.
 
 ## Explicitly not doing
 
-- Moving Postgres onto the VPS: Neon free tier works and keeps the scraper pipeline
-  and prod DB decoupled from web hosting. Revisit only if Neon limits bite.
+- ~~Moving Postgres onto the VPS~~ — DONE after all (phase 2, 2026-07-07): prod is
+  Coolify Postgres 18 on the VPS; Neon kept as rollback copy until ~2026-07-14.
 - Kubernetes/Docker Swarm/multi-node anything: one small VPS is the right size.

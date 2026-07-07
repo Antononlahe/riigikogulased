@@ -18,7 +18,7 @@ journalism / civic transparency, not real-time analytics.
   pre-computed statistics.
 - **Topics**: categorization uses official Eurovoc tags from the API, not manual rules
   / LLM.
-- **Web**: Next.js App Router + Tailwind + next-intl on Vercel; shadcn/ui (Radix)
+- **Web**: Next.js App Router + Tailwind + next-intl on Coolify (Hetzner VPS); shadcn/ui (Radix)
   components, Recharts + visx/D3 for charts, Framer Motion + View Transitions for
   motion. One shared party-color token palette (RE/EKRE/KE/E200/SDE/I); light/dark;
   mobile-first; honors `prefers-reduced-motion`.
@@ -29,10 +29,10 @@ journalism / civic transparency, not real-time analytics.
 api.riigikogu.ee (JSON, 1 req/s)  ->  apps/scraper (Python, cron'd from GitHub Actions)
                                                 |
                                                 v
-                                         Postgres (Neon)
+                                  Postgres (Coolify, on the Hetzner VPS)
                                                 ^
                                                 |
-                                         apps/web (Next.js on Vercel) -> users
+                                 apps/web (Next.js on Coolify, same VPS) -> users
 ```
 
 The scraper writes; the web app only reads. There is no write path from the web app.
@@ -58,6 +58,11 @@ directory `/apps/web`, port 3000, Next.js `output: "standalone"`). No CLI deploy
   hub, /saadikud, /statistika/*) prerender from the DB during `next build`, and prod must
   already be on the required migration before deploy. (Member pages are NOT prerendered:
   their `generateStaticParams` returns `[]` on purpose — on-demand ISR, zero build egress.)
+- **Prod Postgres is Coolify Postgres 18 on the same VPS** (moved off Neon 2026-07-07).
+  The web app connects via the internal container URL; the scraper (GitHub Actions secret)
+  and local `.env` files use the public URL. Keep Coolify DB backups enabled — the VPS
+  holds real state now. Apply migrations with `pnpm db:migrate` **from the repo root**
+  (it shells into `apps/scraper` and runs the `migrate` CLI).
 - The old Vercel project `parteidistsipliin` is **legacy**: it only serves a permanent
   catch-all redirect from parteidistsipliin.vercel.app to the new domain
   (`apps/web/vercel.json`). If it ever needs a redeploy:
