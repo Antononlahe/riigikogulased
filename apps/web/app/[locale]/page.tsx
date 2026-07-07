@@ -18,7 +18,8 @@ export default async function HomePage({
   const t = await getTranslations("hub");
   const h = await getStatHighlights();
 
-  // One card row from a highlight: the holder if sole, else "N saadikut" (a tie).
+  // One card row from a highlight: the holder if sole, else "N saadikut" (a tie). The row's
+  // href comes from the highlight itself (sole holder -> member page, tie -> leaderboard).
   const row = (
     p: PersonHighlight,
     eyebrow: string,
@@ -26,7 +27,7 @@ export default async function HomePage({
     sub?: string,
   ): StatCardRow =>
     p.tied > 1
-      ? { eyebrow, value, name: t("tiedCount", { n: p.tied }), sub }
+      ? { eyebrow, value, name: t("tiedCount", { n: p.tied }), sub, href: p.href }
       : {
           eyebrow,
           value,
@@ -34,14 +35,14 @@ export default async function HomePage({
           name: p.name,
           party: p.party,
           avatar: { fullName: p.name, photoThumbPath: p.photoThumbPath, shortName: p.party },
+          href: p.href,
         };
 
   // Each entry is null when its highlight is missing; filtered out below. The `second` row is
   // the metric's opposite end (least where the title says most).
-  const cards = [
+  const cards: ({ top: StatCardRow; second?: StatCardRow | null | false } | null | undefined)[] = [
     h.rebel.top && {
-      href: h.rebel.top.href,
-      ...row(
+      top: row(
         h.rebel.top,
         t("rebelTitle"),
         t("rebelValue", { pct: h.rebel.top.value }),
@@ -58,8 +59,7 @@ export default async function HomePage({
         ),
     },
     h.talker.top && {
-      href: h.talker.top.href,
-      ...row(
+      top: row(
         h.talker.top,
         t("talkerTitle"),
         t("talkerValue", { n: h.talker.top.value }),
@@ -75,8 +75,7 @@ export default async function HomePage({
         ),
     },
     h.absentee.top && {
-      href: h.absentee.top.href,
-      ...row(
+      top: row(
         h.absentee.top,
         t("absenteeTitle"),
         t("absenteeValue", { pct: h.absentee.top.value }),
@@ -94,33 +93,31 @@ export default async function HomePage({
         ),
     },
     h.closestVote && {
-      eyebrow: t("closestTitle"),
-      value: t("closestValue", { gap: h.closestVote.value }),
-      sub: t("closestSub"),
-      href: h.closestVote.href,
-      name: h.closestVote.name,
+      top: {
+        eyebrow: t("closestTitle"),
+        value: t("closestValue", { gap: h.closestVote.value }),
+        sub: t("closestSub"),
+        href: h.closestVote.href,
+        name: h.closestVote.name,
+      },
     },
     h.age.top && {
-      href: h.age.top.href,
-      ...row(h.age.top, t("youngestTitle"), t("youngestValue", { age: h.age.top.value })),
+      top: row(h.age.top, t("youngestTitle"), t("youngestValue", { age: h.age.top.value })),
       second:
         h.age.bottom &&
         row(h.age.bottom, t("oldestTitle"), t("youngestValue", { age: h.age.bottom.value })),
     },
     h.mostChildren && {
-      href: h.mostChildren.href,
-      ...row(h.mostChildren, t("childrenTitle"), t("childrenValue", { n: h.mostChildren.value })),
+      top: row(h.mostChildren, t("childrenTitle"), t("childrenValue", { n: h.mostChildren.value })),
     },
     h.mandate.top && {
-      href: h.mandate.top.href,
-      ...row(h.mandate.top, t("magnetTitle"), t("votesValue", { n: h.mandate.top.value })),
+      top: row(h.mandate.top, t("magnetTitle"), t("votesValue", { n: h.mandate.top.value })),
       second:
         h.mandate.bottom &&
         row(h.mandate.bottom, t("cheapTitle"), t("votesValue", { n: h.mandate.bottom.value })),
     },
     h.veteran.top && {
-      href: h.veteran.top.href,
-      ...row(
+      top: row(
         h.veteran.top,
         t("veteranTitle"),
         t("veteranValue", { n: Math.round(h.veteran.top.value / 365.25) }),
@@ -137,23 +134,27 @@ export default async function HomePage({
         ),
     },
     h.signatureWord && {
-      href: h.signatureWord.href,
-      eyebrow: t("sigTitle"),
-      value: t("sigValue", { word: h.signatureWord.word }),
-      sub: t("sigSub"),
-      name: h.signatureWord.name,
-      party: h.signatureWord.party,
-      avatar: {
-        fullName: h.signatureWord.name,
-        photoThumbPath: h.signatureWord.photoThumbPath,
-        shortName: h.signatureWord.party,
+      top: {
+        eyebrow: t("sigTitle"),
+        value: t("sigValue", { word: h.signatureWord.word }),
+        sub: t("sigSub"),
+        name: h.signatureWord.name,
+        party: h.signatureWord.party,
+        avatar: {
+          fullName: h.signatureWord.name,
+          photoThumbPath: h.signatureWord.photoThumbPath,
+          shortName: h.signatureWord.party,
+        },
+        href: h.signatureWord.href,
       },
     },
     h.joiner && {
-      href: h.joiner.href,
-      ...row(h.joiner, t("joinerTitle"), t("joinerValue", { n: h.joiner.value })),
+      top: row(h.joiner, t("joinerTitle"), t("joinerValue", { n: h.joiner.value })),
     },
-  ].filter((c): c is NonNullable<typeof c> => Boolean(c));
+  ];
+  const shown = cards.filter((c): c is { top: StatCardRow; second?: StatCardRow | null | false } =>
+    Boolean(c),
+  );
 
   return (
     <>
@@ -161,12 +162,12 @@ export default async function HomePage({
       <main className="mx-auto max-w-5xl px-4 py-10">
         <h1 className="font-serif text-2xl font-bold tracking-tight">{t("heading")}</h1>
         <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("intro")}</p>
-        {cards.length === 0 ? (
+        {shown.length === 0 ? (
           <p className="mt-8 text-sm text-muted-foreground">{t("empty")}</p>
         ) : (
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {cards.map((c, i) => (
-              <StatCard key={i} {...c} />
+            {shown.map((c, i) => (
+              <StatCard key={i} top={c.top} second={c.second || null} />
             ))}
           </div>
         )}

@@ -68,25 +68,32 @@ function tieCount<T>(rows: T[], leader: T, key: (r: T) => number): number {
 
 const EMPTY: HighlightPair = { top: null, bottom: null };
 
+// Row href: a sole holder is a person -> their member page; a tie shows "N saadikut" -> the
+// leaderboard where the tie is visible.
+function rowHref(tied: number, slug: string, fallback: string): string {
+  return tied > 1 ? fallback : `/saadik/${slug}`;
+}
+
 async function rebel(): Promise<HighlightPair> {
   try {
     // Rows are already sorted by discipline score ASC: first = biggest rebel, last = most loyal.
     const eligible = (await getMemberDiscipline()).filter(
       (x) => x.active && x.countedVotes >= MIN_VOTES && x.disciplineScore != null,
     );
-    const pick = (r: (typeof eligible)[number] | undefined): PersonHighlight | null =>
-      r
-        ? {
-            name: r.fullName,
-            party: r.partyShortName,
-            photoThumbPath: r.photoThumbPath,
-            // Show the against-rate (1 - alignment) -- that's what "against their faction" means.
-            value: Math.round((1 - (r.disciplineScore as number)) * 100),
-            tied: tieCount(eligible, r, (x) => x.disciplineScore as number),
-            href: HREF.discipline,
-            detail: [r.defections, r.countedVotes],
-          }
-        : null;
+    const pick = (r: (typeof eligible)[number] | undefined): PersonHighlight | null => {
+      if (!r) return null;
+      const tied = tieCount(eligible, r, (x) => x.disciplineScore as number);
+      return {
+        name: r.fullName,
+        party: r.partyShortName,
+        photoThumbPath: r.photoThumbPath,
+        // Show the against-rate (1 - alignment) -- that's what "against their faction" means.
+        value: Math.round((1 - (r.disciplineScore as number)) * 100),
+        tied,
+        href: rowHref(tied, r.slug, HREF.discipline),
+        detail: [r.defections, r.countedVotes],
+      };
+    };
     return { top: pick(eligible[0]), bottom: pick(eligible.at(-1)) };
   } catch {
     return EMPTY;
@@ -98,18 +105,19 @@ async function talker(): Promise<HighlightPair> {
     const ranked = (await getSpeechLeaderboard())
       .filter((x) => x.active && x.totalWords > 0)
       .sort((a, b) => b.totalWords - a.totalWords);
-    const pick = (r: (typeof ranked)[number] | undefined): PersonHighlight | null =>
-      r
-        ? {
-            name: r.fullName,
-            party: r.partyShortName,
-            photoThumbPath: r.photoThumbPath,
-            value: r.totalWords,
-            tied: tieCount(ranked, r, (x) => x.totalWords),
-            href: HREF.speeches,
-            detail: [r.total],
-          }
-        : null;
+    const pick = (r: (typeof ranked)[number] | undefined): PersonHighlight | null => {
+      if (!r) return null;
+      const tied = tieCount(ranked, r, (x) => x.totalWords);
+      return {
+        name: r.fullName,
+        party: r.partyShortName,
+        photoThumbPath: r.photoThumbPath,
+        value: r.totalWords,
+        tied,
+        href: rowHref(tied, r.slug, HREF.speeches),
+        detail: [r.total],
+      };
+    };
     // Presiding officers' (juhatus) counts read artificially low -- exclude them from "quietest".
     const quiet = [...ranked].reverse().find((r) => !r.boardRole);
     return { top: pick(ranked[0]), bottom: pick(quiet) };
@@ -121,18 +129,19 @@ async function talker(): Promise<HighlightPair> {
 async function absentee(): Promise<HighlightPair> {
   try {
     const active = (await getAbsenceLeaderboard()).filter((x) => x.active); // sorted absentPct DESC
-    const pick = (r: (typeof active)[number] | undefined): PersonHighlight | null =>
-      r
-        ? {
-            name: r.fullName,
-            party: r.partyShortName,
-            photoThumbPath: r.photoThumbPath,
-            value: Math.round(r.absentPct),
-            tied: tieCount(active, r, (x) => x.absentPct),
-            href: HREF.absence,
-            detail: [r.absent, r.total],
-          }
-        : null;
+    const pick = (r: (typeof active)[number] | undefined): PersonHighlight | null => {
+      if (!r) return null;
+      const tied = tieCount(active, r, (x) => x.absentPct);
+      return {
+        name: r.fullName,
+        party: r.partyShortName,
+        photoThumbPath: r.photoThumbPath,
+        value: Math.round(r.absentPct),
+        tied,
+        href: rowHref(tied, r.slug, HREF.absence),
+        detail: [r.absent, r.total],
+      };
+    };
     return { top: pick(active[0]), bottom: pick(active.at(-1)) };
   } catch {
     return EMPTY;
@@ -160,7 +169,7 @@ async function age(): Promise<HighlightPair> {
             photoThumbPath: r.photoThumbPath,
             value: r.age,
             tied: 1,
-            href: HREF.generations,
+            href: `/saadik/${r.slug}`,
           }
         : null;
     return { top: pick(rows.at(-1)), bottom: pick(rows[0]) };
@@ -174,13 +183,14 @@ async function mostChildren(): Promise<PersonHighlight | null> {
     const rows = await getChildren(); // sorted children DESC
     const r = rows[0];
     if (!r || r.children <= 0) return null;
+    const tied = tieCount(rows, r, (x) => x.children);
     return {
       name: r.fullName,
       party: r.partyShortName,
       photoThumbPath: null,
       value: r.children,
-      tied: tieCount(rows, r, (x) => x.children),
-      href: HREF.people,
+      tied,
+      href: rowHref(tied, r.slug, HREF.people),
     };
   } catch {
     return null;
@@ -199,17 +209,21 @@ type HubRow = {
 const HUB_ROW_COLS = `m.full_name AS "fullName", m.slug,
   mcp.party_short_name AS "partyShortName", m.photo_thumb_path AS "photoThumbPath"`;
 
-function pickRow(rows: HubRow[], r: HubRow | undefined): PersonHighlight | null {
-  return r
-    ? {
-        name: r.fullName,
-        party: r.partyShortName,
-        photoThumbPath: r.photoThumbPath,
-        value: r.value,
-        tied: tieCount(rows, r, (x) => x.value),
-        href: `/saadik/${r.slug}`,
-      }
-    : null;
+function pickRow(
+  rows: HubRow[],
+  r: HubRow | undefined,
+  fallbackHref = "/saadikud",
+): PersonHighlight | null {
+  if (!r) return null;
+  const tied = tieCount(rows, r, (x) => x.value);
+  return {
+    name: r.fullName,
+    party: r.partyShortName,
+    photoThumbPath: r.photoThumbPath,
+    value: r.value,
+    tied,
+    href: rowHref(tied, r.slug, fallbackHref),
+  };
 }
 
 /** Personal votes behind the seat: vote magnet (top) vs cheapest mandate (bottom). */
@@ -282,8 +296,7 @@ async function joiner(): Promise<PersonHighlight | null> {
       GROUP BY m.id, m.full_name, m.slug, mcp.party_short_name, m.photo_thumb_path
       ORDER BY value DESC, m.full_name`);
     const all = rows as HubRow[];
-    const p = pickRow(all, all[0]);
-    return p && { ...p, href: "/statistika/varia/parlamendiryhmad" };
+    return pickRow(all, all[0], "/statistika/varia/parlamendiryhmad");
   } catch {
     return null;
   }
