@@ -49,30 +49,26 @@ the raw search pages are large fuzzy result sets (`AriregisterCache` handles com
 
 ## Deploying the web app (READ THIS before touching deps or deploying)
 
-The live site is **https://parteidistsipliin.vercel.app** (Vercel project `parteidistsipliin`,
-linkage committed under `apps/web/.vercel`). The project is **pnpm-only** (unified 2026-06-15):
-`apps/web` is a standalone pnpm app (`apps/web/pnpm-lock.yaml`, `packageManager: pnpm@9.12.0`);
-there is **no** root pnpm-workspace and **no** npm lockfile anywhere. Use `corepack pnpm`
-locally (`corepack pnpm -C apps/web <script>`, or the root passthroughs `pnpm -C apps/web …`).
+The live site is **https://riigikogulased.zatkin.ee** — Coolify on a Hetzner VPS
+(CPX12, Helsinki, 204.168.190.32 / 2a01:4f9:c013:6794::1; migrated 2026-07-07, plan in
+`migra.md`). **Deploy = push to `main`**: Coolify builds `apps/web/Dockerfile` (base
+directory `/apps/web`, port 3000, Next.js `output: "standalone"`). No CLI deploy step.
 
-Deploy with the Vercel CLI **from `apps/web`**:
+- `DATABASE_URL` is set in Coolify as a **build-time** variable — `generateStaticParams`
+  (member pages) prerenders from the DB during `next build`, and prod must already be on
+  the required migration before deploy.
+- The old Vercel project `parteidistsipliin` is **legacy**: it only serves a permanent
+  catch-all redirect from parteidistsipliin.vercel.app to the new domain
+  (`apps/web/vercel.json`). If it ever needs a redeploy:
+  `cd apps/web && vercel --prod --yes` (never from repo root — root has no `next`).
 
-```
-cd apps/web && vercel --prod --yes      # CLI authed as antononlahe; binary /c/nvm4w/nodejs/vercel
-```
-
-Hard-won rules (a 2026-06-15 deploy burned an hour on these — do not repeat):
-
-- **Deploy FROM `apps/web`, not the repo root.** Vercel's Root Directory is the `apps/web`
-  linkage; the root `package.json` has no `next`, so a root deploy fails with
-  *"No Next.js version detected."* Do not create a `.vercel` at the repo root.
-- **Use pnpm for web deps, never npm.** Add/change deps with `corepack pnpm -C apps/web add …`
-  (or edit `package.json` then `corepack pnpm -C apps/web install`), which keeps
-  `apps/web/pnpm-lock.yaml` consistent; commit it. Do NOT run `npm install` in `apps/web`
-  (creates a stray `package-lock.json` that drifts) and never hand-patch a lockfile — an
-  inconsistent lockfile makes the Vercel install prune `next` → *"No Next.js detected."*
-- `generateStaticParams` (member pages) reads the DB at build time; Vercel has `DATABASE_URL`
-  set, and prod must already be on the required migration (e.g. C needs `0003`) before deploy.
+The project is **pnpm-only** (unified 2026-06-15): `apps/web` is a standalone pnpm app
+(`apps/web/pnpm-lock.yaml`, `packageManager: pnpm@9.12.0`); there is **no** root
+pnpm-workspace and **no** npm lockfile anywhere. Use `corepack pnpm` locally
+(`corepack pnpm -C apps/web <script>`, or the root passthroughs `pnpm -C apps/web …`).
+Add/change deps with `corepack pnpm -C apps/web add …`; commit the lockfile. Do NOT run
+`npm install` in `apps/web` and never hand-patch a lockfile — an inconsistent lockfile
+breaks the Docker `pnpm install --frozen-lockfile`.
 
 ## Core metric: "voting against party"
 

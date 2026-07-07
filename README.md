@@ -2,13 +2,13 @@
 
 Dashboard tracking how often Estonian Riigikogu members vote with — or against — their party.
 
-Live: https://parteidistsipliin.vercel.app
+Live: https://riigikogulased.zatkin.ee
 
 Data: [Riigikogu Open Data API](https://api.riigikogu.ee), attributed under CC-BY-SA 3.0.
 
 ## Stack
 
-- **Web** (`apps/web`): Next.js App Router + Tailwind + next-intl (ET/EN), on Vercel.
+- **Web** (`apps/web`): Next.js App Router + Tailwind + next-intl (ET/EN), on Coolify (Hetzner VPS).
 - **Scraper** (`apps/scraper`): Python + [uv](https://docs.astral.sh/uv/); writes to Postgres.
 - **Database**: Postgres (Neon). SQL migrations + views in `packages/db`.
 - **Cron**: GitHub Actions runs the scraper daily.
