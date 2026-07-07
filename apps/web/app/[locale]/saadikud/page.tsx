@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { getMemberDiscipline, type MemberDisciplineRow } from "@/lib/queries";
 import { getElectedNonSitting, type NonSittingCandidate } from "@/lib/election-queries";
+import { Link } from "@/i18n/routing";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { MembersTable } from "@/components/members-table";
@@ -42,7 +43,12 @@ export default async function DisciplinePage({
         <section>
           <h1 className="font-serif text-2xl font-bold tracking-tight">{t("heading")}</h1>
           <p className="text-xs uppercase tracking-wide text-muted-foreground">{t("cycle")}</p>
-          <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("subheading")}</p>
+          <p className="mt-1 max-w-2xl text-sm text-muted-foreground">
+            {t("subheading")}{" "}
+            <Link href="/metoodika" className="whitespace-nowrap text-ring hover:underline">
+              {t("methodology")}
+            </Link>
+          </p>
 
           <FactionMetricBars metric="cohesion" />
 

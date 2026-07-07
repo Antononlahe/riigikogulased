@@ -1,4 +1,4 @@
-// v0.5 speeches (REMOVABLE FEATURE). Pure helpers + types; queries in speeches-queries.ts.
+// Speeches: pure helpers + types; queries in speeches-queries.ts.
 // Counts come from the API's pre-computed /api/statistics/speeches/plenary (member_speech_stats).
 
 export type SpeakerRow = {

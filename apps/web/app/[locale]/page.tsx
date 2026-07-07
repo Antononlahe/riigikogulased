@@ -111,6 +111,48 @@ export default async function HomePage({
       href: h.mostChildren.href,
       ...row(h.mostChildren, t("childrenTitle"), t("childrenValue", { n: h.mostChildren.value })),
     },
+    h.mandate.top && {
+      href: h.mandate.top.href,
+      ...row(h.mandate.top, t("magnetTitle"), t("votesValue", { n: h.mandate.top.value })),
+      second:
+        h.mandate.bottom &&
+        row(h.mandate.bottom, t("cheapTitle"), t("votesValue", { n: h.mandate.bottom.value })),
+    },
+    h.veteran.top && {
+      href: h.veteran.top.href,
+      ...row(
+        h.veteran.top,
+        t("veteranTitle"),
+        t("veteranValue", { n: Math.round(h.veteran.top.value / 365.25) }),
+      ),
+      second:
+        h.veteran.bottom &&
+        row(
+          h.veteran.bottom,
+          t("newcomerTitle"),
+          // A fresh substitute reads better in days; anyone past a year, in years.
+          h.veteran.bottom.value < 365
+            ? t("newcomerValue", { n: h.veteran.bottom.value })
+            : t("veteranValue", { n: Math.round(h.veteran.bottom.value / 365.25) }),
+        ),
+    },
+    h.signatureWord && {
+      href: h.signatureWord.href,
+      eyebrow: t("sigTitle"),
+      value: t("sigValue", { word: h.signatureWord.word }),
+      sub: t("sigSub"),
+      name: h.signatureWord.name,
+      party: h.signatureWord.party,
+      avatar: {
+        fullName: h.signatureWord.name,
+        photoThumbPath: h.signatureWord.photoThumbPath,
+        shortName: h.signatureWord.party,
+      },
+    },
+    h.joiner && {
+      href: h.joiner.href,
+      ...row(h.joiner, t("joinerTitle"), t("joinerValue", { n: h.joiner.value })),
+    },
   ].filter((c): c is NonNullable<typeof c> => Boolean(c));
 
   return (

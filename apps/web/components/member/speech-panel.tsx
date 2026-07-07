@@ -1,4 +1,4 @@
-// v0.5-B member-page speech panel (REMOVABLE FEATURE). Count tiles come from the API's
+// Member-page speech panel. Count tiles come from the API's
 // pre-computed stats (member_speech_stats). Word totals + cadence + the browse list come
 // from the ingested stenogram text (member_speeches) -- a different (smaller) population, so
 // they don't reconcile with the count tiles, by design.
@@ -6,7 +6,7 @@ import { getTranslations } from "next-intl/server";
 import type { SpeechStats } from "@/lib/speeches";
 import { getMemberSpeechMeta } from "@/lib/speeches-queries";
 import { RATE_FLOOR_DAYS } from "@/lib/speeches";
-import { SpeechSearch } from "@/components/member/speech-search";
+import { SpeechSearch } from "@/components/speech-search";
 import { SpeechBrowse } from "@/components/member/speech-browse";
 import { ComparePopover } from "@/components/member/compare-popover";
 
@@ -102,7 +102,8 @@ export async function SpeechPanel({
           </span>
         )}
       </div>
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+      <SpeechSearch memberId={memberId} />
+      <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3">
         <Tile label={t("speechesLabel")} value={stats.speeches} />
         <Tile label={t("questionsLabel")} value={stats.questions} />
         <Tile label={t("proceduralLabel")} value={stats.procedural} />
@@ -128,7 +129,6 @@ export async function SpeechPanel({
       {meta && meta.cadence.length > 1 && (
         <Cadence data={meta.cadence} title={t("cadenceTitle")} subtitle={t("cadenceSub")} />
       )}
-      <SpeechSearch memberId={memberId} />
       {meta && (
         <SpeechBrowse memberId={memberId} total={meta.speechCount} years={meta.years} types={meta.types} />
       )}

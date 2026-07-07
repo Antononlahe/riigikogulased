@@ -7,6 +7,7 @@
     "heading": "Party Discipline",
     "cycle": "XV Riigikogu · 2023–",
     "subheading": "Discipline percentage measures how often a member votes with their faction's majority position. Procedural votes (presence checks, agenda adoption) are excluded.",
+    "methodology": "Read the methodology →",
     "empty": "No data yet. Run the scraper to populate the database."
   },
   "footer": {
@@ -16,14 +17,16 @@
     "contact": "Feedback: Anton Žatkin ·"
   },
   "nav": {
-    "members": "Party Discipline",
-    "statistika": "Statistics",
+    "members": "Members",
     "speeches": "Speeches",
     "expenses": "Expenses",
     "decisive": "Decisive votes",
     "varia": "Varia",
-    "searchPlaceholder": "Find an MP…",
-    "searchNoResults": "No matches."
+    "searchPlaceholder": "Find an MP or a speech…",
+    "searchNoResults": "No matches.",
+    "searchGroupMembers": "Members",
+    "searchGroupSpeeches": "Speeches",
+    "searchAllSpeeches": "All speech results →"
   },
   "hub": {
     "heading": "The Riigikogu in numbers",
@@ -49,7 +52,19 @@
     "oldestTitle": "Oldest member",
     "youngestValue": "{age} years",
     "childrenTitle": "Most children",
-    "childrenValue": "{n} children"
+    "childrenValue": "{n} children",
+    "magnetTitle": "Biggest vote magnet",
+    "cheapTitle": "Cheapest mandate",
+    "votesValue": "{n, number} personal votes",
+    "veteranTitle": "Longest-serving",
+    "newcomerTitle": "Freshest arrival",
+    "veteranValue": "{n} years in parliament",
+    "newcomerValue": "{n} days in parliament",
+    "sigTitle": "Signature word",
+    "sigValue": "“{word}”",
+    "sigSub": "their most distinctive word — click to read",
+    "joinerTitle": "Joiner-in-chief",
+    "joinerValue": "{n} parliamentary groups"
   },
   "decisive": {
     "heading": "Closest votes",
@@ -80,6 +95,9 @@
   "statistika": {
     "speakersHeading": "Speeches",
     "speakersIntro": "Counts of floor speeches, questions, and procedural remarks in plenary (Riigikogu statistics).",
+    "searchHeading": "Search the speeches",
+    "searchIntro": "Search every member's plenary speeches — who has said what.",
+    "boardHeading": "Leaderboard",
     "empty": "No data available.",
     "member": "Member",
     "boardChair": "Riigikogu President",
@@ -140,6 +158,7 @@
     "showLess": "Show less",
     "showAllN": "Show all ({n})",
     "wordHint": "Click to see speeches using this word",
+    "searchAll": "Search all speeches →",
     "close": "Close",
     "loading": "Loading…",
     "noSpeeches": "No speeches found.",
@@ -256,6 +275,10 @@
       "speechesNote": "Total floor contributions (speeches, questions, procedural).",
       "expensesNote": "Expense compensation used in {year}."
     },
+    "anchorVotes": "Votes",
+    "anchorSpeeches": "Speeches",
+    "anchorElection": "Election",
+    "anchorExpenses": "Expenses",
     "discipline": "Discipline",
     "counted": "Votes",
     "against": "Against",
@@ -280,6 +303,7 @@
     "tenureMonths": "{n} months in the Riigikogu (this term)",
     "tenureNote": "This member has served only a short time this term, so a low speech count is expected.",
     "searchSpeeches": "Search this member's speeches…",
+    "searchSpeechesAll": "Search all speeches…",
     "searchHint": "Search is Estonian inflection-aware (e.g. \"kool\" also finds \"koolis\", \"koolide\").",
     "searchLoading": "Searching…",
     "searchNoResults": "No speeches found for this search.",

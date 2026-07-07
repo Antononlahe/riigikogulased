@@ -2,10 +2,10 @@
 
 import { Fragment, useState } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
 import { partyToken, PARTY_ORDER, isKnownParty } from "@/lib/party";
-import { HL_START, HL_END } from "@/lib/speech-search";
-import type { WordSpeech } from "@/lib/varia-queries";
+import { HL_START, HL_END, type SpeechHit } from "@/lib/speech-search";
 import type { PartyWords } from "@/lib/varia";
 
 // Mirror of signature.py MANUAL_EXCLUDE -- the hand-curated tokens dropped from the TF-IDF output
@@ -46,7 +46,7 @@ type Selected = { party: string; lemma: string };
 export function SignatureWords({ parties }: { parties: PartyWords[] }) {
   const t = useTranslations("varia");
   const [sel, setSel] = useState<Selected | null>(null);
-  const [hits, setHits] = useState<WordSpeech[] | null>(null);
+  const [hits, setHits] = useState<SpeechHit[] | null>(null);
   const [showExcluded, setShowExcluded] = useState(false);
 
   const order = (p: PartyWords) => {
@@ -61,7 +61,7 @@ export function SignatureWords({ parties }: { parties: PartyWords[] }) {
     }
     setSel({ party, lemma }); setHits(null);
     try {
-      const res = await fetch(`/api/varia-word?party=${encodeURIComponent(party)}&lemma=${encodeURIComponent(lemma)}`);
+      const res = await fetch(`/api/speeches?party=${encodeURIComponent(party)}&q=${encodeURIComponent(lemma)}&limit=12`);
       const data = await res.json();
       setHits(data.hits ?? []);
     } catch {
@@ -115,6 +115,12 @@ export function SignatureWords({ parties }: { parties: PartyWords[] }) {
           <div className="mb-3 flex items-center gap-2">
             <PartyBadge shortName={sel.party} />
             <span className="font-serif text-lg font-bold">{sel.lemma}</span>
+            <Link
+              href={`/statistika/sonavotud?q=${encodeURIComponent(sel.lemma)}`}
+              className="text-xs text-ring hover:underline"
+            >
+              {t("searchAll")}
+            </Link>
             <button
               type="button" onClick={() => { setSel(null); setHits(null); }}
               className="ml-auto text-sm text-muted-foreground hover:text-foreground"
@@ -132,7 +138,11 @@ export function SignatureWords({ parties }: { parties: PartyWords[] }) {
                 <li key={h.speechKey} className="border-b border-border pb-3 text-sm last:border-0">
                   <div className="mb-0.5 flex items-baseline gap-2">
                     <span className="font-semibold">{h.fullName}</span>
-                    {h.date && <span className="text-xs text-muted-foreground">{h.date.slice(0, 10)}</span>}
+                    {(h.spokenAt ?? h.sittingDate) && (
+                      <span className="text-xs text-muted-foreground">
+                        {(h.spokenAt ?? h.sittingDate)!.slice(0, 10)}
+                      </span>
+                    )}
                     {h.link && (
                       <a href={h.link} target="_blank" rel="noopener noreferrer"
                          className="ml-auto text-xs text-muted-foreground hover:underline">

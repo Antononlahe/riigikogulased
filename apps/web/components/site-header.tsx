@@ -1,7 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { LocaleToggle } from "@/components/locale-toggle";
-import { StatistikaMenu } from "@/components/statistika-menu";
 import { MemberSearch } from "@/components/member-search";
 import { Link } from "@/i18n/routing";
 import { getMemberIndex, type MemberIndexRow } from "@/lib/queries";
@@ -15,12 +14,6 @@ export async function SiteHeader() {
   } catch {
     // DB down -> search box simply hidden
   }
-  // Four visible headings; the two boards that used to hide in Varia (Sõnavõtud, Kuluhüvitised)
-  // now live under the Statistika dropdown, and Otsustavad hääled is promoted to its own heading.
-  const statsItems = [
-    { href: "/statistika/sonavotud", label: nav("speeches") },
-    { href: "/statistika/kulud", label: nav("expenses") },
-  ];
   return (
     <header className="border-b-2 border-foreground">
       {/* flex-wrap: on narrow screens the nav drops to a second line instead of overflowing
@@ -30,9 +23,11 @@ export async function SiteHeader() {
           {site("title")}
         </Link>
         <nav className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
+          {/* Five flat citizen-facing headings; no dropdown to hide behind. */}
           <Link href="/saadikud" className="hover:text-foreground">{nav("members")}</Link>
           <Link href="/statistika/otsustavad" className="hover:text-foreground">{nav("decisive")}</Link>
-          <StatistikaMenu label={nav("statistika")} items={statsItems} />
+          <Link href="/statistika/sonavotud" className="hover:text-foreground">{nav("speeches")}</Link>
+          <Link href="/statistika/kulud" className="hover:text-foreground">{nav("expenses")}</Link>
           <Link href="/statistika/varia" className="hover:text-foreground">{nav("varia")}</Link>
           <span className="mx-1 h-4 w-px bg-border" aria-hidden />
           {memberIndex.length > 0 && (
@@ -40,6 +35,11 @@ export async function SiteHeader() {
               items={memberIndex}
               placeholder={nav("searchPlaceholder")}
               noResults={nav("searchNoResults")}
+              labels={{
+                members: nav("searchGroupMembers"),
+                speeches: nav("searchGroupSpeeches"),
+                allSpeeches: nav("searchAllSpeeches"),
+              }}
             />
           )}
           <LocaleToggle />

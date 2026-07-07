@@ -28,7 +28,12 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "site" });
-  return { title: t("title"), description: t("tagline") };
+  return {
+    title: t("title"),
+    description: t("tagline"),
+    // Absolute base for OG image URLs (no VERCEL_URL heuristic on Coolify).
+    metadataBase: new URL("https://riigikogulased.zatkin.ee"),
+  };
 }
 
 export default async function LocaleLayout({

@@ -1,3 +1,4 @@
+import { pool } from "./db";
 import { getMemberDiscipline } from "./queries";
 import { getSpeechLeaderboard } from "./speeches-queries";
 import { getAbsenceLeaderboard, getMembersWithAge, getChildren } from "./varia-queries";
@@ -38,6 +39,14 @@ export type VoteHighlight = { name: string; value: number; href: string };
 // A metric's two ends: `top` = the superlative the card is named after, `bottom` = its opposite.
 export type HighlightPair = { top: PersonHighlight | null; bottom: PersonHighlight | null };
 
+export type WordHighlight = {
+  name: string;
+  party: string | null;
+  photoThumbPath: string | null;
+  word: string;
+  href: string;
+};
+
 export type StatHighlights = {
   rebel: HighlightPair; // most/least votes against own faction
   talker: HighlightPair; // most/fewest words spoken
@@ -45,6 +54,10 @@ export type StatHighlights = {
   closestVote: VoteHighlight | null; // smallest flip gap
   age: HighlightPair; // youngest (top) / oldest (bottom) sitting member
   mostChildren: PersonHighlight | null; // most children (a "least" is meaningless here)
+  mandate: HighlightPair; // most/fewest personal votes behind a seat (value = votes)
+  veteran: HighlightPair; // longest/shortest parliamentary seniority (value = days)
+  signatureWord: WordHighlight | null; // the most distinctive member word in the corpus
+  joiner: PersonHighlight | null; // most parlamendirühmad/caucus memberships
 };
 
 /** Count rows sharing `leader`'s exact ranking value -- a genuine tie, not a rounded-display one. */
@@ -174,10 +187,116 @@ async function mostChildren(): Promise<PersonHighlight | null> {
   }
 }
 
+// Shared row shape for the plain-SQL highlights below.
+type HubRow = {
+  fullName: string;
+  slug: string;
+  partyShortName: string | null;
+  photoThumbPath: string | null;
+  value: number;
+};
+
+const HUB_ROW_COLS = `m.full_name AS "fullName", m.slug,
+  mcp.party_short_name AS "partyShortName", m.photo_thumb_path AS "photoThumbPath"`;
+
+function pickRow(rows: HubRow[], r: HubRow | undefined): PersonHighlight | null {
+  return r
+    ? {
+        name: r.fullName,
+        party: r.partyShortName,
+        photoThumbPath: r.photoThumbPath,
+        value: r.value,
+        tied: tieCount(rows, r, (x) => x.value),
+        href: `/saadik/${r.slug}`,
+      }
+    : null;
+}
+
+/** Personal votes behind the seat: vote magnet (top) vs cheapest mandate (bottom). */
+async function mandate(): Promise<HighlightPair> {
+  try {
+    const { rows } = await pool.query(`
+      SELECT ${HUB_ROW_COLS}, r.personal_votes::int AS value
+      FROM member_election_results r
+      JOIN members m ON m.id = r.member_id
+      LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+      WHERE m.active AND r.elected
+      ORDER BY r.personal_votes DESC`);
+    const all = rows as HubRow[];
+    return { top: pickRow(all, all[0]), bottom: pickRow(all, all.at(-1)) };
+  } catch {
+    return EMPTY;
+  }
+}
+
+/** Total parliamentary seniority in days (across all terms): veteran vs newcomer. */
+async function veteran(): Promise<HighlightPair> {
+  try {
+    const { rows } = await pool.query(`
+      SELECT ${HUB_ROW_COLS}, m.parliament_seniority_days AS value
+      FROM members m
+      LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+      WHERE m.active AND m.parliament_seniority_days IS NOT NULL
+      ORDER BY m.parliament_seniority_days DESC`);
+    const all = rows as HubRow[];
+    return { top: pickRow(all, all[0]), bottom: pickRow(all, all.at(-1)) };
+  } catch {
+    return EMPTY;
+  }
+}
+
+/** The single most distinctive member signature word (TF-IDF rank 1, highest score).
+ *  Links into the site-wide speech search pre-filled with the word. */
+async function signatureWord(): Promise<WordHighlight | null> {
+  try {
+    const { rows } = await pool.query(`
+      SELECT ${HUB_ROW_COLS}, st.lemma
+      FROM signature_terms st
+      JOIN members m ON m.id = st.scope_id
+      LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+      WHERE st.scope_kind = 'member' AND st.rank = 1 AND m.active
+      ORDER BY st.score DESC
+      LIMIT 1`);
+    const r = rows[0] as (HubRow & { lemma: string }) | undefined;
+    if (!r) return null;
+    return {
+      name: r.fullName,
+      party: r.partyShortName,
+      photoThumbPath: r.photoThumbPath,
+      word: r.lemma,
+      href: `/statistika/sonavotud?q=${encodeURIComponent(r.lemma)}`,
+    };
+  } catch {
+    return null;
+  }
+}
+
+/** Most parlamendirühmad + caucus memberships. */
+async function joiner(): Promise<PersonHighlight | null> {
+  try {
+    const { rows } = await pool.query(`
+      SELECT ${HUB_ROW_COLS}, count(*)::int AS value
+      FROM member_caucuses mc
+      JOIN members m ON m.id = mc.member_id
+      LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+      GROUP BY m.id, m.full_name, m.slug, mcp.party_short_name, m.photo_thumb_path
+      ORDER BY value DESC, m.full_name`);
+    const all = rows as HubRow[];
+    const p = pickRow(all, all[0]);
+    return p && { ...p, href: "/statistika/varia/parlamendiryhmad" };
+  } catch {
+    return null;
+  }
+}
+
 /** All highlights in parallel; any that fail come back null/empty (that card or row is hidden). */
 export async function getStatHighlights(): Promise<StatHighlights> {
-  const [r, t, a, c, y, k] = await Promise.all([
+  const [r, t, a, c, y, k, md, vt, sw, jn] = await Promise.all([
     rebel(), talker(), absentee(), closestVote(), age(), mostChildren(),
+    mandate(), veteran(), signatureWord(), joiner(),
   ]);
-  return { rebel: r, talker: t, absentee: a, closestVote: c, age: y, mostChildren: k };
+  return {
+    rebel: r, talker: t, absentee: a, closestVote: c, age: y, mostChildren: k,
+    mandate: md, veteran: vt, signatureWord: sw, joiner: jn,
+  };
 }

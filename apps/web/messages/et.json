@@ -7,6 +7,7 @@
     "heading": "Parteidistsipliin",
     "cycle": "XV Riigikogu · 2023–",
     "subheading": "Distsipliiniprotsent näitab, kui tihti liige hääletab oma fraktsiooni enamuse positsiooniga. Kohaloleku kontrolle ja päevakorra kinnitamisi arvesse ei võeta.",
+    "methodology": "Loe metoodikast →",
     "empty": "Andmeid veel ei ole. Käivita scraper, et andmebaas täita."
   },
   "footer": {
@@ -16,14 +17,16 @@
     "contact": "Tagasiside: Anton Žatkin ·"
   },
   "nav": {
-    "members": "Parteidistsipliin",
-    "statistika": "Statistika",
+    "members": "Saadikud",
     "speeches": "Sõnavõtud",
     "expenses": "Kuluhüvitised",
     "decisive": "Otsustavad hääled",
     "varia": "Varia",
-    "searchPlaceholder": "Otsi saadikut…",
-    "searchNoResults": "Ei leidnud."
+    "searchPlaceholder": "Otsi saadikut või sõnavõttu…",
+    "searchNoResults": "Ei leidnud.",
+    "searchGroupMembers": "Saadikud",
+    "searchGroupSpeeches": "Sõnavõtud",
+    "searchAllSpeeches": "Kõik sõnavõttude tulemused →"
   },
   "hub": {
     "heading": "Riigikogu numbrites",
@@ -49,7 +52,19 @@
     "oldestTitle": "Vanim saadik",
     "youngestValue": "{age} aastat",
     "childrenTitle": "Lasterikkaim",
-    "childrenValue": "{n} last"
+    "childrenValue": "{n} last",
+    "magnetTitle": "Suurim häältemagnet",
+    "cheapTitle": "Odavaim mandaat",
+    "votesValue": "{n, number} isiklikku häält",
+    "veteranTitle": "Staažikaim",
+    "newcomerTitle": "Värskeim tulija",
+    "veteranValue": "{n} aastat parlamendis",
+    "newcomerValue": "{n} päeva parlamendis",
+    "sigTitle": "Märgusõna",
+    "sigValue": "„{word}“",
+    "sigSub": "tema kõige iseloomulikum sõna — klõpsa ja loe",
+    "joinerTitle": "Usinaim ühineja",
+    "joinerValue": "{n} parlamendirühma"
   },
   "decisive": {
     "heading": "Napimad hääletused",
@@ -80,6 +95,9 @@
   "statistika": {
     "speakersHeading": "Sõnavõtud",
     "speakersIntro": "Kõnede, küsimuste ja protseduuriliste sõnavõttude arv täiskogul (Riigikogu statistika).",
+    "searchHeading": "Otsi sõnavõttudest",
+    "searchIntro": "Otsi kõigi saadikute täiskogu sõnavõttudest — kes on millest rääkinud.",
+    "boardHeading": "Edetabel",
     "empty": "Andmed puuduvad.",
     "member": "Liige",
     "boardChair": "Riigikogu esimees",
@@ -140,6 +158,7 @@
     "showLess": "Näita vähem",
     "showAllN": "Näita kõiki ({n})",
     "wordHint": "Kliki, et näha selle sõnaga kõnesid",
+    "searchAll": "Otsi kõigist sõnavõttudest →",
     "close": "Sulge",
     "loading": "Laen…",
     "noSpeeches": "Kõnesid ei leitud.",
@@ -256,6 +275,10 @@
       "speechesNote": "Sõnavõtte kokku (kõned, küsimused, protseduurilised).",
       "expensesNote": "Kuluhüvitisi kasutatud {year}. aastal."
     },
+    "anchorVotes": "Hääletused",
+    "anchorSpeeches": "Sõnavõtud",
+    "anchorElection": "Valimised",
+    "anchorExpenses": "Kuluhüvitised",
     "discipline": "Distsipliin",
     "counted": "Hääletusi",
     "against": "Vastu",
@@ -280,6 +303,7 @@
     "tenureMonths": "{n} kuud Riigikogus (sel koosseisul)",
     "tenureNote": "Liige on selles koosseisus olnud Riigikogus vähe aega, mistõttu kõnede arv on ootuspäraselt väike.",
     "searchSpeeches": "Otsi liikme sõnavõttudest…",
+    "searchSpeechesAll": "Otsi kõigist sõnavõttudest…",
     "searchHint": "Otsing arvestab eesti keele käändeid (nt „kool“ leiab ka „koolis“, „koolide“).",
     "searchLoading": "Otsin…",
     "searchNoResults": "Selle otsinguga sõnavõtte ei leitud.",

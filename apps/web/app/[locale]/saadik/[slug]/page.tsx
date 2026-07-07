@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { pool } from "@/lib/db";
 import { getMemberDetail, getPeerAverages, type PeerAverages } from "@/lib/queries";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
@@ -27,6 +28,22 @@ export const dynamicParams = true;
 // route ISR rather than falling back to per-request dynamic rendering.)
 export function generateStaticParams(): { slug: string }[] {
   return [];
+}
+
+// Shared member links should carry the member's name, not the generic site title.
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}) {
+  const { slug } = await params;
+  try {
+    const { rows } = await pool.query(`SELECT full_name FROM members WHERE slug = $1`, [slug]);
+    const name = rows[0]?.full_name as string | undefined;
+    return name ? { title: `${name} — Riigikogulased` } : {};
+  } catch {
+    return {};
+  }
 }
 
 export default async function MemberPage({
@@ -93,35 +110,55 @@ export default async function MemberPage({
             )}
           </p>
         )}
+        {/* Sticky in-page nav: the page is long and its best content (speech search, election,
+            expenses) used to be discoverable only by scrolling. Plain anchors, server-rendered. */}
+        <nav className="sticky top-0 z-30 -mx-4 mt-6 flex gap-x-4 overflow-x-auto border-b border-border bg-background/95 px-4 py-2 text-sm text-muted-foreground backdrop-blur">
+          <a href="#haaletused" className="whitespace-nowrap hover:text-foreground">{t("anchorVotes")}</a>
+          {speechStats && (
+            <a href="#sonavotud" className="whitespace-nowrap hover:text-foreground">{t("anchorSpeeches")}</a>
+          )}
+          {election && (
+            <a href="#valimised" className="whitespace-nowrap hover:text-foreground">{t("anchorElection")}</a>
+          )}
+          <a href="#kulud" className="whitespace-nowrap hover:text-foreground">{t("anchorExpenses")}</a>
+        </nav>
         <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_18rem]">
           <div className="min-w-0 space-y-8">
-            <DisciplineSummary
-              counted={d.counted}
-              aligned={d.aligned}
-              defections={d.defections}
-              partyShortName={d.member.partyShortName}
-              avgDiscipline={peers?.avgDiscipline}
-            />
-            <MemberVotes votes={d.votes} contextDates={d.contextDates} voteResults={d.voteResults} />
-            {speechStats && (
-              <SpeechPanel
-                stats={speechStats}
-                memberId={d.member.memberId}
-                boardRole={d.member.boardRole}
-                mandateStartedOn={d.member.mandateStartedOn}
-                avgSpeeches={peers?.avgSpeeches}
+            <div id="haaletused" className="scroll-mt-12 space-y-8">
+              <DisciplineSummary
+                counted={d.counted}
+                aligned={d.aligned}
+                defections={d.defections}
+                partyShortName={d.member.partyShortName}
+                avgDiscipline={peers?.avgDiscipline}
               />
+              <MemberVotes votes={d.votes} contextDates={d.contextDates} voteResults={d.voteResults} />
+            </div>
+            {speechStats && (
+              <div id="sonavotud" className="scroll-mt-12">
+                <SpeechPanel
+                  stats={speechStats}
+                  memberId={d.member.memberId}
+                  boardRole={d.member.boardRole}
+                  mandateStartedOn={d.member.mandateStartedOn}
+                  avgSpeeches={peers?.avgSpeeches}
+                />
+              </div>
             )}
             <PartyBreakdown rows={d.breakdown} />
-            <ExpensePanel years={expenses} avgSpent={peers?.avgSpent} avgYear={peers?.expenseYear} />
+            <div id="kulud" className="scroll-mt-12">
+              <ExpensePanel years={expenses} avgSpent={peers?.avgSpent} avgYear={peers?.expenseYear} />
+            </div>
           </div>
           <div className="space-y-6">
             {election && (
-              <ElectionPanel
-                election={election}
-                active={d.member.active}
-                enteredOn={d.member.mandateStartedOn}
-              />
+              <div id="valimised" className="scroll-mt-12">
+                <ElectionPanel
+                  election={election}
+                  active={d.member.active}
+                  enteredOn={d.member.mandateStartedOn}
+                />
+              </div>
             )}
             <AffiliationsPanel
               member={d.member}

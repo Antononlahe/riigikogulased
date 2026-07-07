@@ -3,6 +3,8 @@
 import { Fragment, useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { X } from "lucide-react";
+import { Link } from "@/i18n/routing";
+import { PartyBadge } from "@/components/party-badge";
 import { HL_START, HL_END, type SpeechHit } from "@/lib/speech-search";
 
 function formatDate(iso: string | null): string {
@@ -13,7 +15,7 @@ function formatDate(iso: string | null): string {
 
 // Render a ts_headline snippet: text between HL_START/HL_END goes in <mark>, everything else
 // is a plain React text node (so any "<", ">" in the speech is escaped — no XSS).
-function Snippet({ snippet }: { snippet: string }) {
+export function Snippet({ snippet }: { snippet: string }) {
   const out: React.ReactNode[] = [];
   let rest = snippet;
   let key = 0;
@@ -40,12 +42,22 @@ function Snippet({ snippet }: { snippet: string }) {
   return <>{out}</>;
 }
 
-export function SpeechSearch({ memberId }: { memberId: number }) {
+// Full-text search over stenogram speeches. With `memberId` it's the member-page box
+// (that member only); without it it searches the whole corpus and shows who spoke.
+// Site-wide mode reads an initial `?q=` from the URL so other pages can deep-link a search.
+export function SpeechSearch({ memberId }: { memberId?: number }) {
   const t = useTranslations("memberDetail");
   const [q, setQ] = useState("");
   const [hits, setHits] = useState<SpeechHit[] | null>(null);
   const [loading, setLoading] = useState(false);
   const reqId = useRef(0);
+  const global = memberId == null;
+
+  useEffect(() => {
+    if (!global) return;
+    const initial = new URLSearchParams(window.location.search).get("q");
+    if (initial) setQ(initial);
+  }, [global]);
 
   useEffect(() => {
     const term = q.trim();
@@ -58,9 +70,8 @@ export function SpeechSearch({ memberId }: { memberId: number }) {
     const id = ++reqId.current;
     const timer = setTimeout(async () => {
       try {
-        const res = await fetch(
-          `/api/member-speeches?memberId=${memberId}&q=${encodeURIComponent(term)}`,
-        );
+        const member = memberId ? `memberId=${memberId}&` : "";
+        const res = await fetch(`/api/speeches?${member}q=${encodeURIComponent(term)}`);
         const data = (await res.json()) as { hits: SpeechHit[] };
         if (id === reqId.current) setHits(data.hits);
       } catch {
@@ -79,8 +90,8 @@ export function SpeechSearch({ memberId }: { memberId: number }) {
           type="text"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder={t("searchSpeeches")}
-          aria-label={t("searchSpeeches")}
+          placeholder={global ? t("searchSpeechesAll") : t("searchSpeeches")}
+          aria-label={global ? t("searchSpeechesAll") : t("searchSpeeches")}
           className="w-full rounded-md border border-border bg-card py-2 pl-3 pr-9 text-sm outline-none focus:border-ring"
         />
         {q && (
@@ -109,6 +120,14 @@ export function SpeechSearch({ memberId }: { memberId: number }) {
                 const isInfo = type === "infotund";
                 return (
                   <li key={h.speechKey} className="min-w-0 px-3 py-2.5">
+                    {global && (
+                      <div className="mb-0.5 flex items-center gap-2">
+                        <Link href={`/saadik/${h.slug}`} className="text-sm font-semibold hover:underline">
+                          {h.fullName}
+                        </Link>
+                        {h.partyShortName && <PartyBadge shortName={h.partyShortName} />}
+                      </div>
+                    )}
                     <div className="flex items-baseline justify-between gap-3 text-xs text-muted-foreground">
                       <span className="flex min-w-0 items-baseline gap-1.5">
                         <span className="shrink-0 rounded-sm bg-secondary px-1 py-0.5 text-[10px] font-medium uppercase tracking-wide">

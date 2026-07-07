@@ -1,7 +1,7 @@
 "use client";
 
-// v0.5 member-page speech BROWSE list (REMOVABLE FEATURE). Collapsed by default; on first
-// open it fetches /api/member-speeches (no `q` -> browse mode). Sort + year + sitting-type
+// Member-page speech BROWSE list. Collapsed by default; on first
+// open it fetches /api/speeches (no `q` -> browse mode). Sort + year + sitting-type
 // filters refetch from page 0; "load more" pages by offset. Search (SpeechSearch) is the
 // find path; this is the scroll-everything path.
 import { useCallback, useEffect, useRef, useState } from "react";
@@ -48,7 +48,7 @@ export function SpeechBrowse({
       if (year) p.set("year", year);
       if (type) p.set("type", type);
       try {
-        const res = await fetch(`/api/member-speeches?${p}`);
+        const res = await fetch(`/api/speeches?${p}`);
         const data = (await res.json()) as { items: SpeechBrowseItem[] };
         if (id !== reqId.current) return;
         setItems((prev) => (offset === 0 ? data.items : [...prev, ...data.items]));

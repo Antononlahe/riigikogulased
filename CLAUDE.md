@@ -54,9 +54,10 @@ The live site is **https://riigikogulased.zatkin.ee** — Coolify on a Hetzner V
 `migra.md`). **Deploy = push to `main`**: Coolify builds `apps/web/Dockerfile` (base
 directory `/apps/web`, port 3000, Next.js `output: "standalone"`). No CLI deploy step.
 
-- `DATABASE_URL` is set in Coolify as a **build-time** variable — `generateStaticParams`
-  (member pages) prerenders from the DB during `next build`, and prod must already be on
-  the required migration before deploy.
+- `DATABASE_URL` is set in Coolify as a **build-time** variable — the static pages (home
+  hub, /saadikud, /statistika/*) prerender from the DB during `next build`, and prod must
+  already be on the required migration before deploy. (Member pages are NOT prerendered:
+  their `generateStaticParams` returns `[]` on purpose — on-demand ISR, zero build egress.)
 - The old Vercel project `parteidistsipliin` is **legacy**: it only serves a permanent
   catch-all redirect from parteidistsipliin.vercel.app to the new domain
   (`apps/web/vercel.json`). If it ever needs a redeploy:
@@ -199,8 +200,9 @@ Current (migration `0006_alignment_matview.sql`, v0.3/D2):
   definition is unchanged. Rationale: `member_vote_alignment` recomputes party-at-time per ballot
   via correlated subqueries (~9s to materialize fully) and can't be filtered by vote, so the v0.3/D2
   per-topic queries (which join alignment to `vote_topics` by `vote_id`) were ~9s/page; reading the
-  matview makes them ~18ms. The **web topic queries (`apps/web/lib/topics-queries.ts`) read
-  `ballot_alignment`**, never `member_vote_alignment` directly. Refresh it with
+  matview makes them ~18ms. (The topic-filtered web UI was never shipped — there is no
+  `topics-queries.ts` or `/teemad` page; `ballot_alignment` is read by `vote_decisiveness` and
+  any future topic queries.) Refresh it with
   `db.refresh_alignment(conn)` (a plain `REFRESH MATERIALIZED VIEW`) **after any ingest that changes
   ballots/votes/faction/erakond terms** — wired into `_scrape_range` (backfill/daily, but only when
   new votings landed), `rebuild`, and `erakond`. The `members`/`eurovoc`/`photos` commands don't
