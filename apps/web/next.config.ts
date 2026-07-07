@@ -4,6 +4,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
 const nextConfig: NextConfig = {
+  output: "standalone",
   typedRoutes: true,
   async redirects() {
     // Old routes (pre-2026-07 Estonian rename). Both bare (default locale et) and /en/ forms,
