@@ -78,7 +78,7 @@ export function AbsenceLeaderboard({ rows }: { rows: AbsenceRow[] }) {
                   <th scope="row" className="px-4 py-2 text-left font-normal">
                     <span className="flex items-center gap-3 font-semibold">
                       <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
-                      <Link href={`/saadik/${r.slug}`} className="hover:underline">
+                      <Link href={`/saadik/${r.slug}#haaletused`} className="hover:underline">
                         {r.fullName}
                       </Link>
                       <PartyBadge shortName={r.partyShortName} />
@@ -107,7 +107,7 @@ export function AbsenceLeaderboard({ rows }: { rows: AbsenceRow[] }) {
           <li key={r.memberId} className={`rounded-md border border-border p-3 ${r.active ? "" : "opacity-55"}`}>
             <span className="flex items-center gap-3 font-semibold">
               <MemberAvatar fullName={r.fullName} photoThumbPath={r.photoThumbPath} shortName={r.partyShortName} />
-              <Link href={`/saadik/${r.slug}`} className="hover:underline">
+              <Link href={`/saadik/${r.slug}#haaletused`} className="hover:underline">
                 {r.fullName}
               </Link>
               <PartyBadge shortName={r.partyShortName} />
