@@ -29,7 +29,14 @@ export default async function HomePage({
     p.tied >= 3
       ? { eyebrow, value, name: t("tiedCount", { n: p.tied }), sub, href: p.href }
       : p.tied === 2
-        ? { eyebrow, value, name: p.tiedNames.join(", "), sub, href: p.href }
+        ? {
+          eyebrow,
+          value,
+          sub,
+          name: p.tiedPeople.map((x) => x.name).join(", "),
+          people: p.tiedPeople.map((x) => ({ name: x.name, href: `/saadik/${x.slug}` })),
+          href: p.href,
+        }
         : {
           eyebrow,
           value,
@@ -106,16 +113,6 @@ export default async function HomePage({
         ),
       footer: seeAll(HREF.absence),
     },
-    h.closestVote && {
-      top: {
-        eyebrow: t("closestTitle"),
-        value: t("closestValue", { gap: h.closestVote.value }),
-        sub: t("closestSub"),
-        href: h.closestVote.href,
-        name: h.closestVote.name,
-      },
-      footer: seeAll(HREF.decisive),
-    },
     h.age.top && {
       top: row(h.age.top, t("youngestTitle"), t("youngestValue", { age: h.age.top.value })),
       second:
@@ -125,7 +122,7 @@ export default async function HomePage({
     },
     h.mostChildren && {
       top: row(h.mostChildren, t("childrenTitle"), t("childrenValue", { n: h.mostChildren.value })),
-      footer: seeAll(HREF.people),
+      footer: seeAll(HREF.children),
     },
     h.mandate.top && {
       top: row(h.mandate.top, t("magnetTitle"), t("votesValue", { n: h.mandate.top.value })),

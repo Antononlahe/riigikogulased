@@ -1,7 +1,7 @@
 import { unstable_cache } from "next/cache";
 import { pool } from "./db";
 import type {
-  AbsenceRow, GenRow, PartyWords,
+  AbsenceRow, GenRow, PartyWords, MemberWord,
   PeopleRow, ChildRow, BirthPin, CaucusMember,
 } from "./varia";
 
@@ -81,6 +81,23 @@ async function _getPartySignatureWords(): Promise<PartyWords[]> {
   }
   return [...byParty.values()];
 }
+
+/** Each active member's rank-1 signature word, most distinctive first. */
+export const getMemberSignatureWords = unstable_cache(
+  async (): Promise<MemberWord[]> => {
+    const { rows } = await pool.query(`
+      SELECT m.id AS "memberId", m.full_name AS "fullName", m.slug,
+             mcp.party_short_name AS party, st.lemma
+      FROM signature_terms st
+      JOIN members m ON m.id = st.scope_id
+      LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+      WHERE st.scope_kind = 'member' AND st.rank = 1 AND m.active
+      ORDER BY st.score DESC, m.full_name`);
+    return rows as MemberWord[];
+  },
+  ["varia-member-signatures"],
+  { revalidate: 86400 },
+);
 
 // --- Phase 1: biographical stats (member_profiles + child tables). Each returns [] on error /
 // before the tables are populated, so the pages render an empty state. ---

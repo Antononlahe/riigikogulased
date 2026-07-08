@@ -64,6 +64,14 @@ export function friendshipCountry(name: string): string {
 
 export type SignatureWord = { lemma: string; score: number; rank: number };
 export type PartyWords = { partyShortName: string; words: SignatureWord[] };
+/** One member's single most distinctive word (rank-1), ordered by score site-wide. */
+export type MemberWord = {
+  memberId: number;
+  fullName: string;
+  slug: string;
+  party: string | null;
+  lemma: string;
+};
 
 export type GenRow = {
   memberId: number;

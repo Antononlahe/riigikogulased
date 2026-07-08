@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
@@ -61,9 +61,9 @@ function Accordion({ rows, max }: { rows: Row[]; max: number }) {
 }
 
 // Collapsed by default (each section is long). Native <details> -- no JS, accessible.
-function Section({ title, sub, count, children }: { title: string; sub: string; count: number; children: React.ReactNode }) {
+function Section({ id, open, title, sub, count, children }: { id?: string; open?: boolean; title: string; sub: string; count: number; children: React.ReactNode }) {
   return (
-    <details className="group mt-4 rounded-md border border-border first:mt-0">
+    <details id={id} open={open || undefined} className="group mt-4 scroll-mt-20 rounded-md border border-border first:mt-0">
       <summary className="flex cursor-pointer list-none items-center gap-3 p-4">
         <span aria-hidden className="text-xs text-muted-foreground transition-transform group-open:rotate-90">▶</span>
         <span className="min-w-0 flex-1">
@@ -80,6 +80,15 @@ function Section({ title, sub, count, children }: { title: string; sub: string; 
 export function Network({ friendship, causes }: { friendship: CaucusMember[]; causes: CaucusMember[] }) {
   const t = useTranslations("varia");
   const [allMembers, setAllMembers] = useState(false);
+  // The hub's "Usinaim ühineja" card deep-links here; <details> doesn't auto-expand on
+  // fragment navigation, so open the section ourselves when the hash targets it.
+  const [openMembers, setOpenMembers] = useState(false);
+  useEffect(() => {
+    if (window.location.hash === "#enim-ryhmi") {
+      setOpenMembers(true);
+      requestAnimationFrame(() => document.getElementById("enim-ryhmi")?.scrollIntoView());
+    }
+  }, []);
 
   const { countryRows, memberRows, causeRows } = useMemo(() => {
     const countries = new Map<string, Map<string, Member>>();
@@ -128,7 +137,7 @@ export function Network({ friendship, causes }: { friendship: CaucusMember[]; ca
         />
       </Section>
 
-      <Section title={t("globetrotterH")} sub={t("globetrotterSub")} count={memberRows.length}>
+      <Section id="enim-ryhmi" open={openMembers} title={t("globetrotterH")} sub={t("globetrotterSub")} count={memberRows.length}>
         <Accordion
           max={Math.max(1, ...memberRows.map((r) => r.total))}
           rows={shownMembers.map((r) => ({

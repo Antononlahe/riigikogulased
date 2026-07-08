@@ -2,7 +2,6 @@ import { pool } from "./db";
 import { getMemberDiscipline } from "./queries";
 import { getSpeechLeaderboard } from "./speeches-queries";
 import { getAbsenceLeaderboard, getMembersWithAge, getChildren } from "./varia-queries";
-import { getCloseVotes } from "./decisive-queries";
 
 // Front-page "stats hub": for each metric the most-extreme member at BOTH ends (most/least),
 // each the top row of a leaderboard that already exists elsewhere. No new scoring -- just
@@ -15,11 +14,11 @@ export const HREF = {
   discipline: "/saadikud",
   speeches: "/statistika/sonavotud",
   absence: "/statistika/varia/kohalolek",
-  decisive: "/statistika/otsustavad",
   generations: "/statistika/varia/polvkonnad",
-  people: "/statistika/varia/inimesed",
-  words: "/statistika/varia/margusonad",
-  caucuses: "/statistika/varia/parlamendiryhmad",
+  // Deep anchors: the metric lives in one section of a longer page.
+  children: "/statistika/varia/inimesed#lapsed",
+  words: "/statistika/varia/margusonad#saadikud",
+  caucuses: "/statistika/varia/parlamendiryhmad#enim-ryhmi",
 } as const;
 
 // A %-based superlative needs a floor, else a member with 2 votes and 1 defection "wins".
@@ -32,13 +31,12 @@ export type PersonHighlight = {
   photoThumbPath: string | null;
   value: number;
   tied: number; // how many members share this extreme value (1 = sole holder)
-  tiedNames: string[]; // names of the tied holders, first two (shown verbatim when tied === 2)
+  tiedPeople: { name: string; slug: string }[]; // first two tied holders (linked when tied === 2)
   href: string;
   // Metric-specific context pair for the card's one-line "so what": [defections, counted] for
   // discipline, [absent, total] for absence, [total contributions] for speeches.
   detail?: number[];
 };
-export type VoteHighlight = { name: string; value: number; href: string };
 // A metric's two ends: `top` = the superlative the card is named after, `bottom` = its opposite.
 export type HighlightPair = { top: PersonHighlight | null; bottom: PersonHighlight | null };
 
@@ -54,7 +52,6 @@ export type StatHighlights = {
   rebel: HighlightPair; // most/least votes against own faction
   talker: HighlightPair; // most/fewest words spoken
   absentee: HighlightPair; // highest/lowest absence %
-  closestVote: VoteHighlight | null; // smallest flip gap
   age: HighlightPair; // youngest (top) / oldest (bottom) sitting member
   mostChildren: PersonHighlight | null; // most children (a "least" is meaningless here)
   mandate: HighlightPair; // most/fewest personal votes behind a seat (value = votes)
@@ -64,11 +61,11 @@ export type StatHighlights = {
 };
 
 /** Rows sharing `leader`'s exact ranking value -- a genuine tie, not a rounded-display one.
- *  Returns the count and the first two holders' names (a tie of 2 lists both by name). */
-function tie<T>(rows: T[], leader: T, key: (r: T) => number, name: (r: T) => string) {
+ *  Returns the count and the first two holders (a tie of 2 shows both, each linked). */
+function tie<T extends { slug: string }>(rows: T[], leader: T, key: (r: T) => number, name: (r: T) => string) {
   const v = key(leader);
   const peers = rows.filter((r) => key(r) === v);
-  return { tied: peers.length, tiedNames: peers.slice(0, 2).map(name) };
+  return { tied: peers.length, tiedPeople: peers.slice(0, 2).map((r) => ({ name: name(r), slug: r.slug })) };
 }
 
 const EMPTY: HighlightPair = { top: null, bottom: null };
@@ -87,7 +84,7 @@ async function rebel(): Promise<HighlightPair> {
     );
     const pick = (r: (typeof eligible)[number] | undefined): PersonHighlight | null => {
       if (!r) return null;
-      const { tied, tiedNames } = tie(
+      const { tied, tiedPeople } = tie(
         eligible,
         r,
         (x) => x.disciplineScore as number,
@@ -100,7 +97,7 @@ async function rebel(): Promise<HighlightPair> {
         // Show the against-rate (1 - alignment) -- that's what "against their faction" means.
         value: Math.round((1 - (r.disciplineScore as number)) * 100),
         tied,
-        tiedNames,
+        tiedPeople,
         href: rowHref(tied, r.slug, HREF.discipline),
         detail: [r.defections, r.countedVotes],
       };
@@ -118,14 +115,14 @@ async function talker(): Promise<HighlightPair> {
       .sort((a, b) => b.totalWords - a.totalWords);
     const pick = (r: (typeof ranked)[number] | undefined): PersonHighlight | null => {
       if (!r) return null;
-      const { tied, tiedNames } = tie(ranked, r, (x) => x.totalWords, (x) => x.fullName);
+      const { tied, tiedPeople } = tie(ranked, r, (x) => x.totalWords, (x) => x.fullName);
       return {
         name: r.fullName,
         party: r.partyShortName,
         photoThumbPath: r.photoThumbPath,
         value: r.totalWords,
         tied,
-        tiedNames,
+        tiedPeople,
         href: rowHref(tied, r.slug, HREF.speeches),
         detail: [r.total],
       };
@@ -143,14 +140,14 @@ async function absentee(): Promise<HighlightPair> {
     const active = (await getAbsenceLeaderboard()).filter((x) => x.active); // sorted absentPct DESC
     const pick = (r: (typeof active)[number] | undefined): PersonHighlight | null => {
       if (!r) return null;
-      const { tied, tiedNames } = tie(active, r, (x) => x.absentPct, (x) => x.fullName);
+      const { tied, tiedPeople } = tie(active, r, (x) => x.absentPct, (x) => x.fullName);
       return {
         name: r.fullName,
         party: r.partyShortName,
         photoThumbPath: r.photoThumbPath,
         value: Math.round(r.absentPct),
         tied,
-        tiedNames,
+        tiedPeople,
         href: rowHref(tied, r.slug, HREF.absence),
         detail: [r.absent, r.total],
       };
@@ -158,15 +155,6 @@ async function absentee(): Promise<HighlightPair> {
     return { top: pick(active[0]), bottom: pick(active.at(-1)) };
   } catch {
     return EMPTY;
-  }
-}
-
-async function closestVote(): Promise<VoteHighlight | null> {
-  try {
-    const v = (await getCloseVotes(1))[0]; // ordered tightest-first
-    return v ? { name: v.subject ?? v.title, value: v.flipGap, href: HREF.decisive } : null;
-  } catch {
-    return null;
   }
 }
 
@@ -182,7 +170,7 @@ async function age(): Promise<HighlightPair> {
             photoThumbPath: r.photoThumbPath,
             value: r.age,
             tied: 1,
-            tiedNames: [r.fullName],
+            tiedPeople: [{ name: r.fullName, slug: r.slug }],
             href: `/saadik/${r.slug}`,
           }
         : null;
@@ -197,15 +185,15 @@ async function mostChildren(): Promise<PersonHighlight | null> {
     const rows = await getChildren(); // sorted children DESC
     const r = rows[0];
     if (!r || r.children <= 0) return null;
-    const { tied, tiedNames } = tie(rows, r, (x) => x.children, (x) => x.fullName);
+    const { tied, tiedPeople } = tie(rows, r, (x) => x.children, (x) => x.fullName);
     return {
       name: r.fullName,
       party: r.partyShortName,
       photoThumbPath: null,
       value: r.children,
       tied,
-      tiedNames,
-      href: rowHref(tied, r.slug, HREF.people),
+      tiedPeople,
+      href: rowHref(tied, r.slug, HREF.children),
     };
   } catch {
     return null;
@@ -230,14 +218,14 @@ function pickRow(
   fallbackHref = "/saadikud",
 ): PersonHighlight | null {
   if (!r) return null;
-  const { tied, tiedNames } = tie(rows, r, (x) => x.value, (x) => x.fullName);
+  const { tied, tiedPeople } = tie(rows, r, (x) => x.value, (x) => x.fullName);
   return {
     name: r.fullName,
     party: r.partyShortName,
     photoThumbPath: r.photoThumbPath,
     value: r.value,
     tied,
-    tiedNames,
+    tiedPeople,
     href: rowHref(tied, r.slug, fallbackHref),
   };
 }
@@ -312,7 +300,10 @@ async function joiner(): Promise<PersonHighlight | null> {
       GROUP BY m.id, m.full_name, m.slug, mcp.party_short_name, m.photo_thumb_path
       ORDER BY value DESC, m.full_name`);
     const all = rows as HubRow[];
-    return pickRow(all, all[0], HREF.caucuses);
+    // Member pages don't show caucus memberships, so even a sole holder links to the
+    // "Enim rühmi" section of the parlamendirühmad page, not their profile.
+    const p = pickRow(all, all[0], HREF.caucuses);
+    return p && { ...p, href: HREF.caucuses };
   } catch {
     return null;
   }
@@ -320,12 +311,12 @@ async function joiner(): Promise<PersonHighlight | null> {
 
 /** All highlights in parallel; any that fail come back null/empty (that card or row is hidden). */
 export async function getStatHighlights(): Promise<StatHighlights> {
-  const [r, t, a, c, y, k, md, vt, sw, jn] = await Promise.all([
-    rebel(), talker(), absentee(), closestVote(), age(), mostChildren(),
+  const [r, t, a, y, k, md, vt, sw, jn] = await Promise.all([
+    rebel(), talker(), absentee(), age(), mostChildren(),
     mandate(), veteran(), signatureWord(), joiner(),
   ]);
   return {
-    rebel: r, talker: t, absentee: a, closestVote: c, age: y, mostChildren: k,
+    rebel: r, talker: t, absentee: a, age: y, mostChildren: k,
     mandate: md, veteran: vt, signatureWord: sw, joiner: jn,
   };
 }

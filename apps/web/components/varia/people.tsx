@@ -17,9 +17,9 @@ import { groupPeople, type PeopleRow, type PeopleMember, type ChildRow } from "@
 // below it we print "-" (ERK, with its single member, never qualifies -- and isn't a fraktsioon).
 const MIN_PARTY = 5;
 
-function Section({ title, sub, children }: { title: string; sub: string; children: React.ReactNode }) {
+function Section({ id, title, sub, children }: { id?: string; title: string; sub: string; children: React.ReactNode }) {
   return (
-    <section className="mt-10 first:mt-0">
+    <section id={id} className="mt-10 scroll-mt-20 first:mt-0">
       <h2 className="font-serif text-xl font-bold tracking-tight">{title}</h2>
       <p className="mt-1 text-sm text-muted-foreground">{sub}</p>
       <div className="mt-4">{children}</div>
@@ -207,7 +207,7 @@ export function Children({ rows }: { rows: ChildRow[] }) {
   }, [rows]);
 
   return (
-    <Section title={t("childrenH")} sub={t("childrenSub")}>
+    <Section id="lapsed" title={t("childrenH")} sub={t("childrenSub")}>
       <div className="mb-4 flex flex-wrap gap-3">
         <Stat label={t("childrenTotal")} value={total} />
         <Stat label={t("childrenAvg")} value={avg} />

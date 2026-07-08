@@ -37,7 +37,9 @@ export function BirthplaceMap({ pins }: { pins: BirthPin[] }) {
   const ordered = [...pins].sort((a, b) => a.members.length - b.members.length);
 
   return (
-    <div className="grid grid-cols-1 gap-4 sm:grid-cols-[3fr_2fr]">
+    // items-start: a town with many members makes the detail panel tall; without it the grid
+    // stretches the map card to match, leaving blank canvas under the map.
+    <div className="grid grid-cols-1 items-start gap-4 sm:grid-cols-[3fr_2fr]">
       <div className="rounded-md border border-border bg-card p-2">
         <svg viewBox={`-4 -4 108 73`} className="w-full" role="img" aria-label={t("birthplaceH")}>
           <path d={ESTONIA_PATH} fill="var(--muted)" stroke="var(--border)" strokeWidth={0.4} />

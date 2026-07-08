@@ -10,17 +10,17 @@ export type StatCardRow = {
   party?: string | null;
   avatar?: { fullName: string; photoThumbPath: string | null; shortName: string | null };
   href: string; // where THIS row goes (sole holder -> member page, tie/vote -> leaderboard)
+  // A two-way tie: both holders shown, each linking to their own member page. When set, the
+  // row itself is not a link -- only the names are.
+  people?: { name: string; href: string }[];
 };
 
 // One row inside a hub card: its own link, so the two ends of a metric go to their own
 // targets and hover highlights just the row, not the whole card.
 function Row({ row, className }: { row: StatCardRow; className: string }) {
-  const { eyebrow, name, value, sub, party, avatar, href } = row;
-  return (
-    <Link
-      href={href}
-      className={`group flex items-start gap-3 p-4 transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-foreground ${className}`}
-    >
+  const { eyebrow, name, value, sub, party, avatar, href, people } = row;
+  const body = (
+    <>
       {avatar && <MemberAvatar {...avatar} />}
       <div className="min-w-0 flex-1">
         <div className="text-[11px] font-medium uppercase tracking-wide text-muted-foreground">
@@ -28,13 +28,33 @@ function Row({ row, className }: { row: StatCardRow; className: string }) {
         </div>
         <div className="mt-1 flex items-center gap-2">
           <span className="truncate font-serif text-base font-bold leading-tight group-hover:underline">
-            {name}
+            {people
+              ? people.map((p, i) => (
+                  <span key={p.href}>
+                    {i > 0 && ", "}
+                    <Link href={p.href} className="hover:underline">
+                      {p.name}
+                    </Link>
+                  </span>
+                ))
+              : name}
           </span>
           {party && <PartyBadge shortName={party} />}
         </div>
         <div className="mt-1 text-sm font-semibold tabular-nums">{value}</div>
         {sub && <div className="mt-0.5 text-xs text-muted-foreground">{sub}</div>}
       </div>
+    </>
+  );
+  if (people) {
+    return <div className={`flex items-start gap-3 p-4 ${className}`}>{body}</div>;
+  }
+  return (
+    <Link
+      href={href}
+      className={`group flex items-start gap-3 p-4 transition-colors hover:bg-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-foreground ${className}`}
+    >
+      {body}
     </Link>
   );
 }
