@@ -30,6 +30,7 @@ export type PersonHighlight = {
   photoThumbPath: string | null;
   value: number;
   tied: number; // how many members share this extreme value (1 = sole holder)
+  tiedNames: string[]; // names of the tied holders, first two (shown verbatim when tied === 2)
   href: string;
   // Metric-specific context pair for the card's one-line "so what": [defections, counted] for
   // discipline, [absent, total] for absence, [total contributions] for speeches.
@@ -60,10 +61,12 @@ export type StatHighlights = {
   joiner: PersonHighlight | null; // most parlamendirühmad/caucus memberships
 };
 
-/** Count rows sharing `leader`'s exact ranking value -- a genuine tie, not a rounded-display one. */
-function tieCount<T>(rows: T[], leader: T, key: (r: T) => number): number {
+/** Rows sharing `leader`'s exact ranking value -- a genuine tie, not a rounded-display one.
+ *  Returns the count and the first two holders' names (a tie of 2 lists both by name). */
+function tie<T>(rows: T[], leader: T, key: (r: T) => number, name: (r: T) => string) {
   const v = key(leader);
-  return rows.filter((r) => key(r) === v).length;
+  const peers = rows.filter((r) => key(r) === v);
+  return { tied: peers.length, tiedNames: peers.slice(0, 2).map(name) };
 }
 
 const EMPTY: HighlightPair = { top: null, bottom: null };
@@ -82,7 +85,12 @@ async function rebel(): Promise<HighlightPair> {
     );
     const pick = (r: (typeof eligible)[number] | undefined): PersonHighlight | null => {
       if (!r) return null;
-      const tied = tieCount(eligible, r, (x) => x.disciplineScore as number);
+      const { tied, tiedNames } = tie(
+        eligible,
+        r,
+        (x) => x.disciplineScore as number,
+        (x) => x.fullName,
+      );
       return {
         name: r.fullName,
         party: r.partyShortName,
@@ -90,6 +98,7 @@ async function rebel(): Promise<HighlightPair> {
         // Show the against-rate (1 - alignment) -- that's what "against their faction" means.
         value: Math.round((1 - (r.disciplineScore as number)) * 100),
         tied,
+        tiedNames,
         href: rowHref(tied, r.slug, HREF.discipline),
         detail: [r.defections, r.countedVotes],
       };
@@ -107,13 +116,14 @@ async function talker(): Promise<HighlightPair> {
       .sort((a, b) => b.totalWords - a.totalWords);
     const pick = (r: (typeof ranked)[number] | undefined): PersonHighlight | null => {
       if (!r) return null;
-      const tied = tieCount(ranked, r, (x) => x.totalWords);
+      const { tied, tiedNames } = tie(ranked, r, (x) => x.totalWords, (x) => x.fullName);
       return {
         name: r.fullName,
         party: r.partyShortName,
         photoThumbPath: r.photoThumbPath,
         value: r.totalWords,
         tied,
+        tiedNames,
         href: rowHref(tied, r.slug, HREF.speeches),
         detail: [r.total],
       };
@@ -131,13 +141,14 @@ async function absentee(): Promise<HighlightPair> {
     const active = (await getAbsenceLeaderboard()).filter((x) => x.active); // sorted absentPct DESC
     const pick = (r: (typeof active)[number] | undefined): PersonHighlight | null => {
       if (!r) return null;
-      const tied = tieCount(active, r, (x) => x.absentPct);
+      const { tied, tiedNames } = tie(active, r, (x) => x.absentPct, (x) => x.fullName);
       return {
         name: r.fullName,
         party: r.partyShortName,
         photoThumbPath: r.photoThumbPath,
         value: Math.round(r.absentPct),
         tied,
+        tiedNames,
         href: rowHref(tied, r.slug, HREF.absence),
         detail: [r.absent, r.total],
       };
@@ -169,6 +180,7 @@ async function age(): Promise<HighlightPair> {
             photoThumbPath: r.photoThumbPath,
             value: r.age,
             tied: 1,
+            tiedNames: [r.fullName],
             href: `/saadik/${r.slug}`,
           }
         : null;
@@ -183,13 +195,14 @@ async function mostChildren(): Promise<PersonHighlight | null> {
     const rows = await getChildren(); // sorted children DESC
     const r = rows[0];
     if (!r || r.children <= 0) return null;
-    const tied = tieCount(rows, r, (x) => x.children);
+    const { tied, tiedNames } = tie(rows, r, (x) => x.children, (x) => x.fullName);
     return {
       name: r.fullName,
       party: r.partyShortName,
       photoThumbPath: null,
       value: r.children,
       tied,
+      tiedNames,
       href: rowHref(tied, r.slug, HREF.people),
     };
   } catch {
@@ -215,13 +228,14 @@ function pickRow(
   fallbackHref = "/saadikud",
 ): PersonHighlight | null {
   if (!r) return null;
-  const tied = tieCount(rows, r, (x) => x.value);
+  const { tied, tiedNames } = tie(rows, r, (x) => x.value, (x) => x.fullName);
   return {
     name: r.fullName,
     party: r.partyShortName,
     photoThumbPath: r.photoThumbPath,
     value: r.value,
     tied,
+    tiedNames,
     href: rowHref(tied, r.slug, fallbackHref),
   };
 }

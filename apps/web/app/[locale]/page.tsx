@@ -26,9 +26,11 @@ export default async function HomePage({
     value: string,
     sub?: string,
   ): StatCardRow =>
-    p.tied > 1
+    p.tied >= 3
       ? { eyebrow, value, name: t("tiedCount", { n: p.tied }), sub, href: p.href }
-      : {
+      : p.tied === 2
+        ? { eyebrow, value, name: p.tiedNames.join(", "), sub, href: p.href }
+        : {
           eyebrow,
           value,
           sub,
@@ -165,7 +167,7 @@ export default async function HomePage({
         {shown.length === 0 ? (
           <p className="mt-8 text-sm text-muted-foreground">{t("empty")}</p>
         ) : (
-          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid grid-cols-1 items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {shown.map((c, i) => (
               <StatCard key={i} top={c.top} second={c.second || null} />
             ))}
