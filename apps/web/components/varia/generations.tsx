@@ -35,10 +35,14 @@ function emptyCohorts(): Record<Generation, Person[]> {
   return { "95+": [], "85-94": [], "75-84": [], "65-74": [], "55-64": [], "-54": [] };
 }
 
+// A segment (one party x one cohort) keyed for the open-set. "~" = the no-party bucket.
+const segKey = (party: PartyShort | null, g: Generation) => `${party ?? "~"}|${g}`;
+
 export function Generations({ rows }: { rows: GenRow[] }) {
   const t = useTranslations("varia");
   const [tip, setTip] = useState<{ x: number; y: number; text: string } | null>(null);
-  const [sel, setSel] = useState<{ party: PartyShort | null; g: Generation } | null>(null);
+  // Every open segment panel; legend/party/all toggles operate on whole groups of keys.
+  const [open, setOpen] = useState<ReadonlySet<string>>(new Set());
 
   const { byParty, youngest, oldest, avgAge } = useMemo(() => {
     const map = new Map<PartyShort | null, PartyAgg>();
@@ -67,6 +71,28 @@ export function Generations({ rows }: { rows: GenRow[] }) {
     };
   }, [rows]);
 
+  // All non-empty segment keys, for the group toggles.
+  const allKeys = useMemo(
+    () =>
+      byParty.flatMap((a) =>
+        GENERATIONS.filter((g) => a.cohorts[g].length > 0).map((g) => segKey(a.party, g)),
+      ),
+    [byParty],
+  );
+
+  // Toggle a group: if every key in it is already open, close them all; otherwise open them all.
+  const toggle = (keys: string[]) =>
+    setOpen((prev) => {
+      const next = new Set(prev);
+      const allOpen = keys.length > 0 && keys.every((k) => next.has(k));
+      for (const k of keys) (allOpen ? next.delete(k) : next.add(k));
+      return next;
+    });
+  const cohortKeys = (g: Generation) =>
+    byParty.filter((a) => a.cohorts[g].length > 0).map((a) => segKey(a.party, g));
+  const partyKeys = (a: PartyAgg) =>
+    GENERATIONS.filter((g) => a.cohorts[g].length > 0).map((g) => segKey(a.party, g));
+
   return (
     <div className="relative space-y-8" onMouseLeave={() => setTip(null)}>
       {/* Callouts */}
@@ -86,31 +112,60 @@ export function Generations({ rows }: { rows: GenRow[] }) {
         )}
       </div>
 
-      {/* Legend: youngest (left) -> oldest (right), same colours as the bars. */}
-      <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
-        {GENERATIONS.map((g) => (
-          <span key={g} className="inline-flex items-center gap-1.5">
-            <span aria-hidden className="h-3 w-3 rounded-sm" style={{ backgroundColor: COHORT_COLOR[g] }} />
-            {COHORT_LABEL[g]}
-          </span>
-        ))}
+      {/* Legend: youngest (left) -> oldest (right), same colours as the bars. Each chip toggles
+          that cohort open across every party; the trailing button toggles everything. */}
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
+        {GENERATIONS.map((g) => {
+          const keys = cohortKeys(g);
+          const active = keys.length > 0 && keys.every((k) => open.has(k));
+          return (
+            <button
+              type="button"
+              key={g}
+              aria-pressed={active}
+              title={t("legendHint")}
+              onClick={() => toggle(keys)}
+              className={`inline-flex cursor-pointer items-center gap-1.5 rounded-sm px-1 py-0.5 transition-colors hover:text-foreground ${active ? "bg-accent text-foreground" : ""}`}
+            >
+              <span aria-hidden className="h-3 w-3 rounded-sm" style={{ backgroundColor: COHORT_COLOR[g] }} />
+              {COHORT_LABEL[g]}
+            </button>
+          );
+        })}
+        <button
+          type="button"
+          onClick={() => setOpen(open.size > 0 ? new Set() : new Set(allKeys))}
+          className="ml-auto cursor-pointer rounded-sm px-1 py-0.5 font-medium underline-offset-2 hover:text-foreground hover:underline"
+        >
+          {open.size > 0 ? t("closeAll") : t("openAll")}
+        </button>
       </div>
 
       {/* Per-party age profile: 100% stacked cohort bars, youngest segment on the left. Click a
           segment to reveal the people in that faction + age bracket. */}
       <ul className="space-y-3">
         {byParty.map((a) => {
-          const open = sel?.party === a.party ? sel.g : null;
           const partyLabel = a.party ?? "-";
+          const openCohorts = GENERATIONS.filter(
+            (g) => a.cohorts[g].length > 0 && open.has(segKey(a.party, g)),
+          );
           return (
             <li key={a.party ?? "other"}>
               <div className="flex items-center gap-3">
-                <span className="w-16 shrink-0"><PartyBadge shortName={a.party} /></span>
+                <button
+                  type="button"
+                  onClick={() => toggle(partyKeys(a))}
+                  title={t("partyHint")}
+                  className="w-16 shrink-0 cursor-pointer text-left"
+                >
+                  <PartyBadge shortName={a.party} />
+                </button>
                 <span className="flex h-6 flex-1 overflow-hidden rounded-sm">
                   {GENERATIONS.map((g) => {
                     const n = a.cohorts[g].length;
                     if (!n) return null;
-                    const isOpen = open === g;
+                    const k = segKey(a.party, g);
+                    const isOpen = open.has(k);
                     return (
                       <button
                         type="button"
@@ -122,7 +177,7 @@ export function Generations({ rows }: { rows: GenRow[] }) {
                           backgroundColor: COHORT_COLOR[g],
                           boxShadow: isOpen ? "inset 0 0 0 2px var(--foreground)" : undefined,
                         }}
-                        onClick={() => setSel(isOpen ? null : { party: a.party, g })}
+                        onClick={() => toggle([k])}
                         onMouseMove={(e) =>
                           setTip({ x: e.clientX, y: e.clientY, text: `${partyLabel} · ${COHORT_LABEL[g]}: ${n}` })}
                         onMouseLeave={() => setTip(null)}
@@ -135,19 +190,23 @@ export function Generations({ rows }: { rows: GenRow[] }) {
                 </span>
               </div>
 
-              {open && (
-                <div className="ml-16 mt-2 rounded-md border border-border p-3">
+              {openCohorts.map((g) => (
+                <div key={g} className="ml-16 mt-2 rounded-md border border-border p-3">
                   <div className="mb-2 flex items-center gap-2">
-                    <span aria-hidden className="h-3 w-3 rounded-sm" style={{ backgroundColor: COHORT_COLOR[open] }} />
+                    <span aria-hidden className="h-3 w-3 rounded-sm" style={{ backgroundColor: COHORT_COLOR[g] }} />
                     <PartyBadge shortName={a.party} />
-                    <span className="text-sm font-semibold">{COHORT_LABEL[open]}</span>
-                    <span className="text-sm text-muted-foreground">· {a.cohorts[open].length}</span>
-                    <button type="button" onClick={() => setSel(null)} className="ml-auto text-sm text-muted-foreground hover:text-foreground">
+                    <span className="text-sm font-semibold">{COHORT_LABEL[g]}</span>
+                    <span className="text-sm text-muted-foreground">· {a.cohorts[g].length}</span>
+                    <button
+                      type="button"
+                      onClick={() => toggle([segKey(a.party, g)])}
+                      className="ml-auto text-sm text-muted-foreground hover:text-foreground"
+                    >
                       {t("close")}
                     </button>
                   </div>
                   <ul className="grid grid-cols-1 gap-x-4 gap-y-2 sm:grid-cols-2 lg:grid-cols-3">
-                    {[...a.cohorts[open]].sort((x, y) => x.age - y.age).map((m) => (
+                    {[...a.cohorts[g]].sort((x, y) => x.age - y.age).map((m) => (
                       <li key={m.slug}>
                         <Link href={`/saadik/${m.slug}`} className="flex items-center gap-2 hover:underline">
                           <MemberAvatar fullName={m.fullName} photoThumbPath={m.photoThumbPath} shortName={a.party} />
@@ -160,7 +219,7 @@ export function Generations({ rows }: { rows: GenRow[] }) {
                     ))}
                   </ul>
                 </div>
-              )}
+              ))}
             </li>
           );
         })}

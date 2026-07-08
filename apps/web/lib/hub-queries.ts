@@ -10,14 +10,16 @@ import { getCloseVotes } from "./decisive-queries";
 // is then hidden). When several members share the extreme value, `tied` > 1 and the card shows
 // the count instead of crowning one arbitrarily.
 
-// Full pages each card links to.
-const HREF = {
+// Full pages each card links to (also the cards' "see all" footer targets).
+export const HREF = {
   discipline: "/saadikud",
   speeches: "/statistika/sonavotud",
   absence: "/statistika/varia/kohalolek",
   decisive: "/statistika/otsustavad",
   generations: "/statistika/varia/polvkonnad",
   people: "/statistika/varia/inimesed",
+  words: "/statistika/varia/margusonad",
+  caucuses: "/statistika/varia/parlamendiryhmad",
 } as const;
 
 // A %-based superlative needs a floor, else a member with 2 votes and 1 defection "wins".
@@ -310,7 +312,7 @@ async function joiner(): Promise<PersonHighlight | null> {
       GROUP BY m.id, m.full_name, m.slug, mcp.party_short_name, m.photo_thumb_path
       ORDER BY value DESC, m.full_name`);
     const all = rows as HubRow[];
-    return pickRow(all, all[0], "/statistika/varia/parlamendiryhmad");
+    return pickRow(all, all[0], HREF.caucuses);
   } catch {
     return null;
   }

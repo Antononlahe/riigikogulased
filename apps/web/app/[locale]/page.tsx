@@ -2,7 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { StatCard, type StatCardRow } from "@/components/stat-card";
-import { getStatHighlights, type PersonHighlight } from "@/lib/hub-queries";
+import { getStatHighlights, HREF, type PersonHighlight } from "@/lib/hub-queries";
 
 export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 
@@ -40,9 +40,18 @@ export default async function HomePage({
           href: p.href,
         };
 
+  // Card footer: the metric's own stat page. Person rows keep linking to the person; the
+  // footer is the unambiguous way into the full leaderboard.
+  const seeAll = (href: string) => ({ label: t("seeAll"), href });
+
+  type Card = {
+    top: StatCardRow;
+    second?: StatCardRow | null | false;
+    footer?: { label: string; href: string };
+  };
   // Each entry is null when its highlight is missing; filtered out below. The `second` row is
   // the metric's opposite end (least where the title says most).
-  const cards: ({ top: StatCardRow; second?: StatCardRow | null | false } | null | undefined)[] = [
+  const cards: (Card | null | undefined | false)[] = [
     h.rebel.top && {
       top: row(
         h.rebel.top,
@@ -59,6 +68,7 @@ export default async function HomePage({
           h.rebel.bottom.detail &&
             t("rebelSub", { d: h.rebel.bottom.detail[0], c: h.rebel.bottom.detail[1] }),
         ),
+      footer: seeAll(HREF.discipline),
     },
     h.talker.top && {
       top: row(
@@ -75,6 +85,7 @@ export default async function HomePage({
           t("talkerValue", { n: h.talker.bottom.value }),
           h.talker.bottom.detail && t("talkerSub", { n: h.talker.bottom.detail[0] }),
         ),
+      footer: seeAll(HREF.speeches),
     },
     h.absentee.top && {
       top: row(
@@ -93,6 +104,7 @@ export default async function HomePage({
           h.absentee.bottom.detail &&
             t("absenteeSub", { a: h.absentee.bottom.detail[0], c: h.absentee.bottom.detail[1] }),
         ),
+      footer: seeAll(HREF.absence),
     },
     h.closestVote && {
       top: {
@@ -102,15 +114,18 @@ export default async function HomePage({
         href: h.closestVote.href,
         name: h.closestVote.name,
       },
+      footer: seeAll(HREF.decisive),
     },
     h.age.top && {
       top: row(h.age.top, t("youngestTitle"), t("youngestValue", { age: h.age.top.value })),
       second:
         h.age.bottom &&
         row(h.age.bottom, t("oldestTitle"), t("youngestValue", { age: h.age.bottom.value })),
+      footer: seeAll(HREF.generations),
     },
     h.mostChildren && {
       top: row(h.mostChildren, t("childrenTitle"), t("childrenValue", { n: h.mostChildren.value })),
+      footer: seeAll(HREF.people),
     },
     h.mandate.top && {
       top: row(h.mandate.top, t("magnetTitle"), t("votesValue", { n: h.mandate.top.value })),
@@ -149,14 +164,14 @@ export default async function HomePage({
         },
         href: h.signatureWord.href,
       },
+      footer: seeAll(HREF.words),
     },
     h.joiner && {
       top: row(h.joiner, t("joinerTitle"), t("joinerValue", { n: h.joiner.value })),
+      footer: seeAll(HREF.caucuses),
     },
   ];
-  const shown = cards.filter((c): c is { top: StatCardRow; second?: StatCardRow | null | false } =>
-    Boolean(c),
-  );
+  const shown = cards.filter((c): c is Card => Boolean(c));
 
   return (
     <>
@@ -169,7 +184,7 @@ export default async function HomePage({
         ) : (
           <div className="mt-8 grid grid-cols-1 items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {shown.map((c, i) => (
-              <StatCard key={i} top={c.top} second={c.second || null} />
+              <StatCard key={i} top={c.top} second={c.second || null} footer={c.footer} />
             ))}
           </div>
         )}

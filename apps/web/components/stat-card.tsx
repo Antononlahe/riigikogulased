@@ -40,15 +40,33 @@ function Row({ row, className }: { row: StatCardRow; className: string }) {
 }
 
 // One hub card: the metric's top holder, and optionally the opposite end (`second`) below a
-// divider -- most and least in one card, each row linking to its own target.
-export function StatCard({ top, second }: { top: StatCardRow; second?: StatCardRow | null }) {
+// divider -- most and least in one card, each row linking to its own target. `footer` is the
+// metric's own stat page ("see all"), so person rows can keep linking to the person without
+// hiding the leaderboard behind them.
+export function StatCard({
+  top,
+  second,
+  footer,
+}: {
+  top: StatCardRow;
+  second?: StatCardRow | null;
+  footer?: { label: string; href: string } | null;
+}) {
   return (
     <div className="flex flex-col rounded-lg border border-border bg-card">
-      <Row row={top} className={second ? "rounded-t-lg" : "rounded-lg"} />
+      <Row row={top} className={second || footer ? "rounded-t-lg" : "rounded-lg"} />
       {second && (
         <div className="border-t border-border">
-          <Row row={second} className="rounded-b-lg" />
+          <Row row={second} className={footer ? "" : "rounded-b-lg"} />
         </div>
+      )}
+      {footer && (
+        <Link
+          href={footer.href}
+          className="rounded-b-lg border-t border-border px-4 py-2 text-xs font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-foreground"
+        >
+          {footer.label} →
+        </Link>
       )}
     </div>
   );
