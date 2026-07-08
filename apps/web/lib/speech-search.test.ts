@@ -30,7 +30,20 @@ describe("prefixHighlightQuery", () => {
 
   it("drops punctuation and 1-char tokens (would over-highlight)", () => {
     expect(prefixHighlightQuery("a, kool!")).toBe("kool:*");
-    expect(prefixHighlightQuery("co2 heide")).toBe("co2:* | heide:*");
+    expect(prefixHighlightQuery("co2 kool")).toBe("co2:* | kool:*");
+  });
+
+  it("adds the consonant-gradation grade as an extra prefix", () => {
+    expect(prefixHighlightQuery("euroliit")).toBe("euroliit:* | euroliid:*"); // liit→liidu
+    expect(prefixHighlightQuery("euroliidu")).toBe("euroliidu:* | euroliit:*"); // weak→strong
+    expect(prefixHighlightQuery("pank")).toBe("pank:* | pang:*"); // pank→panga
+    expect(prefixHighlightQuery("heide")).toBe("heide:* | heit:*"); // heide→heite
+    expect(prefixHighlightQuery("sepp")).toBe("sepp:* | sep:*"); // sepp→sepa
+  });
+
+  it("no gradation variant when the plosive is in a cluster or absent", () => {
+    expect(prefixHighlightQuery("eesti")).toBe("eesti:*"); // st does not gradate
+    expect(prefixHighlightQuery("kool")).toBe("kool:*");
   });
 
   it("returns empty string when nothing usable", () => {
