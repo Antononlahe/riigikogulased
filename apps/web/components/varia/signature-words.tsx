@@ -13,9 +13,12 @@ import type { PartyWords, MemberWord } from "@/lib/varia";
 // sync with the Python list; this copy is display-only.
 const EXCLUDED = [
   "otsekui", "meelest", "vaatamata", "enesestmõistetavalt", "ükspuha", "miskisugune", "kuskilt",
+  "seonduvalt", "miskipärast", "mispärast", "kuidagimoodi", "hiljaaegu", "ennist", "nähtavasti",
+  "niisugune",
   "kõnesoov", "saalikutsung", "kohalolija", "kohalolek", "vastusõnavõtt", "hääletamissedel",
-  "täpsustav", "austatav", "auväärt", "lugupeetav", "ministrihärra", "ministriproua",
-  "poo", "esm", "tanel", "vadim", "epleri", "laatsi", "sillart", "uikala", "heldna",
+  "täpsustav", "kõnetool", "eesistuja", "päevakorrapunkt",
+  "austatav", "auväärt", "lugupeetav", "ministrihärra", "ministriproua",
+  "poo", "esm", "epleri", "laatsi", "sillart", "uikala", "heldna",
 ];
 
 // Map a rank (1 = most distinctive) to a font size. Rank-based, not score-based, so one party's
@@ -101,66 +104,69 @@ export function SignatureWords({ parties, memberWords }: { parties: PartyWords[]
 
   return (
     <div>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-        {sorted.map((p) => {
-          const token = partyToken(p.partyShortName);
-          return (
-            <div key={p.partyShortName} className="rounded-md border border-border p-4">
-              <div className="mb-3 flex items-center gap-2">
-                <PartyBadge shortName={p.partyShortName} />
-                {isKnownParty(p.partyShortName) && (
-                  <span className="text-sm font-semibold text-muted-foreground">{token.label}</span>
-                )}
+      <section id="erakonnad" className="scroll-mt-20">
+        <h2 className="font-serif text-xl font-bold tracking-tight">{t("partyWordsH")}</h2>
+        <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+          {sorted.map((p) => {
+            const token = partyToken(p.partyShortName);
+            return (
+              <div key={p.partyShortName} className="rounded-md border border-border p-4">
+                <div className="mb-3 flex items-center gap-2">
+                  <PartyBadge shortName={p.partyShortName} />
+                  {isKnownParty(p.partyShortName) && (
+                    <span className="text-sm font-semibold text-muted-foreground">{token.label}</span>
+                  )}
+                </div>
+                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                  {p.words.map((w) => {
+                    const active = sel?.party === p.partyShortName && sel?.lemma === w.lemma;
+                    return (
+                      <button
+                        key={w.lemma}
+                        type="button"
+                        onClick={() => pick(p.partyShortName, w.lemma)}
+                        title={t("wordHint")}
+                        className="font-semibold leading-tight transition-opacity hover:underline"
+                        style={{
+                          fontSize: sizeForRank(w.rank),
+                          color: token.ink,
+                          opacity: active ? 1 : undefined,
+                          textDecorationLine: active ? "underline" : undefined,
+                        }}
+                      >
+                        {w.lemma}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
-              <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                {p.words.map((w) => {
-                  const active = sel?.party === p.partyShortName && sel?.lemma === w.lemma;
-                  return (
-                    <button
-                      key={w.lemma}
-                      type="button"
-                      onClick={() => pick(p.partyShortName, w.lemma)}
-                      title={t("wordHint")}
-                      className="font-semibold leading-tight transition-opacity hover:underline"
-                      style={{
-                        fontSize: sizeForRank(w.rank),
-                        color: token.ink,
-                        opacity: active ? 1 : undefined,
-                        textDecorationLine: active ? "underline" : undefined,
-                      }}
-                    >
-                      {w.lemma}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      {/* Drill-down: speeches by this party using the clicked word. */}
-      {sel && (
-        <div className="mt-4 rounded-md border border-border bg-card p-4">
-          <div className="mb-3 flex items-center gap-2">
-            <PartyBadge shortName={sel.party} />
-            <span className="font-serif text-lg font-bold">{sel.lemma}</span>
-            <Link
-              href={`/statistika/sonavotud?q=${encodeURIComponent(sel.lemma)}`}
-              className="text-xs text-ring hover:underline"
-            >
-              {t("searchAll")}
-            </Link>
-            <button
-              type="button" onClick={() => { setSel(null); setHits(null); }}
-              className="ml-auto text-sm text-muted-foreground hover:text-foreground"
-            >
-              {t("close")}
-            </button>
-          </div>
-          <HitsBody hits={hits} />
+            );
+          })}
         </div>
-      )}
+
+        {/* Drill-down: speeches by this party using the clicked word. */}
+        {sel && (
+          <div className="mt-4 rounded-md border border-border bg-card p-4">
+            <div className="mb-3 flex items-center gap-2">
+              <PartyBadge shortName={sel.party} />
+              <span className="font-serif text-lg font-bold">{sel.lemma}</span>
+              <Link
+                href={`/statistika/sonavotud?q=${encodeURIComponent(sel.lemma)}`}
+                className="text-xs text-ring hover:underline"
+              >
+                {t("searchAll")}
+              </Link>
+              <button
+                type="button" onClick={() => { setSel(null); setHits(null); }}
+                className="ml-auto text-sm text-muted-foreground hover:text-foreground"
+              >
+                {t("close")}
+              </button>
+            </div>
+            <HitsBody hits={hits} />
+          </div>
+        )}
+      </section>
 
       <MemberSignatureWords rows={memberWords} />
 

@@ -38,9 +38,11 @@ STOPWORDS = frozenset(
 MANUAL_EXCLUDE = frozenset(
     """
     otsekui meelest vaatamata enesestmõistetavalt ükspuha miskisugune kuskilt
+    seonduvalt miskipärast mispärast kuidagimoodi hiljaaegu ennist nähtavasti niisugune
     kõnesoov saalikutsung kohalolija kohalolek vastusõnavõtt hääletamissedel täpsustav
+    kõnetool eesistuja päevakorrapunkt
     austatav auväärt lugupeetav ministrihärra ministriproua
-    poo esm tanel vadim epleri laatsi sillart uikala heldna
+    poo esm epleri laatsi sillart uikala heldna
     """.split()  # noqa: SIM905
 )
 
@@ -62,12 +64,18 @@ def _tokens(doc: str) -> list[str]:
 
 
 def compute_from_counts(
-    counts: dict[int, dict[str, int]], top_n: int = 25
+    counts: dict[int, dict[str, int]],
+    top_n: int = 25,
+    exclude: frozenset[str] = frozenset(),
 ) -> list[tuple[int, str, float, int]]:
-    """Score per-scope term-count dicts. Returns (scope_id, lemma, score, rank), ranked 1..top_n."""
+    """Score per-scope term-count dicts. Returns (scope_id, lemma, score, rank), ranked 1..top_n.
+
+    `exclude`: extra lowercased lemmas to drop on top of the static lists -- used for member
+    names, which would otherwise dominate scopes that mention colleagues a lot.
+    """
     # Filter each scope's terms, drop scopes left empty.
     filtered = {
-        sid: {lemma: n for lemma, n in terms.items() if _keep(lemma)}
+        sid: {lemma: n for lemma, n in terms.items() if _keep(lemma) and lemma not in exclude}
         for sid, terms in counts.items()
     }
     filtered = {sid: terms for sid, terms in filtered.items() if terms}

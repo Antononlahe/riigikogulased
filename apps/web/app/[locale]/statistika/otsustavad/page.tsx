@@ -5,6 +5,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 import { DecisiveVotes } from "@/components/statistika/decisive-votes";
 import {
   getCloseVotes,
@@ -23,6 +24,7 @@ export default async function DecisiveVotesPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("decisive");
+  const v = await getTranslations("varia");
 
   let decisive: DecisiveVote[] = [];
   let close: DecisiveVote[] = [];
@@ -41,6 +43,7 @@ export default async function DecisiveVotesPage({
     <>
       <SiteHeader />
       <main className="mx-auto max-w-5xl px-4 py-10">
+        <Breadcrumbs items={[{ label: v("hubTitle"), href: "/statistika/varia" }, { label: t("heading") }]} />
         <h1 className="font-serif text-2xl font-bold tracking-tight">{t("heading")}</h1>
         <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("intro")}</p>
         <div className="mt-6">

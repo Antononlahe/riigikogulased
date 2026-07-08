@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { SectionNav } from "@/components/section-nav";
 import { Hobbies, Universities, Children } from "@/components/varia/people";
 import { BirthplaceMap } from "@/components/varia/birthplace-map";
 import {
@@ -38,20 +39,30 @@ export default async function PeoplePage({ params }: { params: Promise<{ locale:
         {empty ? (
           <p className="mt-6 text-sm text-muted-foreground">{t("empty")}</p>
         ) : (
-          <div className="mt-8">
-            {pins.length > 0 && (
-              <section className="mt-10 first:mt-0">
-                <h2 className="font-serif text-xl font-bold tracking-tight">{t("birthplaceH")}</h2>
-                <p className="mt-1 text-sm text-muted-foreground">{t("birthplaceSub")}</p>
-                <div className="mt-4">
-                  <BirthplaceMap pins={pins} />
-                </div>
-              </section>
-            )}
-            {children.length > 0 && <Children rows={children} />}
-            {hobbies.length > 0 && <Hobbies rows={hobbies} />}
-            {unis.length > 0 && <Universities rows={unis} />}
-          </div>
+          <>
+            <SectionNav
+              items={[
+                ...(pins.length > 0 ? [{ href: "#sunnikohad", label: t("birthplaceH") }] : []),
+                ...(children.length > 0 ? [{ href: "#lapsed", label: t("childrenH") }] : []),
+                ...(hobbies.length > 0 ? [{ href: "#huvialad", label: t("hobbiesH") }] : []),
+                ...(unis.length > 0 ? [{ href: "#ulikoolid", label: t("universitiesH") }] : []),
+              ]}
+            />
+            <div className="mt-8">
+              {pins.length > 0 && (
+                <section id="sunnikohad" className="mt-10 scroll-mt-20 first:mt-0">
+                  <h2 className="font-serif text-xl font-bold tracking-tight">{t("birthplaceH")}</h2>
+                  <p className="mt-1 text-sm text-muted-foreground">{t("birthplaceSub")}</p>
+                  <div className="mt-4">
+                    <BirthplaceMap pins={pins} />
+                  </div>
+                </section>
+              )}
+              {children.length > 0 && <Children rows={children} />}
+              {hobbies.length > 0 && <Hobbies rows={hobbies} />}
+              {unis.length > 0 && <Universities rows={unis} />}
+            </div>
+          </>
         )}
         <SiteFooter />
       </main>

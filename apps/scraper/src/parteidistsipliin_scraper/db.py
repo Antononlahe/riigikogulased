@@ -747,6 +747,20 @@ def replace_signature_terms(
         )
 
 
+def _member_name_lemmas(conn: psycopg.Connection) -> frozenset[str]:
+    """Lowercased name tokens of every known member (whole hyphenated names + their parts).
+
+    Signature words that are colleagues' names (a speaker addressing/quoting another member)
+    say nothing about the speaker, so they are excluded from TF-IDF. ponytail: exact-match on
+    name tokens; genitive lemmatiser leftovers stay in MANUAL_EXCLUDE, and surnames that are
+    also common nouns (Tamm, Kokk, Rand...) get excluded as collateral -- acceptable.
+    """
+    with conn.cursor() as cur:
+        cur.execute("SELECT full_name FROM members")
+        names = [r["full_name"].lower() for r in cur.fetchall()]
+    return frozenset(tok for n in names for tok in re.split(r"[\s-]+", n) + n.split() if tok)
+
+
 def refresh_signatures(conn: psycopg.Connection, top_n: int = 25) -> int:
     """Recompute signature_terms for member + party scopes from member_speeches. Returns row count.
 
@@ -760,9 +774,12 @@ def refresh_signatures(conn: psycopg.Connection, top_n: int = 25) -> int:
         if not row or not row["present"]:
             return 0
 
+    name_lemmas = _member_name_lemmas(conn)
     rows: list[tuple[str, int, str, float, int]] = []
     for kind in ("member", "party"):
-        for sid, lemma, score, rank in compute_from_counts(_lemma_counts(conn, kind), top_n):
+        for sid, lemma, score, rank in compute_from_counts(
+            _lemma_counts(conn, kind), top_n, exclude=name_lemmas
+        ):
             rows.append((kind, sid, lemma, score, rank))
     replace_signature_terms(conn, rows)
     return len(rows)

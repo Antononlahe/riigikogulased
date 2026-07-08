@@ -23,9 +23,8 @@ export async function SiteHeader() {
           {site("title")}
         </Link>
         <nav className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
-          {/* Five flat citizen-facing headings; no dropdown to hide behind. */}
+          {/* Four flat citizen-facing headings; no dropdown to hide behind. */}
           <Link href="/saadikud" className="hover:text-foreground">{nav("members")}</Link>
-          <Link href="/statistika/otsustavad" className="hover:text-foreground">{nav("decisive")}</Link>
           <Link href="/statistika/sonavotud" className="hover:text-foreground">{nav("speeches")}</Link>
           <Link href="/statistika/kulud" className="hover:text-foreground">{nav("expenses")}</Link>
           <Link href="/statistika/varia" className="hover:text-foreground">{nav("varia")}</Link>

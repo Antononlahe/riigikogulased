@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { SectionNav } from "@/components/section-nav";
 import { SignatureWords } from "@/components/varia/signature-words";
 import { getPartySignatureWords, getMemberSignatureWords } from "@/lib/varia-queries";
 import type { PartyWords, MemberWord } from "@/lib/varia";
@@ -31,6 +32,12 @@ export default async function SignatureWordsPage({ params }: { params: Promise<{
         <Breadcrumbs items={[{ label: t("hubTitle"), href: "/statistika/varia" }, { label: t("margusonadTitle") }]} />
         <h1 className="font-serif text-2xl font-bold tracking-tight">{t("margusonadTitle")}</h1>
         <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("margusonadIntro")}</p>
+        <SectionNav
+          items={[
+            { href: "#erakonnad", label: t("anchorParties") },
+            { href: "#saadikud", label: t("anchorMembers") },
+          ]}
+        />
         <div className="mt-6">
           {parties.length === 0 ? (
             <p className="text-sm text-muted-foreground">{t("empty")}</p>

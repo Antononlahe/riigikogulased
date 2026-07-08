@@ -42,7 +42,8 @@ export function BirthplaceMap({ pins }: { pins: BirthPin[] }) {
     <div className="grid grid-cols-1 items-start gap-4 sm:grid-cols-[3fr_2fr]">
       <div className="rounded-md border border-border bg-card p-2">
         <svg viewBox={`-4 -4 108 73`} className="w-full" role="img" aria-label={t("birthplaceH")}>
-          <path d={ESTONIA_PATH} fill="var(--muted)" stroke="var(--border)" strokeWidth={0.4} />
+          {/* muted-foreground stroke: --border on --muted is invisible in dark mode. */}
+          <path d={ESTONIA_PATH} fill="var(--muted)" stroke="var(--muted-foreground)" strokeOpacity={0.55} strokeWidth={0.5} />
           {ordered.map((p) => {
             const [x, y] = projectEstonia(p.lat, p.lon);
             const n = p.members.length;

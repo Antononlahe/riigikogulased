@@ -40,3 +40,11 @@ def test_compute_from_counts_matches_text_path():
     top1 = [(lemma, rank) for sid, lemma, score, rank in rows if sid == 1 and rank == 1]
     assert top1 == [("kala", 1)]
     assert all(lemma != "ja" for sid, lemma, score, rank in rows)
+
+
+def test_exclude_drops_member_names():
+    # Member names passed via `exclude` never surface; the next word takes rank 1.
+    counts = {1: {"hussar": 5, "kala": 2}, 2: {"auto": 3}}
+    rows = compute_from_counts(counts, top_n=3, exclude=frozenset({"hussar"}))
+    top1 = [(lemma, rank) for sid, lemma, score, rank in rows if sid == 1 and rank == 1]
+    assert top1 == [("kala", 1)]

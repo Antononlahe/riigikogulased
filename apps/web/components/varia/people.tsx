@@ -94,7 +94,7 @@ export function Hobbies({ rows }: { rows: PeopleRow[] }) {
   const min = Math.min(1, ...counts);
   const size = (c: number) => 14 + Math.round(((c - min) / Math.max(1, max - min)) * 20);
   return (
-    <Section title={t("hobbiesH")} sub={t("hobbiesSub")}>
+    <Section id="huvialad" title={t("hobbiesH")} sub={t("hobbiesSub")}>
       <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2">
         {groups.map((g) => (
           <PeoplePopup
@@ -140,7 +140,7 @@ export function Universities({ rows }: { rows: PeopleRow[] }) {
   const [open, setOpen] = useState<string | null>(null);
   const list: Row[] = groups.map((g) => ({ key: g.category, label: g.category, members: g.members }));
   return (
-    <Section title={t("universitiesH")} sub={t("universitiesSub")}>
+    <Section id="ulikoolid" title={t("universitiesH")} sub={t("universitiesSub")}>
       <ul className="divide-y divide-border">
         {list.map((r) => {
           const isOpen = open === r.key;
