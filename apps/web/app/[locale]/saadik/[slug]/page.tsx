@@ -129,6 +129,7 @@ export default async function MemberPage({
                 counted={d.counted}
                 aligned={d.aligned}
                 defections={d.defections}
+                attendance={d.attendance}
                 partyShortName={d.member.partyShortName}
                 avgDiscipline={peers?.avgDiscipline}
               />

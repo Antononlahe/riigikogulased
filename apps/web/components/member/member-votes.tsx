@@ -337,7 +337,14 @@ export function MemberVotes({
   const typeOptions = useMemo(() => voteTypeOptions(defs), [defs]);
 
   const [hovered, setHovered] = useState<string | null>(null);
-  const [open, setOpen] = useState<string | null>(null);
+  // Multi-open: each vote's "how voted" tally can stay open while others are opened too.
+  const [open, setOpen] = useState<ReadonlySet<string>>(new Set());
+  const toggleOpen = (k: string) =>
+    setOpen((prev) => {
+      const next = new Set(prev);
+      if (!next.delete(k)) next.add(k);
+      return next;
+    });
   const [kind, setKind] = useState<Kind>("all");
   const [type, setType] = useState<string>("all");
   // Long defection lists bury everything below them on the member page, so collapse to the
@@ -434,6 +441,20 @@ export function MemberVotes({
                   </DropdownMenuContent>
                 </DropdownMenu>
               )}
+
+              <button
+                type="button"
+                onClick={() =>
+                  setOpen(
+                    open.size > 0
+                      ? new Set()
+                      : new Set(shown.filter((v) => voteResults[v.voteId]).map(keyOf)),
+                  )
+                }
+                className="ml-auto text-xs font-medium text-muted-foreground hover:text-foreground"
+              >
+                {open.size > 0 ? t("closeAll") : t("openAll")}
+              </button>
             </div>
 
             {filtered.length === 0 ? (
@@ -475,7 +496,7 @@ export function MemberVotes({
                     </>
                   );
                   const result = voteResults[v.voteId];
-                  const isOpen = open === k;
+                  const isOpen = open.has(k);
                   return (
                     <li key={i} className={`px-3 py-2.5 text-sm ${on ? "bg-secondary" : "hover:bg-secondary"}`} {...handlers}>
                       <div className="flex items-start justify-between gap-3">
@@ -495,7 +516,7 @@ export function MemberVotes({
                         {result && (
                           <button
                             type="button"
-                            onClick={() => setOpen(isOpen ? null : k)}
+                            onClick={() => toggleOpen(k)}
                             aria-expanded={isOpen}
                             className="shrink-0 whitespace-nowrap rounded border border-border px-2 py-0.5 text-xs text-muted-foreground hover:text-foreground"
                           >

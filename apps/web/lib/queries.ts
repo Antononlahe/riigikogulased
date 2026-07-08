@@ -153,6 +153,7 @@ export type MemberDetail = {
   counted: number;
   aligned: number;
   defections: number;
+  attendance: number | null; // present share of non-procedural votes (0..1), null when no ballots
   breakdown: PartyBreakdownRow[];
   // Only the member's against-the-line votes carry full rows; every other vote is just a date in
   // contextDates (timeline ticks). Shipping all ~4k full rows made each member page ~1.2MB of
@@ -196,8 +197,13 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
   const [summaryRes, breakdownRes, votesRes, contextRes, committeesRes, districtsRes] =
     await Promise.all([
     pool.query(
-      `SELECT counted_votes AS counted, aligned_votes AS aligned, defections
-       FROM member_discipline WHERE member_id = $1`,
+      `SELECT md.counted_votes AS counted, md.aligned_votes AS aligned, md.defections,
+              CASE WHEN ma.total_ballots > 0
+                   THEN ma.present_ballots::float / ma.total_ballots
+                   ELSE NULL END AS attendance
+       FROM member_discipline md
+       LEFT JOIN member_attendance ma ON ma.member_id = md.member_id
+       WHERE md.member_id = $1`,
       [id],
     ),
     pool.query(
@@ -267,7 +273,7 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
       [id],
     ),
   ]);
-  const summary = summaryRes.rows[0] ?? { counted: 0, aligned: 0, defections: 0 };
+  const summary = summaryRes.rows[0] ?? { counted: 0, aligned: 0, defections: 0, attendance: null };
 
   // Per-faction ballot tallies for the member's defection votings (the "how they voted" panel).
   // votesRes already contains exactly the defections (DEFECTION_SQL).
@@ -322,6 +328,7 @@ export async function getMemberDetail(slug: string): Promise<MemberDetail | null
     counted: Number(summary.counted),
     aligned: Number(summary.aligned),
     defections: Number(summary.defections),
+    attendance: summary.attendance == null ? null : Number(summary.attendance),
     breakdown: breakdownRes.rows.map((r) => ({
       ...r,
       counted: Number(r.counted),

@@ -84,9 +84,9 @@ export function MemberSearch({
     if (e.kind === "member") {
       close();
       router.push(`/saadik/${e.m.slug}`);
-    } else if (e.kind === "speech" && e.h.link) {
-      window.open(e.h.link, "_blank", "noopener,noreferrer");
-    } else if (e.kind === "all") {
+    } else {
+      // Speech hits and "all results" both land on the site search page pre-filled with the
+      // query -- bouncing straight to the external stenogram from here was disorienting.
       const term = q.trim();
       close();
       router.push(`/statistika/sonavotud?q=${encodeURIComponent(term)}`);

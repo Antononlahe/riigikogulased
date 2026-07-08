@@ -6,12 +6,14 @@ export function DisciplineSummary({
   counted,
   aligned,
   defections,
+  attendance,
   partyShortName,
   avgDiscipline,
 }: {
   counted: number;
   aligned: number;
   defections: number;
+  attendance?: number | null; // 0..1 share of non-procedural votes present
   partyShortName: string | null;
   avgDiscipline?: number | null;
 }) {
@@ -36,11 +38,12 @@ export function DisciplineSummary({
       </div>
       <Stat label={t("counted")} value={counted} />
       <Stat label={t("against")} value={defections} />
+      {attendance != null && <Stat label={t("attendance")} value={`${(attendance * 100).toFixed(1)}%`} />}
     </section>
   );
 }
 
-function Stat({ label, value }: { label: string; value: number }) {
+function Stat({ label, value }: { label: string; value: number | string }) {
   return (
     <div>
       <div className="text-xs uppercase tracking-wide text-muted-foreground">{label}</div>
