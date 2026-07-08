@@ -82,7 +82,9 @@ async function _getPartySignatureWords(): Promise<PartyWords[]> {
   return [...byParty.values()];
 }
 
-/** Each active member's rank-1 signature word, most distinctive first. */
+/** Each active member's rank-1 signature word, most distinctive first. The board (speaker +
+ *  deputies) is excluded: presiding speech is pure plenary procedure, so their "signature"
+ *  word is always chair boilerplate no matter how long the manual exclude list grows. */
 export const getMemberSignatureWords = unstable_cache(
   async (): Promise<MemberWord[]> => {
     const { rows } = await pool.query(`
@@ -91,7 +93,7 @@ export const getMemberSignatureWords = unstable_cache(
       FROM signature_terms st
       JOIN members m ON m.id = st.scope_id
       LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
-      WHERE st.scope_kind = 'member' AND st.rank = 1 AND m.active
+      WHERE st.scope_kind = 'member' AND st.rank = 1 AND m.active AND m.board_role IS NULL
       ORDER BY st.score DESC, m.full_name`);
     return rows as MemberWord[];
   },

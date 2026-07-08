@@ -14,11 +14,15 @@ import type { PartyWords, MemberWord } from "@/lib/varia";
 const EXCLUDED = [
   "otsekui", "meelest", "vaatamata", "enesestmõistetavalt", "ükspuha", "miskisugune", "kuskilt",
   "seonduvalt", "miskipärast", "mispärast", "kuidagimoodi", "hiljaaegu", "ennist", "nähtavasti",
-  "niisugune",
+  "niisugune", "järgnevalt",
   "kõnesoov", "saalikutsung", "kohalolija", "kohalolek", "vastusõnavõtt", "hääletamissedel",
-  "täpsustav", "kõnetool", "eesistuja", "päevakorrapunkt",
-  "austatav", "auväärt", "lugupeetav", "ministrihärra", "ministriproua",
-  "poo", "esm", "epleri", "laatsi", "sillart", "uikala", "heldna",
+  "täpsustav", "kõnetool", "eesistuja", "päevakorrapunkt", "arupärimine", "läbirääkimine",
+  "protseduuriline", "protseduur", "registreeruma", "läbiviimine", "sulgema", "infotund",
+  "kokkukutsuja", "lisaküsimus", "juhtivkomisjon", "hääletus", "erapooletu", "töönädal",
+  "istungjärk", "päevakord", "vaheaeg", "juhataja", "töökorraldus",
+  "michal", "michali", "michalile",
+  "austatav", "auväärt", "lugupeetav", "ministrihärra", "ministriproua", "ametikaaslane",
+  "poo", "esm", "epleri", "laatsi", "sillart", "uikala", "heldna", "kaja",
 ];
 
 // Map a rank (1 = most distinctive) to a font size. Rank-based, not score-based, so one party's

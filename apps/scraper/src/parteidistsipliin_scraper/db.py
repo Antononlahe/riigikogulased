@@ -751,14 +751,17 @@ def _member_name_lemmas(conn: psycopg.Connection) -> frozenset[str]:
     """Lowercased name tokens of every known member (whole hyphenated names + their parts).
 
     Signature words that are colleagues' names (a speaker addressing/quoting another member)
-    say nothing about the speaker, so they are excluded from TF-IDF. ponytail: exact-match on
-    name tokens; genitive lemmatiser leftovers stay in MANUAL_EXCLUDE, and surnames that are
-    also common nouns (Tamm, Kokk, Rand...) get excluded as collateral -- acceptable.
+    say nothing about the speaker, so they are excluded from TF-IDF. Each token also gets
+    vowel-appended variants (hussar -> hussari, korobeinik -> korobeiniku) because the
+    lemmatiser often leaves proper names in the genitive. ponytail: crude heuristic -- misses
+    consonant gradation (Kiik -> Kiige; those stay in MANUAL_EXCLUDE) and excludes surnames
+    that are common nouns (Tamm, Kokk...) as collateral -- acceptable for a top-25 ranking.
     """
     with conn.cursor() as cur:
         cur.execute("SELECT full_name FROM members")
         names = [r["full_name"].lower() for r in cur.fetchall()]
-    return frozenset(tok for n in names for tok in re.split(r"[\s-]+", n) + n.split() if tok)
+    toks = {tok for n in names for tok in re.split(r"[\s-]+", n) + n.split() if tok}
+    return frozenset(toks | {tok + v for tok in toks for v in "aeiu"})
 
 
 def refresh_signatures(conn: psycopg.Connection, top_n: int = 25) -> int:

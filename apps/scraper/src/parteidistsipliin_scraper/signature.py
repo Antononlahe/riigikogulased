@@ -31,7 +31,11 @@ STOPWORDS = frozenset(
 
 # Hand-curated removals: distinctive-but-uninteresting tokens that TF-IDF surfaces -- discourse
 # fillers ("otsekui", "minu meelest"), plenary procedure ("kõnesoov", "saalikutsung"), address
-# forms ("ministrihärra", "auväärt"), and stray speaker-name fragments the lemmatiser left behind.
+# forms ("ministrihärra", "auväärt"), and stray speaker-name fragments the lemmatiser left behind
+# ("kaja" = PM Kaja Kallas, who is not in `members` and so escapes the automatic name exclusion).
+# ponytail: the presiding officers speak almost pure procedure, so their member scopes keep
+# surfacing new chair-speak as this list grows; extending the list per complaint is the upgrade
+# path (a board-role-aware filter isn't worth it).
 # Kept deliberately: loaded topic words (co2, immigrant, soros, tuulik, vaesus) stay -- they ARE
 # each party's signature. This list is mirrored on the web (signature-words.tsx) for transparency;
 # edit both together.
@@ -39,10 +43,16 @@ MANUAL_EXCLUDE = frozenset(
     """
     otsekui meelest vaatamata enesestmõistetavalt ükspuha miskisugune kuskilt
     seonduvalt miskipärast mispärast kuidagimoodi hiljaaegu ennist nähtavasti niisugune
+    järgnevalt
     kõnesoov saalikutsung kohalolija kohalolek vastusõnavõtt hääletamissedel täpsustav
-    kõnetool eesistuja päevakorrapunkt
-    austatav auväärt lugupeetav ministrihärra ministriproua
+    kõnetool eesistuja päevakorrapunkt arupärimine läbirääkimine
+    protseduuriline protseduur registreeruma läbiviimine sulgema infotund kokkukutsuja
+    lisaküsimus juhtivkomisjon hääletus erapooletu töönädal
+    istungjärk päevakord vaheaeg juhataja töökorraldus
+    michal michali michalile
+    austatav auväärt lugupeetav ministrihärra ministriproua ametikaaslane
     poo esm epleri laatsi sillart uikala heldna
+    kaja
     """.split()  # noqa: SIM905
 )
 
