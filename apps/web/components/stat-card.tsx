@@ -11,17 +11,29 @@ export type StatCardRow = {
   avatar?: { fullName: string; photoThumbPath: string | null; shortName: string | null };
   href: string; // where THIS row goes (sole holder -> member page, tie/vote -> leaderboard)
   // A two-way tie: both holders shown, each linking to their own member page. When set, the
-  // row itself is not a link -- only the names are.
-  people?: { name: string; href: string }[];
+  // row itself is not a link -- only the names are. Each carries its own avatar.
+  people?: { name: string; href: string; avatar: MemberAvatarProps }[];
 };
+
+type MemberAvatarProps = { fullName: string; photoThumbPath: string | null; shortName: string | null };
 
 // One row inside a hub card: its own link, so the two ends of a metric go to their own
 // targets and hover highlights just the row, not the whole card.
 function Row({ row, className }: { row: StatCardRow; className: string }) {
   const { eyebrow, name, value, sub, party, avatar, href, people } = row;
+  // Two-way tie: overlap both faces; otherwise the single holder's avatar.
+  const avatars = people ? (
+    <div className="flex flex-none -space-x-2">
+      {people.map((p) => (
+        <MemberAvatar key={p.href} {...p.avatar} />
+      ))}
+    </div>
+  ) : (
+    avatar && <MemberAvatar {...avatar} />
+  );
   const body = (
     <>
-      {avatar && <MemberAvatar {...avatar} />}
+      {avatars}
       <div className="min-w-0 flex-1">
         <div className="text-[11px] font-medium uppercase tracking-wide text-muted-foreground">
           {eyebrow}

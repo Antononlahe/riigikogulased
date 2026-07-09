@@ -53,6 +53,7 @@ MANUAL_EXCLUDE = frozenset(
     austatav auväärt lugupeetav ministrihärra ministriproua ametikaaslane
     poo esm epleri laatsi sillart uikala heldna
     kaja
+    päivil nii-ütelda ütelda missugune jaana tõepoolest saar-johanson
     """.split()  # noqa: SIM905
 )
 
@@ -66,6 +67,9 @@ def _keep(lemma: str) -> bool:
         and not _NUMERICISH.match(lemma)
         and lemma not in STOPWORDS
         and lemma not in MANUAL_EXCLUDE
+        # Committee names (*komisjon) are pure procedure -- members just relay what a committee
+        # discussed. Suffix rule catches every *komisjon so new committees drop automatically too.
+        and not lemma.endswith("komisjon")
     )
 
 

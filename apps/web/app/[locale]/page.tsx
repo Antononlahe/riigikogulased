@@ -34,7 +34,11 @@ export default async function HomePage({
           value,
           sub,
           name: p.tiedPeople.map((x) => x.name).join(", "),
-          people: p.tiedPeople.map((x) => ({ name: x.name, href: `/saadik/${x.slug}` })),
+          people: p.tiedPeople.map((x) => ({
+            name: x.name,
+            href: `/saadik/${x.slug}`,
+            avatar: { fullName: x.name, photoThumbPath: x.photoThumbPath, shortName: x.party },
+          })),
           href: p.href,
         }
         : {
@@ -60,11 +64,14 @@ export default async function HomePage({
   // the metric's opposite end (least where the title says most).
   const cards: (Card | null | undefined | false)[] = [
     h.rebel.top && {
+      // A tie shares only the %, not the "d of c" count (each holder's totals differ) -- drop the sub.
       top: row(
         h.rebel.top,
         t("rebelTitle"),
         t("rebelValue", { pct: h.rebel.top.value }),
-        h.rebel.top.detail && t("rebelSub", { d: h.rebel.top.detail[0], c: h.rebel.top.detail[1] }),
+        h.rebel.top.tied < 2 && h.rebel.top.detail
+          ? t("rebelSub", { d: h.rebel.top.detail[0], c: h.rebel.top.detail[1] })
+          : undefined,
       ),
       second:
         h.rebel.bottom &&
@@ -72,8 +79,9 @@ export default async function HomePage({
           h.rebel.bottom,
           t("loyalTitle"),
           t("rebelValue", { pct: h.rebel.bottom.value }),
-          h.rebel.bottom.detail &&
-            t("rebelSub", { d: h.rebel.bottom.detail[0], c: h.rebel.bottom.detail[1] }),
+          h.rebel.bottom.tied < 2 && h.rebel.bottom.detail
+            ? t("rebelSub", { d: h.rebel.bottom.detail[0], c: h.rebel.bottom.detail[1] })
+            : undefined,
         ),
       footer: seeAll(HREF.discipline),
     },
@@ -95,21 +103,25 @@ export default async function HomePage({
       footer: seeAll(HREF.speeches),
     },
     h.absentee.top && {
+      // A tie shares only the %, not the absolute count (each holder's total differs), so drop the
+      // sub and use the plural verb.
       top: row(
         h.absentee.top,
         t("absenteeTitle"),
-        t("absenteeValue", { pct: h.absentee.top.value }),
-        h.absentee.top.detail &&
-          t("absenteeSub", { a: h.absentee.top.detail[0], c: h.absentee.top.detail[1] }),
+        t(h.absentee.top.tied >= 2 ? "absenteeValuePl" : "absenteeValue", { pct: h.absentee.top.value }),
+        h.absentee.top.tied < 2 && h.absentee.top.detail
+          ? t("absenteeSub", { a: h.absentee.top.detail[0], c: h.absentee.top.detail[1] })
+          : undefined,
       ),
       second:
         h.absentee.bottom &&
         row(
           h.absentee.bottom,
           t("presentTitle"),
-          t("absenteeValue", { pct: h.absentee.bottom.value }),
-          h.absentee.bottom.detail &&
-            t("absenteeSub", { a: h.absentee.bottom.detail[0], c: h.absentee.bottom.detail[1] }),
+          t(h.absentee.bottom.tied >= 2 ? "absenteeValuePl" : "absenteeValue", { pct: h.absentee.bottom.value }),
+          h.absentee.bottom.tied < 2 && h.absentee.bottom.detail
+            ? t("absenteeSub", { a: h.absentee.bottom.detail[0], c: h.absentee.bottom.detail[1] })
+            : undefined,
         ),
       footer: seeAll(HREF.absence),
     },

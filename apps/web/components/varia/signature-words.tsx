@@ -23,6 +23,7 @@ const EXCLUDED = [
   "michal", "michali", "michalile",
   "austatav", "auväärt", "lugupeetav", "ministrihärra", "ministriproua", "ametikaaslane",
   "poo", "esm", "epleri", "laatsi", "sillart", "uikala", "heldna", "kaja",
+  "päivil", "nii-ütelda", "ütelda", "missugune", "jaana", "tõepoolest", "saar-johanson",
 ];
 
 // Map a rank (1 = most distinctive) to a font size. Rank-based, not score-based, so one party's

@@ -31,7 +31,8 @@ export type PersonHighlight = {
   photoThumbPath: string | null;
   value: number;
   tied: number; // how many members share this extreme value (1 = sole holder)
-  tiedPeople: { name: string; slug: string }[]; // first two tied holders (linked when tied === 2)
+  // first two tied holders, with avatar bits so a two-way tie shows both faces (linked when tied === 2)
+  tiedPeople: { name: string; slug: string; photoThumbPath: string | null; party: string | null }[];
   href: string;
   // Metric-specific context pair for the card's one-line "so what": [defections, counted] for
   // discipline, [absent, total] for absence, [total contributions] for speeches.
@@ -60,12 +61,16 @@ export type StatHighlights = {
   joiner: PersonHighlight | null; // most parlamendirühmad/caucus memberships
 };
 
+/** Common fields every leaderboard row carries; enough to render a linked avatar. */
+type TieRow = { fullName: string; slug: string; partyShortName: string | null; photoThumbPath: string | null };
+const asPerson = (r: TieRow) => ({ name: r.fullName, slug: r.slug, photoThumbPath: r.photoThumbPath, party: r.partyShortName });
+
 /** Rows sharing `leader`'s exact ranking value -- a genuine tie, not a rounded-display one.
  *  Returns the count and the first two holders (a tie of 2 shows both, each linked). */
-function tie<T extends { slug: string }>(rows: T[], leader: T, key: (r: T) => number, name: (r: T) => string) {
+function tie<T extends TieRow>(rows: T[], leader: T, key: (r: T) => number) {
   const v = key(leader);
   const peers = rows.filter((r) => key(r) === v);
-  return { tied: peers.length, tiedPeople: peers.slice(0, 2).map((r) => ({ name: name(r), slug: r.slug })) };
+  return { tied: peers.length, tiedPeople: peers.slice(0, 2).map(asPerson) };
 }
 
 const EMPTY: HighlightPair = { top: null, bottom: null };
@@ -84,12 +89,7 @@ async function rebel(): Promise<HighlightPair> {
     );
     const pick = (r: (typeof eligible)[number] | undefined): PersonHighlight | null => {
       if (!r) return null;
-      const { tied, tiedPeople } = tie(
-        eligible,
-        r,
-        (x) => x.disciplineScore as number,
-        (x) => x.fullName,
-      );
+      const { tied, tiedPeople } = tie(eligible, r, (x) => x.disciplineScore as number);
       return {
         name: r.fullName,
         party: r.partyShortName,
@@ -115,7 +115,7 @@ async function talker(): Promise<HighlightPair> {
       .sort((a, b) => b.totalWords - a.totalWords);
     const pick = (r: (typeof ranked)[number] | undefined): PersonHighlight | null => {
       if (!r) return null;
-      const { tied, tiedPeople } = tie(ranked, r, (x) => x.totalWords, (x) => x.fullName);
+      const { tied, tiedPeople } = tie(ranked, r, (x) => x.totalWords);
       return {
         name: r.fullName,
         party: r.partyShortName,
@@ -140,7 +140,7 @@ async function absentee(): Promise<HighlightPair> {
     const active = (await getAbsenceLeaderboard()).filter((x) => x.active); // sorted absentPct DESC
     const pick = (r: (typeof active)[number] | undefined): PersonHighlight | null => {
       if (!r) return null;
-      const { tied, tiedPeople } = tie(active, r, (x) => x.absentPct, (x) => x.fullName);
+      const { tied, tiedPeople } = tie(active, r, (x) => x.absentPct);
       return {
         name: r.fullName,
         party: r.partyShortName,
@@ -170,7 +170,7 @@ async function age(): Promise<HighlightPair> {
             photoThumbPath: r.photoThumbPath,
             value: r.age,
             tied: 1,
-            tiedPeople: [{ name: r.fullName, slug: r.slug }],
+            tiedPeople: [asPerson(r)],
             href: `/saadik/${r.slug}`,
           }
         : null;
@@ -185,11 +185,11 @@ async function mostChildren(): Promise<PersonHighlight | null> {
     const rows = await getChildren(); // sorted children DESC
     const r = rows[0];
     if (!r || r.children <= 0) return null;
-    const { tied, tiedPeople } = tie(rows, r, (x) => x.children, (x) => x.fullName);
+    const { tied, tiedPeople } = tie(rows, r, (x) => x.children);
     return {
       name: r.fullName,
       party: r.partyShortName,
-      photoThumbPath: null,
+      photoThumbPath: r.photoThumbPath,
       value: r.children,
       tied,
       tiedPeople,
@@ -218,7 +218,7 @@ function pickRow(
   fallbackHref = "/saadikud",
 ): PersonHighlight | null {
   if (!r) return null;
-  const { tied, tiedPeople } = tie(rows, r, (x) => x.value, (x) => x.fullName);
+  const { tied, tiedPeople } = tie(rows, r, (x) => x.value);
   return {
     name: r.fullName,
     party: r.partyShortName,

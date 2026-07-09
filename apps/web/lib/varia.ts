@@ -13,7 +13,7 @@ export type AbsenceRow = {
   absentPct: number; // 100 * absent / total, 1 decimal
 };
 
-export type ChildRow = { fullName: string; slug: string; partyShortName: string | null; children: number };
+export type ChildRow = { fullName: string; slug: string; partyShortName: string | null; photoThumbPath: string | null; children: number };
 
 /** Flat (category, member) row for the expandable people sections (hobbies / professions /
  *  universities). `detail` carries an optional per-member note (the profession, for the

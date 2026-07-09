@@ -132,7 +132,7 @@ export const getUniversityMembers = unstable_cache(async (): Promise<PeopleRow[]
 export const getChildren = unstable_cache(async (): Promise<ChildRow[]> => {
   const { rows } = await pool.query(`
     SELECT m.full_name AS "fullName", m.slug, mcp.party_short_name AS "partyShortName",
-           mp.children_count AS children
+           m.photo_thumb_path AS "photoThumbPath", mp.children_count AS children
     FROM member_profiles mp
     JOIN members m ON m.id = mp.member_id
     LEFT JOIN member_current_party mcp ON mcp.member_id = mp.member_id
