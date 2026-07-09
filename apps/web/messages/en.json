@@ -29,6 +29,44 @@
     "searchAllSpeeches": "All speech results →"
   },
   "hub": {
+    "rail": {
+      "swipeHint": "Swipe sideways within a theme",
+      "shared": "tied",
+      "loyalSub": "never voted against the line",
+      "against": "Most against",
+      "loyal": "Most loyal to their faction",
+      "words": "Most words",
+      "quiet": "Quietest",
+      "absent": "Most absences",
+      "present": "Best attendance",
+      "youngest": "Youngest",
+      "oldest": "Oldest",
+      "votes": "Most personal votes",
+      "fewVotes": "Fewest votes",
+      "senior": "Longest-serving",
+      "newcomer": "Shortest-serving",
+      "children": "Most children",
+      "word": "Signature word",
+      "caucuses": "Most parliamentary groups",
+      "title": {
+        "discipline": "Discipline",
+        "speeches": "Speeches",
+        "absence": "Attendance",
+        "age": "Age",
+        "mandate": "Mandate",
+        "seniority": "Tenure",
+        "varia": "Varia"
+      },
+      "kicker": {
+        "discipline": "voting with your own faction",
+        "speeches": "words on the floor",
+        "absence": "missing substantive votes",
+        "age": "members' age",
+        "mandate": "personal votes at the election",
+        "seniority": "time in the Riigikogu",
+        "varia": "the rest of the numbers"
+      }
+    },
     "heading": "The Riigikogu in numbers",
     "intro": "The standout figures of the current Riigikogu. Tap a member to see their profile.",
     "empty": "No data yet.",
@@ -246,6 +284,11 @@
       "votes": "Personal votes",
       "attendance": "Attendance"
     }
+  },
+  "layout": {
+    "label": "Layout",
+    "v1": "Cards",
+    "v2": "Rails"
   },
   "filter": {
     "party": "Faction",

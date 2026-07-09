@@ -51,6 +51,13 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} suppressHydrationWarning className={`${inter.variable} ${sourceSerif.variable}`}>
       <body className="min-h-screen font-sans antialiased">
+        {/* No-flash: set the home-page layout (v1 default / v2 rails) before paint, like next-themes. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{document.documentElement.dataset.hubLayout=localStorage.getItem('hub-layout')||'v1'}catch(e){}",
+          }}
+        />
         <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange>
           <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
         </ThemeProvider>

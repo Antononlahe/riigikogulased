@@ -29,6 +29,44 @@
     "searchAllSpeeches": "Kõik sõnavõttude tulemused →"
   },
   "hub": {
+    "rail": {
+      "swipeHint": "Pühi teema sees küljele",
+      "shared": "jagatud",
+      "loyalSub": "ei hääletanud kordagi vastu",
+      "against": "Enim vastu",
+      "loyal": "Truim oma fraktsioonile",
+      "words": "Enim sõnu",
+      "quiet": "Vaikseim",
+      "absent": "Enim puudumisi",
+      "present": "Parim kohalolek",
+      "youngest": "Noorim",
+      "oldest": "Vanim",
+      "votes": "Enim isiklikke hääli",
+      "fewVotes": "Kõige vähem hääli",
+      "senior": "Pikim staaž",
+      "newcomer": "Lühim staaž",
+      "children": "Enim lapsi",
+      "word": "Iseloomulikem sõna",
+      "caucuses": "Enim parlamendirühmi",
+      "title": {
+        "discipline": "Distsipliin",
+        "speeches": "Sõnavõtud",
+        "absence": "Kohalolek",
+        "age": "Vanus",
+        "mandate": "Mandaat",
+        "seniority": "Staaž",
+        "varia": "Varia"
+      },
+      "kicker": {
+        "discipline": "hääletamine oma fraktsiooniga",
+        "speeches": "sõnade arv täiskogul",
+        "absence": "puudumine sisulistelt hääletustelt",
+        "age": "saadikute vanus",
+        "mandate": "isiklikud hääled valimistel",
+        "seniority": "aeg Riigikogus",
+        "varia": "ülejäänud numbrid"
+      }
+    },
     "heading": "Riigikogu numbrites",
     "intro": "Käesoleva koosseisu silmapaistvaimad numbrid. Klõpsa saadikul, et näha tema profiili.",
     "empty": "Andmeid pole veel.",
@@ -246,6 +284,11 @@
       "votes": "Hääli",
       "attendance": "Kohalolek"
     }
+  },
+  "layout": {
+    "label": "Paigutus",
+    "v1": "Kaardid",
+    "v2": "Rullid"
   },
   "filter": {
     "party": "Fraktsioon",

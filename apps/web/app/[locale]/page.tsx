@@ -2,7 +2,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { StatCard, type StatCardRow } from "@/components/stat-card";
-import { getStatHighlights, HREF, type PersonHighlight } from "@/lib/hub-queries";
+import { HubRails } from "@/components/hub-rails";
+import { getStatHighlights, getHubRails, HREF, type PersonHighlight } from "@/lib/hub-queries";
 
 export const revalidate = 86400; // daily; data refreshes once/day via the scraper cron
 
@@ -16,7 +17,9 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("hub");
-  const h = await getStatHighlights();
+  // v1 (card grid, default) and v2 (themed rails) both render server-side; a CSS toggle keyed on
+  // <html data-hub-layout> shows one. See LayoutToggle + globals.css.
+  const [h, rails] = await Promise.all([getStatHighlights(), getHubRails()]);
 
   // One card row from a highlight: the holder if sole, else "N saadikut" (a tie). The row's
   // href comes from the highlight itself (sole holder -> member page, tie -> leaderboard).
@@ -188,15 +191,18 @@ export default async function HomePage({
       <main className="mx-auto max-w-5xl px-4 py-10">
         <h1 className="font-serif text-2xl font-bold tracking-tight">{t("heading")}</h1>
         <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("intro")}</p>
-        {shown.length === 0 ? (
-          <p className="mt-8 text-sm text-muted-foreground">{t("empty")}</p>
-        ) : (
-          <div className="mt-8 grid grid-cols-1 items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {shown.map((c, i) => (
-              <StatCard key={i} top={c.top} second={c.second || null} footer={c.footer} />
-            ))}
-          </div>
-        )}
+        <div className="hub-v1">
+          {shown.length === 0 ? (
+            <p className="mt-8 text-sm text-muted-foreground">{t("empty")}</p>
+          ) : (
+            <div className="mt-8 grid grid-cols-1 items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {shown.map((c, i) => (
+                <StatCard key={i} top={c.top} second={c.second || null} footer={c.footer} />
+              ))}
+            </div>
+          )}
+        </div>
+        <HubRails rails={rails} className="hub-v2" />
         <SiteFooter />
       </main>
     </>

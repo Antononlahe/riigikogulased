@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { LayoutToggle } from "@/components/layout-toggle";
 import { LocaleToggle } from "@/components/locale-toggle";
 import { MemberSearch } from "@/components/member-search";
 import { Link } from "@/i18n/routing";
@@ -43,6 +44,7 @@ export async function SiteHeader() {
           )}
           <LocaleToggle />
           <ThemeToggle />
+          <LayoutToggle />
         </nav>
       </div>
     </header>
