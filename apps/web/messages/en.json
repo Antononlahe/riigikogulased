@@ -92,6 +92,7 @@
     "methodNote": "Method: only substantive votes count (presence checks and agenda adoptions are excluded). The faction line is the majority position of the faction's members; a member counts when their vote (yes/no/abstain) differs from it. The passage threshold is derived from the vote type and bill title — the API does not expose it directly."
   },
   "statistika": {
+    "sortBy": "Sort by",
     "speakersHeading": "Speeches",
     "speakersIntro": "Counts of floor speeches, questions, and procedural remarks in plenary (Riigikogu statistics).",
     "searchHeading": "Search the speeches",
@@ -125,6 +126,7 @@
     "showBreakdown": "Show expense breakdown"
   },
   "varia": {
+    "sortBy": "Sort by",
     "hubTitle": "Varia",
     "hubIntro": "Lighter statistics about Riigikogu members — attendance, generations, word use and more.",
     "tileKohalolek": "Attendance",
@@ -232,7 +234,7 @@
     "en": "EN"
   },
   "table": {
-    "sortBy": "Sort",
+    "sortBy": "Sort by",
     "showing": "{count} members",
     "former": "former",
     "mandate": "Mandate",

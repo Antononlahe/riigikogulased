@@ -7,6 +7,7 @@ import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
 import { ScrollableTable } from "@/components/ui/scrollable-table";
 import { PartyFilterBar } from "@/components/party-filter-bar";
+import { SortMenu } from "@/components/sort-menu";
 import { partyToken } from "@/lib/party";
 import type { ExpenseLeaderRow } from "@/lib/expenses-queries";
 
@@ -181,6 +182,14 @@ export function ExpenseLeaderboard({ rows }: { rows: ExpenseLeaderRow[] }) {
       </div>
 
       {/* Mobile: one card per member -- no sideways scroll. */}
+      <SortMenu
+        className="mb-3 sm:hidden"
+        label={t("sortBy")}
+        sortKey={sortKey}
+        sortDir={sortDir}
+        onToggle={choose}
+        options={COLS.map((c) => ({ key: c, label: t(`col_${c}` as "col_spent") }))}
+      />
       <ul className="space-y-2 sm:hidden">
         {visible.map((r) => {
           const cats = Object.entries(r.breakdown).sort((a, b) => b[1] - a[1]);

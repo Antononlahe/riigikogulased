@@ -6,6 +6,7 @@ import { Link } from "@/i18n/routing";
 import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
 import { ScrollableTable } from "@/components/ui/scrollable-table";
+import { SortMenu } from "@/components/sort-menu";
 import { partyToken } from "@/lib/party";
 import {
   sortSpeakers,
@@ -189,6 +190,17 @@ export function SpeakerLeaderboard({ rows }: { rows: SpeakerRow[] }) {
       </div>
 
       {/* Mobile: one card per speaker -- no sideways scroll through 8 columns. */}
+      <SortMenu
+        className="mb-3 sm:hidden"
+        label={t("sortBy")}
+        sortKey={sortKey}
+        sortDir={sortDir}
+        onToggle={choose}
+        options={[
+          { key: "tenure" as SpeakerSortKey, label: t("tenure") },
+          ...COLS.map((c) => ({ key: c as SpeakerSortKey, label: t(c) })),
+        ]}
+      />
       <ul className="space-y-2 sm:hidden">
         {visible.map((r) => {
           const m = months(r);

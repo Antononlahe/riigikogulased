@@ -9,6 +9,7 @@ import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
 import { ScrollableTable } from "@/components/ui/scrollable-table";
 import { PartyFilterBar } from "@/components/party-filter-bar";
+import { SortMenu } from "@/components/sort-menu";
 import { Link } from "@/i18n/routing";
 
 // `hide` trims lower-value columns on small screens (the table only shows at sm+; cards take over
@@ -162,6 +163,17 @@ export function MembersTable({ rows }: { rows: MemberDisciplineRow[] }) {
       </div>
 
       {/* Mobile: one card per member -- no sideways scroll. */}
+      <SortMenu
+        className="mb-3 sm:hidden"
+        label={t("sortBy")}
+        sortKey={sortKey}
+        sortDir={sortDir}
+        onToggle={toggleSort}
+        options={[
+          ...COLS.map((c) => ({ key: c.key, label: t(`sort.${c.key}` as `sort.${SortKey}`) })),
+          { key: "votes" as SortKey, label: t("mandate") },
+        ]}
+      />
       <ul className="space-y-2 sm:hidden">
         {visible.map((r) => (
           <li

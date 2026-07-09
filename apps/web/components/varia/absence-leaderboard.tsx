@@ -7,6 +7,7 @@ import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
 import { ScrollableTable } from "@/components/ui/scrollable-table";
 import { PartyFilterBar } from "@/components/party-filter-bar";
+import { SortMenu } from "@/components/sort-menu";
 import { partyToken } from "@/lib/party";
 import { sortAbsence, type AbsenceRow, type AbsenceSortKey } from "@/lib/varia";
 
@@ -102,6 +103,18 @@ export function AbsenceLeaderboard({ rows }: { rows: AbsenceRow[] }) {
       </div>
 
       {/* Mobile: one card per member */}
+      <SortMenu
+        className="mb-3 sm:hidden"
+        label={t("sortBy")}
+        sortKey={sortKey}
+        sortDir={dir}
+        onToggle={toggleSort}
+        options={[
+          { key: "total", label: t("totalVotes") },
+          { key: "absent", label: t("absentVotes") },
+          { key: "absentPct", label: t("absentPct") },
+        ]}
+      />
       <ul className="space-y-2 sm:hidden">
         {visible.map((r) => (
           <li key={r.memberId} className={`rounded-md border border-border p-3 ${r.active ? "" : "opacity-55"}`}>
