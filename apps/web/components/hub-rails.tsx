@@ -6,7 +6,13 @@ import { ChevronLeft, ChevronRight, Info } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
+import { partyToken } from "@/lib/party";
 import type { HubRail, RailCard, RailPerson } from "@/lib/hub-queries";
+
+// Subtle party-colour accent: a left rule in the readable `ink` token (darkened on light, brightened
+// on dark, so it works in both themes). Only member cards (single/quote) get it; the tie aggregates
+// have no single party. Overrides just the left edge of the card's 1px border.
+const accent = (party: string | null) => ({ borderLeftWidth: "3px", borderLeftColor: partyToken(party).ink });
 
 // v2 front page: one horizontally scrollable rail per theme. The card data (values, labels) is
 // fully formatted server-side by getHubRails(); this component only renders + handles scroll.
@@ -42,7 +48,7 @@ function CardView({ card, seeAll }: { card: RailCard; seeAll: string }) {
 
   if (card.kind === "quote") {
     return (
-      <Link href={card.href} className={`${CARD_LINK} w-[250px]`}>
+      <Link href={card.href} style={accent(card.person.party)} className={`${CARD_LINK} w-[250px]`}>
         <Avatar p={card.person} />
         <div className={`mt-2.5 ${EYEBROW}`}>{card.eyebrow}</div>
         <div className="mt-1.5 font-serif text-xl font-bold leading-tight">{card.word}</div>
@@ -98,7 +104,7 @@ function CardView({ card, seeAll }: { card: RailCard; seeAll: string }) {
 
   // single
   return (
-    <Link href={card.href} className={CARD_LINK}>
+    <Link href={card.href} style={accent(card.person.party)} className={CARD_LINK}>
       <Avatar p={card.person} />
       <div className={`mt-2.5 ${EYEBROW}`}>{card.eyebrow}</div>
       <div className={NAME}>{card.person.name}</div>
