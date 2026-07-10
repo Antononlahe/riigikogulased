@@ -9,10 +9,11 @@ import { PartyBadge } from "@/components/party-badge";
 import { partyToken } from "@/lib/party";
 import type { HubRail, RailCard, RailPerson } from "@/lib/hub-queries";
 
-// Subtle party-colour accent: a left rule in the readable `ink` token (darkened on light, brightened
-// on dark, so it works in both themes). Only member cards (single/quote) get it; the tie aggregates
-// have no single party. Overrides just the left edge of the card's 1px border.
-const accent = (party: string | null) => ({ borderLeftWidth: "3px", borderLeftColor: partyToken(party).ink });
+// Subtle party-colour accent: a 3px left rule in the saturated `fill` token -- the party's true
+// brand colour (RE yellow, not the darkened `ink` used for legible text). As a solid bar rather than
+// text, low-contrast hues like yellow still read, and it stays the same colour in light and dark.
+// Only member cards (single/quote) get it; tie aggregates span multiple parties.
+const accent = (party: string | null) => ({ borderLeftWidth: "3px", borderLeftColor: partyToken(party).fill });
 
 // v2 front page: one horizontally scrollable rail per theme. The card data (values, labels) is
 // fully formatted server-side by getHubRails(); this component only renders + handles scroll.
