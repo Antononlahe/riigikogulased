@@ -6,6 +6,7 @@ describe("partyToken", () => {
     expect(partyToken("RE")).toEqual({
       fill: "var(--party-re-fill)",
       ink: "var(--party-re-ink)",
+      onFill: "var(--party-re-onfill)",
       label: "RE",
     });
     expect(partyToken("EKRE").ink).toBe("var(--party-ekre-ink)");
@@ -14,7 +15,7 @@ describe("partyToken", () => {
   });
 
   it("falls back to a neutral token for null/unknown party", () => {
-    const neutral = { fill: "var(--muted-foreground)", ink: "var(--muted-foreground)", label: "—" };
+    const neutral = { fill: "var(--muted-foreground)", ink: "var(--muted-foreground)", onFill: "var(--background)", label: "—" };
     expect(partyToken(null)).toEqual(neutral);
     expect(partyToken(undefined)).toEqual(neutral);
     expect(partyToken("XYZ")).toEqual(neutral);

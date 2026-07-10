@@ -25,13 +25,14 @@
   --ring: #1f5aa8;
   --radius: 0.375rem;
 
-  /* ---- party palette: fill (bars/avatar) + ink (outlined pill text/border) ---- */
-  --party-re-fill: #f5c518;   --party-re-ink: #8a6d00;
-  --party-ekre-fill: #16315e; --party-ekre-ink: #16315e;
-  --party-ke-fill: #00a35b;   --party-ke-ink: #007a43;
-  --party-e200-fill: #16b6be; --party-e200-ink: #0c7e84;
-  --party-sde-fill: #e4002b;  --party-sde-ink: #c20021;
-  --party-i-fill: #1f5aa8;    --party-i-ink: #16508f;
+  /* ---- party palette: fill (bars/avatar/accent + filled pill bg) + ink (readable text/border/
+     avatar initials) + onfill (text ON the filled pill). EKRE = black, Isamaa = sky blue. ---- */
+  --party-re-fill: #f5c518;   --party-re-ink: #8a6d00;   --party-re-onfill: #2a2600;
+  --party-ekre-fill: #1a1a1a; --party-ekre-ink: #1a1a1a; --party-ekre-onfill: #ffffff;
+  --party-ke-fill: #00a35b;   --party-ke-ink: #007a43;   --party-ke-onfill: #04240f;
+  --party-e200-fill: #16b6be; --party-e200-ink: #0c7e84; --party-e200-onfill: #05333a;
+  --party-sde-fill: #e4002b;  --party-sde-ink: #c20021;  --party-sde-onfill: #ffffff;
+  --party-i-fill: #0d9ad6;    --party-i-ink: #0b6f9c;    --party-i-onfill: #06304a;
 }
 
 /* ---- dark: near-black, party tones lifted for AA on dark ---- */
@@ -55,12 +56,13 @@
   --input: #322e25;
   --ring: #5b97da;
 
-  --party-re-fill: #f5c518;   --party-re-ink: #f5c518;
-  --party-ekre-fill: #5b86c4; --party-ekre-ink: #5b86c4;
-  --party-ke-fill: #2bc077;   --party-ke-ink: #2bc077;
-  --party-e200-fill: #2cc9d1; --party-e200-ink: #2cc9d1;
-  --party-sde-fill: #ff3355;  --party-sde-ink: #ff3355;
-  --party-i-fill: #5b97da;    --party-i-ink: #5b97da;
+  /* EKRE = black -> lifted to light grey so it reads on the dark card; Isamaa = bright sky blue. */
+  --party-re-fill: #f5c518;   --party-re-ink: #f5c518;   --party-re-onfill: #2a2600;
+  --party-ekre-fill: #cbc7bf; --party-ekre-ink: #cbc7bf; --party-ekre-onfill: #1a1a1a;
+  --party-ke-fill: #2bc077;   --party-ke-ink: #2bc077;   --party-ke-onfill: #06301a;
+  --party-e200-fill: #2cc9d1; --party-e200-ink: #2cc9d1; --party-e200-onfill: #05333a;
+  --party-sde-fill: #ff3355;  --party-sde-ink: #ff3355;  --party-sde-onfill: #ffffff;
+  --party-i-fill: #45b4e8;    --party-i-ink: #45b4e8;    --party-i-onfill: #05263a;
 }
 
 /* ---- map tokens to Tailwind v4 theme so utilities + shadcn resolve them ---- */
