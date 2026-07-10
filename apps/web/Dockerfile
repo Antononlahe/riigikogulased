@@ -9,7 +9,9 @@ COPY . .
 # so DATABASE_URL must be present at build time.
 ARG DATABASE_URL
 ENV DATABASE_URL=$DATABASE_URL
-RUN pnpm build
+# Cap V8's heap so the build GCs early instead of ballooning to the ~2GB default and getting
+# OOM-killed on the 2GB VPS (which also runs prod Postgres + the live app during the build).
+RUN NODE_OPTIONS=--max-old-space-size=1536 pnpm build
 
 FROM node:22-slim
 WORKDIR /app

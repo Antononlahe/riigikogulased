@@ -6,6 +6,9 @@ const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 const nextConfig: NextConfig = {
   output: "standalone",
   typedRoutes: true,
+  // The 2 GB VPS builds in place alongside prod Postgres + the live app, so webpack's default
+  // caching OOM-kills the build. This trades a little build speed for a much lower memory peak.
+  experimental: { webpackMemoryOptimizations: true },
   async redirects() {
     // Old routes (pre-2026-07 Estonian rename). Both bare (default locale et) and /en/ forms,
     // since localePrefix is "as-needed".
