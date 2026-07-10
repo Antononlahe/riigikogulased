@@ -132,14 +132,15 @@
   background: var(--background);
 }
 
-/* Home page layout switch (v1 card grid = default, v2 themed rails). Toggled by LayoutToggle,
-   which sets data-hub-layout on <html>. Promote v2 to default by flipping these two selectors. */
-.hub-v2 {
+/* Home page layout switch (v2 themed rails = default, v1 card grid opt-in). Toggled by
+   LayoutToggle, which sets data-hub-layout on <html>. Flip back to v1-default by swapping "v1"
+   for "v2" here and in the layout.tsx no-flash script. */
+.hub-v1 {
   display: none;
 }
-:root[data-hub-layout="v2"] .hub-v1 {
+:root[data-hub-layout="v1"] .hub-v2 {
   display: none;
 }
-:root[data-hub-layout="v2"] .hub-v2 {
+:root[data-hub-layout="v1"] .hub-v1 {
   display: block;
 }

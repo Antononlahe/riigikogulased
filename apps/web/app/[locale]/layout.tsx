@@ -55,7 +55,7 @@ export default async function LocaleLayout({
         <script
           dangerouslySetInnerHTML={{
             __html:
-              "try{document.documentElement.dataset.hubLayout=localStorage.getItem('hub-layout')||'v1'}catch(e){}",
+              "try{document.documentElement.dataset.hubLayout=localStorage.getItem('hub-layout')||'v2'}catch(e){}",
           }}
         />
         <ThemeProvider attribute="class" defaultTheme="light" disableTransitionOnChange>

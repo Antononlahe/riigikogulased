@@ -351,11 +351,11 @@ export async function getStatHighlights(): Promise<StatHighlights> {
 
 export type RailPerson = { name: string; slug: string; party: string | null; photoThumbPath: string | null };
 export type RailCard =
-  | { kind: "single"; eyebrow: string; person: RailPerson; value: string; sub?: string; barPct?: number; href: string }
+  | { kind: "single"; eyebrow: string; person: RailPerson; value: string; sub?: string; href: string }
   | { kind: "tie2"; eyebrow: string; value: string; sub?: string; people: RailPerson[] }
   | { kind: "tieN"; eyebrow: string; value: string; sub?: string; sample: RailPerson[]; more: number; href: string }
   | { kind: "quote"; eyebrow: string; word: string; person: RailPerson; sub?: string; href: string };
-export type HubRail = { key: string; title: string; kicker: string; seeAll: string; moreHref: string; cards: RailCard[] };
+export type HubRail = { key: string; title: string; kicker: string; info?: string; seeAll: string; moreHref: string; cards: RailCard[] };
 
 const personOf = (r: TieRow): RailPerson => ({
   name: r.fullName, slug: r.slug, party: r.partyShortName, photoThumbPath: r.photoThumbPath,
@@ -382,19 +382,14 @@ async function disciplineRail(t: T): Promise<HubRail> {
     (x) => x.active && x.countedVotes >= MIN_VOTES && x.disciplineScore != null,
   );
   const against = (s: number) => 1 - s;
-  const maxAgainst = rows.length ? against(rows[0].disciplineScore as number) : 1;
-  const cards: RailCard[] = rows.slice(0, 4).map((r, i) => {
-    const a = against(r.disciplineScore as number);
-    return {
-      kind: "single",
-      eyebrow: i === 0 ? t("rail.against") : `${i + 1}.`,
-      person: personOf(r),
-      value: `${Math.round(a * 100)}%`,
-      sub: t("rebelSub", { d: r.defections, c: r.countedVotes }),
-      barPct: maxAgainst > 0 ? Math.round((a / maxAgainst) * 100) : 0,
-      href: memberHref(r),
-    };
-  });
+  const cards: RailCard[] = rows.slice(0, 4).map((r, i) => ({
+    kind: "single",
+    eyebrow: i === 0 ? t("rail.against") : `${i + 1}.`,
+    person: personOf(r),
+    value: `${Math.round(against(r.disciplineScore as number) * 100)}%`,
+    sub: t("rebelSub", { d: r.defections, c: r.countedVotes }),
+    href: memberHref(r),
+  }));
   // Loyal end: everyone sharing the highest score. Usually a big tie at 100% (never voted against).
   const maxScore = rows.length ? (rows.at(-1)!.disciplineScore as number) : 0;
   const loyal = rows.filter((x) => (x.disciplineScore as number) === maxScore);
@@ -409,55 +404,52 @@ async function disciplineRail(t: T): Promise<HubRail> {
   } else if (loyal.length === 2) {
     cards.push({ kind: "tie2", eyebrow: t("rail.loyal"), value: loyalValue, sub: loyalSub, people: loyal.map(personOf) });
   } else if (loyal.length === 1) {
-    cards.push({ kind: "single", eyebrow: t("rail.loyal"), person: personOf(loyal[0]), value: loyalValue, sub: loyalSub, barPct: 0, href: memberHref(loyal[0]) });
+    cards.push({ kind: "single", eyebrow: t("rail.loyal"), person: personOf(loyal[0]), value: loyalValue, sub: loyalSub, href: memberHref(loyal[0]) });
   }
   return { key: "discipline", title: t("rail.title.discipline"), kicker: t("rail.kicker.discipline"), seeAll: t("seeAll"), moreHref: HREF.discipline, cards };
 }
 
 async function speechRail(t: T): Promise<HubRail> {
+  // Presiding officers (esimees/aseesimehed) chair sittings, so their word counts read
+  // artificially low -- exclude the whole juhatus from both ends (explained by the rail's (i)).
   const rows = (await getSpeechLeaderboard())
-    .filter((x) => x.active && x.totalWords > 0)
+    .filter((x) => x.active && x.totalWords > 0 && !x.boardRole)
     .sort((a, b) => b.totalWords - a.totalWords);
-  const max = rows[0]?.totalWords || 1;
   const cards: RailCard[] = rows.slice(0, 4).map((r, i) => ({
     kind: "single",
     eyebrow: i === 0 ? t("rail.words") : `${i + 1}.`,
     person: personOf(r),
     value: t("talkerValue", { n: r.totalWords }),
     sub: t("talkerSub", { n: r.total }),
-    barPct: Math.max(2, Math.round((r.totalWords / max) * 100)),
     href: memberHref(r),
   }));
-  // Presiding officers' counts read artificially low -- exclude them from "quietest".
-  const quiet = [...rows].reverse().find((r) => !r.boardRole);
-  if (quiet) {
+  const quiet = rows.at(-1);
+  if (quiet && quiet !== rows[0]) {
     cards.push({
       kind: "single", eyebrow: t("rail.quiet"), person: personOf(quiet),
       value: t("talkerValue", { n: quiet.totalWords }), sub: t("talkerSub", { n: quiet.total }),
-      barPct: Math.max(2, Math.round((quiet.totalWords / max) * 100)), href: memberHref(quiet),
+      href: memberHref(quiet),
     });
   }
-  return { key: "speeches", title: t("rail.title.speeches"), kicker: t("rail.kicker.speeches"), seeAll: t("seeAll"), moreHref: HREF.speeches, cards };
+  return { key: "speeches", title: t("rail.title.speeches"), kicker: t("rail.kicker.speeches"), info: t("rail.speechesInfo"), seeAll: t("seeAll"), moreHref: HREF.speeches, cards };
 }
 
 async function absenceRail(t: T): Promise<HubRail> {
   const rows = (await getAbsenceLeaderboard()).filter((x) => x.active); // absentPct DESC
-  const max = rows[0]?.absentPct || 1;
   const cards: RailCard[] = rows.slice(0, 3).map((r, i) => ({
     kind: "single",
     eyebrow: i === 0 ? t("rail.absent") : `${i + 1}.`,
     person: personOf(r),
     value: t("absenteeValue", { pct: Math.round(r.absentPct) }),
     sub: t("absenteeSub", { a: r.absent, c: r.total }),
-    barPct: Math.max(2, Math.round((r.absentPct / max) * 100)),
     href: memberHref(r),
   }));
   const best = rows.at(-1);
-  if (best) {
+  if (best && best !== rows[0]) {
     cards.push({
       kind: "single", eyebrow: t("rail.present"), person: personOf(best),
       value: t("absenteeValue", { pct: Math.round(best.absentPct) }),
-      sub: t("absenteeSub", { a: best.absent, c: best.total }), barPct: 2, href: memberHref(best),
+      sub: t("absenteeSub", { a: best.absent, c: best.total }), href: memberHref(best),
     });
   }
   return { key: "absence", title: t("rail.title.absence"), kicker: t("rail.kicker.absence"), seeAll: t("seeAll"), moreHref: HREF.absence, cards };
@@ -475,17 +467,15 @@ async function ageRail(t: T): Promise<HubRail> {
 
 async function mandateRail(t: T): Promise<HubRail> {
   const rows = await mandateRows(); // personal_votes DESC
-  const max = rows[0]?.value || 1;
   const cards: RailCard[] = rows.slice(0, 3).map((r, i) => ({
     kind: "single",
     eyebrow: i === 0 ? t("rail.votes") : `${i + 1}.`,
     person: personOf(r),
     value: t("votesValue", { n: r.value }),
-    barPct: Math.max(2, Math.round((r.value / max) * 100)),
     href: memberHref(r),
   }));
   const cheap = rows.at(-1);
-  if (cheap) cards.push({ kind: "single", eyebrow: t("rail.fewVotes"), person: personOf(cheap), value: t("votesValue", { n: cheap.value }), barPct: 2, href: memberHref(cheap) });
+  if (cheap && cheap !== rows[0]) cards.push({ kind: "single", eyebrow: t("rail.fewVotes"), person: personOf(cheap), value: t("votesValue", { n: cheap.value }), href: memberHref(cheap) });
   return { key: "mandate", title: t("rail.title.mandate"), kicker: t("rail.kicker.mandate"), seeAll: t("seeAll"), moreHref: "/saadikud", cards };
 }
 

@@ -2,11 +2,10 @@
 
 import { useCallback, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, Info } from "lucide-react";
 import { Link } from "@/i18n/routing";
 import { MemberAvatar } from "@/components/member-avatar";
 import { PartyBadge } from "@/components/party-badge";
-import { partyToken } from "@/lib/party";
 import type { HubRail, RailCard, RailPerson } from "@/lib/hub-queries";
 
 // v2 front page: one horizontally scrollable rail per theme. The card data (values, labels) is
@@ -28,14 +27,6 @@ function StackedAvatars({ people }: { people: RailPerson[] }) {
           <Avatar p={p} />
         </span>
       ))}
-    </div>
-  );
-}
-
-function Bar({ pct, party }: { pct: number; party: string | null }) {
-  return (
-    <div className="mt-2.5 h-1.5 overflow-hidden rounded-full bg-secondary">
-      <div className="h-full rounded-full" style={{ width: `${pct}%`, backgroundColor: partyToken(party).fill }} />
     </div>
   );
 }
@@ -116,7 +107,6 @@ function CardView({ card, seeAll }: { card: RailCard; seeAll: string }) {
         <PartyBadge shortName={card.person.party} />
       </div>
       {card.sub && <div className={SUB}>{card.sub}</div>}
-      {typeof card.barPct === "number" && <Bar pct={card.barPct} party={card.person.party} />}
     </Link>
   );
 }
@@ -147,7 +137,14 @@ function Rail({ rail }: { rail: HubRail }) {
     <section className="mt-8 first:mt-6">
       <div className="mb-2 flex items-baseline justify-between gap-3">
         <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-          <h2 className="text-[13px] font-bold uppercase tracking-wide text-muted-foreground">{rail.title}</h2>
+          <h2 className="flex items-center gap-1 text-[13px] font-bold uppercase tracking-wide text-muted-foreground">
+            {rail.title}
+            {rail.info && (
+              <span title={rail.info} aria-label={rail.info} className="cursor-help text-muted-foreground/60 hover:text-foreground">
+                <Info className="h-3.5 w-3.5" />
+              </span>
+            )}
+          </h2>
           <span className="text-xs text-muted-foreground/70">{rail.kicker}</span>
         </div>
         <Link
