@@ -46,6 +46,19 @@ describe("prefixHighlightQuery", () => {
     expect(prefixHighlightQuery("kool")).toBe("kool:*");
   });
 
+  it("adds the -ne stem so -ne/-line/-mine inflections highlight", () => {
+    // lemma is not a prefix of "…ealised/…ealisele"; the "…eali" stem is.
+    expect(prefixHighlightQuery("vanaduspensioniealine")).toBe(
+      "vanaduspensioniealine:* | vanaduspensionieali:*",
+    );
+    expect(prefixHighlightQuery("kohtumine")).toBe("kohtumine:* | kohtumi:*");
+    expect(prefixHighlightQuery("erihoolekanne")).toBe("erihoolekanne:* | erihoolekan:*");
+  });
+
+  it("does not strip -ne when the stem would be too short (< 4)", () => {
+    expect(prefixHighlightQuery("naine")).toBe("naine:*"); // stem "nai" too broad -> skipped
+  });
+
   it("returns empty string when nothing usable", () => {
     expect(prefixHighlightQuery("!!")).toBe("");
     expect(prefixHighlightQuery("")).toBe("");
