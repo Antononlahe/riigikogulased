@@ -820,16 +820,17 @@ def write_member_profile(
             """
             INSERT INTO member_profiles
               (member_id, birthplace_town, birthplace_lat, birthplace_lon,
-               children_count, family_status_raw, profession_tag, scraped_at)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, now())
+               children_count, family_status_raw, profession_tag, education_raw, scraped_at)
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, now())
             ON CONFLICT (member_id) DO UPDATE SET
               birthplace_town=EXCLUDED.birthplace_town,
               birthplace_lat=EXCLUDED.birthplace_lat, birthplace_lon=EXCLUDED.birthplace_lon,
               children_count=EXCLUDED.children_count, family_status_raw=EXCLUDED.family_status_raw,
-              profession_tag=EXCLUDED.profession_tag, scraped_at=now()
+              profession_tag=EXCLUDED.profession_tag, education_raw=EXCLUDED.education_raw,
+              scraped_at=now()
             """,
             (member_id, p.birthplace_town, lat, lon, p.children_count,
-             p.family_status_raw, profession_tag),
+             p.family_status_raw, profession_tag, p.education_raw),
         )
     _replace_child(conn, "member_hobbies", "raw, hobby_tag", member_id, hobbies)
     _replace_child(

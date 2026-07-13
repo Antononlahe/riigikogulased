@@ -17,15 +17,16 @@ export default async function PeoplePage({ params }: { params: Promise<{ locale:
   setRequestLocale(locale);
   const t = await getTranslations("varia");
 
-  let hobbies: PeopleRow[] = [], unis: PeopleRow[] = [], noUni: PeopleMember[] = [];
-  let children: ChildRow[] = [], pins: BirthPin[] = [];
-  try {
-    [hobbies, unis, noUni, children, pins] = await Promise.all([
-      getHobbyMembers(), getUniversityMembers(), getNoUniversityMembers(), getChildren(), getBirthPins(),
-    ]);
-  } catch {
-    /* empty state until member_profiles is populated */
-  }
+  // allSettled (not all): each section is independent, so one failing query must degrade only its
+  // own section, never blank the whole page.
+  const [hobbiesR, unisR, noUniR, childrenR, pinsR] = await Promise.allSettled([
+    getHobbyMembers(), getUniversityMembers(), getNoUniversityMembers(), getChildren(), getBirthPins(),
+  ]);
+  const hobbies: PeopleRow[] = hobbiesR.status === "fulfilled" ? hobbiesR.value : [];
+  const unis: PeopleRow[] = unisR.status === "fulfilled" ? unisR.value : [];
+  const noUni: PeopleMember[] = noUniR.status === "fulfilled" ? noUniR.value : [];
+  const children: ChildRow[] = childrenR.status === "fulfilled" ? childrenR.value : [];
+  const pins: BirthPin[] = pinsR.status === "fulfilled" ? pinsR.value : [];
 
   const hasUnis = unis.length > 0 || noUni.length > 0;
   const empty = hobbies.length === 0 && !hasUnis;
