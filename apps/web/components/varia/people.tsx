@@ -93,17 +93,22 @@ function PeoplePopup({ trigger, members }: { trigger: React.ReactNode; members: 
         </button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="start" className="max-h-80 w-60 overflow-y-auto">
-        <div className="px-2 py-1.5">
-          <div className="mb-1 text-[10px] font-bold uppercase tracking-wide text-muted-foreground">
-            {t("byParty")}
-          </div>
-          <PartyTally
-            members={members}
-            active={filter}
-            onToggle={(p) => setFilter((f) => (f === p ? null : p))}
-          />
-        </div>
-        <div className="my-1 h-px bg-border" />
+        {/* A one-person group has nothing to break down by faction. */}
+        {members.length > 1 && (
+          <>
+            <div className="px-2 py-1.5">
+              <div className="mb-1 text-[10px] font-bold uppercase tracking-wide text-muted-foreground">
+                {t("byParty")}
+              </div>
+              <PartyTally
+                members={members}
+                active={filter}
+                onToggle={(p) => setFilter((f) => (f === p ? null : p))}
+              />
+            </div>
+            <div className="my-1 h-px bg-border" />
+          </>
+        )}
         {shown.map((m) => (
           <DropdownMenuItem key={m.slug} asChild>
             <Link href={`/saadik/${m.slug}`} className="flex items-center gap-1.5">
@@ -147,6 +152,9 @@ export function Hobbies({ rows }: { rows: PeopleRow[] }) {
 
 type Row = { key: string; label: string; members: PeopleMember[] };
 
+const UNI_PREVIEW = 10;
+const NONE_KEY = "__none__"; // the synthetic "Pole kõrgkoolis käinud" group
+
 /** Stacked-by-party magnitude bar: total length ~ group size vs the largest, segments by faction. */
 function StackedBar({ members, max }: { members: PeopleMember[]; max: number }) {
   return (
@@ -165,52 +173,64 @@ function StackedBar({ members, max }: { members: PeopleMember[]; max: number }) 
 }
 
 /** Click a university to reveal the party breakdown + who studied there. `noUni` (members with an
- *  education listed but no higher-ed institution) is pinned as a final "Pole kõrgkoolis käinud" row. */
+ *  education listed but no higher-ed institution) is folded in by size like any other group but
+ *  tinted so it reads as a different kind of entry. */
 export function Universities({ rows, noUni = [] }: { rows: PeopleRow[]; noUni?: PeopleMember[] }) {
   const t = useTranslations("varia");
-  const groups = useMemo(() => groupPeople(rows), [rows]);
-  const max = Math.max(1, ...groups.map((g) => g.members.length));
   const [open, setOpen] = useState<string | null>(null);
   // One row open at a time, so a single filter suffices; reset it on every open/close toggle so it
   // never persists across the dropdown.
   const [filter, setFilter] = useState<PartyShort | null>(null);
-  const list: Row[] = groups.map((g) => ({ key: g.category, label: g.category, members: g.members }));
-  // Pin the "no higher education" group last, regardless of size.
-  if (noUni.length > 0) list.push({ key: "__none__", label: t("noUniversity"), members: noUni });
+  const [showAll, setShowAll] = useState(false);
+  const listRef = useRef<HTMLUListElement>(null);
+
+  // The "no higher ed" pseudo-group is sorted in by size alongside the real institutions.
+  const list: Row[] = useMemo(() => {
+    const gs: Row[] = groupPeople(rows).map((g) => ({ key: g.category, label: g.category, members: g.members }));
+    if (noUni.length > 0) gs.push({ key: NONE_KEY, label: t("noUniversity"), members: noUni });
+    return gs.sort((a, b) => b.members.length - a.members.length || a.label.localeCompare(b.label, "et"));
+  }, [rows, noUni, t]);
+  const max = Math.max(1, ...list.map((g) => g.members.length));
+  const shown = showAll ? list : list.slice(0, UNI_PREVIEW);
+
   return (
     <Section id="ulikoolid" title={t("universitiesH")} sub={t("universitiesSub")}>
-      <ul className="divide-y divide-border">
-        {list.map((r) => {
+      <ul ref={listRef} className="scroll-mt-20 divide-y divide-border">
+        {shown.map((r) => {
           const isOpen = open === r.key;
+          const isNone = r.key === NONE_KEY;
           const shownMembers = filter ? r.members.filter((m) => m.party === filter) : r.members;
           return (
-            <li key={r.key}>
+            <li key={r.key} className={isNone ? "bg-muted/60" : ""}>
               <button
                 type="button"
                 onClick={() => {
                   setOpen(isOpen ? null : r.key);
                   setFilter(null);
                 }}
-                className="flex w-full items-center gap-3 py-2 text-left"
+                className="flex w-full items-center gap-3 px-2 py-2 text-left"
                 aria-expanded={isOpen}
               >
                 <span aria-hidden className={`text-xs text-muted-foreground transition-transform ${isOpen ? "rotate-90" : ""}`}>▶</span>
-                <span className="min-w-0 flex-1 truncate text-sm font-medium">{r.label}</span>
+                <span className={`min-w-0 flex-1 truncate text-sm font-medium ${isNone ? "italic text-muted-foreground" : ""}`}>{r.label}</span>
                 <StackedBar members={r.members} max={max} />
                 <span className="w-8 shrink-0 text-right text-sm tabular-nums text-muted-foreground">{r.members.length}</span>
               </button>
               {isOpen && (
-                <div className="pb-3 pl-6">
-                  <div className="mb-2 flex items-center gap-2">
-                    <span className="text-[10px] font-bold uppercase tracking-wide text-muted-foreground">
-                      {t("byParty")}
-                    </span>
-                    <PartyTally
-                      members={r.members}
-                      active={filter}
-                      onToggle={(p) => setFilter((f) => (f === p ? null : p))}
-                    />
-                  </div>
+                <div className="px-2 pb-3 pl-6">
+                  {/* A one-person group has nothing to break down by faction. */}
+                  {r.members.length > 1 && (
+                    <div className="mb-2 flex items-center gap-2">
+                      <span className="text-[10px] font-bold uppercase tracking-wide text-muted-foreground">
+                        {t("byParty")}
+                      </span>
+                      <PartyTally
+                        members={r.members}
+                        active={filter}
+                        onToggle={(p) => setFilter((f) => (f === p ? null : p))}
+                      />
+                    </div>
+                  )}
                   <ul className="flex flex-wrap gap-x-4 gap-y-1.5">
                     {shownMembers.map((m) => (
                       <li key={m.slug} className="flex items-center gap-1.5 text-sm">
@@ -225,6 +245,18 @@ export function Universities({ rows, noUni = [] }: { rows: PeopleRow[]; noUni?: 
           );
         })}
       </ul>
+      {list.length > UNI_PREVIEW && (
+        <button
+          type="button"
+          onClick={() => {
+            setShowAll((v) => !v);
+            scrollIntoViewSmooth(listRef.current);
+          }}
+          className="mt-3 text-sm font-medium text-muted-foreground hover:text-foreground"
+        >
+          {showAll ? t("showLess") : t("showAllN", { n: list.length })}
+        </button>
+      )}
     </Section>
   );
 }
