@@ -1,10 +1,11 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
 import { partyToken, isKnownParty, PARTY_ORDER, type PartyShort } from "@/lib/party";
+import { scrollIntoViewSmooth } from "@/lib/scroll";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -190,6 +191,9 @@ export function Children({ rows }: { rows: ChildRow[] }) {
   const [showAll, setShowAll] = useState(false);
   const [info, setInfo] = useState(false);
   const [filter, setFilter] = useState<PartyShort | null>(null);
+  // Filtering/expanding reflows the list; re-anchor these controls to the top so it never lands
+  // the viewport mid-list ("cut midway").
+  const filterRef = useRef<HTMLDivElement>(null);
   // Headline stats are over members who state a number; members with none (children === null) are
   // shown in the list as 0 but excluded here so the average isn't diluted by unstated profiles.
   const withData = rows.filter((c) => c.children != null);
@@ -239,7 +243,7 @@ export function Children({ rows }: { rows: ChildRow[] }) {
         <Stat label={t("childrenAvg")} value={avg} />
       </div>
 
-      <div className="mb-5">
+      <div ref={filterRef} className="mb-5 scroll-mt-20">
         <p className="mb-2 text-[11px] font-bold uppercase tracking-wide text-muted-foreground">
           {t("childrenByParty")}
         </p>
@@ -252,7 +256,10 @@ export function Children({ rows }: { rows: ChildRow[] }) {
                 type="button"
                 disabled={n === 0}
                 aria-pressed={active}
-                onClick={() => setFilter((f) => (f === party ? null : party))}
+                onClick={() => {
+                  setFilter((f) => (f === party ? null : party));
+                  scrollIntoViewSmooth(filterRef.current);
+                }}
                 className={`flex items-center gap-2 rounded-md border px-3 py-1.5 transition-colors disabled:cursor-default disabled:opacity-50 ${
                   active ? "border-foreground bg-secondary" : "border-border hover:bg-secondary"
                 }`}
@@ -271,7 +278,10 @@ export function Children({ rows }: { rows: ChildRow[] }) {
         {filter && (
           <button
             type="button"
-            onClick={() => setFilter(null)}
+            onClick={() => {
+              setFilter(null);
+              scrollIntoViewSmooth(filterRef.current);
+            }}
             className="text-xs font-medium text-ring hover:underline"
           >
             {t("childrenClearFilter")}
@@ -299,7 +309,10 @@ export function Children({ rows }: { rows: ChildRow[] }) {
       {filtered.length > CHILDREN_PREVIEW && (
         <button
           type="button"
-          onClick={() => setShowAll((v) => !v)}
+          onClick={() => {
+            setShowAll((v) => !v);
+            scrollIntoViewSmooth(filterRef.current);
+          }}
           className="mt-3 text-sm font-medium text-muted-foreground hover:text-foreground"
         >
           {showAll ? t("showLess") : t("showAllN", { n: filtered.length })}

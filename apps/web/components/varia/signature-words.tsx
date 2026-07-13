@@ -7,17 +7,7 @@ import { PartyBadge } from "@/components/party-badge";
 import { partyToken, PARTY_ORDER, isKnownParty, type PartyShort } from "@/lib/party";
 import { HL_START, HL_END, type SpeechHit } from "@/lib/speech-search";
 import type { PartyWords, MemberWord } from "@/lib/varia";
-
-// Smooth-scroll a drill-down panel into view. Deferred one frame so it runs AFTER the browser has
-// laid out the freshly-loaded (taller) panel -- scrolling in the same tick snaps to a stale target
-// position, which reads as a jump. Honors prefers-reduced-motion (instant, no animation).
-function scrollPanelIntoView(el: HTMLElement | null): number | undefined {
-  if (!el) return undefined;
-  return requestAnimationFrame(() => {
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    el.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
-  });
-}
+import { scrollIntoViewSmooth } from "@/lib/scroll";
 
 // Mirror of signature.py MANUAL_EXCLUDE -- the hand-curated tokens dropped from the TF-IDF output
 // (fillers, plenary procedure, address forms, name fragments). Shown for transparency. Keep in
@@ -25,7 +15,7 @@ function scrollPanelIntoView(el: HTMLElement | null): number | undefined {
 const EXCLUDED = [
   "otsekui", "meelest", "vaatamata", "enesestmõistetavalt", "ükspuha", "miskisugune", "kuskilt",
   "seonduvalt", "miskipärast", "mispärast", "kuidagimoodi", "hiljaaegu", "ennist", "nähtavasti",
-  "niisugune", "järgnevalt",
+  "niisugune", "järgnevalt", "muuseas", "seesugune",
   "kõnesoov", "saalikutsung", "kohalolija", "kohalolek", "vastusõnavõtt", "hääletamissedel",
   "täpsustav", "kõnetool", "eesistuja", "päevakorrapunkt", "arupärimine", "läbirääkimine",
   "protseduuriline", "protseduur", "registreeruma", "läbiviimine", "sulgema", "infotund",
@@ -103,7 +93,7 @@ export function SignatureWords({ parties, memberWords }: { parties: PartyWords[]
   const detailRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!sel || hits === null) return;
-    const id = scrollPanelIntoView(detailRef.current);
+    const id = scrollIntoViewSmooth(detailRef.current);
     return () => {
       if (id !== undefined) cancelAnimationFrame(id);
     };
@@ -233,11 +223,14 @@ function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
   const detailRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!sel || hits === null) return;
-    const id = scrollPanelIntoView(detailRef.current);
+    const id = scrollIntoViewSmooth(detailRef.current);
     return () => {
       if (id !== undefined) cancelAnimationFrame(id);
     };
   }, [sel, hits]);
+  // Filtering or expanding reflows the grid, which can leave the viewport mid-list. Re-anchor the
+  // controls (pills) to the top so the resulting list always reads from a clean top edge.
+  const filterRef = useRef<HTMLDivElement>(null);
 
   if (rows.length === 0) return null;
   // Party filter pills: fraktsioons present in the data are clickable; the rest show "-" (disabled).
@@ -265,7 +258,7 @@ function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
     <section id="saadikud" className="mt-10 scroll-mt-20">
       <h2 className="font-serif text-xl font-bold tracking-tight">{t("memberWordsH")}</h2>
       <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("memberWordsSub")}</p>
-      <div className="mt-3 flex flex-wrap items-center gap-2">
+      <div ref={filterRef} className="mt-3 flex scroll-mt-20 flex-wrap items-center gap-2">
         {PARTY_ORDER.map((p) => {
           const has = present.has(p);
           const active = pfilter === p;
@@ -275,7 +268,10 @@ function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
               type="button"
               disabled={!has}
               aria-pressed={active}
-              onClick={() => setPfilter((f) => (f === p ? null : p))}
+              onClick={() => {
+                setPfilter((f) => (f === p ? null : p));
+                scrollIntoViewSmooth(filterRef.current);
+              }}
               className={`flex items-center gap-1.5 rounded-md border px-2.5 py-1 transition-colors disabled:cursor-default disabled:opacity-50 ${
                 active ? "border-foreground bg-secondary" : "border-border hover:bg-secondary"
               }`}
@@ -288,7 +284,10 @@ function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
         {pfilter && (
           <button
             type="button"
-            onClick={() => setPfilter(null)}
+            onClick={() => {
+              setPfilter(null);
+              scrollIntoViewSmooth(filterRef.current);
+            }}
             className="text-xs font-medium text-ring hover:underline"
           >
             {t("childrenClearFilter")}
@@ -336,7 +335,10 @@ function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
       {filteredRows.length > MEMBER_WORDS_PREVIEW && (
         <button
           type="button"
-          onClick={() => setAll((v) => !v)}
+          onClick={() => {
+            setAll((v) => !v);
+            scrollIntoViewSmooth(filterRef.current);
+          }}
           className="mt-3 text-sm font-medium text-muted-foreground hover:text-foreground"
         >
           {all ? t("showLess") : t("showAllN", { n: filteredRows.length })}

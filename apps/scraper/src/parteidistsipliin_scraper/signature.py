@@ -43,7 +43,7 @@ MANUAL_EXCLUDE = frozenset(
     """
     otsekui meelest vaatamata enesestmõistetavalt ükspuha miskisugune kuskilt
     seonduvalt miskipärast mispärast kuidagimoodi hiljaaegu ennist nähtavasti niisugune
-    järgnevalt
+    järgnevalt muuseas seesugune
     kõnesoov saalikutsung kohalolija kohalolek vastusõnavõtt hääletamissedel täpsustav
     kõnetool eesistuja päevakorrapunkt arupärimine läbirääkimine
     protseduuriline protseduur registreeruma läbiviimine sulgema infotund kokkukutsuja
