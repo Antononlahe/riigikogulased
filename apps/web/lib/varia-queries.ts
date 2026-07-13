@@ -146,14 +146,16 @@ export const getUniversityMembers = unstable_cache(async (): Promise<PeopleRow[]
 }, ["varia-university-members"], { revalidate: 86400 });
 
 export const getChildren = unstable_cache(async (): Promise<ChildRow[]> => {
+  // All active members: those with a stated children count first (most first), then members whose
+  // profile states no number (children = null -> shown as 0, listed last, name-ordered).
   const { rows } = await pool.query(`
     SELECT m.full_name AS "fullName", m.slug, mcp.party_short_name AS "partyShortName",
            m.photo_thumb_path AS "photoThumbPath", mp.children_count AS children
-    FROM member_profiles mp
-    JOIN members m ON m.id = mp.member_id
-    LEFT JOIN member_current_party mcp ON mcp.member_id = mp.member_id
-    WHERE mp.children_count IS NOT NULL
-    ORDER BY mp.children_count DESC, m.full_name`);
+    FROM members m
+    LEFT JOIN member_profiles mp ON mp.member_id = m.id
+    LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+    WHERE m.active
+    ORDER BY mp.children_count DESC NULLS LAST, m.full_name`);
   return rows as ChildRow[];
 }, ["varia-children"], { revalidate: 86400 });
 

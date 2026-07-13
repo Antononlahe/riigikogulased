@@ -190,28 +190,33 @@ export function Children({ rows }: { rows: ChildRow[] }) {
   const [showAll, setShowAll] = useState(false);
   const [info, setInfo] = useState(false);
   const [filter, setFilter] = useState<PartyShort | null>(null);
-  const total = rows.reduce((s, c) => s + c.children, 0);
-  const avg = rows.length ? (total / rows.length).toFixed(1) : "0";
+  // Headline stats are over members who state a number; members with none (children === null) are
+  // shown in the list as 0 but excluded here so the average isn't diluted by unstated profiles.
+  const withData = rows.filter((c) => c.children != null);
+  const total = withData.reduce((s, c) => s + (c.children ?? 0), 0);
+  const avg = withData.length ? (total / withData.length).toFixed(1) : "0";
 
   // Clicking a fraktsioon box filters the list to its members; clicking it again clears.
   const filtered = filter ? rows.filter((c) => c.partyShortName === filter) : rows;
   const top = showAll ? filtered : filtered.slice(0, CHILDREN_PREVIEW);
 
-  // Per-fraktsioon "average per family": sum / members-with-data, but only when a faction has
-  // enough members to be meaningful (else "-"). `n` (member count) gates whether the box filters.
-  // Only the six fraktsioons; ERK is excluded.
+  // Per-fraktsioon "average per family": sum / members-with-data (>= MIN_PARTY, else "-"). `n`
+  // (all members present, incl. unstated) gates whether the box filters. Only the six fraktsioons.
   const byParty = useMemo(() => {
-    const acc = new Map<PartyShort, { sum: number; n: number }>();
+    const acc = new Map<PartyShort, { sum: number; withData: number; n: number }>();
     for (const c of rows) {
       if (!isKnownParty(c.partyShortName)) continue;
-      const e = acc.get(c.partyShortName) ?? { sum: 0, n: 0 };
-      e.sum += c.children;
+      const e = acc.get(c.partyShortName) ?? { sum: 0, withData: 0, n: 0 };
       e.n += 1;
+      if (c.children != null) {
+        e.sum += c.children;
+        e.withData += 1;
+      }
       acc.set(c.partyShortName, e);
     }
     return PARTY_ORDER.map((p) => {
       const e = acc.get(p);
-      return { party: p, n: e?.n ?? 0, value: e && e.n >= MIN_PARTY ? (e.sum / e.n).toFixed(1) : "-" };
+      return { party: p, n: e?.n ?? 0, value: e && e.withData >= MIN_PARTY ? (e.sum / e.withData).toFixed(1) : "-" };
     });
   }, [rows]);
 
@@ -282,12 +287,12 @@ export function Children({ rows }: { rows: ChildRow[] }) {
               </Link>
               <PartyBadge shortName={c.partyShortName} />
             </span>
-            <span className="flex gap-0.5" aria-label={`${c.children}`}>
-              {Array.from({ length: c.children }).map((_, i) => (
+            <span className="flex gap-0.5" aria-label={`${c.children ?? 0}`}>
+              {Array.from({ length: c.children ?? 0 }).map((_, i) => (
                 <span key={i} className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: partyToken(c.partyShortName).fill }} />
               ))}
             </span>
-            <span className="text-sm tabular-nums text-muted-foreground">{c.children}</span>
+            <span className="text-sm tabular-nums text-muted-foreground">{c.children ?? 0}</span>
           </li>
         ))}
       </ul>

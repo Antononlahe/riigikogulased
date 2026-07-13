@@ -4,9 +4,20 @@ import { Fragment, useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
-import { partyToken, PARTY_ORDER, isKnownParty } from "@/lib/party";
+import { partyToken, PARTY_ORDER, isKnownParty, type PartyShort } from "@/lib/party";
 import { HL_START, HL_END, type SpeechHit } from "@/lib/speech-search";
 import type { PartyWords, MemberWord } from "@/lib/varia";
+
+// Smooth-scroll a drill-down panel into view. Deferred one frame so it runs AFTER the browser has
+// laid out the freshly-loaded (taller) panel -- scrolling in the same tick snaps to a stale target
+// position, which reads as a jump. Honors prefers-reduced-motion (instant, no animation).
+function scrollPanelIntoView(el: HTMLElement | null): number | undefined {
+  if (!el) return undefined;
+  return requestAnimationFrame(() => {
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    el.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+  });
+}
 
 // Mirror of signature.py MANUAL_EXCLUDE -- the hand-curated tokens dropped from the TF-IDF output
 // (fillers, plenary procedure, address forms, name fragments). Shown for transparency. Keep in
@@ -87,19 +98,24 @@ export function SignatureWords({ parties, memberWords }: { parties: PartyWords[]
   const [hits, setHits] = useState<SpeechHit[] | null>(null);
   const [showExcluded, setShowExcluded] = useState(false);
   // Scroll the drill-down into view so the reader isn't left hunting below the grid. Wait for the
-  // hits to load (hits !== null) before scrolling -- scrolling the still-loading (short) panel
-  // would leave the results below the fold once they render. block:"start" + scroll-mt lands the
-  // panel header just below the sticky nav with the results visible under it.
+  // hits to load (hits !== null) -- scrolling the still-loading (short) panel would leave the
+  // results below the fold once they render. scroll-mt-20 lands the header below the sticky nav.
   const detailRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    if (sel && hits !== null) detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (!sel || hits === null) return;
+    const id = scrollPanelIntoView(detailRef.current);
+    return () => {
+      if (id !== undefined) cancelAnimationFrame(id);
+    };
   }, [sel, hits]);
 
   const order = (p: PartyWords) => {
     const i = PARTY_ORDER.indexOf(p.partyShortName as never);
     return i === -1 ? 99 : i;
   };
-  const sorted = [...parties].sort((a, b) => order(a) - order(b));
+  // ERK (single-member party) is too small for a meaningful signature -- drop it and any other
+  // non-fraktsioon scope from the party cards.
+  const sorted = [...parties].filter((p) => isKnownParty(p.partyShortName)).sort((a, b) => order(a) - order(b));
 
   async function pick(party: string, lemma: string) {
     if (sel?.party === party && sel?.lemma === lemma) {
@@ -207,19 +223,28 @@ const MEMBER_WORDS_PREVIEW = 24;
 function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
   const t = useTranslations("varia");
   const [all, setAll] = useState(false);
+  const [pfilter, setPfilter] = useState<PartyShort | null>(null);
   const [sel, setSel] = useState<{ r: MemberWord; lemma: string } | null>(null);
   const [hits, setHits] = useState<SpeechHit[] | null>(null);
   // The member grid is long once expanded, so the drill-down that renders below it can land
   // off-screen. Scroll it into view once the hits have loaded (not while the panel is still the
-  // short loading state -- that leaves the results below the fold). block:"start" + scroll-mt
-  // lands the header just below the sticky nav with the results visible under it.
+  // short loading state -- that leaves the results below the fold). scroll-mt-20 lands the header
+  // just below the sticky nav with the results visible under it.
   const detailRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    if (sel && hits !== null) detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (!sel || hits === null) return;
+    const id = scrollPanelIntoView(detailRef.current);
+    return () => {
+      if (id !== undefined) cancelAnimationFrame(id);
+    };
   }, [sel, hits]);
 
   if (rows.length === 0) return null;
-  const shown = all ? rows : rows.slice(0, MEMBER_WORDS_PREVIEW);
+  // Party filter pills: fraktsioons present in the data are clickable; the rest show "-" (disabled).
+  // ERK (single member) isn't in PARTY_ORDER, so it never gets a pill.
+  const present = new Set(rows.map((r) => r.party).filter(Boolean));
+  const filteredRows = pfilter ? rows.filter((r) => r.party === pfilter) : rows;
+  const shown = all ? filteredRows : filteredRows.slice(0, MEMBER_WORDS_PREVIEW);
   const isSel = (r: MemberWord, lemma: string) => sel?.r.memberId === r.memberId && sel.lemma === lemma;
 
   async function pick(r: MemberWord, lemma: string) {
@@ -240,6 +265,36 @@ function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
     <section id="saadikud" className="mt-10 scroll-mt-20">
       <h2 className="font-serif text-xl font-bold tracking-tight">{t("memberWordsH")}</h2>
       <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("memberWordsSub")}</p>
+      <div className="mt-3 flex flex-wrap items-center gap-2">
+        {PARTY_ORDER.map((p) => {
+          const has = present.has(p);
+          const active = pfilter === p;
+          return (
+            <button
+              key={p}
+              type="button"
+              disabled={!has}
+              aria-pressed={active}
+              onClick={() => setPfilter((f) => (f === p ? null : p))}
+              className={`flex items-center gap-1.5 rounded-md border px-2.5 py-1 transition-colors disabled:cursor-default disabled:opacity-50 ${
+                active ? "border-foreground bg-secondary" : "border-border hover:bg-secondary"
+              }`}
+            >
+              <PartyBadge shortName={p} />
+              {!has && <span className="text-xs text-muted-foreground">-</span>}
+            </button>
+          );
+        })}
+        {pfilter && (
+          <button
+            type="button"
+            onClick={() => setPfilter(null)}
+            className="text-xs font-medium text-ring hover:underline"
+          >
+            {t("childrenClearFilter")}
+          </button>
+        )}
+      </div>
       <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-4 sm:grid-cols-3 lg:grid-cols-4">
         {shown.map((r) => {
           const [first, ...rest] = r.words;
@@ -278,13 +333,13 @@ function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
           );
         })}
       </ul>
-      {rows.length > MEMBER_WORDS_PREVIEW && (
+      {filteredRows.length > MEMBER_WORDS_PREVIEW && (
         <button
           type="button"
           onClick={() => setAll((v) => !v)}
           className="mt-3 text-sm font-medium text-muted-foreground hover:text-foreground"
         >
-          {all ? t("showLess") : t("showAllN", { n: rows.length })}
+          {all ? t("showLess") : t("showAllN", { n: filteredRows.length })}
         </button>
       )}
 

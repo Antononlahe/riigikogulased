@@ -185,8 +185,8 @@ async function mostChildren(): Promise<PersonHighlight | null> {
   try {
     const rows = await getChildren(); // sorted children DESC
     const r = rows[0];
-    if (!r || r.children <= 0) return null;
-    const { tied, tiedPeople } = tie(rows, r, (x) => x.children);
+    if (!r || r.children == null || r.children <= 0) return null;
+    const { tied, tiedPeople } = tie(rows, r, (x) => x.children ?? 0);
     return {
       name: r.fullName,
       party: r.partyShortName,
@@ -506,7 +506,7 @@ async function variaRail(t: T): Promise<HubRail> {
   // Most children -- often a genuine tie at the top.
   const ch = await getChildren();
   const c0 = ch[0];
-  if (c0 && c0.children > 0) {
+  if (c0 && c0.children != null && c0.children > 0) {
     const peers = ch.filter((x) => x.children === c0.children);
     const value = t("childrenValue", { n: c0.children });
     if (peers.length >= 3) cards.push({ kind: "tieN", eyebrow: t("rail.children"), value, sample: peers.slice(0, 3).map(personOf), more: peers.length - 3, href: HREF.children });
