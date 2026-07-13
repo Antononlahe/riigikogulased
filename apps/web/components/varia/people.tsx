@@ -38,28 +38,55 @@ function partyCounts(members: PeopleMember[]): { party: PartyShort; count: numbe
     .sort((a, b) => b.count - a.count);
 }
 
-/** Party breakdown of a group: a badge + count per fraktsioon present. */
-function PartyTally({ members }: { members: PeopleMember[] }) {
+/** Party breakdown of a group: a badge + count per fraktsioon present. When `onToggle` is given
+ *  the badges become filter buttons (active one highlighted); otherwise they're static. */
+function PartyTally({
+  members,
+  active,
+  onToggle,
+}: {
+  members: PeopleMember[];
+  active?: PartyShort | null;
+  onToggle?: (p: PartyShort) => void;
+}) {
   const counts = partyCounts(members);
   if (counts.length === 0) return null;
   return (
     <div className="flex flex-wrap gap-x-3 gap-y-1">
-      {counts.map(({ party, count }) => (
-        <span key={party} className="flex items-center gap-1 text-xs">
-          <PartyBadge shortName={party} />
-          <span className="tabular-nums text-muted-foreground">{count}</span>
-        </span>
-      ))}
+      {counts.map(({ party, count }) =>
+        onToggle ? (
+          <button
+            key={party}
+            type="button"
+            aria-pressed={active === party}
+            onClick={() => onToggle(party)}
+            className={`flex items-center gap-1 rounded-sm px-1 text-xs transition-colors hover:bg-secondary ${
+              active === party ? "bg-secondary ring-1 ring-foreground" : ""
+            }`}
+          >
+            <PartyBadge shortName={party} />
+            <span className="tabular-nums text-muted-foreground">{count}</span>
+          </button>
+        ) : (
+          <span key={party} className="flex items-center gap-1 text-xs">
+            <PartyBadge shortName={party} />
+            <span className="tabular-nums text-muted-foreground">{count}</span>
+          </span>
+        ),
+      )}
     </div>
   );
 }
 
 /** Click `trigger` to pop up the party breakdown + members (name -> profile, with party badge).
- *  Radix handles open/close, escape, outside-click and positioning -- no extra dep. */
+ *  The breakdown badges filter the member list below; the filter resets when the popup closes
+ *  (no need to persist across re-opens). Radix handles open/close, escape, outside-click. */
 function PeoplePopup({ trigger, members }: { trigger: React.ReactNode; members: PeopleMember[] }) {
   const t = useTranslations("varia");
+  const [filter, setFilter] = useState<PartyShort | null>(null);
+  const shown = filter ? members.filter((m) => m.party === filter) : members;
   return (
-    <DropdownMenu>
+    <DropdownMenu onOpenChange={(open) => !open && setFilter(null)}>
       <DropdownMenuTrigger asChild>
         <button type="button" className="cursor-pointer rounded-sm hover:underline focus-visible:outline-none">
           {trigger}
@@ -70,10 +97,14 @@ function PeoplePopup({ trigger, members }: { trigger: React.ReactNode; members: 
           <div className="mb-1 text-[10px] font-bold uppercase tracking-wide text-muted-foreground">
             {t("byParty")}
           </div>
-          <PartyTally members={members} />
+          <PartyTally
+            members={members}
+            active={filter}
+            onToggle={(p) => setFilter((f) => (f === p ? null : p))}
+          />
         </div>
         <div className="my-1 h-px bg-border" />
-        {members.map((m) => (
+        {shown.map((m) => (
           <DropdownMenuItem key={m.slug} asChild>
             <Link href={`/saadik/${m.slug}`} className="flex items-center gap-1.5">
               <span className="truncate">{m.fullName}</span>
