@@ -252,6 +252,10 @@ runtime URL (`photo_url`).
 
 ## Things to be careful about
 
+- **MUST verify columns exist before writing a query.** Check the migration/schema for every
+  column you reference — do not assume from a related table. A query against a missing column
+  throws, and a catch-all around the fetch can blank a whole page silently.
+
 - The API gives ISO dates/datetimes (`startDateTime` etc.); pydantic parses them at the
   model boundary. `votes.riigikogu_uuid` is the voting `uuid` from `/api/votings/{uuid}`.
 - The vote type comes from the voting's `description`/`type.code`, not a URL slug.
