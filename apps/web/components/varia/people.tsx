@@ -164,8 +164,9 @@ function StackedBar({ members, max }: { members: PeopleMember[]; max: number }) 
   );
 }
 
-/** Click a university to reveal the party breakdown + who studied there. */
-export function Universities({ rows }: { rows: PeopleRow[] }) {
+/** Click a university to reveal the party breakdown + who studied there. `noUni` (members with an
+ *  education listed but no higher-ed institution) is pinned as a final "Pole kõrgkoolis käinud" row. */
+export function Universities({ rows, noUni = [] }: { rows: PeopleRow[]; noUni?: PeopleMember[] }) {
   const t = useTranslations("varia");
   const groups = useMemo(() => groupPeople(rows), [rows]);
   const max = Math.max(1, ...groups.map((g) => g.members.length));
@@ -174,6 +175,8 @@ export function Universities({ rows }: { rows: PeopleRow[] }) {
   // never persists across the dropdown.
   const [filter, setFilter] = useState<PartyShort | null>(null);
   const list: Row[] = groups.map((g) => ({ key: g.category, label: g.category, members: g.members }));
+  // Pin the "no higher education" group last, regardless of size.
+  if (noUni.length > 0) list.push({ key: "__none__", label: t("noUniversity"), members: noUni });
   return (
     <Section id="ulikoolid" title={t("universitiesH")} sub={t("universitiesSub")}>
       <ul className="divide-y divide-border">

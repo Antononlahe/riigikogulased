@@ -2,7 +2,7 @@ import { unstable_cache } from "next/cache";
 import { pool } from "./db";
 import type {
   AbsenceRow, GenRow, PartyWords, MemberWord,
-  PeopleRow, ChildRow, BirthPin, CaucusMember,
+  PeopleRow, PeopleMember, ChildRow, BirthPin, CaucusMember,
 } from "./varia";
 
 /** Ghost-MP leaderboard: per member, the share of NON-procedural ballots they were absent for.
@@ -144,6 +144,22 @@ export const getUniversityMembers = unstable_cache(async (): Promise<PeopleRow[]
     ORDER BY category, "fullName"`);
   return rows as PeopleRow[];
 }, ["varia-university-members"], { revalidate: 86400 });
+
+/** Members whose profile names an education but NO higher-ed institution (gümnaasium / tehnikum /
+ *  kutsekool only) -> "pole kõrgkoolis käinud". Members with no education text at all are excluded
+ *  (unknown, not a claim of no higher ed). */
+export const getNoUniversityMembers = unstable_cache(async (): Promise<PeopleMember[]> => {
+  const { rows } = await pool.query(`
+    SELECT m.full_name AS "fullName", m.slug, mcp.party_short_name AS party, NULL::text AS detail
+    FROM members m
+    JOIN member_profiles mp ON mp.member_id = m.id
+    LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
+    WHERE m.active
+      AND mp.education_raw IS NOT NULL
+      AND NOT EXISTS (SELECT 1 FROM member_universities u WHERE u.member_id = m.id)
+    ORDER BY m.full_name`);
+  return rows as PeopleMember[];
+}, ["varia-no-university-members"], { revalidate: 86400 });
 
 export const getChildren = unstable_cache(async (): Promise<ChildRow[]> => {
   // All active members: those with a stated children count first (most first), then members whose

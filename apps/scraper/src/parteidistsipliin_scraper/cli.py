@@ -492,7 +492,7 @@ async def _fetch_profiles(cache: ProfileCache, uuids: list[str], refresh: bool) 
 
 
 def _write_profiles(conn, cache: ProfileCache, uuids: list[str]) -> int:
-    from parteidistsipliin_scraper.profile_tags import canonical_university, load_tag_map
+    from parteidistsipliin_scraper.profile_tags import higher_ed_institutions, load_tag_map
     from parteidistsipliin_scraper.towns import coords_for
 
     tag_map = load_tag_map()
@@ -515,7 +515,7 @@ def _write_profiles(conn, cache: ProfileCache, uuids: list[str]) -> int:
             conn, mid, p,
             profession_tag=prof_map.get(uuid),
             hobbies=[(h, hobby_map.get(h, "Muu")) for h in p.hobbies_raw],
-            universities=canonical_university(p.education_raw),
+            universities=higher_ed_institutions(p.education_raw),
             coords=coords,
         )
         n += 1

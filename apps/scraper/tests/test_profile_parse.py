@@ -84,7 +84,11 @@ def test_no_crash_on_missing_optional_fields(profiles):
 
 
 # --- tagging / lookup layer (uses the committed profile_tags.json + towns) ---
-from parteidistsipliin_scraper.profile_tags import canonical_university, load_tag_map  # noqa: E402
+from parteidistsipliin_scraper.profile_tags import (  # noqa: E402
+    canonical_university,
+    higher_ed_institutions,
+    load_tag_map,
+)
 from parteidistsipliin_scraper.towns import coords_for  # noqa: E402
 
 ALENDER = "90074aa2-4938-41a9-8275-3a6efa1cee31"
@@ -110,6 +114,29 @@ def test_canonical_university(profiles):
     assert "Eesti Kunstiakadeemia" in canonical_university(profiles["alender"].education_raw)
     assert "Tallinna Ülikool" in canonical_university(profiles["aab"].education_raw)
     assert "Tartu Ülikool" in canonical_university(profiles["akkermann"].education_raw)
+
+
+def test_higher_ed_institutions():
+    # the eight best-known unis are canonicalised (Soviet-era alias merged)
+    assert higher_ed_institutions("Tartu Riiklik Ülikool 1985, õigus") == ["Tartu Ülikool"]
+    # institutions outside the eight are KEPT (not dropped), stripped of year + field of study
+    assert higher_ed_institutions(
+        "Audentese Ülikool 2004, ärijuhtimine (vastab magistrikraadile)"
+    ) == ["Audentese Ülikool"]
+    # a parenthesised location survives (the comma inside it is not a cut point)
+    assert higher_ed_institutions(
+        "Rootsi Kaitseakadeemia (Försvarshögskolan, Stockholm) 1999–2001"
+    ) == ["Rootsi Kaitseakadeemia (Försvarshögskolan, Stockholm)"]
+    # a top-level comma (field of study before the year) IS a cut point
+    assert higher_ed_institutions("Jyväskylä Ülikool, filosoofiadoktor 2010") == ["Jyväskylä Ülikool"]
+    # a secondary school named "Kolledž" is not higher ed; the real uni in the string still counts
+    assert higher_ed_institutions(
+        "Tallinna Inglise Kolledž (endine 7. Keskkool) 1964; Tallinna Ülikool 1969"
+    ) == ["Tallinna Ülikool"]
+    # gümnaasium / tehnikum only -> no higher ed (feeds the "pole kõrgkoolis käinud" group)
+    assert higher_ed_institutions("Tartu 7. Keskkool 1989") == []
+    assert higher_ed_institutions("Tallinna Raudteetranspordi Tehnikum 1975, tehnik") == []
+    assert higher_ed_institutions(None) == []
 
 
 def test_coords_town_and_county_fallback():

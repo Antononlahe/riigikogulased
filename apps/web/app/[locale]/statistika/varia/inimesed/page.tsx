@@ -6,9 +6,9 @@ import { SectionNav } from "@/components/section-nav";
 import { Hobbies, Universities, Children } from "@/components/varia/people";
 import { BirthplaceMap } from "@/components/varia/birthplace-map";
 import {
-  getHobbyMembers, getUniversityMembers, getChildren, getBirthPins,
+  getHobbyMembers, getUniversityMembers, getNoUniversityMembers, getChildren, getBirthPins,
 } from "@/lib/varia-queries";
-import type { PeopleRow, ChildRow, BirthPin } from "@/lib/varia";
+import type { PeopleRow, PeopleMember, ChildRow, BirthPin } from "@/lib/varia";
 
 export const revalidate = 86400;
 
@@ -17,17 +17,18 @@ export default async function PeoplePage({ params }: { params: Promise<{ locale:
   setRequestLocale(locale);
   const t = await getTranslations("varia");
 
-  let hobbies: PeopleRow[] = [], unis: PeopleRow[] = [];
+  let hobbies: PeopleRow[] = [], unis: PeopleRow[] = [], noUni: PeopleMember[] = [];
   let children: ChildRow[] = [], pins: BirthPin[] = [];
   try {
-    [hobbies, unis, children, pins] = await Promise.all([
-      getHobbyMembers(), getUniversityMembers(), getChildren(), getBirthPins(),
+    [hobbies, unis, noUni, children, pins] = await Promise.all([
+      getHobbyMembers(), getUniversityMembers(), getNoUniversityMembers(), getChildren(), getBirthPins(),
     ]);
   } catch {
     /* empty state until member_profiles is populated */
   }
 
-  const empty = hobbies.length === 0 && unis.length === 0;
+  const hasUnis = unis.length > 0 || noUni.length > 0;
+  const empty = hobbies.length === 0 && !hasUnis;
 
   return (
     <>
@@ -45,7 +46,7 @@ export default async function PeoplePage({ params }: { params: Promise<{ locale:
                 ...(pins.length > 0 ? [{ href: "#sunnikohad", label: t("birthplaceH") }] : []),
                 ...(children.length > 0 ? [{ href: "#lapsed", label: t("childrenH") }] : []),
                 ...(hobbies.length > 0 ? [{ href: "#huvialad", label: t("hobbiesH") }] : []),
-                ...(unis.length > 0 ? [{ href: "#ulikoolid", label: t("universitiesH") }] : []),
+                ...(hasUnis ? [{ href: "#ulikoolid", label: t("universitiesH") }] : []),
               ]}
             />
             <div className="mt-8">
@@ -60,7 +61,7 @@ export default async function PeoplePage({ params }: { params: Promise<{ locale:
               )}
               {children.length > 0 && <Children rows={children} />}
               {hobbies.length > 0 && <Hobbies rows={hobbies} />}
-              {unis.length > 0 && <Universities rows={unis} />}
+              {hasUnis && <Universities rows={unis} noUni={noUni} />}
             </div>
           </>
         )}
