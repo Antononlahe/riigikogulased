@@ -183,11 +183,15 @@ export function Universities({ rows }: { rows: PeopleRow[] }) {
   );
 }
 
+const CHILDREN_PREVIEW = 8;
+
 export function Children({ rows }: { rows: ChildRow[] }) {
   const t = useTranslations("varia");
+  const [showAll, setShowAll] = useState(false);
+  const [info, setInfo] = useState(false);
   const total = rows.reduce((s, c) => s + c.children, 0);
   const avg = rows.length ? (total / rows.length).toFixed(1) : "0";
-  const top = rows.slice(0, 8);
+  const top = showAll ? rows : rows.slice(0, CHILDREN_PREVIEW);
 
   // Per-fraktsioon "average per family": sum / members-with-data, but only when a faction has
   // enough members to be meaningful (else "-"). Only the six fraktsioons; ERK is excluded.
@@ -208,6 +212,18 @@ export function Children({ rows }: { rows: ChildRow[] }) {
 
   return (
     <Section id="lapsed" title={t("childrenH")} sub={t("childrenSub")}>
+      <div className="mb-4 text-xs text-muted-foreground">
+        <button
+          type="button"
+          onClick={() => setInfo((v) => !v)}
+          aria-expanded={info}
+          className="inline-flex items-center gap-1 hover:text-foreground"
+        >
+          <span aria-hidden className="grid h-4 w-4 place-items-center rounded-full border border-current text-[10px]">i</span>
+          {t("childrenInfoLabel")}
+        </button>
+        {info && <p className="mt-2 max-w-2xl leading-relaxed">{t("childrenInfo")}</p>}
+      </div>
       <div className="mb-4 flex flex-wrap gap-3">
         <Stat label={t("childrenTotal")} value={total} />
         <Stat label={t("childrenAvg")} value={avg} />
@@ -246,6 +262,15 @@ export function Children({ rows }: { rows: ChildRow[] }) {
           </li>
         ))}
       </ul>
+      {rows.length > CHILDREN_PREVIEW && (
+        <button
+          type="button"
+          onClick={() => setShowAll((v) => !v)}
+          className="mt-3 text-sm font-medium text-muted-foreground hover:text-foreground"
+        >
+          {showAll ? t("showLess") : t("showAllN", { n: rows.length })}
+        </button>
+      )}
     </Section>
   );
 }

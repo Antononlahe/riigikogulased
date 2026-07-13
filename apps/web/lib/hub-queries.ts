@@ -18,7 +18,7 @@ export const HREF = {
   generations: "/statistika/varia/polvkonnad",
   // Deep anchors: the metric lives in one section of a longer page.
   children: "/statistika/varia/inimesed#lapsed",
-  words: "/statistika/varia/margusonad#saadikud",
+  words: "/statistika/varia/marksonad#saadikud",
   caucuses: "/statistika/varia/parlamendiryhmad#enim-ryhmi",
 } as const;
 

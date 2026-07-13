@@ -13,7 +13,7 @@ export default async function VariaHubPage({ params }: { params: Promise<{ local
   const tiles: VariaTile[] = [
     { href: "/statistika/varia/kohalolek", title: t("tileKohalolek"), desc: t("tileKohalolekDesc") },
     { href: "/statistika/varia/polvkonnad", title: t("tilePolvkonnad"), desc: t("tilePolvkonnadDesc") },
-    { href: "/statistika/varia/margusonad", title: t("tileMargusonad"), desc: t("tileMargusonadDesc") },
+    { href: "/statistika/varia/marksonad", title: t("tileMargusonad"), desc: t("tileMargusonadDesc") },
     { href: "/statistika/varia/inimesed", title: t("tileInimesed"), desc: t("tileInimesedDesc") },
     { href: "/statistika/varia/parlamendiryhmad", title: t("tileVorgustik"), desc: t("tileVorgustikDesc") },
     // Otsustavad hääled: demoted from the top nav back into Varia (niche, header was crowded).

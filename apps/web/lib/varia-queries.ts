@@ -82,20 +82,36 @@ async function _getPartySignatureWords(): Promise<PartyWords[]> {
   return [...byParty.values()];
 }
 
-/** Each active member's rank-1 signature word, most distinctive first. The board (speaker +
- *  deputies) is excluded: presiding speech is pure plenary procedure, so their "signature"
- *  word is always chair boilerplate no matter how long the manual exclude list grows. */
+/** Each active member's top-3 signature words (rank 1..3), members ordered by their rank-1
+ *  distinctiveness. The board (speaker + deputies) is excluded: presiding speech is pure plenary
+ *  procedure, so their "signature" word is always chair boilerplate no matter how long the manual
+ *  exclude list grows. */
 export const getMemberSignatureWords = unstable_cache(
   async (): Promise<MemberWord[]> => {
     const { rows } = await pool.query(`
       SELECT m.id AS "memberId", m.full_name AS "fullName", m.slug,
-             mcp.party_short_name AS party, st.lemma
+             mcp.party_short_name AS party, st.lemma, st.rank, st.score
       FROM signature_terms st
       JOIN members m ON m.id = st.scope_id
       LEFT JOIN member_current_party mcp ON mcp.member_id = m.id
-      WHERE st.scope_kind = 'member' AND st.rank = 1 AND m.active AND m.board_role IS NULL
-      ORDER BY st.score DESC, m.full_name`);
-    return rows as MemberWord[];
+      WHERE st.scope_kind = 'member' AND st.rank <= 3 AND m.active AND m.board_role IS NULL`);
+    // Group ranks 1..3 per member; order members by their rank-1 score (highest = most distinctive).
+    const byId = new Map<number, MemberWord & { score1: number }>();
+    for (const r of rows as {
+      memberId: number; fullName: string; slug: string; party: string | null;
+      lemma: string; rank: number; score: number;
+    }[]) {
+      let e = byId.get(r.memberId);
+      if (!e) {
+        e = { memberId: r.memberId, fullName: r.fullName, slug: r.slug, party: r.party, words: [], score1: 0 };
+        byId.set(r.memberId, e);
+      }
+      e.words.push({ lemma: r.lemma, rank: r.rank });
+      if (r.rank === 1) e.score1 = r.score;
+    }
+    return [...byId.values()]
+      .sort((a, b) => b.score1 - a.score1 || a.fullName.localeCompare(b.fullName, "et"))
+      .map(({ score1: _score1, ...m }) => ({ ...m, words: m.words.sort((x, y) => x.rank - y.rank) }));
   },
   ["varia-member-signatures"],
   { revalidate: 86400 },

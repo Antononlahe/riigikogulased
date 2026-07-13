@@ -34,6 +34,12 @@ def test_children_count_edge_phrasings():
     # Children as sons/daughters, no "last" token.
     assert _children_from("Abielus, kaks tütart") == 2
     assert _children_from("Abielus, kolm poega ja tütar") == 4
+    # Singular "üks laps" (nom sg) -- 2+ uses "last", but 1 child uses "laps".
+    assert _children_from("Vallaline, üks laps") == 1
+    assert _children_from("Abielus, üks laps") == 1
+    # Singular child + grandchildren: count the child, ignore "lapselast"/"lapselaps".
+    assert _children_from("Abielus, üks laps ja kaks lapselast") == 1
+    assert _children_from("Abielus, üks laps ja lapselaps") == 1
     # Grandchildren must not leak into the count.
     assert _children_from("Abielus, kaheksa last, kuus lapselast") == 8
     assert _children_from("Lesk, viis last, üheksa lapselast") == 5

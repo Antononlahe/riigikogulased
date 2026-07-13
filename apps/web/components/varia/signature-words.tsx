@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { PartyBadge } from "@/components/party-badge";
@@ -86,6 +86,11 @@ export function SignatureWords({ parties, memberWords }: { parties: PartyWords[]
   const [sel, setSel] = useState<Selected | null>(null);
   const [hits, setHits] = useState<SpeechHit[] | null>(null);
   const [showExcluded, setShowExcluded] = useState(false);
+  // Scroll the drill-down into view on pick so the reader isn't left hunting below the grid.
+  const detailRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (sel) detailRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }, [sel]);
 
   const order = (p: PartyWords) => {
     const i = PARTY_ORDER.indexOf(p.partyShortName as never);
@@ -151,7 +156,7 @@ export function SignatureWords({ parties, memberWords }: { parties: PartyWords[]
 
         {/* Drill-down: speeches by this party using the clicked word. */}
         {sel && (
-          <div className="mt-4 rounded-md border border-border bg-card p-4">
+          <div ref={detailRef} className="mt-4 scroll-mt-20 rounded-md border border-border bg-card p-4">
             <div className="mb-3 flex items-center gap-2">
               <PartyBadge shortName={sel.party} />
               <span className="font-serif text-lg font-bold">{sel.lemma}</span>
@@ -193,24 +198,32 @@ export function SignatureWords({ parties, memberWords }: { parties: PartyWords[]
 
 const MEMBER_WORDS_PREVIEW = 24;
 
-/** Per-member counterpart of the party cards: each member's single most distinctive word,
- *  most distinctive first. Click a word to see that member's speeches using it. */
+/** Per-member counterpart of the party cards: each member's top-3 most distinctive words (rank-1
+ *  large, ranks 2-3 smaller below), members ordered most distinctive first. Click any word to see
+ *  that member's speeches using it. */
 function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
   const t = useTranslations("varia");
   const [all, setAll] = useState(false);
-  const [sel, setSel] = useState<MemberWord | null>(null);
+  const [sel, setSel] = useState<{ r: MemberWord; lemma: string } | null>(null);
   const [hits, setHits] = useState<SpeechHit[] | null>(null);
+  // The member grid is long once expanded, so the drill-down that renders below it can land
+  // off-screen. Scroll it into view on pick instead of making the reader hunt for it.
+  const detailRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (sel) detailRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }, [sel]);
 
   if (rows.length === 0) return null;
   const shown = all ? rows : rows.slice(0, MEMBER_WORDS_PREVIEW);
+  const isSel = (r: MemberWord, lemma: string) => sel?.r.memberId === r.memberId && sel.lemma === lemma;
 
-  async function pick(r: MemberWord) {
-    if (sel?.memberId === r.memberId) {
+  async function pick(r: MemberWord, lemma: string) {
+    if (isSel(r, lemma)) {
       setSel(null); setHits(null); return;
     }
-    setSel(r); setHits(null);
+    setSel({ r, lemma }); setHits(null);
     try {
-      const res = await fetch(`/api/speeches?memberId=${r.memberId}&q=${encodeURIComponent(r.lemma)}&limit=12`);
+      const res = await fetch(`/api/speeches?memberId=${r.memberId}&q=${encodeURIComponent(lemma)}&limit=12`);
       const data = await res.json();
       setHits(data.hits ?? []);
     } catch {
@@ -222,23 +235,37 @@ function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
     <section id="saadikud" className="mt-10 scroll-mt-20">
       <h2 className="font-serif text-xl font-bold tracking-tight">{t("memberWordsH")}</h2>
       <p className="mt-1 max-w-2xl text-sm text-muted-foreground">{t("memberWordsSub")}</p>
-      <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-3 sm:grid-cols-3 lg:grid-cols-4">
+      <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-4 sm:grid-cols-3 lg:grid-cols-4">
         {shown.map((r) => {
-          const active = sel?.memberId === r.memberId;
+          const [first, ...rest] = r.words;
           return (
-            <li key={r.memberId}>
-              <button
-                type="button"
-                onClick={() => pick(r)}
-                title={t("wordHint")}
-                className="text-left"
-                style={{ color: partyToken(r.party).ink }}
-              >
-                <span className={`block font-serif text-lg font-bold leading-tight hover:underline ${active ? "underline" : ""}`}>
-                  {r.lemma}
-                </span>
-              </button>
-              <span className="mt-0.5 flex items-center gap-1.5 text-xs text-muted-foreground">
+            <li key={r.memberId} style={{ color: partyToken(r.party).ink }}>
+              {first && (
+                <button
+                  type="button"
+                  onClick={() => pick(r, first.lemma)}
+                  title={t("wordHint")}
+                  className={`block text-left font-serif text-lg font-bold leading-tight hover:underline ${isSel(r, first.lemma) ? "underline" : ""}`}
+                >
+                  {first.lemma}
+                </button>
+              )}
+              {rest.length > 0 && (
+                <div className="mt-0.5 flex flex-wrap gap-x-2 gap-y-0.5">
+                  {rest.map((w) => (
+                    <button
+                      key={w.lemma}
+                      type="button"
+                      onClick={() => pick(r, w.lemma)}
+                      title={t("wordHint")}
+                      className={`text-left text-sm leading-tight opacity-80 hover:underline ${isSel(r, w.lemma) ? "underline opacity-100" : ""}`}
+                    >
+                      {w.lemma}
+                    </button>
+                  ))}
+                </div>
+              )}
+              <span className="mt-1 flex items-center gap-1.5 text-xs text-muted-foreground">
                 <Link href={`/saadik/${r.slug}`} className="truncate hover:underline">{r.fullName}</Link>
                 {r.party && <PartyBadge shortName={r.party} />}
               </span>
@@ -257,10 +284,10 @@ function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
       )}
 
       {sel && (
-        <div className="mt-4 rounded-md border border-border bg-card p-4">
+        <div ref={detailRef} className="mt-4 scroll-mt-20 rounded-md border border-border bg-card p-4">
           <div className="mb-3 flex items-center gap-2">
-            <span className="font-semibold">{sel.fullName}</span>
-            {sel.party && <PartyBadge shortName={sel.party} />}
+            <span className="font-semibold">{sel.r.fullName}</span>
+            {sel.r.party && <PartyBadge shortName={sel.r.party} />}
             <span className="font-serif text-lg font-bold">{sel.lemma}</span>
             <Link
               href={`/statistika/sonavotud?q=${encodeURIComponent(sel.lemma)}`}

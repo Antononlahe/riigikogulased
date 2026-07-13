@@ -37,9 +37,10 @@ _NUM_TOKEN = re.compile(
     r"\b(üksteist|kaksteist|üks|kaks|kolm|neli|viis|kuus|seitse|kaheksa|üheksa|kümme|\d+)\b",
     re.IGNORECASE,
 )
-# Standalone "last" (child), NOT "lapselast" (grandchild): the \b before 'last' can't fire inside
-# the single token "lapselast" (preceding char 'e' is a word char).
-_CHILD = re.compile(r"\blast\b", re.IGNORECASE)
+# Standalone child word: "laps" (nom sg, after "üks": "üks laps") or "last" (part sg, after 2+:
+# "kaks last"). NOT "lapselaps"/"lapselast" (grandchild) -- the \b can't fire inside those single
+# tokens (the char before the inner "laps"/"last" is a word char), so grandchildren are ignored.
+_CHILD = re.compile(r"\b(?:laps|last)\b", re.IGNORECASE)
 # Fallback when children aren't phrased as "N last": count sons + daughters ("kaks tütart",
 # "kolm poega ja tütar"). Stems cover the inflections (poeg/poega/pojad, tütar/tütart/tütred).
 _KID_KIND = re.compile(

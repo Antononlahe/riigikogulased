@@ -17,6 +17,7 @@ const nextConfig: NextConfig = {
       // [^.]+ so member photos (/members/<uuid>.webp, static files) are NOT redirected.
       ["/members/:slug([^.]+)", "/saadik/:slug"],
       ["/statistika", "/statistika/sonavotud"],
+      ["/statistika/varia/margusonad", "/statistika/varia/marksonad"],
     ] as const;
     return renames.flatMap(([source, destination]) => [
       { source, destination, permanent: true },
