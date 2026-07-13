@@ -182,6 +182,7 @@ export function Universities({ rows, noUni = [] }: { rows: PeopleRow[]; noUni?: 
   // never persists across the dropdown.
   const [filter, setFilter] = useState<PartyShort | null>(null);
   const [showAll, setShowAll] = useState(false);
+  const [info, setInfo] = useState(false);
   const listRef = useRef<HTMLUListElement>(null);
 
   // The "no higher ed" pseudo-group is sorted in by size alongside the real institutions.
@@ -195,6 +196,18 @@ export function Universities({ rows, noUni = [] }: { rows: PeopleRow[]; noUni?: 
 
   return (
     <Section id="ulikoolid" title={t("universitiesH")} sub={t("universitiesSub")}>
+      <div className="mb-3 text-xs text-muted-foreground">
+        <button
+          type="button"
+          onClick={() => setInfo((v) => !v)}
+          aria-expanded={info}
+          className="inline-flex items-center gap-1 hover:text-foreground"
+        >
+          <span aria-hidden className="grid h-4 w-4 place-items-center rounded-full border border-current text-[10px]">i</span>
+          {t("universitiesInfoLabel")}
+        </button>
+        {info && <p className="mt-2 max-w-2xl leading-relaxed">{t("universitiesInfo")}</p>}
+      </div>
       <ul ref={listRef} className="scroll-mt-20 divide-y divide-border">
         {shown.map((r) => {
           const isOpen = open === r.key;
