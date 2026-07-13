@@ -170,17 +170,24 @@ export function Universities({ rows }: { rows: PeopleRow[] }) {
   const groups = useMemo(() => groupPeople(rows), [rows]);
   const max = Math.max(1, ...groups.map((g) => g.members.length));
   const [open, setOpen] = useState<string | null>(null);
+  // One row open at a time, so a single filter suffices; reset it on every open/close toggle so it
+  // never persists across the dropdown.
+  const [filter, setFilter] = useState<PartyShort | null>(null);
   const list: Row[] = groups.map((g) => ({ key: g.category, label: g.category, members: g.members }));
   return (
     <Section id="ulikoolid" title={t("universitiesH")} sub={t("universitiesSub")}>
       <ul className="divide-y divide-border">
         {list.map((r) => {
           const isOpen = open === r.key;
+          const shownMembers = filter ? r.members.filter((m) => m.party === filter) : r.members;
           return (
             <li key={r.key}>
               <button
                 type="button"
-                onClick={() => setOpen(isOpen ? null : r.key)}
+                onClick={() => {
+                  setOpen(isOpen ? null : r.key);
+                  setFilter(null);
+                }}
                 className="flex w-full items-center gap-3 py-2 text-left"
                 aria-expanded={isOpen}
               >
@@ -195,10 +202,14 @@ export function Universities({ rows }: { rows: PeopleRow[] }) {
                     <span className="text-[10px] font-bold uppercase tracking-wide text-muted-foreground">
                       {t("byParty")}
                     </span>
-                    <PartyTally members={r.members} />
+                    <PartyTally
+                      members={r.members}
+                      active={filter}
+                      onToggle={(p) => setFilter((f) => (f === p ? null : p))}
+                    />
                   </div>
                   <ul className="flex flex-wrap gap-x-4 gap-y-1.5">
-                    {r.members.map((m) => (
+                    {shownMembers.map((m) => (
                       <li key={m.slug} className="flex items-center gap-1.5 text-sm">
                         <Link href={`/saadik/${m.slug}`} className="hover:underline">{m.fullName}</Link>
                         {m.party && <PartyBadge shortName={m.party} />}
