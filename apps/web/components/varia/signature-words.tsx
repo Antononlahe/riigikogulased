@@ -86,11 +86,14 @@ export function SignatureWords({ parties, memberWords }: { parties: PartyWords[]
   const [sel, setSel] = useState<Selected | null>(null);
   const [hits, setHits] = useState<SpeechHit[] | null>(null);
   const [showExcluded, setShowExcluded] = useState(false);
-  // Scroll the drill-down into view on pick so the reader isn't left hunting below the grid.
+  // Scroll the drill-down into view so the reader isn't left hunting below the grid. Wait for the
+  // hits to load (hits !== null) before scrolling -- scrolling the still-loading (short) panel
+  // would leave the results below the fold once they render. block:"start" + scroll-mt lands the
+  // panel header just below the sticky nav with the results visible under it.
   const detailRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    if (sel) detailRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-  }, [sel]);
+    if (sel && hits !== null) detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [sel, hits]);
 
   const order = (p: PartyWords) => {
     const i = PARTY_ORDER.indexOf(p.partyShortName as never);
@@ -207,11 +210,13 @@ function MemberSignatureWords({ rows }: { rows: MemberWord[] }) {
   const [sel, setSel] = useState<{ r: MemberWord; lemma: string } | null>(null);
   const [hits, setHits] = useState<SpeechHit[] | null>(null);
   // The member grid is long once expanded, so the drill-down that renders below it can land
-  // off-screen. Scroll it into view on pick instead of making the reader hunt for it.
+  // off-screen. Scroll it into view once the hits have loaded (not while the panel is still the
+  // short loading state -- that leaves the results below the fold). block:"start" + scroll-mt
+  // lands the header just below the sticky nav with the results visible under it.
   const detailRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
-    if (sel) detailRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
-  }, [sel]);
+    if (sel && hits !== null) detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [sel, hits]);
 
   if (rows.length === 0) return null;
   const shown = all ? rows : rows.slice(0, MEMBER_WORDS_PREVIEW);

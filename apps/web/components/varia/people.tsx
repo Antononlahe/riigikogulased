@@ -189,12 +189,17 @@ export function Children({ rows }: { rows: ChildRow[] }) {
   const t = useTranslations("varia");
   const [showAll, setShowAll] = useState(false);
   const [info, setInfo] = useState(false);
+  const [filter, setFilter] = useState<PartyShort | null>(null);
   const total = rows.reduce((s, c) => s + c.children, 0);
   const avg = rows.length ? (total / rows.length).toFixed(1) : "0";
-  const top = showAll ? rows : rows.slice(0, CHILDREN_PREVIEW);
+
+  // Clicking a fraktsioon box filters the list to its members; clicking it again clears.
+  const filtered = filter ? rows.filter((c) => c.partyShortName === filter) : rows;
+  const top = showAll ? filtered : filtered.slice(0, CHILDREN_PREVIEW);
 
   // Per-fraktsioon "average per family": sum / members-with-data, but only when a faction has
-  // enough members to be meaningful (else "-"). Only the six fraktsioons; ERK is excluded.
+  // enough members to be meaningful (else "-"). `n` (member count) gates whether the box filters.
+  // Only the six fraktsioons; ERK is excluded.
   const byParty = useMemo(() => {
     const acc = new Map<PartyShort, { sum: number; n: number }>();
     for (const c of rows) {
@@ -206,7 +211,7 @@ export function Children({ rows }: { rows: ChildRow[] }) {
     }
     return PARTY_ORDER.map((p) => {
       const e = acc.get(p);
-      return { party: p, value: e && e.n >= MIN_PARTY ? (e.sum / e.n).toFixed(1) : "-" };
+      return { party: p, n: e?.n ?? 0, value: e && e.n >= MIN_PARTY ? (e.sum / e.n).toFixed(1) : "-" };
     });
   }, [rows]);
 
@@ -234,16 +239,40 @@ export function Children({ rows }: { rows: ChildRow[] }) {
           {t("childrenByParty")}
         </p>
         <div className="flex flex-wrap gap-2">
-          {byParty.map(({ party, value }) => (
-            <div key={party} className="flex items-center gap-2 rounded-md border border-border px-3 py-1.5">
-              <PartyBadge shortName={party} />
-              <span className="text-sm font-bold tabular-nums">{value}</span>
-            </div>
-          ))}
+          {byParty.map(({ party, value, n }) => {
+            const active = filter === party;
+            return (
+              <button
+                key={party}
+                type="button"
+                disabled={n === 0}
+                aria-pressed={active}
+                onClick={() => setFilter((f) => (f === party ? null : party))}
+                className={`flex items-center gap-2 rounded-md border px-3 py-1.5 transition-colors disabled:cursor-default disabled:opacity-50 ${
+                  active ? "border-foreground bg-secondary" : "border-border hover:bg-secondary"
+                }`}
+                title={n === 0 ? undefined : t("childrenFilterHint")}
+              >
+                <PartyBadge shortName={party} />
+                <span className="text-sm font-bold tabular-nums">{value}</span>
+              </button>
+            );
+          })}
         </div>
       </div>
 
-      <p className="mb-2 text-sm font-semibold">{t("childrenTop")}</p>
+      <div className="mb-2 flex items-center gap-2">
+        <p className="text-sm font-semibold">{t("childrenTop")}</p>
+        {filter && (
+          <button
+            type="button"
+            onClick={() => setFilter(null)}
+            className="text-xs font-medium text-ring hover:underline"
+          >
+            {t("childrenClearFilter")}
+          </button>
+        )}
+      </div>
       <ul className="space-y-1.5">
         {top.map((c) => (
           <li key={c.slug} className="flex items-center gap-3">
@@ -262,13 +291,13 @@ export function Children({ rows }: { rows: ChildRow[] }) {
           </li>
         ))}
       </ul>
-      {rows.length > CHILDREN_PREVIEW && (
+      {filtered.length > CHILDREN_PREVIEW && (
         <button
           type="button"
           onClick={() => setShowAll((v) => !v)}
           className="mt-3 text-sm font-medium text-muted-foreground hover:text-foreground"
         >
-          {showAll ? t("showLess") : t("showAllN", { n: rows.length })}
+          {showAll ? t("showLess") : t("showAllN", { n: filtered.length })}
         </button>
       )}
     </Section>
